@@ -1,6 +1,24 @@
 import { Injectable } from '@angular/core';
 import { DynamicScriptLoaderService } from './dynamic-script-loader-service.service';
 
+declare const window: any;
+
+class Unit {
+    id: number;
+    name: string;
+    baseHp: number;
+    baseAtk: number;
+    baseRcv: number;
+    baseDef: number;
+    baseSpd: number;
+    rumbleType: string;
+    type: string;
+    festAbility: string;
+    festSpecial: string;
+    festAttackPattern: string;
+    festAttackTarget: string;
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -14,9 +32,7 @@ export class DataService {
       if(!window.details[i+1] || !window.details[i+1].festAbility || window.units[i].incomplete || window.units[i][0].includes('[Dual Unit] ')){
           continue;
       }
-      let unit = {};
-      console.log(i);
-
+      var unit: Unit = new Unit();
       unit.id = i+1;
       unit.name = window.units[i][0];
       unit.baseHp = window.units[i][12];
