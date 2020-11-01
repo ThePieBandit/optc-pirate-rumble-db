@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data.service';
+import { DataService, Unit } from '../data.service';
+import { FiltersComponent } from '../filters/filters.component';
+import { OptionBarComponent } from '../option-bar/option-bar.component';
 
 @Component({
   selector: 'app-table',
@@ -8,12 +10,17 @@ import { DataService } from '../data.service';
 })
 export class TableComponent implements OnInit {
 
-  units;
+  units: Array<Unit>;
 
-  constructor(public dataService: DataService) { }
+  constructor(public dataService: DataService, public filters: FiltersComponent, public options: OptionBarComponent) { }
 
   ngOnInit(): void {
     this.units = this.dataService.getPFDetails();
   }
+
+  public getUnits():Array<Unit> {
+    return this.options.isComputedStats() ?  this.units : this.units.filter(unit => unit.id < 20);
+  }
+
 
 }

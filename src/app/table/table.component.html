@@ -5,6 +5,7 @@
         <th>ID</th>
         <th>Name</th>
         <th>Type</th>
+        <th>R. Type</th>
         <th>Targets </th>
         <th class>HP</th>
         <th>ATK </th>
@@ -19,15 +20,16 @@
       <tr *ngFor="let unit of units">
         <td> <a href="http://optc-db.github.io/characters/#/view/{{unit.id}}">{{unit.id}}</a></td>
         <td> {{unit.name}}</td>
-        <td> {{ unit.type }} / {{ unit.rumbleType}}</td>
+        <td [innerHTML]="unit.getType()"></td>
+        <td [innerHTML]="unit.getRumbleType()"></td>
         <td> {{ unit.festAttackTarget }}</td>
         <td> {{ unit.baseHp }}</td>
         <td> {{ unit.baseAtk }}</td>
         <td> {{ unit.baseRcv }}</td>
         <td> {{ unit.baseDef }}</td>
         <td> {{ unit.baseSpd }}</td>
-        <td> {{unit.festSpecial[9].description}}</td>
-        <td> {{unit.festAbility[4].description}}</td>
+        <td [innerHTML]="unit.getFestSpecial()"></td>
+        <td [innerHTML]="unit.getFestAbility()"></td>
       </tr>
     </tbody>
   </table><!--

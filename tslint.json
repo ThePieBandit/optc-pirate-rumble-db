@@ -7,7 +7,10 @@
     "align": {
       "options": [
         "parameters",
-        "statements"
+        "statements",
+        "arguments",
+        "members",
+        "elements"
       ]
     },
     "array-type": false,
@@ -24,7 +27,8 @@
     "import-spacing": true,
     "indent": {
       "options": [
-        "spaces"
+        "spaces",
+        2
       ]
     },
     "max-classes-per-file": false,
@@ -43,6 +47,7 @@
         ]
       }
     ],
+    "no-consecutive-blank-lines": true,
     "no-console": [
       true,
       "debug",
