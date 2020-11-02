@@ -1,5 +1,5 @@
 <div class="container-fluid">
-  <form class="form-inline" #optionBarForm="ngForm">
+  <form class="form-inline" #optionBarForm="ngForm" (ngSubmit)="onSubmit(optionBarForm)">
     <span class="my-2 mx-1">Stat Type:</span>
     <div class="form-check-inline">
       <input class="form-check-input" [(ngModel)]="statType" type="radio" name="statType" id="statTypeRaw" value="RAW" checked>
@@ -9,14 +9,13 @@
       <input class="form-check-input" [(ngModel)]="statType" type="radio" name="statType" id="statTypeComputed" value="COMPUTED">
       <label class="form-check-label" for="statTypeComputed">Computed</label>
     </div>
-    {{statType}}
     <label class="form-control-inline my-2 mx-1" for="statBaseValue"> Stat Value: </label>
-    <select class="form-control-inline" id="statBaseValue">
-      <option>Max Level</option>
-      <option>Max Level + 300 CC</option>
-      <option>Max Level, 300 CC, & LB Rainbowed</option>
-      <option>Max Level, 300 CC, & LB+ Rainbowed</option>
-      <option>Character Log (Custom Values)</option>
+    <select class="form-control-inline" id="statBaseValue" [(ngModel)]="statBaseValue" name="statBaseValue" (change)="onSubmit(optionBarForm)">
+      <option value="LEVEL">Max Level</option>
+      <option value="CC">Max Level + 300 CC</option>
+      <option value="LB">Max Level, 300 CC, & LB Rainbowed</option>
+      <option value="LBPLUS">Max Level, 300 CC, & LB+ Rainbowed</option>
+      <option value="CL">Character Log (Custom Values)</option>
     </select>
   </form>
 </div>

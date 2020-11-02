@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 declare const window: any;
 
@@ -44,6 +45,7 @@ export class Unit {
 export class DataService {
 
   units = [];
+  statBaseSubject: BehaviorSubject<string> = new BehaviorSubject<string>('LEVEL');
 
   constructor() {
 

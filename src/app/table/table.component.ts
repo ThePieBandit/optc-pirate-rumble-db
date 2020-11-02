@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService, Unit } from '../data.service';
-import { FiltersComponent } from '../filters/filters.component';
-import { OptionBarComponent } from '../option-bar/option-bar.component';
+import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-table',
@@ -12,15 +11,21 @@ export class TableComponent implements OnInit {
 
   units: Array<Unit>;
 
-  constructor(public dataService: DataService, public filters: FiltersComponent, public options: OptionBarComponent) { }
+  computedStats: boolean;
+
+  constructor(public dataService: DataService) {
+
+  }
 
   ngOnInit(): void {
-    this.units = this.dataService.getPFDetails();
-  }
+    this.dataService.statBaseSubject.subscribe( value => {
+      this.computedStats = 'LB' === value;
+      console.log(value);
+      this.refreshUnits();
+    });  }
 
-  public getUnits():Array<Unit> {
-    return this.options.isComputedStats() ?  this.units : this.units.filter(unit => unit.id < 20);
+  private refreshUnits(): void {
+    this.units = !this.computedStats ?  this.dataService.getPFDetails() : this.dataService.getPFDetails().filter(unit => unit.id < 20);
   }
-
 
 }
