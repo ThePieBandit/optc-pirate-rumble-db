@@ -22,7 +22,15 @@ export class TableComponent implements OnInit {
       this.computedStats = 'LB' === value;
       console.log(value);
       this.refreshUnits();
-    });  }
+    });
+    this.dataService.statTypeSubject.subscribe( value => {
+      this.computedStats = 'COMPUTED' === value;
+      this.refreshUnits();
+    });
+    this.dataService.filterChainSubject.subscribe( value => {
+      this.refreshUnits();
+    });
+  }
 
   private refreshUnits(): void {
     this.units = !this.computedStats ?  this.dataService.getPFDetails() : this.dataService.getPFDetails().filter(unit => unit.id < 20);

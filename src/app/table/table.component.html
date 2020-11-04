@@ -26,7 +26,7 @@
         <td> {{ unit.baseHp }}</td>
         <td> {{ unit.baseAtk }}</td>
         <td> {{ unit.baseRcv }}</td>
-        <td> {{ unit.baseDef }}</td>
+        <td> {{ unit.getBaseDef() }}</td>
         <td> {{ unit.baseSpd }}</td>
         <td [innerHTML]="unit.getFestSpecial()"></td>
         <td [innerHTML]="unit.getFestAbility()"></td>

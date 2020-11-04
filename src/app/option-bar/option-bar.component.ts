@@ -17,13 +17,8 @@ export class OptionBarComponent implements OnInit {
   }
 
   onSubmit(formId: any): void{
-    console.log(formId);
-    console.log(formId.form.controls.statBaseValue.value);
-    console.log(this.dataService.statBaseSubject.value);
     this.dataService.statBaseSubject.next(formId.form.controls.statBaseValue.value);
-    console.log(this.dataService.statBaseSubject.value);
-    console.log(this.statBaseValue);
-
+    this.dataService.statTypeSubject.next(formId.form.controls.statType.value);
   }
 
 }

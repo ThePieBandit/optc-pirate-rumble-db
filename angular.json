@@ -33,6 +33,7 @@
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "src/assets/data/units.js",
               "src/assets/data/details.js",
+              "src/assets/data/evolutions.js",
               "src/assets/data/festival.js"
             ]
           },
