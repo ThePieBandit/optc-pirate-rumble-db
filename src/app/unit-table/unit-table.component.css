@@ -1,0 +1,12 @@
+.full-width-table {
+  width: 100%;
+}
+
+input, mat-form-field {
+  padding-left: 2em;
+}
+
+mat-cell, .mat-cell {
+  min-height:auto;
+  padding-right: 12px;
+}

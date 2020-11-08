@@ -1,5 +1,5 @@
 import { Component, OnInit, Injectable } from '@angular/core';
-import { DataService, Unit } from '../data.service';
+import { UnitTableDataSource, Unit } from '../unit-table/unit-table-datasource';
 
 @Component({
   selector: 'app-filters',
@@ -8,16 +8,29 @@ import { DataService, Unit } from '../data.service';
 })
 export class FiltersComponent implements OnInit {
 
-  hideBaseForms:boolean = true;
+  statType = 'RAW';
+  statBaseValue = 'LEVEL';
+  hideBaseForms = 'true';
 
-  constructor(public dataService: DataService) { }
+  constructor(public dataService: UnitTableDataSource) { }
 
   ngOnInit(): void {
-    this.dataService.filterChainSubject.next(hideBaseForms);
   }
 
-  onSubmit(formId: any): void{
-    this.dataService.filterChainSubject.next(formId.form.controls.hideBaseForms.value);
-
+  handleFormChange(formId: any): void{
+    // this.dataService.statBaseSubject.next(formId.form.controls.statBaseValue.value);
+    // this.dataService.statTypeSubject.next(formId.form.controls.statType.value);
+    this.dataService.filterChainSubject.next(this.computeFilterChain(formId.form.controls));
+    this.dataService.filterData();
   }
+
+  computeFilterChain(formFields: any): ((unit: Unit) => boolean ) [] {
+    let filterChain: ((unit: Unit) => boolean ) [] = [];
+    if (formFields.hideBaseForms.value === 'true')
+    {
+      filterChain.push(unit => !unit.isBaseForm);
+    }
+    return filterChain;
+  }
+
 }

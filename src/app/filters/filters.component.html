@@ -1,11 +1,39 @@
-<div class="btn-group-vertical">
-  <button type="button" class="btn btn-primary btn-lg btn-block">Some Filter I'll Come up with later</button>
-</div>
-<div class="container-fluid">
-  <form class="form-inline" #filterForm="ngForm" (ngSubmit)="onSubmit(filterForm)">
-    <div class="custom-control custom-switch">
-      <input type="checkbox" class="custom-control-input" id="hideBaseForms" name="hideBaseForms" [(ngModel)]="hideBaseForms" (change)="onSubmit(filterForm)">
-      <label class="custom-control-label" for="hideBaseForms">Hide Base Forms</label>
-    </div>
-  </form>
-</div>
+<form #filterForm="ngForm" (ngSubmit)="handleFormChange(filterForm)">
+  <!--
+  <mat-card>
+    <mat-card-title>Base Data Sources</mat-card-title>
+    <mat-card-actions align="start">
+      <p>
+        <mat-button-toggle-group name="fontStyle" aria-label="Font Style" value="RAW" name="statType" [(ngModel)]="statType">
+          <mat-button-toggle value="RAW" selected>Raw</mat-button-toggle>
+          <mat-button-toggle value="COMPUTED">Computed</mat-button-toggle>
+        </mat-button-toggle-group>
+      </p>
+      <p>
+        <mat-form-field appearance="fill" [(ngModel)]="statBaseValue" name="statBaseValue">
+          <mat-label>Base Stat Value:</mat-label>
+          <mat-select>
+            <mat-option value="LEVEL">Max Level</mat-option>
+            <mat-option value="CC">Max Level + 300 CC</mat-option>
+            <mat-option value="LB">Max Level, 300 CC, & LB Rainbowed</mat-option>
+            <mat-option value="LBPLUS">Max Level, 300 CC, & LB+ Rainbowed</mat-option>
+            <mat-option value="CL">Character Log (Custom Values)</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </p>
+    </mat-card-actions>
+  </mat-card>
+-->
+  <mat-card>
+    <mat-card-title>Filters</mat-card-title>
+    <mat-card-actions align="start">
+    <!--  <mat-slide-toggle value="hideBaseForms">Hide Base Forms</mat-slide-toggle>-->
+    <p>Hide Base Forms
+      <mat-button-toggle-group aria-label="Hide Base Forms" [(ngModel)]="hideBaseForms" name="hideBaseForms" [value]="hideBaseForms" (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="true">Hide</mat-button-toggle>
+        <mat-button-toggle value="false">Show</mat-button-toggle>
+      </mat-button-toggle-group>
+    </p>
+    </mat-card-actions>
+  </mat-card>
+</form>

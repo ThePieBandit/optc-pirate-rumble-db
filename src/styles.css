@@ -16,3 +16,6 @@
 .SUPERBOMB { background: linear-gradient(90deg, #ff2600, #debb2f, #ff2600); }
 .G     { background: orange; }
 .EMPTY { background: #777; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

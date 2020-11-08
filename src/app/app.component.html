@@ -1,10 +1,16 @@
-<div id="root" class="container-fluid">
-  <div class="row">
-      <div id="sidebar" class="col-2"><app-changelog></app-changelog></div>
-      <div id="table" class="col-10"><app-option-bar></app-option-bar></div>
-    </div>
-    <div class="row">
-      <div id="sidebar" class="col-2"><app-filters></app-filters></div>
-      <div id="table" class="col-10"><app-table></app-table></div>
-    </div>
-</div>
+<mat-sidenav-container>
+  <mat-sidenav #filters mode="side" opened fixedInViewport>
+    <app-filters></app-filters><app-changelog></app-changelog>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <p>
+      <mat-toolbar>
+        <button (click)="filters.toggle()" mat-icon-button color="basic" aria-label="Example icon button with a menu icon">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>OPTC Pirate Rumble Database</span>
+      </mat-toolbar>
+    </p>
+    <app-unit-table></app-unit-table>
+  </mat-sidenav-content>
+</mat-sidenav-container>

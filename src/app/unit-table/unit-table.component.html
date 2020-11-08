@@ -1,0 +1,62 @@
+<div class="mat-elevation-z8">
+  <mat-form-field style="width:25vw">
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Enter a unit name, a stat, a type; all columns are filtered." #input>
+  </mat-form-field>
+	<table mat-table class="full-width-table" matSort aria-label="Pirate Rumble Units" [dataSource]="dataSource">
+		<ng-container matColumnDef="id">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>Id</th>
+			<td mat-cell *matCellDef="let row">{{row.id}}</td>
+		</ng-container>
+		<ng-container matColumnDef="name">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
+			<td mat-cell *matCellDef="let row">{{row.name}}</td>
+		</ng-container>
+		<ng-container matColumnDef="type">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>Type</th>
+			<td mat-cell *matCellDef="let row">{{row.type}}</td>
+		</ng-container>
+		<ng-container matColumnDef="rumbleType">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>Rumble Type</th>
+			<td mat-cell *matCellDef="let row">{{row.rumbleType}}</td>
+		</ng-container>
+		<!--
+<ng-container matColumnDef="targets"><th mat-header-cell *matHeaderCellDef mat-sort-header>targets</th><td mat-cell *matCellDef="let row">{{row.targets}}</td></ng-container>
+-->
+		<ng-container matColumnDef="baseHp">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>HP</th>
+			<td mat-cell *matCellDef="let row">{{row.baseHp}}</td>
+		</ng-container>
+		<ng-container matColumnDef="baseAtk">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>ATK</th>
+			<td mat-cell *matCellDef="let row">{{row.baseAtk}}</td>
+		</ng-container>
+		<ng-container matColumnDef="baseRcv">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>RCV</th>
+			<td mat-cell *matCellDef="let row">{{row.baseRcv}}</td>
+		</ng-container>
+		<ng-container matColumnDef="baseDef">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>DEF</th>
+			<td mat-cell *matCellDef="let row">{{row.baseDef}}</td>
+		</ng-container>
+		<ng-container matColumnDef="baseSpd">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>SPD</th>
+			<td mat-cell *matCellDef="let row">{{row.baseSpd}}</td>
+		</ng-container>
+		<ng-container matColumnDef="festSpecial[9].description">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>Special (Max)</th>
+			<td mat-cell *matCellDef="let row">{{row.festSpecial[9].description}}</td>
+		</ng-container>
+		<ng-container matColumnDef="festAbility[4].description">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>Ability (Max)</th>
+			<td mat-cell *matCellDef="let row">{{row.festAbility[4].description}}</td>
+		</ng-container>
+		<tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+		<tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+	</table>
+	<mat-paginator #paginator
+      [length]="dataSource?.data.length"
+      [pageIndex]="0"
+      [pageSize]="50"
+      [pageSizeOptions]="[25, 50, 100, 250]"></mat-paginator>
+</div>
