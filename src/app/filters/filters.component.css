@@ -1,0 +1,10 @@
+mat-button-toggle-group {
+  flex-wrap: wrap;
+  background: repeating-linear-gradient(45deg, #111111, #111111 10px, #333333 20px) ;
+}
+
+mat-button-toggle {
+  border-color: rgba(255, 255, 255, 0.12);
+  border-style: solid;
+  border-width: 1px;
+}

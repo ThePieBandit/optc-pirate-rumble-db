@@ -47,6 +47,10 @@
 			<th mat-header-cell *matHeaderCellDef mat-sort-header>Special (Max)</th>
 			<td mat-cell *matCellDef="let row">{{row.festSpecial[9].description}}</td>
 		</ng-container>
+		<ng-container matColumnDef="festSpecial[9].cooldown">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header>Cooldown (Max)</th>
+			<td mat-cell *matCellDef="let row">{{row.festSpecial[9].cooldown}}</td>
+		</ng-container>
 		<ng-container matColumnDef="festAbility[4].description">
 			<th mat-header-cell *matHeaderCellDef mat-sort-header>Ability (Max)</th>
 			<td mat-cell *matCellDef="let row">{{row.festAbility[4].description}}</td>

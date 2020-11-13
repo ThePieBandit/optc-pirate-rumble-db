@@ -1,2 +1,4 @@
-<h2>Change Log</h2>
-<div id="changelog" [innerHTML]="getChangeLog() | marked"></div>
+<mat-card>
+  <mat-card-title>Change Log</mat-card-title>
+  <mat-card-content [innerHTML]="getChangeLog() | marked"></mat-card-content>
+</mat-card>

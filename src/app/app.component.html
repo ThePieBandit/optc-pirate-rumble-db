@@ -1,6 +1,8 @@
 <mat-sidenav-container>
-  <mat-sidenav #filters mode="side" opened fixedInViewport>
-    <app-filters></app-filters><app-changelog></app-changelog>
+  <mat-sidenav #filters mode="side" opened fixedInViewport style="max-width:75%">
+    <app-filters></app-filters>
+    <mat-divider></mat-divider>
+    <app-changelog></app-changelog>
   </mat-sidenav>
   <mat-sidenav-content>
     <p>

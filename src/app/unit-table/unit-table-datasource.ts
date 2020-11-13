@@ -20,11 +20,15 @@ export class Unit {
   baseSpd: number;
   rumbleType: string;
   type: string;
-  festAbility: any;
-  festSpecial: any;
+  class1: string;
+  class2: string;
+  festAbility: string;
+  festSpecial: string;
+  festCooldown: string;
   festAttackPattern: string;
   festAttackTarget: string;
 
+/*
   private computeDefPercentage(): number {
     return 9.6671298720642E-17 * this.baseDef ** 6
             - 2.54940335570173E-13 * this.baseDef ** 5
@@ -54,6 +58,7 @@ export class Unit {
     return s.replace(/\[([A-Z]+)\]/gi,
                      '<span class="badge text-monospace badge-pill $1">$1</span>');
   }
+  */
 }
 
 /**
@@ -90,7 +95,18 @@ constructor() {
       unit.baseDef = window.festival[i][1];
       unit.baseSpd = window.festival[i][2];
       unit.rumbleType = window.festival[i][0];
-      unit.type = Array.isArray(window.units[i][1]) ? 'NONE' : window.units[i][1];
+      unit.type = Array.isArray(window.units[i][1]) ? 'DUAL' : window.units[i][1];
+      if (Array.isArray(window.units[i][2])) {
+        if (Array.isArray(window.units[i][2][0])) { //dual unit
+          unit.class1 = window.units[i][2][2][0];
+          unit.class2 = window.units[i][2][2][1];
+        } else { // Double class Unit
+          unit.class1 = window.units[i][2][0];
+          unit.class2 = window.units[i][2][1];
+        }
+      } else { // Single class unit
+        unit.class1 = window.units[i][2];
+      }
       unit.festAbility = window.details[i + 1].festAbility;
       unit.festSpecial = window.details[i + 1].festSpecial;
       unit.festAttackPattern = window.details[i + 1].festAttackPattern;

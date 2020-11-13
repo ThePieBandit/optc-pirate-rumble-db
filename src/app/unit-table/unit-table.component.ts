@@ -15,7 +15,7 @@ export class UnitTableComponent implements AfterViewInit, OnInit {
   @ViewChild(MatTable) table: MatTable<Unit>;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['id', 'name', 'type', 'rumbleType',  'baseHp', 'baseAtk', 'baseRcv', 'baseDef', 'baseSpd', 'festSpecial[9].description', 'festAbility[4].description'];
+  displayedColumns = ['id', 'name', 'type', 'rumbleType',  'baseHp', 'baseAtk', 'baseRcv', 'baseDef', 'baseSpd', 'festSpecial[9].description', 'festSpecial[9].cooldown', 'festAbility[4].description'];
 
   constructor(public dataSource: UnitTableDataSource) { }
 

@@ -11,7 +11,10 @@ export class FiltersComponent implements OnInit {
   statType = 'RAW';
   statBaseValue = 'LEVEL';
   hideBaseForms = 'true';
-
+  type = '';
+  class = '';
+  rumbleType = '';
+  
   constructor(public dataService: UnitTableDataSource) { }
 
   ngOnInit(): void {
@@ -29,6 +32,15 @@ export class FiltersComponent implements OnInit {
     if (formFields.hideBaseForms.value === 'true')
     {
       filterChain.push(unit => !unit.isBaseForm);
+    }
+    if( Array.isArray(formFields.type.value) && formFields.type.value.length){
+      filterChain.push(unit => formFields.type.value.includes(unit.type));
+    }
+    if( Array.isArray(formFields.class.value) && formFields.class.value.length){
+      filterChain.push(unit => formFields.class.value.includes(unit.class1) || formFields.class.value.includes(unit.class2));
+    }
+    if( Array.isArray(formFields.rumbleType.value) && formFields.rumbleType.value.length){
+      filterChain.push(unit => formFields.rumbleType.value.includes(unit.rumbleType));
     }
     return filterChain;
   }

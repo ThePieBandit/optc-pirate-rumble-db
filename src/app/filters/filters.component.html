@@ -24,16 +24,54 @@
     </mat-card-actions>
   </mat-card>
 -->
+<!--  <mat-slide-toggle value="hideBaseForms">Hide Base Forms</mat-slide-toggle>-->
   <mat-card>
-    <mat-card-title>Filters</mat-card-title>
+    <mat-card-title>Hide Base Forms</mat-card-title>
     <mat-card-actions align="start">
-    <!--  <mat-slide-toggle value="hideBaseForms">Hide Base Forms</mat-slide-toggle>-->
-    <p>Hide Base Forms
       <mat-button-toggle-group aria-label="Hide Base Forms" [(ngModel)]="hideBaseForms" name="hideBaseForms" [value]="hideBaseForms" (change)="handleFormChange(filterForm)">
         <mat-button-toggle value="true">Hide</mat-button-toggle>
         <mat-button-toggle value="false">Show</mat-button-toggle>
       </mat-button-toggle-group>
-    </p>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card>
+    <mat-card-title>Type Filter</mat-card-title>
+    <mat-card-actions align="start">
+      <mat-button-toggle-group fxLayout="wrap" aria-label="Type Filter" [(ngModel)]="type" name="type" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle fxFlex="33%" value="STR">STR</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="DEX">DEX</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="QCK">QCK</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="PSY">PSY</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="INT">INT</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="DUAL">DUAL</mat-button-toggle>
+      </mat-button-toggle-group>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card>
+    <mat-card-title>Class Filter</mat-card-title>
+    <mat-card-actions align="start">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Class Filter" [(ngModel)]="class" name="class" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle fxFlex="50%" value="Fighter">Fighter</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Slasher">Slasher</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Shooter">Shooter</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Striker">Striker</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Cerebral">Cerebral</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Powerhouse">Powerhouse</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Free Spirit">Free Spirit</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Driven">Driven</mat-button-toggle>
+      </mat-button-toggle-group>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card>
+    <mat-card-title>Rumble Type Filter</mat-card-title>
+    <mat-card-actions align="start">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Rumble Type Filter" [(ngModel)]="rumbleType" name="rumbleType" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle fxFlex="50%" value="ATK">ATK</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="DEF">DEF</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="RCV">RCV</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="SPT">SPT</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="DBF">DBF</mat-button-toggle>
+      </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
 </form>

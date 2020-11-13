@@ -21,6 +21,7 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatSelectModule} from '@angular/material/select';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatDividerModule} from '@angular/material/divider';
 import { MarkedPipe } from './marked.pipe';
 
 @NgModule({
@@ -37,6 +38,7 @@ import { MarkedPipe } from './marked.pipe';
     FormsModule,
     BrowserAnimationsModule,
     MatTableModule,
+    MatDividerModule,
     MatFormFieldModule,
     MatInputModule,
     MatPaginatorModule,
