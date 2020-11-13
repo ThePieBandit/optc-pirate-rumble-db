@@ -71,9 +71,10 @@ export class Unit {
  })
 export class UnitTableDataSource extends MatTableDataSource<Unit> {
   database: Unit[] = [];
-  filterChainSubject: BehaviorSubject<((unit: Unit) => boolean) []> = new BehaviorSubject<((unit: Unit) => boolean) []>([unit => !unit.isBaseForm]);
+  filterChainSubject: BehaviorSubject<((unit: Unit) => boolean) []>
+   = new BehaviorSubject<((unit: Unit) => boolean) []>([unit => !unit.isBaseForm]);
 
-constructor() {
+  constructor() {
     super();
 
     let unit: Unit;
@@ -97,7 +98,7 @@ constructor() {
       unit.rumbleType = window.festival[i][0];
       unit.type = Array.isArray(window.units[i][1]) ? 'DUAL' : window.units[i][1];
       if (Array.isArray(window.units[i][2])) {
-        if (Array.isArray(window.units[i][2][0])) { //dual unit
+        if (Array.isArray(window.units[i][2][0])) { // dual unit
           unit.class1 = window.units[i][2][2][0];
           unit.class2 = window.units[i][2][2][1];
         } else { // Double class Unit
