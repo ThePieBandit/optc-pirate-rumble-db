@@ -109,6 +109,7 @@
         }
       ]
     },
+    "no-namespace": [true, "allow-declarations"],
     "variable-name": {
       "options": [
         "ban-keywords",

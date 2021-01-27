@@ -10,3 +10,9 @@ mat-cell, .mat-cell {
   min-height:auto;
   padding-right: 12px;
 }
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

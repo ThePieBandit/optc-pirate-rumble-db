@@ -6,10 +6,13 @@ import { map } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 import { Observable, of as observableOf, merge } from 'rxjs';
 import { BehaviorSubject } from 'rxjs';
+import * as rumble from '../model/rumble';
+import rumbleData from '../../assets/data/rumble.json';
 
 declare const window: any;
 
-export class Unit {
+export class UnitDetails {
+  complete: boolean;
   id: number;
   isBaseForm: boolean;
   name: string;
@@ -69,56 +72,123 @@ export class Unit {
 @Injectable({
    providedIn: 'root'
  })
-export class UnitTableDataSource extends MatTableDataSource<Unit> {
-  database: Unit[] = [];
-  filterChainSubject: BehaviorSubject<((unit: Unit) => boolean) []>
-   = new BehaviorSubject<((unit: Unit) => boolean) []>([unit => !unit.isBaseForm]);
+export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
+  database: rumble.Unit[] = [];
+
+  filterChainSubject: BehaviorSubject<((unit: rumble.Unit) => boolean) []>
+   = new BehaviorSubject<((unit: rumble.Unit) => boolean) []>([unit => !unit.isBaseForm]);
 
   constructor() {
     super();
 
-    let unit: Unit;
+    let unitDetail: UnitDetails;
+    const unitDetails: UnitDetails[] = [];
+    let unit: rumble.Unit;
+    const units: rumble.Entry[] = rumbleData.units as rumble.Entry[];
 
     for (let i = 0; i < window.units.length; i++){
-      if (!window.details[i + 1] || !window.details[i + 1].festAbility || window.units[i].incomplete || window.units[i][0].includes('[Dual Unit] ')){
+      if (i === 3134 || i === 3133) { // Deal with VS unit later
+        continue;
+      }
+      if (window.units[i].incomplete ){
           continue;
       }
-      if (window.details[i + 1].VSSpecial) {
+      unitDetail = new UnitDetails();
+      unitDetail.id = i + 1;
+      unitDetail.complete = !window.units[i].incomplete;
+      if (!unitDetail.complete) {
+        unitDetails.push(unitDetail);
         continue;
-      } // temporary
-      unit = new Unit();
-      unit.id = i + 1;
-      unit.isBaseForm = window.evolutions[i + 1];
-      unit.name = window.units[i][0];
-      unit.baseHp = window.units[i][12];
-      unit.baseAtk = window.units[i][13];
-      unit.baseRcv = window.units[i][14];
-      unit.baseDef = window.festival[i][1];
-      unit.baseSpd = window.festival[i][2];
-      unit.rumbleType = window.festival[i][0];
-      unit.type = Array.isArray(window.units[i][1]) ? 'DUAL' : window.units[i][1];
+      }
+      unitDetail.isBaseForm = window.evolutions[i + 1];
+      unitDetail.name = window.units[i][0];
+      unitDetail.baseHp = window.units[i][12];
+      unitDetail.baseAtk = window.units[i][13];
+      unitDetail.baseRcv = window.units[i][14];
+      unitDetail.type = Array.isArray(window.units[i][1]) ? 'DUAL' : window.units[i][1];
       if (Array.isArray(window.units[i][2])) {
         if (Array.isArray(window.units[i][2][0])) { // dual unit
-          unit.class1 = window.units[i][2][2][0];
-          unit.class2 = window.units[i][2][2][1];
+          unitDetail.class1 = window.units[i][2][2][0];
+          unitDetail.class2 = window.units[i][2][2][1];
         } else { // Double class Unit
-          unit.class1 = window.units[i][2][0];
-          unit.class2 = window.units[i][2][1];
+          unitDetail.class1 = window.units[i][2][0];
+          unitDetail.class2 = window.units[i][2][1];
         }
       } else { // Single class unit
-        unit.class1 = window.units[i][2];
+        unitDetail.class1 = window.units[i][2];
       }
-      unit.festAbility = window.details[i + 1].festAbility;
-      unit.festSpecial = window.details[i + 1].festSpecial;
-      unit.festAttackPattern = window.details[i + 1].festAttackPattern;
-      unit.festAttackTarget = window.details[i + 1].festAttackTarget;
+      unitDetails.push(unitDetail);
+    }
+
+    for (let i = 0; i < units.length; i++){
+      if ('basedOn' in units[i]) {
+        const baseUnit: rumble.Unit = units.find(u => u.id === (units[i] as rumble.Reference).basedOn) as rumble.Unit;
+        if (baseUnit === null) {
+          console.log( ' Failed to locate Base Unit!!!!!!! ' + i);
+          console.log(units[i]);
+          continue;
+        }
+        unit = JSON.parse(JSON.stringify(baseUnit));
+        unit.id = units[i].id;
+      } else {
+        unit = (JSON.parse(JSON.stringify(units[i])) as rumble.Unit);
+      }
+      unitDetail = unitDetails.find(ud => ud.id === unit.id);
+      if (unitDetail === null) {
+        console.log( ' Failed to locate Base Unit Details!!!!!!!!!!! ' + i);
+        console.log(unit);
+        continue;
+      }
+      if (!unitDetail.complete){
+        console.log( 'Skipping unit ' + unit.id + ', the unit is not complete.');
+        continue;
+      }
+      if (unitDetail.name.includes('[Dual Unit] ')) {
+        continue;
+      }
+
+      this.denormalizeEffects(unit.ability);
+      this.denormalizeEffects(unit.special);
+
+      unit.name = unitDetail.name;
+      unit.isBaseForm = unitDetail.isBaseForm;
+      unit.stats.hp = unitDetail.baseHp;
+      unit.stats.atk = unitDetail.baseAtk;
+      unit.stats.rcv = unitDetail.baseRcv;
+      unit.stats.type = unitDetail.type;
+      unit.stats.class1 = unitDetail.class1;
+      unit.stats.class2 = unitDetail.class2;
+
+      unit.lvl5Ability = (unit.ability[4].effects as rumble.Effect[]);
+      unit.lvl10Special = (unit.special[9].effects as rumble.Effect[]);
+      unit.lvl10Cooldown = unit.special[9].cooldown;
       this.database.push(unit);
     }
+
     this.filterData();
+
+  }
+
+  denormalizeEffects(levels: rumble.Ability[]|rumble.Special[]): void {
+    const lastEffect: rumble.Effect[] = [];
+    let mergedEffect: rumble.Effect[] = [];
+
+    levels.forEach( (level, levelIdx) => {
+      mergedEffect = [...lastEffect];
+      level.effects.forEach((effect: rumble.Effect | rumble.EffectOverride, effectIdx) => {
+        if ('effect' in effect) {
+          lastEffect[effectIdx] = (effect as rumble.Effect);
+          mergedEffect[effectIdx] = (effect as rumble.Effect);
+        } else if ('override' in effect){
+          mergedEffect[effectIdx] = {...lastEffect[effectIdx], ...(effect as rumble.EffectOverride).override};
+        }
+      });
+      level.effects = mergedEffect;
+    });
   }
 
   filterData(): void {
-    let tmpData: Unit[] = this.database;
+    let tmpData: rumble.Unit[] = this.database;
     this.filterChainSubject.value.forEach(unitFilter => tmpData = tmpData.filter(unitFilter));
     this.data = tmpData;
     this._updateChangeSubscription();
@@ -128,7 +198,7 @@ export class UnitTableDataSource extends MatTableDataSource<Unit> {
    * Sort the data (client-side). If you're using server-side sorting,
    * this would be replaced by requesting the appropriate data from the server.
    */
-   /*
+/*
   private getSortedData(data: Unit[]): Unit[] {
     if (!this.sort.active || this.sort.direction === '') {
       return data;
@@ -139,18 +209,20 @@ export class UnitTableDataSource extends MatTableDataSource<Unit> {
       switch (this.sort.active) {
         case 'name': return compare(a.name, b.name, isAsc);
         case 'id': return compare(+a.id, +b.id, isAsc);
-        case 'baseHp': return compare(+a.baseHp, +b.baseHp, isAsc);
-        case 'baseAtk': return compare(+a.baseAtk, +b.baseAtk, isAsc);
-        case 'baseRcv': return compare(+a.baseRcv, +b.baseRcv, isAsc);
-        case 'baseDef': return compare(+a.baseDef, +b.baseDef, isAsc);
-        case 'baseSpd': return compare(+a.baseSpd, +b.baseSpd, isAsc);
+        case 'baseHp': return compare(+a.stats.hp, +b.stats.hp, isAsc);
+        case 'baseAtk': return compare(+a.stats.atk, +b.stats.atk, isAsc);
+        case 'baseRcv': return compare(+a.stats.rcv, +b.stats.rcv, isAsc);
+        case 'baseDef': return compare(+a.stats.def, +b.stats.def, isAsc);
+        case 'baseSpd': return compare(+a.stats.spd, +b.stats.spd, isAsc);
+        case 'lvl10Cooldown': return compare(+a.lvl10Cooldown, +b.lvl10Cooldown, isAsc);
         default: return 0;
       }
     });
-  }*/
-}
+  }
+}*/
 
 /** Simple sort comparator for example ID/Name columns (for client-side sorting). */
-function compare(a: string | number, b: string | number, isAsc: boolean): number {
+/*function compare(a: string | number, b: string | number, isAsc: boolean): number {
   return (a < b ? -1 : 1) * (isAsc ? 1 : -1);
+}*/
 }

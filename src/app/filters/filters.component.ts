@@ -1,5 +1,6 @@
 import { Component, OnInit, Injectable } from '@angular/core';
-import { UnitTableDataSource, Unit } from '../unit-table/unit-table-datasource';
+import { UnitTableDataSource } from '../unit-table/unit-table-datasource';
+import { Unit } from '../model/rumble';
 
 @Component({
   selector: 'app-filters',
@@ -34,13 +35,13 @@ export class FiltersComponent implements OnInit {
       filterChain.push(unit => !unit.isBaseForm);
     }
     if ( Array.isArray(formFields.type.value) && formFields.type.value.length){
-      filterChain.push(unit => formFields.type.value.includes(unit.type));
+      filterChain.push(unit => formFields.type.value.includes(unit.stats.type));
     }
     if ( Array.isArray(formFields.class.value) && formFields.class.value.length){
-      filterChain.push(unit => formFields.class.value.includes(unit.class1) || formFields.class.value.includes(unit.class2));
+      filterChain.push(unit => formFields.class.value.includes(unit.stats.class1) || formFields.class.value.includes(unit.stats.class2));
     }
     if ( Array.isArray(formFields.rumbleType.value) && formFields.rumbleType.value.length){
-      filterChain.push(unit => formFields.rumbleType.value.includes(unit.rumbleType));
+      filterChain.push(unit => formFields.rumbleType.value.includes(unit.stats.rumbleType));
     }
     return filterChain;
   }

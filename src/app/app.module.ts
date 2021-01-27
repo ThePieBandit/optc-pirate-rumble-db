@@ -10,19 +10,22 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UnitTableComponent } from './unit-table/unit-table.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import {MatInputModule} from '@angular/material/input';
+import { MatInputModule } from '@angular/material/input';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSortModule } from '@angular/material/sort';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
-import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
-import {MatSlideToggleModule} from '@angular/material/slide-toggle';
-import {MatSelectModule} from '@angular/material/select';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatDividerModule} from '@angular/material/divider';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatSelectModule } from '@angular/material/select';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatDividerModule } from '@angular/material/divider';
 import { MarkedPipe } from './marked.pipe';
+import { EffectPipe } from './effect.pipe';
+import { TruncatePipe } from './truncate.pipe';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,9 @@ import { MarkedPipe } from './marked.pipe';
     FiltersComponent,
     ChangelogComponent,
     UnitTableComponent,
-    MarkedPipe
+    MarkedPipe,
+    TruncatePipe,
+    EffectPipe
   ],
   imports: [
     HttpClientModule,
@@ -41,6 +46,7 @@ import { MarkedPipe } from './marked.pipe';
     MatDividerModule,
     MatFormFieldModule,
     MatInputModule,
+    MatTooltipModule,
     MatPaginatorModule,
     MatSortModule,
     MatButtonToggleModule,

@@ -128,3 +128,13 @@
 .block-icon:before {
     content: "\e902";
 }
+
+
+
+.effect {
+  padding-left: -2em;
+}
+
+li {
+    list-style-type:none;
+}
