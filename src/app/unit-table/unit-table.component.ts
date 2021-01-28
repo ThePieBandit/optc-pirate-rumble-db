@@ -25,7 +25,7 @@ export class UnitTableComponent implements AfterViewInit, OnInit {
 
   ngAfterViewInit(): void {
     this.dataSource.sortingDataAccessor = (item, property) => {
-      switch(property) {
+      switch (property) {
         case 'baseHp': return item.stats.hp;
         case 'baseAtk': return item.stats.atk;
         case 'baseRcv': return item.stats.rcv;

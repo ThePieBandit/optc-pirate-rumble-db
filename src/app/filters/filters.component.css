@@ -1,6 +1,5 @@
 mat-button-toggle-group {
   flex-wrap: wrap;
-  background: repeating-linear-gradient(45deg, #111111, #111111 10px, #333333 20px) ;
 }
 
 mat-button-toggle {

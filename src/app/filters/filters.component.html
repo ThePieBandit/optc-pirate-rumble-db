@@ -51,14 +51,14 @@
     <mat-card-title>Class Filter</mat-card-title>
     <mat-card-actions align="start">
       <mat-button-toggle-group fxLayout="row wrap" aria-label="Class Filter" [(ngModel)]="class" name="class" multiple (change)="handleFormChange(filterForm)">
-        <mat-button-toggle fxFlex="50%" value="Fighter">Fighter</mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Slasher">Slasher</mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Shooter">Shooter</mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Striker">Striker</mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Cerebral">Cerebral</mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Powerhouse">Powerhouse</mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Free Spirit">Free Spirit</mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Driven">Driven</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Fighter"><img src="../../assets/images/common_typ_icn_1.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Slasher"><img src="../../assets/images/common_typ_icn_2.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Striker"><img src="../../assets/images/common_typ_icn_3.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Shooter"><img src="../../assets/images/common_typ_icn_4.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Free Spirit"><img src="../../assets/images/common_typ_icn_5.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Driven"><img src="../../assets/images/common_typ_icn_6.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Cerebral"><img src="../../assets/images/common_typ_icn_7.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="Powerhouse"><img src="../../assets/images/common_typ_icn_8.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
@@ -66,11 +66,47 @@
     <mat-card-title>Rumble Type Filter</mat-card-title>
     <mat-card-actions align="start">
       <mat-button-toggle-group fxLayout="row wrap" aria-label="Rumble Type Filter" [(ngModel)]="rumbleType" name="rumbleType" multiple (change)="handleFormChange(filterForm)">
-        <mat-button-toggle fxFlex="50%" value="ATK">ATK</mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="DEF">DEF</mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="RCV">RCV</mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="SPT">SPT</mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="DBF">DBF</mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="ATK"><img src="../../assets/images/filter_style_icon_01.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="DEF"><img src="../../assets/images/filter_style_icon_02.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="RCV"><img src="../../assets/images/filter_style_icon_03.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="SPT"><img src="../../assets/images/filter_style_icon_04.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle fxFlex="50%" value="DBF"><img src="../../assets/images/filter_style_icon_05.png" width="48" height="48"/></mat-button-toggle>
+      </mat-button-toggle-group>
+    </mat-card-actions>
+  </mat-card>
+
+
+  <mat-card>
+    <mat-card-title>Buffs</mat-card-title>
+    <mat-card-actions align="start">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Rumble Type Filter" [(ngModel)]="buffs" name="buffs" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle fxFlex="33%" value="ATK">ATK</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="HP">HP</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="RCV">RCV</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="DEF">DEF</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="SPD">SPD</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="Critical Hit">Critical Hit</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="Guard">Guard</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="Accuracy">Accuracy</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="Blow Away">Blow Away</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="Special CT">Special CT</mat-button-toggle>
+      </mat-button-toggle-group>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card>
+    <mat-card-title>Deuffs</mat-card-title>
+    <mat-card-actions align="start">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Rumble Type Filter" [(ngModel)]="debuffs" name="debuffs" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle fxFlex="33%" value="ATK">ATK</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="HP">HP</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="RCV">RCV</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="DEF">DEF</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="SPD">SPD</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="Critical Hit">Critical Hit</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="Guard">Guard</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="Accuracy">Accuracy</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="Blow Away">Blow Away</mat-button-toggle>
+        <mat-button-toggle fxFlex="33%" value="Special CT">Special CT</mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>

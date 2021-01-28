@@ -1,5 +1,10 @@
+### 0.3.1
+* Attempting to fix the white screen on iPhone bug.
+* Updated filters to use icons
+* Added first sets of filters, Buff and Debuff.
+
 ### 0.3.0
-* Update to use new rumble library data. Note that missing data is missing in the DB.
+* Completely overhauled site to use new rumble library data from https://optc-db.github.io/. Note that the DB is still missing some data so that data is missing here as well.
 
 ### 0.2.0
 * Conversion to Angular Material

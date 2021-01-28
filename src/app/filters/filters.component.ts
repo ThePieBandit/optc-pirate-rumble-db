@@ -15,6 +15,8 @@ export class FiltersComponent implements OnInit {
   type = '';
   class = '';
   rumbleType = '';
+  buffs = '';
+  debuffs = '';
 
   constructor(public dataService: UnitTableDataSource) { }
 
@@ -42,6 +44,22 @@ export class FiltersComponent implements OnInit {
     }
     if ( Array.isArray(formFields.rumbleType.value) && formFields.rumbleType.value.length){
       filterChain.push(unit => formFields.rumbleType.value.includes(unit.stats.rumbleType));
+    }
+    if ( Array.isArray(formFields.buffs.value) && formFields.buffs.value.length){
+      filterChain.push(unit => unit.lvl5Ability
+        .some(effect => effect.effect === 'buff' && effect.attributes
+          .some(attribute => formFields.buffs.value.includes(attribute)))
+        || unit.lvl10Special
+          .some(effect => effect.effect === 'buff' && effect.attributes
+            .some(attribute => formFields.buffs.value.includes(attribute))));
+    }
+    if ( Array.isArray(formFields.debuffs.value) && formFields.debuffs.value.length){
+      filterChain.push(unit => unit.lvl5Ability
+        .some(effect => effect.effect === 'debuff' && effect.attributes
+          .some(attribute => formFields.debuffs.value.includes(attribute)))
+        || unit.lvl10Special
+          .some(effect => effect.effect === 'debuff' && effect.attributes
+            .some(attribute => formFields.debuffs.value.includes(attribute))));
     }
     return filterChain;
   }
