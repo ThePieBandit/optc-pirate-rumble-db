@@ -1,3 +1,6 @@
+### 0.3.2
+* Fixing broken images.
+
 ### 0.3.1
 * Attempting to fix the white screen on iPhone bug.
 * Updated filters to use icons
