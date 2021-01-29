@@ -32,7 +32,7 @@ export class UnitTableComponent implements AfterViewInit, OnInit {
         case 'baseDef': return item.stats.def;
         case 'baseSpd': return item.stats.spd;
         case 'type': return item.stats.type;
-        case 'rumbleType': return item.stats.rumbleType;
+        case 'style': return item.stats.rumbleType; // Rename later
 
         default: return item[property];
       }

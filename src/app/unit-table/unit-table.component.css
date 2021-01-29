@@ -16,3 +16,20 @@ ul, li {
   margin: 0;
   padding: 0;
 }
+
+a {
+  color: #BBB;
+}
+
+a:hover {
+  color: #DDD;
+}
+
+a:visited {
+  color: #999;
+}
+
+.mat-column-name {
+  min-width: 8rem;
+  max-width: 12rem;
+}
