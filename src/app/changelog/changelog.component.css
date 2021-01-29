@@ -1,0 +1,11 @@
+a {
+  color: #BBB;
+}
+
+a:hover {
+  color: #DDD;
+}
+
+a:visited {
+  color: #999;
+}

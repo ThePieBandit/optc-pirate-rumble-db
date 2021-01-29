@@ -33,8 +33,8 @@
 
 .button {
     display: block;
-    width: 250px;
-    padding: 15px 0 15px 0;
+    /*width: 250px;
+    padding: 15px 0 15px 0;*/
     margin: 5px auto;
     cursor: pointer;
     color: white;
@@ -136,5 +136,5 @@
 }
 
 li {
-    list-style-type:none;
+    list-style-type: '-';
 }

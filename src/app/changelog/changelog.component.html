@@ -1,4 +1,10 @@
-<mat-card>
-  <mat-card-title>Change Log</mat-card-title>
-  <mat-card-content [innerHTML]="getChangeLog() | marked"></mat-card-content>
-</mat-card>
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Change Log
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+  <mat-card>
+    <mat-card-content [innerHTML]="getChangeLog() | marked"></mat-card-content>
+  </mat-card>
+</mat-expansion-panel>

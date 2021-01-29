@@ -16,6 +16,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
@@ -48,6 +49,7 @@ import { TruncatePipe } from './truncate.pipe';
     MatInputModule,
     MatTooltipModule,
     MatPaginatorModule,
+    MatExpansionModule,
     MatSortModule,
     MatButtonToggleModule,
     MatButtonModule,

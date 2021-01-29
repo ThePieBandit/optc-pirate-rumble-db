@@ -1,5 +1,6 @@
 mat-button-toggle-group {
   flex-wrap: wrap;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 mat-button-toggle {

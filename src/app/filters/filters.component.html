@@ -1,3 +1,4 @@
+<h1>Filters</h1>
 <form #filterForm="ngForm" (ngSubmit)="handleFormChange(filterForm)">
   <!--
   <mat-card>
@@ -5,8 +6,8 @@
     <mat-card-actions align="start">
       <p>
         <mat-button-toggle-group name="fontStyle" aria-label="Font Style" value="RAW" name="statType" [(ngModel)]="statType">
-          <mat-button-toggle value="RAW" selected>Raw</mat-button-toggle>
-          <mat-button-toggle value="COMPUTED">Computed</mat-button-toggle>
+          <mat-button-toggle value="RAW"  matTooltip="RAW" selected>Raw</mat-button-toggle>
+          <mat-button-toggle value="COMPUTED"  matTooltip="COMPUTED">Computed</mat-button-toggle>
         </mat-button-toggle-group>
       </p>
       <p>
@@ -29,84 +30,132 @@
     <mat-card-title>Hide Base Forms</mat-card-title>
     <mat-card-actions align="start">
       <mat-button-toggle-group aria-label="Hide Base Forms" [(ngModel)]="hideBaseForms" name="hideBaseForms" [value]="hideBaseForms" (change)="handleFormChange(filterForm)">
-        <mat-button-toggle value="true">Hide</mat-button-toggle>
-        <mat-button-toggle value="false">Show</mat-button-toggle>
+        <mat-button-toggle value="true"  matTooltip="Hide Base Forms">Hide</mat-button-toggle>
+        <mat-button-toggle value="false"  matTooltip="Show Base Forms">Show</mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
+  <mat-divider [inset]="true"></mat-divider>
   <mat-card>
-    <mat-card-title>Type Filter</mat-card-title>
+    <mat-card-title>Type</mat-card-title>
     <mat-card-actions align="start">
       <mat-button-toggle-group fxLayout="wrap" aria-label="Type Filter" [(ngModel)]="type" name="type" multiple (change)="handleFormChange(filterForm)">
-        <mat-button-toggle fxFlex="33%" value="STR">STR</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="DEX">DEX</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="QCK">QCK</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="PSY">PSY</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="INT">INT</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="DUAL">DUAL</mat-button-toggle>
+        <mat-button-toggle value="STR"  matTooltip="STR"><img src="assets/images/filter_attribute_power.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="DEX"  matTooltip="DEX"><img src="assets/images/filter_attribute_technical.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="QCK"  matTooltip="QCK"><img src="assets/images/filter_attribute_speed.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="PSY"  matTooltip="PSY"><img src="assets/images/filter_attribute_heart.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="INT"  matTooltip="INT"><img src="assets/images/filter_attribute_intellect.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="DUAL"  matTooltip="DUAL"><img src="assets/images/filter_attribute_multiplecharacter.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
   <mat-card>
-    <mat-card-title>Class Filter</mat-card-title>
+    <mat-card-title>Class</mat-card-title>
     <mat-card-actions align="start">
       <mat-button-toggle-group fxLayout="row wrap" aria-label="Class Filter" [(ngModel)]="class" name="class" multiple (change)="handleFormChange(filterForm)">
-        <mat-button-toggle fxFlex="50%" value="Fighter"><img src="assets/images/common_typ_icn_1.png" width="48" height="48"/></mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Slasher"><img src="assets/images/common_typ_icn_2.png" width="48" height="48"/></mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Striker"><img src="assets/images/common_typ_icn_3.png" width="48" height="48"/></mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Shooter"><img src="assets/images/common_typ_icn_4.png" width="48" height="48"/></mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Free Spirit"><img src="assets/images/common_typ_icn_5.png" width="48" height="48"/></mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Driven"><img src="assets/images/common_typ_icn_6.png" width="48" height="48"/></mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Cerebral"><img src="assets/images/common_typ_icn_7.png" width="48" height="48"/></mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="Powerhouse"><img src="assets/images/common_typ_icn_8.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Fighter"  matTooltip="Fighter"><img src="assets/images/filter_type_icn_1.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Slasher"  matTooltip="Slasher"><img src="assets/images/filter_type_icn_2.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Striker"  matTooltip="Striker"><img src="assets/images/filter_type_icn_3.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Shooter"  matTooltip="Shooter"><img src="assets/images/filter_type_icn_4.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Free Spirit"  matTooltip="Free Spirit"><img src="assets/images/filter_type_icn_5.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Driven"  matTooltip="Driven"><img src="assets/images/filter_type_icn_6.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Cerebral"  matTooltip="Cerebral"><img src="assets/images/filter_type_icn_7.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Powerhouse"  matTooltip="Powerhouse"><img src="assets/images/filter_type_icn_8.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
   <mat-card>
-    <mat-card-title>Rumble Type Filter</mat-card-title>
+    <mat-card-title>Style</mat-card-title>
     <mat-card-actions align="start">
-      <mat-button-toggle-group fxLayout="row wrap" aria-label="Rumble Type Filter" [(ngModel)]="rumbleType" name="rumbleType" multiple (change)="handleFormChange(filterForm)">
-        <mat-button-toggle fxFlex="50%" value="ATK"><img src="assets/images/filter_style_icon_01.png" width="48" height="48"/></mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="DEF"><img src="assets/images/filter_style_icon_02.png" width="48" height="48"/></mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="RCV"><img src="assets/images/filter_style_icon_03.png" width="48" height="48"/></mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="SPT"><img src="assets/images/filter_style_icon_04.png" width="48" height="48"/></mat-button-toggle>
-        <mat-button-toggle fxFlex="50%" value="DBF"><img src="assets/images/filter_style_icon_05.png" width="48" height="48"/></mat-button-toggle>
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Style Filter" [(ngModel)]="style" name="style" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="ATK"  matTooltip="ATK"><img src="assets/images/filter_style_icon_01.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="DEF"  matTooltip="DEF"><img src="assets/images/filter_style_icon_02.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="RCV"  matTooltip="RCV"><img src="assets/images/filter_style_icon_03.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="SPT"  matTooltip="SPT"><img src="assets/images/filter_style_icon_04.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="DBF"  matTooltip="DBF"><img src="assets/images/filter_style_icon_05.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
 
-
+  <mat-divider [inset]="true"></mat-divider>
   <mat-card>
     <mat-card-title>Buffs</mat-card-title>
     <mat-card-actions align="start">
-      <mat-button-toggle-group fxLayout="row wrap" aria-label="Rumble Type Filter" [(ngModel)]="buffs" name="buffs" multiple (change)="handleFormChange(filterForm)">
-        <mat-button-toggle fxFlex="33%" value="ATK">ATK</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="HP">HP</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="RCV">RCV</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="DEF">DEF</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="SPD">SPD</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="Critical Hit">Critical Hit</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="Guard">Guard</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="Accuracy">Accuracy</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="Blow Away">Blow Away</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="Special CT">Special CT</mat-button-toggle>
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Buff Filter" [(ngModel)]="buffs" name="buffs" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="ATK"  matTooltip="ATK"><img src="assets/images/pirates_arena_attack_up.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="HP"  matTooltip="HP"><img src="assets/images/pirates_arena_strength_up.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="RCV"  matTooltip="RCV"><img src="assets/images/pirates_arena_cure_up.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="DEF"  matTooltip="DEF"><img src="assets/images/pirates_arena_defence_up.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="SPD"  matTooltip="SPD"><img src="assets/images/pirates_arena_speed_up.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Critical Hit"  matTooltip="Critical Hit"><img src="assets/images/pirates_arena_critical_up.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Guard"  matTooltip="Guard"><img src="assets/images/pirates_arena_guard_up.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Accuracy"  matTooltip="Accuracy"><img src="assets/images/pirates_arena_miss_up.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Blow Away"  matTooltip="Blow Away"><img src="assets/images/pirates_arena_KnockBack_up.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Special CT"  matTooltip="Special CT"><img src="assets/images/pirates_arena_SP_speed_up.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
   <mat-card>
-    <mat-card-title>Deuffs</mat-card-title>
+    <mat-card-title>Debuffs</mat-card-title>
     <mat-card-actions align="start">
-      <mat-button-toggle-group fxLayout="row wrap" aria-label="Rumble Type Filter" [(ngModel)]="debuffs" name="debuffs" multiple (change)="handleFormChange(filterForm)">
-        <mat-button-toggle fxFlex="33%" value="ATK">ATK</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="HP">HP</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="RCV">RCV</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="DEF">DEF</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="SPD">SPD</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="Critical Hit">Critical Hit</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="Guard">Guard</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="Accuracy">Accuracy</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="Blow Away">Blow Away</mat-button-toggle>
-        <mat-button-toggle fxFlex="33%" value="Special CT">Special CT</mat-button-toggle>
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Debuff Filter" [(ngModel)]="debuffs" name="debuffs" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="ATK"  matTooltip="ATK"><img src="assets/images/pirates_arena_attack_down.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="HP"  matTooltip="HP"><img src="assets/images/pirates_arena_strength_down.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="RCV"  matTooltip="RCV"><img src="assets/images/pirates_arena_cure_down.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="DEF"  matTooltip="DEF"><img src="assets/images/pirates_arena_defence_down.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="SPD"  matTooltip="SPD"><img src="assets/images/pirates_arena_speed_down.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Critical Hit"  matTooltip="Critical Hit"><img src="assets/images/pirates_arena_critical_down.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Guard"  matTooltip="Guard"><img src="assets/images/pirates_arena_guard_down.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Accuracy"  matTooltip="Accuracy"><img src="assets/images/pirates_arena_miss_down.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Blow Away"  matTooltip="Blow Away"><img src="assets/images/pirates_arena_KnockBack_down.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Special CT"  matTooltip="Special CT"><img src="assets/images/pirates_arena_SP_speed_down.png" width="48" height="48"/></mat-button-toggle>
+      </mat-button-toggle-group>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-title>Damage Dealer</mat-card-title>
+    <mat-card-actions align="start">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Boon Filter" [(ngModel)]="damage" name="damage" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="atk"  matTooltip="ATK stat based damage">ATK Stat</mat-button-toggle>
+        <mat-button-toggle value="fixed"  matTooltip="Fixed damage amount">Fixed Damage</mat-button-toggle>
+        <mat-button-toggle value="cut"  matTooltip="Percentage health cut">Percent Cut</mat-button-toggle>
+        <mat-button-toggle value="time"  matTooltip="Damage over time"><img src="assets/images/pirates_arena_effect_icon_continue_damage.png" width="48" height="48"/></mat-button-toggle>
+      </mat-button-toggle-group>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-title>Restorative</mat-card-title>
+    <mat-card-actions align="start">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Boon Filter" [(ngModel)]="recharge" name="recharge" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="RCV"  matTooltip="RCV stat based healing">RCV Stat</mat-button-toggle>
+        <mat-button-toggle value="fixed"  matTooltip="Fixed recovery amount">Fixed Heal</mat-button-toggle>
+        <mat-button-toggle value="percentage"  matTooltip="Percentage healing">Percent Heal</mat-button-toggle>
+        <mat-button-toggle value="Special CT"  matTooltip="Charge a percentage of specials"><img src="assets/images/pirates_arena_effect_icon_special_cure.png" width="48" height="48"/></mat-button-toggle>
+      </mat-button-toggle-group>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-title>Boons</mat-card-title>
+    <mat-card-actions align="start">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Boon Filter" [(ngModel)]="boons" name="boons" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="Action Bind"  matTooltip="Action Bind"><img src="assets/images/pirates_arena_effect_icon_action_cancel.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Silence"  matTooltip="Silence, aka Special Bind"><img src="assets/images/pirates_arena_effect_icon_special_cancel.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Paralysis"  matTooltip="Paralysis"><img src="assets/images/pirates_arena_effect_icon_paralysis.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Provoke"  matTooltip="Provoke"><img src="assets/images/pirates_arena_effect_icon_taunt.png" width="48" height="48"/></mat-button-toggle>
+      </mat-button-toggle-group>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-title>Hinderances</mat-card-title>
+    <mat-card-actions align="start">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Hinderance Filter" [(ngModel)]="hinderances" name="hinderances" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="Action Bind"  matTooltip="Action Bind"><img src="assets/images/pirates_arena_effect_icon_action_cancel.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Silence"  matTooltip="Silence, aka Special Bind"><img src="assets/images/pirates_arena_effect_icon_special_cancel.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="Paralysis"  matTooltip="Paralysis"><img src="assets/images/pirates_arena_effect_icon_paralysis.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>

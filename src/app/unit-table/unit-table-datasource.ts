@@ -21,7 +21,7 @@ export class UnitDetails {
   baseRcv: number;
   baseDef: number;
   baseSpd: number;
-  rumbleType: string;
+  style: string;
   type: string;
   class1: string;
   class2: string;
@@ -49,7 +49,7 @@ export class UnitDetails {
   public getBaseRcv(): number { return this.baseRcv; }
   public getBaseDef(): number { return Math.round((this.computeDefPercentage() + Number.EPSILON) * 100) / 100; }
   public getBaseSpd(): number { return this.baseSpd; }
-  public getRumbleType(): string { return this.rumbleType; }
+  public getstyle(): string { return this.style; }
   public getType(): string { return '<span class="badge text-monospace badge-pill ' + this.type + '">' + this.type + '</span>'; }
   public getFestAbility(): string { return this.encodeText(this.festAbility[4].description); }
   public getFestSpecial(): string { return this.encodeText(this.festSpecial[9].description); }
@@ -193,36 +193,4 @@ export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
     this.data = tmpData;
     this._updateChangeSubscription();
   }
-
-  /**
-   * Sort the data (client-side). If you're using server-side sorting,
-   * this would be replaced by requesting the appropriate data from the server.
-   */
-/*
-  private getSortedData(data: Unit[]): Unit[] {
-    if (!this.sort.active || this.sort.direction === '') {
-      return data;
-    }
-
-    return data.sort((a, b) => {
-      const isAsc = this.sort.direction === 'asc';
-      switch (this.sort.active) {
-        case 'name': return compare(a.name, b.name, isAsc);
-        case 'id': return compare(+a.id, +b.id, isAsc);
-        case 'baseHp': return compare(+a.stats.hp, +b.stats.hp, isAsc);
-        case 'baseAtk': return compare(+a.stats.atk, +b.stats.atk, isAsc);
-        case 'baseRcv': return compare(+a.stats.rcv, +b.stats.rcv, isAsc);
-        case 'baseDef': return compare(+a.stats.def, +b.stats.def, isAsc);
-        case 'baseSpd': return compare(+a.stats.spd, +b.stats.spd, isAsc);
-        case 'lvl10Cooldown': return compare(+a.lvl10Cooldown, +b.lvl10Cooldown, isAsc);
-        default: return 0;
-      }
-    });
-  }
-}*/
-
-/** Simple sort comparator for example ID/Name columns (for client-side sorting). */
-/*function compare(a: string | number, b: string | number, isAsc: boolean): number {
-  return (a < b ? -1 : 1) * (isAsc ? 1 : -1);
-}*/
 }
