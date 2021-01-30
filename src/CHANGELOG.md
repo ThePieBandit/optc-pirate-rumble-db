@@ -1,3 +1,6 @@
+### 1.0.2
+Integrated gh-pages publishing into github actions
+
 ### 1.0.1
 * Initial Release! 🎉
 * Added daily data sync from OPTC-DB.

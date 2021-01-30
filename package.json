@@ -1,12 +1,15 @@
 {
   "name": "optc-pirate-rumble-db",
   "version": "0.1.0",
+  "homepage": "https://thepiebandit.github.io/optc-pirate-rumble-db",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --base-href ./",
     "test": "ng test",
     "lint": "ng lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "e2e": "ng e2e"
   },
   "private": true,
