@@ -31,7 +31,16 @@ export class UnitTableComponent implements AfterViewInit, OnInit {
         case 'baseRcv': return item.stats.rcv;
         case 'baseDef': return item.stats.def;
         case 'baseSpd': return item.stats.spd;
-        case 'type': return item.stats.type;
+        case 'type':
+          switch (item.stats.type) {
+            case 'STR': return 1;
+            case 'DEX': return 2;
+            case 'QCK': return 3;
+            case 'PSY': return 4;
+            case 'INT': return 5;
+            case 'DUAL': return 0;
+            default: return 99;
+          }
         case 'style': return item.stats.rumbleType; // Rename later
 
         default: return item[property];

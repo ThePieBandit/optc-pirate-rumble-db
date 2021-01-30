@@ -12,8 +12,8 @@ mat-cell, .mat-cell {
 }
 
 ul, li {
-  list-style-type: none;
-  margin: 0;
+  list-style-type: '- ';
+  margin: 0em 0em 0em 1em;
   padding: 0;
 }
 
@@ -30,6 +30,39 @@ a:visited {
 }
 
 .mat-column-name {
-  min-width: 8rem;
-  max-width: 12rem;
+  min-width: 10rem;
+  max-width: 10rem;
+}
+
+.mat-column-lvl10Cooldown {
+  max-width: 3rem;
+}
+
+.mat-column-type {
+  max-width: 4rem;
+  text-align: center;
+}
+
+.mat-column-baseHp, .mat-column-baseAtk, .mat-column-baseRcv, .mat-column-baseSpd, .mat-column-baseDef {
+  max-width: 4rem;
+  text-align: right;
+}
+
+.thumbnail{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.thumbnail .idNumber{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+    background-color: rgba(0,0,0,0.7);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 25px;
 }

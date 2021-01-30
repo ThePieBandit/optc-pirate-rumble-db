@@ -8,3 +8,18 @@ mat-button-toggle {
   border-style: solid;
   border-width: 1px;
 }
+
+
+.warning {
+	text-align: right;
+	/*float: right;*/
+  width: 100%;
+}
+
+.warning h2 {
+	background-color: yellow;
+	padding: 0.5em;
+	text-align: left;
+  color: black;
+  border-radius: 0.25em;
+}

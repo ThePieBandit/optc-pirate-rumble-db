@@ -6,15 +6,23 @@
 	<table mat-table class="full-width-table" matSort aria-label="Pirate Rumble Units" [dataSource]="dataSource">
 		<ng-container matColumnDef="id">
 			<th mat-header-cell *matHeaderCellDef mat-sort-header>Id</th>
-			<td mat-cell *matCellDef="let row"><a href="http://optc-db.github.io/characters/#/view/{{row.id}}" target="_blank" rel="noopener noreferrer">{{row.id}}</a></td>
+      <td mat-cell *matCellDef="let row">
+        <div class="thumbnail">
+          <a href="http://optc-db.github.io/characters/#/view/{{row.id}}" target="_blank" rel="noopener noreferrer">
+          <img src="{{row.thumbnailUrl}}" height="64em" width="64em" style=""/>
+          <div class="idNumber">{{row.id}}
+          </div></a>
+        </div>
+      </td>
+      <!-- <td mat-cell *matCellDef="let row" [matTooltip]="background-position: center; background-repeat: no-repeat; background-size: cover; backgroud-image: url('https://onepiece-treasurecruise.com/wp-content/uploads/sites/2/f{{('0000' + row.id).slice(-4)}}.png');"><a href="http://optc-db.github.io/characters/#/view/{{row.id}}" target="_blank" rel="noopener noreferrer">{{row.id}}</a></td> -->
 		</ng-container>
 		<ng-container matColumnDef="name">
 			<th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
-			<td mat-cell *matCellDef="let row" [matTooltip]="row.name" [matTooltipDisabled]="row.name.length < 35"><a href="http://optc-db.github.io/characters/#/view/{{row.id}}" target="_blank" rel="noopener noreferrer">{{row.name}}</a></td>
+			<td mat-cell *matCellDef="let row"><a href="http://optc-db.github.io/characters/#/view/{{row.id}}" target="_blank" rel="noopener noreferrer">{{row.name}}</a></td>
 		</ng-container>
 		<ng-container matColumnDef="type">
 			<th mat-header-cell *matHeaderCellDef mat-sort-header>Type</th>
-			<td mat-cell *matCellDef="let row">{{row.stats.type}}</td>
+			<td mat-cell *matCellDef="let row" [innerHTML]="row.stats.type | decorate"></td>
 		</ng-container>
     <!--
 		<ng-container matColumnDef="style">

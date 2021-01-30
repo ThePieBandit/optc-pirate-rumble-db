@@ -1,5 +1,16 @@
+### 1.0.1
+* Initial Release! 🎉
+* Added daily data sync from OPTC-DB.
+* Added unit icons on each row.
+* Added type icons on each row.
+* Changed sorting order of types to match in game.
+* Right aligned numerical columns to allow for better digit comparison.
+* Added warning about the missing units.
+* Added Analytics to track usage.
+* Various UI tweaks.
+
 ### 1.0.0
-* Initial Release.
+* Initial Pre-Release.
 * Added basic filtering for Rumble Specials and Abilities (max level only)
 * Added pretty icons on the filters.
 * Added links back to the OPTC-DB for all units.

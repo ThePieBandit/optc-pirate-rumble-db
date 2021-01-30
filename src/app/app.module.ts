@@ -27,6 +27,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MarkedPipe } from './marked.pipe';
 import { EffectPipe } from './effect.pipe';
 import { TruncatePipe } from './truncate.pipe';
+import { DecoratePipe } from './decorate.pipe';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { TruncatePipe } from './truncate.pipe';
     UnitTableComponent,
     MarkedPipe,
     TruncatePipe,
-    EffectPipe
+    EffectPipe,
+    DecoratePipe
   ],
   imports: [
     HttpClientModule,

@@ -1,0 +1,47 @@
+name: Sync with OPTC-DB
+
+on:
+  workflow_dispatch:
+    types: ManualUpdate
+  schedule:
+    - cron:  "0 */12 * * *"
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  sync:
+    name: Sync with OPTC-DB
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    env:
+        UNITS_FILE: common/data/units.js
+        DETAILS_FILE: common/data/details.js
+        EVOLUTIONS_FILE: common/data/evolutions.js
+        UTILS_FILE: common/js/utils.js
+        RUMBLE_FILE: common/data/rumble.json
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Checkout Master
+        uses: actions/checkout@v2
+        with:
+          path: optc-pirate-rumble-db
+      - name: Checkout OPTC-DB
+        uses: actions/checkout@v2
+        with:
+          repository: optc-db/optc-db.github.io
+          path: optc-db
+      - name: Copy DB Files
+        run: |
+          cp -v optc-db/$UNITS_FILE optc-pirate-rumble-db/src/assets/data/units.js
+          cp -v optc-db/$DETAILS_FILE optc-pirate-rumble-db/src/assets/data/details.js
+          cp -v optc-db/$EVOLUTIONS_FILE optc-pirate-rumble-db/src/assets/data/evolutions.js
+          cp -v optc-db/$UTILS_FILE optc-pirate-rumble-db/src/assets/data/utils.js
+          cp -v optc-db/$RUMBLE_FILE optc-pirate-rumble-db/src/assets/data/rumble.json
+      - name: Add Files and Commit
+        run: |
+          cd optc-pirate-rumble-db
+          git config --global user.email "61213359+ThePieBandit@users.noreply.github.com"
+          git config --global user.name "ThePieBandit"
+          git add src/assets/data
+          git diff-index --quiet HEAD || git commit -m "Automatic publish syncing the latest from OPTC-DB"
+          git push

@@ -150,9 +150,9 @@
   </mat-card>
 
   <mat-card>
-    <mat-card-title>Hinderances</mat-card-title>
+    <mat-card-title>Hindrances</mat-card-title>
     <mat-card-actions align="start">
-      <mat-button-toggle-group fxLayout="row wrap" aria-label="Hinderance Filter" [(ngModel)]="hinderances" name="hinderances" multiple (change)="handleFormChange(filterForm)">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Hindrance Filter" [(ngModel)]="hinderances" name="hinderances" multiple (change)="handleFormChange(filterForm)">
         <mat-button-toggle value="Action Bind"  matTooltip="Action Bind"><img src="assets/images/pirates_arena_effect_icon_action_cancel.png" width="48" height="48"/></mat-button-toggle>
         <mat-button-toggle value="Silence"  matTooltip="Silence, aka Special Bind"><img src="assets/images/pirates_arena_effect_icon_special_cancel.png" width="48" height="48"/></mat-button-toggle>
         <mat-button-toggle value="Paralysis"  matTooltip="Paralysis"><img src="assets/images/pirates_arena_effect_icon_paralysis.png" width="48" height="48"/></mat-button-toggle>
@@ -160,3 +160,4 @@
     </mat-card-actions>
   </mat-card>
 </form>
+<div class="warning"><h2>NOTE: This site pulls from <a href="http://optc-db.github.io/">http://optc-db.github.io/</a>, which is currently missing some pirate rumble data.</h2></div>

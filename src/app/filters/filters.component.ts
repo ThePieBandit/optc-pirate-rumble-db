@@ -76,16 +76,6 @@ export class FiltersComponent implements OnInit {
     return filterChain;
   }
 
-  /*
-
-    filterChain.push(unit => unit.lvl5Ability
-      .some(effect => effect.effect === 'buff' && effect.attributes
-        .some(attribute => formFields.buffs.value.includes(attribute)))
-      || unit.lvl10Special
-        .some(effect => effect.effect === 'buff' && effect.attributes
-          .some(attribute => formFields.buffs.value.includes(attribute))));
-  */
-
   unitFunc(effectType: string, effectFunc: ((effect: Effect) => boolean)): ((unit: Unit) => boolean ) {
 
       return unit => unit.lvl5Ability

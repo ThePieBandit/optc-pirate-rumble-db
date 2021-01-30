@@ -162,6 +162,7 @@ export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
       unit.lvl5Ability = (unit.ability[4].effects as rumble.Effect[]);
       unit.lvl10Special = (unit.special[9].effects as rumble.Effect[]);
       unit.lvl10Cooldown = unit.special[9].cooldown;
+      unit.thumbnailUrl = window.Utils.getThumbnailUrl(unit.id).replace('..', 'http://optc-db.github.io/');
       this.database.push(unit);
     }
 

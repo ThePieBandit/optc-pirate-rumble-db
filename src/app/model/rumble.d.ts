@@ -75,6 +75,7 @@ export interface Unit {
   lvl5Ability?: Effect[];
   lvl10Special?: Effect[];
   lvl10Cooldown?: number;
+  thumbnailUrl?: string;
 }
 export interface Ability {
   effects: (Effect | EffectOverride)[];
