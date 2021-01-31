@@ -128,7 +128,12 @@ export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
           console.log(units[i]);
           continue;
         }
-        unit = JSON.parse(JSON.stringify(baseUnit));
+        try {
+          unit = JSON.parse(JSON.stringify(baseUnit));
+        } catch (error) {
+          console.log('invalid JSON: ' + baseUnit);
+          continue;
+        }
         unit.id = units[i].id;
       } else {
         unit = (JSON.parse(JSON.stringify(units[i])) as rumble.Unit);
