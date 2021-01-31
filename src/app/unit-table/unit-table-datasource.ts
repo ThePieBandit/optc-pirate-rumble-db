@@ -123,7 +123,7 @@ export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
     for (let i = 0; i < units.length; i++){
       if ('basedOn' in units[i]) {
         const baseUnit: rumble.Unit = units.find(u => u.id === (units[i] as rumble.Reference).basedOn) as rumble.Unit;
-        if (baseUnit === null) {
+        if (baseUnit === null || baseUnit === undefined) {
           console.log( ' Failed to locate Base Unit!!!!!!! ' + i);
           console.log(units[i]);
           continue;
@@ -167,7 +167,7 @@ export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
       unit.lvl5Ability = (unit.ability[4].effects as rumble.Effect[]);
       unit.lvl10Special = (unit.special[9].effects as rumble.Effect[]);
       unit.lvl10Cooldown = unit.special[9].cooldown;
-      unit.thumbnailUrl = window.Utils.getThumbnailUrl(unit.id).replace('..', 'http://optc-db.github.io/');
+      unit.thumbnailUrl = window.Utils.getThumbnailUrl(unit.id).replace('..', 'https://optc-db.github.io/');
       this.database.push(unit);
     }
 

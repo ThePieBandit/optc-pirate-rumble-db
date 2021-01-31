@@ -1,5 +1,8 @@
+### 1.0.3
+* Fixed insecure image content warning
+
 ### 1.0.2
-Integrated gh-pages publishing into github actions
+* Integrated gh-pages publishing into github actions
 
 ### 1.0.1
 * Initial Release! 🎉
