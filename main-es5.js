@@ -1696,7 +1696,7 @@
                 return u.id === units[_i].basedOn;
               });
 
-              if (baseUnit === null) {
+              if (baseUnit === null || baseUnit === undefined) {
                 console.log(' Failed to locate Base Unit!!!!!!! ' + _i);
                 console.log(units[_i]);
                 return "continue";
@@ -1748,7 +1748,7 @@
             unit.lvl5Ability = unit.ability[4].effects;
             unit.lvl10Special = unit.special[9].effects;
             unit.lvl10Cooldown = unit.special[9].cooldown;
-            unit.thumbnailUrl = window.Utils.getThumbnailUrl(unit.id).replace('..', 'http://optc-db.github.io/');
+            unit.thumbnailUrl = window.Utils.getThumbnailUrl(unit.id).replace('..', 'https://optc-db.github.io/');
 
             _this2.database.push(unit);
           };

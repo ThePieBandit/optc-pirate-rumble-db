@@ -879,7 +879,7 @@ class UnitTableDataSource extends _angular_material_table__WEBPACK_IMPORTED_MODU
         for (let i = 0; i < units.length; i++) {
             if ('basedOn' in units[i]) {
                 const baseUnit = units.find(u => u.id === units[i].basedOn);
-                if (baseUnit === null) {
+                if (baseUnit === null || baseUnit === undefined) {
                     console.log(' Failed to locate Base Unit!!!!!!! ' + i);
                     console.log(units[i]);
                     continue;
@@ -922,7 +922,7 @@ class UnitTableDataSource extends _angular_material_table__WEBPACK_IMPORTED_MODU
             unit.lvl5Ability = unit.ability[4].effects;
             unit.lvl10Special = unit.special[9].effects;
             unit.lvl10Cooldown = unit.special[9].cooldown;
-            unit.thumbnailUrl = window.Utils.getThumbnailUrl(unit.id).replace('..', 'http://optc-db.github.io/');
+            unit.thumbnailUrl = window.Utils.getThumbnailUrl(unit.id).replace('..', 'https://optc-db.github.io/');
             this.database.push(unit);
         }
         this.filterData();
