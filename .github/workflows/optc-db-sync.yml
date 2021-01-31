@@ -68,6 +68,14 @@ jobs:
         run: |
           pwd
           ls
+          cd ..
+          pwd
+          ls -R
+
+      - name: debug step 2 electric boogaloo
+        run: |
+          pwd
+          ls -R
         
       - name: Install dependencies
         run: npm install
