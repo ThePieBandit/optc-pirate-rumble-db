@@ -43,14 +43,12 @@ jobs:
           cp -v optc-db/$RUMBLE_FILE optc-pirate-rumble-db/src/assets/data/rumble.json
       - name: Add Files and Commit
         run: |
-          pushd optc-pirate-rumble-db
+          cd optc-pirate-rumble-db
           git config --global user.email "61213359+ThePieBandit@users.noreply.github.com"
           git config --global user.name "ThePieBandit"
           git add src/assets/data
           git diff-index --quiet HEAD || git commit -m "Automatic publish syncing the latest from OPTC-DB"
           git push
-          popd
-
 
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
@@ -63,28 +61,20 @@ jobs:
           path: |
             **/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
-
-      - name: debug step
-        run: |
-          pwd
-          ls
-          cd ..
-          pwd
-          ls -R
-
-      - name: debug step 2 electric boogaloo
-        run: |
-          pwd
-          ls -R
         
       - name: Install dependencies
-        run: npm install
+        run: |
+          cd optc-pirate-rumble-db
+          npm install
 
       - name: Build
-        run: npm run build
+        run: |
+          cd optc-pirate-rumble-db
+          npm run build
 
       - name: Deploy
         run: |
+          cd optc-pirate-rumble-db
           git config --global user.name $user_name
           git config --global user.email $user_email
           git remote set-url origin https://${github_token}@github.com/${repository}
