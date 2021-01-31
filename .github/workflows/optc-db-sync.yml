@@ -2,7 +2,6 @@ name: Sync with OPTC-DB
 
 on:
   workflow_dispatch:
-    types: ManualUpdate
   schedule:
     - cron:  "0 */12 * * *"
 
