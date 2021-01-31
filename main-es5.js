@@ -1702,7 +1702,13 @@
                 return "continue";
               }
 
-              unit = JSON.parse(JSON.stringify(baseUnit));
+              try {
+                unit = JSON.parse(JSON.stringify(baseUnit));
+              } catch (error) {
+                console.log('invalid JSON: ' + baseUnit);
+                return "continue";
+              }
+
               unit.id = units[_i].id;
             } else {
               unit = JSON.parse(JSON.stringify(units[_i]));

@@ -884,7 +884,13 @@ class UnitTableDataSource extends _angular_material_table__WEBPACK_IMPORTED_MODU
                     console.log(units[i]);
                     continue;
                 }
-                unit = JSON.parse(JSON.stringify(baseUnit));
+                try {
+                    unit = JSON.parse(JSON.stringify(baseUnit));
+                }
+                catch (error) {
+                    console.log('invalid JSON: ' + baseUnit);
+                    continue;
+                }
                 unit.id = units[i].id;
             }
             else {
