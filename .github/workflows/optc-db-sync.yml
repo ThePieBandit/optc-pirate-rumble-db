@@ -43,12 +43,13 @@ jobs:
           cp -v optc-db/$RUMBLE_FILE optc-pirate-rumble-db/src/assets/data/rumble.json
       - name: Add Files and Commit
         run: |
-          cd optc-pirate-rumble-db
+          pushd optc-pirate-rumble-db
           git config --global user.email "61213359+ThePieBandit@users.noreply.github.com"
           git config --global user.name "ThePieBandit"
           git add src/assets/data
           git diff-index --quiet HEAD || git commit -m "Automatic publish syncing the latest from OPTC-DB"
           git push
+          popd
 
 
       - name: Set up Node.js ${{ matrix.node-version }}
