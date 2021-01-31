@@ -64,6 +64,11 @@ jobs:
             **/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
 
+      - name: debug step
+        run: |
+          pwd
+          ls
+        
       - name: Install dependencies
         run: npm install
 
