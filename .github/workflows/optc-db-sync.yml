@@ -17,12 +17,7 @@ jobs:
     strategy:
         matrix:
             node-version: [12.x]
-    env:
-        UNITS_FILE: common/data/units.js
-        DETAILS_FILE: common/data/details.js
-        EVOLUTIONS_FILE: common/data/evolutions.js
-        UTILS_FILE: common/js/utils.js
-        RUMBLE_FILE: common/data/rumble.json
+            
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout Master
@@ -36,11 +31,11 @@ jobs:
           path: optc-db
       - name: Copy DB Files
         run: |
-          cp -v optc-db/$UNITS_FILE optc-pirate-rumble-db/src/assets/data/units.js
-          cp -v optc-db/$DETAILS_FILE optc-pirate-rumble-db/src/assets/data/details.js
-          cp -v optc-db/$EVOLUTIONS_FILE optc-pirate-rumble-db/src/assets/data/evolutions.js
-          cp -v optc-db/$UTILS_FILE optc-pirate-rumble-db/src/assets/data/utils.js
-          cp -v optc-db/$RUMBLE_FILE optc-pirate-rumble-db/src/assets/data/rumble.json
+          cp -v optc-db/common/data/units.js optc-pirate-rumble-db/src/assets/data/units.js
+          cp -v optc-db/common/data/details.js optc-pirate-rumble-db/src/assets/data/details.js
+          cp -v optc-db/common/data/evolutions.js optc-pirate-rumble-db/src/assets/data/evolutions.js
+          cp -v optc-db/common/js/utils.js optc-pirate-rumble-db/src/assets/data/utils.js
+          cp -v optc-db/common/data/rumble.json optc-pirate-rumble-db/src/assets/data/rumble.json
       - name: Add Files and Commit
         run: |
           cd optc-pirate-rumble-db
@@ -78,7 +73,6 @@ jobs:
           git config --global user.name $user_name
           git config --global user.email $user_email
           git remote set-url origin https://${github_token}@github.com/${repository}
-          ls -R
           npm run deploy
         env:
           user_name: 'github-actions[bot]'
