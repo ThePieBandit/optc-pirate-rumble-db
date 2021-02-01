@@ -1845,7 +1845,27 @@
       /* harmony import */
 
 
-      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      var intl_list_format__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! intl-list-format */
+      "6cLz");
+      /* harmony import */
+
+
+      var intl_list_format__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(intl_list_format__WEBPACK_IMPORTED_MODULE_0__);
+      /* harmony import */
+
+
+      var intl_list_format_locale_data_en__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! intl-list-format/locale-data/en */
+      "V8Jz");
+      /* harmony import */
+
+
+      var intl_list_format_locale_data_en__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(intl_list_format_locale_data_en__WEBPACK_IMPORTED_MODULE_1__);
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/core */
       "fXoL");
 
@@ -2034,7 +2054,7 @@
         return new (t || EffectPipe)();
       };
 
-      EffectPipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
+      EffectPipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefinePipe"]({
         name: "effect",
         type: EffectPipe,
         pure: true
@@ -2042,8 +2062,8 @@
       /*@__PURE__*/
 
       (function () {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](EffectPipe, [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵsetClassMetadata"](EffectPipe, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Pipe"],
           args: [{
             name: 'effect'
           }]
