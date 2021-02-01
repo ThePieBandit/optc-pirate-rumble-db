@@ -1,5 +1,15 @@
 <h1>Filters</h1>
 <form #filterForm="ngForm" (ngSubmit)="handleFormChange(filterForm)">
+  <!-- <mat-form-field> -->
+  <!-- <mat-chip-list [selectable]="selectable">
+  	<mat-chip *ngFor="let chip of type" [removable]="removable" (removed)="remove(filterForm, 'type' ,chip)">{{chip}}
+  		<mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+  	</mat-chip>
+  	<mat-chip *ngFor="let chip of class" [removable]="true">{{chip}}
+  		<mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+  	</mat-chip>
+  </mat-chip-list> -->
+<!-- </mat-form-field> -->
   <!--
   <mat-card>
     <mat-card-title>Base Data Sources</mat-card-title>
@@ -109,6 +119,7 @@
         <mat-button-toggle value="Accuracy"  matTooltip="Accuracy"><img src="assets/images/pirates_arena_miss_down.png" width="48" height="48"/></mat-button-toggle>
         <mat-button-toggle value="Blow Away"  matTooltip="Blow Away"><img src="assets/images/pirates_arena_KnockBack_down.png" width="48" height="48"/></mat-button-toggle>
         <mat-button-toggle value="Special CT"  matTooltip="Special CT"><img src="assets/images/pirates_arena_SP_speed_down.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="time"  matTooltip="Damage over time"><img src="assets/images/pirates_arena_effect_icon_continue_damage.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
@@ -120,7 +131,6 @@
         <mat-button-toggle value="atk"  matTooltip="ATK stat based damage">ATK Stat</mat-button-toggle>
         <mat-button-toggle value="fixed"  matTooltip="Fixed damage amount">Fixed Damage</mat-button-toggle>
         <mat-button-toggle value="cut"  matTooltip="Percentage health cut">Percent Cut</mat-button-toggle>
-        <mat-button-toggle value="time"  matTooltip="Damage over time"><img src="assets/images/pirates_arena_effect_icon_continue_damage.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
@@ -131,16 +141,16 @@
       <mat-button-toggle-group fxLayout="row wrap" aria-label="Boon Filter" [(ngModel)]="recharge" name="recharge" multiple (change)="handleFormChange(filterForm)">
         <mat-button-toggle value="RCV"  matTooltip="RCV stat based healing">RCV Stat</mat-button-toggle>
         <mat-button-toggle value="fixed"  matTooltip="Fixed recovery amount">Fixed Heal</mat-button-toggle>
-        <mat-button-toggle value="percentage"  matTooltip="Percentage healing">Percent Heal</mat-button-toggle>
-        <mat-button-toggle value="Special CT"  matTooltip="Charge a percentage of specials"><img src="assets/images/pirates_arena_effect_icon_special_cure.png" width="48" height="48"/></mat-button-toggle>
+        <mat-button-toggle value="percentage"  matTooltip="Heal by a percentage of max HP">Percent Heal</mat-button-toggle>
+        <mat-button-toggle value="Special CT"  matTooltip="Charge special by a percentage of its charge time"><img src="assets/images/pirates_arena_effect_icon_special_cure.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
 
   <mat-card>
-    <mat-card-title>Boons</mat-card-title>
+    <mat-card-title>Add Status</mat-card-title>
     <mat-card-actions align="start">
-      <mat-button-toggle-group fxLayout="row wrap" aria-label="Boon Filter" [(ngModel)]="boons" name="boons" multiple (change)="handleFormChange(filterForm)">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Hindrance Filter" [(ngModel)]="hinderances" name="hinderances" multiple (change)="handleFormChange(filterForm)">
         <mat-button-toggle value="Action Bind"  matTooltip="Action Bind"><img src="assets/images/pirates_arena_effect_icon_action_cancel.png" width="48" height="48"/></mat-button-toggle>
         <mat-button-toggle value="Silence"  matTooltip="Silence, aka Special Bind"><img src="assets/images/pirates_arena_effect_icon_special_cancel.png" width="48" height="48"/></mat-button-toggle>
         <mat-button-toggle value="Paralysis"  matTooltip="Paralysis"><img src="assets/images/pirates_arena_effect_icon_paralysis.png" width="48" height="48"/></mat-button-toggle>
@@ -148,16 +158,16 @@
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
-
   <mat-card>
-    <mat-card-title>Hindrances</mat-card-title>
+    <mat-card-title>Reduce Status</mat-card-title>
     <mat-card-actions align="start">
-      <mat-button-toggle-group fxLayout="row wrap" aria-label="Hindrance Filter" [(ngModel)]="hinderances" name="hinderances" multiple (change)="handleFormChange(filterForm)">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Boon Filter" [(ngModel)]="boons" name="boons" multiple (change)="handleFormChange(filterForm)">
         <mat-button-toggle value="Action Bind"  matTooltip="Action Bind"><img src="assets/images/pirates_arena_effect_icon_action_cancel.png" width="48" height="48"/></mat-button-toggle>
         <mat-button-toggle value="Silence"  matTooltip="Silence, aka Special Bind"><img src="assets/images/pirates_arena_effect_icon_special_cancel.png" width="48" height="48"/></mat-button-toggle>
         <mat-button-toggle value="Paralysis"  matTooltip="Paralysis"><img src="assets/images/pirates_arena_effect_icon_paralysis.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
+
 </form>
 <div class="warning"><h2>NOTE: This site pulls from <a href="http://optc-db.github.io/">http://optc-db.github.io/</a>, which is currently missing some pirate rumble data.</h2></div>

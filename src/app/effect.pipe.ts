@@ -1,5 +1,5 @@
-import "intl-list-format";
-import "intl-list-format/locale-data/en";
+import 'intl-list-format';
+import 'intl-list-format/locale-data/en';
 import { Pipe, PipeTransform } from '@angular/core';
 import { Effect } from './model/rumble';
 

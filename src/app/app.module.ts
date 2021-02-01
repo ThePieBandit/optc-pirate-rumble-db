@@ -15,6 +15,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSortModule } from '@angular/material/sort';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
+import { MatChipsModule } from '@angular/material/chips';
 import { MatButtonModule } from '@angular/material/button';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
@@ -50,6 +51,7 @@ import { DecoratePipe } from './decorate.pipe';
     MatFormFieldModule,
     MatInputModule,
     MatTooltipModule,
+    MatChipsModule,
     MatPaginatorModule,
     MatExpansionModule,
     MatSortModule,

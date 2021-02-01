@@ -1,3 +1,10 @@
+### 1.0.4
+* iOS fix (thanks to nagarian!)
+* Change in style on selected filters
+* Renamed Boons and Hindrances to Remove Status and Add Status
+* Moved Provoke to Add Status
+* Moved Damage Over Time to Debuff
+
 ### 1.0.3
 * Fixed insecure image content warning
 
