@@ -9,6 +9,10 @@ mat-button-toggle {
   border-width: 1px;
 }
 
+.mat-button-toggle-checked {
+  background-color: #444499;
+}
+
 
 .warning {
 	text-align: right;
