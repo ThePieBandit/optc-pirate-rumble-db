@@ -1446,79 +1446,85 @@
       /* harmony import */
 
 
-      var _angular_material_button__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+      var _angular_material_chips__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+      /*! @angular/material/chips */
+      "A5z7");
+      /* harmony import */
+
+
+      var _angular_material_button__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
       /*! @angular/material/button */
       "bTqV");
       /* harmony import */
 
 
-      var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+      var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
       /*! @angular/material/expansion */
       "7EHt");
       /* harmony import */
 
 
-      var _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+      var _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
       /*! @angular/material/button-toggle */
       "jaxi");
       /* harmony import */
 
 
-      var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+      var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
       /*! @angular/material/toolbar */
       "/t3+");
       /* harmony import */
 
 
-      var _angular_material_icon__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+      var _angular_material_icon__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
       /*! @angular/material/icon */
       "NFeN");
       /* harmony import */
 
 
-      var _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+      var _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
       /*! @angular/material/slide-toggle */
       "1jcm");
       /* harmony import */
 
 
-      var _angular_material_select__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+      var _angular_material_select__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
       /*! @angular/material/select */
       "d3UM");
       /* harmony import */
 
 
-      var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
+      var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
       /*! @angular/material/form-field */
       "kmnG");
       /* harmony import */
 
 
-      var _angular_material_divider__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+      var _angular_material_divider__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
       /*! @angular/material/divider */
       "f0Cb");
       /* harmony import */
 
 
-      var _marked_pipe__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+      var _marked_pipe__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
       /*! ./marked.pipe */
       "BPzJ");
       /* harmony import */
 
 
-      var _effect_pipe__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
+      var _effect_pipe__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
       /*! ./effect.pipe */
       "ihVn");
       /* harmony import */
 
 
-      var _truncate_pipe__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
+      var _truncate_pipe__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(
       /*! ./truncate.pipe */
       "7arH");
       /* harmony import */
 
 
-      var _decorate_pipe__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(
+      var _decorate_pipe__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(
       /*! ./decorate.pipe */
       "m4kl");
 
@@ -1535,13 +1541,13 @@
           return new (t || AppModule)();
         },
         providers: [],
-        imports: [[_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_9__["MatTableModule"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_24__["MatDividerModule"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_23__["MatFormFieldModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_11__["MatInputModule"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_12__["MatTooltipModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_10__["MatPaginatorModule"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_17__["MatExpansionModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_18__["MatButtonToggleModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_16__["MatButtonModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_15__["MatCardModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_22__["MatSelectModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_19__["MatToolbarModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_20__["MatIconModule"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_21__["MatSlideToggleModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_14__["MatSidenavModule"]]]
+        imports: [[_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_9__["MatTableModule"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_25__["MatDividerModule"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_24__["MatFormFieldModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_11__["MatInputModule"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_12__["MatTooltipModule"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_16__["MatChipsModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_10__["MatPaginatorModule"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_18__["MatExpansionModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_19__["MatButtonToggleModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_17__["MatButtonModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_15__["MatCardModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_23__["MatSelectModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_20__["MatToolbarModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_21__["MatIconModule"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_22__["MatSlideToggleModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_14__["MatSidenavModule"]]]
       });
 
       (function () {
         (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, {
-          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _filters_filters_component__WEBPACK_IMPORTED_MODULE_5__["FiltersComponent"], _changelog_changelog_component__WEBPACK_IMPORTED_MODULE_6__["ChangelogComponent"], _unit_table_unit_table_component__WEBPACK_IMPORTED_MODULE_8__["UnitTableComponent"], _marked_pipe__WEBPACK_IMPORTED_MODULE_25__["MarkedPipe"], _truncate_pipe__WEBPACK_IMPORTED_MODULE_27__["TruncatePipe"], _effect_pipe__WEBPACK_IMPORTED_MODULE_26__["EffectPipe"], _decorate_pipe__WEBPACK_IMPORTED_MODULE_28__["DecoratePipe"]],
-          imports: [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_9__["MatTableModule"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_24__["MatDividerModule"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_23__["MatFormFieldModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_11__["MatInputModule"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_12__["MatTooltipModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_10__["MatPaginatorModule"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_17__["MatExpansionModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_18__["MatButtonToggleModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_16__["MatButtonModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_15__["MatCardModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_22__["MatSelectModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_19__["MatToolbarModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_20__["MatIconModule"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_21__["MatSlideToggleModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_14__["MatSidenavModule"]]
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _filters_filters_component__WEBPACK_IMPORTED_MODULE_5__["FiltersComponent"], _changelog_changelog_component__WEBPACK_IMPORTED_MODULE_6__["ChangelogComponent"], _unit_table_unit_table_component__WEBPACK_IMPORTED_MODULE_8__["UnitTableComponent"], _marked_pipe__WEBPACK_IMPORTED_MODULE_26__["MarkedPipe"], _truncate_pipe__WEBPACK_IMPORTED_MODULE_28__["TruncatePipe"], _effect_pipe__WEBPACK_IMPORTED_MODULE_27__["EffectPipe"], _decorate_pipe__WEBPACK_IMPORTED_MODULE_29__["DecoratePipe"]],
+          imports: [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_9__["MatTableModule"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_25__["MatDividerModule"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_24__["MatFormFieldModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_11__["MatInputModule"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_12__["MatTooltipModule"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_16__["MatChipsModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_10__["MatPaginatorModule"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_18__["MatExpansionModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_19__["MatButtonToggleModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_17__["MatButtonModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_15__["MatCardModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_23__["MatSelectModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_20__["MatToolbarModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_21__["MatIconModule"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_22__["MatSlideToggleModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_14__["MatSidenavModule"]]
         });
       })();
       /*@__PURE__*/
@@ -1551,8 +1557,8 @@
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
           type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
           args: [{
-            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _filters_filters_component__WEBPACK_IMPORTED_MODULE_5__["FiltersComponent"], _changelog_changelog_component__WEBPACK_IMPORTED_MODULE_6__["ChangelogComponent"], _unit_table_unit_table_component__WEBPACK_IMPORTED_MODULE_8__["UnitTableComponent"], _marked_pipe__WEBPACK_IMPORTED_MODULE_25__["MarkedPipe"], _truncate_pipe__WEBPACK_IMPORTED_MODULE_27__["TruncatePipe"], _effect_pipe__WEBPACK_IMPORTED_MODULE_26__["EffectPipe"], _decorate_pipe__WEBPACK_IMPORTED_MODULE_28__["DecoratePipe"]],
-            imports: [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_9__["MatTableModule"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_24__["MatDividerModule"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_23__["MatFormFieldModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_11__["MatInputModule"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_12__["MatTooltipModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_10__["MatPaginatorModule"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_17__["MatExpansionModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_18__["MatButtonToggleModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_16__["MatButtonModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_15__["MatCardModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_22__["MatSelectModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_19__["MatToolbarModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_20__["MatIconModule"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_21__["MatSlideToggleModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_14__["MatSidenavModule"]],
+            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _filters_filters_component__WEBPACK_IMPORTED_MODULE_5__["FiltersComponent"], _changelog_changelog_component__WEBPACK_IMPORTED_MODULE_6__["ChangelogComponent"], _unit_table_unit_table_component__WEBPACK_IMPORTED_MODULE_8__["UnitTableComponent"], _marked_pipe__WEBPACK_IMPORTED_MODULE_26__["MarkedPipe"], _truncate_pipe__WEBPACK_IMPORTED_MODULE_28__["TruncatePipe"], _effect_pipe__WEBPACK_IMPORTED_MODULE_27__["EffectPipe"], _decorate_pipe__WEBPACK_IMPORTED_MODULE_29__["DecoratePipe"]],
+            imports: [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_9__["MatTableModule"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_25__["MatDividerModule"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_24__["MatFormFieldModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_11__["MatInputModule"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_12__["MatTooltipModule"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_16__["MatChipsModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_10__["MatPaginatorModule"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_18__["MatExpansionModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_19__["MatButtonToggleModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_17__["MatButtonModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_15__["MatCardModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_23__["MatSelectModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_20__["MatToolbarModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_21__["MatIconModule"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_22__["MatSlideToggleModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_14__["MatSidenavModule"]],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
           }]
@@ -2212,24 +2218,38 @@
         function FiltersComponent(dataService) {
           _classCallCheck(this, FiltersComponent);
 
-          this.dataService = dataService;
+          this.dataService = dataService; // For MatChipsModule
+
+          this.removable = true;
+          this.selectable = false;
           this.statType = 'RAW';
           this.statBaseValue = 'LEVEL';
           this.hideBaseForms = 'true';
-          this.type = '';
-          this["class"] = '';
-          this.style = '';
-          this.buffs = '';
-          this.debuffs = '';
-          this.damage = '';
-          this.recharge = '';
-          this.boons = '';
-          this.hinderances = '';
+          this.type = [];
+          this["class"] = [];
+          this.style = [];
+          this.buffs = [];
+          this.debuffs = [];
+          this.damage = [];
+          this.recharge = [];
+          this.boons = [];
+          this.hinderances = [];
         }
 
         _createClass(FiltersComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {}
+        }, {
+          key: "remove",
+          value: function remove(formId, filter, item) {
+            var index = formId.form.controls[filter].value.indexOf(item);
+
+            if (index >= 0) {
+              formId.form.controls[filter].value.splice(index, 1);
+            }
+
+            this.handleFormChange(formId);
+          }
         }, {
           key: "handleFormChange",
           value: function handleFormChange(formId) {
@@ -2241,6 +2261,8 @@
         }, {
           key: "computeFilterChain",
           value: function computeFilterChain(formFields) {
+            var _this3 = this;
+
             var filterChain = [];
 
             if (formFields.hideBaseForms.value === 'true') {
@@ -2276,11 +2298,17 @@
             }
 
             if (Array.isArray(formFields.debuffs.value) && formFields.debuffs.value.length) {
-              filterChain.push(this.unitFunc('debuff', function (effect) {
-                return effect.attributes.some(function (attribute) {
-                  return formFields.debuffs.value.includes(attribute);
-                });
-              }));
+              filterChain.push(function (unit) {
+                return _this3.unitFunc('damage', function (effect) {
+                  return formFields.debuffs.value.filter(function (type) {
+                    return type === 'time';
+                  }).includes(effect.type);
+                })(unit) || _this3.unitFunc('debuff', function (effect) {
+                  return effect.attributes.some(function (attribute) {
+                    return formFields.debuffs.value.includes(attribute);
+                  });
+                })(unit);
+              });
             }
 
             if (Array.isArray(formFields.damage.value) && formFields.damage.value.length) {
@@ -2304,11 +2332,19 @@
             }
 
             if (Array.isArray(formFields.hinderances.value) && formFields.hinderances.value.length) {
-              filterChain.push(this.unitFunc('hinderance', function (effect) {
-                return effect.attributes.some(function (attribute) {
-                  return formFields.hinderances.value.includes(attribute);
-                });
-              }));
+              filterChain.push(function (unit) {
+                return _this3.unitFunc('boon', function (effect) {
+                  return effect.attributes.some(function (attribute) {
+                    return formFields.hinderances.value.filter(function (type) {
+                      return type === 'Provoke';
+                    }).includes(attribute);
+                  });
+                })(unit) || _this3.unitFunc('hinderance', function (effect) {
+                  return effect.attributes.some(function (attribute) {
+                    return formFields.hinderances.value.includes(attribute);
+                  });
+                })(unit);
+              });
             }
 
             return filterChain;
@@ -2338,7 +2374,7 @@
         selectors: [["app-filters"]],
         decls: 174,
         vars: 13,
-        consts: [[3, "ngSubmit"], ["filterForm", "ngForm"], ["align", "start"], ["aria-label", "Hide Base Forms", "name", "hideBaseForms", 3, "ngModel", "value", "ngModelChange", "change"], ["value", "true", "matTooltip", "Hide Base Forms"], ["value", "false", "matTooltip", "Show Base Forms"], [3, "inset"], ["fxLayout", "wrap", "aria-label", "Type Filter", "name", "type", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "STR", "matTooltip", "STR"], ["src", "assets/images/filter_attribute_power.png", "width", "48", "height", "48"], ["value", "DEX", "matTooltip", "DEX"], ["src", "assets/images/filter_attribute_technical.png", "width", "48", "height", "48"], ["value", "QCK", "matTooltip", "QCK"], ["src", "assets/images/filter_attribute_speed.png", "width", "48", "height", "48"], ["value", "PSY", "matTooltip", "PSY"], ["src", "assets/images/filter_attribute_heart.png", "width", "48", "height", "48"], ["value", "INT", "matTooltip", "INT"], ["src", "assets/images/filter_attribute_intellect.png", "width", "48", "height", "48"], ["value", "DUAL", "matTooltip", "DUAL"], ["src", "assets/images/filter_attribute_multiplecharacter.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Class Filter", "name", "class", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "Fighter", "matTooltip", "Fighter"], ["src", "assets/images/filter_type_icn_1.png", "width", "48", "height", "48"], ["value", "Slasher", "matTooltip", "Slasher"], ["src", "assets/images/filter_type_icn_2.png", "width", "48", "height", "48"], ["value", "Striker", "matTooltip", "Striker"], ["src", "assets/images/filter_type_icn_3.png", "width", "48", "height", "48"], ["value", "Shooter", "matTooltip", "Shooter"], ["src", "assets/images/filter_type_icn_4.png", "width", "48", "height", "48"], ["value", "Free Spirit", "matTooltip", "Free Spirit"], ["src", "assets/images/filter_type_icn_5.png", "width", "48", "height", "48"], ["value", "Driven", "matTooltip", "Driven"], ["src", "assets/images/filter_type_icn_6.png", "width", "48", "height", "48"], ["value", "Cerebral", "matTooltip", "Cerebral"], ["src", "assets/images/filter_type_icn_7.png", "width", "48", "height", "48"], ["value", "Powerhouse", "matTooltip", "Powerhouse"], ["src", "assets/images/filter_type_icn_8.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Style Filter", "name", "style", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "ATK", "matTooltip", "ATK"], ["src", "assets/images/filter_style_icon_01.png", "width", "48", "height", "48"], ["value", "DEF", "matTooltip", "DEF"], ["src", "assets/images/filter_style_icon_02.png", "width", "48", "height", "48"], ["value", "RCV", "matTooltip", "RCV"], ["src", "assets/images/filter_style_icon_03.png", "width", "48", "height", "48"], ["value", "SPT", "matTooltip", "SPT"], ["src", "assets/images/filter_style_icon_04.png", "width", "48", "height", "48"], ["value", "DBF", "matTooltip", "DBF"], ["src", "assets/images/filter_style_icon_05.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Buff Filter", "name", "buffs", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["src", "assets/images/pirates_arena_attack_up.png", "width", "48", "height", "48"], ["value", "HP", "matTooltip", "HP"], ["src", "assets/images/pirates_arena_strength_up.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_cure_up.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_defence_up.png", "width", "48", "height", "48"], ["value", "SPD", "matTooltip", "SPD"], ["src", "assets/images/pirates_arena_speed_up.png", "width", "48", "height", "48"], ["value", "Critical Hit", "matTooltip", "Critical Hit"], ["src", "assets/images/pirates_arena_critical_up.png", "width", "48", "height", "48"], ["value", "Guard", "matTooltip", "Guard"], ["src", "assets/images/pirates_arena_guard_up.png", "width", "48", "height", "48"], ["value", "Accuracy", "matTooltip", "Accuracy"], ["src", "assets/images/pirates_arena_miss_up.png", "width", "48", "height", "48"], ["value", "Blow Away", "matTooltip", "Blow Away"], ["src", "assets/images/pirates_arena_KnockBack_up.png", "width", "48", "height", "48"], ["value", "Special CT", "matTooltip", "Special CT"], ["src", "assets/images/pirates_arena_SP_speed_up.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Debuff Filter", "name", "debuffs", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["src", "assets/images/pirates_arena_attack_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_strength_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_cure_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_defence_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_speed_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_critical_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_guard_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_miss_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_KnockBack_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_SP_speed_down.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Boon Filter", "name", "damage", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "atk", "matTooltip", "ATK stat based damage"], ["value", "fixed", "matTooltip", "Fixed damage amount"], ["value", "cut", "matTooltip", "Percentage health cut"], ["value", "time", "matTooltip", "Damage over time"], ["src", "assets/images/pirates_arena_effect_icon_continue_damage.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Boon Filter", "name", "recharge", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "RCV", "matTooltip", "RCV stat based healing"], ["value", "fixed", "matTooltip", "Fixed recovery amount"], ["value", "percentage", "matTooltip", "Percentage healing"], ["value", "Special CT", "matTooltip", "Charge a percentage of specials"], ["src", "assets/images/pirates_arena_effect_icon_special_cure.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Boon Filter", "name", "boons", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "Action Bind", "matTooltip", "Action Bind"], ["src", "assets/images/pirates_arena_effect_icon_action_cancel.png", "width", "48", "height", "48"], ["value", "Silence", "matTooltip", "Silence, aka Special Bind"], ["src", "assets/images/pirates_arena_effect_icon_special_cancel.png", "width", "48", "height", "48"], ["value", "Paralysis", "matTooltip", "Paralysis"], ["src", "assets/images/pirates_arena_effect_icon_paralysis.png", "width", "48", "height", "48"], ["value", "Provoke", "matTooltip", "Provoke"], ["src", "assets/images/pirates_arena_effect_icon_taunt.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Hindrance Filter", "name", "hinderances", "multiple", "", 3, "ngModel", "ngModelChange", "change"], [1, "warning"], ["href", "http://optc-db.github.io/"]],
+        consts: [[3, "ngSubmit"], ["filterForm", "ngForm"], ["align", "start"], ["aria-label", "Hide Base Forms", "name", "hideBaseForms", 3, "ngModel", "value", "ngModelChange", "change"], ["value", "true", "matTooltip", "Hide Base Forms"], ["value", "false", "matTooltip", "Show Base Forms"], [3, "inset"], ["fxLayout", "wrap", "aria-label", "Type Filter", "name", "type", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "STR", "matTooltip", "STR"], ["src", "assets/images/filter_attribute_power.png", "width", "48", "height", "48"], ["value", "DEX", "matTooltip", "DEX"], ["src", "assets/images/filter_attribute_technical.png", "width", "48", "height", "48"], ["value", "QCK", "matTooltip", "QCK"], ["src", "assets/images/filter_attribute_speed.png", "width", "48", "height", "48"], ["value", "PSY", "matTooltip", "PSY"], ["src", "assets/images/filter_attribute_heart.png", "width", "48", "height", "48"], ["value", "INT", "matTooltip", "INT"], ["src", "assets/images/filter_attribute_intellect.png", "width", "48", "height", "48"], ["value", "DUAL", "matTooltip", "DUAL"], ["src", "assets/images/filter_attribute_multiplecharacter.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Class Filter", "name", "class", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "Fighter", "matTooltip", "Fighter"], ["src", "assets/images/filter_type_icn_1.png", "width", "48", "height", "48"], ["value", "Slasher", "matTooltip", "Slasher"], ["src", "assets/images/filter_type_icn_2.png", "width", "48", "height", "48"], ["value", "Striker", "matTooltip", "Striker"], ["src", "assets/images/filter_type_icn_3.png", "width", "48", "height", "48"], ["value", "Shooter", "matTooltip", "Shooter"], ["src", "assets/images/filter_type_icn_4.png", "width", "48", "height", "48"], ["value", "Free Spirit", "matTooltip", "Free Spirit"], ["src", "assets/images/filter_type_icn_5.png", "width", "48", "height", "48"], ["value", "Driven", "matTooltip", "Driven"], ["src", "assets/images/filter_type_icn_6.png", "width", "48", "height", "48"], ["value", "Cerebral", "matTooltip", "Cerebral"], ["src", "assets/images/filter_type_icn_7.png", "width", "48", "height", "48"], ["value", "Powerhouse", "matTooltip", "Powerhouse"], ["src", "assets/images/filter_type_icn_8.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Style Filter", "name", "style", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "ATK", "matTooltip", "ATK"], ["src", "assets/images/filter_style_icon_01.png", "width", "48", "height", "48"], ["value", "DEF", "matTooltip", "DEF"], ["src", "assets/images/filter_style_icon_02.png", "width", "48", "height", "48"], ["value", "RCV", "matTooltip", "RCV"], ["src", "assets/images/filter_style_icon_03.png", "width", "48", "height", "48"], ["value", "SPT", "matTooltip", "SPT"], ["src", "assets/images/filter_style_icon_04.png", "width", "48", "height", "48"], ["value", "DBF", "matTooltip", "DBF"], ["src", "assets/images/filter_style_icon_05.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Buff Filter", "name", "buffs", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["src", "assets/images/pirates_arena_attack_up.png", "width", "48", "height", "48"], ["value", "HP", "matTooltip", "HP"], ["src", "assets/images/pirates_arena_strength_up.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_cure_up.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_defence_up.png", "width", "48", "height", "48"], ["value", "SPD", "matTooltip", "SPD"], ["src", "assets/images/pirates_arena_speed_up.png", "width", "48", "height", "48"], ["value", "Critical Hit", "matTooltip", "Critical Hit"], ["src", "assets/images/pirates_arena_critical_up.png", "width", "48", "height", "48"], ["value", "Guard", "matTooltip", "Guard"], ["src", "assets/images/pirates_arena_guard_up.png", "width", "48", "height", "48"], ["value", "Accuracy", "matTooltip", "Accuracy"], ["src", "assets/images/pirates_arena_miss_up.png", "width", "48", "height", "48"], ["value", "Blow Away", "matTooltip", "Blow Away"], ["src", "assets/images/pirates_arena_KnockBack_up.png", "width", "48", "height", "48"], ["value", "Special CT", "matTooltip", "Special CT"], ["src", "assets/images/pirates_arena_SP_speed_up.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Debuff Filter", "name", "debuffs", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["src", "assets/images/pirates_arena_attack_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_strength_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_cure_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_defence_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_speed_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_critical_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_guard_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_miss_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_KnockBack_down.png", "width", "48", "height", "48"], ["src", "assets/images/pirates_arena_SP_speed_down.png", "width", "48", "height", "48"], ["value", "time", "matTooltip", "Damage over time"], ["src", "assets/images/pirates_arena_effect_icon_continue_damage.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Boon Filter", "name", "damage", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "atk", "matTooltip", "ATK stat based damage"], ["value", "fixed", "matTooltip", "Fixed damage amount"], ["value", "cut", "matTooltip", "Percentage health cut"], ["fxLayout", "row wrap", "aria-label", "Boon Filter", "name", "recharge", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "RCV", "matTooltip", "RCV stat based healing"], ["value", "fixed", "matTooltip", "Fixed recovery amount"], ["value", "percentage", "matTooltip", "Heal by a percentage of max HP"], ["value", "Special CT", "matTooltip", "Charge special by a percentage of its charge time"], ["src", "assets/images/pirates_arena_effect_icon_special_cure.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Hindrance Filter", "name", "hinderances", "multiple", "", 3, "ngModel", "ngModelChange", "change"], ["value", "Action Bind", "matTooltip", "Action Bind"], ["src", "assets/images/pirates_arena_effect_icon_action_cancel.png", "width", "48", "height", "48"], ["value", "Silence", "matTooltip", "Silence, aka Special Bind"], ["src", "assets/images/pirates_arena_effect_icon_special_cancel.png", "width", "48", "height", "48"], ["value", "Paralysis", "matTooltip", "Paralysis"], ["src", "assets/images/pirates_arena_effect_icon_paralysis.png", "width", "48", "height", "48"], ["value", "Provoke", "matTooltip", "Provoke"], ["src", "assets/images/pirates_arena_effect_icon_taunt.png", "width", "48", "height", "48"], ["fxLayout", "row wrap", "aria-label", "Boon Filter", "name", "boons", "multiple", "", 3, "ngModel", "ngModelChange", "change"], [1, "warning"], ["href", "http://optc-db.github.io/"]],
         template: function FiltersComponent_Template(rf, ctx) {
           if (rf & 1) {
             var _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
@@ -2771,27 +2807,33 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "mat-button-toggle", 77);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](119, "img", 78);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "mat-card");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "mat-card-title");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, "Damage Dealer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "mat-card-actions", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "mat-card");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "mat-button-toggle-group", 77);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "mat-card-title");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function FiltersComponent_Template_mat_button_toggle_group_ngModelChange_122_listener($event) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](122, "Damage Dealer");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "mat-card-actions", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "mat-button-toggle-group", 79);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function FiltersComponent_Template_mat_button_toggle_group_ngModelChange_124_listener($event) {
               return ctx.damage = $event;
-            })("change", function FiltersComponent_Template_mat_button_toggle_group_change_122_listener() {
+            })("change", function FiltersComponent_Template_mat_button_toggle_group_change_124_listener() {
               _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r1);
 
               var _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](3);
@@ -2799,27 +2841,21 @@
               return ctx.handleFormChange(_r0);
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "mat-button-toggle", 78);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "mat-button-toggle", 80);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "ATK Stat");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "mat-button-toggle", 79);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "Fixed Damage");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "ATK Stat");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "mat-button-toggle", 80);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "mat-button-toggle", 81);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "Percent Cut");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "Fixed Damage");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "mat-button-toggle", 81);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "mat-button-toggle", 82);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](130, "img", 82);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](130, "Percent Cut");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2885,7 +2921,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "mat-card-title");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, "Boons");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, "Add Status");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2894,7 +2930,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](148, "mat-button-toggle-group", 89);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function FiltersComponent_Template_mat_button_toggle_group_ngModelChange_148_listener($event) {
-              return ctx.boons = $event;
+              return ctx.hinderances = $event;
             })("change", function FiltersComponent_Template_mat_button_toggle_group_change_148_listener() {
               _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r1);
 
@@ -2937,7 +2973,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "mat-card-title");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](159, "Hindrances");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](159, "Reduce Status");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2946,7 +2982,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](161, "mat-button-toggle-group", 98);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function FiltersComponent_Template_mat_button_toggle_group_ngModelChange_161_listener($event) {
-              return ctx.hinderances = $event;
+              return ctx.boons = $event;
             })("change", function FiltersComponent_Template_mat_button_toggle_group_change_161_listener() {
               _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r1);
 
@@ -3033,25 +3069,25 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.debuffs);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](27);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.damage);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](11);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.recharge);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.boons);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.hinderances);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.hinderances);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.boons);
           }
         },
         directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgForm"], _angular_material_card__WEBPACK_IMPORTED_MODULE_3__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_3__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_3__["MatCardActions"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_4__["MatButtonToggleGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_4__["MatButtonToggle"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_5__["MatTooltip"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_6__["MatDivider"]],
-        styles: ["mat-button-toggle-group[_ngcontent-%COMP%] {\n  flex-wrap: wrap;\n  background: rgba(0, 0, 0, 0.1);\n}\n\nmat-button-toggle[_ngcontent-%COMP%] {\n  border-color: rgba(255, 255, 255, 0.12);\n  border-style: solid;\n  border-width: 1px;\n}\n\n.warning[_ngcontent-%COMP%] {\n\ttext-align: right;\n\t\n  width: 100%;\n}\n\n.warning[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n\tbackground-color: yellow;\n\tpadding: 0.5em;\n\ttext-align: left;\n  color: black;\n  border-radius: 0.25em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZmlsdGVycy9maWx0ZXJzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFlO0VBQ2YsOEJBQThCO0FBQ2hDOztBQUVBO0VBQ0UsdUNBQXVDO0VBQ3ZDLG1CQUFtQjtFQUNuQixpQkFBaUI7QUFDbkI7O0FBR0E7Q0FDQyxpQkFBaUI7Q0FDakIsZ0JBQWdCO0VBQ2YsV0FBVztBQUNiOztBQUVBO0NBQ0Msd0JBQXdCO0NBQ3hCLGNBQWM7Q0FDZCxnQkFBZ0I7RUFDZixZQUFZO0VBQ1oscUJBQXFCO0FBQ3ZCIiwiZmlsZSI6InNyYy9hcHAvZmlsdGVycy9maWx0ZXJzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJtYXQtYnV0dG9uLXRvZ2dsZS1ncm91cCB7XG4gIGZsZXgtd3JhcDogd3JhcDtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjEpO1xufVxuXG5tYXQtYnV0dG9uLXRvZ2dsZSB7XG4gIGJvcmRlci1jb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjEyKTtcbiAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcbiAgYm9yZGVyLXdpZHRoOiAxcHg7XG59XG5cblxuLndhcm5pbmcge1xuXHR0ZXh0LWFsaWduOiByaWdodDtcblx0LypmbG9hdDogcmlnaHQ7Ki9cbiAgd2lkdGg6IDEwMCU7XG59XG5cbi53YXJuaW5nIGgyIHtcblx0YmFja2dyb3VuZC1jb2xvcjogeWVsbG93O1xuXHRwYWRkaW5nOiAwLjVlbTtcblx0dGV4dC1hbGlnbjogbGVmdDtcbiAgY29sb3I6IGJsYWNrO1xuICBib3JkZXItcmFkaXVzOiAwLjI1ZW07XG59XG4iXX0= */"]
+        styles: ["mat-button-toggle-group[_ngcontent-%COMP%] {\n  flex-wrap: wrap;\n  background: rgba(0, 0, 0, 0.1);\n}\n\nmat-button-toggle[_ngcontent-%COMP%] {\n  border-color: rgba(255, 255, 255, 0.12);\n  border-style: solid;\n  border-width: 1px;\n}\n\n.mat-button-toggle-checked[_ngcontent-%COMP%] {\n  background-color: #444499;\n}\n\n.warning[_ngcontent-%COMP%] {\n\ttext-align: right;\n\t\n  width: 100%;\n}\n\n.warning[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n\tbackground-color: yellow;\n\tpadding: 0.5em;\n\ttext-align: left;\n  color: black;\n  border-radius: 0.25em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZmlsdGVycy9maWx0ZXJzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFlO0VBQ2YsOEJBQThCO0FBQ2hDOztBQUVBO0VBQ0UsdUNBQXVDO0VBQ3ZDLG1CQUFtQjtFQUNuQixpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBR0E7Q0FDQyxpQkFBaUI7Q0FDakIsZ0JBQWdCO0VBQ2YsV0FBVztBQUNiOztBQUVBO0NBQ0Msd0JBQXdCO0NBQ3hCLGNBQWM7Q0FDZCxnQkFBZ0I7RUFDZixZQUFZO0VBQ1oscUJBQXFCO0FBQ3ZCIiwiZmlsZSI6InNyYy9hcHAvZmlsdGVycy9maWx0ZXJzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJtYXQtYnV0dG9uLXRvZ2dsZS1ncm91cCB7XG4gIGZsZXgtd3JhcDogd3JhcDtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjEpO1xufVxuXG5tYXQtYnV0dG9uLXRvZ2dsZSB7XG4gIGJvcmRlci1jb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjEyKTtcbiAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcbiAgYm9yZGVyLXdpZHRoOiAxcHg7XG59XG5cbi5tYXQtYnV0dG9uLXRvZ2dsZS1jaGVja2VkIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzQ0NDQ5OTtcbn1cblxuXG4ud2FybmluZyB7XG5cdHRleHQtYWxpZ246IHJpZ2h0O1xuXHQvKmZsb2F0OiByaWdodDsqL1xuICB3aWR0aDogMTAwJTtcbn1cblxuLndhcm5pbmcgaDIge1xuXHRiYWNrZ3JvdW5kLWNvbG9yOiB5ZWxsb3c7XG5cdHBhZGRpbmc6IDAuNWVtO1xuXHR0ZXh0LWFsaWduOiBsZWZ0O1xuICBjb2xvcjogYmxhY2s7XG4gIGJvcmRlci1yYWRpdXM6IDAuMjVlbTtcbn1cbiJdfQ== */"]
       });
       /*@__PURE__*/
 
