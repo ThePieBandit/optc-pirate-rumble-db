@@ -85,14 +85,13 @@ export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
     const unitDetails: UnitDetails[] = [];
     let unit: rumble.Unit;
     const units: rumble.Entry[] = rumbleData.units as rumble.Entry[];
+    let vsUnit = false;
 
     for (let i = 0; i < window.units.length; i++){
-      if (i === 3134 || i === 3133) { // Deal with VS unit later
-        continue;
-      }
       if (window.units[i].incomplete ){
           continue;
       }
+      vsUnit = false;
       unitDetail = new UnitDetails();
       unitDetail.id = i + 1;
       unitDetail.complete = !window.units[i].incomplete;
@@ -105,11 +104,19 @@ export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
       unitDetail.baseHp = window.units[i][12];
       unitDetail.baseAtk = window.units[i][13];
       unitDetail.baseRcv = window.units[i][14];
+      // VS units will be handled later
       unitDetail.type = Array.isArray(window.units[i][1]) ? 'DUAL' : window.units[i][1];
       if (Array.isArray(window.units[i][2])) {
-        if (Array.isArray(window.units[i][2][0])) { // dual unit
-          unitDetail.class1 = window.units[i][2][2][0];
-          unitDetail.class2 = window.units[i][2][2][1];
+        if (Array.isArray(window.units[i][2][0])) {
+
+          if (window.units[i][2].length === 2) { // VS unit
+            unitDetail.class1 = window.units[i][2][0][0];
+            unitDetail.class2 = window.units[i][2][0][1];
+            vsUnit = true;
+          } else { // dual unit, length == 3
+            unitDetail.class1 = window.units[i][2][2][0];
+            unitDetail.class2 = window.units[i][2][2][1];
+          }
         } else { // Double class Unit
           unitDetail.class1 = window.units[i][2][0];
           unitDetail.class2 = window.units[i][2][1];
@@ -117,6 +124,21 @@ export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
       } else { // Single class unit
         unitDetail.class1 = window.units[i][2];
       }
+
+      if (vsUnit) {
+        unitDetail.id += 0.1;
+        const unitDetailNameBase = unitDetail.name;
+        unitDetail.name += ' (Character 1)';
+        unitDetail.type = window.units[i][1][0];
+        unitDetails.push(unitDetail);
+        unitDetail = { ...unitDetail};
+        unitDetail.id += 0.1;
+        unitDetail.name = unitDetailNameBase + ' (Character 2)';
+        unitDetail.type = window.units[i][1][1];
+        unitDetail.class1 = window.units[i][2][1][0];
+        unitDetail.class2 = window.units[i][2][1][1];
+      }
+
       unitDetails.push(unitDetail);
     }
 
@@ -139,7 +161,7 @@ export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
         unit = (JSON.parse(JSON.stringify(units[i])) as rumble.Unit);
       }
       unitDetail = unitDetails.find(ud => ud.id === unit.id);
-      if (unitDetail === null) {
+      if (unitDetail === null || unitDetail === undefined) {
         console.log( ' Failed to locate Base Unit Details!!!!!!!!!!! ' + i);
         console.log(unit);
         continue;
@@ -167,7 +189,7 @@ export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
       unit.lvl5Ability = (unit.ability[4].effects as rumble.Effect[]);
       unit.lvl10Special = (unit.special[9].effects as rumble.Effect[]);
       unit.lvl10Cooldown = unit.special[9].cooldown;
-      unit.thumbnailUrl = window.Utils.getThumbnailUrl(unit.id).replace('..', 'https://optc-db.github.io/');
+      unit.thumbnailUrl = window.Utils.getThumbnailUrl(Math.floor(unit.id)).replace('..', 'https://optc-db.github.io/');
       this.database.push(unit);
     }
 

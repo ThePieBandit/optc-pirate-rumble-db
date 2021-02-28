@@ -1,3 +1,6 @@
+### 1.1.0
+* VS units are now supported!
+
 ### 1.0.4
 * iOS fix (thanks to nagarian!)
 * Change in style on selected filters
