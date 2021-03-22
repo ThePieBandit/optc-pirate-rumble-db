@@ -1,0 +1,18 @@
+<mat-sidenav-container>
+  <mat-sidenav #filters mode="side" opened fixedInViewport style="max-width:255px">
+    <app-filters></app-filters>
+    <mat-divider></mat-divider>
+    <app-changelog></app-changelog>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <p>
+      <mat-toolbar>
+        <button (click)="filters.toggle()" mat-icon-button color="basic" aria-label="Example icon button with a menu icon">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>OPTC Pirate Rumble Database</span>
+      </mat-toolbar>
+    </p>
+    <app-unit-table></app-unit-table>
+  </mat-sidenav-content>
+</mat-sidenav-container>

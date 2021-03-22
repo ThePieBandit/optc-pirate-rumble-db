@@ -6,8 +6,8 @@ import { map } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 import { Observable, of as observableOf, merge } from 'rxjs';
 import { BehaviorSubject } from 'rxjs';
-import * as rumble from '../model/rumble';
-import rumbleData from '../../assets/data/rumble.json';
+import * as rumble from '../../../shared/models/rumble';
+import rumbleData from '../../../../assets/data/rumble.json';
 
 declare const window: any;
 

@@ -1,7 +1,7 @@
 import 'intl-list-format';
 import 'intl-list-format/locale-data/en';
 import { Pipe, PipeTransform } from '@angular/core';
-import { Effect } from './model/rumble';
+import { Effect } from '../models/rumble';
 
 declare namespace Intl {
     function getCanonicalLocales(locales: string | string[]): string[];
