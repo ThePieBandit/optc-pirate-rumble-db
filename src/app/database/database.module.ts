@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 import { DatabaseRoutingModule } from './database-routing.module';
 import { DatabaseComponent } from './pages/database/database.component';
@@ -9,13 +8,10 @@ import { UnitTableComponent } from './components/unit-table/unit-table.component
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatInputModule } from '@angular/material/input';
-import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSortModule } from '@angular/material/sort';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatButtonModule } from '@angular/material/button';
-import { MatExpansionModule } from '@angular/material/expansion';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
@@ -38,7 +34,6 @@ import { SharedModule } from '../shared/shared.module';
     MatDividerModule,
     MatFormFieldModule,
     MatInputModule,
-    MatTooltipModule,
     MatChipsModule,
     MatPaginatorModule,
     MatSortModule,
