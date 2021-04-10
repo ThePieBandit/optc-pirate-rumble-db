@@ -1,0 +1,36 @@
+.mat-card-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.unit-name {
+  max-width: 300px;
+}
+.unit-attributes {
+  margin-left: 10px;
+}
+
+.stats {
+  width: 30%;
+}
+
+.stat-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.other-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  margin: 12px 0px;
+}
+
+ul {
+  list-style-type: '- ';
+  margin: 0em 0em 0em 1em;
+  padding: 0;
+}

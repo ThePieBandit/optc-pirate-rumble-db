@@ -1,1 +1,45 @@
-<p>team-builder works!</p>
+<div class="content">
+  <div>
+    <div class="main-team" fxLayout="row wrap">
+      <div *ngFor="let unit of mainTeam; let index=index;" class="unit-container">
+        <app-unit-card
+          [unit]="unit"
+          [teamEffects]="teamEffects"
+          [battleTimer]="battleTimer"
+          (unitClick)="mainTeamUnitClick(index)"
+          (hpChange)="unitHpChange(unit, $event)"
+        ></app-unit-card>
+      </div>
+    </div>
+    <div class="" fxLayout="row wrap">
+      <div *ngFor="let unit of subTeam; let index=index;" class="unit-container">
+        <app-unit-card 
+          [unit]="unit"
+          [teamEffects]="teamEffects"
+          [battleTimer]="battleTimer"
+          (unitClick)="subTeamUnitClick(index)"
+        ></app-unit-card>
+      </div>
+      <!-- <app-team-totals [totals]="totals"></app-team-totals> -->
+    </div>
+    <mat-card class="battle-timer-container">
+      <mat-card-content>
+        <div class="card-header">
+          <h2 class="card-title">Battle Timer: {{battleTimer}}</h2>
+          <h2 class="card-title">Ellapsed Time: {{initialBattleTime - battleTimer}}</h2>
+        </div>
+        <mat-slider
+          [invert]="true"
+          [max]="initialBattleTime"
+          [min]="0"
+          [step]="1"
+          [tickInterval]="10"
+          [(ngModel)]="battleTimer"
+          (change)="battleTimerChange($event)"
+          [thumbLabel]="true"
+        >
+        </mat-slider>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+<mat-card>
+  <div class="mat-card-header">
+    <h2 class="unit-name">{{unit.name}}</h2>
+    <div class="unit-attributes">
+      <img *ngFor="let attribute of attributes"
+        [src]="attribute.img"
+        [alt]="attribute.desc"
+        width="48"
+        height="48"
+      />
+    </div>
+  </div>
+  <mat-card-content>
+    <h3>Ability:</h3>
+    <ul>
+      <span *ngFor="let effect of unit.lvl5Ability" [innerHtml]="effect | effect"></span>
+    </ul>
+    <h3>Special (CT {{unit.lvl10Cooldown}})</h3>
+    <ul>
+      <span *ngFor="let effect of unit.lvl10Special" [innerHtml]="effect | effect"></span>
+    </ul>
+    <div class="other-desc">
+      <section class="stats" *ngIf="unit.stats">
+        <h3>Stats</h3>
+        <div class="stat-container">
+          <span class="stat-key">HP</span>
+          <span class="stat-value">{{unit.stats.hp}}</span>
+        </div>
+        <div class="stat-container">
+          <span class="stat-key">ATK</span>
+          <span class="stat-value">{{unit.stats.atk}}</span>
+        </div>
+        <div class="stat-container">
+          <span class="stat-key">DEF</span>
+          <span class="stat-value">{{unit.stats.def}}</span>
+        </div>
+        <div class="stat-container">
+          <span class="stat-key">RCV</span>
+          <span class="stat-value">{{unit.stats.rcv}}</span>
+        </div>
+        <div class="stat-container">
+          <span class="stat-key">SPD</span>
+          <span class="stat-value">{{unit.stats.spd}}</span>
+        </div>
+      </section>
+      <section class="pattern">
+        <h3>Pattern</h3>
+        <div *ngIf="unit.target">Target: {{unit.target.criteria}}<span *ngIf="unit.target.comparator"> ({{unit.target.comparator}})</span></div>
+        <ul [innerHtml]="unit.pattern | pattern"></ul>
+      </section>
+    </div>
+  </mat-card-content>
+</mat-card>

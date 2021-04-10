@@ -1,0 +1,39 @@
+<mat-card>
+  <div class="unit-image-container" (click)="onClick()" [mdePopoverTriggerFor]="unitPopover">
+    <img
+      class="unit-image"
+      mat-card-image
+      [src]="unit != null ? unit.thumbnailUrl : defaultImage"
+      [alt]="unit != null ? unit.name : 'Pick Unit'"
+    />
+  </div>
+  <mat-card-content>
+    <mat-slider
+      *ngIf="unit != null"
+      mat-card-image
+      [(ngModel)]="unit.hp"
+      [max]="100"
+      [min]="0"
+      [step]="1"
+      [tickInterval]="10"
+      [thumbLabel]="true"
+      color="warn"
+      (change)="onHpChange($event)"
+    ></mat-slider>
+    <section class="buffs" *ngIf="unit != null">
+      <div class="buff-container" *ngFor="let buff of buffs">
+        <div class="buff-value">{{buff.value}}</div>
+        <div class="buff-key"><img [src]="buff.img" [alt]="buff.name" [matTooltip]="buff.name" /></div>
+      </div>
+    </section>
+  </mat-card-content>
+</mat-card>
+
+<mde-popover
+  [mdePopoverOverlapTrigger]="false"
+  mdePopoverPositionX="after"
+  #unitPopover="mdePopover"
+  mdePopoverArrowWidth="0"
+>
+  <app-unit-details-card *ngIf="unit" [unit]="unit"></app-unit-details-card>
+</mde-popover>
