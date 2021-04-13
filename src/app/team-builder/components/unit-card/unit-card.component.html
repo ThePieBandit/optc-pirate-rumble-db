@@ -8,7 +8,7 @@
     />
   </div>
   <mat-card-content>
-    <mat-slider
+    <!--Want to try to label this slider as an HP % slider....<span *ngIf="unit != null">Current HP%: {{unit.hp}}</span>--><mat-slider
       *ngIf="unit != null"
       mat-card-image
       [(ngModel)]="unit.hp"

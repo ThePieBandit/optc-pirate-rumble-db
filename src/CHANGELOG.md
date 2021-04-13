@@ -1,3 +1,6 @@
+### 2.0.0
+* Team Builder beta is available! Huge thanks to Cobertor4 for implementing this!
+
 ### 1.1.0
 * VS units are now supported!
 

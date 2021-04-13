@@ -18,6 +18,7 @@ export const buffAppliesToTime = (effect: rumble.Effect, time: number): boolean 
   if (effect.condition.type !== 'time') { return true; }
   switch (effect.condition.comparator) {
     case 'first': return time >= battleTime - effect.condition.count;
+    case 'after': return time <= battleTime - effect.condition.count;
     case 'remaining': return time <= effect.condition.count;
   }
   return false;

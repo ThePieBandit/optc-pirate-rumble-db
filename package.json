@@ -36,12 +36,12 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.1002.0",
+    "@angular-devkit/build-angular": "^0.1002.3",
     "@angular/cli": "~10.1.7",
     "@angular/compiler-cli": "~10.1.6",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.11.1",
+    "@types/node": "^12.20.7",
     "angular-cli-ghpages": "^0.6.2",
     "codelyzer": "^6.0.0",
     "gh-pages": "^3.1.0",
@@ -55,6 +55,6 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.0.2"
+    "typescript": "^4.0.7"
   }
 }

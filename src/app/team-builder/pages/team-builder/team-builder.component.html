@@ -13,7 +13,7 @@
     </div>
     <div class="" fxLayout="row wrap">
       <div *ngFor="let unit of subTeam; let index=index;" class="unit-container">
-        <app-unit-card 
+        <app-unit-card
           [unit]="unit"
           [teamEffects]="teamEffects"
           [battleTimer]="battleTimer"
@@ -26,7 +26,7 @@
       <mat-card-content>
         <div class="card-header">
           <h2 class="card-title">Battle Timer: {{battleTimer}}</h2>
-          <h2 class="card-title">Ellapsed Time: {{initialBattleTime - battleTimer}}</h2>
+          <h2 class="card-title">Elapsed Time: {{initialBattleTime - battleTimer}}</h2>
         </div>
         <mat-slider
           [invert]="true"
