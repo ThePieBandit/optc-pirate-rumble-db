@@ -1,4 +1,6 @@
-export const buffs = [
+import { Attribute } from 'src/app/shared/models/rumble';
+
+export const buffs: Attribute[] = [
   'ATK',
   'HP',
   'RCV',
