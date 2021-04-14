@@ -11,6 +11,7 @@ export interface UnitFilterArgs {
   buffs: string[];
   buffSearch: BuffSearchType;
   excludeIds?: number[];
+  hideBaseForms?: boolean;
 }
 
 @Pipe({
@@ -27,6 +28,9 @@ export class UnitFilterPipe implements PipeTransform {
 
     let filtered = value;
     const nameFilter = arg.filter && arg.filter.toLowerCase();
+    if (arg.hideBaseForms) {
+      filtered = filtered.filter(u => !u.isBaseForm);
+    }
     if (nameFilter) {
       // TODO: filter also by "Others" when available
       // eg for unit 2034 it should be

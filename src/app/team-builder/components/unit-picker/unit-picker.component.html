@@ -17,13 +17,19 @@
       </div>
       <div class="type-filters">
         <app-type-picker (classChange)="typeChange($event)"></app-type-picker>
+        <mat-checkbox
+          name="includeOtherClasses"
+          [(ngModel)]="filter.hideBaseForms"
+          (ngModelChange)="resetPage()">
+          Hide unevolved units
+        </mat-checkbox>
       </div>
       <div class="class-filters">
         <app-class-picker (classChange)="classChange($event)"></app-class-picker>
         <mat-checkbox
           name="includeOtherClasses"
           [(ngModel)]="filter.includeOtherClasses"
-          (ngModelChange)="includeOtherClassesChange()">
+          (ngModelChange)="resetPage()">
           Include other classes
         </mat-checkbox>
       </div>

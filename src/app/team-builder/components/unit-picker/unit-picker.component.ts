@@ -45,6 +45,7 @@ export class UnitPickerComponent implements OnInit {
       buffSearch: 'both',
       includeOtherClasses: true,
       excludeIds: data.team && data.team.map(u => u.id),
+      hideBaseForms: true,
     };
   }
 
@@ -84,7 +85,7 @@ export class UnitPickerComponent implements OnInit {
     this.filter.buffSearch = event.value;
   }
 
-  includeOtherClassesChange(): void {
+  resetPage(): void {
     this.paginator.firstPage();
   }
 }
