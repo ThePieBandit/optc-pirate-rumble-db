@@ -1,6 +1,6 @@
-import { Component, OnInit, Injectable } from '@angular/core';
-import { FormsModule, NgForm, AbstractControl } from '@angular/forms';
-import { UnitTableDataSource } from '../unit-table/unit-table-datasource';
+import { Component, OnInit } from '@angular/core';
+import { NgForm, AbstractControl } from '@angular/forms';
+import { UnitTableDataSource } from '../../services/unit-table-datasource';
 import { Unit, Effect } from '../../../shared/models/rumble';
 
 @Component({

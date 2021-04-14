@@ -15,6 +15,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MdePopoverModule } from '@material-extended/mde';
 import { TeamTotalsComponent } from './components/team-totals/team-totals.component';
 import { UnitDetailsCardComponent } from './components/unit-details-card/unit-details-card.component';
+import UnitService from '../core/services/unit.service';
 
 @NgModule({
   declarations: [
@@ -38,5 +39,8 @@ import { UnitDetailsCardComponent } from './components/unit-details-card/unit-de
     MatDialogModule,
     MdePopoverModule,
   ],
+  providers: [
+    UnitService,
+  ]
 })
 export class TeamBuilderModule { }

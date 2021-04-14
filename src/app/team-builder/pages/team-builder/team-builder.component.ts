@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
-import { UnitTableDataSource } from 'src/app/database/components/unit-table/unit-table-datasource';
+import UnitService from 'src/app/core/services/unit.service';
 import * as rumble from '../../../shared/models/rumble';
 import { UnitPickerComponent, UnitPickerData } from '../../components/unit-picker/unit-picker.component';
 import { isTeamEffect, buffAppliesToTime, isHpBasedEffect, effectAppliesToUnitHp } from '../../../core/utils/effects';
@@ -29,7 +29,7 @@ export class TeamBuilderComponent implements OnInit {
 
   constructor(
     private dialog: MatDialog,
-    dataSource: UnitTableDataSource
+    dataSource: UnitService,
   ) {
     this.battleTimer = this.initialBattleTime;
 
@@ -37,7 +37,7 @@ export class TeamBuilderComponent implements OnInit {
       cost: 0,
     };
 
-    this.units = dataSource.data;
+    this.units = dataSource.getUnits();
 
     this.mainTeam = [];
     for (let index = 1; index <= mainTeamSize; index++) {

@@ -20,6 +20,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDividerModule } from '@angular/material/divider';
 import { SharedModule } from '../shared/shared.module';
+import { UnitTableDataSource } from './services/unit-table-datasource';
+import UnitService from '../core/services/unit.service';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,10 @@ import { SharedModule } from '../shared/shared.module';
     MatIconModule,
     MatSlideToggleModule,
     MatSidenavModule
+  ],
+  providers: [
+    UnitTableDataSource,
+    UnitService,
   ]
 })
 export class DatabaseModule { }
