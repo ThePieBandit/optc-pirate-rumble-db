@@ -1,0 +1,8 @@
+<mat-button-toggle-group fxLayout="row wrap" aria-label="Class Filter" [(ngModel)]="class" name="class" multiple (change)="change()">
+  <mat-button-toggle *ngFor="let c of classes"
+    [value]="c.name"
+  >
+    <img [src]="c.img" width="48" height="48" [matTooltip]="c.name"/>
+  </mat-button-toggle>
+</mat-button-toggle-group>
+

@@ -1,0 +1,7 @@
+<mat-button-toggle-group fxLayout="row wrap" aria-label="Type Filter" [(ngModel)]="type" name="type" multiple (change)="change()">
+  <mat-button-toggle *ngFor="let t of types"
+    [value]="t.name"
+  >
+    <img [src]="t.img" width="48" height="48" [matTooltip]="t.name"/>
+  </mat-button-toggle>
+</mat-button-toggle-group>

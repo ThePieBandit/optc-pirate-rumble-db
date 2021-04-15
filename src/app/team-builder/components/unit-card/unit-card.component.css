@@ -1,0 +1,41 @@
+.unit-image-container {
+  cursor: pointer;
+}
+
+.mat-card-image {
+  margin-bottom: 0px;
+}
+
+.mat-slider-horizontal {
+  padding: 0px;
+  margin-top: -20px;
+  margin-bottom: -9px;
+}
+
+.mat-card-content {
+  min-width: calc(30px * 5); /* display 5 buffs per row */
+  min-height: 132px;
+}
+
+.buffs {
+  max-width: calc(30px * 5); /* display 5 buffs per row */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buff-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.buff-key {
+  width: 30px;
+}
+
+.buff-key img {
+  width: 100%;
+}
+
+.buff-value {
+  text-align: center;
+}

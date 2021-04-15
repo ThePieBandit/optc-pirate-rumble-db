@@ -1,0 +1,70 @@
+<div mat-dialog-title class="title-container">
+  <h2>
+    Pick unit
+  </h2>
+  <div class="buttons">
+    <button *ngIf="current != null" mat-raised-button color="warn" (click)="onUnset()">Unset</button>
+  </div>
+</div>
+<ng-container *ngIf="(units | unitFilter : filter) as filtered">
+  <mat-dialog-content>
+    <fieldset class="search">
+      <legend>Filters</legend>
+      <div class="name-filter">
+        <mat-form-field class="full-width" color="accent">
+          <input matInput placeholder="Search unit" type="text" name="name" [(ngModel)]="filter.filter" />
+        </mat-form-field>
+      </div>
+      <div class="type-filters">
+        <app-type-picker (classChange)="typeChange($event)"></app-type-picker>
+        <mat-checkbox
+          name="includeOtherClasses"
+          [(ngModel)]="filter.hideBaseForms"
+          (ngModelChange)="resetPage()">
+          Hide unevolved units
+        </mat-checkbox>
+      </div>
+      <div class="class-filters">
+        <app-class-picker (classChange)="classChange($event)"></app-class-picker>
+        <mat-checkbox
+          name="includeOtherClasses"
+          [(ngModel)]="filter.includeOtherClasses"
+          (ngModelChange)="resetPage()">
+          Include other classes
+        </mat-checkbox>
+      </div>
+      <div class="buff-filters">
+        <app-buff-picker [buff]="filter.buffs" (buffChange)="buffChange($event)"></app-buff-picker>
+        <p>
+          Search buffs on:
+          <mat-button-toggle-group [(ngModel)]="filter.buffSearch" (change)="buffSearchChange($event)">
+            <mat-button-toggle value="both">Both</mat-button-toggle>
+            <mat-button-toggle value="ability">Ability</mat-button-toggle>
+            <mat-button-toggle value="special">Special</mat-button-toggle>
+          </mat-button-toggle-group>
+        </p>
+      </div>
+    </fieldset>
+    <div class="results" fxLayout="row wrap">
+      <div class="result-container" *ngFor="let unit of filtered | slice:filter.page * filter.limit:filter.page * filter.limit + filter.limit">
+        <img 
+          [src]="unit.thumbnailUrl" 
+          [alt]="unit.name" 
+          class="result"
+          (click)="onPick(unit)"
+          [matTooltip]="unit.name"
+        />
+      </div>
+    </div>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <mat-paginator
+      #paginator
+      [length]="filtered.length"
+      [pageSize]="10"
+      [pageSizeOptions]="[5, 10, 25, 50, 100]"
+      (page)="pageChange($event)"
+    >
+    </mat-paginator>
+  </mat-dialog-actions>
+</ng-container>
