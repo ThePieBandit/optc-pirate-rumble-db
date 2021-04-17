@@ -135,5 +135,8 @@
       }
     }
   },
-  "defaultProject": "optc-pirate-rumble-db"
+  "defaultProject": "optc-pirate-rumble-db",
+  "cli": {
+    "analytics": false
+  }
 }
