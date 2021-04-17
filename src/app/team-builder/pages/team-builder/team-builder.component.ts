@@ -149,7 +149,10 @@ export class TeamBuilderComponent implements OnInit {
       units: this.units,
     };
 
-    const dialogRef = this.dialog.open(UnitPickerComponent, dialogConfig);
+    const dialogRef = this.dialog.open<UnitPickerComponent, UnitPickerData, rumble.Unit>(
+      UnitPickerComponent,
+      dialogConfig
+    );
 
     dialogRef.afterClosed().subscribe(
       data => {

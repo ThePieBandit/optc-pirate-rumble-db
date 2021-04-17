@@ -3,6 +3,7 @@
     Pick unit
   </h2>
   <div class="buttons">
+    <button mat-raised-button color="accent" (click)="reset()">Reset</button>
     <button *ngIf="current != null" mat-raised-button color="warn" (click)="onUnset()">Unset</button>
   </div>
 </div>
@@ -16,7 +17,7 @@
         </mat-form-field>
       </div>
       <div class="type-filters">
-        <app-type-picker (classChange)="typeChange($event)"></app-type-picker>
+        <app-type-picker [type]="filter.types" (classChange)="typeChange($event)"></app-type-picker>
         <mat-checkbox
           name="includeOtherClasses"
           [(ngModel)]="filter.hideBaseForms"
@@ -25,7 +26,7 @@
         </mat-checkbox>
       </div>
       <div class="class-filters">
-        <app-class-picker (classChange)="classChange($event)"></app-class-picker>
+        <app-class-picker [class]="filter.classes" (classChange)="classChange($event)"></app-class-picker>
         <mat-checkbox
           name="includeOtherClasses"
           [(ngModel)]="filter.includeOtherClasses"
