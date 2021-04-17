@@ -5,9 +5,11 @@ import * as rumble from '../../../shared/models/rumble';
 import { UnitPickerComponent, UnitPickerData } from '../../components/unit-picker/unit-picker.component';
 import { isTeamEffect, buffAppliesToTime, isHpBasedEffect, effectAppliesToUnitHp } from '../../../core/utils/effects';
 import { battleTime } from '../../../core/constants/battle';
-import { TeamTotals } from '../../models/team-totals';
 import { MatSliderChange } from '@angular/material/slider';
 import { TeamUnit } from '../../models/team-unit';
+import { Team } from '../../models/team';
+import { UnitClickEvent, UnitHpChangeEvent } from '@team-builder/components/team/team.component';
+import { LocalStorage } from 'ngx-store';
 
 const mainTeamSize = 5;
 const subTeamSize = 3;
@@ -19,37 +21,53 @@ const subTeamSize = 3;
 })
 export class TeamBuilderComponent implements OnInit {
 
-  initialBattleTime = battleTime;
-  mainTeam: TeamUnit[];
-  subTeam: TeamUnit[];
-  units: rumble.Unit[];
+  @LocalStorage()
+  blueTeamIds: number[] = Array.from(Array(mainTeamSize + subTeamSize));
+  @LocalStorage()
+  redTeamIds: number[] = Array.from(Array(mainTeamSize + subTeamSize));
+
+  blueTeam: Team;
+  redTeam: Team;
   battleTimer: number;
-  teamEffects: rumble.Effect[];
-  totals: TeamTotals;
+
+  initialBattleTime = battleTime;
+  units: rumble.Unit[];
 
   constructor(
     private dialog: MatDialog,
     dataSource: UnitService,
   ) {
-    this.battleTimer = this.initialBattleTime;
+    this.units = dataSource.getUnits();
+    this.battleTimer = battleTime;
+    this.blueTeam = this.buildTeam('blue', this.blueTeamIds);
+    this.redTeam = this.buildTeam('red', this.redTeamIds);
+    this.updateBuffs();
+    this.updateDebuffs();
+    this.updateCost();
+  }
 
-    this.totals = {
-      cost: 0,
+  private buildTeam(color: string, ids: number[]): Team {
+    const team: Team = {
+      color,
+      main: [],
+      subs: [],
+      effects: [],
+      totals: {
+        cost: 0,
+      },
     };
 
-    this.units = dataSource.getUnits();
-
-    this.mainTeam = [];
-    for (let index = 1; index <= mainTeamSize; index++) {
-      this.mainTeam.push(null);
+    for (let index = 0; index <= mainTeamSize - 1; index++) {
+      const unit = ids[index] != null ? this.createTeamUnit(this.units.find(u => u.id === ids[index])) : null;
+      team.main.push(unit);
     }
 
-    this.subTeam = [];
-    for (let index = 1; index <= subTeamSize; index++) {
-      this.subTeam.push(null);
+    for (let index = mainTeamSize; index <= ids.length - 1; index++) {
+      const unit = ids[index] != null ? this.createTeamUnit(this.units.find(u => u.id === ids[index])) : null;
+      team.subs.push(unit);
     }
 
-    this.teamEffects = [];
+    return team;
   }
 
   private createTeamUnit(unit: rumble.Unit): TeamUnit {
@@ -66,6 +84,12 @@ export class TeamBuilderComponent implements OnInit {
       effectAppliesToUnitHp(effect, unit.hp);
   }
 
+  private updateAllTeams(): void {
+    this.updateBuffs();
+    this.updateDebuffs();
+    this.updateCost();
+  }
+
   ngOnInit(): void {
   }
 
@@ -73,34 +97,46 @@ export class TeamBuilderComponent implements OnInit {
     // update totals.cost based on main/sub team current state
   }
 
-  updateBuffs(time?: number): void {
-    this.teamEffects = this.mainTeam
-      .filter(unit => unit != null && unit.lvl5Ability != null)
-      .flatMap(unit => unit.lvl5Ability.filter(e => isTeamEffect(e) && this.buffApplies(e, unit, time)))
-    ;
+  private updateBuffs(time?: number): void {
+    const teams = [this.redTeam, this.blueTeam];
+    for (const team of teams) {
+      team.effects = team.main
+        .filter(unit => unit != null && unit.lvl5Ability != null)
+        .flatMap(unit => unit.lvl5Ability.filter(e => isTeamEffect(e) && this.buffApplies(e, unit, time)))
+      ;
+    }
   }
 
-  updateDebuffs(time?: number): void {
-    // update totals.debuffs based on main team current state
+  private updateDebuffs(time?: number): void {
+    const teams = [this.redTeam, this.blueTeam];
+    for (const team of teams) {
+      // TODO
+    }
   }
 
-  mainTeamUnitClick(index: number): void {
-    this.openUnitPicker(this.mainTeam[index], (data) => {
-      this.mainTeam[index] = this.createTeamUnit(data);
-      this.updateBuffs();
-      this.updateDebuffs();
+  unitClick(team: Team, event: UnitClickEvent): void {
+    if (event.main) {
+      this.mainTeamUnitClick(team, event.index);
+    } else {
+      this.subTeamUnitClick(team, event.index);
+    }
+  }
+
+  private mainTeamUnitClick(team: Team, index: number): void {
+    this.openUnitPicker(team, team.main[index], (data) => {
+      team.main[index] = this.createTeamUnit(data);
+      this.updateAllTeams();
+    });
+  }
+
+  private subTeamUnitClick(team: Team, index: number): void {
+    this.openUnitPicker(team, team.subs[index], (data) => {
+      team.subs[index] = this.createTeamUnit(data);
       this.updateCost();
     });
   }
 
-  subTeamUnitClick(index: number): void {
-    this.openUnitPicker(this.subTeam[index], (data) => {
-      this.subTeam[index] = this.createTeamUnit(data);
-      this.updateCost();
-    });
-  }
-
-  openUnitPicker(current: rumble.Unit, onPick: (unit: rumble.Unit) => void): void {
+  private openUnitPicker(team: Team, current: rumble.Unit, onPick: (unit: rumble.Unit) => void): void {
     const dialogConfig = new MatDialogConfig<UnitPickerData>();
 
     dialogConfig.hasBackdrop = true;
@@ -108,7 +144,7 @@ export class TeamBuilderComponent implements OnInit {
     dialogConfig.autoFocus = true;
 
     dialogConfig.data = {
-      team: [...this.mainTeam, ...this.subTeam].filter(u => u != null),
+      team: [...team.main, ...team.subs].filter(u => u != null),
       current,
       units: this.units,
     };
@@ -120,6 +156,9 @@ export class TeamBuilderComponent implements OnInit {
         if (data !== undefined) {
           // allow null so we can unset units
           onPick(data);
+          // save both team ids since here we dont know which one was modified
+          this.blueTeamIds = [...this.blueTeam.main, ...this.blueTeam.subs].map(u => u && u.id);
+          this.redTeamIds = [...this.redTeam.main, ...this.redTeam.subs].map(u => u && u.id);
         }
       }
     );
@@ -130,11 +169,8 @@ export class TeamBuilderComponent implements OnInit {
     this.updateDebuffs(event.value);
   }
 
-  unitHpChange(unit: TeamUnit, newHp: number): void {
-    if (unit.hp !== newHp) {
-      console.warn('they are different!!!!!!!!!!!!!!!!');
-    }
-    if (unit.lvl5Ability.some(e => isHpBasedEffect(e))) {
+  unitHpChange(event: UnitHpChangeEvent): void {
+    if (event.unit.lvl5Ability.some(e => isHpBasedEffect(e))) {
       this.updateBuffs(this.battleTimer);
       this.updateDebuffs(this.battleTimer);
     }

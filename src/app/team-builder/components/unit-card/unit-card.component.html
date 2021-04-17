@@ -1,4 +1,4 @@
-<mat-card>
+<mat-card [ngClass]="style === 'red' ? 'red-card' : 'blue-card'">
   <div class="unit-image-container" (click)="onClick()" [mdePopoverTriggerFor]="unitPopover">
     <img
       class="unit-image"

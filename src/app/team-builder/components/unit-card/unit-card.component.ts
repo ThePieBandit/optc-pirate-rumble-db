@@ -45,6 +45,9 @@ export class UnitCardComponent implements OnInit {
     this.updateBuffs();
   }
 
+  @Input()
+  style?: 'red' | 'blue';
+
   @Output()
   public unitClick = new EventEmitter<boolean>();
 

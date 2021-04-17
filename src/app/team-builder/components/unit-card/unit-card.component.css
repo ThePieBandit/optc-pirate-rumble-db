@@ -1,3 +1,11 @@
+.blue-card.mat-card {
+  background-color: navy;
+}
+
+.red-card.mat-card {
+  background-color: crimson;
+}
+
 .unit-image-container {
   cursor: pointer;
 }
@@ -13,12 +21,12 @@
 }
 
 .mat-card-content {
-  min-width: calc(30px * 5); /* display 5 buffs per row */
+  min-width: calc(25px * 5); /* display 5 buffs per row */
   min-height: 132px;
 }
 
 .buffs {
-  max-width: calc(30px * 5); /* display 5 buffs per row */
+  max-width: calc(26px * 5); /* display 5 buffs per row */
   display: flex;
   flex-wrap: wrap;
 }
@@ -26,6 +34,7 @@
 .buff-container {
   display: flex;
   flex-direction: column;
+  margin-left: -4px;
 }
 
 .buff-key {

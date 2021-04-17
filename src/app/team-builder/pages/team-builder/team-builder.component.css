@@ -5,14 +5,8 @@
   justify-content: center;
 }
 
-.team-totals {
-  width: 125px;
-}
-
-.team-total-item,
-.card-header {
-  display: flex;
-  justify-content: space-between;
+.teams-divider {
+  height: 15px;
 }
 
 .battle-timer-container {
