@@ -3,7 +3,7 @@ import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import UnitService from 'src/app/core/services/unit.service';
 import * as rumble from '../../../shared/models/rumble';
 import { UnitPickerComponent, UnitPickerData } from '../../components/unit-picker/unit-picker.component';
-import { isTeamEffect, buffAppliesToTime, isHpBasedEffect, effectAppliesToUnitHp } from '../../../core/utils/effects';
+import { isTeamEffect, isDebuff, buffAppliesToTime, isHpBasedEffect, effectAppliesToUnitHp } from '../../../core/utils/effects';
 import { battleTime } from '../../../core/constants/battle';
 import { MatSliderChange } from '@angular/material/slider';
 import { TeamUnit } from '../../models/team-unit';
@@ -108,10 +108,17 @@ export class TeamBuilderComponent implements OnInit {
   }
 
   private updateDebuffs(time?: number): void {
-    const teams = [this.redTeam, this.blueTeam];
-    for (const team of teams) {
-      // TODO
+    const redDebuffs = this.getDebuffs(this.redTeam, time);
+    this.blueTeam.effects.push(...redDebuffs);
+
+    const blueDebuffs = this.getDebuffs(this.blueTeam, time);
+    this.redTeam.effects.push(...blueDebuffs);
     }
+
+  private getDebuffs(team: Team, time?: number): rumble.Effect[] {
+    return team.main
+      .filter(unit => unit != null && unit.lvl5Ability != null)
+      .flatMap(unit => unit.lvl5Ability.filter(e => isDebuff(e) && this.buffApplies(e, unit, time)));
   }
 
   unitClick(team: Team, event: UnitClickEvent): void {
