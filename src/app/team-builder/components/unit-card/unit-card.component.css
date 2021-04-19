@@ -21,12 +21,12 @@
 }
 
 .mat-card-content {
-  min-width: calc(25px * 5); /* display 5 buffs per row */
-  min-height: 132px;
+  width: calc(26px * 5); /* display 5 buffs per row */
+  min-height: 152px;
 }
 
 .buffs {
-  max-width: calc(26px * 5); /* display 5 buffs per row */
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }

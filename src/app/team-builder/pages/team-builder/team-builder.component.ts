@@ -76,6 +76,8 @@ export class TeamBuilderComponent implements OnInit {
     }
     return Object.assign(unit, {
       hp: 100,
+      cooldown: 0,
+      maxCooldown: unit.lvl10Cooldown,
     });
   }
 
@@ -113,7 +115,7 @@ export class TeamBuilderComponent implements OnInit {
 
     const blueDebuffs = this.getDebuffs(this.blueTeam, time);
     this.redTeam.effects.push(...blueDebuffs);
-    }
+  }
 
   private getDebuffs(team: Team, time?: number): rumble.Effect[] {
     return team.main
@@ -175,6 +177,7 @@ export class TeamBuilderComponent implements OnInit {
   }
 
   battleTimerChange(event: MatSliderChange): void {
+    this.battleTimer = event.value;
     this.updateBuffs(event.value);
     this.updateDebuffs(event.value);
   }
