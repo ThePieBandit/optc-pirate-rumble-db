@@ -18,6 +18,8 @@ import { UnitDetailsCardComponent } from './components/unit-details-card/unit-de
 import UnitService from '../core/services/unit.service';
 import { TeamComponent } from './components/team/team.component';
 import { MatDividerModule } from '@angular/material/divider';
+import { TeamBuilderOptionsComponent } from './components/team-builder-options/team-builder-options.component';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { MatDividerModule } from '@angular/material/divider';
     UnitPickerComponent,
     TeamTotalsComponent,
     UnitDetailsCardComponent,
-    TeamComponent
+    TeamComponent,
+    TeamBuilderOptionsComponent
   ],
   imports: [
     SharedModule,
@@ -42,6 +45,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatDialogModule,
     MdePopoverModule,
     MatDividerModule,
+    MatListModule,
   ],
   providers: [
     UnitService,

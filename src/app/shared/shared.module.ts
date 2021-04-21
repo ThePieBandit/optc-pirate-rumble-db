@@ -14,10 +14,15 @@ import { UnitFilterPipe } from './pipes/unit-filter.pipe';
 import { ClassPickerComponent } from './components/class-picker/class-picker.component';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { TypePickerComponent } from './components/type-picker/type-picker.component';
-import { MatButton, MatButtonModule } from '@angular/material/button';
+import { MatButtonModule } from '@angular/material/button';
 import { PatternPipe } from './pipes/pattern.pipe';
 import { BuffPickerComponent } from './components/buff-picker/buff-picker.component';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -42,6 +47,11 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatDialogModule,
     MatButtonModule,
     MatButtonToggleModule,
+    MatDividerModule,
+    MatIconModule,
+    MatSlideToggleModule,
+    MatSidenavModule,
+    MatToolbarModule,
   ],
   exports: [
     CommonModule,
@@ -53,6 +63,11 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatDialogModule,
     MatButtonModule,
     MatButtonToggleModule,
+    MatDividerModule,
+    MatIconModule,
+    MatSlideToggleModule,
+    MatSidenavModule,
+    MatToolbarModule,
     ChangelogComponent,
     DecoratePipe,
     EffectPipe,

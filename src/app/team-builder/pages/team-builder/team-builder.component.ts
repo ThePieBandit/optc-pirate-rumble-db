@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import UnitService from 'src/app/core/services/unit.service';
 import * as rumble from '../../../shared/models/rumble';
@@ -10,6 +10,8 @@ import { TeamUnit } from '../../models/team-unit';
 import { Team } from '../../models/team';
 import { UnitClickEvent, UnitHpChangeEvent } from '@team-builder/components/team/team.component';
 import { LocalStorage } from 'ngx-store';
+import { OptionEvent } from '@team-builder/components/team-builder-options/team-builder-options.component';
+import { MatSidenav } from '@angular/material/sidenav';
 
 const mainTeamSize = 5;
 const subTeamSize = 3;
@@ -26,6 +28,9 @@ export class TeamBuilderComponent implements OnInit {
   @LocalStorage()
   redTeamIds: number[] = Array.from(Array(mainTeamSize + subTeamSize));
 
+  @ViewChild('optionsNav')
+  optionsNav: MatSidenav;
+
   blueTeam: Team;
   redTeam: Team;
   battleTimer: number;
@@ -41,9 +46,7 @@ export class TeamBuilderComponent implements OnInit {
     this.battleTimer = battleTime;
     this.blueTeam = this.buildTeam('blue', this.blueTeamIds);
     this.redTeam = this.buildTeam('red', this.redTeamIds);
-    this.updateBuffs();
-    this.updateDebuffs();
-    this.updateCost();
+    this.updateAllTeams();
   }
 
   private buildTeam(color: string, ids: number[]): Team {
@@ -188,4 +191,29 @@ export class TeamBuilderComponent implements OnInit {
       this.updateDebuffs(this.battleTimer);
     }
   }
+
+  optionClick(event: OptionEvent): void {
+    console.log('option clicked', event);
+    switch (event.type) {
+      case 'startOver':
+        this.onStartOver();
+        break;
+    }
+    this.optionsNav.close();
+  }
+
+  private onStartOver(): void {
+    this.resetTeamUnits(this.blueTeam);
+    this.resetTeamUnits(this.redTeam);
+    this.redTeamIds = this.redTeamIds.map(x => null);
+    this.blueTeamIds = this.blueTeamIds.map(x => null);
+    this.battleTimer = battleTime;
+    this.updateAllTeams();
+  }
+
+  private resetTeamUnits(team: Team): void {
+    team.main = team.main.map(x => null);
+    team.subs = team.subs.map(x => null);
+  }
+
 }

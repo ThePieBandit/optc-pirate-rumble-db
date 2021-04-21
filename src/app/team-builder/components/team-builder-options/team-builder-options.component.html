@@ -1,0 +1,7 @@
+<mat-action-list role="list">
+  <div mat-subheader>Team options</div>
+  <ng-container *ngFor="let option of teamOptions">
+    <button mat-list-item (click)="triggerOption(option.type)">{{option.text}}</button>
+    <mat-divider></mat-divider>
+  </ng-container>
+</mat-action-list>

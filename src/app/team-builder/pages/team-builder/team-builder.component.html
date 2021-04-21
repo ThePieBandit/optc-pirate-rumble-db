@@ -1,49 +1,51 @@
-<div class="content">
-  <div>
-    <app-team
-      [team]="blueTeam"
-      (unitClick)="unitClick(blueTeam, $event)"
-      (unitHpChange)="unitHpChange($event)"
-      [battleTimer]="battleTimer"
-    ></app-team>
-    <mat-divider class="teams-divider"></mat-divider>
-    <app-team
-      [team]="redTeam"
-      (unitClick)="unitClick(redTeam, $event)"
-      (unitHpChange)="unitHpChange($event.unit)"
-      [battleTimer]="battleTimer"
-    ></app-team>
-    <mat-card class="battle-timer-container">
-      <mat-card-content>
-        <div class="card-header">
-          <h2 class="card-title">Battle Timer: {{battleTimer}}</h2>
-          <h2 class="card-title">Elapsed Time: {{initialBattleTime - battleTimer}}</h2>
-        </div>
-        <mat-slider
-          [invert]="true"
-          [max]="initialBattleTime"
-          [min]="0"
-          [step]="1"
-          [tickInterval]="10"
-          [(ngModel)]="battleTimer"
-          (input)="battleTimerChange($event)"
-          [thumbLabel]="true"
-        >
-        </mat-slider>
-      </mat-card-content>
-    </mat-card>
-  </div>
-</div>
-
-<!-- <div style="color: white; width: 100%;">
-  <div style="width: 50%; display: inline-block; float: left;">
-    <pre>
-      {{blueTeam | json}}
-    </pre>
-  </div>
-  <div style="width: 50%; display: inline-block; float: left;">
-    <pre>
-      {{redTeam | json}}
-    </pre>
-  </div>
-</div> -->
+<mat-sidenav-container>
+  <mat-sidenav #optionsNav mode="over" style="min-width: 200px;">
+    <app-team-builder-options (optionClick)="optionClick($event)"></app-team-builder-options>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div>
+      <mat-toolbar>
+        <button (click)="optionsNav.toggle()" mat-icon-button color="basic" aria-label="Open menu">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>OPTC Pirate Rumble Team Builder</span>
+      </mat-toolbar>
+    </div>
+    <div class="content">
+      <div>
+        <app-team
+          [team]="blueTeam"
+          (unitClick)="unitClick(blueTeam, $event)"
+          (unitHpChange)="unitHpChange($event)"
+          [battleTimer]="battleTimer"
+        ></app-team>
+        <mat-divider class="teams-divider"></mat-divider>
+        <app-team
+          [team]="redTeam"
+          (unitClick)="unitClick(redTeam, $event)"
+          (unitHpChange)="unitHpChange($event.unit)"
+          [battleTimer]="battleTimer"
+        ></app-team>
+        <mat-card class="battle-timer-container">
+          <mat-card-content>
+            <div class="card-header">
+              <h2 class="card-title">Battle Timer: {{battleTimer}}</h2>
+              <h2 class="card-title">Elapsed Time: {{initialBattleTime - battleTimer}}</h2>
+            </div>
+            <mat-slider
+              [invert]="true"
+              [max]="initialBattleTime"
+              [min]="0"
+              [step]="1"
+              [tickInterval]="10"
+              [(ngModel)]="battleTimer"
+              (input)="battleTimerChange($event)"
+              [thumbLabel]="true"
+            >
+            </mat-slider>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
