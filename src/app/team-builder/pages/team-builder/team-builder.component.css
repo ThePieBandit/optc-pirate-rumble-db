@@ -13,6 +13,11 @@
   margin-top: 10px;
 }
 
+.battle-timer-container .card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .battle-timer-container .mat-slider {
   width: 100%;
 }

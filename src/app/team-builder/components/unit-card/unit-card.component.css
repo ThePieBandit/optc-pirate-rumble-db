@@ -1,3 +1,7 @@
+.unit-card {
+  padding-bottom: 0px;
+}
+
 .blue-card.mat-card {
   background-color: navy;
 }
@@ -22,7 +26,7 @@
 
 .mat-card-content {
   width: calc(26px * 5); /* display 5 buffs per row */
-  min-height: 152px;
+  min-height: calc(152px - 5px); /* -5px from negative margin at .buff-value */
 }
 
 .buffs {
@@ -47,4 +51,5 @@
 
 .buff-value {
   text-align: center;
+  margin-bottom: -5px;
 }
