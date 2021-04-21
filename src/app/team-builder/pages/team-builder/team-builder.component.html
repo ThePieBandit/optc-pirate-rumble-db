@@ -3,14 +3,14 @@
     <app-team
       [team]="blueTeam"
       (unitClick)="unitClick(blueTeam, $event)"
-      (hpChange)="unitHpChange($event)"
+      (unitHpChange)="unitHpChange($event)"
       [battleTimer]="battleTimer"
     ></app-team>
     <mat-divider class="teams-divider"></mat-divider>
     <app-team
       [team]="redTeam"
       (unitClick)="unitClick(redTeam, $event)"
-      (hpChange)="unitHpChange($event.unit)"
+      (unitHpChange)="unitHpChange($event.unit)"
       [battleTimer]="battleTimer"
     ></app-team>
     <mat-card class="battle-timer-container">
