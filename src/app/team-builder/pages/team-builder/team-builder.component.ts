@@ -91,7 +91,6 @@ export class TeamBuilderComponent implements OnInit {
 
   private updateAllTeams(): void {
     this.updateBuffs();
-    this.updateDebuffs();
     this.updateCost();
   }
 
@@ -103,6 +102,7 @@ export class TeamBuilderComponent implements OnInit {
   }
 
   private updateBuffs(time?: number): void {
+    // first set effects to a new array with all buffs
     const teams = [this.redTeam, this.blueTeam];
     for (const team of teams) {
       team.effects = team.main
@@ -110,9 +110,8 @@ export class TeamBuilderComponent implements OnInit {
         .flatMap(unit => unit.lvl5Ability.filter(e => isTeamEffect(e) && this.buffApplies(e, unit, time)))
       ;
     }
-  }
 
-  private updateDebuffs(time?: number): void {
+    // now append debuffs to each team effects array
     const redDebuffs = this.getDebuffs(this.redTeam, time);
     this.blueTeam.effects.push(...redDebuffs);
 
@@ -182,18 +181,15 @@ export class TeamBuilderComponent implements OnInit {
   battleTimerChange(event: MatSliderChange): void {
     this.battleTimer = event.value;
     this.updateBuffs(event.value);
-    this.updateDebuffs(event.value);
   }
 
   unitHpChange(event: UnitHpChangeEvent): void {
     if (event.unit.lvl5Ability.some(e => isHpBasedEffect(e))) {
       this.updateBuffs(this.battleTimer);
-      this.updateDebuffs(this.battleTimer);
     }
   }
 
   optionClick(event: OptionEvent): void {
-    console.log('option clicked', event);
     switch (event.type) {
       case 'startOver':
         this.onStartOver();
