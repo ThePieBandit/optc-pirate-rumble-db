@@ -9,15 +9,17 @@
       [style]="team.color"
     ></app-unit-card>
   </div>
-  <div class="subs-space"></div>
-  <div *ngFor="let unit of team.subs; let index=index;" class="unit-container">
-    <app-unit-card
-      [unit]="unit"
-      [teamEffects]="team.effects"
-      [battleTimer]="battleTimer"
-      (unitClick)="subTeamUnitClick(index)"
-      [style]="team.color"
-    ></app-unit-card>
-  </div>
+  <ng-container *ngIf="!hideSubs">
+    <div class="subs-space"></div>
+    <div *ngFor="let unit of team.subs; let index=index;" class="unit-container">
+      <app-unit-card
+        [unit]="unit"
+        [teamEffects]="team.effects"
+        [battleTimer]="battleTimer"
+        (unitClick)="subTeamUnitClick(index)"
+        [style]="team.color"
+      ></app-unit-card>
+    </div>
+  </ng-container>
   <!-- <app-team-totals [totals]="team.totals"></app-team-totals> -->
 </div>

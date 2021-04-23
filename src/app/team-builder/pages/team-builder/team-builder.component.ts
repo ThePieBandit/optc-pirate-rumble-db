@@ -27,6 +27,8 @@ export class TeamBuilderComponent implements OnInit {
   blueTeamIds: number[] = Array.from(Array(mainTeamSize + subTeamSize));
   @LocalStorage()
   redTeamIds: number[] = Array.from(Array(mainTeamSize + subTeamSize));
+  @LocalStorage()
+  hideSubs = false;
 
   @ViewChild('optionsNav')
   optionsNav: MatSidenav;
@@ -215,6 +217,10 @@ export class TeamBuilderComponent implements OnInit {
     switch (event.type) {
       case 'startOver':
         this.onStartOver();
+        this.optionsNav.close();
+        break;
+      case 'hideSubs':
+        this.hideSubs = !this.hideSubs;
         this.optionsNav.close();
         break;
       case 'specialsChange':
