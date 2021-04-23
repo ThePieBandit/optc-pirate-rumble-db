@@ -18,7 +18,7 @@ import { UnitDetailsCardComponent } from './components/unit-details-card/unit-de
 import UnitService from '../core/services/unit.service';
 import { TeamComponent } from './components/team/team.component';
 import { MatDividerModule } from '@angular/material/divider';
-import { TeamBuilderOptionsComponent } from './components/team-builder-options/team-builder-options.component';
+import { TeamBuilderOptionsComponent, ValidUnitPipe } from './components/team-builder-options/team-builder-options.component';
 import { MatListModule } from '@angular/material/list';
 
 @NgModule({
@@ -29,7 +29,8 @@ import { MatListModule } from '@angular/material/list';
     TeamTotalsComponent,
     UnitDetailsCardComponent,
     TeamComponent,
-    TeamBuilderOptionsComponent
+    TeamBuilderOptionsComponent,
+    ValidUnitPipe,
   ],
   imports: [
     SharedModule,

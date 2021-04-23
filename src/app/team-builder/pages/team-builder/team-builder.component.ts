@@ -81,6 +81,7 @@ export class TeamBuilderComponent implements OnInit {
       hp: 100,
       cooldown: 0,
       maxCooldown: unit.lvl10Cooldown,
+      activeSpecial: false,
     });
   }
 
@@ -107,7 +108,7 @@ export class TeamBuilderComponent implements OnInit {
     for (const team of teams) {
       team.effects = team.main
         .filter(unit => unit != null && unit.lvl5Ability != null)
-        .flatMap(unit => unit.lvl5Ability.filter(e => isTeamEffect(e) && this.buffApplies(e, unit, time)))
+        .flatMap(unit => this.getUnitEffects(unit).filter(e => isTeamEffect(e) && this.buffApplies(e, unit, time)))
       ;
     }
 
@@ -122,7 +123,18 @@ export class TeamBuilderComponent implements OnInit {
   private getDebuffs(team: Team, time?: number): rumble.Effect[] {
     return team.main
       .filter(unit => unit != null && unit.lvl5Ability != null)
-      .flatMap(unit => unit.lvl5Ability.filter(e => isDebuff(e) && this.buffApplies(e, unit, time)));
+      .flatMap(unit => this.getUnitEffects(unit).filter(e => isDebuff(e) && this.buffApplies(e, unit, time)));
+  }
+
+  private getUnitEffects(unit: TeamUnit): rumble.Effect[] {
+    if (unit.activeSpecial) {
+      return [
+        ...unit.lvl5Ability,
+        ...unit.lvl10Special,
+      ];
+    }
+
+    return unit.lvl5Ability;
   }
 
   unitClick(team: Team, event: UnitClickEvent): void {
@@ -135,14 +147,14 @@ export class TeamBuilderComponent implements OnInit {
 
   private mainTeamUnitClick(team: Team, index: number): void {
     this.openUnitPicker(team, team.main[index], (data) => {
-      team.main[index] = this.createTeamUnit(data);
+      team.main = team.main.map((unit, i) => i === index ? this.createTeamUnit(data) : unit);
       this.updateAllTeams();
     });
   }
 
   private subTeamUnitClick(team: Team, index: number): void {
     this.openUnitPicker(team, team.subs[index], (data) => {
-      team.subs[index] = this.createTeamUnit(data);
+      team.subs = team.subs.map((unit, i) => i === index ? this.createTeamUnit(data) : unit);
       this.updateCost();
     });
   }
@@ -184,18 +196,34 @@ export class TeamBuilderComponent implements OnInit {
   }
 
   unitHpChange(event: UnitHpChangeEvent): void {
-    if (event.unit.lvl5Ability.some(e => isHpBasedEffect(e))) {
+    if (this.isUnitWithHpBasedEffects(event.unit)) {
       this.updateBuffs(this.battleTimer);
     }
+  }
+
+  private isUnitWithHpBasedEffects(unit: TeamUnit): boolean {
+    if (unit.lvl5Ability.some(e => isHpBasedEffect(e))) {
+      return true;
+    }
+    if (unit.activeSpecial && unit.lvl10Special.some(e => isHpBasedEffect(e))) {
+      return true;
+    }
+    return false;
   }
 
   optionClick(event: OptionEvent): void {
     switch (event.type) {
       case 'startOver':
         this.onStartOver();
+        this.optionsNav.close();
+        break;
+      case 'specialsChange':
+        const team = event.data.team as Team;
+        const specials = new Set<number>(event.data.specials);
+        team.main.filter(u => u != null).forEach(u => u.activeSpecial = specials.has(u.id));
+        this.updateBuffs();
         break;
     }
-    this.optionsNav.close();
   }
 
   private onStartOver(): void {

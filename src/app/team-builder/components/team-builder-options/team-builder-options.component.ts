@@ -1,6 +1,18 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Team } from '@team-builder/models/team';
+import { Pipe, PipeTransform } from '@angular/core';
+import { TeamUnit } from '@team-builder/models/team-unit';
 
-export type OptionType = 'startOver' | 'TODO1' | 'TODO2';
+@Pipe ({
+   name : 'validUnit'
+})
+export class ValidUnitPipe implements PipeTransform {
+   transform(units: TeamUnit[]): TeamUnit[] {
+      return units.filter(u => u != null && u.lvl10Special);
+   }
+}
+
+export type OptionType = 'startOver' | 'specialsChange' | 'TODO2';
 export interface OptionEvent {
   type: OptionType;
   data: any;
@@ -19,9 +31,12 @@ const buildOption = (type: OptionType, text: string): OptionEntry => ({
 @Component({
   selector: 'app-team-builder-options',
   templateUrl: './team-builder-options.component.html',
-  styleUrls: ['./team-builder-options.component.css']
+  styleUrls: ['./team-builder-options.component.css'],
 })
 export class TeamBuilderOptionsComponent implements OnInit {
+
+  @Input()
+  teams: Team[];
 
   @Output()
   optionClick = new EventEmitter<OptionEvent>();
@@ -41,4 +56,13 @@ export class TeamBuilderOptionsComponent implements OnInit {
     this.optionClick.emit({ type, data: null });
   }
 
+  specialChange(activatedUnitIds: number[], team: Team): void {
+    this.optionClick.emit({
+      type: 'specialsChange',
+      data: {
+        specials: activatedUnitIds,
+        team,
+      },
+    });
+  }
 }

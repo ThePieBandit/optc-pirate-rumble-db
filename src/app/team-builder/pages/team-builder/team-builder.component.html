@@ -1,6 +1,9 @@
 <mat-sidenav-container>
   <mat-sidenav #optionsNav mode="over" style="min-width: 200px;">
-    <app-team-builder-options (optionClick)="optionClick($event)"></app-team-builder-options>
+    <app-team-builder-options
+      (optionClick)="optionClick($event)"
+      [teams]="[blueTeam, redTeam]"
+    ></app-team-builder-options>
   </mat-sidenav>
   <mat-sidenav-content>
     <div>

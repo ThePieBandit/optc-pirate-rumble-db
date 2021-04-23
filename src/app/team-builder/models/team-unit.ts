@@ -4,4 +4,5 @@ export interface TeamUnit extends Unit {
   hp: number;
   cooldown: number;
   maxCooldown: number;
+  activeSpecial: boolean;
 }
