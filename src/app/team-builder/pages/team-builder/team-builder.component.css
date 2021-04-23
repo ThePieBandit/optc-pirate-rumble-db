@@ -9,14 +9,6 @@
   justify-content: center;
 }
 
-.teams-divider {
-  margin: 10px 0px;
-}
-
-.battle-timer-container {
-  margin-top: 10px;
-}
-
 .battle-timer-container .card-header {
   display: flex;
   justify-content: space-between;

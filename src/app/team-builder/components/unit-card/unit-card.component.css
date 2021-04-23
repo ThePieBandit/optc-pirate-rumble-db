@@ -1,5 +1,7 @@
 .unit-card {
   padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .blue-card.mat-card {
@@ -16,7 +18,12 @@
 
 .mat-card-image {
   margin-bottom: 0px;
+  /* change material calcs because we changed card padding from 16px to 5px */
+  width: calc(100% + 10px);
+  margin-left: -5px;
+  margin-right: -5px;
 }
+
 
 .mat-slider-horizontal {
   padding: 0px;
