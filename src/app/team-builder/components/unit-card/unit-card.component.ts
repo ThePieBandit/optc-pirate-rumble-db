@@ -9,7 +9,7 @@ import { buffImage } from 'src/app/core/utils/images';
 import { battleTime } from '@core/constants/battle';
 
 interface UnitBuff {
-  name: string;
+  name: rumble.Attribute;
   img: string;
   value: number;
 }
@@ -30,7 +30,9 @@ export class UnitCardComponent implements OnInit {
   @Input()
   set teamEffects(value: rumble.Effect[]) {
     this._teamEffects = value;
-    this.updateBuffs();
+    if (this.unit) {
+      this.updateBuffs();
+    }
   }
 
   // tslint:disable-next-line:variable-name
@@ -89,8 +91,8 @@ export class UnitCardComponent implements OnInit {
     // V1 Snakeman who has a 40 CT special will only take
     // 40 x 80% = 32 seconds to charge it instead of 40.
     const ctBuff = this.buffs.find(b => b.name === 'Special CT')?.value;
-    if (!ctBuff) {
-      console.warn('could not find Special CT buff');
+    if (ctBuff == null) {
+      console.warn('could not find Special CT buff', JSON.stringify(this.buffs));
       return;
     }
     const ctr = (100 - (ctBuff * 20 / 10)) / 100;

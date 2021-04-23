@@ -77,7 +77,7 @@ export class TeamBuilderComponent implements OnInit {
     if (!unit) {
       return null;
     }
-    return Object.assign(unit, {
+    return Object.assign({}, unit, {
       hp: 100,
       cooldown: 0,
       maxCooldown: unit.lvl10Cooldown,
