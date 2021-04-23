@@ -17,15 +17,9 @@
     <div class="content">
       <div>
         <app-team
-          [team]="blueTeam"
-          (unitClick)="unitClick(blueTeam, $event)"
-          (unitHpChange)="unitHpChange($event)"
-          [battleTimer]="battleTimer"
-        ></app-team>
-        <mat-divider class="teams-divider"></mat-divider>
-        <app-team
-          [team]="redTeam"
-          (unitClick)="unitClick(redTeam, $event)"
+          *ngFor="let team of [blueTeam, redTeam]"
+          [team]="team"
+          (unitClick)="unitClick(team, $event)"
           (unitHpChange)="unitHpChange($event)"
           [battleTimer]="battleTimer"
         ></app-team>
