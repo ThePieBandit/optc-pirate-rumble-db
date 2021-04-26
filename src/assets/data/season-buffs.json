@@ -1,0 +1,38 @@
+[
+  {
+    "startDate": "2021-04-01",
+    "endDate": "2021-05-01",
+    "name": "An Ancient Threat",
+    "blocks": [
+      {
+        "name": "Block A",
+        "startDate": "2021-04-01",
+        "endDate": "2021-04-06",
+        "effects": [
+          {
+            "attributes": [ "ATK" ],
+            "effect": "buff",
+            "level": 3,
+            "targeting": { "targets": [ "INT" ] }
+          },
+          {
+            "attributes": [ "SPD" ],
+            "effect": "buff",
+            "level": 3,
+            "targeting": { "targets": [ "Cerebral" ] }
+          }
+        ]
+      }
+    ],
+    "reducedCosts": [
+      {
+        "id": 1234,
+        "cost": 25
+      },
+      {
+        "id": 4321,
+        "cost": 20
+      }
+    ]
+  }
+]
