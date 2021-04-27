@@ -1,6 +1,7 @@
 import { Component, Inject, OnInit, ViewChild } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatPaginator, PageEvent } from '@angular/material/paginator';
+import { LocalStorage, Webstorable } from 'ngx-store';
 import { UnitFilterArgs } from 'src/app/shared/pipes/unit-filter.pipe';
 import * as rumble from '../../../shared/models/rumble';
 
@@ -15,6 +16,18 @@ type UnitPickerFilter = UnitFilterArgs & {
   limit: number;
 };
 
+const initialFilter = (): UnitPickerFilter => ({
+  page: 0,
+  limit: 10,
+  filter: '',
+  classes: [],
+  types: [],
+  buffs: [],
+  buffSearch: 'both',
+  includeOtherClasses: true,
+  hideBaseForms: true,
+});
+
 @Component({
   selector: 'app-unit-picker',
   templateUrl: './unit-picker.component.html',
@@ -25,38 +38,39 @@ export class UnitPickerComponent implements OnInit {
   @ViewChild('paginator') paginator: MatPaginator;
 
   units: rumble.Unit[];
-  filter: UnitPickerFilter;
+  @LocalStorage() filter: UnitPickerFilter & Webstorable = {
+    ...initialFilter(),
+    save: undefined,
+  };
   team: rumble.Unit[];
   current: rumble.Unit;
 
   constructor(
-    private dialogRef: MatDialogRef<UnitPickerComponent>,
+    private dialogRef: MatDialogRef<UnitPickerComponent, rumble.Unit>,
     @Inject(MAT_DIALOG_DATA) data: UnitPickerData
   ) {
     this.units = data.units;
     this.current = data.current;
-    this.filter = {
-      page: 0,
-      limit: 10,
-      filter: '',
-      classes: [],
-      types: [],
-      buffs: [],
-      buffSearch: 'both',
-      includeOtherClasses: true,
-      excludeIds: data.team && data.team.map(u => u.id),
-      hideBaseForms: true,
-    };
+    this.filter.page = 0;
+    this.filter.excludeIds = data.team && data.team.map(u => u.id);
   }
 
   ngOnInit(): void {
   }
 
   onUnset(): void {
-    this.dialogRef.close(null);
+    this.onPick(null);
   }
 
-  onPick(unit: any): void {
+  reset(): void {
+    this.filter = {
+      ...this.filter, // keep calculated stuff such as excludeIds
+      ...initialFilter(),
+    };
+  }
+
+  onPick(unit?: rumble.Unit): void {
+    this.filter.save();
     this.dialogRef.close(unit);
   }
 

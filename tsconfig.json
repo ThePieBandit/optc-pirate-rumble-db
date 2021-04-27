@@ -17,6 +17,14 @@
     "lib": [
       "es2019",
       "dom"
-    ]
-  }
+    ],
+    "skipLibCheck": true,
+    "paths": {
+      "@app/*": ["src/appapp/*"],
+      "@core/*": ["src/app/core/*"],
+      "@shared/*": ["src/app/shared/*"],
+      "@database/*": ["src/app/database/*"],
+      "@team-builder/*": ["src/app/team-builder/*"]
+    }
+  },
 }

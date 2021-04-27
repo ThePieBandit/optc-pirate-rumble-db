@@ -1,45 +1,48 @@
-<div class="content">
-  <div>
-    <div class="main-team" fxLayout="row wrap">
-      <div *ngFor="let unit of mainTeam; let index=index;" class="unit-container">
-        <app-unit-card
-          [unit]="unit"
-          [teamEffects]="teamEffects"
+<mat-sidenav-container>
+  <mat-sidenav #optionsNav mode="over" style="min-width: 200px;">
+    <app-team-builder-options
+      (optionClick)="optionClick($event)"
+      [teams]="[blueTeam, redTeam]"
+    ></app-team-builder-options>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div>
+      <mat-toolbar>
+        <button (click)="optionsNav.toggle()" mat-icon-button color="basic" aria-label="Open menu">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>OPTC Pirate Rumble Team Builder</span>
+      </mat-toolbar>
+    </div>
+    <div class="content">
+      <div>
+        <app-team
+          *ngFor="let team of [blueTeam, redTeam]"
+          [team]="team"
+          (unitClick)="unitClick(team, $event)"
+          (unitHpChange)="unitHpChange($event)"
           [battleTimer]="battleTimer"
-          (unitClick)="mainTeamUnitClick(index)"
-          (hpChange)="unitHpChange(unit, $event)"
-        ></app-unit-card>
+        ></app-team>
+        <mat-card class="battle-timer-container">
+          <mat-card-content>
+            <div class="card-header">
+              <h2 class="card-title">Battle Timer: {{battleTimer}}</h2>
+              <h2 class="card-title">Elapsed Time: {{initialBattleTime - battleTimer}}</h2>
+            </div>
+            <mat-slider
+              [invert]="true"
+              [max]="initialBattleTime"
+              [min]="0"
+              [step]="1"
+              [tickInterval]="10"
+              [(ngModel)]="battleTimer"
+              (input)="battleTimerChange($event)"
+              [thumbLabel]="true"
+            >
+            </mat-slider>
+          </mat-card-content>
+        </mat-card>
       </div>
     </div>
-    <div class="" fxLayout="row wrap">
-      <div *ngFor="let unit of subTeam; let index=index;" class="unit-container">
-        <app-unit-card
-          [unit]="unit"
-          [teamEffects]="teamEffects"
-          [battleTimer]="battleTimer"
-          (unitClick)="subTeamUnitClick(index)"
-        ></app-unit-card>
-      </div>
-      <!-- <app-team-totals [totals]="totals"></app-team-totals> -->
-    </div>
-    <mat-card class="battle-timer-container">
-      <mat-card-content>
-        <div class="card-header">
-          <h2 class="card-title">Battle Timer: {{battleTimer}}</h2>
-          <h2 class="card-title">Elapsed Time: {{initialBattleTime - battleTimer}}</h2>
-        </div>
-        <mat-slider
-          [invert]="true"
-          [max]="initialBattleTime"
-          [min]="0"
-          [step]="1"
-          [tickInterval]="10"
-          [(ngModel)]="battleTimer"
-          (change)="battleTimerChange($event)"
-          [thumbLabel]="true"
-        >
-        </mat-slider>
-      </mat-card-content>
-    </mat-card>
-  </div>
-</div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

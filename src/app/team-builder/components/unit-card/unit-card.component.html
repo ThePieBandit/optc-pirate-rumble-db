@@ -1,4 +1,4 @@
-<mat-card>
+<mat-card class="unit-card" [ngClass]="style === 'red' ? 'red-card' : 'blue-card'">
   <div class="unit-image-container" (click)="onClick()" [mdePopoverTriggerFor]="unitPopover">
     <img
       class="unit-image"
@@ -8,18 +8,30 @@
     />
   </div>
   <mat-card-content>
-    <!--Want to try to label this slider as an HP % slider....<span *ngIf="unit != null">Current HP%: {{unit.hp}}</span>--><mat-slider
-      *ngIf="unit != null"
-      mat-card-image
-      [(ngModel)]="unit.hp"
-      [max]="100"
-      [min]="0"
-      [step]="1"
-      [tickInterval]="10"
-      [thumbLabel]="true"
-      color="warn"
-      (change)="onHpChange($event)"
-    ></mat-slider>
+    <!--Want to try to label this slider as an HP % slider....<span *ngIf="unit != null">Current HP%: {{unit.hp}}</span>-->
+    <div class="sliders-container" *ngIf="unit != null">
+      <mat-slider
+        mat-card-image
+        [(ngModel)]="unit.hp"
+        [max]="100"
+        [min]="0"
+        [step]="1"
+        [tickInterval]="10"
+        [thumbLabel]="true"
+        color="warn"
+        (change)="onHpChange($event)"
+      ></mat-slider>
+      <mat-slider
+        mat-card-image
+        [(ngModel)]="unit.cooldown"
+        [max]="unit.maxCooldown"
+        [min]="0"
+        [step]="1"
+        [tickInterval]="unit.maxCooldown / 5"
+        [thumbLabel]="true"
+        color="accent"
+      ></mat-slider>
+    </div>
     <section class="buffs" *ngIf="unit != null">
       <div class="buff-container" *ngFor="let buff of buffs">
         <div class="buff-value">{{buff.value}}</div>

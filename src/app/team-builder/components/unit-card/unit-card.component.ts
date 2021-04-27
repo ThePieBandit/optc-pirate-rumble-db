@@ -6,9 +6,10 @@ import { TeamUnit } from '../../models/team-unit';
 import { MatSliderChange } from '@angular/material/slider';
 import { buffs } from 'src/app/core/constants/effects';
 import { buffImage } from 'src/app/core/utils/images';
+import { battleTime } from '@core/constants/battle';
 
 interface UnitBuff {
-  name: string;
+  name: rumble.Attribute;
   img: string;
   value: number;
 }
@@ -29,7 +30,9 @@ export class UnitCardComponent implements OnInit {
   @Input()
   set teamEffects(value: rumble.Effect[]) {
     this._teamEffects = value;
-    this.updateBuffs();
+    if (this.unit) {
+      this.updateBuffs();
+    }
   }
 
   // tslint:disable-next-line:variable-name
@@ -42,8 +45,14 @@ export class UnitCardComponent implements OnInit {
 
   set battleTimer(value: number) {
     this._battleTimer = value;
-    this.updateBuffs();
+    if (this.unit) {
+      this.updateBuffs();
+      this.updateCooldown();
+    }
   }
+
+  @Input()
+  style?: 'red' | 'blue';
 
   @Output()
   public unitClick = new EventEmitter<boolean>();
@@ -73,6 +82,21 @@ export class UnitCardComponent implements OnInit {
       .forEach(e => this.applyBuff(e))
     ;
     this.applySelfBuffs();
+    this.updateMaxCooldown();
+  }
+
+  private updateMaxCooldown(): void {
+    // https://www.reddit.com/r/OnePieceTC/comments/ixfckf/pirate_festival_stats_debuffs_and_other_inbattle/
+    // For example, level 10 CT means 20% CTR.
+    // V1 Snakeman who has a 40 CT special will only take
+    // 40 x 80% = 32 seconds to charge it instead of 40.
+    const ctBuff = this.buffs.find(b => b.name === 'Special CT')?.value;
+    if (ctBuff == null) {
+      console.warn('could not find Special CT buff', JSON.stringify(this.buffs));
+      return;
+    }
+    const ctr = (100 - (ctBuff * 20 / 10)) / 100;
+    this.unit.maxCooldown = this.unit.lvl10Cooldown * ctr;
   }
 
   private applySelfBuffs(): void {
@@ -95,12 +119,17 @@ export class UnitCardComponent implements OnInit {
     console.log('applying effect to ' + this.unit.name, e);
     e.attributes.forEach(a => {
       const unitBuff = this.buffs.find(b => b.name === a);
-      if (e.effect === 'penalty') {
+      if (e.effect === 'penalty' || e.effect === 'debuff') {
         unitBuff.value -= e.level;
       } else {
         unitBuff.value += e.level;
       }
     });
+  }
+
+  private updateCooldown(): void {
+    const elapsed = battleTime - this._battleTimer;
+    this.unit.cooldown = Math.min(elapsed, this.unit.maxCooldown);
   }
 
   ngOnInit(): void {

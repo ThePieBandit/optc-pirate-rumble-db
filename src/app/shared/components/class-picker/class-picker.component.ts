@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { classes } from 'src/app/core/constants/units';
 import { classImage } from 'src/app/core/utils/images';
 
@@ -17,7 +17,8 @@ export class ClassPickerComponent implements OnInit {
   @Output()
   public classChange: EventEmitter<string[]> = new EventEmitter<string[]>();
 
-  class: string[] = [];
+  @Input()
+  public class: string[] = [];
 
   classes: UnitClass[] = classes.map(c => ({
     name: c,
@@ -28,7 +29,6 @@ export class ClassPickerComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.class = [];
   }
 
   change(): void {

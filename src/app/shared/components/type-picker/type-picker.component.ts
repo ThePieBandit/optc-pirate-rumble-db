@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { types } from 'src/app/core/constants/units';
 import { typeImage } from 'src/app/core/utils/images';
 
@@ -17,7 +17,8 @@ export class TypePickerComponent implements OnInit {
   @Output()
   public classChange: EventEmitter<string[]> = new EventEmitter<string[]>();
 
-  type: string[] = [];
+  @Input()
+  public type: string[] = [];
 
   types: UnitType[] = types.map(type => ({
     name: type,
@@ -28,7 +29,6 @@ export class TypePickerComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.type = [];
   }
 
   change(): void {

@@ -3,6 +3,10 @@
   justify-content: space-between;
 }
 
+.buttons > button {
+  margin-left: 20px;
+}
+
 .search {
   display: flex;
   flex-wrap: wrap;

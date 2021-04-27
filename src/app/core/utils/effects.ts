@@ -13,6 +13,16 @@ export const isTeamEffect = (effect: rumble.Effect): boolean => {
   }
 };
 
+export const isDebuff = (effect: rumble.Effect): boolean => {
+  if (!effect) { return false; }
+  switch (effect.effect) {
+    case 'debuff':
+      return true;
+    default:
+      return false;
+  }
+};
+
 export const buffAppliesToTime = (effect: rumble.Effect, time: number): boolean => {
   if (!effect.condition || !effect.condition.count) { return true; }
   if (effect.condition.type !== 'time') { return true; }
@@ -29,12 +39,13 @@ export const buffAppliesToUnit = (effect: rumble.Effect, unit: rumble.Unit): boo
   if (!effect.targeting) { return true; }
   if (!effect.targeting.targets || effect.targeting.targets.length === 0) { return true; }
   return effect.targeting.targets.some(t =>
-    t === 'crew' ||
-    unit.stats && (
+    (t === 'crew' && isTeamEffect(effect)) ||
+    (t === 'enemies' && isDebuff(effect)) ||
+    (unit.stats && (
       t === unit.stats.class1 ||
       t === unit.stats.class2 ||
       t === `[${unit.stats.type}]`
-    )
+    ))
   );
 };
 
