@@ -1,3 +1,12 @@
+### 2.1.0
+* Team Builder UI improvements and new features
+* Enemy team
+* Debuffs
+* Special CT slider
+* Teams & filters cache
+* Reset filters button
+* Sidenav with options for: start over, hide subs and activate specials
+
 ### 2.0.0
 * Team Builder beta is available! Huge thanks to Cobertor4 for implementing this!
 
