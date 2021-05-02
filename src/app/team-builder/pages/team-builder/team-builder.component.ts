@@ -29,6 +29,8 @@ export class TeamBuilderComponent implements OnInit {
   redTeamIds: number[] = Array.from(Array(mainTeamSize + subTeamSize));
   @LocalStorage()
   hideSubs = false;
+  @LocalStorage()
+  showAllBuffs = false;
 
   @ViewChild('optionsNav')
   optionsNav: MatSidenav;
@@ -221,6 +223,10 @@ export class TeamBuilderComponent implements OnInit {
         break;
       case 'hideSubs':
         this.hideSubs = !this.hideSubs;
+        this.optionsNav.close();
+        break;
+      case 'showAllBuffs':
+        this.showAllBuffs = !this.showAllBuffs;
         this.optionsNav.close();
         break;
       case 'specialsChange':

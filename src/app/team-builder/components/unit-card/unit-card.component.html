@@ -33,10 +33,12 @@
       ></mat-slider>
     </div>
     <section class="buffs" *ngIf="unit != null">
-      <div class="buff-container" *ngFor="let buff of buffs">
-        <div class="buff-value">{{buff.value}}</div>
-        <div class="buff-key"><img [src]="buff.img" [alt]="buff.name" [matTooltip]="buff.name" /></div>
-      </div>
+      <ng-container *ngFor="let buff of buffs">
+        <div class="buff-container" *ngIf="showAllBuffs || buff.value != 0">
+          <div class="buff-value">{{buff.value}}</div>
+          <div class="buff-key"><img [src]="buff.img" [alt]="buff.name" [matTooltip]="buff.name" /></div>
+        </div>
+      </ng-container>
     </section>
   </mat-card-content>
 </mat-card>
