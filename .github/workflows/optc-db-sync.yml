@@ -35,6 +35,8 @@ jobs:
           cp -v optc-db/common/data/details.js optc-pirate-rumble-db/src/assets/data/details.js
           cp -v optc-db/common/data/evolutions.js optc-pirate-rumble-db/src/assets/data/evolutions.js
           cp -v optc-db/common/js/utils.js optc-pirate-rumble-db/src/assets/data/utils.js
+          cp -v optc-db/common/data/aliases.js optc-pirate-rumble-db/src/assets/data/aliases.js
+          cp -v optc-db/common/data/families.js optc-pirate-rumble-db/src/assets/data/families.js
           cp -v optc-db/common/data/rumble.json optc-pirate-rumble-db/src/assets/data/rumble.json
       - name: Add Files and Commit
         run: |
