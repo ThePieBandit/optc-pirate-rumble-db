@@ -13,7 +13,14 @@
       <legend>Filters</legend>
       <div class="name-filter">
         <mat-form-field class="full-width" color="accent">
-          <input matInput placeholder="Search unit" type="text" name="name" [(ngModel)]="filter.filter" />
+          <input
+            cdkFocusInitial
+            matInput
+            placeholder="Search unit"
+            type="text"
+            name="name"
+            [(ngModel)]="filter.filter"
+          />
         </mat-form-field>
       </div>
       <div class="type-filters">
