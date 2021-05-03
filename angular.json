@@ -33,7 +33,9 @@
               "src/assets/data/units.js",
               "src/assets/data/utils.js",
               "src/assets/data/evolutions.js",
-              "src/assets/data/details.js"
+              "src/assets/data/details.js",
+              "src/assets/data/aliases.js",
+              "src/assets/data/families.js"
             ]
           },
           "configurations": {
