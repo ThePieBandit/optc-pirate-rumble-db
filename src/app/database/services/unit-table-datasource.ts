@@ -1,8 +1,8 @@
 import { MatTableDataSource } from '@angular/material/table';
 import { BehaviorSubject } from 'rxjs';
-import * as rumble from '../../shared/models/rumble';
 import UnitService from '../../core/services/unit.service';
 import { Injectable } from '@angular/core';
+import { UnitDetails } from '@shared/models/unit-details';
 
 /**
  * Data source for the UnitTable view. This class should
@@ -10,11 +10,11 @@ import { Injectable } from '@angular/core';
  * (including sorting, pagination, and filtering).
  */
 @Injectable()
-export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
-  database: rumble.Unit[] = [];
+export class UnitTableDataSource extends MatTableDataSource<UnitDetails> {
+  database: UnitDetails[] = [];
 
-  filterChainSubject: BehaviorSubject<((unit: rumble.Unit) => boolean) []>
-   = new BehaviorSubject<((unit: rumble.Unit) => boolean) []>([unit => !unit.isBaseForm]);
+  filterChainSubject: BehaviorSubject<((unit: UnitDetails) => boolean) []>
+   = new BehaviorSubject<((unit: UnitDetails) => boolean) []>([unit => !unit.isBaseForm]);
 
   constructor(unitService: UnitService) {
     super();
@@ -25,7 +25,7 @@ export class UnitTableDataSource extends MatTableDataSource<rumble.Unit> {
   }
 
   filterData(): void {
-    let tmpData: rumble.Unit[] = this.database;
+    let tmpData: UnitDetails[] = this.database;
     this.filterChainSubject.value.forEach(unitFilter => tmpData = tmpData.filter(unitFilter));
     this.data = tmpData;
     this._updateChangeSubscription();

@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { UnitDetails } from '@shared/models/unit-details';
 import { classImage, typeImage } from 'src/app/core/utils/images';
-import * as rumble from '../../../shared/models/rumble';
 
 export interface UnitAttribute {
   img: string;
@@ -15,14 +15,14 @@ export interface UnitAttribute {
 export class UnitDetailsCardComponent implements OnInit {
 
   // tslint:disable-next-line:variable-name
-  private _unit: rumble.Unit;
+  private _unit: UnitDetails;
 
   @Input()
-  get unit(): rumble.Unit {
+  get unit(): UnitDetails {
     return this._unit;
   }
 
-  set unit(value: rumble.Unit) {
+  set unit(value: UnitDetails) {
     this._unit = value;
     this.setAttributes(value);
   }
@@ -33,7 +33,7 @@ export class UnitDetailsCardComponent implements OnInit {
     this.attributes = [];
   }
 
-  private setAttributes(unit: rumble.Unit): void {
+  private setAttributes(unit: UnitDetails): void {
     if (!unit.stats) {
       this.attributes = [];
       return;
