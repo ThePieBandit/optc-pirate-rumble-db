@@ -36,7 +36,10 @@ export class UnitFilterPipe implements PipeTransform {
       // TODO: filter also by "Others" when available
       // eg for unit 2034 it should be
       // Super Borsalino,Mega Borsalino,Borsalino V1,Super Kizaru,Kizaru,Mega Kizaru,6+ Kizaru
-      filtered = filtered.filter(u => u.name.toLowerCase().includes(nameFilter));
+      filtered = filtered.filter(u =>
+        u.name.toLowerCase().includes(nameFilter) ||
+        u.aliases && u.aliases.some(a => a.toLowerCase().includes(nameFilter))
+      );
     }
     if (arg.types && arg.types.length) {
       filtered = filtered.filter(u => u.stats && arg.types.some(t => t === u.stats.type));
