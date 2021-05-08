@@ -1,3 +1,6 @@
+### 2.1.2
+* Improve unit name search to search on other names/families
+
 ### 2.1.0
 * Team Builder UI improvements and new features
 * Enemy team
