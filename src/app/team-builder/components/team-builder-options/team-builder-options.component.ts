@@ -12,7 +12,7 @@ export class ValidUnitPipe implements PipeTransform {
    }
 }
 
-export type OptionType = 'startOver' | 'specialsChange' | 'hideSubs';
+export type OptionType = 'startOver' | 'specialsChange' | 'hideSubs' | 'showAllBuffs';
 export interface OptionEvent {
   type: OptionType;
   data: any;
@@ -47,6 +47,7 @@ export class TeamBuilderOptionsComponent implements OnInit {
     this.teamOptions = [
       buildOption('startOver', 'Start over'),
       buildOption('hideSubs', 'Show/Hide subs'),
+      buildOption('showAllBuffs', 'Show/Hide all buffs')
     ];
   }
 

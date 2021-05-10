@@ -7,6 +7,7 @@ import { MatSliderChange } from '@angular/material/slider';
 import { buffs } from 'src/app/core/constants/effects';
 import { buffImage } from 'src/app/core/utils/images';
 import { battleTime } from '@core/constants/battle';
+import { LocalStorage } from 'ngx-store';
 
 interface UnitBuff {
   name: rumble.Attribute;
@@ -20,6 +21,9 @@ interface UnitBuff {
   styleUrls: ['./unit-card.component.css']
 })
 export class UnitCardComponent implements OnInit {
+
+  @LocalStorage()
+  showAllBuffs: boolean;
 
   @Input()
   public unit: TeamUnit;
