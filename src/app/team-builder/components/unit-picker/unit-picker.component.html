@@ -13,7 +13,14 @@
       <legend>Filters</legend>
       <div class="name-filter">
         <mat-form-field class="full-width" color="accent">
-          <input matInput placeholder="Search unit" type="text" name="name" [(ngModel)]="filter.filter" />
+          <input
+            cdkFocusInitial
+            matInput
+            placeholder="Search unit"
+            type="text"
+            name="name"
+            [(ngModel)]="filter.filter"
+          />
         </mat-form-field>
       </div>
       <div class="type-filters">
@@ -53,8 +60,16 @@
           [alt]="unit.name" 
           class="result"
           (click)="onPick(unit)"
-          [matTooltip]="unit.name"
+          [mdePopoverTriggerFor]="unitPopover"
         />
+        <mde-popover
+          [mdePopoverOverlapTrigger]="false"
+          mdePopoverPositionX="after"
+          #unitPopover="mdePopover"
+          mdePopoverArrowWidth="0"
+        >
+          <app-unit-details-card *ngIf="unit" [unit]="unit"></app-unit-details-card>
+        </mde-popover>
       </div>
     </div>
   </mat-dialog-content>

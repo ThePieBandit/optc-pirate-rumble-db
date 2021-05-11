@@ -17,18 +17,19 @@ jobs:
     strategy:
         matrix:
             node-version: [12.x]
-            
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Checkout Master
-        uses: actions/checkout@v2
-        with:
-          path: optc-pirate-rumble-db
       - name: Checkout OPTC-DB
         uses: actions/checkout@v2
         with:
           repository: optc-db/optc-db.github.io
           path: optc-db
+      - name: Checkout Master
+        uses: actions/checkout@v2
+        with:
+          path: optc-pirate-rumble-db
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Copy DB Files
         run: |
           cp -v optc-db/common/data/units.js optc-pirate-rumble-db/src/assets/data/units.js
@@ -41,12 +42,14 @@ jobs:
       - name: Add Files and Commit
         run: |
           cd optc-pirate-rumble-db
-          git config --global user.email "61213359+ThePieBandit@users.noreply.github.com"
-          git config --global user.name "ThePieBandit"
           git add src/assets/data
           git diff-index --quiet HEAD || git commit -m "Automatic publish syncing the latest from OPTC-DB"
-          git push
-
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          directory: optc-pirate-rumble-db
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -58,7 +61,7 @@ jobs:
           path: |
             **/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
-        
+
       - name: Install dependencies
         run: |
           cd optc-pirate-rumble-db
