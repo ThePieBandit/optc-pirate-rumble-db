@@ -5,43 +5,40 @@ import { Injectable } from '@angular/core';
 
 declare const window: any;
 
+type TempUnit = Omit<UnitDetails, 'stats' | 'ability' | 'target' | 'pattern' | 'special'>;
+
 // dont declare service as singleton (i.e., providedIn: 'root')
 // so that each client of the service can get an instance based on its needs
 // (eg, instance per module or instance per component)
 @Injectable()
 class UserService {
 
-  private rumbleUnits: rumble.Unit[] = [];
+  private rumbleUnits: UnitDetails[] = [];
 
   constructor() {
-    let unitDetail: UnitDetails;
-    const unitDetails: UnitDetails[] = [];
-    let unit: rumble.Unit;
-    const units: rumble.Entry[] = rumbleData.units as rumble.Entry[];
-    let vsUnit = false;
-
+    const unitDetails: TempUnit[] = [];
     for (let i = 0; i < window.units.length; i++){
-      if (window.units[i].incomplete ){
+      if (window.units[i].incomplete) {
           continue;
       }
-      vsUnit = false;
-      unitDetail = new UnitDetails();
-      unitDetail.id = i + 1;
-      unitDetail.complete = !window.units[i].incomplete;
-      if (!unitDetail.complete) {
-        unitDetails.push(unitDetail);
-        continue;
-      }
-      unitDetail.isBaseForm = window.evolutions[i + 1];
-      unitDetail.name = window.units[i][0];
-      unitDetail.baseHp = window.units[i][12];
-      unitDetail.baseAtk = window.units[i][13];
-      unitDetail.baseRcv = window.units[i][14];
+
+      let vsUnit = false;
+      const id = i + 1;
+      const unitDetail: TempUnit = {
+        id,
+        complete: true,
+        isBaseForm: window.evolutions[id],
+        name: window.units[i][0],
+        baseHp: window.units[i][12],
+        baseAtk: window.units[i][13],
+        baseRcv: window.units[i][14],
+        type: Array.isArray(window.units[i][1]) ? 'DUAL' : window.units[i][1],
+        aliases: this.getUnitAliases(id),
+      };
+
       // VS units will be handled later
-      unitDetail.type = Array.isArray(window.units[i][1]) ? 'DUAL' : window.units[i][1];
       if (Array.isArray(window.units[i][2])) {
         if (Array.isArray(window.units[i][2][0])) {
-
           if (window.units[i][2].length === 2) { // VS unit
             unitDetail.class1 = window.units[i][2][0][0];
             unitDetail.class2 = window.units[i][2][0][1];
@@ -64,23 +61,25 @@ class UserService {
         unitDetail.name += ' (Character 1)';
         unitDetail.type = window.units[i][1][0];
         unitDetails.push(unitDetail);
-        unitDetail = { ...unitDetail};
-        unitDetail.id += 0.1;
-        unitDetail.name = unitDetailNameBase + ' (Character 2)';
-        unitDetail.type = window.units[i][1][1];
-        unitDetail.class1 = window.units[i][2][1][0];
-        unitDetail.class2 = window.units[i][2][1][1];
+        const secondUnit = Object.assign({}, unitDetail);
+        secondUnit.id += 0.1;
+        secondUnit.name = unitDetailNameBase + ' (Character 2)';
+        secondUnit.type = window.units[i][1][1];
+        secondUnit.class1 = window.units[i][2][1][0];
+        secondUnit.class2 = window.units[i][2][1][1];
+        unitDetails.push(secondUnit);
+      } else {
+        unitDetails.push(unitDetail);
       }
-
-      unitDetails.push(unitDetail);
     }
 
-    for (let i = 0; i < units.length; i++){
+    const units: rumble.Entry[] = rumbleData.units as rumble.Entry[];
+    for (let i = 0; i < units.length; i++) {
+      let unit: rumble.Unit;
       if ('basedOn' in units[i]) {
         const baseUnit: rumble.Unit = units.find(u => u.id === (units[i] as rumble.Reference).basedOn) as rumble.Unit;
-        if (baseUnit === null || baseUnit === undefined) {
-          console.log( ' Failed to locate Base Unit!!!!!!! ' + i);
-          console.log(units[i]);
+        if (baseUnit == null) {
+          console.log( ' Failed to locate Base Unit!!!!!!! ' + i, units[i]);
           continue;
         }
         try {
@@ -93,10 +92,9 @@ class UserService {
       } else {
         unit = (JSON.parse(JSON.stringify(units[i])) as rumble.Unit);
       }
-      unitDetail = unitDetails.find(ud => ud.id === unit.id);
-      if (unitDetail === null || unitDetail === undefined) {
-        console.log( ' Failed to locate Base Unit Details!!!!!!!!!!! ' + i);
-        console.log(unit);
+      const unitDetail = unitDetails.find(ud => ud.id === unit.id);
+      if (unitDetail == null) {
+        console.log( ' Failed to locate Base Unit Details!!!!!!!!!!! ' + i, unit);
         continue;
       }
       if (!unitDetail.complete){
@@ -110,8 +108,6 @@ class UserService {
       this.denormalizeEffects(unit.ability);
       this.denormalizeEffects(unit.special);
 
-      unit.name = unitDetail.name;
-      unit.isBaseForm = unitDetail.isBaseForm;
       unit.stats.hp = unitDetail.baseHp;
       unit.stats.atk = unitDetail.baseAtk;
       unit.stats.rcv = unitDetail.baseRcv;
@@ -119,15 +115,22 @@ class UserService {
       unit.stats.class1 = unitDetail.class1;
       unit.stats.class2 = unitDetail.class2;
 
-      unit.lvl5Ability = (unit.ability[4].effects as rumble.Effect[]);
-      unit.lvl10Special = (unit.special[9].effects as rumble.Effect[]);
-      unit.lvl10Cooldown = unit.special[9].cooldown;
-      unit.thumbnailUrl = window.Utils.getThumbnailUrl(Math.floor(unit.id)).replace('..', 'https://optc-db.github.io/');
-      this.rumbleUnits.push(unit);
+      unitDetail.baseDef = unit.stats.def;
+      unitDetail.baseSpd = unit.stats.spd;
+      unitDetail.lvl5Ability = (unit.ability[4].effects as rumble.Effect[]);
+      unitDetail.lvl10Special = (unit.special[9].effects as rumble.Effect[]);
+      unitDetail.lvl10Cooldown = unit.special[9].cooldown;
+      unitDetail.thumbnailUrl = window.Utils.getThumbnailUrl(Math.floor(unit.id)).replace('..', 'https://optc-db.github.io/');
+
+      // merge of all props between unit and unitDetail
+      this.rumbleUnits.push({
+        ...unit,
+        ...unitDetail
+      });
     }
   }
 
-  private denormalizeEffects(levels: rumble.Ability[]|rumble.Special[]): void {
+  private denormalizeEffects(levels: rumble.Ability[] | rumble.Special[]): void {
     const lastEffect: rumble.Effect[] = [];
     let mergedEffect: rumble.Effect[] = [];
 
@@ -143,6 +146,21 @@ class UserService {
       });
       level.effects = mergedEffect;
     });
+  }
+
+  private getUnitAliases(id: number): string[] {
+    const result = [];
+    const unitAliases = window.aliases && window.aliases[id];
+    if (unitAliases) {
+      result.push(...unitAliases);
+    }
+
+    const unitFamilies = window.families && window.families[id];
+    if (unitFamilies) {
+      result.push(...unitFamilies);
+    }
+
+    return result;
   }
 
   // we can make a shallow copy of the array if we are worried

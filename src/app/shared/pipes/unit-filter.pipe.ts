@@ -1,5 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import * as rumble from '../../shared/models/rumble';
+import { UnitDetails } from '@shared/models/unit-details';
+import { Effect } from '../../shared/models/rumble';
 
 export type BuffSearchType = 'both' | 'ability' | 'special';
 
@@ -20,7 +21,7 @@ export interface UnitFilterArgs {
 })
 export class UnitFilterPipe implements PipeTransform {
 
-  transform(value: rumble.Unit[], ...args: UnitFilterArgs[]): rumble.Unit[] {
+  transform(value: UnitDetails[], ...args: UnitFilterArgs[]): UnitDetails[] {
     const arg = args && args[0];
     if (!arg) {
       return value.slice(0, 10);
@@ -32,10 +33,10 @@ export class UnitFilterPipe implements PipeTransform {
       filtered = filtered.filter(u => !u.isBaseForm);
     }
     if (nameFilter) {
-      // TODO: filter also by "Others" when available
-      // eg for unit 2034 it should be
-      // Super Borsalino,Mega Borsalino,Borsalino V1,Super Kizaru,Kizaru,Mega Kizaru,6+ Kizaru
-      filtered = filtered.filter(u => u.name.toLowerCase().includes(nameFilter));
+      filtered = filtered.filter(u =>
+        u.name.toLowerCase().includes(nameFilter) ||
+        u.aliases && u.aliases.some(a => a.toLowerCase().includes(nameFilter))
+      );
     }
     if (arg.types && arg.types.length) {
       filtered = filtered.filter(u => u.stats && arg.types.some(t => t === u.stats.type));
@@ -74,7 +75,7 @@ export class UnitFilterPipe implements PipeTransform {
     return filtered;
   }
 
-  private effectMatches(effects: rumble.Effect[], buffs: string[]): boolean {
+  private effectMatches(effects: Effect[], buffs: string[]): boolean {
     return buffs.every(buff => effects.some(effect =>
       effect.effect === 'buff' &&
       effect.attributes.some(attr => attr === buff)

@@ -1,3 +1,6 @@
+### 2.1.2
+* Improve unit name search to search on other names/families
+
 ### 2.1.1
 * Focus unit name filter on popup open
 * New option to show/hide all buffs (hide buffs at 0 by default)

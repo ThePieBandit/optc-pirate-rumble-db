@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class DecoratePipe implements PipeTransform {
 
   transform(s: string): string {
-    if (s === null || s === ''){
+    if (s == null || s === ''){
       return s;
     }
     return s.replace(/\[?STR\]?/, this.getImageString('filter_attribute_power'))

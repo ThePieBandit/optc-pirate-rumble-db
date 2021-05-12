@@ -62,20 +62,13 @@ export interface RumbleSchema {
 }
 export interface Unit {
   ability: [Ability, Ability, Ability, Ability, Ability];
-  global?: Unit;
   id: number;
-  japan?: Unit;
   pattern: [Pattern, ...Pattern[]];
   special: [Special, Special, Special, Special, Special, Special, Special, Special, Special, Special];
   stats: Stats;
   target: TargetClass;
   resilience?: DebuffResilience | HealingResilience;
-  isBaseForm?: boolean;
-  name?: string;
-  lvl5Ability?: Effect[];
-  lvl10Special?: Effect[];
-  lvl10Cooldown?: number;
-  thumbnailUrl?: string;
+  basedOn?: number;
 }
 export interface Ability {
   effects: (Effect | EffectOverride)[];

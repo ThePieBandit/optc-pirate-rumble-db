@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import UnitService from 'src/app/core/services/unit.service';
-import * as rumble from '../../../shared/models/rumble';
+import { Effect } from '../../../shared/models/rumble';
 import { UnitPickerComponent, UnitPickerData } from '../../components/unit-picker/unit-picker.component';
 import { isTeamEffect, isDebuff, buffAppliesToTime, isHpBasedEffect, effectAppliesToUnitHp } from '../../../core/utils/effects';
 import { battleTime } from '../../../core/constants/battle';
@@ -12,6 +12,7 @@ import { UnitClickEvent, UnitHpChangeEvent } from '@team-builder/components/team
 import { LocalStorage } from 'ngx-store';
 import { OptionEvent } from '@team-builder/components/team-builder-options/team-builder-options.component';
 import { MatSidenav } from '@angular/material/sidenav';
+import { UnitDetails } from '@shared/models/unit-details';
 
 const mainTeamSize = 5;
 const subTeamSize = 3;
@@ -40,7 +41,7 @@ export class TeamBuilderComponent implements OnInit {
   battleTimer: number;
 
   initialBattleTime = battleTime;
-  units: rumble.Unit[];
+  units: UnitDetails[];
 
   constructor(
     private dialog: MatDialog,
@@ -77,7 +78,7 @@ export class TeamBuilderComponent implements OnInit {
     return team;
   }
 
-  private createTeamUnit(unit: rumble.Unit): TeamUnit {
+  private createTeamUnit(unit: UnitDetails): TeamUnit {
     if (!unit) {
       return null;
     }
@@ -89,7 +90,7 @@ export class TeamBuilderComponent implements OnInit {
     });
   }
 
-  private buffApplies(effect: rumble.Effect, unit: TeamUnit, time?: number): boolean {
+  private buffApplies(effect: Effect, unit: TeamUnit, time?: number): boolean {
     return buffAppliesToTime(effect, time || this.battleTimer) &&
       effectAppliesToUnitHp(effect, unit.hp);
   }
@@ -124,13 +125,13 @@ export class TeamBuilderComponent implements OnInit {
     this.redTeam.effects.push(...blueDebuffs);
   }
 
-  private getDebuffs(team: Team, time?: number): rumble.Effect[] {
+  private getDebuffs(team: Team, time?: number): Effect[] {
     return team.main
       .filter(unit => unit != null && unit.lvl5Ability != null)
       .flatMap(unit => this.getUnitEffects(unit).filter(e => isDebuff(e) && this.buffApplies(e, unit, time)));
   }
 
-  private getUnitEffects(unit: TeamUnit): rumble.Effect[] {
+  private getUnitEffects(unit: TeamUnit): Effect[] {
     if (unit.activeSpecial) {
       return [
         ...unit.lvl5Ability,
@@ -163,7 +164,7 @@ export class TeamBuilderComponent implements OnInit {
     });
   }
 
-  private openUnitPicker(team: Team, current: rumble.Unit, onPick: (unit: rumble.Unit) => void): void {
+  private openUnitPicker(team: Team, current: UnitDetails, onPick: (unit: UnitDetails) => void): void {
     const dialogConfig = new MatDialogConfig<UnitPickerData>();
 
     dialogConfig.hasBackdrop = true;
@@ -176,7 +177,7 @@ export class TeamBuilderComponent implements OnInit {
       units: this.units,
     };
 
-    const dialogRef = this.dialog.open<UnitPickerComponent, UnitPickerData, rumble.Unit>(
+    const dialogRef = this.dialog.open<UnitPickerComponent, UnitPickerData, UnitDetails>(
       UnitPickerComponent,
       dialogConfig
     );

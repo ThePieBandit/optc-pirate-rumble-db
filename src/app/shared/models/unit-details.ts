@@ -1,23 +1,28 @@
+import { Unit, Effect } from './rumble';
 
-export class UnitDetails {
+export interface UnitDetails extends Unit {
   complete: boolean;
-  id: number;
   isBaseForm: boolean;
   name: string;
   baseHp: number;
   baseAtk: number;
   baseRcv: number;
-  baseDef: number;
-  baseSpd: number;
-  style: string;
+  baseDef?: number;
+  baseSpd?: number;
+  style?: string;
   type: string;
-  class1: string;
-  class2: string;
-  festAbility: string;
-  festSpecial: string;
-  festCooldown: string;
-  festAttackPattern: string;
-  festAttackTarget: string;
+  class1?: string;
+  class2?: string;
+  festAbility?: string;
+  festSpecial?: string;
+  festCooldown?: string;
+  festAttackPattern?: string;
+  festAttackTarget?: string;
+  lvl5Ability?: Effect[];
+  lvl10Special?: Effect[];
+  lvl10Cooldown?: number;
+  thumbnailUrl?: string;
+  aliases: string[];
 
 /*
   private computeDefPercentage(): number {

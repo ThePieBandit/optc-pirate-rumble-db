@@ -1,14 +1,14 @@
 import { Component, Inject, OnInit, ViewChild } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatPaginator, PageEvent } from '@angular/material/paginator';
+import { UnitDetails } from '@shared/models/unit-details';
 import { LocalStorage, Webstorable } from 'ngx-store';
 import { UnitFilterArgs } from 'src/app/shared/pipes/unit-filter.pipe';
-import * as rumble from '../../../shared/models/rumble';
 
 export interface UnitPickerData {
-  team: rumble.Unit[];
-  current: rumble.Unit;
-  units: rumble.Unit[];
+  team: UnitDetails[];
+  current: UnitDetails;
+  units: UnitDetails[];
 }
 
 type UnitPickerFilter = UnitFilterArgs & {
@@ -37,16 +37,16 @@ export class UnitPickerComponent implements OnInit {
 
   @ViewChild('paginator') paginator: MatPaginator;
 
-  units: rumble.Unit[];
+  units: UnitDetails[];
   @LocalStorage() filter: UnitPickerFilter & Webstorable = {
     ...initialFilter(),
     save: undefined,
   };
-  team: rumble.Unit[];
-  current: rumble.Unit;
+  team: UnitDetails[];
+  current: UnitDetails;
 
   constructor(
-    private dialogRef: MatDialogRef<UnitPickerComponent, rumble.Unit>,
+    private dialogRef: MatDialogRef<UnitPickerComponent, UnitDetails>,
     @Inject(MAT_DIALOG_DATA) data: UnitPickerData
   ) {
     this.units = data.units;
@@ -69,7 +69,7 @@ export class UnitPickerComponent implements OnInit {
     };
   }
 
-  onPick(unit?: rumble.Unit): void {
+  onPick(unit?: UnitDetails): void {
     this.filter.save();
     this.dialogRef.close(unit);
   }

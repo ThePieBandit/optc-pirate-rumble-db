@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm, AbstractControl } from '@angular/forms';
 import { UnitTableDataSource } from '../../services/unit-table-datasource';
-import { Unit, Effect } from '../../../shared/models/rumble';
+import { Effect } from '../../../shared/models/rumble';
+import { UnitDetails } from '../../../shared/models/unit-details';
 
 @Component({
   selector: 'app-filters',
@@ -48,8 +49,8 @@ export class FiltersComponent implements OnInit {
     this.dataService.filterData();
   }
 
-  computeFilterChain(formFields: { [key: string]: AbstractControl }): ((unit: Unit) => boolean ) [] {
-    const filterChain: ((unit: Unit) => boolean ) [] = [];
+  computeFilterChain(formFields: { [key: string]: AbstractControl }): ((unit: UnitDetails) => boolean ) [] {
+    const filterChain: ((unit: UnitDetails) => boolean ) [] = [];
     if (formFields.hideBaseForms.value === 'true')
     {
       filterChain.push(unit => !unit.isBaseForm);
@@ -68,7 +69,7 @@ export class FiltersComponent implements OnInit {
         .some(attribute => formFields.buffs.value.includes(attribute))));
     }
     if ( Array.isArray(formFields.debuffs.value) && formFields.debuffs.value.length){
-      filterChain.push((unit: Unit) => {
+      filterChain.push((unit: UnitDetails) => {
         return this.unitFunc('damage', effect => formFields.debuffs.value.filter(type =>
           type === 'time').includes(effect.type))(unit)
           || this.unitFunc('debuff', effect => effect.attributes.some(attribute =>
@@ -89,7 +90,7 @@ export class FiltersComponent implements OnInit {
         .some(attribute => formFields.boons.value.includes(attribute))));
     }
     if ( Array.isArray(formFields.hinderances.value) && formFields.hinderances.value.length){
-        filterChain.push((unit: Unit) => {
+        filterChain.push((unit: UnitDetails) => {
           return this.unitFunc('boon', effect => effect.attributes.some(attribute =>
             formFields.hinderances.value.filter(type => type === 'Provoke').includes(attribute))) (unit)
             || this.unitFunc('hinderance', effect => effect.attributes.some(attribute =>
@@ -100,7 +101,7 @@ export class FiltersComponent implements OnInit {
     return filterChain;
   }
 
-  unitFunc(effectType: string, effectFunc: ((effect: Effect) => boolean)): ((unit: Unit) => boolean ) {
+  unitFunc(effectType: string, effectFunc: ((effect: Effect) => boolean)): ((unit: UnitDetails) => boolean ) {
       return unit => unit.lvl5Ability
         .some(effect => effect.effect === effectType && effectFunc(effect))
         || unit.lvl10Special
