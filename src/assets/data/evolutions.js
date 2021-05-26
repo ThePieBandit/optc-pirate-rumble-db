@@ -4833,43 +4833,43 @@ window.evolutions = {
     },
     3163: {
         evolution: 3164,
-        evolvers: [  ]
+        evolvers: [ 118, 101, 102, 83, 267 ]
     },
     3165: {
         evolution: 3166,
-        evolvers: [  ]
+        evolvers: [ 118, 101, 103, 94, 267 ]
     },
     3167: {
         evolution: 3168,
-        evolvers: [  ]
+        evolvers: [ 117, 85, 96, 1180, 101 ]
     },
     3169: {
         evolution: 3170,
-        evolvers: [  ]
+        evolvers: [ 117, 86, 97, 1180, 102 ]
     },
     3174: {
         evolution: 3175,
-        evolvers: [  ]
+        evolvers: [ 118, 300, 2662, 100, 267 ]
     },
     3176: {
         evolution: 3177,
-        evolvers: [  ]
+        evolvers: [ 118, 87, 266, 1180, 267 ]
     },
     3178: {
         evolution: 3179,
-        evolvers: [  ]
+        evolvers: [ 83, 78, 95, 300, 100 ]
     },
     3180: {
         evolution: 3181,
-        evolvers: [  ]
+        evolvers: [ 94, 89, 95, 300, 100 ]
     },
     3182: {
         evolution: 3183,
-        evolvers: [  ]
+        evolvers: [ 117, 98, 1180, 303, 103 ]
     },
     3184: {
         evolution: 3185,
-        evolvers: [  ]
+        evolvers: [ 117, 81, 83, 87, 267 ]
     },
     3156: {
         evolution: 3157,
@@ -4881,35 +4881,35 @@ window.evolutions = {
     },
     3203: {
         evolution: 3204,
-        evolvers: [  ]
+        evolvers: [ 118, 118, 101, 102, 267 ]
     },
     2148: {
         evolution: 3211,
-        evolvers: [ "skullSanji2", "skullSanji2", "skullSanji2", "skullSanji2", "skullSanji2" ]
+        evolvers: [ "skullSanji3", "skullSanji3", "skullSanji3", "skullSanji3", "skullSanji3" ]
     },
     3218: {
         evolution: 3219,
-        evolvers: [  ]
+        evolvers: [ 118, 87, 98, 303, 103 ]
     },
     3220: {
         evolution: 3221,
-        evolvers: [  ]
+        evolvers: [ 118, 84, 95, 300, 100 ]
     },
     3224: {
         evolution: 3225,
-        evolvers: [  ]
+        evolvers: [ 118, 302, 1180, 102, 267 ]
     },
     3226: {
         evolution: 3227,
-        evolvers: [  ]
+        evolvers: [ 118, 301, 2662, 101, 267 ]
     },
     3228: {
         evolution: 3229,
-        evolvers: [  ]
+        evolvers: [ 117, 90, 94, 96, 101 ]
     },
     3230: {
         evolution: 3231,
-        evolvers: [  ]
+        evolvers: [ 83, 266, 97, 302, 102 ]
     },
     2475: {
         evolution: 3240,
@@ -4917,7 +4917,7 @@ window.evolutions = {
     },
     3244: {
         evolution: 3245,
-        evolvers: [  ]
+        evolvers: [ 118, 81, 1180, 303, 267 ]
     },
     3252: {
         evolution: 3253,
@@ -4967,21 +4967,9 @@ window.evolutions = {
         evolution: 3307,
         evolvers: [ 118, 304, 2662, 104, 267 ]
     },
-    3333: {
-        evolution: 3334,
-        evolvers: [ 118, 86, 266, 302, 267 ]
-    },
     3312: {
         evolution: 3313,
         evolvers: [ 118, 84, 300, 100, 266 ]
-    },
-    3347: {
-        evolution: 3348,
-        evolvers: [ 117, 83, 86, 302, 102 ]
-    },
-    3349: {
-        evolution: 3350,
-        evolvers: [ 117, 83, 84, 300, 100 ]
     },
     3314: {
         evolution: 3315,
@@ -4999,10 +4987,6 @@ window.evolutions = {
         evolution: 3324,
         evolvers: [ 118, 84, 266, 300, 100 ]
     },
-    3360: {
-        evolution: 3361,
-        evolvers: [ 117, 79, 90, 96, 101 ]
-    },
     3318: {
         evolution: 3319,
         evolvers: [ 116, 117, 79, 90, 96 ]
@@ -5011,12 +4995,52 @@ window.evolutions = {
         evolution: [3320, 3320],
         evolvers: [[ 118, 85, 266, 96, 101 ], [ 18 ]]
     },
-    3371: {
-        evolution: 3372,
-        evolvers: [ 117, 84, 95, 95, 300 ]
-    },
     3325: {
         evolution: 3326,
         evolvers: [ 118, 88, 266, 304, 104 ]
+    },
+    3333: {
+        evolution: 3334,
+        evolvers: [ 118, 96, 94, 101, 267 ]
+    },
+    3335: {
+        evolution: 3336,
+        evolvers: [ 118, 302, 1180, 102, 267 ]
+    },
+    3337: {
+        evolution: 3338,
+        evolvers: [ 118, 300, 2662, 100, 267 ]
+    },
+    3348: {
+        evolution: 3349,
+        evolvers: [  ]
+    },
+    2776: {
+        evolution: 3350,
+        evolvers: [ "skullKomurasaki", "skullKomurasaki", "skullKomurasaki", "skullKomurasaki", "skullKomurasaki" ]
+    },
+    3351: {
+        evolution: 3352,
+        evolvers: [ "skullKuja", "skullKuja", "skullKuja", "skullKuja", "skullKuja" ]
+    },
+    4986: {
+        evolution: 4987,
+        evolvers: [ 118, 86, 266, 302, 267 ]
+    },
+    4988: {
+        evolution: 4989,
+        evolvers: [ 117, 83, 86, 302, 102 ]
+    },
+    4990: {
+        evolution: 4991,
+        evolvers: [ 117, 83, 84, 300, 100 ]
+    },
+    4992: {
+        evolution: 4993,
+        evolvers: [ 117, 79, 90, 96, 101 ]
+    },
+    4994: {
+        evolution: 4995,
+        evolvers: [ 117, 84, 95, 95, 300 ]
     },
 };
