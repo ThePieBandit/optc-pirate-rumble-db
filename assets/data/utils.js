@@ -16,6 +16,12 @@
 
     var parseUnit = function (element, n) {
         var piratefest = window.festival[n];
+
+        // If multi-dimensional array (i.e. VS units), split into two
+        if (piratefest && Array.isArray(piratefest[0])){
+            var piratefest2 = piratefest[1];
+            piratefest = piratefest[0]
+        }
         if (element.length === 0)
             return [];
         if (element[15] && element[15].constructor != Array)
@@ -94,8 +100,19 @@
             },
             pirateFest: {
                 class: piratefest ? piratefest[0] : "",
-                DEF: piratefest ? piratefest[1] : null, SPD: piratefest ? piratefest[2] : null, minCP: piratefest ? piratefest[3] : null, maxCP: piratefest ? piratefest[4] : null,
-            }
+                DEF: piratefest ? piratefest[1] : null,
+                SPD: piratefest ? piratefest[2] : null,
+                minCP: piratefest ? piratefest[3] : null,
+                maxCP: piratefest ? piratefest[4] : null,
+            },
+            pirateFest2: (!piratefest2) ? null : {
+                class: piratefest2 ? piratefest2[0] : "",
+                DEF: piratefest2 ? piratefest2[1] : null,
+                SPD: piratefest2 ? piratefest2[2] : null,
+                minCP: piratefest2 ? piratefest2[3] : null,
+                maxCP: piratefest2 ? piratefest2[4] : null,
+            },
+            aliases: window.aliases[n + 1] ? window.aliases[n + 1].join(' ') : ''
         };
         if (element.indexOf(null) != -1)
             result.incomplete = true;
@@ -234,6 +251,8 @@
             case 9047: return '../res/skullSabo.png'; break;
             case 'skullJack':
             case 9048: return '../res/skullJack.png'; break;
+            case 'skullCarrot':
+            case 9049: return '../res/skullCarrot.png'; break;
         }
         if (n === null || n === undefined)
             return 'https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
@@ -321,7 +340,7 @@
             //case '3127': return '../res/sadBandai/character_11581_t1.png'; break;
             //case '3128': return '../res/sadBandai/character_11569_t1.png'; break;
             //case '3129': return '../res/sadBandai/character_11570_t1.png'; break;
-            case '3130': return '../res/sadBandai/character_11911_t1.png'; break;
+            //case '3130': return '../res/sadBandai/character_11911_t1.png'; break;
             //case '3131': return '../res/sadBandai/character_11_t1.png'; break;
             //case '3132': return '../res/sadBandai/character_11_t1.png'; break;
             //case '3133': return '../res/sadBandai/character_11_t1.png'; break;
@@ -1029,7 +1048,7 @@
         if (!query || query.trim().length < 2)
             return null;
         query = query.toLowerCase().trim();
-        var result = {matchers: {}, ranges: {}, query: []};
+        var result = {matchers: {}, ranges: {}, query: [], queryTerms: []};
         var ranges = {}, params = ['hp', 'atk', 'stars', 'cost', 'growth', 'rcv', 'id', 'slots', 'combo', 'exp', 'minCD', 'maxCD'];
         var regex = new RegExp('^((type|class|support):(\\w+\\s{0,1}\\w+)|(' + params.join('|') + ')(>|<|>=|<=|=)([-?\\d.]+))$', 'i');
         var tokens = query.replace(/\s+/g, ' ').split(' ').filter(function (x) {
@@ -1038,9 +1057,10 @@
         tokens.forEach(function (x) {
             x = x.replace("_", ' ');
             var temp = x.match(regex);
-            if (!temp) // if it couldn't be parsed, treat it as string
+            if (!temp) { // if it couldn't be parsed, treat it as string
                 result.query.push(x);
-            else if (temp[4] !== undefined) { // numeric operator
+                result.queryTerms.push(utils.getRegex(x));
+            } else if (temp[4] !== undefined) { // numeric operator
                 var parameter = temp[4],
                         op = temp[5],
                         value = parseFloat(temp[6], 10);
@@ -1072,7 +1092,7 @@
                 //console.log(result.matchers); Here for stuff to try to do custom
         });
         if (result.query.length > 0)
-            result.query = utils.getRegex(result.query.join(' '));
+            result.query = result.query.join(' ');
         else
             result.query = null;
         return result;
