@@ -5077,11 +5077,35 @@ window.evolutions = {
     },
     3421: {
         evolution: 3422,
-        evolvers: [  ]
+        evolvers: [ 118, 266, 94, 302, 267 ]
     },
     3426: {
         evolution: 3427,
-        evolvers: [  ]
+        evolvers: [ 118, 78, 1180, 300, 267 ]
+    },
+    3429: {
+        evolution: 3430,
+        evolvers: [ "skullYamato" ]
+    },
+    3432: {
+        evolution: 3433,
+        evolvers: [ 118, 118, 101, 102, 267 ]
+    },
+    2433: {
+        evolution: 3448,
+        evolvers: [ "skullJack2", "skullJack2", "skullJack2", "skullJack2", "skullJack2" ]
+    },
+    3449: {
+        evolution: 3450,
+        evolvers: [ "skullLinlin", "skullLinlin", "skullLinlin", "skullLinlin", "skullLinlin" ]
+    },
+    3451: {
+        evolution: 3452,
+        evolvers: [ 118, 96, 1180, 301, 267 ]
+    },
+    3453: {
+        evolution: 3454,
+        evolvers: [ 118, 88, 226, 304, 267 ]
     },
     4986: {
         evolution: 4987,
