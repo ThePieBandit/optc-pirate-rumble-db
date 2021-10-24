@@ -617,7 +617,7 @@ const PageOne = [ "Page One", "Pay Pay" ];
 const Toko = [ "Toko" ];
 const King = [ "King" ];
 const Onimaru = [ "Onimaru" ];
-const Gyukimaru = [ "Gyukimaru" ];
+const Gyukimaru = [ "Gyukimaru", "Onimaru" ];
 const KurozumiOrochi = [ "Kurozumi Orochi" ];
 const Queen = [ "Queen" ];
 const Shinobu = [ "Shinobu" ];
@@ -4012,7 +4012,18 @@ window.families = {
     3458: [ ...CharlotteSmoothie ],
     3459: [ ...Streusen ],
     3460: [ ...Crocodile ],
+    3461: [ ...Koala ],
+    3462: [ ...Koala ],
+    3463: [ ...Karasu ],
+    3464: [ ...Morley ],
+    3465: [ ...DraculeMihawk ],
+    3466: [ ...Helmeppo ],
+    3467: [ ...NicoRobin ],
+    3468: [ ...Viola ],
+    3469: [ ...CharlottePudding ],
+    3470: [ ...Rebecca ],
     3478: [ ...Makino ],
+    3479: [ ...Kyros ],
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],
