@@ -642,7 +642,7 @@ const Yamato = [ "Yamato" ];
 const Sasaki = [ "Sasaki" ];
 const Ulti = [ "Ulti" ];
 const BlackMaria = [ "Black Maria" ];
-const WhosWho = [ "Who's Who", "Whos Who" ];
+const WhosWho = [ "Who's Who", "Whos Who", "WhosWho" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -4031,6 +4031,18 @@ window.families = {
     3477: [ ...CharlotteCracker ],
     3478: [ ...Makino ],
     3479: [ ...Kyros ],
+    3480: [ ...Coby ],
+    3481: [ ...Chinjao ],
+    3482: [ ...Crocodile ],
+    3483: [ ...Crocodile ],
+    3484: [ ...RobLucci ],
+    3485: [ ...Enel ],
+    3486: [ ...Wyper ],
+    3487: [ ...Buggy ],
+    3488: [ ...Kuro ],
+    3489: [ ...Krieg ],
+    3490: [ ...Krieg, ...Gin, ...Pearl ],
+    3491: [ ...GeckoMoria ],
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],
