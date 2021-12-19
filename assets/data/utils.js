@@ -1000,6 +1000,22 @@
             case (ghostPoint+346).toString(): return '../res/character_12224_t1.png'; break;
             case (ghostPoint+347).toString(): return '../res/character_12226_t1_qck.png'; break;
             case (ghostPoint+348).toString(): return '../res/character_12226_t1_dex.png'; break;
+            case (ghostPoint+349).toString(): return '../res/character_12357_t1.png'; break;
+            case (ghostPoint+350).toString(): return '../res/character_12358_t1.png'; break;
+            case (ghostPoint+351).toString(): return '../res/character_12361_t1_str.png'; break;
+            case (ghostPoint+352).toString(): return '../res/character_12361_t1_psy.png'; break;
+            case (ghostPoint+353).toString(): return '../res/character_12359_t1.png'; break;
+            case (ghostPoint+354).toString(): return '../res/character_12360_t1.png'; break;
+            case (ghostPoint+355).toString(): return '../res/character_12362_t1_str.png'; break;
+            case (ghostPoint+356).toString(): return '../res/character_12362_t1_psy.png'; break;
+            case (ghostPoint+357).toString(): return '../res/character_12363_t1.png'; break;
+            case (ghostPoint+358).toString(): return '../res/character_12364_t1.png'; break;
+            case (ghostPoint+359).toString(): return '../res/character_12367_t1_dex.png'; break;
+            case (ghostPoint+360).toString(): return '../res/character_12367_t1_int.png'; break;
+            case (ghostPoint+361).toString(): return '../res/character_12365_t1.png'; break;
+            case (ghostPoint+362).toString(): return '../res/character_12366_t1.png'; break;
+            case (ghostPoint+363).toString(): return '../res/character_12368_t1_dex.png'; break;
+            case (ghostPoint+364).toString(): return '../res/character_12368_t1_int.png'; break;
             default: break;
         }
         return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + id + '.png';
@@ -1173,6 +1189,7 @@
         var result = {matchers: {}, ranges: {}, query: [], queryTerms: []};
         var ranges = {}, params = ['hp', 'atk', 'stars', 'cost', 'growth', 'rcv', 'id', 'slots', 'combo', 'exp', 'minCD', 'maxCD'];
         var regex = new RegExp('^((type|class|support|family|notfamily):(.+)|(' + params.join('|') + ')(>|<|>=|<=|=)([-?\\d.]+))$', 'i');
+        const typeRegex = /^(?:str|dex|qck|psy|int)$/;
         var tokens = query.replace(/\s+/g, ' ').split(' ').filter(function (x) {
             return x.length > 0;
         });
@@ -1180,8 +1197,12 @@
             x = x.replace(/_+/g, ' ');
             var temp = x.match(regex);
             if (!temp) { // if it couldn't be parsed, treat it as string
-                result.query.push(x);
-                result.queryTerms.push(utils.getRegex(x));
+                if (typeRegex.test(x)) { // if string is a unit type, treat it as `type:X`
+                    result.matchers['type'] = new RegExp(x, 'i');
+                } else {
+                    result.query.push(x);
+                    result.queryTerms.push(utils.getRegex(x));
+                }
             } else if (temp[4] !== undefined) { // numeric operator
                 var parameter = temp[4],
                         op = temp[5],
