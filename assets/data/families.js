@@ -483,7 +483,7 @@ const Coribou = [ "Coribou" ];
 const Hammond = [ "Hammond" ];
 const Dogra = [ "Dogra" ];
 const Wadatsumi = [ "Wadatsumi" ];
-const Inuarashi = [ "Inuarashi" ];
+const Inuarashi = [ "Inuarashi", "Dogstorm", "Doggo" ];
 const Wanda = [ "Wanda" ];
 const Sicilian = [ "Sicilian" ];
 const KozukiMomonosuke = [ "Kozuki Momonosuke" ];
@@ -502,7 +502,7 @@ const GasMaskPatrolPSY = [ "Gas Mask Patrol PSY" ];
 const PatrolTroopCorpsSTR = [ "Patrol Troop Corps STR" ];
 const PatrolTroopCorpsQCK = [ "Patrol Troop Corps QCK" ];
 const PatrolTroopCorpsDEX = [ "Patrol Troop Corps DEX" ];
-const Nekomamushi = [ "Nekomamushi", "Cat" ];
+const Nekomamushi = [ "Nekomamushi", "Cat Viper" ];
 const Pedro = [ "Pedro" ];
 const Carrot = [ "Carrot" ];
 const Raizo = [ "Raizo" ];
@@ -636,7 +636,7 @@ const VascoShot = [ "Vasco Shot" ];
 const SanjuanWolf = [ "Sanjuan Wolf" ];
 const Condoriano = [ "Condoriano" ];
 const KozukiToki = [ "Kozuki Toki" ];
-const ScopperGaban = [ "Scopper Gaban" ];
+const Gaban = [ "Scopper Gaban" ];
 const Morgans = [ "Morgans" ];
 const Yamato = [ "Yamato" ];
 const Sasaki = [ "Sasaki" ];
@@ -3947,7 +3947,7 @@ window.families = {
     3392: [ ...Kinemon ],
     3393: [ ...Sabo ],
     3394: [ ...Jack ],
-    3395: [ ...ScopperGaban ],
+    3395: [ ...Gaban ],
     3396: [ ...ShimotsukiRyuma ],
     3397: [ ...Jack ],
     3398: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
@@ -4057,6 +4057,19 @@ window.families = {
     3504: [ ...MissTsuru ],
     3505: [ ...Foxy, ...Porche ],
     3506: [ ...Hyogoro ],
+    3507: [ ...Kaido, ...King, ...Queen, ...Jack ],
+    3508: [ ...Kaido, ...King, ...Queen, ...Jack ],
+    3509: [ ...KurozumiOrochi ],
+    3510: [ ...Brook ],
+    3511: [ ...VinsmokeSanji, ...RoronoaZoro ],
+    3512: [ ...GolDRoger, ...EdwardNewgate ],
+    3513: [ ...GolDRoger, ...EdwardNewgate ],
+    3514: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
+    3515: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
+    3516: [ ...Shanks, ...Buggy ],
+    3517: [ ...SilversRayleigh, ...Gaban ],
+    3518: [ ...MonkeyDGarp ],
+    3519: [ ...KozukiOden ],
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],
@@ -4414,6 +4427,54 @@ const ghostFamilies = {
     338: [ ...EdwardNewgate, ...Shanks ],
     339: [ ...EdwardNewgate, ...Shanks ],
     340: [ ...EdwardNewgate, ...Shanks ],
+    341: [ ...Ulti, ...PageOne ],
+    342: [ ...Ulti, ...PageOne ],
+    343: [ ...Ulti, ...PageOne ],
+    344: [ ...Ulti, ...PageOne ],
+    345: [ ...Ulti, ...PageOne ],
+    346: [ ...Ulti, ...PageOne ],
+    347: [ ...Ulti, ...PageOne ],
+    348: [ ...Ulti, ...PageOne ],
+    349: [ ...Nami, ...Usopp ],
+    350: [ ...Nami, ...Usopp ],
+    351: [ ...Nami, ...Usopp ],
+    352: [ ...Nami, ...Usopp ],
+    353: [ ...Nami, ...Usopp ],
+    354: [ ...Nami, ...Usopp ],
+    355: [ ...Nami, ...Usopp ],
+    356: [ ...Nami, ...Usopp ],
+    357: [ ...NicoRobin, ...Jinbe ],
+    358: [ ...NicoRobin, ...Jinbe ],
+    359: [ ...NicoRobin, ...Jinbe ],
+    360: [ ...NicoRobin, ...Jinbe ],
+    361: [ ...NicoRobin, ...Jinbe ],
+    362: [ ...NicoRobin, ...Jinbe ],
+    363: [ ...NicoRobin, ...Jinbe ],
+    364: [ ...NicoRobin, ...Jinbe ],
+    365: [ ...Kaido, ...King, ...Queen, ...Jack ],
+    366: [ ...Kaido, ...King, ...Queen, ...Jack ],
+    367: [ ...Kaido, ...King, ...Queen, ...Jack ],
+    368: [ ...Kaido, ...King, ...Queen, ...Jack ],
+    369: [ ...Kaido, ...King, ...Queen, ...Jack ],
+    370: [ ...Kaido, ...King, ...Queen, ...Jack ],
+    371: [ ...Kaido, ...King, ...Queen, ...Jack ],
+    372: [ ...Kaido, ...King, ...Queen, ...Jack ],
+    373: [ ...GolDRoger, ...EdwardNewgate ],
+    374: [ ...GolDRoger, ...EdwardNewgate ],
+    375: [ ...GolDRoger, ...EdwardNewgate ],
+    376: [ ...GolDRoger, ...EdwardNewgate ],
+    377: [ ...GolDRoger, ...EdwardNewgate ],
+    378: [ ...GolDRoger, ...EdwardNewgate ],
+    379: [ ...GolDRoger, ...EdwardNewgate ],
+    380: [ ...GolDRoger, ...EdwardNewgate ],
+    381: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
+    382: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
+    383: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
+    384: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
+    385: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
+    386: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
+    387: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
+    388: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
 }
 
 Object.keys(ghostFamilies).forEach(function (key) {
