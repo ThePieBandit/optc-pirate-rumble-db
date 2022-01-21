@@ -224,7 +224,7 @@ const Porche = [ "Porche" ];
 const Capote = [ "Capote" ];
 const Hamburg = [ "Hamburg" ];
 const Pickles = [ "Pickles" ];
-const BigBun = [ "Big Bun" ];
+const BigBun = [ "Big Bun", "Big Pan" ];
 const Foxy = [ "Foxy" ];
 const Kuzan = [ "Kuzan", "Aokiji" ];
 const Genbou = [ "Genbou" ];
@@ -4072,6 +4072,13 @@ window.families = {
     3518: [ ...MonkeyDGarp ],
     3519: [ ...KozukiOden ],
     3520: [ ...Sengoku ],
+    3521: [ ...Hamburg, ...Pickles, ...BigBun ],
+    3522: [ ...Bentham ],
+    3523: [ ...Bentham ],
+    3524: [ ...CaesarClown ],
+    3525: [ ...EmporioIvankov ],
+    3526: [ ...Wapol ],
+    3527: [ ...Tashigi ],
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],
