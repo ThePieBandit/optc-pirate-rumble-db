@@ -110279,7 +110279,7 @@
               "effect": "debuff",
               "condition": { "comparator": "first", "count": 30, "type": "time" },
               "level": 2,
-              "targeting": { "targets": [ "[STR]" ] }
+              "targeting": { "count": 1, "priority": "highest", "stat": "DEF", "targets": [ "[STR]" ] }
             }
           ]
         },
@@ -111251,7 +111251,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Slience",
+          "attribute": "Silence",
           "chance": 80,
           "type": "debuff"
         }
@@ -111466,7 +111466,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Slience",
+          "attribute": "Silence",
           "chance": 80,
           "type": "debuff"
         }
@@ -111718,7 +111718,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Slience",
+          "attribute": "Silence",
           "chance": 100,
           "type": "debuff"
         },
