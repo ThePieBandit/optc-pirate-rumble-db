@@ -485,7 +485,7 @@ const Dogra = [ "Dogra" ];
 const Wadatsumi = [ "Wadatsumi" ];
 const Inuarashi = [ "Inuarashi", "Dogstorm", "Doggo" ];
 const Wanda = [ "Wanda" ];
-const Sicilian = [ "Sicilian" ];
+const Sicilian = [ "Sicilian", "Shishilian" ];
 const KozukiMomonosuke = [ "Kozuki Momonosuke" ];
 const Ryuboshi = [ "Ryuboshi" ];
 const Manboshi = [ "Manboshi" ];
@@ -542,7 +542,7 @@ const CharlotteCracker = [ "Charlotte Cracker" ];
 const CharlotteOpera = [ "Charlotte Opera" ];
 const Jack = [ "Jack" ];
 const Roddy = [ "Roddy" ];
-const Blackback = [ "Blackback" ];
+const Blackback = [ "Blackback", "BB" ];
 const Miyagi = [ "Miyagi" ];
 const Tristan = [ "Tristan" ];
 const Guardians = [ "Guardians" ];
@@ -642,7 +642,7 @@ const Yamato = [ "Yamato" ];
 const Sasaki = [ "Sasaki" ];
 const Ulti = [ "Ulti" ];
 const BlackMaria = [ "Black Maria" ];
-const WhosWho = [ "Who's Who", "Whos Who", "WhosWho" ];
+const WhosWho = [ "Who's Who", "Whos Who", "WhosWho", "Who's-Who" ];
 const Concelot = [ "Concelot" ];
 const Giovanni = [ "Giovanni" ];
 const Milky = [ "Milky" ];
@@ -4131,6 +4131,7 @@ window.families = {
     3563: [ ...Izo, ...Kikunojo ],
     3564: [ ...Inuarashi ],
     3565: [ ...Nekomamushi ],
+    3566: [ ...Broggy ],
     3567: [ ...KurozumiKanjuro ],
     3568: [ ...KozukiHiyori ],
     3569: [ ...Shinobu ],
@@ -4144,6 +4145,10 @@ window.families = {
     3577: [ ...NicoRobin ],
     3578: [ ...VinsmokeSanji ],
     3579: [ ...Sasaki ],
+    3580: [ ...BasilHawkins ],
+    3581: [ ...Urouge ],
+    3582: [ ...Urouge ],
+    3583: [ ...Dorry ],
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],
