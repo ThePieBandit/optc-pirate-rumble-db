@@ -240,7 +240,7 @@
             params.matchers.class = classes.join('|').replace(whitespaceRegex, '_');
             matchers.push('class:' + params.matchers.class);
         }
-        if (supportingFamilies && supportingFamilies.length > 0) {
+        if (supportingFamilies.length > 0) {
             params.matchers.notfamily = utils.generateFamilyExclusionQuery(supportingFamilies);
             matchers.push(params.matchers.notfamily);
         }
@@ -478,8 +478,6 @@
             case 9056: return '../res/skullOden.png'; break;
             case 'skullBlackbeard2':
             case 9057: return '../res/skullBlackbeard2.png'; break;
-            case 'skullDoflamingo2':
-            case 9058: return '../res/skullDoflamingo2.png'; break;
         }
         if (n === null || n === undefined)
             return 'https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
@@ -1153,22 +1151,6 @@
             case (ghostPoint+386).toString(): return '../res/character_12424_t1.png'; break;
             case (ghostPoint+387).toString(): return '../res/character_12426_t1_str.png'; break;
             case (ghostPoint+388).toString(): return '../res/character_12426_t1_dex.png'; break;
-            case (ghostPoint+389).toString(): return '../res/character_12461_t1.png'; break;
-            case (ghostPoint+390).toString(): return '../res/character_12462_t1.png'; break;
-            case (ghostPoint+391).toString(): return '../res/character_12465_t1_qck.png'; break;
-            case (ghostPoint+392).toString(): return '../res/character_12465_t1_dex.png'; break;
-            case (ghostPoint+393).toString(): return '../res/character_12463_t1.png'; break;
-            case (ghostPoint+394).toString(): return '../res/character_12464_t1.png'; break;
-            case (ghostPoint+395).toString(): return '../res/character_12466_t1_qck.png'; break;
-            case (ghostPoint+396).toString(): return '../res/character_12466_t1_dex.png'; break;
-            case (ghostPoint+397).toString(): return '../res/character_12503_t1.png'; break;
-            case (ghostPoint+398).toString(): return '../res/character_12504_t1.png'; break;
-            case (ghostPoint+399).toString(): return '../res/character_12507_t1_psy.png'; break;
-            case (ghostPoint+400).toString(): return '../res/character_12507_t1_qck.png'; break;
-            case (ghostPoint+401).toString(): return '../res/character_12505_t1.png'; break;
-            case (ghostPoint+402).toString(): return '../res/character_12506_t1.png'; break;
-            case (ghostPoint+403).toString(): return '../res/character_12508_t1_psy.png'; break;
-            case (ghostPoint+404).toString(): return '../res/character_12508_t1_qck.png'; break;
             default: break;
         }
         return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + id + '.png';
@@ -1491,25 +1473,19 @@
         if (typeof supportingUnit === 'number')
             supportingUnit = window.units[supportingUnit - 1];
 
-        if (!unitToSupport || !supportingUnit)
+        if (!unitToSupport || !supportingUnit || !unitToSupport.families)
             return false;
 
         if (!supportingUnit.support || !supportingUnit.support[0]) // no support
             return false;
 
-        // They should not have the same family. The supporting unit may have no
-        // families if data is incomplete, in which case it won't be excluded
-        // from the supporting units even though it may have the same family name
-        if (supportingUnit.families && unitToSupport.families.some(fam => supportingUnit.families.includes(fam)))
-            return false;
-
-        if (/^All characters?/i.test(supportingUnit.support[0].Characters))
+        if (/^All characters?/i.test(supportingUnit.support[0].Characters) && unitToSupport.families.every(fam => !supportingUnit.families.includes(fam)))
             return true;
 
         // recreate the query generated for support units
         // make it returns search params instead of the query, so we save up on
         // parsing the query (no `utils.generateSearchParameters` call)
-        let params = utils.generateSupportedCharactersQuery(supportingUnit.support[0].Characters, undefined, true);
+        let params = utils.generateSupportedCharactersQuery(supportingUnit.support[0].Characters, supportingUnit.families, true);
         if (!params)
             return false;
         return utils.checkUnitMatchSearchParameters(unitToSupport, params);
