@@ -17,7 +17,7 @@ jobs:
     strategy:
         matrix:
             node-version: [12.x]
-            
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout Master
@@ -58,7 +58,7 @@ jobs:
           path: |
             **/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
-        
+
       - name: Install dependencies
         run: |
           cd optc-pirate-rumble-db
@@ -88,6 +88,8 @@ jobs:
       - name: Deploy
         run: |
           cd optc-pirate-rumble-db
+          git config --global user.email "61213359+ThePieBandit@users.noreply.github.com"
+          git config --global user.name "ThePieBandit"
           NODE_DEBUG=gh-pages npm run deploy
         env:
 #          user_name: 'github-actions[bot]'
