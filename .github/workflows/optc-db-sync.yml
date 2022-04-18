@@ -21,15 +21,16 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout Master
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: optc-pirate-rumble-db
       - name: Checkout GH-Pages Branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: pages
+          ref: gh-pages
       - name: Checkout OPTC-DB
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: optc-db/optc-db.github.io
           path: optc-db
@@ -91,7 +92,6 @@ jobs:
       - name: Deploy
         run: |
            cd pages
-           git checkout gh-pages
            git config --global user.email "61213359+ThePieBandit@users.noreply.github.com"
            git config --global user.name "ThePieBandit"
            cp -r ../optc-pirate-rumble-db/dist/optc-pirate-rumble-db/* ./
