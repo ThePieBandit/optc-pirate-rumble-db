@@ -120,7 +120,8 @@ class UserService {
       unitDetail.lvl5Ability = (unit.ability[4].effects as rumble.Effect[]);
       unitDetail.lvl10Special = (unit.special[9].effects as rumble.Effect[]);
       unitDetail.lvl10Cooldown = unit.special[9].cooldown;
-      unitDetail.thumbnailUrl = window.Utils.getThumbnailUrl(Math.floor(unit.id)).replace('..', 'https://optc-db.github.io/');
+      //unitDetail.thumbnailUrl = window.Utils.getThumbnailUrl(Math.floor(unit.id)).replace('..', 'https://optc-db.github.io/');
+      unitDetail.thumbnailUrl = 'https://optc-db.github.io/' + window.Utils.getThumbnailUrl(Math.floor(unit.id));
 
       // merge of all props between unit and unitDetail
       this.rumbleUnits.push({
