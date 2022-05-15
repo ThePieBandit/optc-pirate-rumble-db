@@ -92,9 +92,8 @@ export class UnitFilterPipe implements PipeTransform {
     // the full filtered array to know the number of items/pages
     return filtered;
   }
-
   
-  private targetsClasses(lvl5Ability: Effect[], class1: Classes, class2: Classes): unknown {
+  private targetsClasses(lvl5Ability: Effect[], class1: Classes, class2: Classes): boolean {
     return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.includes(class1) || e.targeting.targets.includes(class2));
   }
   
@@ -103,7 +102,7 @@ export class UnitFilterPipe implements PipeTransform {
     return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.includes(color));
   }
   
-  private targetsCrew(lvl5Ability: Effect[]): unknown {
+  private targetsCrew(lvl5Ability: Effect[]): boolean {
     return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.includes('crew'));
   }
 
