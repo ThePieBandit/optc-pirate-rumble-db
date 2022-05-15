@@ -76,12 +76,19 @@ class UserService {
     const units: rumble.Entry[] = rumbleData.units as rumble.Entry[];
     for (let i = 0; i < units.length; i++) {
       let unit: rumble.Unit;
-      if ('basedOn' in units[i]) {
-        const baseUnit: rumble.Unit = units.find(u => u.id === (units[i] as rumble.Reference).basedOn) as rumble.Unit;
+      let basedOn = units[i].basedOn;
+      if (basedOn) {
+        let baseUnit: rumble.Unit;
+        do {
+          baseUnit = units.find(u => u.id === basedOn) as rumble.Unit;
+          basedOn = baseUnit && baseUnit.basedOn;
+        } while (basedOn);
+
         if (baseUnit == null) {
           console.log( ' Failed to locate Base Unit!!!!!!! ' + i, units[i]);
           continue;
         }
+
         try {
           unit = JSON.parse(JSON.stringify(baseUnit));
         } catch (error) {
