@@ -112,6 +112,11 @@ class UserService {
         continue;
       }
 
+      if (!unit.ability || !unit.special || !unit.stats) {
+        console.log('unexpected unit ' + unit.id, unit);
+        continue;
+      }
+
       this.denormalizeEffects(unit.ability);
       this.denormalizeEffects(unit.special);
 
