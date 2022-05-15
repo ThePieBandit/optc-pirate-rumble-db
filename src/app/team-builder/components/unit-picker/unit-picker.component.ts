@@ -45,11 +45,14 @@ export class UnitPickerComponent implements OnInit {
   team: UnitDetails[];
   current: UnitDetails;
 
+  @LocalStorage()
+  oldestFirst = false;
+
   constructor(
     private dialogRef: MatDialogRef<UnitPickerComponent, UnitDetails>,
     @Inject(MAT_DIALOG_DATA) data: UnitPickerData
   ) {
-    this.units = data.units;
+    this.units = data.units.sort((a, b) => this.oldestFirst ? a.id - b.id : b.id - a.id);
     this.current = data.current;
     this.filter.page = 0;
     this.filter.excludeIds = data.team && data.team.map(u => u.id);
