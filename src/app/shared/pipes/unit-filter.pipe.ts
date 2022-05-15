@@ -1,8 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { UnitDetails } from '@shared/models/unit-details';
-import { Effect } from '../../shared/models/rumble';
+import { Effect, Classes, Colors } from '../../shared/models/rumble';
 
 export type BuffSearchType = 'both' | 'ability' | 'special';
+export type AbilityTargetType = 'any' | 'crew' | 'type' | 'class';
 
 export interface UnitFilterArgs {
   filter: string;
@@ -11,6 +12,7 @@ export interface UnitFilterArgs {
   types: string[];
   buffs: string[];
   buffSearch: BuffSearchType;
+  abilityTargetType: AbilityTargetType;
   excludeIds?: number[];
   hideBaseForms?: boolean;
 }
@@ -65,6 +67,22 @@ export class UnitFilterPipe implements PipeTransform {
           break;
       }
     }
+    if (arg.abilityTargetType) {
+      switch (arg.abilityTargetType) {
+        case 'crew':
+          filtered = filtered.filter(u => this.targetsCrew(u.lvl5Ability));
+          break;
+        case 'type':
+          filtered = filtered.filter(u => this.targetsTypes(u.lvl5Ability, u.type));
+          break;
+        case 'class':
+          filtered = filtered.filter(u => this.targetsClasses(u.lvl5Ability, u.class1, u.class2));
+          break;
+        default:
+          break;
+      }
+    }
+
     if (arg.excludeIds && arg.excludeIds.length) {
       const set = new Set(arg.excludeIds);
       filtered = filtered.filter(u => !set.has(u.id));
@@ -75,10 +93,26 @@ export class UnitFilterPipe implements PipeTransform {
     return filtered;
   }
 
+  
+  private targetsClasses(lvl5Ability: Effect[], class1: Classes, class2: Classes): unknown {
+    return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.includes(class1) || e.targeting.targets.includes(class2));
+  }
+  
+  private targetsTypes(lvl5Ability: Effect[], type: string): boolean {
+    const color = `[${type}]` as Colors;
+    return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.includes(color));
+  }
+  
+  private targetsCrew(lvl5Ability: Effect[]): unknown {
+    return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.includes('crew'));
+  }
+
   private effectMatches(effects: Effect[], buffs: string[]): boolean {
     return buffs.every(buff => effects.some(effect =>
       effect.effect === 'buff' &&
       effect.attributes.some(attr => attr === buff)
     ));
   }
+
+  private getTargetingEffects = (effects: Effect[]) => effects.filter(e => e.effect === 'buff' && e.targeting && e.targeting.targets);
 }

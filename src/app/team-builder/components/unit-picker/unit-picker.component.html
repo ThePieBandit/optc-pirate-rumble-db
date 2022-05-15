@@ -11,17 +11,28 @@
   <mat-dialog-content>
     <fieldset class="search">
       <legend>Filters</legend>
-      <div class="name-filter">
-        <mat-form-field class="full-width" color="accent">
-          <input
-            cdkFocusInitial
-            matInput
-            placeholder="Search unit"
-            type="text"
-            name="name"
-            [(ngModel)]="filter.filter"
-          />
-        </mat-form-field>
+      <div class="name-filter" fxLayout="row" fxLayoutAlign="space-between center">
+        <div fxLayout="column" fxFlex="70%">
+          <mat-form-field class="full-width" color="accent">
+            <input
+              cdkFocusInitial
+              matInput
+              placeholder="Search unit"
+              type="text"
+              name="name"
+              [(ngModel)]="filter.filter"
+            />
+          </mat-form-field>
+        </div>
+        <div fxLayout="column">
+          Ability affecting:
+          <mat-button-toggle-group [(ngModel)]="filter.buffTargetType" (change)="abilityTargetTypeChange($event)">
+            <mat-button-toggle value="any">Any</mat-button-toggle>
+            <mat-button-toggle value="crew">Crew</mat-button-toggle>
+            <mat-button-toggle value="class">Class</mat-button-toggle>
+            <mat-button-toggle value="type">Type</mat-button-toggle>
+          </mat-button-toggle-group>
+        </div>
       </div>
       <div class="type-filters">
         <app-type-picker [type]="filter.types" (classChange)="typeChange($event)"></app-type-picker>

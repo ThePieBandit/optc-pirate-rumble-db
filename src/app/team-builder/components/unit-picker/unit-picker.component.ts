@@ -26,6 +26,7 @@ const initialFilter = (): UnitPickerFilter => ({
   buffSearch: 'both',
   includeOtherClasses: true,
   hideBaseForms: true,
+  abilityTargetType: 'any',
 });
 
 @Component({
@@ -97,6 +98,11 @@ export class UnitPickerComponent implements OnInit {
   buffSearchChange(event: any): void {
     this.paginator.firstPage();
     this.filter.buffSearch = event.value;
+  }
+
+  abilityTargetTypeChange(event: any): void {
+    this.paginator.firstPage();
+    this.filter.abilityTargetType = event.value;
   }
 
   resetPage(): void {
