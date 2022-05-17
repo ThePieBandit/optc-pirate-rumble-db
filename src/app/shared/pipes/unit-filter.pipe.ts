@@ -79,7 +79,11 @@ export class UnitFilterPipe implements PipeTransform {
         case 'class':
           filtered = filtered.filter(u => this.targetsClasses(u.lvl5Ability));
           break;
+        case 'any':
+          // no need to filter anything
+          break;
         default:
+          console.warn('unexpected abilityTargetType: ' + arg.abilityTargetType);
           break;
       }
     }
