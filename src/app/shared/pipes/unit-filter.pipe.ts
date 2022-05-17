@@ -1,6 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { UnitDetails } from '@shared/models/unit-details';
-import { Effect, Classes, Colors } from '../../shared/models/rumble';
+import { Classes, Effect } from '@shared/models/rumble';
+import { types, classes } from '@core/constants/units';
 
 export type BuffSearchType = 'both' | 'ability' | 'special';
 export type AbilityTargetType = 'any' | 'crew' | 'type' | 'class';
@@ -73,10 +74,10 @@ export class UnitFilterPipe implements PipeTransform {
           filtered = filtered.filter(u => this.targetsCrew(u.lvl5Ability));
           break;
         case 'type':
-          filtered = filtered.filter(u => this.targetsTypes(u.lvl5Ability, u.type));
+          filtered = filtered.filter(u => this.targetsTypes(u.lvl5Ability));
           break;
         case 'class':
-          filtered = filtered.filter(u => this.targetsClasses(u.lvl5Ability, u.class1, u.class2));
+          filtered = filtered.filter(u => this.targetsClasses(u.lvl5Ability));
           break;
         default:
           break;
@@ -93,13 +94,12 @@ export class UnitFilterPipe implements PipeTransform {
     return filtered;
   }
   
-  private targetsClasses(lvl5Ability: Effect[], class1: Classes, class2: Classes): boolean {
-    return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.includes(class1) || e.targeting.targets.includes(class2));
+  private targetsClasses(lvl5Ability: Effect[]): boolean {
+    return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.some(t => classes.includes(t as Classes)));
   }
   
-  private targetsTypes(lvl5Ability: Effect[], type: string): boolean {
-    const color = `[${type}]` as Colors;
-    return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.includes(color));
+  private targetsTypes(lvl5Ability: Effect[]): boolean {
+    return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.some(t => types.includes(t)));
   }
   
   private targetsCrew(lvl5Ability: Effect[]): boolean {
