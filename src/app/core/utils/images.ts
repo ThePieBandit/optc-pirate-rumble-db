@@ -1,11 +1,14 @@
 export const typeImage = (type: string): string => {
+  if (!type.startsWith('[')) {
+    type = `[${type}]`;
+  }
   switch (type) {
-    case 'STR': return 'assets/images/filter_attribute_power.png';
-    case 'DEX': return 'assets/images/filter_attribute_technical.png';
-    case 'QCK': return 'assets/images/filter_attribute_speed.png';
-    case 'PSY': return 'assets/images/filter_attribute_heart.png';
-    case 'INT': return 'assets/images/filter_attribute_intellect.png';
-    case 'DUAL': return 'assets/images/filter_attribute_multiplecharacter.png';
+    case '[STR]': return 'assets/images/filter_attribute_power.png';
+    case '[DEX]': return 'assets/images/filter_attribute_technical.png';
+    case '[QCK]': return 'assets/images/filter_attribute_speed.png';
+    case '[PSY]': return 'assets/images/filter_attribute_heart.png';
+    case '[INT]': return 'assets/images/filter_attribute_intellect.png';
+    case '[DUAL]': return 'assets/images/filter_attribute_multiplecharacter.png';
     default: return '';
   }
 };

@@ -4,12 +4,12 @@ import { Classes } from 'src/app/shared/models/rumble';
 // because they are surrounded with []
 // but unit.stats.type does not have []
 export const types = [
-  'STR',
-  'DEX',
-  'QCK',
-  'PSY',
-  'INT',
-  'DUAL'
+  '[STR]',
+  '[DEX]',
+  '[QCK]',
+  '[PSY]',
+  '[INT]',
+  '[DUAL]'
 ];
 
 export const classes: Classes[] = [

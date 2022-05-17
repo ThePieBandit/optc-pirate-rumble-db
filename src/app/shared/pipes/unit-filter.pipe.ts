@@ -41,7 +41,7 @@ export class UnitFilterPipe implements PipeTransform {
       );
     }
     if (arg.types && arg.types.length) {
-      filtered = filtered.filter(u => u.stats && arg.types.some(t => t === u.stats.type));
+      filtered = filtered.filter(u => u.stats && arg.types.some(t => t === `[${u.stats.type}]`));
     }
     if (arg.classes && arg.classes.length) {
       const set = new Set(arg.classes);
