@@ -4,6 +4,11 @@
     <button mat-list-item (click)="triggerOption(option.type)">{{option.text}}</button>
     <mat-divider></mat-divider>
   </ng-container>
+  <div mat-subheader>Picker options</div>
+  <ng-container *ngFor="let option of pickerOptions">
+    <button mat-list-item (click)="triggerOption(option.type)">{{option.text}}</button>
+    <mat-divider></mat-divider>
+  </ng-container>
 </mat-action-list>
 
 <ng-container *ngFor="let team of teams">
