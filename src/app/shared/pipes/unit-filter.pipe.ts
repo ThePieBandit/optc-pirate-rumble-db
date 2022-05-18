@@ -1,8 +1,10 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { UnitDetails } from '@shared/models/unit-details';
-import { Effect } from '../../shared/models/rumble';
+import { Classes, Effect } from '@shared/models/rumble';
+import { types, classes } from '@core/constants/units';
 
 export type BuffSearchType = 'both' | 'ability' | 'special';
+export type AbilityTargetType = 'any' | 'crew' | 'type' | 'class';
 
 export interface UnitFilterArgs {
   filter: string;
@@ -11,6 +13,7 @@ export interface UnitFilterArgs {
   types: string[];
   buffs: string[];
   buffSearch: BuffSearchType;
+  abilityTargetType: AbilityTargetType;
   excludeIds?: number[];
   hideBaseForms?: boolean;
 }
@@ -39,7 +42,7 @@ export class UnitFilterPipe implements PipeTransform {
       );
     }
     if (arg.types && arg.types.length) {
-      filtered = filtered.filter(u => u.stats && arg.types.some(t => t === u.stats.type));
+      filtered = filtered.filter(u => u.stats && arg.types.some(t => t === `[${u.stats.type}]`));
     }
     if (arg.classes && arg.classes.length) {
       const set = new Set(arg.classes);
@@ -65,6 +68,26 @@ export class UnitFilterPipe implements PipeTransform {
           break;
       }
     }
+    if (arg.abilityTargetType) {
+      switch (arg.abilityTargetType) {
+        case 'crew':
+          filtered = filtered.filter(u => this.targetsCrew(u.lvl5Ability));
+          break;
+        case 'type':
+          filtered = filtered.filter(u => this.targetsTypes(u.lvl5Ability));
+          break;
+        case 'class':
+          filtered = filtered.filter(u => this.targetsClasses(u.lvl5Ability));
+          break;
+        case 'any':
+          // no need to filter anything
+          break;
+        default:
+          console.warn('unexpected abilityTargetType: ' + arg.abilityTargetType);
+          break;
+      }
+    }
+
     if (arg.excludeIds && arg.excludeIds.length) {
       const set = new Set(arg.excludeIds);
       filtered = filtered.filter(u => !set.has(u.id));
@@ -74,6 +97,18 @@ export class UnitFilterPipe implements PipeTransform {
     // the full filtered array to know the number of items/pages
     return filtered;
   }
+  
+  private targetsClasses(lvl5Ability: Effect[]): boolean {
+    return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.some(t => classes.includes(t as Classes)));
+  }
+  
+  private targetsTypes(lvl5Ability: Effect[]): boolean {
+    return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.some(t => types.includes(t)));
+  }
+  
+  private targetsCrew(lvl5Ability: Effect[]): boolean {
+    return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.includes('crew'));
+  }
 
   private effectMatches(effects: Effect[], buffs: string[]): boolean {
     return buffs.every(buff => effects.some(effect =>
@@ -81,4 +116,6 @@ export class UnitFilterPipe implements PipeTransform {
       effect.attributes.some(attr => attr === buff)
     ));
   }
+
+  private getTargetingEffects = (effects: Effect[]) => effects.filter(e => e.effect === 'buff' && e.targeting && e.targeting.targets);
 }

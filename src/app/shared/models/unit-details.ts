@@ -1,4 +1,4 @@
-import { Unit, Effect } from './rumble';
+import { Unit, Effect, Classes } from './rumble';
 
 export interface UnitDetails extends Unit {
   complete: boolean;
@@ -11,8 +11,8 @@ export interface UnitDetails extends Unit {
   baseSpd?: number;
   style?: string;
   type: string;
-  class1?: string;
-  class2?: string;
+  class1?: Classes;
+  class2?: Classes;
   festAbility?: string;
   festSpecial?: string;
   festCooldown?: string;
