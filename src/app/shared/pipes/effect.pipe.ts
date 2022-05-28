@@ -4,22 +4,27 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { Effect } from '../models/rumble';
 
 declare namespace Intl {
-    function getCanonicalLocales(locales: string | string[]): string[];
+  function getCanonicalLocales(locales: string | string[]): string[];
 
-    class ListFormat {
-        constructor();
+  interface ListFormatOptions{
+    style?: string;
+    type?: string;
+  }
 
-        format(a: any): any;
-    }
-    class NumberFormat {
-            constructor();
+  class ListFormat {
+    constructor(locales?: string | string[], options?: Intl.ListFormatOptions);
+    public format: (items: string[]) => string;
+  }
 
-            format(a: any): any;
-        }
+  class NumberFormat {
+    constructor();
+    format(a: any): any;
+  }
 }
 
 const numberFormatter: Intl.NumberFormat = new Intl.NumberFormat();
 const listFormatter: Intl.ListFormat = new Intl.ListFormat();
+const orListFormatter: Intl.ListFormat = new Intl.ListFormat(undefined, { type: 'disjunction' });
 
 @Pipe({
   name: 'effect'
@@ -37,7 +42,7 @@ export class EffectPipe implements PipeTransform {
         e += 'Inflicts Lv.' + effect.level + ' ' + this.arrayToString(effect.attributes) + ' down debuff';
         break;
       case 'damage':
-        switch (effect.type){
+        switch (effect.type) {
           case 'time':
             e += 'Deals Lv.' + effect.level + ' Damage Over Time';
             break;
@@ -55,7 +60,7 @@ export class EffectPipe implements PipeTransform {
         }
         break;
       case 'recharge':
-        switch (effect.type){
+        switch (effect.type) {
           case 'RCV':
             e += 'Restores ' + numberFormatter.format(effect.amount) + 'x RCV of HP';
             break;
@@ -91,34 +96,33 @@ export class EffectPipe implements PipeTransform {
         }
         else if ('level' in effect) {
           e += 'Inflicts Lv.' + numberFormatter.format(effect.level) + ' ' + this.arrayToString(effect.attributes) + ' down penalty';
- }
+        }
         else {
           e += effect.chance + '% chance to ' + this.arrayToString(effect.attributes);
- }
+        }
         break;
       default:
         e += 'UNKNOWN EFFECT ' + JSON.stringify(effect);
         break;
     }
     e += this.targetToString(effect.targeting) + this.rangeToString(effect.range)
-         + ('duration' in effect  ? ' for ' + numberFormatter.format(effect.duration) + 's' : '') + '.';
+      + ('duration' in effect ? ' for ' + numberFormatter.format(effect.duration) + 's' : '') + '.';
     e += '</li>';
     return e;
   }
 
   arrayToString(array: any): string {
-    const tmpStr = listFormatter.format(array);
-    return tmpStr;
+    return listFormatter.format(array);
   }
 
   conditionToString(condition): string {
     if (!condition) { return ''; }
 
-    switch (condition.type){
+    switch (condition.type) {
       case 'stat':
         return 'When ' + condition.stat + ' is ' + condition.comparator + ' ' + condition.count + '%, ';
       case 'time':
-        switch (condition.comparator){
+        switch (condition.comparator) {
           case 'first':
             return 'For the first ' + condition.count + ' seconds, ';
           case 'after':
@@ -134,7 +138,7 @@ export class EffectPipe implements PipeTransform {
       case 'trigger':
         return 'When this unit does a ' + condition.stat + ' (limit ' + condition.count + '), ';
       case 'character':
-        return `When ${this.arrayToString(condition.families)} is on ${condition.team}, `;
+        return `When ${orListFormatter.format(condition.families)} is on ${condition.team}, `;
       default:
         return 'UNKNOWN CONDITION ' + JSON.stringify(condition);
     }
@@ -155,7 +159,7 @@ export class EffectPipe implements PipeTransform {
       }
       else if (target.count === 1) {
         targetStr = 'enemy';
- }
+      }
     }
 
     const to = ' to ' + ('count' in target ? target.count + ' ' : '') + targetStr;
