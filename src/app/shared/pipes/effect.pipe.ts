@@ -73,7 +73,13 @@ export class EffectPipe implements PipeTransform {
         }
         break;
       case 'hinderance':
-        e += effect.chance + '% chance to ' + this.arrayToString(effect.attributes);
+        if (effect.chance) {
+          e += effect.chance + '% chance to ' + this.arrayToString(effect.attributes);
+        } else if (effect.amount) {
+          e += `Removes ${effect.amount}% of ${this.arrayToString(effect.attributes)}`;
+        } else {
+          console.warn('unexpected hinderance effect', effect);
+        }
         break;
       case 'boon':
         e += ('chance' in effect ? effect.chance + '% chance to ' : '') + ('Provoke' === this.arrayToString(effect.attributes) ? 'Provoke enemies' : 'reduce ' + this.arrayToString(effect.attributes));
@@ -149,7 +155,13 @@ export class EffectPipe implements PipeTransform {
         targetStr = 'enemy';
  }
     }
-    return ' to ' + ('count' in target ? target.count + ' ' : '') + targetStr
-       + ('stat' in target ? ' with the ' + target.priority + ' ' + target.stat : '');
+
+    const to = ' to ' + ('count' in target ? target.count + ' ' : '') + targetStr;
+
+    if (target.percentage && target.priority && target.stat) {
+      return `${to} with a ${target.percentage}% or ${target.priority} ${target.stat}`;
+    }
+
+    return to + ('stat' in target ? ' with the ' + target.priority + ' ' + target.stat : '');
   }
 }
