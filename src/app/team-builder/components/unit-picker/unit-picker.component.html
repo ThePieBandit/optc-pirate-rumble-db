@@ -24,9 +24,18 @@
             />
           </mat-form-field>
         </div>
-        <div fxLayout="column">
-          Ability affecting:
+        <div class="small-filters" fxLayout="column">
+          Ability affecting
           <mat-button-toggle-group [(ngModel)]="filter.abilityTargetType" (change)="abilityTargetTypeChange($event)">
+            <mat-button-toggle value="any">Any</mat-button-toggle>
+            <mat-button-toggle value="crew">Crew</mat-button-toggle>
+            <mat-button-toggle value="class">Class</mat-button-toggle>
+            <mat-button-toggle value="type">Type</mat-button-toggle>
+          </mat-button-toggle-group>
+        </div>
+        <div class="small-filters" fxLayout="column">
+          Special affecting
+          <mat-button-toggle-group [(ngModel)]="filter.specialTargetType" (change)="specialTargetTypeChange($event)">
             <mat-button-toggle value="any">Any</mat-button-toggle>
             <mat-button-toggle value="crew">Crew</mat-button-toggle>
             <mat-button-toggle value="class">Class</mat-button-toggle>

@@ -14,6 +14,7 @@ export interface UnitFilterArgs {
   buffs: string[];
   buffSearch: BuffSearchType;
   abilityTargetType: AbilityTargetType;
+  specialTargetType: AbilityTargetType;
   excludeIds?: number[];
   hideBaseForms?: boolean;
 }
@@ -68,25 +69,10 @@ export class UnitFilterPipe implements PipeTransform {
           break;
       }
     }
-    if (arg.abilityTargetType) {
-      switch (arg.abilityTargetType) {
-        case 'crew':
-          filtered = filtered.filter(u => this.targetsCrew(u.lvl5Ability));
-          break;
-        case 'type':
-          filtered = filtered.filter(u => this.targetsTypes(u.lvl5Ability));
-          break;
-        case 'class':
-          filtered = filtered.filter(u => this.targetsClasses(u.lvl5Ability));
-          break;
-        case 'any':
-          // no need to filter anything
-          break;
-        default:
-          console.warn('unexpected abilityTargetType: ' + arg.abilityTargetType);
-          break;
-      }
-    }
+
+    filtered = this.filterByAbilityTargetType(filtered, arg.abilityTargetType, u => u.lvl5Ability);
+
+    filtered = this.filterByAbilityTargetType(filtered, arg.specialTargetType, u => u.lvl10Special);
 
     if (arg.excludeIds && arg.excludeIds.length) {
       const set = new Set(arg.excludeIds);
@@ -96,6 +82,26 @@ export class UnitFilterPipe implements PipeTransform {
     // we cant do pagination at this level because we need
     // the full filtered array to know the number of items/pages
     return filtered;
+  }
+
+  private filterByAbilityTargetType(current: UnitDetails[], type: AbilityTargetType, abilityFn: (unit: UnitDetails) => Effect[]) {
+    if (!type) {
+      return current;
+    }
+    switch (type) {
+      case 'crew':
+        return current.filter(u => this.targetsCrew(abilityFn(u)));
+      case 'type':
+        return current.filter(u => this.targetsTypes(abilityFn(u)));
+      case 'class':
+        return current.filter(u => this.targetsClasses(abilityFn(u)));
+      case 'any':
+        // no need to filter anything
+        return current;
+      default:
+        console.warn('unexpected AbilityTargetType: ' + type);
+        return current;
+    }
   }
   
   private targetsClasses(lvl5Ability: Effect[]): boolean {
