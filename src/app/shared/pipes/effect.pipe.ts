@@ -48,6 +48,9 @@ export class EffectPipe implements PipeTransform {
             break;
           case 'atk':
             e += 'Deals ' + numberFormatter.format(effect.amount) + 'x ATK in damage';
+            if (effect.defbypass) {
+              e += ' that will ignore DEF'
+            }
             break;
           case 'fixed':
             e += 'Deals ' + numberFormatter.format(effect.amount) + 'x ATK in damage';
