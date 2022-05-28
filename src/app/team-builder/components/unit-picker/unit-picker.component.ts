@@ -56,6 +56,12 @@ export class UnitPickerComponent implements OnInit {
   ) {
     this.units = data.units.sort((a, b) => this.oldestFirst ? a.id - b.id : b.id - a.id);
     this.current = data.current;
+    if (!this.filter.abilityTargetType) {
+      this.filter.abilityTargetType = 'any';
+    }
+    if (!this.filter.specialTargetType) {
+      this.filter.specialTargetType = 'any';
+    }
     this.filter.page = 0;
     this.filter.excludeIds = data.team && data.team.map(u => u.id);
   }
