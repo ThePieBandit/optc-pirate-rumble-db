@@ -116,9 +116,18 @@ export class EffectPipe implements PipeTransform {
         e += 'UNKNOWN EFFECT ' + JSON.stringify(effect);
         break;
     }
-    e += this.targetToString(effect.targeting) + this.rangeToString(effect.range)
-      + ('duration' in effect ? ' for ' + numberFormatter.format(effect.duration) + 's' : '') + '.';
-    e += '</li>';
+    
+    e += this.targetToString(effect.targeting) + this.rangeToString(effect.range);
+
+    if (effect.duration) {
+      e += ` for ${numberFormatter.format(effect.duration)}s`;
+    }
+    
+    if (effect.repeat && effect.repeat > 1) {
+      e += ` ${effect.repeat} times`;
+    }
+
+    e += '.</li>';
     return e;
   }
 

@@ -86,6 +86,7 @@ export interface Effect {
   condition?: Condition;
   type?: AttackEffectType | RechargeEffectType;
   defbypass?: boolean;
+  repeat?: number;
 }
 export interface EffectOverride {
   override?: {
