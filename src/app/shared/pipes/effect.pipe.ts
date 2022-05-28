@@ -101,6 +101,14 @@ export class EffectPipe implements PipeTransform {
           e += effect.chance + '% chance to ' + this.arrayToString(effect.attributes);
         }
         break;
+      case 'cleanse':
+        if (effect.chance) {
+          e += `${effect.chance}% chance to cleanse`;
+        } else {
+          e += `cleanses`;
+        }
+        e += ` ${this.arrayToString(effect.attributes)} debuffs`;
+        break;
       default:
         e += 'UNKNOWN EFFECT ' + JSON.stringify(effect);
         break;
