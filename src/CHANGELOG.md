@@ -1,6 +1,7 @@
 ### 2.1.3
 * Fix for main DB script changes
 * New feature to control if newer or older units show first in teambuilder picker.
+* New filter for rainbow, type or class focused units.
 
 ### 2.1.2
 * Improve unit name search to search on other names/families
