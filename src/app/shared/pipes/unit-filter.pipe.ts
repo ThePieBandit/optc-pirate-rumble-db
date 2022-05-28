@@ -4,7 +4,7 @@ import { Classes, Effect } from '@shared/models/rumble';
 import { types, classes } from '@core/constants/units';
 
 export type BuffSearchType = 'both' | 'ability' | 'special';
-export type AbilityTargetType = 'any' | 'crew' | 'type' | 'class';
+export type EffectTargetType = 'any' | 'crew' | 'type' | 'class';
 
 export interface UnitFilterArgs {
   filter: string;
@@ -13,8 +13,8 @@ export interface UnitFilterArgs {
   types: string[];
   buffs: string[];
   buffSearch: BuffSearchType;
-  abilityTargetType: AbilityTargetType;
-  specialTargetType: AbilityTargetType;
+  abilityTargetType: EffectTargetType;
+  specialTargetType: EffectTargetType;
   excludeIds?: number[];
   hideBaseForms?: boolean;
 }
@@ -70,9 +70,9 @@ export class UnitFilterPipe implements PipeTransform {
       }
     }
 
-    filtered = this.filterByAbilityTargetType(filtered, arg.abilityTargetType, u => u.lvl5Ability);
+    filtered = this.filterByEffectTargetType(filtered, arg.abilityTargetType, u => u.lvl5Ability);
 
-    filtered = this.filterByAbilityTargetType(filtered, arg.specialTargetType, u => u.lvl10Special);
+    filtered = this.filterByEffectTargetType(filtered, arg.specialTargetType, u => u.lvl10Special);
 
     if (arg.excludeIds && arg.excludeIds.length) {
       const set = new Set(arg.excludeIds);
@@ -84,22 +84,22 @@ export class UnitFilterPipe implements PipeTransform {
     return filtered;
   }
 
-  private filterByAbilityTargetType(current: UnitDetails[], type: AbilityTargetType, abilityFn: (unit: UnitDetails) => Effect[]) {
+  private filterByEffectTargetType(current: UnitDetails[], type: EffectTargetType, effectFn: (unit: UnitDetails) => Effect[]) {
     if (!type) {
       return current;
     }
     switch (type) {
       case 'crew':
-        return current.filter(u => this.targetsCrew(abilityFn(u)));
+        return current.filter(u => this.targetsCrew(effectFn(u)));
       case 'type':
-        return current.filter(u => this.targetsTypes(abilityFn(u)));
+        return current.filter(u => this.targetsTypes(effectFn(u)));
       case 'class':
-        return current.filter(u => this.targetsClasses(abilityFn(u)));
+        return current.filter(u => this.targetsClasses(effectFn(u)));
       case 'any':
         // no need to filter anything
         return current;
       default:
-        console.warn('unexpected AbilityTargetType: ' + type);
+        console.warn('unexpected EffectTargetType: ' + type);
         return current;
     }
   }
