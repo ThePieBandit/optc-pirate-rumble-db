@@ -147,6 +147,8 @@ export class EffectPipe implements PipeTransform {
         return 'When this unit does a ' + condition.stat + ' (limit ' + condition.count + '), ';
       case 'character':
         return `When ${orListFormatter.format(condition.families)} is on ${condition.team}, `;
+      case 'defeat':
+        return `When ${condition.count} characters on ${condition.team === 'crew' ? 'your crew' : 'the enemy crew'} are defeated, `;
       default:
         return 'UNKNOWN CONDITION ' + JSON.stringify(condition);
     }
