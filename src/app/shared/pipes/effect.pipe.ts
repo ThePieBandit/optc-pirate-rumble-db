@@ -133,6 +133,8 @@ export class EffectPipe implements PipeTransform {
         return 'When ' + condition.type + ' count is ' + condition.count + ' or ' + condition.comparator + ', ';
       case 'trigger':
         return 'When this unit does a ' + condition.stat + ' (limit ' + condition.count + '), ';
+      case 'character':
+        return `When ${this.arrayToString(condition.families)} is on ${condition.team}, `;
       default:
         return 'UNKNOWN CONDITION ' + JSON.stringify(condition);
     }
