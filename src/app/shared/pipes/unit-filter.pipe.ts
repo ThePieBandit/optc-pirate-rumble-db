@@ -10,6 +10,8 @@ export interface UnitFilterArgs {
   filter: string;
   classes: string[];
   includeOtherClasses: boolean;
+  defIgnoringSpecial: boolean;
+  multipleHitSpecial: boolean;
   types: string[];
   buffs: string[];
   buffSearch: BuffSearchType;
@@ -79,6 +81,14 @@ export class UnitFilterPipe implements PipeTransform {
       filtered = filtered.filter(u => !set.has(u.id));
     }
 
+    if (arg.defIgnoringSpecial) {
+      filtered = this.filterBySpecialEffect(filtered, e => e.defbypass);
+    }
+
+    if (arg.multipleHitSpecial) {
+      filtered = this.filterBySpecialEffect(filtered, e => e.repeat > 1);
+    }
+
     // we cant do pagination at this level because we need
     // the full filtered array to know the number of items/pages
     return filtered;
@@ -124,4 +134,6 @@ export class UnitFilterPipe implements PipeTransform {
   }
 
   private getTargetingEffects = (effects: Effect[]) => effects.filter(e => e.effect === 'buff' && e.targeting && e.targeting.targets);
+
+  private filterBySpecialEffect = (current: UnitDetails[], predicate: (effect: Effect) => boolean) => current.filter(u => u.lvl10Special.some(predicate));
 }
