@@ -98,7 +98,7 @@ export class EffectPipe implements PipeTransform {
           e += 'Inflicts Lv.' + numberFormatter.format(effect.level) + ' ' + this.arrayToString(effect.attributes) + ' down penalty';
         }
         else {
-          e += effect.chance + '% chance to ' + this.arrayToString(effect.attributes);
+          e += (effect.chance || 100) + '% chance to ' + this.arrayToString(effect.attributes);
         }
         break;
       case 'cleanse':
