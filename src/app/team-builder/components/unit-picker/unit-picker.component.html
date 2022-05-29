@@ -11,8 +11,8 @@
   <mat-dialog-content>
     <fieldset class="search">
       <legend>Filters</legend>
-      <div class="name-filter" fxLayout="row" fxLayoutAlign="space-between center">
-        <div fxLayout="column" fxFlex="70%">
+      <div fxLayout="row" fxLayoutAlign="space-between start" fxLayoutGap="20px">
+        <div class="name-filter" fxLayout="column" fxGrow="2">
           <mat-form-field class="full-width" color="accent">
             <input
               cdkFocusInitial
@@ -24,8 +24,8 @@
             />
           </mat-form-field>
         </div>
-        <div fxLayout="column">
-          Ability affecting:
+        <div class="small-filters" fxLayout="column">
+          Ability buffing
           <mat-button-toggle-group [(ngModel)]="filter.abilityTargetType" (change)="abilityTargetTypeChange($event)">
             <mat-button-toggle value="any">Any</mat-button-toggle>
             <mat-button-toggle value="crew">Crew</mat-button-toggle>
@@ -33,35 +33,46 @@
             <mat-button-toggle value="type">Type</mat-button-toggle>
           </mat-button-toggle-group>
         </div>
-      </div>
-      <div class="type-filters">
-        <app-type-picker [type]="filter.types" (classChange)="typeChange($event)"></app-type-picker>
-        <mat-checkbox
-          name="includeOtherClasses"
-          [(ngModel)]="filter.hideBaseForms"
-          (ngModelChange)="resetPage()">
-          Hide unevolved units
-        </mat-checkbox>
-      </div>
-      <div class="class-filters">
-        <app-class-picker [class]="filter.classes" (classChange)="classChange($event)"></app-class-picker>
-        <mat-checkbox
-          name="includeOtherClasses"
-          [(ngModel)]="filter.includeOtherClasses"
-          (ngModelChange)="resetPage()">
-          Include other classes
-        </mat-checkbox>
-      </div>
-      <div class="buff-filters">
-        <app-buff-picker [buff]="filter.buffs" (buffChange)="buffChange($event)"></app-buff-picker>
-        <p>
-          Search buffs on:
-          <mat-button-toggle-group [(ngModel)]="filter.buffSearch" (change)="buffSearchChange($event)">
-            <mat-button-toggle value="both">Both</mat-button-toggle>
-            <mat-button-toggle value="ability">Ability</mat-button-toggle>
-            <mat-button-toggle value="special">Special</mat-button-toggle>
+        <div class="small-filters" fxLayout="column">
+          Special buffing
+          <mat-button-toggle-group [(ngModel)]="filter.specialTargetType" (change)="specialTargetTypeChange($event)">
+            <mat-button-toggle value="any">Any</mat-button-toggle>
+            <mat-button-toggle value="crew">Crew</mat-button-toggle>
+            <mat-button-toggle value="class">Class</mat-button-toggle>
+            <mat-button-toggle value="type">Type</mat-button-toggle>
           </mat-button-toggle-group>
-        </p>
+        </div>
+      </div>
+      <div fxLayout="row wrap" fxLayoutAlign="space-between start" fxLayoutGap="20px">
+        <div fxLayout="column" class="type-filters">
+          <app-type-picker [type]="filter.types" (classChange)="typeChange($event)"></app-type-picker>
+          <mat-checkbox
+            name="includeOtherClasses"
+            [(ngModel)]="filter.hideBaseForms"
+            (ngModelChange)="resetPage()">
+            Hide unevolved units
+          </mat-checkbox>
+        </div>
+        <div fxLayout="column" class="class-filters">
+          <app-class-picker [class]="filter.classes" (classChange)="classChange($event)"></app-class-picker>
+          <mat-checkbox
+            name="includeOtherClasses"
+            [(ngModel)]="filter.includeOtherClasses"
+            (ngModelChange)="resetPage()">
+            Include other classes
+          </mat-checkbox>
+        </div>
+        <div fxLayout="column" class="buff-filters small-filters">
+          <app-buff-picker [buff]="filter.buffs" (buffChange)="buffChange($event)"></app-buff-picker>
+          <p>
+            Search buffs on
+            <mat-button-toggle-group [(ngModel)]="filter.buffSearch" (change)="buffSearchChange($event)">
+              <mat-button-toggle value="both">Both</mat-button-toggle>
+              <mat-button-toggle value="ability">Ability</mat-button-toggle>
+              <mat-button-toggle value="special">Special</mat-button-toggle>
+            </mat-button-toggle-group>
+          </p>
+        </div>
       </div>
     </fieldset>
     <div class="results" fxLayout="row wrap">

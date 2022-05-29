@@ -4,7 +4,7 @@ import { Classes, Effect } from '@shared/models/rumble';
 import { types, classes } from '@core/constants/units';
 
 export type BuffSearchType = 'both' | 'ability' | 'special';
-export type AbilityTargetType = 'any' | 'crew' | 'type' | 'class';
+export type EffectTargetType = 'any' | 'crew' | 'type' | 'class';
 
 export interface UnitFilterArgs {
   filter: string;
@@ -13,7 +13,8 @@ export interface UnitFilterArgs {
   types: string[];
   buffs: string[];
   buffSearch: BuffSearchType;
-  abilityTargetType: AbilityTargetType;
+  abilityTargetType: EffectTargetType;
+  specialTargetType: EffectTargetType;
   excludeIds?: number[];
   hideBaseForms?: boolean;
 }
@@ -68,25 +69,10 @@ export class UnitFilterPipe implements PipeTransform {
           break;
       }
     }
-    if (arg.abilityTargetType) {
-      switch (arg.abilityTargetType) {
-        case 'crew':
-          filtered = filtered.filter(u => this.targetsCrew(u.lvl5Ability));
-          break;
-        case 'type':
-          filtered = filtered.filter(u => this.targetsTypes(u.lvl5Ability));
-          break;
-        case 'class':
-          filtered = filtered.filter(u => this.targetsClasses(u.lvl5Ability));
-          break;
-        case 'any':
-          // no need to filter anything
-          break;
-        default:
-          console.warn('unexpected abilityTargetType: ' + arg.abilityTargetType);
-          break;
-      }
-    }
+
+    filtered = this.filterByEffectTargetType(filtered, arg.abilityTargetType, u => u.lvl5Ability);
+
+    filtered = this.filterByEffectTargetType(filtered, arg.specialTargetType, u => u.lvl10Special);
 
     if (arg.excludeIds && arg.excludeIds.length) {
       const set = new Set(arg.excludeIds);
@@ -96,6 +82,26 @@ export class UnitFilterPipe implements PipeTransform {
     // we cant do pagination at this level because we need
     // the full filtered array to know the number of items/pages
     return filtered;
+  }
+
+  private filterByEffectTargetType(current: UnitDetails[], type: EffectTargetType, effectFn: (unit: UnitDetails) => Effect[]) {
+    if (!type) {
+      return current;
+    }
+    switch (type) {
+      case 'crew':
+        return current.filter(u => this.targetsCrew(effectFn(u)));
+      case 'type':
+        return current.filter(u => this.targetsTypes(effectFn(u)));
+      case 'class':
+        return current.filter(u => this.targetsClasses(effectFn(u)));
+      case 'any':
+        // no need to filter anything
+        return current;
+      default:
+        console.warn('unexpected EffectTargetType: ' + type);
+        return current;
+    }
   }
   
   private targetsClasses(lvl5Ability: Effect[]): boolean {
