@@ -26,6 +26,8 @@ const initialFilter = (): UnitPickerFilter => ({
   buffSearch: 'both',
   includeOtherClasses: true,
   hideBaseForms: true,
+  defIgnoringSpecial: false,
+  multipleHitSpecial: false,
   abilityTargetType: 'any',
   specialTargetType: 'any',
 });

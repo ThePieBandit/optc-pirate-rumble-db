@@ -47,10 +47,16 @@
         <div fxLayout="column" class="type-filters">
           <app-type-picker [type]="filter.types" (classChange)="typeChange($event)"></app-type-picker>
           <mat-checkbox
-            name="includeOtherClasses"
+            name="hideBaseForms"
             [(ngModel)]="filter.hideBaseForms"
             (ngModelChange)="resetPage()">
             Hide unevolved units
+          </mat-checkbox>
+          <mat-checkbox
+            name="defIgnoringSpecial"
+            [(ngModel)]="filter.defIgnoringSpecial"
+            (ngModelChange)="resetPage()">
+            DEF ignoring special
           </mat-checkbox>
         </div>
         <div fxLayout="column" class="class-filters">
@@ -60,6 +66,12 @@
             [(ngModel)]="filter.includeOtherClasses"
             (ngModelChange)="resetPage()">
             Include other classes
+          </mat-checkbox>
+          <mat-checkbox
+            name="multipleHitSpecial"
+            [(ngModel)]="filter.multipleHitSpecial"
+            (ngModelChange)="resetPage()">
+            Multiple hits special
           </mat-checkbox>
         </div>
         <div fxLayout="column" class="buff-filters small-filters">
