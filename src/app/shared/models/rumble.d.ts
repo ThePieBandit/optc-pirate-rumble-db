@@ -42,7 +42,8 @@ export type EffectEnum =
   | "damage"
   | "recharge"
   | "boon"
-  | "penalty";
+  | "penalty"
+  | "cleanse";
 export type AttackEffectType = "atk" | "time" | "cut" | "fixed";
 export type RechargeEffectType =  "Special CT" | "RCV" | "percentage" | "fixed";
 export type Direction = "forward" | "radial" | "sideways";
