@@ -1,3 +1,6 @@
+import { SpecialEffect } from "@core/constants/effects";
+import { Attribute, EffectEnum } from "@shared/models/rumble";
+
 export const typeImage = (type: string): string => {
   if (!type.startsWith('[')) {
     type = `[${type}]`;
@@ -27,8 +30,8 @@ export const classImage = (type: string): string => {
   }
 };
 
-export const buffImage = (buff: string): string => {
-  switch (buff) {
+export const effectImage = (effect: Attribute | SpecialEffect | EffectEnum): string => {
+  switch (effect) {
     case 'ATK': return 'assets/images/pirates_arena_attack_up.png';
     case 'HP': return 'assets/images/pirates_arena_strength_up.png';
     case 'RCV': return 'assets/images/pirates_arena_cure_up.png';
@@ -39,6 +42,12 @@ export const buffImage = (buff: string): string => {
     case 'Accuracy': return 'assets/images/pirates_arena_miss_up.png';
     case 'Blow Away': return 'assets/images/pirates_arena_KnockBack_up.png';
     case 'Special CT': return 'assets/images/pirates_arena_SP_speed_up.png';
+    case 'Half Stats': return 'assets/images/half_stats.png';
+    case 'Shield': return 'assets/images/shield.png';
+    case 'Confusion': return 'https://i.imgur.com/FiiZkME.jpeg';
+    case 'defIgnoring': return 'assets/images/ignore_def.png';
+    case 'multipleHits': return 'assets/images/eot_dmg.png';
+    case 'recharge': return 'assets/images/healing.png';
     default: return '';
   }
 };

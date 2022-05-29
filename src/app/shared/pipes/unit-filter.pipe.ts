@@ -1,7 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { UnitDetails } from '@shared/models/unit-details';
-import { Classes, Effect } from '@shared/models/rumble';
+import { Attribute, Classes, Effect } from '@shared/models/rumble';
 import { types, classes } from '@core/constants/units';
+import { SpecialEffect } from '@core/constants/effects';
 
 export type BuffSearchType = 'both' | 'ability' | 'special';
 export type EffectTargetType = 'any' | 'crew' | 'type' | 'class';
@@ -10,10 +11,10 @@ export interface UnitFilterArgs {
   filter: string;
   classes: string[];
   includeOtherClasses: boolean;
-  defIgnoringSpecial: boolean;
-  multipleHitSpecial: boolean;
+  specialEffects: SpecialEffect[];
+  healingSpecial?: boolean;
   types: string[];
-  buffs: string[];
+  buffs: Attribute[];
   buffSearch: BuffSearchType;
   abilityTargetType: EffectTargetType;
   specialTargetType: EffectTargetType;
@@ -81,12 +82,23 @@ export class UnitFilterPipe implements PipeTransform {
       filtered = filtered.filter(u => !set.has(u.id));
     }
 
-    if (arg.defIgnoringSpecial) {
-      filtered = this.filterBySpecialEffect(filtered, e => e.defbypass);
-    }
-
-    if (arg.multipleHitSpecial) {
-      filtered = this.filterBySpecialEffect(filtered, e => e.repeat > 1);
+    if (arg.specialEffects) {
+      arg.specialEffects.forEach(effect => {
+        switch (effect) {
+          case 'defIgnoring':
+            filtered = this.filterBySpecialEffect(filtered, e => e.defbypass);
+            break;
+          case 'multipleHits':
+            filtered = this.filterBySpecialEffect(filtered, e => e.repeat > 1);
+            break;
+          case 'recharge':
+            filtered = this.filterBySpecialEffect(filtered, e => e.effect === effect && ['RCV', 'fixed', 'percentage'].includes(e.type));
+            break;
+          default:
+            console.warn('unexpected special effect ' + effect);
+            break;
+        }
+      });
     }
 
     // we cant do pagination at this level because we need
@@ -128,7 +140,7 @@ export class UnitFilterPipe implements PipeTransform {
 
   private effectMatches(effects: Effect[], buffs: string[]): boolean {
     return buffs.every(buff => effects.some(effect =>
-      effect.effect === 'buff' &&
+      (effect.effect === 'buff' || effect.effect === 'hinderance') &&
       effect.attributes.some(attr => attr === buff)
     ));
   }

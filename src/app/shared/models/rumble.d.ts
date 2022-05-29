@@ -21,7 +21,10 @@ export type Attribute =
   | "Paralysis"
   | "Damage Over Time"
   | "Action Bind"
-  | "near";
+  | "near"
+  | "Half Stats"
+  | "Shield"
+  | "Confusion";
 export type TargetingPriority = "highest" | "lowest";
 export type TargetElement = Targets | Classes | Colors;
 export type Targets = "self" | "crew" | "enemies";

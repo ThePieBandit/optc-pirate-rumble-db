@@ -52,12 +52,6 @@
             (ngModelChange)="resetPage()">
             Hide unevolved units
           </mat-checkbox>
-          <mat-checkbox
-            name="defIgnoringSpecial"
-            [(ngModel)]="filter.defIgnoringSpecial"
-            (ngModelChange)="resetPage()">
-            DEF ignoring special
-          </mat-checkbox>
         </div>
         <div fxLayout="column" class="class-filters">
           <app-class-picker [class]="filter.classes" (classChange)="classChange($event)"></app-class-picker>
@@ -67,15 +61,9 @@
             (ngModelChange)="resetPage()">
             Include other classes
           </mat-checkbox>
-          <mat-checkbox
-            name="multipleHitSpecial"
-            [(ngModel)]="filter.multipleHitSpecial"
-            (ngModelChange)="resetPage()">
-            Multiple hits special
-          </mat-checkbox>
         </div>
         <div fxLayout="column" class="buff-filters small-filters">
-          <app-buff-picker [buff]="filter.buffs" (buffChange)="buffChange($event)"></app-buff-picker>
+          <app-buff-picker (effectChange)="effectChange($event)"></app-buff-picker>
           <p>
             Search buffs on
             <mat-button-toggle-group [(ngModel)]="filter.buffSearch" (change)="buffSearchChange($event)">

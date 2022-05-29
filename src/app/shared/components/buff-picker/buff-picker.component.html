@@ -1,7 +1,7 @@
-<mat-button-toggle-group fxLayout="row wrap" aria-label="Buff Filter" [(ngModel)]="buff" name="buffs" multiple (change)="change()">
-  <mat-button-toggle *ngFor="let b of buffs"
-    [value]="b.name"
+<mat-button-toggle-group fxLayout="row wrap" aria-label="Buff Filter" [(ngModel)]="effects" name="effects" multiple (change)="onEffectChange()">
+  <mat-button-toggle *ngFor="let effect of allEffects"
+    [value]="effect"
   >
-    <img [src]="b.img" width="48" height="48" [matTooltip]="b.name"/>
+    <img [src]="effect.img" width="48" height="48" [matTooltip]="effect.label || effect.name"/>
   </mat-button-toggle>
 </mat-button-toggle-group>

@@ -5,7 +5,7 @@ import { buffAppliesToTime, buffAppliesToUnit, effectAppliesToUnitHp } from '../
 import { TeamUnit } from '../../models/team-unit';
 import { MatSliderChange } from '@angular/material/slider';
 import { buffs } from 'src/app/core/constants/effects';
-import { buffImage } from 'src/app/core/utils/images';
+import { effectImage } from 'src/app/core/utils/images';
 import { battleTime } from '@core/constants/battle';
 import { LocalStorage } from 'ngx-store';
 
@@ -70,7 +70,7 @@ export class UnitCardComponent implements OnInit {
   constructor() {
     this.buffs = buffs.map(b => ({
       name: b,
-      img: buffImage(b),
+      img: effectImage(b),
       value: 0,
     }));
   }
