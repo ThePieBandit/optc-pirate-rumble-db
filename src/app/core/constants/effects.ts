@@ -1,4 +1,4 @@
-import { Attribute } from 'src/app/shared/models/rumble';
+import { Attribute, EffectEnum } from 'src/app/shared/models/rumble';
 
 export const buffs: Attribute[] = [
   'ATK',
@@ -11,4 +11,14 @@ export const buffs: Attribute[] = [
   'Accuracy',
   'Blow Away',
   'Special CT',
+  //"Shield", // enable later when more units have it
 ];
+
+export const debuffs: Attribute[] = [
+  "Half Stats",
+  //"Confusion", // enable later when more units have it
+];
+
+export type SpecialEffect = 'defIgnoring'
+  | 'multipleHits'
+  | EffectEnum;

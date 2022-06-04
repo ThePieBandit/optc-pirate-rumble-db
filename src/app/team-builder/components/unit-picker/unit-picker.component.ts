@@ -1,6 +1,9 @@
 import { Component, Inject, OnInit, ViewChild } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatPaginator, PageEvent } from '@angular/material/paginator';
+import { SpecialEffect } from '@core/constants/effects';
+import { EffectOutput } from '@shared/components/buff-picker/buff-picker.component';
+import { Attribute } from '@shared/models/rumble';
 import { UnitDetails } from '@shared/models/unit-details';
 import { LocalStorage, Webstorable } from 'ngx-store';
 import { UnitFilterArgs } from 'src/app/shared/pipes/unit-filter.pipe';
@@ -26,8 +29,7 @@ const initialFilter = (): UnitPickerFilter => ({
   buffSearch: 'both',
   includeOtherClasses: true,
   hideBaseForms: true,
-  defIgnoringSpecial: false,
-  multipleHitSpecial: false,
+  specialEffects: [],
   abilityTargetType: 'any',
   specialTargetType: 'any',
 });
@@ -102,9 +104,10 @@ export class UnitPickerComponent implements OnInit {
     this.filter.types = event;
   }
 
-  buffChange(event: string[]): void {
+  effectChange(event: EffectOutput[]): void {
     this.paginator.firstPage();
-    this.filter.buffs = event;
+    this.filter.buffs = event.filter(e => e.type === 'attribute').map(e => e.name as Attribute);
+    this.filter.specialEffects = event.filter(e => e.type === 'specialEffect').map(e => e.name as SpecialEffect);
   }
 
   buffSearchChange(event: any): void {
