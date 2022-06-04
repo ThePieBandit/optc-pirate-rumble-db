@@ -108,7 +108,8 @@ class UserService {
         console.log( 'Skipping unit ' + unit.id + ', the unit is not complete.');
         continue;
       }
-      if (unitDetail.name.includes('[Dual Unit] ')) {
+      // skip "ghost" units so they dont show duplicated
+      if (unitDetail.name.startsWith('[Dual Unit] ') || unitDetail.name.startsWith('[VS Unit] ')) {
         continue;
       }
 
