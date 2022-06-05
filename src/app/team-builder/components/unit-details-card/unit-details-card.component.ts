@@ -7,6 +7,11 @@ export interface UnitAttribute {
   desc: string;
 }
 
+type CombatStat = {
+  key: string;
+  value: string;
+}
+
 @Component({
   selector: 'app-unit-details-card',
   templateUrl: './unit-details-card.component.html',
@@ -28,6 +33,7 @@ export class UnitDetailsCardComponent implements OnInit {
   }
 
   attributes: UnitAttribute[];
+  combatStats: CombatStat[];
 
   constructor() {
     this.attributes = [];
@@ -63,6 +69,12 @@ export class UnitDetailsCardComponent implements OnInit {
         desc: rumbleType,
       });
     }
+
+    this.combatStats = Object.keys(other)
+      .map(k => ({key: k, value: other[k]}))
+      .filter(s => s.value);
+      
+    this.combatStats.sort((a, b) => a.key > b.key ? 1 : (a.key < b.key ? -1 : 0));
   }
 
   ngOnInit(): void {
