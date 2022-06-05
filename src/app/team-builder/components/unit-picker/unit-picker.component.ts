@@ -60,6 +60,7 @@ export class UnitPickerComponent implements OnInit {
   ) {
     this.units = data.units.sort((a, b) => this.oldestFirst ? a.id - b.id : b.id - a.id);
     this.current = data.current;
+    this.filter.filter = '';
     if (!this.filter.abilityTargetType) {
       this.filter.abilityTargetType = 'any';
     }
