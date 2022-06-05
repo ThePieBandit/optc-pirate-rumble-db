@@ -71,9 +71,12 @@ export interface Unit {
   special: [Special, Special, Special, Special, Special, Special, Special, Special, Special, Special];
   stats: Stats;
   target: TargetClass;
-  resilience?: DebuffResilience | HealingResilience;
+  resilience?: Resilience;
   basedOn?: number;
 }
+
+export type Resilience = DebuffResilience | DamageResilience | HealingResilience;
+
 export interface Ability {
   effects: (Effect | EffectOverride)[];
 }
@@ -147,12 +150,21 @@ export interface TargetClass {
   comparator?: TargetingPriority;
   criteria: Attribute;
 }
-export interface DebuffResilience {
+
+export interface BaseResilience {
+  type: "debuff" | "healing" | "damage";
+  condition?: Condition;
+}
+export interface AttributeResilience extends BaseResilience {
   attribute: Attribute;
+}
+export interface DebuffResilience extends AttributeResilience {
   chance: number;
 }
-export interface HealingResilience {
-  condition?: Condition;
+export interface DamageResilience extends AttributeResilience {
+  percentage: number;
+}
+export interface HealingResilience extends BaseResilience {
   amount: number;
   interval: number;
 }
