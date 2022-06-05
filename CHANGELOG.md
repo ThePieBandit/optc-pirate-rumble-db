@@ -1,9 +1,9 @@
 ### 2.1.3
 * Fix for main DB script changes
-* New feature to control if newer or older units show first in teambuilder picker.
-* New filter for rainbow, type or class focused units.
-* New filter for def ignoring specials.
-* New filter for multiple hit specials.
+* Team builder: New feature to control if newer or older units show first in unit picker.
+* Team builder: New filters for rainbow, type or class focused units.
+* Team builder: New filters for def ignoring and multiple hit specials.
+* Team builder: New filters for half stats and healing specials.
 
 ### 2.1.2
 * Improve unit name search to search on other names/families
