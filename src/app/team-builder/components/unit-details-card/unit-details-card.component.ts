@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { UnitDetails } from '@shared/models/unit-details';
-import { classImage, typeImage } from 'src/app/core/utils/images';
+import { classImage, typeImage, rumbleTypeImage } from 'src/app/core/utils/images';
 
 export interface UnitAttribute {
   img: string;
@@ -39,20 +39,28 @@ export class UnitDetailsCardComponent implements OnInit {
       return;
     }
 
+    const { type, class1, class2, rumbleType, ...other } = unit.stats;
+
     this.attributes = [
       {
-        img: typeImage(unit.stats.type),
-        desc: unit.stats.type
+        img: typeImage(type),
+        desc: type
       },
       {
-        img: classImage(unit.stats.class1),
-        desc: unit.stats.class1
+        img: classImage(class1),
+        desc: class1
       }
     ];
-    if (unit.stats.class2) {
+    if (class2) {
       this.attributes.push({
-        img: classImage(unit.stats.class2),
-        desc: unit.stats.class2
+        img: classImage(class2),
+        desc: class2
+      });
+    }
+    if (rumbleType) {
+      this.attributes.push({
+        img: rumbleTypeImage(rumbleType),
+        desc: rumbleType,
       });
     }
   }
