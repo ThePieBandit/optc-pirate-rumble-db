@@ -9,7 +9,7 @@
 .mat-card-content {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 8px;
 }
 
 .mat-card-header {
@@ -17,6 +17,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  column-gap: 20px;
 }
 
 h2 {
@@ -25,10 +26,9 @@ h2 {
 
 .unit-name {
   max-width: 400px;
-}
-
-.unit-attributes {
-  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .two-column-wrapper {
@@ -52,12 +52,13 @@ h2 {
 }
 
 section > .section-content {
-  padding: 5px 10px 10px 0px;
+  padding: 5px 15px 10px 0px;
 }
 
 .section-content ul {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-inline-start: 35px;
 }
 
 .stats dl {

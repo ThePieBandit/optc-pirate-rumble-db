@@ -1,10 +1,11 @@
 <mat-card>
   <div class="mat-card-header">
-    <h2 class="unit-name">{{unit.name}}</h2>
+    <h2 class="unit-name" [title]="unit.name">{{unit.name}}</h2>
     <div class="unit-attributes">
       <img *ngFor="let attribute of attributes"
         [src]="attribute.img"
         [alt]="attribute.desc"
+        [title]="attribute.desc"
         width="48"
         height="48"
       />
