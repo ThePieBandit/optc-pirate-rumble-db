@@ -1,52 +1,54 @@
 <mat-card>
   <div class="mat-card-header">
-    <h2 class="unit-name">{{unit.name}}</h2>
+    <h2 class="unit-name" [title]="unit.name">{{unit.name}}</h2>
     <div class="unit-attributes">
       <img *ngFor="let attribute of attributes"
         [src]="attribute.img"
         [alt]="attribute.desc"
+        [title]="attribute.desc"
         width="48"
         height="48"
       />
     </div>
   </div>
   <mat-card-content>
-    <h3>Ability:</h3>
-    <ul>
-      <span *ngFor="let effect of unit.lvl5Ability" [innerHtml]="effect | effect"></span>
-    </ul>
-    <h3>Special (CT {{unit.lvl10Cooldown}})</h3>
-    <ul>
-      <span *ngFor="let effect of unit.lvl10Special" [innerHtml]="effect | effect"></span>
-    </ul>
-    <div class="other-desc">
-      <section class="stats" *ngIf="unit.stats">
-        <h3>Stats</h3>
-        <div class="stat-container">
-          <span class="stat-key">HP</span>
-          <span class="stat-value">{{unit.stats.hp}}</span>
-        </div>
-        <div class="stat-container">
-          <span class="stat-key">ATK</span>
-          <span class="stat-value">{{unit.stats.atk}}</span>
-        </div>
-        <div class="stat-container">
-          <span class="stat-key">DEF</span>
-          <span class="stat-value">{{unit.stats.def}}</span>
-        </div>
-        <div class="stat-container">
-          <span class="stat-key">RCV</span>
-          <span class="stat-value">{{unit.stats.rcv}}</span>
-        </div>
-        <div class="stat-container">
-          <span class="stat-key">SPD</span>
-          <span class="stat-value">{{unit.stats.spd}}</span>
+    <section>
+      <h3>Ability</h3>
+      <div class="section-content">
+        <ul>
+          <span *ngFor="let effect of unit.lvl5Ability" [innerHtml]="effect | effect"></span>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h3>Special (CT {{unit.lvl10Cooldown}})</h3>
+      <div class="section-content">
+        <ul>
+          <span *ngFor="let effect of unit.lvl10Special" [innerHtml]="effect | effect"></span>
+        </ul>
+      </div>
+    </section>
+    <section *ngIf="unit.pattern">
+      <h3>Attack</h3>
+      <div class="section-content">
+        <dd>Pattern: {{unit.pattern | pattern}}</dd>
+        <dd *ngIf="unit.target">Target: {{unit.target | targetPriority}}</dd>
+      </div>
+    </section>
+    <div class="two-column-wrapper">
+      <section *ngIf="unit.resilience">
+        <h3>Resistance</h3>
+        <div class="section-content">
+          <ul>
+            <li *ngFor="let r of unit.resilience">{{ r | resilience }}</li>
+          </ul>
         </div>
       </section>
-      <section class="pattern">
-        <h3>Pattern</h3>
-        <div *ngIf="unit.target">Target: {{unit.target.criteria}}<span *ngIf="unit.target.comparator"> ({{unit.target.comparator}})</span></div>
-        <ul [innerHtml]="unit.pattern | pattern"></ul>
+      <section *ngIf="unit.stats">
+        <h3>Stats</h3>
+        <div class="section-content">
+          <dd class="combat-stat-container"><span class="combat-stat" *ngFor="let stat of combatStats">{{stat.key | uppercase}}: {{stat.value}}</span></dd>
+        </div>
       </section>
     </div>
   </mat-card-content>

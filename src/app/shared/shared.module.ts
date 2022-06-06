@@ -16,6 +16,8 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { TypePickerComponent } from './components/type-picker/type-picker.component';
 import { MatButtonModule } from '@angular/material/button';
 import { PatternPipe } from './pipes/pattern.pipe';
+import { ResiliencePipe } from './pipes/resilience-pipe';
+import { TargetPriorityPipe } from './pipes/target-priority-pipe';  
 import { BuffPickerComponent } from './components/buff-picker/buff-picker.component';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatDividerModule } from '@angular/material/divider';
@@ -35,6 +37,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     ClassPickerComponent,
     TypePickerComponent,
     PatternPipe,
+    ResiliencePipe,
+    TargetPriorityPipe,
     BuffPickerComponent,
   ],
   imports: [
@@ -75,6 +79,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     TruncatePipe,
     UnitFilterPipe,
     PatternPipe,
+    ResiliencePipe,
+    TargetPriorityPipe,
     ClassPickerComponent,
     TypePickerComponent,
     BuffPickerComponent,

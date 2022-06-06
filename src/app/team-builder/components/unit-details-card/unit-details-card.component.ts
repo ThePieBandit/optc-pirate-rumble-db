@@ -1,10 +1,15 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { UnitDetails } from '@shared/models/unit-details';
-import { classImage, typeImage } from 'src/app/core/utils/images';
+import { classImage, typeImage, rumbleTypeImage } from 'src/app/core/utils/images';
 
 export interface UnitAttribute {
   img: string;
   desc: string;
+}
+
+type CombatStat = {
+  key: string;
+  value: string;
 }
 
 @Component({
@@ -28,6 +33,7 @@ export class UnitDetailsCardComponent implements OnInit {
   }
 
   attributes: UnitAttribute[];
+  combatStats: CombatStat[];
 
   constructor() {
     this.attributes = [];
@@ -39,22 +45,36 @@ export class UnitDetailsCardComponent implements OnInit {
       return;
     }
 
+    const { type, class1, class2, rumbleType, ...other } = unit.stats;
+
     this.attributes = [
       {
-        img: typeImage(unit.stats.type),
-        desc: unit.stats.type
+        img: typeImage(type),
+        desc: type
       },
       {
-        img: classImage(unit.stats.class1),
-        desc: unit.stats.class1
+        img: classImage(class1),
+        desc: class1
       }
     ];
-    if (unit.stats.class2) {
+    if (class2) {
       this.attributes.push({
-        img: classImage(unit.stats.class2),
-        desc: unit.stats.class2
+        img: classImage(class2),
+        desc: class2
       });
     }
+    if (rumbleType) {
+      this.attributes.push({
+        img: rumbleTypeImage(rumbleType),
+        desc: rumbleType,
+      });
+    }
+
+    this.combatStats = Object.keys(other)
+      .map(k => ({key: k, value: other[k]}))
+      .filter(s => s.value);
+      
+    this.combatStats.sort((a, b) => a.key > b.key ? 1 : (a.key < b.key ? -1 : 0));
   }
 
   ngOnInit(): void {

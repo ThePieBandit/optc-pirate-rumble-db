@@ -1,5 +1,5 @@
 import { SpecialEffect } from "@core/constants/effects";
-import { Attribute, EffectEnum } from "@shared/models/rumble";
+import { Attribute, EffectEnum, RumbleType } from "@shared/models/rumble";
 
 export const typeImage = (type: string): string => {
   if (!type.startsWith('[')) {
@@ -51,3 +51,22 @@ export const effectImage = (effect: Attribute | SpecialEffect | EffectEnum): str
     default: return '';
   }
 };
+
+export const rumbleTypeImage = (rumbleType: RumbleType): string => {
+  switch (rumbleType) {
+    case 'ATK': return 'assets/images/filter_style_icon_01.png';
+    case 'DEF': return 'assets/images/filter_style_icon_02.png';
+    case 'RCV': return 'assets/images/filter_style_icon_03.png';
+    case 'SPT': return 'assets/images/filter_style_icon_04.png';
+    case 'DBF': return 'assets/images/filter_style_icon_05.png';
+    default:
+      console.warn('unexpected rumble type ' + rumbleType);
+      return rumbleType;
+  }
+};
+
+
+
+
+
+
