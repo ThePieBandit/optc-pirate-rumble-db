@@ -37,11 +37,20 @@
 -->
 <!--  <mat-slide-toggle value="hideBaseForms">Hide Base Forms</mat-slide-toggle>-->
   <mat-card>
-    <mat-card-title>Hide Base Forms</mat-card-title>
+    <mat-card-title>Base Forms</mat-card-title>
     <mat-card-actions align="start">
       <mat-button-toggle-group aria-label="Hide Base Forms" [(ngModel)]="hideBaseForms" name="hideBaseForms" [value]="hideBaseForms" (change)="handleFormChange(filterForm)">
         <mat-button-toggle value="true"  matTooltip="Hide Base Forms">Hide</mat-button-toggle>
         <mat-button-toggle value="false"  matTooltip="Show Base Forms">Show</mat-button-toggle>
+      </mat-button-toggle-group>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card>
+    <mat-card-title>Grand Party</mat-card-title>
+    <mat-card-actions align="start">
+      <mat-button-toggle-group aria-label="Grand Party" [(ngModel)]="hasGP" name="hasGP" [value]="hasGP" (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="true" matTooltip="Only GP">On</mat-button-toggle>
+        <mat-button-toggle value="false" matTooltip="All units">Off</mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>

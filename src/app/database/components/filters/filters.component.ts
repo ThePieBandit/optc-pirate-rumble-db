@@ -18,6 +18,7 @@ export class FiltersComponent implements OnInit {
   statType = 'RAW';
   statBaseValue = 'LEVEL';
   hideBaseForms = 'true';
+  hasGP = 'false';
   type = [];
   class = [];
   style = [];
@@ -54,6 +55,10 @@ export class FiltersComponent implements OnInit {
     if (formFields.hideBaseForms.value === 'true')
     {
       filterChain.push(unit => !unit.isBaseForm);
+    }
+    if (formFields.hasGP.value === 'true')
+    {
+      filterChain.push(unit => unit.gpability != null && unit.gpspecial != null);
     }
     if ( Array.isArray(formFields.type.value) && formFields.type.value.length){
       filterChain.push(unit => formFields.type.value.includes(unit.stats.type));
