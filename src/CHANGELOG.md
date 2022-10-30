@@ -1,5 +1,5 @@
 ### 2.2.0
-* Add Grand Party Burst and Leader Skill descriptions in units table.
+* Add Grand Party Burst, Condition and Leader Skill descriptions in units table.
 * Add new filter to only show units with Grand Party skills.
 * Fix description on fixed damage specials.
 
