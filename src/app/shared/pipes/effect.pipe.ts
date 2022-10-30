@@ -58,6 +58,13 @@ export class EffectPipe implements PipeTransform {
           case 'cut':
             e += numberFormatter.format(effect.amount) + '% health cut';
             break;
+          case 'atkbase':
+            e += `Deals ${effect.amount}x `;
+            if (effect.leader) {
+              e += "Leader's ";
+            }
+            e += 'base ATK in damage';
+            break;
           default:
             e += 'TODO:  ' + JSON.stringify(effect);
         }
