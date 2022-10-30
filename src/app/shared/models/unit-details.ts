@@ -23,6 +23,8 @@ export interface UnitDetails extends Unit {
   lvl10Cooldown?: number;
   thumbnailUrl?: string;
   aliases: string[];
+  lvl5GPAbility?: Effect[];
+  lvl5GPSpecial?: Effect[];
 
 /*
   private computeDefPercentage(): number {

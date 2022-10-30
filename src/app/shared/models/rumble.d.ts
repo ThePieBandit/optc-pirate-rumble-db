@@ -47,7 +47,7 @@ export type EffectEnum =
   | "boon"
   | "penalty"
   | "cleanse";
-export type AttackEffectType = "atk" | "time" | "cut" | "fixed";
+export type AttackEffectType = "atk" | "time" | "cut" | "fixed" | "atkbase";
 export type RechargeEffectType =  "Special CT" | "RCV" | "percentage" | "fixed";
 export type Direction = "forward" | "radial" | "sideways";
 export type Size = "large" | "small" | "medium";
@@ -73,6 +73,13 @@ export interface Unit {
   target: TargetClass;
   resilience?: Resilience;
   basedOn?: number;
+  gpability: [GPAbility, GPAbility, GPAbility, GPAbility, GPAbility];
+  gpcondition: GPCondition[];
+  gpspecial: [GSpecial, GPSpecial, GPSpecial, GPSpecial, GPSpecial,];
+}
+
+export type GPSpecial = Special & {
+  uses: number;
 }
 
 export type Resilience = DebuffResilience | DamageResilience | HealingResilience;
@@ -93,6 +100,7 @@ export interface Effect {
   type?: AttackEffectType | RechargeEffectType;
   defbypass?: boolean;
   repeat?: number;
+  leader?: boolean;
 }
 export interface EffectOverride {
   override?: {
