@@ -52,7 +52,8 @@ export type RechargeEffectType =  "Special CT" | "RCV" | "percentage" | "fixed";
 export type Direction = "forward" | "radial" | "sideways";
 export type Size = "large" | "small" | "medium";
 export type ConditionComparator = "above" | "below" | "remaining" | "first" | "after" | "more" | "less";
-export type ConditionType = "stat" | "time" | "crew" | "enemies" | "trigger";
+export type ConditionType = "stat" | "time" | "crew" | "enemies" | "trigger" | "character" | "defeat" | "dmgreceived" | "special" | "guard" | "attack" | "debuff" | "damage" | "hit" | "heal" | "dbfreceived";
+export type TeamType  = "crew" | "enemy";
 export type Pattern = AttackPattern | HealPattern;
 export type Action = "attack" | "heal";
 export type PatternType = "Normal" | "Power" | "Full";
@@ -129,6 +130,10 @@ export interface Condition {
   stat?: Attribute;
   type: ConditionType;
   count?: number;
+  families: string[];
+  team: TeamType;
+  attack: PatternType;
+  attribute: Attribute
 }
 export interface AttackPattern {
   action: Action;

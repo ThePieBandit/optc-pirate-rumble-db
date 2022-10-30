@@ -25,12 +25,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { ConditionPipe } from './pipes/condition.pipe';
 
 @NgModule({
   declarations: [
     ChangelogComponent,
     DecoratePipe,
     EffectPipe,
+    ConditionPipe,
     MarkedPipe,
     TruncatePipe,
     UnitFilterPipe,
@@ -75,6 +77,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     ChangelogComponent,
     DecoratePipe,
     EffectPipe,
+    ConditionPipe,
     MarkedPipe,
     TruncatePipe,
     UnitFilterPipe,
