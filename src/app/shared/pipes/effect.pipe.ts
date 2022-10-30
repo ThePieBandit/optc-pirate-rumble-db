@@ -154,6 +154,10 @@ export class EffectPipe implements PipeTransform {
         }
       case 'crew':
       case 'enemies':
+        if (!condition.count) {
+          return 'When ' + condition.type + ' count is ' + condition.comparator + ', ';
+        }
+        
         return 'When ' + condition.type + ' count is ' + condition.count + ' or ' + condition.comparator + ', ';
       case 'trigger':
         return 'When this unit does a ' + condition.stat + ' (limit ' + condition.count + '), ';
