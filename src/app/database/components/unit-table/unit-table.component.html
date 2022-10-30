@@ -54,13 +54,15 @@
 			<td mat-cell *matCellDef="let row">{{row.stats.spd | number}}</td>
 		</ng-container>
 		<ng-container matColumnDef="lvl10Special">
-			<th mat-header-cell *matHeaderCellDef mat-header>Special (Max)</th>
+			<th mat-header-cell *matHeaderCellDef mat-header>Special / GP Burst (Max)</th>
 			<td mat-cell *matCellDef="let row">
 				<ul class="effect"><span *ngFor="let effect of row.lvl10Special" [innerHTML]="effect | effect"></span></ul>
-				<ul class="effect gp" *ngIf="row.gpspecial">
-					<p>GP BURST</p>
-					<span *ngFor="let effect of row.lvl5GPSpecial" [innerHTML]="effect | effect"></span>
-				</ul>
+				<ng-container *ngIf="row.gpspecial">
+					<p class="gp">GP BURST</p>
+					<ul class="effect">
+						<span *ngFor="let effect of row.lvl5GPSpecial" [innerHTML]="effect | effect"></span>
+					</ul>
+				</ng-container>
 			</td>
 		</ng-container>
 		<ng-container matColumnDef="lvl10Cooldown">
@@ -68,13 +70,15 @@
 			<td mat-cell *matCellDef="let row">{{row.lvl10Cooldown | number}}</td>
 		</ng-container>
 		<ng-container matColumnDef="lvl5Ability">
-			<th mat-header-cell *matHeaderCellDef mat-header>Ability (Max)</th>
+			<th mat-header-cell *matHeaderCellDef mat-header>Ability / GP Leader Skill (Max)</th>
 			<td mat-cell *matCellDef="let row">
 				<ul><span *ngFor="let effect of row.lvl5Ability" [innerHTML]="effect | effect"></span></ul>
-				<ul class="effect gp" *ngIf="row.gpability">
-					<p>GP LEADER SKILL</p>
-					<span *ngFor="let effect of row.lvl5GPAbility" [innerHTML]="effect | effect"></span>
-				</ul>
+				<ng-container *ngIf="row.gpability">
+					<p class="gp">GP LEADER SKILL</p>
+					<ul class="effect">
+						<span *ngFor="let effect of row.lvl5GPAbility" [innerHTML]="effect | effect"></span>
+					</ul>
+				</ng-container>
 			</td>
 		</ng-container>
 		<tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
