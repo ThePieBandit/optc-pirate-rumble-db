@@ -53,7 +53,7 @@ export class EffectPipe implements PipeTransform {
             }
             break;
           case 'fixed':
-            e += 'Deals ' + numberFormatter.format(effect.amount) + 'x ATK in damage';
+            e += 'Deals ' + numberFormatter.format(effect.amount) + ' fixed damage';
             break;
           case 'cut':
             e += numberFormatter.format(effect.amount) + '% health cut';
