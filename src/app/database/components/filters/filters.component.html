@@ -45,16 +45,15 @@
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
+  <mat-divider [inset]="true"></mat-divider>
   <mat-card>
-    <mat-card-title>Grand Party</mat-card-title>
+    <mat-card-title>Grand Party Stats</mat-card-title>
     <mat-card-actions align="start">
-      <mat-button-toggle-group aria-label="Grand Party" [(ngModel)]="hasGP" name="hasGP" [value]="hasGP" (change)="handleFormChange(filterForm)">
-        <mat-button-toggle value="true" matTooltip="Only GP">On</mat-button-toggle>
-        <mat-button-toggle value="false" matTooltip="All units">Off</mat-button-toggle>
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Grand Party Stats" [(ngModel)]="gpStats" name="gpStats" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="unique" matTooltip="Unique">Unique</mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
-  <mat-divider [inset]="true"></mat-divider>
   <mat-card>
     <mat-card-title>Type</mat-card-title>
     <mat-card-actions align="start">

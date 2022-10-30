@@ -4,6 +4,8 @@ import { UnitTableDataSource } from '../../services/unit-table-datasource';
 import { Effect } from '../../../shared/models/rumble';
 import { UnitDetails } from '../../../shared/models/unit-details';
 
+const hasValues = (arr: []) => Array.isArray(arr) && arr.length;
+
 @Component({
   selector: 'app-filters',
   templateUrl: './filters.component.html',
@@ -18,7 +20,7 @@ export class FiltersComponent implements OnInit {
   statType = 'RAW';
   statBaseValue = 'LEVEL';
   hideBaseForms = 'true';
-  hasGP = 'false';
+  gpStats = [];
   type = [];
   class = [];
   style = [];
@@ -50,15 +52,18 @@ export class FiltersComponent implements OnInit {
     this.dataService.filterData();
   }
 
+
   computeFilterChain(formFields: { [key: string]: AbstractControl }): ((unit: UnitDetails) => boolean ) [] {
     const filterChain: ((unit: UnitDetails) => boolean ) [] = [];
     if (formFields.hideBaseForms.value === 'true')
     {
       filterChain.push(unit => !unit.isBaseForm);
     }
-    if (formFields.hasGP.value === 'true')
+    if (hasValues(formFields.gpStats.value))
     {
-      filterChain.push(unit => unit.gpability != null && unit.gpspecial != null);
+      if (formFields.gpStats.value.some(v => v === 'unique')) {
+        filterChain.push(unit => unit.gpability != null && unit.gpspecial != null);
+      }
     }
     if ( Array.isArray(formFields.type.value) && formFields.type.value.length){
       filterChain.push(unit => formFields.type.value.includes(unit.stats.type));
