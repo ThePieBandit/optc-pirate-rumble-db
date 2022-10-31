@@ -51,6 +51,7 @@
     <mat-card-actions align="start">
       <mat-button-toggle-group fxLayout="row wrap" aria-label="Grand Party Stats" [(ngModel)]="gpStats" name="gpStats" multiple (change)="handleFormChange(filterForm)">
         <mat-button-toggle value="unique" matTooltip="Unique">Unique</mat-button-toggle>
+        <mat-button-toggle value="standard" matTooltip="Standard">Standard</mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>

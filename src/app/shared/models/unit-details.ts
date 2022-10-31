@@ -1,5 +1,6 @@
 import { Unit, Effect, Classes } from './rumble';
 
+export type GPStyle = "none" | "unique" | "standard";
 export interface UnitDetails extends Unit {
   complete: boolean;
   isBaseForm: boolean;
@@ -25,6 +26,7 @@ export interface UnitDetails extends Unit {
   aliases: string[];
   lvl5GPAbility?: Effect[];
   lvl5GPSpecial?: Effect[];
+  gpStyle: GPStyle;
 
 /*
   private computeDefPercentage(): number {

@@ -61,9 +61,7 @@ export class FiltersComponent implements OnInit {
     }
     if (hasValues(formFields.gpStats.value))
     {
-      if (formFields.gpStats.value.some(v => v === 'unique')) {
-        filterChain.push(unit => unit.gpability != null && unit.gpspecial != null);
-      }
+        filterChain.push(unit => formFields.gpStats.value.includes(unit.gpStyle));
     }
     if ( Array.isArray(formFields.type.value) && formFields.type.value.length){
       filterChain.push(unit => formFields.type.value.includes(unit.stats.type));
