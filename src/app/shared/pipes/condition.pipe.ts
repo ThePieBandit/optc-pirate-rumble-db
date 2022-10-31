@@ -48,9 +48,8 @@ export class ConditionPipe implements PipeTransform {
         return `When ${orListFormatter.format(condition.families)} is on ${condition.team}`;
       case 'defeat':
         return `When ${condition.count} characters on ${condition.team === 'crew' ? 'your crew' : 'the enemy crew'} are defeated`;
-      case 'guard':
-      case 'heal':
-        return `After ${condition.type}ing ${condition.count} times`;
+      case 'action':
+        return `After ${condition.action}ing ${condition.count} times`;
       case 'dmgreceived':
         return `After receiving ${condition.count} damage`;
       case 'debuff':
@@ -58,12 +57,10 @@ export class ConditionPipe implements PipeTransform {
       case 'dbfreceived':
         return `After receiving status effects ${condition.count} times`;
       case 'damage':
-      case 'hit':
         return `After dealing damage ${condition.count} times`;
       case 'attack':
-        if (condition.attack) {
-          return `After ${condition.count} ${condition.attack} attacks`;
-        }
+        return `After landing ${condition.count} ${condition.attack} attacks`;
+      case 'hitreceived':
         return `After receiving damage ${condition.count} times`;
       case 'special':
         if (!condition.team) {
