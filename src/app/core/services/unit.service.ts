@@ -140,8 +140,13 @@ class UserService {
       if (unit.gpspecial) {
         this.denormalizeEffects(unit.gpspecial);
         unitDetail.lvl5GPSpecial = (unit.gpspecial[4].effects as rumble.Effect[]);
+        // small hack to identify units with "standard" GP Bursts and Leader Skills
+        // since they dont come in rumble.json data
+        const firstEffect = unitDetail.lvl5GPSpecial[0];
         const isStandard = unitDetail.lvl5GPSpecial.length === 1
-          && unitDetail.lvl5GPSpecial[0].amount === 1000;
+          && firstEffect.amount === 1000
+          && firstEffect.effect === 'damage'
+          && firstEffect.type === 'fixed';
         unitDetail.gpStyle = isStandard ? 'standard' : 'unique';
       }
       unitDetail.lvl10Cooldown = unit.special[9].cooldown;
