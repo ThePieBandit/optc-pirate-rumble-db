@@ -47,12 +47,13 @@ export type EffectEnum =
   | "boon"
   | "penalty"
   | "cleanse";
-export type AttackEffectType = "atk" | "time" | "cut" | "fixed";
+export type AttackEffectType = "atk" | "time" | "cut" | "fixed" | "atkbase";
 export type RechargeEffectType =  "Special CT" | "RCV" | "percentage" | "fixed";
 export type Direction = "forward" | "radial" | "sideways";
 export type Size = "large" | "small" | "medium";
 export type ConditionComparator = "above" | "below" | "remaining" | "first" | "after" | "more" | "less";
-export type ConditionType = "stat" | "time" | "crew" | "enemies" | "trigger";
+export type ConditionType = "stat" | "time" | "crew" | "enemies" | "trigger" | "character" | "defeat" | "dmgreceived" | "special" | "guard" | "attack" | "debuff" | "damage" | "hit" | "heal" | "dbfreceived";
+export type TeamType  = "crew" | "enemy";
 export type Pattern = AttackPattern | HealPattern;
 export type Action = "attack" | "heal";
 export type PatternType = "Normal" | "Power" | "Full";
@@ -73,6 +74,13 @@ export interface Unit {
   target: TargetClass;
   resilience?: Resilience;
   basedOn?: number;
+  gpability: [GPAbility, GPAbility, GPAbility, GPAbility, GPAbility];
+  gpcondition: GPCondition[];
+  gpspecial: [GSpecial, GPSpecial, GPSpecial, GPSpecial, GPSpecial,];
+}
+
+export type GPSpecial = Special & {
+  uses: number;
 }
 
 export type Resilience = DebuffResilience | DamageResilience | HealingResilience;
@@ -93,6 +101,7 @@ export interface Effect {
   type?: AttackEffectType | RechargeEffectType;
   defbypass?: boolean;
   repeat?: number;
+  leader?: boolean;
 }
 export interface EffectOverride {
   override?: {
@@ -121,6 +130,10 @@ export interface Condition {
   stat?: Attribute;
   type: ConditionType;
   count?: number;
+  families: string[];
+  team: TeamType;
+  attack: PatternType;
+  attribute: Attribute
 }
 export interface AttackPattern {
   action: Action;

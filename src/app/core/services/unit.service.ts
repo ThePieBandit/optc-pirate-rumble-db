@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 
 declare const window: any;
 
-type TempUnit = Omit<UnitDetails, 'stats' | 'ability' | 'target' | 'pattern' | 'special'>;
+type TempUnit = Omit<UnitDetails, 'stats' | 'ability' | 'target' | 'pattern' | 'special' | 'gpability' | 'gpspecial' | 'gpcondition'>;
 
 // dont declare service as singleton (i.e., providedIn: 'root')
 // so that each client of the service can get an instance based on its needs
@@ -34,6 +34,7 @@ class UserService {
         baseRcv: window.units[i][14],
         type: Array.isArray(window.units[i][1]) ? 'DUAL' : window.units[i][1],
         aliases: this.getUnitAliases(id),
+        gpStyle: 'none',
       };
 
       // VS units will be handled later
@@ -132,6 +133,17 @@ class UserService {
       unitDetail.baseSpd = unit.stats.spd;
       unitDetail.lvl5Ability = (unit.ability[4].effects as rumble.Effect[]);
       unitDetail.lvl10Special = (unit.special[9].effects as rumble.Effect[]);
+      if (unit.gpability) {
+        this.denormalizeEffects(unit.gpability);
+        unitDetail.lvl5GPAbility = (unit.gpability[4].effects as rumble.Effect[]);
+      }
+      if (unit.gpspecial) {
+        this.denormalizeEffects(unit.gpspecial);
+        unitDetail.lvl5GPSpecial = (unit.gpspecial[4].effects as rumble.Effect[]);
+        const isStandard = unitDetail.lvl5GPSpecial.length === 1
+          && unitDetail.lvl5GPSpecial[0].amount === 1000;
+        unitDetail.gpStyle = isStandard ? 'standard' : 'unique';
+      }
       unitDetail.lvl10Cooldown = unit.special[9].cooldown;
       //unitDetail.thumbnailUrl = window.Utils.getThumbnailUrl(Math.floor(unit.id)).replace('..', 'https://optc-db.github.io/');
       unitDetail.thumbnailUrl = 'https://optc-db.github.io/' + window.Utils.getThumbnailUrl(Math.floor(unit.id));

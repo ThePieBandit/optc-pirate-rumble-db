@@ -2,6 +2,7 @@ import 'intl-list-format';
 import 'intl-list-format/locale-data/en';
 import { Pipe, PipeTransform } from '@angular/core';
 import { Effect } from '../models/rumble';
+import { ConditionPipe } from './condition.pipe';
 
 declare namespace Intl {
   function getCanonicalLocales(locales: string | string[]): string[];
@@ -24,16 +25,23 @@ declare namespace Intl {
 
 const numberFormatter: Intl.NumberFormat = new Intl.NumberFormat();
 const listFormatter: Intl.ListFormat = new Intl.ListFormat();
-const orListFormatter: Intl.ListFormat = new Intl.ListFormat(undefined, { type: 'disjunction' });
 
 @Pipe({
   name: 'effect'
 })
 export class EffectPipe implements PipeTransform {
+  conditionPipe: ConditionPipe;
+
+  constructor() {
+    this.conditionPipe = new ConditionPipe();
+  }
 
   transform(effect: Effect): string {
     let e = '<li>';
-    e += this.conditionToString(effect.condition);
+    const condition = this.conditionPipe.transform(effect.condition);
+    if (condition) {
+      e += `${condition}, `;
+    }
     switch (effect.effect) {
       case 'buff':
         e += 'Applies Lv.' + effect.level + ' ' + this.arrayToString(effect.attributes) + ' up buff';
@@ -53,10 +61,17 @@ export class EffectPipe implements PipeTransform {
             }
             break;
           case 'fixed':
-            e += 'Deals ' + numberFormatter.format(effect.amount) + 'x ATK in damage';
+            e += 'Deals ' + numberFormatter.format(effect.amount) + ' fixed damage';
             break;
           case 'cut':
             e += numberFormatter.format(effect.amount) + '% health cut';
+            break;
+          case 'atkbase':
+            e += `Deals ${effect.amount}x `;
+            if (effect.leader) {
+              e += "Leader's ";
+            }
+            e += 'base ATK in damage';
             break;
           default:
             e += 'TODO:  ' + JSON.stringify(effect);
@@ -133,37 +148,6 @@ export class EffectPipe implements PipeTransform {
 
   arrayToString(array: any): string {
     return listFormatter.format(array);
-  }
-
-  conditionToString(condition): string {
-    if (!condition) { return ''; }
-
-    switch (condition.type) {
-      case 'stat':
-        return 'When ' + condition.stat + ' is ' + condition.comparator + ' ' + condition.count + '%, ';
-      case 'time':
-        switch (condition.comparator) {
-          case 'first':
-            return 'For the first ' + condition.count + ' seconds, ';
-          case 'after':
-            return 'After the first ' + condition.count + ' seconds, ';
-          case 'remaining':
-            return 'For the last ' + condition.count + ' seconds, ';
-          default:
-            return 'UNKNOWN TIME CONDITION ' + JSON.stringify(condition);
-        }
-      case 'crew':
-      case 'enemies':
-        return 'When ' + condition.type + ' count is ' + condition.count + ' or ' + condition.comparator + ', ';
-      case 'trigger':
-        return 'When this unit does a ' + condition.stat + ' (limit ' + condition.count + '), ';
-      case 'character':
-        return `When ${orListFormatter.format(condition.families)} is on ${condition.team}, `;
-      case 'defeat':
-        return `When ${condition.count} characters on ${condition.team === 'crew' ? 'your crew' : 'the enemy crew'} are defeated, `;
-      default:
-        return 'UNKNOWN CONDITION ' + JSON.stringify(condition);
-    }
   }
 
   rangeToString(range): string {

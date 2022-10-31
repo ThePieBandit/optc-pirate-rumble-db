@@ -37,7 +37,7 @@
 -->
 <!--  <mat-slide-toggle value="hideBaseForms">Hide Base Forms</mat-slide-toggle>-->
   <mat-card>
-    <mat-card-title>Hide Base Forms</mat-card-title>
+    <mat-card-title>Base Forms</mat-card-title>
     <mat-card-actions align="start">
       <mat-button-toggle-group aria-label="Hide Base Forms" [(ngModel)]="hideBaseForms" name="hideBaseForms" [value]="hideBaseForms" (change)="handleFormChange(filterForm)">
         <mat-button-toggle value="true"  matTooltip="Hide Base Forms">Hide</mat-button-toggle>
@@ -46,6 +46,15 @@
     </mat-card-actions>
   </mat-card>
   <mat-divider [inset]="true"></mat-divider>
+  <mat-card>
+    <mat-card-title>Grand Party Stats</mat-card-title>
+    <mat-card-actions align="start">
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Grand Party Stats" [(ngModel)]="gpStats" name="gpStats" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="unique" matTooltip="Unique">Unique</mat-button-toggle>
+        <mat-button-toggle value="standard" matTooltip="Standard">Standard</mat-button-toggle>
+      </mat-button-toggle-group>
+    </mat-card-actions>
+  </mat-card>
   <mat-card>
     <mat-card-title>Type</mat-card-title>
     <mat-card-actions align="start">
