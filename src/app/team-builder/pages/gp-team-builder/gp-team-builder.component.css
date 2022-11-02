@@ -1,0 +1,23 @@
+.mat-drawer-container {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  min-height: calc(100% - 64px); /* 64px from mat-toolbar height */
+  align-items: center;
+  justify-content: center;
+}
+
+.battle-timer-container .card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.battle-timer-container .mat-slider {
+  width: 100%;
+}
+
+.team-header {
+  padding-bottom: 10px;
+}

@@ -1,0 +1,57 @@
+<mat-sidenav-container>
+  <mat-sidenav #optionsNav mode="over" style="min-width: 200px;">
+    <app-team-builder-options
+      (optionClick)="optionClick($event)"
+      [teams]="teams"
+    ></app-team-builder-options>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div>
+      <mat-toolbar>
+        <button (click)="optionsNav.toggle()" mat-icon-button color="basic" aria-label="Open menu">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>OPTC Pirate Rumble Team Builder</span>
+      </mat-toolbar>
+    </div>
+    <div class="content">
+      <div>
+        <div class="actions">
+          <button mat-raised-button color="accent" (click)="onSelectLeader()">Select leader</button>
+        </div>
+        <div *ngFor="let team of teams">
+          <div class="team-header">
+            <span>Team #{{team.number + 1}}</span>
+            <button mat-raised-button color="accent" (click)="expandTeam(team)">Expand</button>
+          </div>
+          <app-team
+            [team]="team"
+            (unitClick)="unitClick(team, $event)"
+            (unitHpChange)="unitHpChange($event)"
+            [battleTimer]="battleTimer"
+            [compact]="expandedTeam !== team.number"
+          ></app-team>
+        </div>
+        <mat-card class="battle-timer-container">
+          <mat-card-content>
+            <div class="card-header">
+              <h2 class="card-title">Battle Timer: {{battleTimer}}</h2>
+              <h2 class="card-title">Elapsed Time: {{initialBattleTime - battleTimer}}</h2>
+            </div>
+            <mat-slider
+              [invert]="true"
+              [max]="initialBattleTime"
+              [min]="0"
+              [step]="1"
+              [tickInterval]="10"
+              [(ngModel)]="battleTimer"
+              (input)="battleTimerChange($event)"
+              [thumbLabel]="true"
+            >
+            </mat-slider>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
