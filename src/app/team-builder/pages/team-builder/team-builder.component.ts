@@ -58,6 +58,7 @@ export class TeamBuilderComponent implements OnInit {
 
   private buildTeam(color: string, ids: number[]): Team {
     const team: Team = {
+      type: 'normal',
       color,
       main: [],
       subs: [],

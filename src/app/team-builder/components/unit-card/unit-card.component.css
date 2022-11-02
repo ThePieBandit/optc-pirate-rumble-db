@@ -4,6 +4,10 @@
   padding-right: 5px;
 }
 
+.mat-card {
+  width: calc(26px * 5); /* display 5 buffs per row */
+}
+
 .blue-card.mat-card {
   background-color: navy;
 }
@@ -12,8 +16,17 @@
   background-color: crimson;
 }
 
+.gp-card.mat-card {
+  background-color: #745925;
+  padding-top: 0px;
+}
+
 .unit-image-container {
   cursor: pointer;
+}
+
+.unit-image-container.leader {
+  margin-top: -16px;
 }
 
 .mat-card-image {
@@ -24,7 +37,6 @@
   margin-right: -5px;
 }
 
-
 .mat-slider-horizontal {
   padding: 0px;
   margin-top: -20px;
@@ -32,14 +44,14 @@
 }
 
 .mat-card-content {
-  width: calc(26px * 5); /* display 5 buffs per row */
-  min-height: calc(152px - 5px); /* -5px from negative margin at .buff-value */
+  width: 100%;
 }
 
 .buffs {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  min-height: calc(107px - 5px); /* -5px from negative margin at .buff-value */
 }
 
 .buff-container {

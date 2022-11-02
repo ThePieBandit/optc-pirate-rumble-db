@@ -2,6 +2,7 @@
   <div *ngFor="let unit of team.main; let index=index;" class="unit-container">
     <app-unit-card
       [unit]="unit"
+      [compact]="compact"
       [teamEffects]="team.effects"
       [battleTimer]="battleTimer"
       (unitClick)="mainTeamUnitClick(index)"
@@ -14,6 +15,7 @@
     <div *ngFor="let unit of team.subs; let index=index;" class="unit-container">
       <app-unit-card
         [unit]="unit"
+        [compact]="compact"
         [teamEffects]="team.effects"
         [battleTimer]="battleTimer"
         (unitClick)="subTeamUnitClick(index)"

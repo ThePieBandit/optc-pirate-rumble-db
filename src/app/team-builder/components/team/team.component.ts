@@ -29,6 +29,9 @@ export class TeamComponent implements OnInit {
   @Input()
   battleTimer: number;
 
+  @Input()
+  compact: boolean;
+
   @Output()
   unitClick: EventEmitter<UnitClickEvent> = new EventEmitter<UnitClickEvent>();
 
