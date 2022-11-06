@@ -1,3 +1,9 @@
+### 2.2.1
+* Grand Party team builder.
+* Ability to select leader, show/hide teams buffs and move teams.
+* Unit picker: Toggle for normal/GP stats details and new filter for GP stats.
+* 
+
 ### 2.2.0
 * Add Grand Party Burst, Condition and Leader Skill descriptions in units table.
 * Add new filter to only show units with Grand Party skills.
