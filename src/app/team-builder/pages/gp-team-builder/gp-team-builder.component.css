@@ -3,7 +3,7 @@
 }
 
 .actions {
-  margin-bottom: 15px;
+  margin-bottom: 10px 0px;
 }
 
 .actions button span {
@@ -11,7 +11,7 @@
 }
 
 .mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
-  background-color: #5a401c;
+  background-color: #5d1402;
   border: 2px solid #ffdc7c;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .gp-team-container {
-  background-color: #5d1402;
+  background-color: #5a401c;
   border: 3px solid #ffdc7c;
   border-radius: 5px;
   margin-bottom: 15px;
