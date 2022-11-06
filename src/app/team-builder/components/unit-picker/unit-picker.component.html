@@ -3,6 +3,10 @@
     Pick unit
   </h2>
   <div class="buttons">
+    <mat-button-toggle-group [(ngModel)]="detailsType" name="detailsType" aria-label="Favorite Color">
+      <mat-button-toggle value="normal">Normal</mat-button-toggle>
+      <mat-button-toggle value="gp">Grand Party</mat-button-toggle>
+    </mat-button-toggle-group>
     <button mat-raised-button color="accent" (click)="reset()">Reset</button>
     <button *ngIf="current != null" mat-raised-button color="warn" (click)="onUnset()">Unset</button>
   </div>
@@ -90,7 +94,7 @@
           #unitPopover="mdePopover"
           mdePopoverArrowWidth="0"
         >
-          <app-unit-details-card *ngIf="unit" [unit]="unit"></app-unit-details-card>
+          <app-unit-details-card *ngIf="unit" [unit]="unit" [detailsType]="detailsType"></app-unit-details-card>
         </mde-popover>
       </div>
     </div>
