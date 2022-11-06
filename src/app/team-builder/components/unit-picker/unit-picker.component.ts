@@ -34,6 +34,7 @@ const initialFilter = (): UnitPickerFilter => ({
   specialEffects: [],
   abilityTargetType: 'any',
   specialTargetType: 'any',
+  gpStatsTypes: [],
 });
 
 @Component({
@@ -131,6 +132,10 @@ export class UnitPickerComponent implements OnInit {
   specialTargetTypeChange(event: any): void {
     this.paginator.firstPage();
     this.filter.specialTargetType = event.value;
+  }
+
+  gpStatsChange(event: any): void {
+    this.filter.gpStatsTypes = event.value;
   }
 
   resetPage(): void {
