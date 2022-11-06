@@ -115,8 +115,8 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  private updateAllTeams(time?: number): void {
-    const leader = this.getLeader();
+  private updateAllTeams(time?: number, leader?: TeamUnit): void {
+    leader = leader == undefined ? this.getLeader() : leader;
     for (const team of this.teams) {
       this.updateTeam(team, time, leader);
     }
@@ -124,7 +124,7 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
 
   private updateTeam(team: Team, time?: number, leader?: TeamUnit): void {
     time = time || this.battleTimer;
-    leader = leader || this.getLeader();
+    leader = leader == undefined ? this.getLeader() : leader;
     const leaderEffects = leader ? leader.lvl5GPAbility : [];
     team.effects = team.main
       .filter(unit => unit != null && unit.lvl5Ability != null)
@@ -299,7 +299,7 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
     this.openUnitPicker(gpUnits, currentLeader ? [currentLeader] : [], currentLeader, (unit) => {
       // TODO: store leader in an attribute? right now always iterating all teams to find it.
       this.leaderId = unit ? unit.id : -1;
-      let leader = undefined;
+      let leader = null;
       this.teams.forEach(t => {
         [...t.main, ...t.subs].filter(u => u != null).forEach(u => {
           u.leader = u.id === this.leaderId;
@@ -307,8 +307,8 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
             leader = u;
           }
         });
-        this.updateTeam(t, this.battleTimer, leader);
       });
+      this.updateAllTeams(this.battleTimer, leader);
     }, 'gp');
   }
 
