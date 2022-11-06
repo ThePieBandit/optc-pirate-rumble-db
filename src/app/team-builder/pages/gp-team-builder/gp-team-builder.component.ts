@@ -21,6 +21,10 @@ const subTeamSize = 3;
 
 const emptyTeamsIds = () => Array.from(Array(gpTeams), () => new Array<number>(mainTeamSize + subTeamSize));
 
+type GPTeam = Team & {
+  expanded: boolean;
+}
+
 @Component({
   selector: 'app-gp-team-builder',
   templateUrl: './gp-team-builder.component.html',
@@ -54,8 +58,6 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
   initialBattleTime = battleTime;
   units: UnitDetails[];
 
-  expandedTeam = -1;
-
   constructor(
     private dialog: MatDialog,
     dataSource: UnitService,
@@ -66,9 +68,8 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
     this.updateAllTeams();
   }
 
-  private buildTeam(number: number, ids: number[]): Team {
-    const team: Team = {
-      type: 'gp',
+  private buildTeam(number: number, ids: number[]): GPTeam {
+    const team: GPTeam = {
       number,
       color: 'gp',
       main: [],
@@ -77,6 +78,7 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
       totals: {
         cost: 0,
       },
+      expanded: false,
     };
 
     for (let index = 0; index <= mainTeamSize - 1; index++) {
@@ -263,8 +265,8 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
     team.subs = team.subs.map(x => null);
   }
 
-  expandTeam(team: Team) {
-    this.expandedTeam = this.expandedTeam === team.number ? -1 : team.number;
+  expandTeam(team: GPTeam) {
+    team.expanded = !team.expanded;
   }
 
   resetTeam(team: Team) {

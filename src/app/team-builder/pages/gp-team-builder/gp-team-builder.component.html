@@ -29,11 +29,11 @@
             </button>
             <h2>Team #{{team.number + 1}}</h2>
             <mat-menu #menu="matMenu">
-              <button *ngIf="expandedTeam !== team.number" mat-menu-item (click)="expandTeam(team)">
+              <button *ngIf="!team.expanded" mat-menu-item (click)="expandTeam(team)">
                 <mat-icon>unfold_more</mat-icon>
                 <span>Show buffs</span>
               </button>
-              <button *ngIf="expandedTeam === team.number" mat-menu-item (click)="expandTeam(team)">
+              <button *ngIf="team.expanded" mat-menu-item (click)="expandTeam(team)">
                 <mat-icon>unfold_less</mat-icon>
                 <span>Hide buffs</span>
               </button>
@@ -59,7 +59,7 @@
             (unitClick)="unitClick(team, $event)"
             (unitHpChange)="unitHpChange($event)"
             [battleTimer]="battleTimer"
-            [compact]="expandedTeam !== team.number"
+            [compact]="!team.expanded"
           ></app-team>
         </div>
         <mat-card class="battle-timer-container">
