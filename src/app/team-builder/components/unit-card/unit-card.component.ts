@@ -124,7 +124,7 @@ export class UnitCardComponent implements OnInit {
     if (!e || !e.attributes) {
       return;
     }
-    console.log('applying effect to ' + this.unit.name, e);
+    //console.log('applying effect to ' + this.unit.name, e);
     e.attributes.forEach(a => {
       const unitBuff = this.buffs.find(b => b.name === a);
       if (unitBuff == null) {
