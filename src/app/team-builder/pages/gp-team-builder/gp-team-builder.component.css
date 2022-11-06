@@ -51,6 +51,6 @@
   vertical-align: middle;
 }
 
-mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color {
+.team-header mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color {
   vertical-align: sub;
 }
