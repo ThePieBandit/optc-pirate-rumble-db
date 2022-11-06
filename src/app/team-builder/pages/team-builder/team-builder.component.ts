@@ -56,6 +56,10 @@ export class TeamBuilderComponent implements OnInit {
     this.updateAllTeams();
   }
 
+  onSidenavClose() {
+    this.optionsNav.close();
+  }
+
   private buildTeam(color: string, ids: number[]): Team {
     const team: Team = {
       color,

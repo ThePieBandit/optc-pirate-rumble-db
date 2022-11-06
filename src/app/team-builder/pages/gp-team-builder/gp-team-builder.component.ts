@@ -68,6 +68,10 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
     this.updateAllTeams();
   }
 
+  onSidenavClose() {
+    this.optionsNav.close();
+  }
+
   private buildTeam(number: number, ids: number[]): GPTeam {
     const team: GPTeam = {
       number,
