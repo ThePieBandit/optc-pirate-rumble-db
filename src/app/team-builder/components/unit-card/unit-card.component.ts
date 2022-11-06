@@ -127,6 +127,10 @@ export class UnitCardComponent implements OnInit {
     console.log('applying effect to ' + this.unit.name, e);
     e.attributes.forEach(a => {
       const unitBuff = this.buffs.find(b => b.name === a);
+      if (unitBuff == null) {
+        console.warn('could not find buff for attribute ' + a);
+        return;
+      }
       if (e.effect === 'penalty' || e.effect === 'debuff') {
         unitBuff.value -= e.level;
       } else {

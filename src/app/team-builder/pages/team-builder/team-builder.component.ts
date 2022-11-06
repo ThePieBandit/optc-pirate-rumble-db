@@ -178,6 +178,7 @@ export class TeamBuilderComponent implements OnInit {
       team: [...team.main, ...team.subs].filter(u => u != null),
       current,
       units: this.units,
+      detailsType: 'normal',
     };
 
     const dialogRef = this.dialog.open<UnitPickerComponent, UnitPickerData, UnitDetails>(

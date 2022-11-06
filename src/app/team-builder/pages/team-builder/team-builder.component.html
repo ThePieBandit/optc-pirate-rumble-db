@@ -16,14 +16,15 @@
     </div>
     <div class="content">
       <div>
-        <app-team
-          *ngFor="let team of [blueTeam, redTeam]"
-          [team]="team"
-          (unitClick)="unitClick(team, $event)"
-          (unitHpChange)="unitHpChange($event)"
-          [battleTimer]="battleTimer"
-          [compact]="false"
-        ></app-team>
+        <div class="team-container" *ngFor="let team of [blueTeam, redTeam]">
+          <app-team
+            [team]="team"
+            (unitClick)="unitClick(team, $event)"
+            (unitHpChange)="unitHpChange($event)"
+            [battleTimer]="battleTimer"
+            [compact]="false"
+          ></app-team>
+        </div>
         <mat-card class="battle-timer-container">
           <mat-card-content>
             <div class="card-header">

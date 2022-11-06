@@ -7,6 +7,11 @@
   min-height: calc(100% - 64px); /* 64px from mat-toolbar height */
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-container {
+  margin-bottom: 15px;
 }
 
 .battle-timer-container .card-header {
