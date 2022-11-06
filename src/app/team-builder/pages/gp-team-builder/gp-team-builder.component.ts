@@ -296,7 +296,7 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
   onSelectLeader() {
     const gpUnits = this.getAllUnitsFromTeams().filter(u => u.gpStyle != 'none');
     const currentLeader = this.getLeader();
-    this.openUnitPicker(gpUnits, currentLeader ? [currentLeader] : [], null, (unit) => {
+    this.openUnitPicker(gpUnits, currentLeader ? [currentLeader] : [], currentLeader, (unit) => {
       // TODO: store leader in an attribute? right now always iterating all teams to find it.
       this.leaderId = unit ? unit.id : -1;
       let leader = undefined;
