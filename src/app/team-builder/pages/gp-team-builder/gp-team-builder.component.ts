@@ -13,6 +13,7 @@ import { LocalStorage } from 'ngx-store';
 import { OptionEvent } from '@team-builder/components/team-builder-options/team-builder-options.component';
 import { MatSidenav } from '@angular/material/sidenav';
 import { UnitDetails } from '@shared/models/unit-details';
+import { DetailsType } from '@team-builder/components/unit-details-card/unit-details-card.component';
 
 const gpTeams = 3;
 const mainTeamSize = 5;
@@ -164,8 +165,9 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
   private openUnitPicker(
     units: UnitDetails[],
     selectedUnits: UnitDetails[],
-    current: UnitDetails, 
-    onPick: (unit: UnitDetails) => void
+    current: UnitDetails,
+    onPick: (unit: UnitDetails) => void,
+    detailsType?: DetailsType,
   ): void {
     const dialogConfig = new MatDialogConfig<UnitPickerData>();
 
@@ -177,6 +179,7 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
       team: selectedUnits,
       current,
       units: units,
+      detailsType: detailsType || 'normal',
     };
 
     const dialogRef = this.dialog.open<UnitPickerComponent, UnitPickerData, UnitDetails>(
@@ -264,6 +267,30 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
     this.expandedTeam = this.expandedTeam === team.number ? -1 : team.number;
   }
 
+  resetTeam(team: Team) {
+    this.resetTeamUnits(team);
+  }
+
+  moveUp(team: Team) {
+    const tempNumber = team.number;
+    const otherTeam = this.teams.find(t => t.number === team.number - 1);
+    if (otherTeam != null) {
+      team.number = otherTeam.number;
+      otherTeam.number = tempNumber;
+      this.teams = this.teams.sort((a, b) => a.number - b.number);
+    }
+  }
+
+  moveDown(team: Team) {
+    const tempNumber = team.number;
+    const otherTeam = this.teams.find(t => t.number === team.number + 1);
+    if (otherTeam != null) {
+      team.number = otherTeam.number;
+      otherTeam.number = tempNumber;
+      this.teams = this.teams.sort((a, b) => a.number - b.number);
+    }
+  }
+
   onSelectLeader() {
     const gpUnits = this.getAllUnitsFromTeams().filter(u => u.gpStyle != 'none');
     const currentLeader = this.getLeader();
@@ -280,7 +307,7 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
         });
         this.updateTeam(t, this.battleTimer, leader);
       });
-    });
+    }, 'gp');
   }
 
   private getLeader(): TeamUnit {

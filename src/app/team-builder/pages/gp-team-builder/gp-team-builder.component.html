@@ -17,12 +17,42 @@
     <div class="content">
       <div>
         <div class="actions">
-          <button mat-raised-button color="accent" (click)="onSelectLeader()">Select leader</button>
+          <button mat-raised-button color="primary" (click)="onSelectLeader()">
+            <mat-icon>person</mat-icon>
+            <span>Select Leader</span>
+          </button>
         </div>
-        <div *ngFor="let team of teams">
+        <div *ngFor="let team of teams" class="gp-team-container">
           <div class="team-header">
-            <span>Team #{{team.number + 1}}</span>
-            <button mat-raised-button color="accent" (click)="expandTeam(team)">Expand</button>
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="team menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <h2>Team #{{team.number + 1}}</h2>
+            <mat-menu #menu="matMenu">
+              <button *ngIf="expandedTeam !== team.number" mat-menu-item (click)="expandTeam(team)">
+                <mat-icon>unfold_more</mat-icon>
+                <span>Show buffs</span>
+              </button>
+              <button *ngIf="expandedTeam === team.number" mat-menu-item (click)="expandTeam(team)">
+                <mat-icon>unfold_less</mat-icon>
+                <span>Hide buffs</span>
+              </button>
+
+              <button *ngIf="team.number !== 0" mat-menu-item (click)="moveUp(team)">
+                <mat-icon>arrow_upward</mat-icon>
+                <span>Move up</span>
+              </button>
+
+              <button *ngIf="team.number !== teams.length - 1" mat-menu-item (click)="moveDown(team)">
+                <mat-icon>arrow_downward</mat-icon>
+                <span>Move down</span>
+              </button>
+              
+              <button mat-menu-item (click)="resetTeam(team)">
+                <mat-icon>refresh</mat-icon>
+                <span>Start over</span>
+              </button>
+            </mat-menu>
           </div>
           <app-team
             [team]="team"

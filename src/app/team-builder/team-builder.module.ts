@@ -21,6 +21,7 @@ import { TeamComponent } from './components/team/team.component';
 import { MatDividerModule } from '@angular/material/divider';
 import { TeamBuilderOptionsComponent, ValidUnitPipe } from './components/team-builder-options/team-builder-options.component';
 import { MatListModule } from '@angular/material/list';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { MatListModule } from '@angular/material/list';
     MdePopoverModule,
     MatDividerModule,
     MatListModule,
+    MatMenuModule,
   ],
   providers: [
     UnitService,
