@@ -67,7 +67,7 @@
           </mat-checkbox>
           <p>
             GP Stats
-            <mat-button-toggle-group (change)="gpStatsChange($event)" multiple>
+            <mat-button-toggle-group [(ngModel)]="filter.gpStatsTypes" (change)="gpStatsChange($event)" multiple>
               <mat-button-toggle value="unique">Unique</mat-button-toggle>
               <mat-button-toggle value="standard">Standard</mat-button-toggle>
             </mat-button-toggle-group>

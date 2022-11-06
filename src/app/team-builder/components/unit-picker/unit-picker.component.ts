@@ -135,6 +135,7 @@ export class UnitPickerComponent implements OnInit {
   }
 
   gpStatsChange(event: any): void {
+    this.paginator.firstPage();
     this.filter.gpStatsTypes = event.value;
   }
 
