@@ -13,7 +13,7 @@
 
 <ng-container *ngFor="let team of teams">
   <mat-selection-list [ngModel]="team.main" (ngModelChange)="specialChange($event, team)">
-    <div mat-subheader [class]="team.color">{{team.color | titlecase}} Team</div>
+    <div mat-subheader [class]="team.color">Team {{team.color === 'gp' ? '#' + (team.number + 1) : team.color | titlecase}}</div>
     <ng-container *ngFor="let unit of team.main | validUnit">
       <mat-list-option [value]="unit.id">{{unit.name}}</mat-list-option>
       <mat-divider></mat-divider>

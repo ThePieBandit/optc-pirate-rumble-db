@@ -28,6 +28,9 @@ export class UnitCardComponent implements OnInit {
   @Input()
   public unit: TeamUnit;
 
+  @Input()
+  public compact = false;
+
   // tslint:disable-next-line:variable-name
   private _teamEffects: rumble.Effect[];
 
@@ -56,7 +59,7 @@ export class UnitCardComponent implements OnInit {
   }
 
   @Input()
-  style?: 'red' | 'blue';
+  style?: 'red' | 'blue' | 'gp';
 
   @Output()
   public unitClick = new EventEmitter<boolean>();
@@ -64,6 +67,7 @@ export class UnitCardComponent implements OnInit {
   @Output()
   public hpChange = new EventEmitter<number>();
 
+  leaderIcon = 'assets/images/pirate_hat.png';
   defaultImage = 'assets/images/recruit_wanted.png';
   buffs: UnitBuff[];
 
@@ -120,9 +124,13 @@ export class UnitCardComponent implements OnInit {
     if (!e || !e.attributes) {
       return;
     }
-    console.log('applying effect to ' + this.unit.name, e);
+    //console.log('applying effect to ' + this.unit.name, e);
     e.attributes.forEach(a => {
       const unitBuff = this.buffs.find(b => b.name === a);
+      if (unitBuff == null) {
+        console.warn('could not find buff for attribute ' + a);
+        return;
+      }
       if (e.effect === 'penalty' || e.effect === 'debuff') {
         unitBuff.value -= e.level;
       } else {

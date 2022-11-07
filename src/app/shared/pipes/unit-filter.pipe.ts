@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { UnitDetails } from '@shared/models/unit-details';
+import { GPStyle, UnitDetails } from '@shared/models/unit-details';
 import { Attribute, Classes, Effect } from '@shared/models/rumble';
 import { types, classes } from '@core/constants/units';
 import { SpecialEffect } from '@core/constants/effects';
@@ -20,6 +20,7 @@ export interface UnitFilterArgs {
   specialTargetType: EffectTargetType;
   excludeIds?: number[];
   hideBaseForms?: boolean;
+  gpStatsTypes: GPStyle[];
 }
 
 @Pipe({
@@ -44,6 +45,9 @@ export class UnitFilterPipe implements PipeTransform {
         u.name.toLowerCase().includes(nameFilter) ||
         u.aliases && u.aliases.some(a => a.toLowerCase().includes(nameFilter))
       );
+    }
+    if (arg.gpStatsTypes && arg.gpStatsTypes.length > 0) {
+      filtered = filtered.filter(u => arg.gpStatsTypes.includes(u.gpStyle));
     }
     if (arg.types && arg.types.length) {
       filtered = filtered.filter(u => u.stats && arg.types.some(t => t === `[${u.stats.type}]`));

@@ -8,4 +8,5 @@ export interface Team {
   subs: TeamUnit[];
   effects: Effect[];
   totals: TeamTotals;
+  number?: number;
 }

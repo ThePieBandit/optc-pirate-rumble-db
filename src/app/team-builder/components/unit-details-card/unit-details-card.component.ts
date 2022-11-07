@@ -12,6 +12,8 @@ type CombatStat = {
   value: string;
 }
 
+export type DetailsType =  'normal' | 'gp';
+
 @Component({
   selector: 'app-unit-details-card',
   templateUrl: './unit-details-card.component.html',
@@ -31,6 +33,9 @@ export class UnitDetailsCardComponent implements OnInit {
     this._unit = value;
     this.setAttributes(value);
   }
+
+  @Input()
+  detailsType: DetailsType = 'normal';
 
   attributes: UnitAttribute[];
   combatStats: CombatStat[];

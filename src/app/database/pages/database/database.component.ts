@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { MatSidenav } from '@angular/material/sidenav';
 
 @Component({
   selector: 'app-database',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DatabaseComponent implements OnInit {
 
+  @ViewChild('filters')
+  optionsNav: MatSidenav;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onSidenavClose() {
+    this.optionsNav.close();
+  }
 }

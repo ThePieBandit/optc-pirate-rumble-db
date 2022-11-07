@@ -76,7 +76,7 @@ export interface Unit {
   basedOn?: number;
   gpability: [GPAbility, GPAbility, GPAbility, GPAbility, GPAbility];
   gpcondition: GPCondition[];
-  gpspecial: [GSpecial, GPSpecial, GPSpecial, GPSpecial, GPSpecial,];
+  gpspecial: [GSpecial, GPSpecial, GPSpecial, GPSpecial, GPSpecial];
 }
 
 export type GPSpecial = Special & {

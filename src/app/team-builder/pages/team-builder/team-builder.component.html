@@ -1,5 +1,16 @@
 <mat-sidenav-container>
   <mat-sidenav #optionsNav mode="over" style="min-width: 200px;">
+    <mat-nav-list>
+      <a mat-list-item routerLink="/" (click)="onSidenavClose()">
+          <mat-icon>list</mat-icon> <span class="nav-caption">Database</span>
+      </a>
+      <a mat-list-item routerLink="/team-builder" (click)="onSidenavClose()">
+          <mat-icon>people</mat-icon> <span class="nav-caption">Team Builder</span>   
+      </a>
+      <a mat-list-item routerLink="/team-builder/gp" (click)="onSidenavClose()">
+        <mat-icon>people_outline</mat-icon> <span class="nav-caption">GP Team Builder</span>   
+      </a>
+    </mat-nav-list>
     <app-team-builder-options
       (optionClick)="optionClick($event)"
       [teams]="[blueTeam, redTeam]"
@@ -16,13 +27,15 @@
     </div>
     <div class="content">
       <div>
-        <app-team
-          *ngFor="let team of [blueTeam, redTeam]"
-          [team]="team"
-          (unitClick)="unitClick(team, $event)"
-          (unitHpChange)="unitHpChange($event)"
-          [battleTimer]="battleTimer"
-        ></app-team>
+        <div class="team-container" *ngFor="let team of [blueTeam, redTeam]">
+          <app-team
+            [team]="team"
+            (unitClick)="unitClick(team, $event)"
+            (unitHpChange)="unitHpChange($event)"
+            [battleTimer]="battleTimer"
+            [compact]="false"
+          ></app-team>
+        </div>
         <mat-card class="battle-timer-container">
           <mat-card-content>
             <div class="card-header">

@@ -12,7 +12,7 @@
     </div>
   </div>
   <mat-card-content>
-    <section>
+    <section *ngIf="detailsType == 'normal'">
       <h3>Ability</h3>
       <div class="section-content">
         <ul>
@@ -20,11 +20,27 @@
         </ul>
       </div>
     </section>
-    <section>
+    <section *ngIf="detailsType == 'gp' && unit.lvl5GPAbility">
+      <h3>Leader Ability ({{unit.gpStyle}})</h3>
+      <div class="section-content">
+        <ul>
+          <span *ngFor="let effect of unit.lvl5GPAbility" [innerHtml]="effect | effect"></span>
+        </ul>
+      </div>
+    </section>
+    <section *ngIf="detailsType == 'normal'">
       <h3>Special (CT {{unit.lvl10Cooldown}})</h3>
       <div class="section-content">
         <ul>
           <span *ngFor="let effect of unit.lvl10Special" [innerHtml]="effect | effect"></span>
+        </ul>
+      </div>
+    </section>
+    <section *ngIf="detailsType == 'gp' && unit.lvl5GPSpecial">
+      <h3>GP Burst ({{unit.gpspecial[unit.gpspecial.length-1].uses}} uses - {{ unit.gpcondition[0] | condition}})</h3>
+      <div class="section-content">
+        <ul>
+          <span *ngFor="let effect of unit.lvl5GPSpecial" [innerHtml]="effect | effect"></span>
         </ul>
       </div>
     </section>

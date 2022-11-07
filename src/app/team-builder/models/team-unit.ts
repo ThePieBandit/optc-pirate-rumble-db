@@ -5,4 +5,5 @@ export interface TeamUnit extends UnitDetails {
   cooldown: number;
   maxCooldown: number;
   activeSpecial: boolean;
+  leader?: boolean;
 }

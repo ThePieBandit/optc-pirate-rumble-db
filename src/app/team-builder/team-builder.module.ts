@@ -3,6 +3,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSliderModule } from '@angular/material/slider';
 import { TeamBuilderRoutingModule } from './team-builder-routing.module';
 import { TeamBuilderComponent } from './pages/team-builder/team-builder.component';
+import { GrandPartyTeamBuilderComponent } from './pages/gp-team-builder/gp-team-builder.component';
 import { SharedModule } from '../shared/shared.module';
 import { UnitCardComponent } from './components/unit-card/unit-card.component';
 import { UnitPickerComponent } from './components/unit-picker/unit-picker.component';
@@ -20,10 +21,12 @@ import { TeamComponent } from './components/team/team.component';
 import { MatDividerModule } from '@angular/material/divider';
 import { TeamBuilderOptionsComponent, ValidUnitPipe } from './components/team-builder-options/team-builder-options.component';
 import { MatListModule } from '@angular/material/list';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
     TeamBuilderComponent,
+    GrandPartyTeamBuilderComponent,
     UnitCardComponent,
     UnitPickerComponent,
     TeamTotalsComponent,
@@ -47,6 +50,7 @@ import { MatListModule } from '@angular/material/list';
     MdePopoverModule,
     MatDividerModule,
     MatListModule,
+    MatMenuModule,
   ],
   providers: [
     UnitService,

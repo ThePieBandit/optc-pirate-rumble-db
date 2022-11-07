@@ -1,0 +1,98 @@
+<mat-sidenav-container>
+  <mat-sidenav #optionsNav mode="over" style="min-width: 200px;">
+    <mat-nav-list>
+      <a mat-list-item routerLink="/" (click)="onSidenavClose()">
+        <mat-icon>list</mat-icon> <span class="nav-caption">Database</span>
+    </a>
+    <a mat-list-item routerLink="/team-builder" (click)="onSidenavClose()">
+        <mat-icon>people</mat-icon> <span class="nav-caption">Team Builder</span>   
+    </a>
+    <a mat-list-item routerLink="/team-builder/gp" (click)="onSidenavClose()">
+      <mat-icon>people_outline</mat-icon> <span class="nav-caption">GP Team Builder</span>   
+    </a>
+    </mat-nav-list>
+    <app-team-builder-options
+      (optionClick)="optionClick($event)"
+      [teams]="teams"
+    ></app-team-builder-options>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div>
+      <mat-toolbar>
+        <button (click)="optionsNav.toggle()" mat-icon-button color="basic" aria-label="Open menu">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>OPTC Pirate Rumble Team Builder</span>
+      </mat-toolbar>
+    </div>
+    <div class="content">
+      <div>
+        <div class="actions">
+          <button mat-raised-button color="primary" (click)="onSelectLeader()">
+            <mat-icon>person</mat-icon>
+            <span>Select Leader</span>
+          </button>
+        </div>
+        <div *ngFor="let team of teams" class="gp-team-container">
+          <div class="team-header">
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="team menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <h2>Team #{{team.number + 1}}</h2>
+            <mat-menu #menu="matMenu">
+              <button *ngIf="!team.expanded" mat-menu-item (click)="expandTeam(team)">
+                <mat-icon>unfold_more</mat-icon>
+                <span>Show buffs</span>
+              </button>
+              <button *ngIf="team.expanded" mat-menu-item (click)="expandTeam(team)">
+                <mat-icon>unfold_less</mat-icon>
+                <span>Hide buffs</span>
+              </button>
+
+              <button *ngIf="team.number !== 0" mat-menu-item (click)="moveUp(team)">
+                <mat-icon>arrow_upward</mat-icon>
+                <span>Move up</span>
+              </button>
+
+              <button *ngIf="team.number !== teams.length - 1" mat-menu-item (click)="moveDown(team)">
+                <mat-icon>arrow_downward</mat-icon>
+                <span>Move down</span>
+              </button>
+              
+              <button mat-menu-item (click)="resetTeam(team)">
+                <mat-icon>refresh</mat-icon>
+                <span>Start over</span>
+              </button>
+            </mat-menu>
+          </div>
+          <app-team
+            [team]="team"
+            (unitClick)="unitClick(team, $event)"
+            (unitHpChange)="unitHpChange($event)"
+            [battleTimer]="battleTimer"
+            [compact]="!team.expanded"
+          ></app-team>
+        </div>
+        <mat-card class="battle-timer-container">
+          <mat-card-content>
+            <div class="card-header">
+              <h2 class="card-title">Battle Timer: {{battleTimer}}</h2>
+              <h2 class="card-title">Elapsed Time: {{initialBattleTime - battleTimer}}</h2>
+            </div>
+            <mat-slider
+              [invert]="true"
+              [max]="initialBattleTime"
+              [min]="0"
+              [step]="1"
+              [tickInterval]="10"
+              [(ngModel)]="battleTimer"
+              (input)="battleTimerChange($event)"
+              [thumbLabel]="true"
+            >
+            </mat-slider>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

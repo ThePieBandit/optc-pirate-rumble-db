@@ -7,11 +7,13 @@ import { Attribute } from '@shared/models/rumble';
 import { UnitDetails } from '@shared/models/unit-details';
 import { LocalStorage, Webstorable } from 'ngx-store';
 import { UnitFilterArgs } from 'src/app/shared/pipes/unit-filter.pipe';
+import { DetailsType } from '../unit-details-card/unit-details-card.component';
 
 export interface UnitPickerData {
   team: UnitDetails[];
   current: UnitDetails;
   units: UnitDetails[];
+  detailsType: DetailsType;
 }
 
 type UnitPickerFilter = UnitFilterArgs & {
@@ -32,6 +34,7 @@ const initialFilter = (): UnitPickerFilter => ({
   specialEffects: [],
   abilityTargetType: 'any',
   specialTargetType: 'any',
+  gpStatsTypes: [],
 });
 
 @Component({
@@ -54,6 +57,8 @@ export class UnitPickerComponent implements OnInit {
   @LocalStorage()
   oldestFirst = false;
 
+  detailsType: DetailsType = 'normal';
+
   constructor(
     private dialogRef: MatDialogRef<UnitPickerComponent, UnitDetails>,
     @Inject(MAT_DIALOG_DATA) data: UnitPickerData
@@ -69,6 +74,9 @@ export class UnitPickerComponent implements OnInit {
     }
     this.filter.page = 0;
     this.filter.excludeIds = data.team && data.team.map(u => u.id);
+    if (data.detailsType) {
+      this.detailsType = data.detailsType;
+    }
   }
 
   ngOnInit(): void {
@@ -124,6 +132,11 @@ export class UnitPickerComponent implements OnInit {
   specialTargetTypeChange(event: any): void {
     this.paginator.firstPage();
     this.filter.specialTargetType = event.value;
+  }
+
+  gpStatsChange(event: any): void {
+    this.paginator.firstPage();
+    this.filter.gpStatsTypes = event.value;
   }
 
   resetPage(): void {

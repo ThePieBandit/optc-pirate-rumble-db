@@ -1,0 +1,56 @@
+.mat-drawer-container {
+  height: 100%;
+}
+
+.actions {
+  margin: 15px 0px;
+}
+
+.actions button span {
+  font-size: 18px;
+}
+
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+  background-color: #5d1402;
+  border: 2px solid #ffdc7c;
+}
+
+.content {
+  display: flex;
+  min-height: calc(100% - 64px); /* 64px from mat-toolbar height */
+  align-items: center;
+  justify-content: center;
+}
+
+.battle-timer-container .card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.battle-timer-container .mat-slider {
+  width: 100%;
+}
+
+.gp-team-container {
+  background-color: #5a401c;
+  border: 3px solid #ffdc7c;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.team-header {
+  padding-bottom: 10px;
+}
+
+.team-header h2 {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+
+.team-header mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color {
+  vertical-align: sub;
+}

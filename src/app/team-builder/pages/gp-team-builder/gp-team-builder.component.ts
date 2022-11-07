@@ -13,21 +13,35 @@ import { LocalStorage } from 'ngx-store';
 import { OptionEvent } from '@team-builder/components/team-builder-options/team-builder-options.component';
 import { MatSidenav } from '@angular/material/sidenav';
 import { UnitDetails } from '@shared/models/unit-details';
+import { DetailsType } from '@team-builder/components/unit-details-card/unit-details-card.component';
 
+const gpTeams = 3;
 const mainTeamSize = 5;
 const subTeamSize = 3;
 
-@Component({
-  selector: 'app-team-builder',
-  templateUrl: './team-builder.component.html',
-  styleUrls: ['./team-builder.component.css']
-})
-export class TeamBuilderComponent implements OnInit {
+const emptyTeamsIds = () => Array.from(Array(gpTeams), () => new Array<number>(mainTeamSize + subTeamSize));
 
+type GPTeam = Team & {
+  expanded: boolean;
+}
+
+@Component({
+  selector: 'app-gp-team-builder',
+  templateUrl: './gp-team-builder.component.html',
+  styleUrls: ['./gp-team-builder.component.css']
+})
+export class GrandPartyTeamBuilderComponent implements OnInit {
+
+  /**
+   * Array of arrays of unit ids
+   * [0][n] => team 1 ids
+   * [1][n] => team 2 ids
+   * ...
+   */
   @LocalStorage()
-  blueTeamIds: number[] = Array.from(Array(mainTeamSize + subTeamSize));
+  teamsIds: number[][] = emptyTeamsIds();
   @LocalStorage()
-  redTeamIds: number[] = Array.from(Array(mainTeamSize + subTeamSize));
+  leaderId: number = -1;
   @LocalStorage()
   hideSubs = false;
   @LocalStorage()
@@ -38,8 +52,7 @@ export class TeamBuilderComponent implements OnInit {
   @ViewChild('optionsNav')
   optionsNav: MatSidenav;
 
-  blueTeam: Team;
-  redTeam: Team;
+  teams: Team[];
   battleTimer: number;
 
   initialBattleTime = battleTime;
@@ -51,8 +64,7 @@ export class TeamBuilderComponent implements OnInit {
   ) {
     this.units = dataSource.getUnits();
     this.battleTimer = battleTime;
-    this.blueTeam = this.buildTeam('blue', this.blueTeamIds);
-    this.redTeam = this.buildTeam('red', this.redTeamIds);
+    this.teams = Array.from(Array(gpTeams).keys()).map(n => this.buildTeam(n, this.teamsIds[n]));
     this.updateAllTeams();
   }
 
@@ -60,15 +72,17 @@ export class TeamBuilderComponent implements OnInit {
     this.optionsNav.close();
   }
 
-  private buildTeam(color: string, ids: number[]): Team {
-    const team: Team = {
-      color,
+  private buildTeam(number: number, ids: number[]): GPTeam {
+    const team: GPTeam = {
+      number,
+      color: 'gp',
       main: [],
       subs: [],
       effects: [],
       totals: {
         cost: 0,
       },
+      expanded: false,
     };
 
     for (let index = 0; index <= mainTeamSize - 1; index++) {
@@ -93,6 +107,7 @@ export class TeamBuilderComponent implements OnInit {
       cooldown: 0,
       maxCooldown: unit.lvl10Cooldown,
       activeSpecial: false,
+      leader: unit.id === this.leaderId,
     });
   }
 
@@ -101,51 +116,35 @@ export class TeamBuilderComponent implements OnInit {
       effectAppliesToUnitHp(effect, unit.hp);
   }
 
-  private updateAllTeams(): void {
-    this.updateBuffs();
-    this.updateCost();
-  }
-
   ngOnInit(): void {
   }
 
-  updateCost(): void {
-    // update totals.cost based on main/sub team current state
-  }
-
-  private updateBuffs(time?: number): void {
-    // first set effects to a new array with all buffs
-    const teams = [this.redTeam, this.blueTeam];
-    for (const team of teams) {
-      team.effects = team.main
-        .filter(unit => unit != null && unit.lvl5Ability != null)
-        .flatMap(unit => this.getUnitEffects(unit).filter(e => isTeamEffect(e) && this.buffApplies(e, unit, time)))
-      ;
+  private updateAllTeams(time?: number, leader?: TeamUnit): void {
+    leader = leader == undefined ? this.getLeader() : leader;
+    for (const team of this.teams) {
+      this.updateTeam(team, time, leader);
     }
-
-    // now append debuffs to each team effects array
-    const redDebuffs = this.getDebuffs(this.redTeam, time);
-    this.blueTeam.effects.push(...redDebuffs);
-
-    const blueDebuffs = this.getDebuffs(this.blueTeam, time);
-    this.redTeam.effects.push(...blueDebuffs);
   }
 
-  private getDebuffs(team: Team, time?: number): Effect[] {
-    return team.main
+  private updateTeam(team: Team, time?: number, leader?: TeamUnit): void {
+    time = time || this.battleTimer;
+    leader = leader == undefined ? this.getLeader() : leader;
+    const leaderEffects = leader ? leader.lvl5GPAbility : [];
+    team.effects = team.main
       .filter(unit => unit != null && unit.lvl5Ability != null)
-      .flatMap(unit => this.getUnitEffects(unit).filter(e => isDebuff(e) && this.buffApplies(e, unit, time)));
+      .flatMap(unit => this.getUnitEffects(unit).filter(e => isTeamEffect(e) && this.buffApplies(e, unit, time)))
+      .concat(leaderEffects)
+      ;
   }
 
   private getUnitEffects(unit: TeamUnit): Effect[] {
+    let effects = unit.lvl5Ability;
+    
     if (unit.activeSpecial) {
-      return [
-        ...unit.lvl5Ability,
-        ...unit.lvl10Special,
-      ];
+      effects = effects.concat(unit.lvl10Special);
     }
 
-    return unit.lvl5Ability;
+    return effects;
   }
 
   unitClick(team: Team, event: UnitClickEvent): void {
@@ -157,20 +156,25 @@ export class TeamBuilderComponent implements OnInit {
   }
 
   private mainTeamUnitClick(team: Team, index: number): void {
-    this.openUnitPicker(team, team.main[index], (data) => {
+    this.openUnitPicker(this.units, this.getAllUnitsFromTeams(), team.main[index], (data) => {
       team.main = team.main.map((unit, i) => i === index ? this.createTeamUnit(data) : unit);
-      this.updateAllTeams();
+      this.updateTeam(team);
     });
   }
 
   private subTeamUnitClick(team: Team, index: number): void {
-    this.openUnitPicker(team, team.subs[index], (data) => {
+    this.openUnitPicker(this.units, this.getAllUnitsFromTeams(), team.subs[index], (data) => {
       team.subs = team.subs.map((unit, i) => i === index ? this.createTeamUnit(data) : unit);
-      this.updateCost();
     });
   }
 
-  private openUnitPicker(team: Team, current: UnitDetails, onPick: (unit: UnitDetails) => void): void {
+  private openUnitPicker(
+    units: UnitDetails[],
+    selectedUnits: UnitDetails[],
+    current: UnitDetails,
+    onPick: (unit: UnitDetails) => void,
+    detailsType?: DetailsType,
+  ): void {
     const dialogConfig = new MatDialogConfig<UnitPickerData>();
 
     dialogConfig.hasBackdrop = true;
@@ -178,10 +182,10 @@ export class TeamBuilderComponent implements OnInit {
     dialogConfig.autoFocus = true;
 
     dialogConfig.data = {
-      team: [...team.main, ...team.subs].filter(u => u != null),
+      team: selectedUnits,
       current,
-      units: this.units,
-      detailsType: 'normal',
+      units: units,
+      detailsType: detailsType || 'normal',
     };
 
     const dialogRef = this.dialog.open<UnitPickerComponent, UnitPickerData, UnitDetails>(
@@ -195,8 +199,7 @@ export class TeamBuilderComponent implements OnInit {
           // allow null so we can unset units
           onPick(data);
           // save both team ids since here we dont know which one was modified
-          this.blueTeamIds = [...this.blueTeam.main, ...this.blueTeam.subs].map(u => u && u.id);
-          this.redTeamIds = [...this.redTeam.main, ...this.redTeam.subs].map(u => u && u.id);
+          this.teamsIds = this.teams.map(t => [...t.main, ...t.subs].map(u => u && u.id));
         }
       }
     );
@@ -204,12 +207,12 @@ export class TeamBuilderComponent implements OnInit {
 
   battleTimerChange(event: MatSliderChange): void {
     this.battleTimer = event.value;
-    this.updateBuffs(event.value);
+    this.updateAllTeams(event.value);
   }
 
   unitHpChange(event: UnitHpChangeEvent): void {
     if (this.isUnitWithHpBasedEffects(event.unit)) {
-      this.updateBuffs(this.battleTimer);
+      this.updateAllTeams(this.battleTimer);
     }
   }
 
@@ -241,7 +244,7 @@ export class TeamBuilderComponent implements OnInit {
         const team = event.data.team as Team;
         const specials = new Set<number>(event.data.specials);
         team.main.filter(u => u != null).forEach(u => u.activeSpecial = specials.has(u.id));
-        this.updateBuffs();
+        this.updateTeam(team, this.battleTimer);
         break;
       case 'oldestFirst':
         this.oldestFirst = !this.oldestFirst;
@@ -251,10 +254,12 @@ export class TeamBuilderComponent implements OnInit {
   }
 
   private onStartOver(): void {
-    this.resetTeamUnits(this.blueTeam);
-    this.resetTeamUnits(this.redTeam);
-    this.redTeamIds = this.redTeamIds.map(x => null);
-    this.blueTeamIds = this.blueTeamIds.map(x => null);
+    this.teams.forEach(team => {
+      this.resetTeamUnits(team);
+    });
+
+    this.teamsIds = emptyTeamsIds();
+
     this.battleTimer = battleTime;
     this.updateAllTeams();
   }
@@ -264,4 +269,62 @@ export class TeamBuilderComponent implements OnInit {
     team.subs = team.subs.map(x => null);
   }
 
+  expandTeam(team: GPTeam) {
+    team.expanded = !team.expanded;
+  }
+
+  resetTeam(team: Team) {
+    this.resetTeamUnits(team);
+  }
+
+  moveUp(team: Team) {
+    const tempNumber = team.number;
+    const otherTeam = this.teams.find(t => t.number === team.number - 1);
+    if (otherTeam != null) {
+      team.number = otherTeam.number;
+      otherTeam.number = tempNumber;
+      this.teams = this.teams.sort((a, b) => a.number - b.number);
+    }
+  }
+
+  moveDown(team: Team) {
+    const tempNumber = team.number;
+    const otherTeam = this.teams.find(t => t.number === team.number + 1);
+    if (otherTeam != null) {
+      team.number = otherTeam.number;
+      otherTeam.number = tempNumber;
+      this.teams = this.teams.sort((a, b) => a.number - b.number);
+    }
+  }
+
+  onSelectLeader() {
+    const gpUnits = this.getAllUnitsFromTeams().filter(u => u.gpStyle != 'none');
+    const currentLeader = this.getLeader();
+    this.openUnitPicker(gpUnits, currentLeader ? [currentLeader] : [], currentLeader, (unit) => {
+      // TODO: store leader in an attribute? right now always iterating all teams to find it.
+      this.leaderId = unit ? unit.id : -1;
+      let leader = null;
+      this.teams.forEach(t => {
+        [...t.main, ...t.subs].filter(u => u != null).forEach(u => {
+          u.leader = u.id === this.leaderId;
+          if (u.leader) {
+            leader = u;
+          }
+        });
+      });
+      this.updateAllTeams(this.battleTimer, leader);
+    }, 'gp');
+  }
+
+  private getLeader(): TeamUnit {
+    return this.getUnitFromTeams(x => x.leader);
+  }
+
+  private getUnitFromTeams(predicate: (value: TeamUnit) => boolean) {
+    return this.getAllUnitsFromTeams().find(predicate);
+  }
+
+  private getAllUnitsFromTeams() {
+    return this.teams.flatMap(t => [...t.main, ...t.subs]).filter(u => u != null);
+  }
 }

@@ -25,6 +25,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatListModule } from '@angular/material/list';
 import { ConditionPipe } from './pipes/condition.pipe';
 
 @NgModule({
@@ -58,6 +59,7 @@ import { ConditionPipe } from './pipes/condition.pipe';
     MatSlideToggleModule,
     MatSidenavModule,
     MatToolbarModule,
+    MatListModule,
   ],
   exports: [
     CommonModule,
@@ -74,6 +76,7 @@ import { ConditionPipe } from './pipes/condition.pipe';
     MatSlideToggleModule,
     MatSidenavModule,
     MatToolbarModule,
+    MatListModule,
     ChangelogComponent,
     DecoratePipe,
     EffectPipe,

@@ -24,10 +24,11 @@ class UserService {
 
       let vsUnit = false;
       const id = i + 1;
+      const rarity = window.units[i][3];
       const unitDetail: TempUnit = {
         id,
         complete: true,
-        isBaseForm: window.evolutions[id],
+        isBaseForm: window.evolutions[id] && rarity !== 6,
         name: window.units[i][0],
         baseHp: window.units[i][12],
         baseAtk: window.units[i][13],

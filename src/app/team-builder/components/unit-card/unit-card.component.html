@@ -1,5 +1,6 @@
-<mat-card class="unit-card" [ngClass]="style === 'red' ? 'red-card' : 'blue-card'">
-  <div class="unit-image-container" (click)="onClick()" [mdePopoverTriggerFor]="unitPopover">
+<mat-card class="unit-card" [ngClass]="style + '-card'">
+  <div class="unit-image-container" [ngClass]="unit != null && unit.leader ? 'leader' : ''" (click)="onClick()" [mdePopoverTriggerFor]="unitPopover">
+    <img *ngIf="unit != null && unit.leader" [src]="leaderIcon" class="leader-icon" alt="Leader" />
     <img
       class="unit-image"
       mat-card-image
@@ -7,8 +8,7 @@
       [alt]="unit != null ? unit.name : 'Pick Unit'"
     />
   </div>
-  <mat-card-content>
-    <!--Want to try to label this slider as an HP % slider....<span *ngIf="unit != null">Current HP%: {{unit.hp}}</span>-->
+  <mat-card-content *ngIf="!compact">
     <div class="sliders-container" *ngIf="unit != null">
       <mat-slider
         mat-card-image
