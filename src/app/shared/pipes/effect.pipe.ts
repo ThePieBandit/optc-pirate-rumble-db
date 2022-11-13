@@ -37,7 +37,7 @@ export class EffectPipe implements PipeTransform {
   }
 
   transform(effect: Effect): string {
-    let e = '<li>';
+    let e = '';
     const condition = this.conditionPipe.transform(effect.condition);
     if (condition) {
       e += `${condition}, `;
@@ -142,7 +142,7 @@ export class EffectPipe implements PipeTransform {
       e += ` ${effect.repeat} times`;
     }
 
-    e += '.</li>';
+    e += '.';
     return e;
   }
 

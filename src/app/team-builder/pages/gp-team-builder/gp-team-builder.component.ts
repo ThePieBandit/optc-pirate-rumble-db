@@ -3,7 +3,7 @@ import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import UnitService from 'src/app/core/services/unit.service';
 import { Effect } from '../../../shared/models/rumble';
 import { UnitPickerComponent, UnitPickerData } from '../../components/unit-picker/unit-picker.component';
-import { isTeamEffect, isDebuff, buffAppliesToTime, isHpBasedEffect, effectAppliesToUnitHp } from '../../../core/utils/effects';
+import { isTeamEffect, buffAppliesToTime, isHpBasedEffect, effectAppliesToUnitHp } from '../../../core/utils/effects';
 import { battleTime } from '../../../core/constants/battle';
 import { MatSliderChange } from '@angular/material/slider';
 import { TeamUnit } from '../../models/team-unit';
