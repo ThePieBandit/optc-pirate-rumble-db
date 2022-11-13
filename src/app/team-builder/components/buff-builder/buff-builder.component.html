@@ -7,20 +7,20 @@
         <mat-label>Level</mat-label>
         <input matInput 
             [(ngModel)]="effect.level" 
-            (ngModelChange)="updatePreview($event)" 
+            (ngModelChange)="updatePreview()" 
             type="number"
             min="1"
             max="99">
     </mat-form-field>
     <mat-form-field class="full-width" appearance="fill" color="accent">
         <mat-label>Attributes</mat-label>
-        <mat-select [(ngModel)]="effect.attributes" (ngModelChange)="updatePreview($event)" multiple>
+        <mat-select [(ngModel)]="effect.attributes" (ngModelChange)="updatePreview()" multiple>
             <mat-option *ngFor="let attribute of attributes" [value]="attribute">{{attribute}}</mat-option>
         </mat-select>
     </mat-form-field>
     <mat-form-field class="full-width" appearance="fill" color="accent">
         <mat-label>Targets</mat-label>
-        <mat-select [(ngModel)]="effect.targeting.targets" multiple (ngModelChange)="updatePreview($event)">
+        <mat-select [(ngModel)]="effect.targeting.targets" multiple (ngModelChange)="updatePreview()">
             <mat-option *ngFor="let target of targets" [value]="target">{{target}}</mat-option>
         </mat-select>
     </mat-form-field>
