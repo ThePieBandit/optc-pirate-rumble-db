@@ -1,0 +1,12 @@
+<mat-nav-list>
+  <div mat-subheader>Menu</div>
+  <a mat-list-item routerLink="/" (click)="onMenuClick()">
+    <mat-icon>list</mat-icon> <span class="nav-caption">Database</span>
+  </a>
+  <a mat-list-item routerLink="/team-builder" (click)="onMenuClick()">
+    <mat-icon>people</mat-icon> <span class="nav-caption">Team Builder</span>
+  </a>
+  <a mat-list-item routerLink="/team-builder/gp" (click)="onMenuClick()">
+    <mat-icon>people_outline</mat-icon> <span class="nav-caption">GP Team Builder</span>
+  </a>
+</mat-nav-list>

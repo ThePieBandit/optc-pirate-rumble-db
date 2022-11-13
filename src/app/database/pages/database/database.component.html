@@ -1,16 +1,6 @@
 <mat-sidenav-container>
   <mat-sidenav #filters mode="side" opened fixedInViewport style="max-width:255px">
-    <mat-nav-list>
-      <a mat-list-item routerLink="/" (click)="onSidenavClose()">
-        <mat-icon>list</mat-icon> <span class="nav-caption">Database</span>
-    </a>
-    <a mat-list-item routerLink="/team-builder" (click)="onSidenavClose()">
-        <mat-icon>people</mat-icon> <span class="nav-caption">Team Builder</span>   
-    </a>
-    <a mat-list-item routerLink="/team-builder/gp" (click)="onSidenavClose()">
-      <mat-icon>people_outline</mat-icon> <span class="nav-caption">GP Team Builder</span>   
-    </a>
-    </mat-nav-list>
+    <app-side-menu></app-side-menu>
     <mat-divider></mat-divider>
     <app-filters></app-filters>
     <mat-divider></mat-divider>
