@@ -22,6 +22,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { TeamBuilderOptionsComponent, ValidUnitPipe } from './components/team-builder-options/team-builder-options.component';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
+import { BuffBuilderComponent } from './components/buff-builder/buff-builder.component';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,7 @@ import { MatMenuModule } from '@angular/material/menu';
     TeamComponent,
     TeamBuilderOptionsComponent,
     ValidUnitPipe,
+    BuffBuilderComponent,
   ],
   imports: [
     SharedModule,
@@ -51,6 +54,7 @@ import { MatMenuModule } from '@angular/material/menu';
     MatDividerModule,
     MatListModule,
     MatMenuModule,
+    MatSelectModule,
   ],
   providers: [
     UnitService,
