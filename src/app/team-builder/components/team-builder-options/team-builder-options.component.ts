@@ -2,6 +2,9 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Team } from '@team-builder/models/team';
 import { Pipe, PipeTransform } from '@angular/core';
 import { TeamUnit } from '@team-builder/models/team-unit';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
+import { BuffBuilderComponent } from '../buff-builder/buff-builder.component';
+import { Effect } from '@shared/models/rumble';
 
 @Pipe ({
    name : 'validUnit'
@@ -12,7 +15,7 @@ export class ValidUnitPipe implements PipeTransform {
    }
 }
 
-export type OptionType = 'startOver' | 'specialsChange' | 'hideSubs' | 'showAllBuffs' | 'oldestFirst';
+export type OptionType = 'startOver' | 'specialsChange' | 'hideSubs' | 'showAllBuffs' | 'oldestFirst' | 'seasonBuffsChange';
 export interface OptionEvent {
   type: OptionType;
   data: any;
@@ -43,8 +46,9 @@ export class TeamBuilderOptionsComponent implements OnInit {
 
   teamOptions: OptionEntry[];
   pickerOptions: OptionEntry[];
+  buffs: Effect[];
 
-  constructor() {
+  constructor(private dialog: MatDialog) {
     this.teamOptions = [
       buildOption('startOver', 'Start over'),
       buildOption('hideSubs', 'Show/Hide subs'),
@@ -53,6 +57,7 @@ export class TeamBuilderOptionsComponent implements OnInit {
     this.pickerOptions = [
       buildOption('oldestFirst', 'Show old/new units first'),
     ];
+    this.buffs = [];
   }
 
   ngOnInit(): void {
@@ -69,6 +74,39 @@ export class TeamBuilderOptionsComponent implements OnInit {
         specials: activatedUnitIds,
         team,
       },
+    });
+  }
+
+  addSeasonBuff(): void {
+    const dialogConfig = new MatDialogConfig<{}>();
+    dialogConfig.hasBackdrop = true;
+    dialogConfig.disableClose = false;
+    dialogConfig.autoFocus = true;
+    const dialogRef = this.dialog.open<BuffBuilderComponent, {}, Effect>(
+      BuffBuilderComponent,
+      dialogConfig
+    );
+    dialogRef.afterClosed().subscribe(
+      data => {
+        if (data == null) {
+          return;
+        }
+
+        this.buffs.push(data);
+        this.onBuffsChange();
+      }
+    );
+  }
+
+  onDeleteBuff(index: number): void {
+    this.buffs.splice(index, 1);
+    this.onBuffsChange();
+  }
+
+  private onBuffsChange() {
+    this.optionClick.emit({
+      type: 'seasonBuffsChange',
+      data: this.buffs,
     });
   }
 }

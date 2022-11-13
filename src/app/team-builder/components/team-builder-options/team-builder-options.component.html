@@ -11,6 +11,24 @@
   </ng-container>
 </mat-action-list>
 
+<mat-list>
+  <div mat-subheader class="header-with-icon">
+    Season buffs
+    <button mat-icon-button (click)="addSeasonBuff()" matTooltip="Add">
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+  <ng-container *ngFor="let buff of buffs; let i = index">
+    <mat-list-item class="list-item-with-right-button">
+      {{ buff | effect }}
+      <button mat-icon-button (click)="onDeleteBuff(i)" matTooltip="Delete">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+  </ng-container>
+</mat-list>
+
 <ng-container *ngFor="let team of teams">
   <mat-selection-list [ngModel]="team.main" (ngModelChange)="specialChange($event, team)">
     <div mat-subheader [class]="team.color">Team {{team.color === 'gp' ? '#' + (team.number + 1) : team.color | titlecase}}</div>
