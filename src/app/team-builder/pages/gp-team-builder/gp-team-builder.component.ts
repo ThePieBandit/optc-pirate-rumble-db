@@ -57,6 +57,7 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
 
   initialBattleTime = battleTime;
   units: UnitDetails[];
+  seasonBuffs: Effect[] = [];
 
   constructor(
     private dialog: MatDialog,
@@ -134,6 +135,7 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
       .filter(unit => unit != null && unit.lvl5Ability != null)
       .flatMap(unit => this.getUnitEffects(unit).filter(e => isTeamEffect(e) && this.buffApplies(e, unit, time)))
       .concat(leaderEffects)
+      .concat(this.seasonBuffs)
       ;
   }
 
@@ -249,6 +251,13 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
       case 'oldestFirst':
         this.oldestFirst = !this.oldestFirst;
         this.optionsNav.close();
+        break;
+      case 'seasonBuffsChange':
+        this.seasonBuffs = [...(event.data || [])];
+        this.updateAllTeams();
+        break;
+      default:
+        console.warn('unexpected event ' + event.type);
         break;
     }
   }

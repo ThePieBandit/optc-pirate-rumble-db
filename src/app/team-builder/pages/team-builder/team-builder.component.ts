@@ -41,6 +41,7 @@ export class TeamBuilderComponent implements OnInit {
   blueTeam: Team;
   redTeam: Team;
   battleTimer: number;
+  seasonBuffs: Effect[] = [];
 
   initialBattleTime = battleTime;
   units: UnitDetails[];
@@ -120,6 +121,7 @@ export class TeamBuilderComponent implements OnInit {
       team.effects = team.main
         .filter(unit => unit != null && unit.lvl5Ability != null)
         .flatMap(unit => this.getUnitEffects(unit).filter(e => isTeamEffect(e) && this.buffApplies(e, unit, time)))
+        .concat(this.seasonBuffs)
       ;
     }
 
@@ -246,6 +248,13 @@ export class TeamBuilderComponent implements OnInit {
       case 'oldestFirst':
         this.oldestFirst = !this.oldestFirst;
         this.optionsNav.close();
+        break;
+      case 'seasonBuffsChange':
+        this.seasonBuffs = [...(event.data || [])];
+        this.updateAllTeams();
+        break;
+      default:
+        console.warn('unexpected event ' + event.type);
         break;
     }
   }
