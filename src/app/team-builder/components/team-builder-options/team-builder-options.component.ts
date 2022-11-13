@@ -5,6 +5,7 @@ import { TeamUnit } from '@team-builder/models/team-unit';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { BuffBuilderComponent } from '../buff-builder/buff-builder.component';
 import { Effect } from '@shared/models/rumble';
+import { LocalStorageService } from 'ngx-store';
 
 @Pipe ({
    name : 'validUnit'
@@ -41,6 +42,9 @@ export class TeamBuilderOptionsComponent implements OnInit {
   @Input()
   teams: Team[];
 
+  @Input()
+  seasonIdentifier: string = 'normal';
+
   @Output()
   optionClick = new EventEmitter<OptionEvent>();
 
@@ -48,7 +52,10 @@ export class TeamBuilderOptionsComponent implements OnInit {
   pickerOptions: OptionEntry[];
   buffs: Effect[];
 
-  constructor(private dialog: MatDialog) {
+  constructor(
+    private dialog: MatDialog,
+    private localStore: LocalStorageService
+  ) {
     this.teamOptions = [
       buildOption('startOver', 'Start over'),
       buildOption('hideSubs', 'Show/Hide subs'),
@@ -60,7 +67,14 @@ export class TeamBuilderOptionsComponent implements OnInit {
     this.buffs = [];
   }
 
+  getSeasonBuffsCacheKey = () => `season-buffs-${this.seasonIdentifier}`;
+
   ngOnInit(): void {
+    const cachedBuffs = this.localStore.get(this.getSeasonBuffsCacheKey());
+    if (cachedBuffs != null && Array.isArray(cachedBuffs)) {
+      this.buffs = cachedBuffs;
+      this.sendBuffsChange(cachedBuffs);
+    }
   }
 
   triggerOption(type: OptionType): void {
@@ -104,9 +118,14 @@ export class TeamBuilderOptionsComponent implements OnInit {
   }
 
   private onBuffsChange() {
+    this.localStore.set(this.getSeasonBuffsCacheKey(), this.buffs);
+    this.sendBuffsChange(this.buffs);
+  }
+
+  private sendBuffsChange(buffs: Effect[]) {
     this.optionClick.emit({
       type: 'seasonBuffsChange',
-      data: this.buffs,
+      data: buffs,
     });
   }
 }
