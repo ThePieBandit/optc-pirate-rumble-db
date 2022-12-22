@@ -3758,7 +3758,7 @@ window.units = [
     [ "Killer - Ripping Punisher", "DEX", [ "Driven", "Slasher" ], 5, 30, 4, 4, 99, 4000000, 1644, 751, 77, 3288, 1502, 154, 1 ],
     [ "Olin the Oiran - Climate Controlling Emperor", "QCK", [ "Driven", "Powerhouse" ], 5, 60, 4, 1, 99, 5000000, 1612, 772, 102, 3224, 1543, 204, 1 ],
     [ "Carrot - Respite Before the Battle", "QCK", [ "Free Spirit", "Fighter" ], 5, 1, 4, 4, 99, 4000000, 1483, 548, 139, 2732, 1124, 273, 1 ],
-    [ "Monkey D. Luffy - Armored for Battle", "DEX", [ "Fighter", "Free Spirit" ], 5, 30, 4, 4, 99, 4000000, 1491, 741, 151, 30028, 1486, 230, 1 ],
+    [ "Monkey D. Luffy - Armored for Battle", "DEX", [ "Fighter", "Free Spirit" ], 5, 30, 4, 4, 99, 4000000, 1491, 741, 151, 3028, 1486, 230, 1 ],
     [ "Tony Tony Chopper - Armored for Battle", "QCK", [ "Fighter", "Free Spirit" ], 5, 30, 4, 4, 99, 4000000, 1347, 728, 198, 2664, 1472, 321, 1 ],
     [ "Eustass \"Captain\" Kid -- Enraged by the Traitor", "DEX", [ "Driven", "Striker" ], "6+", 65, 4, 5, 99, 5000000, 2099, 1183, 130, 4198, 1774, 259, 1 ],
     [ "Brook - Armored for Battle", "DEX", [ "Slasher", "Free Spirit" ], 5, 50, 4, 4, 99, 5000000, 1322, 831, 81, 3323, 1431, 190, 1 ],
@@ -3777,12 +3777,12 @@ window.units = [
     [ "Baby Gramps Chopper", "PSY", [ "Cerebral", "Slasher" ], 5, 30, 4, 4, 99, 4000000, 1198, 673, 201, 2396, 1346, 402, 1 ],
     [ "Sanji - Carrying the Wounded", "PSY", [ "Fighter", "Striker" ], 5, 30, 4, 4, 99, 4000000, 1485, 762, 99, 2970, 1524, 197, 1 ],
     [ "Who's-Who - Redirecting His Grudge", "INT", [ "Powerhouse", "Driven" ], 5, 60, 4, 1, 99, 5000000, 1714, 700, 106, 3428, 1400, 212, 1 ],
-    [ "Boa Hancock - Devotion to Her Beloved", "STR", [ "Free Spirit", "Shooter" ], 5, 30, 5, 3, 70, 1066998, 742, 448, 74, null, null, null, null ],
-    [ "Boa Hancock - Support for Her Beloved", "STR", [ "Free Spirit", "Shooter" ], 6, 55, 5, 5, 99, 5000000, 1573, 987, 148, null, null, null, null ],
-    [ "Jewelry Bonney - Escape from the Pursuers", "STR", [ "Free Spirit", "Fighter" ], 5, 30, 4, 4, 99, 4000000, 1331, 654, 147, null, null, null, null ],
-    [ "Charlotte Pudding - Revealed Third Eye", "STR", [ "Shooter", "Cerebral" ], 5, 30, 5, 4, 99, 4000000, 1312, 637, 143, null, null, null, null ],
+    [ "Boa Hancock - Devotion to Her Beloved", "STR", [ "Free Spirit", "Shooter" ], 5, 30, 5, 3, 70, 1066998, 742, 448, 74, 1604, 998, 153, 1 ],
+    [ "Boa Hancock - Support for Her Beloved", "STR", [ "Free Spirit", "Shooter" ], 6, 55, 5, 5, 99, 5000000, 1573, 987, 148, 3626, 1652, 314, 1 ],
+    [ "Jewelry Bonney - Escape from the Pursuers", "STR", [ "Free Spirit", "Fighter" ], 5, 30, 4, 4, 99, 4000000, 1331, 654, 147, 2871, 1473, 251, 1 ],
+    [ "Charlotte Pudding - Revealed Third Eye", "STR", [ "Shooter", "Cerebral" ], 5, 30, 5, 4, 99, 4000000, 1312, 637, 143, 2899, 1486, 242, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "Tony Tony Chopper - Glittering Gift for the Holy Night", "PSY", [ "Shooter", "Cerebral" ], "6+", 65, 4, 5, 99, 5000000, 1731, 1006, 261, null, null, null, null ],
+    [ "Tony Tony Chopper - Glittering Gift for the Holy Night", "PSY", [ "Shooter", "Cerebral" ], "6+", 65, 4, 5, 99, 5000000, 1731, 1006, 261, 3462, 1509, 470, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
