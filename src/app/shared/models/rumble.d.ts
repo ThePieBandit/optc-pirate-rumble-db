@@ -47,12 +47,12 @@ export type EffectEnum =
   | "boon"
   | "penalty"
   | "cleanse";
-export type AttackEffectType = "atk" | "time" | "cut" | "fixed" | "atkbase";
+export type AttackEffectType = "atk" | "time" | "cut" | "fixed" | "atkbase" | "random";
 export type RechargeEffectType =  "Special CT" | "RCV" | "percentage" | "fixed";
 export type Direction = "forward" | "radial" | "sideways";
 export type Size = "large" | "small" | "medium";
 export type ConditionComparator = "above" | "below" | "remaining" | "first" | "after" | "more" | "less";
-export type ConditionType = "stat" | "time" | "crew" | "enemies" | "trigger" | "character" | "defeat" | "dmgreceived" | "special" | "action" | "attack" | "debuff" | "damage" | "hitreceived" | "dbfreceived";
+export type ConditionType = "stat" | "time" | "crew" | "enemies" | "trigger" | "character" | "defeat" | "dmgreceived" | "special" | "action" | "attack" | "debuff" | "damage" | "hitreceived" | "dbfreceived" | "dmgdealt";
 export type TeamType  = "crew" | "enemy";
 export type Pattern = AttackPattern | HealPattern;
 export type Action = "attack" | "heal";
@@ -95,6 +95,7 @@ export interface Effect {
   effect: EffectEnum;
   targeting: Targeting;
   amount?: number;
+  amountrange?: number[];
   level?: number;
   range?: Range;
   condition?: Condition;
