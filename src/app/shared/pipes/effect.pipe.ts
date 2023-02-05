@@ -73,6 +73,14 @@ export class EffectPipe implements PipeTransform {
             }
             e += 'base ATK in damage';
             break;
+          case 'random':
+            if (effect.amountrange == null || effect.amountrange.length != 2) {
+              console.warn('expected amountrange to have 2 entries', effect);
+              e += 'Randomly deals fixed damage';
+            } else {
+              e += `Randomly deals between ${effect.amountrange[0]}-${effect.amountrange[1]} fixed damage`;
+            }
+            break;
           default:
             e += 'TODO:  ' + JSON.stringify(effect);
         }

@@ -47,7 +47,7 @@ export type EffectEnum =
   | "boon"
   | "penalty"
   | "cleanse";
-export type AttackEffectType = "atk" | "time" | "cut" | "fixed" | "atkbase";
+export type AttackEffectType = "atk" | "time" | "cut" | "fixed" | "atkbase" | "random";
 export type RechargeEffectType =  "Special CT" | "RCV" | "percentage" | "fixed";
 export type Direction = "forward" | "radial" | "sideways";
 export type Size = "large" | "small" | "medium";
@@ -95,6 +95,7 @@ export interface Effect {
   effect: EffectEnum;
   targeting: Targeting;
   amount?: number;
+  amountrange?: number[];
   level?: number;
   range?: Range;
   condition?: Condition;
