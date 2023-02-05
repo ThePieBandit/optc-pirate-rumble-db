@@ -23,3 +23,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-
 .list-item-with-right-button .mat-list-item-content {
   justify-content: space-between;
 }
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
