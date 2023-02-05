@@ -1,3 +1,6 @@
+### 2.2.2
+* New filters: Multiple hits, Revive
+
 ### 2.2.1
 * Grand Party team builder.
   * Ability to select/unselect leader, show/hide teams buffs and move teams.
