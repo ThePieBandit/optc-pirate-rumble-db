@@ -86,8 +86,16 @@ export class FiltersComponent implements OnInit {
       );
     }
     if ( Array.isArray(formFields.damage.value) && formFields.damage.value.length){
-      filterChain.push(this.unitFunc('damage',
-                                     effect => formFields.damage.value.includes(effect.type)));
+      const multipleHitsKey = 'multiple';
+      const hasMultipleFilter = formFields.damage.value.includes(multipleHitsKey);
+      filterChain.push(this.unitFunc('damage', effect => {
+        const matchesMultipleFilter = hasMultipleFilter ? effect.repeat != null && 
+          effect.effect === 'damage' && 
+          effect.repeat > 1
+          : true;
+        const otherFilters = formFields.damage.value.filter(v => v != multipleHitsKey);
+        return matchesMultipleFilter && (otherFilters.length === 0 || otherFilters.includes(effect.type));
+      }));
     }
     if ( Array.isArray(formFields.recharge.value) && formFields.recharge.value.length){
       filterChain.push(this.unitFunc('recharge',

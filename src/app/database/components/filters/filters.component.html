@@ -140,6 +140,7 @@
         <mat-button-toggle value="atk"  matTooltip="ATK stat based damage">ATK Stat</mat-button-toggle>
         <mat-button-toggle value="fixed"  matTooltip="Fixed damage amount">Fixed Damage</mat-button-toggle>
         <mat-button-toggle value="cut"  matTooltip="Percentage health cut">Percent Cut</mat-button-toggle>
+        <mat-button-toggle value="multiple" matTooltip="Multiple hits">Multiple hits</mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
@@ -152,6 +153,9 @@
         <mat-button-toggle value="fixed"  matTooltip="Fixed recovery amount">Fixed Heal</mat-button-toggle>
         <mat-button-toggle value="percentage"  matTooltip="Heal by a percentage of max HP">Percent Heal</mat-button-toggle>
         <mat-button-toggle value="Special CT"  matTooltip="Charge special by a percentage of its charge time"><img src="assets/images/pirates_arena_effect_icon_special_cure.png" width="48" height="48"/></mat-button-toggle>
+      </mat-button-toggle-group>
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Boon Filter" [(ngModel)]="boons" name="boons" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="Revive"  matTooltip="Revive"><img src="assets/images/healing.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
