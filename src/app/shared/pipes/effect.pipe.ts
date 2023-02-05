@@ -37,7 +37,7 @@ export class EffectPipe implements PipeTransform {
   }
 
   transform(effect: Effect): string {
-    let e = '<li>';
+    let e = '';
     const condition = this.conditionPipe.transform(effect.condition);
     if (condition) {
       e += `${condition}, `;
@@ -105,7 +105,26 @@ export class EffectPipe implements PipeTransform {
         }
         break;
       case 'boon':
-        e += ('chance' in effect ? effect.chance + '% chance to ' : '') + ('Provoke' === this.arrayToString(effect.attributes) ? 'Provoke enemies' : 'reduce ' + this.arrayToString(effect.attributes));
+        const boonPrefix = 'chance' in effect ? effect.chance + '% chance to ' : '';
+        const boonEffects = this.arrayToString(effect.attributes);
+        let boonMessage = '';
+        switch (boonEffects) {
+          case 'Provoke':
+          case 'Counter':
+          case 'Revive':
+          case 'Haste':
+            boonMessage = `apply ${boonEffects}`;
+            if (effect.amount != null && boonEffects === 'Counter') {
+              boonMessage += ` (${effect.amount}x ATK)`;
+            }
+            if (effect.amount != null && boonEffects === 'Revive') {
+              boonMessage += ` (${effect.amount}% HP)`;
+            }
+            break;
+          default:
+            boonMessage = `reduce ${boonEffects}`;
+        }
+        e += boonPrefix.concat(boonMessage);
         break;
       case 'penalty':
         const tmpStr = this.arrayToString(effect.attributes);
@@ -142,8 +161,7 @@ export class EffectPipe implements PipeTransform {
       e += ` ${effect.repeat} times`;
     }
 
-    e += '.</li>';
-    return e;
+    return `<li>${this.capitalizeFirst(e)}.</li>`;
   }
 
   arrayToString(array: any): string {
@@ -175,5 +193,9 @@ export class EffectPipe implements PipeTransform {
     }
 
     return to + ('stat' in target ? ' with the ' + target.priority + ' ' + target.stat : '');
+  }
+
+  capitalizeFirst(str: string): string {
+    return str && str.charAt(0).toUpperCase().concat(str.slice(1));
   }
 }
