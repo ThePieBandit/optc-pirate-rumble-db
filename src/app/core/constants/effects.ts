@@ -12,6 +12,7 @@ export const buffs: Attribute[] = [
   'Blow Away',
   'Special CT',
   //"Shield", // enable later when more units have it
+  'Counter',
 ];
 
 export const debuffs: Attribute[] = [
