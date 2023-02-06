@@ -169,6 +169,9 @@
         <mat-button-toggle value="Paralysis"  matTooltip="Paralysis"><img src="assets/images/pirates_arena_effect_icon_paralysis.png" width="48" height="48"/></mat-button-toggle>
         <mat-button-toggle value="Provoke"  matTooltip="Provoke"><img src="assets/images/pirates_arena_effect_icon_taunt.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Boon Filter" [(ngModel)]="boons" name="boons" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="Counter"  matTooltip="Counter"><img src="assets/images/nao.png" width="48" height="48"/></mat-button-toggle>
+      </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
   <mat-card>
