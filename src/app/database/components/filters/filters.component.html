@@ -140,7 +140,9 @@
         <mat-button-toggle value="atk"  matTooltip="ATK stat based damage">ATK Stat</mat-button-toggle>
         <mat-button-toggle value="fixed"  matTooltip="Fixed damage amount">Fixed Damage</mat-button-toggle>
         <mat-button-toggle value="cut"  matTooltip="Percentage health cut">Percent Cut</mat-button-toggle>
-        <mat-button-toggle value="multiple" matTooltip="Multiple hits">Multiple hits</mat-button-toggle>
+        <ng-container *ngFor="let filter of extraDamageFilters">
+          <mat-button-toggle [value]="filter.name" [matTooltip]="filter.label">{{filter.label}}</mat-button-toggle>
+        </ng-container>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>

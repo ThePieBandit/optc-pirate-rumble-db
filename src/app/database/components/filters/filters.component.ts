@@ -6,6 +6,27 @@ import { UnitDetails } from '../../../shared/models/unit-details';
 
 const hasValues = (arr: []) => Array.isArray(arr) && arr.length;
 
+type ExtraDamageFilter = {
+  name: string;
+  label: string;
+  fn: (effect: Effect) => boolean;
+}
+
+const extraDamageFilters: ExtraDamageFilter[] = [
+  {
+    name: 'multiple',
+    label: 'Multiple hits',
+    fn: (e: Effect) => e.repeat > 1,
+  },
+  {
+    name: 'defbypass',
+    label: 'Ignore defense',
+    fn: (e: Effect) => e.defbypass === true,
+  }
+];
+
+const extraDamageFiltersSet = new Set<string>(extraDamageFilters.map(filter => filter.name));
+
 @Component({
   selector: 'app-filters',
   templateUrl: './filters.component.html',
@@ -30,6 +51,7 @@ export class FiltersComponent implements OnInit {
   recharge = [];
   boons = [];
   hinderances = [];
+  extraDamageFilters = extraDamageFilters;
 
   constructor(public dataService: UnitTableDataSource) { }
 
@@ -86,15 +108,22 @@ export class FiltersComponent implements OnInit {
       );
     }
     if ( Array.isArray(formFields.damage.value) && formFields.damage.value.length){
-      const multipleHitsKey = 'multiple';
-      const hasMultipleFilter = formFields.damage.value.includes(multipleHitsKey);
       filterChain.push(this.unitFunc('damage', effect => {
-        const matchesMultipleFilter = hasMultipleFilter ? effect.repeat != null && 
-          effect.effect === 'damage' && 
-          effect.repeat > 1
-          : true;
-        const otherFilters = formFields.damage.value.filter(v => v != multipleHitsKey);
-        return matchesMultipleFilter && (otherFilters.length === 0 || otherFilters.includes(effect.type));
+        const filters = formFields.damage.value as string[];
+        const effectFilters = filters.filter(v => !extraDamageFiltersSet.has(v));
+        if (effectFilters.length > 0 && !effectFilters.includes(effect.type)) {
+          return false;
+        }
+
+        const extraFilters = filters
+          .filter((v: string) => extraDamageFiltersSet.has(v))
+          .map((v: string) => extraDamageFilters.find(x => x.name === v))
+          .filter(filter => filter != null);
+        if (extraFilters.length > 0 && !extraFilters.every(filter => filter.fn(effect))) {
+          return false;
+        }
+
+        return true;
       }));
     }
     if ( Array.isArray(formFields.recharge.value) && formFields.recharge.value.length){
