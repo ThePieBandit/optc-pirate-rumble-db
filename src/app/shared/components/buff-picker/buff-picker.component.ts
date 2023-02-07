@@ -27,7 +27,7 @@ const specialEffects: Pick<EffectOption, 'name' | 'label'>[] = [
   {
     name: 'multipleHits',
     label: 'Multiple hit special',
-  },
+  }
 ];
 
 @Component({

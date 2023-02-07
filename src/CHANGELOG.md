@@ -1,5 +1,5 @@
 ### 2.2.2
-* New filters: Multiple hits, Revive
+* New filters: Multiple hits, Revive, Counter, Ignore defense
 * Improve verbiage for Haste, Revive and Counter effects
 * Fixes for PSY Nami GP condition and burst
 

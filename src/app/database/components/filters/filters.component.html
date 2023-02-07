@@ -140,7 +140,9 @@
         <mat-button-toggle value="atk"  matTooltip="ATK stat based damage">ATK Stat</mat-button-toggle>
         <mat-button-toggle value="fixed"  matTooltip="Fixed damage amount">Fixed Damage</mat-button-toggle>
         <mat-button-toggle value="cut"  matTooltip="Percentage health cut">Percent Cut</mat-button-toggle>
-        <mat-button-toggle value="multiple" matTooltip="Multiple hits">Multiple hits</mat-button-toggle>
+        <ng-container *ngFor="let filter of extraDamageFilters">
+          <mat-button-toggle [value]="filter.name" [matTooltip]="filter.label">{{filter.label}}</mat-button-toggle>
+        </ng-container>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>
@@ -168,6 +170,9 @@
         <mat-button-toggle value="Silence"  matTooltip="Silence, aka Special Bind"><img src="assets/images/pirates_arena_effect_icon_special_cancel.png" width="48" height="48"/></mat-button-toggle>
         <mat-button-toggle value="Paralysis"  matTooltip="Paralysis"><img src="assets/images/pirates_arena_effect_icon_paralysis.png" width="48" height="48"/></mat-button-toggle>
         <mat-button-toggle value="Provoke"  matTooltip="Provoke"><img src="assets/images/pirates_arena_effect_icon_taunt.png" width="48" height="48"/></mat-button-toggle>
+      </mat-button-toggle-group>
+      <mat-button-toggle-group fxLayout="row wrap" aria-label="Boon Filter" [(ngModel)]="boons" name="boons" multiple (change)="handleFormChange(filterForm)">
+        <mat-button-toggle value="Counter"  matTooltip="Counter"><img src="assets/images/nao.png" width="48" height="48"/></mat-button-toggle>
       </mat-button-toggle-group>
     </mat-card-actions>
   </mat-card>

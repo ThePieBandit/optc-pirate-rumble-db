@@ -24,7 +24,8 @@ export type Attribute =
   | "near"
   | "Half Stats"
   | "Shield"
-  | "Confusion";
+  | "Confusion"
+  | "Counter";
 export type TargetingPriority = "highest" | "lowest";
 export type TargetElement = Targets | Classes | Colors;
 export type Targets = "self" | "crew" | "enemies";

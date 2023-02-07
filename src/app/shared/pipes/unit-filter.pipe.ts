@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { GPStyle, UnitDetails } from '@shared/models/unit-details';
-import { Attribute, Classes, Effect } from '@shared/models/rumble';
+import { Attribute, Classes, Effect, EffectEnum } from '@shared/models/rumble';
 import { types, classes } from '@core/constants/units';
 import { SpecialEffect } from '@core/constants/effects';
 
@@ -142,9 +142,11 @@ export class UnitFilterPipe implements PipeTransform {
     return this.getTargetingEffects(lvl5Ability).some(e => e.targeting.targets.includes('crew'));
   }
 
+  static effectTypes: EffectEnum[] = ['buff', 'hinderance', 'boon'];
+  
   private effectMatches(effects: Effect[], buffs: string[]): boolean {
     return buffs.every(buff => effects.some(effect =>
-      (effect.effect === 'buff' || effect.effect === 'hinderance') &&
+      UnitFilterPipe.effectTypes.includes(effect.effect) &&
       effect.attributes.some(attr => attr === buff)
     ));
   }
