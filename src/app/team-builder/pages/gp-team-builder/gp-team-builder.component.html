@@ -13,7 +13,7 @@
         <button (click)="optionsNav.toggle()" mat-icon-button color="basic" aria-label="Open menu">
           <mat-icon>menu</mat-icon>
         </button>
-        <span>OPTC Pirate Rumble Team Builder</span>
+        <span>OPTC Grand Party Team Builder</span>
       </mat-toolbar>
     </div>
     <div class="content">
@@ -62,6 +62,7 @@
             (unitHpChange)="unitHpChange($event)"
             [battleTimer]="battleTimer"
             [compact]="!team.expanded"
+            [options]="teamOptions"
           ></app-team>
         </div>
         <mat-card class="battle-timer-container">

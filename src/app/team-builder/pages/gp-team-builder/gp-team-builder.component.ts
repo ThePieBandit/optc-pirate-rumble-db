@@ -14,6 +14,7 @@ import { OptionEvent } from '@team-builder/components/team-builder-options/team-
 import { MatSidenav } from '@angular/material/sidenav';
 import { UnitDetails } from '@shared/models/unit-details';
 import { DetailsType } from '@team-builder/components/unit-details-card/unit-details-card.component';
+import { TeamOptions } from '@team-builder/models/team-options';
 
 const gpTeams = 3;
 const mainTeamSize = 5;
@@ -43,9 +44,10 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
   @LocalStorage()
   leaderId: number = -1;
   @LocalStorage()
-  hideSubs = false;
-  @LocalStorage()
-  showAllBuffs = false;
+  teamOptions: TeamOptions = {
+    showAllBuffs: false,
+    showSubs: false,
+  };
   @LocalStorage()
   oldestFirst = false;
 
@@ -234,10 +236,16 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
         this.onStartOver();
         break;
       case 'hideSubs':
-        this.hideSubs = !this.hideSubs;
+        this.teamOptions = {
+          ...this.teamOptions,
+          showSubs: !this.teamOptions.showSubs,
+        }
         break;
       case 'showAllBuffs':
-        this.showAllBuffs = !this.showAllBuffs;
+        this.teamOptions = {
+          ...this.teamOptions,
+          showAllBuffs: !this.teamOptions.showAllBuffs,
+        }
         break;
       case 'specialsChange':
         const team = event.data.team as Team;

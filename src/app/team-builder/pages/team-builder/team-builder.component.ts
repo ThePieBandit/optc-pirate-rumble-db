@@ -13,6 +13,7 @@ import { LocalStorage } from 'ngx-store';
 import { OptionEvent } from '@team-builder/components/team-builder-options/team-builder-options.component';
 import { MatSidenav } from '@angular/material/sidenav';
 import { UnitDetails } from '@shared/models/unit-details';
+import { TeamOptions } from '@team-builder/models/team-options';
 
 const mainTeamSize = 5;
 const subTeamSize = 3;
@@ -29,9 +30,10 @@ export class TeamBuilderComponent implements OnInit {
   @LocalStorage()
   redTeamIds: number[] = Array.from(Array(mainTeamSize + subTeamSize));
   @LocalStorage()
-  hideSubs = false;
-  @LocalStorage()
-  showAllBuffs = false;
+  teamOptions: TeamOptions = {
+    showAllBuffs: false,
+    showSubs: false,
+  };
   @LocalStorage()
   oldestFirst = false;
 
@@ -231,10 +233,16 @@ export class TeamBuilderComponent implements OnInit {
         this.onStartOver();
         break;
       case 'hideSubs':
-        this.hideSubs = !this.hideSubs;
+        this.teamOptions = {
+          ...this.teamOptions,
+          showSubs: !this.teamOptions.showSubs,
+        }
         break;
       case 'showAllBuffs':
-        this.showAllBuffs = !this.showAllBuffs;
+        this.teamOptions = {
+          ...this.teamOptions,
+          showAllBuffs: !this.teamOptions.showAllBuffs,
+        }
         break;
       case 'specialsChange':
         const team = event.data.team as Team;

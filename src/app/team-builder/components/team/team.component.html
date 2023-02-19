@@ -8,18 +8,20 @@
       (unitClick)="mainTeamUnitClick(index)"
       (hpChange)="hpChange(unit, $event)"
       [style]="team.color"
+      [options]="options"
     ></app-unit-card>
   </div>
-  <ng-container *ngIf="!hideSubs">
+  <ng-container *ngIf="options.showSubs">
     <div class="subs-space"></div>
     <div *ngFor="let unit of team.subs; let index=index;" class="unit-container">
       <app-unit-card
-        [unit]="unit"
+      [unit]="unit"
         [compact]="compact"
         [teamEffects]="team.effects"
         [battleTimer]="battleTimer"
         (unitClick)="subTeamUnitClick(index)"
         [style]="team.color"
+        [options]="options"
       ></app-unit-card>
     </div>
   </ng-container>
