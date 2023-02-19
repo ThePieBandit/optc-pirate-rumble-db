@@ -3,6 +3,7 @@
 </h2>
 <div mat-dialog-content>
     <p>Season buffs are automatically applied to all teams.</p>
+    <p>You can set a negative level to apply debuffs.</p>
     <mat-form-field class="full-width" appearance="fill" [color]="effect.level ? 'accent' : 'warn'">
         <mat-label>Level</mat-label>
         <input matInput 
@@ -33,7 +34,7 @@
     <button 
         mat-raised-button 
         color="accent"
-        [disabled]="effect.level <= 0 || effect.attributes.length == 0 || effect.targeting.targets.length == 0" 
+        [disabled]="effect.level == 0 || effect.attributes.length == 0 || effect.targeting.targets.length == 0" 
         (click)="onSave()"
     >Save</button>
 </div>
