@@ -232,15 +232,12 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
     switch (event.type) {
       case 'startOver':
         this.onStartOver();
-        this.optionsNav.close();
         break;
       case 'hideSubs':
         this.hideSubs = !this.hideSubs;
-        this.optionsNav.close();
         break;
       case 'showAllBuffs':
         this.showAllBuffs = !this.showAllBuffs;
-        this.optionsNav.close();
         break;
       case 'specialsChange':
         const team = event.data.team as Team;
@@ -250,7 +247,6 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
         break;
       case 'oldestFirst':
         this.oldestFirst = !this.oldestFirst;
-        this.optionsNav.close();
         break;
       case 'seasonBuffsChange':
         this.seasonBuffs = [...(event.data || [])];

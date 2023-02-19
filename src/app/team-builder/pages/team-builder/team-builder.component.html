@@ -1,5 +1,5 @@
 <mat-sidenav-container>
-  <mat-sidenav #optionsNav mode="over" style="min-width: 200px;">
+  <mat-sidenav #optionsNav mode="side" opened fixedInViewport style="width: 300px;">
     <app-side-menu></app-side-menu>
     <app-team-builder-options
       (optionClick)="optionClick($event)"
@@ -12,7 +12,7 @@
         <button (click)="optionsNav.toggle()" mat-icon-button color="basic" aria-label="Open menu">
           <mat-icon>menu</mat-icon>
         </button>
-        <span>OPTC Pirate Rumble Team Builder</span>
+        <span>OPTC Grand Party Team Builder</span>
       </mat-toolbar>
     </div>
     <div class="content">

@@ -229,15 +229,12 @@ export class TeamBuilderComponent implements OnInit {
     switch (event.type) {
       case 'startOver':
         this.onStartOver();
-        this.optionsNav.close();
         break;
       case 'hideSubs':
         this.hideSubs = !this.hideSubs;
-        this.optionsNav.close();
         break;
       case 'showAllBuffs':
         this.showAllBuffs = !this.showAllBuffs;
-        this.optionsNav.close();
         break;
       case 'specialsChange':
         const team = event.data.team as Team;
@@ -247,7 +244,6 @@ export class TeamBuilderComponent implements OnInit {
         break;
       case 'oldestFirst':
         this.oldestFirst = !this.oldestFirst;
-        this.optionsNav.close();
         break;
       case 'seasonBuffsChange':
         this.seasonBuffs = [...(event.data || [])];
@@ -272,5 +268,4 @@ export class TeamBuilderComponent implements OnInit {
     team.main = team.main.map(x => null);
     team.subs = team.subs.map(x => null);
   }
-
 }
