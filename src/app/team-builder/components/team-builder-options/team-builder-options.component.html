@@ -20,7 +20,7 @@
   </div>
   <ng-container *ngFor="let buff of buffs; let i = index">
     <mat-list-item class="list-item-with-right-button">
-      <span mat-line>{{ buff | effect }}</span>
+      <span [title]="buff | effect" mat-line>{{ buff | effect }}</span>
       <button mat-icon-button (click)="onDeleteBuff(i)" matTooltip="Delete">
         <mat-icon>delete</mat-icon>
       </button>
