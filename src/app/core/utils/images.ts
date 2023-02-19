@@ -45,6 +45,7 @@ export const effectImage = (effect: Attribute | SpecialEffect | EffectEnum): str
     case 'Half Stats': return 'assets/images/half_stats.png';
     case 'Shield': return 'assets/images/shield.png';
     case 'Confusion': return 'https://i.imgur.com/FiiZkME.jpeg';
+    case 'Counter': return 'assets/images/nao.png';
     case 'defIgnoring': return 'assets/images/ignore_def.png';
     case 'multipleHits': return 'assets/images/eot_dmg.png';
     case 'recharge': return 'assets/images/healing.png';

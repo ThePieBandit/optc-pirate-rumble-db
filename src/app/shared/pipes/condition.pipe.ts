@@ -68,6 +68,8 @@ export class ConditionPipe implements PipeTransform {
         }
 
         return `When ${condition.team} uses specials ${condition.count} times`;
+      case 'dmgdealt':
+        return `After ${condition.count} damage dealt`;
       default:
         return 'UNKNOWN CONDITION ' + JSON.stringify(condition);
     }

@@ -3604,8 +3604,8 @@ window.units = [
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "Corazon - The Kindhearted Man's Final Fight", "QCK", [ "Cerebral", "Free Spirit" ], 5, 30, 5, 4, 99, 4000000, 1930, 780, 119, 3860, 1560, 238, 1 ],
-    [ "Monkey D. Luffy - With His Loyal Companions", "DEX", [ "Fighter", "Free Spirit" ], 5, 30, 4, 3, 70, 1066998, 1129, 461, 60, 2257, 922, 119, 1 ],
-    [ "Monkey D. Luffy - With His Trusted Companions", "DEX", [ "Fighter", "Free Spirit" ], 6, 55, 4, 5, 99, 5000000, 2227, 907, 114, 4455, 1815, 228, 1 ],
+    [ "Monkey D. Luffy - With His Loyal Companions", "DEX", [ "Free Spirit", "Fighter" ], 5, 30, 4, 3, 70, 1066998, 1129, 461, 60, 2257, 922, 119, 1 ],
+    [ "Monkey D. Luffy - With His Trusted Companions", "DEX", [ "Free Spirit", "Fighter" ], 6, 55, 4, 5, 99, 5000000, 2227, 907, 114, 4455, 1815, 228, 1 ],
     [ "Kaido - Dragon Enjoying the Battle", "STR", [ "Striker", "Powerhouse" ], 5, 30, 4, 3, 70, 1066998, 1380, 450, 21, 2759, 900, 42, 1 ],
     [ "Kaido - Hell Made Manifest", "STR", [ "Striker", "Powerhouse" ], 6, 55, 4, 5, 99, 5000000, 2729, 885, 37, 5459, 1771, 75, 1 ],
     [ "Yamato & Ace - Full-Force Clashes", ["STR", "DEX"], [[ "Free Spirit", "Striker" ],[ "Free Spirit", "Shooter" ],[ "Free Spirit", "Striker" ]], 5, 30, 4, 3, 70, 1066998, 1177, 428, 69, 2354, 855, 138, 1 ],
@@ -3817,6 +3817,16 @@ window.units = [
     [ "Uta - The Song for the End", "QCK", [ "Cerebral", "Shooter" ], "6+", 65, 4, 5, 99, 5000000, 1878, 800, 202, 3756, 1759, 404, 1 ],
     [ "Crocus - Ship Doctor of the Roger Pirates", "PSY", [ "Cerebral", "Powerhouse" ], 5, 30, 5, 4, 99, 4000000, 2059, 667, 135, 4118, 1334, 269, 1 ],
     [ "Nozudon & Sambel", "PSY", [ "Fighter", "Powerhouse" ], 5, 30, 4, 4, 99, 4000000, 2022, 777, 104, 4044, 1554, 208, 1 ],
+    [ "Marco - Young Blue Bird Dancing in Battle", "DEX", [ "Fighter", "Powerhouse" ], 5, 30, 4, 4, 99, 4000000, 1356, 705, 139, 2712, 1410, 278, 1 ],
+    [ "Whitey Bay - Young Witch Dancing at Sunset", "DEX", [ "Slasher", "Powerhouse" ], 5, 30, 4, 4, 99, 4000000, 1501, 681, 123, 3002, 1362, 246, 1 ],
+    [ "Marshall D. Teach - Young Pirate Rushing to Battle", "PSY", [ "Slasher", "Striker" ], 5, 30, 4, 4, 99, 4000000, 1732, 705, 77, 3464, 1510, 153, 1 ],
+    [ "Izo - Diligent Persuasion", "DEX", [ "Shooter", "Cerebral" ], 5, 60, 4, 1, 99, 5000000, 1506, 692, 143, 3012, 1383, 287, 1 ],
+    [ "Charlotte Perospero - Gleaming Candy Art in the Shroud", "DEX", [ "Striker", "Driven" ], 5, 30, 4, 3, 70, 1066998, 732, 443, 76, 1583, 1010, 149, 1 ],
+    [ "Charlotte Perospero - Impeding Candy User", "DEX", [ "Striker", "Driven" ], 6, 55, 4, 5, 99, 5000000, 1571, 991, 143, 3608, 1655, 316, 1 ],
+    [ "Jack the Drought - Fierce Battle on the Roof", "DEX", [ "Striker", "Driven" ], 5, 30, 4, 4, 99, 4000000, 1358, 710, 131, 2954, 1492, 231, 1 ],
+    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Dogstorm & Cat Viper - Moonlight Shining Kings", [ "STR", "PSY" ], [[ "Slasher", "Cerebral" ],[ "Striker", "Powerhouse" ],[ "Slasher", "Cerebral" ]], "6+", 65, 4, 5, 99, 5000000, 2008, 884, 197, 4016, 1768, 393, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
@@ -4286,6 +4296,10 @@ var ghostsUnits = [
     [ "[Dual Unit] Gaban - The Assaulting Duo", "DEX", [ "Free Spirit", "Cerebral" ], 6, 55, 4, 5, 99, 5000000, 2211, 888, 111, 3890, 1670, 204, 1 ],
     [ "[Dual Unit] Rayleigh & Gaban - The Assaulting Duo", "PSY", [ "Free Spirit", "Cerebral" ], 6, 55, 4, 5, 99, 5000000, 2211, 888, 111, 4422, 1775, 222, 1 ],
     [ "[Dual Unit] Rayleigh & Gaban - The Assaulting Duo", "DEX", [ "Free Spirit", "Cerebral" ], 6, 55, 4, 5, 99, 5000000, 2211, 888, 111, 4422, 1775, 222, 1 ],
+    [ "[Dual Unit] Dogstorm - Moonlight Shining Kings", "STR", [ "Slasher", "Cerebral" ], "6+", 65, 4, 5, 99, 5000000, 1882, 826, 187, 3764, 1652, 374, 1 ],
+    [ "[Dual Unit] Cat Viper - Moonlight Shining Kings", "PSY", [ "Striker", "Powerhouse" ], "6+", 65, 4, 5, 99, 5000000, 1863, 847, 182, 3726, 1694, 364, 1 ],
+    [ "[Dual Unit] Dogstorm & Cat Viper - Moonlight Shining Kings", "STR", [ "Slasher", "Cerebral" ], "6+", 65, 4, 5, 99, 5000000, 2008, 884, 197, 4016, 1768, 393, 1 ],
+    [ "[Dual Unit] Dogstorm & Cat Viper - Moonlight Shining Kings", "PSY", [ "Slasher", "Cerebral" ], "6+", 65, 4, 5, 99, 5000000, 2008, 884, 197, 4016, 1768, 393, 1 ],
 ];
 
 window.units = window.units.concat(ghostsUnits);
