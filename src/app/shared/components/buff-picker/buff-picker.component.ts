@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Attribute } from '@shared/models/rumble';
-import { buffs, debuffs, SpecialEffect } from 'src/app/core/constants/effects';
+import { buffs, debuffs, nonLevelBuffs, SpecialEffect } from 'src/app/core/constants/effects';
 import { effectImage } from 'src/app/core/utils/images';
 
 type EffectOptionType = 'attribute' | 'specialEffect';
@@ -18,7 +18,7 @@ type EffectOption = EffectOutput & {
 const specialEffects: Pick<EffectOption, 'name' | 'label'>[] = [
   {
     name: 'recharge',
-    label: 'Healing',
+    label: 'Healing or Revive',
   },
   {
     name: 'defIgnoring',
@@ -43,7 +43,7 @@ export class BuffPickerComponent implements OnInit {
   effects: EffectOutput[] = [];
 
   allEffects: EffectOption[] = [
-    ...buffs.concat(debuffs).map(effect => ({
+    ...buffs.concat(nonLevelBuffs).concat(debuffs).map(effect => ({
       name: effect,
       img: effectImage(effect),
       type: 'attribute' as EffectOptionType,
