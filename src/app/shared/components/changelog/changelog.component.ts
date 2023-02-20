@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { SessionStorage } from 'ngx-store';
 
 @Component({
   selector: 'app-changelog',
@@ -8,18 +9,22 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ChangelogComponent implements OnInit {
 
-  changeLogText: string;
+  error = false;
 
-  constructor(private http: HttpClient) { 
-    this.changeLogText = 'Loading changelog...';
-  }
+  @SessionStorage()
+  changeLogText: string = null;
+
+  constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
+    if (this.changeLogText != null) {
+      return;
+    }
     const options = {
       responseType: 'text' as const,
     };
     this.http.get('./CHANGELOG.md', options).subscribe(
       data => this.changeLogText = data,
-      _ => this.changeLogText = 'Could not load changelog');
+      _ => this.error = true);
   }
 }

@@ -1,4 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { ChangelogComponent } from '../changelog/changelog.component';
 
 @Component({
   selector: 'app-toolbar',
@@ -13,7 +15,7 @@ export class ToolbarComponent implements OnInit {
   @Output()
   public menuToggle: EventEmitter<boolean> = new EventEmitter<boolean>();
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
   }
@@ -22,4 +24,7 @@ export class ToolbarComponent implements OnInit {
     this.menuToggle.emit(true);
   }
 
+  openInfo() {
+    this.dialog.open(ChangelogComponent);
+  }
 }

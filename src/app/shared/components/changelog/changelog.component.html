@@ -1,10 +1,6 @@
-<mat-expansion-panel>
-  <mat-expansion-panel-header>
-    <mat-panel-title>
-      Change Log
-    </mat-panel-title>
-  </mat-expansion-panel-header>
-  <mat-card>
-    <mat-card-content [innerHTML]="changeLogText | marked"></mat-card-content>
-  </mat-card>
-</mat-expansion-panel>
+<h2 mat-dialog-title>Change Log</h2>
+<mat-dialog-content class="mat-typography">
+  <div *ngIf="!error && !changeLogText">Loading changelog...</div>
+  <div *ngIf="error">Could not load changelog</div>
+  <div *ngIf="changeLogText" [innerHTML]="changeLogText | marked"></div>
+</mat-dialog-content>

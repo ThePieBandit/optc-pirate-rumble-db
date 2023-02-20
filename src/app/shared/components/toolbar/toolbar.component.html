@@ -9,7 +9,7 @@
         </button>
         <span>{{barTitle}}</span>
         <span class="toolbar-spacer"></span>
-        <button mat-icon-button aria-label="Information">
+        <button mat-icon-button (click)="openInfo()" matTooltip="Changelog" aria-label="Information">
             <mat-icon>info</mat-icon>
         </button>
     </mat-toolbar>
