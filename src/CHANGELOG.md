@@ -1,8 +1,12 @@
-### 2.2.2
+### 2.3.0
 * Add ability to manage season buffs through side menu.
-* New filters: Multiple hits, Revive, Counter, Ignore defense
-* Improve verbiage for Haste, Revive and Counter effects
-* Fixes for PSY Nami GP condition and burst
+* New sorting capabilities in unit picker popup.
+* Side menu, toolbar and changelog improvements.
+
+### 2.2.2
+* New filters: Multiple hits, Revive, Counter, Ignore defense.
+* Improve verbiage for Haste, Revive and Counter effects.
+* Fixes for PSY Nami GP condition and burst.
 
 ### 2.2.1
 * Grand Party team builder.
