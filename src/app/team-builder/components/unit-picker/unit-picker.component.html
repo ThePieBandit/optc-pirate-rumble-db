@@ -86,6 +86,19 @@
         </div>
       </div>
     </fieldset>
+    <div class="sort-container">
+      <mat-form-field>
+        <mat-label>Sort by:</mat-label>
+        <mat-select [(value)]="sortColumn" (selectionChange)="sortUnits()">
+          <mat-option *ngFor="let option of sortOptions" [value]="option.type">
+            {{ option.label }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-slide-toggle [(ngModel)]="sortAscending" (ngModelChange)="sortUnits()">
+        {{sortAscending ? 'Ascending' : 'Descending'}}
+      </mat-slide-toggle>
+    </div>
     <div class="results" fxLayout="row wrap">
       <div class="result-container" *ngFor="let unit of filtered | slice:filter.page * filter.limit:filter.page * filter.limit + filter.limit">
         <img 

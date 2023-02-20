@@ -34,8 +34,6 @@ export class TeamBuilderComponent implements OnInit {
     showAllBuffs: false,
     showSubs: false,
   };
-  @LocalStorage()
-  oldestFirst = false;
 
   @ViewChild('optionsNav')
   optionsNav: MatSidenav;
@@ -249,9 +247,6 @@ export class TeamBuilderComponent implements OnInit {
         const specials = new Set<number>(event.data.specials);
         team.main.filter(u => u != null).forEach(u => u.activeSpecial = specials.has(u.id));
         this.updateBuffs();
-        break;
-      case 'oldestFirst':
-        this.oldestFirst = !this.oldestFirst;
         break;
       case 'seasonBuffsChange':
         this.seasonBuffs = [...(event.data || [])];

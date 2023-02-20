@@ -16,7 +16,7 @@ export class ValidUnitPipe implements PipeTransform {
    }
 }
 
-export type OptionType = 'startOver' | 'specialsChange' | 'hideSubs' | 'showAllBuffs' | 'oldestFirst' | 'seasonBuffsChange';
+export type OptionType = 'startOver' | 'specialsChange' | 'hideSubs' | 'showAllBuffs' | 'seasonBuffsChange';
 export interface OptionEvent {
   type: OptionType;
   data: any;
@@ -49,7 +49,6 @@ export class TeamBuilderOptionsComponent implements OnInit {
   optionClick = new EventEmitter<OptionEvent>();
 
   teamOptions: OptionEntry[];
-  pickerOptions: OptionEntry[];
   buffs: Effect[];
 
   constructor(
@@ -60,9 +59,6 @@ export class TeamBuilderOptionsComponent implements OnInit {
       buildOption('startOver', 'Start over'),
       buildOption('hideSubs', 'Show/Hide subs'),
       buildOption('showAllBuffs', 'Show/Hide all buffs')
-    ];
-    this.pickerOptions = [
-      buildOption('oldestFirst', 'Show old/new units first'),
     ];
     this.buffs = [];
   }

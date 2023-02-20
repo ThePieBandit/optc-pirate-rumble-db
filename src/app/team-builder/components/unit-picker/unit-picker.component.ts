@@ -1,4 +1,4 @@
-import { Component, Inject, OnInit, ViewChild } from '@angular/core';
+import { ChangeDetectorRef, Component, Inject, OnInit, ViewChild } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import { SpecialEffect } from '@core/constants/effects';
@@ -37,6 +37,18 @@ const initialFilter = (): UnitPickerFilter => ({
   gpStatsTypes: [],
 });
 
+// for now sort types must be root properties of the unit object
+type SortType = 'id' | 'name' | 'type' | 'lvl10Cooldown';
+type SortOption = {
+  label: string;
+  type: SortType;
+}
+
+const sortOption = (type: SortType, label: string): SortOption => ({
+  label,
+  type,
+});
+
 @Component({
   selector: 'app-unit-picker',
   templateUrl: './unit-picker.component.html',
@@ -44,10 +56,13 @@ const initialFilter = (): UnitPickerFilter => ({
 })
 export class UnitPickerComponent implements OnInit {
 
-  @ViewChild('paginator') paginator: MatPaginator;
+  @ViewChild('paginator') 
+  paginator: MatPaginator;
 
   units: UnitDetails[];
-  @LocalStorage() filter: UnitPickerFilter & Webstorable = {
+
+  @LocalStorage()
+  filter: UnitPickerFilter & Webstorable = {
     ...initialFilter(),
     save: undefined,
   };
@@ -55,15 +70,26 @@ export class UnitPickerComponent implements OnInit {
   current: UnitDetails;
 
   @LocalStorage()
-  oldestFirst = false;
+  sortColumn: SortType = 'id';
+
+  @LocalStorage()
+  sortAscending = false;
 
   detailsType: DetailsType = 'normal';
 
+  sortOptions = [
+    sortOption('id', 'Released'),
+    sortOption('name', 'Name'),
+    sortOption('type', 'Type'),
+    sortOption('lvl10Cooldown', 'Special CT'),
+  ];
+
   constructor(
     private dialogRef: MatDialogRef<UnitPickerComponent, UnitDetails>,
-    @Inject(MAT_DIALOG_DATA) data: UnitPickerData
+    @Inject(MAT_DIALOG_DATA) data: UnitPickerData,
+    private changeDetectorRef: ChangeDetectorRef,
   ) {
-    this.units = data.units.sort((a, b) => this.oldestFirst ? a.id - b.id : b.id - a.id);
+    this.units = data.units;
     this.current = data.current;
     this.filter.filter = '';
     if (!this.filter.abilityTargetType) {
@@ -79,7 +105,34 @@ export class UnitPickerComponent implements OnInit {
     }
   }
 
+  sortUnits() {
+    this.units.sort(this.unitSorter);
+    this.changeDetectorRef.detectChanges();
+  }
+
+  private unitSorter = (a: {}, b: {}): number => {
+    const aValue = a[this.sortColumn];
+    const bValue = b[this.sortColumn];
+    const asc = this.sortAscending;
+    if (aValue == null) {
+      return bValue == null ? 0 : (asc ? 1 : -1);
+    }
+    else if (bValue == null) {
+      return aValue == null ? 0 : (asc ? 1 : -1);
+    }
+    
+    if (typeof aValue === 'string' && typeof bValue === 'string') {
+      return asc ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
+    } else if (typeof aValue === 'number' && typeof bValue === 'number') {
+      return asc ? aValue - bValue : bValue - aValue;
+    } else {
+      // If the types are not the same, compare them as strings
+      return asc ? aValue.toString().localeCompare(bValue.toString()) : bValue.toString().localeCompare(aValue.toString());
+    }  
+  };
+
   ngOnInit(): void {
+    this.sortUnits();
   }
 
   onUnset(): void {
