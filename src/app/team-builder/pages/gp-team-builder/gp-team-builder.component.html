@@ -8,14 +8,10 @@
     ></app-team-builder-options>
   </mat-sidenav>
   <mat-sidenav-content>
-    <div>
-      <mat-toolbar>
-        <button (click)="optionsNav.toggle()" mat-icon-button color="basic" aria-label="Open menu">
-          <mat-icon>menu</mat-icon>
-        </button>
-        <span>OPTC Grand Party Team Builder</span>
-      </mat-toolbar>
-    </div>
+    <app-toolbar 
+      barTitle="OPTC Grand Party Team Builder"
+      (menuToggle)="optionsNav.toggle()"
+    ></app-toolbar>
     <div class="content">
       <div>
         <div class="actions">

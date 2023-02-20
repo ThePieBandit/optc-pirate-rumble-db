@@ -28,6 +28,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { ConditionPipe } from './pipes/condition.pipe';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -46,6 +47,7 @@ import { RouterModule } from '@angular/router';
     TargetPriorityPipe,
     BuffPickerComponent,
     SideMenuComponent,
+    ToolbarComponent,
   ],
   imports: [
     CommonModule,
@@ -95,6 +97,7 @@ import { RouterModule } from '@angular/router';
     TypePickerComponent,
     BuffPickerComponent,
     SideMenuComponent,
+    ToolbarComponent,
   ]
 })
 export class SharedModule { }

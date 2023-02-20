@@ -8,19 +8,18 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ChangelogComponent implements OnInit {
 
-  changeLogText = 'Could not load changelog';
+  changeLogText: string;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) { 
+    this.changeLogText = 'Loading changelog...';
+  }
 
   ngOnInit(): void {
     const options = {
       responseType: 'text' as const,
     };
-    this.http.get('./CHANGELOG.md', options).subscribe(data => this.changeLogText = data);
+    this.http.get('./CHANGELOG.md', options).subscribe(
+      data => this.changeLogText = data,
+      _ => this.changeLogText = 'Could not load changelog');
   }
-
-  public getChangeLog(): string {
-    return this.changeLogText;
-  }
-
 }
