@@ -1,6 +1,6 @@
 ### 2.3.0
 * Add ability to manage season buffs through side menu.
-* New sorting capabilities in unit picker popup.
+* New sorting and filtering capabilities in unit picker popup.
 * Side menu, toolbar and changelog improvements.
 
 ### 2.2.2
