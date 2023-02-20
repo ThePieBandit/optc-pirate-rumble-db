@@ -34,7 +34,7 @@
     </div>
     <section class="buffs" *ngIf="unit != null">
       <ng-container *ngFor="let buff of buffs">
-        <div class="buff-container" *ngIf="showAllBuffs || buff.value != 0">
+        <div class="buff-container" *ngIf="(options && options.showAllBuffs) || buff.value != 0">
           <div class="buff-value">{{buff.value}}</div>
           <div class="buff-key"><img [src]="buff.img" [alt]="buff.name" [matTooltip]="buff.name" /></div>
         </div>

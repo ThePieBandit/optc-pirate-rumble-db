@@ -7,7 +7,7 @@ import { MatSliderChange } from '@angular/material/slider';
 import { buffs } from 'src/app/core/constants/effects';
 import { effectImage } from 'src/app/core/utils/images';
 import { battleTime } from '@core/constants/battle';
-import { LocalStorage } from 'ngx-store';
+import { TeamOptions } from '@team-builder/models/team-options';
 
 interface UnitBuff {
   name: rumble.Attribute;
@@ -22,14 +22,14 @@ interface UnitBuff {
 })
 export class UnitCardComponent implements OnInit {
 
-  @LocalStorage()
-  showAllBuffs: boolean;
+  @Input()
+  options: TeamOptions;
 
   @Input()
-  public unit: TeamUnit;
+  unit: TeamUnit;
 
   @Input()
-  public compact = false;
+  compact = false;
 
   // tslint:disable-next-line:variable-name
   private _teamEffects: rumble.Effect[];
@@ -62,10 +62,10 @@ export class UnitCardComponent implements OnInit {
   style?: 'red' | 'blue' | 'gp';
 
   @Output()
-  public unitClick = new EventEmitter<boolean>();
+  private unitClick = new EventEmitter<boolean>();
 
   @Output()
-  public hpChange = new EventEmitter<number>();
+  private hpChange = new EventEmitter<number>();
 
   leaderIcon = 'assets/images/pirate_hat.png';
   defaultImage = 'assets/images/recruit_wanted.png';

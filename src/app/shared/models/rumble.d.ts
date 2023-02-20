@@ -23,9 +23,14 @@ export type Attribute =
   | "Action Bind"
   | "near"
   | "Half Stats"
+  | "Half ATK"
+  | "Half SPD"
   | "Shield"
   | "Confusion"
-  | "Counter";
+  | "Counter"
+  | "Revive"
+  | "Haste"
+;
 export type TargetingPriority = "highest" | "lowest";
 export type TargetElement = Targets | Classes | Colors;
 export type Targets = "self" | "crew" | "enemies";

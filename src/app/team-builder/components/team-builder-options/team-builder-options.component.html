@@ -4,12 +4,25 @@
     <button mat-list-item (click)="triggerOption(option.type)">{{option.text}}</button>
     <mat-divider></mat-divider>
   </ng-container>
-  <div mat-subheader>Picker options</div>
-  <ng-container *ngFor="let option of pickerOptions">
-    <button mat-list-item (click)="triggerOption(option.type)">{{option.text}}</button>
+</mat-action-list>
+
+<mat-list>
+  <div mat-subheader class="header-with-icon">
+    Season buffs
+    <button mat-icon-button (click)="addSeasonBuff()" matTooltip="Add">
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+  <ng-container *ngFor="let buff of buffs; let i = index">
+    <mat-list-item class="list-item-with-right-button">
+      <span [title]="buff | effect" mat-line>{{ buff | effect }}</span>
+      <button mat-icon-button (click)="onDeleteBuff(i)" matTooltip="Delete">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </mat-list-item>
     <mat-divider></mat-divider>
   </ng-container>
-</mat-action-list>
+</mat-list>
 
 <ng-container *ngFor="let team of teams">
   <mat-selection-list [ngModel]="team.main" (ngModelChange)="specialChange($event, team)">

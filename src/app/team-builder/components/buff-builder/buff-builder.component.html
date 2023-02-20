@@ -1,0 +1,40 @@
+<h2 mat-dialog-title>
+    Create a buff
+</h2>
+<div mat-dialog-content>
+    <p>Season buffs are automatically applied to all teams.</p>
+    <p>You can set a negative level to apply debuffs.</p>
+    <mat-form-field class="full-width" appearance="fill" [color]="effect.level ? 'accent' : 'warn'">
+        <mat-label>Level</mat-label>
+        <input matInput 
+            [(ngModel)]="effect.level" 
+            (ngModelChange)="updatePreview()" 
+            type="number"
+            min="1"
+            max="99">
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="fill" color="accent">
+        <mat-label>Attributes</mat-label>
+        <mat-select [(ngModel)]="effect.attributes" (ngModelChange)="updatePreview()" multiple>
+            <mat-option *ngFor="let attribute of attributes" [value]="attribute">{{attribute}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="fill" color="accent">
+        <mat-label>Targets</mat-label>
+        <mat-select [(ngModel)]="effect.targeting.targets" multiple (ngModelChange)="updatePreview()">
+            <mat-option *ngFor="let target of targets" [value]="target">{{target}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <div>
+        <p *ngIf="effect && effect.level">Preview: {{ effect | effect }}</p>
+    </div>
+</div>
+<div mat-dialog-actions fxLayoutAlign="space-between center">
+    <button mat-raised-button color="warn" (click)="onCancel()" cdkFocusInitial>Cancel</button>
+    <button 
+        mat-raised-button 
+        color="accent"
+        [disabled]="effect.level == 0 || effect.attributes.length == 0 || effect.targeting.targets.length == 0" 
+        (click)="onSave()"
+    >Save</button>
+</div>

@@ -3,7 +3,7 @@ import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import UnitService from 'src/app/core/services/unit.service';
 import { Effect } from '../../../shared/models/rumble';
 import { UnitPickerComponent, UnitPickerData } from '../../components/unit-picker/unit-picker.component';
-import { isTeamEffect, isDebuff, buffAppliesToTime, isHpBasedEffect, effectAppliesToUnitHp } from '../../../core/utils/effects';
+import { isTeamEffect, buffAppliesToTime, isHpBasedEffect, effectAppliesToUnitHp } from '../../../core/utils/effects';
 import { battleTime } from '../../../core/constants/battle';
 import { MatSliderChange } from '@angular/material/slider';
 import { TeamUnit } from '../../models/team-unit';
@@ -14,6 +14,7 @@ import { OptionEvent } from '@team-builder/components/team-builder-options/team-
 import { MatSidenav } from '@angular/material/sidenav';
 import { UnitDetails } from '@shared/models/unit-details';
 import { DetailsType } from '@team-builder/components/unit-details-card/unit-details-card.component';
+import { TeamOptions } from '@team-builder/models/team-options';
 
 const gpTeams = 3;
 const mainTeamSize = 5;
@@ -43,11 +44,10 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
   @LocalStorage()
   leaderId: number = -1;
   @LocalStorage()
-  hideSubs = false;
-  @LocalStorage()
-  showAllBuffs = false;
-  @LocalStorage()
-  oldestFirst = false;
+  teamOptions: TeamOptions = {
+    showAllBuffs: false,
+    showSubs: false,
+  };
 
   @ViewChild('optionsNav')
   optionsNav: MatSidenav;
@@ -57,6 +57,7 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
 
   initialBattleTime = battleTime;
   units: UnitDetails[];
+  seasonBuffs: Effect[] = [];
 
   constructor(
     private dialog: MatDialog,
@@ -134,6 +135,7 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
       .filter(unit => unit != null && unit.lvl5Ability != null)
       .flatMap(unit => this.getUnitEffects(unit).filter(e => isTeamEffect(e) && this.buffApplies(e, unit, time)))
       .concat(leaderEffects)
+      .concat(this.seasonBuffs)
       ;
   }
 
@@ -230,15 +232,18 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
     switch (event.type) {
       case 'startOver':
         this.onStartOver();
-        this.optionsNav.close();
         break;
       case 'hideSubs':
-        this.hideSubs = !this.hideSubs;
-        this.optionsNav.close();
+        this.teamOptions = {
+          ...this.teamOptions,
+          showSubs: !this.teamOptions.showSubs,
+        }
         break;
       case 'showAllBuffs':
-        this.showAllBuffs = !this.showAllBuffs;
-        this.optionsNav.close();
+        this.teamOptions = {
+          ...this.teamOptions,
+          showAllBuffs: !this.teamOptions.showAllBuffs,
+        }
         break;
       case 'specialsChange':
         const team = event.data.team as Team;
@@ -246,9 +251,12 @@ export class GrandPartyTeamBuilderComponent implements OnInit {
         team.main.filter(u => u != null).forEach(u => u.activeSpecial = specials.has(u.id));
         this.updateTeam(team, this.battleTimer);
         break;
-      case 'oldestFirst':
-        this.oldestFirst = !this.oldestFirst;
-        this.optionsNav.close();
+      case 'seasonBuffsChange':
+        this.seasonBuffs = [...(event.data || [])];
+        this.updateAllTeams();
+        break;
+      default:
+        console.warn('unexpected event ' + event.type);
         break;
     }
   }

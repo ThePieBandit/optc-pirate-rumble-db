@@ -5,3 +5,8 @@
 .red {
   background-color: crimson;
 }
+
+.header-with-icon {
+  display: flex;
+  justify-content: space-between;
+}

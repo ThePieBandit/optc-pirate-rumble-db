@@ -1,0 +1,16 @@
+<div>
+    <mat-toolbar>
+        <button 
+            (click)="toggle()" 
+            mat-icon-button color="basic"
+            aria-label="Menu"
+        >
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span>{{barTitle}}</span>
+        <span class="toolbar-spacer"></span>
+        <button mat-icon-button (click)="openInfo()" matTooltip="Changelog" aria-label="Information">
+            <mat-icon>info</mat-icon>
+        </button>
+    </mat-toolbar>
+</div>

@@ -1,35 +1,22 @@
 <mat-sidenav-container>
-  <mat-sidenav #optionsNav mode="over" style="min-width: 200px;">
-    <mat-nav-list>
-      <a mat-list-item routerLink="/" (click)="onSidenavClose()">
-          <mat-icon>list</mat-icon> <span class="nav-caption">Database</span>
-      </a>
-      <a mat-list-item routerLink="/team-builder" (click)="onSidenavClose()">
-          <mat-icon>people</mat-icon> <span class="nav-caption">Team Builder</span>   
-      </a>
-      <a mat-list-item routerLink="/team-builder/gp" (click)="onSidenavClose()">
-        <mat-icon>people_outline</mat-icon> <span class="nav-caption">GP Team Builder</span>   
-      </a>
-    </mat-nav-list>
+  <mat-sidenav #optionsNav mode="side" opened fixedInViewport style="width: 300px;">
+    <app-side-menu></app-side-menu>
     <app-team-builder-options
       (optionClick)="optionClick($event)"
       [teams]="[blueTeam, redTeam]"
     ></app-team-builder-options>
   </mat-sidenav>
   <mat-sidenav-content>
-    <div>
-      <mat-toolbar>
-        <button (click)="optionsNav.toggle()" mat-icon-button color="basic" aria-label="Open menu">
-          <mat-icon>menu</mat-icon>
-        </button>
-        <span>OPTC Pirate Rumble Team Builder</span>
-      </mat-toolbar>
-    </div>
+    <app-toolbar 
+      barTitle="OPTC Pirate Rumble Team Builder"
+      (menuToggle)="optionsNav.toggle()"
+    ></app-toolbar>
     <div class="content">
       <div>
         <div class="team-container" *ngFor="let team of [blueTeam, redTeam]">
           <app-team
             [team]="team"
+            [options]="teamOptions"
             (unitClick)="unitClick(team, $event)"
             (unitHpChange)="unitHpChange($event)"
             [battleTimer]="battleTimer"

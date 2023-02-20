@@ -13,6 +13,7 @@ import { LocalStorage } from 'ngx-store';
 import { OptionEvent } from '@team-builder/components/team-builder-options/team-builder-options.component';
 import { MatSidenav } from '@angular/material/sidenav';
 import { UnitDetails } from '@shared/models/unit-details';
+import { TeamOptions } from '@team-builder/models/team-options';
 
 const mainTeamSize = 5;
 const subTeamSize = 3;
@@ -29,11 +30,10 @@ export class TeamBuilderComponent implements OnInit {
   @LocalStorage()
   redTeamIds: number[] = Array.from(Array(mainTeamSize + subTeamSize));
   @LocalStorage()
-  hideSubs = false;
-  @LocalStorage()
-  showAllBuffs = false;
-  @LocalStorage()
-  oldestFirst = false;
+  teamOptions: TeamOptions = {
+    showAllBuffs: false,
+    showSubs: false,
+  };
 
   @ViewChild('optionsNav')
   optionsNav: MatSidenav;
@@ -41,6 +41,7 @@ export class TeamBuilderComponent implements OnInit {
   blueTeam: Team;
   redTeam: Team;
   battleTimer: number;
+  seasonBuffs: Effect[] = [];
 
   initialBattleTime = battleTime;
   units: UnitDetails[];
@@ -120,6 +121,7 @@ export class TeamBuilderComponent implements OnInit {
       team.effects = team.main
         .filter(unit => unit != null && unit.lvl5Ability != null)
         .flatMap(unit => this.getUnitEffects(unit).filter(e => isTeamEffect(e) && this.buffApplies(e, unit, time)))
+        .concat(this.seasonBuffs)
       ;
     }
 
@@ -227,15 +229,18 @@ export class TeamBuilderComponent implements OnInit {
     switch (event.type) {
       case 'startOver':
         this.onStartOver();
-        this.optionsNav.close();
         break;
       case 'hideSubs':
-        this.hideSubs = !this.hideSubs;
-        this.optionsNav.close();
+        this.teamOptions = {
+          ...this.teamOptions,
+          showSubs: !this.teamOptions.showSubs,
+        }
         break;
       case 'showAllBuffs':
-        this.showAllBuffs = !this.showAllBuffs;
-        this.optionsNav.close();
+        this.teamOptions = {
+          ...this.teamOptions,
+          showAllBuffs: !this.teamOptions.showAllBuffs,
+        }
         break;
       case 'specialsChange':
         const team = event.data.team as Team;
@@ -243,9 +248,12 @@ export class TeamBuilderComponent implements OnInit {
         team.main.filter(u => u != null).forEach(u => u.activeSpecial = specials.has(u.id));
         this.updateBuffs();
         break;
-      case 'oldestFirst':
-        this.oldestFirst = !this.oldestFirst;
-        this.optionsNav.close();
+      case 'seasonBuffsChange':
+        this.seasonBuffs = [...(event.data || [])];
+        this.updateAllTeams();
+        break;
+      default:
+        console.warn('unexpected event ' + event.type);
         break;
     }
   }
@@ -263,5 +271,4 @@ export class TeamBuilderComponent implements OnInit {
     team.main = team.main.map(x => null);
     team.subs = team.subs.map(x => null);
   }
-
 }

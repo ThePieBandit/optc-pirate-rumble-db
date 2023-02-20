@@ -96,7 +96,7 @@ export class UnitFilterPipe implements PipeTransform {
             filtered = this.filterBySpecialEffect(filtered, e => e.repeat > 1);
             break;
           case 'recharge':
-            filtered = this.filterBySpecialEffect(filtered, e => e.effect === effect && ['RCV', 'fixed', 'percentage'].includes(e.type));
+            filtered = this.filterBySpecialEffect(filtered, this.isRecharge);
             break;
           default:
             console.warn('unexpected special effect ' + effect);
@@ -108,6 +108,20 @@ export class UnitFilterPipe implements PipeTransform {
     // we cant do pagination at this level because we need
     // the full filtered array to know the number of items/pages
     return filtered;
+  }
+
+  private isRecharge(e: Effect): boolean {
+    // healing effects
+    if (e.effect === 'recharge' && ['RCV', 'fixed', 'percentage'].includes(e.type)) {
+      return true;
+    }
+
+    // revives
+    if (e.effect === 'boon' && e.attributes.some(a => a === 'Revive')) {
+      return true;
+    }
+
+    return false;
   }
 
   private filterByEffectTargetType(current: UnitDetails[], type: EffectTargetType, effectFn: (unit: UnitDetails) => Effect[]) {
@@ -147,11 +161,20 @@ export class UnitFilterPipe implements PipeTransform {
   private effectMatches(effects: Effect[], buffs: string[]): boolean {
     return buffs.every(buff => effects.some(effect =>
       UnitFilterPipe.effectTypes.includes(effect.effect) &&
-      effect.attributes.some(attr => attr === buff)
+      effect.attributes.some(attr => this.matchingEffect(attr, buff))
     ));
+  }
+
+  private matchingEffect(attr: Attribute, buff: string): boolean {
+    switch (buff) {
+      case 'Half Stats':
+        return ['Half Stats', 'Half ATK', 'Half SPD', 'Half DEF', 'Half HP'].includes(attr);
+      default: 
+        return attr == buff;
+    }
   }
 
   private getTargetingEffects = (effects: Effect[]) => effects.filter(e => e.effect === 'buff' && e.targeting && e.targeting.targets);
 
-  private filterBySpecialEffect = (current: UnitDetails[], predicate: (effect: Effect) => boolean) => current.filter(u => u.lvl10Special.some(predicate));
+  private filterBySpecialEffect = (current: UnitDetails[], predicate: (effect: Effect) => boolean) => current.filter(u => u.lvl10Special.some(predicate) || u.lvl5Ability.some(predicate));
 }

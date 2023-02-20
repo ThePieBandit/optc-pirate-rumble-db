@@ -169,7 +169,7 @@ export class EffectPipe implements PipeTransform {
       e += ` ${effect.repeat} times`;
     }
 
-    return `<li>${this.capitalizeFirst(e)}.</li>`;
+    return `${this.capitalizeFirst(e)}.`;
   }
 
   arrayToString(array: any): string {

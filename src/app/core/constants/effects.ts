@@ -12,12 +12,21 @@ export const buffs: Attribute[] = [
   'Blow Away',
   'Special CT',
   //"Shield", // enable later when more units have it
+];
+
+// some effects like Counter are considered attributes even
+// though they are not buffs with levels
+export const nonLevelBuffs: Attribute[] = [
+  'Provoke',
   'Counter',
+  'Haste',
 ];
 
 export const debuffs: Attribute[] = [
+  "Silence",
+  "Action Bind",
   "Half Stats",
-  //"Confusion", // enable later when more units have it
+  "Confusion",
 ];
 
 export type SpecialEffect = 'defIgnoring'

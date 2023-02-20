@@ -16,7 +16,7 @@
       <h3>Ability</h3>
       <div class="section-content">
         <ul>
-          <span *ngFor="let effect of unit.lvl5Ability" [innerHtml]="effect | effect"></span>
+          <li *ngFor="let effect of unit.lvl5Ability">{{ effect | effect }}</li>
         </ul>
       </div>
     </section>
@@ -24,7 +24,7 @@
       <h3>Leader Ability ({{unit.gpStyle}})</h3>
       <div class="section-content">
         <ul>
-          <span *ngFor="let effect of unit.lvl5GPAbility" [innerHtml]="effect | effect"></span>
+          <li *ngFor="let effect of unit.lvl5GPAbility">{{ effect | effect }}</li>
         </ul>
       </div>
     </section>
@@ -32,7 +32,7 @@
       <h3>Special (CT {{unit.lvl10Cooldown}})</h3>
       <div class="section-content">
         <ul>
-          <span *ngFor="let effect of unit.lvl10Special" [innerHtml]="effect | effect"></span>
+          <li *ngFor="let effect of unit.lvl10Special">{{ effect | effect }}</li>
         </ul>
       </div>
     </section>
@@ -40,7 +40,7 @@
       <h3>GP Burst ({{unit.gpspecial[unit.gpspecial.length-1].uses}} uses - {{ unit.gpcondition[0] | condition}})</h3>
       <div class="section-content">
         <ul>
-          <span *ngFor="let effect of unit.lvl5GPSpecial" [innerHtml]="effect | effect"></span>
+          <li *ngFor="let effect of unit.lvl5GPSpecial">{{ effect | effect }}</li>
         </ul>
       </div>
     </section>

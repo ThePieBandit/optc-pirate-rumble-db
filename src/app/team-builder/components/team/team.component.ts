@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { TeamOptions } from '@team-builder/models/team-options';
 import { TeamUnit } from '@team-builder/models/team-unit';
-import { LocalStorage } from 'ngx-store';
 import { Team } from '../../models/team';
 
 export interface UnitClickEvent {
@@ -20,8 +20,8 @@ export interface UnitHpChangeEvent {
 })
 export class TeamComponent implements OnInit {
 
-  @LocalStorage()
-  hideSubs: boolean;
+  @Input()
+  options: TeamOptions;
 
   @Input()
   team: Team;

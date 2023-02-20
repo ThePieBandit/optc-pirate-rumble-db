@@ -27,6 +27,9 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { ConditionPipe } from './pipes/condition.pipe';
+import { SideMenuComponent } from './components/side-menu/side-menu.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -43,6 +46,8 @@ import { ConditionPipe } from './pipes/condition.pipe';
     ResiliencePipe,
     TargetPriorityPipe,
     BuffPickerComponent,
+    SideMenuComponent,
+    ToolbarComponent,
   ],
   imports: [
     CommonModule,
@@ -60,6 +65,7 @@ import { ConditionPipe } from './pipes/condition.pipe';
     MatSidenavModule,
     MatToolbarModule,
     MatListModule,
+    RouterModule,
   ],
   exports: [
     CommonModule,
@@ -90,6 +96,8 @@ import { ConditionPipe } from './pipes/condition.pipe';
     ClassPickerComponent,
     TypePickerComponent,
     BuffPickerComponent,
+    SideMenuComponent,
+    ToolbarComponent,
   ]
 })
 export class SharedModule { }
