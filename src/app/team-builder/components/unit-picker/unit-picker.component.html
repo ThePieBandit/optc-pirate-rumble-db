@@ -87,7 +87,7 @@
       </div>
     </fieldset>
     <div class="sort-container">
-      <mat-form-field>
+      <mat-form-field color="accent">
         <mat-label>Sort by:</mat-label>
         <mat-select [(value)]="sortColumn" (selectionChange)="sortUnits()">
           <mat-option *ngFor="let option of sortOptions" [value]="option.type">
