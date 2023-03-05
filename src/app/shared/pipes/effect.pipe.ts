@@ -197,7 +197,12 @@ export class EffectPipe implements PipeTransform {
     const to = ' to ' + ('count' in target ? target.count + ' ' : '') + targetStr;
 
     if (target.percentage && target.priority && target.stat) {
-      return `${to} with a ${target.percentage}% or ${target.priority} ${target.stat}`;
+      switch (target.priority) {
+        case 'exactly':
+          return `${to} with ${target.priority} ${target.percentage}% ${target.stat}`;
+        default:
+          return `${to} with a ${target.percentage}% or ${target.priority} ${target.stat}`;
+      }
     }
 
     return to + ('stat' in target ? ' with the ' + target.priority + ' ' + target.stat : '');
