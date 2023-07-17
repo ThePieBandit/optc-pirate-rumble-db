@@ -137,7 +137,7 @@ const SeaCat = [ "Sea Cat" ];
 const Dugong = [ "Dugong" ];
 const BananaGator = [ "Banana Gator" ];
 const SandoraDragon = [ "Sandora Dragon" ];
-const Crocodile = [ "Crocodile", "Mr. 0" ];
+const Crocodile = [ "Crocodile", "Mr. 0", "Sir Crocodile" ];
 const Hogback = [ "Hogback" ];
 const VictoriaCindry = [ "Victoria Cindry" ];
 const EmporioIvankov = [ "Emporio Ivankov" ];
@@ -5048,10 +5048,10 @@ const ghostFamilies = {
     517: [ ...Nami, ...Carrot ],
     518: [ ...Nami, ...Carrot ],
     519: [ ...Nami, ...Carrot ],
-    520: [ ...Nami, ...Robin ],
-    521: [ ...Nami, ...Robin ],
-    522: [ ...Nami, ...Robin ],
-    523: [ ...Nami, ...Robin ],
+    520: [ ...Nami, ...NicoRobin ],
+    521: [ ...Nami, ...NicoRobin ],
+    522: [ ...Nami, ...NicoRobin ],
+    523: [ ...Nami, ...NicoRobin ],
 }
 
 Object.keys(ghostFamilies).forEach(function (key) {
