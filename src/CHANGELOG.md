@@ -1,3 +1,6 @@
+### 2.3.1
+* Skip duplicate dual and vs units (optc-db "ghost" units).
+
 ### 2.3.0
 * Add ability to manage season buffs through side menu.
 * New sorting and filtering capabilities in unit picker popup.

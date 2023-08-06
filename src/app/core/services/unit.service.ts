@@ -7,6 +7,15 @@ declare const window: any;
 
 type TempUnit = Omit<UnitDetails, 'stats' | 'ability' | 'target' | 'pattern' | 'special' | 'gpability' | 'gpspecial' | 'gpcondition'>;
 
+const ghostUnitPrefixes = [
+  '⚐ ',
+  '⚔ ',
+];
+
+const isGhostUnit = (unit: TempUnit): boolean => {
+  return ghostUnitPrefixes.some(p => unit.name.startsWith(p));
+}
+
 // dont declare service as singleton (i.e., providedIn: 'root')
 // so that each client of the service can get an instance based on its needs
 // (eg, instance per module or instance per component)
@@ -111,7 +120,7 @@ class UserService {
         continue;
       }
       // skip "ghost" units so they dont show duplicated
-      if (unitDetail.name.startsWith('[Dual Unit] ') || unitDetail.name.startsWith('[VS Unit] ')) {
+      if (isGhostUnit(unitDetail)) {
         continue;
       }
 
