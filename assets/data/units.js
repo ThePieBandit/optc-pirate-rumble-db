@@ -4126,6 +4126,8 @@ window.units = [
     [ "Hody & Vander Decken IX - Planning to Overthrow the Country", "QCK", ["Driven", "Powerhouse"], 5, 30, 4, 4, 99, 4000000, 1891, 762, 81, 3782, 1523, 162, 1 ],
     [ "Caesar & Monet", "INT", ["Driven", "Cerebral"], 5, 30, 4, 4, 99, 4000000, 1885, 708, 100, 3770, 1415, 200, 1 ],
     [ "Lucci & Kaku & Stussy - Headed to the Future Island", "QCK", ["Driven", "Cerebral"], 5, 40, 4, 4, 99, 5000000, 1630, 787, 91, 3260, 1574, 182, 1 ],
+    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Luffy (Age 70) - A Different Future", "INT", ["Free Spirit", "Fighter"], 5, 70, 4, 4, 99, 4000000, 401, 70, -56, 3370, 1330, 129, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
