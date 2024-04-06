@@ -4128,6 +4128,9 @@ window.units = [
     [ "Lucci & Kaku & Stussy - Headed to the Future Island", "QCK", ["Driven", "Cerebral"], 5, 40, 4, 4, 99, 5000000, 1630, 787, 91, 3260, 1574, 182, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "Luffy (Age 70) - A Different Future", "INT", ["Free Spirit", "Fighter"], 5, 70, 4, 4, 99, 4000000, 401, 70, -56, 3370, 1330, 129, 1 ],
+    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "S-Shark", "DEX", ["Fighter", "Shooter"], 6, 40, 4, 5, 99, 5000000, 2275, 876, 92, 4550, 1752, 183, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };

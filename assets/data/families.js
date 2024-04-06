@@ -701,6 +701,7 @@ const Hamlet = [ "Hamlet" ];
 const Lilith = [ "Lilith", "Dr. Vegapunk", "PUNK-02" ];
 const Shakuyaku = [ "Shakuyaku", "Shakky" ];
 const SHawk = [ "S-Hawk" ];
+const SShark = [ "S-Shark" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -4723,6 +4724,7 @@ window.families = {
     4126: [ ...CaesarClown, ...Monet ],
     4127: [ ...RobLucci, ...Kaku, ...Stussy ],
     4129: [ ...MonkeyDLuffy ],
+    4132: [ ...SShark ],
     //break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
