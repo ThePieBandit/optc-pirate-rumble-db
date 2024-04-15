@@ -702,6 +702,10 @@ const Lilith = [ "Lilith", "Dr. Vegapunk", "PUNK-02" ];
 const Shakuyaku = [ "Shakuyaku", "Shakky" ];
 const SHawk = [ "S-Hawk" ];
 const SShark = [ "S-Shark" ];
+const Atlas = [ "Atlas", "Dr. Vegapunk", "PUNK-05" ];
+const Edison = [ "Edison", "Dr. Vegapunk", "PUNK-03" ];
+const Pythagoras = [ "Pythagoras", "Dr. Vegapunk", "PUNK-04" ];
+const York = [ "York", "Dr. Vegapunk", "PUNK-06" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -4723,8 +4727,12 @@ window.families = {
     4125: [ ...HodyJones, ...VanderDeckenIX ],
     4126: [ ...CaesarClown, ...Monet ],
     4127: [ ...RobLucci, ...Kaku, ...Stussy ],
+    4128: [ ...RobLucci, ...Kaku, ...Stussy ],
     4129: [ ...MonkeyDLuffy ],
     4132: [ ...SShark ],
+    4133: [ ...Atlas ],
+    4134: [ ...Edison, ...Pythagoras ],
+    4135: [ ...York ],
     //break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
