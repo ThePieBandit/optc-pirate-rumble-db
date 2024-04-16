@@ -698,14 +698,14 @@ const Yorueka = [ "Yorueka" ];
 const Aramaki = [ "Aramaki", "Ryokugyu", "Greenbull" ];
 const Tensei = [ "Tensei", "Kurouma" ];
 const Hamlet = [ "Hamlet" ];
-const Lilith = [ "Lilith", "Dr. Vegapunk", "PUNK-02" ];
+const Lilith = [ "Lilith", "PUNK-02" ];
 const Shakuyaku = [ "Shakuyaku", "Shakky" ];
 const SHawk = [ "S-Hawk" ];
 const SShark = [ "S-Shark" ];
-const Atlas = [ "Atlas", "Dr. Vegapunk", "PUNK-05" ];
-const Edison = [ "Edison", "Dr. Vegapunk", "PUNK-03" ];
-const Pythagoras = [ "Pythagoras", "Dr. Vegapunk", "PUNK-04" ];
-const York = [ "York", "Dr. Vegapunk", "PUNK-06" ];
+const Atlas = [ "Atlas", "PUNK-05" ];
+const Edison = [ "Edison", "PUNK-03" ];
+const Pythagoras = [ "Pythagoras", "PUNK-04" ];
+const York = [ "York", "PUNK-06" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
