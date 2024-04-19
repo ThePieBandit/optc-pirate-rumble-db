@@ -4134,6 +4134,10 @@ window.units = [
     [ "Dr. Vegapunk \"Atlas the Violent\" - PUNK-05", "INT", ["Cerebral", "Fighter"], 6, 55, 4, 5, 99, 5000000, 2117, 841, 142, 4234, 1682, 284, 1 ],
     [ "Dr. Vegapunk \"Edison the Thinker\" & Dr. Vegapunk \"Pythagoras the Wise\" - PUNK-03 & PUNK-04", "INT", ["Cerebral", "Fighter"], 5, 30, 5, 4, 99, 4000000, 1745, 753, 84, 3490, 1505, 167, 1 ],
     [ "Dr. Vegapunk \"York the Greedy\" - PUNK-06", "INT", ["Cerebral", "Free Spirit"], 5, 30, 5, 4, 99, 4000000, 1682, 772, 88, 3364, 1543, 175, 1 ],
+    [ "Dr. Vegapunk", "INT", ["Cerebral", "Free Spirit"], 5, 30, 4, 3, 70, 1066998, 1096, 727, 99, 2742, 1212, 198, 1 ],
+    [ "Dr. Vegapunk - Grand Dream of the Genius Scientist", "INT", ["Cerebral", "Free Spirit"], 6, 55, 4, 5, 99, 5000000, 1462, 1131, 194, 3656, 1616, 398, 1 ],
+    [ "Dr. Vegapunk \"Shaka the Good\" - PUNK-01", "INT", ["Cerebral", "Free Spirit"], 5, 30, 5, 4, 99, 4000000, 1337, 989, 113, 3344, 1522, 226, 1 ],
+    [ "Jewelry Bonney - The Only Family to Pursue", "INT", ["Cerebral", "Free Spirit"], "6+", 65, 5, 5, 99, 5000000, 1901, 948, 168, 3802, 1896, 335, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
