@@ -706,6 +706,8 @@ const Atlas = [ "Atlas", "PUNK-05" ];
 const Edison = [ "Edison", "PUNK-03" ];
 const Pythagoras = [ "Pythagoras", "PUNK-04" ];
 const York = [ "York", "PUNK-06" ];
+const Vegapunk = [ "Dr. Vegapunk", "Stella" ];
+const Shaka = [ "Shaka", "PUNK-01" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -4733,6 +4735,10 @@ window.families = {
     4133: [ ...Atlas ],
     4134: [ ...Edison, ...Pythagoras ],
     4135: [ ...York ],
+    4136: [ ...Vegapunk ],
+    4137: [ ...Vegapunk ],
+    4138: [ ...Shaka ],
+    4139: [ ...JewelryBonney ],
     //break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
