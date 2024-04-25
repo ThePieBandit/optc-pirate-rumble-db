@@ -4138,6 +4138,13 @@ window.units = [
     [ "Dr. Vegapunk - Grand Dream of the Genius Scientist", "INT", ["Cerebral", "Free Spirit"], 6, 55, 4, 5, 99, 5000000, 1462, 1131, 194, 3656, 1616, 398, 1 ],
     [ "Dr. Vegapunk \"Shaka the Good\" - PUNK-01", "INT", ["Cerebral", "Free Spirit"], 5, 30, 5, 4, 99, 4000000, 1337, 989, 113, 3344, 1522, 226, 1 ],
     [ "Jewelry Bonney - The Only Family to Pursue", "INT", ["Cerebral", "Free Spirit"], "6+", 65, 5, 5, 99, 5000000, 1901, 948, 168, 3802, 1896, 335, 1 ],
+    [ "Law & Bepo - Afflicted by a Special Disease", ["INT", "DEX"], [["Cerebral", "Slasher"],["Cerebral", "Fighter"],["Cerebral", "Slasher"]], 6, 55, 4, 5, 99, 5000000, 2013, 880, 197, 4025, 1760, 393, 1 ],
+    [ "Kid & Killer - Enjoying the Feast", ["INT", "DEX"], [["Driven", "Powerhouse"],["Driven", "Powerhouse"],["Driven", "Powerhouse"]], 5, 30, 4, 3, 70, 1066998, 1100, 450, 84, 2201, 901, 168, 1 ],
+    [ "Kid & Killer - Best Partners", ["INT", "DEX"], [["Driven", "Powerhouse"],["Driven", "Powerhouse"],["Driven", "Powerhouse"]], 6, 55, 4, 5, 99, 5000000, 2171, 895, 166, 4341, 1789, 331, 1 ],
+    [ "Shachi & Penguin - Ambush From the Sea", "INT", ["Fighter", "Cerebral"], 5, 30, 4, 4, 99, 4000000, 1756, 789, 95, 3511, 1577, 190, 1 ],
+    [ "Jean Bart - Blocking the Snipe", "DEX", ["Fighter", "Powerhouse"], 5, 30, 5, 4, 99, 4000000, 1782, 796, 88, 3563, 1592, 176, 1 ],
+    [ "Hakugan", "INT", ["Cerebral", "Driven"], 5, 30, 5, 4, 99, 4000000, 1775, 742, 108, 3549, 1483, 215, 1 ],
+    [ "Blackbeard - After the Road Ponegliff", "DEX", ["Driven", "Powerhouse"], 5, 40, 5, 4, 99, 5000000, 1960, 797, -260, 3920, 1593, -130, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
@@ -4756,6 +4763,18 @@ var ghostsUnits = [
     [ "⚐ Perona - Neverending Nightmare", "QCK", ["Driven", "Cerebral"], 6, 55, 5, 5, 99, 5000000, 2100, 810, 155, 4200, 1620, 310, 1 ],
     [ "⚐ Moria & Perona - Neverending Nightmare", "INT", ["Driven", "Cerebral"], 6, 55, 5, 5, 99, 5000000, 2252, 836, 171, 4504, 1672, 342, 1 ],
     [ "⚐ Moria & Perona - Neverending Nightmare", "QCK", ["Driven", "Cerebral"], 6, 55, 5, 5, 99, 5000000, 2252, 836, 171, 4504, 1672, 342, 1 ],
+    [ "⚐ Trafalgar Law - Afflicted by a Special Disease", "INT", ["Cerebral", "Slasher"], 6, 55, 4, 5, 99, 5000000, 1836, 846, 187, 3672, 1692, 374, 1 ],
+    [ "⚐ Bepo - Afflicted by a Special Disease", "DEX", ["Cerebral", "Fighter"], 6, 55, 5, 5, 99, 5000000, 1810, 842, 193, 3621, 1684, 386, 1 ],
+    [ "⚐ Law & Bepo - Afflicted by a Special Disease", "INT", ["Cerebral", "Slasher"], 6, 55, 4, 5, 99, 5000000, 2013, 880, 197, 4025, 1760, 393, 1 ],
+    [ "⚐ Law & Bepo - Afflicted by a Special Disease", "DEX", ["Cerebral", "Slasher"], 6, 55, 4, 5, 99, 5000000, 2013, 880, 197, 4025, 1760, 393, 1 ],
+    [ "⚐ Eustass Kid - Enjoying the Feast", "INT", ["Driven", "Powerhouse"], 5, 30, 4, 3, 70, 1066998, 1034, 432, 76, 2069, 864, 152, 1 ],
+    [ "⚐ Killer - Enjoying the Feast", "DEX", ["Driven", "Powerhouse"], 5, 30, 4, 3, 70, 1066998, 1025, 429, 79, 2050, 857, 157, 1 ],
+    [ "⚐ Kid & Killer - Enjoying the Feast", "INT", ["Driven", "Powerhouse"], 5, 30, 4, 3, 70, 1066998, 1100, 450, 84, 2201, 901, 168, 1 ],
+    [ "⚐ Kid & Killer - Enjoying the Feast", "DEX", ["Driven", "Powerhouse"], 5, 30, 4, 3, 70, 1066998, 1100, 450, 84, 2201, 901, 168, 1 ],
+    [ "⚐ Eustass Kid - Best Partners", "INT", ["Driven", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2038, 857, 150, 4077, 1715, 299, 1 ],
+    [ "⚐ Killer - Best Partners", "DEX", ["Driven", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2020, 851, 155, 4040, 1702, 310, 1 ],
+    [ "⚐ Kid & Killer - Best Partners", "INT", ["Driven", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2171, 895, 166, 4341, 1789, 331, 1 ],
+    [ "⚐ Kid & Killer - Best Partners", "DEX", ["Driven", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2171, 895, 166, 4341, 1789, 331, 1 ],
 ];
 
 window.units = window.units.concat(ghostsUnits);
