@@ -4145,6 +4145,8 @@ window.units = [
     [ "Jean Bart - Blocking the Snipe", "DEX", ["Fighter", "Powerhouse"], 5, 30, 5, 4, 99, 4000000, 1782, 796, 88, 3563, 1592, 176, 1 ],
     [ "Hakugan", "INT", ["Cerebral", "Driven"], 5, 30, 5, 4, 99, 4000000, 1775, 742, 108, 3549, 1483, 215, 1 ],
     [ "Blackbeard - After the Road Ponegliff", "DEX", ["Driven", "Powerhouse"], 5, 40, 5, 4, 99, 5000000, 1960, 797, -260, 3920, 1593, -130, 1 ],
+    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Tony Tony Chopper - Astonished by Future Science", "INT", ["Fighter", "Cerebral"], 5, 30, 4, 4, 99, 4000000, 2056, 727, 116, 4111, 1454, 231, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
