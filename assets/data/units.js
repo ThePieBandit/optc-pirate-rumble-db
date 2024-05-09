@@ -4147,6 +4147,22 @@ window.units = [
     [ "Blackbeard - After the Road Ponegliff", "DEX", ["Driven", "Powerhouse"], 5, 40, 5, 4, 99, 5000000, 1960, 797, -260, 3920, 1593, -130, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "Tony Tony Chopper - Astonished by Future Science", "INT", ["Fighter", "Cerebral"], 5, 30, 4, 4, 99, 4000000, 2056, 727, 116, 4111, 1454, 231, 1 ],
+    [ "Monkey D. Luffy - Awakened Powers", "INT", ["Fighter", "Powerhouse"], 5, 30, 4, 3, 70, 1066998, 1123, 436, 85, 2247, 871, 170, 1 ],
+    [ "Monkey D. Luffy - Rushing Heartbeat", "INT", ["Fighter", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2217, 865, 168, 4433, 1730, 335, 1 ],
+    [ "\"King of the Pirates\" Gold Roger - The Man who Achieved it All", "DEX", ["Slasher", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2244, 849, 156, 4488, 1698, 311, 1 ],
+    [ "Shanks - Reigning Over the New Era", "PSY", ["Cerebral", "Slasher"], 6, 55, 4, 5, 99, 5000000, 2153, 879, 174, 4305, 1757, 347, 1 ],
+    [ "Shanks - Shaking the Great Era of Piracy", "PSY", ["Cerebral", "Slasher"], 6, 55, 4, 5, 99, 5000000, 2153, 879, 174, 4305, 1757, 347, 1 ],
+    [ "Portgas D. Ace from ONE PIECE magazine - Escape of the Three Brothers", "DEX", ["Shooter", "Free Spirit"], 6, 55, 4, 5, 99, 5000000, 2216, 864, 168, 4431, 1728, 336, 1 ],
+    [ "Roronoa Zoro - Future Clothing of the Science Island", "DEX", ["Slasher", "Powerhouse"], 5, 30, 4, 4, 99, 4000000, 1696, 765, 88, 3392, 1530, 175, 1 ],
+    [ "Sanji - Puzzled Aloha", "PSY", ["Free Spirit", "Fighter"], 5, 30, 4, 4, 99, 4000000, 1633, 776, 95, 3265, 1551, 189, 1 ],
+    [ "Nami - Light and Cute Future Clothing", "INT", ["Cerebral", "Free Spirit"], 5, 30, 5, 4, 99, 4000000, 1645, 730, 108, 3289, 1459, 216, 1 ],
+    [ "Nico Robin - Cool and Fashionable Future Clothing", "DEX", ["Cerebral", "Fighter"], 5, 30, 5, 4, 99, 4000000, 1625, 745, 131, 3250, 1490, 262, 1 ],
+    [ "Jinbe - Tropical Disguise", "PSY", ["Powerhouse", "Free Spirit"], 5, 30, 4, 4, 99, 4000000, 1651, 763, 121, 3301, 1525, 242, 1 ],
+    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Monkey D. Luffy - Memories of Straw Hat Pirates", "DEX", ["Free Spirit", "Fighter"], "6+", 65, 4, 5, 99, 5000000, 2428, 1012, 133, 4856, 2024, 266, 1 ],
+    [ "Yamato - Send-Off Embrace", "DEX", ["Striker", "Powerhouse"], 5, 40, 5, 4, 99, 5000000, 1706, 818, 118, 3412, 1636, 236, 1 ],
+    [ "Yamato - Following the Same Path", "DEX", ["Striker", "Powerhouse"], "5+", 40, 5, 4, 99, 5000000, 1731, 840, 132, 3462, 1680, 263, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
