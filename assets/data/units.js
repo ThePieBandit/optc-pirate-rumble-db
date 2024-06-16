@@ -4175,6 +4175,11 @@ window.units = [
     [ "Zeff - Seeing Off the Departure", "PSY", ["Fighter", "Free Spirit"], 5, 30, 4, 4, 99, 4000000, 1839, 735, 114, 3677, 1469, 228, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "Dracule Mihawk - Testing Black Blade", "DEX", ["Slasher", "Free Spirit"], 5, 40, 4, 4, 99, 5000000, 1620, 770, 99, 3239, 1539, 198, 1 ],
+    [ "Hawk Eyes Mihawk - The Strongest Swordsman who Recognizes Potential", "DEX", ["Slasher", "Free Spirit"], "5+", 40, 4, 4, 99, 5000000, 1706, 800, 105, 3412, 1599, 209, 1 ],
+    [ "Gin - Offered Meal", "PSY", ["Striker", "Driven"], 5, 30, 4, 4, 99, 4000000, 2074, 816, 83, 4147, 1632, 165, 1 ],
+    [ "Usopp - Memories of Straw Hat Pirates", "DEX", ["Shooter", "Free Spirit"], 6, 55, 4, 5, 99, 5000000, 2271, 880, 104, 4541, 1760, 207, 1 ],
+    [ "Kaya - Unexpected News", "DEX", ["Free Spirit", "Cerebral"], 5, 30, 5, 4, 99, 4000000, 1602, 712, 147, 3204, 1424, 293, 1 ],
+    [ "Onion & Pepper & Carrot - Maintaining the Fire of Ambition", "DEX", ["Free Spirit", "Striker"], 5, 30, 4, 4, 99, 4000000, 1911, 771, 75, 3822, 1541, 149, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
