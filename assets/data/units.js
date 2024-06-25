@@ -4180,6 +4180,10 @@ window.units = [
     [ "Usopp - Memories of Straw Hat Pirates", "DEX", ["Shooter", "Free Spirit"], 6, 55, 4, 5, 99, 5000000, 2271, 880, 104, 4541, 1760, 207, 1 ],
     [ "Kaya - Unexpected News", "DEX", ["Free Spirit", "Cerebral"], 5, 30, 5, 4, 99, 4000000, 1602, 712, 147, 3204, 1424, 293, 1 ],
     [ "Onion & Pepper & Carrot - Maintaining the Fire of Ambition", "DEX", ["Free Spirit", "Striker"], 5, 30, 4, 4, 99, 4000000, 1911, 771, 75, 3822, 1541, 149, 1 ],
+    [ "Tony Tony Chopper - Memories of Straw Hat Pirates", "INT", ["Cerebral", "Fighter"], 6, 55, 5, 5, 99, 5000000, 2250, 982, 210, 3852, 1522, 420, 1 ],
+    [ "Dr. Hiriluk - Bonded by Skull and Crossbones", "INT", ["Cerebral", "Shooter"], 5, 30, 4, 4, 99, 4000000, 1782, 796, 148, 3062, 1408, 296, 1 ],
+    [ "Dr. Kureha - Parting With the Foolish Boy", "INT", ["Cerebral", "Fighter"], 5, 30, 4, 4, 99, 4000000, 1726, 722, 165, 3000, 1336, 330, 1 ],
+    [ "Trafalgar Law - Finger-Controlled Boulder", "PSY", ["Free Spirit", "Slasher"], "6+", 65, 4, 5, 99, 5000000, 2036, 1169, 194, 4072, 1754, 387, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
