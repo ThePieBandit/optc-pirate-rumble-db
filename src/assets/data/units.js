@@ -4184,6 +4184,16 @@ window.units = [
     [ "Dr. Hiriluk - Bonded by Skull and Crossbones", "INT", ["Cerebral", "Shooter"], 5, 30, 4, 4, 99, 4000000, 1782, 796, 148, 3062, 1408, 296, 1 ],
     [ "Dr. Kureha - Parting With the Foolish Boy", "INT", ["Cerebral", "Fighter"], 5, 30, 4, 4, 99, 4000000, 1726, 722, 165, 3000, 1336, 330, 1 ],
     [ "Trafalgar Law - Finger-Controlled Boulder", "PSY", ["Free Spirit", "Slasher"], "6+", 65, 4, 5, 99, 5000000, 2036, 1169, 194, 4072, 1754, 387, 1 ],
+    [ "Nami - Memories of Straw Hat Pirates", "DEX", ["Cerebral", "Striker"], 6, 55, 4, 5, 99, 5000000, 2287, 837, 103, 4573, 1673, 205, 1 ],
+    [ "Nico Robin - Memories of Straw Hat Pirates", "PSY", ["Cerebral", "Fighter"], 6, 55, 5, 5, 99, 5000000, 2213, 844, 113, 4426, 1687, 225, 1 ],
+    [ "Bellmere - Meeting on the Battlefield", "DEX", ["Cerebral", "Shooter"], 5, 30, 5, 4, 99, 4000000, 1887, 748, 87, 3773, 1495, 173, 1 ],
+    [ "Nico Olvia - Protecting the Future Hope", "PSY", ["Cerebral", "Shooter"], 5, 30, 5, 4, 99, 4000000, 1794, 715, 113, 3587, 1429, 226, 1 ],
+    [ "Arlong - Laughing-Off the Hard Luck", "DEX", ["Slasher", "Powerhouse"], 5, 40, 5, 4, 99, 5000000, 1675, 820, 92, 3307, 1502, 199, 1 ],
+    [ "Arlong - Ruling for Eight Years", "DEX", ["Slasher", "Powerhouse"], "5+", 40, 5, 4, 99, 5000000, 1705, 830, 98, 3410, 1597, 210, 1 ],
+    [ "Jaguar D. Saul - Shouting the Future for a Friend", "PSY", ["Cerebral", "Fighter"], 5, 30, 4, 4, 99, 4000000, 2068, 780, 98, 4136, 1560, 195, 1 ],
+    [ "Franky - Memories of Straw Hat Pirates", "DEX", ["Powerhouse", "Shooter"], 6, 55, 4, 5, 99, 5000000, 2220, 926, 97, 4439, 1851, 194, 1 ],
+    [ "Tom - Pride of Being Neither Good nor Evil", "DEX", ["Powerhouse", "Fighter"], 5, 30, 5, 4, 99, 4000000, 1966, 689, 93, 3932, 1377, 186, 1 ],
+    [ "Iceburg - Assisting the Ship of Dreams", "DEX", ["Shooter", "Cerebral"], 5, 30, 5, 4, 99, 4000000, 1856, 771, 84, 3712, 1542, 168, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
