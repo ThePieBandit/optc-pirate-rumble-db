@@ -4194,6 +4194,12 @@ window.units = [
     [ "Franky - Memories of Straw Hat Pirates", "DEX", ["Powerhouse", "Shooter"], 6, 55, 4, 5, 99, 5000000, 2220, 926, 97, 4439, 1851, 194, 1 ],
     [ "Tom - Pride of Being Neither Good nor Evil", "DEX", ["Powerhouse", "Fighter"], 5, 30, 5, 4, 99, 4000000, 1966, 689, 93, 3932, 1377, 186, 1 ],
     [ "Iceburg - Assisting the Ship of Dreams", "DEX", ["Shooter", "Cerebral"], 5, 30, 5, 4, 99, 4000000, 1856, 771, 84, 3712, 1542, 168, 1 ],
+    [ "Laboon - Favorite Pirate Song", "INT", ["Free Spirit", "Powerhouse"], 5, 1, 4, 4, 99, 4000000, 1427, 624, 106, 2854, 1248, 212, 1 ],
+    [ "Brook - Memories of Straw Hat Pirates", "INT", ["Slasher", "Free Spirit"], 6, 55, 5, 5, 99, 5000000, 2342, 1166, 81, 3514, 2332, 162, 1 ],
+    [ "Yorki - Rumbar Pirates Captain", "INT", ["Slasher", "Free Spirit"], 5, 30, 4, 4, 99, 4000000, 2208, 812, 80, 3313, 1624, 160, 1 ],
+    [ "Boa Hancock - Empress Relaxing at the Night Pool", "PSY", ["Free Spirit", "Shooter"], "6+", 65, 4, 5, 99, 5000000, 1853, 886, 221, 3706, 1772, 442, 1 ],
+    [ "Gecko Moria - Knowing the Harshness of the World", "DEX", ["Powerhouse", "Driven"], 5, 50, 4, 4, 99, 5000000, 1445, 821, 110, 2890, 1642, 220, 1 ],
+    [ "Gecko Moria - Smashing the Sprout", "DEX", ["Powerhouse", "Driven"], "5+", 50, 4, 4, 99, 5000000, 1582, 873, 120, 3164, 1746, 240, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
