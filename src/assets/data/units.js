@@ -4200,6 +4200,10 @@ window.units = [
     [ "Boa Hancock - Empress Relaxing at the Night Pool", "PSY", ["Free Spirit", "Shooter"], "6+", 65, 4, 5, 99, 5000000, 1853, 886, 221, 3706, 1772, 442, 1 ],
     [ "Gecko Moria - Knowing the Harshness of the World", "DEX", ["Powerhouse", "Driven"], 5, 50, 4, 4, 99, 5000000, 1445, 821, 110, 2890, 1642, 220, 1 ],
     [ "Gecko Moria - Smashing the Sprout", "DEX", ["Powerhouse", "Driven"], "5+", 50, 4, 4, 99, 5000000, 1582, 873, 120, 3164, 1746, 240, 1 ],
+    [ "Jinbe - Memories of Straw Hat Pirates", "QCK", ["Powerhouse", "Free Spirit"], 6, 55, 4, 5, 99, 5000000, 2190, 873, 107, 4380, 1746, 213, 1 ],
+    [ "Fisher Tiger - Under the Sign of the Sun", "QCK", ["Powerhouse", "Fighter"], 5, 30, 5, 4, 99, 4000000, 1880, 744, 89, 3759, 1487, 178, 1 ],
+    [ "Aladdin - Opening the Way", "QCK", ["Powerhouse", "Striker"], 5, 30, 4, 4, 99, 4000000, 1863, 769, 84, 3726, 1538, 167, 1 ],
+    [ "Portgas D. Ace - Aiming for a Powerful Foe", "QCK", ["Free Spirit", "Powerhouse"], 5, 40, 4, 4, 99, 5000000, 1675, 820, 92, 3185, 1526, 211, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
