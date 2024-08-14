@@ -4204,6 +4204,16 @@ window.units = [
     [ "Fisher Tiger - Under the Sign of the Sun", "QCK", ["Powerhouse", "Fighter"], 5, 30, 5, 4, 99, 4000000, 1880, 744, 89, 3759, 1487, 178, 1 ],
     [ "Aladdin - Opening the Way", "QCK", ["Powerhouse", "Striker"], 5, 30, 4, 4, 99, 4000000, 1863, 769, 84, 3726, 1538, 167, 1 ],
     [ "Portgas D. Ace - Aiming for a Powerful Foe", "QCK", ["Free Spirit", "Powerhouse"], 5, 40, 4, 4, 99, 5000000, 1675, 820, 92, 3185, 1526, 211, 1 ],
+    [ "Portgas D. Ace - Crew-Protecting Flame Fence", "QCK", ["Free Spirit", "Powerhouse"], "5+", 40, 4, 4, 99, 5000000, 1705, 830, 98, 3311, 1589, 229, 1 ],
+    [ "Hatchan - Enjoying a Game", "QCK", ["Fighter", "Powerhouse"], 5, 30, 4, 4, 99, 4000000, 2024, 807, 94, 4048, 1614, 188, 1 ],
+    [ "Kozuki Hiyori - Graveside Prayer", "INT", ["Cerebral", "Free Spirit"], 5, 40, 5, 4, 99, 5000000, 1610, 811, 136, 3220, 1621, 273, 1 ],
+    [ "Kozuki Hiyori - Resounding Shamisen", "INT", ["Cerebral", "Free Spirit"], "5+", 40, 5, 4, 99, 5000000, 1658, 835, 146, 3316, 1669, 291, 1 ],
+    [ "Luffy VS Kaido - Fight to the Death", ["QCK", "DEX"], [["Free Spirit", "Fighter"],["Driven", "Powerhouse"]], 5, 30, 5, 3, 70, 1066998, 1304, 469, 69, 2607, 938, 137, 1 ],
+    [ "Luffy VS Kaido - Fate of the Land of Wano", ["QCK", "DEX"], [["Free Spirit", "Fighter"],["Driven", "Powerhouse"]], 6, 55, 5, 5, 99, 5000000, 2577, 932, 135, 5154, 1863, 270, 1 ],
+    [ "Yamato from ONE PIECE magazine - The Best Oiran of Wano", "INT", ["Free Spirit", "Cerebral"], 6, 55, 4, 5, 99, 5000000, 2285, 867, 156, 4569, 1734, 311, 1 ],
+    [ "Momonosuke & Kin'emon & Denjiro - Regaining Their Lost Glory to Shine as Before", "STR", ["Slasher", "Free Spirit"], 6, 55, 4, 5, 99, 5000000, 2057, 890, 136, 4113, 1780, 272, 1 ],
+    [ "Roronoa Zoro - Paying Respects to the Dead", "STR", ["Slasher", "Free Spirit"], 5, 30, 4, 4, 99, 4000000, 1963, 747, 75, 3925, 1493, 149, 1 ],
+    [ "Sangoro - An Act Before Parting", "QCK", ["Free Spirit", "Fighter"], 5, 30, 4, 4, 99, 4000000, 1716, 751, 114, 3432, 1501, 228, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };
@@ -4834,6 +4844,10 @@ var ghostsUnits = [
     [ "⚐ Killer - Best Partners", "DEX", ["Driven", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2020, 851, 155, 4040, 1702, 310, 1 ],
     [ "⚐ Kid & Killer - Best Partners", "INT", ["Driven", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2171, 895, 166, 4341, 1789, 331, 1 ],
     [ "⚐ Kid & Killer - Best Partners", "DEX", ["Driven", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2171, 895, 166, 4341, 1789, 331, 1 ],
+    [ "⚐ Monkey D. Luffy - Fight to the Death", "QCK", ["Free Spirit", "Fighter"], 5, 30, 4, 3, 70, 1066998, 1229, 442, 65, 2458, 884, 130, 1 ],
+    [ "⚐ Kaido - Fight to the Death", "DEX", ["Driven", "Powerhouse"], 5, 30, 4, 3, 70, 1066998, 1279, 458, 51, 2557, 916, 103, 1 ],
+    [ "⚐ Monkey D. Luffy - Fate of the Land of Wano", "QCK", ["Free Spirit", "Fighter"], 6, 55, 4, 5, 99, 5000000, 2428, 878, 128, 4856, 1756, 256, 1 ],
+    [ "⚐ Kaido - Fate of the Land of Wano", "DEX", ["Driven", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2527, 910, 101, 5054, 1820, 201, 1 ],
 ];
 
 window.units = window.units.concat(ghostsUnits);
