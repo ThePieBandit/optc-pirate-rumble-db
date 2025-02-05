@@ -9,7 +9,7 @@ const MonkeyDLuffy = [ "Monkey D. Luffy" ];
 const RoronoaZoro = [ "Roronoa Zoro" ];
 const Nami = [ "Nami" ];
 const Usopp = [ "Usopp" ];
-const VinsmokeSanji = [ "Vinsmoke Sanji" ];
+const VinsmokeSanji = [ "Vinsmoke Sanji", "Sanji" ];
 const TonyTonyChopper = [ "Tony Tony Chopper" ];
 const Higuma = [ "Higuma" ];
 const MasterOfTheNearSea = [ "Master of the Near Sea" ];
@@ -101,7 +101,7 @@ const Tsuru = [ "Tsuru" ];
 const Momonga = [ "Momonga" ];
 const Onigumo = [ "Onigumo" ];
 const MonkeyDGarp = [ "Monkey D. Garp" ];
-const TrafalgarDWaterLaw = [ "Trafalgar D. Water Law" ];
+const TrafalgarDWaterLaw = [ "Trafalgar D. Water Law", "Trafalgar Law" ];
 const BasilHawkins = [ "Basil Hawkins" ];
 const Killer = [ "Killer" ];
 const Urouge = [ "Urouge" ];
@@ -158,7 +158,7 @@ const GeckoMoria = [ "Gecko Moria" ];
 const BoaHancock = [ "Boa Hancock" ];
 const DonquixoteDoflamingo = [ "Donquixote Doflamingo", "Doffy" ];
 const Brook = [ "Brook" ];
-const ShimotsukiRyuma = [ "Shimotsuki Ryuma" ];
+const ShimotsukiRyuma = [ "Shimotsuki Ryuma", "Ryuma" ];
 const Masira = [ "Masira" ];
 const Shoujou = [ "Shoujou" ];
 const MontblancCricket = [ "Montblanc Cricket" ];
@@ -252,7 +252,7 @@ const Squard = [ "Squard" ];
 const WhiteyBay = [ "Whitey Bay" ];
 const LittleOarsJr = [ "Little Oars Jr." ];
 const Duval = [ "Duval" ];
-const NefertariCobra = [ "Nefertari Cobra" ];
+const NefertariCobra = [ "Nefertari Cobra", "Nefeltari Cobra" ];
 const Koala = [ "Koala" ];
 const Hack = [ "Hack" ];
 const Inazuma = [ "Inazuma" ];
@@ -443,7 +443,7 @@ const Wicca = [ "Wicca" ];
 const Gancho = [ "Gancho" ];
 const Cub = [ "Cub", "Kabu" ];
 const Bian = [ "Bian" ];
-const KurozumiKanjuro = [ "Kurozumi Kanjuro" ];
+const KurozumiKanjuro = [ "Kurozumi Kanjuro", "Kanjuro" ];
 const Dadan = [ "Dadan" ];
 const Porchemy = [ "Porchemy" ];
 const Bluejam = [ "Bluejam" ];
@@ -618,7 +618,7 @@ const Toko = [ "Toko" ];
 const King = [ "King", "Alber" ];
 const Onimaru = [ "Onimaru" ];
 const Gyukimaru = [ "Gyukimaru", "Onimaru" ];
-const KurozumiOrochi = [ "Kurozumi Orochi" ];
+const KurozumiOrochi = [ "Kurozumi Orochi", "Orochi" ];
 const Queen = [ "Queen" ];
 const Shinobu = [ "Shinobu" ];
 const Hyogoro = [ "Hyogoro" ];
@@ -635,7 +635,7 @@ const CatarinaDevon = [ "Catarina Devon" ];
 const VascoShot = [ "Vasco Shot" ];
 const SanjuanWolf = [ "Sanjuan Wolf", "San Juan Wolf" ];
 const Condoriano = [ "Condoriano" ];
-const KozukiToki = [ "Kozuki Toki" ];
+const KozukiToki = [ "Kozuki Toki", "Toki" ];
 const Gaban = [ "Scopper Gaban", "Gaban" ];
 const Morgans = [ "Morgans" ];
 const Yamato = [ "Yamato" ];
@@ -709,6 +709,15 @@ const York = [ "York", "PUNK-06" ];
 const Vegapunk = [ "Dr. Vegapunk", "Stella" ];
 const Shaka = [ "Shaka", "PUNK-01" ];
 const Hakugan = [ "Hakugan" ];
+const SSnake = [ "S-Snake" ];
+const SBear = [ "S-Bear" ];
+const FugarTheAddenturer = [ "Fugar the Addenturer" ];
+const FrogToesRibbitini = [ "Frog-Toes Ribbitini" ];
+const PururuTheBrrrave = [ "Pururu the Brr-rave" ];
+const PrinceGrus = [ "Prince Grus" ];
+const Kujaku = [ "Kujaku" ];
+const Hibari = [ "Hibari" ];
+const Doll = [ "Doll" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -4747,7 +4756,176 @@ window.families = {
     4144: [ ...JeanBart ],
     4145: [ ...Hakugan ],
     4146: [ ...MarshallDTeach ],
-    //break
+    4147: [ ...MarshallDTeach ],
+    4148: [ ...TonyTonyChopper ],
+    4149: [ ...MonkeyDLuffy ],
+    4150: [ ...MonkeyDLuffy ],
+    4151: [ ...GolDRoger ],
+    4152: [ ...Shanks ],
+    4153: [ ...Shanks ],
+    4154: [ ...PortgasDAce ],
+    4155: [ ...RoronoaZoro ],
+    4156: [ ...VinsmokeSanji ],
+    4157: [ ...Nami ],
+    4158: [ ...NicoRobin ],
+    4159: [ ...Jinbe ],
+    4162: [ ...MonkeyDLuffy ],
+    4163: [ ...Yamato ],
+    4164: [ ...Yamato ],
+    4165: [ ...Usopp ],
+    4166: [ ...SSnake ],
+    4167: [ ...SSnake ],
+    4168: [ ...Franky ],
+    4169: [ ...Brook ],
+    4170: [ ...RobLucci ],
+    4171: [ ...RoronoaZoro ],
+    4172: [ ...VinsmokeSanji ],
+    4173: [ ...Kuina ],
+    4174: [ ...Zeff ],
+    4176: [ ...DraculeMihawk ],
+    4177: [ ...DraculeMihawk ],
+    4178: [ ...Gin ],
+    4179: [ ...Usopp ],
+    4180: [ ...Kaya ],
+    4181: [ ...UsoppPirates ],
+    4182: [ ...TonyTonyChopper ],
+    4183: [ ...Hiriluk ],
+    4184: [ ...Kureha ],
+    4185: [ ...TrafalgarDWaterLaw ],
+    4186: [ ...Nami ],
+    4187: [ ...NicoRobin ],
+    4188: [ ...Bellmere ],
+    4189: [ ...NicoOlvia ],
+    4190: [ ...Arlong ],
+    4191: [ ...Arlong ],
+    4192: [ ...Saul ],
+    4193: [ ...Franky ],
+    4194: [ ...Tom ],
+    4195: [ ...Iceburg ],
+    4196: [ ...Laboon ],
+    4197: [ ...Brook ],
+    4198: [ ...Yorki ],
+    4199: [ ...BoaHancock ],
+    4200: [ ...GeckoMoria ],
+    4201: [ ...GeckoMoria ],
+    4202: [ ...Jinbe ],
+    4203: [ ...FisherTiger ],
+    4204: [ ...Aladdin ],
+    4205: [ ...PortgasDAce ],
+    4206: [ ...PortgasDAce ],
+    4207: [ ...Hatchan ],
+    4208: [ ...KozukiHiyori ],
+    4209: [ ...KozukiHiyori ],
+    4210: [ ...MonkeyDLuffy, ...Kaido ],
+    4211: [ ...MonkeyDLuffy, ...Kaido ],
+    4212: [ ...Yamato ],
+    4213: [ ...KozukiMomonosuke, ...Kinemon, ...Denjiro ],
+    4214: [ ...RoronoaZoro ],
+    4215: [ ...VinsmokeSanji ],
+    4216: [ ...EdwardNewgate ],
+    4217: [ ...Sakazuki ],
+    4218: [ ...MarshallDTeach, ...TrafalgarDWaterLaw ],
+    4219: [ ...MarshallDTeach, ...TrafalgarDWaterLaw ],
+    4220: [ ...Kuzan ],
+    4221: [ ...Kuzan ],
+    4222: [ ...JesusBurgess ],
+    4223: [ ...VanAugur ],
+    4224: [ ...Bepo ],
+    4225: [ ...Bepo ],
+    4226: [ ...SBear ],
+    4227: [ ...RobLucci, ...Kaku ],
+    4228: [ ...Stussy ],
+    4229: [ ...SSnake, ...SHawk, ...SShark ],
+    4230: [ ...Shanks, ...EustassKid ],
+    4231: [ ...Shanks, ...EustassKid ],
+    4232: [ ...Dorry, ...Broggy ],
+    4233: [ ...Dorry, ...Broggy ],
+    4234: [ ...FugarTheAddenturer ],
+    4235: [ ...FrogToesRibbitini ],
+    4236: [ ...PururuTheBrrrave ],
+    4237: [ ...BasilHawkins ],
+    4238: [ ...NefertariVivi ],
+    4239: [ ...MonkeyDGarp ],
+    4240: [ ...MonkeyDGarp ],
+    4241: [ ...PrinceGrus, ...Kujaku, ...Hibari ],
+    4242: [ ...PrinceGrus, ...Kujaku, ...Hibari ],
+    4243: [ ...Helmeppo ],
+    4244: [ ...Tashigi ],
+    4245: [ ...Kuzan ],
+    4246: [ ...Kuzan ],
+    4247: [ ...AvaloPizarro ],
+    4248: [ ...SanjuanWolf ],
+    4249: [ ...Coby ],
+    4250: [ ...Coby ],
+    4251: [ ...MonkeyDGarp ],
+    4252: [ ...Kuzan ],
+    4253: [ ...Shiryu ],
+    4254: [ ...VascoShot ],
+    4255: [ ...Doll ],
+    4256: [ ...Magellan ],
+    4257: [ ...GolDRoger, ...SilversRayleigh, ...Gaban ],
+    4258: [ ...Sengoku, ...MonkeyDGarp ],
+    4259: [ ...EdwardNewgate, ...KozukiOden ],
+    4260: [ ...Vegapunk ],
+    4261: [ ...Vegapunk ],
+    4262: [ ...Uta ],
+    4263: [ ...Perona ],
+    4264: [ ...Tsuru ],
+    4265: [ ...RoronoaZoro ],
+    4266: [ ...RoronoaZoro ],
+    4267: [ ...Kaido, ...King ],
+    4268: [ ...CharlotteLinlin, ...CharlotteKatakuri ],
+    4269: [ ...MarshallDTeach, ...Shiryu ],
+    4270: [ ...Shanks, ...BenBeckman ],
+    4271: [ ...NefertariVivi, ...Wapol ],
+    4272: [ ...Morgans ],
+    4273: [ ...JewelryBonney ],
+    4274: [ ...Crocodile ],
+    4275: [ ...KozukiOden, ...Kinemon, ...Denjiro ],
+    4276: [ ...Carrot, ...Inuarashi, ...Nekomamushi ],
+    4277: [ ...MonkeyDLuffy, ...RoronoaZoro, ...VinsmokeSanji, ...Jinbe ],
+    4278: [ ...KozukiMomonosuke, ...Yamato ],
+    4279: [ ...KurozumiOrochi, ...KurozumiKanjuro ],
+    4280: [ ...KurozumiOrochi, ...KurozumiKanjuro ],
+    4281: [ ...York ],
+    4282: [ ...Stussy ],
+    4283: [ ...Sentomaru ],
+    4284: [ ...Pacifista ],
+    4285: [ ...Shaka ],
+    4286: [ ...Vegapunk ],
+    4287: [ ...VinsmokeSanji, ...CharlottePudding ],
+    4288: [ ...Uta ],
+    4289: [ ...NefertariVivi, ...Rebecca ],
+    4290: [ ...MonkeyDLuffy ],
+    4291: [ ...Sabo ],
+    4292: [ ...Sabo ],
+    4293: [ ...EdwardNewgate, ...PortgasDAce ],
+    4294: [ ...BoaHancock, ...Nami, ...NicoRobin ],
+    4295: [ ...MonkeyDGarp ],
+    4296: [ ...Dadan ],
+    4297: [ ...Sakazuki ],
+    4298: [ ...Sakazuki ],
+    4299: [ ...Issho, ...Aramaki ],
+    4300: [ ...Morley, ...Karasu ],
+    4301: [ ...Lindbergh ],
+    4302: [ ...BeloBetty ],
+    4303: [ ...Sai, ...Leo ],
+    4304: [ ...Fukaboshi ],
+    4305: [ ...Shirahoshi ],
+    4306: [ ...BartholomewKuma ],
+    4307: [ ...Usopp, ...Lilith ],
+    4308: [ ...Nami, ...VinsmokeSanji ],
+    4309: [ ...Franky ],
+    4310: [ ...Brook ],
+    4311: [ ...SShark ],
+    //4312: [ ...SShark ],
+    4313: [ ...Sentomaru ],
+    //4314: [ ... ],
+    //4315: [ ... ],
+    //4316: [ ... ],
+    4317: [ ...Vegapunk ],
+    4318: [ ...Vegapunk ],
+    // break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],
@@ -5319,6 +5497,108 @@ const ghostFamilies = {
     552: [ ...Nami, ...Carina ],
     553: [ ...Nami, ...Carina ],
     554: [ ...Nami, ...Carina ],
+    555: [ ...Yamato ],
+    556: [ ...Yamato ],
+    557: [ ...Yamato ],
+    558: [ ...Yamato ],
+    559: [ ...Yamato ],
+    560: [ ...Yamato ],
+    561: [ ...Yamato ],
+    562: [ ...Yamato ],
+    563: [ ...RoronoaZoro, ...VinsmokeSanji ],
+    564: [ ...RoronoaZoro, ...VinsmokeSanji ],
+    565: [ ...RoronoaZoro, ...VinsmokeSanji ],
+    566: [ ...RoronoaZoro, ...VinsmokeSanji ],
+    567: [ ...RoronoaZoro, ...VinsmokeSanji ],
+    568: [ ...RoronoaZoro, ...VinsmokeSanji ],
+    569: [ ...RoronoaZoro, ...VinsmokeSanji ],
+    570: [ ...RoronoaZoro, ...VinsmokeSanji ],
+    571: [ ...Arlong, ...Choo, ...Kuroobi, ...Hatchan ],
+    572: [ ...Arlong, ...Choo, ...Kuroobi, ...Hatchan ],
+    573: [ ...Arlong, ...Choo, ...Kuroobi, ...Hatchan ],
+    574: [ ...DonquixoteDoflamingo, ...Sugar ],
+    575: [ ...DonquixoteDoflamingo, ...Sugar ],
+    576: [ ...DonquixoteDoflamingo, ...Sugar ],
+    577: [ ...DonquixoteDoflamingo, ...Sugar ],
+    578: [ ...DonquixoteDoflamingo, ...Sugar ],
+    579: [ ...DonquixoteDoflamingo, ...Sugar ],
+    580: [ ...DonquixoteDoflamingo, ...Sugar ],
+    581: [ ...DonquixoteDoflamingo, ...Sugar ],
+    582: [ ...GeckoMoria, ...Perona ],
+    583: [ ...GeckoMoria, ...Perona ],
+    584: [ ...GeckoMoria, ...Perona ],
+    585: [ ...GeckoMoria, ...Perona ],
+    586: [ ...GeckoMoria, ...Perona ],
+    587: [ ...GeckoMoria, ...Perona ],
+    588: [ ...GeckoMoria, ...Perona ],
+    589: [ ...GeckoMoria, ...Perona ],
+    590: [ ...TrafalgarDWaterLaw, ...Bepo ],
+    591: [ ...TrafalgarDWaterLaw, ...Bepo ],
+    592: [ ...TrafalgarDWaterLaw, ...Bepo ],
+    593: [ ...TrafalgarDWaterLaw, ...Bepo ],
+    594: [ ...EustassKid, ...Killer ],
+    595: [ ...EustassKid, ...Killer ],
+    596: [ ...EustassKid, ...Killer ],
+    597: [ ...EustassKid, ...Killer ],
+    598: [ ...EustassKid, ...Killer ],
+    599: [ ...EustassKid, ...Killer ],
+    600: [ ...EustassKid, ...Killer ],
+    601: [ ...EustassKid, ...Killer ],
+    602: [ ...MonkeyDLuffy, ...Kaido ],
+    603: [ ...MonkeyDLuffy, ...Kaido ],
+    604: [ ...MonkeyDLuffy, ...Kaido ],
+    605: [ ...MonkeyDLuffy, ...Kaido ],
+    606: [ ...MarshallDTeach, ...TrafalgarDWaterLaw ],
+    607: [ ...MarshallDTeach, ...TrafalgarDWaterLaw ],
+    608: [ ...MarshallDTeach, ...TrafalgarDWaterLaw ],
+    609: [ ...MarshallDTeach, ...TrafalgarDWaterLaw ],
+    610: [ ...RobLucci, ...Kaku ],
+    611: [ ...RobLucci, ...Kaku ],
+    612: [ ...RobLucci, ...Kaku ],
+    613: [ ...RobLucci, ...Kaku ],
+    614: [ ...Shanks, ...EustassKid ],
+    615: [ ...Shanks, ...EustassKid ],
+    616: [ ...Shanks, ...EustassKid ],
+    617: [ ...Shanks, ...EustassKid ],
+    618: [ ...GolDRoger, ...SilversRayleigh, ...Gaban ],
+    619: [ ...GolDRoger, ...SilversRayleigh, ...Gaban ],
+    620: [ ...GolDRoger, ...SilversRayleigh, ...Gaban ],
+    621: [ ...GolDRoger, ...SilversRayleigh, ...Gaban ],
+    622: [ ...Kaido, ...King ],
+    623: [ ...Kaido, ...King ],
+    624: [ ...Kaido, ...King ],
+    625: [ ...Kaido, ...King ],
+    626: [ ...CharlotteLinlin, ...CharlotteKatakuri ],
+    627: [ ...CharlotteLinlin, ...CharlotteKatakuri ],
+    628: [ ...CharlotteLinlin, ...CharlotteKatakuri ],
+    629: [ ...CharlotteLinlin, ...CharlotteKatakuri ],
+    630: [ ...KozukiOden, ...Kinemon, ...Denjiro ],
+    631: [ ...KozukiOden, ...Kinemon, ...Denjiro ],
+    632: [ ...KozukiOden, ...Kinemon, ...Denjiro ],
+    633: [ ...KozukiOden, ...Kinemon, ...Denjiro ],
+    634: [ ...Carrot, ...Inuarashi, ...Nekomamushi ],
+    635: [ ...Carrot, ...Inuarashi, ...Nekomamushi ],
+    636: [ ...Carrot, ...Inuarashi, ...Nekomamushi ],
+    637: [ ...Carrot, ...Inuarashi, ...Nekomamushi ],
+    638: [ ...VinsmokeSanji, ...CharlottePudding ],
+    639: [ ...VinsmokeSanji, ...CharlottePudding ],
+    640: [ ...VinsmokeSanji, ...CharlottePudding ],
+    641: [ ...VinsmokeSanji, ...CharlottePudding ],
+    642: [ ...NefertariVivi, ...Rebecca ],
+    643: [ ...NefertariVivi, ...Rebecca ],
+    644: [ ...NefertariVivi, ...Rebecca ],
+    645: [ ...NefertariVivi, ...Rebecca ],
+    646: [ ...EdwardNewgate, ...PortgasDAce ],
+    647: [ ...EdwardNewgate, ...PortgasDAce ],
+    648: [ ...EdwardNewgate, ...PortgasDAce ],
+    649: [ ...Usopp, ...Lilith ],
+    650: [ ...Usopp, ...Lilith ],
+    651: [ ...Usopp, ...Lilith ],
+    652: [ ...Usopp, ...Lilith ],
+    653: [ ...Nami, ...VinsmokeSanji ],
+    654: [ ...Nami, ...VinsmokeSanji ],
+    655: [ ...Nami, ...VinsmokeSanji ],
+    656: [ ...Nami, ...VinsmokeSanji ],
 }
 
 Object.keys(ghostFamilies).forEach(function (key) {
