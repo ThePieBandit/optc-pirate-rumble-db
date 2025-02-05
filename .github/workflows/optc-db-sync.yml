@@ -32,7 +32,7 @@ jobs:
       - name: Checkout OPTC-DB
         uses: actions/checkout@v3
         with:
-          repository: optc-db/optc-db.github.io
+          repository: 2Shankz/optc-db.github.io
           path: optc-db
       - name: Copy DB Files
         run: |
