@@ -4317,9 +4317,9 @@ window.units = [
     [ "Dracule Mihawk - Executives Seeing the Stone", "STR", ["Driven", "Slasher"], 5, 30, 5, 4, 99, 4000000, 1856, 807, 72, 3712, 1613, 144, 1 ],
     [ "Dr. Vegapunk - Drained Age", "DEX", ["Cerebral", "Free Spirit"], 5, 40, 5, 4, 99, 5000000, 1783, 799, 112, 3566, 1598, 223, 1 ],
     [ "Dr. Vegapunk - Genius Scientist Turned to a Child", "DEX", ["Cerebral", "Free Spirit"], "5+", 40, 5, 4, 99, 5000000, 1841, 811, 123, 3682, 1621, 246, 1 ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Chopper & Robin - Heading to the Lab", ["DEX", "PSY"], [["Cerebral", "Fighter"], ["Cerebral", "Fighter"], ["Cerebral", "Fighter"]], 6, 55, 4, 5, 99, 5000000, 2061, 945, 167, 4122, 1890, 333, 1 ],
+    [ "Dr. Vegapunk \"Atlas the Violent\" - Guidance to the Lab", "DEX", ["Cerebral", "Fighter"], 5, 30, 4, 4, 99, 4000000, 1889, 788, 73, 3777, 1575, 146, 1 ],
+    [ "Kuzan - Freezing at Absolute Zero", "QCK", ["Free Spirit", "Shooter"], "6+", 65, 4, 5, 99, 5000000, 2223, 1262, 139, 4446, 1893, 278, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
@@ -5083,6 +5083,10 @@ var ghostsUnits = [
     [ "⚐ Sanji - Confronting the Peak of Science", "QCK", ["Fighter", "Cerebral"], 6, 55, 4, 5, 99, 5000000, 1949, 917, 145, 3898, 1834, 289, 1 ],
     [ "⚐ Nami & Sanji - Confronting the Peak of Science", "DEX", ["Cerebral", "Fighter"], 6, 55, 4, 5, 99, 5000000, 2138, 938, 156, 4276, 1876, 312, 1 ],
     [ "⚐ Nami & Sanji - Confronting the Peak of Science", "QCK", ["Fighter", "Cerebral"], 6, 55, 4, 5, 99, 5000000, 2138, 938, 156, 4276, 1876, 312, 1 ],
+    [ "⚐ Tony Tony Chopper - Heading to the Lab", "DEX", ["Cerebral", "Fighter"], 6, 55, 4, 5, 99, 5000000, 1884, 923, 154, 3768, 1845, 307, 1 ],
+    [ "⚐ Nico Robin - Heading to the Lab", "PSY", ["Cerebral", "Fighter"], 6, 55, 4, 5, 99, 5000000, 1941, 930, 142, 3882, 1860, 283, 1 ],
+    [ "⚐ Chopper & Robin - Heading to the Lab", "DEX", ["Cerebral", "Fighter"], 6, 55, 4, 5, 99, 5000000, 2061, 945, 167, 4122, 1890, 333, 1 ],
+    [ "⚐ Chopper & Robin - Heading to the Lab", "PSY", ["Cerebral", "Fighter"], 6, 55, 4, 5, 99, 5000000, 2061, 945, 167, 4122, 1890, 333, 1 ],
 ];
 
 window.units = window.units.concat(ghostsUnits);
