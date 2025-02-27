@@ -4933,6 +4933,8 @@ window.families = {
     4324: [ ...Jinbe ],
     4325: [ ...Stussy ],
     4326: [ ...SBear ],
+    //4327: [ ...SBear ],
+    4328: [ ...EdwardWeevil ],
     // break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
