@@ -173749,6 +173749,163 @@ window.details = {
 			}
 		]
 	},
+	4328: {//Weevil
+		captain: "Reduces crew's current HP by 50% at the start of the fight, and boosts HP of all characters by 1.3x. If HP is below 25% at the start of the turn, boosts ATK of Striker characters by 5.75x and deals 300x character's ATK in [QCK] damage to all enemies at the end of each turn; boosts ATK of Striker characters by 5.25x and deals 80x character's ATK in [QCK] damage to all enemies at the end of each turn otherwise.",
+		special: "Reduces crew's current HP by 99%, deals 50x the amount of HP subtracted in Typeless damage to all enemies, changes all orbs, including [BLOCK] orbs, into [QCK] orbs, and boosts Final Tap ATK of Striker characters by 15%. If your crew has Chain Multiplication when the special is activated, increases boost effects of Chain Multiplication buffs by +0.25x, and increases duration of any Chain Multiplication buffs by 1 turn. If your Captain is a Striker character, boosts Chain Multiplier Growth Rate by 1.75x for 1 turn, and reduces ATK Down and Chain Multiplier Limit duration by 4 turns.",
+		specialName: "Clearing Strike",
+		sailor: {
+			level1: "Makes [QCK] and [RCV] orbs beneficial for Striker characters.",
+			level2: "Removes Stun duration completely on this character."
+		},
+		support: [
+			{
+				Characters: "[QCK] characters",
+				description: [
+					"Adds 5% of this character's base HP to the supported character's base HP.",
+					"Adds 6% of this character's base HP to the supported character's base HP.",
+					"Adds 8% of this character's base HP to the supported character's base HP.",
+					"Adds 10% of this character's base HP to the supported character's base HP.",
+					"Adds 13% of this character's base HP to the supported character's base HP."
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Acquire Potential 1: Critical Hit" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Acquire Sailor Ability 1: Makes Striker characters' [QCK][RCV] slots have matching slot effects" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire Potential 2: Reduce Slot Bind duration" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Acquire Sailor Ability 2: Makes character immune to Stun" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Acquire Potential 3: Double Special Activation" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 250" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Reduce base Special Cooldown by 1 turn" }
+		],
+		potential: [
+			{
+				Name: "Critical Hit",
+				description: [
+					"If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+				]
+			},
+			{
+				Name: "Reduce Slot Bind duration",
+				description: [
+					"Reduces Slot Bind duration by 1 turn on this character",
+					"Reduces Slot Bind duration by 2 turns on this character",
+					"Reduces Slot Bind duration by 3 turns on this character",
+					"Reduces Slot Bind duration by 4 turns on this character",
+					"Reduces Slot Bind duration by 5 turns on this character"
+				]
+			},
+			{
+				Name: "Double Special Activation",
+				description: [
+					"Once per adventure, reduces character's Special charge time by 1 turn after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 3 turns after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 5 turns after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 7 turns after character uses Special",
+					"Once per adventure, sets character's Special charge to MAX after character uses Special"
+				]
+			}
+		],
+		festStats: {
+			def: 159,
+			spd: 156,
+			style: "ATK"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Normal Attack",
+			"Power Attack",
+			"Full Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Completely evades Damage Over Time, reduce damage taken from [STR] by 30%, increase damage dealt to [STR] by 30%",
+		festAbility: [
+			"[QCK] teammates HP Up Lv.2, DEF Up Lv.2, Blow Away % Up Lv.1; when remaining HP is 60% or above, self ATK Up Lv.3",
+			"[QCK] teammates HP Up Lv.3, DEF Up Lv.3, Blow Away % Up Lv.2; when remaining HP is 60% or above, self ATK Up Lv.4",
+			"[QCK] teammates HP Up Lv.4, DEF Up Lv.4, Blow Away % Up Lv.3; when remaining HP is 60% or above, self ATK Up Lv.5",
+			"[QCK] teammates HP Up Lv.5, DEF Up Lv.5, Blow Away % Up Lv.4; when remaining HP is 60% or above, self ATK Up Lv.6",
+			"[QCK] teammates HP Up Lv.6, DEF Up Lv.6, Blow Away % Up Lv.5; when remaining HP is 60% or above, self ATK Up Lv.8"
+		],
+		festSpecial: [
+			{
+				cooldown: 30,
+				description: "Targets self for Blow Away % Up Lv.1 (15 s); if 8 or more [QCK] characters are on the team, 71% chance to remove team's ATK Down; targets 3 high DEF enemies ignoring DEF for ATK x 1.3 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for Blow Away % Up Lv.1 (15 s); if 8 or more [QCK] characters are on the team, 74% chance to remove team's ATK Down; targets 3 high DEF enemies ignoring DEF for ATK x 1.4 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for Blow Away % Up Lv.1 (15 s); if 8 or more [QCK] characters are on the team, 77% chance to remove team's ATK Down; targets 3 high DEF enemies ignoring DEF for ATK x 1.5 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for Blow Away % Up Lv.2 (15 s); if 8 or more [QCK] characters are on the team, 80% chance to remove team's ATK Down; targets 3 high DEF enemies ignoring DEF for ATK x 1.6 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for Blow Away % Up Lv.2 (15 s); if 8 or more [QCK] characters are on the team, 83% chance to remove team's ATK Down; targets 3 high DEF enemies ignoring DEF for ATK x 1.7 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for Blow Away % Up Lv.3 (15 s); if 8 or more [QCK] characters are on the team, 86% chance to remove team's ATK Down; targets 3 high DEF enemies ignoring DEF for ATK x 1.8 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for Blow Away % Up Lv.3 (15 s); if 8 or more [QCK] characters are on the team, 89% chance to remove team's ATK Down; targets 3 high DEF enemies ignoring DEF for ATK x 1.9 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for Blow Away % Up Lv.3 (15 s); if 8 or more [QCK] characters are on the team, 92% chance to remove team's ATK Down; targets 3 high DEF enemies ignoring DEF for ATK x 2 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for Blow Away % Up Lv.4 (15 s); if 8 or more [QCK] characters are on the team, 95% chance to remove team's ATK Down; targets 3 high DEF enemies ignoring DEF for ATK x 2.1 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for Blow Away % Up Lv.5 (15 s); if 8 or more [QCK] characters are on the team, 100% chance to remove team's ATK Down; targets 3 high DEF enemies ignoring DEF for ATK x 2.2 damage"
+			}
+		]
+	},
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",

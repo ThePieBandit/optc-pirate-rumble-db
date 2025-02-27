@@ -4326,7 +4326,7 @@ window.units = [
     [ "Stussy - Shared Peril", "QCK", ["Cerebral", "Shooter"], 5, 30, 4, 4, 99, 4000000, 1844, 751, 105, 3688, 1501, 210, 1 ],
     [ "S-Bear - Assaulting Weapon", "QCK", ["Fighter", "Shooter"], 5, 40, 4, 4, 99, 5000000, 1596, 779, 100, 3192, 1558, 199, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Edward Weevil - Former Warlord Saving the Village", "QCK", ["Striker", "Slasher"], 6, 55, 4, 5, 99, 5000000, 2413, 839, 94, 4826, 1678, 187, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
