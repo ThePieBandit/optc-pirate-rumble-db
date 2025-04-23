@@ -168986,6 +168986,258 @@ window.details = {
 			}
 		]
 	},
+	4351: {//Luffy
+		captain: "Boosts crew's ATK by 2.5x",
+		special: "Deals 30x character's ATK in [STR] damage to all enemies",
+		specialName: "Raining Rubble: Neo",
+		sailor: {
+			base: "Boosts crew's base ATK by 50",
+			level1: "Boosts crew's base HP by 50"
+		},
+		limit: [
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Acquire Potential 1: [DEX] Damage Reduction" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Acquire Potential 2: Last Tap" }
+		],
+		potential: [
+			{
+				Name: "[DEX] Damage Reduction",
+				description: [
+					"Reduces damage taken from [DEX] characters by 1%",
+					"Reduces damage taken from [DEX] characters by 2%",
+					"Reduces damage taken from [DEX] characters by 3%",
+					"Reduces damage taken from [DEX] characters by 4%",
+					"Reduces damage taken from [DEX] characters by 5%"
+				]
+			},
+			{
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
+			}
+		],
+		lastTap: {
+			condition: "At final battle",
+			description: [
+				"Changes character's slot to character's own type, and boosts character's base ATK by +500 for 1 turn (stacks with effects from Special)",
+				"Changes character's slot to character's own type, and boosts character's base ATK by +600 for 1 turn (stacks with effects from Special)",
+				"Changes character's slot to character's own type, and boosts character's base ATK by +700 for 1 turn (stacks with effects from Special)",
+				"Changes character's slot to character's own type, and boosts character's base ATK by +800 for 1 turn (stacks with effects from Special)",
+				"Changes character's slot to character's own type, and boosts character's base ATK by +1000 for 1 turn (stacks with effects from Special)"
+			],
+		},
+		festStats: {
+			def: 132,
+			spd: 150,
+			style: "ATK"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Normal Attack",
+			"Power Attack",
+			"Full Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Heal 300 HP at an interval, reduce damage taken from [DEX] by 20%",
+		festAbility: [
+			"Team ATK Up Lv.1, HP Up Lv.1; after 50 s of battle, [STR]/Fighter/Free Spirit class teammates DEF Up Lv.1",
+			"Team ATK Up Lv.2, HP Up Lv.2; after 50 s of battle, [STR]/Fighter/Free Spirit class teammates DEF Up Lv.2",
+			"Team ATK Up Lv.3, HP Up Lv.3; after 50 s of battle, [STR]/Fighter/Free Spirit class teammates DEF Up Lv.3",
+			"Team ATK Up Lv.4, HP Up Lv.4; after 50 s of battle, [STR]/Fighter/Free Spirit class teammates DEF Up Lv.4",
+			"Team ATK Up Lv.5, HP Up Lv.5; after 50 s of battle, [STR]/Fighter/Free Spirit class teammates DEF Up Lv.5"
+		],
+		festSpecial: [
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2000 damage; after 50 s of battle, targets 1 enemy with low current HP for 3000 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2100 damage; after 50 s of battle, targets 1 enemy with low current HP for 3100 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2200 damage; after 50 s of battle, targets 1 enemy with low current HP for 3200 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2300 damage; after 50 s of battle, targets 1 enemy with low current HP for 3300 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2400 damage; after 50 s of battle, targets 1 enemy with low current HP for 3400 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2500 damage; after 50 s of battle, targets 1 enemy with low current HP for 3500 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2600 damage; after 50 s of battle, targets 1 enemy with low current HP for 3600 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2700 damage; after 50 s of battle, targets 1 enemy with low current HP for 3700 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2800 damage; after 50 s of battle, targets 1 enemy with low current HP for 3800 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 3000 damage; after 50 s of battle, targets 1 enemy with low current HP for 4000 damage"
+			}
+		]
+	},
+	4352: {//Luffy
+		captain: "Boosts crew's ATK by 4x, makes crew's [RCV][TND] slots have matching slot effects, and boosts Berries and Pirate EXP earned by 1.2x (unless character became Captain in the middle of the quest)",
+		special: "Deals 60x character's ATK in [STR] damage to all enemies, boosts crew's ATK by 2.5x for 3 turns, and if character is a Captain/Friend Captain/Helper Captain, makes crew's type slots have matching slot effects for 3 turns",
+		specialName: "Raining Rubble: Neo",
+		sailor: {
+			base: "Boosts crew's base ATK by 50",
+			level1: "Boosts crew's base HP by 50"
+		},
+		support: [
+			{
+				Characters: "All characters",
+				description: [
+					"Adds 3% of character's base ATK to supported character's base ATK",
+					"Adds 4% of character's base ATK to supported character's base ATK",
+					"Adds 5% of character's base ATK to supported character's base ATK",
+					"Adds 6% of character's base ATK to supported character's base ATK",
+					"Adds 7% of character's base ATK to supported character's base ATK"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Acquire Potential 1: [DEX] Damage Reduction" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Acquire Potential 2: Last Tap" }
+		],
+		potential: [
+			{
+				Name: "[DEX] Damage Reduction",
+				description: [
+					"Reduces damage taken from [DEX] characters by 1%",
+					"Reduces damage taken from [DEX] characters by 2%",
+					"Reduces damage taken from [DEX] characters by 3%",
+					"Reduces damage taken from [DEX] characters by 4%",
+					"Reduces damage taken from [DEX] characters by 5%"
+				]
+			},
+			{
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
+			}
+		],
+		lastTap: {
+			condition: "At final battle",
+			description: [
+				"Changes character's slot to character's own type, and boosts character's base ATK by +500 for 1 turn (stacks with effects from Special)",
+				"Changes character's slot to character's own type, and boosts character's base ATK by +600 for 1 turn (stacks with effects from Special)",
+				"Changes character's slot to character's own type, and boosts character's base ATK by +700 for 1 turn (stacks with effects from Special)",
+				"Changes character's slot to character's own type, and boosts character's base ATK by +800 for 1 turn (stacks with effects from Special)",
+				"Changes character's slot to character's own type, and boosts character's base ATK by +1000 for 1 turn (stacks with effects from Special)"
+			],
+		},
+		festStats: {
+			def: 132,
+			spd: 150,
+			style: "ATK"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Normal Attack",
+			"Power Attack",
+			"Full Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Heal 300 HP at an interval, reduce damage taken from [DEX] by 20%",
+		festAbility: [
+			"Team ATK Up Lv.1, HP Up Lv.1; after 50 s of battle, [STR]/Fighter/Free Spirit class teammates DEF Up Lv.1",
+			"Team ATK Up Lv.2, HP Up Lv.2; after 50 s of battle, [STR]/Fighter/Free Spirit class teammates DEF Up Lv.2",
+			"Team ATK Up Lv.3, HP Up Lv.3; after 50 s of battle, [STR]/Fighter/Free Spirit class teammates DEF Up Lv.3",
+			"Team ATK Up Lv.4, HP Up Lv.4; after 50 s of battle, [STR]/Fighter/Free Spirit class teammates DEF Up Lv.4",
+			"Team ATK Up Lv.5, HP Up Lv.5; after 50 s of battle, [STR]/Fighter/Free Spirit class teammates DEF Up Lv.5"
+		],
+		festSpecial: [
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2000 damage; after 50 s of battle, targets 1 enemy with low current HP for 3000 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2100 damage; after 50 s of battle, targets 1 enemy with low current HP for 3100 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2200 damage; after 50 s of battle, targets 1 enemy with low current HP for 3200 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2300 damage; after 50 s of battle, targets 1 enemy with low current HP for 3300 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2400 damage; after 50 s of battle, targets 1 enemy with low current HP for 3400 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2500 damage; after 50 s of battle, targets 1 enemy with low current HP for 3500 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2600 damage; after 50 s of battle, targets 1 enemy with low current HP for 3600 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2700 damage; after 50 s of battle, targets 1 enemy with low current HP for 3700 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 2800 damage; after 50 s of battle, targets 1 enemy with low current HP for 3800 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Targets enemies within large range for 3000 damage; after 50 s of battle, targets 1 enemy with low current HP for 4000 damage"
+			}
+		]
+	},
 	4359: {//Imposter Straw Hats
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cost 40 or lower characters by 4.5x, and boosts HP of all characters by 0.1x.",
 		special: "Makes PERFECTs harder to hit for 1 turn, inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn, changes orbs of left column characters into [RAINBOW], [BOMB] and [PARALYSIS] orbs, and changes orbs of right column characters into [WANO], [SEMLA] and [SUPERBOMB] orbs.",
