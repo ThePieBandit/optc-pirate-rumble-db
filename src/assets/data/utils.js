@@ -632,7 +632,7 @@
 		// depending on the conditions (so that one will handle the `Striker characters`,
 		// the other will handle the family names.)
 		let charactersRegex =
-			/of the following, excluding Supports and counting only 1 per unit\: (?!.+:)(?:\d (.*?)characters(?: or )?)?(.*)?\./i;
+			/of the following, excluding Supports and counting only 1 per unit\: (?!.+:)(?:\d (.*?)characters(?: or )?)?(.*)?/i;
 		let match = criteria.match(charactersRegex);
 		if (!match) return null;
 		// prioritize family names. if there are no family names (match[2] is null|undefined), use the classes/types condition.
@@ -2828,6 +2828,30 @@
 				break;
 			case (ghostPoint + 668).toString():
 				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4323-QCK.png";
+				break;
+			case (ghostPoint + 669).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4348-1.png";
+				break;
+			case (ghostPoint + 670).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4348-2.png";
+				break;
+			case (ghostPoint + 671).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4348-PSY.png";
+				break;
+			case (ghostPoint + 672).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4348-DEX.png";
+				break;
+			case (ghostPoint + 673).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4350-1.png";
+				break;
+			case (ghostPoint + 674).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4350-2.png";
+				break;
+			case (ghostPoint + 675).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4350-DEX.png";
+				break;
+			case (ghostPoint + 676).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4350-STR.png";
 				break;
 			default:
 				break;
