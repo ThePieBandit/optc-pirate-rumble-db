@@ -168987,12 +168987,12 @@ window.details = {
 		]
 	},
 	4351: {//Luffy
-		captain: "Boosts crew's ATK by 2.5x",
-		special: "Deals 30x character's ATK in [STR] damage to all enemies",
+		captain: "Boosts ATK of all characters by 2.5x.",
+		special: "Deals 30x character's ATK in [STR] damage to all enemies.",
 		specialName: "Raining Rubble: Neo",
 		sailor: {
-			base: "Boosts crew's base ATK by 50",
-			level1: "Boosts crew's base HP by 50"
+			base: "Boosts base ATK of all characters by 50.",
+			level1: "Boosts base HP of all characters by 50."
 		},
 		limit: [
 			{ description: "Boosts base HP by 20" },
@@ -169034,13 +169034,13 @@ window.details = {
 			}
 		],
 		lastTap: {
-			condition: "At final battle",
+			condition: "On the last stage",
 			description: [
-				"Changes character's slot to character's own type, and boosts character's base ATK by +500 for 1 turn (stacks with effects from Special)",
-				"Changes character's slot to character's own type, and boosts character's base ATK by +600 for 1 turn (stacks with effects from Special)",
-				"Changes character's slot to character's own type, and boosts character's base ATK by +700 for 1 turn (stacks with effects from Special)",
-				"Changes character's slot to character's own type, and boosts character's base ATK by +800 for 1 turn (stacks with effects from Special)",
-				"Changes character's slot to character's own type, and boosts character's base ATK by +1000 for 1 turn (stacks with effects from Special)"
+				"Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 500 for 1 turn.",
+				"Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 600 for 1 turn.",
+				"Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 700 for 1 turn.",
+				"Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 800 for 1 turn.",
+				"Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 1,000 for 1 turn."
 			],
 		},
 		festStats: {
@@ -169107,22 +169107,22 @@ window.details = {
 		]
 	},
 	4352: {//Luffy
-		captain: "Boosts crew's ATK by 4x, makes crew's [RCV][TND] slots have matching slot effects, and boosts Berries and Pirate EXP earned by 1.2x (unless character became Captain in the middle of the quest)",
-		special: "Deals 60x character's ATK in [STR] damage to all enemies, boosts crew's ATK by 2.5x for 3 turns, and if character is a Captain/Friend Captain/Helper Captain, makes crew's type slots have matching slot effects for 3 turns",
+		captain: "Boosts ATK of all characters by 4x, makes [RCV] and [TND] orbs beneficial for all characters, and boosts EXP and amount of Beli received by 1.2x.",
+		special: "Deals 60x character's ATK in [STR] damage to all enemies, and boosts ATK of all characters by 2.5x for 3 turns. If this character is your Captain or Friend Captain when the special is activated, makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 3 turns.",
 		specialName: "Raining Rubble: Neo",
 		sailor: {
-			base: "Boosts crew's base ATK by 50",
-			level1: "Boosts crew's base HP by 50"
+			base: "Boosts base ATK of all characters by 50.",
+			level1: "Boosts base HP of all characters by 50."
 		},
 		support: [
 			{
 				Characters: "All characters",
 				description: [
-					"Adds 3% of character's base ATK to supported character's base ATK",
-					"Adds 4% of character's base ATK to supported character's base ATK",
-					"Adds 5% of character's base ATK to supported character's base ATK",
-					"Adds 6% of character's base ATK to supported character's base ATK",
-					"Adds 7% of character's base ATK to supported character's base ATK"
+					"Adds 3% of this character's base ATK to the supported character's base ATK.",
+					"Adds 4% of this character's base ATK to the supported character's base ATK.",
+					"Adds 5% of this character's base ATK to the supported character's base ATK.",
+					"Adds 6% of this character's base ATK to the supported character's base ATK.",
+					"Adds 7% of this character's base ATK to the supported character's base ATK."
 				]
 			}
 		],
@@ -169166,13 +169166,13 @@ window.details = {
 			}
 		],
 		lastTap: {
-			condition: "At final battle",
+			condition: "On the last stage",
 			description: [
-				"Changes character's slot to character's own type, and boosts character's base ATK by +500 for 1 turn (stacks with effects from Special)",
-				"Changes character's slot to character's own type, and boosts character's base ATK by +600 for 1 turn (stacks with effects from Special)",
-				"Changes character's slot to character's own type, and boosts character's base ATK by +700 for 1 turn (stacks with effects from Special)",
-				"Changes character's slot to character's own type, and boosts character's base ATK by +800 for 1 turn (stacks with effects from Special)",
-				"Changes character's slot to character's own type, and boosts character's base ATK by +1000 for 1 turn (stacks with effects from Special)"
+				"Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 500 for 1 turn.",
+				"Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 600 for 1 turn.",
+				"Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 700 for 1 turn.",
+				"Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 800 for 1 turn.",
+				"Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 1,000 for 1 turn."
 			],
 		},
 		festStats: {
