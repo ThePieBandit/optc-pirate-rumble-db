@@ -4959,7 +4959,12 @@ window.families = {
     4350: [ ...NefertariVivi, ...Rebecca ],
     4351: [ ...MonkeyDLuffy ],
     4352: [ ...MonkeyDLuffy ],
-    //break
+    4353: [ ...BartholomewKuma ],
+    4354: [ ...Vegapunk ],
+    4355: [ ...Sentomaru ],
+    4356: [ ...Pacifista ],
+    4357: [ ...York ],
+    //4358: [ ...York ],
     4359: [ ...DemaloBlack, ...Chocolat, ...Cocoa, ...NoraGitsune, ...Manjaro, ...Drip, ...Mounblutain, ...Turco ],
     //break
     4986: [ ...MonkeyDLuffy ],
