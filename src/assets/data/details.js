@@ -169238,6 +169238,668 @@ window.details = {
 			}
 		]
 	},
+	4353: {//Kuma
+		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Cerebral and Powerhouse characters' ATK by 5.25x, HP by 1.4x, and makes their [PSY][RCV][TND] slots have matching slot effects, and reduces crew's Paralysis duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more  [Egghead] characters are on the crew, boosts Cerebral and Powerhouse characters' ATK by a further 1.1x. If 5 or more  [Egghead] characters are on the crew, reduces crew's Despair duration by 2 turns. Boosts [Paramythia-type] [Revolutionary Army] characters' base HP by +1500",
+		special: "Reduces Cerebral and Powerhouse characters' Special charge time by 1 turn and Switch Effect by 3, reduces crew's Blown Away duration by 4 turns, and boosts crew's ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 3 turns. If crew has 4 or more [Paramythia-type] [Egghead] [Revolutionary Army] characters on the crew, further increases crew's additive chain multiplier boost (except multiplicative boosts) by +1.0, and boosts the chain multiplier by +1.6 for 3 turns (by +1.4 for 1 turn otherwise; allows this boost effect to be further increased up to 2 times)",
+		specialName: "Charging Through Fiercely",
+		sailor: {
+			base: "Reduces character's Special Reverse by 3 turns",
+			level1: "Character cannot be blown away by attack"
+		},
+		superSpecial: "Reduces Cerebral and Powerhouse characters' Special charge time by 1 turn, boosts their slot effects by 2.25x for 3 turns, and changes Cerebral characters to Super Cerebral",
+		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters): Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Sabo, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Nico Robin",
+		support: [
+			{
+				Characters: "Jewelry Bonney",
+				description: [
+					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.3",
+					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.4",
+					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.5",
+					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.7",
+					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.7 and reduces crew's Despair duration by 2 turns"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base HP by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Acquire Potential 1: Enrage/Reduce Increase Damage Taken duration" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Acquire Potential 2: Reduce Sailor Despair duration" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base RCV by 40" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Acquire Potential 3: Ship Bind Resistance" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Reduce base Special Cooldown by 1 turn" }
+		],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+		potential: [
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 225 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+				]
+			},
+			{
+				Name: "Reduce Sailor Despair duration",
+				description: [
+					"Reduces Sailor Despair duration by 1 turn on this character",
+					"Reduces Sailor Despair duration by 2 turns on this character",
+					"Reduces Sailor Despair duration by 3 turns on this character",
+					"Reduces Sailor Despair duration by 4 turns on this character",
+					"Reduces Sailor Despair duration by 5 turns on this character"
+				]
+			},
+			{
+				Name: "Ship Bind Resistance",
+				description: [
+					"Reduces Ship Bind duration by 1 turn",
+					"Reduces Ship Bind duration by 2 turns",
+					"Reduces Ship Bind duration by 3 turns",
+					"Reduces Ship Bind duration by 4 turns",
+					"Reduces Ship Bind duration by 5 turns"
+				]
+			}
+		],
+		festStats: {
+			def: 332,
+			spd: 106,
+			style: "DEF"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Power Attack",
+			"Heal Teammate in Range Lv.1 (Small Range)",
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Completely evades Forced Out, reduce damage taken from [INT] by 30%",
+		festAbility: [
+			"[PSY]/Cerebral class teammates HP Up Lv.3, DEF Up Lv.3; self Guard % Up Lv.6; revives self up to 1 time at 50% HP",
+			"[PSY]/Cerebral class teammates HP Up Lv.4, DEF Up Lv.4; self Guard % Up Lv.7; revives self up to 1 time at 50% HP",
+			"[PSY]/Cerebral class teammates HP Up Lv.5, DEF Up Lv.5; self Guard % Up Lv.8; revives self up to 1 time at 50% HP",
+			"[PSY]/Cerebral class teammates HP Up Lv.6, DEF Up Lv.6; self Guard % Up Lv.9; revives self up to 1 time at 50% HP",
+			"[PSY]/Cerebral class teammates HP Up Lv.7, DEF Up Lv.7; self Guard % Up Lv.10; revives self up to 1 time at 50% HP"
+		],
+		festSpecial: [
+			{
+				cooldown: 32,
+				description: "Targets enemies within large range for ATK x 1.5 damage; targets Cerebral class/[PSY] teammates for DEF Up Lv.2 (20 s); activates Provoke on self (11 s); targets self for ATK x 2.1 Counter stance (11 s); if 8 or more Cerebral/Powerhouse class characters are on the team, targets 2 high ATK enemies for 71% chance of Forced Out (8 s)"
+			},
+			{
+				cooldown: 32,
+				description: "Targets enemies within large range for ATK x 1.65 damage; targets Cerebral class/[PSY] teammates for DEF Up Lv.2 (20 s); activates Provoke on self (12 s); targets self for ATK x 2.2 Counter stance (12 s); if 8 or more Cerebral/Powerhouse class characters are on the team, targets 2 high ATK enemies for 74% chance of Forced Out (8 s)"
+			},
+			{
+				cooldown: 32,
+				description: "Targets enemies within large range for ATK x 1.8 damage; targets Cerebral class/[PSY] teammates for DEF Up Lv.3 (20 s); activates Provoke on self (13 s); targets self for ATK x 2.3 Counter stance (13 s); if 8 or more Cerebral/Powerhouse class characters are on the team, targets 2 high ATK enemies for 77% chance of Forced Out (8 s)"
+			},
+			{
+				cooldown: 32,
+				description: "Targets enemies within large range for ATK x 1.95 damage; targets Cerebral class/[PSY] teammates for DEF Up Lv.3 (20 s); activates Provoke on self (14 s); targets self for ATK x 2.4 Counter stance (14 s); if 8 or more Cerebral/Powerhouse class characters are on the team, targets 2 high ATK enemies for 80% chance of Forced Out (8 s)"
+			},
+			{
+				cooldown: 32,
+				description: "Targets enemies within large range for ATK x 2.1 damage; targets Cerebral class/[PSY] teammates for DEF Up Lv.4 (20 s); activates Provoke on self (15 s); targets self for ATK x 2.5 Counter stance (15 s); if 8 or more Cerebral/Powerhouse class characters are on the team, targets 2 high ATK enemies for 83% chance of Forced Out (8 s)"
+			},
+			{
+				cooldown: 32,
+				description: "Targets enemies within large range for ATK x 2.25 damage; targets Cerebral class/[PSY] teammates for DEF Up Lv.4 (20 s); activates Provoke on self (16 s); targets self for ATK x 2.6 Counter stance (16 s); if 8 or more Cerebral/Powerhouse class characters are on the team, targets 2 high ATK enemies for 86% chance of Forced Out (8 s)"
+			},
+			{
+				cooldown: 32,
+				description: "Targets enemies within large range for ATK x 2.4 damage; targets Cerebral class/[PSY] teammates for DEF Up Lv.5 (20 s); activates Provoke on self (17 s); targets self for ATK x 2.7 Counter stance (17 s); if 8 or more Cerebral/Powerhouse class characters are on the team, targets 2 high ATK enemies for 89% chance of Forced Out (8 s)"
+			},
+			{
+				cooldown: 32,
+				description: "Targets enemies within large range for ATK x 2.55 damage; targets Cerebral class/[PSY] teammates for DEF Up Lv.5 (20 s); activates Provoke on self (18 s); targets self for ATK x 2.8 Counter stance (18 s); if 8 or more Cerebral/Powerhouse class characters are on the team, targets 2 high ATK enemies for 92% chance of Forced Out (8 s)"
+			},
+			{
+				cooldown: 32,
+				description: "Targets enemies within large range for ATK x 2.7 damage; targets Cerebral class/[PSY] teammates for DEF Up Lv.6 (20 s); activates Provoke on self (19 s); targets self for ATK x 2.9 Counter stance (19 s); if 8 or more Cerebral/Powerhouse class characters are on the team, targets 2 high ATK enemies for 95% chance of Forced Out (8 s)"
+			},
+			{
+				cooldown: 32,
+				description: "Targets enemies within large range for ATK x 3 damage; targets Cerebral class/[PSY] teammates for DEF Up Lv.6 (20 s); activates Provoke on self (20 s); targets self for ATK x 3 Counter stance (20 s); if 8 or more Cerebral/Powerhouse class characters are on the team, targets 2 high ATK enemies for 100% chance of Forced Out (8 s)"
+			}
+		],
+		festSuperSpecial: {
+            base: {
+                condition: "After character receives enemy's Rumble Special 3 times",
+                description: "Targets enemies within large range for ATK x 3.5 damage; targets Cerebral class/[PSY] teammates for DEF Up Lv.7 (30 s); activates Provoke on self (30 s), targets self for ATK x 4 Counter stance (30 s); if 8 or more Cerebral/Powerhouse characters are on the team, targets 2 high ATK enemies for 100% chance of Forced Out (10 s)"
+            },
+            llbbase: {
+                condition: "After character receives enemy's Rumble Special 3 times",
+                description: "Targets all enemies for ATK x 4 damage; targets Cerebral class/[PSY]-type teammates for DEF Up Lv.8 (30 s), ATK x 4 Counter stance (30 s); activates Provoke on self (30 s); if 8 or more Cerebral/Powerhouse characters are on the team, targets 3 high ATK enemies for 100% chance of Forced Out (15 s)"
+            }
+        }
+	},
+	4354: {//Dr Vegapunk
+		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Cerebral, Free Spirit, and Powerhouse characters' ATK by 5.5x, HP by 1.2x, and makes their [DEX][INT][TND] slots have matching slot effects. If crew uses Specials to reduce or remove enemies' damage reduction or Threshold Damage Reduction, extends the duration of that effect by 1 turn [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Scientist] characters are on the crew, boosts Cerebral characters' ATK by a further 1.2x. If 5 or more [Egghead] characters are on the crew, reduces crew's Bind duration by 2 turns. Boosts [Vegapunk][Seraphim] characters' base ATK by +500",
+		special: "Reduces crew's ATK Down duration by 7 turns, and boosts damage dealt to increase damage taken/Weakened enemies by 2.5x for 3 turns. If 4 or more [Scientist][Egghead][Vegapunk] characters are on the crew, boosts Cerebral, Free Spirit, and Powerhouse characters' ATK by 3.5x for 3 turns (by 3x for 1 turn otherwise; allows this boost effect to be further increased up to 2 times). If 1 or more [Seraphim] characters or 2 or more [Vegapunk] characters are on the crew, boosts the ATK of the next final tap performed by a [Scientist][Seraphim][Vegapunk] character by 40% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+		specialName: "Advocating the Possibilities of Science",
+		sailor: {
+			base: "Makes Cerebral, Free Spirit, and Powerhouse characters' [DEX][INT][TND] slots have matching slot effects, and if field has \"Territory: Cerebral class\", boosts Cerebral characters' base ATK by 200",
+			level1: "Tapping on this character with a [INT] slot will further increase crew's chain multiplier additive boost effect (except multiplicative boost) by +0.3"
+		},
+		superSpecial: "Reduces all enemies' HP by 10% at end of turn for 1 turn, changes crew's slots (including [BLOCK] slots) to [TND], changes character's slot to [INT], applies \"Territory: Cerebral class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns, and changes Cerebral characters to Super Cerebral",
+		superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Sentomaru, Bartholomew Kuma, Jewelry Bonney",
+		support: [
+			{
+				Characters: "Jewelry Bonney, Bartholomew Kuma, Sentomaru, Dr. Vegapunk \"Lilith the Evil\", S-Hawk, S-Shark, Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", S-Snake, S-Bear",
+				description: [
+					"Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn",
+					"Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn",
+					"Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn and boosts the chain multiplier by +0.3 for 2 turns at start of crew's next turn",
+					"Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn and boosts the chain multiplier by +0.5 for 2 turns at start of crew's next turn",
+					"Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn and boosts the chain multiplier by +0.7 for 2 turns at start of crew's next turn"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Acquire Potential 1: Enrage/Reduce Increase Damage Taken duration" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Acquire Potential 2: Reduce Sailor Despair duration" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base RCV by 40" },
+			{ description: "Boosts base HP by 80" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base HP by 80" },
+			{ description: "Acquire Potential 3: Last Tap" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 200" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Reduce base Special Cooldown by 1 turn" }
+		],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+		potential: [
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 225 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+				]
+			},
+			{
+				Name: "Reduce Sailor Despair duration",
+				description: [
+					"Reduces Sailor Despair duration by 1 turn on this character",
+					"Reduces Sailor Despair duration by 2 turns on this character",
+					"Reduces Sailor Despair duration by 3 turns on this character",
+					"Reduces Sailor Despair duration by 4 turns on this character",
+					"Reduces Sailor Despair duration by 5 turns on this character"
+				]
+			},
+			{
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
+			}
+		],
+		lastTap: {
+			condition: "At final battle and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Sentomaru, Bartholomew Kuma, Jewelry Bonney",
+			description: [
+				"Adds 0.2x of damage dealt by normal attacks of other Cerebral characters this turn on top of the final damage",
+				"Adds 0.4x of damage dealt by normal attacks of other Cerebral characters this turn on top of the final damage",
+				"Adds 0.6x of damage dealt by normal attacks of other Cerebral characters this turn on top of the final damage",
+				"Adds 0.8x of damage dealt by normal attacks of other Cerebral characters this turn on top of the final damage",
+				"Adds 1.1x of damage dealt by normal attacks of other Cerebral characters this turn on top of the final damage"
+			],
+		},
+		festStats: {
+			def: 107,
+			spd: 158,
+			style: "RCV"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Power Attack",
+			"Heal Teammate in Range Lv.1 (Small Range)",
+			"Power Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Completely evades Special Bind, reduce damage taken from [QCK] by 30％",
+		festAbility: [
+			"[DEX]/Free Spirit class teammates HP Up Lv.2, ATK Up Lv.2, RCV Up Lv.2; after 40 s of battle, [DEX]/Free Spirit class teammates Special CT Speed Up Lv.2",
+			"[DEX]/Free Spirit class teammates HP Up Lv.3, ATK Up Lv.3, RCV Up Lv.3; after 40 s of battle, [DEX]/Free Spirit class teammates Special CT Speed Up Lv.2",
+			"[DEX]/Free Spirit class teammates HP Up Lv.4, ATK Up Lv.4, RCV Up Lv.4; after 40 s of battle, [DEX]/Free Spirit class teammates Special CT Speed Up Lv.2",
+			"[DEX]/Free Spirit class teammates HP Up Lv.5, ATK Up Lv.5, RCV Up Lv.5; after 40 s of battle, [DEX]/Free Spirit class teammates Special CT Speed Up Lv.2",
+			"[DEX]/Free Spirit class teammates HP Up Lv.6, ATK Up Lv.6, RCV Up Lv.6; after 40 s of battle, [DEX]/Free Spirit class teammates Special CT Speed Up Lv.3"
+		],
+		festSpecial: [
+			{
+				cooldown: 26,
+				description: "Targets [DEX]/Free Spirit class teammates for RCV x 1.5 healing, Special Bind reduction (10 s); after 40 s of battle, targets team for 71% chance to remove team's DEF Down; targets [DEX]/Free Spirit class teammates for Special CT Speed Up Lv.1 (15 s)"
+			},
+			{
+				cooldown: 26,
+				description: "Targets [DEX]/Free Spirit class teammates for RCV x 1.7 healing, Special Bind reduction (10 s); after 40 s of battle, targets team for 74% chance to remove team's DEF Down; targets [DEX]/Free Spirit class teammates for Special CT Speed Up Lv.1 (15 s)"
+			},
+			{
+				cooldown: 26,
+				description: "Targets [DEX]/Free Spirit class teammates for RCV x 1.9 healing, Special Bind reduction (10 s); after 40 s of battle, targets team for 77% chance to remove team's DEF Down; targets [DEX]/Free Spirit class teammates for Special CT Speed Up Lv.1 (15 s)"
+			},
+			{
+				cooldown: 26,
+				description: "Targets [DEX]/Free Spirit class teammates for RCV x 2.1 healing, Special Bind reduction (10 s); after 40 s of battle, targets team for 80% chance to remove team's DEF Down; targets [DEX]/Free Spirit class teammates for Special CT Speed Up Lv.2 (15 s)"
+			},
+			{
+				cooldown: 26,
+				description: "Targets [DEX]/Free Spirit class teammates for RCV x 2.3 healing, Special Bind reduction (10 s); after 40 s of battle, targets team for 83% chance to remove team's DEF Down; targets [DEX]/Free Spirit class teammates for Special CT Speed Up Lv.2 (15 s)"
+			},
+			{
+				cooldown: 26,
+				description: "Targets [DEX]/Free Spirit class teammates for RCV x 2.5 healing, Special Bind reduction (10 s); after 40 s of battle, targets team for 86% chance to remove team's DEF Down; targets [DEX]/Free Spirit class teammates for Special CT Speed Up Lv.3 (15 s)"
+			},
+			{
+				cooldown: 26,
+				description: "Targets [DEX]/Free Spirit class teammates for RCV x 2.7 healing, Special Bind reduction (10 s); after 40 s of battle, targets team for 89% chance to remove team's DEF Down; targets [DEX]/Free Spirit class teammates for Special CT Speed Up Lv.3 (15 s)"
+			},
+			{
+				cooldown: 26,
+				description: "Targets [DEX]/Free Spirit class teammates for RCV x 2.9 healing, Special Bind reduction (10 s); after 40 s of battle, targets team for 92% chance to remove team's DEF Down; targets [DEX]/Free Spirit class teammates for Special CT Speed Up Lv.3 (15 s)"
+			},
+			{
+				cooldown: 26,
+				description: "Targets [DEX]/Free Spirit class teammates for RCV x 3.1 healing, Special Bind reduction (10 s); after 40 s of battle, targets team for 95% chance to remove team's DEF Down; targets [DEX]/Free Spirit class teammates for Special CT Speed Up Lv.4 (15 s)"
+			},
+			{
+				cooldown: 26,
+				description: "Targets [DEX]/Free Spirit class teammates for RCV x 3.5 healing, Special Bind reduction (10 s); after 40 s of battle, targets team for 100% chance to remove team's DEF Down; targets [DEX]/Free Spirit class teammates for Special CT Speed Up Lv.5 (15 s)"
+			}
+		],
+		festSuperSpecial: {
+            base: {
+                condition: "After character receives enemy's Rumble Special 2 times",
+                description: "Targets [DEX]/Free Spirit class teammates for RCV x 3.5 healing, Special Bind reduction (15 s), Special CT Speed Up Lv.6 (30 s), Shield Lv.3 (30 s); targets teammates with HP below 50% for RCV x 1.5 healing; 100% chance to remove team's DEF Down"
+            },
+            llbbase: {
+                condition: "After character receives enemy's Rumble Special 1 time",
+                description: "Targets [DEX]-type/Free Spirit class teammates for RCV x 4 healing, Special Bind reduction (20 s), Special CT Speed Up Lv.7 (30 s), Shield Lv.5 (30 s); targets teammates with HP below 50% for RCV x 2 healing; 100% chance to remove team's ATK and DEF Down"
+            }
+        }
+	},
+	4355: {//Sentomaru
+		captain: "Reduces crew's Special charge time by 1 turn at start of quest, reduces damage taken by 20%, and boosts ATK by 4.25x and HP by 1.5x for characters with a Cost of 40 or less",
+		special: "Reduces one enemy's HP by 10%, reduces crew's Bind/Despair duration by 5 turns, applies increase damage taken status to all enemies by 1.75x for 1 turn, reduces damage taken by 80% for 3 turns, and if crew lands 4 PERFECT strikes in this turn, applies increase damage taken status to all enemies by 1.75x for 1 turn ignoring immunity to status effects the next turn",
+		specialName: "Axe Strike Against the Mentor",
+		sailor: {
+			base: "Character cannot be blown away by attack, and makes Powerhouse and Cerebral characters' [PSY] slots have matching slot effects",
+			level1: "Boosts Powerhouse and Cerebral characters' base HP by 200"
+		},
+		support: [
+			{
+				Characters: "Powerhouse characters",
+				description: [
+					"Adds 6% of character's base HP to supported character's base HP",
+					"Adds 7% of character's base HP to supported character's base HP",
+					"Adds 8% of character's base HP to supported character's base HP",
+					"Adds 9% of character's base HP to supported character's base HP",
+					"Adds 10% of character's base HP to supported character's base HP"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Acquire Potential 1: Critical Hit" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Acquire Potential 2: Enrage/Reduce Increase Damage Taken duration" }
+		],
+		potential: [
+			{
+				Name: "Critical Hit",
+				description: [
+					"If you hit a PERFECT with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+				]
+			},
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+				]
+			}
+		],
+		festStats: {
+			def: 50,
+			spd: 100,
+			style: "DBF"
+		},
+		festAttackPattern: [
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets closest enemies"
+	},
+	4356: {//Pacifista
+		captain: "Reduces crew's Special charge time by 1 turn at start of quest, reduces damage taken by 20%, and boosts Powerhouse characters' ATK by 3.5x and HP by 1.5x",
+		special: "Reduces crew's Burn duration by 6 turns, and changes crew's slots (including [BLOCK] slots) to [DEX]. If crew has slot effect boost when Special is launched, boosts Powerhouse and Cerebral characters' advantageous class effect by 1.5x for 1 turn, and further increases crew's slot effect boost by +0.5 (boosts Powerhouse and Cerebral characters' slot effects by 2.25x for 3 turns otherwise)",
+		specialName: "Battle Weapon Activation",
+		sailor: {
+			base: "Character cannot be blown away by attack, and makes Powerhouse and Cerebral characters' [DEX] slots have matching slot effects",
+			level1: "Boosts Powerhouse and Cerebral characters' base HP by 200"
+		},
+		support: [
+			{
+				Characters: "Powerhouse characters",
+				description: [
+					"Adds 6% of character's base HP to supported character's base HP",
+					"Adds 7% of character's base HP to supported character's base HP",
+					"Adds 8% of character's base HP to supported character's base HP",
+					"Adds 9% of character's base HP to supported character's base HP",
+					"Adds 10% of character's base HP to supported character's base HP"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Acquire Potential 1: Reduce Slot Bind duration" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Acquire Potential 2: Enrage/Reduce Increase Damage Taken duration" }
+		],
+		potential: [
+			{
+				Name: "Reduce Slot Bind duration",
+				description: [
+					"Reduces Slot Bind duration by 1 turn on this character",
+					"Reduces Slot Bind duration by 2 turns on this character",
+					"Reduces Slot Bind duration by 3 turns on this character",
+					"Reduces Slot Bind duration by 4 turns on this character",
+					"Reduces Slot Bind duration by 5 turns on this character"
+				]
+			},
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+				]
+			}
+		],
+		festStats: {
+			def: 50,
+			spd: 100,
+			style: "DEF"
+		},
+		festAttackPattern: [
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets closest enemies"
+	},
+	4357: {//Dr. Vegapunk - York
+		captain: "Boosts Cerebral characters' ATK by 3.5x, HP by 1.35x, makes their [RCV] slots have matching slot effects, and allows crew to obtain [RCV] slots with PERFECT taps ",
+		special: "Reduces all enemies' damage reduction and Threshold Damage Reduction duration by 2 turns, further increases crew's ATK boost and multiplicative chain multiplier boost (except additive boosts) by +0.25, changes bottom-row characters' slots (including [BLOCK] slots) to [RCV], and if 5 or more [Egghead] characters are on the crew, reduces crew's Special Bind duration by 3 turns",
+		specialName: "Starting the Hunt",
+		sailor: {
+			base: "Reduces character's Special Bind duration by 6 turns",
+			level1: "Makes Cerebral characters' [RCV][SEMLA][BOMB][S. BOMB] slots have matching slot effects"
+		},
+		support: [
+			{
+				Characters: "Cerebral characters",
+				description: [
+					"Adds 2% of character's base HP to supported character's base HP",
+					"Adds 4% of character's base HP to supported character's base HP",
+					"Adds 6% of character's base HP to supported character's base HP",
+					"Adds 8% of character's base HP to supported character's base HP",
+					"Adds 10% of character's base HP to supported character's base HP"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Acquire Potential 1: Pinch Healing" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Acquire Potential 2: Double Special Activation" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Acquire Potential 3: Super Tandem" },
+			{ description: "Boosts base HP by 200" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Acquire Sailor Ability 2: " }
+		],
+		potential: [
+			{
+				Name: "Pinch Healing",
+				description: [
+					"If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+				]
+			},
+			{
+				Name: "Double Special Activation",
+				description: [
+					"Once per adventure, reduces character's Special charge time by 1 turn after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 3 turns after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 5 turns after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 7 turns after character uses Special",
+					"Once per adventure, sets character's Special charge to MAX after character uses Special"
+				]
+			},
+			{
+				Name: "Super Tandem",
+				description: [
+					"Obtain Super Tandem Lv.1",
+					"Obtain Super Tandem Lv.2",
+					"Obtain Super Tandem Lv.3",
+					"Obtain Super Tandem Lv.4",
+					"Obtain Super Tandem Lv.5"
+				]
+			}
+		],
+		superTandem: {
+			characterCondition: [
+				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear"
+			],
+			description: [
+				"Applies ATK Boost (Tandem) of 1.1x to Cerebral characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 1.2x to Cerebral characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 1.3x to Cerebral characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 1.4x to Cerebral characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 1.5x to Cerebral characters for 1 turn"
+			]
+		},
+		festStats: {
+			def: 269,
+			spd: 120,
+			style: "DEF"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Power Attack",
+			"Heal Teammate in Range Lv.1 (Small Range)",
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "60% chance to evade Damage Over Time",
+		festAbility: [
+			"[DEX] teammates HP Up Lv.1, ATK Up Lv.1; after 40 s of battle, [DEX] teammates DEF Up Lv.1",
+			"[DEX] teammates HP Up Lv.2, ATK Up Lv.2; after 40 s of battle, [DEX] teammates DEF Up Lv.2",
+			"[DEX] teammates HP Up Lv.3, ATK Up Lv.3; after 40 s of battle, [DEX] teammates DEF Up Lv.3",
+			"[DEX] teammates HP Up Lv.4, ATK Up Lv.4; after 40 s of battle, [DEX] teammates DEF Up Lv.4",
+			"[DEX] teammates HP Up Lv.5, ATK Up Lv.5; after 40 s of battle, [DEX] teammates DEF Up Lv.5"
+		],
+		festSpecial: [
+			{
+				cooldown: 17,
+				description: "Targets 2 teammates with low current HP for Shield  Lv.1 (6 s); after 40 s of battle, targets teammates within medium range for DEF Up Lv.2 (6 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 teammates with low current HP for Shield  Lv.1 (7 s); after 40 s of battle, targets teammates within medium range for DEF Up Lv.2 (7 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 teammates with low current HP for Shield  Lv.1 (8 s); after 40 s of battle, targets teammates within medium range for DEF Up Lv.2 (8 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 teammates with low current HP for Shield  Lv.1 (9 s); after 40 s of battle, targets teammates within medium range for DEF Up Lv.2 (9 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 teammates with low current HP for Shield  Lv.1 (10 s); after 40 s of battle, targets teammates within medium range for DEF Up Lv.2 (10 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 teammates with low current HP for Shield  Lv.2 (11 s); after 40 s of battle, targets teammates within medium range for DEF Up Lv.3 (11 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 teammates with low current HP for Shield  Lv.2 (12 s); after 40 s of battle, targets teammates within medium range for DEF Up Lv.3 (12 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 teammates with low current HP for Shield  Lv.2 (13 s); after 40 s of battle, targets teammates within medium range for DEF Up Lv.3 (13 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 teammates with low current HP for Shield  Lv.2 (14 s); after 40 s of battle, targets teammates within medium range for DEF Up Lv.3 (14 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 teammates with low current HP for Shield  Lv.3 (15 s); after 40 s of battle, targets teammates within medium range for DEF Up Lv.4 (15 s)"
+			}
+		]
+	},
 	4359: {//Imposter Straw Hats
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cost 40 or lower characters by 4.5x, and boosts HP of all characters by 0.1x.",
 		special: "Makes PERFECTs harder to hit for 1 turn, inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn, changes orbs of left column characters into [RAINBOW], [BOMB] and [PARALYSIS] orbs, and changes orbs of right column characters into [WANO], [SEMLA] and [SUPERBOMB] orbs.",
