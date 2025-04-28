@@ -169239,24 +169239,24 @@ window.details = {
 		]
 	},
 	4353: {//Kuma
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Cerebral and Powerhouse characters' ATK by 5.25x, HP by 1.4x, and makes their [PSY][RCV][TND] slots have matching slot effects, and reduces crew's Paralysis duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more  [Egghead] characters are on the crew, boosts Cerebral and Powerhouse characters' ATK by a further 1.1x. If 5 or more  [Egghead] characters are on the crew, reduces crew's Despair duration by 2 turns. Boosts [Paramythia-type] [Revolutionary Army] characters' base HP by +1500",
-		special: "Reduces Cerebral and Powerhouse characters' Special charge time by 1 turn and Switch Effect by 3, reduces crew's Blown Away duration by 4 turns, and boosts crew's ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 3 turns. If crew has 4 or more [Paramythia-type] [Egghead] [Revolutionary Army] characters on the crew, further increases crew's additive chain multiplier boost (except multiplicative boosts) by +1.0, and boosts the chain multiplier by +1.6 for 3 turns (by +1.4 for 1 turn otherwise; allows this boost effect to be further increased up to 2 times)",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cerebral and Powerhouse characters by 5.25x, boosts HP of Cerebral and Powerhouse characters by 1.4x, boosts base HP of [Paramythia-type] and [Revolutionary Army] characters by 1,500, makes [PSY], [RCV] and [TND] orbs beneficial for Cerebral and Powerhouse characters, and reduces Paralysis duration by 10 turns. If your crew has 4+ [Egghead] characters, boosts ATK of Cerebral and Powerhouse characters by 5.775x instead. If your crew has 5+ [Egghead] characters, reduces Despair duration by 2 turns.",
+		special: "Reduces Special Cooldown of Cerebral and Powerhouse characters by 1 turn, reduces Switch Effect of Cerebral and Powerhouse characters by 3, reduces Blown Away duration by 4 turns, and boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 3 turns. If your crew has 4+ [Paramythia-type], [Egghead] or [Revolutionary Army] characters, increases boost effects of Chain Addition buffs by +1.0x, and adds 1.6x, can be enhanced up to 2 times, to Chain Multiplier for 3 turns; adds 1.4x, can be enhanced up to 2 times, to Chain Multiplier for 1 turn otherwise.",
 		specialName: "Charging Through Fiercely",
 		sailor: {
-			base: "Reduces character's Special Reverse by 3 turns",
-			level1: "Character cannot be blown away by attack"
+			base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+			level1: "This character cannot be Blown Away."
 		},
-		superSpecial: "Reduces Cerebral and Powerhouse characters' Special charge time by 1 turn, boosts their slot effects by 2.25x for 3 turns, and changes Cerebral characters to Super Cerebral",
-		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters): Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Sabo, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Nico Robin",
+		superSpecial: "Reduces Special Cooldown of Cerebral and Powerhouse characters by 1 turn, boosts Orb Effects of Cerebral and Powerhouse characters by 2.25x for 3 turns, and transforms Cerebral character into Super Cerebral characters.",
+		superSpecialCriteria: "This character must be captain. Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Sabo, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Nico Robin",
 		support: [
 			{
 				Characters: "Jewelry Bonney",
 				description: [
-					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.3",
-					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.4",
-					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.5",
-					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.7",
-					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.7 and reduces crew's Despair duration by 2 turns"
+					"Once per adventure, when the supported character uses their special, increases boost effects of Chain Addition buffs by +0.3x.",
+					"Once per adventure, when the supported character uses their special, increases boost effects of Chain Addition buffs by +0.4x.",
+					"Once per adventure, when the supported character uses their special, increases boost effects of Chain Addition buffs by +0.5x.",
+					"Once per adventure, when the supported character uses their special, increases boost effects of Chain Addition buffs by +0.7x.",
+					"Once per adventure, when the supported character uses their special, increases boost effects of Chain Addition buffs by +0.7x, and reduces Despair duration by 2 turns."
 				]
 			}
 		],
@@ -169417,24 +169417,24 @@ window.details = {
         }
 	},
 	4354: {//Dr Vegapunk
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Cerebral, Free Spirit, and Powerhouse characters' ATK by 5.5x, HP by 1.2x, and makes their [DEX][INT][TND] slots have matching slot effects. If crew uses Specials to reduce or remove enemies' damage reduction or Threshold Damage Reduction, extends the duration of that effect by 1 turn [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Scientist] characters are on the crew, boosts Cerebral characters' ATK by a further 1.2x. If 5 or more [Egghead] characters are on the crew, reduces crew's Bind duration by 2 turns. Boosts [Vegapunk][Seraphim] characters' base ATK by +500",
-		special: "Reduces crew's ATK Down duration by 7 turns, and boosts damage dealt to increase damage taken/Weakened enemies by 2.5x for 3 turns. If 4 or more [Scientist][Egghead][Vegapunk] characters are on the crew, boosts Cerebral, Free Spirit, and Powerhouse characters' ATK by 3.5x for 3 turns (by 3x for 1 turn otherwise; allows this boost effect to be further increased up to 2 times). If 1 or more [Seraphim] characters or 2 or more [Vegapunk] characters are on the crew, boosts the ATK of the next final tap performed by a [Scientist][Seraphim][Vegapunk] character by 40% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cerebral, Free Spirit and Powerhouse characters by 5.5x, boosts HP of Cerebral, Free Spirit and Powerhouse characters by 1.2x, boosts base ATK of [Vegapunk] and [Seraphim] characters by 500, and makes [DEX], [INT] and [TND] orbs beneficial for Cerebral, Free Spirit and Powerhouse characters. If crew uses a Special to reduce enemies' Percent Damage Reduction or Threshold Damage Reduction, reduces the duration by 1 additional turn. If your crew has 4+ [Scientist] characters, boosts ATK of Cerebral characters by 6.6x instead. If your crew has 5+ [Egghead] characters, reduces Bind duration by 2 turns.",
+		special: "Reduces ATK Down duration by 7 turns, and boosts ATK against enemies inflicted with Increase Damage Taken and enemies inflicted with Weaken by 2.5x for 3 turns. If your crew has 4+ [Scientist], [Egghead] or [Vegapunk] characters, boosts ATK of Cerebral, Free Spirit and Powerhouse characters by 3.5x, can be enhanced up to 2 times, for 3 turns; boosts ATK of Cerebral, Free Spirit and Powerhouse characters by 3x, can be enhanced up to 2 times, for 1 turn otherwise. If your crew has 1+ [Seraphim] or 2+ [Vegapunk] characters, boosts Final Tap ATK of [Scientist], [Seraphim] and [Vegapunk] characters by 40%.",
 		specialName: "Advocating the Possibilities of Science",
 		sailor: {
-			base: "Makes Cerebral, Free Spirit, and Powerhouse characters' [DEX][INT][TND] slots have matching slot effects, and if field has \"Territory: Cerebral class\", boosts Cerebral characters' base ATK by 200",
-			level1: "Tapping on this character with a [INT] slot will further increase crew's chain multiplier additive boost effect (except multiplicative boost) by +0.3"
+			base: "Makes [DEX], [INT] and [TND] orbs beneficial for Cerebral, Free Spirit and Powerhouse characters; if Territory: Cerebral class is on the field, boosts base ATK of Cerebral characters by 200.",
+			level1: "If this character has a [INT] orb and you attack with this character, increases boost effects of Chain Addition buffs by +0.3x."
 		},
-		superSpecial: "Reduces all enemies' HP by 10% at end of turn for 1 turn, changes crew's slots (including [BLOCK] slots) to [TND], changes character's slot to [INT], applies \"Territory: Cerebral class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns, and changes Cerebral characters to Super Cerebral",
-		superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Sentomaru, Bartholomew Kuma, Jewelry Bonney",
+		superSpecial: "Deals 10% of enemies' current HP in damage to all enemies at the end of the turn for 1 turn, changes all orbs, including [BLOCK] orbs, into [TND] orbs, changes the orb of this character into a [INT] orb, applies Territory: Cerebral class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns, and transforms Cerebral character into Super Cerebral characters.",
+		superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Sentomaru, Bartholomew Kuma, Jewelry Bonney",
 		support: [
 			{
 				Characters: "Jewelry Bonney, Bartholomew Kuma, Sentomaru, Dr. Vegapunk \"Lilith the Evil\", S-Hawk, S-Shark, Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", S-Snake, S-Bear",
 				description: [
-					"Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn",
-					"Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn",
-					"Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn and boosts the chain multiplier by +0.3 for 2 turns at start of crew's next turn",
-					"Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn and boosts the chain multiplier by +0.5 for 2 turns at start of crew's next turn",
-					"Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn and boosts the chain multiplier by +0.7 for 2 turns at start of crew's next turn"
+					"Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn.",
+					"Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn.",
+					"Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn, and adds 0.3x to Chain Multiplier for 2 turns.",
+					"Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn, and adds 0.5x to Chain Multiplier for 2 turns.",
+					"Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn, and adds 0.7x to Chain Multiplier for 2 turns."
 				]
 			}
 		],
@@ -169522,13 +169522,13 @@ window.details = {
 			}
 		],
 		lastTap: {
-			condition: "At final battle and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Sentomaru, Bartholomew Kuma, Jewelry Bonney",
+			condition: "On the last stage. Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Sentomaru, Bartholomew Kuma, Jewelry Bonney",
 			description: [
-				"Adds 0.2x of damage dealt by normal attacks of other Cerebral characters this turn on top of the final damage",
-				"Adds 0.4x of damage dealt by normal attacks of other Cerebral characters this turn on top of the final damage",
-				"Adds 0.6x of damage dealt by normal attacks of other Cerebral characters this turn on top of the final damage",
-				"Adds 0.8x of damage dealt by normal attacks of other Cerebral characters this turn on top of the final damage",
-				"Adds 1.1x of damage dealt by normal attacks of other Cerebral characters this turn on top of the final damage"
+				"Adds 0.2x of damage dealt with normal attacks from other Cerebral characters this turn to this character's normal attack in damage.",
+				"Adds 0.4x of damage dealt with normal attacks from other Cerebral characters this turn to this character's normal attack in damage.",
+				"Adds 0.6x of damage dealt with normal attacks from other Cerebral characters this turn to this character's normal attack in damage.",
+				"Adds 0.8x of damage dealt with normal attacks from other Cerebral characters this turn to this character's normal attack in damage.",
+				"Adds 1.1x of damage dealt with normal attacks from other Cerebral characters this turn to this character's normal attack in damage."
 			],
 		},
 		festStats: {
@@ -169605,22 +169605,22 @@ window.details = {
         }
 	},
 	4355: {//Sentomaru
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, reduces damage taken by 20%, and boosts ATK by 4.25x and HP by 1.5x for characters with a Cost of 40 or less",
-		special: "Reduces one enemy's HP by 10%, reduces crew's Bind/Despair duration by 5 turns, applies increase damage taken status to all enemies by 1.75x for 1 turn, reduces damage taken by 80% for 3 turns, and if crew lands 4 PERFECT strikes in this turn, applies increase damage taken status to all enemies by 1.75x for 1 turn ignoring immunity to status effects the next turn",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cost 40 or lower characters by 4.25x, boosts HP of Cost 40 or lower characters by 1.5x, and reduces damage received by 20%.",
+		special: "Deals 10% of enemies' current HP in damage to one enemy, reduces Bind and Despair duration by 5 turns, reduces damage received by 80% for 3 turns, and inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn. If during that turn you score 4 PERFECT hits, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn in the following turn.",
 		specialName: "Axe Strike Against the Mentor",
 		sailor: {
-			base: "Character cannot be blown away by attack, and makes Powerhouse and Cerebral characters' [PSY] slots have matching slot effects",
-			level1: "Boosts Powerhouse and Cerebral characters' base HP by 200"
+			base: "This character cannot be Blown Away; makes [PSY] orbs beneficial for Powerhouse and Cerebral characters.",
+			level1: "Boosts base HP of Powerhouse and Cerebral characters by 200."
 		},
 		support: [
 			{
 				Characters: "Powerhouse characters",
 				description: [
-					"Adds 6% of character's base HP to supported character's base HP",
-					"Adds 7% of character's base HP to supported character's base HP",
-					"Adds 8% of character's base HP to supported character's base HP",
-					"Adds 9% of character's base HP to supported character's base HP",
-					"Adds 10% of character's base HP to supported character's base HP"
+					"Adds 6% of this character's base HP to the supported character's base HP.",
+					"Adds 7% of this character's base HP to the supported character's base HP.",
+					"Adds 8% of this character's base HP to the supported character's base HP.",
+					"Adds 9% of this character's base HP to the supported character's base HP.",
+					"Adds 10% of this character's base HP to the supported character's base HP."
 				]
 			}
 		],
@@ -169674,22 +169674,22 @@ window.details = {
 		festAttackTarget: "Targets closest enemies"
 	},
 	4356: {//Pacifista
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, reduces damage taken by 20%, and boosts Powerhouse characters' ATK by 3.5x and HP by 1.5x",
-		special: "Reduces crew's Burn duration by 6 turns, and changes crew's slots (including [BLOCK] slots) to [DEX]. If crew has slot effect boost when Special is launched, boosts Powerhouse and Cerebral characters' advantageous class effect by 1.5x for 1 turn, and further increases crew's slot effect boost by +0.5 (boosts Powerhouse and Cerebral characters' slot effects by 2.25x for 3 turns otherwise)",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Powerhouse characters by 3.5x, boosts HP of Powerhouse characters by 1.5x, and reduces damage received by 20%.",
+		special: "Reduces Burn duration by 6 turns, and changes all orbs, including [BLOCK] orbs, into [DEX] orbs. If your crew has Orb Amplification when the special is activated, boosts Advantageous Class Effect of Powerhouse and Cerebral characters by 1.5x for 1 turn, and increases boost effects of Orb Amplification buffs by +0.5x; boosts Orb Effects of Powerhouse and Cerebral characters by 2.25x for 3 turns otherwise.",
 		specialName: "Battle Weapon Activation",
 		sailor: {
-			base: "Character cannot be blown away by attack, and makes Powerhouse and Cerebral characters' [DEX] slots have matching slot effects",
-			level1: "Boosts Powerhouse and Cerebral characters' base HP by 200"
+			base: "This character cannot be Blown Away; makes [DEX] orbs beneficial for Powerhouse and Cerebral characters.",
+			level1: "Boosts base HP of Powerhouse and Cerebral characters by 200."
 		},
 		support: [
 			{
 				Characters: "Powerhouse characters",
 				description: [
-					"Adds 6% of character's base HP to supported character's base HP",
-					"Adds 7% of character's base HP to supported character's base HP",
-					"Adds 8% of character's base HP to supported character's base HP",
-					"Adds 9% of character's base HP to supported character's base HP",
-					"Adds 10% of character's base HP to supported character's base HP"
+					"Adds 6% of this character's base HP to the supported character's base HP.",
+					"Adds 7% of this character's base HP to the supported character's base HP.",
+					"Adds 8% of this character's base HP to the supported character's base HP.",
+					"Adds 9% of this character's base HP to the supported character's base HP.",
+					"Adds 10% of this character's base HP to the supported character's base HP."
 				]
 			}
 		],
@@ -169743,22 +169743,22 @@ window.details = {
 		festAttackTarget: "Targets closest enemies"
 	},
 	4357: {//Dr. Vegapunk - York
-		captain: "Boosts Cerebral characters' ATK by 3.5x, HP by 1.35x, makes their [RCV] slots have matching slot effects, and allows crew to obtain [RCV] slots with PERFECT taps ",
-		special: "Reduces all enemies' damage reduction and Threshold Damage Reduction duration by 2 turns, further increases crew's ATK boost and multiplicative chain multiplier boost (except additive boosts) by +0.25, changes bottom-row characters' slots (including [BLOCK] slots) to [RCV], and if 5 or more [Egghead] characters are on the crew, reduces crew's Special Bind duration by 3 turns",
+		captain: "Boosts ATK of Cerebral characters by 3.5x, boosts HP of Cerebral characters by 1.35x, makes [RCV] orbs beneficial for Cerebral characters, and makes PERFECTs consume [RCV] orbs.",
+		special: "Reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 2 turns, increases boost effects of ATK Up and Chain Multiplication buffs by +0.25x, and changes orbs, including [BLOCK] orbs, of bottom row characters into [RCV] orbs. If your crew has 5+ [Egghead] characters, reduces Special Bind duration by 3 turns.",
 		specialName: "Starting the Hunt",
 		sailor: {
-			base: "Reduces character's Special Bind duration by 6 turns",
-			level1: "Makes Cerebral characters' [RCV][SEMLA][BOMB][S. BOMB] slots have matching slot effects"
+			base: "Reduces Special Bind duration by 6 turns on this character.",
+			level1: "Makes [RCV], [SEMLA], [BOMB] and [SUPERBOMB] orbs beneficial for Cerebral characters."
 		},
 		support: [
 			{
 				Characters: "Cerebral characters",
 				description: [
-					"Adds 2% of character's base HP to supported character's base HP",
-					"Adds 4% of character's base HP to supported character's base HP",
-					"Adds 6% of character's base HP to supported character's base HP",
-					"Adds 8% of character's base HP to supported character's base HP",
-					"Adds 10% of character's base HP to supported character's base HP"
+					"Adds 2% of this character's base HP to the supported character's base HP.",
+					"Adds 4% of this character's base HP to the supported character's base HP.",
+					"Adds 6% of this character's base HP to the supported character's base HP.",
+					"Adds 8% of this character's base HP to the supported character's base HP.",
+					"Adds 10% of this character's base HP to the supported character's base HP."
 				]
 			}
 		],
@@ -169823,18 +169823,18 @@ window.details = {
 		],
 		superTandem: {
 			characterCondition: [
-				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
-				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
-				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
-				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
-				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear"
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear"
 			],
 			description: [
-				"Applies ATK Boost (Tandem) of 1.1x to Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.2x to Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.3x to Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.4x to Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.5x to Cerebral characters for 1 turn"
+				"Boosts Tandem ATK of Cerebral characters by 1.1x for 1 turn.",
+				"Boosts Tandem ATK of Cerebral characters by 1.2x for 1 turn.",
+				"Boosts Tandem ATK of Cerebral characters by 1.3x for 1 turn.",
+				"Boosts Tandem ATK of Cerebral characters by 1.4x for 1 turn.",
+				"Boosts Tandem ATK of Cerebral characters by 1.5x for 1 turn."
 			]
 		},
 		festStats: {
