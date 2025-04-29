@@ -28284,6 +28284,64 @@ window.details = {
         captain: "Boosts ATK of all characters by 2.25x and boosts EXP and amount of Beli received by 1.2x",
         special: "Randomizes all non-Matching orbs, including [BLOCK] orbs, and switches orbs between slots 3 times",
         specialName: "ROOM Shambles・Junction",
+        sailor: {
+			level1: "Boosts base ATK, HP and RCV of all characters by 50.",
+			level2: "Makes [INT] orbs beneficial for Free Spirit characters."
+		},
+		limit: [
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire Potential 1: Reduce Slot Bind duration" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base HP by 70" },
+			{ description: "Acquire Sailor Ability 1: Boosts crew's base stats by 50" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire Sailor Ability 2: Makes Free Spirit characters' [INT] slots have matching slot effects" },
+			{ description: "Boosts base HP by 70" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Acquire Potential 2: Pinch Healing" }
+		],
+        lLimit: [
+            null,
+            null,
+            {
+                captain: {
+                    base: "Boosts ATK of all characters by 3.25x, and boosts EXP and amount of Beli received by 1.2x."
+                }
+            },
+            null,
+            {
+                special: {
+                    base: "Reduces ATK Down duration by 5 turns, randomizes all non-Matching orbs, including [BLOCK] orbs, switches orbs between slots 3 times, and boosts Color Affinity of all characters by 2.25x for 1 turn."
+                }
+            }
+        ],
+		potential: [
+			{
+				Name: "Reduce Slot Bind duration",
+				description: [
+					"Reduces Slot Bind duration by 1 turn on this character",
+					"Reduces Slot Bind duration by 2 turns on this character",
+					"Reduces Slot Bind duration by 3 turns on this character",
+					"Reduces Slot Bind duration by 4 turns on this character",
+					"Reduces Slot Bind duration by 5 turns on this character"
+				]
+			},
+			{
+				Name: "Pinch Healing",
+				description: [
+					"If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 15% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+				]
+			}
+		]
     },
     1570: {//Inuarashi
         captain: "Boosts ATK of Cerebral characters by 2.75x and boosts Chain Multiplier Growth Rate by 1.5x if HP is below 30% at the start of the turn, boosts ATK of Cerebral characters by 2.5x otherwise",
@@ -29178,6 +29236,64 @@ window.details = {
         captain: "Boosts ATK of [PSY] and [INT] characters by 2.5x",
         special: "Deals 20x character's ATK in [PSY] damage to one enemy, locks all orbs for 1 turn and boosts Orb Effects of [PSY] and [INT] characters by 1.75x for 1 turn",
         specialName: "Right Leg Armament: Gum-Gum Battle Axe",
+        sailor: {
+			level1: "Boosts base ATK, HP and RCV of all characters by 50.",
+			level2: "Makes [RCV] orbs beneficial for Fighter characters."
+		},
+		limit: [
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Acquire Potential 1: Enrage/Reduce Increase Damage Taken duration" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire Sailor Ability 1: Boosts crew's base stats by 50" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 70" },
+			{ description: "Boosts base HP by 70" },
+			{ description: "Acquire Sailor Ability 2: Makes Fighter characters' [RCV] slots have matching slot effects" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Acquire Potential 2: Pinch Healing" }
+		],
+        lLimit: [
+            null,
+            null,
+            {
+                captain: {
+                    base: "Boosts ATK of [PSY] and [INT] characters by 3.5x, and boosts EXP received by 1.3x."
+                }
+            },
+            null,
+            {
+                special: {
+                    base: "Deals 50x character's ATK in [PSY] damage to one enemy, reduces Paralysis duration by 5 turns, locks all orbs for 1 turn, changes orbs, including [BLOCK] orbs, of left column characters into [INT] orbs, changes orbs, including [BLOCK] orbs, of right column characters into [PSY] orbs, and boosts Orb Effects of [PSY] and [INT] characters by 2.5x for 1 turn."
+                }
+            }
+        ],
+		potential: [
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 30 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 60 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 90 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+				]
+			},
+			{
+				Name: "Pinch Healing",
+				description: [
+					"If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 15% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+				]
+			}
+		]
     },
     1601: {//Power Creep Shiryu
         captain: "Boosts ATK of Slasher characters by 2x",
@@ -52113,8 +52229,68 @@ window.details = {
         captain: "Boosts ATK of [PSY] characters by 2.25x and recovers 500 HP at the end of each turn",
         special: "Boosts ATK of [STR] and [PSY] characters by 1.5x for 1 turn and recovers 2,000 HP.",
         specialName: "A Promised Strawhat",
-        sailor: "Boosts base ATK, HP and RCV of all characters by 20",
-    },
+		sailor: {
+			base: "Boosts base ATK, HP and RCV of all characters by 20.",
+			level1: "Makes [PSY] orbs beneficial for Free Spirit characters."
+		},
+		limit: [
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base HP by 70" },
+			{ description: "Acquire Potential 1: Critical Hit" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 70" },
+			{ description: "Acquire Potential 2: Double Special Activation" }
+		],
+        lLimit: [
+            null,
+            null,
+            {
+                captain: {
+                    base: "Boosts ATK of [PSY] and [STR] characters by 3.5x, recovers 500 HP at the end of each turn, and boosts amount of Beli received by 1.5x."
+                }
+            },
+            null,
+            {
+                special: {
+                    base: "Reduces Bind and Despair duration by 2 turns, boosts ATK of all characters by 2.5x for 1 turn, and recovers 5,000 HP."
+                },
+                sailor: {
+                    base: "Boosts base ATK, HP and RCV of all characters by 50."
+                }
+            }
+        ],
+		potential: [
+			{
+				Name: "Critical Hit",
+				description: [
+					"If you hit a PERFECT with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage"
+				]
+			},
+			{
+				Name: "Double Special Activation",
+				description: [
+					"Once per adventure, reduces character's Special charge time by 1 turn after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 2 turns after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 3 turns after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 5 turns after character uses Special",
+					"Once per adventure, sets character's Special charge to MAX after character uses Special"
+				]
+			}
+		]
+	},
     2348: {//Pedro
         captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight. Boosts ATK of Slasher characters by 2.5x",
         special: "Deals 10% of enemies' current HP in damage to one enemy and reduces the defense of all enemies by 100% for 1 turn. If your crew has 5 or more Slasher characters when the special is activated, boosts ATK against enemies with reduced defense by 2x for 1 turn and changes orbs of adjacent characters into Matching Orbs.",
