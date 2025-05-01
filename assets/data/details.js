@@ -170155,6 +170155,120 @@ window.details = {
 			}
 		]
 	},
+	4360: {//Akainu
+		captain: "Boosts ATK of Fighter and Striker characters by 3.5x, and boosts HP of Fighter and Striker characters by 1.4x.",
+		special: "Deals 70x character's ATK in [PSY] damage to one enemy, reduces ATK Down duration by 2 turns, and inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 1 turn.",
+		specialName: "Ravaging Hell Hound",
+		sailor: "Boosts base ATK of [PSY] characters by 100.",
+		support: [
+			{
+				Characters: "Borsalino (Kizaru)",
+				description: [
+					"Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+					"Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+					"Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+					"Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 2 turns.",
+					"Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 3 turns."
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Acquire Potential 1: [INT] Damage Reduction" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 150" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Acquire Potential 2: [PSY] Damage Reduction" }
+		],
+		potential: [
+			{
+				Name: "[INT] Damage Reduction",
+				description: [
+					"Reduces damage taken from [INT] characters by 1%",
+					"Reduces damage taken from [INT] characters by 2%",
+					"Reduces damage taken from [INT] characters by 3%",
+					"Reduces damage taken from [INT] characters by 4%",
+					"Reduces damage taken from [INT] characters by 5%"
+				]
+			},
+			{
+				Name: "[PSY] Damage Reduction",
+				description: [
+					"Reduces damage taken from [PSY] characters by 1%",
+					"Reduces damage taken from [PSY] characters by 2%",
+					"Reduces damage taken from [PSY] characters by 3%",
+					"Reduces damage taken from [PSY] characters by 4%",
+					"Reduces damage taken from [PSY] characters by 5%"
+				]
+			}
+		],
+		festStats: {
+			def: 128,
+			spd: 199,
+			style: "ATK"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Normal Attack",
+			"Power Attack",
+			"Full Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Heal 250 HP at an interval, reduce damage taken from [INT] by 30%",
+		festAbility: [
+			"[PSY]/Fighter class teammates HP Up Lv.2, SPD Up Lv.2; self Shield Lv.1; [Navy] teammates HP Up Lv.2, DEF Up Lv.2",
+			"[PSY]/Fighter class teammates HP Up Lv.3, SPD Up Lv.3; self Shield Lv.2; [Navy] teammates HP Up Lv.3, DEF Up Lv.3",
+			"[PSY]/Fighter class teammates HP Up Lv.4, SPD Up Lv.4; self Shield Lv.3; [Navy] teammates HP Up Lv.4, DEF Up Lv.4",
+			"[PSY]/Fighter class teammates HP Up Lv.5, SPD Up Lv.5; self Shield Lv.4; [Navy] teammates HP Up Lv.5, DEF Up Lv.5",
+			"[PSY]/Fighter class teammates HP Up Lv.6, SPD Up Lv.6; self Shield Lv.5; [Navy] teammates HP Up Lv.6, DEF Up Lv.6"
+		],
+		festSpecial: [
+			{
+				cooldown: 30,
+				description: "Targets enemies within large range for 2500 damage; targets [Navy] teammates for ATK Up Lv.3 (21 s), SPD Up Lv.3 (21 s); if 4 or more [Navy] characters are on the team, targets 1 enemy with low current HP ignoring DEF for ATK x 1.1 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets enemies within large range for 2700 damage; targets [Navy] teammates for ATK Up Lv.3 (22 s), SPD Up Lv.3 (22 s); if 4 or more [Navy] characters are on the team, targets 1 enemy with low current HP ignoring DEF for ATK x 1.2 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets enemies within large range for 2900 damage; targets [Navy] teammates for ATK Up Lv.3 (23 s), SPD Up Lv.3 (23 s); if 4 or more [Navy] characters are on the team, targets 1 enemy with low current HP ignoring DEF for ATK x 1.3 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets enemies within large range for 3100 damage; targets [Navy] teammates for ATK Up Lv.4 (24 s), SPD Up Lv.4 (24 s); if 4 or more [Navy] characters are on the team, targets 1 enemy with low current HP ignoring DEF for ATK x 1.4 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets enemies within large range for 3300 damage; targets [Navy] teammates for ATK Up Lv.4 (25 s), SPD Up Lv.4 (25 s); if 4 or more [Navy] characters are on the team, targets 1 enemy with low current HP ignoring DEF for ATK x 1.5 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets enemies within large range for 3500 damage; targets [Navy] teammates for ATK Up Lv.5 (26 s), SPD Up Lv.5 (26 s); if 4 or more [Navy] characters are on the team, targets 1 enemy with low current HP ignoring DEF for ATK x 1.6 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets enemies within large range for 3700 damage; targets [Navy] teammates for ATK Up Lv.5 (27 s), SPD Up Lv.5 (27 s); if 4 or more [Navy] characters are on the team, targets 1 enemy with low current HP ignoring DEF for ATK x 1.7 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets enemies within large range for 3900 damage; targets [Navy] teammates for ATK Up Lv.5 (28 s), SPD Up Lv.5 (28 s); if 4 or more [Navy] characters are on the team, targets 1 enemy with low current HP ignoring DEF for ATK x 1.8 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets enemies within large range for 4100 damage; targets [Navy] teammates for ATK Up Lv.6 (29 s), SPD Up Lv.6 (29 s); if 4 or more [Navy] characters are on the team, targets 1 enemy with low current HP ignoring DEF for ATK x 1.9 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets enemies within large range for 4500 damage; targets [Navy] teammates for ATK Up Lv.7 (30 s), SPD Up Lv.7 (30 s); if 4 or more [Navy] characters are on the team, targets 1 enemy with low current HP ignoring DEF for ATK x 2 damage"
+			}
+		]
+	},
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",

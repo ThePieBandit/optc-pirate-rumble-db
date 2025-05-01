@@ -4358,7 +4358,7 @@ window.units = [
     [ "Dr. Vegapunk \"York the Greedy\" - Orchestrated Chaos", "DEX", ["Cerebral", "Driven"], 5, 40, 4, 4, 99, 5000000, 1532, 809, 101, 3063, 1618, 201, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "Impostor Straw Hat Pirates: Neo", "DEX", ["Driven", "Shooter"], 5, 40, 5, 4, 99, 5000000, 1519, 771, 107, 3138, 1542, 213, 1 ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Sakazuki - Intercepting Fleet Admiral", "PSY", ["Fighter", "Striker"], 5, 30, 4, 4, 99, 4000000, 1909, 853, 98, 3818, 1706, 195, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
