@@ -163235,6 +163235,83 @@
           ]
         }
       ],
+      "llbability": [
+        {
+          "effects": [
+            {
+              "attributes": [ "ATK" ],
+              "effect": "buff",
+              "level": 1,
+              "targeting": { "targets": [ "[STR]" ] }
+            },
+            {
+              "attributes": [ "HP" ],
+              "effect": "buff",
+              "level": 1,
+              "targeting": { "targets": [ "[STR]" ] }
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 1,
+              "condition": {"comparator": "more", "composition": true, "count": 4, "targets": ["[Worst Generation]", "[Kid Pirates]", "[Land of Wano]"], "type": "crew"},
+              "targeting": {"targets": ["crew"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": { "level": 2 }
+            },
+            {
+              "override": { "level": 2 }
+            },
+            {
+              "override": { "level": 1 }
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": { "level": 3 }
+            },
+            {
+              "override": { "level": 3 }
+            },
+            {
+              "override": { "level": 2 }
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": { "level": 5 }
+            },
+            {
+              "override": { "level": 4 }
+            },
+            {
+              "override": { "level": 2 }
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": { "level": 7 }
+            },
+            {
+              "override": { "level": 5 }
+            },
+            {
+              "override": { "level": 3 }
+            }
+          ]
+        }
+      ],
       "gpability": [
         {
           "effects": [
@@ -163549,6 +163626,162 @@
             },
             {
               "override": { "level": 3, "duration": 10 }
+            }
+          ]
+        }
+      ],
+      "llbspecial": [
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "amount": 0.6,
+              "effect": "damage",
+              "range": { "direction": "forward", "size": "large" },
+              "targeting": { "targets": [ "enemies" ] },
+              "type": "atk",
+              "defbypass": true
+            },
+            {
+              "attributes": [ "DEF" ],
+              "effect": "buff",
+              "level": 1,
+              "targeting": { "targets": [ "[STR]" ] },
+              "duration": 11
+            },
+            {
+              "attributes": ["ATK"],
+              "level": 1,
+              "duration": 11,
+              "effect": "buff",
+              "condition": {"comparator": "more", "composition": true, "count": 4, "targets": ["[Worst Generation]", "[Kid Pirates]", "[Land of Wano]"], "type": "crew"},
+              "targeting": {"targets": ["crew"]}
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": { "amount": 0.7 }
+            },
+            {
+              "override": { "level": 1, "duration": 11 }
+            },
+            {
+              "override": { "level": 1, "duration": 11 }
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": { "amount": 0.8 }
+            },
+            {
+              "override": { "level": 1, "duration": 12 }
+            },
+            {
+              "override": { "level": 1, "duration": 12 }
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": { "amount": 0.9 }
+            },
+            {
+              "override": { "level": 2, "duration": 12 }
+            },
+            {
+              "override": { "level": 2, "duration": 12 }
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": { "amount": 1 }
+            },
+            {
+              "override": { "level": 2, "duration": 13 }
+            },
+            {
+              "override": { "level": 2, "duration": 13 }
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": { "amount": 1.1 }
+            },
+            {
+              "override": { "level": 3, "duration": 13 }
+            },
+            {
+              "override": { "level": 3, "duration": 13 }
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": { "amount": 1.2 }
+            },
+            {
+              "override": { "level": 3, "duration": 14 }
+            },
+            {
+              "override": { "level": 3, "duration": 14 }
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": { "amount": 1.3 }
+            },
+            {
+              "override": { "level": 3, "duration": 14 }
+            },
+            {
+              "override": { "level": 3, "duration": 14 }
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": { "amount": 1.4 }
+            },
+            {
+              "override": { "level": 4, "duration": 15 }
+            },
+            {
+              "override": { "level": 4, "duration": 15 }
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": { "amount": 1.5 }
+            },
+            {
+              "override": { "level": 5, "duration": 15 }
+            },
+            {
+              "override": { "level": 5, "duration": 15 }
             }
           ]
         }
@@ -266410,6 +266643,12 @@
               "effect": "buff",
               "level": 1,
               "targeting": { "targets": [ "[PSY]" ] }
+            },
+            {
+              "attributes": [ "HP" ],
+              "effect": "buff",
+              "level": 1,
+              "targeting": { "targets": [ "[Straw Hat Pirates]" ] }
             }
           ]
         },
@@ -266417,6 +266656,12 @@
           "effects": [
             {
               "override": { "level": 3 }
+            },
+            {
+              "override": { "level": 1 }
+            },
+            {
+              "override": { "level": 1 }
             },
             {
               "override": { "level": 1 }
@@ -266433,6 +266678,9 @@
             },
             {
               "override": { "level": 2 }
+            },
+            {
+              "override": { "level": 2 }
             }
           ]
         },
@@ -266446,6 +266694,9 @@
             },
             {
               "override": { "level": 3 }
+            },
+            {
+              "override": { "level": 2 }
             }
           ]
         },
@@ -266459,6 +266710,9 @@
             },
             {
               "override": { "level": 4 }
+            },
+            {
+              "override": { "level": 3 }
             }
           ]
         }
@@ -266470,9 +266724,16 @@
             {
               "amount": 700,
               "effect": "damage",
-              "range": { "direction": "radial", "size": "medium" },
+              "range": { "size": "medium", "direction": "radial" },
               "targeting": { "targets": [ "enemies" ] },
               "type": "fixed"
+            },
+            {
+              "attributes": [ "DEF" ],
+              "duration": 20,
+              "effect": "buff",
+              "level": 1,
+              "targeting": { "targets": [ "[Straw Hat Pirates]" ] }
             },
             {
               "attributes": [ "ATK", "SPD" ],
@@ -266489,6 +266750,12 @@
           "effects": [
             {
               "override": { "amount": 900 }
+            },
+            {
+              "override": { "level": 1 }
+            },
+            {
+              "override": { "level": 1 }
             }
           ]
         },
@@ -266497,6 +266764,9 @@
           "effects": [
             {
               "override": { "amount": 1100 }
+            },
+            {
+              "override": { "level": 1 }
             },
             {
               "override": { "level": 2 }
@@ -266510,6 +266780,9 @@
               "override": { "amount": 1300 }
             },
             {
+              "override": { "level": 1 }
+            },
+            {
               "override": { "level": 2 }
             }
           ]
@@ -266519,6 +266792,9 @@
           "effects": [
             {
               "override": { "amount": 1500 }
+            },
+            {
+              "override": { "level": 1 }
             },
             {
               "override": { "level": 3 }
@@ -266532,6 +266808,9 @@
               "override": { "amount": 1700 }
             },
             {
+              "override": { "level": 2 }
+            },
+            {
               "override": { "level": 3 }
             }
           ]
@@ -266541,6 +266820,9 @@
           "effects": [
             {
               "override": { "amount": 1900 }
+            },
+            {
+              "override": { "level": 2 }
             },
             {
               "override": { "level": 4 }
@@ -266554,6 +266836,9 @@
               "override": { "amount": 2100 }
             },
             {
+              "override": { "level": 2 }
+            },
+            {
               "override": { "level": 4 }
             }
           ]
@@ -266563,6 +266848,9 @@
           "effects": [
             {
               "override": { "amount": 2300 }
+            },
+            {
+              "override": { "level": 2 }
             },
             {
               "override": { "level": 5 }
@@ -266576,12 +266864,15 @@
               "override": { "amount": 2500 }
             },
             {
+              "override": { "level": 3 }
+            },
+            {
               "override": { "level": 6 }
             }
           ]
         }
       ],
-	    "resilience": [
+      "resilience": [
         {
           "attribute": "Damage Over Time",
           "chance": 80,

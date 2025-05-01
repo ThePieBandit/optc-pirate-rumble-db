@@ -34895,7 +34895,7 @@ window.details = {
                     level2: "Makes [QCK] orbs beneficial for Slasher characters"
                 },
                 special: {
-                    base: "Deals 150x character's ATK in Typeless damage to all enemies and reduces enemies' Barrier duration by 2 turns. If your Captain is a Slasher character, boosts Orb Effects of Slasher characters by 2.25x for 2 turns and locks the chain multiplier at 3.25x for 2 turns."
+                    base: "Deals 150x character's ATK in Typeless damage to all enemies and reduces enemies' Barrier duration by 2 turns. If 2+ [Seven Warlords of the Sea] characters are on the crew, sets Chain Boundaries to 3.25x and 15.0x for 3 turns. If 2+ [Marineford Paramount War] characters are on the crew, boosts Orb Effects of Slasher characters by 2.75x for 3 turns. If your Captain is a Slasher character, locks the chain multiplier at 3.25x for 2 turns, and boosts Orb Effects of Slasher characters by 2.25x for 2 turns."
                 }
             }
         ],
@@ -70247,7 +70247,7 @@ window.details = {
             null,
             {
                 special: {
-                    base: "Reduces crew's current HP by 99%, deals 40x the amount of HP subtracted in Typeless damage to one enemy, inflicts all enemies with Burn that will deal 60x enemies' ATK in damage for 1 turn, recovers 50x character's RCV in HP at the end of each turn for 1 turn, boosts ATK of [STR] characters by 2.75x for 3 turns, removes enemies' ATK Up and Enrage duration completely, and becomes Marco & Ace for 3 turns."
+                    base: "Reduces crew's current HP by 99%, deals 40x the amount of HP subtracted in Typeless damage to one enemy, inflicts all enemies with Burn that will deal 60x enemies' ATK in damage for 1 turn, recovers 50x character's RCV in HP at the end of each turn for 1 turn, and removes enemies' ATK Up and Enrage duration completely. If 2+ [Whitebeard Pirates] characters are on the crew, boosts ATK of all characters by 3.25x for 3 turns; boosts ATK of [STR] characters by 2.75x for 3 turns otherwise. Becomes Marco & Ace for 3 turns."
                 },
                 sailor: {
                     level2: "Makes [STR] orbs beneficial for all characters; removes Stun duration completely on this character."
@@ -95865,6 +95865,7 @@ window.details = {
     3338: {//Kid
         captain: "Reduces Special Cooldown of this character by 3 turns at the start of the fight, boosts ATK of [STR], Striker and Driven characters by 5x and their HP by 1.3x. If HP is below 50% at the start of the turn, reduces damage received by 25%.",
         special: "If HP is above 51% when the special is activated, reduces crew's current HP by 50% crew's MAX HP and advances Special Cooldown of this character to MAX. Deals 100x character's ATK in Typeless True damage to all enemies and boosts ATK of [STR], Striker and Driven characters by 2.5x for 1 turn. If your crew has ATK UP when the special is activated, boosts Orb Effects of [STR], Striker and Driven characters by 2.5x for 1 turn. If your crew has ATK UP and Orb Amplification when the special is activated, boosts the Color Affinity of [STR], Striker and Driven characters by 2x for 1 turn.",
+        specialNotes: "<b>LLB:</b> If 3+ [Kid Pirates] or [Worst Generation] characters are on the crew, boosts the effect value of the ATK Up, Orb Amplification and Color Affinity buffs by +0.5x.",
         superSpecial: "Changes all orbs into Matching orbs, reduces Burn duration by 3 turns and transforms [STR] characters into Super [STR] characters.",
         superSpecialCriteria: "This character must be captain and this character's Special ability must be used 2 times.",
         specialName: "Trample-Down Steel Arm",
@@ -95913,6 +95914,24 @@ window.details = {
             { description: "Boosts base ATK by 100" },
             { description: "Reduce base Special Cooldown by 1 turn" },
             { description: "Boosts base HP by 200" },
+        ],
+        lLimit: [
+            null,
+            {
+                rAbility: true,
+                special: {
+                    base: "If HP is above 51% when the special is activated, reduces crew's current HP by 50% crew's MAX HP and advances Special Cooldown of this character to MAX. Deals 100x character's ATK in Typeless Fixed True damage to all enemies, and boosts ATK of [STR], Striker and Driven characters by 2.75x-3.25x for 1 turn. If your crew has ATK Up when the special is activated, boosts Orb Effects of [STR], Striker and Driven characters by 2.75x-3.25x for 1 turn. If your crew has ATK UP and Orb Amplification when the special is activated, boosts the Color Affinity of [STR], Striker and Driven characters by 2.5x-3x for 1 turn."
+                }
+            },
+            {
+                captain: {
+                    base: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces Special Cooldown of this character by 4 turns at the start of the fight, boosts ATK of [STR], Striker and Driven characters by 5x, boosts HP of [STR], Striker and Driven characters by 1.3x, and makes [STR] and [INT] orbs beneficial for all characters. If HP is below 50% at the start of the turn, boosts ATK of [STR], Striker and Driven characters by 6x instead, and reduces damage received by 25%. If 4+ [Kid Pirates], [Worst Generation] or [Land of Wano] characters are on the crew, reduces Despair duration by 10 turns, and boosts base ATK of [Paramythia-type] characters by 500."
+                }
+            },
+            {
+                rSpecial: true
+            },
+            null
         ],
         potential: [
             {
@@ -132799,9 +132818,8 @@ window.details = {
             },
             { 
                 captain: {
-                    base: "Reduces Special Cooldown of [PSY] characters by 1 turn at the start of the fight, boosts ATK of [PSY] characters by 4.5x, boosts ATK of all other characters by 4.25x, boosts HP of all characters by 1.4x and boosts EXP gained by 1.25x.",
-                    level1: "Reduces Special Cooldown of [PSY] characters by 1 turn at the start of the fight, boosts ATK of [PSY] characters by 4.5x, boosts ATK of all other characters by 4.25x, boosts HP of all characters by 1.4x and boosts EXP gained by 1.25x.",
-                    level2: "Reduces Special Cooldown of [PSY] characters by 1 turn at the start of the fight, boosts ATK of [PSY] characters by 5.25x, boosts ATK of all other characters by 4.55x, boosts HP of all characters by 1.4x, reduces Despair and Paralysis duration by 3 turns and boosts EXP gained by 1.5x."
+                    base: "Reduces Special Cooldown of [PSY] characters by 1 turn at the start of the fight, boosts ATK of [PSY] characters by 4.5x, boosts ATK of all other characters by 4.25x, boosts HP of all characters by 1.4x, and boosts EXP gained by 1.25x.",
+                    level2: "Reduces Special Cooldown of [PSY] characters by 1 turn at the start of the fight, boosts ATK of [PSY] characters by 5.25x, boosts ATK of all other characters by 4.5x, boosts HP of all characters by 1.4x, reduces Despair and Paralysis duration by 3 turns, and boosts EXP gained by 1.5x. If 4+ [Straw Hat Pirates] characters are on the crew, boosts base ATK of [Straw Hat Pirates] characters by 500."
                 }
             },
             {
@@ -132809,7 +132827,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Reduces Special Cooldown of all characters by 1 turn, changes the orb of this character into a Matching orb and boosts ATK of [PSY] characters by 2.5x for 3 turns. If during that turn you score 3 PERFECT hits, increases boost effects of ATK UP and Orb Amplification buffs by +0.25x, including effects activated in the same Ability."
+                    base: "Reduces Special Cooldown of all characters by 1 turn, changes the orb of this character into a Matching orb, and boosts ATK of [PSY] characters by 2.5x for 3 turns. If during that turn you score 3 PERFECT hits, increases boost effects of ATK Up and Orb Amplification buffs by +0.25x in the following turn. If 4+ [Straw Hat Pirates] characters are on the crew, enables ATK Up buffs to be enhanced up to 2 times, and increases boost effects of ATK Up buffs by +0.5x, including effects activated in the same Ability."
                 },
                 rSuperSpecial: true
             }
