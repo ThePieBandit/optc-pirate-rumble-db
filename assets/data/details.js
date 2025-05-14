@@ -124060,6 +124060,7 @@ window.details = {
     3755: {//Zoro
         captain: "Boosts ATK of Slasher and Free Spirit characters by 5.25x, by 5.4x instead if they have a beneficial orb, boosts HP of Slasher and Free Spirit characters by 1.2x and reduces damage received by 10%. If this character has a [TND] or [WANO] orb and you attack with this character, increases boost effects of Chain Addition buffs by +0.25x.",
         special: "Reduces crew's current HP by 20%, deals 1,000,000 Fixed True damage, ignoring Normal Attack Only, to all enemies, reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 6 turns and increases Chain Tap Timing Bonus of Slasher and Free Spirit characters to +0.2x-0.6x for 1 turn depending on Tap Timing. If your Captain's orb is [TND] or [WANO], boosts Chain Multiplier Growth Rate by 1.5x for 1 turn.",
+        specialNotes: "GOOD: +0.2, GREAT: +0.4, PERFECT: +0.6",
         specialName: "Demon Aura Nine-Sword Style: Ashura, Blades Drawn Dead Man's Game",
         superSpecial: "Deals 75x character's ATK in Typeless damage to all enemies, boosts ATK of Slasher and Free Spirit characters by 2.5x for 1 turn and transforms Slasher characters into Super Slasher characters.",
         superSpecialCriteria: "This character must be captain and your crew must have Color Affinity and Orb Amplification or your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Vinsmoke Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Brook, Franky, Jinbe, Kozuki Hiyori and Yamato.",
@@ -124116,7 +124117,7 @@ window.details = {
             },
             {
                 captain: {
-                    base: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Slasher and Free Spirit characters' ATK by approximately 5.75x when slots match (5.25x otherwise), HP by 1.2x, reduces damage taken by 10%, and tapping on this character with a [TND][WANO] or Rainbow slot will further increase crew's chain multiplier additive boost effect (except multiplicative boost) by +0.25"
+                    base: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Slasher and Free Spirit characters by 5.25x, by 5.75x instead if they have a beneficial orb, boosts HP of Slasher and Free Spirit characters by 1.2x, and reduces damage received by 10%. If this character has a [TND], [WANO] or [RAINBOW] orb and you attack with this character, increases boost effects of Chain Addition buffs by +0.25x."
                 }
             },
             {
@@ -124124,7 +124125,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Cuts crew's HP by 20%, but deals 1,500,000 damage to all enemies (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect), and reduces all enemies' Percent Damage ReductionThreshold Damage Reduction duration by 7 turns. If crew has Chain Growth Rate status when Special is launched, further increases crew's Chain Growth Rate by +0.3 (boosts Slasher and Free Spirit characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 1 turn otherwise) for 1 turn. If Captain's slot is [TND][WANO] or Rainbow when Special is launched, boosts the chain multiplier by 1.75x for 1 turn"
+                    base: "Reduces crew's current HP by 20%, deals 1,500,000 Fixed True damage, ignoring Normal Attack Only, to all enemies, and reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 7 turns. If your crew has Chain Tap Timing Bonus when the special is activated, increases boost effects of Chain Tap Timing Bonus buffs by +0.3x; increases Chain Tap Timing Bonus of Slasher and Free Spirit characters to +0.2x-0.6x for 1 turn depending on Tap Timing otherwise. If your Captain's orb is [TND], [WANO] or [RAINBOW], boosts Chain Multiplier Growth Rate by 1.75x for 1 turn."
                 },
                 rSuperSpecial: true
             }
@@ -170893,24 +170894,25 @@ window.details = {
 		festAttackTarget: "Targets closest enemies"
 	},
 	4365: {//Luffy & Zoro & Sanji
-		captain: "Reduces crew's Special charge time by 2 turns and VS Effect gauge/Switch Effect use by 2 at start of quest, boosts [PSY], Free Spirit, and Slasher characters' ATK by 6x, HP by 1.35x, boosts other characters' ATK by 4.5x, and makes crew's [PSY][TND] slots have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, boosts [Straw Hat Pirates][Four Emperors][Worst Generation] characters' ATK by 1.3x instead of 1.1x [Applies following effect based on number of applicable Character Tags on crew] Boosts [Straw Hat Pirates][Four Emperors][Worst Generation] characters' ATK by 1.1x. If 5 or more [Straw Hat Pirates][Four Emperors][Worst Generation] characters are on the crew and crew uses a Special to apply ATK Up or Orb Boost, adds +0.25 to the effect (stackable with other further raising effects). If 3 or more [Straw Hat Pirates] characters are on the crew and [Straw Hat Pirates] character uses a Special to apply similar effect of ATK Up or Orb Boost that is applied on crew, halves the boost effect but changes the effect to a stackable boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as ATK UpOrb Boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other ATK UpOrb Boost effects)",
-		special: "Reduces crew's Despair/Paralysis duration by 10 turns, applies \"Territory: [PSY] type\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 3 turns, and boosts [PSY], Free Spirit, and Slasher characters' slot effects up to 4x based on outcome of Action Special (3.5x for MISS, 3.7x for GOOD, 3.8x for GREAT, 3.9x for PERFECT, 4x for EXCELLENT) for 2 turns. If 5 or more [Straw Hat Pirates][Four Emperors][Worst Generation] characters are on the crew, boosts [PSY], Free Spirit, and Slasher characters' ATK by 3.5x for 2 turns (allows this effect to be further increased up to 2 times; boosts [PSY], Free Spirit, and Slasher characters' ATK by 2.5x for 1 turn otherwise)",
-		specialName: "Trio Barrage",
+		captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, reduces VS Gauge and Switch Effect of all characters by 2 at the start of the fight, boosts ATK of [Straw Hat Pirates], [Four Emperors] and [Worst Generation] characters by 1.1x, boosts ATK of [PSY], Free Spirit and Slasher characters by 6x, by 6.6x instead if they have the applicable tag, boosts ATK of all other characters by 4.5x, by 4.95x instead if they have the applicable tag, boosts HP of [PSY], Free Spirit and Slasher characters by 1.35x, and makes [PSY] and [TND] orbs beneficial for all characters. If this character is your Captain and performs EXCELLENT with their Action Special, boosts ATK of [Straw Hat Pirates], [Four Emperors] and [Worst Generation] characters by 1.3x instead, boosts ATK of [PSY], Free Spirit and Slasher characters by 7.8x instead if they have the applicable tag, and boosts ATK of all other characters by 5.85x instead if they have the applicable tag. If your crew has 5+ [Straw Hat Pirates], [Four Emperors] or [Worst Generation] characters and a crew member uses a special with an ATK Up or Orb Effect buff, increases boost effects of those ATK Up and Orb Amplification buffs by +0.25x. If your crew has 3+ [Straw Hat Pirates] characters, a [Straw Hat Pirates] character uses a special with an ATK Up buff, and your crew has ATK Up when the special is activated: decreases boost effects of ATK Up buffs by 0.5x, and converts ATK Up buff into a Stackable ATK Up. If your crew has 3+ [Straw Hat Pirates] characters, a [Straw Hat Pirates] character uses a special with an Orb Effect buff, and your crew has Orb Amplification when the special is activated: decreases boost effects of Orb Amplification buffs by 0.5x, and converts Orb Amplification buff into a Stackable Orb Amplification.",
+		special: "Reduces Despair and Paralysis duration by 10 turns, applies Territory: [PSY] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns, and boosts Orb Effects of [PSY], Free Spirit and Slasher characters by 3.5x-4x for 2 turns depending on the outcome of Action Special. If your crew has 5+ [Straw Hat Pirates], [Four Emperors] or [Worst Generation] characters, boosts ATK of [PSY], Free Spirit and Slasher characters by 3.5x, can be enhanced up to 2 times, for 2 turns; boosts ATK of [PSY], Free Spirit and Slasher characters by 2.5x, can be enhanced up to 2 times, for 1 turn otherwise.",
+		specialNotes: "MISS: 3.5x, GOOD: 3.7x, GREAT: 3.8x, PERFECT: 3.9x, EXCELLENT 4x",
+        specialName: "Trio Barrage",
 		sailor: {
-			base: "Boosts crew's base stats by 150, and makes their [PSY][TND] slots have matching slot effects",
-			level1: "Reduces crew's Special charge time by 1 turn at start of quest"
+			base: "Boosts base ATK, HP and RCV of all characters by 150; makes [PSY] and [TND] orbs beneficial for all characters.",
+			level1: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight."
 		},
-		superSpecial: "Changes crew's slots (including [BLOCK] slots) to [TND], boosts the type effects of normal attacks for [PSY], Free Spirit, and Slasher characters by 2.5x for 2 turns (effect can be overwritten with other type effect boost effects), changes [PSY] characters to Super [PSY], and changes Free Spirit characters to Super Free Spirit",
-		superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Portgas D. Ace, Sabo, Shanks, Buggy, Marshall D. Teach (Blackbeard), Trafalgar Law, Eustass Kid, Jewelry Bonney, Dracule Mihawk",
+		superSpecial: "Changes all orbs, including [BLOCK] orbs, into [TND] orbs, boosts Color Affinity of [PSY], Free Spirit and Slasher characters by 2.5x, allowing override, for 2 turns, transforms [PSY] characters into Super [PSY] characters, and transforms Free Spirit character into Super Free Spirit characters.",
+		superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Portgas D. Ace, Sabo, Shanks, Buggy, Marshall D. Teach (Blackbeard), Trafalgar Law, Eustass Kid, Jewelry Bonney, Dracule Mihawk",
 		support: [
 			{
 				Characters: "All characters",
 				description: [
-					"Adds 6% of character's base stats to supported character's base stats",
-					"Adds 7% of character's base stats to supported character's base stats",
-					"Adds 8% of character's base stats to supported character's base stats",
-					"Adds 9% of character's base stats to supported character's base stats",
-					"Adds 10% of character's base stats to supported character's base stats"
+					"Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
 				]
 			}
 		],
@@ -170990,18 +170992,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Straw Hat Pirates] [Four Emperors] [Worst Generation] [Mythical Zoan-type] character performs Super Tandem",
-				"When a [Straw Hat Pirates] [Four Emperors] [Worst Generation] [Mythical Zoan-type] character performs Super Tandem",
-				"When a [Straw Hat Pirates] [Four Emperors] [Worst Generation] [Mythical Zoan-type] character performs Super Tandem",
-				"When a [Straw Hat Pirates] [Four Emperors] [Worst Generation] [Mythical Zoan-type] character performs Super Tandem",
-				"When a [Straw Hat Pirates] [Four Emperors] [Worst Generation] [Mythical Zoan-type] character performs Super Tandem"
+				"When a [Straw Hat Pirates], [Four Emperors], [Worst Generation] or [Mythical Zoan-type] character performs Super Tandem",
+				"When a [Straw Hat Pirates], [Four Emperors], [Worst Generation] or [Mythical Zoan-type] character performs Super Tandem",
+				"When a [Straw Hat Pirates], [Four Emperors], [Worst Generation] or [Mythical Zoan-type] character performs Super Tandem",
+				"When a [Straw Hat Pirates], [Four Emperors], [Worst Generation] or [Mythical Zoan-type] character performs Super Tandem",
+				"When a [Straw Hat Pirates], [Four Emperors], [Worst Generation] or [Mythical Zoan-type] character performs Super Tandem"
 			],
 			description: [
-				"Raises Boost Level of [Straw Hat Pirates][Four Emperors][Worst Generation] characters by 1 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 1 for 1 turn",
-				"Raises Boost Level of [Straw Hat Pirates][Four Emperors][Worst Generation] characters by 2 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 2 for 1 turn",
-				"Raises Boost Level of [Straw Hat Pirates][Four Emperors][Worst Generation] characters by 3 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 3 for 1 turn",
-				"Raises Boost Level of [Straw Hat Pirates][Four Emperors][Worst Generation] characters by 4 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 5 for 1 turn",
-				"Raises Boost Level of [Straw Hat Pirates][Four Emperors][Worst Generation] characters by 5 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 7 for 1 turn"
+				"Raises Boost Level of [Straw Hat Pirates], [Four Emperors] and [Worst Generation] characters by 1 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates], [Four Emperors] and [Worst Generation] characters by 2 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 2 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates], [Four Emperors] and [Worst Generation] characters by 3 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 3 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates], [Four Emperors] and [Worst Generation] characters by 4 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 5 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates], [Four Emperors] and [Worst Generation] characters by 5 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 7 for 1 turn."
 			]
 		},
 		festStats: {
@@ -171096,27 +171098,30 @@ window.details = {
 		festAbilityGPCondition: "After dealing damage 12 times"
 	},	
     4366: {//Kizaru
-		captain: "Reduces crew's Special charge time by 4 turns at start of quest, boosts [DEX], Shooter, and Slasher characters' ATK by 6x, boosts other characters' ATK by 4.5x, boosts crew's HP by 1.35x, and makes [DEX][TND] slots have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, boosts [Egghead][Logia-type]Navy] characters' ATK by 1.3x instead of 1.1x [Applies following effect based on number of applicable Character Tags on crew] Boosts [Egghead][Logia-type]Navy] characters' ATK by 1.1x. If 3 or more [Egghead][Logia-type]Navy] characters are on the crew, reduces crew's Burn/Special Bind duration by 10 turns. If 4 or more [Navy] characters are on the crew, this Captain ability's effects and any Specials targeting certain types and classes will target the entire crew instead (excluding those that do not apply to types/classes)",
-		special: "Reduces middle-row characters' Special charge time by 6 turns (Special charge time reduction effect of \"Obstacle-Eliminating Ama no Murakumo Sword\" can be activated up to 2 times including any Specials with similar effect). If a [PSY] character is set as Support for character, applies \"Territory: Slasher class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns (applies \"Territory: Shooter class\" for 3 turns otherwise), then after that, boosts chain multiplier's minimum value up to 4x based on outcome of Action Special (3.25x for MISS, 3.5x for GOOD, 3.7x for GREAT, 3.9x for PERFECT, 4x for EXCELLENT, chain multiplier's maximum value is 35.0) for 2 turns. If 5 or more [Egghead][Navy][Logia-type] characters are on the crew, boosts [DEX], Shooter, and Slasher characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.3; GREAT +0.5; PERFECT +0.7) for 2 turns (allows this effect to be further increased up to 2 times; boosts [DEX], Shooter, and Slasher characters' chain multiplier growth rate of normal attacks up to +0.5 (GOOD +0.3; GREAT +0.4; PERFECT +0.5) for 1 turn otherwise)",
-		specialName: "Obstacle-Eliminating Ama no Murakumo Sword",
+		captain: "Reduces Special Cooldown of all characters by 4 turns at the start of the fight, boosts ATK of [Egghead], [Logia-type] and [Navy] characters by 1.1x, boosts ATK of [DEX], Shooter and Slasher characters by 6x, by 6.6x instead if they have the applicable tag, boosts ATK of all other characters by 4.5x, by 4.95x instead if they have the applicable tag, boosts HP of all characters by 1.35x, and makes [DEX] and [TND] orbs beneficial for all characters. If this character is your Captain and performs EXCELLENT with their Action Special, boosts ATK of [Egghead], [Logia-type] and [Navy] characters by 1.3x instead, boosts ATK of [PSY], Free Spirit and Slasher characters by 7.8x instead if they have the applicable tag, and boosts ATK of all other characters by 5.85x instead if they have the applicable tag. If your crew has 3+ [Egghead], [Logia-type] or [Navy] characters, reduces Burn and Special Bind duration by 10 turns. If your crew has 4+ [Navy] characters, makes all Specials that apply Class or Type restricted buffs apply to all characters instead.",
+		captainNotes: "Buff restriction override does not apply to \"Partial\" buffs. The buff restriction override applies to any effect that would normally affect only certain classes or types, including, but not restricted to: ATK buffs, Orb buffs, Base ATK buffs, Cooldown Reduction, Normal Attack Defensive Effect Bypass, Orb Lock buffs and Slot Barrier debuffs, but does not affect defensive buffs. This effect doesn't not affect Swap abilities, Support abilities, Super Special abilities, VS Special abilities or effects obtained from Following Turn or Tap-Timing Following Turn buffs.",
+        special: "Up to 2 times per adventure, reduces Special Cooldown of middle row characters by 6 turns. Sets Chain Boundaries to 3.25x-4x and 35.0x for 2 turns depending on the outcome of Action Special. If a [PSY] character is supporting this character, applies Territory: Slasher class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns; applies Territory: Shooter class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns otherwise. If your crew has 5+ [Egghead], [Navy] or [Logia-type] characters, increases Chain Tap Timing Bonus of [DEX], Shooter and Slasher characters to +0.3x-0.7x, can be enhanced up to 2 times, for 2 turns depending on Tap Timing; increases Chain Tap Timing Bonus of [DEX], Shooter and Slasher characters to +0.3x-0.5x for 1 turn depending on Tap Timing otherwise.",
+		specialNotes: "<br><b>Chain Boundary:</b> MISS: 3.25x, GOOD: 3.5x, GREAT: 3.7x, PERFECT: 3.9x, EXCELLENT 4x.<br><b>Tap Timing:</b> GOOD: +0.3, GREAT: +0.5, PERFECT: +0.7; GOOD: +0.3, GREAT: +0.4, PERFECT: +0.5 otherwise.",
+        specialName: "Obstacle-Eliminating Ama no Murakumo Sword",
 		sailor: {
-			base: "Reduces character's Special Reverse by 10 turns, and makes crew's [DEX][TND] slots have matching slot effects",
-			level1: "Reduces crew's Special charge time by 1 turn at start of quest"
+			base: "Restores Special Cooldown of this character by 10 turns when it is rewinded; makes [DEX] and [TND] orbs beneficial for all characters.",
+			level1: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight."
 		},
-		superSpecial: "Reduces all enemies Intimidation duration by 2 turns, reduces top-row characters' Special charge time by 4 turns, boosts crew's slot effects by 2.5x for 2 turns (effect can be overwritten with other slot effect boost effects), changes [DEX] characters to Super [DEX], and changes Shooter characters to Super Shooter",
-		superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Sakazuki (Akainu), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Sentomaru, Vice Admiral Doll, Tsuru, Zephyr (Z), Tashigi, Kuzan (Aokiji), Coby, Rob Lucci, Kaku, Dr. Vegapunk (Stella); or when crew has 6 Shooter or Slasher characters",
+		superSpecial: "Reduces enemies' Intimidation duration by 2 turns, reduces Special Cooldown of top row characters by 4 turns, boosts Orb Effects of all characters by 2.5x, allowing override, for 2 turns, transforms [DEX] characters into Super [DEX] characters, and transforms Shooter character into Super Shooter characters.",
+		superSpecialCriteria: "This character must be captain. Your crew must have 6 Shooter or Slasher characters; or your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Sakazuki (Akainu), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Sentomaru, Vice Admiral Doll, Tsuru, Zephyr (Z), Tashigi, Kuzan (Aokiji), Coby, Rob Lucci, Kaku, Dr. Vegapunk (Stella)",
 		support: [
 			{
 				Characters: "Monkey D. Garp, Sengoku, Issho (Fujitora), Sakazuki (Akainu), Aramaki (Ryokugyu)",
 				description: [
-					"Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [DEX], Shooter, and Slasher characters' chain multiplier growth rate of normal attacks up to +0.4 (GOOD +0; GREAT +0.1; PERFECT +0.4) for 1 turn",
-					"Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [DEX], Shooter, and Slasher characters' chain multiplier growth rate of normal attacks up to +0.4 (GOOD +0; GREAT +0.1; PERFECT +0.4) for 1 turn",
-					"Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [DEX], Shooter, and Slasher characters' chain multiplier growth rate of normal attacks up to +0.5 (GOOD +0; GREAT +0.1; PERFECT +0.5) for 1 turn",
-					"Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [DEX], Shooter, and Slasher characters' chain multiplier growth rate of normal attacks up to +0.5 (GOOD +0; GREAT +0.1; PERFECT +0.5) for 1 turn",
-					"Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [DEX], Shooter, and Slasher characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0; GREAT +0.1; PERFECT +0.6) for 1 turn"
+					"Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, increases Chain Tap Timing Bonus of [DEX], Shooter and Slasher characters to +0.0x-0.4x for 1 turn depending on Tap Timing.",
+					"Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, increases Chain Tap Timing Bonus of [DEX], Shooter and Slasher characters to +0.0x-0.4x for 1 turn depending on Tap Timing.",
+					"Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, increases Chain Tap Timing Bonus of [DEX], Shooter and Slasher characters to +0.0x-0.5x for 1 turn depending on Tap Timing.",
+					"Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, increases Chain Tap Timing Bonus of [DEX], Shooter and Slasher characters to +0.0x-0.5x for 1 turn depending on Tap Timing.",
+					"Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, increases Chain Tap Timing Bonus of [DEX], Shooter and Slasher characters to +0.0x-0.6x for 1 turn depending on Tap Timing."
 				]
 			}
 		],
+        supportNotes: "GOOD: +0.0, GREAT: +0.1, PERFECT: +0.6",
 		limit: [
 			{ description: "Boosts base RCV by 10" },
 			{ description: "Boosts base ATK by 10" },
@@ -171193,18 +171198,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Egghead] [Logia-type] [Navy] [Navy Admiral] character performs Super Tandem",
-				"When a [Egghead] [Logia-type] [Navy] [Navy Admiral] character performs Super Tandem",
-				"When a [Egghead] [Logia-type] [Navy] [Navy Admiral] character performs Super Tandem",
-				"When a [Egghead] [Logia-type] [Navy] [Navy Admiral] character performs Super Tandem",
-				"When a [Egghead] [Logia-type] [Navy] [Navy Admiral] character performs Super Tandem"
+				"When a [Egghead], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
+				"When a [Egghead], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
+				"When a [Egghead], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
+				"When a [Egghead], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
+				"When a [Egghead], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem"
 			],
 			description: [
-				"Raises Boost Level of [Egghead][Logia-type][Navy] characters by 1 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 1 for 1 turn",
-				"Raises Boost Level of [Egghead][Logia-type][Navy] characters by 2 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 2 for 1 turn",
-				"Raises Boost Level of [Egghead][Logia-type][Navy] characters by 3 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 3 for 1 turn",
-				"Raises Boost Level of [Egghead][Logia-type][Navy] characters by 4 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 5 for 1 turn",
-				"Raises Boost Level of [Egghead][Logia-type][Navy] characters by 5 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 7 for 1 turn"
+				"Raises Boost Level of [Egghead], [Logia-type] and [Navy] characters by 1 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Egghead], [Logia-type] and [Navy] characters by 2 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 2 for 1 turn.",
+				"Raises Boost Level of [Egghead], [Logia-type] and [Navy] characters by 3 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 3 for 1 turn.",
+				"Raises Boost Level of [Egghead], [Logia-type] and [Navy] characters by 4 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 5 for 1 turn.",
+				"Raises Boost Level of [Egghead], [Logia-type] and [Navy] characters by 5 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 7 for 1 turn."
 			]
 		},
 		festStats: {
@@ -171299,33 +171304,33 @@ window.details = {
 		festAbilityGPCondition: "After dealing 40,000 damage"
 	},
 	4367: {//Nami
-		captain: "Reduces crew's Special charge time by 2 turns at start of quest, boosts [PSY], Slasher, and Striker characters' ATK by 6x when slots match (5x otherwise), RCV by 1.35x, and boosts amount of Berries earned by 4x (unless character became Captain in the middle of the quest) [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Straw Hat Pirates] characters are on the crew, reduces crew's Bind/Despair duration by 3 turns",
+		captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [PSY], Slasher and Striker characters by 5x, by 6x instead if they have a beneficial orb, boosts RCV of [PSY], Slasher and Striker characters by 1.35x, and boosts amount of Beli received by 4x. If your crew has 4+ [Straw Hat Pirates] characters, reduces Bind and Despair duration by 3 turns.",
 		special: [
 			{
-				description: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) and DEF Up duration by 6 turns, and changes crew's slots (including [BLOCK] slots) to [TND]. If Captain is a Slasher or Striker class, applies increase damage taken status to all enemies by 2.25x for 3 turns. If 3 or more [Straw Hat Pirates] characters are on the crew, this Special's increase damage taken effect will ignore immunity to status effects",
+				description: "Reduces enemies' Percent Damage Reduction and Increased Defense duration by 6 turns, and changes all orbs, including [BLOCK] orbs, into [TND] orbs. If your Captain is a Slasher or Striker character and your crew has 3+ [Straw Hat Pirates] characters, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.25x for 3 turns; if your Captain is a Slasher or Striker character, inflicts all enemies with Increase Damage Taken by 2.25x for 3 turns. ",
 				cooldown: [ 13, 8 ]
 			},
 			{
-				description: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) and DEF Up duration by 7 turns, changes crew's slots (including [BLOCK] slots) to [TND], and boosts [PSY], Slasher, and Striker characters' base ATK by +1500 for 3 turns. If Captain is a Slasher or Striker class, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.25x if enemy has Increased Damage Taken) to all enemies for 3 turns. If 3 or more [Straw Hat Pirates] characters are on the crew, this Special's Weakened effect will ignore immunity to status effects, and reduces character's Special charge time by 2 turns",
+				description: "Reduces enemies' Percent Damage Reduction and Increased Defense duration by 7 turns, changes all orbs, including [BLOCK] orbs, into [TND] orbs, and boosts Base ATK of [PSY], Slasher and Striker characters by 1,500 for 3 turns. If your crew has 3+ [Straw Hat Pirates] characters, reduces Special Cooldown of this character by 2 turns. If your Captain is a Slasher or Striker character and your crew has 3+ [Straw Hat Pirates] characters, ignores Debuff Protection and inflicts all enemies with Weaken by 1.5x, by 1.875x if enemies are inflicted with Increase Damage Taken, for 3 turns; if your Captain is a Slasher or Striker character, inflicts all enemies with Weaken by 1.5x, by 1.875x if enemies are inflicted with Increase Damage Taken, for 3 turns.",
 				cooldown: [ 22, 17 ]
 			}
 		],
 		specialName: "Eye-Catching Swordplay",
 		sailor: {
-			base: "Boosts Slasher and Striker characters' base stats by 150",
-			level1: "Tapping on this character with a [TND][WANO] or Rainbow slot will further increase crew's base ATK boost by +300"
+			base: "Boosts base ATK, HP and RCV of Slasher and Striker characters by 150.",
+			level1: "If this character has a [TND], [WANO] or [RAINBOW] orb and you attack with this character, increases boost effects of Base ATK Boost buffs by +300."
 		},
-		superSpecial: "Reduces character's Special charge time by 2 turns, applies -30% Slasher and Striker Resistance to all enemies for 1 turn, boosts the ATK of the next final tap performed by a Slasher or Striker character by 20% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), changes Slasher characters to Super Slasher, and changes Striker characters to Super Striker",
-		superSpecialCriteria: "When crew has 2 or more Slasher or Striker characters and any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Roronoa Zoro, Brook",
+		superSpecial: "Reduces Special Cooldown of all characters by 2 turns, reduces enemies' Slasher and Striker Resistance by -30% for 1 turn, boosts Final Tap ATK of Slasher and Striker characters by 20%, transforms Slasher character into Super Slasher characters, and transforms Striker character into Super Striker characters.",
+		superSpecialCriteria: "Can be launched as crewmate. Your crew must have 2+ Slasher or Slasher characters, and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Brook",
 		support: [
 			{
 				Characters: "[PSY] Slasher characters",
 				description: [
-					"Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by Slasher or Striker characters by 3% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and further increases crew's base ATK boost by +100",
-					"Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by Slasher or Striker characters by 3% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and further increases crew's base ATK boost by +100",
-					"Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by Slasher or Striker characters by 4% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and further increases crew's base ATK boost by +150",
-					"Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by Slasher or Striker characters by 4% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and further increases crew's base ATK boost by +150",
-					"Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by Slasher or Striker characters by 5% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and further increases crew's base ATK boost by +200"
+					"Once per adventure, when the supported character uses their special, boosts Final Tap ATK of Slasher and Striker characters by 3%, and increases boost effects of Base ATK Boost buffs by +100.",
+					"Once per adventure, when the supported character uses their special, boosts Final Tap ATK of Slasher and Striker characters by 3%, and increases boost effects of Base ATK Boost buffs by +100.",
+					"Once per adventure, when the supported character uses their special, boosts Final Tap ATK of Slasher and Striker characters by 4%, and increases boost effects of Base ATK Boost buffs by +150.",
+					"Once per adventure, when the supported character uses their special, boosts Final Tap ATK of Slasher and Striker characters by 4%, and increases boost effects of Base ATK Boost buffs by +150.",
+					"Once per adventure, when the supported character uses their special, boosts Final Tap ATK of Slasher and Striker characters by 5%, and increases boost effects of Base ATK Boost buffs by +200."
 				]
 			}
 		],
@@ -171414,18 +171419,18 @@ window.details = {
 		],
 		superTandem: {
 			characterCondition: [
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bellmere, Nojiko, Genzo (Gen), Haredas, Carina, Charlotte Linlin (Big Mom)",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bellmere, Nojiko, Genzo (Gen), Haredas, Carina, Charlotte Linlin (Big Mom)",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bellmere, Nojiko, Genzo (Gen), Haredas, Carina, Charlotte Linlin (Big Mom)",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bellmere, Nojiko, Genzo (Gen), Haredas, Carina, Charlotte Linlin (Big Mom)",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bellmere, Nojiko, Genzo (Gen), Haredas, Carina, Charlotte Linlin (Big Mom)"
+				"On the last Stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bellmere, Nojiko, Genzo (Gen), Haredas, Carina, Charlotte Linlin (Big Mom)",
+				"On the last Stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bellmere, Nojiko, Genzo (Gen), Haredas, Carina, Charlotte Linlin (Big Mom)",
+				"On the last Stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bellmere, Nojiko, Genzo (Gen), Haredas, Carina, Charlotte Linlin (Big Mom)",
+				"On the last Stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bellmere, Nojiko, Genzo (Gen), Haredas, Carina, Charlotte Linlin (Big Mom)",
+				"On the last Stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bellmere, Nojiko, Genzo (Gen), Haredas, Carina, Charlotte Linlin (Big Mom)"
 			],
 			description: [
-				"Applies ATK Boost (Tandem) of 1.25x to [PSY], Slasher, and Striker characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.5x to [PSY], Slasher, and Striker characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.75x to [PSY], Slasher, and Striker characters for 1 turn, and further increases all enemies' increase damage taken effect by +0.1",
-				"Applies ATK Boost (Tandem) of 2x to [PSY], Slasher, and Striker characters for 1 turn, and further increases all enemies' increase damage taken effect by +0.3",
-				"Applies ATK Boost (Tandem) of 2.25x to [PSY], Slasher, and Striker characters for 1 turn, and further increases all enemies' increase damage taken effect by +0.5"
+				"Boosts Tandem ATK of [PSY], Slasher and Striker characters by 1.25x for 1 turn.",
+				"Boosts Tandem ATK of [PSY], Slasher and Striker characters by 1.5x for 1 turn.",
+				"Boosts Tandem ATK of [PSY], Slasher and Striker characters by 1.75x for 1 turn, and increases boost effects of Status ATK buffs by +0.1x.",
+				"Boosts Tandem ATK of [PSY], Slasher and Striker characters by 2x for 1 turn, and increases boost effects of Status ATK buffs by +0.3x.",
+				"Boosts Tandem ATK of [PSY], Slasher and Striker characters by 2.25x for 1 turn, and increases boost effects of Status ATK buffs by +0.5x."
 			]
 		},
 		festStats: {
@@ -171910,33 +171915,34 @@ window.details = {
 		]
 	},
 	4371: {//6+ Zoro
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Slasher and Driven characters' ATK by approximately 5.75x when slots match (5.25x otherwise), HP by 1.2x, reduces damage taken by 10%, and tapping on this character with a [TND][WANO] or Rainbow slot will further increase crew's chain multiplier additive boost effect (except multiplicative boost) by +0.25",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Slasher and Driven characters by 5.25x, by 5.75x instead if they have a beneficial orb, boosts HP of Slasher and Driven characters by 1.2x, and reduces damage received by 10%. If this character has a [TND], [WANO] or [RAINBOW] orb and you attack with this character, increases boost effects of Chain Addition buffs by +0.25x.",
 		special: [
 			{
-				description: "Deals 500,000 damage to all enemies (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect), and reduces all enemies' DEF Up duration by 5 turns. If crew has Chain Growth Rate status when Special is launched, further increases crew's Chain Growth Rate by +0.2, then after that, boosts the chain multiplier by 1.5x for 1 turn",
+				description: "Deals 500,000 Fixed True damage, ignoring Normal Attack Only, to all enemies, reduces enemies' Increased Defense duration by 5 turns, and boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has Chain Tap Timing Bonus when the special is activated, increases boost effects of Chain Tap Timing Bonus buffs by +0.2x.",
 				cooldown: [ 17, 12 ]
 			},
 			{
-				description: "Deals 1,500,000 damage to all enemies (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect), and reduces all enemies' Percent Damage ReductionThreshold Damage Reduction duration by 6 turns. If crew has Chain Growth Rate status when Special is launched, further increases crew's Chain Growth Rate by +0.2, then after that, boosts the chain multiplier by 1.75x for 1 turn. If Captain's slot is [TND][WANO] or Rainbow when Special is launched, boosts Slasher and Driven characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 1 turn. If crew's HP is 71% or above when Special is launched, cuts 70% of crew's maximum HP and reduces character's Special charge time by 6 turns",
+				description: "Deals 1,500,000 Fixed True damage, ignoring Normal Attack Only, to all enemies, reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 6 turns, and boosts Chain Multiplier Growth Rate by 1.75x for 1 turn. If your crew has Chain Tap Timing Bonus when the special is activated, increases boost effects of Chain Tap Timing Bonus buffs by +0.2x. If your Captain's orb is [TND], [WANO] or [RAINBOW], increases Chain Tap Timing Bonus of Slasher and Driven characters to +0.2x-0.6x for 1 turn depending on Tap Timing. If HP is above 71% when the special is activated, reduces crew's current HP by 70%, and reduces Special Cooldown of this character by 6 turns.",
 				cooldown: [ 20, 15 ]
 			},
 		],
+        specialNotes: "<br><b>Base:</b> GOOD: +0.2, GREAT: +0.4, PERFECT: +0.6<br><b>LLB:</b> GOOD: +0.2, GREAT: +0.4, PERFECT: +0.7",
 		specialName: "Swordsman Growing Stronger",
 		sailor: {
-			level1: "Boosts Slasher and Free Spirit characters' base ATK by 125",
-			level2: "Makes character immune to Stun"
+			level1: "Boosts base ATK of Slasher and Free Spirit characters by 125.",
+			level2: "Removes Stun duration completely on this character."
 		},
-		superSpecial: "Deals 75x character's ATK in non-type damage to all enemies, applies -10% Slasher and Driven Resistance to all enemies for 1 turn, allows Chain Growth Rate effect to be further increased up to 2 times, boosts Slasher and Driven characters' ATK by 2.25x for 1 turn (effect can be overwritten with other ATK boost effects), and changes Slasher characters to Super Slasher",
-		superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dracule Mihawk, Daz Bonez (Mr. 1), King (Alber), Kaku, Ryuma, Bartholomew Kuma, Ohm, Hyouzou, Tashigi, Monet, Pica, Killer",
+		superSpecial: "Deals 75x character's ATK in Typeless damage to all enemies, reduces enemies' Slasher and Driven Resistance by -10% for 1 turn, enables Chain Tap Timing Bonus buffs to be enhanced up to 2 times, boosts ATK of Slasher and Driven characters by 2.25x, allowing override, for 1 turn, and transforms Slasher characters into Super Slasher characters.",
+		superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dracule Mihawk, Daz Bonez (Mr. 1), King (Alber), Kaku, Ryuma, Bartholomew Kuma, Ohm, Hyouzou, Tashigi, Monet, Pica, Killer",
 		support: [
 			{
 				Characters: "Slasher characters",
 				description: [
-					"Boosts the chain multiplier by +0.1 for a turn at start of final battle",
-					"Boosts the chain multiplier by +0.2 for a turn at start of final battle",
-					"Boosts the chain multiplier by +0.3 for a turn at start of final battle",
-					"Boosts the chain multiplier by +0.4 for a turn at start of final battle",
-					"Boosts the chain multiplier by +0.5 for a turn at start of final battle"
+					"Once per adventure, when you reach the final stage, adds 0.1x to Chain Multiplier for 1 turn.",
+					"Once per adventure, when you reach the final stage, adds 0.2x to Chain Multiplier for 1 turn.",
+					"Once per adventure, when you reach the final stage, adds 0.3x to Chain Multiplier for 1 turn.",
+					"Once per adventure, when you reach the final stage, adds 0.4x to Chain Multiplier for 1 turn.",
+					"Once per adventure, when you reach the final stage, adds 0.5x to Chain Multiplier for 1 turn."
 				]
 			}
 		],
@@ -171989,7 +171995,7 @@ window.details = {
             },
             {
                 captain: {
-                    base: "Reduces crew's Special charge time by 2 turns at start of quest, boosts Slasher and Driven characters' ATK by approximately 5.75x when slots match (5.25x otherwise), HP by 1.2x, reduces damage taken by 10%, tapping on this character with a [TND][WANO] or Rainbow slot will further increase crew's chain multiplier additive boost effect (except multiplicative boost) by +0.25, and if a Slasher or Driven crewmate uses a Special, reduces character's Special charge time by 2 turns (up to 3 times per quest)"
+                    base: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of Slasher and Driven characters by 5.75x, by 6.25x instead if they have a beneficial orb, boosts HP of Slasher and Driven characters by 1.2x, and reduces damage received by 10%. If this character has a [TND], [WANO] or [RAINBOW] orb and you attack with this character, increases boost effects of Chain Addition buffs by +0.25x. Up to 3 times per adventure, if a Slasher or Driven crewmate uses a special, reduces Special Cooldown of this character by 2 turns."
                 }
             },
             {
@@ -171999,11 +172005,11 @@ window.details = {
                 special: {
                     base: [
                         {
-                            description: "Deals 500,000 damage to all enemies (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect), and reduces all enemies' DEF Up duration by 6 turns. If crew has Chain Growth Rate status when Special is launched, further increases crew's Chain Growth Rate by +0.2, and boosts Slasher and Driven characters' Critical rate by 20% for 1 turn (effect applies only to characters with Critical ATK Potential Ability; highest possible chance is 100%), then after that, boosts the chain multiplier by 1.5x for 1 turn",
+                            description: "Deals 500,000 Fixed True damage, ignoring Normal Attack Only, to all enemies, reduces enemies' Increased Defense duration by 6 turns, and boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has Chain Tap Timing Bonus when the special is activated, increases boost effects of Chain Tap Timing Bonus buffs by +0.2x, and boosts Critical Hit Rate of Slasher and Driven characters by 20% for 1 turn.",
                             cooldown: [ 17, 12 ]
                         },
                         {
-                            description: "Deals 1,500,000 damage to all enemies (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect), and reduces all enemies' Percent Damage ReductionThreshold Damage Reduction duration by 6 turns. If crew has Chain Growth Rate status when Special is launched, further increases crew's Chain Growth Rate by +0.3, then after that, doubles the chain multiplier for 1 turn. If Captain's slot is [TND][WANO] or Rainbow when Special is launched, boosts Slasher and Driven characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.2; GREAT +0.4; PERFECT +0.7) for 1 turn. If Captain's slot is [QCK][DEX][PSY] when Special is launched, boosts Slasher and Driven characters' damage dealt when landing a Critical hit by 50% for 1 turn<hidden> (effect applies only to characters with Critical ATK Potential Ability)</hidden>. If crew's HP is 71% or above when Special is launched, cuts 70% of crew's maximum HP and reduces character's Special charge time by 6 turns",
+                            description: "Deals 1,500,000 Fixed True damage, ignoring Normal Attack Only, to all enemies, reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 6 turns, and boosts Chain Multiplier Growth Rate by 2x for 1 turn. If your crew has Chain Tap Timing Bonus when the special is activated, increases boost effects of Chain Tap Timing Bonus buffs by +0.3x. If your Captain's orb is [TND], [WANO] or [RAINBOW], increases Chain Tap Timing Bonus of Slasher and Driven characters to +0.2x-0.7x for 1 turn depending on Tap Timing. If your Captain's orb is [DEX], [QCK] or [PSY], boosts Critical Hit Damage of Slasher characters by 50% for 1 turn. If HP is above 71% when the special is activated, reduces crew's current HP by 70%, and reduces Special Cooldown of this character by 6 turns.",
                             cooldown: [ 20, 15 ]
                         }
                     ]
