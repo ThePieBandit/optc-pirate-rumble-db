@@ -171507,22 +171507,22 @@ window.details = {
         }
 	},
 	4368: {//Usopp
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Shooter characters' ATK by 4x, and makes their [STR][DEX][QCK] slots have matching slot effects",
-		special: "Reduces crew's Special charge time by 2 turns, and reduces all enemies' Threshold Damage Reduction duration by 6 turns. If crew has ATK Up status when Special is launched, boosts the chain multiplier by 1.5x for 1 turn, then after that, boosts crew's ATK by 2.75x for 1 turn. If 3 or more [Straw Hat Pirates][Egghead] characters are on the crew, boosts damage dealt to delayed and increased damage taken enemies by  2.25x for 1 turn",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Shooter characters by 4x, and makes [STR], [DEX] and [QCK] orbs beneficial for Shooter characters.",
+		special: "Reduces Special Cooldown of all characters by 2 turns, reduces enemies' Threshold Damage Reduction duration by 6 turns, and boosts ATK of all characters by 2.75x for 1 turn. If your crew has ATK Up when the special is activated, boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has 3+ [Straw Hat Pirates] or [Egghead] characters, boosts ATK against delayed enemies and enemies inflicted with Increase Damage Taken by 2.25x for 1 turn.",
 		specialName: "Raising the Transponder Snail",
 		sailor: {
-			base: "Reduces character's Special Reverse by 3 turns, and makes crew's [DEX] slots have matching slot effects",
-			level1: "Boosts crew's base stats by 75"
+			base: "Restores Special Cooldown of this character by 3 turns when it is rewinded; makes [DEX] orbs beneficial for all characters.",
+			level1: "Boosts base ATK, HP and RCV of all characters by 75."
 		},
 		support: [
 			{
 				Characters: "Shooter characters",
 				description: [
-					"Adds 6% of character's base stats to supported character's base stats",
-					"Adds 7% of character's base stats to supported character's base stats",
-					"Adds 8% of character's base stats to supported character's base stats",
-					"Adds 9% of character's base stats to supported character's base stats",
-					"Adds 10% of character's base stats to supported character's base stats"
+					"Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
 				]
 			}
 		],
@@ -171566,13 +171566,13 @@ window.details = {
 			}
 		],
 		lastTap: {
-			condition: "At final battle",
+			condition: "On the last stage",
 			description: [
-				"Boosts character's base ATK by +200 for 1 turn (stacks with effects from Special)",
-				"Boosts character's base ATK by +300 for 1 turn (stacks with effects from Special)",
-				"Boosts character's base ATK by +400 for 1 turn (stacks with effects from Special)",
-				"Boosts character's base ATK by +600 for 1 turn (stacks with effects from Special)",
-				"Boosts character's base ATK by +800 for 1 turn (stacks with effects from Special)"
+				"Boosts base ATK of this character by 200 for 1 turn.",
+				"Boosts base ATK of this character by 300 for 1 turn.",
+				"Boosts base ATK of this character by 400 for 1 turn.",
+				"Boosts base ATK of this character by 600 for 1 turn.",
+				"Boosts base ATK of this character by 800 for 1 turn."
 			],
 		},
 		festStats: {
@@ -171639,22 +171639,22 @@ window.details = {
 		]
 	},
 	4369: {//Chopper
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts [PSY] characters' ATK by 4x, and makes their [INT][TND] slots have matching slot effects",
-		special: "Delays all enemies by 2 turns, reduces crew's ATK Down duration by 6 turns, removes all Poison, and heals 30% of crew's maximum HP. If crew has slot effect boost when Special is launched, boosts the chain multiplier by 1.5x for 1 turn, then after that, boosts crew's slot effects by 2.75x for 1 turn. If 3 or more [Straw Hat Pirates][Egghead] characters are on the crew, boosts the chain multiplier by +1.2 for 1 turn",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [PSY] characters by 4x, and makes [INT] and [TND] orbs beneficial for [PSY] characters.",
+		special: "Delays all enemies by 2 turns, reduces ATK Down duration by 6 turns, removes Poison duration completely, recovers 30% of crew's MAX HP, and boosts Orb Effects of all characters by 2.75x for 1 turn. If your crew has Orb Amplification when the special is activated, boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has 3+ [Straw Hat Pirates] or [Egghead] characters, adds 1.2x to Chain Multiplier for 1 turn.",
 		specialName: "Blushing Reindeer Ship Doctor",
 		sailor: {
-			base: "Boosts crew's base ATK and RCV by 100, and makes their [PSY] slots have matching slot effects",
-			level1: "Reduces crew's Paralysis duration by 1 turn"
+			base: "Boosts base ATK and RCV of all characters by 100; makes [PSY] orbs beneficial for all characters.",
+			level1: "Reduces Paralysis duration by 1 turn."
 		},
 		support: [
 			{
 				Characters: "Cerebral characters",
 				description: [
-					"Adds 6% of character's base stats to supported character's base stats",
-					"Adds 7% of character's base stats to supported character's base stats",
-					"Adds 8% of character's base stats to supported character's base stats",
-					"Adds 9% of character's base stats to supported character's base stats",
-					"Adds 10% of character's base stats to supported character's base stats"
+					"Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
 				]
 			}
 		],
@@ -171699,18 +171699,18 @@ window.details = {
 		],
 		superTandem: {
 			characterCondition: [
-				"At final battle and 3 [PSY] characters are on the crew (not including self; except as Support Characters; Double Characters counts as 1)",
-				"At final battle and 3 [PSY] characters are on the crew (not including self; except as Support Characters; Double Characters counts as 1)",
-				"At final battle and 3 [PSY] characters are on the crew (not including self; except as Support Characters; Double Characters counts as 1)",
-				"At final battle and 3 [PSY] characters are on the crew (not including self; except as Support Characters; Double Characters counts as 1)",
-				"At final battle and 3 [PSY] characters are on the crew (not including self; except as Support Characters; Double Characters counts as 1)"
+				"On the last stage. Your crew must have 4 [PSY] characters, excluding Supports and counting only 1 per unit.",
+				"On the last stage. Your crew must have 4 [PSY] characters, excluding Supports and counting only 1 per unit.",
+				"On the last stage. Your crew must have 4 [PSY] characters, excluding Supports and counting only 1 per unit.",
+				"On the last stage. Your crew must have 4 [PSY] characters, excluding Supports and counting only 1 per unit.",
+				"On the last stage. Your crew must have 4 [PSY] characters, excluding Supports and counting only 1 per unit."
 			],
 			description: [
-				"Applies ATK Boost (Tandem) of 1.25x to [PSY] characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.45x to [PSY] characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.55x to [PSY] characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.65x to [PSY] characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.75x to [PSY] characters for 1 turn"
+				"Boosts Tandem ATK of [PSY] characters by 1.25x for 1 turn.",
+				"Boosts Tandem ATK of [PSY] characters by 1.45x for 1 turn.",
+				"Boosts Tandem ATK of [PSY] characters by 1.55x for 1 turn.",
+				"Boosts Tandem ATK of [PSY] characters by 1.65x for 1 turn.",
+				"Boosts Tandem ATK of [PSY] characters by 1.75x for 1 turn."
 			]
 		},
 		festStats: {
@@ -171777,22 +171777,23 @@ window.details = {
 		]
 	},
 	4370: {//Franky
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Shooter characters' ATK by 4x, and makes their [PSY][INT][TND] slots have matching slot effects",
-		special: "[Can charge Special charge over its MAX (including Special charge time reduction effects)] Reduces crew's Special Bind duration by 6 turns, and changes crew's slots (including [BLOCK] slots) to [TND]. If crew has Color Affinity status when Special is launched, boosts the chain muliplier by 1.5x for 1 turn, then after that, boosts the type effects of normal attacks for crew by 2.5x for 1 turn (plus a further +0.1 every 3 turns over MAX Special, up to 3.0). If 3 or more [Straw Hat Pirates][Egghead] characters are on the crew, reduces damage taken by 85% for 2 turns",
-		specialName: "Escaping the Explosion",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Shooter characters by 4x, and makes [PSY], [INT] and [TND] orbs beneficial for Shooter characters.",
+		special: "Reduces Special Bind duration by 6 turns, changes all orbs, including [BLOCK] orbs, into [TND] orbs, and boosts Color Affinity of all characters by 2.5x-3x for 1 turn. If your crew has Color Affinity when the special is activated, boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has 3+ [Straw Hat Pirates] or [Egghead] characters, reduces damage received by 80% for 2 turns.",
+		specialNotes: "For every 3 <b>Special Cooldown charges</b> after this special is charged to MAX, the Color Affinity increases by +0.1x until its maximum value.",
+        specialName: "Escaping the Explosion",
 		sailor: {
-			base: "Reduces character's Special Bind duration by 6 turns",
-			level1: "Boosts crew's base ATK and HP by 100, and makes their [BOMB] slots have matching slot effects"
+			base: "Reduces Special Bind duration by 6 turns on this character.",
+			level1: "Boosts base ATK and HP of all characters by 100; makes [BOMB] orbs beneficial for all characters."
 		},
 		support: [
 			{
 				Characters: "Shooter characters",
 				description: [
-					"Adds 6% of character's base HP to supported character's base HP",
-					"Adds 7% of character's base HP to supported character's base HP",
-					"Adds 8% of character's base HP to supported character's base HP",
-					"Adds 9% of character's base HP to supported character's base HP",
-					"Adds 10% of character's base HP to supported character's base HP"
+					"Adds 6% of this character's base HP to the supported character's base HP.",
+					"Adds 7% of this character's base HP to the supported character's base HP.",
+					"Adds 8% of this character's base HP to the supported character's base HP.",
+					"Adds 9% of this character's base HP to the supported character's base HP.",
+					"Adds 10% of this character's base HP to the supported character's base HP."
 				]
 			}
 		],
@@ -171837,18 +171838,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Straw Hat Pirates][Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Egghead] character performs Super Tandem"
+				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem"
 			],
 			description: [
-				"Raises Boost Level of [Egghead] characters by 1 for 1 turn",
-				"Raises Boost Level of [Egghead] characters by 1 for 1 turn",
-				"Raises Boost Level of [Egghead] characters by 2 for 1 turn",
-				"Raises Boost Level of [Egghead] characters by 2 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn",
-				"Raises Boost Level of [Egghead][Straw Hat Pirates] characters by 2 for 1 turn"
+				"Raises Boost Level of [Egghead] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Egghead] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Egghead] characters by 2 for 1 turn.",
+				"Raises Boost Level of [Egghead] characters by 2 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Egghead] and [Straw Hat Pirates] characters by 2 for 1 turn."
 			]
 		},
 		festStats: {
@@ -172208,22 +172209,22 @@ window.details = {
 		festAbilityGPCondition: "When enemy uses Rumble Special 6 times"
 	},
 	4372: {//Brook
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Slasher characters' ATK by 4x, reduces damage taken by 15%, and makes crew's [QCK] slots have matching slot effects",
-		special: "Reduces damage taken by 70% for 1 turn, reduces all enemies' Resilience duration by 6 turns, changes right column slots to Rainbow, boosts Slasher characters' advantageous class effect by 1.5x for 1 turn, and if crew's HP is 40% or below when Special is launched, boosts Slasher characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 70% damage reduction, boosts ATK by 1.7x) for 1 turn",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Slasher characters by 4x, makes [QCK] orbs beneficial for all characters, and reduces damage received by 15%.",
+		special: "Reduces damage received by 70% for 1 turn, reduces enemies' Resilience duration by 6 turns, changes orbs of right column characters into [RAINBOW] orbs, and boosts Advantageous Class Effect of Slasher characters by 1.5x for 1 turn. If HP is below 40% when the special is activated, boosts Crew Damage Reduction to ATK of Slasher characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn.",
 		specialName: "Watching the Battle",
 		sailor: {
-			base: "Boosts crew's base ATK by 100 and makes their [QCK] slots have matching slot effects",
-			level1: "Reduces character's Special charge time by 3 turns on the crew's next turn after taking damage"
+			base: "Boosts base ATK of all characters by 100; makes [QCK] orbs beneficial for all characters.",
+			level1: "Reduces Special Cooldown of this character by 3 turns after each turn you take damage."
 		},
 		support: [
 			{
 				Characters: "Slasher characters",
 				description: [
-					"Adds 5% of character's base stats to supported character's base stats",
-					"Adds 6% of character's base stats to supported character's base stats",
-					"Adds 7% of character's base stats to supported character's base stats",
-					"Adds 8% of character's base stats to supported character's base stats",
-					"Adds 10% of character's base stats to supported character's base stats"
+					"Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
 				]
 			}
 		],
@@ -172268,18 +172269,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Straw Hat Pirates][Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Egghead] character performs Super Tandem"
+				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem"
 			],
 			description: [
-				"Raises Boost Level of [Paramythia-type] characters by 1 for 1 turn",
-				"Raises Boost Level of [Paramythia-type][Straw Hat Pirates] characters by 1 for 1 turn",
-				"Raises Boost Level of [Paramythia-type][Straw Hat Pirates][Egghead] characters by 1 for 1 turn",
-				"Raises Boost Level of [Paramythia-type] characters by 2 and raises Boost Level of [Straw Hat Pirates][Egghead] characters by 1 for 1 turn",
-				"Raises Boost Level of [Paramythia-type] characters by 3 and raises Boost Level of [Straw Hat Pirates][Egghead] characters by 1 for 1 turn"
+				"Raises Boost Level of [Paramythia-type] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Paramythia-type] and [Straw Hat Pirates] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Paramythia-type], [Straw Hat Pirates] and [Egghead] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Paramythia-type] characters by 2 for 1 turn, and raises Boost Level of [Straw Hat Pirates] and [Egghead] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Paramythia-type] characters by 3 for 1 turn, and raises Boost Level of [Straw Hat Pirates] and [Egghead] characters by 1 for 1 turn."
 			]
 		},
 		festStats: {
