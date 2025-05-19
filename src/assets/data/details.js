@@ -55874,7 +55874,7 @@ window.details = {
                     level2: "Reduces Special Bind duration by 6 turns on this character"
                 },
                 special: {
-                    base: "Removes RCV DOWN duration completely, reduces Special Bind duration by 6 turns and reduces damage received by 80% for 2 turns changes all orbs, including [BLOCK] orbs, of Driven characters into Matching orbs. If your Captain is a Driven character, increases duration of any Orb Amplification buffs by 2 turns."
+                    base: "Removes RCV Down duration completely, reduces Special Bind duration by 6 turns, reduces damage received by 80% for 2 turns, and changes all orbs, including [BLOCK] orbs, of Driven characters into Matching orbs. If your Captain is a Driven character, increases duration of any Color Affinity buffs by 2 turns."
                 }
             }
         ],
@@ -163555,7 +163555,7 @@ window.details = {
 	},
 	4294: {//Hancock & Nami & Robin
 		captain: "Boosts ATK of Free Spirit and Cerebral characters by 4.75x-5.5x depending on the crew's current HP, recovers 5x character's RCV in HP at the end of each turn, and allows HP Overfill up to 2x MAX.",
-        special: "Reduces Special Cooldown of all characters by 1 turn, reduces VS Gauge and Switch Effect of all characters by 1, boosts chances of getting [INT], [TND] and [RCV] orbs for 3 turns, reduces Paralysis and ATK Down duration by 8 turns, allows HP Overfill up to 2x MAX HP for 1 turn, recovers 70x character's RCV in HP, and boosts Orb Effects of [INT], Free Spirit and Cerebral characters by 3.25x, can be enhanced up to 2 times, for 2 turns. If your crew has Orb Amplification when the special is activated, sets Chain Boundaries to 3.0x and 40.0x for 2 turns. If HP is above 80% when the special is activated, increases boost effects of Chain Multiplication buffs by +0.25x.",
+        special: "Reduces Special Cooldown of all characters by 1 turn, boosts chances of getting [INT], [TND] and [RCV] orbs for 3 turns, reduces Paralysis and ATK Down duration by 8 turns, allows HP Overfill up to 2x MAX HP for 1 turn, recovers 60x character's RCV in HP, and boosts Orb Effects of [INT], Free Spirit and Cerebral characters by 3.25x for 1 turn. If your crew has Orb Amplification when the special is activated, sets Chain Boundaries to 2.75x and 40.0x for 1 turn.",
         specialName: "Alluring Respite",
 		sailor: {
 			level1: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight.",
@@ -170307,22 +170307,22 @@ window.details = {
 		]
 	},
 	4358: {//5+ Dr. Vegapunk - York
-		captain: "Boosts Cerebral characters' ATK by 3.75x, HP by 1.4x, makes their [RCV][SEMLA] slots have matching slot effects, and allows crew to obtain [RCV][SEMLA] slots with PERFECT taps ",
-		special: "Reduces all enemies' damage reduction and Threshold Damage Reduction duration by 3 turns, further increases crew's ATK boost, type effect boost and multiplicative chain multiplier boost (except additive boosts) by +0.25, changes bottom-row characters' slots (including [BLOCK] slots) to [RCV], and if 5 or more [Egghead] characters are on the crew, boosts the type effects of normal attacks for [DEX] and [PSY] characters by 2.25x for 1 turn (allows this boost effect to be further increased up to 2 times), and reduces crew's Special Bind duration by 3 turns",
+		captain: "Boosts ATK of Cerebral characters by 3.75x, boosts HP of Cerebral characters by 1.4x, makes [RCV] and [SEMLA] orbs beneficial for Cerebral characters, and makes PERFECTs consume [RCV] and [SEMLA] orbs.",
+		special: "Reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 3 turns, increases boost effects of ATK Up, Color Affinity and Chain Multiplication buffs by +0.25x, and changes orbs, including [BLOCK] orbs, of bottom row characters into [RCV] orbs. If your crew has 5+ [Egghead] characters, boosts Color Affinity of [DEX] and [PSY] characters by 2.25x, can be enhanced up to 2 times, for 1 turn, and reduces Special Bind duration by 3 turns.",
 		specialName: "Starting the Hunt",
 		sailor: {
-			base: "Reduces character's Special Bind duration by 6 turns",
-			level1: "Makes Cerebral characters' [RCV][SEMLA][BOMB][S. BOMB] slots have matching slot effects"
+			base: "Reduces Special Bind duration by 6 turns on this character.",
+			level1: "Makes [RCV], [SEMLA], [BOMB] and [SUPERBOMB] orbs beneficial for Cerebral characters."
 		},
 		support: [
 			{
 				Characters: "Cerebral characters",
 				description: [
-					"Adds 2% of character's base HP to supported character's base HP",
-					"Adds 4% of character's base HP to supported character's base HP",
-					"Adds 6% of character's base HP to supported character's base HP",
-					"Adds 8% of character's base HP to supported character's base HP",
-					"Adds 10% of character's base HP to supported character's base HP"
+					"Adds 2% of this character's base HP to the supported character's base HP.",
+					"Adds 4% of this character's base HP to the supported character's base HP.",
+					"Adds 6% of this character's base HP to the supported character's base HP.",
+					"Adds 8% of this character's base HP to the supported character's base HP.",
+					"Adds 10% of this character's base HP to the supported character's base HP."
 				]
 			}
 		],
@@ -170387,18 +170387,18 @@ window.details = {
 		],
 		superTandem: {
 			characterCondition: [
-				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
-				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
-				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
-				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
-				"When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear"
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, S-Hawk, S-Shark, S-Bear"
 			],
 			description: [
-				"Applies ATK Boost (Tandem) of 1.3x to Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.35x to Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.4x to Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.45x to Cerebral characters for 1 turn and further increases crew's type effect boost by +0.15",
-				"Applies ATK Boost (Tandem) of 1.5x to Cerebral characters for 1 turn and further increases crew's type effect boost by +0.25"
+				"Boosts Tandem ATK of Cerebral characters by 1.3x for 1 turn.",
+				"Boosts Tandem ATK of Cerebral characters by 1.35x for 1 turn.",
+				"Boosts Tandem ATK of Cerebral characters by 1.4x for 1 turn.",
+				"Boosts Tandem ATK of Cerebral characters by 1.45x for 1 turn, and increases boost effects of Color Affinity buffs by +0.15x.",
+				"Boosts Tandem ATK of Cerebral characters by 1.5x for 1 turn, and increases boost effects of Color Affinity buffs by +0.25x."
 			]
 		},
 		festStats: {
@@ -170640,19 +170640,19 @@ window.details = {
 		]
 	},
 	4361: {//Nami
-		captain: "Boosts Striker characters' ATK by 2.5x",
-		special: "Delays all enemies by 1 turn and reduces crew's Paralysis duration by 3 turns",
+		captain: "Boosts ATK of Striker characters by 2.5x.",
+		special: "Delays all enemies by 1 turn, and reduces Paralysis duration by 3 turns.",
 		specialName: "Agile Maneuver",
-		sailor: "Boosts Striker characters' base ATK by 50",
+		sailor: "Boosts base ATK of Striker characters by 50.",
 		support: [
 			{
 				Characters: "Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Conis",
 				description: [
-					"Once per quest, if supported character uses a Special to reduce Paralysis, reduces damage taken by 10% for 1 turn",
-					"Once per quest, if supported character uses a Special to reduce Paralysis, reduces damage taken by 13% for 1 turn",
-					"Once per quest, if supported character uses a Special to reduce Paralysis, reduces damage taken by 15% for 1 turn",
-					"Once per quest, if supported character uses a Special to reduce Paralysis, reduces damage taken by 20% for 1 turn",
-					"Once per quest, if supported character uses a Special to reduce Paralysis, reduces damage taken by 20% for 1 turn and reduces crew's Paralysis duration by 1 turn"
+					"Once per adventure, when the supported character uses a Paralysis special, reduces damage received by 10% for 1 turn.",
+					"Once per adventure, when the supported character uses a Paralysis special, reduces damage received by 13% for 1 turn.",
+					"Once per adventure, when the supported character uses a Paralysis special, reduces damage received by 15% for 1 turn.",
+					"Once per adventure, when the supported character uses a Paralysis special, reduces damage received by 20% for 1 turn.",
+					"Once per adventure, when the supported character uses a Paralysis special, reduces damage received by 20% for 1 turn, and reduces Paralysis duration by 1 turn."
 				]
 			}
 		],
@@ -170720,19 +170720,19 @@ window.details = {
 		]
 	},
 	4362: {//Luffy
-		captain: "Boosts Free Spirit characters' ATK by 2.5x",
-		special: "Locks crew's slots for 1 turn and reduces crew's Bind duration by 3 turns",
+		captain: "Boosts ATK of Free Spirit characters by 2.5x.",
+		special: "Locks all orbs for 1 turn, and reduces Bind duration by 3 turns.",
 		specialName: "Storming the Navy HQ",
-		sailor: "Boosts Free Spirit characters' base ATK by 50",
+		sailor: "Boosts base ATK of Free Spirit characters by 50.",
 		support: [
 			{
 				Characters: "Buggy, Galdino (Mr. 3), Bentham (Mr. 2 Bon Clay), Sir Crocodile (Mr. 0), Emporio Ivankov, Jinbe",
 				description: [
-					"Once per quest, if supported character uses a Special to change slots, locks supported character's slot for 1 turn",
-					"Once per quest, if supported character uses a Special to change slots, locks supported character's slot for 1 turn",
-					"Once per quest, if supported character uses a Special to change slots, locks crew's slots for 1 turn",
-					"Once per quest, if supported character uses a Special to change slots, locks crew's slots for 1 turn",
-					"Once per quest, if supported character uses a Special to change slots, locks crew's slots for 1 turn and reduces crew's Bind duration by 1 turn"
+					"Once per adventure, when the supported character uses an Orb Converting or Orb Randomizing special, locks supported character's orb for 1 turn.",
+					"Once per adventure, when the supported character uses an Orb Converting or Orb Randomizing special, locks supported character's orb for 1 turn.",
+					"Once per adventure, when the supported character uses an Orb Converting or Orb Randomizing special, locks all orbs for 1 turn.",
+					"Once per adventure, when the supported character uses an Orb Converting or Orb Randomizing special, locks all orbs for 1 turn.",
+					"Once per adventure, when the supported character uses an Orb Converting or Orb Randomizing special, locks all orbs for 1 turn, and reduces Bind duration by 1 turn."
 				]
 			}
 		],
@@ -170800,19 +170800,19 @@ window.details = {
 		]
 	},
 	4363: {//Lola
-		captain: "Boosts Slasher characters' ATK by 2.5x",
-		special: "Locks crew's slots for 1 turn and reduces crew's Despair duration by 3 turns",
+		captain: "Boosts ATK of Slasher characters by 2.5x.",
+		special: "Locks all orbs for 1 turn, and reduces Despair duration by 3 turns.",
 		specialName: "Proposal on Sight",
-		sailor: "Boosts Slasher characters' base ATK by 50",
+		sailor: "Boosts base ATK of Slasher characters by 50.",
 		support: [
 			{
 				Characters: "Nami, Charlotte Pudding, Charlotte Chiffon",
 				description: [
-					"Once per quest, if supported character uses a Special to change slots, locks supported character's slot for 1 turn",
-					"Once per quest, if supported character uses a Special to change slots, locks supported character's slot for 1 turn",
-					"Once per quest, if supported character uses a Special to change slots, locks crew's slots for 1 turn",
-					"Once per quest, if supported character uses a Special to change slots, locks crew's slots for 1 turn",
-					"Once per quest, if supported character uses a Special to change slots, locks crew's slots for 1 turn and reduces crew's Despair duration by 1 turn"
+					"Once per adventure, when the supported character uses an Orb Converting or Orb Randomizing special, locks supported character's orb for 1 turn.",
+					"Once per adventure, when the supported character uses an Orb Converting or Orb Randomizing special, locks supported character's orb for 1 turn.",
+					"Once per adventure, when the supported character uses an Orb Converting or Orb Randomizing special, locks all orbs for 1 turn.",
+					"Once per adventure, when the supported character uses an Orb Converting or Orb Randomizing special, locks all orbs for 1 turn.",
+					"Once per adventure, when the supported character uses an Orb Converting or Orb Randomizing special, locks all orbs for 1 turn, and reduces Despair duration by 1 turn."
 				]
 			}
 		],
@@ -170827,19 +170827,19 @@ window.details = {
 		festAttackTarget: "Targets closest enemies"
 	},
 	4364: {//Jinbe
-		captain: "Boosts Fighter characters' ATK by 2.5x",
-		special: "Reduces damage taken by 80% for 1 turn and reduces crew's Burn duration by 3 turns",
+		captain: "Boosts ATK of Fighter characters by 2.5x.",
+		special: "Reduces damage received by 80% for 1 turn, and reduces Burn duration by 3 turns.",
 		specialName: "Seven Thousand Brick Roundhouse Kick",
-		sailor: "Boosts Fighter characters' base ATK by 50",
+		sailor: "Boosts base ATK of Fighter characters by 50.",
 		support: [
 			{
 				Characters: "Arlong, Hatchan (Hachi), Shirahoshi, Neptune, Fukaboshi, Wadatsumi, Ryuboshi, Mamboshi, Fisher Tiger, Aladdin, Charlotte Praline",
 				description: [
-					"Once per quest, if supported character uses a Special, reduces damage taken by 10% for 1 turn",
-					"Once per quest, if supported character uses a Special, reduces damage taken by 20% for 1 turn",
-					"Once per quest, if supported character uses a Special, reduces damage taken by 30% for 1 turn",
-					"Once per quest, if supported character uses a Special, reduces damage taken by 40% for 1 turn",
-					"Once per quest, if supported character uses a Special, reduces damage taken by 50% for 1 turn and reduces crew's Burn duration by 1 turn"
+					"Once per adventure, when the supported character uses their special, reduces damage received by 10% for 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces damage received by 20% for 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces damage received by 30% for 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces damage received by 40% for 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces damage received by 50% for 1 turn, and reduces Burn duration by 1 turn."
 				]
 			}
 		],
@@ -170869,18 +170869,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Straw Hat Pirates][Fish-Man] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Fish-Man] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Fish-Man] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Fish-Man] character performs Super Tandem",
-				"When a [Straw Hat Pirates][Fish-Man] character performs Super Tandem"
+				"When a [Straw Hat Pirates] or [Fish-Man] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Fish-Man] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Fish-Man] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Fish-Man] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Fish-Man] character performs Super Tandem"
 			],
 			description: [
-				"Raises Boost Level of [Sun Pirates] characters by 1 for 1 turn",
-				"Raises Boost Level of [Sun Pirates] characters by 1 for 1 turn",
-				"Raises Boost Level of [Sun Pirates][Fish-Man] characters by 1 for 1 turn",
-				"Raises Boost Level of [Sun Pirates][Fish-Man][Straw Hat Pirates] characters by 1 for 1 turn",
-				"Raises Boost Level of [Sun Pirates][Fish-Man] characters by 2 for 1 turn and raises Boosts level of [Straw Hat Pirates] characters by 1 for 1 turn"
+				"Raises Boost Level of [Sun Pirates] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Sun Pirates] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Sun Pirates] and [Fish-Man] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Sun Pirates], [Fish-Man] and [Straw Hat Pirates] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Sun Pirates] and [Fish-Man] characters by 2 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn."
 			]
 		},
 		festStats: {
@@ -171321,7 +171321,7 @@ window.details = {
 			level1: "If this character has a [TND], [WANO] or [RAINBOW] orb and you attack with this character, increases boost effects of Base ATK Boost buffs by +300."
 		},
 		superSpecial: "Reduces Special Cooldown of all characters by 2 turns, reduces enemies' Slasher and Striker Resistance by -30% for 1 turn, boosts Final Tap ATK of Slasher and Striker characters by 20%, transforms Slasher character into Super Slasher characters, and transforms Striker character into Super Striker characters.",
-		superSpecialCriteria: "Can be launched as crewmate. Your crew must have 2+ Slasher or Slasher characters, and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Brook",
+		superSpecialCriteria: "Can be launched as crewmate. Your crew must have 2+ Slasher or Striker characters, and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Brook",
 		support: [
 			{
 				Characters: "[PSY] Slasher characters",
@@ -172347,22 +172347,22 @@ window.details = {
 		]
 	},
 	4373: {//Mihawk
-		captain: "Boosts [DEX], Slasher, and Shooter characters' ATK by approximately 5x if HP is 50% or below before attacking (4.5x otherwise), boosts their HP by 1.3x, makes their [TND] slots have matching slot effects, and reduces crew's Paralysis/ATK Down duration by 1 turn",
-		special: "Reduces all enemies' damage reduction from certain slots effect duration by 2 turns. If crew has slot effect boost when Special is launched, boosts the ATK of the next final tap performed by a Slasher or Shooter character by 20% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect; if 1 or more [Navy] characters or 2 or more [Seven Warlords of the Sea] characters are on the crew, boosts ATK by 40% instead), then after that, boosts Slasher and Shooter characters' slot effects by 2.75x for 1 turn, and if 1 or more [Navy] characters or 2 or more [Seven Warlords of the Sea] characters are on the crew, reduces the duration of all enemy barriers by 1 turn",
+		captain: "Boosts ATK of [DEX], Slasher and Shooter characters by 4.5x, by 5x instead if HP is below 50% at the start of the turn, boosts HP of [DEX], Slasher and Shooter characters by 1.3x, makes [TND] orbs beneficial for [DEX], Slasher and Shooter characters, and reduces Paralysis and ATK Down duration by 1 turn.",
+		special: "Reduces enemies' Orb-Based Damage Reduction duration by 2 turn, and boosts Orb Effects of Slasher and Shooter characters by 2.75x for 1 turn. If your crew has Orb Amplification when the special is activated, boosts Final Tap ATK of Slasher and Shooter characters by 20%; additionally, if your crew has 1+ [Navy] characters or 2+ [Seven Warlords of the Sea] characters, boosts Final Tap ATK of Slasher and Shooter characters by 40% instead. If your crew has 1+ [Navy] characters or 2+ [Seven Warlords of the Sea] characters, reduces enemies' Barrier duration by 1 turn.",
 		specialName: "World's Greatest Slash Against the Emperor",
 		sailor: {
-			base: "Sets top-row characters' slots to [TND] slots at start of quest (no stacking identical abilities), and makes crew's [TND] slots have matching slot effects",
-			level1: "If field has \"Territory: Slasher class\", boosts crew's base ATK by 250 (boosts crew's base ATK by 100 otherwise)"
+			base: "Changes orbs of top row characters into [TND] orbs at the start of the fight; makes [TND] orbs beneficial for all characters.",
+			level1: "If field has Territory: Slasher, boosts base ATK of all characters by 250; boosts base ATK of all characters by 100 otherwise."
 		},
 		support: [
 			{
 				Characters: "Slasher characters",
 				description: [
-					"Adds 2% of character's base stats to supported character's base stats",
-					"Adds 3% of character's base stats to supported character's base stats",
-					"Adds 4% of character's base stats to supported character's base stats",
-					"Adds 5% of character's base stats to supported character's base stats",
-					"Adds 7% of character's base stats to supported character's base stats"
+					"Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
 				]
 			}
 		],
@@ -172427,18 +172427,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Seven Warlords of the Sea][Marineford Paramount War][Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea][Marineford Paramount War][Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea][Marineford Paramount War][Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea][Marineford Paramount War][Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea][Marineford Paramount War][Navy] character performs Super Tandem"
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem"
 			],
 			description: [
-				"Raises Boost Level of [Seven Warlords of the Sea] characters by 1 for 1 turn",
-				"Raises Boost Level of [Seven Warlords of the Sea] characters by 1 for 1 turn",
-				"Raises Boost Level of [Seven Warlords of the Sea][Marineford Paramount War] characters by 1 for 1 turn",
-				"Raises Boost Level of [Seven Warlords of the Sea][Marineford Paramount War] characters by 1 for 1 turn",
-				"Raises Boost Level of [Seven Warlords of the Sea][Marineford Paramount War][Navy] characters by 1 for 1 turn"
+				"Raises Boost Level of [Seven Warlords of the Sea] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea] and [Marineford Paramount War] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea] and [Marineford Paramount War] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea], [Marineford Paramount War] and [Navy] characters by 1 for 1 turn."
 			]
 		},
 		festStats: {
@@ -172505,24 +172505,24 @@ window.details = {
 		]
 	},
 	4374: {//5+ Mihawk
-		captain: "Boosts [DEX], Slasher, and Shooter characters' ATK by approximately 5.25x if HP is 50% or below before attacking (4.5x otherwise), boosts their HP by 1.3x, makes their [TND] slots have matching slot effects, and reduces crew's Paralysis/ATK Down duration by 2 turns",
-		special: "Reduces all enemies' damage reduction from certain slots effect duration by 3 turns. If crew has slot effect boost when Special is launched, boosts the ATK of the next final tap performed by a Slasher or Shooter character by 25% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect; if 1 or more [Navy] characters or 2 or more [Seven Warlords of the Sea] characters are on the crew, boosts ATK by 50% instead), then after that, boosts Slasher and Shooter characters' slot effects by 2.75x for 1 turn, and if 1 or more [Navy] characters or 2 or more [Seven Warlords of the Sea] characters are on the crew, reduces the duration of all enemy barriers by 2 turns",
+		captain: "Boosts ATK of [DEX], Slasher and Shooter characters by 4.5x, by 5.25x instead if HP is below 50% at the start of the turn, boosts HP of [DEX], Slasher and Shooter characters by 1.3x, makes [TND] orbs beneficial for [DEX], Slasher and Shooter characters, and reduces Paralysis and ATK Down duration by 2 turns.",
+		special: "Reduces enemies' Orb-Based Damage Reduction duration by 3 turn, and boosts Orb Effects of Slasher and Shooter characters by 2.75x for 1 turn. If your crew has Orb Amplification when the special is activated, boosts Final Tap ATK of Slasher and Shooter characters by 25%; additionally, if your crew has 1+ [Navy] characters or 2+ [Seven Warlords of the Sea] characters, boosts Final Tap ATK of Slasher and Shooter characters by 50% instead. If your crew has 1+ [Navy] characters or 2+ [Seven Warlords of the Sea] characters, reduces enemies' Barrier duration by 2 turns.",
 		specialName: "World's Greatest Slash Against the Emperor",
 		sailor: {
-			base: "Sets top-row characters' slots to [TND] slots at start of quest (no stacking identical abilities), and makes crew's [TND] slots have matching slot effects",
-			level1: "If field has \"Territory: Slasher class\", boosts crew's base ATK by 250 (boosts crew's base ATK by 100 otherwise)"
+			base: "Changes orbs of top row characters into [TND] orbs at the start of the fight; makes [TND] orbs beneficial for all characters.",
+			level1: "If field has Territory: Slasher, boosts base ATK of all characters by 250; boosts base ATK of all characters by 100 otherwise."
 		},
-		superSpecial: "Boosts the ATK of the next final tap performed by a Slasher or Shooter character by 15% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and changes Slasher characters to Super Slasher",
-		superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Sakazuki (Akainu), Kuzan (Aokiji), Borsalino (Kizaru), Sengoku, Monkey D. Garp, Donquixote Doflamingo, Bartholomew Kuma, Gecko Moria, Boa Hancock",
+		superSpecial: "Boosts Final Tap ATK of Slasher and Shooter characters by 15%, and transforms Slasher characters into Super Slasher characters.",
+		superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Sakazuki (Akainu), Kuzan (Aokiji), Borsalino (Kizaru), Sengoku, Monkey D. Garp, Donquixote Doflamingo, Bartholomew Kuma, Gecko Moria, Boa Hancock",
 		support: [
 			{
 				Characters: "Slasher characters",
 				description: [
-					"Adds 2% of character's base stats to supported character's base stats",
-					"Adds 3% of character's base stats to supported character's base stats",
-					"Adds 4% of character's base stats to supported character's base stats",
-					"Adds 5% of character's base stats to supported character's base stats",
-					"Adds 7% of character's base stats to supported character's base stats"
+					"Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
 				]
 			}
 		],
@@ -172587,18 +172587,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Seven Warlords of the Sea][Marineford Paramount War][Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea][Marineford Paramount War][Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea][Marineford Paramount War][Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea][Marineford Paramount War][Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea][Marineford Paramount War][Navy] character performs Super Tandem"
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem"
 			],
 			description: [
-				"Raises Boost Level of [Seven Warlords of the Sea] characters by 1 for 1 turn",
-				"Raises Boost Level of [Seven Warlords of the Sea][Marineford Paramount War][Navy] characters by 1 for 1 turn",
-				"Raises Boost Level of [Seven Warlords of the Sea] characters by 2, and raises Boost Level of [Marineford Paramount War][Navy] characters by 1 for 1 turn",
-				"Raises Boost Level of [Seven Warlords of the Sea][Marineford Paramount War] characters by 2, and raises Boost Level of [Navy] characters by 1 for 1 turn",
-				"Raises Boost Level of [Seven Warlords of the Sea][Marineford Paramount War][Navy] characters by 2 for 1 turn"
+				"Raises Boost Level of [Seven Warlords of the Sea] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea], [Marineford Paramount War] and [Navy] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea] characters by 2 for 1 turn, and raises Boost Level of [Marineford Paramount War] and [Navy] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea] and [Marineford Paramount War] characters by 2 for 1 turn, and raises Boost Level of [Navy] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea], [Marineford Paramount War] and [Navy] characters by 2 for 1 turn."
 			]
 		},
 		festStats: {
