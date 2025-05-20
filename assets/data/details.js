@@ -3197,10 +3197,10 @@ window.details = {
             null,
             {
                 special: {
-                    base: "Delays all enemies for 1 turn ignoring, and adds 50x character's ATK in non-type damage on top of tap-timing bonuses for 3 turns. If crew has ATK Up when Special is launched, boosts Shooter characters' base ATK by +1500 for 2 turns, and reduces damage taken by 60% for 1 turn. If crew has 3 or more [Neo Marines] [Navy] characters, boosts Shooter characters' ATK by 3x for 2 turns, boosts crew's ATK based on the damage reduction effect applied on the crew (e.g. if crew has 60% damage reduction, boosts ATK by 1.6x) for 2 turns, and reduces character's Special charge time by 6 turns (boosts Shooter characters' ATK by 2.5x for 2 turns otherwise)"
+                    base: "Ignores Debuff Protection and delays all enemies by 1 turn, and adds 50x character's ATK as Additional Typeless Damage for 3 turns. If your crew has ATK Up when the special is activated, boosts Base ATK of Shooter characters by 1,500 for 2 turns, and reduces damage received by 60% for 1 turn. If your crew has 3+ [Neo Marine] or [Navy] characters, boosts ATK of Shooter characters by 3x for 2 turns, boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 2 turns, and reduces Special Cooldown of this character by 6 turns; boosts ATK of Shooter characters by 2.5x for 2 turns otherwise."
                 },
                 sailor: {
-                    level1: "Boosts crew's base stats by 100"
+                    level1: "Boosts base ATK, HP and RCV of all characters by 100."
                 }
             }
         ],
@@ -3237,13 +3237,13 @@ window.details = {
 			}
 		],
 		lastTap: {
-			condition: "At final battle and crew has damage reduction status",
+			condition: "On the last stage and your crew has Percent Damage Reduction",
 			description: [
-				"Boosts character's base ATK by +200 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +400 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +600 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +800 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +1000 (stacks with effects from Special) for 1 turn"
+				"Boosts base ATK of this character by 200 for 1 turn.",
+				"Boosts base ATK of this character by 400 for 1 turn.",
+				"Boosts base ATK of this character by 600 for 1 turn.",
+				"Boosts base ATK of this character by 800 for 1 turn.",
+				"Boosts base ATK of this character by 1,000 for 1 turn."
 			],
 		},
         support: [
@@ -7042,10 +7042,10 @@ window.details = {
             null,
             {
                 special: {
-                    base: "Locks crew's slots for 2 turns, and changes crew's slots (including [BLOCK] slots) [TND]. If crew has ATK Up when Special is launched, boosts chain multiplier by +1.4 for 1 turn, and heals crew's HP by 40% of maximum HP. If crew has 3 or more [Navy] characters, boosts Striker characters' ATK by 3x for 2 turns, reduces crew's Special Bind duration by 6 turns, and applies increase damage taken status to all enemies by 1.75x for 2 turns ignoring immunity to status effects (boosts Striker characters' ATK by 2.5x for 2 turns otherwise)"
+                    base: "Locks all orbs for 2 turns, and changes all orbs, including [BLOCK] orbs, into [TND] orbs. If your crew has ATK Up when the special is activated, adds 1.4x to Chain Multiplier for 1 turn, and recovers 40% of crew's MAX HP. If your crew has 3+ [Navy] characters, boosts ATK of Striker characters by 3x for 2 turns, reduces Special Bind duration by 6 turns, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.75x for 2 turns; boosts ATK of Striker characters by 2.5x for 2 turns otherwise."
                 },
                 sailor: {
-                    level1: "Boosts crew's base ATK by 50, and reduces character's Special Bind duration by 6 turns"
+                    level1: "Boosts base ATK of all characters by 50; reduces Special Bind duration by 6 turns on this character."
                 }
             }
         ],
@@ -7083,18 +7083,18 @@ window.details = {
 		],
 		superTandem: {
 			characterCondition: [
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Borsalino (Kizaru), Sakazuki (Akainu), Sengoku, Monkey D. Garp",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Borsalino (Kizaru), Sakazuki (Akainu), Sengoku, Monkey D. Garp",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Borsalino (Kizaru), Sakazuki (Akainu), Sengoku, Monkey D. Garp",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Borsalino (Kizaru), Sakazuki (Akainu), Sengoku, Monkey D. Garp",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Borsalino (Kizaru), Sakazuki (Akainu), Sengoku, Monkey D. Garp"
+				"On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Sakazuki (Akainu), Sengoku, Monkey D. Garp",
+				"On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Sakazuki (Akainu), Sengoku, Monkey D. Garp",
+				"On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Sakazuki (Akainu), Sengoku, Monkey D. Garp",
+				"On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Sakazuki (Akainu), Sengoku, Monkey D. Garp",
+				"On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Sakazuki (Akainu), Sengoku, Monkey D. Garp"
 			],
 			description: [
-				"Applies ATK Boost (Tandem) of 1.2x to [Navy] characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.4x to [Navy] characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.6x to [Navy] characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.8x to [Navy] characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 2.25x to [Navy] characters for 1 turn"
+				"Boosts Tandem ATK of [Navy] characters by 1.2x for 1 turn.",
+				"Boosts Tandem ATK of [Navy] characters by 1.4x for 1 turn.",
+				"Boosts Tandem ATK of [Navy] characters by 1.6x for 1 turn.",
+				"Boosts Tandem ATK of [Navy] characters by 1.8x for 1 turn.",
+				"Boosts Tandem ATK of [Navy] characters by 2.25x for 1 turn."
 			]
 		},
         support: [
@@ -21786,13 +21786,11 @@ window.details = {
     1297: {//Akainu
         captain: "Boosts ATK of all characters by 2.5x following a chain of [STR] > [STR] > [STR] attacks no lower than Good",
         special: "Deals 50x character's ATK in [STR] damage to all enemies. Changes orbs of [STR] characters into [STR] orbs. Boosts the Color Affinity of [STR] characters by 1.75x for 1 turn",
-        specialNotes: "#{colorAffinity : 1.75}",
         specialName: "Great Eruption",
     },
     1298: {//Akainu
         captain: "Boosts ATK of all characters by 3x following a chain of [STR] > [STR] > [STR] attacks no lower than Good",
         special: "Deals 50x character's ATK in [STR] damage to all enemies. Changes orbs of [STR] characters into [STR] orbs. Boosts the Color Affinity of [STR] characters by 1.75x for 1 turn",
-        specialNotes: "#{colorAffinity : 1.75}",
         specialName: "Great Eruption",
         sailor: {
             level1: "Boosts base HP of [STR] characters by 100",
@@ -21832,11 +21830,11 @@ window.details = {
             null,
             {
                 special: {
-                    base: "Applies Ignited status to all enemies for 2 turns (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action), deals 150x character's ATK in [STR] damage to all enemies, and boosts damage dealt to Ignited enemies by 2.75x for 2 turns. After that, changes [STR] characters' slots to [STR]. If crew has 3 or more [Navy] characters, applies Ignited status to all enemies (ignoring immunity to all status effects or immunity excluding certain status effect) for 2 turns (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action), boosts the type effects of normal attacks for [STR] characters by 3x for 2 turns, and reduces all enemies' DEF Up and Threshold Damage Reduction duration by 6 turns (boosts the type effects of normal attacks for [STR] characters by 2.5x for 2 turns otherwise)"
+                    base: "Inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 2 turns, deals 150x character's ATK in [STR] damage to all enemies, boosts ATK against enemies inflicted with Burn by 2.75x for 2 turns, and changes orbs of [STR] characters into [STR] orbs. If your crew has 3+ [Navy] characters, ignores Debuff Protection and inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 2 turns, boosts Color Affinity of [STR] characters by 3x for 2 turns, and reduces enemies' Increased Defense and Threshold Damage Reduction duration by 6 turns; boosts Color Affinity of [STR] characters by 2.5x for 2 turns otherwise."
                 },
                 sailor: {
-                    level1: "Boosts crew's base HP by 100",
-                    level2: "Boosts crew's base ATK by 150 and makes their [STR] slots have matching slot effects"
+                    level1: "Boosts base HP of all characters by 100.",
+                    level2: "Boosts base ATK of all characters by 150; makes [STR] orbs beneficial for all characters."
                 }
             }
         ],
@@ -21873,13 +21871,13 @@ window.details = {
 			}
 		],
 		lastTap: {
-			condition: "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Borsalino (Kizaru), Kuzan (Aokiji), Sengoku, Monkey D. Garp",
+			condition: "On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Kuzan (Aokiji), Sengoku, Monkey D. Garp",
 			description: [
-				"Boosts character's base ATK by +400 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +600 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +800 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +1000 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +1250 (stacks with effects from Special) for 1 turn"
+				"Boosts base ATK of this character by 400 for 1 turn.",
+				"Boosts base ATK of this character by 600 for 1 turn.",
+				"Boosts base ATK of this character by 800 for 1 turn.",
+				"Boosts base ATK of this character by 1,000 for 1 turn.",
+				"Boosts base ATK of this character by 1,250 for 1 turn."
 			],
 		},
         support: [
@@ -29275,19 +29273,16 @@ window.details = {
     1594: {//Fujitora
         captain: "Deals 10% of enemies' current HP in damage to all enemies at the end of each turn",
         special: "Deals 50x character's ATK in [PSY] True damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts Orb Effects of Powerhouse characters by 2x for 1 turn",
-        specialNotes: "#{ignoreBarrier}",
         specialName: "Gravity Blade: Fierce Tiger",
     },
     1595: {//Fujitora
         captain: "Boosts ATK of Powerhouse characters by 2.25x and their HP by 1.2x, deals 10% of enemies' current HP in damage to all enemies at the end of each turn",
         special: "Deals 50x character's ATK in [PSY] True damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts Orb Effects of Powerhouse characters by 2x for 1 turn",
-        specialNotes: "#{ignoreBarrier}",
         specialName: "Gravity Blade: Fierce Tiger",
         sailor: {
             level1: "Boosts base ATK of Powerhouse characters by 50",
             level2: "Makes [PSY] orbs beneficial for Powerhouse characters",
         },
-        sailorNotes: "#{beneficial}",
         limit: [
             { description: "Boosts base HP by 30" },
             { description: "Boosts base HP by 30" },
@@ -29322,11 +29317,11 @@ window.details = {
             null,
             {
                 special: {
-                    base: "Reduces all enemies' damage reduction, Threshold Damage Reduction and DEF Up duration by 3 turns, reduces all enemies' HP by 8% (ignoring all defensive effects), changes character's slot to [TND], and changes adjacent slots (including [BLOCK] slots) to character's own type. If crew has slot effect boost when Special is launched, further increases crew's base ATK boost by +250, and boosts Powerhouse and Slasher characters' base ATK by +1250 for 2 turns (boosts Powerhouse and Slasher characters' slot effects by 2.5x for 2 turns otherwise). If crew has 3 or more [Navy] characters, applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, Powerhouse and Slasher characters will deal 1.75x damage, and their Special charge time will be reduced by 1 turn for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects)), and reduces character's Special charge time by 7 turns"
+                    base: "Reduces enemies' Percent Damage Reduction, Threshold Damage Reduction and Increased Defense duration by 3 turns, deals 8% of enemies' current HP in True damage to all enemies, changes orb of this character into a [TND] orb, and changes orbs, including [BLOCK] orbs, of adjacent characters into Matching orbs. If your crew has Orb Amplification when the special is activated, increases boost effects of Base ATK Boost buffs by +250, and boosts Base ATK of Powerhouse and Slasher characters by 1,250 for 2 turns; boosts Orb Effects of Powerhouse and Slasher characters by 2.5x for 2 turns otherwise. If your crew has 3+ [Navy] characters, inflicts all enemies with Set Target, increasing damage taken from Powerhouse and Slasher characters by 1.75x and reducing Special Cooldown of Powerhouse and Slasher characters by 1 turn when they defeat an enemy, for 1 turn, and reduces Special Cooldown of this character by 7 turns."
                 },
                 sailor: {
-                    level1: "Boosts crew's base ATK by 100",
-                    level2: "Boosts crew's base HP by 200 and makes their [PSY] slots have matching slot effects"
+                    level1: "Boosts base ATK of all characters by 100.",
+                    level2: "Boosts base HP of all characters by 200; makes [PSY] orbs beneficial for all characters."
                 }
             }
         ],
@@ -29364,18 +29359,18 @@ window.details = {
 		],
 		superTandem: {
 			characterCondition: [
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Borsalino (Kizaru), Kuzan (Aokiji), Sakazuki (Akainu), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Roronoa Zoro",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Borsalino (Kizaru), Kuzan (Aokiji), Sakazuki (Akainu), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Roronoa Zoro",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Borsalino (Kizaru), Kuzan (Aokiji), Sakazuki (Akainu), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Roronoa Zoro",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Borsalino (Kizaru), Kuzan (Aokiji), Sakazuki (Akainu), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Roronoa Zoro",
-				"At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Borsalino (Kizaru), Kuzan (Aokiji), Sakazuki (Akainu), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Roronoa Zoro"
+				"On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Kuzan (Aokiji), Sakazuki (Akainu), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Roronoa Zoro",
+				"On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Kuzan (Aokiji), Sakazuki (Akainu), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Roronoa Zoro",
+				"On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Kuzan (Aokiji), Sakazuki (Akainu), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Roronoa Zoro",
+				"On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Kuzan (Aokiji), Sakazuki (Akainu), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Roronoa Zoro",
+				"On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Kuzan (Aokiji), Sakazuki (Akainu), Aramaki (Ryokugyu), Sengoku, Monkey D. Garp, Roronoa Zoro"
 			],
 			description: [
-				"Applies ATK Boost (Tandem) of 1.2x to Powerhouse and Slasher characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.4x to Powerhouse and Slasher characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.6x to Powerhouse and Slasher characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.8x to Powerhouse and Slasher characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 2x to Powerhouse and Slasher characters for 1 turn"
+				"Boosts Tandem ATK of Powerhouse and Slasher characters by 1.2x for 1 turn.",
+				"Boosts Tandem ATK of Powerhouse and Slasher characters by 1.4x for 1 turn.",
+				"Boosts Tandem ATK of Powerhouse and Slasher characters by 1.6x for 1 turn.",
+				"Boosts Tandem ATK of Powerhouse and Slasher characters by 1.8x for 1 turn.",
+				"Boosts Tandem ATK of Powerhouse and Slasher characters by 2x for 1 turn."
 			]
 		},
         support: [
