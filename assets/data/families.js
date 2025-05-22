@@ -4981,6 +4981,10 @@ window.families = {
     4372: [ ...Brook ],
     4373: [ ...DraculeMihawk ],
     4374: [ ...DraculeMihawk ],
+    4375: [ ...NicoRobin ],
+    4376: [ ...Jinbe ],
+    4377: [ ...SSnake ],
+    4378: [ ...RoronoaZoro ],
     //break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
