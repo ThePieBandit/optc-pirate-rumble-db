@@ -173161,6 +173161,874 @@ window.details = {
             ]
         }
 	},
+	4379: {//5* Saturn 
+		captain: "Boosts [INT], Driven, and Striker characters' ATK by 6x, and makes crew's [INT][RCV] slots have matching slot effects. If crew has ATK Up and uses Specials to boost ATK, the effect of that ATK boost instead further increases the effect of existing ATK boost (Captain Ability effect does not stack. Further raising effects can only happen once per Special. Not stackable with other further raising effects). If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x and HP by 1.6x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and crew has ATK Up with an effect of 10x or more, makes character's normal attacks effective against all enemy types. Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
+		special: "Reduces all enemies' HP by 20% (ignoring all defensive effects), completely removes all enemies' damage reduction (except Threshold Damage Reduction), removes all Poison effects, and applies \"Territory: Driven class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 3 turns. Boosts Driven and Striker characters' ATK up to 5x for 1 turn based on total Cost of crew at start of quest<hidden> (including Friend Captains and Support characters)</hidden>: less than 500 Cost: 4x, 500 Cost or more: 4.25x, 600 Cost or more: 4.5x, 700 Cost or more 4.75x, 750 Cost or more: 5x. Further increases crew's slot effects boost based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5x for EXCELLENT, up to a maximum of 10x). If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn<hidden> (effect cannot stack; if HP is above max limit, it is treated as being full HP)</hidden>",
+		specialName: "Perforating Thrust of the War God",
+		sailor: "Boosts Driven characters' base stats by 150 and makes their [INT] slots have matching slot effects",
+		festStats: {
+			def: 279,
+			spd: 121,
+			style: "DEF"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Power Attack",
+			"Heal Teammate in Range Lv.1 (Small Range)",
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets enemies with low remaining HP",
+		festResistance: "Completely evades Forced Out/Special Bind, reduce damage taken from [PSY] by 30%",
+		festAbility: [
+			"[INT]/Striker class teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.3; if 6 or more Striker characters are on the team, team ATK Up Lv.1; self Shield Lv.1; first 10 s of battle, self Special CT Speed Up Lv.6; [Navy][World Government] teammates ATK Up Lv.1",
+			"[INT]/Striker class teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.4; if 6 or more Striker characters are on the team, team ATK Up Lv.1; self Shield Lv.2; first 10 s of battle, self Special CT Speed Up Lv.7; [Navy][World Government] teammates ATK Up Lv.1",
+			"[INT]/Striker class teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.5; if 6 or more Striker characters are on the team, team ATK Up Lv.2; self Shield Lv.3; first 10 s of battle, self Special CT Speed Up Lv.8; [Navy][World Government] teammates ATK Up Lv.2",
+			"[INT]/Striker class teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.6; if 6 or more Striker characters are on the team, team ATK Up Lv.2; self Shield Lv.4; first 10 s of battle, self Special CT Speed Up Lv.9; [Navy][World Government] teammates ATK Up Lv.2",
+			"[INT]/Striker class teammates HP Up Lv.7, ATK Up Lv.7, DEF Up Lv.7; if 6 or more Striker characters are on the team, team ATK Up Lv.3; self Shield Lv.5; first 10 s of battle, self Special CT Speed Up Lv.10; [Navy][World Government] teammates ATK Up Lv.3"
+		],
+		festSpecial: [
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.2 (21 s); targets 3 enemies for 73% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.1 damage; targets [Navy][World Government] teammates for 150 HP per interval auto-healing (21 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.2 (22 s); targets 3 enemies for 76% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.2 damage; targets [Navy][World Government] teammates for 200 HP per interval auto-healing (22 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.3 (23 s); targets 3 enemies for 79% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.3 damage; targets [Navy][World Government] teammates for 250 HP per interval auto-healing (23 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.3 (24 s); targets 3 enemies for 82% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.4 damage; targets [Navy][World Government] teammates for 300 HP per interval auto-healing (24 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.4 (25 s); targets 3 enemies for 85% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.5 damage; targets [Navy][World Government] teammates for 350 HP per interval auto-healing (25 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.4 (26 s); targets 3 enemies for 88% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.6 damage; targets [Navy][World Government] teammates for 400 HP per interval auto-healing (26 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.5 (27 s); targets 3 enemies for 91% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.7 damage; targets [Navy][World Government] teammates for 450 HP per interval auto-healing (27 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.5 (28 s); targets 3 enemies for 94% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.8 damage; targets [Navy][World Government] teammates for 500 HP per interval auto-healing (28 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.6 (29 s); targets 3 enemies for 97% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.9 damage; targets [Navy][World Government] teammates for 550 HP per interval auto-healing (29 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.7 (30 s); targets 3 enemies for 100% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 4 damage; targets [Navy][World Government] teammates for 600 HP per interval auto-healing (30 s)"
+			}
+		]
+	},
+	4380: {//6* Saturn
+		captain: "Boosts [INT], Driven, and Striker characters' ATK by 6x, and makes crew's [INT][RCV] slots have matching slot effects. If crew has ATK Up and uses Specials to boost ATK, the effect of that ATK boost instead further increases the effect of existing ATK boost (Captain Ability effect does not stack. Further raising effects can only happen once per Special. Not stackable with other further raising effects). If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x and HP by 1.6x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and crew has ATK Up with an effect of 10x or more, makes character's normal attacks effective against all enemy types. Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
+		special: "Reduces all enemies' HP by 20% (ignoring all defensive effects), completely removes all enemies' damage reduction (except Threshold Damage Reduction), removes all Poison effects, and applies \"Territory: Driven class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 3 turns. Boosts Driven and Striker characters' ATK up to 5x for 1 turn based on total Cost of crew at start of quest<hidden> (including Friend Captains and Support characters)</hidden>: less than 500 Cost: 4x, 500 Cost or more: 4.25x, 600 Cost or more: 4.5x, 700 Cost or more 4.75x, 750 Cost or more: 5x. Further increases crew's slot effects boost based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5x for EXCELLENT, up to a maximum of 10x). If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn<hidden> (effect cannot stack; if HP is above max limit, it is treated as being full HP)</hidden>",
+		specialName: "Perforating Thrust of the War God",
+		sailor: {
+			base: "Boosts Driven characters' base stats by 150 and makes their [INT] slots have matching slot effects",
+			level1: "Character cannot be blown away by attack, and lets character completely evade Special Reverse/Paralysis"
+		},
+		superSpecial: "Reduces crew's ATK Down duration by 10 turns, applies -50% Driven Resistance to all enemies for 1 turn, changes [INT] characters to Super [INT], and changes Driven characters to Super Driven",
+		superSpecialCriteria: "When crew has ATK Up with an effect of 8x or more, or receives Over Healing effect",
+		support: [
+			{
+				Characters: "Characters with a Cost of 99 or more",
+				description: [
+					"Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns",
+					"Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 3 turns",
+					"Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 4 turns",
+					"Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 5 turns",
+					"Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Acquire Potential 1: Enrage/Reduce Increase Damage Taken duration" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Acquire Potential 2: Reduce Slot Bind duration" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base HP by 80" },
+			{ description: "Acquire Potential 3: Rush" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base HP by 200" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Reduce base Special Cooldown by 1 turn" }
+		],
+		potential: [
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+					"Boosts base ATK by 225 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+					"Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+				]
+			},
+			{
+				Name: "Reduce Slot Bind duration",
+				description: [
+					"Reduces Slot Bind duration by 1 turn on this character",
+					"Reduces Slot Bind duration by 3 turns on this character",
+					"Reduces Slot Bind duration by 5 turns on this character",
+					"Reduces Slot Bind duration by 7 turns on this character",
+					"Reduces Slot Bind duration by 10 turns on this character"
+				]
+			},
+			{
+				Name: "Rush",
+				description: [
+					"Obtain Rush Lv.1",
+					"Obtain Rush Lv.2",
+					"Obtain Rush Lv.3",
+					"Obtain Rush Lv.4",
+					"Obtain Rush Lv.5"
+				]
+			}
+		],
+		rush: {
+			characterCondition: [
+				"At final battle, if character launches a Special and performs the 1st or 6th tap of an attack, and 3 or more Driven characters are on the crew (except as Support Characters; Double Characters counts as 1)",
+				"At final battle, if character launches a Special and performs the 1st or 6th tap of an attack, and 3 or more Driven characters are on the crew (except as Support Characters; Double Characters counts as 1)",
+				"At final battle, if character launches a Special and performs the 1st or 6th tap of an attack, and 3 or more Driven characters are on the crew (except as Support Characters; Double Characters counts as 1)",
+				"At final battle, if character launches a Special and performs the 1st or 6th tap of an attack, and 3 or more Driven characters are on the crew (except as Support Characters; Double Characters counts as 1)",
+				"At final battle, if character launches a Special and performs the 1st or 6th tap of an attack, and 3 or more Driven characters are on the crew (except as Support Characters; Double Characters counts as 1)"
+			],
+			description: [
+				"Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [INT], Driven, and Striker characters (up to +0.4 chain multiplier; Rush ATK boost 1.3x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.6 chain multiplier; Rush ATK boost 1.7x)",
+				"Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [INT], Driven, and Striker characters (up to +0.4 chain multiplier; Rush ATK boost 1.4x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 1.9x)",
+				"Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [INT], Driven, and Striker characters (up to +0.5 chain multiplier; Rush ATK boost 1.6x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 2.0x)",
+				"Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [INT], Driven, and Striker characters (up to +0.6 chain multiplier; Rush ATK boost 1.8x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 2.2x)",
+				"Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [INT], Driven, and Striker characters (up to +0.8 chain multiplier; Rush ATK boost 2.0x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +1.0 chain multiplier; Rush ATK boost 2.5x)"
+			],
+			stats: [
+				"[Activated on the 1st tap of an attack] <br>HP Cost: 20,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: [INT], Driven, and Striker Rush ATK boost 1.1x<br>Each successful chain adds +0.1 (up to 1.3)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br>[Activated on the 6th tap of an attack] <br>HP Cost: 20,000<br>Max Rush: 5 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Self Rush ATK boost 1.4x<br>Each successful chain adds +0.1 (up to 1.7)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.5",
+				"[Activated on the 1st tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: [INT], Driven, and Striker Rush ATK boost 1.2x<br>Each successful chain adds +0.1 (up to 1.4)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br>[Activated on the 6th tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Self Rush ATK boost 1.5x<br>Each successful chain adds +0.1 (up to 1.9)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.6",
+				"[Activated on the 1st tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: [INT], Driven, and Striker Rush ATK boost 1.2x<br>Each successful chain adds +0.1 (up to 1.6)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br>[Activated on the 6th tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Self Rush ATK boost 1.6x<br>Each successful chain adds +0.1 (up to 2.0)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.7",
+				"[Activated on the 1st tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 8 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: [INT], Driven, and Striker Rush ATK boost 1.4x<br>Each successful chain adds +0.1 (up to 1.8)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br>[Activated on the 6th tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Self Rush ATK boost 1.8x<br>Each successful chain adds +0.1 (up to 2.2)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.8",
+				"[Activated on the 1st tap of an attack] <br>HP Cost: 12,500<br>Max Rush: 10 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: [INT], Driven, and Striker Rush ATK boost 1.4x<br>Each successful chain adds +0.1 (up to 2.0)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br>[Activated on the 6th tap of an attack] <br>HP Cost: 12,500<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Self Rush ATK boost 2x<br>Each successful chain adds +0.1 (up to 2.5)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 3"
+			]
+		},
+		festStats: {
+			def: 279,
+			spd: 121,
+			style: "DEF"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Power Attack",
+			"Heal Teammate in Range Lv.1 (Small Range)",
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets enemies with low remaining HP",
+		festResistance: "Completely evades Forced Out/Special Bind, reduce damage taken from [PSY] by 30%",
+		festAbility: [
+			"[INT]/Striker class teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.3; if 6 or more Striker characters are on the team, team ATK Up Lv.1; self Shield Lv.1; first 10 s of battle, self Special CT Speed Up Lv.6; [Navy][World Government] teammates ATK Up Lv.1",
+			"[INT]/Striker class teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.4; if 6 or more Striker characters are on the team, team ATK Up Lv.1; self Shield Lv.2; first 10 s of battle, self Special CT Speed Up Lv.7; [Navy][World Government] teammates ATK Up Lv.1",
+			"[INT]/Striker class teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.5; if 6 or more Striker characters are on the team, team ATK Up Lv.2; self Shield Lv.3; first 10 s of battle, self Special CT Speed Up Lv.8; [Navy][World Government] teammates ATK Up Lv.2",
+			"[INT]/Striker class teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.6; if 6 or more Striker characters are on the team, team ATK Up Lv.2; self Shield Lv.4; first 10 s of battle, self Special CT Speed Up Lv.9; [Navy][World Government] teammates ATK Up Lv.2",
+			"[INT]/Striker class teammates HP Up Lv.7, ATK Up Lv.7, DEF Up Lv.7; if 6 or more Striker characters are on the team, team ATK Up Lv.3; self Shield Lv.5; first 10 s of battle, self Special CT Speed Up Lv.10; [Navy][World Government] teammates ATK Up Lv.3"
+		],
+		festSpecial: [
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.2 (21 s); targets 3 enemies for 73% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.1 damage; targets [Navy][World Government] teammates for 150 HP per interval auto-healing (21 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.2 (22 s); targets 3 enemies for 76% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.2 damage; targets [Navy][World Government] teammates for 200 HP per interval auto-healing (22 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.3 (23 s); targets 3 enemies for 79% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.3 damage; targets [Navy][World Government] teammates for 250 HP per interval auto-healing (23 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.3 (24 s); targets 3 enemies for 82% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.4 damage; targets [Navy][World Government] teammates for 300 HP per interval auto-healing (24 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.4 (25 s); targets 3 enemies for 85% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.5 damage; targets [Navy][World Government] teammates for 350 HP per interval auto-healing (25 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.4 (26 s); targets 3 enemies for 88% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.6 damage; targets [Navy][World Government] teammates for 400 HP per interval auto-healing (26 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.5 (27 s); targets 3 enemies for 91% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.7 damage; targets [Navy][World Government] teammates for 450 HP per interval auto-healing (27 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.5 (28 s); targets 3 enemies for 94% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.8 damage; targets [Navy][World Government] teammates for 500 HP per interval auto-healing (28 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.6 (29 s); targets 3 enemies for 97% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.9 damage; targets [Navy][World Government] teammates for 550 HP per interval auto-healing (29 s)"
+			},
+			{
+				cooldown: 35,
+				description: "Targets teammates within large range for DEF Up Lv.7 (30 s); targets 3 enemies for 100% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 4 damage; targets [Navy][World Government] teammates for 600 HP per interval auto-healing (30 s)"
+			}
+		],
+		festAbilityGP: [
+			{
+				festGPAbility: "[INT] teammates RCV, SPD Up Lv.2, Special CT Speed Up Lv.1; Striker/Driven class teammates HP, ATK Up Lv.2, DEF Up Lv.1; [Navy][World Government] teammates HP, RCV Up Lv.1, Special CT Speed Up Lv.1",
+				festGPSpecial: "Targets [PSY] / [INT] / Striker/ Driven class teammates for 100% chance to evade damage ignoring DEF (16 s); targets all enemies for 2000 damage",
+				uses: 2
+			},
+			{
+				festGPAbility: "[INT] teammates RCV, SPD Up Lv.3, Special CT Speed Up Lv.2; Striker/Driven class teammates HP, ATK Up Lv.3, DEF Up Lv.2; [Navy][World Government] teammates HP, RCV Up Lv.2, Special CT Speed Up Lv.1",
+				festGPSpecial: "Targets [PSY] / [INT] / Striker/ Driven class teammates for 100% chance to evade damage ignoring DEF (17 s); targets all enemies for 3000 damage",
+				uses: 2
+			},
+			{
+				festGPAbility: "[INT] teammates RCV, SPD Up Lv.4, Special CT Speed Up Lv.2; Striker/Driven class teammates HP, ATK Up Lv.4, DEF Up Lv.3; [Navy][World Government] teammates HP, RCV Up Lv.3, Special CT Speed Up Lv.1",
+				festGPSpecial: "Targets [PSY] / [INT] / Striker/ Driven class teammates for 100% chance to evade damage ignoring DEF (18 s); targets all enemies for 4000 damage",
+				uses: 2
+			},
+			{
+				festGPAbility: "[INT] teammates RCV, SPD Up Lv.5, Special CT Speed Up Lv.3; Striker/Driven class teammates HP, ATK Up Lv.5, DEF Up Lv.3; [Navy][World Government] teammates HP, RCV Up Lv.4, Special CT Speed Up Lv.2",
+				festGPSpecial: "Targets [PSY] / [INT] / Striker/ Driven class teammates for 100% chance to evade damage ignoring DEF (19 s); targets all enemies for 5000 damage",
+				uses: 2
+			},
+			{
+				festGPAbility: "[INT] teammates RCV, SPD Up Lv.6, Special CT Speed Up Lv.3; Striker/Driven class teammates HP, ATK Up Lv.6, DEF Up Lv.4; [Navy][World Government] teammates HP, RCV Up Lv.5, Special CT Speed Up Lv.2",
+				festGPSpecial: "Targets [PSY] / [INT] / Striker/ Driven class teammates for 100% chance to evade damage ignoring DEF (20 s); targets all enemies for 6000 damage",
+				uses: 2
+			}
+		],
+		festAbilityGPCondition: "After 50s of battle"
+	},
+	4381: {//Bonney
+		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Slasher and Striker characters' ATK by 5.25x, RCV by 1.25x, makes their [PSY][RCV][TND] slots have matching slot effects, and reduces crew's Burn duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Egghead] characters are on the crew, boosts Slasher and Striker characters' ATK by a further 1.1x. If 5 or more [Egghead] [Worst Generation] [Paramythia-type] characters are on the crew, reduces crew's Special Reverse by 2 turns",
+		special: "Deal 300x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), reduces all enemies' Threshold Damage Reduction duration by 7 turns, changes the ATK multiplier of [PSY][RCV][TND][SEMLA] slots to 3.0x when slots match (normally 2x when matching, 0.5x when unfavorable, 1.0x otherwise) for 3 turns, and further increases crew's ATK boost by 1.25x (up to a maximum of 10x). If 4 or more [Egghead] [Worst Generation] [Paramythia-type] characters are on the crew, further increases crew's chain multiplier additive boost effect (except multiplicative boost) by +1.0, and boosts the chain multiplier by +1.6 for 3 turns (allows this effect to be further increased up to 2 times; boosts the chain multiplier by +1.4 for 1 turn otherwise)",
+		specialName: "Strike for Her Father",
+		sailor: {
+			base: "Boosts crew's base stats by 75 and makes their [RCV][TND] slots have matching slot effects",
+			level1: "Boosts character's base ATK by 300 when attacking last out of all available characters"
+		},
+		superSpecial: "Changes crew's slots (including [BLOCK] slots) to [TND], changes character's slot to [RCV], boosts the type effects of normal attacks for crew by 2.5x for 3 turns, and changes [PSY] characters to Super [PSY]",
+		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Sabo",
+		support: [
+			{
+				Characters: "Bartholomew Kuma",
+				description: [
+					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.3, and reduces all enemies' Threshold Damage Reduction duration by 1 turn",
+					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.4, and reduces all enemies' Threshold Damage Reduction duration by 1 turn",
+					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.5, and reduces all enemies' Threshold Damage Reduction duration by 2 turns",
+					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.6, and reduces all enemies' Threshold Damage Reduction duration by 2 turns",
+					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.7, and reduces all enemies' Threshold Damage Reduction duration by 3 turns"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Acquire Potential 1: Critical Hit" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Acquire Potential 2: Nutrition/Reduce Hunger stacks" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base RCV by 40" },
+			{ description: "Boosts base HP by 80" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base HP by 80" },
+			{ description: "Acquire Potential 3: Last Tap" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 200" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Reduce base Special Cooldown by 1 turn" }
+		],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+		potential: [
+			{
+				Name: "Critical Hit",
+				description: [
+					"If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+				]
+			},
+			{
+				Name: "Nutrition/Reduce Hunger stacks",
+				description: [
+					"Boosts base ATK by up to 3,000, the turn after recovering up to 50 HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by up 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by up 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by up 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by up to 3,000, the turn after recovering up to 300 HP and reduces Hunger stack by 3 stack"
+				]
+			},
+			{
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
+			}
+		],
+		lastTap: {
+			condition: "At final battle",
+			description: [
+				" Changes character's slot (including [BLOCK] slot) to [RCV], boosts character's base ATK by +100 for 1 turn (stacks with effects from Special), and boosts character's damage dealt to DEF Down enemies by 1.5x for 1 turn",
+				" Changes character's slot (including [BLOCK] slot) to [RCV], boosts character's base ATK by +200 for 1 turn (stacks with effects from Special), and boosts character's damage dealt to DEF Down enemies by 1.75x for 1 turn",
+				" Changes character's slot (including [BLOCK] slot) to [RCV], boosts character's base ATK by +300 for 1 turn (stacks with effects from Special), and boosts character's damage dealt to DEF Down enemies by 2x for 1 turn",
+				" Changes character's slot (including [BLOCK] slot) to [RCV], boosts character's base ATK by +400 for 1 turn (stacks with effects from Special), and boosts character's damage dealt to DEF Down enemies by 2.25x for 1 turn",
+				" Changes character's slot (including [BLOCK] slot; ignoring inability to change [S. BLOCK][WANO][SEMLA] and Rainbow slots) to [RCV], boosts character's base ATK by +500 for 1 turn (stacks with effects from Special), and boosts character's damage dealt to DEF Down enemies by 2.5x for 1 turn"
+			],
+		},
+		festStats: {
+			def: 152,
+			spd: 143,
+			style: "DBF"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Normal Attack",
+			"Power Attack",
+			"Heal Self Lv.2"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Completely evades Action Bind, reduce damage taken from [INT] by 30％",
+		festAbility: [
+			"Striker class teammates HP Up Lv.2, SPD Up Lv.2; if 6 or more Striker characters are on the team, all enemies ATK Down Lv.1, DEF Down Lv.1; [World Government] enemies DEF Down Lv.1",
+			"Striker class teammates HP Up Lv.3, SPD Up Lv.3; if 6 or more Striker characters are on the team, all enemies ATK Down Lv.2, DEF Down Lv.2; [World Government] enemies DEF Down Lv.2",
+			"Striker class teammates HP Up Lv.4, SPD Up Lv.4; if 6 or more Striker characters are on the team, all enemies ATK Down Lv.3, DEF Down Lv.3; [World Government] enemies DEF Down Lv.3",
+			"Striker class teammates HP Up Lv.5, SPD Up Lv.5; if 6 or more Striker characters are on the team, all enemies ATK Down Lv.4, DEF Down Lv.4; [World Government] enemies DEF Down Lv.4",
+			"Striker class teammates HP Up Lv.6, SPD Up Lv.6; if 6 or more Striker characters are on the team, all enemies ATK Down Lv.5, DEF Down Lv.5; [World Government] enemies DEF Down Lv.5"
+		],
+		festSpecial: [
+			{
+				cooldown: 27,
+				description: "Targets 2 high ATK enemies for 73% chance of Halve ATK (15 s); targets 2 high DEF enemies for 73% chance of Halve DEF (15 s); targets 2 high SPD enemies for 73% chance of Halve SPD (15 s); if 6 or more Striker characters are on the team, targets 2 enemies with high current Special CT for Special CT 11% delay; targets 1 [World Government] enemy for ATK x 2.1 damage"
+			},
+			{
+				cooldown: 27,
+				description: "Targets 2 high ATK enemies for 76% chance of Halve ATK (15 s); targets 2 high DEF enemies for 76% chance of Halve DEF (15 s); targets 2 high SPD enemies for 76% chance of Halve SPD (15 s); if 6 or more Striker characters are on the team, targets 2 enemies with high current Special CT for Special CT 12% delay; targets 1 [World Government] enemy for ATK x 2.2 damage"
+			},
+			{
+				cooldown: 27,
+				description: "Targets 2 high ATK enemies for 79% chance of Halve ATK (15 s); targets 2 high DEF enemies for 79% chance of Halve DEF (15 s); targets 2 high SPD enemies for 79% chance of Halve SPD (15 s); if 6 or more Striker characters are on the team, targets 2 enemies with high current Special CT for Special CT 13% delay; targets 1 [World Government] enemy for ATK x 2.3 damage"
+			},
+			{
+				cooldown: 27,
+				description: "Targets 2 high ATK enemies for 82% chance of Halve ATK (15 s); targets 2 high DEF enemies for 82% chance of Halve DEF (15 s); targets 2 high SPD enemies for 82% chance of Halve SPD (15 s); if 6 or more Striker characters are on the team, targets 2 enemies with high current Special CT for Special CT 14% delay; targets 1 [World Government] enemy for ATK x 2.4 damage"
+			},
+			{
+				cooldown: 27,
+				description: "Targets 2 high ATK enemies for 85% chance of Halve ATK (15 s); targets 2 high DEF enemies for 85% chance of Halve DEF (15 s); targets 2 high SPD enemies for 85% chance of Halve SPD (15 s); if 6 or more Striker characters are on the team, targets 2 enemies with high current Special CT for Special CT 15% delay; targets 1 [World Government] enemy for ATK x 2.5 damage"
+			},
+			{
+				cooldown: 27,
+				description: "Targets 2 high ATK enemies for 88% chance of Halve ATK (15 s); targets 2 high DEF enemies for 88% chance of Halve DEF (15 s); targets 2 high SPD enemies for 88% chance of Halve SPD (15 s); if 6 or more Striker characters are on the team, targets 2 enemies with high current Special CT for Special CT 16% delay; targets 1 [World Government] enemy for ATK x 2.6 damage"
+			},
+			{
+				cooldown: 27,
+				description: "Targets 2 high ATK enemies for 91% chance of Halve ATK (15 s); targets 2 high DEF enemies for 91% chance of Halve DEF (15 s); targets 2 high SPD enemies for 91% chance of Halve SPD (15 s); if 6 or more Striker characters are on the team, targets 2 enemies with high current Special CT for Special CT 17% delay; targets 1 [World Government] enemy for ATK x 2.7 damage"
+			},
+			{
+				cooldown: 27,
+				description: "Targets 2 high ATK enemies for 94% chance of Halve ATK (15 s); targets 2 high DEF enemies for 94% chance of Halve DEF (15 s); targets 2 high SPD enemies for 94% chance of Halve SPD (15 s); if 6 or more Striker characters are on the team, targets 2 enemies with high current Special CT for Special CT 18% delay; targets 1 [World Government] enemy for ATK x 2.8 damage"
+			},
+			{
+				cooldown: 27,
+				description: "Targets 2 high ATK enemies for 97% chance of Halve ATK (15 s); targets 2 high DEF enemies for 97% chance of Halve DEF (15 s); targets 2 high SPD enemies for 97% chance of Halve SPD (15 s); if 6 or more Striker characters are on the team, targets 2 enemies with high current Special CT for Special CT 19% delay; targets 1 [World Government] enemy for ATK x 2.9 damage"
+			},
+			{
+				cooldown: 27,
+				description: "Targets 2 high ATK enemies for 100% chance of Halve ATK (15 s); targets 2 high DEF enemies for 100% chance of Halve DEF (15 s); targets 2 high SPD enemies for 100% chance of Halve SPD (15 s); if 6 or more Striker characters are on the team, targets 2 enemies with high current Special CT for Special CT 20% delay; targets 1 [World Government] enemy for ATK x 3 damage"
+			}
+		],
+		festSuperSpecial: {
+            base: {
+                condition: "After character receives enemy's Rumble Special 2 times",
+                description: "Targets 3 enemies for 100% chance of Halve Stats (20 s); targets 3 enemies with high current Special CT for Special CT 30% delay; targets 1 [World Government] enemy for ATK x 3.5 damage"
+            },
+            llbbase: {
+                condition: "After character receives enemy's Rumble Special 2 times",
+                description: "Targets all enemies for 100% chance of Halve Stats (40 s), Special CT 40% delay; targets [World Government] enemies for ATK x 4 damage"
+            }
+        }
+	},
+	4382: {//Bluegrass
+		captain: "Halves crew's HP at start of quest, but boosts [DEX] characters' ATK by 3.75x and makes their [TND] slots have matching slot effects",
+		special: "Reduces all enemies' DEF Up duration by 6 turns, deals 60x character's ATK in [DEX] damage to all enemies at end of turn for 3 turns, and changes crew's slots (including [BLOCK] slots) to [TND]. If 3 or more [Navy] [World Government] characters or 6 or more [Egghead] characters are on the crew, boosts crew's slot effects by 2.5x for 3 turns (allows this effect to be further increased up to 2 times), reduces crew's Special Bind duration by 6 turns, and if crew has no slot effect boost, boosts crew's slot effects by 2.25x for 3 turns",
+		specialName: "Riding the Battle Weapon",
+		sailor: {
+			base: "Reduces character's Special Bind duration by 6 turns",
+			level1: "Character cannot be blown away by attack, and makes Shooter and Driven characters' [BOMB][S. BOMB] slots have matching slot effects"
+		},
+		support: [
+			{
+				Characters: "Characters with the following Character Tag: Navy Vice Admiral",
+				description: [
+					"Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+					"Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+					"Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+					"Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+					"Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 2 turns"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Acquire Potential 1: Enrage/Reduce Increase Damage Taken duration" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 80" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Acquire Potential 2: Barrier Penetration" }
+		],
+		potential: [
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+					"Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+				]
+			},
+			{
+				Name: "Barrier Penetration",
+				description: [
+					"This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+					"This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+					"This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+					"This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+					"This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+				]
+			}
+		],
+		festStats: {
+			def: 153,
+			spd: 170,
+			style: "DBF"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Power Attack",
+			"Heal Teammate in Range Lv.1 (Small Range)",
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Heal 200 HP at an interval, reduce damage taken from [QCK] by 20%",
+		festAbility: [
+			"Striker class teammates DEF Up Lv.1, Special CT Speed Up Lv.1, HP Up Lv.1, self DEF Up Lv.1, Special CT Speed Up Lv.1, HP Up Lv.1; [Egghead] teammates ATK Up Lv.3",
+			"Striker class teammates DEF Up Lv.2, Special CT Speed Up Lv.1, HP Up Lv.2, self DEF Up Lv.2, Special CT Speed Up Lv.1, HP Up Lv.2; [Egghead] teammates ATK Up Lv.4",
+			"Striker class teammates DEF Up Lv.3, Special CT Speed Up Lv.2, HP Up Lv.3, self DEF Up Lv.3, Special CT Speed Up Lv.2, HP Up Lv.3; [Egghead] teammates ATK Up Lv.5",
+			"Striker class teammates DEF Up Lv.4, Special CT Speed Up Lv.2, HP Up Lv.4, self DEF Up Lv.4, Special CT Speed Up Lv.2, HP Up Lv.4; [Egghead] teammates ATK Up Lv.6",
+			"Striker class teammates DEF Up Lv.5, Special CT Speed Up Lv.3, HP Up Lv.5, self DEF Up Lv.5, Special CT Speed Up Lv.3, HP Up Lv.5; [Egghead] teammates ATK Up Lv.7"
+		],
+		festSpecial: [
+			{
+				cooldown: 25,
+				description: "Targets 3 high DEF enemies for DEF Down Lv.1 (21 s); targets (not including self) 2 [Egghead] teammates with low current Special CT for Special CT 11% reduction; targets [PSY] Slasher class enemies for ATK Down Lv.3 (21 s), SPD Down Lv.3 (21 s)"
+			},
+			{
+				cooldown: 25,
+				description: "Targets 3 high DEF enemies for DEF Down Lv.1 (22 s); targets (not including self) 2 [Egghead] teammates with low current Special CT for Special CT 12% reduction; targets [PSY] Slasher class enemies for ATK Down Lv.3 (22 s), SPD Down Lv.3 (22 s)"
+			},
+			{
+				cooldown: 25,
+				description: "Targets 3 high DEF enemies for DEF Down Lv.2 (23 s); targets (not including self) 2 [Egghead] teammates with low current Special CT for Special CT 13% reduction; targets [PSY] Slasher class enemies for ATK Down Lv.4 (23 s), SPD Down Lv.4 (23 s)"
+			},
+			{
+				cooldown: 25,
+				description: "Targets 3 high DEF enemies for DEF Down Lv.2 (24 s); targets (not including self) 2 [Egghead] teammates with low current Special CT for Special CT 14% reduction; targets [PSY] Slasher class enemies for ATK Down Lv.4 (24 s), SPD Down Lv.4 (24 s)"
+			},
+			{
+				cooldown: 25,
+				description: "Targets 3 high DEF enemies for DEF Down Lv.3 (25 s); targets (not including self) 2 [Egghead] teammates with low current Special CT for Special CT 15% reduction; targets [PSY] Slasher class enemies for ATK Down Lv.5 (25 s), SPD Down Lv.5 (25 s)"
+			},
+			{
+				cooldown: 25,
+				description: "Targets 3 high DEF enemies for DEF Down Lv.3 (26 s); targets (not including self) 2 [Egghead] teammates with low current Special CT for Special CT 16% reduction; targets [PSY] Slasher class enemies for ATK Down Lv.5 (26 s), SPD Down Lv.5 (26 s)"
+			},
+			{
+				cooldown: 25,
+				description: "Targets 3 high DEF enemies for DEF Down Lv.4 (27 s); targets (not including self) 2 [Egghead] teammates with low current Special CT for Special CT 17% reduction; targets [PSY] Slasher class enemies for ATK Down Lv.6 (27 s), SPD Down Lv.6 (27 s)"
+			},
+			{
+				cooldown: 25,
+				description: "Targets 3 high DEF enemies for DEF Down Lv.4 (28 s); targets (not including self) 2 [Egghead] teammates with low current Special CT for Special CT 18% reduction; targets [PSY] Slasher class enemies for ATK Down Lv.6 (28 s), SPD Down Lv.6 (28 s)"
+			},
+			{
+				cooldown: 25,
+				description: "Targets 3 high DEF enemies for DEF Down Lv.5 (29 s); targets (not including self) 2 [Egghead] teammates with low current Special CT for Special CT 19% reduction; targets [PSY] Slasher class enemies for ATK Down Lv.7 (29 s), SPD Down Lv.7 (29 s)"
+			},
+			{
+				cooldown: 25,
+				description: "Targets 3 high DEF enemies for DEF Down Lv.5 (30 s); targets (not including self) 2 [Egghead] teammates with low current Special CT for Special CT 20% reduction; targets [PSY] Slasher class enemies for ATK Down Lv.8 (30 s), SPD Down Lv.8 (30 s)"
+			}
+		]
+	},
+	4383: {//Doll
+		captain: "Boosts crew's ATK based on the timing of the previous character's attack (minimum 3x, maximum 4x) and heals crew by 1,100 HP at end of turn",
+		special: "Reduces the duration of all enemy barriers by 1 turn, reduces crew's Paralysis duration by 3 turns, and applies -15% [INT], [PSY], and [DEX] Resistance to all enemies for 1 turn. If 3 or more [Navy] [World Government] characters or 6 or more [Egghead] characters are on the crew, allows crew's ATK boost to be further increased up to 2 times and reduces crew's Special charge time by 1 turn",
+		specialName: "Ship-Protecting Kick",
+		sailor: {
+			base: "Reduces character's Special Reverse by 3 turns",
+			level1: "Boosts crew's base stats by 60 and makes their [INT] slots have matching slot effects"
+		},
+		support: [
+			{
+				Characters: "Characters with the following Character Tag: Navy Vice Admiral",
+				description: [
+					"Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 1 turn",
+					"Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 1 turn",
+					"Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 1 turn",
+					"Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 1 turn",
+					"Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 2 turns"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Acquire Potential 1: Enrage/Reduce Increase Damage Taken duration" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Acquire Potential 2: Double Special Activation" }
+		],
+		potential: [
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+					"Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+				]
+			},
+			{
+				Name: "Double Special Activation",
+				description: [
+					"Once per adventure, reduces character's Special charge time by 1 turn after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 3 turns after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 5 turns after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 7 turns after character uses Special",
+					"Once per adventure, sets character's Special charge to MAX after character uses Special"
+				]
+			}
+		],
+		festStats: {
+			def: 288,
+			spd: 127,
+			style: "DEF"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Normal Attack",
+			"Power Attack",
+			"Heal Self Lv.2"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Heal 200 HP at an interval, reduce damage taken from [PSY] by 20%",
+		festAbility: [
+			"Striker class teammates ATK Up Lv.3, DEF Up Lv.1, Guard % Up Lv.1; self ATK Up Lv.3, DEF Up Lv.1, Guard % Up Lv.1; [Egghead] teammates DEF Up Lv.2",
+			"Striker class teammates ATK Up Lv.4, DEF Up Lv.2, Guard % Up Lv.2; self ATK Up Lv.4, DEF Up Lv.2, Guard % Up Lv.2; [Egghead] teammates DEF Up Lv.2",
+			"Striker class teammates ATK Up Lv.5, DEF Up Lv.3, Guard % Up Lv.3; self ATK Up Lv.5, DEF Up Lv.3, Guard % Up Lv.3; [Egghead] teammates DEF Up Lv.3",
+			"Striker class teammates ATK Up Lv.6, DEF Up Lv.4, Guard % Up Lv.4; self ATK Up Lv.6, DEF Up Lv.4, Guard % Up Lv.4; [Egghead] teammates DEF Up Lv.3",
+			"Striker class teammates ATK Up Lv.7, DEF Up Lv.5, Guard % Up Lv.5; self ATK Up Lv.7, DEF Up Lv.5, Guard % Up Lv.5; [Egghead] teammates DEF Up Lv.4"
+		],
+		festSpecial: [
+			{
+				cooldown: 32,
+				description: "Targets [Egghead] teammates for Shield Lv.1 (21 s); targets 3 enemies for ATK x 1.3 damage; targets [PSY] Slasher class enemies for ATK x 2.1 damage; targets Fighter/Slasher class enemies for ATK x 1.1 damage"
+			},
+			{
+				cooldown: 32,
+				description: "Targets [Egghead] teammates for Shield Lv.1 (22 s); targets 3 enemies for ATK x 1.4 damage; targets [PSY] Slasher class enemies for ATK x 2.2 damage; targets Fighter/Slasher class enemies for ATK x 1.2 damage"
+			},
+			{
+				cooldown: 32,
+				description: "Targets [Egghead] teammates for Shield Lv.1 (23 s); targets 3 enemies for ATK x 1.5 damage; targets [PSY] Slasher class enemies for ATK x 2.3 damage; targets Fighter/Slasher class enemies for ATK x 1.3 damage"
+			},
+			{
+				cooldown: 32,
+				description: "Targets [Egghead] teammates for Shield Lv.1 (24 s); targets 3 enemies for ATK x 1.6 damage; targets [PSY] Slasher class enemies for ATK x 2.4 damage; targets Fighter/Slasher class enemies for ATK x 1.4 damage"
+			},
+			{
+				cooldown: 32,
+				description: "Targets [Egghead] teammates for Shield Lv.1 (25 s); targets 3 enemies for ATK x 1.7 damage; targets [PSY] Slasher class enemies for ATK x 2.5 damage; targets Fighter/Slasher class enemies for ATK x 1.5 damage"
+			},
+			{
+				cooldown: 32,
+				description: "Targets [Egghead] teammates for Shield Lv.2 (26 s); targets 3 enemies for ATK x 1.8 damage; targets [PSY] Slasher class enemies for ATK x 2.6 damage; targets Fighter/Slasher class enemies for ATK x 1.6 damage"
+			},
+			{
+				cooldown: 32,
+				description: "Targets [Egghead] teammates for Shield Lv.2 (27 s); targets 3 enemies for ATK x 1.9 damage; targets [PSY] Slasher class enemies for ATK x 2.7 damage; targets Fighter/Slasher class enemies for ATK x 1.7 damage"
+			},
+			{
+				cooldown: 32,
+				description: "Targets [Egghead] teammates for Shield Lv.2 (28 s); targets 3 enemies for ATK x 2 damage; targets [PSY] Slasher class enemies for ATK x 2.8 damage; targets Fighter/Slasher class enemies for ATK x 1.8 damage"
+			},
+			{
+				cooldown: 32,
+				description: "Targets [Egghead] teammates for Shield Lv.2 (29 s); targets 3 enemies for ATK x 2.1 damage; targets [PSY] Slasher class enemies for ATK x 2.9 damage; targets Fighter/Slasher class enemies for ATK x 1.9 damage"
+			},
+			{
+				cooldown: 32,
+				description: "Targets [Egghead] teammates for Shield Lv.3 (30 s); targets 3 enemies for ATK x 2.2 damage; targets [PSY] Slasher class enemies for ATK x 3 damage; targets Fighter/Slasher class enemies for ATK x 2 damage"
+			}
+		]
+	},
+	4384: {//Sanji & Franky
+		captain: "Boosts [INT], Fighter, and Shooter characters' ATK by 3.75x, HP by 1.25x, reduces damage taken by 15%, and crew cannot be blown away by attack",
+		special: "Reduces ship's Special charge time by 3 turns, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn (effect cannot stack; if HP is above max limit, it is treated as being full HP), heals crew by 20x character's RCV, reduces crew's Bind duration by 4 turns, and further increases crew's lock chain multiplier effect/chain multiplier growth rate alterating effect by +0.2 . If 4 or more [Straw Hat Pirates] characters or 6 or more [Egghead] characters are on the crew, extends the duration of crew's lock chain multiplier effect/chain multiplier growth rate alterating effect by 1 turn",
+		specialName: "Confirming the Safety of Friends",
+		sailor: {
+			base: "Makes crew's [INT] slots have matching slot effects",
+			level1: "Boosts crew's base stats by 60 and reduces crew's Paralysis duration by 1 turn"
+		},
+		support: [
+			{
+				Characters: "[INT] characters",
+				description: [
+					"Adds 5% of character's base HP to supported character's base HP",
+					"Adds 6% of character's base HP to supported character's base HP",
+					"Adds 8% of character's base HP to supported character's base HP",
+					"Adds 10% of character's base HP to supported character's base HP",
+					"Adds 13% of character's base HP to supported character's base HP"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Acquire Potential 1: Pinch Healing" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Acquire Potential 2: Double Special Activation" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Acquire Potential 3: Super Tandem Boost" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Boosts base HP by 200" },
+			{ description: "Acquire Sailor Ability 2: " }
+		],
+		potential: [
+			{
+				Name: "Pinch Healing",
+				description: [
+					"If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+				]
+			},
+			{
+				Name: "Double Special Activation",
+				description: [
+					"Once per adventure, reduces character's Special charge time by 1 turn after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 3 turns after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 5 turns after character uses Special",
+					"Once per adventure, reduces character's Special charge time by 7 turns after character uses Special",
+					"Once per adventure, sets character's Special charge to MAX after character uses Special"
+				]
+			},
+			{
+				Name: "Super Tandem Boost",
+				description: [
+					"Obtain Super Tandem Boost Lv.1",
+					"Obtain Super Tandem Boost Lv.2",
+					"Obtain Super Tandem Boost Lv.3",
+					"Obtain Super Tandem Boost Lv.4",
+					"Obtain Super Tandem Boost Lv.5"
+				]
+			}
+		],
+		superTandemBoost: {
+			characterCondition: [
+				"When an [INT] [Egghead] character performs Super Tandem",
+				"When an [INT] [Egghead] character performs Super Tandem",
+				"When an [INT] [Egghead] character performs Super Tandem",
+				"When an [INT] [Egghead] character performs Super Tandem",
+				"When an [INT] [Egghead] character performs Super Tandem"
+			],
+			description: [
+				"Raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn",
+				"Raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn",
+				"Raises Boost Level of [Straw Hat Pirates][Egghead] characters by 1 for 1 turn",
+				"Raises Boost Level of [Straw Hat Pirates] characters by 2 for 1 turn, and raises Boost Level of [Egghead] characters by 1 for 1 turn",
+				"Raises Boost Level of [Straw Hat Pirates][Egghead] characters by 2 for 1 turn"
+			]
+		},
+		festStats: {
+			def: 269,
+			spd: 132,
+			style: "DEF"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Normal Attack",
+			"Power Attack",
+			"Heal Self Lv.2"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "60% chance to evade Special Bind",
+		festAbility: [
+			"Fighter class teammates HP Up Lv.1, ATK Up Lv.1",
+			"Fighter class teammates HP Up Lv.2, ATK Up Lv.1",
+			"Fighter class teammates HP Up Lv.3, ATK Up Lv.2",
+			"Fighter class teammates HP Up Lv.4, ATK Up Lv.2",
+			"Fighter class teammates HP Up Lv.5, ATK Up Lv.3"
+		],
+		festSpecial: [
+			{
+				cooldown: 27,
+				description: "Targets Fighter class teammates for DEF Up Lv.1 (21 s), Shield Lv.1 (10 s)"
+			},
+			{
+				cooldown: 27,
+				description: "Targets Fighter class teammates for DEF Up Lv.1 (22 s), Shield Lv.1 (10 s)"
+			},
+			{
+				cooldown: 27,
+				description: "Targets Fighter class teammates for DEF Up Lv.1 (23 s), Shield Lv.1 (10 s)"
+			},
+			{
+				cooldown: 27,
+				description: "Targets Fighter class teammates for DEF Up Lv.1 (24 s), Shield Lv.1 (10 s)"
+			},
+			{
+				cooldown: 27,
+				description: "Targets Fighter class teammates for DEF Up Lv.2 (25 s), Shield Lv.1 (10 s)"
+			},
+			{
+				cooldown: 27,
+				description: "Targets Fighter class teammates for DEF Up Lv.2 (26 s), Shield Lv.1 (10 s)"
+			},
+			{
+				cooldown: 27,
+				description: "Targets Fighter class teammates for DEF Up Lv.2 (27 s), Shield Lv.1 (10 s)"
+			},
+			{
+				cooldown: 27,
+				description: "Targets Fighter class teammates for DEF Up Lv.3 (28 s), Shield Lv.1 (10 s)"
+			},
+			{
+				cooldown: 27,
+				description: "Targets Fighter class teammates for DEF Up Lv.3 (29 s), Shield Lv.1 (10 s)"
+			},
+			{
+				cooldown: 27,
+				description: "Targets Fighter class teammates for DEF Up Lv.3 (30 s), Shield Lv.2 (10 s)"
+			}
+		]
+	},
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
