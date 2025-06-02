@@ -173162,10 +173162,11 @@ window.details = {
         }
 	},
 	4379: {//5* Saturn 
-		captain: "Boosts [INT], Driven, and Striker characters' ATK by 6x, and makes crew's [INT][RCV] slots have matching slot effects. If crew has ATK Up and uses Specials to boost ATK, the effect of that ATK boost instead further increases the effect of existing ATK boost (Captain Ability effect does not stack. Further raising effects can only happen once per Special. Not stackable with other further raising effects). If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x and HP by 1.6x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and crew has ATK Up with an effect of 10x or more, makes character's normal attacks effective against all enemy types. Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
-		special: "Reduces all enemies' HP by 20% (ignoring all defensive effects), completely removes all enemies' damage reduction (except Threshold Damage Reduction), removes all Poison effects, and applies \"Territory: Driven class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 3 turns. Boosts Driven and Striker characters' ATK up to 5x for 1 turn based on total Cost of crew at start of quest<hidden> (including Friend Captains and Support characters)</hidden>: less than 500 Cost: 4x, 500 Cost or more: 4.25x, 600 Cost or more: 4.5x, 700 Cost or more 4.75x, 750 Cost or more: 5x. Further increases crew's slot effects boost based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5x for EXCELLENT, up to a maximum of 10x). If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn<hidden> (effect cannot stack; if HP is above max limit, it is treated as being full HP)</hidden>",
-		specialName: "Perforating Thrust of the War God",
-		sailor: "Boosts Driven characters' base stats by 150 and makes their [INT] slots have matching slot effects",
+		captain: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 15 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [INT], Driven and Striker characters by 6x, by 6.6x instead if they have the applicable tag, boosts HP of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.6x, and makes [INT] and [RCV] orbs beneficial for all characters. If your crew has ATK Up and uses a special with an ATK Up buff, increases boost effects of ATK Up buffs by +?x, equal to the value of the special. If this character is your Captain and performs EXCELLENT with their Action Special, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.3x instead, and boosts ATK of [INT], Driven and Striker characters by 7.8x instead if they have the applicable tag. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters and your crew has ATK Up with an effect of 10x or more, makes this character's normal attacks count as Type Effective against all Types.",
+		special: "Deals 20% of enemies' current HP in True damage to all enemies, removes enemies' Percent Damage Reduction duration completely, removes Poison duration completely, and applies Territory: Driven class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns. Boosts ATK of Driven and Striker characters by 4x-5x for 1 turn depending on the total Cost of crew, including Friend Captain and Supports, at the start of the fight. Increases boost effects of Orb Amplification buffs by 1.1x-1.5x (up to 10x) depending on the outcome of Action Special. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters, allows HP Overfill up to 2x MAX HP for 1 turn.",
+		specialNotes: "<br><b>ATK Up:</b> 499-: 4x, 500-599: 4.25x, 600-699: 4.5x, 700-749: 4.75x, 750+: 5x<br><b>Orb Amplification:</b> MISS: 1.1x, GOOD: 1.2x, GREAT: 1.3x, PERFECT: 1.4x, EXCELLENT 1.5x",
+        specialName: "Perforating Thrust of the War God",
+		sailor: "Boosts base ATK, HP and RCV of Driven characters by 150; makes [INT] orbs beneficial for Driven characters.",
 		festStats: {
 			def: 279,
 			spd: 121,
@@ -173230,24 +173231,25 @@ window.details = {
 		]
 	},
 	4380: {//6* Saturn
-		captain: "Boosts [INT], Driven, and Striker characters' ATK by 6x, and makes crew's [INT][RCV] slots have matching slot effects. If crew has ATK Up and uses Specials to boost ATK, the effect of that ATK boost instead further increases the effect of existing ATK boost (Captain Ability effect does not stack. Further raising effects can only happen once per Special. Not stackable with other further raising effects). If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x and HP by 1.6x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and crew has ATK Up with an effect of 10x or more, makes character's normal attacks effective against all enemy types. Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
-		special: "Reduces all enemies' HP by 20% (ignoring all defensive effects), completely removes all enemies' damage reduction (except Threshold Damage Reduction), removes all Poison effects, and applies \"Territory: Driven class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 3 turns. Boosts Driven and Striker characters' ATK up to 5x for 1 turn based on total Cost of crew at start of quest<hidden> (including Friend Captains and Support characters)</hidden>: less than 500 Cost: 4x, 500 Cost or more: 4.25x, 600 Cost or more: 4.5x, 700 Cost or more 4.75x, 750 Cost or more: 5x. Further increases crew's slot effects boost based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5x for EXCELLENT, up to a maximum of 10x). If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn<hidden> (effect cannot stack; if HP is above max limit, it is treated as being full HP)</hidden>",
-		specialName: "Perforating Thrust of the War God",
+		captain: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 15 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [INT], Driven and Striker characters by 6x, by 6.6x instead if they have the applicable tag, boosts HP of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.6x, and makes [INT] and [RCV] orbs beneficial for all characters. If your crew has ATK Up and uses a special with an ATK Up buff, increases boost effects of ATK Up buffs by +?x, equal to the value of the special. If this character is your Captain and performs EXCELLENT with their Action Special, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.3x instead, and boosts ATK of [INT], Driven and Striker characters by 7.8x instead if they have the applicable tag. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters and your crew has ATK Up with an effect of 10x or more, makes this character's normal attacks count as Type Effective against all Types.",
+		special: "Deals 20% of enemies' current HP in True damage to all enemies, removes enemies' Percent Damage Reduction duration completely, removes Poison duration completely, and applies Territory: Driven class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns. Boosts ATK of Driven and Striker characters by 4x-5x for 1 turn depending on the total Cost of crew, including Friend Captain and Supports, at the start of the fight. Increases boost effects of Orb Amplification buffs by 1.1x-1.5x (up to 10x) depending on the outcome of Action Special. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters, allows HP Overfill up to 2x MAX HP for 1 turn.",
+		specialNotes: "<br><b>ATK Up:</b> 499-: 4x, 500-599: 4.25x, 600-699: 4.5x, 700-749: 4.75x, 750+: 5x<br><b>Orb Amplification:</b> MISS: 1.1x, GOOD: 1.2x, GREAT: 1.3x, PERFECT: 1.4x, EXCELLENT 1.5x",
+        specialName: "Perforating Thrust of the War God",
 		sailor: {
-			base: "Boosts Driven characters' base stats by 150 and makes their [INT] slots have matching slot effects",
-			level1: "Character cannot be blown away by attack, and lets character completely evade Special Reverse/Paralysis"
+			base: "Boosts base ATK, HP and RCV of Driven characters by 150; makes [INT] orbs beneficial for Driven characters.",
+			level1: "This character cannot be Blown Away, restores Special Cooldown of this character completely when it is rewinded, and reduces Paralysis duration completely on this character."
 		},
-		superSpecial: "Reduces crew's ATK Down duration by 10 turns, applies -50% Driven Resistance to all enemies for 1 turn, changes [INT] characters to Super [INT], and changes Driven characters to Super Driven",
-		superSpecialCriteria: "When crew has ATK Up with an effect of 8x or more, or receives Over Healing effect",
+		superSpecial: "Reduces ATK Down duration by 10 turns, reduces enemies' Driven Resistance by -50% for 1 turn, transforms [INT] characters into Super [INT] characters, and transforms Driven characters into Super Driven characters.",
+		superSpecialCriteria: "This character must be captain. If your crew has a HP Overfill buff or an ATK Up buff with an effect of 8x or more",
 		support: [
 			{
 				Characters: "Characters with a Cost of 99 or more",
 				description: [
-					"Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns",
-					"Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 3 turns",
-					"Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 4 turns",
-					"Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 5 turns",
-					"Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns"
+					"Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 2 turns.",
+					"Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 3 turns.",
+					"Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 4 turns.",
+					"Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 5 turns.",
+					"Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 6 turns."
 				]
 			}
 		],
@@ -173327,25 +173329,25 @@ window.details = {
 		],
 		rush: {
 			characterCondition: [
-				"At final battle, if character launches a Special and performs the 1st or 6th tap of an attack, and 3 or more Driven characters are on the crew (except as Support Characters; Double Characters counts as 1)",
-				"At final battle, if character launches a Special and performs the 1st or 6th tap of an attack, and 3 or more Driven characters are on the crew (except as Support Characters; Double Characters counts as 1)",
-				"At final battle, if character launches a Special and performs the 1st or 6th tap of an attack, and 3 or more Driven characters are on the crew (except as Support Characters; Double Characters counts as 1)",
-				"At final battle, if character launches a Special and performs the 1st or 6th tap of an attack, and 3 or more Driven characters are on the crew (except as Support Characters; Double Characters counts as 1)",
-				"At final battle, if character launches a Special and performs the 1st or 6th tap of an attack, and 3 or more Driven characters are on the crew (except as Support Characters; Double Characters counts as 1)"
+				"On the last Stage and on the turn this character's special is used, your crew must have 3 Driven characters, and this character performs the 1st tap or 6th tap of an attack.",
+				"On the last Stage and on the turn this character's special is used, your crew must have 3 Driven characters, and this character performs the 1st tap or 6th tap of an attack.",
+				"On the last Stage and on the turn this character's special is used, your crew must have 3 Driven characters, and this character performs the 1st tap or 6th tap of an attack.",
+				"On the last Stage and on the turn this character's special is used, your crew must have 3 Driven characters, and this character performs the 1st tap or 6th tap of an attack.",
+				"On the last Stage and on the turn this character's special is used, your crew must have 3 Driven characters, and this character performs the 1st tap or 6th tap of an attack."
 			],
 			description: [
-				"Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [INT], Driven, and Striker characters (up to +0.4 chain multiplier; Rush ATK boost 1.3x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.6 chain multiplier; Rush ATK boost 1.7x)",
-				"Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [INT], Driven, and Striker characters (up to +0.4 chain multiplier; Rush ATK boost 1.4x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 1.9x)",
-				"Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [INT], Driven, and Striker characters (up to +0.5 chain multiplier; Rush ATK boost 1.6x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 2.0x)",
-				"Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [INT], Driven, and Striker characters (up to +0.6 chain multiplier; Rush ATK boost 1.8x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 2.2x)",
-				"Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [INT], Driven, and Striker characters (up to +0.8 chain multiplier; Rush ATK boost 2.0x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +1.0 chain multiplier; Rush ATK boost 2.5x)"
+				"<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.1x-0.4x to Chain multiplier for 1 turn and boosts Rush ATK of [INT], Driven and Striker characters by 1.1x-1.3x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 5 times. Adds 0.2x-0.6x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.4x-1.7x.",
+				"<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.1x-0.4x to Chain multiplier for 1 turn and boosts Rush ATK of [INT], Driven and Striker characters by 1.2x-1.4x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.2x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.5x-1.9x.",
+				"<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn and boosts Rush ATK of [INT], Driven and Striker characters by 1.2x-1.6x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.2x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.6x-2.0x.",
+				"<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 8 times. Adds 0.1x-0.6x to Chain multiplier for 1 turn and boosts Rush ATK of [INT], Driven and Striker characters by 1.4x-1.8x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 6 times. Adds 0.2x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 1.8x-2.2x.",
+				"<b>Activated on the 1st tap of an attack:</b><br>Performs a Rush up to 10 times. Adds 0.1x-0.8x to Chain multiplier for 1 turn and boosts Rush ATK of [INT], Driven and Striker characters by 1.4x-2.0x.<br><b>Activated on the 6th tap of an attack:</b><br>Performs a Rush up to 7 times. Adds 0.2x-1.0x to Chain multiplier for 1 turn and boosts Rush ATK of this character by 2.0x-2.5x."
 			],
 			stats: [
-				"[Activated on the 1st tap of an attack] <br>HP Cost: 20,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: [INT], Driven, and Striker Rush ATK boost 1.1x<br>Each successful chain adds +0.1 (up to 1.3)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br>[Activated on the 6th tap of an attack] <br>HP Cost: 20,000<br>Max Rush: 5 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Self Rush ATK boost 1.4x<br>Each successful chain adds +0.1 (up to 1.7)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.5",
-				"[Activated on the 1st tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: [INT], Driven, and Striker Rush ATK boost 1.2x<br>Each successful chain adds +0.1 (up to 1.4)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br>[Activated on the 6th tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Self Rush ATK boost 1.5x<br>Each successful chain adds +0.1 (up to 1.9)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.6",
-				"[Activated on the 1st tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: [INT], Driven, and Striker Rush ATK boost 1.2x<br>Each successful chain adds +0.1 (up to 1.6)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br>[Activated on the 6th tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Self Rush ATK boost 1.6x<br>Each successful chain adds +0.1 (up to 2.0)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.7",
-				"[Activated on the 1st tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 8 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: [INT], Driven, and Striker Rush ATK boost 1.4x<br>Each successful chain adds +0.1 (up to 1.8)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br>[Activated on the 6th tap of an attack] <br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Self Rush ATK boost 1.8x<br>Each successful chain adds +0.1 (up to 2.2)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.8",
-				"[Activated on the 1st tap of an attack] <br>HP Cost: 12,500<br>Max Rush: 10 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: [INT], Driven, and Striker Rush ATK boost 1.4x<br>Each successful chain adds +0.1 (up to 2.0)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br>[Activated on the 6th tap of an attack] <br>HP Cost: 12,500<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Self Rush ATK boost 2x<br>Each successful chain adds +0.1 (up to 2.5)<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 3"
+				"<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 20,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [INT], Driven and Striker characters by 1.1x-1.3x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 20,000<br>Max Rush: 5 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.4x-1.7x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.5",
+				"<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [INT], Driven and Striker characters by 1.2x-1.4x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.5x-1.9x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.6",
+				"<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [INT], Driven and Striker characters by 1.2x-1.6x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.6x-2.0x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.7",
+				"<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 8 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [INT], Driven and Striker characters by 1.4x-1.8x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.8x-2.2x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.8",
+				"<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 12,500<br>Max Rush: 10 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [INT], Driven and Striker characters by 1.4x-2.0x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 12,500<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 2.0x-2.5x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 3.0"
 			]
 		},
 		festStats: {
@@ -173440,24 +173442,24 @@ window.details = {
 		festAbilityGPCondition: "After 50s of battle"
 	},
 	4381: {//Bonney
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Slasher and Striker characters' ATK by 5.25x, RCV by 1.25x, makes their [PSY][RCV][TND] slots have matching slot effects, and reduces crew's Burn duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Egghead] characters are on the crew, boosts Slasher and Striker characters' ATK by a further 1.1x. If 5 or more [Egghead] [Worst Generation] [Paramythia-type] characters are on the crew, reduces crew's Special Reverse by 2 turns",
-		special: "Deal 300x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), reduces all enemies' Threshold Damage Reduction duration by 7 turns, changes the ATK multiplier of [PSY][RCV][TND][SEMLA] slots to 3.0x when slots match (normally 2x when matching, 0.5x when unfavorable, 1.0x otherwise) for 3 turns, and further increases crew's ATK boost by 1.25x (up to a maximum of 10x). If 4 or more [Egghead] [Worst Generation] [Paramythia-type] characters are on the crew, further increases crew's chain multiplier additive boost effect (except multiplicative boost) by +1.0, and boosts the chain multiplier by +1.6 for 3 turns (allows this effect to be further increased up to 2 times; boosts the chain multiplier by +1.4 for 1 turn otherwise)",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Slasher and Striker characters by 5.25x, by 5.775x instead if your crew has 4+ [Egghead] characters, boosts RCV of Slasher and Striker characters by 1.25x, makes [PSY], [RCV] and [TND] orbs beneficial for Slasher and Striker characters, and reduces Burn duration by 10 turns. If your crew has 5+ [Egghead], [Worst Generation] or [Paramythia-type] characters, restores Special Cooldown of all characters by 2 turns when they are rewinded.",
+		special: "Deals 300x character's ATK in Typeless Fixed True damage to one enemy, reduces enemies' Threshold Damage Reduction duration by 7 turns, increases Orb Effects of beneficial [PSY], [RCV], [TND] and [SEMLA] orbs to 3x for 3 turns, and increases boost effects of ATK Up buffs by 1.25x (up to 10x). If your crew has 4+ [Egghead], [Worst Generation] or [Paramythia-type] characters, increases boost effects of Chain Addition buffs by +1.0x, and adds 1.6x, can be enhanced up to 2 times, to Chain Multiplier for 3 turns; adds 1.4x, can be enhanced up to 2 times, to Chain Multiplier for 1 turn otherwise.",
 		specialName: "Strike for Her Father",
 		sailor: {
-			base: "Boosts crew's base stats by 75 and makes their [RCV][TND] slots have matching slot effects",
-			level1: "Boosts character's base ATK by 300 when attacking last out of all available characters"
+			base: "Boosts base ATK, HP and RCV of all characters by 75; makes [RCV] and [TND] orbs beneficial for all characters.",
+			level1: "Boosts base ATK of this character by 300 if this character is the last in the chain to attack."
 		},
-		superSpecial: "Changes crew's slots (including [BLOCK] slots) to [TND], changes character's slot to [RCV], boosts the type effects of normal attacks for crew by 2.5x for 3 turns, and changes [PSY] characters to Super [PSY]",
-		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Sabo",
+		superSpecial: "Changes all orbs, including [BLOCK] orbs, into [TND] orbs, changes the orb of this character into a [RCV] orb, boosts Color Affinity of all characters by 2.5x for 3 turns, and transforms [PSY] characters into Super [PSY] characters.",
+		superSpecialCriteria: "This character must be captain. Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Bartholomew Kuma, Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Sabo",
 		support: [
 			{
 				Characters: "Bartholomew Kuma",
 				description: [
-					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.3, and reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.4, and reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.5, and reduces all enemies' Threshold Damage Reduction duration by 2 turns",
-					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.6, and reduces all enemies' Threshold Damage Reduction duration by 2 turns",
-					"Once per quest, if supported character uses a Special, further increases crew's additive chain multiplier boosts (except multiplicative boosts) by +0.7, and reduces all enemies' Threshold Damage Reduction duration by 3 turns"
+					"Once per adventure, when the supported character uses their special, increases boost effects of Chain Addition buffs by +0.3x, and reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+					"Once per adventure, when the supported character uses their special, increases boost effects of Chain Addition buffs by +0.4x, and reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+					"Once per adventure, when the supported character uses their special, increases boost effects of Chain Addition buffs by +0.5x, and reduces enemies' Threshold Damage Reduction duration by 2 turns.",
+					"Once per adventure, when the supported character uses their special, increases boost effects of Chain Addition buffs by +0.6x, and reduces enemies' Threshold Damage Reduction duration by 2 turns.",
+					"Once per adventure, when the supported character uses their special, increases boost effects of Chain Addition buffs by +0.7x, and reduces enemies' Threshold Damage Reduction duration by 3 turns."
 				]
 			}
 		],
@@ -173545,13 +173547,13 @@ window.details = {
 			}
 		],
 		lastTap: {
-			condition: "At final battle",
+			condition: "On the last stage",
 			description: [
-				" Changes character's slot (including [BLOCK] slot) to [RCV], boosts character's base ATK by +100 for 1 turn (stacks with effects from Special), and boosts character's damage dealt to DEF Down enemies by 1.5x for 1 turn",
-				" Changes character's slot (including [BLOCK] slot) to [RCV], boosts character's base ATK by +200 for 1 turn (stacks with effects from Special), and boosts character's damage dealt to DEF Down enemies by 1.75x for 1 turn",
-				" Changes character's slot (including [BLOCK] slot) to [RCV], boosts character's base ATK by +300 for 1 turn (stacks with effects from Special), and boosts character's damage dealt to DEF Down enemies by 2x for 1 turn",
-				" Changes character's slot (including [BLOCK] slot) to [RCV], boosts character's base ATK by +400 for 1 turn (stacks with effects from Special), and boosts character's damage dealt to DEF Down enemies by 2.25x for 1 turn",
-				" Changes character's slot (including [BLOCK] slot; ignoring inability to change [S. BLOCK][WANO][SEMLA] and Rainbow slots) to [RCV], boosts character's base ATK by +500 for 1 turn (stacks with effects from Special), and boosts character's damage dealt to DEF Down enemies by 2.5x for 1 turn"
+				"Changes the orb, including [BLOCK] orb, of this character into a [RCV] orb, boosts base ATK of this character by 100 for 1 turn, and boosts ATK against enemies with reduced defense by 1.5x for 1 turn.",
+				"Changes the orb, including [BLOCK] orb, of this character into a [RCV] orb, boosts base ATK of this character by 200 for 1 turn, and boosts ATK against enemies with reduced defense by 1.75x for 1 turn.",
+				"Changes the orb, including [BLOCK] orb, of this character into a [RCV] orb, boosts base ATK of this character by 300 for 1 turn, and boosts ATK against enemies with reduced defense by 2x for 1 turn.",
+				"Changes the orb, including [BLOCK] orb, of this character into a [RCV] orb, boosts base ATK of this character by 400 for 1 turn, and boosts ATK against enemies with reduced defense by 2.25x for 1 turn.",
+				"Changes the orb, including [BLOCK], [SUPERBLOCK], [WANO], [SEMLA] and [RAINBOW] orb, of this character into a [RCV] orb, boosts base ATK of this character by 500 for 1 turn, and boosts ATK against enemies with reduced defense by 2.5x for 1 turn."
 			],
 		},
 		festStats: {
@@ -173628,22 +173630,22 @@ window.details = {
         }
 	},
 	4382: {//Bluegrass
-		captain: "Halves crew's HP at start of quest, but boosts [DEX] characters' ATK by 3.75x and makes their [TND] slots have matching slot effects",
-		special: "Reduces all enemies' DEF Up duration by 6 turns, deals 60x character's ATK in [DEX] damage to all enemies at end of turn for 3 turns, and changes crew's slots (including [BLOCK] slots) to [TND]. If 3 or more [Navy] [World Government] characters or 6 or more [Egghead] characters are on the crew, boosts crew's slot effects by 2.5x for 3 turns (allows this effect to be further increased up to 2 times), reduces crew's Special Bind duration by 6 turns, and if crew has no slot effect boost, boosts crew's slot effects by 2.25x for 3 turns",
+		captain: "Reduces crew's current HP by 50% at the start of the fight, boosts ATK of [DEX] characters by 3.75x, and makes [TND] orbs beneficial for [DEX] characters.",
+		special: "Reduces enemies' Increased Defense duration by 6 turns, deals 60x character's ATK in [DEX] damage to all enemies at the end of each turn for 3 turns, and changes all orbs, including [BLOCK] orbs, into [TND] orbs. If your crew has 3+ [Navy] or [World Government] characters or 6 [Egghead] characters, boosts Orb Effects of all characters by 2.5x, can be enhanced up to 2 times, for 3 turns, and reduces Special Bind duration by 6 turns; boosts Orb Effects of all characters by 2.25x for 3 turns otherwise.",
 		specialName: "Riding the Battle Weapon",
 		sailor: {
-			base: "Reduces character's Special Bind duration by 6 turns",
-			level1: "Character cannot be blown away by attack, and makes Shooter and Driven characters' [BOMB][S. BOMB] slots have matching slot effects"
+			base: "Reduces Special Bind duration by 6 turns on this character.",
+			level1: "This character cannot be Blown Away; and makes [BOMB] and [SUPERBOMB] orbs beneficial for Shooter and Driven characters."
 		},
 		support: [
 			{
 				Characters: "Characters with the following Character Tag: Navy Vice Admiral",
 				description: [
-					"Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-					"Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-					"Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-					"Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-					"Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 2 turns"
+					"Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 2 turns."
 				]
 			}
 		],
@@ -173750,22 +173752,22 @@ window.details = {
 		]
 	},
 	4383: {//Doll
-		captain: "Boosts crew's ATK based on the timing of the previous character's attack (minimum 3x, maximum 4x) and heals crew by 1,100 HP at end of turn",
-		special: "Reduces the duration of all enemy barriers by 1 turn, reduces crew's Paralysis duration by 3 turns, and applies -15% [INT], [PSY], and [DEX] Resistance to all enemies for 1 turn. If 3 or more [Navy] [World Government] characters or 6 or more [Egghead] characters are on the crew, allows crew's ATK boost to be further increased up to 2 times and reduces crew's Special charge time by 1 turn",
+		captain: "Boosts ATK of all characters by 3x-4x based on the timing of the attack of the previous unit in the chain, and recovers 1,100 HP at the end of each turn.",
+		special: "Reduces enemies' Barrier duration by 1 turn, reduces Paralysis duration by 3 turns, and reduces enemies' [DEX], [PSY] and [INT] Resistance by -15% for 1 turn. If your crew has 3+ [Navy] or [World Government] characters or 6 [Egghead] characters, enables ATK Up buffs to be enhanced up to 2 times, and reduces Special Cooldown of all characters by 1 turn.",
 		specialName: "Ship-Protecting Kick",
 		sailor: {
-			base: "Reduces character's Special Reverse by 3 turns",
-			level1: "Boosts crew's base stats by 60 and makes their [INT] slots have matching slot effects"
+			base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+			level1: "Boosts base ATK, HP and RCV of all characters by 60; and makes [INT] orbs beneficial for all characters."
 		},
 		support: [
 			{
 				Characters: "Characters with the following Character Tag: Navy Vice Admiral",
 				description: [
-					"Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 1 turn",
-					"Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 1 turn",
-					"Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 1 turn",
-					"Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 1 turn",
-					"Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 2 turns"
+					"Once per adventure, when the supported character uses their special, reduces Paralysis duration by 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces Paralysis duration by 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces Paralysis duration by 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces Paralysis duration by 1 turn.",
+					"Once per adventure, when the supported character uses their special, reduces Paralysis duration by 2 turns."
 				]
 			}
 		],
@@ -173872,22 +173874,22 @@ window.details = {
 		]
 	},
 	4384: {//Sanji & Franky
-		captain: "Boosts [INT], Fighter, and Shooter characters' ATK by 3.75x, HP by 1.25x, reduces damage taken by 15%, and crew cannot be blown away by attack",
-		special: "Reduces ship's Special charge time by 3 turns, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn (effect cannot stack; if HP is above max limit, it is treated as being full HP), heals crew by 20x character's RCV, reduces crew's Bind duration by 4 turns, and further increases crew's lock chain multiplier effect/chain multiplier growth rate alterating effect by +0.2 . If 4 or more [Straw Hat Pirates] characters or 6 or more [Egghead] characters are on the crew, extends the duration of crew's lock chain multiplier effect/chain multiplier growth rate alterating effect by 1 turn",
+		captain: "Boosts ATK of [INT], Fighter and Shooter characters by 3.75x, boosts HP of [INT], Fighter and Shooter characters by 1.25x, reduces damage received by 15%, and makes crew immune to Blow Away.",
+		special: "Reduces Special Cooldown of ship by 3 turns, allows HP Overfill up to 2x MAX HP for 1 turn, recovers 20x character's RCV in HP, reduces Bind duration by 4 turns, and increases boost effects of Chain Lock and Chain Tap Timing Bonus buffs by +0.2x. If your crew has 4+ [Straw Hat Pirates] characters or 6 [Egghead] characters, increases duration of any Chain Lock and Chain Tap Timing Bonus buffs by 1 turn.",
 		specialName: "Confirming the Safety of Friends",
 		sailor: {
-			base: "Makes crew's [INT] slots have matching slot effects",
-			level1: "Boosts crew's base stats by 60 and reduces crew's Paralysis duration by 1 turn"
+			base: "Makes [INT] orbs beneficial for all characters.",
+			level1: "Boosts base ATK, HP and RCV of all characters by 60; reduces Paralysis duration by 1 turn."
 		},
 		support: [
 			{
 				Characters: "[INT] characters",
 				description: [
-					"Adds 5% of character's base HP to supported character's base HP",
-					"Adds 6% of character's base HP to supported character's base HP",
-					"Adds 8% of character's base HP to supported character's base HP",
-					"Adds 10% of character's base HP to supported character's base HP",
-					"Adds 13% of character's base HP to supported character's base HP"
+					"Adds 5% of this character's base HP to the supported character's base HP.",
+					"Adds 6% of this character's base HP to the supported character's base HP.",
+					"Adds 8% of this character's base HP to the supported character's base HP.",
+					"Adds 10% of this character's base HP to the supported character's base HP.",
+					"Adds 13% of this character's base HP to the supported character's base HP."
 				]
 			}
 		],
@@ -173959,11 +173961,11 @@ window.details = {
 				"When an [INT] [Egghead] character performs Super Tandem"
 			],
 			description: [
-				"Raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn",
-				"Raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn",
-				"Raises Boost Level of [Straw Hat Pirates][Egghead] characters by 1 for 1 turn",
-				"Raises Boost Level of [Straw Hat Pirates] characters by 2 for 1 turn, and raises Boost Level of [Egghead] characters by 1 for 1 turn",
-				"Raises Boost Level of [Straw Hat Pirates][Egghead] characters by 2 for 1 turn"
+				"Raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates] and [Egghead] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates] characters by 2 for 1 turn, and raises Boost Level of [Egghead] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates] and [Egghead] characters by 2 for 1 turn."
 			]
 		},
 		festStats: {
