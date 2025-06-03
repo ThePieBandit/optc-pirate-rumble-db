@@ -131388,11 +131388,11 @@ window.details = {
             {
                 Characters: "Monkey D. Luffy, Roronoa Zoro, Trafalgar D. Water Law, Basil Hawkins, Killer, Eustass Kid, Scratchmen Apoo, X Drake, Jewelry Bonney, Capone Bege and Marshall D. Teach (Blackbeard)",
                 description: [
-                    "Once per adventure, when you reach the 3rd stage, changes the orb of the supported character into a [PSY] orb and boosts base ATK of [PSY] characters by 100 for 1 turn.",
-                    "Once per adventure, when you reach the 3rd stage, changes the orb of the supported character into a [PSY] orb and boosts base ATK of [PSY] characters by 200 for 1 turn.",
-                    "Once per adventure, when you reach the 3rd stage, changes the orb of the supported character into a [PSY] orb and boosts base ATK of [PSY] characters by 300 for 1 turn.",
-                    "Once per adventure, when you reach the 3rd stage, changes the orb of the supported character into a [PSY] orb and boosts base ATK of [PSY] characters by 400 for 1 turn.",
-                    "Once per adventure, when you reach the 3rd stage, changes the orb of the supported character into a [PSY] orb and boosts base ATK of [PSY] characters by 500 for 1 turn."
+                    "Once per adventure, when you reach the 3rd stage, changes the orb of the supported character into a [RCV] orb and boosts base ATK of [PSY] characters by 100 for 1 turn.",
+                    "Once per adventure, when you reach the 3rd stage, changes the orb of the supported character into a [RCV] orb and boosts base ATK of [PSY] characters by 200 for 1 turn.",
+                    "Once per adventure, when you reach the 3rd stage, changes the orb of the supported character into a [RCV] orb and boosts base ATK of [PSY] characters by 300 for 1 turn.",
+                    "Once per adventure, when you reach the 3rd stage, changes the orb of the supported character into a [RCV] orb and boosts base ATK of [PSY] characters by 400 for 1 turn.",
+                    "Once per adventure, when you reach the 3rd stage, changes the orb of the supported character into a [RCV] orb and boosts base ATK of [PSY] characters by 500 for 1 turn."
                 ]
             }
         ]
@@ -152964,7 +152964,7 @@ window.details = {
 	},
 	4182: {//Chopper
 		captain: "Boosts ATK of [INT], Cerebral and Fighter characters by 5x-5.75x depending on the amount healed in the last turn, boosts HP of [INT], Cerebral and Fighter characters by 1.3x, makes [TND] orbs beneficial for [INT], Cerebral and Fighter characters, boosts chances of getting [TND] orbs, reduces Pain duration by 10 turns, recovers 3,000 HP at the end of each turn, and increases duration of any Chain Tap Timing Bonus buffs applied by Specials by 1 turn.",
-		special: "Reduces enemies' Increased Defense duration by 7 turns, removes Poison duration completely, reduces Special Cooldown of all characters by 1 turn, increases Chain Tap Timing Bonus of [INT], Cerebral and Fighter characters to +0.0x-0.7x for 2 turns depending on Tap Timing, recovers 30% of crew's MAX HP, and enables ATK Up buffs to be enhanced up to 2 times. If HP is above 99% when the special is activated, carries over 0.2x-1.7x of Chain Multiplier on this turn to the next turn. If \"Dream of the Miracle Cure\" is used again in the same turn the special is activated in, increases boost effects of Base ATK Boost buffs by +500, and increases boost effects of Chain Tap Timing Bonus buffs by +0.2x.",
+		special: "Reduces enemies' Increased Defense duration by 7 turns, removes Poison duration completely, reduces Special Cooldown of all characters by 1 turn, increases Chain Tap Timing Bonus of [INT], Cerebral and Fighter characters to +0.0x-0.7x for 2 turns depending on Tap Timing, recovers 30% of crew's MAX HP, and enables Base ATK Boost buffs to be enhanced up to 2 times. If HP is above 99% when the special is activated, carries over 0.2x-1.7x of Chain Multiplier on this turn to the next turn. If \"Dream of the Miracle Cure\" is used again in the same turn the special is activated in, increases boost effects of Base ATK Boost buffs by +500, and increases boost effects of Chain Tap Timing Bonus buffs by +0.2x.",
 		specialNotes: "<br>GOOD +0.0, GREAT +0.1, PERFECT +0.7<br>Carried-over chain amount is equal to 0.2 ✕ final chain multiplier this turn and will be added into the next turn's chain multiplier. In order to get +1.7 Chain carried over, you need to reach 8.5x or higher Chain Multiplier.",
 		specialName: "Dream of the Miracle Cure",
 		sailor: {
