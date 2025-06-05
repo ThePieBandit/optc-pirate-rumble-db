@@ -174031,6 +174031,108 @@ window.details = {
 			}
 		]
 	},
+	4386: {//Dr. Vegapunk - Lilith
+		captain: "Boosts ATK of [INT] characters by 3x, and boosts HP of [INT] characters by 1.3x.",
+		special: "Reduces ATK Down duration by 5 turns, and boosts ATK of Cerebral characters by 1.5x for 1 turn.",
+		specialName: "Vigilant of the Surroundings",
+		sailor: "Boosts base ATK of Cerebral characters by 100.",
+		limit: [
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Acquire Potential 1: [PSY] Damage Reduction" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 150" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Acquire Potential 2: [INT] Damage Reduction" }
+		],
+		potential: [
+			{
+				Name: "[PSY] Damage Reduction",
+				description: [
+					"Reduces damage taken from [PSY] characters by 1%",
+					"Reduces damage taken from [PSY] characters by 2%",
+					"Reduces damage taken from [PSY] characters by 3%",
+					"Reduces damage taken from [PSY] characters by 4%",
+					"Reduces damage taken from [PSY] characters by 5%"
+				]
+			},
+			{
+				Name: "[INT] Damage Reduction",
+				description: [
+					"Reduces damage taken from [INT] characters by 1%",
+					"Reduces damage taken from [INT] characters by 2%",
+					"Reduces damage taken from [INT] characters by 3%",
+					"Reduces damage taken from [INT] characters by 4%",
+					"Reduces damage taken from [INT] characters by 5%"
+				]
+			}
+		],
+		festStats: {
+			def: 172,
+			spd: 175,
+			style: "ATK"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Normal Attack",
+			"Power Attack",
+			"Full Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Completely evades Special Bind, reduce damage taken from [PSY] by 30％",
+		festAbility: [
+			"Cerebral/Striker class teammates ATK Up Lv.2, HP Up Lv.2, SPD Up Lv.2; if 6 or more [Egghead] characters are on the team, team ATK Up Lv.1",
+			"Cerebral/Striker class teammates ATK Up Lv.3, HP Up Lv.3, SPD Up Lv.3; if 6 or more [Egghead] characters are on the team, team ATK Up Lv.2",
+			"Cerebral/Striker class teammates ATK Up Lv.4, HP Up Lv.4, SPD Up Lv.4; if 6 or more [Egghead] characters are on the team, team ATK Up Lv.3",
+			"Cerebral/Striker class teammates ATK Up Lv.5, HP Up Lv.5, SPD Up Lv.5; if 6 or more [Egghead] characters are on the team, team ATK Up Lv.4",
+			"Cerebral/Striker class teammates ATK Up Lv.6, HP Up Lv.6, SPD Up Lv.6; if 6 or more [Egghead] characters are on the team, team ATK Up Lv.5"
+		],
+		festSpecial: [
+			{
+				cooldown: 30,
+				description: "Targets self for ATK Up Lv.1 (21 s); targets enemies within large range (horizontal) for ATK x 2.1 damage; targets enemies within large range (frontal) for ATK x 2.1 damage; targets enemies within medium range for ATK x 2.1 damage; if 6 or more [Egghead] characters are on the team, targets enemies within large range for ATK x 2.1 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for ATK Up Lv.1 (22 s); targets enemies within large range (horizontal) for ATK x 2.2 damage; targets enemies within large range (frontal) for ATK x 2.2 damage; targets enemies within medium range for ATK x 2.2 damage; if 6 or more [Egghead] characters are on the team, targets enemies within large range for ATK x 2.2 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for ATK Up Lv.2 (23 s); targets enemies within large range (horizontal) for ATK x 2.3 damage; targets enemies within large range (frontal) for ATK x 2.3 damage; targets enemies within medium range for ATK x 2.3 damage; if 6 or more [Egghead] characters are on the team, targets enemies within large range for ATK x 2.3 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for ATK Up Lv.2 (24 s); targets enemies within large range (horizontal) for ATK x 2.4 damage; targets enemies within large range (frontal) for ATK x 2.4 damage; targets enemies within medium range for ATK x 2.4 damage; if 6 or more [Egghead] characters are on the team, targets enemies within large range for ATK x 2.4 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for ATK Up Lv.3 (25 s); targets enemies within large range (horizontal) for ATK x 2.5 damage; targets enemies within large range (frontal) for ATK x 2.5 damage; targets enemies within medium range for ATK x 2.5 damage; if 6 or more [Egghead] characters are on the team, targets enemies within large range for ATK x 2.5 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for ATK Up Lv.3 (26 s); targets enemies within large range (horizontal) for ATK x 2.6 damage; targets enemies within large range (frontal) for ATK x 2.6 damage; targets enemies within medium range for ATK x 2.6 damage; if 6 or more [Egghead] characters are on the team, targets enemies within large range for ATK x 2.6 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for ATK Up Lv.4 (27 s); targets enemies within large range (horizontal) for ATK x 2.7 damage; targets enemies within large range (frontal) for ATK x 2.7 damage; targets enemies within medium range for ATK x 2.7 damage; if 6 or more [Egghead] characters are on the team, targets enemies within large range for ATK x 2.7 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for ATK Up Lv.4 (28 s); targets enemies within large range (horizontal) for ATK x 2.8 damage; targets enemies within large range (frontal) for ATK x 2.8 damage; targets enemies within medium range for ATK x 2.8 damage; if 6 or more [Egghead] characters are on the team, targets enemies within large range for ATK x 2.8 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for ATK Up Lv.5 (29 s); targets enemies within large range (horizontal) for ATK x 2.9 damage; targets enemies within large range (frontal) for ATK x 2.9 damage; targets enemies within medium range for ATK x 2.9 damage; if 6 or more [Egghead] characters are on the team, targets enemies within large range for ATK x 2.9 damage"
+			},
+			{
+				cooldown: 30,
+				description: "Targets self for ATK Up Lv.5 (30 s); targets enemies within large range (horizontal) for ATK x 3 damage; targets enemies within large range (frontal) for ATK x 3 damage; targets enemies within medium range for ATK x 3 damage; if 6 or more [Egghead] characters are on the team, targets enemies within large range for ATK x 3 damage"
+			}
+		]
+	},
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
