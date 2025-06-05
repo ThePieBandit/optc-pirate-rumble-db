@@ -4384,7 +4384,7 @@ window.units = [
     [ "Doll - Landing Vice Admiral", "INT", ["Fighter", "Cerebral"], 5, 30, 4, 4, 99, 4000000, 1654, 805, 132, 3307, 1609, 263, 1 ],
     [ "Sanji & Franky", "INT", ["Fighter", "Shooter"], 5, 40, 4, 4, 99, 5000000, 1660, 797, 83, 3320, 1594, 166, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Dr. Vegapunk \"Lilith the Evil\" & Vegaforce-01 - Ship-Carrying Giant Robot", "INT", ["Cerebral", "Striker"], 5, 30, 5, 4, 99, 4000000, 1875, 791, 124, 3750, 1581, 248, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
