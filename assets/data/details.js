@@ -21830,7 +21830,7 @@ window.details = {
             null,
             {
                 special: {
-                    base: "Inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 2 turns, deals 150x character's ATK in [STR] damage to all enemies, boosts ATK against enemies inflicted with Burn by 2.75x for 2 turns, and changes orbs of [STR] characters into [STR] orbs. If your crew has 3+ [Navy] characters, ignores Debuff Protection and inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 2 turns, boosts Color Affinity of [STR] characters by 3x for 2 turns, and reduces enemies' Increased Defense and Threshold Damage Reduction duration by 6 turns; boosts Color Affinity of [STR] characters by 2.5x for 2 turns otherwise."
+                    base: "Inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 2 turns, deals 150x character's ATK in [STR] damage to all enemies, and changes orbs of [STR] characters into [STR] orbs. If your crew has Color Affinity when the special is activated, boosts ATK against enemies inflicted with Burn by 2.75x for 2 turns. If your crew has 3+ [Navy] characters, ignores Debuff Protection and inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 2 turns, boosts Color Affinity of [STR] characters by 3x for 2 turns, and reduces enemies' Increased Defense and Threshold Damage Reduction duration by 6 turns; boosts Color Affinity of [STR] characters by 2.5x for 2 turns otherwise."
                 },
                 sailor: {
                     level1: "Boosts base HP of all characters by 100.",
