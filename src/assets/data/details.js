@@ -58196,11 +58196,11 @@ window.details = {
             {
                 Characters: "Charlotte Linlin (Big Mom)",
                 description: [
-                    "Once per adventure, when the supported character their special, changes the orb of the supported character into a [RCV] orb, reduces Increase Damage Taken duration by 1 turn and recovers 500 HP at the end of the turn for 2 turns.",
-                    "Once per adventure, when the supported character their special, changes the orb of the supported character into a [RCV] orb, reduces Increase Damage Taken duration by 2 turns and recovers 1,000 HP at the end of the turn for 2 turns.",
-                    "Once per adventure, when the supported character their special, changes the orb of the supported character into a [RCV] orb, reduces Increase Damage Taken duration by 3 turns and recovers 2,000 HP at the end of the turn for 2 turns.",
-                    "Once per adventure, when the supported character their special, changes the orb of the supported character into a [RCV] orb, reduces Increase Damage Taken duration by 4 turns and recovers 3,000 HP at the end of the turn for 3 turns.",
-                    "Once per adventure, when the supported character their special, changes the orb of the supported character into a [RCV] orb, reduces Increase Damage Taken duration by 5 turns and recovers 4,500 HP at the end of the turn for 3 turns."
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [RCV] orb, reduces Increase Damage Taken duration by 1 turn and recovers 500 HP at the end of the turn for 2 turns.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [RCV] orb, reduces Increase Damage Taken duration by 2 turns and recovers 1,000 HP at the end of the turn for 2 turns.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [RCV] orb, reduces Increase Damage Taken duration by 3 turns and recovers 2,000 HP at the end of the turn for 2 turns.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [RCV] orb, reduces Increase Damage Taken duration by 4 turns and recovers 3,000 HP at the end of the turn for 3 turns.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [RCV] orb, reduces Increase Damage Taken duration by 5 turns and recovers 4,500 HP at the end of the turn for 3 turns."
                 ]
             }
         ]
