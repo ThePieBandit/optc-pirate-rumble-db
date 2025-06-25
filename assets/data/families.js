@@ -721,6 +721,8 @@ const Doll = [ "Doll" ];
 const Saturn = [ "Saturn" ];
 const Bluegrass = [ "Bluegrass" ];
 const BuckinghamStussy = [ "Miss Buckingham Stussy" ];
+const MonkeyDDragon = [ "Monkey D. Dragon" ];
+const Ginny = [ "Ginny" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -5000,6 +5002,9 @@ window.families = {
     4388: [ ...EdwardNewgate, ...Shiki, ...CharlotteLinlin ],
     4389: [ ...BuckinghamStussy ],
     4390: [ ...Kaido ],
+    4391: [ ...MonkeyDDragon, ...EmporioIvankov, ...BartholomewKuma ],
+    4392: [ ...Ginny ],
+    4393: [ ...Sabo, ...Koala ],
     //break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
@@ -5694,6 +5699,10 @@ const ghostFamilies = {
     674: [ ...NefertariVivi, ...Karoo, ...Rebecca ],
     675: [ ...NefertariVivi, ...Karoo, ...Rebecca ],
     676: [ ...NefertariVivi, ...Karoo, ...Rebecca ],
+    677: [ ...Sabo, ...Koala ],
+    678: [ ...Sabo, ...Koala ],
+    679: [ ...Sabo, ...Koala ],
+    680: [ ...Sabo, ...Koala ],
 }
 
 Object.keys(ghostFamilies).forEach(function (key) {
