@@ -2853,6 +2853,18 @@
 			case (ghostPoint + 676).toString():
 				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4350-STR.png";
 				break;
+			case (ghostPoint + 677).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4393-1.png";
+				break;
+			case (ghostPoint + 678).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4393-2.png";
+				break;
+			case (ghostPoint + 679).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4393-STR.png";
+				break;
+			case (ghostPoint + 680).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/300/4393-INT.png";
+				break;
 			default:
 				break;
 		}

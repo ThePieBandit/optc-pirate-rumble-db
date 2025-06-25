@@ -4389,9 +4389,9 @@ window.units = [
     [ "Newgate & Shiki & Linlin - Invading God Valley", "STR", ["Striker", "Powerhouse"], 6, 55, 4, 5, 99, 5000000, 2430, 909, 117, 4860, 1818, 234, 1 ],
     [ "Miss Buckingham Stussy - The Day of the Battle", "INT", ["Fighter", "Striker"], 5, 30, 4, 4, 99, 4000000, 1794, 771, 119, 3588, 1542, 238, 1 ],
     [ "Kaido - Anxious Youngster", "STR", ["Striker", "Powerhouse"], 5, 30, 4, 4, 99, 4000000, 1862, 811, 95, 3724, 1621, 189, 1 ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Dragon & Ivankov & Kuma", "DEX", ["Cerebral", "Free Spirit"], 6, 55, 4, 5, 99, 5000000, 2348, 893, 132, 4696, 1786, 263, 1 ],
+    [ "Ginny", "DEX", ["Shooter", "Cerebral"], 6, 55, 5, 5, 99, 5000000, 2178, 868, 127, 4355, 1736, 254, 1 ],
+    [ "Sabo & Koala - Aces Leading the Revolution", ["STR", "INT"], [["Free Spirit", "Cerebral"], ["Free Spirit", "Cerebral"], ["Free Spirit", "Cerebral"]], "6+", 65, 4, 5, 99, 5000000, 1718, 1135, 255, 3436, 1702, 510, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
@@ -5103,6 +5103,10 @@ var ghostsUnits = [
     [ "⚐ Rebecca - Cheerful Talk About Their Savior", "STR", ["Cerebral", "Striker"], "6+", 65, 4, 5, 99, 5000000, 1736, 1027, 229, 3472, 1540, 458, 1 ],
     [ "⚐ Vivi & Rebecca - Cheerful Talk About Their Savior", "DEX", ["Cerebral", "Striker"], "6+", 65, 4, 5, 99, 5000000, 1804, 1102, 249, 3608, 1653, 498, 1 ],
     [ "⚐ Vivi & Rebecca - Cheerful Talk About Their Savior", "STR", ["Cerebral", "Striker"], "6+", 65, 4, 5, 99, 5000000, 1804, 1102, 249, 3608, 1653, 498, 1 ],
+    [ "⚐ Sabo - Aces Leading the Revolution", "STR", ["Free Spirit", "Cerebral"], "6+", 65, 4, 5, 99, 5000000, 1640, 1125, 221, 3280, 1688, 441, 1 ],
+    [ "⚐ Koala - Aces Leading the Revolution", "INT", ["Free Spirit", "Cerebral"], "6+", 65, 6, 5, 99, 5000000, 1716, 1038, 230, 3432, 1557, 459, 1 ],
+    [ "⚐ Sabo & Koala - Aces Leading the Revolution", "STR", ["Free Spirit", "Cerebral"], "6+", 65, 4, 5, 99, 5000000, 1718, 1135, 255, 3436, 1702, 510, 1 ],
+    [ "⚐ Sabo & Koala - Aces Leading the Revolution", "INT", ["Free Spirit", "Cerebral"], "6+", 65, 4, 5, 99, 5000000, 1718, 1135, 255, 3436, 1702, 510, 1 ],
 ];
 
 window.units = window.units.concat(ghostsUnits);
