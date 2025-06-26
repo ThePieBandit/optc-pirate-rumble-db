@@ -5005,6 +5005,12 @@ window.families = {
     4391: [ ...MonkeyDDragon, ...EmporioIvankov, ...BartholomewKuma ],
     4392: [ ...Ginny ],
     4393: [ ...Sabo, ...Koala ],
+    4394: [ ...Nami ],
+    4395: [ ...Yamato, ...Tama ],
+    4396: [ ...Perona ],
+    4397: [ ...Ulti ],
+    4398: [ ...BoaHancock ],
+    //4399: [ ...BoaHancock ],
     //break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
