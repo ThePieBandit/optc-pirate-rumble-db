@@ -172562,24 +172562,24 @@ window.details = {
         festAbilityGPCondition: "When 2 teammates are defeated"
     },
     4394: {//Nami
-        captain: "Heals crew by 25,000 HP at start of Battle 3, boosts [STR], Striker, and Cerebral characters' ATK by 5.75x when HP is full (5.25x otherwise), boosts their HP by 1.3x, makes crew's [STR][TND] slots have matching slot effects, heals crew by 3,000 HP at end of turn, and if amount of HP beyond crew's maximum HP healed is 50,000 or more, adds the following to the Captain Ability: Reduces Paralysis/Burn duration by 10 turns (statuses inflicted before the healing amount threshold reached will not be affected)",
-        special: "Applies Paralysis (60% chance not to reduce action turns) to all enemies for 3 turns if they do not have immunity to all status effects, or immunity (excluding certain status effect), reduces crew's Despair/ATK Down duration by 6 turns, and boosts damage dealt to enemies affected by Paralysis/Burn by 2.5x for 3 turns. If Captain is a Striker or Cerebral class, sets the chain multiplier's minimum value at 3.25 and maximum value at 35.0 for 1 turn. If 3 or more [Straw Hat Pirates] [Paramythia-type] characters are on the crew or crew has Over Healing status, allows Paralysis applied from this Special to ignore immunity to all status effects, extends the duration of crew's lock chain multiplier effect by 2 turns (effect applies to lock chain multiplier effect from this Special), and further increases crew's damage dealt to enemies with a specific status effect boost by +0.25 (effect applies to damage dealt to enemies with a specific status effect boost from this Special)",
+        captain: "Recovers 25,000 HP at the start of Stage 3, boosts ATK of [STR], Striker and Cerebral characters by 5.25x, by 5.75x instead if HP is above 99% at the start of the turn, boosts HP of [STR], Striker and Cerebral characters by 1.3x, makes [STR] and [TND] orbs beneficial for all characters, and recovers 3,000 HP at the end of each turn. If there is more than 50,000 Excess Healing, reduces Paralysis and Burn duration by 10 turns.",
+        special: "Paralyzes (60%) all enemies for 3 turns, reduces Despair and ATK Down duration by 6 turns, and boosts ATK against Paralyzed enemies and enemies inflicted with Burn by 2.5x for 3 turns. If your Captain is a Striker or Cerebral character, sets Chain Boundaries to 3.25x and 35.0x for 1 turn. If your crew has 3+ [Straw Hat Pirates] or [Paramythia-type] characters or your crew has HP Overfill buff, ignores debuff protection and paralyzes (60%) all enemies for 3 turns, increases duration of any Chain Lock buffs by 2 turns and increases boost effects of Status ATK Boost buffs by +0.25x, including effects activated in the same ability.",
         specialName: "Sunny Smile",
         sailor: {
-            base: "Heals crew by 600 HP at end of turn",
-            level1: "Boosts crew's base ATK and RCV by 100, and reduces crew's Paralysis duration by 1 turn"
+            base: "Recovers 600 HP at the end of each turn.",
+            level1: "Boosts base ATK and RCV of all characters by 100; reduces Paralysis duration by 1 turn."
         },
-        superSpecial: "Heals crew by 10,000 HP, changes character's slot (including [BLOCK] slot; ignoring inability to change [S. BLOCK][WANO] and Rainbow slots) to [TND], boosts the chain multiplier by +1.2 for 2 turns, and changes [STR] characters to Super [STR]",
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)",
+        superSpecial: "Recovers 10,000 HP, changes the orb, including [BLOCK], [SUPERBLOCK], [WANO] and [RAINBOW] orb, of this character into a [TND] orb, adds 1.2x to chain multiplier for 2 turns, and transforms [STR] characters into Super [STR] characters.",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)",
         support: [
             {
                 Characters: "[STR] characters with the following Character Tag: [Straw Hat Pirates]",
                 description: [
-                    "Once per quest, if supported character uses a Special, sets the chain multiplier to 1.75x for 1 turn",
-                    "Once per quest, if supported character uses a Special, sets the chain multiplier to 1.9x for 1 turn",
-                    "Once per quest, if supported character uses a Special, sets the chain multiplier to 2.2x for 1 turn",
-                    "Once per quest, if supported character uses a Special, sets the chain multiplier to 2.5x for 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's ATK Down duration by 1 turn, and sets the chain multiplier to 2.5x for 1 turn"
+                    "Once per adventure, when the supported character uses their special, locks the chain multiplier at 1.75x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks the chain multiplier at 1.9x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks the chain multiplier at 2.2x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks the chain multiplier at 2.5x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces ATK Down duration by 1 turn, and locks the chain multiplier at 2.5x for 1 turn."
                 ]
             }
         ],
@@ -172668,18 +172668,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)"
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.5x to [STR], Striker, and Cerebral characters for 1 turn, and boosts base ATK by +350 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn ",
-                "Applies ATK Boost (Tandem) of 1.65x to [STR], Striker, and Cerebral characters for 1 turn, and boosts base ATK by +450 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn ",
-                "Applies ATK Boost (Tandem) of 1.8x to [STR], Striker, and Cerebral characters for 1 turn, and boosts base ATK by +550 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn ",
-                "Applies ATK Boost (Tandem) of 2x to [STR], Striker, and Cerebral characters for 1 turn, and boosts base ATK by +650 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn ",
-                "Applies ATK Boost (Tandem) of 2.25x to [STR], Striker, and Cerebral characters for 1 turn, and boosts base ATK by +800 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn "
+                "Boosts Tandem ATK of [STR], Striker and Cerebral characters by 1.5x for 1 turn, and boosts base ATK of Last Tap character by +350 for 1 turn.",
+                "Boosts Tandem ATK of [STR], Striker and Cerebral characters by 1.65x for 1 turn, and boosts base ATK of Last Tap character by +450 for 1 turn.",
+                "Boosts Tandem ATK of [STR], Striker and Cerebral characters by 1.8x for 1 turn, and boosts base ATK of Last Tap character by +550 for 1 turn.",
+                "Boosts Tandem ATK of [STR], Striker and Cerebral characters by 2x for 1 turn, and boosts base ATK of Last Tap character by +650 for 1 turn.",
+                "Boosts Tandem ATK of [STR], Striker and Cerebral characters by 2.25x for 1 turn, and boosts base ATK of Last Tap character by +800 for 1 turn."
             ]
         },
         festStats: {
@@ -172784,24 +172784,24 @@ window.details = {
         festAbilityGPCondition: "When 2 teammates are defeated"
     },
     4395: {//Yaamto & Otama
-        captain: "Sets all slots to [RCV] at start of quest, changes [RCV] slots to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies) at start of Battle 3, boosts [PSY], Striker, and Cerebral characters' ATK by 5.75x when HP is full (5.25x otherwise), boosts their HP by 1.3x, makes crew's [PSY][RCV] slots have matching slot effects, allows crew to obtain [RCV] slots with PERFECT taps, and if amount of HP beyond crew's maximum HP healed is 50,000 or more, adds the following to the Captain Ability: Reduces ATK Down/Special Bind duration by 10 turns (statuses inflicted before the healing amount threshold reached will not be affected)",
-        special: "Reduces [PSY], Striker, and Cerebral characters' Special charge time by 2 turns, reduces crew's Paralysis duration by 6 turns, heals crew by 50x character's RCV, and boosts [PSY], Striker, and Cerebral characters' base ATK by +1750 for 3 turns. If Captain is a Striker or Cerebral class, adds 40% ATK to Striker and Cerebral characters' next final tap (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect). If 3 or more [Child] [Paramythia-type] [Mythical Zoan-type] characters are on the crew or crew has Over Healing status, further increases all enemies' increase damage taken effect by +0.5",
+        captain: "Changes all orbs into [RCV] orbs at the start of the fight, changes [RCV] orbs into [WANO] orbs at the start of Stage 3, boosts ATK of [PSY], Striker and Cerebral characters by 5.25x, by 5.75x instead if HP is above 99% at the start of the turn, boosts HP of [PSY], Striker and Cerebral characters by 1.3x, makes [PSY] and [RCV] orbs beneficial for all characters, and makes PERFECTs consume [RCV] orbs. If there is more than 50,000 Excess Healing, reduces ATK Down and Special Bind duration by 10 turns.",
+        special: "Reduces Special Cooldown of [PSY], Striker and Cerebral characters by 2 turns, reduces Paralysis duration by 6 turns, recovers 50x character's RCV in HP, and boosts Base ATK of [PSY], Striker and Cerebral characters by 1,750 for 3 turns. If your Captain is a Striker or Cerebral character, boosts Final Tap ATK of Striker and Cerebral characters by 40%. If your crew has 3+ [Child], [Paramythia-type] or [Mythical Zoan-type] characters or your crew has HP Overfill buff, increases boost effects of enemies' Increase Damage Taken debuffs by +0.5x.",
         specialName: "Exhilarating Wave-Riding",
         sailor: {
-            base: "Heals crew by 600 HP at end of turn",
-            level1: "Boosts crew's base ATK by 100, and reduces crew's Special Reverse by 1 turn"
+            base: "Recovers 600 HP at the end of each turn.",
+            level1: "Boosts base ATK of all characters by 100; restores Special Cooldown of all characters by 1 turn when it is rewinded."
         },
-        superSpecial: "Heals crew by 10,000 HP, reduces character's Special charge time by 2 turns, applies increase damage taken status to all enemies by 1.75x for 2 turns, and changes Striker characters to Super Striker",
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Nami, Nico Robin, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Portgas D. Ace",
+        superSpecial: "Recovers 10,000 HP, reduces Special Cooldown of this character by 2 turns, inflicts all enemies with Increase Damage Taken by 1.75x for 2 turns, and transforms Striker character into Super Striker characters.",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Nami, Nico Robin, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Portgas D. Ace",
         support: [
             {
                 Characters: "[PSY] Striker characters",
                 description: [
-                    "Changes Striker characters' [RCV] slots to characters's own type at start of Battle 3",
-                    "Changes Striker characters' [RCV] slots to characters's own type at start of Battle 3",
-                    "Changes Striker characters' [RCV] slots to characters's own type at start of Battle 3",
-                    "Changes Striker characters' [RCV] slots to characters's own type at start of Battle 3",
-                    "Changes Striker characters' [RCV] slots to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies) at start of Battle 3"
+                    "Once per adventure, when you reach the 3rd stage, changes [RCV] orbs of Striker characters into Matching orbs.",
+                    "Once per adventure, when you reach the 3rd stage, changes [RCV] orbs of Striker characters into Matching orbs.",
+                    "Once per adventure, when you reach the 3rd stage, changes [RCV] orbs of Striker characters into Matching orbs.",
+                    "Once per adventure, when you reach the 3rd stage, changes [RCV] orbs of Striker characters into Matching orbs.",
+                    "Once per adventure, when you reach the 3rd stage, changes [RCV] orbs of Striker characters into [WANO] orbs."
                 ]
             }
         ],
@@ -172889,13 +172889,13 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "At final battle and crew's HP is at 70% or above",
+            condition: "On the last stage and HP is above 70% at the start of the turn",
             description: [
-                "Changes character's slot to character's own type, and boosts character's base ATK by +750 (stacks with effects from Special) for 1 turn ",
-                "Changes character's slot to character's own type, and boosts character's base ATK by +1000 (stacks with effects from Special) for 1 turn ",
-                "Changes character's slot to character's own type, and boosts character's base ATK by +1250 (stacks with effects from Special) for 1 turn ",
-                "Changes character's slot to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and boosts character's base ATK by +1500 (stacks with effects from Special) for 1 turn ",
-                "Changes character's slot (including [BLOCK] slot) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and boosts character's base ATK by +2000 (stacks with effects from Special) for 1 turn "
+                "Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 750 for 1 turn.",
+                "Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 1,000 for 1 turn.",
+                "Changes the orb of this character into a Matching orb, and boosts base ATK of this character by 1,250 for 1 turn.",
+                "Changes the orb of this character into a [WANO] orb, and boosts base ATK of this character by 1,500 for 1 turn.",
+                "Changes the orb, including [BLOCK] orb, of this character into a [WANO] orb, and boosts base ATK of this character by 2,000 for 1 turn."
             ]
         },
         festStats: {
@@ -173000,22 +173000,22 @@ window.details = {
         festAbilityGPCondition: "When 2 teammates are defeated"
     },
     4396: {//Perona
-        captain: "Boosts [PSY] and [STR] characters' ATK by 3.5x, HP by 1.2x, and heals crew by number of enemies defeated by normal attacks multiplied by 30% of crew's total RCV at end of enemy's turn",
-        special: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, and allows healing up to 2x crew's max HP ignoring max HP limit for 3 turns (effect cannot stack; if HP is above max limit, it is treated as being full HP). If amount of HP beyond crew's maximum HP healed before Special is launched is 20,000 or more, boosts [PSY] and [STR] characters' slot effects by 2.5x for 3 turns; 40,000 HP or more, boosts [PSY] and [STR] characters' ATK by 2.75x for 3 turns in addition to the previous effect; 100,000 HP or more, further increases crew's ATK boosts by +0.4 (this effect also applies to ATK boost from this Special) in addition to the previous effects",
+        captain: "Boosts ATK of [PSY] and [STR] characters by 3.5x, boosts HP of [PSY] and [STR] characters by 1.2x, and recovers HP proportional to the number of enemies you defeated in this turn ✕ 30% crew's RCV at the end of the enemy turn.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 6 turns, and allows HP Overfill up to 2x MAX HP for 3 turns. If there is more than 20,000 Excess Healing done when the special is activated, boosts Orb Effects of [PSY] and [STR] characters by 2.5x for 3 turns. If there is more than 40,000 Excess Healing done when the special is activated, boosts ATK of [PSY] and [STR] characters by 2.75x for 3 turns. If there is more than 100,000 Excess Healing done when the special is activated, increases boost effects of ATK Up buffs by +0.4x, including effects activated in the same ability.",
         specialName: "Gliding Through the Skies",
         sailor: {
-            base: "Adds an additional 500 HP when obtaining a [RCV] slot",
-            level1: "Boosts [PSY] and [STR] characters' base stats by 60"
+            base: "Boosts amount healed from [RCV] orbs by 500.",
+            level1: "Boosts base ATK, HP and RCV of [PSY] and [STR] characters by 60."
         },
         support: [
             {
                 Characters: "[PSY] characters",
                 description: [
-                    "Adds 3% of character's base RCV to supported character's base RCV",
-                    "Adds 4% of character's base RCV to supported character's base RCV",
-                    "Adds 5% of character's base RCV to supported character's base RCV",
-                    "Adds 7% of character's base RCV to supported character's base RCV",
-                    "Adds 9% of character's base RCV to supported character's base RCV"
+                    "Adds 3% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 4% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 5% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 7% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 9% of this character's base RCV to the supported character's base RCV."
                 ]
             }
         ],
@@ -173122,22 +173122,23 @@ window.details = {
         ]
     },
     4397: {//Ulti
-        captain: "Boosts Striker and Powerhouse characters' ATK by 3.5x, HP by 1.2x, and heals crew by number of enemies defeated by normal attacks multiplied by 30% of crew's total RCV at end of enemy's turn",
-        special: "Reduces all enemies' Threshold Damage Reduction duration by  6 turns, locks crew's slots for 2 turns, changes character's slot (including [BLOCK] slot) to [RCV], boosts the amount healed when a character uses a [RCV] slot by 1.5x on the 1st used slot, then 2x on the 2nd used slot consecutively, then 2.5x on the 3rd slot and and all other slots used consecutively for 3 turns, boosts the type effects of normal attacks for crew by 1.75x for 8 turns (allows this effect to be further increased up to 2 times), reduces character's Special charge time by 9 turns, then after 3 turns, further increases crew's type effect boost by +0.25, then after 2 turns, further increases crew's type effect boost by +0.25 (Special charge time reduction effect of \"Pretty Diver\" can be activated up to 1 time including any Specials with similar effect)",
+        captain: "Boosts ATK of Striker and Powerhouse characters by 3.5x, boosts HP of Striker and Powerhouse characters by 1.2x, and recovers HP proportional to the number of enemies you defeated in this turn ✕ 30% crew's RCV at the end of the enemy turn.",
+        special: "Reduces enemies' Threshold Damage Reduction duration by 6 turns, locks all orbs for 2 turns, changes the orb, including [BLOCK] orb, of this character into a [RCV] orb, boosts amount healed from [RCV] orbs by 1.5x-2.5x for 3 turns depending on the number of [RCV] orbs eaten in each turn, boosts the Color Affinity of all characters by 1.75x, can be enhanced up to 2 times, for 8 turns. Up to 1 time per adventure, reduces Special Cooldown of this character by 9 turns. After 3 turns, increases boost effects of Color Affinity buffs by +0.25x; then after another 2 turns, increases boost effects of Color Affinity buffs by +0.25x again.",
+        specialNotes: "<b>1:</b> 1.5x, <b>2:</b> 2x, <b>3+:</b> 2.5x",
         specialName: "Pretty Diver",
         sailor: {
-            base: "Adds an additional 500 HP when obtaining a [RCV] slot",
-            level1: "Boosts [STR] and [PSY] characters' base stats by 60"
+            base: "Boosts amount healed from [RCV] orbs by 500.",
+            level1: "Boosts base ATK, HP and RCV of [STR] and [PSY] characters by 60."
         },
         support: [
             {
                 Characters: "[STR] characters",
                 description: [
-                    "Adds 3% of character's base RCV to supported character's base RCV",
-                    "Adds 4% of character's base RCV to supported character's base RCV",
-                    "Adds 5% of character's base RCV to supported character's base RCV",
-                    "Adds 7% of character's base RCV to supported character's base RCV",
-                    "Adds 9% of character's base RCV to supported character's base RCV"
+                    "Adds 3% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 4% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 5% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 7% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 9% of this character's base RCV to the supported character's base RCV."
                 ]
             }
         ],
@@ -173244,22 +173245,23 @@ window.details = {
         ]
     },
     4398: {//Boa Hancock
-        captain: "Boosts [STR] and [PSY] characters' RCV by 1.25x, boosts their ATK (between 3.75x and approximately 4.25x) based on amount of HP healed in previous turn, boosts crew's chance of landing on [RCV] slots, and makes crew's [RCV] slots have matching slot effects",
-        special: "Sets all enemies' DEF to 0 for 1 turn, inflicts Love-Love status (binds regular attacks until they are hit 5 times) to each enemy, heals crew by 20,000 HP, reduces crew's Bind duration by 2 turns multiplied by number of [RCV] slots used during battle (up to a maximum of 10 turns), and applies -7% [STR] and [PSY] Resistance multiplied by number of [RCV] slots used during battle (up to a maximum of -70%) to all enemies for 1 turn",
+        captain: "Boosts ATK of [STR] and [PSY] characters by 3.75x-4.25x depending on the amount healed in the previous turn, boosts RCV of [STR] and [PSY] characters by 1.25x, makes [RCV] orbs beneficial for all characters, and boosts chances of getting [RCV] orbs.",
+        special: "Reduces the defense of all enemies by 100% for 1 turn, inflicts Melo-Melo to all enemies for 5 hits, recovers 20,000 HP, reduces Bind duration by 0-10 turns depending on the number of [RCV] orbs used in normal attacks, and reduces enemies' [STR] and [PSY] resistance by -0%-70% for 1 turn depending on the number of [RCV] orbs used in normal attacks.",
+        specialNotes: "<br><b>Bind:</b> 2 turns per [RCV] orb<br><b>Resistance:</b> 7% per [RCV] orb",
         specialName: "Beauty in the Sun",
         sailor: {
-            base: "Boosts crew's base stats by 60",
-            level1: "Sets left column slots to [RCV] slots at start of quest (no stacking identical abilities)"
+            base: "Boosts base ATK, HP and RCV of all characters by 60.",
+            level1: "Changes orbs of left column characters into [RCV] orbs at the start of the fight."
         },
         support: [
             {
                 Characters: "[STR] characters",
                 description: [
-                    "Adds 2% of character's base RCV to supported character's base RCV",
-                    "Adds 4% of character's base RCV to supported character's base RCV",
-                    "Adds 6% of character's base RCV to supported character's base RCV",
-                    "Adds 8% of character's base RCV to supported character's base RCV",
-                    "Adds 10% of character's base RCV to supported character's base RCV"
+                    "Adds 2% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 4% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 6% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 8% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 10% of this character's base RCV to the supported character's base RCV."
                 ]
             }
         ],
