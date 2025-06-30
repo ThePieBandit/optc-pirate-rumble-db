@@ -70335,7 +70335,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Reduces damage received by 100% for 1 turn, reduces Bind duration by 6 turns, changes orbs of adjacent characters into [RCV] orbs and boosts ATK of Cerebral characters by 2.25x for 2 turns."
+                    base: "Reduces damage received by 100% for 1 turn, reduces ATK Down duration by 6 turns, changes orbs, including [BLOCK] orbs, of adjacent characters into [RCV] orbs, and boosts ATK of Cerebral characters by 2.25x for 1 turn. After 2 turns, boosts ATK of Cerebral characters by 2.5x for 1 turn."
                 },
                 rResilience: true
             }
