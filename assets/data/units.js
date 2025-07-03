@@ -4398,7 +4398,7 @@ window.units = [
     [ "Ulti - Sunny Disposition", "STR", ["Striker", "Powerhouse"], 5, 30, 4, 4, 99, 4000000, 1825, 841, 91, 3650, 1682, 181, 1 ],
     [ "Boa Hancock - Glittering Sea Spray", "STR", ["Cerebral", "Free Spirit"], 5, 40, 4, 4, 99, 5000000, 1532, 809, 101, 3063, 1618, 201, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Carrot - Diving into the Wonderland with a Floatie", "QCK", ["Fighter", "Striker"], 5, 30, 4, 4, 99, 4000000, 1792, 791, 138, 3583, 1581, 276, 1 ],
 ];
 
 var calcGhostStartID = { "start": 5000 };

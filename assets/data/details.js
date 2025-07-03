@@ -173387,6 +173387,108 @@ window.details = {
             }
         ]
     },
+    4400: {// Carrot
+        captain: "Boosts ATK of [QCK] characters by 3x, and boosts HP of [QCK] characters by 1.5x.",
+        special: "Makes own attacks ignore damage reducing barriers and buffs for 1 turn, and paralyzes (50%) all enemies for 1 turn. If your crew has 2+ [Mink] characters, reduces Special Cooldown of all characters by 2 turns, and boosts ATK against paralyzed enemies by 2.5x for 1 turn.",
+        specialName: "Dive into the Wonderland!",
+        sailor: "Boosts base ATK of Fighter characters by 100.",
+        limit: [
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Acquire Potential 1: [STR] Damage Reduction" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 150" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Acquire Potential 2: [DEX] Damage Reduction" },
+        ],
+        potential: [
+            {
+                Name: "[STR] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [STR] characters by 1%",
+                    "Reduces damage taken from [STR] characters by 2%",
+                    "Reduces damage taken from [STR] characters by 3%",
+                    "Reduces damage taken from [STR] characters by 4%",
+                    "Reduces damage taken from [STR] characters by 5%"
+                ]
+            },
+            {
+                Name: "[DEX] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [DEX] characters by 1%",
+                    "Reduces damage taken from [DEX] characters by 2%",
+                    "Reduces damage taken from [DEX] characters by 3%",
+                    "Reduces damage taken from [DEX] characters by 4%",
+                    "Reduces damage taken from [DEX] characters by 5%"
+                ]
+            }
+        ],
+        festStats: {
+            def: 146,
+            spd: 177,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Heal Self Lv.2"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Action Bind, reduce damage taken from [STR] by 30％",
+        festAbility: [
+            "[QCK]/Fighter class teammates ATK Up Lv.1, HP Up Lv.1; Shooter class enemies ATK Down Lv.1, Special CT Speed Down Lv.1; if there are 5 or more Shooter class enemies, self Special CT Speed Up Lv.1",
+            "[QCK]/Fighter class teammates ATK Up Lv.2, HP Up Lv.2; Shooter class enemies ATK Down Lv.2, Special CT Speed Down Lv.2; if there are 5 or more Shooter class enemies, self Special CT Speed Up Lv.2",
+            "[QCK]/Fighter class teammates ATK Up Lv.3, HP Up Lv.3; Shooter class enemies ATK Down Lv.3, Special CT Speed Down Lv.3; if there are 5 or more Shooter class enemies, self Special CT Speed Up Lv.3",
+            "[QCK]/Fighter class teammates ATK Up Lv.4, HP Up Lv.4; Shooter class enemies ATK Down Lv.4, Special CT Speed Down Lv.4; if there are 5 or more Shooter class enemies, self Special CT Speed Up Lv.4",
+            "[QCK]/Fighter class teammates ATK Up Lv.5, HP Up Lv.5; Shooter class enemies ATK Down Lv.5, Special CT Speed Down Lv.5; if there are 5 or more Shooter class enemies, self Special CT Speed Up Lv.5"
+        ],
+        festSpecial: [
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for ATK Down Lv.2 (16 s), SPD Down Lv.2 (16 s), Miss % Up Lv.2 (16 s); targets [QCK]/Fighter class teammates for 70% chance to evade Action Bind (11 s); targets Shooter class enemies for 60% chance of Action Bind (6 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for ATK Down Lv.2 (17 s), SPD Down Lv.2 (17 s), Miss % Up Lv.2 (17 s); targets [QCK]/Fighter class teammates for 73% chance to evade Action Bind (12 s); targets Shooter class enemies for 64% chance of Action Bind (6 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for ATK Down Lv.3 (18 s), SPD Down Lv.3 (18 s), Miss % Up Lv.3 (18 s); targets [QCK]/Fighter class teammates for 76% chance to evade Action Bind (13 s); targets Shooter class enemies for 68% chance of Action Bind (7 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for ATK Down Lv.3 (19 s), SPD Down Lv.3 (19 s), Miss % Up Lv.3 (19 s); targets [QCK]/Fighter class teammates for 79% chance to evade Action Bind (14 s); targets Shooter class enemies for 72% chance of Action Bind (7 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for ATK Down Lv.4 (20 s), SPD Down Lv.4 (20 s), Miss % Up Lv.4 (20 s); targets [QCK]/Fighter class teammates for 82% chance to evade Action Bind (15 s); targets Shooter class enemies for 76% chance of Action Bind (8 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for ATK Down Lv.4 (21 s), SPD Down Lv.4 (21 s), Miss % Up Lv.4 (21 s); targets [QCK]/Fighter class teammates for 85% chance to evade Action Bind (16 s); targets Shooter class enemies for 80% chance of Action Bind (8 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for ATK Down Lv.5 (22 s), SPD Down Lv.5 (22 s), Miss % Up Lv.5 (22 s); targets [QCK]/Fighter class teammates for 88% chance to evade Action Bind (17 s); targets Shooter class enemies for 84% chance of Action Bind (9 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for ATK Down Lv.5 (23 s), SPD Down Lv.5 (23 s), Miss % Up Lv.5 (23 s); targets [QCK]/Fighter class teammates for 91% chance to evade Action Bind (18 s); targets Shooter class enemies for 88% chance of Action Bind (9 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for ATK Down Lv.6 (24 s), SPD Down Lv.6 (24 s), Miss % Up Lv.6 (24 s); targets [QCK]/Fighter class teammates for 94% chance to evade Action Bind (19 s); targets Shooter class enemies for 92% chance of Action Bind (10 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for ATK Down Lv.7 (25 s), SPD Down Lv.7 (25 s), Miss % Up Lv.7 (25 s); targets [QCK]/Fighter class teammates for 100% chance to evade Action Bind (20 s); targets Shooter class enemies for 100% chance of Action Bind (10 s)"
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
