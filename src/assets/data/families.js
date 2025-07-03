@@ -5011,6 +5011,7 @@ window.families = {
     4397: [ ...Ulti ],
     4398: [ ...BoaHancock ],
     //4399: [ ...BoaHancock ],
+    4400: [ ...Carrot ],
     //break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
