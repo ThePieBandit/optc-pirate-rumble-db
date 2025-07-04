@@ -162345,7 +162345,7 @@
               "attributes": [ "ATK" ],
               "effect": "buff",
               "level": 1,
-              "condition": { "count": 1, "team": "crew", "stat": "defeated", "type": "trigger" },
+              "condition": { "count": 8, "team": "crew", "stat": "defeated", "type": "trigger" },
               "targeting": { "targets": [ "self" ] }
             },
             {
@@ -254539,7 +254539,7 @@
               "attributes": [ "ATK" ],
               "effect": "buff",
               "level": 1,
-              "condition": { "count": 1, "team": "crew", "stat": "defeated", "type": "trigger" },
+              "condition": { "count": 8, "team": "crew", "stat": "defeated", "type": "trigger" },
               "targeting": { "targets": [ "self" ] }
             },
             {
@@ -254838,7 +254838,7 @@
               "attributes": [ "ATK" ],
               "effect": "buff",
               "level": 1,
-              "condition": { "count": 1, "team": "crew", "stat": "defeated", "type": "trigger" },
+              "condition": { "count": 8, "team": "crew", "stat": "defeated", "type": "trigger" },
               "targeting": { "targets": [ "self" ] }
             },
             {
@@ -277135,7 +277135,7 @@
             },
             {
               "attributes": [ "ATK" ],
-              "condition": { "count": 1, "stat": "Half Stats", "type": "trigger" },
+              "condition": { "count": 1, "stat": "receives Half Stats", "type": "trigger" },
               "effect": "buff",
               "level": 6,
               "targeting": { "targets": [ "self" ] }
@@ -279644,7 +279644,7 @@
             },
             {
               "attributes": [ "ATK", "SPD" ],
-              "condition": { "count": 2, "stat": "recieving Damage Over Time", "type": "trigger" },
+              "condition": { "count": 2, "stat": "receives Damage Over Time", "type": "trigger" },
               "effect": "buff",
               "level": 1,
               "targeting": { "targets": [ "self" ] }
@@ -285491,7 +285491,7 @@
             },
             {
               "attributes": [ "ATK", "SPD" ],
-              "condition": { "count": 3, "stat": "Half Stats", "type": "trigger" },
+              "condition": { "count": 3, "stat": "receives Half Stats", "type": "trigger" },
               "effect": "debuff",
               "level": 6,
               "targeting": { "targets": [ "enemies" ] }
@@ -338609,7 +338609,7 @@
               "attributes": ["SPD"],
               "effect": "buff",
               "level": 1,
-              "condition": {"count": 1, "team": "enemies", "stat": "defeated", "type": "trigger"},
+              "condition": {"count": 8, "team": "enemies", "stat": "defeated", "type": "trigger"},
               "targeting": {"targets": ["crew"]}
             }
           ]
@@ -345489,7 +345489,7 @@
               "attributes": ["Special CT"],
               "effect": "buff",
               "level": 1,
-              "condition": {"count": 1, "team": "crew", "stat": "defeated", "type": "trigger"},
+              "condition": {"count": 8, "team": "crew", "stat": "defeated", "type": "trigger"},
               "targeting": {"targets": ["[STR]", "Free Spirit"]}
             }
           ]
