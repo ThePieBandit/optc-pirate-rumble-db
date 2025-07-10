@@ -170926,6 +170926,87 @@ window.details = {
             }
         ]
     },
+    4399: {//5+ Boa Hancock
+        captain: "Boosts ATK of [STR] and [PSY] characters by 4x-4.5x depending on the amount healed in the previous turn, boosts RCV of [STR] and [PSY] characters by 1.25x, makes [RCV] orbs beneficial for all characters, and boosts chances of getting [RCV] orbs.",
+        special: "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, inflicts Melo-Melo to all enemies for 5 hits, recovers 30,000 HP, reduces Bind duration by 0-10 turns depending on the number of RCV orbs used in normal attacks, and reduces enemies' [STR], [DEX] and [PSY] resistance by -0%-70% for 1 turn depending on the number of RCV orbs used in normal attacks. If your crew has 4+ [Kuja Pirates] or [Paramythia-type] characters, applies Territory: [STR] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn.",
+        specialNotes: "<br><b>Bind:</b> 2 turns per [RCV] orb<br><b>Resistance:</b> 7% per [RCV] orb",
+        specialName: "Beauty in the Sun",
+        sailor: {
+            base: "Boosts base ATK, HP and RCV of all characters by 60.",
+            level1: "Changes orbs of left column characters into [RCV] orbs at the start of the fight."
+        },
+        support: [
+            {
+                Characters: "[STR] characters",
+                description: [
+                    "Adds 2% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 4% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 6% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 8% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 10% of this character's base RCV to the supported character's base RCV."
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Acquire Potential 1: Barrier Penetration" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base HP by 40" },
+            { description: "Acquire Potential 2: Pinch Healing" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Acquire Potential 3: Healing Reduction" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Acquire Sailor Ability 2: Sets left column slots to [RCV] slots at start of quest (no stacking identical abilities)" },
+        ],
+        potential: [
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+                ]
+            },
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Healing Reduction",
+                description: [
+                    "Reduces Healing Reduction duration by 1 turn",
+                    "Reduces Healing Reduction duration by 2 turns",
+                    "Reduces Healing Reduction duration by 3 turns",
+                    "Reduces Healing Reduction duration by 4 turns",
+                    "Reduces Healing Reduction duration by 5 turns"
+                ]
+            }
+        ]
+    },
     4400: {// Carrot
         captain: "Boosts ATK of [QCK] characters by 3x, and boosts HP of [QCK] characters by 1.5x.",
         special: "Makes own attacks ignore damage reducing barriers and buffs for 1 turn, and paralyzes (50%) all enemies for 1 turn. If your crew has 2+ [Mink] characters, reduces Special Cooldown of all characters by 2 turns, and boosts ATK against paralyzed enemies by 2.5x for 1 turn.",
@@ -171027,6 +171108,265 @@ window.details = {
                 description: "Targets enemies within large range for ATK Down Lv.7 (25 s), SPD Down Lv.7 (25 s), Miss % Up Lv.7 (25 s); targets [QCK]/Fighter class teammates for 100% chance to evade Action Bind (20 s); targets Shooter class enemies for 100% chance of Action Bind (10 s)"
             }
         ]
+    },
+    4401: {//Ace
+        captain: "Boosts ATK of [STR], Powerhouse and Striker characters by 5.25x, boosts HP of [STR], Powerhouse and Striker characters by 1.25x, makes [STR], [RCV] and [TND] orbs beneficial for [STR], Powerhouse and Striker characters, and boosts chances of getting [STR] orbs. If crew is inflicted with Burn from a Special, Support Ability or Enemy Action, replaces that debuff with the following effect: boosts ATK of [STR], Powerhouse and Striker characters by 2.75x, can be enhanced up to 2 times, for 4 turns. If your crew has 3+ [Whitebeard Pirates] characters, reduces Paralysis and Despair duration by 2 turns, and boosts ATK against enemies inflicted with Burn by 1.2x.",
+        special: "Ignores Debuff Protection and inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 2 turns, reduces crew's current HP by 99%, deals 30x the amount of HP subtracted in Typeless damage to all enemies, and reduces Burn and Bind duration by 4 turns. If your crew has ATK Up when the special is activated, increases boost effects of ATK Up buffs by +0.3x and boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn; boosts ATK of [STR], Powerhouse and Striker characters by 2.75x for 3 turns otherwise. If \"Ocean-Gliding Flame\" is used again in the same turn the special is activated in, applies Territory: [STR] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns. If your crew has 3+ [Whitebeard Pirates], [Mythical Zoan-type] or [Roger Pirates] characters, up to 1 time per adventure, reduces Special Cooldown of this character by 13 turns.",
+        specialName: "Ocean-Gliding Flame",
+        sailor: {
+            base: "Boosts base ATK of [STR], Powerhouse and Striker characters by 100.",
+            level1: "Up to 2 times per adventure, when any other [STR], Powerhouse or Striker Captain character uses a special, reduces Special Cooldown of this character by 2 turns."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Edward Newgate (Whitebeard), Marco, Jozu, Vista, Whitey Bay, Fossa, Rakuyo, Kingdew, Atmos, Izo, Marshall D. Teach (Blackbeard), Thatch, Namule, Blamenco, Curiel, Haruta, Speed Jil, Blenheim, Monkey D. Luffy, Sabo, Jinbe, Yamato, Gol D. Roger",
+        superSpecial: "Deals 75x character's ATK in Typeless Fixed True damage to all enemies, reduces enemies' [STR] resistance by -10% for 1 turn, boosts Orb Effects of all characters by 1.75x, allowing override, for 1 turn, and transforms Powerhouse character into Super Powerhouse characters.",
+        support: [
+            {
+                Characters: "Marco, Edward Newgate (Whitebeard), Jinbe, Marshall D. Teach (Blackbeard)",
+                description: [
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 80%, and reduces Burn duration by 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 80%, and reduces Burn duration by 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 80%, and reduces Burn duration by 2 turns.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 80%, and reduces Burn duration by 2 turns.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 80%, and reduces Burn duration by 3 turns."
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Slot Bind" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 70" },
+            { description: "Acquire Sailor Ability 2: When a [STR], Powerhouse, or Striker Captain uses a Special, reduces character's Special charge time by 2 turns (only 2 times per quest)" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Acquire Potential 3: Last Tap" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 150" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 225 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "On the last stage. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Edward Newgate (Whitebeard), Marco, Jozu, Vista, Whitey Bay, Fossa, Rakuyo, Kingdew, Atmos, Izo, Marshall D. Teach (Blackbeard), Thatch, Namule, Blamenco, Curiel, Haruta, Speed Jil, Blenheim, Monkey D. Luffy, Sabo, Jinbe, Yamato, Gol D. Roger",
+            description: [
+                "Adds 0.2x of total damage dealt with normal attacks from other Striker characters this turn to this character's normal attack in damage.",
+                "Adds 0.4x of total damage dealt with normal attacks from other Striker characters this turn to this character's normal attack in damage.",
+                "Adds 0.6x of total damage dealt with normal attacks from other Striker characters this turn to this character's normal attack in damage.",
+                "Adds 0.8x of total damage dealt with normal attacks from other Striker characters this turn to this character's normal attack in damage.",
+                "Adds 1.0x of total damage dealt with normal attacks from other Striker characters this turn to this character's normal attack in damage."
+            ]
+        }
+    },
+    4402: {//Blackbeard
+        captain: "Boosts ATK of Powerhouse and Striker characters by 3.5x, by 4.5x instead if HP is below 20% at the start of the turn, and boosts HP of [STR] characters by 1.5x.",
+        special: "Reduces Special Cooldown of Powerhouse and Striker characters by 2 turns, reduces ATK Down duration by 6 turns, boosts Base ATK of Powerhouse and Striker characters by 1,250 for 1 turn, and changes all orbs, including [BLOCK] orbs, into [RCV] orbs. If HP is below 20% when the special is activated and your crew has 3+ [Whitebeard Pirates] characters, inflicts all enemies with Weaken by 1.3x, by 1.69x if enemies are inflicted with Increase Damage Taken, for 1 turn.",
+        specialName: "Peering at the News Article",
+        sailor: {
+            base: "Restores Special Cooldown of [Whitebeard Pirates] characters by 2 turns when it is rewinded.",
+            level1: "Boosts base HP of Powerhouse and Striker characters by 200. If field has Territory: Powerhouse or Territory: [STR], boosts base ATK of Powerhouse and Striker characters by 1.1x."
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Whitebeard Pirates]",
+                description: [
+                    "Once per adventure, when an enemy inflicts you with ATK Down, changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn, and changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn, and changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 2 turns, and changes the orb of the supported character into a [RCV] orb."
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 10" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 20" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Acquire Sailor Ability 2: Boosts Powerhouse and Striker characters\\' base HP by 200, and if field has \"Territory: Powerhouse class\" or \"Territory: [STR]\", boosts Powerhouse and Striker characters\\' base ATK by 1.1x" },
+            { description: "Boosts base HP by 40" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Super Tandem" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Edward Newgate (Whitebeard), Portgas D. Ace, Marco, Jozu, Vista, Whitey Bay, Fossa, Rakuyo, Kingdew, Atmos, Izo, Marshall D. Teach (Blackbeard), Thatch, Namule, Blamenco, Curiel, Haruta, Speed Jil, Blenheim",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Edward Newgate (Whitebeard), Portgas D. Ace, Marco, Jozu, Vista, Whitey Bay, Fossa, Rakuyo, Kingdew, Atmos, Izo, Marshall D. Teach (Blackbeard), Thatch, Namule, Blamenco, Curiel, Haruta, Speed Jil, Blenheim",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Edward Newgate (Whitebeard), Portgas D. Ace, Marco, Jozu, Vista, Whitey Bay, Fossa, Rakuyo, Kingdew, Atmos, Izo, Marshall D. Teach (Blackbeard), Thatch, Namule, Blamenco, Curiel, Haruta, Speed Jil, Blenheim",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Edward Newgate (Whitebeard), Portgas D. Ace, Marco, Jozu, Vista, Whitey Bay, Fossa, Rakuyo, Kingdew, Atmos, Izo, Marshall D. Teach (Blackbeard), Thatch, Namule, Blamenco, Curiel, Haruta, Speed Jil, Blenheim",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Edward Newgate (Whitebeard), Portgas D. Ace, Marco, Jozu, Vista, Whitey Bay, Fossa, Rakuyo, Kingdew, Atmos, Izo, Marshall D. Teach (Blackbeard), Thatch, Namule, Blamenco, Curiel, Haruta, Speed Jil, Blenheim"
+            ],
+            description: [
+                "Boosts Tandem ATK of [STR], Striker and Powerhouse characters by 1.35x for 1 turn.",
+                "Boosts Tandem ATK of [STR], Striker and Powerhouse characters by 1.45x for 1 turn.",
+                "Boosts Tandem ATK of [STR], Striker and Powerhouse characters by 1.55x for 1 turn.",
+                "Boosts Tandem ATK of [STR], Striker and Powerhouse characters by 1.65x for 1 turn.",
+                "Boosts Tandem ATK of [STR], Striker and Powerhouse characters by 1.75x for 1 turn."
+            ]
+        }
+    },
+    4404: {//Marco
+        captain: "Boosts ATK of Powerhouse and Striker characters by 3.75x, boosts HP of Powerhouse and Striker characters by 1.25x, and recovers 3,000 HP at the end of each turn.",
+        special: "Changes the orb, including [BLOCK] orb, of this character into a [TND] orb, reduces Special Bind duration by 6 turns, reduces enemies' Threshold Damage Reduction duration by 6 turns, and adds 1.3x to chain multiplier for 1 turn. If HP is above 20% when the special is activated and your crew has 3+ [Whitebeard Pirates] characters, reduces damage received by 80% for 1 turn, and boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If HP is below 20% when the special is activated and your crew has 3+ [Whitebeard Pirates] characters, boosts Chain Multiplier Growth Rate by 1.75x for 1 turn.",
+        specialName: "News Article Delivery",
+        sailor: {
+            base: "Reduces Special Bind duration by 2 turns on [Whitebeard Pirates] characters; reduces Special Bind duration by 8 turns on this character.",
+            level1: "If field has Territory: Powerhouse or Territory: [STR], boosts base ATK and RCV of all characters by 1.1x."
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Whitebeard Pirates]",
+                description: [
+                    "Adds 3% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 4% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 6% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 8% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 10% of this character's base RCV to the supported character's base RCV, and when the supported character hits a PERFECT, reduces enemies' Threshold Damage Reduction duration by 1 turn."
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire Potential 1: Barrier Penetration" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Acquire Sailor Ability 2: If field has \"Territory: Powerhouse class\" or \"Territory: [STR]\", boosts crew\\'s base RCV and ATK by 1.1x" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Super Tandem Boost" },
+        ],
+        potential: [
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 5% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 95% or below 5% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% or below 10% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% or below 15% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% or below 20% at the start of the turn"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Whitebeard Pirates] character performs Super Tandem",
+                "When a [Whitebeard Pirates] character performs Super Tandem",
+                "When a [Whitebeard Pirates] character performs Super Tandem",
+                "When a [Whitebeard Pirates] character performs Super Tandem",
+                "When a [Whitebeard Pirates] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Whitebeard Pirates] and [Mythical Zoan-type] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates] and [Mythical Zoan-type] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates] characters by 2 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates] and [Mythical Zoan-type] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates] characters by 3 for 1 turn, and raises Boost Level of [Mythical Zoan-type] characters by 2 for 1 turn."
+            ]
+        }
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
