@@ -149753,7 +149753,7 @@ window.details = {
             }
         ]
     },
-    4139: {
+    4139: {//6+ Bonney
         captain: "Boosts [INT] and Cerebral characters' ATK by approximately 4.75x, by 5.25x instead if they have [RCV] orbs, boosts ATK of all other characters by 4.25x and makes [RCV] orbs beneficial for all characters. Characters who attack with a Type advantage will gain a [RCV] orb after attacking.",
         lLimit: [
             null,
@@ -149850,8 +149850,8 @@ window.details = {
             }
         ],
         sailor: {
-            level1: "Reduces character's Special Bind/Special Reverse duration by 10 turns",
-            level2: "Makes [RCV] orbs beneficial for all characters"
+            level1: "Reduces Special Bind duration by 10 turns on this character, and restores Special Cooldown of this character by 10 turns when it is rewinded.",
+            level2: "Makes [RCV] orbs beneficial for all characters."
         },
         special: "Reduces Slot Bind and Special Bind duration by 10 turns, reduces Special Cooldown of all characters by 2 turns, reduces the defense of all enemies by 100% for 2 turns, changes [EMPTY], [BLOCK] and Badly Matching orbs into [RCV] orbs, boosts Color Affinity of Cerebral characters by 2.5x for 2 turns, locks the chain multiplier at 3.25x-4x for 1 turn depending on how many RCV orbs used in normal attacks. If you have used 8 or more [RCV] orbs in attacks when the special is activated, increases boost effects of Color Affinity buffs by +0.25x, including effects activated in the same Ability.",
         specialNotes: "<br><b>0-7 orbs consumed:</b> 3.25x chain lock<br><b>8-14 orbs consumed:</b> 3.5x chain lock<br><b>15+ orbs consumed:</b> 4x chain lock",
