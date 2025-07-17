@@ -171368,6 +171368,323 @@ window.details = {
             ]
         }
     },
+    4405: {//Crocodile & Robin
+        captain: {
+            character1: "Reduces Special Cooldown of Cerebral and Striker characters by 1 turn at the start of the fight, boosts ATK of [Baroque Works] and [Seven Warlords of the Sea] characters by 1.2x, boosts ATK of Cerebral and Striker characters by 5.25x, by 6.3x instead if they have the applicable tag, boosts HP of Cerebral and Striker characters by 1.2x, makes [STR] orbs beneficial for all characters, reduces damage received by 20%, and reduces Bind and Pain duration by 3 turns. If your crew has 4+ [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] or [World Government] characters and a crew member uses a special to boost Orb Effects, increases duration of any Orb Amplification buffs by 1 turn, and increases boost effects of Orb Amplification buffs by +0.25x.",
+            character2: "Reduces Special Cooldown of Cerebral and Striker characters by 1 turn at the start of the fight, boosts ATK of [Baroque Works] and [Seven Warlords of the Sea] characters by 1.2x, boosts ATK of Cerebral and Striker characters by 5x, by 6x instead if they have the applicable tag, boosts HP of Cerebral and Striker characters by 1.2x, makes [DEX] orbs beneficial for all characters, reduces damage received by 20%, and reduces Bind and Pain duration by 3 turns. If your crew has 4+ [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] or [World Government] characters and a crew member uses a special to boost Orb Effects, increases duration of any Orb Amplification buffs by 1 turn, and increases boost effects of Orb Amplification buffs by +0.25x.",
+            combined: "Reduces Special Cooldown of Cerebral and Striker characters by 1 turn at the start of the fight, boosts ATK of [Baroque Works] and [Seven Warlords of the Sea] characters by 1.2x, boosts ATK of Cerebral and Striker characters by 5.5x, by 6.6x instead if they have the applicable tag, boosts HP of Cerebral and Striker characters by 1.2x, makes [STR] and [DEX] orbs beneficial for all characters, reduces damage received by 20%, and reduces Bind and Pain duration by 3 turns. Up to 2 times per adventure, when Dracule Mihawk, Donquixote Doflamingo, Bartholomew Kuma, Gecko Moria, Boa Hancock, Jinbe, Daz Bonez (Mr. 1), Mr. 2 Bon Clay, or Galdino (Mr. 3) uses a Special as crewmate, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn. If your crew has 4+ [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] or [World Government] characters and a crew member uses a special to boost Orb Effects, increases duration of any Orb Amplification buffs by 1 turn, and increases boost effects of Orb Amplification buffs by +0.25x."
+        },
+        special: "Poisons all enemies, reduces enemies' Increased Defense duration by 10 turns, and becomes Mr. 0 & Miss All Sunday for 3 turns. If your crew has Chain Lock when the special is activated, boosts the Color Affinity of Cerebral and Striker characters by 2.75x, can be enhanced up to 2 times, for 2 turns; sets Chain Boundaries to 3.25x and 35.0x for 2 turns otherwise. If your crew has 4+ [Baroque Works], [Paramythia-type], [Logia-type], [Seven Warlords of the Sea] or [World Government] characters, ignores Debuff Protection and inflicts all enemies with Weaken by 1.3x, by 1.69x if enemies are inflicted with Increase Damage Taken, for 1 turn.",
+        specialName: "Dark Conspiracy",
+        sailor: {
+            character1: "Removes Blindness duration completely.",
+            character2: "Removes Blindness duration completely.",
+            combined: "Removes Blindness duration completely.",
+            level1: "Boosts base ATK, HP and RCV of Cerebral and Striker characters by 150; makes [DEX] and [STR] orbs beneficial for Cerebral and Striker characters."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. When character becomes Mr. 0 & Miss All Sunday during Captain Shift and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dracule Mihawk, Donquixote Doflamingo, Bartholomew Kuma, Gecko Moria, Boa Hancock, Jinbe, Daz Bonez (Mr. 1), Mr. 2 Bon Clay, Galdino (Mr. 3)",
+        superSpecial: "Optionally removes Captain Swap duration completely, reduces enemies' Barrier duration by 2 turns, increases boost effects of enemies' Increase Damage Taken debuffs by +0.25x, and transforms [STR] or [DEX] characters into Super [STR] or [DEX] characters depending on the type of this character.",
+        swap: "Reduces enemies' Cerebral and Striker Resistance by -15% for 1 turn, changes the orb of this character into a Matching Orb, and removes Paralysis duration completely on this character.<br><b>Captain Shift:</b> Can be used up to 1 time per adventure. If Mr. 0 is Captain and switches to Miss All Sunday, optionally swaps this unit with your middle-left unit for 3 turns. If Miss All Sunday is your middle-left unit and switches to Mr. 0, optionally swaps this unit with your captain for 3 turns. Reduces Special Cooldown of this character by 3 turns, and reduces enemies' [DEX] and [STR] Resistance by -20% for 1 turn.",
+        limit: [
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Acquire Potential 1: Pinch Healing" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Acquire Potential 2: No Healing" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Acquire Sailor Ability 2: Boosts Cerebral and Striker characters' base stats by 150 and makes their [DEX][STR] slots have matching slot effects" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base ATK by 60" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base ATK by 60" },
+            { description: "Acquire Potential 3: Super Tandem Boost" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 5 turns",
+                    "Reduces No Healing duration by 7 turns",
+                    "Reduces No Healing duration by 10 turns"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Baroque Works], [Paramythia-type], [Logia-type] or [Seven Warlords of the Sea] character performs Super Tandem",
+                "When a [Baroque Works], [Paramythia-type], [Logia-type] or [Seven Warlords of the Sea] character performs Super Tandem",
+                "When a [Baroque Works], [Paramythia-type], [Logia-type] or [Seven Warlords of the Sea] character performs Super Tandem",
+                "When a [Baroque Works], [Paramythia-type], [Logia-type] or [Seven Warlords of the Sea] character performs Super Tandem",
+                "When a [Baroque Works], [Paramythia-type], [Logia-type] or [Seven Warlords of the Sea] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Baroque Works], [Seven Warlords of the Sea], [Paramythia-type] and [Logia-type] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Baroque Works] and [Seven Warlords of the Sea] characters by 2 for 1 turn, and raises Boost Level of [Paramythia-type], [Logia-type] and [World Government] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Baroque Works] and [Seven Warlords of the Sea] characters by 3 for 1 turn, and raises Boost Level of [Paramythia-type], [Logia-type] and [World Government] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Baroque Works] and [Seven Warlords of the Sea] characters by 4 for 1 turn, and raises Boost Level of [Paramythia-type], [Logia-type] and [World Government] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Baroque Works] and [Seven Warlords of the Sea] characters by 5 for 1 turn, and raises Boost Level of [Paramythia-type], [Logia-type] and [World Government] characters by 4 for 1 turn."
+            ]
+        }
+    },
+    4406: {//Doflamingo
+        captain: "Boosts ATK of [Seven Warlords of the Sea] characters by 1.2x, boosts ATK of Driven and Cerebral characters by 3.5x-4.2x, by 4.25x-5.1x instead if they have a beneficial orb, boosts HP of Driven and Cerebral characters by 1.2x, and makes [STR] orbs beneficial for Driven and Cerebral characters. If your crew has 3+ [Seven Warlords of the Sea] characters, reduces Special Bind duration by 6 turns on middle and bottom row characters.",
+        special: "Reduces enemies' Threshold Damage Reduction duration by 6 turns, boosts Orb Effects of Cerebral and Driven characters by 2.5x for 1 turn, and boosts ATK against enemies inflicted with Weaken by 2.25x for 1 turn. If this character was Captain at start of adventure and is crewmate when the special is activated, increases boost effects of Orb Amplification and Status ATK Boost buffs by +0.4x, including effects activated in the same ability, and allows crew to perform Super Tandem with [STR] and [DEX] orbs for 1 turn. If your crew has 2+ [Seven Warlords of the Sea] characters, enables ATK Up buffs to be enhanced up to 2 times, and reduces ATK Down duration by 6 turns.",
+        specialName: "Interested in the Article",
+        sailor: {
+            base: "If this character has a [STR] or [DEX] orb and you attack with this character, reduces enemies' Driven Resistance by -10% for 1 turn.",
+            level1: "Boosts base ATK and HP of Cerebral characters by 100."
+        },
+        support: [
+            {
+                Characters: "[STR] characters",
+                description: [
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 70" },
+            { description: "Boosts base HP by 70" },
+            { description: "Acquire Sailor Ability 2: Boosts Cerebral characters' base ATK and HP by 100" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Super Tandem" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Sir Crocodile (Mr. 0), Dracule Mihawk, Bartholomew Kuma, Gecko Moria, Boa Hancock, Jinbe, Diamante, Pica, Trebol, Vergo, Sugar",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Sir Crocodile (Mr. 0), Dracule Mihawk, Bartholomew Kuma, Gecko Moria, Boa Hancock, Jinbe, Diamante, Pica, Trebol, Vergo, Sugar",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Sir Crocodile (Mr. 0), Dracule Mihawk, Bartholomew Kuma, Gecko Moria, Boa Hancock, Jinbe, Diamante, Pica, Trebol, Vergo, Sugar",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Sir Crocodile (Mr. 0), Dracule Mihawk, Bartholomew Kuma, Gecko Moria, Boa Hancock, Jinbe, Diamante, Pica, Trebol, Vergo, Sugar",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Sir Crocodile (Mr. 0), Dracule Mihawk, Bartholomew Kuma, Gecko Moria, Boa Hancock, Jinbe, Diamante, Pica, Trebol, Vergo, Sugar"
+            ],
+            description: [
+                "Boosts Tandem ATK of Driven and Cerebral characters by 1.35x for 1 turn.",
+                "Boosts Tandem ATK of Driven and Cerebral characters by 1.45x for 1 turn.",
+                "Boosts Tandem ATK of Driven and Cerebral characters by 1.55x for 1 turn.",
+                "Boosts Tandem ATK of Driven and Cerebral characters by 1.65x for 1 turn.",
+                "Boosts Tandem ATK of Driven and Cerebral characters by 1.75x for 1 turn."
+            ]
+        }
+    },
+    4407: {//Alvida & Coby
+        captain: "Boosts ATK of Striker and Driven characters by 3.5x, and boosts RCV of Striker and Driven characters by 1.3x.",
+        special: "Changes all orbs into [DEX] orbs, and locks all orbs for 1 turn. If your Captain is a Striker or Driven character, reduces Burn duration by 6 turns. If enemies are inflicted with Poison when the special is activated, reduces the defense of all enemies by 100% for 1 turn.",
+        specialName: "Clear Hierarchy",
+        sailor: "Boosts ATK of Striker and Driven characters by 60.",
+        support: [
+            {
+                Characters: "Striker characters",
+                description: [
+                    "Once per adventure, when the supported character uses a poison reducing special or a special to poison enemies, reduces enemies' damage received by 80% for 6 turns, reduces enemies' Striker Resistance by -4% for 1 turn, allows HP Overfill up to 2x MAX HP for 1 turn, and recovers 3,000 HP.",
+                    "Once per adventure, when the supported character uses a poison reducing special or a special to poison enemies, reduces enemies' damage received by 80% for 6 turns, reduces enemies' Striker Resistance by -5% for 1 turn, allows HP Overfill up to 2x MAX HP for 1 turn, and recovers 3,000 HP.",
+                    "Once per adventure, when the supported character uses a poison reducing special or a special to poison enemies, reduces enemies' damage received by 80% for 6 turns, reduces enemies' Striker Resistance by -6% for 1 turn, allows HP Overfill up to 2x MAX HP for 1 turn, and recovers 3,000 HP.",
+                    "Once per adventure, when the supported character uses a poison reducing special or a special to poison enemies, reduces enemies' damage received by 80% for 6 turns, reduces enemies' Striker Resistance by -7% for 1 turn, allows HP Overfill up to 2x MAX HP for 1 turn, and recovers 3,000 HP.",
+                    "Once per adventure, when the supported character uses a poison reducing special or a special to poison enemies, reduces enemies' damage received by 80% for 6 turns, reduces enemies' Striker Resistance by -8% for 1 turn, allows HP Overfill up to 2x MAX HP for 1 turn, and recovers 3,000 HP."
+                ]
+            }
+        ]
+    },
+    4408: {//6+ Mihawk & Perona
+        captain: {
+            character1: "Reduces Switch Effect of this character by 3 at the start of the fight, boosts ATK of [STR] and [PSY] characters by 4.5x, boosts HP of [STR] and [PSY] characters by 1.3x, makes [STR] orbs beneficial for [PSY] characters, and reduces chances of getting [RCV] and [TND] orbs.",
+            character2: "Reduces Switch Effect of this character by 3 at the start of the fight, boosts ATK of [STR] and [PSY] characters by 4.75x, boosts HP of [STR] and [PSY] characters by 1.3x, makes [PSY] orbs beneficial for [STR] characters, and reduces chances of getting [RCV] and [TND] orbs.",
+            combined: "Reduces Switch Effect of this character by 3 at the start of the fight, boosts ATK of [STR] and [PSY] characters by 5x, by 5.25x instead if they have a [STR], [DEX], [QCK], [PSY] or [INT] orb, boosts HP of [STR] and [PSY] characters by 1.3x, makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for [STR] and [PSY] characters, and reduces chances of getting [RCV] and [TND] orbs."
+        },
+        special: "Deals 20% of enemies' current HP in damage to all enemies, reduces Special Bind duration by 6 turns, changes [BLOCK] orbs into Matching orbs, boosts ATK against enemies inflicted with Negative and enemies inflicted with Increase Damage Taken by 2.5x for 1 turn, and becomes Mihawk & Perona for 3 turns.",
+        specialName: "Sword and Ghost Rush",
+        sailor: {
+            character1: "Boosts base ATK and HP of [STR] and [PSY] characters by 75.",
+            character2: "Boosts base ATK and RCV of [STR] and [PSY] characters by 75.",
+            combined: "Boosts base ATK, HP and RCV of [STR] and [PSY] characters by 100.",
+            level1: "Makes [STR] and [PSY] orbs beneficial for [STR] and [PSY] characters."
+        },
+        swap: {
+            base: "Changes the orb of this character into a Matching orb, recovers 1,500 HP, removes Special Bind duration completely on this character, and inflicts enemies with Negative for 1 turn. If there are 2+ enemies on the stage, ignores Debuff Protection and inflicts enemies with Negative for 1 turn.",
+            super: "Changes the orb of this character into a Matching orb, recovers 20,000 HP, removes Special Bind duration completely on this character, reduces Special Cooldown of middle left character by 3 turns, increases duration of any ATK Up and Orb Amplification buffs by 1 turn, and ignores Debuff Protection and inflicts enemies with Negative for 1 turn."
+        },
+        limit: [
+            { description: "Boosts base HP by 10" },
+            { description: "Boosts base HP by 10" },
+            { description: "Boosts base HP by 10" },
+            { description: "Acquire Potential 1: No Healing" },
+            { description: "Boosts base RCV by 5" },
+            { description: "Boosts base RCV by 5" },
+            { description: "Boosts base HP by 25" },
+            { description: "Boosts base HP by 25" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 15" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 15" },
+            { description: "Boosts base ATK by 15" },
+            { description: "Acquire Potential 2: Slot Bind" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 70" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base RCV by 40" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base HP by 100" },
+            { description: "Acquire Sailor Ability 2: Makes [STR] and [PSY] characters' [STR][PSY] slots have matching slot effects" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base ATK by 35" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Acquire Potential 3: Critical Hit" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 25" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 100" },
+        ],
+        lLimit: [
+            null,
+            {
+                rAbility: true
+            },
+            {
+                captain: {
+                    character1: "Reduces Switch Effect of this character by 3 at the start of the fight, boosts ATK of [STR] and [PSY] characters by 4.5x, boosts HP of [STR] and [PSY] characters by 1.3x, makes [STR] orbs beneficial for [PSY] characters, and reduces chances of getting [RCV] and [TND] orbs. At the start of the fight, boosts ATK of [STR] and [PSY] characters by 2.75x for 5 turns.",
+                    character2: "Reduces Switch Effect of this character by 3 at the start of the fight, boosts ATK of [STR] and [PSY] characters by 4.75x, boosts HP of [STR] and [PSY] characters by 1.3x, makes [PSY] orbs beneficial for [STR] characters, and reduces chances of getting [RCV] and [TND] orbs. At the start of the fight, boosts Orb Effects of [STR] and [PSY] characters by 2.75x for 5 turns.",
+                    combined: "Reduces Switch Effect of this character by 3 at the start of the fight, boosts ATK of [STR] and [PSY] characters by 5x, by 5.5x instead if they have a [STR], [DEX], [QCK], [PSY] or [INT] orb, boosts HP of [STR] and [PSY] characters by 1.3x, makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for [STR] and [PSY] characters, and reduces chances of getting [RCV] and [TND] orbs."
+                }
+            },
+            {
+                rSpecial: true
+            },
+            {
+                special: {
+                    base: "Deals 20% of enemies' current HP in damage to all enemies, reduces Special Bind duration by 6 turns, changes [BLOCK] orbs into Matching orbs, and becomes Mihawk & Perona for 3 turns. If your crew has 3+ [Thriller Bark Pirates], [Marineford Paramount War] or [Seven Warlords of the Sea] characters, reduces enemies' Orb-Based Damage Reduction duration by 6 turns, and boosts ATK against enemies inflicted with Negative and enemies inflicted with Increase Damage Taken by 3.25x for 1 turn; boosts ATK against enemies inflicted with Negative and enemies inflicted with Increase Damage Taken by 3x for 1 turn otherwise."
+                },
+                rResilience: true
+            }
+        ],
+        potential: [
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 90% chance to deal 9% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
@@ -171767,4 +172084,6 @@ if (UnitUtils){
     UnitUtils.extendDouble(calcGhostStartID, 4348, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4350, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4393, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4405, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4408, "dual");
 }

@@ -366741,6 +366741,874 @@
       }
     },
     {
+      "id": 4405,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["ATK", "DEF"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["Striker", "Cerebral"]}
+            },
+            {
+              "attributes": ["ATK", "SPD"],
+              "effect": "debuff",
+              "level": 2,
+              "targeting": {"targets": ["Slasher", "Free Spirit"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[Baroque Works]", "[World Government]", "[Seven Warlords of the Sea]", "[Logia-type]", "[Paramythia-type]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {}
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "attributes": ["ATK", "SPD"],
+              "level": 5,
+              "duration": 11,
+              "effect": "debuff",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "medium", "direction": "radial"}
+            },
+            {
+              "amount": 1,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"}
+            },
+            {
+              "attributes": ["Paralysis"],
+              "chance": 60,
+              "duration": 6,
+              "effect": "hinderance",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"}
+            },
+            {
+              "attributes": ["Special CT"],
+              "amount": 20,
+              "effect": "hinderance",
+              "targeting": {"targets": ["Slasher", "Free Spirit"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "level": 1,
+              "duration": 11,
+              "effect": "buff",
+              "targeting": {"targets": ["[Baroque Works]", "[Logia-type]", "[Seven Warlords of the Sea]", "[World Government]"]}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"amount": 1.1}
+            },
+            {
+              "override": {"chance": 62}
+            },
+            {
+              "override": {"amount": 22}
+            },
+            {
+              "override": {"duration": 12}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 6, "duration": 13}
+            },
+            {
+              "override": {"amount": 1.2}
+            },
+            {
+              "override": {"chance": 64, "duration": 7}
+            },
+            {
+              "override": {"amount": 24}
+            },
+            {
+              "override": {"level": 2, "duration": 13}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 6, "duration": 14}
+            },
+            {
+              "override": {"amount": 1.3}
+            },
+            {
+              "override": {"chance": 66, "duration": 7}
+            },
+            {
+              "override": {"amount": 26}
+            },
+            {
+              "override": {"level": 2, "duration": 14}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 7, "duration": 15}
+            },
+            {
+              "override": {"amount": 1.4}
+            },
+            {
+              "override": {"chance": 68, "duration": 8}
+            },
+            {
+              "override": {"amount": 28}
+            },
+            {
+              "override": {"level": 3, "duration": 15}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 7, "duration": 16}
+            },
+            {
+              "override": {"amount": 1.5}
+            },
+            {
+              "override": {"chance": 70, "duration": 8}
+            },
+            {
+              "override": {"amount": 30}
+            },
+            {
+              "override": {"level": 3, "duration": 16}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 8, "duration": 17}
+            },
+            {
+              "override": {"amount": 1.6}
+            },
+            {
+              "override": {"chance": 72, "duration": 9}
+            },
+            {
+              "override": {"amount": 32}
+            },
+            {
+              "override": {"level": 4, "duration": 17}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 8, "duration": 18}
+            },
+            {
+              "override": {"amount": 1.7}
+            },
+            {
+              "override": {"chance": 74, "duration": 9}
+            },
+            {
+              "override": {"amount": 34}
+            },
+            {
+              "override": {"level": 4, "duration": 18}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 9, "duration": 19}
+            },
+            {
+              "override": {"amount": 1.8}
+            },
+            {
+              "override": {"chance": 76, "duration": 10}
+            },
+            {
+              "override": {"amount": 36}
+            },
+            {
+              "override": {"level": 5, "duration": 19}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 10, "duration": 20}
+            },
+            {
+              "override": {"amount": 2}
+            },
+            {
+              "override": {"chance": 80, "duration": 10}
+            },
+            {
+              "override": {"amount": 40}
+            },
+            {
+              "override": {"level": 5, "duration": 20}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Action Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "Slasher",
+          "percentage": 30,
+          "type": "damage"
+        },
+        {
+          "attribute": "Free Spirit",
+          "percentage": 30,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "level": 2,
+          "area": "Self",
+          "action": "heal"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "DBF",
+        "def": 209,
+        "spd": 147
+      }
+    },
+    {
+      "id": 4408,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["ATK", "DEF"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["Cerebral", "Driven"]}
+            },
+            {
+              "attributes": ["SPD", "HP"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["crew"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 4}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 5}
+            }
+          ]
+        }
+      ],
+      "llbability": [
+        {
+          "effects": [
+            {
+              "attributes": ["ATK", "DEF"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["Cerebral", "Driven"]}
+            },
+            {
+              "attributes": ["SPD", "HP"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["crew"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 4}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 5}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 35,
+          "effects": [
+            {
+              "attributes": ["ATK"],
+              "level": 3,
+              "duration": 16,
+              "effect": "debuff",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "forward"}
+            },
+            {
+              "attributes": ["DEF"],
+              "level": 2,
+              "duration": 16,
+              "effect": "debuff",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "forward"}
+            },
+            {
+              "amount": 30,
+              "effect": "damage",
+              "type": "cut",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "forward"}
+            },
+            {
+              "attributes": ["Action Bind"],
+              "effect": "hinderance",
+              "chance": 55,
+              "duration": 6,
+              "targeting": {"targets": ["Free Spirit", "Cerebral"], "count": 3}
+            }
+          ]
+        },
+        {
+          "cooldown": 35,
+          "effects": [
+            {
+              "override": {"duration": 17}
+            },
+            {
+              "override": {"duration": 17}
+            },
+            {},
+            {
+              "override": {"chance": 57}
+            }
+          ]
+        },
+        {
+          "cooldown": 35,
+          "effects": [
+            {
+              "override": {"duration": 18}
+            },
+            {
+              "override": {"duration": 18}
+            },
+            {},
+            {
+              "override": {"chance": 59, "duration": 7}
+            }
+          ]
+        },
+        {
+          "cooldown": 35,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 19}
+            },
+            {
+              "override": {"duration": 19}
+            },
+            {},
+            {
+              "override": {"chance": 61, "duration": 7}
+            }
+          ]
+        },
+        {
+          "cooldown": 35,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 20}
+            },
+            {
+              "override": {"duration": 20}
+            },
+            {},
+            {
+              "override": {"chance": 63, "duration": 8}
+            }
+          ]
+        },
+        {
+          "cooldown": 35,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 21}
+            },
+            {
+              "override": {"level": 3, "duration": 21}
+            },
+            {},
+            {
+              "override": {"chance": 65, "duration": 8}
+            }
+          ]
+        },
+        {
+          "cooldown": 35,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 22}
+            },
+            {
+              "override": {"level": 3, "duration": 22}
+            },
+            {},
+            {
+              "override": {"chance": 67, "duration": 9}
+            }
+          ]
+        },
+        {
+          "cooldown": 35,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 23}
+            },
+            {
+              "override": {"level": 3, "duration": 23}
+            },
+            {},
+            {
+              "override": {"chance": 69, "duration": 9}
+            }
+          ]
+        },
+        {
+          "cooldown": 35,
+          "effects": [
+            {
+              "override": {"level": 6, "duration": 24}
+            },
+            {
+              "override": {"level": 3, "duration": 24}
+            },
+            {},
+            {
+              "override": {"chance": 71, "duration": 10}
+            }
+          ]
+        },
+        {
+          "cooldown": 35,
+          "effects": [
+            {
+              "override": {"level": 6, "duration": 25}
+            },
+            {
+              "override": {"level": 4, "duration": 25}
+            },
+            {},
+            {
+              "override": {"chance": 75, "duration": 10}
+            }
+          ]
+        }
+      ],
+      "llbspecial": [
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "attributes": ["ATK"],
+              "level": 3,
+              "duration": 21,
+              "effect": "debuff",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "forward"}
+            },
+            {
+              "attributes": ["DEF"],
+              "level": 3,
+              "duration": 21,
+              "effect": "debuff",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "forward"}
+            },
+            {
+              "amount": 40,
+              "effect": "damage",
+              "type": "cut",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "forward"}
+            },
+            {
+              "attributes": ["Action Bind"],
+              "effect": "hinderance",
+              "chance": 60,
+              "duration": 6,
+              "targeting": {"targets": ["Free Spirit", "Cerebral"], "count": 3}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"duration": 22}
+            },
+            {
+              "override": {"duration": 22}
+            },
+            {},
+            {
+              "override": {"chance": 64}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 23}
+            },
+            {
+              "override": {"duration": 23}
+            },
+            {},
+            {
+              "override": {"chance": 68, "duration": 7}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 24}
+            },
+            {
+              "override": {"duration": 24}
+            },
+            {},
+            {
+              "override": {"chance": 72, "duration": 7}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 25}
+            },
+            {
+              "override": {"duration": 25}
+            },
+            {},
+            {
+              "override": {"chance": 76, "duration": 8}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 26}
+            },
+            {
+              "override": {"level": 4, "duration": 26}
+            },
+            {},
+            {
+              "override": {"chance": 80, "duration": 8}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 6, "duration": 27}
+            },
+            {
+              "override": {"level": 4, "duration": 27}
+            },
+            {},
+            {
+              "override": {"chance": 84, "duration": 9}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 6, "duration": 28}
+            },
+            {
+              "override": {"level": 4, "duration": 28}
+            },
+            {},
+            {
+              "override": {"chance": 88, "duration": 9}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 7, "duration": 29}
+            },
+            {
+              "override": {"level": 4, "duration": 29}
+            },
+            {},
+            {
+              "override": {"chance": 92, "duration": 10}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 7, "duration": 30}
+            },
+            {
+              "override": {"level": 5, "duration": 30}
+            },
+            {},
+            {
+              "override": {"chance": 100, "duration": 10}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Action Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "Free Spirit",
+          "percentage": 30,
+          "type": "damage"
+        },
+        {
+          "attribute": "Cerebral",
+          "percentage": 30,
+          "type": "damage"
+        }
+      ],
+      "llbresilience": [
+        {
+          "attribute": "Action Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "Free Spirit",
+          "percentage": 40,
+          "type": "damage"
+        },
+        {
+          "attribute": "Cerebral",
+          "percentage": 40,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "level": 2,
+          "area": "Self",
+          "action": "heal"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "type": "Normal",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "DBF",
+        "def": 184,
+        "spd": 187
+      }
+    },
+    {
       "basedOn": 2999,
       "id": 5259
     },
