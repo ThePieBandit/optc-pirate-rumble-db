@@ -171586,7 +171586,8 @@ window.details = {
         },
         swap: {
             base: "Changes the orb of this character into a Matching orb, recovers 1,500 HP, removes Special Bind duration completely on this character, and inflicts enemies with Negative for 1 turn. If there are 2+ enemies on the stage, ignores Debuff Protection and inflicts enemies with Negative for 1 turn.",
-            super: "Changes the orb of this character into a Matching orb, recovers 20,000 HP, removes Special Bind duration completely on this character, reduces Special Cooldown of middle left character by 3 turns, increases duration of any ATK Up and Orb Amplification buffs by 1 turn, and ignores Debuff Protection and inflicts enemies with Negative for 1 turn."
+            super: "Changes the orb of this character into a Matching orb, recovers 20,000 HP, removes Special Bind duration completely on this character, reduces Special Cooldown of middle left character by 3 turns, increases duration of any ATK Up and Orb Amplification buffs by 1 turn, and ignores Debuff Protection and inflicts enemies with Negative for 1 turn.",
+            superTurns: "7"
         },
         limit: [
             { description: "Boosts base HP by 10" },

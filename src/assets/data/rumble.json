@@ -20099,9 +20099,6 @@
           "effects": [
             {
               "override": { "level": 3 }
-            },
-            {
-              
             }
           ]
         },
@@ -20109,9 +20106,6 @@
           "effects": [
             {
               "override": { "level": 4 }
-            },
-            {
-              
             }
           ]
         },
@@ -20119,9 +20113,6 @@
           "effects": [
             {
               "override": { "level": 5 }
-            },
-            {
-              
             }
           ]
         },
@@ -20129,9 +20120,6 @@
           "effects": [
             {
               "override": { "level": 6 }
-            },
-            {
-              
             }
           ]
         }
@@ -45307,8 +45295,6 @@
           "effects": [
             {
               "override": { "level": 3 }
-            },
-            {
             }
           ]
         },
@@ -45316,8 +45302,6 @@
           "effects": [
             {
               "override": { "level": 4 }
-            },
-            {
             }
           ]
         },
@@ -45325,8 +45309,6 @@
           "effects": [
             {
               "override": { "level": 5 }
-            },
-            {
             }
           ]
         },
@@ -45334,8 +45316,6 @@
           "effects": [
             {
               "override": { "level": 6 }
-            },
-            {
             }
           ]
         }
@@ -310251,14 +310231,14 @@
             {
               "attributes": [ "ATK" ],
               "duration": 11,
-              "effect": "buff",
+              "effect": "debuff",
               "level": 5,
               "targeting": { "count": 2, "priority": "highest", "stat": "ATK", "targets": [ "enemies" ] }
             },
             {
               "attributes": [ "DEF" ],
               "duration": 11,
-              "effect": "buff",
+              "effect": "debuff",
               "level": 5,
               "targeting": { "count": 2, "priority": "highest", "stat": "DEF", "targets": [ "enemies" ] }
             },
