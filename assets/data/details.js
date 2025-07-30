@@ -172123,6 +172123,454 @@ window.details = {
             ]
         }
     },
+    4415: {//Alpha
+        captain: "Boosts [INT] characters' ATK by 3x and HP by 1.2x",
+        special: "Heals crew by 5x character's RCV at end of turn for 3 turns, and reduces crew's Paralysis duration by 3 turns",
+        specialName: "Arrival of the Nurse",
+        sailor: "Boosts [INT] characters' base ATK by 100",
+        limit: [
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Acquire Potential 1: [PSY] Damage Reduction" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Acquire Potential 2: [INT] Damage Reduction" },
+        ],
+        potential: [
+            {
+                Name: "[PSY] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [PSY] characters by 1%",
+                    "Reduces damage taken from [PSY] characters by 2%",
+                    "Reduces damage taken from [PSY] characters by 3%",
+                    "Reduces damage taken from [PSY] characters by 4%",
+                    "Reduces damage taken from [PSY] characters by 5%"
+                ]
+            },
+            {
+                Name: "[INT] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [INT] characters by 1%",
+                    "Reduces damage taken from [INT] characters by 2%",
+                    "Reduces damage taken from [INT] characters by 3%",
+                    "Reduces damage taken from [INT] characters by 4%",
+                    "Reduces damage taken from [INT] characters by 5%"
+                ]
+            }
+        ],
+        festStats: {
+            def: 156,
+            spd: 166,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Heal Self Lv.2"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Damage Over Time, reduce damage taken from [PSY] by 30％",
+        festAbility: [
+            "[INT] teammates HP Up Lv.1, DEF Up Lv.1; if 6 or more [INT] characters are on the team, all enemies ATK Down Lv.3, Special CT Speed Down Lv.1",
+            "[INT] teammates HP Up Lv.2, DEF Up Lv.2; if 6 or more [INT] characters are on the team, all enemies ATK Down Lv.4, Special CT Speed Down Lv.1",
+            "[INT] teammates HP Up Lv.3, DEF Up Lv.3; if 6 or more [INT] characters are on the team, all enemies ATK Down Lv.5, Special CT Speed Down Lv.1",
+            "[INT] teammates HP Up Lv.4, DEF Up Lv.4; if 6 or more [INT] characters are on the team, all enemies ATK Down Lv.6, Special CT Speed Down Lv.1",
+            "[INT] teammates HP Up Lv.5, DEF Up Lv.5; if 6 or more [INT] characters are on the team, all enemies ATK Down Lv.7, Special CT Speed Down Lv.3"
+        ],
+        festSpecial: [
+            {
+                cooldown: 22,
+                description: "Targets 3 enemies for Special CT Speed Down Lv.1 (11 s); targets [INT] teammates for Special CT Speed Up Lv.1 (11 s); targets [World Government] characters not including self for Special CT 11% reduction"
+            },
+            {
+                cooldown: 22,
+                description: "Targets 3 enemies for Special CT Speed Down Lv.1 (12 s); targets [INT] teammates for Special CT Speed Up Lv.1 (12 s); targets [World Government] characters not including self for Special CT 12% reduction"
+            },
+            {
+                cooldown: 22,
+                description: "Targets 3 enemies for Special CT Speed Down Lv.1 (13 s); targets [INT] teammates for Special CT Speed Up Lv.1 (13 s); targets [World Government] characters not including self for Special CT 13% reduction"
+            },
+            {
+                cooldown: 22,
+                description: "Targets 3 enemies for Special CT Speed Down Lv.2 (14 s); targets [INT] teammates for Special CT Speed Up Lv.2 (14 s); targets [World Government] characters not including self for Special CT 14% reduction"
+            },
+            {
+                cooldown: 22,
+                description: "Targets 3 enemies for Special CT Speed Down Lv.2 (15 s); targets [INT] teammates for Special CT Speed Up Lv.2 (15 s); targets [World Government] characters not including self for Special CT 15% reduction"
+            },
+            {
+                cooldown: 22,
+                description: "Targets 3 enemies for Special CT Speed Down Lv.3 (16 s); targets [INT] teammates for Special CT Speed Up Lv.3 (16 s); targets [World Government] characters not including self for Special CT 16% reduction"
+            },
+            {
+                cooldown: 22,
+                description: "Targets 3 enemies for Special CT Speed Down Lv.3 (17 s); targets [INT] teammates for Special CT Speed Up Lv.3 (17 s); targets [World Government] characters not including self for Special CT 17% reduction"
+            },
+            {
+                cooldown: 22,
+                description: "Targets 3 enemies for Special CT Speed Down Lv.4 (18 s); targets [INT] teammates for Special CT Speed Up Lv.4 (18 s); targets [World Government] characters not including self for Special CT 18% reduction"
+            },
+            {
+                cooldown: 22,
+                description: "Targets 3 enemies for Special CT Speed Down Lv.4 (19 s); targets [INT] teammates for Special CT Speed Up Lv.4 (19 s); targets [World Government] characters not including self for Special CT 19% reduction"
+            },
+            {
+                cooldown: 22,
+                description: "Targets 3 enemies for Special CT Speed Down Lv.5 (20 s); targets [INT] teammates for Special CT Speed Up Lv.5 (20 s); targets [World Government] characters not including self for Special CT 20% reduction"
+            }
+        ]
+    },
+    4416: {//Sentomaru
+        captain: "Boosts [DEX], Fighter, and Shooter characters' HP by 1.3x, ATK by 4.25x, boosts character's ATK by a further 1.25x, and reduces crew's Special Reverse by 2 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Navy] [Scientist] characters' ATK by 1.25x",
+        special: [
+            {
+                description: "Reduces top-row characters' Special charge time by 1 turn, reduces all enemies' DEF by 80% for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), and further increases crew's base ATK boost by +300. If 2 or more [Navy] [Scientist] characters are on the crew or crew has End of Turn Healing status with a duration of 5 turns or longer when Special is launched, further increases chain multiplier growth rate alterating effect by +0.2",
+                cooldown: [
+                    13,
+                    7
+                ]
+            },
+            {
+                description: "Reduces top-row characters' Special charge time by 1 turn. If crew has base ATK boost when Special is launched, boosts damage dealt to DEF Down enemies by 2.5x for 1 turn, then after that, boosts [DEX], Fighter, and Shooter characters' base ATK by +1250 for 1 turn. If 2 or more [Navy] [Scientist] characters are on the crew or crew has End of Turn Healing status with a duration of 5 turns or longer when Special is launched, reduces crew's Blow Away duration by 1 turn, and further increases chain multiplier growth rate alterating effect by +0.2",
+                cooldown: [
+                    20,
+                    14
+                ]
+            }
+        ],
+        specialName: "Gathered Round the Pizza",
+        sailor: {
+            base: "Character cannot be blown away by attack",
+            level1: "Boosts crew's base ATK by 100, and if field has \"Territory: Fighter class\" or \"Territory: Shooter class\", boosts crew's base ATK by a further 1.1x"
+        },
+        support: [
+            {
+                Characters: "Fighter characters",
+                description: [
+                    "Adds 2% of character's base stats to supported character's base stats",
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 5% of character's base stats to supported character's base stats",
+                    "Adds 7% of character's base stats to supported character's base stats"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Acquire Potential 2: Barrier Penetration" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Acquire Sailor Ability 2: Boosts crew\\'s base ATK by 100, and if field has \"Territory: Fighter class\" or \"Territory: Shooter class\", boosts crew\\'s base ATK by a further 1.1x" },
+            { description: "Boosts base ATK by 70" },
+            { description: "Boosts base ATK by 80" },
+            { description: "Acquire Potential 3: Super Tandem Boost" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 5% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 95% or below 5% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% or below 10% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 85% or below 15% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 80% or below 20% at the start of the turn"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Navy] [Scientist] character performs Super Tandem",
+                "When a [Navy] [Scientist] character performs Super Tandem",
+                "When a [Navy] [Scientist] character performs Super Tandem",
+                "When a [Navy] [Scientist] character performs Super Tandem",
+                "When a [Navy] [Scientist] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Egghead] [Scientist] [Navy] characters by 1 for 1 turn",
+                "Raises Boost Level of [Egghead] [Scientist] characters by 1 and raises Boost Level of [Navy] characters by 2 for 1 turn",
+                "Raises Boost Level of [Egghead] characters by 1 and raises Boost Level of [Scientist] [Navy] characters by 2 for 1 turn",
+                "Raises Boost Level of [Egghead] [Scientist] [Navy] characters by 2 for 1 turn",
+                "Raises Boost Level of [Egghead] characters by 2 and raises Boost Level of [Scientist] [Navy] characters by 3 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 200,
+            spd: 151,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "60% chance to evade Paralysis",
+        festAbility: [
+            "Fighter/Shooter class teammates HP Up Lv.1, ATK Up Lv.1, SPD Up Lv.1; [Egghead] teammates DEF Up Lv.1",
+            "Fighter/Shooter class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; [Egghead] teammates DEF Up Lv.1",
+            "Fighter/Shooter class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; [Egghead] teammates DEF Up Lv.1",
+            "Fighter/Shooter class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; [Egghead] teammates DEF Up Lv.1",
+            "Fighter/Shooter class teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; [Egghead] teammates DEF Up Lv.3"
+        ],
+        festSpecial: [
+            {
+                cooldown: 29,
+                description: "Targets teammates within small range for ATK Up Lv.2 (11 s), RCV Up Lv.2 (11 s); targets [Egghead] teammates for Shield Lv.1 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within small range for ATK Up Lv.2 (12 s), RCV Up Lv.2 (12 s); targets [Egghead] teammates for Shield Lv.1 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within small range for ATK Up Lv.2 (13 s), RCV Up Lv.2 (13 s); targets [Egghead] teammates for Shield Lv.1 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within small range for ATK Up Lv.2 (14 s), RCV Up Lv.2 (14 s); targets [Egghead] teammates for Shield Lv.1 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within small range for ATK Up Lv.2 (15 s), RCV Up Lv.2 (15 s); targets [Egghead] teammates for Shield Lv.1 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within small range for ATK Up Lv.3 (16 s), RCV Up Lv.3 (16 s); targets [Egghead] teammates for Shield Lv.2 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within small range for ATK Up Lv.3 (17 s), RCV Up Lv.3 (17 s); targets [Egghead] teammates for Shield Lv.2 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within small range for ATK Up Lv.3 (18 s), RCV Up Lv.3 (18 s); targets [Egghead] teammates for Shield Lv.2 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within small range for ATK Up Lv.3 (19 s), RCV Up Lv.3 (19 s); targets [Egghead] teammates for Shield Lv.2 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within small range for ATK Up Lv.4 (20 s), RCV Up Lv.4 (20 s); targets [Egghead] teammates for Shield Lv.3 (15 s)"
+            }
+        ]
+    },
+    4417: {//5+ Sentomaru
+        captain: "Boosts [DEX], Fighter, and Shooter characters' HP by 1.3x, ATK by 4.5x, boosts character's ATK by a further 1.25x, makes [DEX], Fighter, and Shooter characters' [RCV] slots have matching slot effects, and reduces crew's Special Reverse by 2 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Navy] [Scientist] characters' ATK by 1.25x",
+        special: [
+            {
+                description: "Reduces top-row characters' Special charge time by 1 turn, reduces all enemies' DEF by 80% for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), and further increases crew's base ATK boost by +300. If 2 or more [Navy] [Scientist] characters are on the crew or crew has End of Turn Healing status with a duration of 5 turns or longer when Special is launched, further increases chain multiplier growth rate alterating effect by +0.2, and extends the duration of base ATK boost by 1 turn",
+                cooldown: [
+                    13,
+                    7
+                ]
+            },
+            {
+                description: "Reduces top-row characters' Special charge time by 2 turns. If crew has base ATK boost when Special is launched, boosts damage dealt to DEF Down enemies by 2.5x for 3 turns, then after that, boosts [DEX], Fighter, and Shooter characters' base ATK by +1500 for 1 turn. If 2 or more [Navy] [Scientist] characters are on the crew or crew has End of Turn Healing status with a duration of 5 turns or longer when Special is launched, reduces crew's Blow Away duration by 2 turns, further increases chain multiplier growth rate alterating effect by +0.2, and extends the duration of base ATK boost by 1 turn (effect applies to base ATK boost from this Special)",
+                cooldown: [
+                    20,
+                    14
+                ]
+            }
+        ],
+        specialName: "Gathered Round the Pizza",
+        sailor: {
+            base: "Character cannot be blown away by attack",
+            level1: "Boosts crew's base ATK by 100, and if field has \"Territory: Fighter class\" or \"Territory: Shooter class\", boosts crew's base ATK by a further 1.1x"
+        },
+        support: [
+            {
+                Characters: "Fighter characters",
+                description: [
+                    "Adds 2% of character's base stats to supported character's base stats",
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 5% of character's base stats to supported character's base stats",
+                    "Adds 7% of character's base stats to supported character's base stats"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Acquire Potential 2: Barrier Penetration" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Acquire Sailor Ability 2: Boosts crew\\'s base ATK by 100, and if field has \"Territory: Fighter class\" or \"Territory: Shooter class\", boosts crew\\'s base ATK by a further 1.1x" },
+            { description: "Boosts base ATK by 70" },
+            { description: "Boosts base ATK by 80" },
+            { description: "Acquire Potential 3: Super Tandem Boost" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 5% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 95% or below 5% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% or below 10% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 85% or below 15% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 80% or below 20% at the start of the turn"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Navy] [Scientist] character performs Super Tandem",
+                "When a [Navy] [Scientist] character performs Super Tandem",
+                "When a [Navy] [Scientist] character performs Super Tandem",
+                "When a [Navy] [Scientist] character performs Super Tandem",
+                "When a [Navy] [Scientist] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Egghead] [Scientist] [Navy] characters by 1 for 1 turn",
+                "Raises Boost Level of [Egghead] [Scientist] characters by 1 and raises Boost Level of [Navy] characters by 2 for 1 turn",
+                "Raises Boost Level of [Egghead] characters by 1 and raises Boost Level of [Scientist] [Navy] characters by 2 for 1 turn",
+                "Raises Boost Level of [Egghead] [Scientist] [Navy] characters by 2 for 1 turn",
+                "Raises Boost Level of [Egghead] characters by 2 and raises Boost Level of [Scientist] [Navy] characters by 3 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 225,
+            spd: 156,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "80% chance to evade Paralysis, reduce damage taken from [QCK] by 20％",
+        festAbility: [
+            "Fighter/Shooter class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; [Egghead] teammates DEF Up Lv.1",
+            "Fighter/Shooter class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; [Egghead] teammates DEF Up Lv.2",
+            "Fighter/Shooter class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; [Egghead] teammates DEF Up Lv.3",
+            "Fighter/Shooter class teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; [Egghead] teammates DEF Up Lv.4",
+            "Fighter/Shooter class teammates HP Up Lv.6, ATK Up Lv.6, SPD Up Lv.6; [Egghead] teammates DEF Up Lv.5"
+        ],
+        festSpecial: [
+            {
+                cooldown: 29,
+                description: "Targets teammates within medium range for ATK Up Lv.3 (11 s), RCV Up Lv.3 (11 s); targets [Egghead] teammates for Shield Lv.1 (15 s), 60% chance to evade Paralysis (11 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within medium range for ATK Up Lv.3 (12 s), RCV Up Lv.3 (12 s); targets [Egghead] teammates for Shield Lv.1 (15 s), 62% chance to evade Paralysis (12 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within medium range for ATK Up Lv.3 (13 s), RCV Up Lv.3 (13 s); targets [Egghead] teammates for Shield Lv.1 (15 s), 64% chance to evade Paralysis (13 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within medium range for ATK Up Lv.3 (14 s), RCV Up Lv.3 (14 s); targets [Egghead] teammates for Shield Lv.1 (15 s), 66% chance to evade Paralysis (14 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within medium range for ATK Up Lv.3 (15 s), RCV Up Lv.3 (15 s); targets [Egghead] teammates for Shield Lv.1 (15 s), 68% chance to evade Paralysis (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within medium range for ATK Up Lv.4 (16 s), RCV Up Lv.4 (16 s); targets [Egghead] teammates for Shield Lv.2 (15 s), 70% chance to evade Paralysis (16 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within medium range for ATK Up Lv.4 (17 s), RCV Up Lv.4 (17 s); targets [Egghead] teammates for Shield Lv.2 (15 s), 72% chance to evade Paralysis (17 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within medium range for ATK Up Lv.4 (18 s), RCV Up Lv.4 (18 s); targets [Egghead] teammates for Shield Lv.2 (15 s), 74% chance to evade Paralysis (18 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within medium range for ATK Up Lv.4 (19 s), RCV Up Lv.4 (19 s); targets [Egghead] teammates for Shield Lv.2 (15 s), 76% chance to evade Paralysis (19 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets teammates within medium range for ATK Up Lv.5 (20 s), RCV Up Lv.5 (20 s); targets [Egghead] teammates for Shield Lv.3 (15 s), 80% chance to evade Paralysis (20 s)"
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
