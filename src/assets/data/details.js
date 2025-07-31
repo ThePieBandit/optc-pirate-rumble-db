@@ -166896,7 +166896,7 @@ window.details = {
 	},
 	4353: {//Kuma
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cerebral and Powerhouse characters by 5.25x, boosts HP of Cerebral and Powerhouse characters by 1.4x, boosts base HP of [Paramythia-type] and [Revolutionary Army] characters by 1,500, makes [PSY], [RCV] and [TND] orbs beneficial for Cerebral and Powerhouse characters, and reduces Paralysis duration by 10 turns. If your crew has 4+ [Egghead] characters, boosts ATK of Cerebral and Powerhouse characters by 5.775x instead. If your crew has 5+ [Egghead] characters, reduces Despair duration by 2 turns.",
-		special: "Reduces Special Cooldown of Cerebral and Powerhouse characters by 1 turn, reduces Switch Effect of Cerebral and Powerhouse characters by 3, reduces Blown Away duration by 4 turns, and boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 3 turns. If your crew has 4+ [Paramythia-type], [Egghead] or [Revolutionary Army] characters, increases boost effects of Chain Addition buffs by +1.0x, and adds 1.6x, can be enhanced up to 2 times, to Chain Multiplier for 3 turns; adds 1.4x, can be enhanced up to 2 times, to Chain Multiplier for 1 turn otherwise.",
+		special: "Reduces Special Cooldown of Cerebral and Powerhouse characters by 1 turn, reduces Switch Effect of Cerebral and Powerhouse characters by 3, reduces Blow Away duration by 4 turns, and boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 3 turns. If your crew has 4+ [Paramythia-type], [Egghead] or [Revolutionary Army] characters, increases boost effects of Chain Addition buffs by +1.0x, and adds 1.6x, can be enhanced up to 2 times, to Chain Multiplier for 3 turns; adds 1.4x, can be enhanced up to 2 times, to Chain Multiplier for 1 turn otherwise.",
 		specialName: "Charging Through Fiercely",
 		sailor: {
 			base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
@@ -172124,10 +172124,10 @@ window.details = {
         }
     },
     4415: {//Alpha
-        captain: "Boosts [INT] characters' ATK by 3x and HP by 1.2x",
-        special: "Heals crew by 5x character's RCV at end of turn for 3 turns, and reduces crew's Paralysis duration by 3 turns",
+        captain: "Boosts ATK of [INT] characters by 3x, and boosts HP of [INT] characters by 1.2x.",
+        special: "Recovers 5x character's RCV in HP at the end of each turn for 3 turns, and reduces Paralysis duration by 3 turns.",
         specialName: "Arrival of the Nurse",
-        sailor: "Boosts [INT] characters' base ATK by 100",
+        sailor: "Boosts base ATK of [INT] characters by 100.",
         limit: [
             { description: "Boosts base ATK by 50" },
             { description: "Boosts base HP by 200" },
@@ -172161,82 +172161,20 @@ window.details = {
                     "Reduces damage taken from [INT] characters by 5%"
                 ]
             }
-        ],
-        festStats: {
-            def: 156,
-            spd: 166,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Heal Self Lv.2"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Damage Over Time, reduce damage taken from [PSY] by 30％",
-        festAbility: [
-            "[INT] teammates HP Up Lv.1, DEF Up Lv.1; if 6 or more [INT] characters are on the team, all enemies ATK Down Lv.3, Special CT Speed Down Lv.1",
-            "[INT] teammates HP Up Lv.2, DEF Up Lv.2; if 6 or more [INT] characters are on the team, all enemies ATK Down Lv.4, Special CT Speed Down Lv.1",
-            "[INT] teammates HP Up Lv.3, DEF Up Lv.3; if 6 or more [INT] characters are on the team, all enemies ATK Down Lv.5, Special CT Speed Down Lv.1",
-            "[INT] teammates HP Up Lv.4, DEF Up Lv.4; if 6 or more [INT] characters are on the team, all enemies ATK Down Lv.6, Special CT Speed Down Lv.1",
-            "[INT] teammates HP Up Lv.5, DEF Up Lv.5; if 6 or more [INT] characters are on the team, all enemies ATK Down Lv.7, Special CT Speed Down Lv.3"
-        ],
-        festSpecial: [
-            {
-                cooldown: 22,
-                description: "Targets 3 enemies for Special CT Speed Down Lv.1 (11 s); targets [INT] teammates for Special CT Speed Up Lv.1 (11 s); targets [World Government] characters not including self for Special CT 11% reduction"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 3 enemies for Special CT Speed Down Lv.1 (12 s); targets [INT] teammates for Special CT Speed Up Lv.1 (12 s); targets [World Government] characters not including self for Special CT 12% reduction"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 3 enemies for Special CT Speed Down Lv.1 (13 s); targets [INT] teammates for Special CT Speed Up Lv.1 (13 s); targets [World Government] characters not including self for Special CT 13% reduction"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 3 enemies for Special CT Speed Down Lv.2 (14 s); targets [INT] teammates for Special CT Speed Up Lv.2 (14 s); targets [World Government] characters not including self for Special CT 14% reduction"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 3 enemies for Special CT Speed Down Lv.2 (15 s); targets [INT] teammates for Special CT Speed Up Lv.2 (15 s); targets [World Government] characters not including self for Special CT 15% reduction"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 3 enemies for Special CT Speed Down Lv.3 (16 s); targets [INT] teammates for Special CT Speed Up Lv.3 (16 s); targets [World Government] characters not including self for Special CT 16% reduction"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 3 enemies for Special CT Speed Down Lv.3 (17 s); targets [INT] teammates for Special CT Speed Up Lv.3 (17 s); targets [World Government] characters not including self for Special CT 17% reduction"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 3 enemies for Special CT Speed Down Lv.4 (18 s); targets [INT] teammates for Special CT Speed Up Lv.4 (18 s); targets [World Government] characters not including self for Special CT 18% reduction"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 3 enemies for Special CT Speed Down Lv.4 (19 s); targets [INT] teammates for Special CT Speed Up Lv.4 (19 s); targets [World Government] characters not including self for Special CT 19% reduction"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 3 enemies for Special CT Speed Down Lv.5 (20 s); targets [INT] teammates for Special CT Speed Up Lv.5 (20 s); targets [World Government] characters not including self for Special CT 20% reduction"
-            }
         ]
     },
     4416: {//Sentomaru
-        captain: "Boosts [DEX], Fighter, and Shooter characters' HP by 1.3x, ATK by 4.25x, boosts character's ATK by a further 1.25x, and reduces crew's Special Reverse by 2 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Navy] [Scientist] characters' ATK by 1.25x",
+        captain: "Boosts ATK of [Navy] and [Scientist] characters by 1.25x, boosts ATK of [DEX], Fighter and Shooter characters by 4.25x, by 5.3125x instead if they have the applicable tag, boosts ATK of this character by 5.3125x, boosts HP of [DEX], Fighter and Shooter characters by 1.3x, and restores Special Cooldown of all characters by 2 turns when they are rewinded.",
         special: [
             {
-                description: "Reduces top-row characters' Special charge time by 1 turn, reduces all enemies' DEF by 80% for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), and further increases crew's base ATK boost by +300. If 2 or more [Navy] [Scientist] characters are on the crew or crew has End of Turn Healing status with a duration of 5 turns or longer when Special is launched, further increases chain multiplier growth rate alterating effect by +0.2",
+                description: "Reduces Special Cooldown of top row characters by 1 turn, ignores Debuff Protection and reduces the defense of all enemies by 80% for 1 turn, and increases boost effects of Base ATK Boost buffs by +300. If your crew has 2+ [Navy] or [Scientist] characters or your crew has 5+ turns of End of Turn Healing when the special is activated, increases boost effects of Chain Tap Timing Bonus buffs by +0.2x.",
                 cooldown: [
                     13,
                     7
                 ]
             },
             {
-                description: "Reduces top-row characters' Special charge time by 1 turn. If crew has base ATK boost when Special is launched, boosts damage dealt to DEF Down enemies by 2.5x for 1 turn, then after that, boosts [DEX], Fighter, and Shooter characters' base ATK by +1250 for 1 turn. If 2 or more [Navy] [Scientist] characters are on the crew or crew has End of Turn Healing status with a duration of 5 turns or longer when Special is launched, reduces crew's Blow Away duration by 1 turn, and further increases chain multiplier growth rate alterating effect by +0.2",
+                description: "Reduces Special Cooldown of top row characters by 1 turn, and boosts Base ATK of [DEX], Fighter and Shooter characters by 1,250 for 1 turn. If your crew has Base ATK Boost when the special is activated, boosts ATK against enemies with reduced defense by 2.5x for 1 turn. If your crew has 2+ [Navy] or [Scientist] characters or your crew has 5+ turns of End of Turn Healing when the special is activated, reduces Blow Away duration by 1 turn, and increases boost effects of Chain Tap Timing Bonus buffs by +0.2x.",
                 cooldown: [
                     20,
                     14
@@ -172245,18 +172183,18 @@ window.details = {
         ],
         specialName: "Gathered Round the Pizza",
         sailor: {
-            base: "Character cannot be blown away by attack",
-            level1: "Boosts crew's base ATK by 100, and if field has \"Territory: Fighter class\" or \"Territory: Shooter class\", boosts crew's base ATK by a further 1.1x"
+            base: "This character cannot be Blown Away.",
+            level1: "Boosts base ATK of all characters by 100. Additionally, if field has Territory: Fighter or Territory: Shooter, boosts base ATK of all characters by 1.1x."
         },
         support: [
             {
                 Characters: "Fighter characters",
                 description: [
-                    "Adds 2% of character's base stats to supported character's base stats",
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -172321,95 +172259,33 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Navy] [Scientist] character performs Super Tandem",
-                "When a [Navy] [Scientist] character performs Super Tandem",
-                "When a [Navy] [Scientist] character performs Super Tandem",
-                "When a [Navy] [Scientist] character performs Super Tandem",
-                "When a [Navy] [Scientist] character performs Super Tandem"
+                "When a [Navy] or [Scientist] character performs Super Tandem",
+                "When a [Navy] or [Scientist] character performs Super Tandem",
+                "When a [Navy] or [Scientist] character performs Super Tandem",
+                "When a [Navy] or [Scientist] character performs Super Tandem",
+                "When a [Navy] or [Scientist] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Egghead] [Scientist] [Navy] characters by 1 for 1 turn",
-                "Raises Boost Level of [Egghead] [Scientist] characters by 1 and raises Boost Level of [Navy] characters by 2 for 1 turn",
-                "Raises Boost Level of [Egghead] characters by 1 and raises Boost Level of [Scientist] [Navy] characters by 2 for 1 turn",
-                "Raises Boost Level of [Egghead] [Scientist] [Navy] characters by 2 for 1 turn",
-                "Raises Boost Level of [Egghead] characters by 2 and raises Boost Level of [Scientist] [Navy] characters by 3 for 1 turn"
+                "Raises Boost Level of [Egghead], [Scientist] and [Navy] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Egghead] and [Scientist] characters by 1 for 1 turn, and raises Boost Level of [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead] characters by 1 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead], [Scientist] and [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead] characters by 2 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 3 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 200,
-            spd: 151,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "60% chance to evade Paralysis",
-        festAbility: [
-            "Fighter/Shooter class teammates HP Up Lv.1, ATK Up Lv.1, SPD Up Lv.1; [Egghead] teammates DEF Up Lv.1",
-            "Fighter/Shooter class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; [Egghead] teammates DEF Up Lv.1",
-            "Fighter/Shooter class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; [Egghead] teammates DEF Up Lv.1",
-            "Fighter/Shooter class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; [Egghead] teammates DEF Up Lv.1",
-            "Fighter/Shooter class teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; [Egghead] teammates DEF Up Lv.3"
-        ],
-        festSpecial: [
-            {
-                cooldown: 29,
-                description: "Targets teammates within small range for ATK Up Lv.2 (11 s), RCV Up Lv.2 (11 s); targets [Egghead] teammates for Shield Lv.1 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within small range for ATK Up Lv.2 (12 s), RCV Up Lv.2 (12 s); targets [Egghead] teammates for Shield Lv.1 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within small range for ATK Up Lv.2 (13 s), RCV Up Lv.2 (13 s); targets [Egghead] teammates for Shield Lv.1 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within small range for ATK Up Lv.2 (14 s), RCV Up Lv.2 (14 s); targets [Egghead] teammates for Shield Lv.1 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within small range for ATK Up Lv.2 (15 s), RCV Up Lv.2 (15 s); targets [Egghead] teammates for Shield Lv.1 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within small range for ATK Up Lv.3 (16 s), RCV Up Lv.3 (16 s); targets [Egghead] teammates for Shield Lv.2 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within small range for ATK Up Lv.3 (17 s), RCV Up Lv.3 (17 s); targets [Egghead] teammates for Shield Lv.2 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within small range for ATK Up Lv.3 (18 s), RCV Up Lv.3 (18 s); targets [Egghead] teammates for Shield Lv.2 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within small range for ATK Up Lv.3 (19 s), RCV Up Lv.3 (19 s); targets [Egghead] teammates for Shield Lv.2 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within small range for ATK Up Lv.4 (20 s), RCV Up Lv.4 (20 s); targets [Egghead] teammates for Shield Lv.3 (15 s)"
-            }
-        ]
+        }
     },
     4417: {//5+ Sentomaru
-        captain: "Boosts [DEX], Fighter, and Shooter characters' HP by 1.3x, ATK by 4.5x, boosts character's ATK by a further 1.25x, makes [DEX], Fighter, and Shooter characters' [RCV] slots have matching slot effects, and reduces crew's Special Reverse by 2 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Navy] [Scientist] characters' ATK by 1.25x",
+        captain: "Boosts ATK of [Navy] and [Scientist] characters by 1.25x, boosts ATK of [DEX], Fighter and Shooter characters by 4.5x, by 5.625x instead if they have the applicable tag, boosts ATK of this character by 5.625x, boosts HP of [DEX], Fighter and Shooter characters by 1.3x, makes [RCV] orbs beneficial for [DEX], Fighter and Shooter characters, and restores Special Cooldown of all characters by 2 turns when they are rewinded.",
         special: [
             {
-                description: "Reduces top-row characters' Special charge time by 1 turn, reduces all enemies' DEF by 80% for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), and further increases crew's base ATK boost by +300. If 2 or more [Navy] [Scientist] characters are on the crew or crew has End of Turn Healing status with a duration of 5 turns or longer when Special is launched, further increases chain multiplier growth rate alterating effect by +0.2, and extends the duration of base ATK boost by 1 turn",
+                description: "Reduces Special Cooldown of top row characters by 1 turn, ignores Debuff Protection and reduces the defense of all enemies by 80% for 1 turn, and increases boost effects of Base ATK Boost buffs by +300. If your crew has 2+ [Navy] or [Scientist] characters or your crew has 5+ turns of End of Turn Healing when the special is activated, increases boost effects of Chain Tap Timing Bonus buffs by +0.2x, and increases duration of any Base ATK Boost buffs by 1 turn.",
                 cooldown: [
                     13,
                     7
                 ]
             },
             {
-                description: "Reduces top-row characters' Special charge time by 2 turns. If crew has base ATK boost when Special is launched, boosts damage dealt to DEF Down enemies by 2.5x for 3 turns, then after that, boosts [DEX], Fighter, and Shooter characters' base ATK by +1500 for 1 turn. If 2 or more [Navy] [Scientist] characters are on the crew or crew has End of Turn Healing status with a duration of 5 turns or longer when Special is launched, reduces crew's Blow Away duration by 2 turns, further increases chain multiplier growth rate alterating effect by +0.2, and extends the duration of base ATK boost by 1 turn (effect applies to base ATK boost from this Special)",
+                description: "Reduces Special Cooldown of top row characters by 2 turns, and boosts Base ATK of [DEX], Fighter and Shooter characters by 1,500 for 1 turn. If your crew has Base ATK Boost when the special is activated, boosts ATK against enemies with reduced defense by 2.5x for 3 turns. If your crew has 2+ [Navy] or [Scientist] characters or your crew has 5+ turns of End of Turn Healing when the special is activated, reduces Blow Away duration by 2 turns, increases boost effects of Chain Tap Timing Bonus buffs by +0.2x, and increases duration of any Base ATK Boost buffs by 1 turn, including effects activated in the same ability.",
                 cooldown: [
                     20,
                     14
@@ -172418,18 +172294,18 @@ window.details = {
         ],
         specialName: "Gathered Round the Pizza",
         sailor: {
-            base: "Character cannot be blown away by attack",
-            level1: "Boosts crew's base ATK by 100, and if field has \"Territory: Fighter class\" or \"Territory: Shooter class\", boosts crew's base ATK by a further 1.1x"
+            base: "This character cannot be Blown Away.",
+            level1: "Boosts base ATK of all characters by 100. Additionally, if field has Territory: Fighter or Territory: Shooter, boosts base ATK of all characters by 1.1x."
         },
         support: [
             {
                 Characters: "Fighter characters",
                 description: [
-                    "Adds 2% of character's base stats to supported character's base stats",
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -172494,18 +172370,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Navy] [Scientist] character performs Super Tandem",
-                "When a [Navy] [Scientist] character performs Super Tandem",
-                "When a [Navy] [Scientist] character performs Super Tandem",
-                "When a [Navy] [Scientist] character performs Super Tandem",
-                "When a [Navy] [Scientist] character performs Super Tandem"
+                "When a [Navy] or [Scientist] character performs Super Tandem",
+                "When a [Navy] or [Scientist] character performs Super Tandem",
+                "When a [Navy] or [Scientist] character performs Super Tandem",
+                "When a [Navy] or [Scientist] character performs Super Tandem",
+                "When a [Navy] or [Scientist] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Egghead] [Scientist] [Navy] characters by 1 for 1 turn",
-                "Raises Boost Level of [Egghead] [Scientist] characters by 1 and raises Boost Level of [Navy] characters by 2 for 1 turn",
-                "Raises Boost Level of [Egghead] characters by 1 and raises Boost Level of [Scientist] [Navy] characters by 2 for 1 turn",
-                "Raises Boost Level of [Egghead] [Scientist] [Navy] characters by 2 for 1 turn",
-                "Raises Boost Level of [Egghead] characters by 2 and raises Boost Level of [Scientist] [Navy] characters by 3 for 1 turn"
+                "Raises Boost Level of [Egghead], [Scientist] and [Navy] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Egghead] and [Scientist] characters by 1 for 1 turn, and raises Boost Level of [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead] characters by 1 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead], [Scientist] and [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead] characters by 2 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 3 for 1 turn."
             ]
         },
         festStats: {
