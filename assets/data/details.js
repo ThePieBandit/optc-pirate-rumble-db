@@ -166208,7 +166208,7 @@ window.details = {
             },
             {
                 captain: {
-                    base: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Driven and Slasher characters by 5.5x, boosts ATK of all other characters by 3.75x, boosts HP of all characters by 1.3x, makes [DEX] and [QCK] orbs beneficial for Driven characters, reduces Special Bind duration by 10 turns, and increases duration of any ATK Up and Orb Amplification buffs applied by specials by 1 turn."
+                    base: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Driven and Slasher characters by 5.5x, boosts ATK of all other characters by 3.75x, boosts HP of all characters by 1.3x, makes [DEX] and [QCK] orbs beneficial for Driven and Slasher characters, reduces Special Bind duration by 10 turns, and increases duration of any ATK Up and Orb Amplification buffs applied by specials by 1 turn."
                 }
             },
             {
@@ -166216,7 +166216,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Deals 300x character's ATK in Typeless damage to all enemies, changes all orbs, including [BLOCK] orbs, into Matching orbs, reduces Paralysis duration by 6 turns, and recovers 30% of crew's MAX HP. If your crew has ATK Up and Orb Amplification when the special is activated, boosts Base ATK of Driven characters by 1,500, preventing buff clears, for 2 turns, and adds 1.8 to Chain Multiplier, preventing buff clears, for 2 turns; otherwise, boosts ATK of Driven characters by 2.75x, preventing buff clears, for 2 turns, and boosts Orb Effects of Driven characters by 2.5x, preventing buff clears, for 2 turns."
+                    base: "Deals 300x character's ATK in Typeless damage to all enemies, changes all orbs, including [BLOCK] orbs, into Matching orbs, reduces Paralysis duration by 6 turns, and recovers 30% of crew's MAX HP. If your crew has ATK Up and Orb Amplification when the special is activated, boosts Base ATK of Driven and Slasher characters by 1,500, preventing buff clears, for 2 turns, and adds 1.8 to Chain Multiplier, preventing buff clears, for 2 turns; otherwise, boosts ATK of Driven and Slasher characters by 2.75x, preventing buff clears, for 2 turns, and boosts Orb Effects of Driven and Slasher characters by 2.5x, preventing buff clears, for 2 turns."
                 },
                 rSuperSpecial: true,
                 rResilience: true
