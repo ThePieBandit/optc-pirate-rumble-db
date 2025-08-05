@@ -78,7 +78,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 10,
               "effect": "hinderance",
@@ -96,7 +96,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 11,
               "effect": "hinderance",
@@ -114,7 +114,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 12,
               "effect": "hinderance",
@@ -132,7 +132,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 13,
               "effect": "hinderance",
@@ -150,7 +150,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 14,
               "effect": "hinderance",
@@ -168,7 +168,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 15,
               "effect": "hinderance",
@@ -186,7 +186,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 16,
               "effect": "hinderance",
@@ -204,7 +204,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 17,
               "effect": "hinderance",
@@ -222,7 +222,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 18,
               "effect": "hinderance",
@@ -240,7 +240,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 19,
               "effect": "hinderance",
@@ -343,7 +343,7 @@
           "cooldown": 30,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 59,
               "duration": 10,
               "effect": "hinderance",
@@ -362,7 +362,7 @@
           "cooldown": 30,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 63,
               "duration": 10,
               "effect": "hinderance",
@@ -381,7 +381,7 @@
           "cooldown": 30,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 67,
               "duration": 10,
               "effect": "hinderance",
@@ -400,7 +400,7 @@
           "cooldown": 30,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 71,
               "duration": 10,
               "effect": "hinderance",
@@ -419,7 +419,7 @@
           "cooldown": 30,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 75,
               "duration": 10,
               "effect": "hinderance",
@@ -438,7 +438,7 @@
           "cooldown": 30,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 79,
               "duration": 10,
               "effect": "hinderance",
@@ -457,7 +457,7 @@
           "cooldown": 30,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 83,
               "duration": 10,
               "effect": "hinderance",
@@ -476,7 +476,7 @@
           "cooldown": 30,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 87,
               "duration": 10,
               "effect": "hinderance",
@@ -495,7 +495,7 @@
           "cooldown": 30,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 91,
               "duration": 10,
               "effect": "hinderance",
@@ -514,7 +514,7 @@
           "cooldown": 30,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 96,
               "duration": 10,
               "effect": "hinderance",
@@ -618,7 +618,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 10,
               "effect": "hinderance",
@@ -636,7 +636,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 11,
               "effect": "hinderance",
@@ -654,7 +654,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 12,
               "effect": "hinderance",
@@ -672,7 +672,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 13,
               "effect": "hinderance",
@@ -690,7 +690,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 14,
               "effect": "hinderance",
@@ -708,7 +708,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 15,
               "effect": "hinderance",
@@ -726,7 +726,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 16,
               "effect": "hinderance",
@@ -744,7 +744,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 17,
               "effect": "hinderance",
@@ -762,7 +762,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 18,
               "effect": "hinderance",
@@ -780,7 +780,7 @@
           "cooldown": 23,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 20,
               "effect": "hinderance",
@@ -2991,7 +2991,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -3001,13 +3001,13 @@
           "cooldown": 29,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 10,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 25,
               "duration": 10,
               "effect": "hinderance",
@@ -3028,13 +3028,13 @@
           "cooldown": 29,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 10,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 25,
               "duration": 10,
               "effect": "hinderance",
@@ -3055,13 +3055,13 @@
           "cooldown": 29,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 10,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 25,
               "duration": 10,
               "effect": "hinderance",
@@ -3082,13 +3082,13 @@
           "cooldown": 29,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 10,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 25,
               "duration": 10,
               "effect": "hinderance",
@@ -3109,13 +3109,13 @@
           "cooldown": 29,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 10,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 25,
               "duration": 10,
               "effect": "hinderance",
@@ -3136,13 +3136,13 @@
           "cooldown": 29,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 10,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 25,
               "duration": 10,
               "effect": "hinderance",
@@ -3163,13 +3163,13 @@
           "cooldown": 29,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 10,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 25,
               "duration": 10,
               "effect": "hinderance",
@@ -3190,13 +3190,13 @@
           "cooldown": 29,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 10,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 25,
               "duration": 10,
               "effect": "hinderance",
@@ -3217,13 +3217,13 @@
           "cooldown": 29,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 10,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 25,
               "duration": 10,
               "effect": "hinderance",
@@ -3244,13 +3244,13 @@
           "cooldown": 29,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 10,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 25,
               "duration": 10,
               "effect": "hinderance",
@@ -12920,7 +12920,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 35,
               "duration": 10,
               "effect": "hinderance",
@@ -13528,7 +13528,7 @@
           "cooldown": 24,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 45,
               "duration": 10,
               "effect": "hinderance",
@@ -14246,7 +14246,7 @@
           "cooldown": 36,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 30,
               "duration": 15,
               "effect": "hinderance",
@@ -15119,7 +15119,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -16138,7 +16138,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -16302,7 +16302,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -16665,7 +16665,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -19393,7 +19393,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -22668,7 +22668,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -24009,7 +24009,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 15,
               "effect": "hinderance",
@@ -25456,7 +25456,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -25473,7 +25473,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 75,
               "duration": 6,
               "effect": "hinderance",
@@ -25856,7 +25856,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -25878,7 +25878,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 75,
               "duration": 9,
               "effect": "hinderance",
@@ -25989,7 +25989,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         }
@@ -26006,7 +26006,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 75,
               "duration": 9,
               "effect": "hinderance",
@@ -26500,7 +26500,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -26691,7 +26691,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -30953,7 +30953,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -30979,7 +30979,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -31473,7 +31473,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         },
@@ -32211,7 +32211,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -32343,7 +32343,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -33776,7 +33776,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -33908,7 +33908,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -38315,7 +38315,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -38446,7 +38446,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         }
@@ -41570,7 +41570,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -41702,7 +41702,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         }
@@ -42131,7 +42131,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         },
@@ -43018,7 +43018,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -43182,7 +43182,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         }
@@ -44185,7 +44185,7 @@
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 100,
               "duration": 9,
               "effect": "hinderance",
@@ -44337,7 +44337,7 @@
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 9,
               "effect": "hinderance",
@@ -45560,7 +45560,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -45728,7 +45728,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         }
@@ -46803,7 +46803,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -47719,7 +47719,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -47848,7 +47848,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         }
@@ -49126,7 +49126,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -49259,7 +49259,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         }
@@ -53777,7 +53777,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 20,
           "type": "debuff"
         },
@@ -54272,7 +54272,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -57996,7 +57996,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -58012,7 +58012,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -58036,7 +58036,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -58060,7 +58060,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -58084,7 +58084,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -58108,7 +58108,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -58132,7 +58132,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -58156,7 +58156,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -58180,7 +58180,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -58204,7 +58204,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -58228,7 +58228,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -60204,7 +60204,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -63922,7 +63922,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -64044,7 +64044,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         }
@@ -66347,7 +66347,7 @@
               "type": "time"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 70,
               "duration": 11,
               "effect": "hinderance",
@@ -67545,7 +67545,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -68464,7 +68464,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -70954,7 +70954,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -79156,7 +79156,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 30,
           "type": "debuff"
         }
@@ -85928,7 +85928,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -90226,7 +90226,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 40,
               "duration": 5,
               "effect": "hinderance",
@@ -91122,7 +91122,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -91139,7 +91139,7 @@
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Paralysis", "Silence", "Action Bind" ],
+              "attributes": [ "Paralysis", "Special Bind", "Action Bind" ],
               "effect": "boon",
               "duration": 5,
               "targeting": { "targets": [ "crew" ] }
@@ -91743,7 +91743,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -92738,7 +92738,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -92870,7 +92870,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         }
@@ -93092,7 +93092,7 @@
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "effect": "boon",
               "duration": 5,
               "targeting": { "targets": [ "crew" ] }
@@ -93770,7 +93770,7 @@
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 100,
               "duration": 12,
               "effect": "hinderance",
@@ -93926,7 +93926,7 @@
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 12,
               "effect": "hinderance",
@@ -94825,7 +94825,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -95638,7 +95638,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 30,
           "type": "debuff"
         }
@@ -96367,7 +96367,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -96765,7 +96765,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "effect": "hinderance",
               "chance": 96,
               "duration": 10,
@@ -97790,7 +97790,7 @@
               "targeting": { "targets": [ "Shooter", "Driven" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "effect": "boon",
               "duration": 5,
               "targeting": { "targets": [ "Shooter", "Driven" ] }
@@ -99143,7 +99143,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -101751,7 +101751,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -101778,7 +101778,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 100,
               "duration": 6,
               "effect": "hinderance",
@@ -107929,7 +107929,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -108458,7 +108458,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -108590,7 +108590,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -114211,7 +114211,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -114232,7 +114232,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 25,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -114366,7 +114366,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         }
@@ -114382,7 +114382,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -114406,7 +114406,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -114430,7 +114430,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -114454,7 +114454,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -114478,7 +114478,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -114502,7 +114502,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -114526,7 +114526,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -114550,7 +114550,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -114574,7 +114574,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -114598,7 +114598,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 9,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -116910,7 +116910,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 40,
               "duration": 15,
               "effect": "hinderance",
@@ -116928,7 +116928,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 42,
               "duration": 15,
               "effect": "hinderance",
@@ -116946,7 +116946,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 44,
               "duration": 15,
               "effect": "hinderance",
@@ -116964,7 +116964,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 46,
               "duration": 15,
               "effect": "hinderance",
@@ -116982,7 +116982,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 48,
               "duration": 15,
               "effect": "hinderance",
@@ -117000,7 +117000,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 15,
               "effect": "hinderance",
@@ -117018,7 +117018,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 52,
               "duration": 15,
               "effect": "hinderance",
@@ -117036,7 +117036,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 54,
               "duration": 15,
               "effect": "hinderance",
@@ -117054,7 +117054,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 56,
               "duration": 15,
               "effect": "hinderance",
@@ -117072,7 +117072,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -118206,7 +118206,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -118230,7 +118230,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 15,
               "effect": "hinderance",
@@ -118256,7 +118256,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 52,
               "duration": 16,
               "effect": "hinderance",
@@ -118282,7 +118282,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 55,
               "duration": 17,
               "effect": "hinderance",
@@ -118308,7 +118308,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 57,
               "duration": 18,
               "effect": "hinderance",
@@ -118334,7 +118334,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 19,
               "effect": "hinderance",
@@ -118360,7 +118360,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 62,
               "duration": 20,
               "effect": "hinderance",
@@ -118386,7 +118386,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 65,
               "duration": 21,
               "effect": "hinderance",
@@ -118412,7 +118412,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 67,
               "duration": 22,
               "effect": "hinderance",
@@ -118438,7 +118438,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 70,
               "duration": 23,
               "effect": "hinderance",
@@ -118464,7 +118464,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 24,
               "effect": "hinderance",
@@ -118720,7 +118720,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence", "Paralysis", "Action Bind" ],
+              "attributes": [ "Special Bind", "Paralysis", "Action Bind" ],
               "duration": 15,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -118738,7 +118738,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence", "Paralysis", "Action Bind" ],
+              "attributes": [ "Special Bind", "Paralysis", "Action Bind" ],
               "duration": 15,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -118756,7 +118756,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence", "Paralysis", "Action Bind" ],
+              "attributes": [ "Special Bind", "Paralysis", "Action Bind" ],
               "duration": 16,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -118774,7 +118774,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence", "Paralysis", "Action Bind" ],
+              "attributes": [ "Special Bind", "Paralysis", "Action Bind" ],
               "duration": 17,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -118792,7 +118792,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence", "Paralysis", "Action Bind" ],
+              "attributes": [ "Special Bind", "Paralysis", "Action Bind" ],
               "duration": 18,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -118810,7 +118810,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence", "Paralysis", "Action Bind" ],
+              "attributes": [ "Special Bind", "Paralysis", "Action Bind" ],
               "duration": 19,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -118828,7 +118828,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence", "Paralysis", "Action Bind" ],
+              "attributes": [ "Special Bind", "Paralysis", "Action Bind" ],
               "duration": 19,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -118846,7 +118846,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence", "Paralysis", "Action Bind" ],
+              "attributes": [ "Special Bind", "Paralysis", "Action Bind" ],
               "duration": 20,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -118864,7 +118864,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence", "Paralysis", "Action Bind" ],
+              "attributes": [ "Special Bind", "Paralysis", "Action Bind" ],
               "duration": 21,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -118882,7 +118882,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence", "Paralysis", "Action Bind" ],
+              "attributes": [ "Special Bind", "Paralysis", "Action Bind" ],
               "duration": 22,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -119075,7 +119075,7 @@
               "type": "RCV"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 50,
               "effect": "penalty",
               "targeting": { "targets": [ "self" ] }
@@ -119111,7 +119111,7 @@
               "type": "RCV"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 50,
               "effect": "penalty",
               "targeting": { "targets": [ "self" ] }
@@ -119147,7 +119147,7 @@
               "type": "RCV"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 50,
               "effect": "penalty",
               "targeting": { "targets": [ "self" ] }
@@ -119183,7 +119183,7 @@
               "type": "RCV"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 50,
               "effect": "penalty",
               "targeting": { "targets": [ "self" ] }
@@ -119219,7 +119219,7 @@
               "type": "RCV"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 50,
               "effect": "penalty",
               "targeting": { "targets": [ "self" ] }
@@ -119255,7 +119255,7 @@
               "type": "RCV"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 50,
               "effect": "penalty",
               "targeting": { "targets": [ "self" ] }
@@ -119291,7 +119291,7 @@
               "type": "RCV"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 50,
               "effect": "penalty",
               "targeting": { "targets": [ "self" ] }
@@ -119327,7 +119327,7 @@
               "type": "RCV"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 50,
               "effect": "penalty",
               "targeting": { "targets": [ "self" ] }
@@ -119363,7 +119363,7 @@
               "type": "RCV"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 50,
               "effect": "penalty",
               "targeting": { "targets": [ "self" ] }
@@ -119399,7 +119399,7 @@
               "type": "RCV"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 50,
               "effect": "penalty",
               "targeting": { "targets": [ "self" ] }
@@ -123066,7 +123066,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 15,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -123084,7 +123084,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 16,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -123102,7 +123102,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 17,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -123120,7 +123120,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 18,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -123138,7 +123138,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 19,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -123156,7 +123156,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 20,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -123174,7 +123174,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 21,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -123192,7 +123192,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 22,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -123210,7 +123210,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 23,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -123228,7 +123228,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 24,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -124208,7 +124208,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -124237,7 +124237,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 20,
               "effect": "hinderance",
@@ -124270,7 +124270,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 64,
               "duration": 20,
               "effect": "hinderance",
@@ -124303,7 +124303,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 68,
               "duration": 20,
               "effect": "hinderance",
@@ -124336,7 +124336,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 72,
               "duration": 20,
               "effect": "hinderance",
@@ -124369,7 +124369,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 76,
               "duration": 20,
               "effect": "hinderance",
@@ -124402,7 +124402,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 20,
               "effect": "hinderance",
@@ -124435,7 +124435,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 84,
               "duration": 20,
               "effect": "hinderance",
@@ -124468,7 +124468,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 88,
               "duration": 20,
               "effect": "hinderance",
@@ -124501,7 +124501,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 92,
               "duration": 20,
               "effect": "hinderance",
@@ -124534,7 +124534,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 100,
               "duration": 20,
               "effect": "hinderance",
@@ -124552,7 +124552,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         }
@@ -124576,7 +124576,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 20,
               "effect": "hinderance",
@@ -124609,7 +124609,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 20,
               "effect": "hinderance",
@@ -124642,7 +124642,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 20,
               "effect": "hinderance",
@@ -124675,7 +124675,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 20,
               "effect": "hinderance",
@@ -124708,7 +124708,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 61,
               "duration": 20,
               "effect": "hinderance",
@@ -124741,7 +124741,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 61,
               "duration": 20,
               "effect": "hinderance",
@@ -124774,7 +124774,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 61,
               "duration": 20,
               "effect": "hinderance",
@@ -124807,7 +124807,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 62,
               "duration": 20,
               "effect": "hinderance",
@@ -124840,7 +124840,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 62,
               "duration": 20,
               "effect": "hinderance",
@@ -124873,7 +124873,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 100,
               "duration": 20,
               "effect": "hinderance",
@@ -127650,7 +127650,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence", "Action Bind" ],
+              "attributes": [ "Special Bind", "Action Bind" ],
               "duration": 15,
               "effect": "boon",
               "targeting": { "targets": [ "[PSY]" ] }
@@ -127668,7 +127668,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence", "Action Bind" ],
+              "attributes": [ "Special Bind", "Action Bind" ],
               "duration": 16,
               "effect": "boon",
               "targeting": { "targets": [ "[PSY]" ] }
@@ -127686,7 +127686,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence", "Action Bind" ],
+              "attributes": [ "Special Bind", "Action Bind" ],
               "duration": 17,
               "effect": "boon",
               "targeting": { "targets": [ "[PSY]" ] }
@@ -127704,7 +127704,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence", "Action Bind" ],
+              "attributes": [ "Special Bind", "Action Bind" ],
               "duration": 18,
               "effect": "boon",
               "targeting": { "targets": [ "[PSY]" ] }
@@ -127722,7 +127722,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence", "Action Bind" ],
+              "attributes": [ "Special Bind", "Action Bind" ],
               "duration": 19,
               "effect": "boon",
               "targeting": { "targets": [ "[PSY]" ] }
@@ -127740,7 +127740,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence", "Action Bind" ],
+              "attributes": [ "Special Bind", "Action Bind" ],
               "duration": 20,
               "effect": "boon",
               "targeting": { "targets": [ "[PSY]" ] }
@@ -127758,7 +127758,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence", "Action Bind" ],
+              "attributes": [ "Special Bind", "Action Bind" ],
               "duration": 21,
               "effect": "boon",
               "targeting": { "targets": [ "[PSY]" ] }
@@ -127776,7 +127776,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence", "Action Bind" ],
+              "attributes": [ "Special Bind", "Action Bind" ],
               "duration": 22,
               "effect": "boon",
               "targeting": { "targets": [ "[PSY]" ] }
@@ -127794,7 +127794,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence", "Action Bind" ],
+              "attributes": [ "Special Bind", "Action Bind" ],
               "duration": 23,
               "effect": "boon",
               "targeting": { "targets": [ "[PSY]" ] }
@@ -127812,7 +127812,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence", "Action Bind" ],
+              "attributes": [ "Special Bind", "Action Bind" ],
               "duration": 24,
               "effect": "boon",
               "targeting": { "targets": [ "[PSY]" ] }
@@ -128093,7 +128093,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -128307,7 +128307,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -129789,7 +129789,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -129956,7 +129956,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         }
@@ -130382,7 +130382,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -130582,7 +130582,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         }
@@ -131635,7 +131635,7 @@
           "cooldown": 45,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 8,
               "effect": "hinderance",
@@ -131654,7 +131654,7 @@
           "cooldown": 45,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 55,
               "duration": 8,
               "effect": "hinderance",
@@ -131673,7 +131673,7 @@
           "cooldown": 45,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 8,
               "effect": "hinderance",
@@ -131692,7 +131692,7 @@
           "cooldown": 45,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 65,
               "duration": 8,
               "effect": "hinderance",
@@ -131711,7 +131711,7 @@
           "cooldown": 45,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 70,
               "duration": 8,
               "effect": "hinderance",
@@ -131730,7 +131730,7 @@
           "cooldown": 45,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 75,
               "duration": 8,
               "effect": "hinderance",
@@ -131749,7 +131749,7 @@
           "cooldown": 45,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 8,
               "effect": "hinderance",
@@ -131768,7 +131768,7 @@
           "cooldown": 45,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 85,
               "duration": 8,
               "effect": "hinderance",
@@ -131787,7 +131787,7 @@
           "cooldown": 45,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 90,
               "duration": 8,
               "effect": "hinderance",
@@ -131806,7 +131806,7 @@
           "cooldown": 45,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 100,
               "duration": 8,
               "effect": "hinderance",
@@ -132049,7 +132049,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 8,
               "effect": "hinderance",
@@ -132068,7 +132068,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 55,
               "duration": 8,
               "effect": "hinderance",
@@ -132087,7 +132087,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 8,
               "effect": "hinderance",
@@ -132106,7 +132106,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 65,
               "duration": 8,
               "effect": "hinderance",
@@ -132125,7 +132125,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 70,
               "duration": 8,
               "effect": "hinderance",
@@ -132144,7 +132144,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 75,
               "duration": 8,
               "effect": "hinderance",
@@ -132163,7 +132163,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 8,
               "effect": "hinderance",
@@ -132182,7 +132182,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 85,
               "duration": 8,
               "effect": "hinderance",
@@ -132201,7 +132201,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 90,
               "duration": 8,
               "effect": "hinderance",
@@ -132220,7 +132220,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 100,
               "duration": 8,
               "effect": "hinderance",
@@ -132946,7 +132946,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 10,
               "effect": "hinderance",
@@ -132965,7 +132965,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 55,
               "duration": 11,
               "effect": "hinderance",
@@ -132984,7 +132984,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 12,
               "effect": "hinderance",
@@ -133003,7 +133003,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 65,
               "duration": 13,
               "effect": "hinderance",
@@ -133022,7 +133022,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 70,
               "duration": 14,
               "effect": "hinderance",
@@ -133041,7 +133041,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 75,
               "duration": 15,
               "effect": "hinderance",
@@ -133060,7 +133060,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 16,
               "effect": "hinderance",
@@ -133079,7 +133079,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 85,
               "duration": 17,
               "effect": "hinderance",
@@ -133098,7 +133098,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 90,
               "duration": 18,
               "effect": "hinderance",
@@ -133117,7 +133117,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 100,
               "duration": 19,
               "effect": "hinderance",
@@ -133224,7 +133224,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 10,
               "effect": "hinderance",
@@ -133243,7 +133243,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 55,
               "duration": 11,
               "effect": "hinderance",
@@ -133262,7 +133262,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 12,
               "effect": "hinderance",
@@ -133281,7 +133281,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 65,
               "duration": 13,
               "effect": "hinderance",
@@ -133300,7 +133300,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 70,
               "duration": 14,
               "effect": "hinderance",
@@ -133319,7 +133319,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 75,
               "duration": 15,
               "effect": "hinderance",
@@ -133338,7 +133338,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 16,
               "effect": "hinderance",
@@ -133357,7 +133357,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 85,
               "duration": 17,
               "effect": "hinderance",
@@ -133376,7 +133376,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 90,
               "duration": 18,
               "effect": "hinderance",
@@ -133395,7 +133395,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 100,
               "duration": 19,
               "effect": "hinderance",
@@ -133533,7 +133533,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 20,
               "effect": "hinderance",
@@ -133552,7 +133552,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 55,
               "duration": 21,
               "effect": "hinderance",
@@ -133571,7 +133571,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 22,
               "effect": "hinderance",
@@ -133590,7 +133590,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 65,
               "duration": 23,
               "effect": "hinderance",
@@ -133609,7 +133609,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 70,
               "duration": 24,
               "effect": "hinderance",
@@ -133628,7 +133628,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 75,
               "duration": 25,
               "effect": "hinderance",
@@ -133647,7 +133647,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 26,
               "effect": "hinderance",
@@ -133666,7 +133666,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 85,
               "duration": 27,
               "effect": "hinderance",
@@ -133685,7 +133685,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 90,
               "duration": 28,
               "effect": "hinderance",
@@ -133704,7 +133704,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 100,
               "duration": 29,
               "effect": "hinderance",
@@ -134137,7 +134137,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -135806,7 +135806,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -136070,7 +136070,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -136428,7 +136428,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -136560,7 +136560,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         }
@@ -137013,7 +137013,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         }
@@ -138391,7 +138391,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -138410,7 +138410,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -138429,7 +138429,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -138448,7 +138448,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -138467,7 +138467,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -138486,7 +138486,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -138505,7 +138505,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -138524,7 +138524,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -138543,7 +138543,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -138562,7 +138562,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -138664,7 +138664,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 5,
               "effect": "hinderance",
@@ -138683,7 +138683,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 6,
               "effect": "hinderance",
@@ -138702,7 +138702,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 7,
               "effect": "hinderance",
@@ -138721,7 +138721,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 8,
               "effect": "hinderance",
@@ -138740,7 +138740,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 9,
               "effect": "hinderance",
@@ -138759,7 +138759,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 10,
               "effect": "hinderance",
@@ -138778,7 +138778,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 11,
               "effect": "hinderance",
@@ -138797,7 +138797,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 12,
               "effect": "hinderance",
@@ -138816,7 +138816,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 13,
               "effect": "hinderance",
@@ -138835,7 +138835,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 15,
               "effect": "hinderance",
@@ -139266,7 +139266,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 6,
               "effect": "hinderance",
@@ -139284,7 +139284,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 6,
               "effect": "hinderance",
@@ -139302,7 +139302,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 7,
               "effect": "hinderance",
@@ -139320,7 +139320,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 7,
               "effect": "hinderance",
@@ -139338,7 +139338,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 8,
               "effect": "hinderance",
@@ -139356,7 +139356,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 8,
               "effect": "hinderance",
@@ -139374,7 +139374,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 9,
               "effect": "hinderance",
@@ -139392,7 +139392,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 9,
               "effect": "hinderance",
@@ -139410,7 +139410,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 10,
               "effect": "hinderance",
@@ -139428,7 +139428,7 @@
           "cooldown": 25,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 10,
               "effect": "hinderance",
@@ -139557,7 +139557,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -139914,7 +139914,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -139931,7 +139931,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 21,
               "effect": "boon",
               "targeting": { "targets": [ "[PSY]" ] }
@@ -141193,7 +141193,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -141331,7 +141331,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         }
@@ -142039,7 +142039,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         }
@@ -142238,7 +142238,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -142730,7 +142730,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 50,
           "type": "debuff"
         }
@@ -143905,7 +143905,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -144185,7 +144185,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -145112,7 +145112,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -146221,7 +146221,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         }
@@ -147437,7 +147437,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -148390,7 +148390,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -149405,7 +149405,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -149794,7 +149794,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -151150,7 +151150,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -151318,7 +151318,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -151934,7 +151934,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -152100,7 +152100,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -152488,7 +152488,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -152742,7 +152742,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -154017,7 +154017,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -154230,7 +154230,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -155340,7 +155340,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -155748,7 +155748,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -156201,7 +156201,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -156587,7 +156587,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -156790,7 +156790,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -157202,7 +157202,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -157399,7 +157399,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -157560,7 +157560,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -157835,7 +157835,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -157864,7 +157864,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 20,
               "duration": 8,
               "effect": "hinderance",
@@ -158001,7 +158001,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -159625,7 +159625,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -159822,7 +159822,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -160630,7 +160630,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -160846,7 +160846,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -161423,7 +161423,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 11,
               "effect": "hinderance",
@@ -161555,7 +161555,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 11,
               "effect": "hinderance",
@@ -162194,7 +162194,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -163904,7 +163904,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -164100,7 +164100,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -164296,7 +164296,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         }
@@ -164623,7 +164623,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -166252,7 +166252,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -166524,7 +166524,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -167150,7 +167150,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -167542,7 +167542,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -168660,7 +168660,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -168877,7 +168877,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -170003,7 +170003,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -170895,7 +170895,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -172878,7 +172878,7 @@
           "type": "debuff"
         },
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         }
@@ -172888,7 +172888,7 @@
           "cooldown": 27,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "duration": 11,
               "effect": "boon",
               "targeting": { "targets": [ "[STR]" ] }
@@ -173361,7 +173361,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -173493,7 +173493,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -174570,7 +174570,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -174919,7 +174919,7 @@
           "type": "healing"
         },
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         }
@@ -175201,7 +175201,7 @@
               "targeting": { "count": 1, "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 20,
               "duration": 10,
               "effect": "hinderance",
@@ -175650,7 +175650,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 5,
               "effect": "hinderance",
@@ -176352,7 +176352,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -176373,7 +176373,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 20,
               "duration": 5,
               "effect": "hinderance",
@@ -177685,7 +177685,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -177916,7 +177916,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -179835,7 +179835,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 15,
               "effect": "hinderance",
@@ -180165,7 +180165,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -182160,7 +182160,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -182540,7 +182540,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -182795,7 +182795,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -183866,7 +183866,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -184082,7 +184082,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -184330,7 +184330,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -184577,7 +184577,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -184826,7 +184826,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -187234,7 +187234,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -187451,7 +187451,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -187721,7 +187721,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -188397,7 +188397,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -188547,7 +188547,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -188788,7 +188788,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -188973,7 +188973,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -189341,7 +189341,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -189610,7 +189610,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -191030,7 +191030,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -191864,7 +191864,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -192369,7 +192369,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -192823,7 +192823,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -193077,7 +193077,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -194160,7 +194160,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         },
@@ -194598,7 +194598,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 30,
               "duration": 6,
               "effect": "hinderance",
@@ -194816,7 +194816,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 45,
               "duration": 1,
               "effect": "hinderance",
@@ -196217,7 +196217,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -196431,7 +196431,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -196705,7 +196705,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -196890,7 +196890,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -197394,7 +197394,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -197738,7 +197738,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -197908,7 +197908,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -197925,7 +197925,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 6,
               "effect": "hinderance",
@@ -199061,7 +199061,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -201317,7 +201317,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -201346,7 +201346,7 @@
               "targeting": { "count": 3, "priority": "highest", "stat": "ATK", "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 53,
               "duration": 5,
               "effect": "hinderance",
@@ -201501,7 +201501,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -201817,7 +201817,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -202035,7 +202035,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -203892,7 +203892,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -205336,7 +205336,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -206241,7 +206241,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 70,
           "type": "debuff"
         },
@@ -207433,7 +207433,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -209147,7 +209147,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -209297,7 +209297,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -209650,7 +209650,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -209672,7 +209672,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 10,
               "effect": "hinderance",
@@ -209950,7 +209950,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -210137,7 +210137,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -210392,7 +210392,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -211066,7 +211066,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -211296,7 +211296,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -211663,7 +211663,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -213342,7 +213342,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -213372,7 +213372,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 10,
               "effect": "hinderance",
@@ -213527,7 +213527,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -213557,7 +213557,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 10,
               "effect": "hinderance",
@@ -214000,7 +214000,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -215528,7 +215528,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -215550,7 +215550,7 @@
               "targeting": { "count": 2, "targets": [ "[PSY]" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 5,
               "effect": "hinderance",
@@ -215794,7 +215794,7 @@
           "cooldown": 29,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 10,
               "effect": "hinderance",
@@ -216214,7 +216214,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "condition": {
             "comparator": "below",
             "count": 50,
@@ -216237,7 +216237,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 10,
               "effect": "hinderance",
@@ -220028,7 +220028,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -220276,7 +220276,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -221027,7 +221027,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -221057,7 +221057,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -222257,7 +222257,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 70,
               "duration": 10,
               "effect": "hinderance",
@@ -222500,7 +222500,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -223121,7 +223121,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -223764,7 +223764,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -223914,7 +223914,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -224247,7 +224247,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -224713,7 +224713,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 55,
               "duration": 6,
               "effect": "hinderance",
@@ -226295,7 +226295,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -227859,7 +227859,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -228085,7 +228085,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -228394,7 +228394,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -230269,7 +230269,7 @@
           "uses": 2,
           "effects": [
             {
-              "attributes": [ "Paralysis", "Silence" ],
+              "attributes": [ "Paralysis", "Special Bind" ],
               "duration": 18,
               "effect": "boon",
               "targeting": { "targets": [ "crew" ] }
@@ -230376,7 +230376,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -230735,7 +230735,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -231543,7 +231543,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -231889,7 +231889,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -232057,7 +232057,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -232854,7 +232854,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -233252,7 +233252,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -233644,7 +233644,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -233662,7 +233662,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 20,
               "duration": 6,
               "effect": "hinderance",
@@ -235619,7 +235619,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -235641,7 +235641,7 @@
               "targeting": { "count": 3, "priority": "exactly", "percentage": 100, "stat": "Special CT", "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 8,
               "effect": "hinderance",
@@ -235873,7 +235873,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -236483,7 +236483,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -236680,7 +236680,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -236703,7 +236703,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 20,
               "duration": 6,
               "effect": "hinderance",
@@ -237106,7 +237106,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -237238,7 +237238,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -238052,7 +238052,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -238877,7 +238877,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -239431,7 +239431,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -240031,7 +240031,7 @@
           "cooldown": 24,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 52,
               "duration": 10,
               "effect": "hinderance",
@@ -242736,7 +242736,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -242990,7 +242990,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -243351,7 +243351,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 55,
               "duration": 20,
               "effect": "hinderance",
@@ -244424,7 +244424,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -245712,7 +245712,7 @@
           "uses": 2,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 50,
               "duration": 5,
               "effect": "hinderance",
@@ -246224,7 +246224,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -247038,7 +247038,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -247053,7 +247053,7 @@
           "cooldown": 26,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 55,
               "duration": 6,
               "effect": "hinderance",
@@ -247412,7 +247412,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -248400,7 +248400,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -248422,7 +248422,7 @@
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Paralysis", "Silence", "Action Bind" ],
+              "attributes": [ "Paralysis", "Special Bind", "Action Bind" ],
               "effect": "boon",
               "duration": 6,
               "targeting": { "targets": [ "crew" ] }
@@ -248531,7 +248531,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -248553,7 +248553,7 @@
               "targeting": { "targets": [ "crew" ] }
             },
             {
-              "attributes": [ "Paralysis", "Silence", "Action Bind" ],
+              "attributes": [ "Paralysis", "Special Bind", "Action Bind" ],
               "effect": "boon",
               "duration": 5,
               "targeting": { "targets": [ "crew" ] }
@@ -249148,7 +249148,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -249641,7 +249641,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -250505,7 +250505,7 @@
           "type": "debuff"
         },
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -251694,7 +251694,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -254479,7 +254479,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -254662,7 +254662,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -256168,7 +256168,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -256497,7 +256497,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -257543,7 +257543,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -257965,7 +257965,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -258400,7 +258400,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -259738,7 +259738,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -260135,7 +260135,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -260511,7 +260511,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -261205,7 +261205,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 8,
               "effect": "hinderance",
@@ -263001,7 +263001,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -267653,7 +267653,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -267684,7 +267684,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 73,
               "duration": 8,
               "effect": "hinderance",
@@ -270304,7 +270304,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -271167,7 +271167,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -272161,7 +272161,7 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Paralysis", "Silence" ],
+              "attributes": [ "Paralysis", "Special Bind" ],
               "chance": 50,
               "duration": 10,
               "effect": "hinderance",
@@ -273700,7 +273700,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -274969,7 +274969,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -276280,7 +276280,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -276529,7 +276529,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -277495,7 +277495,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -277954,7 +277954,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -278414,7 +278414,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -279367,7 +279367,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -279734,7 +279734,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -279905,7 +279905,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -280316,7 +280316,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -281483,7 +281483,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -282240,7 +282240,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -282677,7 +282677,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -282844,7 +282844,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -283057,7 +283057,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -283265,7 +283265,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -283688,7 +283688,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -285450,7 +285450,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -285659,7 +285659,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -287838,7 +287838,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -288313,7 +288313,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -288527,7 +288527,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -288999,7 +288999,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -289443,7 +289443,7 @@
           "type": "debuff"
         },
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -289763,7 +289763,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -291155,7 +291155,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -291177,7 +291177,7 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 5,
               "effect": "hinderance",
@@ -291490,7 +291490,7 @@
           "uses": 2,
           "effects": [
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 60,
               "duration": 10,
               "effect": "hinderance",
@@ -292200,7 +292200,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -292454,7 +292454,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -294393,7 +294393,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -294901,7 +294901,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 80,
               "duration": 10,
               "effect": "hinderance",
@@ -296152,7 +296152,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -296569,7 +296569,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -297257,7 +297257,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -297495,7 +297495,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -298144,7 +298144,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -298398,7 +298398,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -299417,7 +299417,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -299618,7 +299618,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -302273,7 +302273,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -302304,7 +302304,7 @@
               "targeting": { "targets": [ "enemies" ] }
             },
             {
-              "attributes": [ "Silence" ],
+              "attributes": [ "Special Bind" ],
               "chance": 30,
               "duration": 6,
               "effect": "hinderance",
@@ -302694,7 +302694,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -302859,7 +302859,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -303664,7 +303664,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -303911,7 +303911,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -304138,7 +304138,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         }
@@ -304958,7 +304958,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -306332,7 +306332,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -306545,7 +306545,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -307681,7 +307681,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -307946,7 +307946,7 @@
       ],
 	    "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -313254,7 +313254,7 @@
           "type": "debuff"
         },
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -313672,7 +313672,7 @@
           "type": "debuff"
         },
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -316744,7 +316744,7 @@
               "targeting": {"targets": ["enemies"], "count": 1, "priority": "highest", "stat": "ATK"}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "hinderance",
               "chance": 55,
               "duration": 5,
@@ -317148,7 +317148,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -317677,7 +317677,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -317864,7 +317864,7 @@
               "range": {"direction": "radial", "size": "large"}
             },
             {
-              "attributes": ["Silence", "Paralysis", "Action Bind"],
+              "attributes": ["Special Bind", "Paralysis", "Action Bind"],
               "effect": "boon",
               "duration": 16,
               "targeting": {"targets": ["[PSY]"]}
@@ -317983,7 +317983,7 @@
               "range": {"direction": "radial", "size": "large"}
             },
             {
-              "attributes": ["Silence", "Paralysis", "Action Bind", "Half Stats"],
+              "attributes": ["Special Bind", "Paralysis", "Action Bind", "Half Stats"],
               "effect": "boon",
               "duration": 16,
               "targeting": {"targets": ["[PSY]"]}
@@ -318357,7 +318357,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -319717,7 +319717,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -320724,7 +320724,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -320736,7 +320736,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -322007,7 +322007,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -322273,7 +322273,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -324440,7 +324440,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -324860,7 +324860,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -326355,7 +326355,7 @@
               "targeting": {"targets": ["enemies"], "count": 2, "priority": "highest", "stat": "DEF"}
             },
             {
-              "attributes": ["Action Bind", "Silence"],
+              "attributes": ["Action Bind", "Special Bind"],
               "effect": "hinderance",
               "chance": 40,
               "duration": 10,
@@ -326522,7 +326522,7 @@
           "type": "debuff"
         },
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -328635,7 +328635,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -329152,7 +329152,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -330851,7 +330851,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -331354,7 +331354,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -331471,7 +331471,7 @@
               "targeting": {"targets": ["enemies"], "count": 1, "priority": "highest", "stat": "SPD"}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "hinderance",
               "chance": 60,
               "duration": 10,
@@ -331818,7 +331818,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -332106,7 +332106,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -332219,7 +332219,7 @@
               "range": {"size": "large", "direction": "radial"}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "hinderance",
               "chance": 53,
               "duration": 10,
@@ -333897,7 +333897,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -333909,7 +333909,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -334960,7 +334960,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -335493,7 +335493,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -335505,7 +335505,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -336926,7 +336926,7 @@
               "targeting": {"targets": ["enemies"]}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "hinderance",
               "chance": 100,
               "duration": 10,
@@ -339510,7 +339510,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -339871,7 +339871,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -339888,7 +339888,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -340213,7 +340213,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -341417,7 +341417,7 @@
           "type": "debuff"
         },
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -341659,8 +341659,7 @@
             {
               "attributes": ["On Death"],
               "effect": "boon",
-              "repeat": 1,
-              "targeting": {"targets": ["self"]}
+              "repeat": 1
             }
           ]
         },
@@ -341938,7 +341937,7 @@
           "type": "debuff"
         },
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -343057,7 +343056,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -343271,7 +343270,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -343554,7 +343553,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -343698,7 +343697,7 @@
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "HP"}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "hinderance",
               "chance": 10,
               "duration": 10,
@@ -344624,7 +344623,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -344641,7 +344640,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -344981,7 +344980,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -345563,7 +345562,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -345846,7 +345845,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -345978,7 +345977,7 @@
               "targeting": {"targets": ["crew"], "count": 1, "priority": "highest", "stat": "ATK"}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "boon",
               "duration": 11,
               "targeting": {"targets": ["crew"], "count": 1, "priority": "highest", "stat": "ATK"}
@@ -346181,7 +346180,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -346416,7 +346415,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -346635,7 +346634,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 60,
           "type": "debuff"
         }
@@ -346884,7 +346883,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 80,
           "type": "debuff"
         },
@@ -347381,7 +347380,7 @@
               "range": {"size": "large", "direction": "radial"}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "hinderance",
               "chance": 100,
               "duration": 6,
@@ -347499,7 +347498,7 @@
               "range": {"size": "large", "direction": "radial"}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "hinderance",
               "chance": 100,
               "duration": 6,
@@ -347607,7 +347606,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -347624,7 +347623,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -348368,7 +348367,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -349436,7 +349435,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -350395,7 +350394,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -350407,7 +350406,7 @@
       ],
       "llbresilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -351161,7 +351160,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -352293,7 +352292,7 @@
           "type": "healing"
         },
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -354768,7 +354767,7 @@
               "targeting": {"targets": ["[DEX]", "Free Spirit"]}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "boon",
               "duration": 10,
               "targeting": {"targets": ["[DEX]", "Free Spirit"]}
@@ -354935,7 +354934,7 @@
               "targeting": {"targets": ["[DEX]", "Free Spirit"]}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "boon",
               "duration": 15,
               "targeting": {"targets": ["[DEX]", "Free Spirit"]}
@@ -354983,7 +354982,7 @@
               "targeting": {"targets": ["[DEX]", "Free Spirit"]}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "boon",
               "duration": 20,
               "targeting": {"targets": ["[DEX]", "Free Spirit"]}
@@ -355019,7 +355018,7 @@
       ],
       "resilience": [
         {
-          "attribute": "Silence",
+          "attribute": "Special Bind",
           "chance": 100,
           "type": "debuff"
         },
@@ -355847,7 +355846,7 @@
               "targeting": {"targets": ["enemies"], "count": 3}
             },
             {
-              "attributes": ["Silence"],
+              "attributes": ["Special Bind"],
               "effect": "hinderance",
               "chance": 100,
               "duration": 1,
