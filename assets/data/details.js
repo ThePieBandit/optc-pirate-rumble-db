@@ -172123,6 +172123,164 @@ window.details = {
             ]
         }
     },
+    4414: {//5+ Big Mom
+        captain: "Boosts Driven and Powerhouse characters' HP by 1.25x, boosts their ATK by at least 4x (up to 4.5x) depending on the amount of HP healed in the previous turn, and heals crew by number of enemies defeated by normal attacks multiplied by 50% of crew's total RCV at end of enemy's turn",
+        special: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns. If crew has type effect boost when Special is launched, extends its duration by 2 turns and further increases the effect by +0.5 (boosts the type effects of normal attacks for [INT] and [DEX] characters by 2.5x for 1 turn otherwise). If character's slot is [RCV][G][SEMLA][WANO] when Special is launched, boosts damage dealt to DEF Down and delayed enemies by 2.75x for 1 turn. If 4 or more [Rocks Pirates] [Paramythia-type] characters are on the crew, applies \"Territory: Driven class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        specialName: "Restraining Ambush",
+        sailor: {
+            base: "Boosts crew's base stats by 60",
+            level1: "Sets bottom-row characters' slots to [RCV] slots at start of quest (no stacking identical abilities)"
+        },
+        support: [
+            {
+                Characters: "[INT] characters",
+                description: [
+                    "Adds 2% of character's base HP to supported character's base HP",
+                    "Adds 4% of character's base HP to supported character's base HP",
+                    "Adds 6% of character's base HP to supported character's base HP",
+                    "Adds 8% of character's base HP to supported character's base HP",
+                    "Adds 10% of character's base HP to supported character's base HP"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Acquire Potential 2: Pinch Healing" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Acquire Potential 3: Super Tandem" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Acquire Sailor Ability 2: Sets bottom-row characters' slots to [RCV] slots at start of quest (no stacking identical abilities)" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "When any of the following characters are on the crew (except as Support Characters): Shiki, Edward Newgate (Whitebeard), Kaido",
+                "When any of the following characters are on the crew (except as Support Characters): Shiki, Edward Newgate (Whitebeard), Kaido",
+                "When any of the following characters are on the crew (except as Support Characters): Shiki, Edward Newgate (Whitebeard), Kaido",
+                "When any of the following characters are on the crew (except as Support Characters): Shiki, Edward Newgate (Whitebeard), Kaido",
+                "When any of the following characters are on the crew (except as Support Characters): Shiki, Edward Newgate (Whitebeard), Kaido"
+            ],
+            description: [
+                "Applies ATK Boost (Tandem) of 1.1x to [INT], Driven, and Powerhouse characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.2x to [INT], Driven, and Powerhouse characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.3x to [INT], Driven, and Powerhouse characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.4x to [INT], Driven, and Powerhouse characters for 1 turn",
+                "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn, and applies ATK Boost (Tandem) of 1.5x to [INT], Driven, and Powerhouse characters for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 191,
+            spd: 164,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "80% chance to evade Action Bind, reduce damage taken from [PSY] by 20%",
+        festAbility: [
+            "[INT] teammates HP Up Lv.1, ATK Up Lv.1, RCV Up Lv.1; after 40 s of battle, self ATK Up Lv.1",
+            "[INT] teammates HP Up Lv.2, ATK Up Lv.2, RCV Up Lv.2; after 40 s of battle, self ATK Up Lv.2",
+            "[INT] teammates HP Up Lv.3, ATK Up Lv.3, RCV Up Lv.3; after 40 s of battle, self ATK Up Lv.3",
+            "[INT] teammates HP Up Lv.4, ATK Up Lv.4, RCV Up Lv.4; after 40 s of battle, self ATK Up Lv.4",
+            "[INT] teammates HP Up Lv.5, ATK Up Lv.5, RCV Up Lv.5; after 40 s of battle, self ATK Up Lv.5"
+        ],
+        festSpecial: [
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies for ATK x 1.55 damage; after 40 s of battle, targets 2 enemies for 73% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.1 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies for ATK x 1.6 damage; after 40 s of battle, targets 2 enemies for 76% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.2 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies for ATK x 1.65 damage; after 40 s of battle, targets 2 enemies for 79% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.3 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies for ATK x 1.7 damage; after 40 s of battle, targets 2 enemies for 82% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.4 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies for ATK x 1.75 damage; after 40 s of battle, targets 2 enemies for 85% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.5 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies for ATK x 1.8 damage; after 40 s of battle, targets 2 enemies for 88% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.6 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies for ATK x 1.85 damage; after 40 s of battle, targets 2 enemies for 91% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.7 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies for ATK x 1.9 damage; after 40 s of battle, targets 2 enemies for 94% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.8 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies for ATK x 1.95 damage; after 40 s of battle, targets 2 enemies for 97% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.9 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies for ATK x 2 damage; after 40 s of battle, targets 2 enemies for 100% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 3 damage"
+            }
+        ]
+    },
     4415: {//Alpha
         captain: "Boosts ATK of [INT] characters by 3x, and boosts HP of [INT] characters by 1.2x.",
         special: "Recovers 5x character's RCV in HP at the end of each turn for 3 turns, and reduces Paralysis duration by 3 turns.",
@@ -172446,6 +172604,347 @@ window.details = {
                 description: "Targets teammates within medium range for ATK Up Lv.5 (20 s), RCV Up Lv.5 (20 s); targets [Egghead] teammates for Shield Lv.3 (15 s), 80% chance to evade Paralysis (20 s)"
             }
         ]
+    },
+    4419: {//Sabo
+        captain: "Reduces crew's Special charge time by 2 turns at start of quest, boosts [DEX], Cerebral, and Fighter characters' ATK by 5.5x when slots match (5x otherwise), HP by 1.25x, boosts other characters' ATK by 4x, and makes crew's [DEX][STR][RCV] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] Boosts [Revolutionary Army] characters' ATK and HP by 1.1x. If 4 or more [Revolutionary Army] characters are on the crew, launches following effect at start of quest: \"Sets the chain multiplier's minimum value at 3.0 and maximum value at 35.0 for 5 turns, and reduces crew's VS Effect gauge and Switch Effect by 2\"",
+        special: "Reduces crew's ATK Down and decrease chain multiplier growth rate duration by 6 turns, and boosts [DEX], Cerebral, and Fighter characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.3; GREAT +0.5; PERFECT +0.7) for 2 turns. If number of [STR][DEX] slots used in normal attacks before Special is launched is 10 or more, or crew has Additional Damage status with a duration of 5 turns or longer when Special is launched, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.3x if enemy has Increase Damage Taken) to all enemies for 1 turn. If 4 or more [Revolutionary Army] characters are on the crew, applies \"Territory: [DEX]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns",
+        specialName: "Crushing Dragon Claw",
+        sailor: {
+            base: "Reduces crew's Despair duration by 1 turn",
+            level1: "If field has \"Territory: Cerebral class\" or \"Territory: [DEX] type\", boosts crew's base stats by 200 (boosts crew's base HP by 200 otherwise)"
+        },
+        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Monkey D. Dragon, Jewelry Bonney, Koala, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Hack, Inazuma, Bartholomew Kuma, Nico Robin, Ginny",
+        superSpecial: "Deals 150x character's ATK in non-type damage to all enemies, boosts the type effects of normal attacks for [DEX], Cerebral, and Fighter characters by 2.5x for 1 turn, further increases crew's ATK and slot effect boosts by +0.4, and changes [DEX] characters to Super [DEX]",
+        support: [
+            {
+                Characters: "Koala, Hack",
+                description: [
+                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, boosts Fighter and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.4 (GOOD +0.1; GREAT +0.2; PERFECT +0.4) for 1 turn",
+                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, boosts Fighter and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.4 (GOOD +0.1; GREAT +0.2; PERFECT +0.4) for 1 turn",
+                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, boosts Fighter and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.5 (GOOD +0.1; GREAT +0.3; PERFECT +0.5) for 1 turn",
+                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, boosts Fighter and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.5 (GOOD +0.1; GREAT +0.3; PERFECT +0.5) for 1 turn",
+                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, boosts Fighter and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Potential 2: Sailor Despair" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Acquire Sailor Ability 2: If field has \"Territory: Cerebral class\" or \"Territory: [DEX] type\", boosts crew\\'s base stats by 200 (boosts crew\\'s base HP by 200 otherwise)" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 70" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Acquire Potential 3: Super Tandem Boost" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 150" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 225 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character",
+                    "Reduces Sailor Despair duration by 4 turns on this character",
+                    "Reduces Sailor Despair duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Revolutionary Army] character performs Super Tandem",
+                "When a [Revolutionary Army] character performs Super Tandem",
+                "When a [Revolutionary Army] character performs Super Tandem",
+                "When a [Revolutionary Army] character performs Super Tandem",
+                "When a [Revolutionary Army] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Egghead] [Revolutionary Army] characters by 1 for 1 turn",
+                "Raises Boost Level of [Egghead] [Revolutionary Army] characters by 2 for 1 turn",
+                "Raises Boost Level of [Egghead] [Revolutionary Army] characters by 3 for 1 turn",
+                "Raises Boost Level of [Egghead] [Revolutionary Army] characters by 4 for 1 turn",
+                "Raises Boost Level of [Egghead] [Revolutionary Army] characters by 5 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 160,
+            spd: 172,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Paralysis, reduce damage taken from [QCK] by 30％",
+        festAbility: [
+            "[DEX]/Cerebral class teammates HP Up Lv.2, SPD Up Lv.2; [Revolutionary Army] teammates ATK Up Lv.2, RCV Up Lv.2, DEF Up Lv.2",
+            "[DEX]/Cerebral class teammates HP Up Lv.3, SPD Up Lv.3; [Revolutionary Army] teammates ATK Up Lv.3, RCV Up Lv.3, DEF Up Lv.3",
+            "[DEX]/Cerebral class teammates HP Up Lv.4, SPD Up Lv.4; [Revolutionary Army] teammates ATK Up Lv.4, RCV Up Lv.4, DEF Up Lv.4",
+            "[DEX]/Cerebral class teammates HP Up Lv.5, SPD Up Lv.5; [Revolutionary Army] teammates ATK Up Lv.5, RCV Up Lv.5, DEF Up Lv.5",
+            "[DEX]/Cerebral class teammates HP Up Lv.6, SPD Up Lv.6; [Revolutionary Army] teammates ATK Up Lv.6, RCV Up Lv.6, DEF Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 27,
+                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.1 (11 s), SPD Up Lv.1 (11 s); targets enemies within large range for ATK x 3.1 damage; targets [Revolutionary Army] teammates for DEF Up Lv.1 (11 s), Shield Lv.1 (6 s)"
+            },
+            {
+                cooldown: 27,
+                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.1 (12 s), SPD Up Lv.1 (12 s); targets enemies within large range for ATK x 3.2 damage; targets [Revolutionary Army] teammates for DEF Up Lv.1 (12 s), Shield Lv.1 (7 s)"
+            },
+            {
+                cooldown: 27,
+                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.2 (13 s), SPD Up Lv.2 (13 s); targets enemies within large range for ATK x 3.3 damage; targets [Revolutionary Army] teammates for DEF Up Lv.2 (13 s), Shield Lv.1 (8 s)"
+            },
+            {
+                cooldown: 27,
+                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.2 (14 s), SPD Up Lv.2 (14 s); targets enemies within large range for ATK x 3.4 damage; targets [Revolutionary Army] teammates for DEF Up Lv.2 (14 s), Shield Lv.1 (9 s)"
+            },
+            {
+                cooldown: 27,
+                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.3 (15 s), SPD Up Lv.3 (15 s); targets enemies within large range for ATK x 3.5 damage; targets [Revolutionary Army] teammates for DEF Up Lv.3 (15 s), Shield Lv.1 (10 s)"
+            },
+            {
+                cooldown: 27,
+                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.3 (16 s), SPD Up Lv.3 (16 s); targets enemies within large range for ATK x 3.6 damage; targets [Revolutionary Army] teammates for DEF Up Lv.3 (16 s), Shield Lv.2 (11 s)"
+            },
+            {
+                cooldown: 27,
+                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.4 (17 s), SPD Up Lv.4 (17 s); targets enemies within large range for ATK x 3.7 damage; targets [Revolutionary Army] teammates for DEF Up Lv.4 (17 s), Shield Lv.2 (12 s)"
+            },
+            {
+                cooldown: 27,
+                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.4 (18 s), SPD Up Lv.4 (18 s); targets enemies within large range for ATK x 3.8 damage; targets [Revolutionary Army] teammates for DEF Up Lv.4 (18 s), Shield Lv.2 (13 s)"
+            },
+            {
+                cooldown: 27,
+                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.5 (19 s), SPD Up Lv.5 (19 s); targets enemies within large range for ATK x 3.9 damage; targets [Revolutionary Army] teammates for DEF Up Lv.5 (19 s), Shield Lv.2 (14 s)"
+            },
+            {
+                cooldown: 27,
+                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.5 (20 s), SPD Up Lv.5 (20 s); targets enemies within large range for ATK x 4 damage; targets [Revolutionary Army] teammates for DEF Up Lv.5 (20 s), Shield Lv.3 (15 s)"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
+                festGPSpecial: "Targets all enemies for 500 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 625 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 750 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 875 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 1000 damage",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "When 2 teammates are defeated"
+    },
+    4420: {//Koala
+        captain: "Boosts Cerebral characters' ATK by 4.25x, HP by 1.25x, and makes crew's [DEX][PSY][TND] slots have matching slot effects",
+        special: "Locks crew's slots for 1 turn, and reduces all enemies' Resilience duration by 6 turns. If enemy has Increase Damage Taken status when Special is launched, doubles damage dealt to Weakened enemies (applies increase damage taken status to all enemies by 1.75x for 1 turn otherwise). If 4 or more [Revolutionary Army] characters are on the crew, boosts [DEX], Fighter, and Cerebral characters' ATK by 2.75x for 3 turns (allows this effect to be further increased up to 2 times), and extends the duration of crew's lock chain multiplier effect by 1 turn (boosts [DEX], Fighter, and Cerebral characters' ATK by 2.25x for 1 turn otherwise)",
+        specialName: "Caring for a Friend",
+        sailor: {
+            base: "Boosts damage from normal attacks dealt by character to [STR] enemies by 2.25x",
+            level1: "If field has any applicable class Territory for the crew, boosts Fighter and Cerebral characters' base ATK by 150, and if field has any applicable type Territory for the crew, boosts [DEX] characters' base ATK by 150"
+        },
+        support: [
+            {
+                Characters: "Sabo, Hack",
+                description: [
+                    "Once per quest, if supported character uses a Specia, locks Cerebral characters' slots for 1 turn",
+                    "Once per quest, if supported character uses a Specia, locks Cerebral characters' slots for 1 turn",
+                    "Once per quest, if supported character uses a Specia, locks Cerebral characters' slots for 1 turn",
+                    "Once per quest, if supported character uses a Specia, locks Cerebral characters' slots for 1 turn",
+                    "Once per quest, if supported character uses a Specia, locks Cerebral characters' slots for 1 turn and reduces all enemies' Resilience duration by 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire Potential 1: Pinch Healing" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire Sailor Ability 2: If field has any applicable class Territory for the crew, boosts Fighter and Cerebral characters' base ATK by 150, and if field has any applicable type Territory for the crew, boosts [DEX] characters' base ATK by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Enrage/Increase Damage Taken" },
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            }
+        ],
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack"
+        ],
+        festAttackTarget: "Targets closest enemies"
+    },
+    4421: {//Hack
+        captain: "Boosts Fighter characters' ATK by 4.25x, HP by 1.25x, and makes crew's [DEX][INT][RCV] slots have matching slot effects",
+        special: "Reduces crew's Special Bind duration by 6 turns, and reduces all enemies' DEF Up duration by 6 turns. If 4 or more [Revolutionary Army] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [TND], changes adjacent slots to character's own type, extends the duration of crew's lock chain multiplier effect by 1 turn, boosts [DEX], Fighter, and Cerebral characters' slot effects by 3x for 3 turns (allows this effect to be further increased up to 2 times), and adds 50x character's ATK in non-type damage on top of tap-timing bonuses for 7 turns (changes adjacent slots to [DEX] and boosts [DEX], Fighter, and Cerebral characters' slot effects by 2.25x for 1 turn otherwise)",
+        specialName: "Noteworthy Article",
+        sailor: {
+            base: "Makes crew's [TND] slots have matching slot effects and reduces character's Special Bind duration by 6 turns",
+            level1: "If field has any applicable class Territory for the crew, boosts Fighter and Cerebral characters' base ATK by 150, and if field has any applicable type Territory for the crew, boosts [DEX] characters' base ATK by 150"
+        },
+        support: [
+            {
+                Characters: "Sabo, Koala",
+                description: [
+                    "Adds 2% of character's base stats to supported character's base stats",
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 6% of character's base stats to supported character's base stats",
+                    "Adds 8% of character's base stats to supported character's base stats and if supported character lands a PERFECT strike, reduces all enemies' DEF Up duration by 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Acquire Sailor Ability 2: If field has any applicable class Territory for the crew, boosts Fighter and Cerebral characters' base ATK by 150, and if field has any applicable type Territory for the crew, boosts [DEX] characters' base ATK by 150" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Sailor Despair" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character",
+                    "Reduces Sailor Despair duration by 4 turns on this character",
+                    "Reduces Sailor Despair duration by 5 turns on this character"
+                ]
+            }
+        ],
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack"
+        ],
+        festAttackTarget: "Targets closest enemies"
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
