@@ -170928,7 +170928,7 @@ window.details = {
     },
     4399: {//5+ Boa Hancock
         captain: "Boosts ATK of [STR] and [PSY] characters by 4x-4.5x depending on the amount healed in the previous turn, boosts RCV of [STR] and [PSY] characters by 1.25x, makes [RCV] orbs beneficial for all characters, and boosts chances of getting [RCV] orbs.",
-        special: "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, inflicts Melo-Melo to all enemies for 5 hits, recovers 30,000 HP, reduces Bind duration by 0-10 turns depending on the number of RCV orbs used in normal attacks, and reduces enemies' [STR], [DEX] and [PSY] resistance by -0%-70% for 1 turn depending on the number of RCV orbs used in normal attacks. If your crew has 4+ [Kuja Pirates] or [Paramythia-type] characters, applies Territory: [STR] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn.",
+        special: "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, inflicts Melo-Melo to all enemies for 5 hits, recovers 30,000 HP, reduces Bind duration by 0-10 turns depending on the number of [RCV] orbs used in normal attacks, and reduces enemies' [STR], [DEX] and [PSY] resistance by -0%-70% for 1 turn depending on the number of [RCV] orbs used in normal attacks. If your crew has 4+ [Kuja Pirates] or [Paramythia-type] characters, applies Territory: [STR] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn.",
         specialNotes: "<br><b>Bind:</b> 2 turns per [RCV] orb<br><b>Resistance:</b> 7% per [RCV] orb",
         specialName: "Beauty in the Sun",
         sailor: {
@@ -172124,22 +172124,22 @@ window.details = {
         }
     },
     4414: {//5+ Big Mom
-        captain: "Boosts Driven and Powerhouse characters' HP by 1.25x, boosts their ATK by at least 4x (up to 4.5x) depending on the amount of HP healed in the previous turn, and heals crew by number of enemies defeated by normal attacks multiplied by 50% of crew's total RCV at end of enemy's turn",
-        special: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns. If crew has type effect boost when Special is launched, extends its duration by 2 turns and further increases the effect by +0.5 (boosts the type effects of normal attacks for [INT] and [DEX] characters by 2.5x for 1 turn otherwise). If character's slot is [RCV][G][SEMLA][WANO] when Special is launched, boosts damage dealt to DEF Down and delayed enemies by 2.75x for 1 turn. If 4 or more [Rocks Pirates] [Paramythia-type] characters are on the crew, applies \"Territory: Driven class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        captain: "Boosts ATK of Driven and Powerhouse characters by 4x-4.5x depending on the amount healed in the previous turn, boosts HP of Driven and Powerhouse characters by 1.25x, and recovers HP proportional to the number of enemies you defeated in this turn ✕ 50% crew's RCV at the end of the enemy turn.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 6 turns. If your crew has Color Affinity when the special is activated, increases duration of any Color Affinity buffs by 2 turns, and increases boost effects of Color Affinity buffs by +0.5x; boosts the Color Affinity of [DEX] and [INT] characters by 2.5x for 1 turn otherwise. If this character's orb is a [RCV], [G], [SEMLA] or [WANO] orb when the special is activated, boosts ATK against enemies with reduced defense and delayed enemies by 2.75x for 1 turn. If your crew has 4+ [Rocks Pirates] or [Paramythia-type] characters, applies Territory: Driven class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn.",
         specialName: "Restraining Ambush",
         sailor: {
-            base: "Boosts crew's base stats by 60",
-            level1: "Sets bottom-row characters' slots to [RCV] slots at start of quest (no stacking identical abilities)"
+            base: "Boosts base ATK, HP and RCV of all characters by 60.",
+            level1: "Changes orbs of bottom row characters into [RCV] orbs at the start of the fight."
         },
         support: [
             {
                 Characters: "[INT] characters",
                 description: [
-                    "Adds 2% of character's base HP to supported character's base HP",
-                    "Adds 4% of character's base HP to supported character's base HP",
-                    "Adds 6% of character's base HP to supported character's base HP",
-                    "Adds 8% of character's base HP to supported character's base HP",
-                    "Adds 10% of character's base HP to supported character's base HP"
+                    "Adds 2% of this character's base HP to the supported character's base HP.",
+                    "Adds 4% of this character's base HP to the supported character's base HP.",
+                    "Adds 6% of this character's base HP to the supported character's base HP.",
+                    "Adds 8% of this character's base HP to the supported character's base HP.",
+                    "Adds 10% of this character's base HP to the supported character's base HP."
                 ]
             }
         ],
@@ -172204,82 +172204,20 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any of the following characters are on the crew (except as Support Characters): Shiki, Edward Newgate (Whitebeard), Kaido",
-                "When any of the following characters are on the crew (except as Support Characters): Shiki, Edward Newgate (Whitebeard), Kaido",
-                "When any of the following characters are on the crew (except as Support Characters): Shiki, Edward Newgate (Whitebeard), Kaido",
-                "When any of the following characters are on the crew (except as Support Characters): Shiki, Edward Newgate (Whitebeard), Kaido",
-                "When any of the following characters are on the crew (except as Support Characters): Shiki, Edward Newgate (Whitebeard), Kaido"
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Shiki, Edward Newgate (Whitebeard), Kaido",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Shiki, Edward Newgate (Whitebeard), Kaido",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Shiki, Edward Newgate (Whitebeard), Kaido",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Shiki, Edward Newgate (Whitebeard), Kaido",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Shiki, Edward Newgate (Whitebeard), Kaido"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.1x to [INT], Driven, and Powerhouse characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.2x to [INT], Driven, and Powerhouse characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.3x to [INT], Driven, and Powerhouse characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.4x to [INT], Driven, and Powerhouse characters for 1 turn",
-                "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn, and applies ATK Boost (Tandem) of 1.5x to [INT], Driven, and Powerhouse characters for 1 turn"
+                "Boosts Tandem ATK of [INT], Driven and Powerhouse characters by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of [INT], Driven and Powerhouse characters by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of [INT], Driven and Powerhouse characters by 1.3x for 1 turn.",
+                "Boosts Tandem ATK of [INT], Driven and Powerhouse characters by 1.4x for 1 turn.",
+                "Reduces enemies' Percent Damage Reduction duration by 1 turn, and boosts Tandem ATK of [INT], Driven and Powerhouse characters by 1.5x for 1 turn."
             ]
-        },
-        festStats: {
-            def: 191,
-            spd: 164,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade Action Bind, reduce damage taken from [PSY] by 20%",
-        festAbility: [
-            "[INT] teammates HP Up Lv.1, ATK Up Lv.1, RCV Up Lv.1; after 40 s of battle, self ATK Up Lv.1",
-            "[INT] teammates HP Up Lv.2, ATK Up Lv.2, RCV Up Lv.2; after 40 s of battle, self ATK Up Lv.2",
-            "[INT] teammates HP Up Lv.3, ATK Up Lv.3, RCV Up Lv.3; after 40 s of battle, self ATK Up Lv.3",
-            "[INT] teammates HP Up Lv.4, ATK Up Lv.4, RCV Up Lv.4; after 40 s of battle, self ATK Up Lv.4",
-            "[INT] teammates HP Up Lv.5, ATK Up Lv.5, RCV Up Lv.5; after 40 s of battle, self ATK Up Lv.5"
-        ],
-        festSpecial: [
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies for ATK x 1.55 damage; after 40 s of battle, targets 2 enemies for 73% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.1 damage"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies for ATK x 1.6 damage; after 40 s of battle, targets 2 enemies for 76% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.2 damage"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies for ATK x 1.65 damage; after 40 s of battle, targets 2 enemies for 79% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.3 damage"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies for ATK x 1.7 damage; after 40 s of battle, targets 2 enemies for 82% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.4 damage"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies for ATK x 1.75 damage; after 40 s of battle, targets 2 enemies for 85% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.5 damage"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies for ATK x 1.8 damage; after 40 s of battle, targets 2 enemies for 88% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.6 damage"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies for ATK x 1.85 damage; after 40 s of battle, targets 2 enemies for 91% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.7 damage"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies for ATK x 1.9 damage; after 40 s of battle, targets 2 enemies for 94% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.8 damage"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies for ATK x 1.95 damage; after 40 s of battle, targets 2 enemies for 97% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 2.9 damage"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies for ATK x 2 damage; after 40 s of battle, targets 2 enemies for 100% chance of Halve DEF (10 s); targets 2 low DEF enemies for ATK x 3 damage"
-            }
-        ]
+        }
     },
     4415: {//Alpha
         captain: "Boosts ATK of [INT] characters by 3x, and boosts HP of [INT] characters by 1.2x.",
@@ -172606,27 +172544,29 @@ window.details = {
         ]
     },
     4419: {//Sabo
-        captain: "Reduces crew's Special charge time by 2 turns at start of quest, boosts [DEX], Cerebral, and Fighter characters' ATK by 5.5x when slots match (5x otherwise), HP by 1.25x, boosts other characters' ATK by 4x, and makes crew's [DEX][STR][RCV] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] Boosts [Revolutionary Army] characters' ATK and HP by 1.1x. If 4 or more [Revolutionary Army] characters are on the crew, launches following effect at start of quest: \"Sets the chain multiplier's minimum value at 3.0 and maximum value at 35.0 for 5 turns, and reduces crew's VS Effect gauge and Switch Effect by 2\"",
-        special: "Reduces crew's ATK Down and decrease chain multiplier growth rate duration by 6 turns, and boosts [DEX], Cerebral, and Fighter characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.3; GREAT +0.5; PERFECT +0.7) for 2 turns. If number of [STR][DEX] slots used in normal attacks before Special is launched is 10 or more, or crew has Additional Damage status with a duration of 5 turns or longer when Special is launched, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.3x if enemy has Increase Damage Taken) to all enemies for 1 turn. If 4 or more [Revolutionary Army] characters are on the crew, applies \"Territory: [DEX]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns",
+        captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK and HP of [Revolutionary Army] characters by 1.1x, boosts ATK of [DEX], Cerebral and Fighter characters by 5x-5.5x, by 5.5x-6.05x instead if they have a beneficial orb, boosts ATK of all other characters by 4x, boosts HP of [DEX], Cerebral and Fighter characters by 1.25x, by 1.375x instead if they have the applicable tag, and makes [STR], [DEX] and [RCV] orbs beneficial for all characters. If your crew has 4+ [Revolutionary Army] characters, launches following effect at start of quest: sets Chain Boundaries to 3.0x and 35.0x for 5 turns, and reduces Switch Effect and VS Gauge of all characters by 2 at the start of the fight.",
+        special: "Reduces ATK Down and Chain Coefficient Reduction duration by 6 turns, and increases Chain Tap Timing Bonus of [DEX], Cerebral and Fighter characters to +0.3x-0.7x for 2 turns depending on Tap Timing. If you have used 10+ [STR] or [DEX] orbs in normal attacks or your crew has 5+ turns of Additional Damage when the special is activated, inflicts all enemies with Weaken by 1.5x, by 1.95x if enemies are inflicted with Increase Damage Taken, for 1 turn. If your crew has 4+ [Revolutionary Army] characters, applies Territory: [DEX] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns.",
+        specialNotes: "GOOD: +0.3, GREAT: +0.5, PERFECT: +0.7",
         specialName: "Crushing Dragon Claw",
         sailor: {
-            base: "Reduces crew's Despair duration by 1 turn",
-            level1: "If field has \"Territory: Cerebral class\" or \"Territory: [DEX] type\", boosts crew's base stats by 200 (boosts crew's base HP by 200 otherwise)"
+            base: "Reduces Despair duration by 1 turn.",
+            level1: "If field has Territory: Cerebral or Territory: [DEX], boosts base ATK, HP and RCV of all characters by 200; boosts base HP of all characters by 200."
         },
-        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Monkey D. Dragon, Jewelry Bonney, Koala, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Hack, Inazuma, Bartholomew Kuma, Nico Robin, Ginny",
-        superSpecial: "Deals 150x character's ATK in non-type damage to all enemies, boosts the type effects of normal attacks for [DEX], Cerebral, and Fighter characters by 2.5x for 1 turn, further increases crew's ATK and slot effect boosts by +0.4, and changes [DEX] characters to Super [DEX]",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Monkey D. Dragon, Jewelry Bonney, Koala, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Hack, Inazuma, Bartholomew Kuma, Nico Robin, Ginny",
+        superSpecial: "Deals 150x character's ATK in Typeless damage to all enemies, boosts the Color Affinity of [DEX], Cerebral and Fighter characters by 2.5x for 1 turn, increases boost effects of ATK Up and Orb Amplification buffs by +0.4x, and transforms [DEX] characters into Super [DEX] characters.",
         support: [
             {
                 Characters: "Koala, Hack",
                 description: [
-                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, boosts Fighter and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.4 (GOOD +0.1; GREAT +0.2; PERFECT +0.4) for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, boosts Fighter and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.4 (GOOD +0.1; GREAT +0.2; PERFECT +0.4) for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, boosts Fighter and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.5 (GOOD +0.1; GREAT +0.3; PERFECT +0.5) for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, boosts Fighter and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.5 (GOOD +0.1; GREAT +0.3; PERFECT +0.5) for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, boosts Fighter and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 1 turn"
+                    "Once per adventure, when the supported character uses an Orb Amplification or Color Affinity special, increases Chain Tap Timing Bonus of Fighter and Cerebral characters to +0.1x-0.4x for 1 turn depending on Tap Timing.",
+                    "Once per adventure, when the supported character uses an Orb Amplification or Color Affinity special, increases Chain Tap Timing Bonus of Fighter and Cerebral characters to +0.1x-0.4x for 1 turn depending on Tap Timing.",
+                    "Once per adventure, when the supported character uses an Orb Amplification or Color Affinity special, increases Chain Tap Timing Bonus of Fighter and Cerebral characters to +0.1x-0.5x for 1 turn depending on Tap Timing.",
+                    "Once per adventure, when the supported character uses an Orb Amplification or Color Affinity special, increases Chain Tap Timing Bonus of Fighter and Cerebral characters to +0.1x-0.5x for 1 turn depending on Tap Timing.",
+                    "Once per adventure, when the supported character uses an Orb Amplification or Color Affinity special, increases Chain Tap Timing Bonus of Fighter and Cerebral characters to +0.2x-0.6x for 1 turn depending on Tap Timing."
                 ]
             }
         ],
+        supportNotes: "<b>Level 5:</b> GOOD: +0.2, GREAT: +0.4, PERFECT: +0.6",
         limit: [
             { description: "Boosts base HP by 10" },
             { description: "Boosts base RCV by 10" },
@@ -172710,121 +172650,31 @@ window.details = {
                 "When a [Revolutionary Army] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Egghead] [Revolutionary Army] characters by 1 for 1 turn",
-                "Raises Boost Level of [Egghead] [Revolutionary Army] characters by 2 for 1 turn",
-                "Raises Boost Level of [Egghead] [Revolutionary Army] characters by 3 for 1 turn",
-                "Raises Boost Level of [Egghead] [Revolutionary Army] characters by 4 for 1 turn",
-                "Raises Boost Level of [Egghead] [Revolutionary Army] characters by 5 for 1 turn"
+                "Raises Boost Level of [Egghead] and [Revolutionary Army] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Egghead] and [Revolutionary Army] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead] and [Revolutionary Army] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Egghead] and [Revolutionary Army] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Egghead] and [Revolutionary Army] characters by 5 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 160,
-            spd: 172,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Paralysis, reduce damage taken from [QCK] by 30％",
-        festAbility: [
-            "[DEX]/Cerebral class teammates HP Up Lv.2, SPD Up Lv.2; [Revolutionary Army] teammates ATK Up Lv.2, RCV Up Lv.2, DEF Up Lv.2",
-            "[DEX]/Cerebral class teammates HP Up Lv.3, SPD Up Lv.3; [Revolutionary Army] teammates ATK Up Lv.3, RCV Up Lv.3, DEF Up Lv.3",
-            "[DEX]/Cerebral class teammates HP Up Lv.4, SPD Up Lv.4; [Revolutionary Army] teammates ATK Up Lv.4, RCV Up Lv.4, DEF Up Lv.4",
-            "[DEX]/Cerebral class teammates HP Up Lv.5, SPD Up Lv.5; [Revolutionary Army] teammates ATK Up Lv.5, RCV Up Lv.5, DEF Up Lv.5",
-            "[DEX]/Cerebral class teammates HP Up Lv.6, SPD Up Lv.6; [Revolutionary Army] teammates ATK Up Lv.6, RCV Up Lv.6, DEF Up Lv.6"
-        ],
-        festSpecial: [
-            {
-                cooldown: 27,
-                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.1 (11 s), SPD Up Lv.1 (11 s); targets enemies within large range for ATK x 3.1 damage; targets [Revolutionary Army] teammates for DEF Up Lv.1 (11 s), Shield Lv.1 (6 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.1 (12 s), SPD Up Lv.1 (12 s); targets enemies within large range for ATK x 3.2 damage; targets [Revolutionary Army] teammates for DEF Up Lv.1 (12 s), Shield Lv.1 (7 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.2 (13 s), SPD Up Lv.2 (13 s); targets enemies within large range for ATK x 3.3 damage; targets [Revolutionary Army] teammates for DEF Up Lv.2 (13 s), Shield Lv.1 (8 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.2 (14 s), SPD Up Lv.2 (14 s); targets enemies within large range for ATK x 3.4 damage; targets [Revolutionary Army] teammates for DEF Up Lv.2 (14 s), Shield Lv.1 (9 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.3 (15 s), SPD Up Lv.3 (15 s); targets enemies within large range for ATK x 3.5 damage; targets [Revolutionary Army] teammates for DEF Up Lv.3 (15 s), Shield Lv.1 (10 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.3 (16 s), SPD Up Lv.3 (16 s); targets enemies within large range for ATK x 3.6 damage; targets [Revolutionary Army] teammates for DEF Up Lv.3 (16 s), Shield Lv.2 (11 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.4 (17 s), SPD Up Lv.4 (17 s); targets enemies within large range for ATK x 3.7 damage; targets [Revolutionary Army] teammates for DEF Up Lv.4 (17 s), Shield Lv.2 (12 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.4 (18 s), SPD Up Lv.4 (18 s); targets enemies within large range for ATK x 3.8 damage; targets [Revolutionary Army] teammates for DEF Up Lv.4 (18 s), Shield Lv.2 (13 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.5 (19 s), SPD Up Lv.5 (19 s); targets enemies within large range for ATK x 3.9 damage; targets [Revolutionary Army] teammates for DEF Up Lv.5 (19 s), Shield Lv.2 (14 s)"
-            },
-            {
-                cooldown: 27,
-                description: "Targets [DEX]/Cerebral class teammates for ATK Up Lv.5 (20 s), SPD Up Lv.5 (20 s); targets enemies within large range for ATK x 4 damage; targets [Revolutionary Army] teammates for DEF Up Lv.5 (20 s), Shield Lv.3 (15 s)"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
-                festGPSpecial: "Targets all enemies for 500 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 625 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 750 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 875 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 1000 damage",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When 2 teammates are defeated"
+        }
     },
     4420: {//Koala
-        captain: "Boosts Cerebral characters' ATK by 4.25x, HP by 1.25x, and makes crew's [DEX][PSY][TND] slots have matching slot effects",
-        special: "Locks crew's slots for 1 turn, and reduces all enemies' Resilience duration by 6 turns. If enemy has Increase Damage Taken status when Special is launched, doubles damage dealt to Weakened enemies (applies increase damage taken status to all enemies by 1.75x for 1 turn otherwise). If 4 or more [Revolutionary Army] characters are on the crew, boosts [DEX], Fighter, and Cerebral characters' ATK by 2.75x for 3 turns (allows this effect to be further increased up to 2 times), and extends the duration of crew's lock chain multiplier effect by 1 turn (boosts [DEX], Fighter, and Cerebral characters' ATK by 2.25x for 1 turn otherwise)",
+        captain: "Boosts ATK of Cerebral characters by 4.25x, boosts HP of Cerebral characters by 1.25x, and makes [DEX], [PSY] and [TND] orbs beneficial for all characters.",
+        special: "Locks all orbs for 1 turn, and reduces enemies' Resilience duration by 6 turns. If enemies have Increase Damage Taken when the special is activated, boosts ATK against enemies inflicted with Weaken by 2x for 1 turn; inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn otherwise. If your crew has 4+ [Revolutionary Army] characters, boosts ATK of [DEX], Fighter and Cerebral characters by 2.75x, can be enhanced up to 2 times, for 3 turns, and increases duration of any Chain Lock buffs by 1 turn; boosts ATK of [DEX], Fighter and Cerebral characters by 2.25x for 1 turn otherwise.",
         specialName: "Caring for a Friend",
         sailor: {
-            base: "Boosts damage from normal attacks dealt by character to [STR] enemies by 2.25x",
-            level1: "If field has any applicable class Territory for the crew, boosts Fighter and Cerebral characters' base ATK by 150, and if field has any applicable type Territory for the crew, boosts [DEX] characters' base ATK by 150"
+            base: "Boosts this character's damage against [STR] characters by 2.25x.",
+            level1: "If field has Territory: Any class, boosts base ATK of Fighter and Cerebral characters by 150. If field has Territory: Any type, boosts base ATK of [DEX] characters by 150."
         },
         support: [
             {
                 Characters: "Sabo, Hack",
                 description: [
-                    "Once per quest, if supported character uses a Specia, locks Cerebral characters' slots for 1 turn",
-                    "Once per quest, if supported character uses a Specia, locks Cerebral characters' slots for 1 turn",
-                    "Once per quest, if supported character uses a Specia, locks Cerebral characters' slots for 1 turn",
-                    "Once per quest, if supported character uses a Specia, locks Cerebral characters' slots for 1 turn",
-                    "Once per quest, if supported character uses a Specia, locks Cerebral characters' slots for 1 turn and reduces all enemies' Resilience duration by 1 turn"
+                    "Once per adventure, when the supported character uses their special, locks orbs for Cerebral characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks orbs for Cerebral characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks orbs for Cerebral characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks orbs for Cerebral characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks orbs for Cerebral characters for 1 turn, and reduces enemies' Resilience duration by 1 turn."
                 ]
             }
         ],
@@ -172866,34 +172716,25 @@ window.details = {
                     "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4421: {//Hack
-        captain: "Boosts Fighter characters' ATK by 4.25x, HP by 1.25x, and makes crew's [DEX][INT][RCV] slots have matching slot effects",
-        special: "Reduces crew's Special Bind duration by 6 turns, and reduces all enemies' DEF Up duration by 6 turns. If 4 or more [Revolutionary Army] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [TND], changes adjacent slots to character's own type, extends the duration of crew's lock chain multiplier effect by 1 turn, boosts [DEX], Fighter, and Cerebral characters' slot effects by 3x for 3 turns (allows this effect to be further increased up to 2 times), and adds 50x character's ATK in non-type damage on top of tap-timing bonuses for 7 turns (changes adjacent slots to [DEX] and boosts [DEX], Fighter, and Cerebral characters' slot effects by 2.25x for 1 turn otherwise)",
+        captain: "Boosts ATK of Fighter characters by 4.25x, boosts HP of Fighter characters by 1.25x, and makes [DEX], [INT] and [RCV] orbs beneficial for all characters.",
+        special: "Reduces Special Bind duration by 6 turns, and reduces enemies' Increased Defense duration by 6 turns. If your crew has 4+ [Revolutionary Army] characters, changes all orbs, including [BLOCK] orbs, into [TND] orbs, changes orbs of adjacent characters into Matching orbs, increases duration of any Chain Lock buffs by 1 turn, boosts Orb Effects of [DEX], Fighter and Cerebral characters by 3x, can be enhanced up to 2 times, for 3 turns, and adds 50x character's ATK as Additional Typeless Damage for 7 turns; otherwise, changes orbs of adjacent characters into [DEX] orbs, and boosts Orb Effects of [DEX], Fighter and Cerebral characters by 2.25x for 1 turn.",
         specialName: "Noteworthy Article",
         sailor: {
-            base: "Makes crew's [TND] slots have matching slot effects and reduces character's Special Bind duration by 6 turns",
-            level1: "If field has any applicable class Territory for the crew, boosts Fighter and Cerebral characters' base ATK by 150, and if field has any applicable type Territory for the crew, boosts [DEX] characters' base ATK by 150"
+            base: "Makes [TND] orbs beneficial for all characters; reduces Special Bind duration by 6 turns on this character.",
+            level1: "If field has Territory: Any class, boosts base ATK of Fighter and Cerebral characters by 150. If field has Territory: Any type, boosts base ATK of [DEX] characters by 150."
         },
         support: [
             {
                 Characters: "Sabo, Koala",
                 description: [
-                    "Adds 2% of character's base stats to supported character's base stats",
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 8% of character's base stats to supported character's base stats and if supported character lands a PERFECT strike, reduces all enemies' DEF Up duration by 1 turn"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV, and when the supported character hits a PERFECT, reduces enemies' Increased Defense Reduction duration by 1 turn."
                 ]
             }
         ],
@@ -172935,16 +172776,7 @@ window.details = {
                     "Reduces Sailor Despair duration by 5 turns on this character"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
