@@ -119887,7 +119887,7 @@ window.details = {
         special: "Deals 10% of enemies' current HP in True damage to all enemies, changes all orbs, including [BLOCK] orbs, of left column characters into [QCK] orbs, changes all orbs, including [BLOCK] orbs, of right column characters into [TND] orbs and adds 1.4x to Chain multiplier for 1 turn. If your crew has 5 or more [QCK] characters, boosts Color Affinity of [QCK] characters by 2.75x for 1 turn; boosts Color Affinity of all characters by 2.25x for 1 turn otherwise. If your crew has Chain Addition and Color Affinity when the special is activated, reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 7 turns and increases boost effects of Chain Addition buffs by +0.5x.",
         specialName: "Haki Slash",
         superSpecial: "Increases boost effects of Color Affinity buffs by +0.25x, changes all enemies into [STR] characters for 1 turn and transforms [QCK] characters into Super [QCK] characters.",
-        superSpecialCriteria: "This character must be captain and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Ben Beckman, Lucky Roux, Yasopp, Rockstar and Uta.",
+        superSpecialCriteria: "This character must be captain and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
         superSpecialNotes: "Enemy Type Change is a debuff. Does not work on Super Type enemies.",
         sailor: {
             level1: "Boosts base ATK of all characters by 100",
@@ -161474,7 +161474,7 @@ window.details = {
 			level1: "Boosts base ATK of Fighter characters by 70, and boosts base ATK of Cerebral characters by 1.1x."
 		},
 		superSpecial: "Changes all orbs, including [BLOCK] orbs, into [TND] orbs, recovers 8,000 HP at the end of the turn for 10 turns, increases boost effects of Base ATK buffs by 1.5x (up to 4,000), boosts Orb Effects of Cerebral and Fighter characters by 2x, allowing override, for 1 turn, transforms [INT] characters into Super [INT] characters, and transforms Cerebral characters into Super Cerebral characters.",
-		superSpecialCriteria: "Can be launched as crewmate. When crew has used 8 specials or your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Nico Robin",
+		superSpecialCriteria: "Can be launched as crewmate. When crew has used 8 specials or your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon, Nico Robin",
 		support: [
 			{
 				Characters: "Nico Robin, Emporio Ivankov, Bartholomew Kuma, Koala, Hack, Inazuma, Lindbergh, Belo Betty, Karasu, Morley",
@@ -161588,7 +161588,7 @@ window.details = {
 			level1: "Boosts base ATK of Fighter characters by 70, and boosts base ATK of Cerebral characters by 1.1x."
 		},
 		superSpecial: "Changes all orbs, including [BLOCK] orbs, into [TND] orbs, recovers 8,000 HP at the end of the turn for 10 turns, increases boost effects of Base ATK buffs by 1.5x (up to 4,000), boosts Orb Effects of Cerebral and Fighter characters by 2x, allowing override, for 1 turn, transforms [INT] characters into Super [INT] characters, and transforms Cerebral characters into Super Cerebral characters.",
-		superSpecialCriteria: "Can be launched as crewmate. When crew has used 8 specials or your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Nico Robin",
+		superSpecialCriteria: "Can be launched as crewmate. When crew has used 8 specials or your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon, Nico Robin",
 		support: [
 			{
 				Characters: "Nico Robin, Emporio Ivankov, Bartholomew Kuma, Koala, Hack, Inazuma, Lindbergh, Belo Betty, Karasu, Morley",
@@ -161717,7 +161717,7 @@ window.details = {
 			superTurns: "8"
 		},
 		superSpecial: "Boosts Base ATK of Powerhouse and Fighter characters by 1,250 for 1 turn, transforms Powerhouse characters into Super Powerhouse characters, and transforms Fighter characters into Super Fighter characters.",
-		superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Sabo, Monkey D. Garp, Curly Dadan, Marco, Jozu, Thatch, Vista, Blamenco, Rakuyo, Namule, Blenheim, Curiel, Kingdew, Haruta, Atmos, Speed Jil, Fossa, Izo, Kozuki Oden, Jinbe",
+		superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Sabo, Monkey D. Garp, Curly Dadan, Marco, Jozu, Thatch, Vista, Blamenco, Rakuyo, Namule, Blenheim, Curiel, Kingdew, Haruta, Atmos, Speed Jil, Fossa, Izo, Kozuki Oden, Jinbe, Sir Crocodile (Mr. 0), Boa Hancock, Emporio Ivankov, Inazuma, Buggy, Daz Bonez (Mr. 1), Galdino (Mr. 3)",
 		limit: [
 			{ description: "Boosts base HP by 10" },
 			{ description: "Boosts base ATK by 10" },
@@ -172542,6 +172542,119 @@ window.details = {
                 description: "Targets teammates within medium range for ATK Up Lv.5 (20 s), RCV Up Lv.5 (20 s); targets [Egghead] teammates for Shield Lv.3 (15 s), 80% chance to evade Paralysis (20 s)"
             }
         ]
+    },
+    4418: {//OP Day Boa Hancock
+        captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [Straw Hat Pirates], [Kuja Pirates] and [Logia-type] characters by 1.2x, boosts ATK of [QCK], Striker and Powerhouse characters by 5.5x, by 6.6x instead if they have the applicable tag, boosts RCV of [QCK], Striker and Powerhouse characters by 1.35x, and increases duration of any Status ATK Boosting buffs applied by specials by 1 turn. Up to 1 time per adventure, when Monkey D. Luffy, Boa Sandersonia, or Boa Marigold uses a special as crewmate, reduces Paralysis duration by 10 turns, and advances Special Cooldown of this character to MAX.",
+        special: "Reduces Bind duration by 7 turns, reduces enemies' Increased Defense and Percent Damage Reduction duration by 3 turns, recovers 15,000 HP, boosts Final Tap ATK of [QCK], Striker and Powerhouse characters by 30%, and boosts ATK against paralyzed enemies by 2.25x, can be enhanced up to 2 times, for 1 turn. If your crew has 4+ [Straw Hat Pirates], [Kuja Pirates] or [Logia-type] characters, allows 2 Status ATK Boost buffs to stack for 1 turn, and ignores debuff protection and paralyzes (60%) all enemies for 2 turns; paralyzes (60%) all enemies for 2 turns otherwise.",
+        specialName: "Rumble-Rumble Fruit Smiting Thunder Strike",
+        sailor: {
+            base: "Boosts base ATK, HP and RCV of Striker and Powerhouse characters by 150.",
+            level1: "When an enemy inflicts you with Paralysis, reduces Paralysis duration by 1-99 turns, 25% of duration rounded down, and reduces Special Cooldown of this character by 1-99 turns depending on how many turns of Paralysis were reduced."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of 3 [QCK] characters and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy",
+        superSpecial: "Reduces enemies' Increased Defense and Percent Damage Reduction duration by 1 turn, reduces enemies' [QCK] Resistance by -20% for 1 turn, increases boost effects of Status ATK Boost buffs applied by all characters by +0.25x for 1 turn, and transforms [QCK] characters into Super [QCK] characters.",
+        support: [
+            {
+                Characters: "[QCK] Monkey D. Luffy",
+                description: [
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn, and reduces Special Cooldown of right column characters by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 2 turns, and reduces Special Cooldown of right column characters by 1 turn."
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 40" },
+            { description: "Acquire Potential 2: Slot Bind" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 40" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 50" },
+            { description: "Acquire Sailor Ability 2: If crew is inflicted with Paralysis, reduces Paralysis duration by 25% (ignoring the decimal; launches when status has 4 turns or more) and reduces character's Special charge time by number of turns reduced" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Acquire Potential 3: Super Tandem Boost" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a Striker or Powerhouse class [Straw Hat Pirates], [Kuja Pirates] or [Logia-type] character performs Super Tandem",
+                "When a Striker or Powerhouse class [Straw Hat Pirates], [Kuja Pirates] or [Logia-type] character performs Super Tandem",
+                "When a Striker or Powerhouse class [Straw Hat Pirates], [Kuja Pirates] or [Logia-type] character performs Super Tandem",
+                "When a Striker or Powerhouse class [Straw Hat Pirates], [Kuja Pirates] or [Logia-type] character performs Super Tandem",
+                "When a Striker or Powerhouse class [Straw Hat Pirates], [Kuja Pirates] or [Logia-type] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Straw Hat Pirates], [Kuja Pirates] and [Logia-type] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Kuja Pirates] and [Logia-type] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Kuja Pirates] and [Logia-type] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Kuja Pirates] and [Logia-type] characters by 5 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Kuja Pirates] and [Logia-type] characters by 6 for 1 turn."
+            ]
+        }
     },
     4419: {//Sabo
         captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK and HP of [Revolutionary Army] characters by 1.1x, boosts ATK of [DEX], Cerebral and Fighter characters by 5x-5.5x, by 5.5x-6.05x instead if they have a beneficial orb, boosts ATK of all other characters by 4x, boosts HP of [DEX], Cerebral and Fighter characters by 1.25x, by 1.375x instead if they have the applicable tag, and makes [STR], [DEX] and [RCV] orbs beneficial for all characters. If your crew has 4+ [Revolutionary Army] characters, launches following effect at start of quest: sets Chain Boundaries to 3.0x and 35.0x for 5 turns, and reduces Switch Effect and VS Gauge of all characters by 2 at the start of the fight.",
