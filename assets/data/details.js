@@ -141632,11 +141632,11 @@ window.details = {
             {
                 Characters: "Charlotte Linlin (Big Mom), Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero",
                 description: [
-                    "Once per adventure, if supported character uses a Special, deals 10x character's ATK in non-type damage to enemies at end of turn for 1 turn and boosts the chain multiplier by +0.2 for 1 turn",
-                    "Once per adventure, if supported character uses a Special, deals 20x character's ATK in non-type damage to enemies at end of turn for 1 turn and boosts the chain multiplier by +0.3 for 1 turn",
-                    "Once per adventure, if supported character uses a Special, deals 30x character's ATK in non-type damage to enemies at end of turn for 1 turn and boosts the chain multiplier by +0.4 for 1 turn",
-                    "Once per adventure, if supported character uses a Special, deals 40x character's ATK in non-type damage to enemies at end of turn for 1 turn and boosts the chain multiplier by +0.5 for 1 turn",
-                    "Once per adventure, if supported character uses a Special, deals 50x character's ATK in non-type damage to enemies at end of turn for 1 turn and boosts the chain multiplier by +0.6 for 1 turn"
+                    "Once per adventure, when the supported character uses their special, deals 10x character's ATK in Typeless damage to all enemies at the end of the turn for 1 turn, and adds 0.2x to chain multiplier for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, deals 20x character's ATK in Typeless damage to all enemies at the end of the turn for 1 turn, and adds 0.3x to chain multiplier for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, deals 30x character's ATK in Typeless damage to all enemies at the end of the turn for 1 turn, and adds 0.4x to chain multiplier for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, deals 40x character's ATK in Typeless damage to all enemies at the end of the turn for 1 turn, and adds 0.5x to chain multiplier for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, deals 50x character's ATK in Typeless damage to all enemies at the end of the turn for 1 turn, and adds 0.6x to chain multiplier for 1 turn."
                 ]
             }
         ]

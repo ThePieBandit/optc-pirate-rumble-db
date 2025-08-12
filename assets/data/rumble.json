@@ -232509,7 +232509,7 @@
           "cooldown": 35,
           "effects": [
             {
-              "attributes": [ "ATK", "HP", "RCV", "DEF", "SPD" ],
+              "attributes": [ "all" ],
               "chance": 10,
               "effect": "cleanse",
               "targeting": { "targets": [ "crew" ] }
@@ -235272,7 +235272,7 @@
               "attributes": [ "Shield" ],
               "level": 1,
               "duration": 21,
-              "effect": "boon",
+              "effect": "buff",
               "targeting": { "targets": [ "self" ] }
             },
             {
