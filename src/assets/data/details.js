@@ -172891,6 +172891,585 @@ window.details = {
             }
         ]
     },
+    4422: {//Bonney Pirates
+        captain: "Set ship's Special charge time to MAX at start of quest, boosts [STR] and Free Spirit characters' ATK by 5.25x, boosts their ATK by approximately 5.75x when they have [RCV] slots, boosts their HP by 1.2x, RCV by 1.3x, and makes their [STR][RCV] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Bonney Pirates] [Egghead Arc] characters are on the crew, reduces crew's Burn (applied by enemy) duration by  6 turns, and extends the duration of ATK boosts and lock chain multiplier effects that are launched by crew Specials by 1 turn ",
+        special: "Reduces all enemies' Threshold Damage Reduction duration by 7 turns, reduces crew's Counter-HealingCounter-RCV duration by 4 turns, and allows crew to perform Super Tandem with [RCV] slots for 1 turn. If Captain is a [STR] type, reduces all enemies' damage reduction from certain slots effect duration by 3 turns. If crew has ATK Up and lock chain multiplier effect at the same time when Special is launched, boosts Free Spirit characters' advantageous class effect by 1.75x for 1 turn, and applies \"Territory: Free Spirit class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn, then after that, boosts Free Spirit and Fighter characters' ATK by 3x for 2 turns",
+        specialName: "Landing to Reunite",
+        sailor: {
+            base: "Makes crew's [RCV] slots have matching slot effects, and if field has \"Territory: Free Spirit class\" or \"Territory: Fighter class\", boosts crew's base stats by 200 (boosts crew's base HP by 200 otherwise)",
+            level1: "Tapping on this character with a [RCV] slot will apply -10% [STR] Resistance to all enemies for 1 turn"
+        },
+        superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
+        superSpecial: "Changes crew's slots (including [BLOCK] slots) to [RCV], changes the ATK multiplier of [RCV] slots to 2.75x when slots match (normally 2x when matching), 0.5x when unfavorable, 1.0x otherwise for 3 turns, and changes [STR] characters to Super [STR]",
+        support: [
+            {
+                Characters: "[STR] characters",
+                description: [
+                    "Adds 8% of character's base stats to supported character's base stats",
+                    "Adds 9% of character's base stats to supported character's base stats",
+                    "Adds 10% of character's base stats to supported character's base stats",
+                    "Adds 11% of character's base stats to supported character's base stats",
+                    "Adds 12% of character's base stats to supported character's base stats"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire Potential 1: Ship Bind" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Acquire Potential 2: Nutrition/Hunger" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Acquire Sailor Ability 2: Tapping on this character with a [RCV] slot will apply -10% [STR] Resistance to all enemies for 1 turn" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 60" },
+            { description: "Boosts base ATK by 60" },
+            { description: "Acquire Potential 3: Super Tandem" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 200" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Ship Bind",
+                description: [
+                    "Reduces Ship Bind duration by 1 turn",
+                    "Reduces Ship Bind duration by 2 turns",
+                    "Reduces Ship Bind duration by 3 turns",
+                    "Reduces Ship Bind duration by 4 turns",
+                    "Reduces Ship Bind duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Nutrition/Hunger",
+                description: [
+                    "Boosts base ATK by up to 50, the turn after recovering up to 3000 HP and reduces Hunger stack by 1 stack",
+                    "Boosts base ATK by up to 100, the turn after recovering up to 3000 HP and reduces Hunger stack by 1 stack",
+                    "Boosts base ATK by up to 150, the turn after recovering up to 3000 HP and reduces Hunger stack by 2 stacks",
+                    "Boosts base ATK by up to 200, the turn after recovering up to 3000 HP and reduces Hunger stack by 2 stacks",
+                    "Boosts base ATK by up to 300, the turn after recovering up to 3000 HP and reduces Hunger stack by 3 stacks"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
+                "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
+                "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
+                "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
+                "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru"
+            ],
+            description: [
+                "Applies ATK Boost (Tandem) of 1.5x to Free Spirit and Fighter characters for 1 turn, and boosts base ATK by +500 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.6x to Free Spirit and Fighter characters for 1 turn, and boosts base ATK by +600 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.7x to Free Spirit and Fighter characters for 1 turn, and boosts base ATK by +700 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.8x to Free Spirit and Fighter characters for 1 turn, and boosts base ATK by +800 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
+                "Applies ATK Boost (Tandem) of 2x to Free Spirit and Fighter characters for 1 turn, and boosts base ATK by +1000 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 186,
+            spd: 167,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Heal Self Lv.2"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from [DEX] by 30％",
+        festAbility: [
+            "[STR] teammates ATK Up Lv.1, DEF Up Lv.1, Special CT Speed Up Lv.1; [World Government] enemies Special CT Speed Down Lv.1",
+            "[STR] teammates ATK Up Lv.2, DEF Up Lv.2, Special CT Speed Up Lv.1; [World Government] enemies Special CT Speed Down Lv.2",
+            "[STR] teammates ATK Up Lv.3, DEF Up Lv.3, Special CT Speed Up Lv.1; [World Government] enemies Special CT Speed Down Lv.3",
+            "[STR] teammates ATK Up Lv.4, DEF Up Lv.4, Special CT Speed Up Lv.1; [World Government] enemies Special CT Speed Down Lv.4",
+            "[STR] teammates ATK Up Lv.5, DEF Up Lv.5, Special CT Speed Up Lv.3; [World Government] enemies Special CT Speed Down Lv.5"
+        ],
+        festSpecial: [
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies with high Special CT for Special CT 21% delay; targets [STR] teammates for ATK Up Lv.1 (11 s); targets [World Government] enemies for Special CT Speed Down Lv.1 (11 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 5% delay"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies with high Special CT for Special CT 22% delay; targets [STR] teammates for ATK Up Lv.1 (12 s); targets [World Government] enemies for Special CT Speed Down Lv.1 (12 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 5% delay"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies with high Special CT for Special CT 23% delay; targets [STR] teammates for ATK Up Lv.1 (13 s); targets [World Government] enemies for Special CT Speed Down Lv.1 (13 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 6% delay"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies with high Special CT for Special CT 24% delay; targets [STR] teammates for ATK Up Lv.2 (14 s); targets [World Government] enemies for Special CT Speed Down Lv.2 (14 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 6% delay"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies with high Special CT for Special CT 25% delay; targets [STR] teammates for ATK Up Lv.2 (15 s); targets [World Government] enemies for Special CT Speed Down Lv.2 (15 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 7% delay"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies with high Special CT for Special CT 26% delay; targets [STR] teammates for ATK Up Lv.3 (16 s); targets [World Government] enemies for Special CT Speed Down Lv.3 (16 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 7% delay"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies with high Special CT for Special CT 27% delay; targets [STR] teammates for ATK Up Lv.3 (17 s); targets [World Government] enemies for Special CT Speed Down Lv.3 (17 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 8% delay"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies with high Special CT for Special CT 28% delay; targets [STR] teammates for ATK Up Lv.3 (18 s); targets [World Government] enemies for Special CT Speed Down Lv.3 (18 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 8% delay"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies with high Special CT for Special CT 29% delay; targets [STR] teammates for ATK Up Lv.4 (19 s); targets [World Government] enemies for Special CT Speed Down Lv.4 (19 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 9% delay"
+            },
+            {
+                cooldown: 30,
+                description: "Targets 3 enemies with high Special CT for Special CT 30% delay; targets [STR] teammates for ATK Up Lv.5 (20 s); targets [World Government] enemies for Special CT Speed Down Lv.5 (20 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 10% delay"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
+                festGPSpecial: "Targets all enemies for 500 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 625 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 750 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 875 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 1000 damage",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "When 2 teammates are defeated"
+    },
+    4423: {//Vega Punk
+        captain: "Boosts Cerebral and Free Spirit characters' ATK by 4x, HP by 1.2x, and makes their [STR] slots have matching slot effects",
+        special: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, reduces crew's Paralysis duration by 6 turns, removes all Poison, sets the chain multiplier's minimum value at 2.75 and maximum value at 15.0 for 1 turn, changes crew's slots randomly to [STR][QCK][DEX][INT][RCV], makes it impossible to change crew's slots to [PSY][TND] for 1 turn, and if 6 Free Spirit characters are on the crew, applies -30% Free Spirit Resistance to all enemies for 1 turn, and if 2 or more [Scientist] characters are on the crew, applies -30% Cerebral Resistance to all enemies for 1 turn",
+        specialName: "Emotional Last Words",
+        sailor: {
+            base: "Boosts Cerebral and Free Spirit characters' base HP by 150",
+            level1: "Heals crew by 500 HP at end of turn"
+        },
+        support: [
+            {
+                Characters: "[STR] characters",
+                description: [
+                    "Adds 2% of character's base stats to supported character's base stats",
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 6% of character's base stats to supported character's base stats",
+                    "Adds 8% of character's base stats to supported character's base stats"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 1: Pinch Healing" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 70" },
+            { description: "Boosts base HP by 70" },
+            { description: "Acquire Sailor Ability 2: Heals crew by 500 HP at end of turn" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Super Tandem Boost" },
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 15% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Scientist] [Bonney Pirates] character performs Super Tandem",
+                "When a [Scientist] [Bonney Pirates] character performs Super Tandem",
+                "When a [Scientist] [Bonney Pirates] character performs Super Tandem",
+                "When a [Scientist] [Bonney Pirates] character performs Super Tandem",
+                "When a [Scientist] [Bonney Pirates] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Scientist] characters by 1 for 1 turn",
+                "Raises Boost Level of [Scientist] [Bonney Pirates] characters by 1 for 1 turn",
+                "Raises Boost Level of [Scientist] [Bonney Pirates] characters by 1 and raises Boost Level of [Egghead Arc] characters by 1 for 1 turn",
+                "Raises Boost Level of [Scientist] [Bonney Pirates] characters by 2 and raises Boost Level of [Egghead Arc] characters by 1 for 1 turn",
+                "Raises Boost Level of [Scientist] [Bonney Pirates] characters by 3 and raises Boost Level of [Egghead Arc] characters by 1 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack"
+        ],
+        festAttackTarget: "Targets closest enemies"
+    },
+    4424: {//6+ Kizaru
+        captain: "Reduces Special charge time of ship and crew by 2 turns at start of quest, boosts [STR], [DEX], and [QCK] characters' ATK by 4.75x, HP by 1.3x, boosts their ATK by approximately 5.25x in turns where \"Warning the Genius\" is used, and if crew uses a Special to boost type effects, extends the duration of that effect by 2 turns",
+        special: [
+            {
+                description: "Reduces crew's Special charge time by 1 turn, reduces crew's Special Bind duration by 5 turns, double the type effects of normal attacks for [STR], [DEX], and [QCK] characters for 1 turn, and boosts the chain multiplier by +1.2 for 1 turn",
+                cooldown: [
+                    14,
+                    9
+                ]
+            },
+            {
+                description: "Reduces crew's Special charge time by 1 turn, reduces crew's Special Bind duration by 10 turns, boosts the type effects of normal attacks for [STR], [DEX], and [QCK] characters by 2.75x for 1 turn, boosts the chain multiplier by +1.4 for 1 turn, and if 3 or more [Navy Admiral] [Navy Vice Admiral] characters are on the crew, reduces crew's Pain duration by 3 turns",
+                cooldown: [
+                    19,
+                    14
+                ]
+            }
+        ],
+        specialName: "Warning the Genius",
+        sailor: {
+            level1: "Reduces character's Special Bind duration by 10 turns",
+            level2: "Reduces character's Special Reverse by 10 turns"
+        },
+        support: [
+            {
+                Characters: "[DEX] Shooter characters",
+                description: [
+                    "Boosts the type effects of normal attacks for [DEX] characters by 1.1x for 1 turn at start of final battle",
+                    "Boosts the type effects of normal attacks for [DEX] characters by 1.2x for 1 turn at start of final battle",
+                    "Boosts the type effects of normal attacks for [DEX] characters by 1.3x for 1 turn at start of final battle",
+                    "Boosts the type effects of normal attacks for [DEX] characters by 1.4x for 1 turn at start of final battle",
+                    "Boosts the type effects of normal attacks for [DEX] characters by 1.5x for 1 turn at start of final battle"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 10" },
+            { description: "Acquire Potential 1: Slot Barrier" },
+            { description: "Boosts base HP by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Acquire Sailor Ability 1: Reduces character's Special Bind duration by 10 turns" },
+            { description: "Boosts base HP by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Acquire Potential 2: Sailor Despair" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 50" },
+            { description: "Acquire Sailor Ability 2: Reduces character's Special Reverse by 10 turns" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 70" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Barrier Penetration" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 25" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 25" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base HP by 200" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base ATK by 100" },
+        ],
+        lLimit: [
+            null,
+            {
+                rAbility: true
+            },
+            {
+                captain: {
+                    base: "Reduces Special charge time of ship and crew by 2 turns at start of quest, boosts [STR], [DEX], and [QCK] characters' ATK by 5x, HP by 1.3x, and boosts their ATK by 5.4x in turns where \"Warning the Genius\" is used. If crew uses a Special to boost type effects, extends the duration of that effect by 2 turns and adds +0.25 to the boost (stackable with other further raising effects). Tapping on this character with a [STR][DEX][QCK] slot will apply -7% Fighter, Shooter, and Free Spirit Resistance to all enemies for 1 turn"
+                }
+            },
+            {
+                rSpecial: true
+            },
+            {
+                special: {
+                    base: [
+                        {
+                            description: "Reduces crew's Special charge time by 1 turn, reduces crew's Special Bind duration by 6 turns, doubles the type effects of normal attacks for [STR], [DEX], and [QCK] characters for 1 turn, boosts the chain multiplier by +1.2 for 1 turn, and if 3 or more [Navy Admiral] [Navy Vice Admiral] characters are on the crew, further increases crew's type effect boost and chain multiplier additive boost (except multiplicative boosts) by +0.4 (this effect also applies to type effect boost and chain multiplier additive boost from this Special)",
+                            cooldown: [
+                                14,
+                                9
+                            ]
+                        },
+                        {
+                            description: "Reduces crew's Special charge time by 1 turn, and reduces crew's Special Bind duration by 10 turns. If crew has type effect boost when Special is launched, boosts [STR], [DEX], and [QCK] characters' base ATK by +1250 for 3 turns, and extends the duration of crew's damage dealt to enemies with a specific status effect boost by 2 turns (boosts the type effects of normal attacks for [STR], [DEX], and [QCK] characters by 2.75x for 1 turn otherwise), then after that, boosts the chain multiplier by +1.6 for 3 turns, and if 3 or more [Navy Admiral] [Navy Vice Admiral] characters are on the crew, reduces crew's Pain duration by 5 turns, and reduces character's Special charge time by 5 turns (Special charge time reduction effect of \"Warning the Genius\" can be activated up to 1 time including any Specials with similar effect)",
+                            cooldown: [
+                                19,
+                                14
+                            ]
+                        }
+                    ]
+                },
+                rResilience: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Slot Barrier",
+                description: [
+                    "Reduces Slot Barrier duration by 1 stack on this character",
+                    "Reduces Slot Barrier duration by 2 stacks on this character",
+                    "Reduces Slot Barrier duration by 3 stacks on this character",
+                    "Reduces Slot Barrier duration by 4 stacks on this character",
+                    "Reduces Slot Barrier duration by 5 stacks on this character"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character",
+                    "Reduces Sailor Despair duration by 4 turns on this character",
+                    "Reduces Sailor Despair duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "This character's normal attack will ignore barriers"
+                ]
+            }
+        ],
+        festStats: {
+            def: 187,
+            spd: 200,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Medium Range)",
+            "Normal Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: {
+            base: "Completely evades Special Bind, reduce damage taken from [QCK] by 30%, increase damage dealt to [QCK] by 30%",
+            llbbase: "Completely evades Special Bind, reduce damage taken from [QCK] by 40%, increase damage dealt to [QCK] by 40%"
+        },
+        festAbility: {
+            base: [
+                "[DEX] teammates SPD Up Lv.3, DEF Up Lv.3; [QCK] enemies ATK Down Lv.3, SPD Down Lv.3",
+                "[DEX] teammates SPD Up Lv.4, DEF Up Lv.4; [QCK] enemies ATK Down Lv.4, SPD Down Lv.4",
+                "[DEX] teammates SPD Up Lv.5, DEF Up Lv.5; [QCK] enemies ATK Down Lv.5, SPD Down Lv.5",
+                "[DEX] teammates SPD Up Lv.6, DEF Up Lv.6; [QCK] enemies ATK Down Lv.6, SPD Down Lv.6",
+                "[DEX] teammates SPD Up Lv.7, DEF Up Lv.7; [QCK] enemies ATK Down Lv.7, SPD Down Lv.7"
+            ],
+            llbbase: [
+                "[DEX] teammates SPD Up Lv.3, DEF Up Lv.3; [QCK] enemies ATK Down Lv.4, SPD Down Lv.4",
+                "[DEX] teammates SPD Up Lv.4, DEF Up Lv.4; [QCK] enemies ATK Down Lv.5, SPD Down Lv.5",
+                "[DEX] teammates SPD Up Lv.5, DEF Up Lv.5; [QCK] enemies ATK Down Lv.6, SPD Down Lv.6",
+                "[DEX] teammates SPD Up Lv.6, DEF Up Lv.6; [QCK] enemies ATK Down Lv.7, SPD Down Lv.7",
+                "[DEX] teammates SPD Up Lv.7, DEF Up Lv.7; [QCK] enemies ATK Down Lv.8, SPD Down Lv.8"
+            ]
+        },
+        festSpecial: {
+            base: [
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2000 damage; targets [DEX] teammates for DEF Up Lv.2 (11 s), ATK Up Lv.2 (11 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2100 damage; targets [DEX] teammates for DEF Up Lv.2 (12 s), ATK Up Lv.2 (12 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2200 damage; targets [DEX] teammates for DEF Up Lv.3 (13 s), ATK Up Lv.3 (13 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2300 damage; targets [DEX] teammates for DEF Up Lv.3 (14 s), ATK Up Lv.3 (14 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2400 damage; targets [DEX] teammates for DEF Up Lv.4 (15 s), ATK Up Lv.4 (15 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2500 damage; targets [DEX] teammates for DEF Up Lv.4 (16 s), ATK Up Lv.4 (16 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2600 damage; targets [DEX] teammates for DEF Up Lv.5 (17 s), ATK Up Lv.5 (17 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2700 damage; targets [DEX] teammates for DEF Up Lv.5 (18 s), ATK Up Lv.5 (18 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2800 damage; targets [DEX] teammates for DEF Up Lv.6 (19 s), ATK Up Lv.6 (19 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 3000 damage; targets [DEX] teammates for DEF Up Lv.6 (20 s), ATK Up Lv.6 (20 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
+                }
+            ],
+            llbbase: [
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2500 damage; targets [DEX] teammates for DEF Up Lv.2 (11 s), ATK Up Lv.2 (11 s), SPD Up Lv.2 (11 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2600 damage; targets [DEX] teammates for DEF Up Lv.2 (12 s), ATK Up Lv.2 (12 s), SPD Up Lv.2 (12 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2700 damage; targets [DEX] teammates for DEF Up Lv.3 (13 s), ATK Up Lv.3 (13 s), SPD Up Lv.3 (13 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2800 damage; targets [DEX] teammates for DEF Up Lv.3 (14 s), ATK Up Lv.3 (14 s), SPD Up Lv.3 (14 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 2900 damage; targets [DEX] teammates for DEF Up Lv.4 (15 s), ATK Up Lv.4 (15 s), SPD Up Lv.4 (15 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 3000 damage; targets [DEX] teammates for DEF Up Lv.4 (16 s), ATK Up Lv.4 (16 s), SPD Up Lv.4 (16 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 3100 damage; targets [DEX] teammates for DEF Up Lv.5 (17 s), ATK Up Lv.5 (17 s), SPD Up Lv.5 (17 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 3200 damage; targets [DEX] teammates for DEF Up Lv.5 (18 s), ATK Up Lv.5 (18 s), SPD Up Lv.5 (18 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 3300 damage; targets [DEX] teammates for DEF Up Lv.6 (19 s), ATK Up Lv.6 (19 s), SPD Up Lv.6 (19 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets enemies within large range for 3500 damage; targets [DEX] teammates for DEF Up Lv.6 (20 s), ATK Up Lv.6 (20 s), SPD Up Lv.6 (20 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
+                }
+            ]
+        },
+        festAbilityGP: [
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
+                festGPSpecial: "Targets all enemies for 500 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 625 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 750 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 875 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 1000 damage",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "When 2 teammates are defeated"
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
