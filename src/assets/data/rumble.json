@@ -52813,18 +52813,7 @@
             {
               "amount": 0.7,
               "effect": "damage",
-              "targeting": { "count": 1, "priority": "highest", "stat": "ATK", "targets": [ "enemies" ] },
-              "type": "atk"
-            },
-            {
-              "amount": 0.7,
-              "effect": "damage",
-              "targeting": { "count": 1, "priority": "highest", "stat": "ATK", "targets": [ "enemies" ] },
-              "type": "atk"
-            },
-            {
-              "amount": 0.7,
-              "effect": "damage",
+              "repeat": 3,
               "targeting": { "count": 1, "priority": "highest", "stat": "ATK", "targets": [ "enemies" ] },
               "type": "atk"
             }
@@ -52838,12 +52827,6 @@
             },
             {
               "override": { "amount": 0.72 }
-            },
-            {
-              "override": { "amount": 0.72 }
-            },
-            {
-              "override": { "amount": 0.72 }
             }
           ]
         },
@@ -52855,12 +52838,6 @@
             },
             {
               "override": { "amount": 0.73 }
-            },
-            {
-              "override": { "amount": 0.73 }
-            },
-            {
-              "override": { "amount": 0.73 }
             }
           ]
         },
@@ -52869,12 +52846,6 @@
           "effects": [
             {
               "override": { "level": 7 }
-            },
-            {
-              "override": { "amount": 0.75 }
-            },
-            {
-              "override": { "amount": 0.75 }
             },
             {
               "override": { "amount": 0.75 }
@@ -52889,12 +52860,6 @@
             },
             {
               "override": { "amount": 0.77 }
-            },
-            {
-              "override": { "amount": 0.77 }
-            },
-            {
-              "override": { "amount": 0.77 }
             }
           ]
         },
@@ -52903,12 +52868,6 @@
           "effects": [
             {
               "override": { "level": 9 }
-            },
-            {
-              "override": { "amount": 0.79 }
-            },
-            {
-              "override": { "amount": 0.79 }
             },
             {
               "override": { "amount": 0.79 }
@@ -52923,12 +52882,6 @@
             },
             {
               "override": { "amount": 0.8 }
-            },
-            {
-              "override": { "amount": 0.8 }
-            },
-            {
-              "override": { "amount": 0.8 }
             }
           ]
         },
@@ -52940,12 +52893,6 @@
             },
             {
               "override": { "amount": 0.82 }
-            },
-            {
-              "override": { "amount": 0.82 }
-            },
-            {
-              "override": { "amount": 0.82 }
             }
           ]
         },
@@ -52954,12 +52901,6 @@
           "effects": [
             {
               "override": { "level": 10 }
-            },
-            {
-              "override": { "amount": 0.84 }
-            },
-            {
-              "override": { "amount": 0.84 }
             },
             {
               "override": { "amount": 0.84 }
@@ -52971,12 +52912,6 @@
           "effects": [
             {
               "override": { "level": 12 }
-            },
-            {
-              "override": { "amount": 0.95 }
-            },
-            {
-              "override": { "amount": 0.95 }
             },
             {
               "override": { "amount": 0.95 }
@@ -148133,18 +148068,7 @@
             {
               "amount": 0.7,
               "effect": "damage",
-              "targeting": { "count": 2, "priority": "highest", "stat": "ATK", "targets": [ "enemies" ] },
-              "type": "atk"
-            },
-            {
-              "amount": 0.7,
-              "effect": "damage",
-              "targeting": { "count": 2, "priority": "highest", "stat": "ATK", "targets": [ "enemies" ] },
-              "type": "atk"
-            },
-            {
-              "amount": 0.7,
-              "effect": "damage",
+              "repeat": 3,
               "targeting": { "count": 2, "priority": "highest", "stat": "ATK", "targets": [ "enemies" ] },
               "type": "atk"
             }
@@ -148158,12 +148082,6 @@
             },
             {
               "override": { "amount": 0.8 }
-            },
-            {
-              "override": { "amount": 0.8 }
-            },
-            {
-              "override": { "amount": 0.8 }
             }
           ]
         },
@@ -148172,12 +148090,6 @@
           "effects": [
             {
               "override": { "level": 7 }
-            },
-            {
-              "override": { "amount": 0.9 }
-            },
-            {
-              "override": { "amount": 0.9 }
             },
             {
               "override": { "amount": 0.9 }
@@ -148192,12 +148104,6 @@
             },
             {
               "override": { "amount": 1 }
-            },
-            {
-              "override": { "amount": 1 }
-            },
-            {
-              "override": { "amount": 1 }
             }
           ]
         },
@@ -148206,12 +148112,6 @@
           "effects": [
             {
               "override": { "level": 8 }
-            },
-            {
-              "override": { "amount": 1.1 }
-            },
-            {
-              "override": { "amount": 1.1 }
             },
             {
               "override": { "amount": 1.1 }
@@ -148226,12 +148126,6 @@
             },
             {
               "override": { "amount": 1.2 }
-            },
-            {
-              "override": { "amount": 1.2 }
-            },
-            {
-              "override": { "amount": 1.2 }
             }
           ]
         },
@@ -148243,12 +148137,6 @@
             },
             {
               "override": { "amount": 1.3 }
-            },
-            {
-              "override": { "amount": 1.3 }
-            },
-            {
-              "override": { "amount": 1.3 }
             }
           ]
         },
@@ -148257,12 +148145,6 @@
           "effects": [
             {
               "override": { "level": 9 }
-            },
-            {
-              "override": { "amount": 1.4 }
-            },
-            {
-              "override": { "amount": 1.4 }
             },
             {
               "override": { "amount": 1.4 }
@@ -148277,12 +148159,6 @@
             },
             {
               "override": { "amount": 1.5 }
-            },
-            {
-              "override": { "amount": 1.5 }
-            },
-            {
-              "override": { "amount": 1.5 }
             }
           ]
         },
@@ -148291,12 +148167,6 @@
           "effects": [
             {
               "override": { "level": 12 }
-            },
-            {
-              "override": { "amount": 1.5 }
-            },
-            {
-              "override": { "amount": 1.5 }
             },
             {
               "override": { "amount": 1.5 }
