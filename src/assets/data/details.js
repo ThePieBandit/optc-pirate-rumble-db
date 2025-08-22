@@ -166896,7 +166896,7 @@ window.details = {
 	},
 	4353: {//Kuma
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cerebral and Powerhouse characters by 5.25x, boosts HP of Cerebral and Powerhouse characters by 1.4x, boosts base HP of [Paramythia-type] and [Revolutionary Army] characters by 1,500, makes [PSY], [RCV] and [TND] orbs beneficial for Cerebral and Powerhouse characters, and reduces Paralysis duration by 10 turns. If your crew has 4+ [Egghead] characters, boosts ATK of Cerebral and Powerhouse characters by 5.775x instead. If your crew has 5+ [Egghead] characters, reduces Despair duration by 2 turns.",
-		special: "Reduces Special Cooldown of Cerebral and Powerhouse characters by 1 turn, reduces Switch Effect of Cerebral and Powerhouse characters by 3, reduces Blow Away duration by 4 turns, and boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 3 turns. If your crew has 4+ [Paramythia-type], [Egghead] or [Revolutionary Army] characters, increases boost effects of Chain Addition buffs by +1.0x, and adds 1.6x, can be enhanced up to 2 times, to Chain Multiplier for 3 turns; adds 1.4x, can be enhanced up to 2 times, to Chain Multiplier for 1 turn otherwise.",
+		special: "Reduces Special Cooldown of Cerebral and Powerhouse characters by 1 turn, reduces Switch Effect of Cerebral and Powerhouse characters by 3, reduces Blow Away duration by 4 turns, and boosts Crew Damage Reduction to ATK of Cerebral and Powerhouse characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 3 turns. If your crew has 4+ [Paramythia-type], [Egghead] or [Revolutionary Army] characters, increases boost effects of Chain Addition buffs by +1.0x, and adds 1.6x, can be enhanced up to 2 times, to Chain Multiplier for 3 turns; adds 1.4x, can be enhanced up to 2 times, to Chain Multiplier for 1 turn otherwise.",
 		specialName: "Charging Through Fiercely",
 		sailor: {
 			base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
@@ -172663,7 +172663,7 @@ window.details = {
         specialName: "Crushing Dragon Claw",
         sailor: {
             base: "Reduces Despair duration by 1 turn.",
-            level1: "If field has Territory: Cerebral or Territory: [DEX], boosts base ATK, HP and RCV of all characters by 200; boosts base HP of all characters by 200."
+            level1: "If field has Territory: Cerebral or Territory: [DEX], boosts base ATK, HP and RCV of all characters by 200; boosts base HP of all characters by 200 otherwise."
         },
         superSpecialCriteria: "This character must be captain. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Monkey D. Dragon, Jewelry Bonney, Koala, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Hack, Inazuma, Bartholomew Kuma, Nico Robin, Ginny",
         superSpecial: "Deals 150x character's ATK in Typeless damage to all enemies, boosts the Color Affinity of [DEX], Cerebral and Fighter characters by 2.5x for 1 turn, increases boost effects of ATK Up and Orb Amplification buffs by +0.4x, and transforms [DEX] characters into Super [DEX] characters.",
@@ -172892,24 +172892,24 @@ window.details = {
         ]
     },
     4422: {//Bonney Pirates
-        captain: "Set ship's Special charge time to MAX at start of quest, boosts [STR] and Free Spirit characters' ATK by 5.25x, boosts their ATK by approximately 5.75x when they have [RCV] slots, boosts their HP by 1.2x, RCV by 1.3x, and makes their [STR][RCV] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Bonney Pirates] [Egghead Arc] characters are on the crew, reduces crew's Burn (applied by enemy) duration by  6 turns, and extends the duration of ATK boosts and lock chain multiplier effects that are launched by crew Specials by 1 turn ",
-        special: "Reduces all enemies' Threshold Damage Reduction duration by 7 turns, reduces crew's Counter-HealingCounter-RCV duration by 4 turns, and allows crew to perform Super Tandem with [RCV] slots for 1 turn. If Captain is a [STR] type, reduces all enemies' damage reduction from certain slots effect duration by 3 turns. If crew has ATK Up and lock chain multiplier effect at the same time when Special is launched, boosts Free Spirit characters' advantageous class effect by 1.75x for 1 turn, and applies \"Territory: Free Spirit class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn, then after that, boosts Free Spirit and Fighter characters' ATK by 3x for 2 turns",
+        captain: "Advances Special Cooldown of Ship to MAX at the start of the fight, boosts ATK of [STR] and Free Spirit characters by 5.25x, by 5.75x instead if they have a [RCV] orb, boosts HP of [STR] and Free Spirit characters by 1.2x, boosts RCV of [STR] and Free Spirit characters by 1.3x, and makes [STR] and [RCV] orbs beneficial for [STR] and Free Spirit characters. If your crew has 3+ [Bonney Pirates] or [Egghead Arc] characters, reduces Burn duration by 6 turns, and increases duration of any ATK Up and Chain Lock buffs applied by specials by 1 turn.",
+        special: "Reduces enemies' Threshold Damage Reduction duration by 7 turns, reduces Counter-Healing and Counter-RCV duration by 4 turns, allows crew to perform Super Tandem with [RCV] orbs for 1 turn, and boosts ATK of Free Spirit and Fighter characters by 3x for 2 turns. If your Captain is a [STR] character, reduces enemies' Orb-Based Damage Reduction duration by 3 turns. If your crew has ATK Up and Chain Lock when the special is activated, boosts Advantageous Class Effect of Free Spirit characters by 1.75x for 1 turn, and applies Territory: Free Spirit class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn.",
         specialName: "Landing to Reunite",
         sailor: {
-            base: "Makes crew's [RCV] slots have matching slot effects, and if field has \"Territory: Free Spirit class\" or \"Territory: Fighter class\", boosts crew's base stats by 200 (boosts crew's base HP by 200 otherwise)",
-            level1: "Tapping on this character with a [RCV] slot will apply -10% [STR] Resistance to all enemies for 1 turn"
+            base: "Makes [RCV] orbs beneficial for all characters. If field has Territory: Free Spirit or Territory: Fighter, boosts base ATK, HP and RCV of all characters by 200; boosts base HP of all characters by 200 otherwise.",
+            level1: "If this character has a [RCV] orb and you attack with this character, reduces enemies' [STR] Resistance by -10% for 1 turn."
         },
-        superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
-        superSpecial: "Changes crew's slots (including [BLOCK] slots) to [RCV], changes the ATK multiplier of [RCV] slots to 2.75x when slots match (normally 2x when matching), 0.5x when unfavorable, 1.0x otherwise for 3 turns, and changes [STR] characters to Super [STR]",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
+        superSpecial: "Changes all orbs, including [BLOCK] orbs, into [RCV] orbs, increases Orb Effects of beneficial [RCV] orbs to 2.75x for 3 turns, and transforms [STR] characters into Super [STR] characters.",
         support: [
             {
                 Characters: "[STR] characters",
                 description: [
-                    "Adds 8% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 10% of character's base stats to supported character's base stats",
-                    "Adds 11% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats"
+                    "Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 11% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -172989,128 +172989,38 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
-                "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
-                "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
-                "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
-                "When any of the following characters are on the crew (except as Support Characters): Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru"
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", Borsalino (Kizaru), Sentomaru"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.5x to Free Spirit and Fighter characters for 1 turn, and boosts base ATK by +500 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.6x to Free Spirit and Fighter characters for 1 turn, and boosts base ATK by +600 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.7x to Free Spirit and Fighter characters for 1 turn, and boosts base ATK by +700 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.8x to Free Spirit and Fighter characters for 1 turn, and boosts base ATK by +800 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
-                "Applies ATK Boost (Tandem) of 2x to Free Spirit and Fighter characters for 1 turn, and boosts base ATK by +1000 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn"
+                "Boosts Tandem ATK of Free Spirit and Fighter characters by 1.5x for 1 turn, and boosts base ATK of Last Tap character by +500 for 1 turn.",
+                "Boosts Tandem ATK of Free Spirit and Fighter characters by 1.6x for 1 turn, and boosts base ATK of Last Tap character by +600 for 1 turn.",
+                "Boosts Tandem ATK of Free Spirit and Fighter characters by 1.7x for 1 turn, and boosts base ATK of Last Tap character by +700 for 1 turn.",
+                "Boosts Tandem ATK of Free Spirit and Fighter characters by 1.8x for 1 turn, and boosts base ATK of Last Tap character by +800 for 1 turn.",
+                "Boosts Tandem ATK of Free Spirit and Fighter characters by 2x for 1 turn, and boosts base ATK of Last Tap character by +1,000 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 186,
-            spd: 167,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Heal Self Lv.2"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from [DEX] by 30％",
-        festAbility: [
-            "[STR] teammates ATK Up Lv.1, DEF Up Lv.1, Special CT Speed Up Lv.1; [World Government] enemies Special CT Speed Down Lv.1",
-            "[STR] teammates ATK Up Lv.2, DEF Up Lv.2, Special CT Speed Up Lv.1; [World Government] enemies Special CT Speed Down Lv.2",
-            "[STR] teammates ATK Up Lv.3, DEF Up Lv.3, Special CT Speed Up Lv.1; [World Government] enemies Special CT Speed Down Lv.3",
-            "[STR] teammates ATK Up Lv.4, DEF Up Lv.4, Special CT Speed Up Lv.1; [World Government] enemies Special CT Speed Down Lv.4",
-            "[STR] teammates ATK Up Lv.5, DEF Up Lv.5, Special CT Speed Up Lv.3; [World Government] enemies Special CT Speed Down Lv.5"
-        ],
-        festSpecial: [
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies with high Special CT for Special CT 21% delay; targets [STR] teammates for ATK Up Lv.1 (11 s); targets [World Government] enemies for Special CT Speed Down Lv.1 (11 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 5% delay"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies with high Special CT for Special CT 22% delay; targets [STR] teammates for ATK Up Lv.1 (12 s); targets [World Government] enemies for Special CT Speed Down Lv.1 (12 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 5% delay"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies with high Special CT for Special CT 23% delay; targets [STR] teammates for ATK Up Lv.1 (13 s); targets [World Government] enemies for Special CT Speed Down Lv.1 (13 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 6% delay"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies with high Special CT for Special CT 24% delay; targets [STR] teammates for ATK Up Lv.2 (14 s); targets [World Government] enemies for Special CT Speed Down Lv.2 (14 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 6% delay"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies with high Special CT for Special CT 25% delay; targets [STR] teammates for ATK Up Lv.2 (15 s); targets [World Government] enemies for Special CT Speed Down Lv.2 (15 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 7% delay"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies with high Special CT for Special CT 26% delay; targets [STR] teammates for ATK Up Lv.3 (16 s); targets [World Government] enemies for Special CT Speed Down Lv.3 (16 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 7% delay"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies with high Special CT for Special CT 27% delay; targets [STR] teammates for ATK Up Lv.3 (17 s); targets [World Government] enemies for Special CT Speed Down Lv.3 (17 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 8% delay"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies with high Special CT for Special CT 28% delay; targets [STR] teammates for ATK Up Lv.3 (18 s); targets [World Government] enemies for Special CT Speed Down Lv.3 (18 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 8% delay"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies with high Special CT for Special CT 29% delay; targets [STR] teammates for ATK Up Lv.4 (19 s); targets [World Government] enemies for Special CT Speed Down Lv.4 (19 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 9% delay"
-            },
-            {
-                cooldown: 30,
-                description: "Targets 3 enemies with high Special CT for Special CT 30% delay; targets [STR] teammates for ATK Up Lv.5 (20 s); targets [World Government] enemies for Special CT Speed Down Lv.5 (20 s); if \"Bartholomew Kuma\" or \"Ginny\" is on the team, targets [World Government] enemies for Special CT 10% delay"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
-                festGPSpecial: "Targets all enemies for 500 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 625 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 750 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 875 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 1000 damage",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When 2 teammates are defeated"
+        }
     },
     4423: {//Vega Punk
-        captain: "Boosts Cerebral and Free Spirit characters' ATK by 4x, HP by 1.2x, and makes their [STR] slots have matching slot effects",
-        special: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, reduces crew's Paralysis duration by 6 turns, removes all Poison, sets the chain multiplier's minimum value at 2.75 and maximum value at 15.0 for 1 turn, changes crew's slots randomly to [STR][QCK][DEX][INT][RCV], makes it impossible to change crew's slots to [PSY][TND] for 1 turn, and if 6 Free Spirit characters are on the crew, applies -30% Free Spirit Resistance to all enemies for 1 turn, and if 2 or more [Scientist] characters are on the crew, applies -30% Cerebral Resistance to all enemies for 1 turn",
+        captain: "Boosts ATK of Cerebral and Free Spirit characters by 4x, boosts HP of Cerebral and Free Spirit characters by 1.2x, and makes [STR] orbs beneficial for Cerebral and Free Spirit characters.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 6 turns, reduces Paralysis duration by 6 turns, removes Poison duration completely, sets Chain Boundaries to 2.75x and 15.0x for 1 turn, randomizes all orbs into [STR], [DEX], [QCK], [INT] or [RCV] orbs, and becomes unable to change to [PSY] and [TND] orbs for 1 turn. If your crew has 6 Free Spirit characters, reduces enemies' Free Spirit Resistance by -30% for 1 turn. If your crew has 2+ [Scientist] characters, reduces enemies' Cerebral Resistance by -30% for 1 turn.",
         specialName: "Emotional Last Words",
         sailor: {
-            base: "Boosts Cerebral and Free Spirit characters' base HP by 150",
-            level1: "Heals crew by 500 HP at end of turn"
+            base: "Boosts base HP of Cerebral and Free Spirit characters by 150.",
+            level1: "Recovers 500 HP at the end of each turn."
         },
         support: [
             {
                 Characters: "[STR] characters",
                 description: [
-                    "Adds 2% of character's base stats to supported character's base stats",
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 8% of character's base stats to supported character's base stats"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -173155,42 +173065,33 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Scientist] [Bonney Pirates] character performs Super Tandem",
-                "When a [Scientist] [Bonney Pirates] character performs Super Tandem",
-                "When a [Scientist] [Bonney Pirates] character performs Super Tandem",
-                "When a [Scientist] [Bonney Pirates] character performs Super Tandem",
-                "When a [Scientist] [Bonney Pirates] character performs Super Tandem"
+                "When a [Scientist] or [Bonney Pirates] character performs Super Tandem",
+                "When a [Scientist] or [Bonney Pirates] character performs Super Tandem",
+                "When a [Scientist] or [Bonney Pirates] character performs Super Tandem",
+                "When a [Scientist] or [Bonney Pirates] character performs Super Tandem",
+                "When a [Scientist] or [Bonney Pirates] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Scientist] characters by 1 for 1 turn",
-                "Raises Boost Level of [Scientist] [Bonney Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Scientist] [Bonney Pirates] characters by 1 and raises Boost Level of [Egghead Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [Scientist] [Bonney Pirates] characters by 2 and raises Boost Level of [Egghead Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [Scientist] [Bonney Pirates] characters by 3 and raises Boost Level of [Egghead Arc] characters by 1 for 1 turn"
+                "Raises Boost Level of [Scientist] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Bonney Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Scientist], [Bonney Pirates] and [Egghead Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Bonney Pirates] characters by 2 for 1 turn, and raises Boost Level of [Egghead Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Bonney Pirates] characters by 3 for 1 turn, and raises Boost Level of [Egghead Arc] characters by 1 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        }
     },
     4424: {//6+ Kizaru
-        captain: "Reduces Special charge time of ship and crew by 2 turns at start of quest, boosts [STR], [DEX], and [QCK] characters' ATK by 4.75x, HP by 1.3x, boosts their ATK by approximately 5.25x in turns where \"Warning the Genius\" is used, and if crew uses a Special to boost type effects, extends the duration of that effect by 2 turns",
+        captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, reduces Special Cooldown of ship by 2 turns at the start of the fight, boosts ATK of [STR], [DEX] and [QCK] characters by 4.75x, by 5.25x instead in the turn \"Warning the Genius\" is used, and boosts HP of [STR], [DEX] and [QCK] characters by 1.3x. If a crew member uses a special to boost Color Affinity, increases duration of any Color Affinity buffs by 2 turns.",
         special: [
             {
-                description: "Reduces crew's Special charge time by 1 turn, reduces crew's Special Bind duration by 5 turns, double the type effects of normal attacks for [STR], [DEX], and [QCK] characters for 1 turn, and boosts the chain multiplier by +1.2 for 1 turn",
+                description: "Reduces Special Cooldown of all characters by 1 turn, reduces Special Bind duration by 5 turns, boosts the Color Affinity of [STR], [DEX] and [QCK] characters by 2x for 1 turn, and adds 1.2x to chain multiplier for 1 turn.",
                 cooldown: [
                     14,
                     9
                 ]
             },
             {
-                description: "Reduces crew's Special charge time by 1 turn, reduces crew's Special Bind duration by 10 turns, boosts the type effects of normal attacks for [STR], [DEX], and [QCK] characters by 2.75x for 1 turn, boosts the chain multiplier by +1.4 for 1 turn, and if 3 or more [Navy Admiral] [Navy Vice Admiral] characters are on the crew, reduces crew's Pain duration by 3 turns",
+                description: "Reduces Special Cooldown of all characters by 1 turn, reduces Special Bind duration by 10 turns, boosts the Color Affinity of [STR], [DEX] and [QCK] characters by 2.75x for 1 turn, and adds 1.4x to chain multiplier for 1 turn. If your crew has 3+ [Navy Admiral] or [Navy Vice Admiral] characters, reduces Pain duration by 3 turns.",
                 cooldown: [
                     19,
                     14
@@ -173199,18 +173100,18 @@ window.details = {
         ],
         specialName: "Warning the Genius",
         sailor: {
-            level1: "Reduces character's Special Bind duration by 10 turns",
-            level2: "Reduces character's Special Reverse by 10 turns"
+            level1: "Reduces Special Bind duration by 10 turns on this character.",
+            level2: "Restores Special Cooldown of this character by 10 turns when it is rewinded."
         },
         support: [
             {
                 Characters: "[DEX] Shooter characters",
                 description: [
-                    "Boosts the type effects of normal attacks for [DEX] characters by 1.1x for 1 turn at start of final battle",
-                    "Boosts the type effects of normal attacks for [DEX] characters by 1.2x for 1 turn at start of final battle",
-                    "Boosts the type effects of normal attacks for [DEX] characters by 1.3x for 1 turn at start of final battle",
-                    "Boosts the type effects of normal attacks for [DEX] characters by 1.4x for 1 turn at start of final battle",
-                    "Boosts the type effects of normal attacks for [DEX] characters by 1.5x for 1 turn at start of final battle"
+                    "Once per adventure, when you reach the final stage, boosts the Color Affinity of [DEX] characters by 1.1x for 1 turn.",
+                    "Once per adventure, when you reach the final stage, boosts the Color Affinity of [DEX] characters by 1.2x for 1 turn.",
+                    "Once per adventure, when you reach the final stage, boosts the Color Affinity of [DEX] characters by 1.3x for 1 turn.",
+                    "Once per adventure, when you reach the final stage, boosts the Color Affinity of [DEX] characters by 1.4x for 1 turn.",
+                    "Once per adventure, when you reach the final stage, boosts the Color Affinity of [DEX] characters by 1.5x for 1 turn."
                 ]
             }
         ],
@@ -173263,7 +173164,7 @@ window.details = {
             },
             {
                 captain: {
-                    base: "Reduces Special charge time of ship and crew by 2 turns at start of quest, boosts [STR], [DEX], and [QCK] characters' ATK by 5x, HP by 1.3x, and boosts their ATK by 5.4x in turns where \"Warning the Genius\" is used. If crew uses a Special to boost type effects, extends the duration of that effect by 2 turns and adds +0.25 to the boost (stackable with other further raising effects). Tapping on this character with a [STR][DEX][QCK] slot will apply -7% Fighter, Shooter, and Free Spirit Resistance to all enemies for 1 turn"
+                    base: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, reduces Special Cooldown of ship by 2 turns at the start of the fight, boosts ATK of [STR], [DEX] and [QCK] characters by 5x, by 5.4x instead in the turn \"Warning the Genius\" is used, and boosts HP of [STR], [DEX] and [QCK] characters by 1.3x. If a crew member uses a special to boost Color Affinity, increases duration of any Color Affinity buffs by 2 turns, and increases boost effects of Color Affinity buffs by +0.25x. If this character has a [STR], [DEX] or [QCK] orb and you attack with this character, reduces enemies' Fighter, Shooter and Free Spirit Resistance by -7% for 1 turn."
                 }
             },
             {
@@ -173273,14 +173174,14 @@ window.details = {
                 special: {
                     base: [
                         {
-                            description: "Reduces crew's Special charge time by 1 turn, reduces crew's Special Bind duration by 6 turns, doubles the type effects of normal attacks for [STR], [DEX], and [QCK] characters for 1 turn, boosts the chain multiplier by +1.2 for 1 turn, and if 3 or more [Navy Admiral] [Navy Vice Admiral] characters are on the crew, further increases crew's type effect boost and chain multiplier additive boost (except multiplicative boosts) by +0.4 (this effect also applies to type effect boost and chain multiplier additive boost from this Special)",
+                            description: "Reduces Special Cooldown of all characters by 1 turn, reduces Special Bind duration by 6 turns, boosts the Color Affinity of [STR], [DEX] and [QCK] characters by 2x for 1 turn, and adds 1.2x to chain multiplier for 1 turn. If your crew has 3+ [Navy Admiral] or [Navy Vice Admiral] characters, increases boost effects of Color Affinity and Chain Addition buffs by +0.4x, including effects activated in the same ability.",
                             cooldown: [
                                 14,
                                 9
                             ]
                         },
                         {
-                            description: "Reduces crew's Special charge time by 1 turn, and reduces crew's Special Bind duration by 10 turns. If crew has type effect boost when Special is launched, boosts [STR], [DEX], and [QCK] characters' base ATK by +1250 for 3 turns, and extends the duration of crew's damage dealt to enemies with a specific status effect boost by 2 turns (boosts the type effects of normal attacks for [STR], [DEX], and [QCK] characters by 2.75x for 1 turn otherwise), then after that, boosts the chain multiplier by +1.6 for 3 turns, and if 3 or more [Navy Admiral] [Navy Vice Admiral] characters are on the crew, reduces crew's Pain duration by 5 turns, and reduces character's Special charge time by 5 turns (Special charge time reduction effect of \"Warning the Genius\" can be activated up to 1 time including any Specials with similar effect)",
+                            description: "Reduces Special Cooldown of all characters by 1 turn, reduces Special Bind duration by 10 turns, and adds 1.6x to chain multiplier for 3 turns. If your crew has Color Affinity when the special is activated, boosts Base ATK of [STR], [DEX] and [QCK] characters by 1,250 for 3 turns, and increases duration of any Status ATK Boosting buffs by 2 turns; boosts the Color Affinity of [STR], [DEX] and [QCK] characters by 2.75x for 1 turn otherwise. If your crew has 3+ [Navy Admiral] or [Navy Vice Admiral] characters, reduces Pain duration by 5 turns, and up to 1 time per adventure, reduces Special Cooldown of this character by 5 turns.",
                             cooldown: [
                                 19,
                                 14
@@ -173322,153 +173223,7 @@ window.details = {
                     "This character's normal attack will ignore barriers"
                 ]
             }
-        ],
-        festStats: {
-            def: 187,
-            spd: 200,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Medium Range)",
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: {
-            base: "Completely evades Special Bind, reduce damage taken from [QCK] by 30%, increase damage dealt to [QCK] by 30%",
-            llbbase: "Completely evades Special Bind, reduce damage taken from [QCK] by 40%, increase damage dealt to [QCK] by 40%"
-        },
-        festAbility: {
-            base: [
-                "[DEX] teammates SPD Up Lv.3, DEF Up Lv.3; [QCK] enemies ATK Down Lv.3, SPD Down Lv.3",
-                "[DEX] teammates SPD Up Lv.4, DEF Up Lv.4; [QCK] enemies ATK Down Lv.4, SPD Down Lv.4",
-                "[DEX] teammates SPD Up Lv.5, DEF Up Lv.5; [QCK] enemies ATK Down Lv.5, SPD Down Lv.5",
-                "[DEX] teammates SPD Up Lv.6, DEF Up Lv.6; [QCK] enemies ATK Down Lv.6, SPD Down Lv.6",
-                "[DEX] teammates SPD Up Lv.7, DEF Up Lv.7; [QCK] enemies ATK Down Lv.7, SPD Down Lv.7"
-            ],
-            llbbase: [
-                "[DEX] teammates SPD Up Lv.3, DEF Up Lv.3; [QCK] enemies ATK Down Lv.4, SPD Down Lv.4",
-                "[DEX] teammates SPD Up Lv.4, DEF Up Lv.4; [QCK] enemies ATK Down Lv.5, SPD Down Lv.5",
-                "[DEX] teammates SPD Up Lv.5, DEF Up Lv.5; [QCK] enemies ATK Down Lv.6, SPD Down Lv.6",
-                "[DEX] teammates SPD Up Lv.6, DEF Up Lv.6; [QCK] enemies ATK Down Lv.7, SPD Down Lv.7",
-                "[DEX] teammates SPD Up Lv.7, DEF Up Lv.7; [QCK] enemies ATK Down Lv.8, SPD Down Lv.8"
-            ]
-        },
-        festSpecial: {
-            base: [
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2000 damage; targets [DEX] teammates for DEF Up Lv.2 (11 s), ATK Up Lv.2 (11 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2100 damage; targets [DEX] teammates for DEF Up Lv.2 (12 s), ATK Up Lv.2 (12 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2200 damage; targets [DEX] teammates for DEF Up Lv.3 (13 s), ATK Up Lv.3 (13 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2300 damage; targets [DEX] teammates for DEF Up Lv.3 (14 s), ATK Up Lv.3 (14 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2400 damage; targets [DEX] teammates for DEF Up Lv.4 (15 s), ATK Up Lv.4 (15 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2500 damage; targets [DEX] teammates for DEF Up Lv.4 (16 s), ATK Up Lv.4 (16 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2600 damage; targets [DEX] teammates for DEF Up Lv.5 (17 s), ATK Up Lv.5 (17 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2700 damage; targets [DEX] teammates for DEF Up Lv.5 (18 s), ATK Up Lv.5 (18 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2800 damage; targets [DEX] teammates for DEF Up Lv.6 (19 s), ATK Up Lv.6 (19 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 3000 damage; targets [DEX] teammates for DEF Up Lv.6 (20 s), ATK Up Lv.6 (20 s); if 8 [DEX] characters are on the team, targets 2 enemies with high Special CT for Special CT 20% delay"
-                }
-            ],
-            llbbase: [
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2500 damage; targets [DEX] teammates for DEF Up Lv.2 (11 s), ATK Up Lv.2 (11 s), SPD Up Lv.2 (11 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2600 damage; targets [DEX] teammates for DEF Up Lv.2 (12 s), ATK Up Lv.2 (12 s), SPD Up Lv.2 (12 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2700 damage; targets [DEX] teammates for DEF Up Lv.3 (13 s), ATK Up Lv.3 (13 s), SPD Up Lv.3 (13 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2800 damage; targets [DEX] teammates for DEF Up Lv.3 (14 s), ATK Up Lv.3 (14 s), SPD Up Lv.3 (14 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 2900 damage; targets [DEX] teammates for DEF Up Lv.4 (15 s), ATK Up Lv.4 (15 s), SPD Up Lv.4 (15 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 3000 damage; targets [DEX] teammates for DEF Up Lv.4 (16 s), ATK Up Lv.4 (16 s), SPD Up Lv.4 (16 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 3100 damage; targets [DEX] teammates for DEF Up Lv.5 (17 s), ATK Up Lv.5 (17 s), SPD Up Lv.5 (17 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 3200 damage; targets [DEX] teammates for DEF Up Lv.5 (18 s), ATK Up Lv.5 (18 s), SPD Up Lv.5 (18 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 3300 damage; targets [DEX] teammates for DEF Up Lv.6 (19 s), ATK Up Lv.6 (19 s), SPD Up Lv.6 (19 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
-                },
-                {
-                    cooldown: 17,
-                    description: "Targets enemies within large range for 3500 damage; targets [DEX] teammates for DEF Up Lv.6 (20 s), ATK Up Lv.6 (20 s), SPD Up Lv.6 (20 s); if 8 [DEX] characters are on the team, targets 3 enemies with high Special CT for Special CT 20% delay"
-                }
-            ]
-        },
-        festAbilityGP: [
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
-                festGPSpecial: "Targets all enemies for 500 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 625 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 750 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 875 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 1000 damage",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When 2 teammates are defeated"
+        ]
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
