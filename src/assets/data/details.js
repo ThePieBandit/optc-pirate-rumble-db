@@ -173253,24 +173253,24 @@ window.details = {
         ]
     },
     4425: {//Franky
-        captain: "Reduces crew's Special charge time by 2 turns and Switch Effect use by 2 at start of quest, boosts Powerhouse and Free Spirit characters' ATK by 5.25x, HP by 1.4x, makes their [QCK][BOMB][S. BOMB] slots have matching slot effects, and reduces [BOMB][S. BOMB] damage by 95% [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Straw Hat Pirates] [Logia-type] [Scientist] characters are on the crew, boosts Powerhouse and Free Spirit characters' ATK by a further 1.1x. Tapping on this character with a [BOMB] or [S. BOMB] slot will reduce all enemies' Threshold Damage Reduction duration by 6 turns. If 4 or more [Egghead Arc] characters are on the crew, reduces crew's Bind duration by 3 turns, and crew cannot be blown away by attack",
-        special: "Deals 120x character's ATK in non-type damage to all enemies, and launches the following effects based on character's Special launch status: (0) reduces crew's Despair/Paralysis duration by 6 turns, and boosts damage dealt to DEF Down enemies by 3.25x for 2 turns; (1) reduces all enemies' damage nullification duration by 2 turns, applies Set Target status (Set Target ignores status effect immunities, 1.75x damage received from Powerhouse and Free Spirit characters, and reduces the Special charge time of Powerhouse or Free Spirit character that defeated the enemy with Set Target status with normal attacks or Specials (except when defeating with status effects or certain end of turn damage effects) by 2 turns for 1 turn, then after that, if 4 or more [Straw Hat Pirates] [Logia-type] [Scientist] characters are on the crew, reduces character's Special charge time by 13 turns, and sets character's Special launch status to (1) (Special charge time reduction effect of \"Benefactor-Protecting Radical Beam\" can be activated up to 1 time including any Specials with similar effect)",
+        captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, reduces Switch Effect of all characters by 2 at the start of the fight, boosts ATK of Powerhouse and Free Spirit characters by 5.25x, boosts HP of Powerhouse and Free Spirit characters by 1.4x, makes [QCK], [BOMB] and [SUPERBOMB] orbs beneficial for Powerhouse and Free Spirit characters, and [BOMB] and [SUPERBOMB] orbs will deal 95% less damage to the crew. If your crew has 4+ [Straw Hat Pirates], [Logia-type] or [Scientist] characters, boosts ATK of Powerhouse and Free Spirit characters by 5.775x instead; additionally, if this character has a [BOMB] or [SUPERBOMB] orb and you attack with this character, reduces enemies' Threshold Damage Reduction duration by 6 turns. If your crew has 4+ [Egghead Arc] characters, reduces Bind duration by 3 turns, and makes crew immune to Blow Away.",
+        special: "Deals 120x character's ATK in Typeless damage to all enemies. Launches the following effects depending on the Special Counter of this character when the special is activated:<ul><li><b>0:</b> Reduces Despair and Paralysis duration by 6 turns, and boosts ATK against enemies with reduced defense by 3.25x for 2 turns. If your crew has 4+ [Straw Hat Pirates], [Logia-type] or [Scientist] characters, reduces Special Cooldown of this character by 13 turns, and sets Special Counter of this character to 1.</li><li><b>1:</b> Reduces enemies' Damage Nullification duration by 2 turns, and inflicts all enemies with Set Target, increasing damage taken from Powerhouse and Free Spirit characters by 1.75x and reducing Special Cooldown of Powerhouse and Free Spirit characters by 2 turns when they defeat an enemy, for 1 turn.</li></ul>",
         specialName: "Benefactor-Protecting Radical Beam",
         sailor: {
-            base: "Makes Powerhouse and Free Spirit characters' [BOMB][S. BOMB] slots have matching slot effects, and boosts their base HP by 200",
-            level1: "Character cannot be blown away by attack"
+            base: "Makes [BOMB] and [SUPERBOMB] orbs beneficial for Powerhouse and Free Spirit characters. Boosts base HP of Powerhouse and Free Spirit characters by 200.",
+            level1: "This character cannot be Blown Away."
         },
-        superSpecialCriteria: "When crew's HP is 25% or below or any 5 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Bartholomew Kuma",
-        superSpecial: "Reduces ship's Special charge time by 5 turns, reduces top-row characters' Special charge time by 1 turn, changes character's slot (including [BLOCK] slot) to [S. BOMB], boosts the ATK of the next final tap performed by a Powerhouse or Free Spirit character by 40%<hidden> (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)</hidden>, and changes Powerhouse characters to Super Powerhouse",
+        superSpecialCriteria: "Can be launched as crewmate. HP must be below 25% or your crew must consist of any 5 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Bartholomew Kuma",
+        superSpecial: "Reduces Special Cooldown of ship by 5 turns, reduces Special Cooldown of top row characters by 1 turn, changes the orb, including [BLOCK] orb, of this character into a [SUPERBOMB] orb, boosts Final Tap ATK of Powerhouse and Free Spirit characters by 40%, and transforms Powerhouse characters into Super Powerhouse characters.",
         support: [
             {
                 Characters: "Brook",
                 description: [
-                    "Once per quest, if supported character uses a Special, boosts damage dealt to DEF Down enemies by 1.3x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts damage dealt to DEF Down enemies by 1.35x for 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 1 turn, and boosts damage dealt to DEF Down enemies by 1.4x for 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 1 turn, and boosts damage dealt to DEF Down enemies by 1.45x for 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Paralysis duration by 2 turns, and boosts damage dealt to DEF Down enemies by 1.5x for 1 turn"
+                    "Once per adventure, when the supported character uses their special, boosts ATK against enemies with reduced defense by 1.3x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts ATK against enemies with reduced defense by 1.35x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Paralysis duration by 1 turn, and boosts ATK against enemies with reduced defense by 1.4x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Paralysis duration by 1 turn, and boosts ATK against enemies with reduced defense by 1.45x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Paralysis duration by 2 turns, and boosts ATK against enemies with reduced defense by 1.5x for 1 turn."
                 ]
             }
         ],
@@ -173358,13 +173358,13 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "At final battle and character's slot is [G], [BOMB] or [S. BOMB]",
+            condition: "On the last stage when this character has a [G], [BOMB] or [SUPERBOMB] orb",
             description: [
-                "Adds 0.2x of damage dealt by normal attacks of other Powerhouse characters this turn on top of the final damage",
-                "Adds 0.4x of damage dealt by normal attacks of other Powerhouse characters this turn on top of the final damage",
-                "Adds 0.6x of damage dealt by normal attacks of other Powerhouse characters this turn on top of the final damage",
-                "Adds 0.8x of damage dealt by normal attacks of other Powerhouse characters this turn on top of the final damage",
-                "Adds 1x of damage dealt by normal attacks of other Powerhouse characters this turn on top of the final damage"
+                "Adds 0.2x of damage dealt with normal attacks from other Powerhouse characters this turn to this character's normal attack in damage.",
+                "Adds 0.4x of damage dealt with normal attacks from other Powerhouse characters this turn to this character's normal attack in damage.",
+                "Adds 0.6x of damage dealt with normal attacks from other Powerhouse characters this turn to this character's normal attack in damage.",
+                "Adds 0.8x of damage dealt with normal attacks from other Powerhouse characters this turn to this character's normal attack in damage.",
+                "Adds 1x of damage dealt with normal attacks from other Powerhouse characters this turn to this character's normal attack in damage."
             ]
         },
         festStats: {
@@ -173469,24 +173469,24 @@ window.details = {
         festAbilityGPCondition: "When 2 teammates are defeated"
     },
     4426: {//Brook
-        captain: "Reduces crew's HP to 20% at start of quest, reduces crew's Special charge time by 3 turns and VS Effect gauge by 3 at start of quest, boosts Slasher and Free Spirit characters' ATK by 5.25x, HP by 1.4x, makes their [PSY][TND] slots have matching slot effects, If crew uses a Special to boosts type effects, advantageous class effect, or damage dealt to enemies with a specific status effect, extends the duration of that effect by 1 turn [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Straw Hat Pirates] [Paramythia-type] [Scientist] characters are on the crew and crew's HP is 25% or below, boosts Slasher and Free Spirit characters' ATK by a further 1.2x. If 4 or more [Egghead Arc] characters are on the crew, reduces crew's Bind duration by 3 turns, and reduces character's Special Reverse by 10 turns",
-        special: "Sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), reduces crew's Silence duration by 5 turns, and reduces crew's ATK Down duration by 6 turns. If crew has type effect boost or type effect nullification when Special is launched, boosts Slasher and Free Spirit characters' advantageous class effect by 1.75x for 2 turns, then after that, boosts the type effects of normal attacks for [PSY], Slasher, and Free Spirit characters by 2.75x for 2 turns. If 4 or more [Straw Hat Pirates] [Paramythia-type] [Scientist] characters are on the crew, reduces crewmates' Special charge time by 3 turns, and sets the chain multiplier to 1.5x for 2 turns (allows this effect to be further increased up to 2 times)",
+        captain: "Reduces crew's current HP by 80% at the start of the fight, reduces Special Cooldown of all characters by 3 turns at the start of the fight, reduces VS Gauge of all characters by 3 at the start of the fight, boosts ATK of Slasher and Free Spirit characters by 5.25x, boosts HP of Slasher and Free Spirit characters by 1.4x, makes [PSY] and [TND] orbs beneficial for Slasher and Free Spirit characters, and increases duration of any Color Affinity, Advantageous Class Effect and Status ATK Boosting buffs applied by Specials by 1 turn. If your crew has 4+ [Straw Hat Pirates], [Paramythia-type] or [Scientist] characters and HP is below 25% at the start of the turn, boosts ATK of Slasher and Free Spirit characters by 6.3x instead. If your crew has 4+ [Egghead Arc] characters, reduces Bind duration by 3 turns, and restores Special Cooldown of all characters by 10 turns when they are rewinded.",
+        special: "Ignores debuff protection and reduces the defense of all enemies by 100% for 1 turn, reduces Silence duration by 5 turns, reduces ATK Down duration by 6 turns, and boosts the Color Affinity of [PSY], Slasher and Free Spirit characters by 2.75x for 2 turns. If your crew has Color Affinity or Color Affinity Nullification when the special is activated, boosts Advantageous Class Effect of Slasher and Free Spirit characters by 1.75x for 2 turns. If your crew has 4+ [Straw Hat Pirates], [Paramythia-type] or [Scientist] characters, reduces Special Cooldown of all characters by 3 turns, and boosts Chain Multiplier Growth Rate by 1.5x, can be enhanced up to 2 times, for 2 turns.",
         specialName: "Freezing Slash",
         sailor: {
-            base: "Reduces character's Special Reverse by 3 turns",
-            level1: "Makes crew's [PSY] slots have matching slot effects, and boosts Slasher and Free Spirit characters' base ATK by 75"
+            base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "Makes [PSY] orbs beneficial for all characters. Boosts base ATK of Slasher and Free Spirit characters by 75."
         },
-        superSpecialCriteria: "When crew's HP is 25% or below or any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Bartholomew Kuma",
-        superSpecial: "Reduces damage taken by 95% for 1 turn, boosts Slasher and Free Spirit characters' damage dealt when landing a Critical hit by 50% for 1 turn (effect applies only to characters with Critical ATK Potential Ability), and changes [PSY] characters to Super [PSY]",
+        superSpecialCriteria: "Can be launched as crewmate. HP must be below 25% or your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Bartholomew Kuma",
+        superSpecial: "Reduces damage received by 95% for 1 turn, boosts Critical Hit Damage of Slasher and Free Spirit characters by 50% for 1 turn, and transforms [PSY] characters into Super [PSY] characters.",
         support: [
             {
                 Characters: "Franky",
                 description: [
-                    "Once per quest, if supported character uses a damage dealing or percentage damage dealing Special, reduces supported character's Special charge time by 1 turn",
-                    "Once per quest, if supported character uses a damage dealing or percentage damage dealing Special, reduces supported character's Special charge time by 1 turn",
-                    "Once per quest, if supported character uses a damage dealing or percentage damage dealing Special, halves all enemies' DEF for 1 turn, and reduces supported character's Special charge time by 1 turn",
-                    "Once per quest, if supported character uses a damage dealing or percentage damage dealing Special, halves all enemies' DEF for 1 turn, and reduces supported character's Special charge time by 1 turn",
-                    "Once per quest, if supported character uses a damage dealing or percentage damage dealing Special, halves all enemies' DEF for 1 turn, reduces crew's Switch Effect use by 1, and reduces supported character's Special charge time by 1 turn"
+                    "Once per adventure, when the supported character uses a Damage Dealing or Health Cutting special, reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when the supported character uses a Damage Dealing or Health Cutting special, reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when the supported character uses a Damage Dealing or Health Cutting special, reduces the defense of all enemies by 50% for 1 turn, and reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when the supported character uses a Damage Dealing or Health Cutting special, reduces the defense of all enemies by 50% for 1 turn, and reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when the supported character uses a Damage Dealing or Health Cutting special, reduces the defense of all enemies by 50% for 1 turn, reduces Switch Effect of all characters by 1, and reduces Special Cooldown of supported character by 1 turn."
                 ]
             }
         ],
@@ -173575,18 +173575,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Straw Hat Pirates] [Scientist] character performs Super Tandem",
-                "When a [Straw Hat Pirates] [Scientist] character performs Super Tandem",
-                "When a [Straw Hat Pirates] [Scientist] character performs Super Tandem",
-                "When a [Straw Hat Pirates] [Scientist] character performs Super Tandem",
-                "When a [Straw Hat Pirates] [Scientist] character performs Super Tandem"
+                "When a [Straw Hat Pirates] or [Scientist] character performs Super Tandem",
+                "When a [Straw Hat Pirates] or [Scientist] character performs Super Tandem",
+                "When a [Straw Hat Pirates] or [Scientist] character performs Super Tandem",
+                "When a [Straw Hat Pirates] or [Scientist] character performs Super Tandem",
+                "When a [Straw Hat Pirates] or [Scientist] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Scientist] [Paramythia-type] [Four Emperors] [Straw Hat Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Scientist] [Paramythia-type] [Four Emperors] characters by 1 and raises Boost Level of [Straw Hat Pirates] by 2 for 1 turn",
-                "Raises Boost Level of [Scientist] [Paramythia-type] [Four Emperors] characters by 2 and raises Boost Level of [Straw Hat Pirates] by 3 for 1 turn",
-                "Raises Boost Level of [Scientist] [Paramythia-type] [Four Emperors] characters by 3 and raises Boost Level of [Straw Hat Pirates] by 4 for 1 turn",
-                "Raises Boost Level of [Scientist] [Paramythia-type] [Four Emperors] characters by 4 and raises Boost Level of [Straw Hat Pirates] by 5 for 1 turn"
+                "Raises Boost Level of [Scientist], [Paramythia-type], [Four Emperors] and [Straw Hat Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Scientist], [Paramythia-type] and [Four Emperors] and characters by 1 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Scientist], [Paramythia-type] and [Four Emperors] and characters by 2 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Scientist], [Paramythia-type] and [Four Emperors] and characters by 3 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Scientist], [Paramythia-type] and [Four Emperors] and characters by 4 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 5 for 1 turn."
             ]
         },
         festStats: {
@@ -173691,22 +173691,22 @@ window.details = {
         festAbilityGPCondition: "When 2 teammates are defeated"
     },
     4427: {//Dr. Vegapunk - Lilith
-        captain: "Reduces crew's HP to 50% at start of quest, boosts [QCK] and Cerebral characters' ATK by 3.75x, and makes their [TND][BOMB][S. BOMB] slots have matching slot effects",
-        special: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, changes top-row and middle-row characters' slots (including [BLOCK] slots) to [BOMB], and changes bottom-row characters' slots (including [BLOCK] slots) to [TND]. If crew's HP is 50% or below or crew has slot effects boost when Special is launched, sets the chain multiplier's minimum value at 2.75 and maximum value at 8.0 for 2 turns, then after that, boosts Cerebral and Free Spirit characters' slot effects by 2.75x (allows this boost effect to be further increased up to 2 times) for 2 turns. If 2 or more [Vegapunk] characters are on the crew, reduces Cerebral and Free Spirit characters' Special charge time by 2 turns, and further increases crew's ATK and slot effect boosts by +0.25 (this effect also applies to slot boost from this Special)",
+        captain: "Reduces crew's current HP by 50% at the start of the fight, boosts ATK of [QCK] and Cerebral characters by 3.75x, and makes [TND], [BOMB] and [SUPERBOMB] orbs beneficial for [QCK] and Cerebral characters.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 6 turns, changes the orbs, including [BLOCK] orbs, of top and middle row characters into [BOMB] orbs, changes the orbs, including [BLOCK] orbs, of bottom row characters into [TND] orbs, and boosts Orb Effects of Cerebral and Free Spirit characters by 2.75x, can be enhanced up to 2 times, for 2 turns. If HP is below 50% or your crew has Orb Amplification when the special is activated, sets Chain Boundaries to 2.75x and 8.0x for 2 turns. If your crew has 2+ [Vegapunk] characters, reduces Special Cooldown of Cerebral and Free Spirit characters by 2 turns, and increases boost effects of ATK Up and Orb Amplification buffs by +0.25x, including effects activated in the same ability.",
         specialName: "Furious Remark",
         sailor: {
-            base: "Reduces character's Special Reverse by 2 turns",
-            level1: "Makes Cerebral and Free Spirit characters' [BOMB][S. BOMB] slots have matching slot effects, and boosts their base ATK by 70"
+            base: "Restores Special Cooldown of this character by 2 turns when it is rewinded.",
+            level1: "Makes [BOMB] and [SUPERBOMB] orbs beneficial for Cerebral and Free Spirit characters. Boosts base ATK of Cerebral and Free Spirit characters by 70."
         },
         support: [
             {
                 Characters: "Characters with the following Character Tag: [Scientist]",
                 description: [
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn, and changes supported character's slot to [BOMB]"
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn, and changes the orb of the supported character into a [BOMB] orb."
                 ]
             }
         ],
@@ -173751,18 +173751,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\"",
-                "When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\"",
-                "When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\"",
-                "When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\"",
-                "When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\""
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\"",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\"",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\"",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\"",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\""
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.1x to Cerebral and Free Spirit characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.2x to Cerebral and Free Spirit characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.3x to Cerebral and Free Spirit characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.4x to Cerebral and Free Spirit characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.5x to Cerebral and Free Spirit characters for 1 turn"
+                "Boosts Tandem ATK of Cerebral and Free Spirit characters by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Free Spirit characters by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Free Spirit characters by 1.3x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Free Spirit characters by 1.4x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Free Spirit characters by 1.5x for 1 turn."
             ]
         },
         festStats: {
@@ -173829,22 +173829,22 @@ window.details = {
         ]
     },
     4428: {//Dr. Vegapunk - Atlas
-        captain: "Reduces crew's HP to 50% at start of quest, boosts [PSY] and Cerebral characters' ATK by 3.75x, and makes their [TND][BOMB][S. BOMB] slots have matching slot effects",
-        special: "Reduces crew's decrease chain multiplier growth rate duration and burn duration by 6 turns. If crew's HP is 50% or below or crew has ATK Up status when Special is launched, boosts Cerebral and Free Spirit characters' advantageous class effect by 1.5x for 1 turn, then after that, boosts Cerebral and Free Spirit characters' ATK by 2.75x (allows this boost effect to be further increased up to 2 times) for 2 turns. If 2 or more [Vegapunk] characters are on the crew, reduces Cerebral and Free Spirit characters' Special charge time by 2 turns, and further increases crew's ATK and slot effect boosts by +0.25 (this effect also applies to ATK boost from this Special)",
+        captain: "Reduces crew's current HP by 50% at the start of the fight, boosts ATK of [PSY] and Cerebral characters by 3.75x, and makes [TND], [BOMB] and [SUPERBOMB] orbs beneficial for [PSY] and Cerebral characters.",
+        special: "Reduces Chain Coefficient Reduction and Burn duration by 6 turns, and boosts ATK of Cerebral and Free Spirit characters by 2.75x, can be enhanced up to 2 times, for 2 turns. If HP is below 50% or your crew has ATK Up when the special is activated, boosts Advantageous Class Effect of Cerebral and Free Spirit characters by 1.5x for 1 turn. If your crew has 2+ [Vegapunk] characters, reduces Special Cooldown of Cerebral and Free Spirit characters by 2 turns, and increases boost effects of ATK Up and Orb Amplification buffs by +0.25x, including effects activated in the same ability.",
         specialName: "Lifting the Giant Body",
         sailor: {
-            base: "Reduces character's Special Reverse by 2 turns",
-            level1: "Makes Cerebral and Free Spirit characters' [TND][RCV] slots have matching slot effects, and boosts their base ATK by 70"
+            base: "Restores Special Cooldown of this character by 2 turns when it is rewinded.",
+            level1: "Makes [RCV] and [TND] orbs beneficial for Cerebral and Free Spirit characters. Boosts base ATK of Cerebral and Free Spirit characters by 70."
         },
         support: [
             {
                 Characters: "Characters with the following Character Tag: [Scientist]",
                 description: [
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn, and changes supported character's slot to [BOMB]"
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn, and changes the orb of the supported character into a [BOMB] orb."
                 ]
             }
         ],
@@ -173889,18 +173889,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Lilith the Evil\"",
-                "When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Lilith the Evil\"",
-                "When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Lilith the Evil\"",
-                "When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Lilith the Evil\"",
-                "When any of the following characters are on the crew (except as Support Characters): Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Lilith the Evil\""
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Lilith the Evil\"",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Lilith the Evil\"",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Lilith the Evil\"",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Lilith the Evil\"",
+                "Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Lilith the Evil\""
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.1x to Cerebral and Free Spirit characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.2x to Cerebral and Free Spirit characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.3x to Cerebral and Free Spirit characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.4x to Cerebral and Free Spirit characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.5x to Cerebral and Free Spirit characters for 1 turn"
+                "Boosts Tandem ATK of Cerebral and Free Spirit characters by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Free Spirit characters by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Free Spirit characters by 1.3x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Free Spirit characters by 1.4x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Free Spirit characters by 1.5x for 1 turn."
             ]
         },
         festStats: {
@@ -173967,22 +173967,23 @@ window.details = {
         ]
     },
     4429: {//Kizaru
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts crew's ATK by 3.5x, HP by 1.2x, boosts ATK further if any enemies were defeated in previous turns (up to approximately 4.25x in 5 straight turns), and makes [PSY][INT] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] Boosts [Navy] characters' base ATK by 500",
-        special: "Reduces all enemies' Resilience duration by 6 turns, deals 100x character's ATK in non-type damage to one enemy, and boosts the chain multiplier by +1.2 for 3 turns. If crew's HP is 50% or below when Special is launched, or 2 or more [Navy] characters are on the crew, for 1 turn carries over 10% of the final chain multiplier of this turn to the next turn (minimum 0.1; maximum 1.5), then after that, heals 30% of crew's maximum HP",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all characters by 3.5x-4.25, depending on how many previous consecutive turns you have defeated an enemy, up to 5 turns, boosts HP of all characters by 1.2x, boosts base ATK of [Navy] characters by 500, and makes [PSY] and [INT] orbs beneficial for all characters.",
+        special: "Deals 100x character's ATK in Typeless damage to one enemy, reduces enemies' Resilience duration by 6 turns, and adds 1.2x to chain multiplier for 3 turns. If your crew has 2+ [Navy] characters or HP is below 50% when the special is activated, carries over 0.1x-1.5x of Chain Multiplier on this turn to the next turn. Recovers 30% of crew's MAX HP.",
+        specialNotes: "Carried-over chain amount is equal to 0.1 ✕ final chain multiplier this turn and will be added into the next turn's chain multiplier. In order to get +1.5 Chain carried over, you need to reach 15x or higher Chain Multiplier.",
         specialName: "Piercing Ama no Murakumo Sword",
         sailor: {
-            base: "Makes Slasher and Powerhouse characters' [PSY] slots have matching slot effects",
-            level1: "If 2 or more [Navy] [World Government] characters are on the crew, reduces decrease chain multiplier growth rate duration by 2 turns"
+            base: "Makes [PSY] orbs beneficial for Slasher and Powerhouse characters.",
+            level1: "If your crew has 2+ [Navy] or [World Government] characters, reduces Chain Coefficient Reduction duration by 2 turns."
         },
         support: [
             {
                 Characters: "Characters with the following Character Tag: [Navy]",
                 description: [
-                    "Once per quest, if supported character uses a Special, heals crew by 1,000 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,250 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,500 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,750 HP",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Resilience duration by 1 turn, and heals crew by 2,000 HP"
+                    "Once per adventure, when the supported character uses their special, recovers 1,000 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,250 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,500 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,750 HP.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Resilience duration by 1 turn, and recovers 2,000 HP."
                 ]
             }
         ],
