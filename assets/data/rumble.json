@@ -311439,11 +311439,13 @@
           "cooldown": 32,
           "effects": [
             {
-              "level": 1,
+              "attributes": ["Damage Over Time"],
+              "effect": "hinderance",
+              "chance": 100,
               "duration": 10,
-              "effect": "damage",
-              "type": "time",
-              "targeting": { "targets": [ "ATK" ] }
+              "level": 1,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"direction": "radial", "size": "large"}
             },
             {
               "amount": 0.75,
