@@ -35081,7 +35081,7 @@ window.details = {
                     level2: "Makes [QCK] orbs beneficial for Slasher characters"
                 },
                 special: {
-                    base: "Deals 150x character's ATK in Typeless damage to all enemies and reduces enemies' Barrier duration by 2 turns. If 2+ [Seven Warlords of the Sea] characters are on the crew, sets Chain Boundaries to 3.25x and 15.0x for 3 turns. If 2+ [Marineford Paramount War] characters are on the crew, boosts Orb Effects of Slasher characters by 2.75x for 3 turns. If your Captain is a Slasher character, locks the chain multiplier at 3.25x for 2 turns, and boosts Orb Effects of Slasher characters by 2.25x for 2 turns."
+                    base: "Deals 150x character's ATK in Typeless damage to all enemies and reduces enemies' Barrier duration by 2 turns. If 2+ [Seven Warlords of the Sea] characters are on the crew, sets Chain Boundaries to 3.25x and 15.0x for 3 turns. If 2+ [Marineford Paramount War Arc] characters are on the crew, boosts Orb Effects of Slasher characters by 2.75x for 3 turns. If your Captain is a Slasher character, locks the chain multiplier at 3.25x for 2 turns, and boosts Orb Effects of Slasher characters by 2.25x for 2 turns."
                 }
             }
         ],
@@ -96111,7 +96111,7 @@ window.details = {
             },
             {
                 captain: {
-                    base: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces Special Cooldown of this character by 4 turns at the start of the fight, boosts ATK of [STR], Striker and Driven characters by 5x, boosts HP of [STR], Striker and Driven characters by 1.3x, and makes [STR] and [INT] orbs beneficial for all characters. If HP is below 50% at the start of the turn, boosts ATK of [STR], Striker and Driven characters by 6x instead, and reduces damage received by 25%. If 4+ [Kid Pirates], [Worst Generation] or [Land of Wano] characters are on the crew, reduces Despair duration by 10 turns, and boosts base ATK of [Paramythia-type] characters by 500."
+                    base: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces Special Cooldown of this character by 4 turns at the start of the fight, boosts ATK of [STR], Striker and Driven characters by 5x, boosts HP of [STR], Striker and Driven characters by 1.3x, and makes [STR] and [INT] orbs beneficial for all characters. If HP is below 50% at the start of the turn, boosts ATK of [STR], Striker and Driven characters by 6x instead, and reduces damage received by 25%. If 4+ [Kid Pirates], [Worst Generation] or [Land of Wano Arc] characters are on the crew, reduces Despair duration by 10 turns, and boosts base ATK of [Paramythia-type] characters by 500."
                 }
             },
             {
@@ -166895,8 +166895,8 @@ window.details = {
 		}
 	},
 	4353: {//Kuma
-		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cerebral and Powerhouse characters by 5.25x, boosts HP of Cerebral and Powerhouse characters by 1.4x, boosts base HP of [Paramythia-type] and [Revolutionary Army] characters by 1,500, makes [PSY], [RCV] and [TND] orbs beneficial for Cerebral and Powerhouse characters, and reduces Paralysis duration by 10 turns. If your crew has 4+ [Egghead] characters, boosts ATK of Cerebral and Powerhouse characters by 5.775x instead. If your crew has 5+ [Egghead] characters, reduces Despair duration by 2 turns.",
-		special: "Reduces Special Cooldown of Cerebral and Powerhouse characters by 1 turn, reduces Switch Effect of Cerebral and Powerhouse characters by 3, reduces Blow Away duration by 4 turns, and boosts Crew Damage Reduction to ATK of Cerebral and Powerhouse characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 3 turns. If your crew has 4+ [Paramythia-type], [Egghead] or [Revolutionary Army] characters, increases boost effects of Chain Addition buffs by +1.0x, and adds 1.6x, can be enhanced up to 2 times, to Chain Multiplier for 3 turns; adds 1.4x, can be enhanced up to 2 times, to Chain Multiplier for 1 turn otherwise.",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cerebral and Powerhouse characters by 5.25x, boosts HP of Cerebral and Powerhouse characters by 1.4x, boosts base HP of [Paramythia-type] and [Revolutionary Army] characters by 1,500, makes [PSY], [RCV] and [TND] orbs beneficial for Cerebral and Powerhouse characters, and reduces Paralysis duration by 10 turns. If your crew has 4+ [Egghead Arc] characters, boosts ATK of Cerebral and Powerhouse characters by 5.775x instead. If your crew has 5+ [Egghead Arc] characters, reduces Despair duration by 2 turns.",
+		special: "Reduces Special Cooldown of Cerebral and Powerhouse characters by 1 turn, reduces Switch Effect of Cerebral and Powerhouse characters by 3, reduces Blow Away duration by 4 turns, and boosts Crew Damage Reduction to ATK of Cerebral and Powerhouse characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 3 turns. If your crew has 4+ [Paramythia-type], [Egghead Arc] or [Revolutionary Army] characters, increases boost effects of Chain Addition buffs by +1.0x, and adds 1.6x, can be enhanced up to 2 times, to Chain Multiplier for 3 turns; adds 1.4x, can be enhanced up to 2 times, to Chain Multiplier for 1 turn otherwise.",
 		specialName: "Charging Through Fiercely",
 		sailor: {
 			base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
@@ -167001,8 +167001,8 @@ window.details = {
 		]
 	},
 	4354: {//Dr Vegapunk
-		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cerebral, Free Spirit and Powerhouse characters by 5.5x, boosts HP of Cerebral, Free Spirit and Powerhouse characters by 1.2x, boosts base ATK of [Vegapunk] and [Seraphim] characters by 500, and makes [DEX], [INT] and [TND] orbs beneficial for Cerebral, Free Spirit and Powerhouse characters. If crew uses a Special to reduce enemies' Percent Damage Reduction or Threshold Damage Reduction, reduces the duration by 1 additional turn. If your crew has 4+ [Scientist] characters, boosts ATK of Cerebral characters by 6.6x instead. If your crew has 5+ [Egghead] characters, reduces Bind duration by 2 turns.",
-		special: "Reduces ATK Down duration by 7 turns, and boosts ATK against enemies inflicted with Increase Damage Taken and enemies inflicted with Weaken by 2.5x for 3 turns. If your crew has 4+ [Scientist], [Egghead] or [Vegapunk] characters, boosts ATK of Cerebral, Free Spirit and Powerhouse characters by 3.5x, can be enhanced up to 2 times, for 3 turns; boosts ATK of Cerebral, Free Spirit and Powerhouse characters by 3x, can be enhanced up to 2 times, for 1 turn otherwise. If your crew has 1+ [Seraphim] or 2+ [Vegapunk] characters, boosts Final Tap ATK of [Scientist], [Seraphim] and [Vegapunk] characters by 40%.",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cerebral, Free Spirit and Powerhouse characters by 5.5x, boosts HP of Cerebral, Free Spirit and Powerhouse characters by 1.2x, boosts base ATK of [Vegapunk] and [Seraphim] characters by 500, and makes [DEX], [INT] and [TND] orbs beneficial for Cerebral, Free Spirit and Powerhouse characters. If crew uses a Special to reduce enemies' Percent Damage Reduction or Threshold Damage Reduction, reduces the duration by 1 additional turn. If your crew has 4+ [Scientist] characters, boosts ATK of Cerebral characters by 6.6x instead. If your crew has 5+ [Egghead Arc] characters, reduces Bind duration by 2 turns.",
+		special: "Reduces ATK Down duration by 7 turns, and boosts ATK against enemies inflicted with Increase Damage Taken and enemies inflicted with Weaken by 2.5x for 3 turns. If your crew has 4+ [Scientist], [Egghead Arc] or [Vegapunk] characters, boosts ATK of Cerebral, Free Spirit and Powerhouse characters by 3.5x, can be enhanced up to 2 times, for 3 turns; boosts ATK of Cerebral, Free Spirit and Powerhouse characters by 3x, can be enhanced up to 2 times, for 1 turn otherwise. If your crew has 1+ [Seraphim] or 2+ [Vegapunk] characters, boosts Final Tap ATK of [Scientist], [Seraphim] and [Vegapunk] characters by 40%.",
 		specialName: "Advocating the Possibilities of Science",
 		sailor: {
 			base: "Makes [DEX], [INT] and [TND] orbs beneficial for Cerebral, Free Spirit and Powerhouse characters; if Territory: Cerebral class is on the field, boosts base ATK of Cerebral characters by 200.",
@@ -167238,7 +167238,7 @@ window.details = {
 	},
 	4357: {//Dr. Vegapunk - York
 		captain: "Boosts ATK of Cerebral characters by 3.5x, boosts HP of Cerebral characters by 1.35x, makes [RCV] orbs beneficial for Cerebral characters, and makes PERFECTs consume [RCV] orbs.",
-		special: "Reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 2 turns, increases boost effects of ATK Up and Chain Multiplication buffs by +0.25x, and changes orbs, including [BLOCK] orbs, of bottom row characters into [RCV] orbs. If your crew has 5+ [Egghead] characters, reduces Special Bind duration by 3 turns.",
+		special: "Reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 2 turns, increases boost effects of ATK Up and Chain Multiplication buffs by +0.25x, and changes orbs, including [BLOCK] orbs, of bottom row characters into [RCV] orbs. If your crew has 5+ [Egghead Arc] characters, reduces Special Bind duration by 3 turns.",
 		specialName: "Starting the Hunt",
 		sailor: {
 			base: "Reduces Special Bind duration by 6 turns on this character.",
@@ -167334,7 +167334,7 @@ window.details = {
 	},
 	4358: {//5+ Dr. Vegapunk - York
 		captain: "Boosts ATK of Cerebral characters by 3.75x, boosts HP of Cerebral characters by 1.4x, makes [RCV] and [SEMLA] orbs beneficial for Cerebral characters, and makes PERFECTs consume [RCV] and [SEMLA] orbs.",
-		special: "Reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 3 turns, increases boost effects of ATK Up, Color Affinity and Chain Multiplication buffs by +0.25x, and changes orbs, including [BLOCK] orbs, of bottom row characters into [RCV] orbs. If your crew has 5+ [Egghead] characters, boosts Color Affinity of [DEX] and [PSY] characters by 2.25x, can be enhanced up to 2 times, for 1 turn, and reduces Special Bind duration by 3 turns.",
+		special: "Reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 3 turns, increases boost effects of ATK Up, Color Affinity and Chain Multiplication buffs by +0.25x, and changes orbs, including [BLOCK] orbs, of bottom row characters into [RCV] orbs. If your crew has 5+ [Egghead Arc] characters, boosts Color Affinity of [DEX] and [PSY] characters by 2.25x, can be enhanced up to 2 times, for 1 turn, and reduces Special Bind duration by 3 turns.",
 		specialName: "Starting the Hunt",
 		sailor: {
 			base: "Reduces Special Bind duration by 6 turns on this character.",
@@ -167768,9 +167768,9 @@ window.details = {
 		}
 	},	
     4366: {//Kizaru
-		captain: "Reduces Special Cooldown of all characters by 4 turns at the start of the fight, boosts ATK of [Egghead], [Logia-type] and [Navy] characters by 1.1x, boosts ATK of [DEX], Shooter and Slasher characters by 6x, by 6.6x instead if they have the applicable tag, boosts ATK of all other characters by 4.5x, by 4.95x instead if they have the applicable tag, boosts HP of all characters by 1.35x, and makes [DEX] and [TND] orbs beneficial for all characters. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Egghead], [Logia-type] and [Navy] characters by 1.3x instead, boosts ATK of [PSY], Free Spirit and Slasher characters by 7.8x instead if they have the applicable tag, and boosts ATK of all other characters by 5.85x instead if they have the applicable tag. If your crew has 3+ [Egghead], [Logia-type] or [Navy] characters, reduces Burn and Special Bind duration by 10 turns. If your crew has 4+ [Navy] characters, makes all Specials that apply Class or Type restricted buffs apply to all characters instead.",
+		captain: "Reduces Special Cooldown of all characters by 4 turns at the start of the fight, boosts ATK of [Egghead Arc], [Logia-type] and [Navy] characters by 1.1x, boosts ATK of [DEX], Shooter and Slasher characters by 6x, by 6.6x instead if they have the applicable tag, boosts ATK of all other characters by 4.5x, by 4.95x instead if they have the applicable tag, boosts HP of all characters by 1.35x, and makes [DEX] and [TND] orbs beneficial for all characters. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Egghead Arc], [Logia-type] and [Navy] characters by 1.3x instead, boosts ATK of [PSY], Free Spirit and Slasher characters by 7.8x instead if they have the applicable tag, and boosts ATK of all other characters by 5.85x instead if they have the applicable tag. If your crew has 3+ [Egghead Arc], [Logia-type] or [Navy] characters, reduces Burn and Special Bind duration by 10 turns. If your crew has 4+ [Navy] characters, makes all Specials that apply Class or Type restricted buffs apply to all characters instead.",
 		captainNotes: "Buff restriction override does not apply to \"Partial\" buffs. The buff restriction override applies to any effect that would normally affect only certain classes or types, including, but not restricted to: ATK buffs, Orb buffs, Base ATK buffs, Cooldown Reduction, Normal Attack Defensive Effect Bypass, Orb Lock buffs and Slot Barrier debuffs, but does not affect defensive buffs. This effect doesn't not affect Swap abilities, Support abilities, Super Special abilities, VS Special abilities or effects obtained from Following Turn or Tap-Timing Following Turn buffs.",
-        special: "Up to 2 times per adventure, reduces Special Cooldown of middle row characters by 6 turns. Sets Chain Boundaries to 3.25x-4x and 35.0x for 2 turns depending on the outcome of Action Special. If a [PSY] character is supporting this character, applies Territory: Slasher class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns; applies Territory: Shooter class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns otherwise. If your crew has 5+ [Egghead], [Navy] or [Logia-type] characters, increases Chain Tap Timing Bonus of [DEX], Shooter and Slasher characters to +0.3x-0.7x, can be enhanced up to 2 times, for 2 turns depending on Tap Timing; increases Chain Tap Timing Bonus of [DEX], Shooter and Slasher characters to +0.3x-0.5x for 1 turn depending on Tap Timing otherwise.",
+        special: "Up to 2 times per adventure, reduces Special Cooldown of middle row characters by 6 turns. Sets Chain Boundaries to 3.25x-4x and 35.0x for 2 turns depending on the outcome of Action Special. If a [PSY] character is supporting this character, applies Territory: Slasher class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns; applies Territory: Shooter class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns otherwise. If your crew has 5+ [Egghead Arc], [Navy] or [Logia-type] characters, increases Chain Tap Timing Bonus of [DEX], Shooter and Slasher characters to +0.3x-0.7x, can be enhanced up to 2 times, for 2 turns depending on Tap Timing; increases Chain Tap Timing Bonus of [DEX], Shooter and Slasher characters to +0.3x-0.5x for 1 turn depending on Tap Timing otherwise.",
 		specialNotes: "<br><b>Chain Boundary:</b> MISS: 3.25x, GOOD: 3.5x, GREAT: 3.7x, PERFECT: 3.9x, EXCELLENT 4x.<br><b>Tap Timing:</b> GOOD: +0.3, GREAT: +0.5, PERFECT: +0.7; GOOD: +0.3, GREAT: +0.4, PERFECT: +0.5 otherwise.",
         specialName: "Obstacle-Eliminating Ama no Murakumo Sword",
 		sailor: {
@@ -167868,18 +167868,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Egghead], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
-				"When a [Egghead], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
-				"When a [Egghead], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
-				"When a [Egghead], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
-				"When a [Egghead], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem"
+				"When a [Egghead Arc], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
+				"When a [Egghead Arc], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
+				"When a [Egghead Arc], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
+				"When a [Egghead Arc], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem",
+				"When a [Egghead Arc], [Logia-type], [Navy] or [Navy Admiral] character performs Super Tandem"
 			],
 			description: [
-				"Raises Boost Level of [Egghead], [Logia-type] and [Navy] characters by 1 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Egghead], [Logia-type] and [Navy] characters by 2 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 2 for 1 turn.",
-				"Raises Boost Level of [Egghead], [Logia-type] and [Navy] characters by 3 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 3 for 1 turn.",
-				"Raises Boost Level of [Egghead], [Logia-type] and [Navy] characters by 4 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 5 for 1 turn.",
-				"Raises Boost Level of [Egghead], [Logia-type] and [Navy] characters by 5 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 7 for 1 turn."
+				"Raises Boost Level of [Egghead Arc], [Logia-type] and [Navy] characters by 1 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Egghead Arc], [Logia-type] and [Navy] characters by 2 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 2 for 1 turn.",
+				"Raises Boost Level of [Egghead Arc], [Logia-type] and [Navy] characters by 3 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 3 for 1 turn.",
+				"Raises Boost Level of [Egghead Arc], [Logia-type] and [Navy] characters by 4 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 5 for 1 turn.",
+				"Raises Boost Level of [Egghead Arc], [Logia-type] and [Navy] characters by 5 for 1 turn, and raises Boost Level of [Navy Admiral] characters by 7 for 1 turn."
 			]
 		}
 	},
@@ -168016,7 +168016,7 @@ window.details = {
 	},
 	4368: {//Usopp
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Shooter characters by 4x, and makes [STR], [DEX] and [QCK] orbs beneficial for Shooter characters.",
-		special: "Reduces Special Cooldown of all characters by 2 turns, reduces enemies' Threshold Damage Reduction duration by 6 turns, and boosts ATK of all characters by 2.75x for 1 turn. If your crew has ATK Up when the special is activated, boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has 3+ [Straw Hat Pirates] or [Egghead] characters, boosts ATK against delayed enemies and enemies inflicted with Increase Damage Taken by 2.25x for 1 turn.",
+		special: "Reduces Special Cooldown of all characters by 2 turns, reduces enemies' Threshold Damage Reduction duration by 6 turns, and boosts ATK of all characters by 2.75x for 1 turn. If your crew has ATK Up when the special is activated, boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has 3+ [Straw Hat Pirates] or [Egghead Arc] characters, boosts ATK against delayed enemies and enemies inflicted with Increase Damage Taken by 2.25x for 1 turn.",
 		specialName: "Raising the Transponder Snail",
 		sailor: {
 			base: "Restores Special Cooldown of this character by 3 turns when it is rewinded; makes [DEX] orbs beneficial for all characters.",
@@ -168086,7 +168086,7 @@ window.details = {
 	},
 	4369: {//Chopper
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [PSY] characters by 4x, and makes [INT] and [TND] orbs beneficial for [PSY] characters.",
-		special: "Delays all enemies by 2 turns, reduces ATK Down duration by 6 turns, removes Poison duration completely, recovers 30% of crew's MAX HP, and boosts Orb Effects of all characters by 2.75x for 1 turn. If your crew has Orb Amplification when the special is activated, boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has 3+ [Straw Hat Pirates] or [Egghead] characters, adds 1.2x to Chain Multiplier for 1 turn.",
+		special: "Delays all enemies by 2 turns, reduces ATK Down duration by 6 turns, removes Poison duration completely, recovers 30% of crew's MAX HP, and boosts Orb Effects of all characters by 2.75x for 1 turn. If your crew has Orb Amplification when the special is activated, boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has 3+ [Straw Hat Pirates] or [Egghead Arc] characters, adds 1.2x to Chain Multiplier for 1 turn.",
 		specialName: "Blushing Reindeer Ship Doctor",
 		sailor: {
 			base: "Boosts base ATK and RCV of all characters by 100; makes [PSY] orbs beneficial for all characters.",
@@ -168224,7 +168224,7 @@ window.details = {
 	},
 	4370: {//Franky
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Shooter characters by 4x, and makes [PSY], [INT] and [TND] orbs beneficial for Shooter characters.",
-		special: "Reduces Special Bind duration by 6 turns, changes all orbs, including [BLOCK] orbs, into [TND] orbs, and boosts Color Affinity of all characters by 2.5x-3x for 1 turn. If your crew has Color Affinity when the special is activated, boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has 3+ [Straw Hat Pirates] or [Egghead] characters, reduces damage received by 80% for 2 turns.",
+		special: "Reduces Special Bind duration by 6 turns, changes all orbs, including [BLOCK] orbs, into [TND] orbs, and boosts Color Affinity of all characters by 2.5x-3x for 1 turn. If your crew has Color Affinity when the special is activated, boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has 3+ [Straw Hat Pirates] or [Egghead Arc] characters, reduces damage received by 80% for 2 turns.",
 		specialNotes: "For every 3 <b>Special Cooldown charges</b> after this special is charged to MAX, the Color Affinity increases by +0.1x until its maximum value.",
         specialName: "Escaping the Explosion",
 		sailor: {
@@ -168284,18 +168284,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem"
+				"When a [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem"
 			],
 			description: [
-				"Raises Boost Level of [Egghead] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Egghead] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Egghead] characters by 2 for 1 turn.",
-				"Raises Boost Level of [Egghead] characters by 2 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Egghead] and [Straw Hat Pirates] characters by 2 for 1 turn."
+				"Raises Boost Level of [Egghead Arc] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Egghead Arc] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Egghead Arc] characters by 2 for 1 turn.",
+				"Raises Boost Level of [Egghead Arc] characters by 2 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Egghead Arc] and [Straw Hat Pirates] characters by 2 for 1 turn."
 			]
 		},
 		festStats: {
@@ -168559,18 +168559,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem",
-				"When a [Straw Hat Pirates] or [Egghead] character performs Super Tandem"
+				"When a [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+				"When a [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem"
 			],
 			description: [
 				"Raises Boost Level of [Paramythia-type] characters by 1 for 1 turn.",
 				"Raises Boost Level of [Paramythia-type] and [Straw Hat Pirates] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Paramythia-type], [Straw Hat Pirates] and [Egghead] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Paramythia-type] characters by 2 for 1 turn, and raises Boost Level of [Straw Hat Pirates] and [Egghead] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Paramythia-type] characters by 3 for 1 turn, and raises Boost Level of [Straw Hat Pirates] and [Egghead] characters by 1 for 1 turn."
+				"Raises Boost Level of [Paramythia-type], [Straw Hat Pirates] and [Egghead Arc] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Paramythia-type] characters by 2 for 1 turn, and raises Boost Level of [Straw Hat Pirates] and [Egghead Arc] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Paramythia-type] characters by 3 for 1 turn, and raises Boost Level of [Straw Hat Pirates] and [Egghead Arc] characters by 1 for 1 turn."
 			]
 		}
 	},
@@ -168655,18 +168655,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem"
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War Arc] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War Arc] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War Arc] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War Arc] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War Arc] or [Navy] character performs Super Tandem"
 			],
 			description: [
 				"Raises Boost Level of [Seven Warlords of the Sea] characters by 1 for 1 turn.",
 				"Raises Boost Level of [Seven Warlords of the Sea] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Seven Warlords of the Sea] and [Marineford Paramount War] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Seven Warlords of the Sea] and [Marineford Paramount War] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Seven Warlords of the Sea], [Marineford Paramount War] and [Navy] characters by 1 for 1 turn."
+				"Raises Boost Level of [Seven Warlords of the Sea] and [Marineford Paramount War Arc] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea] and [Marineford Paramount War Arc] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea], [Marineford Paramount War Arc] and [Navy] characters by 1 for 1 turn."
 			]
 		}
 	},
@@ -168753,18 +168753,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem",
-				"When a [Seven Warlords of the Sea], [Marineford Paramount War] or [Navy] character performs Super Tandem"
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War Arc] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War Arc] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War Arc] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War Arc] or [Navy] character performs Super Tandem",
+				"When a [Seven Warlords of the Sea], [Marineford Paramount War Arc] or [Navy] character performs Super Tandem"
 			],
 			description: [
 				"Raises Boost Level of [Seven Warlords of the Sea] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Seven Warlords of the Sea], [Marineford Paramount War] and [Navy] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Seven Warlords of the Sea] characters by 2 for 1 turn, and raises Boost Level of [Marineford Paramount War] and [Navy] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Seven Warlords of the Sea] and [Marineford Paramount War] characters by 2 for 1 turn, and raises Boost Level of [Navy] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Seven Warlords of the Sea], [Marineford Paramount War] and [Navy] characters by 2 for 1 turn."
+				"Raises Boost Level of [Seven Warlords of the Sea], [Marineford Paramount War Arc] and [Navy] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea] characters by 2 for 1 turn, and raises Boost Level of [Marineford Paramount War Arc] and [Navy] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea] and [Marineford Paramount War Arc] characters by 2 for 1 turn, and raises Boost Level of [Navy] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Seven Warlords of the Sea], [Marineford Paramount War Arc] and [Navy] characters by 2 for 1 turn."
 			]
 		}
 	},
@@ -168985,7 +168985,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Reduces Special Cooldown of all characters by 2 turns, makes own attacks ignore damage reducing barriers and buffs for 1 turn, deals 150x character's ATK in Typeless Fixed True damage to all enemies, and boosts Orb Effects of [DEX], Slasher and Driven characters by 3.25x for 1 turn. If your crew has 2+ [Land of Wano] characters and your crew has Orb Amplification when the special is activated, reduces enemies' Slasher and Driven Resistance by -30% for 1 turn. If total damage taken is 50,000 or more, ignores debuff protection and inflicts all enemies with Increase Damage Taken by 2x for 1 turn."
+                    base: "Reduces Special Cooldown of all characters by 2 turns, makes own attacks ignore damage reducing barriers and buffs for 1 turn, deals 150x character's ATK in Typeless Fixed True damage to all enemies, and boosts Orb Effects of [DEX], Slasher and Driven characters by 3.25x for 1 turn. If your crew has 2+ [Land of Wano Arc] characters and your crew has Orb Amplification when the special is activated, reduces enemies' Slasher and Driven Resistance by -30% for 1 turn. If total damage taken is 50,000 or more, ignores debuff protection and inflicts all enemies with Increase Damage Taken by 2x for 1 turn."
                 }
             }
         ],
@@ -169303,8 +169303,8 @@ window.details = {
 		festAbilityGPCondition: "After 50s of battle"
 	},
 	4381: {//Bonney
-		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Slasher and Striker characters by 5.25x, by 5.775x instead if your crew has 4+ [Egghead] characters, boosts RCV of Slasher and Striker characters by 1.25x, makes [PSY], [RCV] and [TND] orbs beneficial for Slasher and Striker characters, and reduces Burn duration by 10 turns. If your crew has 5+ [Egghead], [Worst Generation] or [Paramythia-type] characters, restores Special Cooldown of all characters by 2 turns when they are rewinded.",
-		special: "Deals 300x character's ATK in Typeless Fixed True damage to one enemy, reduces enemies' Threshold Damage Reduction duration by 7 turns, increases Orb Effects of beneficial [PSY], [RCV], [TND] and [SEMLA] orbs to 3x for 3 turns, and increases boost effects of ATK Up buffs by 1.25x (up to 10x). If your crew has 4+ [Egghead], [Worst Generation] or [Paramythia-type] characters, increases boost effects of Chain Addition buffs by +1.0x, and adds 1.6x, can be enhanced up to 2 times, to Chain Multiplier for 3 turns; adds 1.4x, can be enhanced up to 2 times, to Chain Multiplier for 1 turn otherwise.",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Slasher and Striker characters by 5.25x, by 5.775x instead if your crew has 4+ [Egghead Arc] characters, boosts RCV of Slasher and Striker characters by 1.25x, makes [PSY], [RCV] and [TND] orbs beneficial for Slasher and Striker characters, and reduces Burn duration by 10 turns. If your crew has 5+ [Egghead Arc], [Worst Generation] or [Paramythia-type] characters, restores Special Cooldown of all characters by 2 turns when they are rewinded.",
+		special: "Deals 300x character's ATK in Typeless Fixed True damage to one enemy, reduces enemies' Threshold Damage Reduction duration by 7 turns, increases Orb Effects of beneficial [PSY], [RCV], [TND] and [SEMLA] orbs to 3x for 3 turns, and increases boost effects of ATK Up buffs by 1.25x (up to 10x). If your crew has 4+ [Egghead Arc], [Worst Generation] or [Paramythia-type] characters, increases boost effects of Chain Addition buffs by +1.0x, and adds 1.6x, can be enhanced up to 2 times, to Chain Multiplier for 3 turns; adds 1.4x, can be enhanced up to 2 times, to Chain Multiplier for 1 turn otherwise.",
 		specialName: "Strike for Her Father",
 		sailor: {
 			base: "Boosts base ATK, HP and RCV of all characters by 75; makes [RCV] and [TND] orbs beneficial for all characters.",
@@ -169420,7 +169420,7 @@ window.details = {
 	},
 	4382: {//Bluegrass
 		captain: "Reduces crew's current HP by 50% at the start of the fight, boosts ATK of [DEX] characters by 3.75x, and makes [TND] orbs beneficial for [DEX] characters.",
-		special: "Reduces enemies' Increased Defense duration by 6 turns, deals 60x character's ATK in [DEX] damage to all enemies at the end of each turn for 3 turns, and changes all orbs, including [BLOCK] orbs, into [TND] orbs. If your crew has 3+ [Navy] or [World Government] characters or 6 [Egghead] characters, boosts Orb Effects of all characters by 2.5x, can be enhanced up to 2 times, for 3 turns, and reduces Special Bind duration by 6 turns; boosts Orb Effects of all characters by 2.25x for 3 turns otherwise.",
+		special: "Reduces enemies' Increased Defense duration by 6 turns, deals 60x character's ATK in [DEX] damage to all enemies at the end of each turn for 3 turns, and changes all orbs, including [BLOCK] orbs, into [TND] orbs. If your crew has 3+ [Navy] or [World Government] characters or 6 [Egghead Arc] characters, boosts Orb Effects of all characters by 2.5x, can be enhanced up to 2 times, for 3 turns, and reduces Special Bind duration by 6 turns; boosts Orb Effects of all characters by 2.25x for 3 turns otherwise.",
 		specialName: "Riding the Battle Weapon",
 		sailor: {
 			base: "Reduces Special Bind duration by 6 turns on this character.",
@@ -169480,7 +169480,7 @@ window.details = {
 	},
 	4383: {//Doll
 		captain: "Boosts ATK of all characters by 3x-4x based on the timing of the attack of the previous unit in the chain, and recovers 1,100 HP at the end of each turn.",
-		special: "Reduces enemies' Barrier duration by 1 turn, reduces Paralysis duration by 3 turns, and reduces enemies' [DEX], [PSY] and [INT] Resistance by -15% for 1 turn. If your crew has 3+ [Navy] or [World Government] characters or 6 [Egghead] characters, enables ATK Up buffs to be enhanced up to 2 times, and reduces Special Cooldown of all characters by 1 turn.",
+		special: "Reduces enemies' Barrier duration by 1 turn, reduces Paralysis duration by 3 turns, and reduces enemies' [DEX], [PSY] and [INT] Resistance by -15% for 1 turn. If your crew has 3+ [Navy] or [World Government] characters or 6 [Egghead Arc] characters, enables ATK Up buffs to be enhanced up to 2 times, and reduces Special Cooldown of all characters by 1 turn.",
 		specialName: "Ship-Protecting Kick",
 		sailor: {
 			base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
@@ -169540,7 +169540,7 @@ window.details = {
 	},
 	4384: {//Sanji & Franky
 		captain: "Boosts ATK of [INT], Fighter and Shooter characters by 3.75x, boosts HP of [INT], Fighter and Shooter characters by 1.25x, reduces damage received by 15%, and makes crew immune to Blow Away.",
-		special: "Reduces Special Cooldown of ship by 3 turns, allows HP Overfill up to 2x MAX HP for 1 turn, recovers 20x character's RCV in HP, reduces Bind duration by 4 turns, and increases boost effects of Chain Lock and Chain Tap Timing Bonus buffs by +0.2x. If your crew has 4+ [Straw Hat Pirates] characters or 6 [Egghead] characters, increases duration of any Chain Lock and Chain Tap Timing Bonus buffs by 1 turn.",
+		special: "Reduces Special Cooldown of ship by 3 turns, allows HP Overfill up to 2x MAX HP for 1 turn, recovers 20x character's RCV in HP, reduces Bind duration by 4 turns, and increases boost effects of Chain Lock and Chain Tap Timing Bonus buffs by +0.2x. If your crew has 4+ [Straw Hat Pirates] characters or 6 [Egghead Arc] characters, increases duration of any Chain Lock and Chain Tap Timing Bonus buffs by 1 turn.",
 		specialName: "Confirming the Safety of Friends",
 		sailor: {
 			base: "Makes [INT] orbs beneficial for all characters.",
@@ -169619,24 +169619,24 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When an [INT] [Egghead] character performs Super Tandem",
-				"When an [INT] [Egghead] character performs Super Tandem",
-				"When an [INT] [Egghead] character performs Super Tandem",
-				"When an [INT] [Egghead] character performs Super Tandem",
-				"When an [INT] [Egghead] character performs Super Tandem"
+				"When an [INT] [Egghead Arc] character performs Super Tandem",
+				"When an [INT] [Egghead Arc] character performs Super Tandem",
+				"When an [INT] [Egghead Arc] character performs Super Tandem",
+				"When an [INT] [Egghead Arc] character performs Super Tandem",
+				"When an [INT] [Egghead Arc] character performs Super Tandem"
 			],
 			description: [
 				"Raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn.",
 				"Raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Straw Hat Pirates] and [Egghead] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Straw Hat Pirates] characters by 2 for 1 turn, and raises Boost Level of [Egghead] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Straw Hat Pirates] and [Egghead] characters by 2 for 1 turn."
+				"Raises Boost Level of [Straw Hat Pirates] and [Egghead Arc] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates] characters by 2 for 1 turn, and raises Boost Level of [Egghead Arc] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates] and [Egghead Arc] characters by 2 for 1 turn."
 			]
 		}
 	},
 	4385: {//5+ Sanji & Franky
 		captain: "Boosts ATK of [INT], Fighter and Shooter characters by 4x, boosts HP of [INT], Fighter and Shooter characters by 1.25x, reduces damage received by 15%, and makes crew immune to Blow Away.",
-		special: "Reduces Special Cooldown of ship by 3 turns, allows HP Overfill up to 2x MAX HP for 1 turn, recovers 20x character's RCV in HP, reduces Bind duration by 4 turns, sets Chain Boundaries to 2.25x and 10.0x, can be enhanced up to 2 times, for 1 turn, and increases boost effects of Chain Lock and Chain Tap Timing Bonus buffs by +0.2x, including effects activated in the same ability. If your crew has 4+ [Straw Hat Pirates] characters or 6 [Egghead] characters, increases duration of any Chain Lock and Chain Tap Timing Bonus buffs by 1 turn, including effects activated in the same ability.",
+		special: "Reduces Special Cooldown of ship by 3 turns, allows HP Overfill up to 2x MAX HP for 1 turn, recovers 20x character's RCV in HP, reduces Bind duration by 4 turns, sets Chain Boundaries to 2.25x and 10.0x, can be enhanced up to 2 times, for 1 turn, and increases boost effects of Chain Lock and Chain Tap Timing Bonus buffs by +0.2x, including effects activated in the same ability. If your crew has 4+ [Straw Hat Pirates] characters or 6 [Egghead Arc] characters, increases duration of any Chain Lock and Chain Tap Timing Bonus buffs by 1 turn, including effects activated in the same ability.",
 		specialName: "Confirming the Safety of Friends",
 		sailor: {
 			base: "Makes [INT] orbs beneficial for all characters.",
@@ -169715,18 +169715,18 @@ window.details = {
 		],
 		superTandemBoost: {
 			characterCondition: [
-				"When an [INT] [Egghead] character performs Super Tandem",
-				"When an [INT] [Egghead] character performs Super Tandem",
-				"When an [INT] [Egghead] character performs Super Tandem",
-				"When an [INT] [Egghead] character performs Super Tandem",
-				"When an [INT] [Egghead] character performs Super Tandem"
+				"When an [INT] [Egghead Arc] character performs Super Tandem",
+				"When an [INT] [Egghead Arc] character performs Super Tandem",
+				"When an [INT] [Egghead Arc] character performs Super Tandem",
+				"When an [INT] [Egghead Arc] character performs Super Tandem",
+				"When an [INT] [Egghead Arc] character performs Super Tandem"
 			],
 			description: [
 				"Raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn.",
 				"Raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Straw Hat Pirates] and [Egghead] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Straw Hat Pirates] characters by 2 for 1 turn, and raises Boost Level of [Egghead] characters by 1 for 1 turn.",
-				"Raises Boost Level of [Straw Hat Pirates] and [Egghead] characters by 2 for 1 turn."
+				"Raises Boost Level of [Straw Hat Pirates] and [Egghead Arc] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates] characters by 2 for 1 turn, and raises Boost Level of [Egghead Arc] characters by 1 for 1 turn.",
+				"Raises Boost Level of [Straw Hat Pirates] and [Egghead Arc] characters by 2 for 1 turn."
 			]
 		}
 	},
@@ -170000,7 +170000,7 @@ window.details = {
 	},
 	4389: {//Miss Buckingham Stussy
 		captain: "Boosts ATK of [INT] characters by 3.75x, and boosts HP of Fighter and Striker characters by 1.35x.",
-		special: "Reduces Special Cooldown of Fighter and Striker characters by 2 turns, reduces Paralysis duration by 6 turns, and boosts ATK against delayed enemies and enemies inflicted with Increase Damage Taken by 2.25x for 3 turns. If your crew has 4+ [Egghead] characters, reduces Bleed duration by 3 turns, and boosts Orb Effects of Fighter and Striker characters by 1.75x, allowing override, for 1 turn.",
+		special: "Reduces Special Cooldown of Fighter and Striker characters by 2 turns, reduces Paralysis duration by 6 turns, and boosts ATK against delayed enemies and enemies inflicted with Increase Damage Taken by 2.25x for 3 turns. If your crew has 4+ [Egghead Arc] characters, reduces Bleed duration by 3 turns, and boosts Orb Effects of Fighter and Striker characters by 1.75x, allowing override, for 1 turn.",
 		specialName: "Landing in God Valley",
 		sailor: {
 			base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
@@ -170060,7 +170060,7 @@ window.details = {
 	},
 	4390: {//Young Kaido
 		captain: "Boosts ATK of Striker and Powerhouse characters by 3.75x, and boosts HP of [STR] characters by 1.35x.",
-		special: "Delays all enemies by 1 turn, reduces crew's current HP by 85%, deals 30x the amount of HP subtracted in Typeless damage to all enemies, reduces ATK Down duration by 6 turns, and boosts Base ATK of Striker and Powerhouse characters by 1,250 for 1 turn. If your crew has 4+ [Egghead] characters or your crew has Base ATK Boost when the special is activated, inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn.",
+		special: "Delays all enemies by 1 turn, reduces crew's current HP by 85%, deals 30x the amount of HP subtracted in Typeless damage to all enemies, reduces ATK Down duration by 6 turns, and boosts Base ATK of Striker and Powerhouse characters by 1,250 for 1 turn. If your crew has 4+ [Egghead Arc] characters or your crew has Base ATK Boost when the special is activated, inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn.",
 		specialName: "Recalled Grudge",
 		sailor: {
 			base: "Boosts base ATK, HP and RCV of [STR], Striker and Powerhouse characters by 50.",
@@ -170249,11 +170249,11 @@ window.details = {
                 "When a [Revolutionary Army] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Egghead] characters by 1 for 1 turn, and raises Boost Level of [Revolutionary Army] characters by 1 for 1 turn.",
-                "Raises Boost Level of [Egghead] characters by 1 for 1 turn, and raises Boost Level of [Revolutionary Army] characters by 2 for 1 turn.",
-                "Raises Boost Level of [Egghead] characters by 2 for 1 turn, and raises Boost Level of [Revolutionary Army] characters by 3 for 1 turn.",
-                "Raises Boost Level of [Egghead] characters by 3 for 1 turn, and raises Boost Level of [Revolutionary Army] characters by 5 for 1 turn.",
-                "Raises Boost Level of [Egghead] characters by 4 for 1 turn, and raises Boost Level of [Revolutionary Army] characters by 7 for 1 turn."
+                "Raises Boost Level of [Egghead Arc] characters by 1 for 1 turn, and raises Boost Level of [Revolutionary Army] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 1 for 1 turn, and raises Boost Level of [Revolutionary Army] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 2 for 1 turn, and raises Boost Level of [Revolutionary Army] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 3 for 1 turn, and raises Boost Level of [Revolutionary Army] characters by 5 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 4 for 1 turn, and raises Boost Level of [Revolutionary Army] characters by 7 for 1 turn."
             ]
         }
     },
@@ -171648,7 +171648,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Deals 20% of enemies' current HP in damage to all enemies, reduces Special Bind duration by 6 turns, changes [BLOCK] orbs into Matching orbs, and becomes Mihawk & Perona for 3 turns. If your crew has 3+ [Thriller Bark Pirates], [Marineford Paramount War] or [Seven Warlords of the Sea] characters, reduces enemies' Orb-Based Damage Reduction duration by 6 turns, and boosts ATK against enemies inflicted with Negative and enemies inflicted with Increase Damage Taken by 3.25x for 1 turn; boosts ATK against enemies inflicted with Negative and enemies inflicted with Increase Damage Taken by 3x for 1 turn otherwise."
+                    base: "Deals 20% of enemies' current HP in damage to all enemies, reduces Special Bind duration by 6 turns, changes [BLOCK] orbs into Matching orbs, and becomes Mihawk & Perona for 3 turns. If your crew has 3+ [Thriller Bark Pirates], [Marineford Paramount War Arc] or [Seven Warlords of the Sea] characters, reduces enemies' Orb-Based Damage Reduction duration by 6 turns, and boosts ATK against enemies inflicted with Negative and enemies inflicted with Increase Damage Taken by 3.25x for 1 turn; boosts ATK against enemies inflicted with Negative and enemies inflicted with Increase Damage Taken by 3x for 1 turn otherwise."
                 },
                 rResilience: true
             }
@@ -171687,8 +171687,8 @@ window.details = {
         ]
     },
     4409: {//Garp
-        captain: "Boosts ATK of [Navy], [Navy Vice Admiral] and [Egghead] character by 1.1x, boosts ATK of [DEX], [INT] and Fighter characters by 5.5x, by 6.05x instead if they have the applicable tag, boosts HP of [DEX], [INT] and Fighter characters by 1.25x, makes [DEX] and [TND] orbs beneficial for all characters, boosts chances of getting [DEX] orbs, and increases duration of any Color Affinity buffs applied by Specials by 1 turn. If your crew has 5+ [Navy], [Navy Vice Admiral] or [Egghead] characters, reduces Bind duration by 10 turns; additionally, if a crew member uses a special with an ATK Up, Orb Effect or Color Affinity buff, increases boost effects of those ATK Up, Orb Amplification and Color Affinity buffs by +0.2x.",
-        special: "Reduces enemies' Threshold Damage Reduction duration by 6 turns. If your crew has ATK Up when the special is activated, boosts the Color Affinity of [DEX], [INT] and Fighter characters by 3.5x, can be enhanced up to 2 times, for 1 turn, and increases boost effects of ATK Up buffs by 1.3x (up to 6x); otherwise, boosts ATK of [DEX], [INT] and Fighter characters by 3.5x, can be enhanced up to 2 times, for 1 turn, and increases boost effects of Color Affinity buffs by 1.3x (up to 6x). If your crew has 5+ [Navy], [Navy Vice Admiral] or [Egghead] characters, recovers 2x character's RCV in HP at the end of each turn for 10 turns, and up to 1 time per adventure, reduces Special Cooldown of this character by 9 turns.",
+        captain: "Boosts ATK of [Navy], [Navy Vice Admiral] and [Egghead Arc] character by 1.1x, boosts ATK of [DEX], [INT] and Fighter characters by 5.5x, by 6.05x instead if they have the applicable tag, boosts HP of [DEX], [INT] and Fighter characters by 1.25x, makes [DEX] and [TND] orbs beneficial for all characters, boosts chances of getting [DEX] orbs, and increases duration of any Color Affinity buffs applied by Specials by 1 turn. If your crew has 5+ [Navy], [Navy Vice Admiral] or [Egghead Arc] characters, reduces Bind duration by 10 turns; additionally, if a crew member uses a special with an ATK Up, Orb Effect or Color Affinity buff, increases boost effects of those ATK Up, Orb Amplification and Color Affinity buffs by +0.2x.",
+        special: "Reduces enemies' Threshold Damage Reduction duration by 6 turns. If your crew has ATK Up when the special is activated, boosts the Color Affinity of [DEX], [INT] and Fighter characters by 3.5x, can be enhanced up to 2 times, for 1 turn, and increases boost effects of ATK Up buffs by 1.3x (up to 6x); otherwise, boosts ATK of [DEX], [INT] and Fighter characters by 3.5x, can be enhanced up to 2 times, for 1 turn, and increases boost effects of Color Affinity buffs by 1.3x (up to 6x). If your crew has 5+ [Navy], [Navy Vice Admiral] or [Egghead Arc] characters, recovers 2x character's RCV in HP at the end of each turn for 10 turns, and up to 1 time per adventure, reduces Special Cooldown of this character by 9 turns.",
         specialName: "Clenched Fist Against God Valley",
         sailor: {
             base: "When any other [Navy] character uses a special, reduces Special Cooldown of this character by 2 turns.",
@@ -171809,8 +171809,8 @@ window.details = {
         }
     },
     4410: {//St. Figarland Garling
-        captain: "Reduces Special Cooldown of [Five Elders], [Celestial Dragon] and [Egghead] characters by 4 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [INT], [DEX], Slasher and Driven characters by 5.25x, by 5.775x instead if they have the applicable tag, boosts ATK of this characters by 6.6x, makes [INT], [RCV] and [TND] orbs beneficial for all characters, reduces Paralysis and Special Bind duration by 10 turns on [Five Elders] and [Celestial Dragon] characters, and reduces enemies' [INT] Resistance by -6% for 1 turn when a character performs a Critical Hit. If your crew has 5+ [Five Elders], [Celestial Dragon] or [Egghead] characters and a crew member uses a special with an Orb Effect buff, increases boost effects of that Orb Amplification buff by +0.5x.",
-        special: "Deals 2,000,000 Fixed True damage, ignoring Normal Attack Only, to one enemy, and reduces Special Bind duration by 10 turns. Boosts Orb Effects of [DEX] and [INT] characters by 3.75x for 1 turn; if total cost of crew, including Friend Captain and Supports, is 750+, boosts Orb Effects of all characters by 4x for 1 turn instead. If your crew has 3+ [Five Elders], [Celestial Dragon] or [Navy] characters or your crew has 5+ [Egghead] characters, enables Orb Amplification buffs to be enhanced up to 2 times, including effects activated in the same ability, and boosts Critical Hit Damage of [DEX] and [INT] characters by 40% for 1 turn; if total cost of crew, including Friend Captain and Supports, is 750+, boosts Critical Hit Damage of all characters by 40% for 1 turn instead.",
+        captain: "Reduces Special Cooldown of [Five Elders], [Celestial Dragon] and [Egghead Arc] characters by 4 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [INT], [DEX], Slasher and Driven characters by 5.25x, by 5.775x instead if they have the applicable tag, boosts ATK of this characters by 6.6x, makes [INT], [RCV] and [TND] orbs beneficial for all characters, reduces Paralysis and Special Bind duration by 10 turns on [Five Elders] and [Celestial Dragon] characters, and reduces enemies' [INT] Resistance by -6% for 1 turn when a character performs a Critical Hit. If your crew has 5+ [Five Elders], [Celestial Dragon] or [Egghead Arc] characters and a crew member uses a special with an Orb Effect buff, increases boost effects of that Orb Amplification buff by +0.5x.",
+        special: "Deals 2,000,000 Fixed True damage, ignoring Normal Attack Only, to one enemy, and reduces Special Bind duration by 10 turns. Boosts Orb Effects of [DEX] and [INT] characters by 3.75x for 1 turn; if total cost of crew, including Friend Captain and Supports, is 750+, boosts Orb Effects of all characters by 4x for 1 turn instead. If your crew has 3+ [Five Elders], [Celestial Dragon] or [Navy] characters or your crew has 5+ [Egghead Arc] characters, enables Orb Amplification buffs to be enhanced up to 2 times, including effects activated in the same ability, and boosts Critical Hit Damage of [DEX] and [INT] characters by 40% for 1 turn; if total cost of crew, including Friend Captain and Supports, is 750+, boosts Critical Hit Damage of all characters by 40% for 1 turn instead.",
         specialName: "Rabbit-Hunting Sword",
         sailor: {
             base: "Reduces Paralysis and Special Bind duration by 10 turns on this character; makes [RCV] and [TND] orbs beneficial for this character.",
@@ -172380,11 +172380,11 @@ window.details = {
                 "When a [Navy] or [Scientist] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Egghead], [Scientist] and [Navy] characters by 1 for 1 turn.",
-                "Raises Boost Level of [Egghead] and [Scientist] characters by 1 for 1 turn, and raises Boost Level of [Navy] characters by 2 for 1 turn.",
-                "Raises Boost Level of [Egghead] characters by 1 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 2 for 1 turn.",
-                "Raises Boost Level of [Egghead], [Scientist] and [Navy] characters by 2 for 1 turn.",
-                "Raises Boost Level of [Egghead] characters by 2 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 3 for 1 turn."
+                "Raises Boost Level of [Egghead Arc], [Scientist] and [Navy] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] and [Scientist] characters by 1 for 1 turn, and raises Boost Level of [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 1 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc], [Scientist] and [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 2 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 3 for 1 turn."
             ]
         }
     },
@@ -172491,11 +172491,11 @@ window.details = {
                 "When a [Navy] or [Scientist] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Egghead], [Scientist] and [Navy] characters by 1 for 1 turn.",
-                "Raises Boost Level of [Egghead] and [Scientist] characters by 1 for 1 turn, and raises Boost Level of [Navy] characters by 2 for 1 turn.",
-                "Raises Boost Level of [Egghead] characters by 1 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 2 for 1 turn.",
-                "Raises Boost Level of [Egghead], [Scientist] and [Navy] characters by 2 for 1 turn.",
-                "Raises Boost Level of [Egghead] characters by 2 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 3 for 1 turn."
+                "Raises Boost Level of [Egghead Arc], [Scientist] and [Navy] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] and [Scientist] characters by 1 for 1 turn, and raises Boost Level of [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 1 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc], [Scientist] and [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 2 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 3 for 1 turn."
             ]
         },
         festStats: {
@@ -172512,52 +172512,52 @@ window.details = {
         festAttackTarget: "Targets closest enemies",
         festResistance: "80% chance to evade Paralysis, reduce damage taken from [QCK] by 20％",
         festAbility: [
-            "Fighter/Shooter class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; [Egghead] teammates DEF Up Lv.1",
-            "Fighter/Shooter class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; [Egghead] teammates DEF Up Lv.2",
-            "Fighter/Shooter class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; [Egghead] teammates DEF Up Lv.3",
-            "Fighter/Shooter class teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; [Egghead] teammates DEF Up Lv.4",
-            "Fighter/Shooter class teammates HP Up Lv.6, ATK Up Lv.6, SPD Up Lv.6; [Egghead] teammates DEF Up Lv.5"
+            "Fighter/Shooter class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; [Egghead Arc] teammates DEF Up Lv.1",
+            "Fighter/Shooter class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; [Egghead Arc] teammates DEF Up Lv.2",
+            "Fighter/Shooter class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; [Egghead Arc] teammates DEF Up Lv.3",
+            "Fighter/Shooter class teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; [Egghead Arc] teammates DEF Up Lv.4",
+            "Fighter/Shooter class teammates HP Up Lv.6, ATK Up Lv.6, SPD Up Lv.6; [Egghead Arc] teammates DEF Up Lv.5"
         ],
         festSpecial: [
             {
                 cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.3 (11 s), RCV Up Lv.3 (11 s); targets [Egghead] teammates for Shield Lv.1 (15 s), 60% chance to evade Paralysis (11 s)"
+                description: "Targets teammates within medium range for ATK Up Lv.3 (11 s), RCV Up Lv.3 (11 s); targets [Egghead Arc] teammates for Shield Lv.1 (15 s), 60% chance to evade Paralysis (11 s)"
             },
             {
                 cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.3 (12 s), RCV Up Lv.3 (12 s); targets [Egghead] teammates for Shield Lv.1 (15 s), 62% chance to evade Paralysis (12 s)"
+                description: "Targets teammates within medium range for ATK Up Lv.3 (12 s), RCV Up Lv.3 (12 s); targets [Egghead Arc] teammates for Shield Lv.1 (15 s), 62% chance to evade Paralysis (12 s)"
             },
             {
                 cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.3 (13 s), RCV Up Lv.3 (13 s); targets [Egghead] teammates for Shield Lv.1 (15 s), 64% chance to evade Paralysis (13 s)"
+                description: "Targets teammates within medium range for ATK Up Lv.3 (13 s), RCV Up Lv.3 (13 s); targets [Egghead Arc] teammates for Shield Lv.1 (15 s), 64% chance to evade Paralysis (13 s)"
             },
             {
                 cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.3 (14 s), RCV Up Lv.3 (14 s); targets [Egghead] teammates for Shield Lv.1 (15 s), 66% chance to evade Paralysis (14 s)"
+                description: "Targets teammates within medium range for ATK Up Lv.3 (14 s), RCV Up Lv.3 (14 s); targets [Egghead Arc] teammates for Shield Lv.1 (15 s), 66% chance to evade Paralysis (14 s)"
             },
             {
                 cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.3 (15 s), RCV Up Lv.3 (15 s); targets [Egghead] teammates for Shield Lv.1 (15 s), 68% chance to evade Paralysis (15 s)"
+                description: "Targets teammates within medium range for ATK Up Lv.3 (15 s), RCV Up Lv.3 (15 s); targets [Egghead Arc] teammates for Shield Lv.1 (15 s), 68% chance to evade Paralysis (15 s)"
             },
             {
                 cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.4 (16 s), RCV Up Lv.4 (16 s); targets [Egghead] teammates for Shield Lv.2 (15 s), 70% chance to evade Paralysis (16 s)"
+                description: "Targets teammates within medium range for ATK Up Lv.4 (16 s), RCV Up Lv.4 (16 s); targets [Egghead Arc] teammates for Shield Lv.2 (15 s), 70% chance to evade Paralysis (16 s)"
             },
             {
                 cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.4 (17 s), RCV Up Lv.4 (17 s); targets [Egghead] teammates for Shield Lv.2 (15 s), 72% chance to evade Paralysis (17 s)"
+                description: "Targets teammates within medium range for ATK Up Lv.4 (17 s), RCV Up Lv.4 (17 s); targets [Egghead Arc] teammates for Shield Lv.2 (15 s), 72% chance to evade Paralysis (17 s)"
             },
             {
                 cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.4 (18 s), RCV Up Lv.4 (18 s); targets [Egghead] teammates for Shield Lv.2 (15 s), 74% chance to evade Paralysis (18 s)"
+                description: "Targets teammates within medium range for ATK Up Lv.4 (18 s), RCV Up Lv.4 (18 s); targets [Egghead Arc] teammates for Shield Lv.2 (15 s), 74% chance to evade Paralysis (18 s)"
             },
             {
                 cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.4 (19 s), RCV Up Lv.4 (19 s); targets [Egghead] teammates for Shield Lv.2 (15 s), 76% chance to evade Paralysis (19 s)"
+                description: "Targets teammates within medium range for ATK Up Lv.4 (19 s), RCV Up Lv.4 (19 s); targets [Egghead Arc] teammates for Shield Lv.2 (15 s), 76% chance to evade Paralysis (19 s)"
             },
             {
                 cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.5 (20 s), RCV Up Lv.5 (20 s); targets [Egghead] teammates for Shield Lv.3 (15 s), 80% chance to evade Paralysis (20 s)"
+                description: "Targets teammates within medium range for ATK Up Lv.5 (20 s), RCV Up Lv.5 (20 s); targets [Egghead Arc] teammates for Shield Lv.3 (15 s), 80% chance to evade Paralysis (20 s)"
             }
         ]
     },
@@ -172790,11 +172790,11 @@ window.details = {
                 "When a [Revolutionary Army] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Egghead] and [Revolutionary Army] characters by 1 for 1 turn.",
-                "Raises Boost Level of [Egghead] and [Revolutionary Army] characters by 2 for 1 turn.",
-                "Raises Boost Level of [Egghead] and [Revolutionary Army] characters by 3 for 1 turn.",
-                "Raises Boost Level of [Egghead] and [Revolutionary Army] characters by 4 for 1 turn.",
-                "Raises Boost Level of [Egghead] and [Revolutionary Army] characters by 5 for 1 turn."
+                "Raises Boost Level of [Egghead Arc] and [Revolutionary Army] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] and [Revolutionary Army] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] and [Revolutionary Army] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] and [Revolutionary Army] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] and [Revolutionary Army] characters by 5 for 1 turn."
             ]
         }
     },
