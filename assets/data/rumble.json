@@ -20873,7 +20873,6 @@
               "attributes": [ "Damage Over Time" ],
               "duration": 30,
               "level": 1,
-              "chance": 100,
               "effect": "hinderance",
               "range": { "direction": "radial", "size": "medium" },
               "targeting": { "targets": [ "enemies" ] }
@@ -30460,7 +30459,6 @@
               "attributes": [ "Damage Over Time" ],
               "duration": 20,
               "level": 1,
-              "chance": 100,
               "effect": "hinderance",
               "range": { "direction": "radial", "size": "large" },
               "targeting": { "targets": [ "enemies" ] }
@@ -35478,7 +35476,6 @@
               "attributes": [ "Damage Over Time" ],
               "duration": 30,
               "level": 1,
-              "chance": 100,
               "effect": "hinderance",
               "targeting": { "count": 2, "targets": [ "enemies" ] }
             },
@@ -170319,7 +170316,6 @@
               "attributes": [ "Damage Over Time" ],
               "duration": 12,
               "level": 1,
-              "chance": 100,
               "effect": "hinderance",
               "targeting": { "count": 2, "targets": [ "enemies" ] }
             },
@@ -171124,7 +171120,6 @@
               "attributes": [ "Damage Over Time" ],
               "duration": 21,
               "level": 1,
-              "chance": 100,
               "effect": "hinderance",
               "range": { "direction": "radial", "size": "large" },
               "targeting": { "targets": [ "enemies" ] }
@@ -175881,7 +175876,6 @@
               "attributes": [ "Damage Over Time" ],
               "duration": 16,
               "level": 1,
-              "chance": 100,
               "effect": "hinderance",
               "targeting": { "targets": [ "enemies" ] }
             },
@@ -196326,7 +196320,6 @@
               "attributes": [ "Damage Over Time" ],
               "duration": 11,
               "level": 1,
-              "chance": 100,
               "effect": "hinderance",
               "targeting": { "targets": [ "[PSY]" ] }
             }
@@ -204204,7 +204197,6 @@
               "attributes": [ "Damage Over Time" ],
               "duration": 6,
               "level": 1,
-              "chance": 100,
               "effect": "hinderance",
               "range": { "direction": "sideways", "size": "medium" },
               "targeting": { "targets": [ "enemies" ] }
@@ -213671,7 +213663,6 @@
               "attributes": [ "Damage Over Time" ],
               "duration": 11,
               "level": 1,
-              "chance": 100,
               "effect": "hinderance",
               "range": { "direction": "radial", "size": "medium" },
               "targeting": { "targets": [ "enemies" ] }
@@ -273350,12 +273341,12 @@
               "chance": 73,
               "duration": 25,
               "effect": "hinderance",
-              "targeting": { "targets": [ "ATK" ] }
+              "targeting": { "targets": [ "ATK-Style" ] }
             },
             {
               "amount": 1.9,
               "effect": "damage",
-              "targeting": { "targets": [ "ATK" ] },
+              "targeting": { "targets": [ "ATK-Style" ] },
               "type": "atk"
             }
           ]
@@ -306858,7 +306849,7 @@
               "chance": 80,
               "duration": 10,
               "effect": "hinderance",
-              "targeting": { "count": 2, "targets": [ "DBF" ] }
+              "targeting": { "count": 2, "targets": [ "DBF-Style" ] }
             }
           ]
         },
@@ -311082,7 +311073,7 @@
               "chance": 60,
               "duration": 10,
               "effect": "hinderance",
-              "targeting": { "targets": [ "ATK" ] }
+              "targeting": { "targets": [ "ATK-Style" ] }
             },
             {
               "amount": 2,
@@ -311215,7 +311206,7 @@
               "amount": 2,
               "effect": "damage",
               "type": "atk",
-              "targeting": { "targets": [ "ATK" ] }
+              "targeting": { "targets": [ "ATK-Style" ] }
             }
           ]
         },
@@ -311441,7 +311432,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 10,
               "level": 1,
               "targeting": {"targets": ["enemies"]},
@@ -311451,7 +311441,7 @@
               "amount": 0.75,
               "effect": "damage",
               "type": "atk",
-              "targeting": { "count": 3, "priority": "lowest", "stat": "HP", "targets": [ "ATK" ] }
+              "targeting": { "count": 3, "priority": "lowest", "stat": "HP", "targets": [ "ATK-Style" ] }
             }
           ]
         },
@@ -311614,7 +311604,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 15,
               "level": 1,
               "targeting": {"targets": ["enemies"]},
@@ -312963,7 +312952,7 @@
               "amount": 15,
               "effect": "recharge",
               "type": "Special CT",
-              "targeting": {"targets": ["ATK Style"]}
+              "targeting": {"targets": ["ATK-Style"]}
             },
             {
               "amount": 3,
@@ -317152,7 +317141,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 15,
               "level": 1,
               "targeting": {"targets": ["enemies"]},
@@ -320718,7 +320706,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 6,
               "level": 1,
               "targeting": {"targets": ["enemies"]},
@@ -320933,7 +320920,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 6,
               "level": 2,
               "targeting": {"targets": ["enemies"]},
@@ -324790,7 +324776,7 @@
               "attributes": ["ATK"],
               "effect": "buff",
               "level": 3,
-              "targeting": {"targets": ["ATK Style"]}
+              "targeting": {"targets": ["ATK-Style"]}
             }
           ]
         },
@@ -325204,7 +325190,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 26,
               "level": 1,
               "targeting": {"targets": ["enemies"]},
@@ -325359,7 +325344,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 26,
               "level": 1,
               "targeting": {"targets": ["enemies"]},
@@ -325699,7 +325683,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 15,
               "level": 1,
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "highest", "stat": "HP"}
@@ -326007,7 +325990,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 22,
               "level": 1,
               "targeting": {"targets": ["Fighter", "Slasher", "Powerhouse", "Cerebral"]}
@@ -343569,7 +343551,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 21,
               "level": 3,
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "HP"}
@@ -344030,7 +344011,7 @@
               "effect": "debuff",
               "level": 1,
               "condition": {"comparator": "more", "composition": true, "count": 6, "targets": ["[STR]"], "type": "crew"},
-              "targeting": {"targets": ["DBF Style"]}
+              "targeting": {"targets": ["DBF-Style"]}
             }
           ]
         },
@@ -344122,7 +344103,7 @@
               "effect": "debuff",
               "level": 1,
               "condition": {"comparator": "more", "composition": true, "count": 6, "targets": ["[STR]"], "type": "crew"},
-              "targeting": {"targets": ["DBF Style"]}
+              "targeting": {"targets": ["DBF-Style"]}
             }
           ]
         },
@@ -344213,7 +344194,7 @@
               "chance": 50,
               "duration": 10,
               "condition": {"count": 6, "comparator": "More", "type": "crew", "targets": ["[STR]"], "composition": true},
-              "targeting": {"targets": ["DBF Style"], "count": 1}
+              "targeting": {"targets": ["DBF-Style"], "count": 1}
             }
           ]
         },
@@ -344368,7 +344349,7 @@
               "chance": 50,
               "duration": 10,
               "condition": {"count": 6, "comparator": "More", "type": "crew", "targets": ["[STR]"], "composition": true},
-              "targeting": {"targets": ["DBF Style"], "count": 2}
+              "targeting": {"targets": ["DBF-Style"], "count": 2}
             }
           ]
         },
@@ -349103,7 +349084,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 6,
               "level": 1,
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "Special CT"}
@@ -349262,7 +349242,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 30,
               "level": 7,
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "Special CT"}
@@ -349295,7 +349274,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 30,
               "level": 10,
               "targeting": {"targets": ["enemies"]}
@@ -351165,7 +351143,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 6,
               "level": 1,
               "targeting": {"targets": ["enemies"], "count": 2, "priority": "highest", "stat": "HP"}
@@ -351323,7 +351300,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 30,
               "level": 8,
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "highest", "stat": "HP"}
@@ -351355,7 +351331,6 @@
             {
               "attributes": ["Damage Over Time"],
               "effect": "hinderance",
-              "chance": 100,
               "duration": 30,
               "level": 10,
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "highest", "stat": "HP"}
@@ -351488,14 +351463,14 @@
               "level": 3,
               "duration": 6,
               "effect": "buff",
-              "targeting": {"targets": ["ATK Style"]}
+              "targeting": {"targets": ["ATK-Style"]}
             },
             {
               "attributes": ["Special CT"],
               "level": 1,
               "duration": 6,
               "effect": "buff",
-              "targeting": {"targets": ["ATK Style"]}
+              "targeting": {"targets": ["ATK-Style"]}
             }
           ]
         },
@@ -351733,14 +351708,14 @@
               "level": 4,
               "duration": 6,
               "effect": "buff",
-              "targeting": {"targets": ["ATK Style"]}
+              "targeting": {"targets": ["ATK-Style"]}
             },
             {
               "attributes": ["Special CT"],
               "level": 1,
               "duration": 6,
               "effect": "buff",
-              "targeting": {"targets": ["ATK Style"]}
+              "targeting": {"targets": ["ATK-Style"]}
             }
           ]
         },
@@ -352922,14 +352897,14 @@
               "level": 3,
               "duration": 6,
               "effect": "buff",
-              "targeting": {"targets": ["ATK Style"], "excludes": ["self"], "count": 1}
+              "targeting": {"targets": ["ATK-Style"], "excludes": ["self"], "count": 1}
             },
             {
               "attributes": ["Special CT"],
               "level": 3,
               "duration": 6,
               "effect": "buff",
-              "targeting": {"targets": ["ATK Style"], "excludes": ["self"], "count": 1}
+              "targeting": {"targets": ["ATK-Style"], "excludes": ["self"], "count": 1}
             }
           ]
         },
@@ -365991,7 +365966,6 @@
             },
             {
               "attributes": ["Damage Over Time"],
-              "chance": 100,
               "level": 1,
               "duration": 15,
               "effect": "hinderance",
