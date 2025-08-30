@@ -220395,7 +220395,7 @@
               "type": "cut"
             },
             {
-              "attributes": [ "HP", "SPD" ],
+              "attributes": [ "ATK", "SPD" ],
               "duration": 21,
               "effect": "buff",
               "level": 1,
