@@ -15329,39 +15329,57 @@
         },
         {
           "cooldown": 20,
-          "effects": []
+          "effects": [
+            {}
+          ]
         },
         {
           "cooldown": 19,
-          "effects": []
+          "effects": [
+            {}
+          ]
         },
         {
           "cooldown": 18,
-          "effects": []
+          "effects": [
+            {}
+          ]
         },
         {
           "cooldown": 17,
-          "effects": []
+          "effects": [
+            {}
+          ]
         },
         {
           "cooldown": 16,
-          "effects": []
+          "effects": [
+            {}
+          ]
         },
         {
           "cooldown": 15,
-          "effects": []
+          "effects": [
+            {}
+          ]
         },
         {
           "cooldown": 14,
-          "effects": []
+          "effects": [
+            {}
+          ]
         },
         {
           "cooldown": 13,
-          "effects": []
+          "effects": [
+            {}
+          ]
         },
         {
           "cooldown": 12,
-          "effects": []
+          "effects": [
+            {}
+          ]
         }
       ],
       "stats": {
