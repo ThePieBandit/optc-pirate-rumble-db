@@ -168158,69 +168158,7 @@ window.details = {
 				"Boosts Tandem ATK of [PSY] characters by 1.65x for 1 turn.",
 				"Boosts Tandem ATK of [PSY] characters by 1.75x for 1 turn."
 			]
-		},
-		festStats: {
-			def: 137,
-			spd: 151,
-			style: "RCV"
-		},
-		festAttackPattern: [
-			"Normal Attack",
-			"Power Attack",
-			"Heal Teammate in Range Lv.1 (Small Range)",
-			"Power Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Special Bind, reduce damage taken from [INT] by 20%",
-		festAbility: [
-			"Team RCV Up Lv.1; if 4 or more [Straw Hat Pirates] characters are on the team, team Special CT Speed Up Lv.1, SPD Up Lv.2, Critical % Up Lv.1",
-			"Team RCV Up Lv.2; if 4 or more [Straw Hat Pirates] characters are on the team, team Special CT Speed Up Lv.1, SPD Up Lv.3, Critical % Up Lv.2",
-			"Team RCV Up Lv.3; if 4 or more [Straw Hat Pirates] characters are on the team, team Special CT Speed Up Lv.1, SPD Up Lv.4, Critical % Up Lv.3",
-			"Team RCV Up Lv.4; if 4 or more [Straw Hat Pirates] characters are on the team, team Special CT Speed Up Lv.2, SPD Up Lv.5, Critical % Up Lv.4",
-			"Team RCV Up Lv.5; if 4 or more [Straw Hat Pirates] characters are on the team, team Special CT Speed Up Lv.2, SPD Up Lv.6, Critical % Up Lv.5"
-		],
-		festSpecial: [
-			{
-				cooldown: 25,
-				description: "Targets teammates within medium range for RCV x 1.8 healing, Paralysis reduction (11 s), Special Bind reduction (11 s); if 4 or more [Straw Hat Pirates] characters are on the team, 70% chance to evade Paralysis (11 s), 70% chance to evade Special Bind (11 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets teammates within medium range for RCV x 1.9 healing, Paralysis reduction (12 s), Special Bind reduction (12 s); if 4 or more [Straw Hat Pirates] characters are on the team, 70% chance to evade Paralysis (12 s), 70% chance to evade Special Bind (12 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets teammates within medium range for RCV x 2 healing, Paralysis reduction (13 s), Special Bind reduction (13 s); if 4 or more [Straw Hat Pirates] characters are on the team, 70% chance to evade Paralysis (13 s), 70% chance to evade Special Bind (13 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets teammates within medium range for RCV x 2.1 healing, Paralysis reduction (14 s), Special Bind reduction (14 s); if 4 or more [Straw Hat Pirates] characters are on the team, 70% chance to evade Paralysis (14 s), 70% chance to evade Special Bind (14 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets teammates within medium range for RCV x 2.2 healing, Paralysis reduction (15 s), Special Bind reduction (15 s); if 4 or more [Straw Hat Pirates] characters are on the team, 70% chance to evade Paralysis (15 s), 70% chance to evade Special Bind (15 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets teammates within medium range for RCV x 2.3 healing, Paralysis reduction (16 s), Special Bind reduction (16 s); if 4 or more [Straw Hat Pirates] characters are on the team, 70% chance to evade Paralysis (16 s), 70% chance to evade Special Bind (16 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets teammates within medium range for RCV x 2.4 healing, Paralysis reduction (17 s), Special Bind reduction (17 s); if 4 or more [Straw Hat Pirates] characters are on the team, 70% chance to evade Paralysis (17 s), 70% chance to evade Special Bind (17 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets teammates within medium range for RCV x 2.5 healing, Paralysis reduction (18 s), Special Bind reduction (18 s); if 4 or more [Straw Hat Pirates] characters are on the team, 70% chance to evade Paralysis (18 s), 70% chance to evade Special Bind (18 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets teammates within medium range for RCV x 2.6 healing, Paralysis reduction (19 s), Special Bind reduction (19 s); if 4 or more [Straw Hat Pirates] characters are on the team, 70% chance to evade Paralysis (19 s), 70% chance to evade Special Bind (19 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets teammates within medium range for RCV x 2.8 healing, Paralysis reduction (20 s), Special Bind reduction (20 s); if 4 or more [Straw Hat Pirates] characters are on the team, 70% chance to evade Paralysis (20 s), 70% chance to evade Special Bind (20 s)"
-			}
-		]
+		}
 	},
 	4370: {//Franky
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Shooter characters by 4x, and makes [PSY], [INT] and [TND] orbs beneficial for Shooter characters.",
@@ -168297,69 +168235,7 @@ window.details = {
 				"Raises Boost Level of [Egghead Arc] characters by 2 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 1 for 1 turn.",
 				"Raises Boost Level of [Egghead Arc] and [Straw Hat Pirates] characters by 2 for 1 turn."
 			]
-		},
-		festStats: {
-			def: 290,
-			spd: 114,
-			style: "DEF"
-		},
-		festAttackPattern: [
-			"Normal Attack",
-			"Power Attack",
-			"Heal Teammate in Range Lv.1 (Small Range)",
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Forced Out, reduce damage taken from [INT] by 20%",
-		festAbility: [
-			"Team DEF Up Lv.1; if 4 or more [Straw Hat Pirates] characters are on the team, [Straw Hat Pirates] teammates HP Up Lv.2, ATK Up Lv.2, Blow Away % Up Lv.1",
-			"Team DEF Up Lv.2; if 4 or more [Straw Hat Pirates] characters are on the team, [Straw Hat Pirates] teammates HP Up Lv.3, ATK Up Lv.3, Blow Away % Up Lv.2",
-			"Team DEF Up Lv.3; if 4 or more [Straw Hat Pirates] characters are on the team, [Straw Hat Pirates] teammates HP Up Lv.4, ATK Up Lv.4, Blow Away % Up Lv.3",
-			"Team DEF Up Lv.4; if 4 or more [Straw Hat Pirates] characters are on the team, [Straw Hat Pirates] teammates HP Up Lv.5, ATK Up Lv.5, Blow Away % Up Lv.4",
-			"Team DEF Up Lv.5; if 4 or more [Straw Hat Pirates] characters are on the team, [Straw Hat Pirates] teammates HP Up Lv.6, ATK Up Lv.6, Blow Away % Up Lv.5"
-		],
-		festSpecial: [
-			{
-				cooldown: 35,
-				description: "Targets self for Shield Lv.1 (21 s), ATK x 1.1 Counter stance (21 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets team for DEF Up Lv.2 (21 s), 50% chance to evade fixed damage (11 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets self for Shield Lv.1 (22 s), ATK x 1.2 Counter stance (22 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets team for DEF Up Lv.2 (22 s), 50% chance to evade fixed damage (12 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets self for Shield Lv.1 (23 s), ATK x 1.3 Counter stance (23 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets team for DEF Up Lv.2 (23 s), 50% chance to evade fixed damage (13 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets self for Shield Lv.2 (24 s), ATK x 1.4 Counter stance (24 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets team for DEF Up Lv.3 (24 s), 50% chance to evade fixed damage (14 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets self for Shield Lv.2 (25 s), ATK x 1.5 Counter stance (25 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets team for DEF Up Lv.3 (25 s), 50% chance to evade fixed damage (15 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets self for Shield Lv.3 (26 s), ATK x 1.6 Counter stance (26 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets team for DEF Up Lv.4 (26 s), 50% chance to evade fixed damage (16 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets self for Shield Lv.3 (27 s), ATK x 1.7 Counter stance (27 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets team for DEF Up Lv.4 (27 s), 50% chance to evade fixed damage (17 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets self for Shield Lv.3 (28 s), ATK x 1.8 Counter stance (28 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets team for DEF Up Lv.5 (28 s), 50% chance to evade fixed damage (18 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets self for Shield Lv.4 (29 s), ATK x 1.9 Counter stance (29 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets team for DEF Up Lv.5 (29 s), 50% chance to evade fixed damage (19 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets self for Shield Lv.5 (30 s), ATK x 2 Counter stance (30 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets team for DEF Up Lv.6 (30 s), 50% chance to evade fixed damage (20 s)"
-			}
-		]
+		}
 	},
 	4371: {//6+ Zoro
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Slasher and Driven characters by 5.25x, by 5.75x instead if they have a beneficial orb, boosts HP of Slasher and Driven characters by 1.2x, and reduces damage received by 10%. If this character has a [TND], [WANO] or [RAINBOW] orb and you attack with this character, increases boost effects of Chain Addition buffs by +0.25x.",
@@ -169027,69 +168903,7 @@ window.details = {
 		special: "Deals 20% of enemies' current HP in True damage to all enemies, removes enemies' Percent Damage Reduction duration completely, removes Poison duration completely, and applies Territory: Driven class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns. Boosts ATK of Driven and Striker characters by 4x-5x for 1 turn depending on the total Cost of crew, including Friend Captain and Supports, at the start of the fight. Increases boost effects of Orb Amplification buffs by 1.1x-1.5x (up to 10x) depending on the outcome of Action Special. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters, allows HP Overfill up to 2x MAX HP for 1 turn.",
 		specialNotes: "<br><b>ATK Up:</b> 499-: 4x, 500-599: 4.25x, 600-699: 4.5x, 700-749: 4.75x, 750+: 5x<br><b>Orb Amplification:</b> MISS: 1.1x, GOOD: 1.2x, GREAT: 1.3x, PERFECT: 1.4x, EXCELLENT 1.5x",
         specialName: "Perforating Thrust of the War God",
-		sailor: "Boosts base ATK, HP and RCV of Driven characters by 150; makes [INT] orbs beneficial for Driven characters.",
-		festStats: {
-			def: 279,
-			spd: 121,
-			style: "DEF"
-		},
-		festAttackPattern: [
-			"Normal Attack",
-			"Power Attack",
-			"Heal Teammate in Range Lv.1 (Small Range)",
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets enemies with low remaining HP",
-		festResistance: "Completely evades Forced Out/Special Bind, reduce damage taken from [PSY] by 30%",
-		festAbility: [
-			"[INT]/Striker class teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.3; if 6 or more Striker characters are on the team, team ATK Up Lv.1; self Shield Lv.1; first 10 s of battle, self Special CT Speed Up Lv.6; [Navy][World Government] teammates ATK Up Lv.1",
-			"[INT]/Striker class teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.4; if 6 or more Striker characters are on the team, team ATK Up Lv.1; self Shield Lv.2; first 10 s of battle, self Special CT Speed Up Lv.7; [Navy][World Government] teammates ATK Up Lv.1",
-			"[INT]/Striker class teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.5; if 6 or more Striker characters are on the team, team ATK Up Lv.2; self Shield Lv.3; first 10 s of battle, self Special CT Speed Up Lv.8; [Navy][World Government] teammates ATK Up Lv.2",
-			"[INT]/Striker class teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.6; if 6 or more Striker characters are on the team, team ATK Up Lv.2; self Shield Lv.4; first 10 s of battle, self Special CT Speed Up Lv.9; [Navy][World Government] teammates ATK Up Lv.2",
-			"[INT]/Striker class teammates HP Up Lv.7, ATK Up Lv.7, DEF Up Lv.7; if 6 or more Striker characters are on the team, team ATK Up Lv.3; self Shield Lv.5; first 10 s of battle, self Special CT Speed Up Lv.10; [Navy][World Government] teammates ATK Up Lv.3"
-		],
-		festSpecial: [
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.2 (21 s); targets 3 enemies for 73% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.1 damage; targets [Navy][World Government] teammates for 150 HP per interval auto-healing (21 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.2 (22 s); targets 3 enemies for 76% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.2 damage; targets [Navy][World Government] teammates for 200 HP per interval auto-healing (22 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.3 (23 s); targets 3 enemies for 79% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.3 damage; targets [Navy][World Government] teammates for 250 HP per interval auto-healing (23 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.3 (24 s); targets 3 enemies for 82% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.4 damage; targets [Navy][World Government] teammates for 300 HP per interval auto-healing (24 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.4 (25 s); targets 3 enemies for 85% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.5 damage; targets [Navy][World Government] teammates for 350 HP per interval auto-healing (25 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.4 (26 s); targets 3 enemies for 88% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.6 damage; targets [Navy][World Government] teammates for 400 HP per interval auto-healing (26 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.5 (27 s); targets 3 enemies for 91% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.7 damage; targets [Navy][World Government] teammates for 450 HP per interval auto-healing (27 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.5 (28 s); targets 3 enemies for 94% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.8 damage; targets [Navy][World Government] teammates for 500 HP per interval auto-healing (28 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.6 (29 s); targets 3 enemies for 97% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.9 damage; targets [Navy][World Government] teammates for 550 HP per interval auto-healing (29 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.7 (30 s); targets 3 enemies for 100% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 4 damage; targets [Navy][World Government] teammates for 600 HP per interval auto-healing (30 s)"
-			}
-		]
+		sailor: "Boosts base ATK, HP and RCV of Driven characters by 150; makes [INT] orbs beneficial for Driven characters."
 	},
 	4380: {//6* Saturn
 		captain: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 15 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [INT], Driven and Striker characters by 6x, by 6.6x instead if they have the applicable tag, boosts HP of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.6x, and makes [INT] and [RCV] orbs beneficial for all characters. If your crew has ATK Up and uses a special with an ATK Up buff, increases boost effects of ATK Up buffs by +?x, equal to the value of the special. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.3x instead, and boosts ATK of [INT], Driven and Striker characters by 7.8x instead if they have the applicable tag. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters and your crew has ATK Up with an effect of 10x or more, makes this character's normal attacks count as Type Effective against all Types.",
@@ -169210,97 +169024,7 @@ window.details = {
 				"<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 8 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [INT], Driven and Striker characters by 1.4x-1.8x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 15,000<br>Max Rush: 6 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 1.8x-2.2x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 2.8",
 				"<b>Activated on the 1st tap of an attack:</b><br>HP Cost: 12,500<br>Max Rush: 10 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [INT], Driven and Striker characters by 1.4x-2.0x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8<br><b>Activated on the 6th tap of an attack:</b><br>HP Cost: 12,500<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.2<br>Finish Tap Effect: Boosts Rush ATK of this character by 2.0x-2.5x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.05<br>Finish Tap Multiplier: 3.0"
 			]
-		},
-		festStats: {
-			def: 279,
-			spd: 121,
-			style: "DEF"
-		},
-		festAttackPattern: [
-			"Normal Attack",
-			"Power Attack",
-			"Heal Teammate in Range Lv.1 (Small Range)",
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets enemies with low remaining HP",
-		festResistance: "Completely evades Forced Out/Special Bind, reduce damage taken from [PSY] by 30%",
-		festAbility: [
-			"[INT]/Striker class teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.3; if 6 or more Striker characters are on the team, team ATK Up Lv.1; self Shield Lv.1; first 10 s of battle, self Special CT Speed Up Lv.6; [Navy][World Government] teammates ATK Up Lv.1",
-			"[INT]/Striker class teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.4; if 6 or more Striker characters are on the team, team ATK Up Lv.1; self Shield Lv.2; first 10 s of battle, self Special CT Speed Up Lv.7; [Navy][World Government] teammates ATK Up Lv.1",
-			"[INT]/Striker class teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.5; if 6 or more Striker characters are on the team, team ATK Up Lv.2; self Shield Lv.3; first 10 s of battle, self Special CT Speed Up Lv.8; [Navy][World Government] teammates ATK Up Lv.2",
-			"[INT]/Striker class teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.6; if 6 or more Striker characters are on the team, team ATK Up Lv.2; self Shield Lv.4; first 10 s of battle, self Special CT Speed Up Lv.9; [Navy][World Government] teammates ATK Up Lv.2",
-			"[INT]/Striker class teammates HP Up Lv.7, ATK Up Lv.7, DEF Up Lv.7; if 6 or more Striker characters are on the team, team ATK Up Lv.3; self Shield Lv.5; first 10 s of battle, self Special CT Speed Up Lv.10; [Navy][World Government] teammates ATK Up Lv.3"
-		],
-		festSpecial: [
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.2 (21 s); targets 3 enemies for 73% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.1 damage; targets [Navy][World Government] teammates for 150 HP per interval auto-healing (21 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.2 (22 s); targets 3 enemies for 76% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.2 damage; targets [Navy][World Government] teammates for 200 HP per interval auto-healing (22 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.3 (23 s); targets 3 enemies for 79% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.3 damage; targets [Navy][World Government] teammates for 250 HP per interval auto-healing (23 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.3 (24 s); targets 3 enemies for 82% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.4 damage; targets [Navy][World Government] teammates for 300 HP per interval auto-healing (24 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.4 (25 s); targets 3 enemies for 85% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.5 damage; targets [Navy][World Government] teammates for 350 HP per interval auto-healing (25 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.4 (26 s); targets 3 enemies for 88% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.6 damage; targets [Navy][World Government] teammates for 400 HP per interval auto-healing (26 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.5 (27 s); targets 3 enemies for 91% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.7 damage; targets [Navy][World Government] teammates for 450 HP per interval auto-healing (27 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.5 (28 s); targets 3 enemies for 94% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.8 damage; targets [Navy][World Government] teammates for 500 HP per interval auto-healing (28 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.6 (29 s); targets 3 enemies for 97% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 3.9 damage; targets [Navy][World Government] teammates for 550 HP per interval auto-healing (29 s)"
-			},
-			{
-				cooldown: 35,
-				description: "Targets teammates within large range for DEF Up Lv.7 (30 s); targets 3 enemies for 100% chance of Special Bind (10 s); if 6 or more Striker characters are on the team, targets 3 enemies with low current HP for ATK x 4 damage; targets [Navy][World Government] teammates for 600 HP per interval auto-healing (30 s)"
-			}
-		],
-		festAbilityGP: [
-			{
-				festGPAbility: "[INT] teammates RCV, SPD Up Lv.2, Special CT Speed Up Lv.1; Striker/Driven class teammates HP, ATK Up Lv.2, DEF Up Lv.1; [Navy][World Government] teammates HP, RCV Up Lv.1, Special CT Speed Up Lv.1",
-				festGPSpecial: "Targets [PSY] / [INT] / Striker/ Driven class teammates for 100% chance to evade damage ignoring DEF (16 s); targets all enemies for 2000 damage",
-				uses: 2
-			},
-			{
-				festGPAbility: "[INT] teammates RCV, SPD Up Lv.3, Special CT Speed Up Lv.2; Striker/Driven class teammates HP, ATK Up Lv.3, DEF Up Lv.2; [Navy][World Government] teammates HP, RCV Up Lv.2, Special CT Speed Up Lv.1",
-				festGPSpecial: "Targets [PSY] / [INT] / Striker/ Driven class teammates for 100% chance to evade damage ignoring DEF (17 s); targets all enemies for 3000 damage",
-				uses: 2
-			},
-			{
-				festGPAbility: "[INT] teammates RCV, SPD Up Lv.4, Special CT Speed Up Lv.2; Striker/Driven class teammates HP, ATK Up Lv.4, DEF Up Lv.3; [Navy][World Government] teammates HP, RCV Up Lv.3, Special CT Speed Up Lv.1",
-				festGPSpecial: "Targets [PSY] / [INT] / Striker/ Driven class teammates for 100% chance to evade damage ignoring DEF (18 s); targets all enemies for 4000 damage",
-				uses: 2
-			},
-			{
-				festGPAbility: "[INT] teammates RCV, SPD Up Lv.5, Special CT Speed Up Lv.3; Striker/Driven class teammates HP, ATK Up Lv.5, DEF Up Lv.3; [Navy][World Government] teammates HP, RCV Up Lv.4, Special CT Speed Up Lv.2",
-				festGPSpecial: "Targets [PSY] / [INT] / Striker/ Driven class teammates for 100% chance to evade damage ignoring DEF (19 s); targets all enemies for 5000 damage",
-				uses: 2
-			},
-			{
-				festGPAbility: "[INT] teammates RCV, SPD Up Lv.6, Special CT Speed Up Lv.3; Striker/Driven class teammates HP, ATK Up Lv.6, DEF Up Lv.4; [Navy][World Government] teammates HP, RCV Up Lv.5, Special CT Speed Up Lv.2",
-				festGPSpecial: "Targets [PSY] / [INT] / Striker/ Driven class teammates for 100% chance to evade damage ignoring DEF (20 s); targets all enemies for 6000 damage",
-				uses: 2
-			}
-		],
-		festAbilityGPCondition: "After 50s of battle"
+		}
 	},
 	4381: {//Bonney
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Slasher and Striker characters by 5.25x, by 5.775x instead if your crew has 4+ [Egghead Arc] characters, boosts RCV of Slasher and Striker characters by 1.25x, makes [PSY], [RCV] and [TND] orbs beneficial for Slasher and Striker characters, and reduces Burn duration by 10 turns. If your crew has 5+ [Egghead Arc], [Worst Generation] or [Paramythia-type] characters, restores Special Cooldown of all characters by 2 turns when they are rewinded.",
@@ -171045,68 +170769,6 @@ window.details = {
                     "Reduces damage taken from [DEX] characters by 5%"
                 ]
             }
-        ],
-        festStats: {
-            def: 146,
-            spd: 177,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Heal Self Lv.2"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind, reduce damage taken from [STR] by 30％",
-        festAbility: [
-            "[QCK]/Fighter class teammates ATK Up Lv.1, HP Up Lv.1; Shooter class enemies ATK Down Lv.1, Special CT Speed Down Lv.1; if there are 5 or more Shooter class enemies, self Special CT Speed Up Lv.1",
-            "[QCK]/Fighter class teammates ATK Up Lv.2, HP Up Lv.2; Shooter class enemies ATK Down Lv.2, Special CT Speed Down Lv.2; if there are 5 or more Shooter class enemies, self Special CT Speed Up Lv.2",
-            "[QCK]/Fighter class teammates ATK Up Lv.3, HP Up Lv.3; Shooter class enemies ATK Down Lv.3, Special CT Speed Down Lv.3; if there are 5 or more Shooter class enemies, self Special CT Speed Up Lv.3",
-            "[QCK]/Fighter class teammates ATK Up Lv.4, HP Up Lv.4; Shooter class enemies ATK Down Lv.4, Special CT Speed Down Lv.4; if there are 5 or more Shooter class enemies, self Special CT Speed Up Lv.4",
-            "[QCK]/Fighter class teammates ATK Up Lv.5, HP Up Lv.5; Shooter class enemies ATK Down Lv.5, Special CT Speed Down Lv.5; if there are 5 or more Shooter class enemies, self Special CT Speed Up Lv.5"
-        ],
-        festSpecial: [
-            {
-                cooldown: 25,
-                description: "Targets enemies within large range for ATK Down Lv.2 (16 s), SPD Down Lv.2 (16 s), Miss % Up Lv.2 (16 s); targets [QCK]/Fighter class teammates for 70% chance to evade Action Bind (11 s); targets Shooter class enemies for 60% chance of Action Bind (6 s)"
-            },
-            {
-                cooldown: 25,
-                description: "Targets enemies within large range for ATK Down Lv.2 (17 s), SPD Down Lv.2 (17 s), Miss % Up Lv.2 (17 s); targets [QCK]/Fighter class teammates for 73% chance to evade Action Bind (12 s); targets Shooter class enemies for 64% chance of Action Bind (6 s)"
-            },
-            {
-                cooldown: 25,
-                description: "Targets enemies within large range for ATK Down Lv.3 (18 s), SPD Down Lv.3 (18 s), Miss % Up Lv.3 (18 s); targets [QCK]/Fighter class teammates for 76% chance to evade Action Bind (13 s); targets Shooter class enemies for 68% chance of Action Bind (7 s)"
-            },
-            {
-                cooldown: 25,
-                description: "Targets enemies within large range for ATK Down Lv.3 (19 s), SPD Down Lv.3 (19 s), Miss % Up Lv.3 (19 s); targets [QCK]/Fighter class teammates for 79% chance to evade Action Bind (14 s); targets Shooter class enemies for 72% chance of Action Bind (7 s)"
-            },
-            {
-                cooldown: 25,
-                description: "Targets enemies within large range for ATK Down Lv.4 (20 s), SPD Down Lv.4 (20 s), Miss % Up Lv.4 (20 s); targets [QCK]/Fighter class teammates for 82% chance to evade Action Bind (15 s); targets Shooter class enemies for 76% chance of Action Bind (8 s)"
-            },
-            {
-                cooldown: 25,
-                description: "Targets enemies within large range for ATK Down Lv.4 (21 s), SPD Down Lv.4 (21 s), Miss % Up Lv.4 (21 s); targets [QCK]/Fighter class teammates for 85% chance to evade Action Bind (16 s); targets Shooter class enemies for 80% chance of Action Bind (8 s)"
-            },
-            {
-                cooldown: 25,
-                description: "Targets enemies within large range for ATK Down Lv.5 (22 s), SPD Down Lv.5 (22 s), Miss % Up Lv.5 (22 s); targets [QCK]/Fighter class teammates for 88% chance to evade Action Bind (17 s); targets Shooter class enemies for 84% chance of Action Bind (9 s)"
-            },
-            {
-                cooldown: 25,
-                description: "Targets enemies within large range for ATK Down Lv.5 (23 s), SPD Down Lv.5 (23 s), Miss % Up Lv.5 (23 s); targets [QCK]/Fighter class teammates for 91% chance to evade Action Bind (18 s); targets Shooter class enemies for 88% chance of Action Bind (9 s)"
-            },
-            {
-                cooldown: 25,
-                description: "Targets enemies within large range for ATK Down Lv.6 (24 s), SPD Down Lv.6 (24 s), Miss % Up Lv.6 (24 s); targets [QCK]/Fighter class teammates for 94% chance to evade Action Bind (19 s); targets Shooter class enemies for 92% chance of Action Bind (10 s)"
-            },
-            {
-                cooldown: 25,
-                description: "Targets enemies within large range for ATK Down Lv.7 (25 s), SPD Down Lv.7 (25 s), Miss % Up Lv.7 (25 s); targets [QCK]/Fighter class teammates for 100% chance to evade Action Bind (20 s); targets Shooter class enemies for 100% chance of Action Bind (10 s)"
-            }
         ]
     },
     4401: {//Ace
@@ -172497,69 +172159,7 @@ window.details = {
                 "Raises Boost Level of [Egghead Arc], [Scientist] and [Navy] characters by 2 for 1 turn.",
                 "Raises Boost Level of [Egghead Arc] characters by 2 for 1 turn, and raises Boost Level of [Scientist] and [Navy] characters by 3 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 225,
-            spd: 156,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade Paralysis, reduce damage taken from [QCK] by 20％",
-        festAbility: [
-            "Fighter/Shooter class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; [Egghead Arc] teammates DEF Up Lv.1",
-            "Fighter/Shooter class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; [Egghead Arc] teammates DEF Up Lv.2",
-            "Fighter/Shooter class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; [Egghead Arc] teammates DEF Up Lv.3",
-            "Fighter/Shooter class teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; [Egghead Arc] teammates DEF Up Lv.4",
-            "Fighter/Shooter class teammates HP Up Lv.6, ATK Up Lv.6, SPD Up Lv.6; [Egghead Arc] teammates DEF Up Lv.5"
-        ],
-        festSpecial: [
-            {
-                cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.3 (11 s), RCV Up Lv.3 (11 s); targets [Egghead Arc] teammates for Shield Lv.1 (15 s), 60% chance to evade Paralysis (11 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.3 (12 s), RCV Up Lv.3 (12 s); targets [Egghead Arc] teammates for Shield Lv.1 (15 s), 62% chance to evade Paralysis (12 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.3 (13 s), RCV Up Lv.3 (13 s); targets [Egghead Arc] teammates for Shield Lv.1 (15 s), 64% chance to evade Paralysis (13 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.3 (14 s), RCV Up Lv.3 (14 s); targets [Egghead Arc] teammates for Shield Lv.1 (15 s), 66% chance to evade Paralysis (14 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.3 (15 s), RCV Up Lv.3 (15 s); targets [Egghead Arc] teammates for Shield Lv.1 (15 s), 68% chance to evade Paralysis (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.4 (16 s), RCV Up Lv.4 (16 s); targets [Egghead Arc] teammates for Shield Lv.2 (15 s), 70% chance to evade Paralysis (16 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.4 (17 s), RCV Up Lv.4 (17 s); targets [Egghead Arc] teammates for Shield Lv.2 (15 s), 72% chance to evade Paralysis (17 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.4 (18 s), RCV Up Lv.4 (18 s); targets [Egghead Arc] teammates for Shield Lv.2 (15 s), 74% chance to evade Paralysis (18 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.4 (19 s), RCV Up Lv.4 (19 s); targets [Egghead Arc] teammates for Shield Lv.2 (15 s), 76% chance to evade Paralysis (19 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within medium range for ATK Up Lv.5 (20 s), RCV Up Lv.5 (20 s); targets [Egghead Arc] teammates for Shield Lv.3 (15 s), 80% chance to evade Paralysis (20 s)"
-            }
-        ]
+        }
     },
     4418: {//OP Day Boa Hancock
         captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [Straw Hat Pirates], [Kuja Pirates] and [Logia-type] characters by 1.2x, boosts ATK of [QCK], Striker and Powerhouse characters by 5.5x, by 6.6x instead if they have the applicable tag, boosts RCV of [QCK], Striker and Powerhouse characters by 1.35x, and increases duration of any Status ATK Boosting buffs applied by specials by 1 turn. Up to 1 time per adventure, when Monkey D. Luffy, Boa Sandersonia, or Boa Marigold uses a special as crewmate, reduces Paralysis duration by 10 turns, and advances Special Cooldown of this character to MAX.",
