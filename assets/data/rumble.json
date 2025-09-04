@@ -297140,6 +297140,12 @@
           ]
         }
       ],
+      "llbgpcondition":[
+        {
+          "count": 20,
+          "type": "hitreceived"
+        }
+      ],
       "llbresilience": [
         {
           "attribute": "Special Bind",
