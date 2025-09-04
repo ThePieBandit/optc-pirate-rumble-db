@@ -173323,6 +173323,103 @@ window.details = {
             }
         ]
     },
+    4431: {//Jinbe
+        captain: "Reduces crew's current HP by 75% at the start of the fight, reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [PSY], Cerebral and Free Spirit characters by 5x, by 5.75x instead if HP is below 30% at the start of the turn, boosts HP of [PSY], Cerebral and Free Spirit characters by 1.5x, makes [PSY], [RCV] and [TND] orbs beneficial for all characters, reduces damage received by 30%, and launches the following effect at start of quest: reduces damage received by 100% for 1 attack. If your crew has 4+ [Straw Hat Pirates] characters, reduces Burn duration by 6 turns.",
+        captainNotes: "Damage Nullification activates on the first instance of damage taken from the enemy.",
+        special: "Removes Target Lock duration completely, reduces Bind duration by 6 turns, and increases Chain Tap Timing Bonus of [PSY], Cerebral and Free Spirit characters to +0.3x-0.7x for 3 turns depending on Tap Timing. If your crew has 5+ [Straw Hat Pirates] characters, there is only 1 enemy on the stage, and that enemy has less than or equal to 20% of their MAX HP: instantly defeats that enemy. If HP is below 30% when the special is activated and your crew has 5+ [Egghead Arc] characters, reduces damage received by 100% for 1 attack, and boosts Final Tap ATK of Cerebral or Free Spirit characters by 30%.",
+        specialNotes: "GOOD: +0.3, GREAT: +0.5, PERFECT: +0.7",
+        specialName: "Future Island's Fish-Man Karate Secret Art: Demon Brick Fist",
+        sailor: {
+            base: "This character cannot be Blown Away.",
+            level1: "If HP is below 30%, boosts base ATK of all characters by 300."
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Straw Hat Pirates]",
+                description: [
+                    "Reduces damage received from [INT] characters by 1%. Adds 4% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [INT] characters by 2%. Adds 5% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [INT] characters by 3%. Adds 6% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [INT] characters by 4%. Adds 7% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [INT] characters by 5%. Adds 8% of this character's base HP to the supported character's base HP."
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Critical Hit" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Acquire Sailor Ability 2: Boosts crew's base ATK by 300 when HP is 30% or below" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Ship Bind" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Ship Bind",
+                description: [
+                    "Reduces Ship Bind duration by 1 turn",
+                    "Reduces Ship Bind duration by 2 turns",
+                    "Reduces Ship Bind duration by 3 turns",
+                    "Reduces Ship Bind duration by 4 turns",
+                    "Reduces Ship Bind duration by 5 turns"
+                ]
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
