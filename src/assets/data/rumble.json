@@ -20888,12 +20888,12 @@
           "cooldown": 22,
           "effects": [
             {
-              "attributes": [ "Damage Over Time" ],
-              "duration": 30,
               "level": 1,
-              "effect": "hinderance",
-              "range": { "direction": "radial", "size": "medium" },
-              "targeting": { "targets": [ "enemies" ] }
+              "duration": 30,
+              "effect": "damage",
+              "type": "time",
+              "targeting": { "targets": [ "enemies" ] },
+              "range": { "size": "medium", "direction": "radial" }
             }
           ]
         },
@@ -30474,12 +30474,12 @@
           "cooldown": 31,
           "effects": [
             {
-              "attributes": [ "Damage Over Time" ],
-              "duration": 20,
               "level": 1,
-              "effect": "hinderance",
-              "range": { "direction": "radial", "size": "large" },
-              "targeting": { "targets": [ "enemies" ] }
+              "duration": 20,
+              "effect": "damage",
+              "type": "time",
+              "targeting": { "targets": [ "enemies" ] },
+              "range": { "size": "large", "direction": "radial" }
             },
             {
               "attributes": [ "Special CT" ],
@@ -35491,10 +35491,10 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Damage Over Time" ],
-              "duration": 30,
               "level": 1,
-              "effect": "hinderance",
+              "duration": 30,
+              "effect": "damage",
+              "type": "time",
               "targeting": { "count": 2, "targets": [ "enemies" ] }
             },
             {
@@ -162906,7 +162906,8 @@
               "amount": 1.2,
               "effect": "damage",
               "targeting": { "count": 3, "targets": [ "enemies" ] },
-              "type": "atk",
+              "type": "atkbase",
+              "leader": true,
               "defbypass": true
             },
             {
@@ -170331,10 +170332,10 @@
           "cooldown": 28,
           "effects": [
             {
-              "attributes": [ "Damage Over Time" ],
-              "duration": 12,
               "level": 1,
-              "effect": "hinderance",
+              "duration": 12,
+              "effect": "damage",
+              "type": "time",
               "targeting": { "count": 2, "targets": [ "enemies" ] }
             },
             {
@@ -171135,12 +171136,12 @@
               "type": "atk"
             },
             {
-              "attributes": [ "Damage Over Time" ],
-              "duration": 21,
               "level": 1,
-              "effect": "hinderance",
-              "range": { "direction": "radial", "size": "large" },
-              "targeting": { "targets": [ "enemies" ] }
+              "duration": 21,
+              "effect": "damage",
+              "type": "time",
+              "targeting": { "targets": [ "enemies" ] },
+              "range": { "size": "large", "direction": "radial" }
             },
             {
               "attributes": [ "ATK" ],
@@ -175891,10 +175892,10 @@
               "targeting": { "targets": [ "[INT]" ] }
             },
             {
-              "attributes": [ "Damage Over Time" ],
-              "duration": 16,
               "level": 1,
-              "effect": "hinderance",
+              "duration": 16,
+              "effect": "damage",
+              "type": "time",
               "targeting": { "targets": [ "enemies" ] }
             },
             {
@@ -196335,10 +196336,10 @@
               "type": "cut"
             },
             {
-              "attributes": [ "Damage Over Time" ],
-              "duration": 11,
               "level": 1,
-              "effect": "hinderance",
+              "duration": 11,
+              "effect": "damage",
+              "type": "time",
               "targeting": { "targets": [ "[PSY]" ] }
             }
           ]
@@ -204212,12 +204213,12 @@
               "type": "fixed"
             },
             {
-              "attributes": [ "Damage Over Time" ],
-              "duration": 6,
               "level": 1,
-              "effect": "hinderance",
-              "range": { "direction": "sideways", "size": "medium" },
-              "targeting": { "targets": [ "enemies" ] }
+              "duration": 6,
+              "effect": "damage",
+              "type": "time",
+              "targeting": { "targets": [ "enemies" ] },
+              "range": { "size": "medium", "direction": "sideways" }
             }
           ]
         },
@@ -213678,12 +213679,12 @@
           "cooldown": 28,
           "effects": [
             {
-              "attributes": [ "Damage Over Time" ],
-              "duration": 11,
               "level": 1,
-              "effect": "hinderance",
-              "range": { "direction": "radial", "size": "medium" },
-              "targeting": { "targets": [ "enemies" ] }
+              "duration": 11,
+              "effect": "damage",
+              "type": "time",
+              "targeting": { "targets": [ "enemies" ] },
+              "range": { "size": "medium", "direction": "radial" }
             },
             {
               "attributes": [ "DEF" ],
@@ -235017,7 +235018,7 @@
               "duration": 22,
               "effect": "recharge",
               "interval": 3,
-              "targeting": { "targets": [ "self" ] },
+              "targeting": { "count": 1, "priority": "highest", "stat": "DEF", "targets": [ "crew" ] },
               "type": "fixed"
             }
           ]
@@ -311463,12 +311464,12 @@
           "cooldown": 32,
           "effects": [
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 10,
               "level": 1,
+              "duration": 10,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"]},
-              "range": {"direction": "radial", "size": "large"}
+              "range": {"size": "large", "direction": "radial"}
             },
             {
               "amount": 0.75,
@@ -311635,12 +311636,12 @@
           "cooldown": 32,
           "effects": [
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 15,
               "level": 1,
+              "duration": 15,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"]},
-              "range": {"direction": "radial", "size": "large"}
+              "range": {"size": "large", "direction": "radial"}
             },
             {
               "amount": 1,
@@ -317172,12 +317173,12 @@
               "range": {"direction": "radial", "size": "large"}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 15,
               "level": 1,
+              "duration": 15,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"]},
-              "range": {"direction": "radial", "size": "large"}
+              "range": {"size": "large", "direction": "radial"}
             },
             {
               "attributes": ["Special CT"],
@@ -320737,12 +320738,12 @@
           "cooldown": 27,
           "effects": [
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 6,
               "level": 1,
+              "duration": 6,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"]},
-              "range": {"direction": "sideways", "size": "medium"}
+              "range": {"size": "medium", "direction": "sideways"}
             },
             {
               "amount": 6,
@@ -320951,12 +320952,12 @@
           "cooldown": 27,
           "effects": [
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 6,
               "level": 2,
+              "duration": 6,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"]},
-              "range": {"direction": "sideways", "size": "medium"}
+              "range": {"size": "medium", "direction": "sideways"}
             },
             {
               "amount": 10,
@@ -325221,10 +325222,10 @@
               "targeting": {"targets": ["enemies"], "count": 1, "priority": "highest", "stat": "RCV"}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 26,
               "level": 1,
+              "duration": 26,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"]},
               "range": {"size": "large", "direction": "radial"}
             }
@@ -325375,10 +325376,10 @@
               "targeting": {"targets": ["enemies"], "count": 2, "priority": "highest", "stat": "RCV"}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 26,
               "level": 1,
+              "duration": 26,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"]},
               "range": {"size": "large", "direction": "radial"}
             }
@@ -325714,10 +325715,10 @@
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "highest", "stat": "HP"}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 15,
               "level": 1,
+              "duration": 15,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "highest", "stat": "HP"}
             },
             {
@@ -326021,10 +326022,10 @@
               "targeting": {"targets": ["Fighter", "Slasher", "Powerhouse", "Cerebral"]}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 22,
               "level": 1,
+              "duration": 22,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["Fighter", "Slasher", "Powerhouse", "Cerebral"]}
             },
             {
@@ -343582,10 +343583,10 @@
               "targeting": {"targets": ["enemies"]}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 21,
               "level": 3,
+              "duration": 21,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "HP"}
             },
             {
@@ -349115,10 +349116,10 @@
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "Special CT"}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 6,
               "level": 1,
+              "duration": 6,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "Special CT"}
             },
             {
@@ -349273,10 +349274,10 @@
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "Special CT"}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 30,
               "level": 7,
+              "duration": 30,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "Special CT"}
             },
             {
@@ -349305,10 +349306,10 @@
               "targeting": {"targets": ["enemies"]}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 30,
               "level": 10,
+              "duration": 30,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"]}
             },
             {
@@ -351174,10 +351175,10 @@
               "targeting": {"targets": ["enemies"], "count": 2, "priority": "highest", "stat": "HP"}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 6,
               "level": 1,
+              "duration": 6,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"], "count": 2, "priority": "highest", "stat": "HP"}
             },
             {
@@ -351331,10 +351332,10 @@
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "highest", "stat": "HP"}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 30,
               "level": 8,
+              "duration": 30,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "highest", "stat": "HP"}
             },
             {
@@ -351362,10 +351363,10 @@
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "highest", "stat": "HP"}
             },
             {
-              "attributes": ["Damage Over Time"],
-              "effect": "hinderance",
-              "duration": 30,
               "level": 10,
+              "duration": 30,
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "highest", "stat": "HP"}
             },
             {
@@ -367422,10 +367423,10 @@
               "targeting": {"targets": ["[STR]", "Striker"], "excludes": ["self"], "count": 1, "priority": "lowest", "stat": "Special CT"}
             },
             {
-              "attributes": ["Damage Over Time"],
               "level": 1,
               "duration": 15,
-              "effect": "hinderance",
+              "effect": "damage",
+              "type": "time",
               "targeting": {"targets": ["enemies"]},
               "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 3, "targets": ["[Whitebeard Pirates]"]}
             },
