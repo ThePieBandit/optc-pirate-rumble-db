@@ -294629,7 +294629,7 @@
               "effect": "boon",
               "amount": 2,
               "duration": 42,
-              "targeting": { "targets": [ "self" ] }
+              "targeting": { "targets": [ "Striker", "Slasher" ] }
             },
             {
               "attributes": [ "ATK", "SPD" ],
