@@ -118782,6 +118782,19 @@ window.details = {
             { description: "Boosts base ATK by 50" },
             { description: "Acquire Potential 3: Barrier Penetration" },
         ],
+        lLimit: [
+            null,
+            {
+                rAbility: true
+            },
+            null,
+            {
+                rSpecial: true
+            },
+            {
+                rResilience: true
+            }
+        ],
         potential: [
             {
                 Name: "[PSY] Damage Reduction",
