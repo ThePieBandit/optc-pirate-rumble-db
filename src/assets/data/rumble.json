@@ -67073,7 +67073,7 @@
         "rumbleType": "SPT",
         "spd": 154
       },
-      "cost": 55
+      "cost": 30
     },
     {
       "id": 1924,
@@ -128542,7 +128542,7 @@
         "rumbleType": "SPT",
         "spd": 180
       },
-      "cost": 55
+      "cost": 30
     },
     {
       "id": 2819,
@@ -138087,7 +138087,7 @@
         "rumbleType": "ATK",
         "spd": 194
       },
-      "cost": 55
+      "cost": 20
     },
     {
       "id": 2930,
@@ -168306,7 +168306,7 @@
         "rumbleType": "ATK",
         "spd": 188
       },
-      "cost": 55
+      "cost": 20
     },
     {
       "id": 3158,
