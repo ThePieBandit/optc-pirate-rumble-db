@@ -191944,7 +191944,7 @@
               "level": 1,
               "duration": 11,
               "effect": "buff",
-              "condition": {"comparator": "more", "composition": true, "count": 4, "targets": ["[Worst Generation]", "[Kid Pirates]", "[Land of Wano]"], "type": "crew"},
+              "condition": {"comparator": "more", "composition": true, "count": 4, "targets": ["[Worst Generation]", "[Kid Pirates]", "[Land of Wano Arc]"], "type": "crew"},
               "targeting": {"targets": ["crew"]}
             }
           ]
@@ -401459,7 +401459,7 @@
               "amount": 11,
               "effect": "recharge",
               "type": "Special CT",
-              "targeting": {"targets": ["[Egghead]"], "excludes": ["self"], "count": 2, "priority": "lowest", "stat": "Special CT"}
+              "targeting": {"targets": ["[Egghead Arc]"], "excludes": ["self"], "count": 2, "priority": "lowest", "stat": "Special CT"}
             },
             {
               "attributes": ["ATK", "SPD"],
@@ -401759,7 +401759,7 @@
               "level": 1,
               "duration": 21,
               "effect": "buff",
-              "targeting": {"targets": ["[Egghead]"]}
+              "targeting": {"targets": ["[Egghead Arc]"]}
             },
             {
               "amount": 1.3,
@@ -402520,7 +402520,7 @@
               "type": "atk",
               "targeting": {"targets": ["enemies"]},
               "range": {"size": "large", "direction": "radial"},
-              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["[Egghead]"]}
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["[Egghead Arc]"]}
             }
           ]
         },
@@ -403323,7 +403323,7 @@
               "effect": "boon",
               "amount": 1,
               "duration": 11,
-              "targeting": {"targets": ["[Egghead]"]}
+              "targeting": {"targets": ["[Egghead Arc]"]}
             }
           ]
         },
@@ -403556,7 +403556,7 @@
               "attributes": ["ATK", "RCV", "Critical Hit"],
               "effect": "buff",
               "level": 2,
-              "targeting": {"targets": ["[Egghead]"]}
+              "targeting": {"targets": ["[Egghead Arc]"]}
             }
           ]
         },
@@ -411468,7 +411468,7 @@
               "level": 1,
               "duration": 15,
               "effect": "buff",
-              "targeting": {"targets": ["[Egghead]"]}
+              "targeting": {"targets": ["[Egghead Arc]"]}
             }
           ]
         },
@@ -411677,14 +411677,14 @@
               "level": 1,
               "duration": 15,
               "effect": "buff",
-              "targeting": {"targets": ["[Egghead]"]}
+              "targeting": {"targets": ["[Egghead Arc]"]}
             },
             {
               "attributes": ["Paralysis"],
               "chance": 60,
               "duration": 11,
               "effect": "evade",
-              "targeting": {"targets": ["[Egghead]"]}
+              "targeting": {"targets": ["[Egghead Arc]"]}
             }
           ]
         },
