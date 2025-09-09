@@ -52484,7 +52484,7 @@ window.details = {
     },
     2349: {//Pedro
         captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight. Boosts ATK of Slasher characters by 2.75x. If you have 5 or more Slashers characters in your crew, boosts Chain Multiplier Growth Rate by 1.3x",
-        special: "Deals 10% of enemies' current HP in damage to one enemy and reduces the defense of all enemies by 100% for 1 turn,. If your crew has 5 or more Slasher characters when the special is activated, boosts ATK against enemies with reduced defense by 2x for 1 turn and changes orbs of adjacent characters into Matching Orbs.",
+        special: "Deals 10% of enemies' current HP in damage to one enemy and reduces the defense of all enemies by 100% for 1 turn. If your crew has 5 or more Slasher characters when the special is activated, boosts ATK against enemies with reduced defense by 2x for 1 turn and changes orbs of adjacent characters into Matching Orbs.",
         specialName: "Dawn-break Sword",
         sailor: {
             base: "If this character has a [DEX] orb and you hit a PERFECT with him, keep his [DEX] orb for the next turn",
@@ -114061,11 +114061,11 @@ window.details = {
                 "Any 2 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Vinsmoke Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook or Jinbe. 1 of the following is required: Roronoa Zoro or Vinsmoke Sanji."
             ],
             description: [
-                "Boosts Tandem ATK of Free Spirit characters by 1.5x and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
-                "Boosts Tandem ATK of Free Spirit characters by 1.75x and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
-                "Boosts Tandem ATK of Free Spirit characters by 2x and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
-                "Boosts Tandem ATK of Free Spirit characters by 2.25x and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
-                "Boosts Tandem ATK of Free Spirit characters by 2.5x and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn."
+                "Boosts Tandem ATK of Free Spirit characters by 1.5x for 1 turn, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
+                "Boosts Tandem ATK of Free Spirit characters by 1.75x for 1 turn, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
+                "Boosts Tandem ATK of Free Spirit characters by 2x for 1 turn, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
+                "Boosts Tandem ATK of Free Spirit characters by 2.25x for 1 turn, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
+                "Boosts Tandem ATK of Free Spirit characters by 2.5x for 1 turn, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn."
             ]
         },
         support: [
@@ -114181,11 +114181,11 @@ window.details = {
                 "Any 2 of the following, excluding Supports and counting only 1 per unit: King, Queen, Jack, Sasaki, X Drake, Black Maria, Who's-Who, Page One, Ulti or Striker characters. 1 of the following is required: King, Queen, Jack, Sasaki, X Drake, Black Maria, Who's-Who, Page One or Ulti."
             ],
             description: [
-                "Boosts Tandem ATK of Striker characters by 1.25x and increases boost effects of Increase Damage Taken debuffs by +0.25x.",
-                "Boosts Tandem ATK of Striker characters by 1.5x and increases boost effects of Increase Damage Taken debuffs by +0.25x.",
-                "Boosts Tandem ATK of Striker characters by 1.5x and increases boost effects of Increase Damage Taken debuffs by +0.5x.",
-                "Boosts Tandem ATK of Striker characters by 1.75x and increases boost effects of Increase Damage Taken debuffs by +0.5x.",
-                "Boosts Tandem ATK of Striker characters by 2x and increases boost effects of Increase Damage Taken debuffs by +0.75x."
+                "Boosts Tandem ATK of Striker characters by 1.25x for 1 turn, and increases boost effects of Increase Damage Taken debuffs by +0.25x.",
+                "Boosts Tandem ATK of Striker characters by 1.5x for 1 turn, and increases boost effects of Increase Damage Taken debuffs by +0.25x.",
+                "Boosts Tandem ATK of Striker characters by 1.5x for 1 turn, and increases boost effects of Increase Damage Taken debuffs by +0.5x.",
+                "Boosts Tandem ATK of Striker characters by 1.75x for 1 turn, and increases boost effects of Increase Damage Taken debuffs by +0.5x.",
+                "Boosts Tandem ATK of Striker characters by 2x for 1 turn, and increases boost effects of Increase Damage Taken debuffs by +0.75x."
             ]
         },
         support: [
@@ -115023,11 +115023,11 @@ window.details = {
                 "Any 2 of the following, excluding Supports and counting only 1 per unit: Koala, Morley, Lindbergh, Belo Betty or Karasu."
             ],
             description: [
-                "Boosts Tandem ATK of all characters by 1.1x.",
-                "Boosts Tandem ATK of all characters by 1.2x.",
-                "Boosts Tandem ATK of all characters by 1.3x.",
-                "Boosts Tandem ATK of all characters by 1.4x.",
-                "Boosts Tandem ATK of all characters by 1.5x."
+                "Boosts Tandem ATK of all characters by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of all characters by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of all characters by 1.3x for 1 turn.",
+                "Boosts Tandem ATK of all characters by 1.4x for 1 turn.",
+                "Boosts Tandem ATK of all characters by 1.5x for 1 turn."
             ]
         },
         support: [
@@ -122062,11 +122062,11 @@ window.details = {
                 "Any 2 of the following, excluding Supports and counting only 1 per unit: Sakazuki (Akainu), Kuzan (Aokiji), Borsalino (Kizaru), Issho (Fujitora), Monkey D. Garp, Tsuru, Smoker, Tashigi, Hina or Coby."
             ],
             description: [
-                "Boosts Tandem ATK of top row characters by 2x and boosts ATK of all other character by 1.1x for 1 turn.",
-                "Boosts Tandem ATK of top row characters by 2.1x and boosts ATK of all other character by 1.2x for 1 turn.",
-                "Boosts Tandem ATK of top row characters by 2.2x and boosts ATK of all other character by 1.3x for 1 turn.",
-                "Boosts Tandem ATK of top row characters by 2.3x and boosts ATK of all other character by 1.4x for 1 turn.",
-                "Boosts Tandem ATK of top row characters by 2.5x and boosts ATK of all other character by 1.5x for 1 turn."
+                "Boosts Tandem ATK of top row characters by 2x for 1 turn, and boosts ATK of all other character by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of top row characters by 2.1x for 1 turn, and boosts ATK of all other character by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of top row characters by 2.2x for 1 turn, and boosts ATK of all other character by 1.3x for 1 turn.",
+                "Boosts Tandem ATK of top row characters by 2.3x for 1 turn, and boosts ATK of all other character by 1.4x for 1 turn.",
+                "Boosts Tandem ATK of top row characters by 2.5x for 1 turn, and boosts ATK of all other character by 1.5x for 1 turn."
             ]
         },
         support: [
@@ -126453,11 +126453,11 @@ window.details = {
                 "Any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Vinsmoke Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Portgas D. Ace and Momonosuke."
             ],
             description: [
-                "Boosts Tandem ATK of Striker and Free Spirit characters by 1.25x and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.1x for 1 turn.",
-                "Boosts Tandem ATK of Striker and Free Spirit characters by 1.5x and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.1x for 1 turn.",
-                "Boosts Tandem ATK of Striker and Free Spirit characters by 1.75x and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.2x for 1 turn.",
-                "Boosts Tandem ATK of Striker and Free Spirit characters by 2x and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.2x for 1 turn.",
-                "Boosts Tandem ATK of Striker and Free Spirit characters by 2.25x and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.3x for 1 turn."
+                "Boosts Tandem ATK of Striker and Free Spirit characters by 1.25x for 1 turn, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of Striker and Free Spirit characters by 1.5x for 1 turn, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of Striker and Free Spirit characters by 1.75x for 1 turn, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of Striker and Free Spirit characters by 2x for 1 turn, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of Striker and Free Spirit characters by 2.25x for 1 turn, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.3x for 1 turn."
             ]
         },
     },
@@ -131917,11 +131917,11 @@ window.details = {
                 "Any 2 of the following, excluding Supports and counting only 1 per unit: Kaido, King, Queen, Ulti, Page One, Black Maria, Who's-Who and Sasaki."
             ],
             description: [
-                "Reduces the defense of all enemies by 50% for 1 turn, Boosts Tandem ATK of Driven characters by 1.25x.",
-                "Reduces the defense of all enemies by 70% for 1 turn, Boosts Tandem ATK of Driven characters by 1.5x.",
-                "Reduces the defense of all enemies by 80% for 1 turn, Boosts Tandem ATK of Driven characters by 1.75x.",
-                "Ignores Defense Reduction Debuff Protection and Reduces the defense of all enemies by 80% for 1 turn, Boosts Tandem ATK of Driven characters by 1.75x.",
-                "Ignores Defense Reduction Debuff Protection and Reduces the defense of all enemies by 90% for 1 turn, Boosts Tandem ATK of Driven characters by 2x."
+                "Reduces the defense of all enemies by 50% for 1 turn, Boosts Tandem ATK of Driven characters by 1.25x for 1 turn.",
+                "Reduces the defense of all enemies by 70% for 1 turn, Boosts Tandem ATK of Driven characters by 1.5x for 1 turn.",
+                "Reduces the defense of all enemies by 80% for 1 turn, Boosts Tandem ATK of Driven characters by 1.75x for 1 turn.",
+                "Ignores Defense Reduction Debuff Protection and Reduces the defense of all enemies by 80% for 1 turn, Boosts Tandem ATK of Driven characters by 1.75x for 1 turn.",
+                "Ignores Defense Reduction Debuff Protection and Reduces the defense of all enemies by 90% for 1 turn, Boosts Tandem ATK of Driven characters by 2x for 1 turn."
             ]
         },
         support: [
@@ -132614,11 +132614,11 @@ window.details = {
                 "Any 2 of the following, excluding Supports and counting only 1 per unit: Kin'emon, Kanjuro, Raizo, Kikunojo, Ashura Doji, Dogstorm, Cat Viper, Kawamatsu, Denjiro, Kozuki Momonosuke, Kozuki Hiyori, Gol D. Roger or Edward Newgate (Whitebeard)."
             ],
             description: [
-                "Boosts Tandem ATK of Slasher characters by 1.5x.",
-                "Boosts Tandem ATK of Slasher characters by 1.75x.",
-                "Boosts Tandem ATK of Slasher characters by 2x.",
-                "Boosts Tandem ATK of Slasher characters by 2.25x and increases boost effects of Color Affinity buffs by +0.25x.",
-                "Boosts Tandem ATK of Slasher characters by 2.5x and increases boost effects of Color Affinity buffs by +0.25x."
+                "Boosts Tandem ATK of Slasher characters by 1.5x for 1 turn.",
+                "Boosts Tandem ATK of Slasher characters by 1.75x for 1 turn.",
+                "Boosts Tandem ATK of Slasher characters by 2x for 1 turn.",
+                "Boosts Tandem ATK of Slasher characters by 2.25x for 1 turn, and increases boost effects of Color Affinity buffs by +0.25x.",
+                "Boosts Tandem ATK of Slasher characters by 2.5x for 1 turn, and increases boost effects of Color Affinity buffs by +0.25x."
             ]
         },
     },
@@ -133411,11 +133411,11 @@ window.details = {
                 "Any 2 of the following, excluding Supports and counting only 1 per unit: Kaido, King, Jack, Ulti, Page One, Black Maria, Who's-Who or Sasaki."
             ],
             description: [
-                "Reduces enemies' Threshold Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.25x.",
-                "Reduces enemies' Threshold Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.5x.",
-                "Reduces enemies' Threshold Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.75x.",
-                "Reduces enemies' Threshold Damage Reduction duration by 2 turns and boosts Tandem ATK of Driven characters by 2x.",
-                "Reduces enemies' Threshold Damage Reduction duration by 3 turns and boosts Tandem ATK of Driven characters by 2.25x."
+                "Reduces enemies' Threshold Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.25x for 1 turn.",
+                "Reduces enemies' Threshold Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.5x for 1 turn.",
+                "Reduces enemies' Threshold Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.75x for 1 turn.",
+                "Reduces enemies' Threshold Damage Reduction duration by 2 turns and boosts Tandem ATK of Driven characters by 2x for 1 turn.",
+                "Reduces enemies' Threshold Damage Reduction duration by 3 turns and boosts Tandem ATK of Driven characters by 2.25x for 1 turn."
             ]
         },
         support: [
@@ -133772,11 +133772,11 @@ window.details = {
                 "Any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Vinsmoke Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Yamato, Kozuki Oden, Kozuki Hiyori and Dracule Mihawk."
             ],
             description: [
-                "Boosts Tandem ATK of Slasher and Free Spirit characters by 1.5x.",
-                "Boosts Tandem ATK of Slasher and Free Spirit characters by 1.75x.",
-                "Boosts Tandem ATK of Slasher and Free Spirit characters by 2x.",
-                "Boosts Tandem ATK of Slasher and Free Spirit characters by 2x and increases boost effects of Status ATK buffs by +0.25x for 1 turn.",
-                "Boosts Tandem ATK of Slasher and Free Spirit characters by 2.5x and increases boost effects of Status ATK buffs by +0.25x for 1 turn."
+                "Boosts Tandem ATK of Slasher and Free Spirit characters by 1.5x for 1 turn.",
+                "Boosts Tandem ATK of Slasher and Free Spirit characters by 1.75x for 1 turn.",
+                "Boosts Tandem ATK of Slasher and Free Spirit characters by 2x for 1 turn.",
+                "Boosts Tandem ATK of Slasher and Free Spirit characters by 2x for 1 turn, and increases boost effects of Status ATK buffs by +0.25x for 1 turn.",
+                "Boosts Tandem ATK of Slasher and Free Spirit characters by 2.5x for 1 turn, and increases boost effects of Status ATK buffs by +0.25x for 1 turn."
             ]
         },
         support: [
@@ -133890,11 +133890,11 @@ window.details = {
                 "Any 2 of the following, excluding Supports and counting only 1 per unit: Kaido, Queen, Jack, Ulti, Page One, Black Maria, Who's-Who and Sasaki."
             ],
             description: [
-                "Reduces enemies' Percent Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.25x.",
-                "Reduces enemies' Percent Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.5x.",
-                "Reduces enemies' Percent Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.75x.",
-                "Reduces enemies' Percent Damage Reduction duration by 2 turns and boosts Tandem ATK of Driven characters by 2x.",
-                "Reduces enemies' Percent Damage Reduction duration by 3 turns and boosts Tandem ATK of Driven characters by 2.25x."
+                "Reduces enemies' Percent Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.25x for 1 turn.",
+                "Reduces enemies' Percent Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.5x for 1 turn.",
+                "Reduces enemies' Percent Damage Reduction duration by 1 turn and boosts Tandem ATK of Driven characters by 1.75x for 1 turn.",
+                "Reduces enemies' Percent Damage Reduction duration by 2 turns and boosts Tandem ATK of Driven characters by 2x for 1 turn.",
+                "Reduces enemies' Percent Damage Reduction duration by 3 turns and boosts Tandem ATK of Driven characters by 2.25x for 1 turn."
             ]
         },
         support: [
@@ -134546,11 +134546,11 @@ window.details = {
                 "Any 1 of the following, excluding Supports and counting only 1 per unit: Powerhouse or Striker characters. Any 1 of the following, excluding Supports and counting only 1 per unit: Portgas D. Ace, Marco, Jozu, Vista, Izo, Fossa, Rakuyo, Kingdew, Atmos, Namule, Blenheim, Haruta, Blamenco, Speed Jil or Curiel."
             ],
             description: [
-                "Boosts Tandem ATK of [PSY] and Powerhouse characters by 1.5x.",
-                "Boosts Tandem ATK of [PSY] and Powerhouse characters by 1.75x.",
-                "Boosts Tandem ATK of [PSY] and Powerhouse characters by 2x.",
-                "Boosts Tandem ATK of [PSY] and Powerhouse characters by 2x and reduces enemies' Powerhouse Resistance by -10% for 1 turn.",
-                "Boosts Tandem ATK of [PSY] and Powerhouse characters by 2.25x and reduces enemies' Powerhouse Resistance by -20% for 1 turn."
+                "Boosts Tandem ATK of [PSY] and Powerhouse characters by 1.5x for 1 turn.",
+                "Boosts Tandem ATK of [PSY] and Powerhouse characters by 1.75x for 1 turn.",
+                "Boosts Tandem ATK of [PSY] and Powerhouse characters by 2x for 1 turn.",
+                "Boosts Tandem ATK of [PSY] and Powerhouse characters by 2x for 1 turn, and reduces enemies' Powerhouse Resistance by -10% for 1 turn.",
+                "Boosts Tandem ATK of [PSY] and Powerhouse characters by 2.25x for 1 turn, and reduces enemies' Powerhouse Resistance by -20% for 1 turn."
             ]
         },
     },
@@ -138338,11 +138338,11 @@ window.details = {
                 "Any 1 of the following, excluding Supports and counting only 1 per unit: Fighter characters. Any 1 of the following, excluding Supports and counting only 1 per unit: Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Niji, Vinsmoke Yonji, Vinsmoke Sanji"
             ],
             description: [
-                "Boosts Tandem ATK of bottom row characters by 1.5x and boosts Tandem ATK of all other characters by 1.1x for 1 turn",
-                "Boosts Tandem ATK of bottom row characters by 1.7x and boosts Tandem ATK of all other characters by 1.2x for 1 turn",
-                "Boosts Tandem ATK of bottom row characters by 1.9x and boosts Tandem ATK of all other characters by 1.3x for 1 turn",
-                "Boosts Tandem ATK of bottom row characters by 2.2x and boosts Tandem ATK of all other characters by 1.4x for 1 turn",
-                "Boosts Tandem ATK of bottom row characters by 2.5x and boosts Tandem ATK of all other characters by 1.5x for 1 turn"
+                "Boosts Tandem ATK of bottom row characters by 1.5x for 1 turn, and boosts Tandem ATK of all other characters by 1.1x for 1 turn",
+                "Boosts Tandem ATK of bottom row characters by 1.7x for 1 turn, and boosts Tandem ATK of all other characters by 1.2x for 1 turn",
+                "Boosts Tandem ATK of bottom row characters by 1.9x for 1 turn, and boosts Tandem ATK of all other characters by 1.3x for 1 turn",
+                "Boosts Tandem ATK of bottom row characters by 2.2x for 1 turn, and boosts Tandem ATK of all other characters by 1.4x for 1 turn",
+                "Boosts Tandem ATK of bottom row characters by 2.5x for 1 turn, and boosts Tandem ATK of all other characters by 1.5x for 1 turn"
             ]
         },
         support: [
@@ -142169,11 +142169,11 @@ window.details = {
                 "Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Helmeppo, Monkey D. Garp, X Drake, Trafalgar Law, Bartolomeo, Charlotte Brulee, Charlotte Oven, Blueno"
             ],
             description: [
-                "Boosts base ATK of Last Tap character by 750 for 1 turn.",
-                "Boosts base ATK of Last Tap character by 1,000 for 1 turn.",
-                "Boosts base ATK of Last Tap character by 1,500 for 1 turn.",
-                "Boosts base ATK of Last Tap character by 1,500 for 1 turn and boosts Chain Multiplier Growth Rate by 1.25x on activation.",
-                "Boosts base ATK of Last Tap character by 1,500 for 1 turn and boosts Chain Multiplier Growth Rate by 1.5x on activation."
+                "Boosts base ATK of Last Tap character by +750 for 1 turn.",
+                "Boosts base ATK of Last Tap character by +1,000 for 1 turn.",
+                "Boosts base ATK of Last Tap character by +1,500 for 1 turn.",
+                "Boosts base ATK of Last Tap character by +1,500 for 1 turn and boosts Chain Multiplier Growth Rate by 1.25x on activation.",
+                "Boosts base ATK of Last Tap character by +1,500 for 1 turn and boosts Chain Multiplier Growth Rate by 1.5x on activation."
             ]
         },
         support: [
@@ -157414,11 +157414,11 @@ window.details = {
 				"HP is below 10% and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Gol D. Roger, Coby, Tashigi, Helmeppo, Prince Grus, Kujaku, Hibari, Kuzan (Aokiji)"
 			],
 			description: [
-				"Boosts Tandem ATK of middle row characters by 1.25x and boosts ATK of all other character by 1.2x for 1 turn.",
-				"Boosts Tandem ATK of middle row characters by 1.5x and boosts ATK of all other character by 1.4x for 1 turn.",
-				"Boosts Tandem ATK of middle row characters by 1.75x and boosts ATK of all other character by 1.6x for 1 turn.",
-				"Boosts Tandem ATK of middle row characters by 2x and boosts ATK of all other character by 1.8x for 1 turn.",
-				"Boosts Tandem ATK of middle row characters by 2.5x and boosts ATK of all other character by 2x for 1 turn."
+				"Boosts Tandem ATK of middle row characters by 1.25x for 1 turn, and boosts ATK of all other character by 1.2x for 1 turn.",
+				"Boosts Tandem ATK of middle row characters by 1.5x for 1 turn, and boosts ATK of all other character by 1.4x for 1 turn.",
+				"Boosts Tandem ATK of middle row characters by 1.75x for 1 turn, and boosts ATK of all other character by 1.6x for 1 turn.",
+				"Boosts Tandem ATK of middle row characters by 2x for 1 turn, and boosts ATK of all other character by 1.8x for 1 turn.",
+				"Boosts Tandem ATK of middle row characters by 2.5x for 1 turn, and boosts ATK of all other character by 2x for 1 turn."
 			]
 		},
 		limit: [
@@ -158595,8 +158595,8 @@ window.details = {
 				"Boosts base ATK of this character by +1,000 for 1 turn.",
 				"Changes orb, including [BLOCK] orb, of this character into a Matching orb, and boosts base ATK of this character by +1,000 for 1 turn.",
 				"Changes orb, including [BLOCK] orb, of this character into a Matching orb, and boosts base ATK of this character by +1,500 for 1 turn.",
-				"Changes orb, including [BLOCK] orb, of this character into a Matching orb, reduces enemies' Slasher Resistance by -10% for 1 turn, and boosts base ATK of this character by +2,000 for 1 turn.",
-				"Changes orb, including [BLOCK] and [SUPERBLOCK] orb, of this character into a Matching orb, reduces enemies' Slasher Resistance by -10% for 1 turn, and boosts base ATK of this character by +2,500 for 1 turn."
+				"Changes orb, including [BLOCK] orb, of this character into a Matching orb, reduces enemies' Slasher Resistance by -10% for 1 turn, and boosts base ATK of this character by 2,000 for 1 turn.",
+				"Changes orb, including [BLOCK] and [SUPERBLOCK] orb, of this character into a Matching orb, reduces enemies' Slasher Resistance by -10% for 1 turn, and boosts base ATK of this character by 2,500 for 1 turn."
 			],
 		},
 		limit: [
@@ -161198,7 +161198,7 @@ window.details = {
 				"Reduces enemies' Increased Defense duration by 1 turn, and boosts Tandem ATK of [STR], [QCK], Cerebral and Shooter characters by 1.4x for 1 turn.",
 				"Reduces enemies' Increased Defense duration by 1 turn, and boosts Tandem ATK of [STR], [QCK], Cerebral and Shooter characters by 1.6x for 1 turn.",
 				"Reduces enemies' Increased Defense duration by 2 turns, and boosts Tandem ATK of [STR], [QCK], Cerebral and Shooter characters by 1.8x for 1 turn.",
-				"Reduces enemies' Increased Defense duration by 3 turns, and boosts Tandem ATK of [STR], [QCK], Cerebral and Shooter characters by 2 for 1 turn."
+				"Reduces enemies' Increased Defense duration by 3 turns, and boosts Tandem ATK of [STR], [QCK], Cerebral and Shooter characters by 2x for 1 turn."
 			]
 		},
 		limit: [
