@@ -163142,7 +163142,7 @@ window.details = {
 	},
 	4309: {//Franky
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [STR], [DEX] and [QCK] characters by 4x, boosts HP of [STR], [DEX] and [QCK] characters by 1.5x, and reduces damage received by 15%.",
-		special: "Reduces Switch Effect and VS Gauge of all characters by 2, reduces Despair duration by 6 turns, and increases Chain Tap Timing Bonus of [STR], [DEX] and [QCK] characters to +0.3x-0.5x for 2 turns depending on Tap Timing. If your crew has ATK Up for 2+ turns when the special is activated, decreases duration of any ATK Up buffs by 1 turn, and increases boost effects of ATK Up buffs by +0.5x.",
+		special: "Reduces Switch Effect and VS Gauge of all characters by 2, reduces Despair duration by 6 turns, and increases Chain Tap Timing Bonus of [STR], [DEX] and [QCK] characters to +0.3x-0.5x for 2 turns depending on Tap Timing. If your crew has 2+ turns of ATK Up when the special is activated, decreases duration of any ATK Up buffs by 1 turn, and increases boost effects of ATK Up buffs by +0.5x.",
 		specialNotes: "GOOD: +0.3, GREAT: +0.4, PERFECT: +0.5",
         specialName: "Countering Strong Right",
 		sailor: {
@@ -163203,7 +163203,7 @@ window.details = {
 	},
 	4310: {//Brook
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [STR], [DEX] and [QCK] characters by 4x, by 4.25x instead if HP is above 99% at the start of the turn, and reduces damage received by 15%.",
-		special: "Reduces Paralysis and Special Bind duration by 6 turns, and boosts Base ATK of [STR], [DEX] and [QCK] characters by 1,000 for 2 turns. If your crew has Orb Amplification for 2+ turns when the special is activated, decreases duration of any Orb Amplification buffs by 1 turn, and increases boost effects of Orb Amplification buffs by +0.5x.",
+		special: "Reduces Paralysis and Special Bind duration by 6 turns, and boosts Base ATK of [STR], [DEX] and [QCK] characters by 1,000 for 2 turns. If your crew has 2+ turns of Orb Amplification when the special is activated, decreases duration of any Orb Amplification buffs by 1 turn, and increases boost effects of Orb Amplification buffs by +0.5x.",
 		specialName: "Intercepting Thrust",
 		sailor: {
 			base: "Reduces Special Bind duration by 6 turns on this character.",
@@ -171231,7 +171231,7 @@ window.details = {
         captain: "Boosts ATK of Striker and Driven characters by 3.5x, and boosts RCV of Striker and Driven characters by 1.3x.",
         special: "Changes all orbs into [DEX] orbs, and locks all orbs for 1 turn. If your Captain is a Striker or Driven character, reduces Burn duration by 6 turns. If enemies are inflicted with Poison when the special is activated, reduces the defense of all enemies by 100% for 1 turn.",
         specialName: "Clear Hierarchy",
-        sailor: "Boosts ATK of Striker and Driven characters by 60.",
+        sailor: "Boosts base ATK of Striker and Driven characters by 60.",
         support: [
             {
                 Characters: "Striker characters",
@@ -173257,7 +173257,7 @@ window.details = {
     },
     4429: {//Kizaru
         captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all characters by 3.5x-4.25, depending on how many previous consecutive turns you have defeated an enemy, up to 5 turns, boosts HP of all characters by 1.2x, boosts base ATK of [Navy] characters by 500, and makes [PSY] and [INT] orbs beneficial for all characters.",
-        special: "Deals 100x character's ATK in Typeless damage to one enemy, reduces enemies' Resilience duration by 6 turns, and adds 1.2x to chain multiplier for 3 turns. If your crew has 2+ [Navy] characters or HP is below 50% when the special is activated, carries over 0.1x-1.5x of Chain Multiplier on this turn to the next turn. Recovers 30% of crew's MAX HP.",
+        special: "Deals 100x character's ATK in Typeless damage to one enemy, reduces enemies' Resilience duration by 6 turns, adds 1.2x to chain multiplier for 3 turns, and recovers 30% of crew's MAX HP. If HP is below 50% when the special is activated or your crew has 2+ [Navy] characters, carries over 0.1x-1.5x of Chain Multiplier on this turn to the next turn.",
         specialNotes: "Carried-over chain amount is equal to 0.1 ✕ final chain multiplier this turn and will be added into the next turn's chain multiplier. In order to get +1.5 Chain carried over, you need to reach 15x or higher Chain Multiplier.",
         specialName: "Piercing Ama no Murakumo Sword",
         sailor: {
@@ -173337,22 +173337,23 @@ window.details = {
         ]
     },
     4430: {//5+ Kizaru
-        captain: "Reduces crew's Special charge time by 2 turns at start of quest, boosts crew's ATK by 4x, HP by 1.2x, boosts ATK further if any enemies were defeated in previous turns (up to 4.5x in 5 straight turns), and makes [PSY][INT] slots have matching slot effects. If every type is on the crew, reduces crew's Special Reverse by 3 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Navy] characters' base ATK by 500",
-        special: "[This Special can charge Special charge over its MAX (including Special charge time reduction effects)] Reduces crew's Special charge time by 1 turn, reduces all enemies' Resilience duration by 6 turns, deals 100x character's ATK in non-type damage to one enemy, and boosts the chain multiplier by +1.2 for 3 turns (plus a further +0.1 every 5 turns over MAX Special, up to +1.8). If crew's HP is 50% or below when Special is launched, or 2 or more [Navy] characters are on the crew, locks crew's slots for 2 turns, and for 1 turn carries over 10% of the final chain multiplier of this turn to the next turn (minimum 0.1; maximum 1.5), then after, that heals 30% of crew's maximum HP. If 3 or more [Navy] characters are on the crew, extends the duration of crew's damage nullification and Threshold Damage Reduction by 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of all characters by 4x-4.5, depending on how many previous consecutive turns you have defeated an enemy, up to 5 turns, boosts HP of all characters by 1.2x, boosts base ATK of [Navy] characters by 500, and makes [PSY] and [INT] orbs beneficial for all characters. If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, restores Special Cooldown of all characters by 3 turns when they are rewinded.",
+        special: "Reduces Special Cooldown of all characters by 1 turn, deals 100x character's ATK in Typeless damage to one enemy, reduces enemies' Resilience duration by 6 turns, adds 1.2x-1.8x to chain multiplier for 3 turns, and recovers 30% of crew's MAX HP. If HP is below 50% when the special is activated or your crew has 2+ [Navy] characters, locks all orbs for 2 turns, and carries over 0.1x-1.5x of Chain Multiplier on this turn to the next turn. If your crew has 3+ [Navy] characters, increases duration of any team Damage Nullification and Threshold Damage Reduction buffs by 1 turn.",
+        specialNotes: "For every <b>5 Special Cooldown charges</b> after this special is charged to MAX, the Chain Addition increases by +0.1x until its maximum values. Carried-over chain amount is equal to 0.1 ✕ final chain multiplier this turn and will be added into the next turn's chain multiplier; in order to get +1.5 chain carried over, you need to reach 15x or higher chain multiplier.",
         specialName: "Piercing Ama no Murakumo Sword",
         sailor: {
-            base: "Makes Slasher and Powerhouse characters' [PSY] slots have matching slot effects",
-            level1: "If 2 or more [Navy] [World Government] characters are on the crew, reduces decrease chain multiplier growth rate duration by 2 turns"
+            base: "Makes [PSY] orbs beneficial for Slasher and Powerhouse characters.",
+            level1: "If your crew has 2+ [Navy] or [World Government] characters, reduces Chain Coefficient Reduction duration by 2 turns."
         },
         support: [
             {
                 Characters: "Characters with the following Character Tag: [Navy]",
                 description: [
-                    "Once per quest, if supported character uses a Special, heals crew by 1,000 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,250 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,500 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,750 HP",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Resilience duration by 1 turn, and heals crew by 2,000 HP"
+                    "Once per adventure, when the supported character uses their special, recovers 1,000 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,250 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,500 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,750 HP.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Resilience duration by 1 turn, and recovers 2,000 HP."
                 ]
             }
         ],
@@ -173413,68 +173414,6 @@ window.details = {
                     "Reduces Special Cooldown of this character by 8 turns at the start of the fight",
                     "Reduces Special Cooldown of this character by 9 turns at the start of the fight"
                 ]
-            }
-        ],
-        festStats: {
-            def: 192,
-            spd: 187,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade Special Bind, reduce damage taken from [INT] by 20%",
-        festAbility: [
-            "[PSY]/Slasher class teammates HP Up Lv.1, ATK Up Lv.1, SPD Up Lv.1, Guard % Up Lv.1",
-            "[PSY]/Slasher class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2, Guard % Up Lv.2",
-            "[PSY]/Slasher class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3, Guard % Up Lv.3",
-            "[PSY]/Slasher class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4, Guard % Up Lv.4",
-            "[PSY]/Slasher class teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5, Guard % Up Lv.4"
-        ],
-        festSpecial: [
-            {
-                cooldown: 22,
-                description: "Targets 2 enemies for 2000 damage; targets [PSY]/Slasher class teammates for ATK Up Lv.2 (11 s), SPD Up Lv.2 (11 s), 23% chance to evade Special Bind (11 s)"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 2 enemies for 2100 damage; targets [PSY]/Slasher class teammates for ATK Up Lv.2 (11 s), SPD Up Lv.2 (11 s), 26% chance to evade Special Bind (11 s)"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 2 enemies for 2200 damage; targets [PSY]/Slasher class teammates for ATK Up Lv.2 (12 s), SPD Up Lv.2 (12 s), 29% chance to evade Special Bind (12 s)"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 2 enemies for 2300 damage; targets [PSY]/Slasher class teammates for ATK Up Lv.2 (12 s), SPD Up Lv.2 (12 s), 32% chance to evade Special Bind (12 s)"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 2 enemies for 2400 damage; targets [PSY]/Slasher class teammates for ATK Up Lv.2 (13 s), SPD Up Lv.2 (13 s), 35% chance to evade Special Bind (13 s)"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 2 enemies for 2500 damage; targets [PSY]/Slasher class teammates for ATK Up Lv.3 (13 s), SPD Up Lv.3 (13 s), 38% chance to evade Special Bind (13 s)"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 2 enemies for 2600 damage; targets [PSY]/Slasher class teammates for ATK Up Lv.3 (14 s), SPD Up Lv.3 (14 s), 41% chance to evade Special Bind (14 s)"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 2 enemies for 2700 damage; targets [PSY]/Slasher class teammates for ATK Up Lv.3 (14 s), SPD Up Lv.3 (14 s), 44% chance to evade Special Bind (14 s)"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 2 enemies for 2800 damage; targets [PSY]/Slasher class teammates for ATK Up Lv.3 (15 s), SPD Up Lv.3 (15 s), 47% chance to evade Special Bind (15 s)"
-            },
-            {
-                cooldown: 22,
-                description: "Targets 2 enemies for 3000 damage; targets [PSY]/Slasher class teammates for ATK Up Lv.4 (15 s), SPD Up Lv.4 (15 s), 50% chance to evade Special Bind (15 s)"
             }
         ]
     },
@@ -173576,24 +173515,25 @@ window.details = {
         ]
     },
     4432: {// Luffy
-        captain: "Reduces crew's Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts [QCK] and Powerhouse characters' ATK by 6x, HP by 1.35x, boosts other characters' ATK by 4.5x, makes crew's [QCK][RCV][TND] slots have matching slot effects, and reduces character's Special Bind duration by 10 turns. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Straw Hat Pirates] [Giant] [Logia-type] [Paramythia-type] characters' ATK by 1.1x\" becomes \"Boosts [Straw Hat Pirates] [Giant] [Logia-type] [Paramythia-type] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Straw Hat Pirates] [Giant] [Logia-type] [Paramythia-type] characters' ATK by 1.1x. If 4 or more [Egghead Arc] [Land of Wano Arc] characters are on the crew, reduces crew's Special Reverse by 10 turns. If 4 or more [Egghead Arc] [Land of Wano Arc] characters are on the crew and crew is inflicted with ATK Up or Orb Boost status (does not apply to statuses inflicted by Captain Ability or Crewmate Ability), allows crew's ATK UpOrb Boost to be further increased up to 2 times, and further increases those boosts by 1.2x (up to a maximum of 8x and cannot be further raised)",
-        special: "Reduces crew's Special Bind duration by 10 turns, adds 80x character's ATK in non-type damage on top of tap-timing bonuses for 5 turns, applies \"Territory: [QCK]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 3 turns, and boosts [QCK] and Powerhouse characters' slot effects by up to 4.25x based on outcome of Action Special (3.5x for MISS, 3.7x for GOOD, 3.8x for GREAT, 3.9x for PERFECT, 4.25 for EXCELLENT) for 2 turns. If 5 or more [Straw Hat Pirates] [Giant] [Logia-type] [Paramythia-type] characters are on the crew, makes crew's type slots have matching slot effects for 2 turns, and sets the chain multiplier's minimum value at 3.25 and maximum value at 35.0 for 2 turns (allows this effect to be further increased up to 2 times; sets the chain multiplier's minimum value at 2.5 and maximum value at 30.0 for 1 turn otherwise)",
+        captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, reduces VS Gauge and Switch Effect of all characters by 2 at the start of the fight, boosts ATK of [Straw Hat Pirates], [Giant], [Logia-type] and [Paramythia-type] characters by 1.1x, boosts ATK of [QCK] and Powerhouse characters by 6x-6.6x, boosts ATK of all other characters by 4.5x-4.95x, boosts HP of [QCK] and Powerhouse characters by 1.35x, makes [QCK], [RCV] and [TND] orbs beneficial for all characters, and reduces Special Bind duration by 10 turns on this character. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Straw Hat Pirates], [Giant], [Logia-type] and [Paramythia-type] characters by 1.3x instead, boosts ATK of [QCK] and Powerhouse characters by 6x-7.8x instead, and boosts ATK of all other characters by 4.5x-5.85x instead. If your crew has 4+ [Egghead Arc] or [Land of Wano Arc] characters, restores Special Cooldown of all characters by 10 turns when they are rewinded. If your crew has 4+ [Egghead Arc] or [Land of Wano Arc] characters and you gain an ATK Up or Orb Amplification buff, enables ATK Up and Orb Amplification buffs to be enhanced up to 2 times, and increases boost effects of ATK Up and Orb Amplification buffs by 1.2x (up to 8x).",
+        special: "Reduces Special Bind duration by 10 turns, adds 80x character's ATK as Additional Typeless Damage for 5 turns, applies Territory: [QCK] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns, and boosts Orb Effects of [QCK] and Powerhouse characters by 3.5x-4.25x for 2 turns depending on the outcome of Action Special. If your crew has 5+ [Straw Hat Pirates], [Giant], [Logia-type] or [Paramythia-type] characters, makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 2 turns, and sets Chain Boundaries to 3.25x and 35.0x, can be enhanced up to 2 times, for 2 turns; sets Chain Boundaries to 2.5x and 30.0x for 1 turn otherwise.",
+        specialNotes: "MISS: 3.5x, GOOD: 3.7x, GREAT: 3.8x, PERFECT: 3.9x, EXCELLENT 4.25x",
         specialName: "Gum-Gum Dawn Cymbal",
         sailor: {
-            base: "Boosts Powerhouse characters' base stats by 200, and makes their [QCK][RCV][TND] slots have matching slot effects",
-            level1: "Reduces character's Special Bind duration by 10 turns"
+            base: "Boosts base ATK, HP and RCV of Powerhouse characters by 200. Makes [QCK], [RCV] and [TND] orbs beneficial for Powerhouse characters.",
+            level1: "Reduces Special Bind duration by 10 turns on this character."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Sentomaru, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Makino, Shanks, Dorry, Broggy, Kashii, Oimo",
-        superSpecial: "Reduces Powerhouse characters' Switch Effect by 4, changes character's slot (including [BLOCK] slot) to [TND] (ignoring inability to change [S. BLOCK] slots), further increases crew's lock chain multiplier effect by +0.25, doubles Powerhouse characters' advantageous class effect for 2 turns, changes [QCK] characters to Super [QCK], and changes Powerhouse characters to Super Powerhouse",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Sentomaru, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Makino, Shanks, Dorry, Broggy, Kashii, Oimo",
+        superSpecial: "Reduces Switch Effect of Powerhouse characters by 4, changes the orb, including [BLOCK] and [SUPERBLOCK] orb, of this character into a [TND] orb, increases boost effects of Chain Lock buffs by +0.25x, boosts Advantageous Class Effect of Powerhouse characters by 2x for 2 turns, transforms [QCK] characters into Super [QCK] characters, and transforms Powerhouse characters into Super Powerhouse characters.",
         support: [
             {
                 Characters: "All characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 10% of character's base stats to supported character's base stats",
-                    "Adds 11% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 11% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -173673,130 +173613,40 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Makino, Curly Dadan, Monkey D. Dragon, Dorry, Broggy, Kashii, Oimo",
-                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Makino, Curly Dadan, Monkey D. Dragon, Dorry, Broggy, Kashii, Oimo",
-                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Makino, Curly Dadan, Monkey D. Dragon, Dorry, Broggy, Kashii, Oimo",
-                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Makino, Curly Dadan, Monkey D. Dragon, Dorry, Broggy, Kashii, Oimo",
-                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Makino, Curly Dadan, Monkey D. Dragon, Dorry, Broggy, Kashii, Oimo"
+                "Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Makino, Curly Dadan, Monkey D. Dragon, Dorry, Broggy, Kashii, Oimo",
+                "Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Makino, Curly Dadan, Monkey D. Dragon, Dorry, Broggy, Kashii, Oimo",
+                "Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Makino, Curly Dadan, Monkey D. Dragon, Dorry, Broggy, Kashii, Oimo",
+                "Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Makino, Curly Dadan, Monkey D. Dragon, Dorry, Broggy, Kashii, Oimo",
+                "Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", S-Snake, Bartholomew Kuma, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Makino, Curly Dadan, Monkey D. Dragon, Dorry, Broggy, Kashii, Oimo"
             ],
             description: [
-                "Sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), applies ATK Boost (Tandem) of 1.5x to [QCK] and Powerhouse characters for 1 turn, and boosts base ATK by +175 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
-                "Sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), applies ATK Boost (Tandem) of 1.75x to [QCK] and Powerhouse characters for 1 turn, and boosts base ATK by +275 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
-                "Sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), applies ATK Boost (Tandem) of 2x to [QCK] and Powerhouse characters for 1 turn, and boosts base ATK by +375 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
-                "Sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), applies ATK Boost (Tandem) of 2.5x to [QCK] and Powerhouse characters for 1 turn, and boosts base ATK by +500 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn",
-                "Sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), applies ATK Boost (Tandem) of 3x to [QCK] and Powerhouse characters for 1 turn, and boosts base ATK by +700 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn"
+                "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, boosts Tandem ATK of [QCK] and Powerhouse characters by 1.5x for 1 turn, and boosts base ATK of Last Tap character by +175 for 1 turn.",
+                "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, boosts Tandem ATK of [QCK] and Powerhouse characters by 1.75x for 1 turn, and boosts base ATK of Last Tap character by +275 for 1 turn.",
+                "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, boosts Tandem ATK of [QCK] and Powerhouse characters by 2x for 1 turn, and boosts base ATK of Last Tap character by +375 for 1 turn.",
+                "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, boosts Tandem ATK of [QCK] and Powerhouse characters by 2.5x for 1 turn, and boosts base ATK of Last Tap character by +500 for 1 turn.",
+                "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, boosts Tandem ATK of [QCK] and Powerhouse characters by 3x for 1 turn, and boosts base ATK of Last Tap character by +700 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 123,
-            spd: 225,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Halve Stats/Action Bind, reduce damage taken from [STR] by 30%",
-        festAbility: [
-            "If 5 or more [QCK] characters are on the team, [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.2; first 30 s of battle, [QCK] teammates Special CT Speed Up Lv.1; self Shield Lv.1",
-            "If 5 or more [QCK] characters are on the team, [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.3; first 30 s of battle, [QCK] teammates Special CT Speed Up Lv.2; self Shield Lv.2",
-            "If 5 or more [QCK] characters are on the team, [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.4; first 30 s of battle, [QCK] teammates Special CT Speed Up Lv.3; self Shield Lv.3",
-            "If 5 or more [QCK] characters are on the team, [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates HP Up Lv.7, ATK Up Lv.7, DEF Up Lv.5; first 30 s of battle, [QCK] teammates Special CT Speed Up Lv.4; self Shield Lv.4",
-            "If 5 or more [QCK] characters are on the team, [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates HP Up Lv.8, ATK Up Lv.8, DEF Up Lv.6; first 30 s of battle, [QCK] teammates Special CT Speed Up Lv.5; self Shield Lv.5"
-        ],
-        festSpecial: [
-            {
-                cooldown: 33,
-                description: "Targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates for ATK Up Lv.2 (11 s); targets 4 enemies for ATK x 1 damage; targets 3 enemies with low current HP for ATK x 3.1 damage; targets 2 enemies with high current HP for ATK x 3.2 damage; if 5 or more [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] characters are on the team, targets self for 73% chance to evade damage ignoring DEF (11 s)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates for ATK Up Lv.2 (12 s); targets 4 enemies for ATK x 1.2 damage; targets 3 enemies with low current HP for ATK x 3.2 damage; targets 2 enemies with high current HP for ATK x 3.4 damage; if 5 or more [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] characters are on the team, targets self for 76% chance to evade damage ignoring DEF (12 s)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates for ATK Up Lv.2 (13 s); targets 4 enemies for ATK x 1.4 damage; targets 3 enemies with low current HP for ATK x 3.3 damage; targets 2 enemies with high current HP for ATK x 3.6 damage; if 5 or more [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] characters are on the team, targets self for 79% chance to evade damage ignoring DEF (13 s)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates for ATK Up Lv.3 (14 s); targets 4 enemies for ATK x 1.6 damage; targets 3 enemies with low current HP for ATK x 3.4 damage; targets 2 enemies with high current HP for ATK x 3.8 damage; if 5 or more [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] characters are on the team, targets self for 82% chance to evade damage ignoring DEF (14 s)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates for ATK Up Lv.3 (15 s); targets 4 enemies for ATK x 1.8 damage; targets 3 enemies with low current HP for ATK x 3.5 damage; targets 2 enemies with high current HP for ATK x 4 damage; if 5 or more [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] characters are on the team, targets self for 85% chance to evade damage ignoring DEF (15 s)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates for ATK Up Lv.4 (16 s); targets 4 enemies for ATK x 2 damage; targets 3 enemies with low current HP for ATK x 3.6 damage; targets 2 enemies with high current HP for ATK x 4.2 damage; if 5 or more [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] characters are on the team, targets self for 88% chance to evade damage ignoring DEF (16 s)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates for ATK Up Lv.4 (17 s); targets 4 enemies for ATK x 2.2 damage; targets 3 enemies with low current HP for ATK x 3.7 damage; targets 2 enemies with high current HP for ATK x 4.4 damage; if 5 or more [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] characters are on the team, targets self for 91% chance to evade damage ignoring DEF (17 s)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates for ATK Up Lv.4 (18 s); targets 4 enemies for ATK x 2.4 damage; targets 3 enemies with low current HP for ATK x 3.8 damage; targets 2 enemies with high current HP for ATK x 4.6 damage; if 5 or more [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] characters are on the team, targets self for 94% chance to evade damage ignoring DEF (18 s)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates for ATK Up Lv.5 (19 s); targets 4 enemies for ATK x 2.6 damage; targets 3 enemies with low current HP for ATK x 3.9 damage; targets 2 enemies with high current HP for ATK x 4.8 damage; if 5 or more [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] characters are on the team, targets self for 97% chance to evade damage ignoring DEF (19 s)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates for ATK Up Lv.6 (20 s); targets 4 enemies for ATK x 3 damage; targets 3 enemies with low current HP for ATK x 4 damage; targets 2 enemies with high current HP for ATK x 5 damage; if 5 or more [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] characters are on the team, targets self for 100% chance to evade damage ignoring DEF (20 s)"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[STR]/[QCK]/[PSY] teammates HP, ATK Up Lv.2, DEF Up Lv.2; [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates ATK, RCV, SPD Up Lv.1, DEF, Special CT Speed Up Lv.1",
-                festGPSpecial: "Targets [STR]/[QCK]/[PSY] teammates for 80% chance to evade Special CT delay (20 s); targets all enemies ignoring DEF for Leader base ATK x 1 damage; targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates with 50% or less Special CT for Special CT 30% reduction",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR]/[QCK]/[PSY] teammates HP, ATK Up Lv.3, DEF Up Lv.3; [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates ATK, RCV, SPD Up Lv.2, DEF, Special CT Speed Up Lv.2",
-                festGPSpecial: "Targets [STR]/[QCK]/[PSY] teammates for 85% chance to evade Special CT delay (20 s); targets all enemies ignoring DEF for Leader base ATK x 1.25 damage; targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates with 50% or less Special CT for Special CT 35% reduction",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR]/[QCK]/[PSY] teammates HP, ATK Up Lv.4, DEF Up Lv.3; [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates ATK, RCV, SPD Up Lv.3, DEF, Special CT Speed Up Lv.2",
-                festGPSpecial: "Targets [STR]/[QCK]/[PSY] teammates for 90% chance to evade Special CT delay (20 s); targets all enemies ignoring DEF for Leader base ATK x 1.5 damage; targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates with 50% or less Special CT for Special CT 40% reduction",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR]/[QCK]/[PSY] teammates HP, ATK Up Lv.5, DEF Up Lv.4; [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates ATK, RCV, SPD Up Lv.4, DEF, Special CT Speed Up Lv.3",
-                festGPSpecial: "Targets [STR]/[QCK]/[PSY] teammates for 95% chance to evade Special CT delay (20 s); targets all enemies ignoring DEF for Leader base ATK x 1.75 damage; targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates with 50% or less Special CT for Special CT 45% reduction",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR]/[QCK]/[PSY] teammates HP, ATK Up Lv.6, DEF Up Lv.4; [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates ATK, RCV, SPD Up Lv.5, DEF, Special CT Speed Up Lv.3",
-                festGPSpecial: "Targets [STR]/[QCK]/[PSY] teammates for 100% chance to evade Special CT delay (20 s); targets all enemies ignoring DEF for Leader base ATK x 2 damage; targets [Straw Hat Pirates] [Giant] [Vegapunk] [Seraphim] [Logia-type] [Paramythia-type] teammates with 50% or less Special CT for Special CT 50% reduction",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When enemy uses Rumble Special 6 times"
+        }
     },
     4433: {//Kuma
-        captain: "Launches the following effect at start of quest: \"Reduces a portion of each enemy's dealt damage that exceeds 10,000 by 65% for 10 turns\", boosts Fighter and Powerhouse characters' ATK by 5.25x, HP by 1.4x, makes their [QCK][RCV] slots have matching slot effects, and cannot be KO'd if HP is 60% or above [Applies following effect based on number of applicable Character Tags on crew] Reduces [Child] [Paramythia-type] characters' Special charge time by 7 turns at start of quest, and boosts [Child] [Paramythia-type] characters' base HP by +1500 ",
-        special: "Deals 290x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), and reduces all enemies' Threshold Damage Reduction duration by 7 turns. If crew has ATK Up and Chain Boundary status at the same time when Special is launched, boosts [STR], Free Spirit, and Powerhouse characters' base ATK by +1750 for 2 turns. If crew has ATK Up status when Special is launched, sets the chain multiplier's minimum value at 3.25 and maximum value at 30.0 for 2 turns (boosts [STR], Free Spirit, and Powerhouse characters' ATK by 3.25x for 2 turns otherwise). If \"Jewelry Bonney\" is in the crew or is set as Support for character, nullifies damage from [INT] characters for 2 turns, and boosts the ATK of the next final tap performed by crew by 50% (similar effects can stack, up to 200%<hidden>; the effect will be spent during the final tap when attacking with all.  available characters regardless of the type/class requirement of the effect</hidden>). If 3 or more [Worst Generation] [Revolutionary Army] [Paramythia-type] characters are on the crew, extends the duration of crew's ATK UpBase ATK BoostChain Boundary by 1 turn (this effect also applies to ATK boost, base ATK boost, and lock chain multiplier effect from this Special)",
+        captain: "Reduces Special Cooldown of [Child] and [Paramythia-type] characters by 7 turns at the start of the fight, boosts ATK of Fighter and Powerhouse characters by 5.25x, boosts HP of Fighter and Powerhouse characters by 1.4x, boosts base HP of [Child] and [Paramythia-type] characters by 1,500, makes [QCK] and [RCV] orbs beneficial for Fighter and Powerhouse characters, protects from defeat as long as HP is above 60%, and launches the following effect at start of quest: reduces any damage received above 10,000 HP by 65% for 10 turns.",
+        special: "Deals 290x character's ATK in Typeless Fixed True damage to one enemy, and reduces enemies' Threshold Damage Reduction duration by 7 turns. If your crew has ATK Up and Chain Lock when the special is activated, boosts Base ATK of [STR], Free Spirit and Powerhouse characters by 1,750 for 2 turns. If your crew has ATK Up when the special is activated, sets Chain Boundaries to 3.25x and 30.0x for 2 turns; boosts ATK of [STR], Free Spirit and Powerhouse characters by 3.25x for 2 turn otherwise. If your crew has Jewelry Bonney as a member or supporting this character, reduces damage received from [INT] enemies by 100% for 2 turns, and boosts Final Tap ATK of all characters by 50%. If your crew has 3+ [Worst Generation], [Revolutionary Army] or [Paramythia-type] characters, increases duration of any ATK Up, Base ATK Boost and Chain Lock buffs by 1 turn, including effects activated in the same ability.",
         specialName: "Science-Defying Strike",
         sailor: {
-            base: "Boosts Free Spirit and Powerhouse characters' base HP by 1.1x",
-            level1: "Character cannot be blown away by attack, and tapping on this character with a [RCV] slot will further increase crew's type effect boosts by +0.2"
+            base: "Boosts base HP of Free Spirit and Powerhouse characters by 1.1x.",
+            level1: "This character cannot be Blown Away. If this character has a [RCV] orb and you attack with this character, increases boost effects of Color Affinity buffs by +0.2x."
         },
-        superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru",
-        superSpecial: "Changes character's slot to [RCV], further increases all enemies' increase damage taken effect by +0.5, applies increase damage taken status to all enemies by 1.5x for 1 turn (ignoring immunity to all status effects or immunity excluding certain status effect), and changes Free Spirit class to Super Free Spirit",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru",
+        superSpecial: "Changes the orb of this character into a [RCV] orb, increases boost effects of enemies' Increase Damage Taken debuffs by +0.5x, ignores debuff protection and inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn, and transforms Free Spirit character into Super Free Spirit characters.",
         support: [
             {
                 Characters: "Jewelry Bonney",
                 description: [
-                    "Once per quest, if supported character uses a Special, further increases all enemies' increase damage taken effect by +0.1",
-                    "Once per quest, if supported character uses a Special, further increases all enemies' increase damage taken effect by +0.15",
-                    "Once per quest, if supported character uses a Special, further increases all enemies' increase damage taken effect by +0.25",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn, and further increases all enemies' increase damage taken effect by +0.25",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 2 turns, and further increases all enemies' increase damage taken effect by +0.25"
+                    "Once per adventure, when the supported character uses their special, increases boost effects of enemies' Increase Damage Taken debuffs by +0.1x.",
+                    "Once per adventure, when the supported character uses their special, increases boost effects of enemies' Increase Damage Taken debuffs by +0.15x.",
+                    "Once per adventure, when the supported character uses their special, increases boost effects of enemies' Increase Damage Taken debuffs by +0.25x.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn, and increases boost effects of enemies' Increase Damage Taken debuffs by +0.25x.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 2 turns, and increases boost effects of enemies' Increase Damage Taken debuffs by +0.25x."
                 ]
             }
         ],
@@ -173876,128 +173726,38 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Worst Generation] [Revolutionary Army] [Paramythia-type] character performs Super Tandem",
-                "When a [Worst Generation] [Revolutionary Army] [Paramythia-type] character performs Super Tandem",
-                "When a [Worst Generation] [Revolutionary Army] [Paramythia-type] character performs Super Tandem",
-                "When a [Worst Generation] [Revolutionary Army] [Paramythia-type] character performs Super Tandem",
-                "When a [Worst Generation] [Revolutionary Army] [Paramythia-type] character performs Super Tandem"
+                "When a [Worst Generation], [Revolutionary Army] or [Paramythia-type] character performs Super Tandem",
+                "When a [Worst Generation], [Revolutionary Army] or [Paramythia-type] character performs Super Tandem",
+                "When a [Worst Generation], [Revolutionary Army] or [Paramythia-type] character performs Super Tandem",
+                "When a [Worst Generation], [Revolutionary Army] or [Paramythia-type] character performs Super Tandem",
+                "When a [Worst Generation], [Revolutionary Army] or [Paramythia-type] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Worst Generation] [Revolutionary Army] [Paramythia-type] characters by 1 for 1 turn",
-                "Raises Boost Level of [Worst Generation] [Revolutionary Army] [Paramythia-type] characters by 2 for 1 turn",
-                "Raises Boost Level of [Worst Generation] [Revolutionary Army] [Paramythia-type] characters by 3 for 1 turn",
-                "Raises Boost Level of [Worst Generation] [Revolutionary Army] [Paramythia-type] characters by 4 for 1 turn",
-                "Raises Boost Level of [Worst Generation] [Revolutionary Army] [Paramythia-type] characters by 5 for 1 turn"
+                "Raises Boost Level of [Worst Generation], [Revolutionary Army] and [Paramythia-type] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Worst Generation], [Revolutionary Army] and [Paramythia-type] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Worst Generation], [Revolutionary Army] and [Paramythia-type] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Worst Generation], [Revolutionary Army] and [Paramythia-type] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Worst Generation], [Revolutionary Army] and [Paramythia-type] characters by 5 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 166,
-            spd: 167,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Halve Stats, reduce damage taken from [DEX] by 30%",
-        festAbility: [
-            "[Revolutionary Army] [Vegapunk] teammates HP Up Lv.2, SPD Up Lv.2, DEF Up Lv.2; \"Jewelry Bonney\" teammates HP Up Lv.2, ATK Up Lv.2, DEF Up Lv.2; if \"Jewelry Bonney\" is on the team, self ATK Up Lv.6, Special CT Speed Up Lv.1; if 3 or more [Revolutionary Army] [Vegapunk] characters are on the team, self HP Up Lv.2, DEF Up Lv.2",
-            "[Revolutionary Army] [Vegapunk] teammates HP Up Lv.3, SPD Up Lv.3, DEF Up Lv.3; \"Jewelry Bonney\" teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.3; if \"Jewelry Bonney\" is on the team, self ATK Up Lv.7, Special CT Speed Up Lv.1; if 3 or more [Revolutionary Army] [Vegapunk] characters are on the team, self HP Up Lv.3, DEF Up Lv.3",
-            "[Revolutionary Army] [Vegapunk] teammates HP Up Lv.4, SPD Up Lv.4, DEF Up Lv.4; \"Jewelry Bonney\" teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.4; if \"Jewelry Bonney\" is on the team, self ATK Up Lv.8, Special CT Speed Up Lv.2; if 3 or more [Revolutionary Army] [Vegapunk] characters are on the team, self HP Up Lv.4, DEF Up Lv.4",
-            "[Revolutionary Army] [Vegapunk] teammates HP Up Lv.5, SPD Up Lv.5, DEF Up Lv.5; \"Jewelry Bonney\" teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.5; if \"Jewelry Bonney\" is on the team, self ATK Up Lv.9, Special CT Speed Up Lv.2; if 3 or more [Revolutionary Army] [Vegapunk] characters are on the team, self HP Up Lv.5, DEF Up Lv.5",
-            "[Revolutionary Army] [Vegapunk] teammates HP Up Lv.6, SPD Up Lv.6, DEF Up Lv.6; \"Jewelry Bonney\" teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.6; if \"Jewelry Bonney\" is on the team, self ATK Up Lv.10, Special CT Speed Up Lv.3; if 3 or more [Revolutionary Army] [Vegapunk] characters are on the team, self HP Up Lv.6, DEF Up Lv.6"
-        ],
-        festSpecial: [
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.1 (11 s); targets [Revolutionary Army] [Vegapunk] teammates for ATK Up Lv.1 (11 s); targets 3 enemies for ATK x 3.1 damage; if \"Jewelry Bonney\" is on the team, targets 1 [World Government] enemy ignoring DEF for ATK x 1 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.1 (12 s); targets [Revolutionary Army] [Vegapunk] teammates for ATK Up Lv.1 (12 s); targets 3 enemies for ATK x 3.2 damage; if \"Jewelry Bonney\" is on the team, targets 1 [World Government] enemy ignoring DEF for ATK x 1.2 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.2 (13 s); targets [Revolutionary Army] [Vegapunk] teammates for ATK Up Lv.2 (13 s); targets 3 enemies for ATK x 3.3 damage; if \"Jewelry Bonney\" is on the team, targets 1 [World Government] enemy ignoring DEF for ATK x 1.4 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.2 (14 s); targets [Revolutionary Army] [Vegapunk] teammates for ATK Up Lv.2 (14 s); targets 3 enemies for ATK x 3.4 damage; if \"Jewelry Bonney\" is on the team, targets 1 [World Government] enemy ignoring DEF for ATK x 1.6 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.3 (15 s); targets [Revolutionary Army] [Vegapunk] teammates for ATK Up Lv.3 (15 s); targets 3 enemies for ATK x 3.5 damage; if \"Jewelry Bonney\" is on the team, targets 1 [World Government] enemy ignoring DEF for ATK x 1.8 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.3 (16 s); targets [Revolutionary Army] [Vegapunk] teammates for ATK Up Lv.3 (16 s); targets 3 enemies for ATK x 3.6 damage; if \"Jewelry Bonney\" is on the team, targets 1 [World Government] enemy ignoring DEF for ATK x 2 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.4 (17 s); targets [Revolutionary Army] [Vegapunk] teammates for ATK Up Lv.4 (17 s); targets 3 enemies for ATK x 3.7 damage; if \"Jewelry Bonney\" is on the team, targets 1 [World Government] enemy ignoring DEF for ATK x 2.2 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.4 (18 s); targets [Revolutionary Army] [Vegapunk] teammates for ATK Up Lv.4 (18 s); targets 3 enemies for ATK x 3.8 damage; if \"Jewelry Bonney\" is on the team, targets 1 [World Government] enemy ignoring DEF for ATK x 2.4 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.5 (19 s); targets [Revolutionary Army] [Vegapunk] teammates for ATK Up Lv.5 (19 s); targets 3 enemies for ATK x 3.9 damage; if \"Jewelry Bonney\" is on the team, targets 1 [World Government] enemy ignoring DEF for ATK x 2.6 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets self for DEF Up Lv.5 (20 s); targets [Revolutionary Army] [Vegapunk] teammates for ATK Up Lv.5 (20 s); targets 3 enemies for ATK x 4 damage; if \"Jewelry Bonney\" is on the team, targets 1 [World Government] enemy ignoring DEF for ATK x 3 damage"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
-                festGPSpecial: "Targets all enemies for 500 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 625 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 750 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 875 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 1000 damage",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When 2 teammates are defeated"
+        }
     },
     4434: {//Bonney
-        captain: "Boosts Fighter and Powerhouse characters' ATK by 3.75x, boosts [STR] characters' HP by 1.3x, and allows crew to obtain [RCV] slots with PERFECT taps",
-        special: "Reduces crew's ATK Down duration by 6 turns, removes all Poison, reduces damage taken by 95% for 1 turn, changes right column slots (including [BLOCK] slots) to [TND], changes left column slots (including [BLOCK] slots) to [RCV], and boosts the type effects of normal attacks for Fighter and Powerhouse characters by 2.25x for 1 turn. If crew has Damage Nullification buff with a duration of 2 turns or more when Special is launched, reduces its duration by 2 turns but applies Weakened status (increase damage taken by 1.4x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken) to all enemies for 1 turn. If crew has Threshold Damage Reduction with a duration of 3 turns or longer or ATK boost based on damage reduction effect with a duration of 3 turns or longer when Special is launched, further increases all enemies' increase damage taken effect by +0.5, applies increase damage taken status to all enemies by 1.75x for 1 turn, and further increases crew's multiplicative chain multiplier boost (except additive boost) by +0.5",
+        captain: "Boosts ATK of Fighter and Powerhouse characters by 3.75x, boosts HP of [STR] characters by 1.3x, and makes PERFECTs consume [RCV] orbs.",
+        special: "Reduces ATK Down duration by 6 turns, removes Poison duration completely, reduces damage received by 95% for 1 turn, changes orbs, including [BLOCK] orbs, of right column characters into [TND] orbs, changes orbs, including [BLOCK] orbs, of left column characters into [RCV] orbs, and boosts the Color Affinity of Fighter and Powerhouse characters by 2.25x for 1 turn. If your crew has 2+ turns of Damage Nullification when the special is activated, decreases duration of any Damage Nullification buffs by 2 turns, and inflicts all enemies with Weaken by 1.4x, by 1.68x if enemies are inflicted with Increase Damage Taken, for 1 turn. If your crew has 3+ turns of Threshold Damage Reduction or Crew Damage Reduction to ATK when the special is activated, increases boost effects of Chain Multiplication buffs and enemies' Increase Damage Taken debuffs applied by +0.5x, and inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn.",
         specialName: "Tears for Her Kind Father",
         sailor: {
-            base: "Boosts Fighter and Powerhouse characters' base stats by 70",
-            level1: "Makes Fighter and Powerhouse characters' [RCV][TND] slots have matching slot effects"
+            base: "Boosts base ATK, HP and RCV of Fighter and Powerhouse characters by 70.",
+            level1: "Makes [RCV] and [TND] orbs beneficial for Fighter and Powerhouse characters."
         },
         support: [
             {
                 Characters: "Bartholomew Kuma",
                 description: [
-                    "Once per quest, if inflicted with ATK Down status from the enemy, applies -3% Powerhouse Resistance to all enemies for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, applies -4% Powerhouse Resistance to all enemies for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, applies -5% Powerhouse Resistance to all enemies for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn, and applies -5% Powerhouse Resistance to all enemies for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 2 turns, and applies -5% Powerhouse Resistance to all enemies for 1 turn at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces enemies' Powerhouse Resistance by -3% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces enemies' Powerhouse Resistance by -4% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces enemies' Powerhouse Resistance by -5% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn, and reduces enemies' Powerhouse Resistance by -5% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 2 turns, and reduces enemies' Powerhouse Resistance by -5% for 1 turn."
                 ]
             }
         ],
@@ -174039,34 +173799,25 @@ window.details = {
                     "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4435: {//Sanji
-        captain: "Boosts [QCK] characters' ATK by 3.75x, boosts Fighter and Powerhouse characters' HP by 1.3x, and allows crew to obtain [RCV] slots with PERFECT taps",
-        special: "Reduces the duration of all enemy barriers by 1 turn, reduces all enemies' DEF Up duration by 6 turns, deals 80x character's ATK in [QCK] damage to one enemy, and boosts the chain multiplier by +1.1 for 1 turn. If 3 or more [Straw Hat Pirates] [Child] characters are on the crew, reduces bottom-row characters' Special charge time by 2 turns, and boosts [STR] and [QCK] characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 1 turn. If crew's HP is 30% or below when Special is launched, changes crew's [BLOCK] slots to [RCV], and further increases crew's additive chain multiplier boost (except multiplicative boost) by +0.4 (effect applies to additive chain multiplier boost from this Special)",
+        captain: "Boosts ATK of [QCK] characters by 3.75x, boosts HP of Fighter and Powerhouse characters by 1.3x, and makes PERFECTs consume [RCV] orbs.",
+        special: "Reduces enemies' Barrier duration by 1 turn, reduces enemies' Increased Defense duration by 6 turns, deals 80x character's ATK in [QCK] damage to one enemy, and adds 1.1x to chain multiplier for 1 turn. If your crew has 3+ [Straw Hat Pirates] or [Child] characters, reduces Special Cooldown of bottom row characters by 2 turns, and boosts Crew Damage Reduction to ATK of [STR] and [QCK] characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn. If HP is below 30% when the special is activated, changes [BLOCK] orbs into [RCV] orbs, and increases boost effects of Chain Addition buffs by +0.4x, including effects activated in the same ability.",
         specialName: "Repelling the Laws of Physics",
         sailor: {
-            base: "Boosts [QCK] characters' base stats by 70",
-            level1: "Makes [QCK] characters' [PSY][RCV] slots have matching slot effects"
+            base: "Boosts base ATK, HP and RCV of [QCK] characters by 70.",
+            level1: "Makes [PSY] and [RCV] orbs beneficial for [QCK] characters."
         },
         support: [
             {
                 Characters: "[QCK] characters",
                 description: [
-                    "Adds 2% of character's base HP to supported character's base HP",
-                    "Adds 4% of character's base HP to supported character's base HP",
-                    "Adds 6% of character's base HP to supported character's base HP",
-                    "Adds 8% of character's base HP to supported character's base HP",
-                    "Adds 10% of character's base HP to supported character's base HP"
+                    "Adds 2% of this character's base HP to the supported character's base HP.",
+                    "Adds 4% of this character's base HP to the supported character's base HP.",
+                    "Adds 6% of this character's base HP to the supported character's base HP.",
+                    "Adds 8% of this character's base HP to the supported character's base HP.",
+                    "Adds 10% of this character's base HP to the supported character's base HP."
                 ]
             }
         ],
@@ -174108,16 +173859,7 @@ window.details = {
                     "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
