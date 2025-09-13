@@ -151,8 +151,8 @@ class UserService {
         unitDetail.gpStyle = isStandard ? 'standard' : 'unique';
       }
       unitDetail.lvl10Cooldown = unit.special[9].cooldown;
-      //unitDetail.thumbnailUrl = window.Utils.getThumbnailUrl(Math.floor(unit.id)).replace('..', 'https://optc-db.github.io/');
-      unitDetail.thumbnailUrl = 'https://optc-db.github.io/' + window.Utils.getThumbnailUrl(Math.floor(unit.id));
+      //unitDetail.thumbnailUrl = window.Utils.getThumbnailUrl(Math.floor(unit.id)).replace('..', 'https://2shankz.github.io/optc-db.github.io/');
+      unitDetail.thumbnailUrl = 'https://2shankz.github.io/optc-db.github.io/' + window.Utils.getThumbnailUrl(Math.floor(unit.id));
 
       // merge of all props between unit and unitDetail
       this.rumbleUnits.push({
