@@ -154,6 +154,14 @@ export class EffectPipe implements PipeTransform {
         }
         e += ` ${this.arrayToString(effect.attributes)} debuffs`;
         break;
+      case: 'evade':
+        if (effect.chance) {
+          e += `${effect.chance}% chance to evade`;
+        } else {
+          e += `evades`;
+        }
+        e += ` ${this.arrayToString(effect.attributes)} effects`;
+        break;
       default:
         e += 'UNKNOWN EFFECT ' + JSON.stringify(effect);
         break;

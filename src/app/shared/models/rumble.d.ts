@@ -52,7 +52,8 @@ export type EffectEnum =
   | "recharge"
   | "boon"
   | "penalty"
-  | "cleanse";
+  | "cleanse"
+  | "evade";
 export type AttackEffectType = "atk" | "time" | "cut" | "fixed" | "atkbase" | "random";
 export type RechargeEffectType =  "Special CT" | "RCV" | "percentage" | "fixed";
 export type Direction = "forward" | "radial" | "sideways";
