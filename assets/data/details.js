@@ -138056,11 +138056,11 @@ window.details = {
             {
                 Characters: "Yamato",
                 description: [
-                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 20%, locks the chain multiplier to 1.2x for 1 turn and changes the orb of the supported character into a [RCV] orb.",
-                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 20%, locks the chain multiplier to 1.5x for 1 turn and changes the orb of the supported character into a [RCV] orb.",
-                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 20%, locks the chain multiplier to 2x for 1 turn and changes the orb of the supported character into a [RCV] orb.",
-                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 20%, locks the chain multiplier to 2.5x for 1 turn and changes the orb of the supported character into a [RCV] orb.",
-                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 20%, locks the chain multiplier to 3x for 1 turn and changes the orb of the supported character into a [RCV] orb."
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 20%, locks the chain multiplier at 1.2x for 1 turn, and changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 20%, locks the chain multiplier at 1.5x for 1 turn, and changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 20%, locks the chain multiplier at 2x for 1 turn, and changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 20%, locks the chain multiplier at 2.5x for 1 turn, and changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when you reach the final stage, reduces crew's current HP by 20%, locks the chain multiplier at 3x for 1 turn, and changes the orb of the supported character into a [RCV] orb."
                 ]
             }
         ]
