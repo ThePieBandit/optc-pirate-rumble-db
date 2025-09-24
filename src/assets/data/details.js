@@ -156493,7 +156493,7 @@ window.details = {
 		swap: {
 			base: "Deals 20x character's ATK in Typeless damage to all enemies, reduces the defense of all enemies by 50% for 1 turn, and boosts Color Affinity of Driven and Fighter characters by 1.5x for 1 turn.",
 			super: "Reduces Special Cooldown of Driven and Fighter characters by 1 turn, reduces the defense of all enemies by 100% for 1 turn, deals 60x character's ATK in Typeless Fixed True damage to all enemies, and boosts Color Affinity of Driven and Fighter characters by 2.25x for 1 turn.",
-			superTurns: "5"
+			superTurns: 5
 		},
 		potential: [
 			{
@@ -160117,7 +160117,7 @@ window.details = {
 		swap: {
 			base: "Changes the orb of this character into a Matching orb, boosts Orb Effects of all characters by 1.5x for 1 turn, and recovers 5% of crew's MAX HP.",
 			super: "Changes the orb, including [BLOCK] orbs, of this character into a [WANO] orb, boosts Orb Effects of all characters by 2x, allowing override, for 1 turn, recovers 15% of crew's MAX HP, and becomes Carrot & Dogstorm & Cat Viper for 1 turn.",
-			superTurns: "5"
+			superTurns: 5
 		},
 		superSpecial: "Reduces enemies' damage received by 50% for 6 turns, boosts Super Class Effects of Slasher characters to 1.5x for 1 turn, and transforms Slasher characters into Super Slasher characters.",
 		superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap effect and your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Kozuki Momonosuke, Kozuki Oden, Kin'emon, Denjiro (Kyoshiro), Raizo, Okiku, Ashura Doji (Shutenmaru), Kawamatsu, Izo, Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Wanda, Yamato",
@@ -161032,7 +161032,7 @@ window.details = {
 		swap: {
 			base: "Removes Paralysis, Despair and Slot Bind duration completely on this character, changes orb, including [BLOCK] orb, of this character into a [SEMLA] orb, and recovers 25% of damage taken from enemies on the stage when entering a new stage for 1 stage.",
 			super: "Removes Paralysis, Despair and Slot Bind duration completely on this character, reduces Paralysis and Despair duration by 3 turns, changes orb, including [BLOCK] orb, of this character into a [SEMLA] orb, changes orbs, including [BLOCK] orbs, of adjacent characters into [RAINBOW] orbs, and recovers 40% of damage taken from enemies on the stage when entering a new stage for 1 stage.",
-			superTurns: "5"
+			superTurns: 5
 		},
 		potential: [
 			{
@@ -161270,7 +161270,7 @@ window.details = {
 		swap: {
 			base: "Removes Special Bind duration completely on this character, makes PERFECTs easier to hit for 1 turn, changes orbs of adjacent characters into Matching orbs, recovers 1,500 HP, and boosts Chain Multiplier Growth Rate by 1.25x for 1 turn.",
 			super: "Removes Special Bind duration completely on this character, makes PERFECTs easier to hit for 1 turn, changes orbs, including [BLOCK] orbs, of adjacent characters into Matching orbs, recovers 15,000 HP, and boosts Chain Multiplier Growth Rate by 1.5x for 1 turn.",
-			superTurns: "5"
+			superTurns: 5
 		},
 		potential: [
 			{
@@ -161727,7 +161727,7 @@ window.details = {
 		swap: {
 			base: "Removes Paralysis and Slot Bind duration completely on this character, and increases Chain Tap Timing Bonus of Powerhouse and Fighter characters to +0.1x-0.4x, allowing override, for 1 turn depending on Tap Timing.",
 			super: "Removes Paralysis and Slot Bind duration completely on this character, increases Chain Tap Timing Bonus of Powerhouse and Fighter characters to +0.3x-0.7x, allowing override, for 1 turn depending on Tap Timing, and becomes Whitebeard & Ace for 3 turns.",
-			superTurns: "8"
+			superTurns: 8
 		},
 		superSpecial: "Boosts Base ATK of Powerhouse and Fighter characters by 1,250 for 1 turn, transforms Powerhouse characters into Super Powerhouse characters, and transforms Fighter characters into Super Fighter characters.",
 		superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Sabo, Monkey D. Garp, Curly Dadan, Marco, Jozu, Thatch, Vista, Blamenco, Rakuyo, Namule, Blenheim, Curiel, Kingdew, Haruta, Atmos, Speed Jil, Fossa, Izo, Kozuki Oden, Jinbe, Sir Crocodile (Mr. 0), Boa Hancock, Emporio Ivankov, Inazuma, Buggy, Daz Bonez (Mr. 1), Galdino (Mr. 3)",
@@ -162947,7 +162947,7 @@ window.details = {
 		swap: {
 			base: "Removes Despair duration completely on this character, changes orb, including [BLOCK] orb, of this character into a [BOMB] orb, changes orbs, including [BLOCK] orbs, of adjacent characters into [BOMB] orbs, and reduces enemies' [STR] and [DEX] Resistance by -15% for 1 turn.",
 			super: "Removes Despair duration completely on this character, changes orb, including [BLOCK] orb, of this character into a [BOMB] orb, changes orbs, including [BLOCK] orbs, of adjacent characters into [BOMB] orbs, increases duration of any ATK Up and Chain Lock buffs by 1 turn, reduces enemies' [STR] and [DEX] Resistance by -30% for 1 turn, and becomes Usopp & Dr. Vegapunk \"Lilith the Evil\" for 3 turns.",
-			superTurns: "6"
+			superTurns: 6
 		},
 		superSpecial: "Enables ATK Up buffs to be enhanced up to 2 times, increases boost effects of ATK Up buffs by 1.2x (up to 4x), and transforms Shooter characters into Super Shooter characters.",
 		superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Shaka the Good\", Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney",
@@ -163052,7 +163052,7 @@ window.details = {
 		swap: {
 			base: "Reduces enemies' Fighter and Cerebral Resistance by -15% for 1 turn, and reduces Bind duration by 1 turn.",
 			super: "Reduces enemies' Fighter and Cerebral Resistance by -30% for 1 turn, reduces Bind duration by 4 turns, increases duration of any Orb Amplification and Chain Addition buffs by 1 turn, and becomes Nami & Sanji for 3 turns.",
-			superTurns: "6"
+			superTurns: 6
 		},
 		superSpecial: "Enables Orb Amplification buffs to be enhanced up to 2 times, increases boost effects of Orb Amplification buffs by 1.2x (up to 4x), and transforms Fighter characters into Super Fighter characters.",
 		superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk (Stella), Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Shaka the Good\", Monkey D. Luffy, Roronoa Zoro, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney",
@@ -163963,7 +163963,7 @@ window.details = {
 		swap: {
 			base: "Reduces enemies' Fighter and Cerebral Resistance by -15% for 1 turn, and reduces damage received by 25% for 1 turn.",
 			super: "Reduces enemies' Fighter and Cerebral Resistance by -30% for 1 turn, reduces damage received by 80% for 1 turn, increases duration of any Base ATK Boosting and Chain Multiplication buffs by 1 turn, and becomes Chopper & Robin for 3 turns.",
-			superTurns: "6"
+			superTurns: 6
 		},
 		superSpecial: "Enables Base ATK buffs to be enhanced up to 2 times, increases boost effects of Base ATK Boost buffs by 1.2x (up to 4,000), and transforms Cerebral characters into Super Cerebral characters.",
 		superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Usopp, Brook, Jinbe, Franky, Dr. Vegapunk (Stella), Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Jewelry Bonney",
@@ -164346,7 +164346,7 @@ window.details = {
 		swap: {
 			base: "Reduces the defense of all enemies by 50% for 1 turn, reduces ATK Down duration by 1 turn, and boosts ATK of Fighter, Shooter, Free Spirit and Slasher characters by 1.5x, allowing override, for 1 turn.",
 			super: "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, reduces ATK Down duration by 1 turn, boosts ATK of Fighter, Shooter, Free Spirit and Slasher characters by 1.75x, allowing override, for 1 turn, boosts Orb Effects of Fighter, Shooter, Free Spirit and Slasher characters by 1.75x, allowing override, for 1 turn, increases duration of any Status ATK boosting buffs by 2 turns, and becomes Zoro & Kaku for 3 turns.",
-			superTurns: "6"
+			superTurns: 6
 		},
 		superSpecial: "Adds 70x character's ATK as Additional Typeless Damage for 5 turns, enables Chain Lock buffs to be enhanced up to 2 times, increases boost effects of Chain Lock buffs by +0.5x, transforms Slasher characters into Super Slasher characters, and transforms Shooter characters into Super Shooter characters.",
 		superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Spandam, Rob Lucci, Jabra, Blueno, Kumadori, Fukuro, Kalifa, Stussy, Jewelry Bonney, Bartholomew Kuma",
@@ -166513,7 +166513,7 @@ window.details = {
 		swap: {
 			base: "Removes Slot Bind duration completely on this character, and changes orbs of adjacent characters into [TND] orbs.",
 			super: "Removes Slot Bind duration completely on this character, changes orb of this character into a [RCV] orb, changes orbs, including [BLOCK] orbs, of adjacent characters into [TND] orbs, inflicts all enemies with Weaken by 1.5x, by 1.8x if enemies are inflicted with Increase Damage Taken, for 1 turn, and becomes Sabo & Bonney for 3 turns.",
-			superTurns: "8"
+			superTurns: 8
 		},
 		superSpecial: "Enables Chain Addition buffs to be enhanced up to 2 times, increases boost effects of ATK Up buffs by 1.2x (up to 4x), and transforms Cerebral characters into Super Cerebral characters.",
 		superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Hack, Inazuma, Koala, Bartholomew Kuma, Dr. Vegapunk (Stella), Nefeltari Cobra, Monkey D. Luffy, Portgas D. Ace",
@@ -166680,7 +166680,7 @@ window.details = {
 		swap: {
 			base: "Changes [STR] and [DEX] orbs of Cerebral and Striker characters into Matching orbs, recovers 3,000 HP at the end of each turn for 1 turn, and locks the chain multiplier at 2.5x for 1 turn.",
 			super: "Changes [STR], [DEX], [QCK], [PSY], [INT] and [BLOCK] orbs of Cerebral and Striker characters into Matching orbs, recovers 10,000 HP at the end of each turn for 1 turn, and sets Chain Boundaries to 2.75x and 35.0x for 1 turn.",
-			superTurns: "8"
+			superTurns: 8
 		},
 		limit: [
 			{ description: "Boosts base HP by 30" },
@@ -170124,7 +170124,7 @@ window.details = {
         swap: {
 			base: "Removes Special Bind, Paralysis and Despair duration completely on this character, changes orb of this character into a Matching orb, changes orbs of adjacent characters into [RCV] orbs, and boosts Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
 			super: "Removes Special Bind, Paralysis and Despair duration completely on this character, changes orb, including [BLOCK] orb, of this character into a Matching orb, changes orbs, including [BLOCK] orbs, of adjacent characters into [RCV] orbs, and boosts Color Affinity of Free Spirit and Cerebral characters by 2.5x for 2 turns.",
-			superTurns: "8"
+			superTurns: 8
 		},
         limit: [
             { description: "Boosts base HP by 20" },
@@ -171262,7 +171262,7 @@ window.details = {
         swap: {
             base: "Changes the orb of this character into a Matching orb, recovers 1,500 HP, removes Special Bind duration completely on this character, and inflicts enemies with Negative for 1 turn. If there are 2+ enemies on the stage, ignores Debuff Protection and inflicts enemies with Negative for 1 turn.",
             super: "Changes the orb of this character into a Matching orb, recovers 20,000 HP, removes Special Bind duration completely on this character, reduces Special Cooldown of middle left character by 3 turns, increases duration of any ATK Up and Orb Amplification buffs by 1 turn, and ignores Debuff Protection and inflicts enemies with Negative for 1 turn.",
-            superTurns: "7"
+            superTurns: 7
         },
         limit: [
             { description: "Boosts base HP by 10" },
@@ -173630,7 +173630,7 @@ window.details = {
     },
     4433: {//Kuma
         captain: "Reduces Special Cooldown of [Child] and [Paramythia-type] characters by 7 turns at the start of the fight, boosts ATK of Fighter and Powerhouse characters by 5.25x, boosts HP of Fighter and Powerhouse characters by 1.4x, boosts base HP of [Child] and [Paramythia-type] characters by 1,500, makes [QCK] and [RCV] orbs beneficial for Fighter and Powerhouse characters, protects from defeat as long as HP is above 60%, and launches the following effect at start of quest: reduces any damage received above 10,000 HP by 65% for 10 turns.",
-        special: "Deals 290x character's ATK in Typeless Fixed True damage to one enemy, and reduces enemies' Threshold Damage Reduction duration by 7 turns. If your crew has ATK Up and Chain Lock when the special is activated, boosts Base ATK of [STR], Free Spirit and Powerhouse characters by 1,750 for 2 turns. If your crew has ATK Up when the special is activated, sets Chain Boundaries to 3.25x and 30.0x for 2 turns; boosts ATK of [STR], Free Spirit and Powerhouse characters by 3.25x for 2 turn otherwise. If your crew has Jewelry Bonney as a member or supporting this character, reduces damage received from [INT] enemies by 100% for 2 turns, and boosts Final Tap ATK of all characters by 50%. If your crew has 3+ [Worst Generation], [Revolutionary Army] or [Paramythia-type] characters, increases duration of any ATK Up, Base ATK Boost and Chain Lock buffs by 1 turn, including effects activated in the same ability.",
+        special: "Deals 290x character's ATK in Typeless Fixed True damage to one enemy, and reduces enemies' Threshold Damage Reduction duration by 7 turns. If your crew has ATK Up and Chain Lock when the special is activated, boosts Base ATK of [STR], Free Spirit and Powerhouse characters by 1,750 for 2 turns. If your crew has ATK Up when the special is activated, sets Chain Boundaries to 3.25x and 30.0x for 2 turns; boosts ATK of [STR], Free Spirit and Powerhouse characters by 3.25x for 2 turns otherwise. If your crew has Jewelry Bonney as a member or supporting this character, reduces damage received from [INT] enemies by 100% for 2 turns, and boosts Final Tap ATK of all characters by 50%. If your crew has 3+ [Worst Generation], [Revolutionary Army] or [Paramythia-type] characters, increases duration of any ATK Up, Base ATK Boost and Chain Lock buffs by 1 turn, including effects activated in the same ability.",
         specialName: "Science-Defying Strike",
         sailor: {
             base: "Boosts base HP of Free Spirit and Powerhouse characters by 1.1x.",
@@ -173863,23 +173863,24 @@ window.details = {
     },
     4436: {//Dorry & Broggy
         captain: {
-            character1: "Reduces Powerhouse characters' Special charge time by 2 turns at start of quest, boosts Powerhouse characters' ATK by approximately 5x when slots match (4.5x otherwise), HP by 1.5x, makes their [INT][RCV][TND] slots have matching slot effects, and deals 150x character's ATK in [QCK] damage to all enemies at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Giant] [Straw Hat Pirates] [Four Emperors] characters are on the crew, boosts Powerhouse characters' ATK by a further 1.1x. If 3 or more [Giant] characters are on the crew and crew applies multiplicative chain multiplier boost (except additive boosts), or another status effect is applied to the crew, all enemies, or an individual enemy on the same turn after the required effect was applied, launches \"Advancing Giant Pirate Crew\" at start of crew's next turn (up to 2 times per quest; Specials launched due to Captain Ability will not reduce the character's Special charge time)",
-            character2: "Reduces Powerhouse characters' Special charge time by 2 turns at start of quest, boosts Powerhouse characters' ATK by 4.75x, HP by 1.5x, makes their [PSY][RCV][TND] slots have matching slot effects, and deals 150x character's ATK in [QCK] damage to all enemies at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Giant] [Straw Hat Pirates] [Four Emperors] characters are on the crew, boosts Powerhouse characters' ATK by a further 1.1x. If 3 or more [Giant] characters are on the crew and crew applies multiplicative chain multiplier boost (except additive boosts), or another status effect is applied to the crew, all enemies, or an individual enemy on the same turn after the required effect was applied, launches \"Advancing Giant Pirate Crew\" at start of crew's next turn (up to 2 times per quest; Specials launched due to Captain Ability will not reduce the character's Special charge time)",
-            combined: "Reduces Powerhouse characters' Special charge time by 2 turns at start of quest, boosts Powerhouse characters' ATK by 5.25x, HP by 1.5x, makes their [QCK][PSY][INT][RCV][TND] slots have matching slot effects, and deals 300x character's ATK in [QCK] damage to all enemies at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Giant] [Straw Hat Pirates] [Four Emperors] characters are on the crew, boosts Powerhouse characters' ATK by a further 1.1x. If 3 or more [Giant] characters are on the crew and crew applies multiplicative chain multiplier boost (except additive boosts), or another status effect is applied to the crew, all enemies, or an individual enemy on the same turn after the required effect was applied, launches \"Advancing Giant Pirate Crew\" at start of crew's next turn (up to 2 times per quest; Specials launched due to Captain Ability will not reduce the character's Special charge time)"
+            character1: "Reduces Special Cooldown of Powerhouse characters by 2 turns at the start of the fight, boosts ATK of Powerhouse characters by 4.5x, by 5x instead if they have a beneficial orb, boosts HP of Powerhouse characters by 1.5x, makes [INT], [RCV] and [TND] orbs beneficial for Powerhouse characters, and deals 150x character's ATK in [QCK] damage to all enemies at the end of each turn. If your crew has 3+ [Giant], [Straw Hat Pirates] or [Four Emperors] characters, boosts ATK of Powerhouse characters by 4.95x, by 5.5x instead if they have a beneficial orb. If your crew has 3+ [Giant] characters and you gain a Chain Multiplier Growth Rate buff, up to 2 times per adventure, activates \"Advancing Giant Pirate Crew\" in the following turn.",
+            character2: "Reduces Special Cooldown of Powerhouse characters by 2 turns at the start of the fight, boosts ATK of Powerhouse characters by 4.75x, boosts HP of Powerhouse characters by 1.5x, makes [PSY], [RCV] and [TND] orbs beneficial for Powerhouse characters, and deals 150x character's ATK in [QCK] damage to all enemies at the end of each turn. If your crew has 3+ [Giant], [Straw Hat Pirates] or [Four Emperors] characters, boosts ATK of Powerhouse characters by 5.225x instead. If your crew has 3+ [Giant] characters and you gain a Chain Multiplier Growth Rate buff, up to 2 times per adventure, activates \"Advancing Giant Pirate Crew\" in the following turn.",
+            combined: "Reduces Special Cooldown of Powerhouse characters by 2 turns at the start of the fight, boosts ATK of Powerhouse characters by 5.25x, boosts HP of Powerhouse characters by 1.5x, makes [QCK], [PSY], [INT], [RCV] and [TND] orbs beneficial for Powerhouse characters, and deals 300x character's ATK in [QCK] damage to all enemies at the end of each turn. If your crew has 3+ [Giant], [Straw Hat Pirates] or [Four Emperors] characters, boosts ATK of Powerhouse characters by 5.775x instead. If your crew has 3+ [Giant] characters and you gain a Chain Multiplier Growth Rate buff, up to 2 times per adventure, activates \"Advancing Giant Pirate Crew\" in the following turn."
         },
-        special: "Cuts crew's HP by 80%, but reduces Powerhouse and Slasher characters' Special charge time by 3 turns, reduces the duration of all enemy barriers by 3 turns, and reduces damage taken by 90% for 1 turn. If 4 or more [Giant] [Straw Hat Pirates] [Four Emperors] characters are on the crew, boosts Powerhouse characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 90% damage reduction, boosts ATK by 1.9x) for 1 turn (halves effect otherwise; e.g. if crew has 90% damage reduction, boosts ATK by 1.45x). When Special launch status is at (1), activates HP Guard of 90% effect for 1 turn, changes character's slot and adjacent slots (including [BLOCK] slots) to character's own type, boosts the chain multiplier by 1.5x for 1 turn, then after that, if Captain is a Powerhouse or Slasher class, becomes \"Dorry & Broggy\" for 1 turn, and applies increase damage taken status to all enemies by 1.75x for 1 turn ignoring immunity to status effects",
+        special: "Reduces crew's current HP by 80%, reduces Special Cooldown of Powerhouse and Slasher characters by 3 turns, reduces enemies' Barrier duration by 3 turns, and reduces damage received by 90% for 1 turn. If your crew has 4+ [Giant], [Straw Hat Pirates] or [Four Emperors] characters, boosts Crew Damage Reduction to ATK of Powerhouse characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn; boosts Crew Damage Reduction to ATK of Powerhouse characters by 1x-1.5x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn otherwise. If Special Counter of this character is 1, activates HP Guard of 90% effect for 1 turn, changes the orbs, including [BLOCK] orbs, of this and adjacent characters into Matching orbs, and boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your Captain is a Powerhouse or Slasher character, becomes Dorry & Broggy for 1 turn, and ignores debuff protection and inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn.",
         specialName: "Advancing Giant Pirate Crew",
         sailor: {
-            character1: "Reduces character's Special Reverse by 3 turns",
-            character2: "Reduces character's Special Reverse by 3 turns",
-            combined: "Reduces character's Special Reverse by 3 turns",
-            level1: "Character cannot be blown away by attack"
+            character1: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            character2: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            combined: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "This character cannot be Blown Away."
         },
-        superSpecialCriteria: "When character becomes \"Dorry & Broggy\" and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Nefeltari Vivi, Karoo, Oimo, Kashii, Shanks",
-        superSpecial: "Sets charcter's Special launch status to (1), reduces all enemies' damage nullification duration by 2 turns, changes bottom-row characters' slots to [RCV], boosts Powerhouse characters' ATK by 2.25x for 3 turns, and changes Powerhouse characters to Super Powerhouse",
+        superSpecialCriteria: "This character must be captain. When this character becomes Dorry & Broggy and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Nefeltari Vivi, Karoo, Oimo, Kashii, Shanks",
+        superSpecial: "Sets Special Counter of this character to 1, reduces enemies' Damage Nullification duration by 2 turns, changes the orbs of bottom row characters into [RCV] orbs, boosts ATK of Powerhouse characters by 2.25x for 3 turns, and transforms Powerhouse character into Super Powerhouse characters.",
         swap: {
-            base: "Changes character's slot (including [BLOCK] slot) to character's own type, and boosts the chain multiplier by 1.2x for 1 turn (effect can be overwritten with other chain multiplier growth rate boost effects)",
-            super: "Activates HP Guard of 90% effect for 1 turn, changes character's slot and adjacent slots (including [BLOCK] slots) to character's own type, and boosts the chain multiplier by 1.5x for 1 turn"
+            base: "Changes the orb, including [BLOCK] orb, of this character into a Matching orb, and boosts Chain Multiplier Growth Rate by 1.2x, allowing override, for 1 turn.",
+            super: "Activates HP Guard of 90% effect for 1 turn, changes the orbs, including [BLOCK] orbs, of this and adjacent characters into Matching orbs, and boosts Chain Multiplier Growth Rate by 1.5x for 1 turn.",
+            superTurns: 9
         },
         limit: [
             { description: "Boosts base HP by 20" },
@@ -173954,115 +173955,25 @@ window.details = {
                     "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
                 ]
             }
-        ],
-        festStats: {
-            def: 188,
-            spd: 160,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from Fighter and Cerebral by 30%",
-        festAbility: [
-            "Slasher/Powerhouse class teammates ATK Up Lv.2, HP Up Lv.2, SPD Up Lv.2; when remaining time is more than 40 s, self DEF Up Lv.2, Special CT Speed Up Lv.1",
-            "Slasher/Powerhouse class teammates ATK Up Lv.3, HP Up Lv.3, SPD Up Lv.3; when remaining time is more than 40 s, self DEF Up Lv.3, Special CT Speed Up Lv.2",
-            "Slasher/Powerhouse class teammates ATK Up Lv.4, HP Up Lv.4, SPD Up Lv.4; when remaining time is more than 40 s, self DEF Up Lv.4, Special CT Speed Up Lv.3",
-            "Slasher/Powerhouse class teammates ATK Up Lv.5, HP Up Lv.5, SPD Up Lv.5; when remaining time is more than 40 s, self DEF Up Lv.5, Special CT Speed Up Lv.4",
-            "Slasher/Powerhouse class teammates ATK Up Lv.6, HP Up Lv.6, SPD Up Lv.6; when remaining time is more than 40 s, self DEF Up Lv.6, Special CT Speed Up Lv.5"
-        ],
-        festSpecial: [
-            {
-                cooldown: 35,
-                description: "Targets Slasher/Powerhouse class teammates for ATK Up Lv.1 (11 s); if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Giant] characters are on the team, targets team for 70% chance to remove ATK Down; targets all enemies for ATK x 2 damage; when remaining time is 40 s or less, ATK x 1 damage"
-            },
-            {
-                cooldown: 35,
-                description: "Targets Slasher/Powerhouse class teammates for ATK Up Lv.1 (12 s); if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Giant] characters are on the team, targets team for 73% chance to remove ATK Down; targets all enemies for ATK x 2.3 damage; when remaining time is 40 s or less, ATK x 1.2 damage"
-            },
-            {
-                cooldown: 35,
-                description: "Targets Slasher/Powerhouse class teammates for ATK Up Lv.2 (13 s); if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Giant] characters are on the team, targets team for 76% chance to remove ATK Down; targets all enemies for ATK x 2.6 damage; when remaining time is 40 s or less, ATK x 1.4 damage"
-            },
-            {
-                cooldown: 35,
-                description: "Targets Slasher/Powerhouse class teammates for ATK Up Lv.2 (14 s); if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Giant] characters are on the team, targets team for 79% chance to remove ATK Down; targets all enemies for ATK x 2.9 damage; when remaining time is 40 s or less, ATK x 1.6 damage"
-            },
-            {
-                cooldown: 35,
-                description: "Targets Slasher/Powerhouse class teammates for ATK Up Lv.3 (15 s); if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Giant] characters are on the team, targets team for 82% chance to remove ATK Down; targets all enemies for ATK x 3.2 damage; when remaining time is 40 s or less, ATK x 1.8 damage"
-            },
-            {
-                cooldown: 35,
-                description: "Targets Slasher/Powerhouse class teammates for ATK Up Lv.3 (16 s); if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Giant] characters are on the team, targets team for 85% chance to remove ATK Down; targets all enemies for ATK x 3.5 damage; when remaining time is 40 s or less, ATK x 2 damage"
-            },
-            {
-                cooldown: 35,
-                description: "Targets Slasher/Powerhouse class teammates for ATK Up Lv.4 (17 s); if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Giant] characters are on the team, targets team for 88% chance to remove ATK Down; targets all enemies for ATK x 3.8 damage; when remaining time is 40 s or less, ATK x 2.2 damage"
-            },
-            {
-                cooldown: 35,
-                description: "Targets Slasher/Powerhouse class teammates for ATK Up Lv.4 (18 s); if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Giant] characters are on the team, targets team for 91% chance to remove ATK Down; targets all enemies for ATK x 4.1 damage; when remaining time is 40 s or less, ATK x 2.4 damage"
-            },
-            {
-                cooldown: 35,
-                description: "Targets Slasher/Powerhouse class teammates for ATK Up Lv.5 (19 s); if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Giant] characters are on the team, targets team for 94% chance to remove ATK Down; targets all enemies for ATK x 4.4 damage; when remaining time is 40 s or less, ATK x 2.6 damage"
-            },
-            {
-                cooldown: 35,
-                description: "Targets Slasher/Powerhouse class teammates for ATK Up Lv.5 (20 s); if 4 or more [Straw Hat Pirates] [Red-Haired Pirates] [Giant] characters are on the team, targets team for 100% chance to remove ATK Down; targets all enemies for ATK x 5 damage; when remaining time is 40 s or less, ATK x 3 damage"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
-                festGPSpecial: "Targets all enemies for 500 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 625 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 750 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 875 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 1000 damage",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When 2 teammates are defeated"
+        ]
     },
     4437: {//Kashii
-        captain: "Boosts Powerhouse and Slasher characters' ATK by 3.5x, HP by 1.5x, and makes their [QCK] slots have matching slot effects",
-        special: "Reduces crew's Paralysis duration by 6 turns, and reduces all enemies' DEF Up duration by 6 turns. If crew's HP is less than 30% when Special is launched, reduces all enemies' Threshold Damage Reduction duration by 3 turns. If crew has ATK Up, type effect boost, multiplicative chain multiplier boost (except additive boost), and ATK boost based on damage reduction effect at the same time when Special is launched, further increases crew's ATK boost and multiplicative chain multiplier boost (except additive boost) by +0.4, extends the duration of crew's type effect boost by 1 turn, then after that, boosts the type effects of normal attacks for Powerhouse characters by 2.25x for 2 turns (allows this effect to be further increased up to 2 times). If 3 or more [Giant] characters are on the crew, boosts the chain multiplier by +1.2 for 3 turns, and further increases crew's type effect boost by +0.4 (effect applies to type effect boost from this Special)",
+        captain: "Boosts ATK of Powerhouse and Slasher characters by 3.5x, boosts HP of Powerhouse and Slasher characters by 1.5x, and makes [QCK] orbs beneficial for Powerhouse characters.",
+        special: "Reduces Paralysis duration by 6 turns, reduces enemies' Increased Defense duration by 6 turns, and boosts the Color Affinity of Powerhouse characters by 2.25x, can be enhanced up to 2 times, for 2 turns. If HP is below 30% when the special is activated, reduces enemies' Threshold Damage Reduction duration by 3 turns. If your crew has ATK Up, Color Affinity, Chain Multiplication and Crew Damage Reduction to ATK when the special is activated, increases boost effects of ATK Up and Chain Multiplication buffs by +0.4x, and increases duration of any Color Affinity buffs by 1 turn. If your crew has 3+ [Giant] characters, adds 1.2x to chain multiplier for 3 turns, and increases boost effects of Color Affinity buffs by +0.4x, including effects activated in the same ability.",
         specialName: "Slamming Heavy Strike",
         sailor: {
-            base: "Character cannot be blown away by attack",
-            level1: "Boosts Powerhouse characters' base HP by 100"
+            base: "This character cannot be Blown Away.",
+            level1: "Boosts base HP of Powerhouse characters by 100."
         },
         support: [
             {
                 Characters: "Characters with the following Character Tag: [Giant]",
                 description: [
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for Powerhouse characters by 1.2x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for Powerhouse characters by 1.3x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for Powerhouse characters by 1.4x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for Powerhouse characters by 1.5x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for Powerhouse characters by 1.75x for 1 turn"
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of Powerhouse characters by 1.2x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of Powerhouse characters by 1.3x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of Powerhouse characters by 1.4x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of Powerhouse characters by 1.5x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of Powerhouse characters by 1.75x for 1 turn."
                 ]
             }
         ],
@@ -174104,61 +174015,46 @@ window.details = {
                     "Reduces Sailor Despair duration by 5 turns on this character"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4438: {//Oimo
-        captain: "Boosts Powerhouse and Striker characters' ATK by 3.5x and HP by 1.3x",
-        special: "If crew's HP is less than 30% when Special is launched, reduces crew's Bind duration by 6 turns and ATK down duration by 3 turns (reduces crew's Bind duration by 3 turns otherwise). If 3 or more [Giant] characters are on the crew, boosts Powerhouse and Striker characters' slot effects by 2.25x for 1 turn (boosts Powerhouse and Striker characters' slot effects by 1.75x for 1 turn otherwise)",
+        captain: "Boosts ATK of Powerhouse and Striker characters by 3.5x, and boosts HP of Powerhouse and Striker characters by 1.3x.",
+        special: "If HP is below 30% when the special is activated, reduces Bind duration by 6 turns, and reduces ATK Down duration by 3 turns; reduces Bind duration by 3 turns otherwise. If your crew has 3+ [Giant] characters, boosts Orb Effects of Powerhouse and Striker characters by 2.25x for 1 turn; boosts Orb Effects of Powerhouse and Striker characters by 1.75x for 1 turn otherwise.",
         specialName: "Pulverizing Strike",
-        sailor: "Character cannot be blown away by attack",
+        sailor: "This character cannot be Blown Away.",
         support: [
             {
                 Characters: "Usopp, Tony Tony Chopper, Shanks, Dorry, Broggy",
                 description: [
-                    "Once per quest, if inflicted with Bind status from the enemy, cuts crew's HP by 20% but reduces crew's Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, cuts crew's HP by 20% but reduces crew's Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, cuts crew's HP by 20% but reduces crew's Bind duration by 1 turn, and allows crew to perform Super Tandem with [INT][RCV] slots for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, cuts crew's HP by 20% but reduces crew's Bind duration by 1 turn, allows crew to perform Super Tandem with [INT][RCV] slots for 1 turn, and reduces crew's Switch Effect use by 1 at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, cuts crew's HP by 20% but reduces crew's Bind duration by 2 turns, allows crew to perform Super Tandem with [INT][RCV] slots for 1 turn, and reduces crew's Switch Effect use by 2 at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, and reduces Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, and reduces Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, reduces Bind duration by 1 turn, and allows crew to perform Super Tandem with [INT] and [RCV] orbs for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, reduces Bind duration by 1 turn, allows crew to perform Super Tandem with [INT] and [RCV] orbs for 1 turn, and reduces Switch Effect of all characters by 1.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, reduces Bind duration by 2 turns, allows crew to perform Super Tandem with [INT] and [RCV] orbs for 1 turn, and reduces Switch Effect of all characters by 2."
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4439: {//6+ Nami & Usopp
         captain: {
-            character1: "Reduces crew's Switch Effect use by 3 at start of quest, boosts Cerebral, Shooter, and Free Spirit characters' ATK by 4.25x and HP by 1.3x. Delays all enemies for 1 turn at a fixed chance based on the total damage dealt from normal attacks in 1 turn; 20% chance with over 100,000, 50% chance with over 1,000,000, 100% chance with over 3,000,000, 100% chance unaffected by Delay Block/Immunity with over 5,000,000 [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Straw Hat Pirates] characters are on the crew, reduces crew's Despair duration by 2 turns",
-            character2: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Cerebral, Shooter, and Free Spirit characters' ATK by 4x, HP by 1.3x, and boosts their damage dealt to delayed enemies by 1.2x. Delays all enemies for 1 turn at a fixed chance based on the total damage dealt from normal attacks in 1 turn; 20% chance with over 100,000, 50% chance with over 1,000,000, 100% chance with over 3,000,000, 100% chance unaffected by Delay Block/Immunity with over 5,000,000 [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Straw Hat Pirates] characters are on the crew, reduces crew's Despair duration by 2 turns",
-            combined: "Boosts Cerebral, Shooter, and Free Spirit characters' ATK by 4.25x, HP by 1.3x, and boosts their damage dealt to delayed enemies by 1.2x. Delays all enemies for 1 turn at a fixed chance based on the total damage dealt from normal attacks in 1 turn; 20% chance with over 100,000, 50% chance with over 1,000,000, 100% chance with over 3,000,000, 100% chance unaffected by Delay Block/Immunity with over 5,000,000, and adds 1 turn to all enemies for each battle (after preemptive actions) [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Straw Hat Pirates] characters are on the crew, reduces crew's Despair duration by 2 turns, and boosts [Straw Hat Pirates] characters' base ATK by +400"
+            character1: "Reduces Switch Effect of all characters by 3 at the start of the fight, boosts ATK of Cerebral, Shooter and Free Spirit characters by 4.25x, boosts HP of Cerebral, Shooter and Free Spirit characters by 1.3x, and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn. If your crew has 4+ [Straw Hat Pirates] characters, reduces Despair duration by 2 turns.",
+            character2: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cerebral, Shooter and Free Spirit characters by 4x, boosts HP of Cerebral, Shooter and Free Spirit characters by 1.3x, boosts ATK against delayed enemies by 1.2x, and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn. If your crew has 4+ [Straw Hat Pirates] characters, reduces Despair duration by 2 turns.",
+            combined: "Boosts ATK of Cerebral, Shooter and Free Spirit characters by 4.25x, boosts HP of Cerebral, Shooter and Free Spirit characters by 1.3x, boosts ATK against delayed enemies by 1.2x, and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn. At the beginning of each Stage, increases the Attack Timer of all enemies by 1 turn. If your crew has 4+ [Straw Hat Pirates] characters, reduces Despair duration by 2 turns, and boosts base ATK of [Straw Hat Pirates] characters by 400."
         },
-        special: "Paralyzes all enemies for 5 turns (75% chance to not reduce action turns), delays all enemies by 2 turns, reduces crew's Paralysis/Special Bind duration by 6 turns, boosts the type effects of normal attacks for Cerebral and Shooter characters based on number of [Straw Hat Pirates] characters on the crew for 1 turn (minimum 2.5x for 0 characters up to 3x for 6 characters), further increases damage against delayed enemy boost by +0.5 if crew has damage against delayed enemy boost when Special is launched, and becomes \"Nami & Usopp\" for 3 turns",
+        captainNotes: "Delay chance is based on damage dealt with normal attacks and does not stack with any other delay specials or effects<br><b>Base Chances</b><br><b>100,000 damage or more:</b> 20% chance to delay<br><b>1,000,000 damage or more:</b> 50% chance to delay<br><b>3,000,000 damage or more:</b> 100% chance to delay<br><b>5,000,000 damage or more:</b> 100% chance to delay ignoring Debuff Protection",
+        special: "Paralyzes (75%) all enemies for 5 turns, delays all enemies by 2 turns, reduces Paralysis and Special Bind duration by 6 turns, boosts the Color Affinity of Cerebral and Shooter characters by 2.5x-3x for 1 turn depending on the number of [Straw Hat Pirates] characters on your crew, and becomes Nami & Usopp for 3 turns. If your crew has Delay Status ATK Boost when the special is activated, increases boost effects of Delay Status ATK Boost buffs by +0.5x.",
+        specialNotes: "<br><b>Base:</b> 0-1: 2.5x, 2: 2.6x, 3: 2.7x, 4: 2.8x, 5: 2.9x, 6: 3x<br><b>LLB:</b> 0-1: 2.5x, 2: 2.7x, 3: 2.9x, 4: 3.1x, 5: 3.3x, 6: 3.5x",
         specialName: "Unexpected Joyful Reunion",
         sailor: {
-            character1: "Boosts crew's base ATK and HP by 50",
-            character2: "Boosts crew's base ATK and HP by 50",
-            combined: "Boosts crew's base ATK and HP by 75",
-            level1: "Makes crew's [TND] slots have matching slot effects"
+            character1: "Boosts base ATK and HP of all characters by 50.",
+            character2: "Boosts base ATK and HP of all characters by 50.",
+            combined: "Boosts base ATK and HP of all characters by 75.",
+            level1: "Makes [TND] orbs beneficial for all characters."
         },
         swap: {
-            base: "Changes character's slot to character's own type, completely removes character's Special Bind, reduces crew's Bind/Despair duration by 1 turn, and boosts damage dealt to delayed enemies by 1.5x for 1 turn",
-            super: "Changes character's slot and adjacent slots (including [BLOCK] slots) to character's own type, completely removes character's Special Bind, reduces crew's Bind/Despair duration by 3 turns, and boosts damage dealt to delayed enemies by 2.25x for 1 turn"
+            base: "Changes the orb of this character into a Matching orb, removes Special Bind duration completely on this character, reduces Bind and Despair duration by 1 turn, and boosts ATK against delayed enemies by 1.5x for 1 turn.",
+            super: "Changes the orbs, including [BLOCK] orbs, of this and adjacent characters into Matching orbs, removes Special Bind duration completely on this character, reduces Bind and Despair duration by 3 turns, and boosts ATK against delayed enemies by 2.25x for 1 turn.",
+            superTurns: 4
         },
         limit: [
             { description: "Boosts base HP by 10" },
@@ -174209,9 +174105,9 @@ window.details = {
             },
             {
                 captain: {
-                    character1: "Reduces crew's Switch Effect use by 3 at start of quest, boosts Cerebral, Shooter, and Free Spirit characters' ATK by 4.5x and HP by 1.3x. Delays all enemies for 1 turn at a fixed chance based on the total damage dealt from normal attacks in 1 turn; 20% chance with over 100,000, 50% chance with over 1,000,000, 100% chance with over 3,000,000, 100% chance unaffected by Delay Block/Immunity with over 5,000,000 [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Straw Hat Pirates] characters are on the crew, reduces crew's Despair duration by 2 turns",
-                    character2: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Cerebral, Shooter, and Free Spirit characters' ATK by 4.25x, HP by 1.3x, and boosts their damage dealt to delayed enemies by 1.2x. Delays all enemies for 1 turn at a fixed chance based on the total damage dealt from normal attacks in 1 turn; 20% chance with over 100,000, 50% chance with over 1,000,000, 100% chance with over 3,000,000, 100% chance unaffected by Delay Block/Immunity with over 5,000,000 [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Straw Hat Pirates] characters are on the crew, reduces crew's Despair duration by 2 turns",
-                    combined: "Boosts Cerebral, Shooter, and Free Spirit characters' ATK by 4.5x, HP by 1.3x, and boosts their damage dealt to delayed enemies by 1.2x. Delays all enemies for 1 turn at a fixed chance based on the total damage dealt from normal attacks in 1 turn; 20% chance with over 100,000, 50% chance with over 1,000,000, 100% chance with over 3,000,000, 100% chance unaffected by Delay Block/Immunity with over 5,000,000, and adds 1 turn to all enemies for each battle (after preemptive actions) [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Straw Hat Pirates] characters are on the crew, reduces crew's Despair duration by 3 turns, and boosts [Straw Hat Pirates] characters' base ATK by +500"
+                    character1: "Reduces Switch Effect of all characters by 3 at the start of the fight, boosts ATK of Cerebral, Shooter and Free Spirit characters by 4.5x, boosts HP of Cerebral, Shooter and Free Spirit characters by 1.3x, and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn. If your crew has 4+ [Straw Hat Pirates] characters, reduces Despair duration by 2 turns.",
+                    character2: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cerebral, Shooter and Free Spirit characters by 4.25x, boosts HP of Cerebral, Shooter and Free Spirit characters by 1.3x, boosts ATK against delayed enemies by 1.2x, and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn. If your crew has 4+ [Straw Hat Pirates] characters, reduces Despair duration by 2 turns.",
+                    combined: "Boosts ATK of Cerebral, Shooter and Free Spirit characters by 4.5x, boosts HP of Cerebral, Shooter and Free Spirit characters by 1.3x, boosts ATK against delayed enemies by 1.2x, and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn. At the beginning of each Stage, increases the Attack Timer of all enemies by 1 turn. If your crew has 4+ [Straw Hat Pirates] characters, reduces Despair duration by 3 turns, and boosts base ATK of [Straw Hat Pirates] characters by 500."
                 }
             },
             {
@@ -174219,7 +174115,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Paralyzes all enemies for 5 turns (75% chance to not reduce action turns), delays all enemies by 2 turns, reduces crew's Paralysis/Special Bind duration by 6 turns, boosts the type effects of normal attacks for Cerebral and Shooter characters based on number of [Straw Hat Pirates] characters on the crew for 1 turn (minimum 2.5x for 0 characters up to 3.5x for 6 characters), further increases damage against delayed enemy boost by +0.5 if crew has damage against delayed enemy boost when Special is launched, and if 4 or more [Straw Hat Pirates] characters are on the crew and enemy has immunity to delay, immunity to all status effects, or immunity excluding certain status effect, delays all enemies' by 1 turn ignoring immunity to delay, immunity to all status effects, and immunity excluding certain status effect, then after that, becomes \"Nami & Usopp\" for 3 turns"
+                    base: "Paralyzes (75%) all enemies for 5 turns, delays all enemies by 2 turns, reduces Paralysis and Special Bind duration by 6 turns, boosts the Color Affinity of Cerebral and Shooter characters by 2.5x-3.5x for 1 turn depending on the number of [Straw Hat Pirates] characters on your crew, and becomes Nami & Usopp for 3 turns. If your crew has Delay Status ATK Boost when the special is activated, increases boost effects of Delay Status ATK Boost buffs by +0.5x. If your crew has 4+ [Straw Hat Pirates] characters, ignores Debuff Protection and delays all enemies by 1 turn."
                 },
                 rResilience: true
             }
@@ -174255,153 +174151,7 @@ window.details = {
                     "Reduces Slot Bind duration completely on this character"
                 ]
             }
-        ],
-        festStats: {
-            def: 185,
-            spd: 186,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: {
-            base: "Completely evades Paralysis, reduce damage taken from Free Spirit by 30％",
-            llbbase: "Completely evades Paralysis, reduce damage taken from Free Spirit by 40%"
-        },
-        festAbility: {
-            base: [
-                "Cerebral class teammates HP Up Lv.2, Critical % Up Lv.3; [STR]/[PSY] teammates DEF Up Lv.2; if 5 or more Cerebral class characters are on the team, all enemies DEF Down Lv.2",
-                "Cerebral class teammates HP Up Lv.3, Critical % Up Lv.4; [STR]/[PSY] teammates DEF Up Lv.2; if 5 or more Cerebral class characters are on the team, all enemies DEF Down Lv.3",
-                "Cerebral class teammates HP Up Lv.4, Critical % Up Lv.5; [STR]/[PSY] teammates DEF Up Lv.3; if 5 or more Cerebral class characters are on the team, all enemies DEF Down Lv.4",
-                "Cerebral class teammates HP Up Lv.5, Critical % Up Lv.6; [STR]/[PSY] teammates DEF Up Lv.3; if 5 or more Cerebral class characters are on the team, all enemies DEF Down Lv.5",
-                "Cerebral class teammates HP Up Lv.6, Critical % Up Lv.7; [STR]/[PSY] teammates DEF Up Lv.4; if 5 or more Cerebral class characters are on the team, all enemies DEF Down Lv.6"
-            ],
-            llbbase: [
-                "Cerebral class teammates HP Up Lv.3, Critical % Up Lv.4; [STR]/[PSY] teammates DEF Up Lv.3; if 5 or more Cerebral class characters are on the team, all enemies DEF Down Lv.3",
-                "Cerebral class teammates HP Up Lv.4, Critical % Up Lv.5; [STR]/[PSY] teammates DEF Up Lv.3; if 5 or more Cerebral class characters are on the team, all enemies DEF Down Lv.4",
-                "Cerebral class teammates HP Up Lv.5, Critical % Up Lv.6; [STR]/[PSY] teammates DEF Up Lv.4; if 5 or more Cerebral class characters are on the team, all enemies DEF Down Lv.5",
-                "Cerebral class teammates HP Up Lv.6, Critical % Up Lv.7; [STR]/[PSY] teammates DEF Up Lv.4; if 5 or more Cerebral class characters are on the team, all enemies DEF Down Lv.6",
-                "Cerebral class teammates HP Up Lv.7, Critical % Up Lv.8; [STR]/[PSY] teammates DEF Up Lv.5; if 5 or more Cerebral class characters are on the team, all enemies DEF Down Lv.7"
-            ]
-        },
-        festSpecial: {
-            base: [
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2 damage, 70% chance of Paralysis (11 s); targets Cerebral class teammates for Critical % Up Lv.2 (21 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.1 damage, 72% chance of Paralysis (12 s); targets Cerebral class teammates for Critical % Up Lv.2 (22 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.2 damage, 74% chance of Paralysis (13 s); targets Cerebral class teammates for Critical % Up Lv.3 (23 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.3 damage, 76% chance of Paralysis (14 s); targets Cerebral class teammates for Critical % Up Lv.4 (24 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.4 damage, 78% chance of Paralysis (15 s); targets Cerebral class teammates for Critical % Up Lv.4 (25 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.5 damage, 80% chance of Paralysis (16 s); targets Cerebral class teammates for Critical % Up Lv.5 (26 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.6 damage, 82% chance of Paralysis (17 s); targets Cerebral class teammates for Critical % Up Lv.6 (27 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.7 damage, 84% chance of Paralysis (18 s); targets Cerebral class teammates for Critical % Up Lv.6 (28 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.8 damage, 86% chance of Paralysis (19 s); targets Cerebral class teammates for Critical % Up Lv.7 (29 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 3 damage, 90% chance of Paralysis (20 s); targets Cerebral class teammates for Critical % Up Lv.8 (30 s)"
-                }
-            ],
-            llbbase: [
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.5 damage, 80% chance of Paralysis (11 s), Special CT 10% delay; targets Cerebral class teammates for Critical % Up Lv.3 (21 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.6 damage, 82% chance of Paralysis (12 s), Special CT 11% delay; targets Cerebral class teammates for Critical % Up Lv.3 (22 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.7 damage, 84% chance of Paralysis (13 s), Special CT 12% delay; targets Cerebral class teammates for Critical % Up Lv.4 (23 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.8 damage, 86% chance of Paralysis (14 s), Special CT 13% delay; targets Cerebral class teammates for Critical % Up Lv.5 (24 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 2.9 damage, 88% chance of Paralysis (15 s), Special CT 14% delay; targets Cerebral class teammates for Critical % Up Lv.5 (25 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 3 damage, 90% chance of Paralysis (16 s), Special CT 15% delay; targets Cerebral class teammates for Critical % Up Lv.6 (26 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 3.1 damage, 92% chance of Paralysis (17 s), Special CT 16% delay; targets Cerebral class teammates for Critical % Up Lv.7 (27 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 3.2 damage, 94% chance of Paralysis (18 s), Special CT 17% delay; targets Cerebral class teammates for Critical % Up Lv.7 (28 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 3.3 damage, 96% chance of Paralysis (19 s), Special CT 18% delay; targets Cerebral class teammates for Critical % Up Lv.8 (29 s)"
-                },
-                {
-                    cooldown: 32,
-                    description: "Targets enemies within large range (horizontal) for ATK x 3.5 damage, 100% chance of Paralysis (20 s), Special CT 20% delay; targets Cerebral class teammates for Critical % Up Lv.9 (30 s)"
-                }
-            ]
-        },
-        festAbilityGP: [
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
-                festGPSpecial: "Targets all enemies for 500 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 625 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 750 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 875 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 1000 damage",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When 2 teammates are defeated"
+        ]
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
