@@ -174153,6 +174153,1108 @@ window.details = {
             }
         ]
     },
+    4440: {//5* St. Shepherd Ju Peter
+        captain: "Boosts [DEX], Driven, and Powerhouse characters' ATK by 6x, and makes crew's [DEX][RCV] slots have matching slot effects. If crew has Orb Boost status and crew launches Specials to boost slot effects, treats the boost as a \"further raising effect\" (this Captain Ability effect does not stack, and each further raising effect launches only 1 time per 1 Special, it cannot be further raised or stacked). If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x and HP by 2x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and crew has Orb Boost status at 10x or more, makes character's normal attacks effective against all enemy types. Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
+        special: "Reduces all enemies' HP by 10% (ignoring all defensive effects and Non-Normal Attacks Deal 1 Damage effect), and completely removes all enemies' Threshold Damage Reduction. If a [DEX] is set as Support for character, applies \"Territory: Driven class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns (applies \"Territory: Powerhouse class\" to the field for 3 turns otherwise). Boosts Driven and Powerhouse characters' slot effects up to 5x based on total Cost of crew at start of quest<hidden> including Friend Captains and Support Characters</hidden> (4x for less than 500 Cost, 4.25x for 500 or more Cost, 4.5x for 600 or more Cost, 4.75x for 700 or more Cost, and 5x for 750 or more Cost) for 1 turn. Further increases crew's ATK boost by up to 1.5x based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5 for EXCELLENT; maximum value is 15x). If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn<hidden> (effect cannot stack; if HP is above max limit, it is treated as being full HP)</hidden>",
+        specialName: "Slamming Charge of the War God",
+        sailor: "Boosts Driven characters' base stats by 150 and makes their [DEX] slots have matching slot effects",
+        festStats: {
+            def: 231,
+            spd: 141,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Paralysis/Special Bind, reduce damage taken from [QCK] by 30%",
+        festAbility: [
+            "[DEX]/Powerhouse class/[Five Elders] teammates HP Up Lv.4; all enemies ATK Down Lv.2, DEF Down Lv.1; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies HP Down Lv.3, SPD Down Lv.3; [Navy] [World Government] teammates HP Up Lv.1, RCV Up Lv.1; after character receives Action Bind, up to 3 times, self Special CT Speed Up Lv.1; all enemies Special CT Speed Down Lv.1",
+            "[DEX]/Powerhouse class/[Five Elders] teammates HP Up Lv.5; all enemies ATK Down Lv.2, DEF Down Lv.1; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies HP Down Lv.4, SPD Down Lv.4; [Navy] [World Government] teammates HP Up Lv.1, RCV Up Lv.1; after character receives Action Bind, up to 3 times, self Special CT Speed Up Lv.1; all enemies Special CT Speed Down Lv.1",
+            "[DEX]/Powerhouse class/[Five Elders] teammates HP Up Lv.6; all enemies ATK Down Lv.3, DEF Down Lv.2; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies HP Down Lv.5, SPD Down Lv.5; [Navy] [World Government] teammates HP Up Lv.2, RCV Up Lv.2; after character receives Action Bind, up to 3 times, self Special CT Speed Up Lv.2; all enemies Special CT Speed Down Lv.2",
+            "[DEX]/Powerhouse class/[Five Elders] teammates HP Up Lv.7; all enemies ATK Down Lv.3, DEF Down Lv.2; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies HP Down Lv.6, SPD Down Lv.6; [Navy] [World Government] teammates HP Up Lv.2, RCV Up Lv.2; after character receives Action Bind, up to 3 times, self Special CT Speed Up Lv.2; all enemies Special CT Speed Down Lv.2",
+            "[DEX]/Powerhouse class/[Five Elders] teammates HP Up Lv.8; all enemies ATK Down Lv.4, DEF Down Lv.3; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies HP Down Lv.7, SPD Down Lv.7; [Navy] [World Government] teammates HP Up Lv.3, RCV Up Lv.3; after character receives Action Bind, up to 3 times, self Special CT Speed Up Lv.3; all enemies Special CT Speed Down Lv.3"
+        ],
+        festSpecial: [
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.1 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.1 (20 s), SPD Down Lv.1 (20 s), Special CT Speed Down Lv.1 (11 s), Special CT 11% delay; targets [Navy] [World Government] teammates for 73% chance to evade fixed damage (11 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (5 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.1 (10 s); targets self for 100% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.2 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.2 (20 s), SPD Down Lv.2 (20 s), Special CT Speed Down Lv.1 (12 s), Special CT 12% delay; targets [Navy] [World Government] teammates for 76% chance to evade fixed damage (12 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (5 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.2 (10 s); targets self for 100% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.3 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.3 (20 s), SPD Down Lv.3 (20 s), Special CT Speed Down Lv.2 (13 s), Special CT 13% delay; targets [Navy] [World Government] teammates for 79% chance to evade fixed damage (13 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (6 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.3 (10 s); targets self for 100% chance of Forced Out (6 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.4 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.4 (20 s), SPD Down Lv.4 (20 s), Special CT Speed Down Lv.2 (14 s), Special CT 14% delay; targets [Navy] [World Government] teammates for 82% chance to evade fixed damage (14 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (6 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.4 (10 s); targets self for 100% chance of Forced Out (6 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.5 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.5 (20 s), SPD Down Lv.5 (20 s), Special CT Speed Down Lv.3 (15 s), Special CT 15% delay; targets [Navy] [World Government] teammates for 85% chance to evade fixed damage (15 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (7 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.5 (10 s); targets self for 100% chance of Forced Out (7 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.6 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.6 (20 s), SPD Down Lv.6 (20 s), Special CT Speed Down Lv.3 (16 s), Special CT 16% delay; targets [Navy] [World Government] teammates for 88% chance to evade fixed damage (16 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (7 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.6 (10 s); targets self for 100% chance of Forced Out (7 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.7 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.7 (20 s), SPD Down Lv.7 (20 s), Special CT Speed Down Lv.4 (17 s), Special CT 17% delay; targets [Navy] [World Government] teammates for 91% chance to evade fixed damage (17 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (8 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.7 (10 s); targets self for 100% chance of Forced Out (8 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.8 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.8 (20 s), SPD Down Lv.8 (20 s), Special CT Speed Down Lv.4 (18 s), Special CT 18% delay; targets [Navy] [World Government] teammates for 94% chance to evade fixed damage (18 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (8 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.8 (10 s); targets self for 100% chance of Forced Out (8 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.9 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.9 (20 s), SPD Down Lv.9 (20 s), Special CT Speed Down Lv.5 (19 s), Special CT 19% delay; targets [Navy] [World Government] teammates for 97% chance to evade fixed damage (19 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (9 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.9 (10 s); targets self for 100% chance of Forced Out (9 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 4 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.10 (20 s), SPD Down Lv.10 (20 s), Special CT Speed Down Lv.5 (20 s), Special CT 20% delay; targets [Navy] [World Government] teammates for 100% chance to evade fixed damage (20 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (10 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.10 (10 s); targets self for 100% chance of Forced Out (10 s)"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "[DEX]/[Five Elders] teammates HP Up Lv.2; Driven/Powerhouse class teammates DEF Up Lv.2; if 5 or more Driven characters or 5 or more [Five Elders] characters are on the team, all enemies HP, RCV, SPD Down Lv.2; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies ATK Down Lv.2, DEF Down Lv.1; if 4 or more [Navy] [World Government] characters are on the team, all enemies Special CT Speed Down Lv.2",
+                festGPSpecial: "Targets all enemies for ATK Down Lv.4 (26 s), DEF Down Lv.4 (26 s); targets 2 enemies for 80% chance of Forced Out (10 s); targets 3 enemies with high Special CT for 80% chance of Action Bind (10 s)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[DEX]/[Five Elders] teammates HP Up Lv.3; Driven/Powerhouse class teammates DEF Up Lv.3; if 5 or more Driven characters or 5 or more [Five Elders] characters are on the team, all enemies HP, RCV, SPD Down Lv.3; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies ATK Down Lv.3, DEF Down Lv.1; if 4 or more [Navy] [World Government] characters are on the team, all enemies Special CT Speed Down Lv.2",
+                festGPSpecial: "Targets all enemies for ATK Down Lv.5 (27 s), DEF Down Lv.5 (27 s); targets 2 enemies for 85% chance of Forced Out (10 s); targets 3 enemies with high Special CT for 85% chance of Action Bind (10 s)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[DEX]/[Five Elders] teammates HP Up Lv.4; Driven/Powerhouse class teammates DEF Up Lv.4; if 5 or more Driven characters or 5 or more [Five Elders] characters are on the team, all enemies HP, RCV, SPD Down Lv.4; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies ATK Down Lv.4, DEF Down Lv.2; if 4 or more [Navy] [World Government] characters are on the team, all enemies Special CT Speed Down Lv.3",
+                festGPSpecial: "Targets all enemies for ATK Down Lv.6 (28 s), DEF Down Lv.6 (28 s); targets 2 enemies for 90% chance of Forced Out (10 s); targets 3 enemies with high Special CT for 90% chance of Action Bind (10 s)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[DEX]/[Five Elders] teammates HP Up Lv.5; Driven/Powerhouse class teammates DEF Up Lv.5; if 5 or more Driven characters or 5 or more [Five Elders] characters are on the team, all enemies HP, RCV, SPD Down Lv.5; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies ATK Down Lv.5, DEF Down Lv.2; if 4 or more [Navy] [World Government] characters are on the team, all enemies Special CT Speed Down Lv.3",
+                festGPSpecial: "Targets all enemies for ATK Down Lv.7 (29 s), DEF Down Lv.7 (29 s); targets 2 enemies for 95% chance of Forced Out (10 s); targets 3 enemies with high Special CT for 95% chance of Action Bind (10 s)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[DEX]/[Five Elders] teammates HP Up Lv.6; Driven/Powerhouse class teammates DEF Up Lv.6; if 5 or more Driven characters or 5 or more [Five Elders] characters are on the team, all enemies HP, RCV, SPD Down Lv.6; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies ATK Down Lv.6, DEF Down Lv.3; if 4 or more [Navy] [World Government] characters are on the team, all enemies Special CT Speed Down Lv.4",
+                festGPSpecial: "Targets all enemies for ATK Down Lv.8 (30 s), DEF Down Lv.8 (30 s); targets 2 enemies for 100% chance of Forced Out (10 s); targets 3 enemies with high Special CT for 100% chance of Action Bind (10 s)",
+                uses: 3
+            }
+        ],
+        festAbilityGPCondition: "After applying status effects 7 times"
+    },
+    4441: {//6* St. Shepherd Ju Peter
+        captain: "Boosts [DEX], Driven, and Powerhouse characters' ATK by 6x, and makes crew's [DEX][RCV] slots have matching slot effects. If crew has Orb Boost status and crew launches Specials to boost slot effects, treats the boost as a \"further raising effect\" (this Captain Ability effect does not stack, and each further raising effect launches only 1 time per 1 Special, it cannot be further raised or stacked). If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x and HP by 2x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and crew has Orb Boost status at 10x or more, makes character's normal attacks effective against all enemy types. Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
+        special: "Reduces all enemies' HP by 10% (ignoring all defensive effects and Non-Normal Attacks Deal 1 Damage effect), and completely removes all enemies' Threshold Damage Reduction. If a [DEX] is set as Support for character, applies \"Territory: Driven class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns (applies \"Territory: Powerhouse class\" to the field for 3 turns otherwise). Boosts Driven and Powerhouse characters' slot effects up to 5x based on total Cost of crew at start of quest<hidden> including Friend Captains and Support Characters</hidden> (4x for less than 500 Cost, 4.25x for 500 or more Cost, 4.5x for 600 or more Cost, 4.75x for 700 or more Cost, and 5x for 750 or more Cost) for 1 turn. Further increases crew's ATK boost by up to 1.5x based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5 for EXCELLENT; maximum value is 15x). If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn<hidden> (effect cannot stack; if HP is above max limit, it is treated as being full HP)</hidden>",
+        specialName: "Slamming Charge of the War God",
+        sailor: {
+            base: "Boosts Driven characters' base stats by 150 and makes their [DEX] slots have matching slot effects",
+            level1: "Character cannot be blown away by attack, and completely removes character's Special Reverse/Paralysis"
+        },
+        superSpecialCriteria: "When crew has Orb Boost at 8x or more or receives Over Healing status",
+        superSpecial: "Reduces crew's Paralysis duration by 10 turns, applies -50% Driven Resistance to all enemies for 1 turn, changes [DEX] characters to Super [DEX], and changes Driven characters to Super Driven",
+        support: [
+            {
+                Characters: "Characters with a Cost of 99 or more",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 2 turns",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 3 turns",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 4 turns",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 5 turns",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 6 turns"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Super Tandem Boost" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Acquire Sailor Ability 2: Character cannot be blown away by attack, and completely removes character's Special Reverse/Paralysis" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Damage Limit Break: Class" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns",
+                    "Boosts base ATK by 400 the turn after taking damage and reduces Increase Damage Taken duration by 4 turns",
+                    "Boosts base ATK by 500 the turn after taking damage and reduces Increase Damage Taken duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
+                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
+                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
+                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
+                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Five Elders] [Celestial Dragon] [World Government] [Navy] characters by 1 for 1 turn",
+                "Raises Boost Level of [Five Elders] [Celestial Dragon] [World Government] [Navy] characters by 2 for 1 turn",
+                "Raises Boost Level of [Five Elders] [Celestial Dragon] [World Government] [Navy] characters by 3 for 1 turn",
+                "Raises Boost Level of [Celestial Dragon] [World Government] [Navy] characters by 4 and raises Boost Level of [Five Elders] characters by 5 for 1 turn",
+                "Raises Boost Level of [Celestial Dragon] [World Government] [Navy] characters by 5 and raises Boost Level of [Five Elders] characters by 7 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 231,
+            spd: 141,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Paralysis/Special Bind, reduce damage taken from [QCK] by 30%",
+        festAbility: [
+            "[DEX]/Powerhouse class/[Five Elders] teammates HP Up Lv.4; all enemies ATK Down Lv.2, DEF Down Lv.1; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies HP Down Lv.3, SPD Down Lv.3; [Navy] [World Government] teammates HP Up Lv.1, RCV Up Lv.1; after character receives Action Bind, up to 3 times, self Special CT Speed Up Lv.1; all enemies Special CT Speed Down Lv.1",
+            "[DEX]/Powerhouse class/[Five Elders] teammates HP Up Lv.5; all enemies ATK Down Lv.2, DEF Down Lv.1; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies HP Down Lv.4, SPD Down Lv.4; [Navy] [World Government] teammates HP Up Lv.1, RCV Up Lv.1; after character receives Action Bind, up to 3 times, self Special CT Speed Up Lv.1; all enemies Special CT Speed Down Lv.1",
+            "[DEX]/Powerhouse class/[Five Elders] teammates HP Up Lv.6; all enemies ATK Down Lv.3, DEF Down Lv.2; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies HP Down Lv.5, SPD Down Lv.5; [Navy] [World Government] teammates HP Up Lv.2, RCV Up Lv.2; after character receives Action Bind, up to 3 times, self Special CT Speed Up Lv.2; all enemies Special CT Speed Down Lv.2",
+            "[DEX]/Powerhouse class/[Five Elders] teammates HP Up Lv.7; all enemies ATK Down Lv.3, DEF Down Lv.2; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies HP Down Lv.6, SPD Down Lv.6; [Navy] [World Government] teammates HP Up Lv.2, RCV Up Lv.2; after character receives Action Bind, up to 3 times, self Special CT Speed Up Lv.2; all enemies Special CT Speed Down Lv.2",
+            "[DEX]/Powerhouse class/[Five Elders] teammates HP Up Lv.8; all enemies ATK Down Lv.4, DEF Down Lv.3; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies HP Down Lv.7, SPD Down Lv.7; [Navy] [World Government] teammates HP Up Lv.3, RCV Up Lv.3; after character receives Action Bind, up to 3 times, self Special CT Speed Up Lv.3; all enemies Special CT Speed Down Lv.3"
+        ],
+        festSpecial: [
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.1 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.1 (20 s), SPD Down Lv.1 (20 s), Special CT Speed Down Lv.1 (11 s), Special CT 11% delay; targets [Navy] [World Government] teammates for 73% chance to evade fixed damage (11 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (5 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.1 (10 s); targets self for 100% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.2 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.2 (20 s), SPD Down Lv.2 (20 s), Special CT Speed Down Lv.1 (12 s), Special CT 12% delay; targets [Navy] [World Government] teammates for 76% chance to evade fixed damage (12 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (5 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.2 (10 s); targets self for 100% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.3 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.3 (20 s), SPD Down Lv.3 (20 s), Special CT Speed Down Lv.2 (13 s), Special CT 13% delay; targets [Navy] [World Government] teammates for 79% chance to evade fixed damage (13 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (6 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.3 (10 s); targets self for 100% chance of Forced Out (6 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.4 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.4 (20 s), SPD Down Lv.4 (20 s), Special CT Speed Down Lv.2 (14 s), Special CT 14% delay; targets [Navy] [World Government] teammates for 82% chance to evade fixed damage (14 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (6 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.4 (10 s); targets self for 100% chance of Forced Out (6 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.5 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.5 (20 s), SPD Down Lv.5 (20 s), Special CT Speed Down Lv.3 (15 s), Special CT 15% delay; targets [Navy] [World Government] teammates for 85% chance to evade fixed damage (15 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (7 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.5 (10 s); targets self for 100% chance of Forced Out (7 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.6 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.6 (20 s), SPD Down Lv.6 (20 s), Special CT Speed Down Lv.3 (16 s), Special CT 16% delay; targets [Navy] [World Government] teammates for 88% chance to evade fixed damage (16 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (7 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.6 (10 s); targets self for 100% chance of Forced Out (7 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.7 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.7 (20 s), SPD Down Lv.7 (20 s), Special CT Speed Down Lv.4 (17 s), Special CT 17% delay; targets [Navy] [World Government] teammates for 91% chance to evade fixed damage (17 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (8 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.7 (10 s); targets self for 100% chance of Forced Out (8 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.8 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.8 (20 s), SPD Down Lv.8 (20 s), Special CT Speed Down Lv.4 (18 s), Special CT 18% delay; targets [Navy] [World Government] teammates for 94% chance to evade fixed damage (18 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (8 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.8 (10 s); targets self for 100% chance of Forced Out (8 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 3.9 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.9 (20 s), SPD Down Lv.9 (20 s), Special CT Speed Down Lv.5 (19 s), Special CT 19% delay; targets [Navy] [World Government] teammates for 97% chance to evade fixed damage (19 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (9 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.9 (10 s); targets self for 100% chance of Forced Out (9 s)"
+            },
+            {
+                cooldown: 35,
+                description: "Targets enemies within large range for ATK x 4 damage; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, targets all enemies for DEF Down Lv.10 (20 s), SPD Down Lv.10 (20 s), Special CT Speed Down Lv.5 (20 s), Special CT 20% delay; targets [Navy] [World Government] teammates for 100% chance to evade fixed damage (20 s); targets all enemies for 100% chance of Action Bind (5 s); targets self for 100% chance of Action Bind (5 s); targets 1 high ATK enemy for 100% chance of Forced Out (10 s); if current team is 2 teammates or more, targets self for Special CT Speed Up Lv.10 (10 s); targets self for 100% chance of Forced Out (10 s)"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "[DEX]/[Five Elders] teammates HP Up Lv.2; Driven/Powerhouse class teammates DEF Up Lv.2; if 5 or more Driven characters or 5 or more [Five Elders] characters are on the team, all enemies HP, RCV, SPD Down Lv.2; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies ATK Down Lv.2, DEF Down Lv.1; if 4 or more [Navy] [World Government] characters are on the team, all enemies Special CT Speed Down Lv.2",
+                festGPSpecial: "Targets all enemies for ATK Down Lv.4 (26 s), DEF Down Lv.4 (26 s); targets 2 enemies for 80% chance of Forced Out (10 s); targets 3 enemies with high Special CT for 80% chance of Action Bind (10 s)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[DEX]/[Five Elders] teammates HP Up Lv.3; Driven/Powerhouse class teammates DEF Up Lv.3; if 5 or more Driven characters or 5 or more [Five Elders] characters are on the team, all enemies HP, RCV, SPD Down Lv.3; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies ATK Down Lv.3, DEF Down Lv.1; if 4 or more [Navy] [World Government] characters are on the team, all enemies Special CT Speed Down Lv.2",
+                festGPSpecial: "Targets all enemies for ATK Down Lv.5 (27 s), DEF Down Lv.5 (27 s); targets 2 enemies for 85% chance of Forced Out (10 s); targets 3 enemies with high Special CT for 85% chance of Action Bind (10 s)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[DEX]/[Five Elders] teammates HP Up Lv.4; Driven/Powerhouse class teammates DEF Up Lv.4; if 5 or more Driven characters or 5 or more [Five Elders] characters are on the team, all enemies HP, RCV, SPD Down Lv.4; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies ATK Down Lv.4, DEF Down Lv.2; if 4 or more [Navy] [World Government] characters are on the team, all enemies Special CT Speed Down Lv.3",
+                festGPSpecial: "Targets all enemies for ATK Down Lv.6 (28 s), DEF Down Lv.6 (28 s); targets 2 enemies for 90% chance of Forced Out (10 s); targets 3 enemies with high Special CT for 90% chance of Action Bind (10 s)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[DEX]/[Five Elders] teammates HP Up Lv.5; Driven/Powerhouse class teammates DEF Up Lv.5; if 5 or more Driven characters or 5 or more [Five Elders] characters are on the team, all enemies HP, RCV, SPD Down Lv.5; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies ATK Down Lv.5, DEF Down Lv.2; if 4 or more [Navy] [World Government] characters are on the team, all enemies Special CT Speed Down Lv.3",
+                festGPSpecial: "Targets all enemies for ATK Down Lv.7 (29 s), DEF Down Lv.7 (29 s); targets 2 enemies for 95% chance of Forced Out (10 s); targets 3 enemies with high Special CT for 95% chance of Action Bind (10 s)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[DEX]/[Five Elders] teammates HP Up Lv.6; Driven/Powerhouse class teammates DEF Up Lv.6; if 5 or more Driven characters or 5 or more [Five Elders] characters are on the team, all enemies HP, RCV, SPD Down Lv.6; if 5 or more Powerhouse characters or 5 or more [Five Elders] characters are on the team, all enemies ATK Down Lv.6, DEF Down Lv.3; if 4 or more [Navy] [World Government] characters are on the team, all enemies Special CT Speed Down Lv.4",
+                festGPSpecial: "Targets all enemies for ATK Down Lv.8 (30 s), DEF Down Lv.8 (30 s); targets 2 enemies for 100% chance of Forced Out (10 s); targets 3 enemies with high Special CT for 100% chance of Action Bind (10 s)",
+                uses: 3
+            }
+        ],
+        festAbilityGPCondition: "After applying status effects 7 times"
+    },
+    4442: {//5* St. Ethanbaron V. Nusjuro
+        captain: "Boosts [PSY], Driven, and Slasher characters' ATK by 6x, boosts character's ATK by approximately 6.25x, and makes crew's [PSY][RCV] slots have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, reduces crew's Bind duration by 10 turns. If crew uses a Special to boost ATK or slot effects, further increases the effect by +0.5 (stackable with other further raising effects). Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
+        special: "Deals 300x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), and completely removes all enemies' DEF Up. If Captain is a [Five Elders] character when Special is launched and a [PSY] is set as Support for character, applies \"Territory: Driven class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If Captain is a [Five Elders] character when Special is launched and a non-[PSY] is set as Support for character or no Support character is set, applies Set Target status to all enemies for 2 turns<hidden> (Set Target status cannot be affected by immunity to status effects</hidden>. Slasher and Driven characters will deal 1.75x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated by normal attacks and Specials<hidden> (except when defeating with status effects or certain end of turn damage effects)</hidden>) otherwise), then after that, boosts character's ATK up to 5x based on total Cost of crew at start of quest<hidden> including Friend Captains and Support Characters</hidden> and boosts character's slot effects up to 5x based on outcome of Action Special (4x for less than 500 Cost/MISS, 4.25x for 500 or more Cost/GOOD, 4.5x for 600 or more Cost/GREAT, 4.75x for 700 or more Cost/PERFECT, and 5x for 750 or more Cost/EXCELLENT) for 1 turn",
+        specialName: "Gleaming Slash of the War God",
+        sailor: "Boosts Driven characters' base ATK by 175 and makes their [PSY] slots have matching slot effects",
+        festStats: {
+            def: 126,
+            spd: 220,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage ignoring DEF by 50%, reduce damage taken from [INT] by 30%",
+        festAbility: [
+            "[PSY]/Slasher class/[Five Elders] teammates ATK Up Lv.3, SPD Up Lv.3; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, self ATK Up Lv.3, Critical % Up Lv.2, Guard % Up Lv.1; all enemies ATK Down Lv.1, SPD Down Lv.3; [Navy] [World Government] teammates SPD Up Lv.1, Critical % Up Lv.1",
+            "[PSY]/Slasher class/[Five Elders] teammates ATK Up Lv.4, SPD Up Lv.4; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, self ATK Up Lv.4, Critical % Up Lv.3, Guard % Up Lv.2; all enemies ATK Down Lv.1, SPD Down Lv.4; [Navy] [World Government] teammates SPD Up Lv.1, Critical % Up Lv.2",
+            "[PSY]/Slasher class/[Five Elders] teammates ATK Up Lv.5, SPD Up Lv.5; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, self ATK Up Lv.5, Critical % Up Lv.4, Guard % Up Lv.3; all enemies ATK Down Lv.2, SPD Down Lv.5; [Navy] [World Government] teammates SPD Up Lv.2, Critical % Up Lv.3",
+            "[PSY]/Slasher class/[Five Elders] teammates ATK Up Lv.6, SPD Up Lv.6; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, self ATK Up Lv.6, Critical % Up Lv.5, Guard % Up Lv.4; all enemies ATK Down Lv.2, SPD Down Lv.6; [Navy] [World Government] teammates SPD Up Lv.2, Critical % Up Lv.4",
+            "[PSY]/Slasher class/[Five Elders] teammates ATK Up Lv.7, SPD Up Lv.7; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, self ATK Up Lv.7, Critical % Up Lv.6, Guard % Up Lv.5; all enemies ATK Down Lv.3, SPD Down Lv.7; [Navy] [World Government] teammates SPD Up Lv.3, Critical % Up Lv.5"
+        ],
+        festSpecial: [
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 11% reduction; targets enemies within large range for 2100 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 73% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.1 damage; targets 2 high DEF enemies ignoring DEF for ATK x 0.85 damage; targets [Navy] [World Government] teammates for ATK Up Lv.1 (11 s), DEF Up Lv.1 (11 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 12% reduction; targets enemies within large range for 2200 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 76% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.2 damage; targets 2 high DEF enemies ignoring DEF for ATK x 0.9 damage; targets [Navy] [World Government] teammates for ATK Up Lv.1 (12 s), DEF Up Lv.1 (12 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 13% reduction; targets enemies within large range for 2300 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 79% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.3 damage; targets 2 high DEF enemies ignoring DEF for ATK x 0.95 damage; targets [Navy] [World Government] teammates for ATK Up Lv.2 (13 s), DEF Up Lv.2 (13 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 14% reduction; targets enemies within large range for 2400 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 82% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.4 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.0 damage; targets [Navy] [World Government] teammates for ATK Up Lv.2 (14 s), DEF Up Lv.2 (14 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 15% reduction; targets enemies within large range for 2500 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 85% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.5 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.05 damage; targets [Navy] [World Government] teammates for ATK Up Lv.3 (15 s), DEF Up Lv.3 (15 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 16% reduction; targets enemies within large range for 2600 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 88% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.6 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.1 damage; targets [Navy] [World Government] teammates for ATK Up Lv.3 (16 s), DEF Up Lv.3 (16 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 17% reduction; targets enemies within large range for 2700 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 91% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.7 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.15 damage; targets [Navy] [World Government] teammates for ATK Up Lv.4 (17 s), DEF Up Lv.4 (17 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 18% reduction; targets enemies within large range for 2800 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 94% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.8 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.2 damage; targets [Navy] [World Government] teammates for ATK Up Lv.4 (18 s), DEF Up Lv.4 (18 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 19% reduction; targets enemies within large range for 2900 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 97% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.9 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.25 damage; targets [Navy] [World Government] teammates for ATK Up Lv.5 (19 s), DEF Up Lv.5 (19 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 20% reduction; targets enemies within large range for 3000 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 100% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 4 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.3 damage; targets [Navy] [World Government] teammates for ATK Up Lv.6 (20 s), DEF Up Lv.6 (20 s)"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "[PSY]/[Five Elders] teammates ATK, RCV Up Lv.2, Special CT Speed Up Lv.1; Slasher/Driven class teammates HP, SPD Up Lv.2, DEF Up Lv.2; [Navy] [World Government] teammates DEF Up Lv.2, Special CT Speed Up Lv.1, Critical % Up Lv.1",
+                festGPSpecial: "Targets all enemies for HP 22% reduction, 4000 damage; targets 3 high ATK enemies for Leader base ATK x 2.5 damage; targets 2 high DEF enemies ignoring DEF for Leader base ATK x 1.2 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[PSY]/[Five Elders] teammates ATK, RCV Up Lv.3, Special CT Speed Up Lv.2; Slasher/Driven class teammates HP, SPD Up Lv.3, DEF Up Lv.3; [Navy] [World Government] teammates DEF Up Lv.3, Special CT Speed Up Lv.1, Critical % Up Lv.2",
+                festGPSpecial: "Targets all enemies for HP 24% reduction, 4500 damage; targets 3 high ATK enemies for Leader base ATK x 3 damage; targets 2 high DEF enemies ignoring DEF for Leader base ATK x 1.4 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[PSY]/[Five Elders] teammates ATK, RCV Up Lv.4, Special CT Speed Up Lv.2; Slasher/Driven class teammates HP, SPD Up Lv.4, DEF Up Lv.3; [Navy] [World Government] teammates DEF Up Lv.3, Special CT Speed Up Lv.1, Critical % Up Lv.3",
+                festGPSpecial: "Targets all enemies for HP 26% reduction, 5000 damage; targets 3 high ATK enemies for Leader base ATK x 3.5 damage; targets 2 high DEF enemies ignoring DEF for Leader base ATK x 1.6 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[PSY]/[Five Elders] teammates ATK, RCV Up Lv.5, Special CT Speed Up Lv.3; Slasher/Driven class teammates HP, SPD Up Lv.5, DEF Up Lv.4; [Navy] [World Government] teammates DEF Up Lv.4, Special CT Speed Up Lv.2, Critical % Up Lv.4",
+                festGPSpecial: "Targets all enemies for HP 28% reduction, 5500 damage; targets 3 high ATK enemies for Leader base ATK x 4 damage; targets 2 high DEF enemies ignoring DEF for Leader base ATK x 1.8 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[PSY]/[Five Elders] teammates ATK, RCV Up Lv.6, Special CT Speed Up Lv.3; Slasher/Driven class teammates HP, SPD Up Lv.6, DEF Up Lv.4; [Navy] [World Government] teammates DEF Up Lv.4, Special CT Speed Up Lv.2, Critical % Up Lv.5",
+                festGPSpecial: "Targets all enemies for HP 30% reduction, 6000 damage; targets 3 high ATK enemies for Leader base ATK x 4.5 damage; targets 2 high DEF enemies ignoring DEF for Leader base ATK x 2 damage",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "When 5 enemies are defeated"
+    },
+    4443: {//6* St. Ethanbaron V. Nusjuro
+        captain: "Boosts [PSY], Driven, and Slasher characters' ATK by 6x, boosts character's ATK by approximately 6.25x, and makes crew's [PSY][RCV] slots have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, reduces crew's Bind duration by 10 turns. If crew uses a Special to boost ATK or slot effects, further increases the effect by +0.5 (stackable with other further raising effects). Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
+        special: "Deals 300x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), and completely removes all enemies' DEF Up. If Captain is a [Five Elders] character when Special is launched and a [PSY] is set as Support for character, applies \"Territory: Driven class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If Captain is a [Five Elders] character when Special is launched and a non-[PSY] is set as Support for character or no Support character is set, applies Set Target status to all enemies for 2 turns<hidden> (Set Target status cannot be affected by immunity to status effects</hidden>. Slasher and Driven characters will deal 1.75x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated by normal attacks and Specials<hidden> (except when defeating with status effects or certain end of turn damage effects)</hidden>) otherwise), then after that, boosts character's ATK up to 5x based on total Cost of crew at start of quest<hidden> including Friend Captains and Support Characters</hidden> and boosts character's slot effects up to 5x based on outcome of Action Special (4x for less than 500 Cost/MISS, 4.25x for 500 or more Cost/GOOD, 4.5x for 600 or more Cost/GREAT, 4.75x for 700 or more Cost/PERFECT, and 5x for 750 or more Cost/EXCELLENT) for 1 turn",
+        specialName: "Gleaming Slash of the War God",
+        sailor: {
+            base: "Boosts Driven characters' base ATK by 175 and makes their [PSY] slots have matching slot effects",
+            level1: "Boosts character's base ATK by 400 when remaining HP is 30% or below"
+        },
+        superSpecialCriteria: "When crew has ATK boost or slot effect boost at 8x or more or receives Over Healing status (can be launched when character is a crewmate)",
+        superSpecial: "Allows crew's ATK boost to be further increased up to 2 times, boosts the chain multiplier by +1.2 for 1 turn, changes [PSY] characters to Super [PSY], and changes Driven characters to Super Driven",
+        support: [
+            {
+                Characters: "Characters with a Cost of 99 or more",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 2 turns",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 3 turns",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 4 turns",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 5 turns",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 6 turns"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Critical Hit" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Boosts character's base ATK by 400 when remaining HP is 30% or below" },
+            { description: "Boosts base RCV by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Last Tap" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns",
+                    "Boosts base ATK by 400 the turn after taking damage and reduces Increase Damage Taken duration by 4 turns",
+                    "Boosts base ATK by 500 the turn after taking damage and reduces Increase Damage Taken duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 15% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "On the turn Special is launched during final Battle",
+            description: [
+                "Changes character's slot to [PSY], and further boosts the chain multiplier of the final tap by 1.25x",
+                "Changes character's slot to [PSY], and further boosts the chain multiplier of the final tap by 1.5x",
+                "Changes character's slot (including [BLOCK] slot) to [PSY], and further boosts the chain multiplier of the final tap by 1.75x",
+                "Changes character's slot (including [BLOCK] slot) to [PSY], and further boosts the chain multiplier of the final tap by 2x",
+                "Changes character's slot (including [BLOCK] slot; ignoring inability to change [S. BLOCK] slots) to [PSY], and further boosts the chain multiplier of the final tap by 2.25x"
+            ]
+        },
+        festStats: {
+            def: 126,
+            spd: 220,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage ignoring DEF by 50%, reduce damage taken from [INT] by 30%",
+        festAbility: [
+            "[PSY]/Slasher class/[Five Elders] teammates ATK Up Lv.3, SPD Up Lv.3; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, self ATK Up Lv.3, Critical % Up Lv.2, Guard % Up Lv.1; all enemies ATK Down Lv.1, SPD Down Lv.3; [Navy] [World Government] teammates SPD Up Lv.1, Critical % Up Lv.1",
+            "[PSY]/Slasher class/[Five Elders] teammates ATK Up Lv.4, SPD Up Lv.4; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, self ATK Up Lv.4, Critical % Up Lv.3, Guard % Up Lv.2; all enemies ATK Down Lv.1, SPD Down Lv.4; [Navy] [World Government] teammates SPD Up Lv.1, Critical % Up Lv.2",
+            "[PSY]/Slasher class/[Five Elders] teammates ATK Up Lv.5, SPD Up Lv.5; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, self ATK Up Lv.5, Critical % Up Lv.4, Guard % Up Lv.3; all enemies ATK Down Lv.2, SPD Down Lv.5; [Navy] [World Government] teammates SPD Up Lv.2, Critical % Up Lv.3",
+            "[PSY]/Slasher class/[Five Elders] teammates ATK Up Lv.6, SPD Up Lv.6; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, self ATK Up Lv.6, Critical % Up Lv.5, Guard % Up Lv.4; all enemies ATK Down Lv.2, SPD Down Lv.6; [Navy] [World Government] teammates SPD Up Lv.2, Critical % Up Lv.4",
+            "[PSY]/Slasher class/[Five Elders] teammates ATK Up Lv.7, SPD Up Lv.7; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, self ATK Up Lv.7, Critical % Up Lv.6, Guard % Up Lv.5; all enemies ATK Down Lv.3, SPD Down Lv.7; [Navy] [World Government] teammates SPD Up Lv.3, Critical % Up Lv.5"
+        ],
+        festSpecial: [
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 11% reduction; targets enemies within large range for 2100 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 73% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.1 damage; targets 2 high DEF enemies ignoring DEF for ATK x 0.85 damage; targets [Navy] [World Government] teammates for ATK Up Lv.1 (11 s), DEF Up Lv.1 (11 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 12% reduction; targets enemies within large range for 2200 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 76% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.2 damage; targets 2 high DEF enemies ignoring DEF for ATK x 0.9 damage; targets [Navy] [World Government] teammates for ATK Up Lv.1 (12 s), DEF Up Lv.1 (12 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 13% reduction; targets enemies within large range for 2300 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 79% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.3 damage; targets 2 high DEF enemies ignoring DEF for ATK x 0.95 damage; targets [Navy] [World Government] teammates for ATK Up Lv.2 (13 s), DEF Up Lv.2 (13 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 14% reduction; targets enemies within large range for 2400 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 82% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.4 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.0 damage; targets [Navy] [World Government] teammates for ATK Up Lv.2 (14 s), DEF Up Lv.2 (14 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 15% reduction; targets enemies within large range for 2500 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 85% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.5 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.05 damage; targets [Navy] [World Government] teammates for ATK Up Lv.3 (15 s), DEF Up Lv.3 (15 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 16% reduction; targets enemies within large range for 2600 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 88% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.6 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.1 damage; targets [Navy] [World Government] teammates for ATK Up Lv.3 (16 s), DEF Up Lv.3 (16 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 17% reduction; targets enemies within large range for 2700 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 91% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.7 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.15 damage; targets [Navy] [World Government] teammates for ATK Up Lv.4 (17 s), DEF Up Lv.4 (17 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 18% reduction; targets enemies within large range for 2800 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 94% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.8 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.2 damage; targets [Navy] [World Government] teammates for ATK Up Lv.4 (18 s), DEF Up Lv.4 (18 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 19% reduction; targets enemies within large range for 2900 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 97% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 3.9 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.25 damage; targets [Navy] [World Government] teammates for ATK Up Lv.5 (19 s), DEF Up Lv.5 (19 s)"
+            },
+            {
+                cooldown: 34,
+                description: "Targets all enemies for HP 20% reduction; targets enemies within large range for 3000 damage; if 5 or more Slasher characters or 5 or more [Five Elders] characters are on the team, targets all enemies for 100% chance of Paralysis (10 s); targets 3 high ATK enemies for ATK x 4 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.3 damage; targets [Navy] [World Government] teammates for ATK Up Lv.6 (20 s), DEF Up Lv.6 (20 s)"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "[PSY]/[Five Elders] teammates ATK, RCV Up Lv.2, Special CT Speed Up Lv.1; Slasher/Driven class teammates HP, SPD Up Lv.2, DEF Up Lv.2; [Navy] [World Government] teammates DEF Up Lv.2, Special CT Speed Up Lv.1, Critical % Up Lv.1",
+                festGPSpecial: "Targets all enemies for HP 22% reduction, 4000 damage; targets 3 high ATK enemies for Leader base ATK x 2.5 damage; targets 2 high DEF enemies ignoring DEF for Leader base ATK x 1.2 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[PSY]/[Five Elders] teammates ATK, RCV Up Lv.3, Special CT Speed Up Lv.2; Slasher/Driven class teammates HP, SPD Up Lv.3, DEF Up Lv.3; [Navy] [World Government] teammates DEF Up Lv.3, Special CT Speed Up Lv.1, Critical % Up Lv.2",
+                festGPSpecial: "Targets all enemies for HP 24% reduction, 4500 damage; targets 3 high ATK enemies for Leader base ATK x 3 damage; targets 2 high DEF enemies ignoring DEF for Leader base ATK x 1.4 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[PSY]/[Five Elders] teammates ATK, RCV Up Lv.4, Special CT Speed Up Lv.2; Slasher/Driven class teammates HP, SPD Up Lv.4, DEF Up Lv.3; [Navy] [World Government] teammates DEF Up Lv.3, Special CT Speed Up Lv.1, Critical % Up Lv.3",
+                festGPSpecial: "Targets all enemies for HP 26% reduction, 5000 damage; targets 3 high ATK enemies for Leader base ATK x 3.5 damage; targets 2 high DEF enemies ignoring DEF for Leader base ATK x 1.6 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[PSY]/[Five Elders] teammates ATK, RCV Up Lv.5, Special CT Speed Up Lv.3; Slasher/Driven class teammates HP, SPD Up Lv.5, DEF Up Lv.4; [Navy] [World Government] teammates DEF Up Lv.4, Special CT Speed Up Lv.2, Critical % Up Lv.4",
+                festGPSpecial: "Targets all enemies for HP 28% reduction, 5500 damage; targets 3 high ATK enemies for Leader base ATK x 4 damage; targets 2 high DEF enemies ignoring DEF for Leader base ATK x 1.8 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[PSY]/[Five Elders] teammates ATK, RCV Up Lv.6, Special CT Speed Up Lv.3; Slasher/Driven class teammates HP, SPD Up Lv.6, DEF Up Lv.4; [Navy] [World Government] teammates DEF Up Lv.4, Special CT Speed Up Lv.2, Critical % Up Lv.5",
+                festGPSpecial: "Targets all enemies for HP 30% reduction, 6000 damage; targets 3 high ATK enemies for Leader base ATK x 4.5 damage; targets 2 high DEF enemies ignoring DEF for Leader base ATK x 2 damage",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "When 5 enemies are defeated"
+    },
+    4444: {//Hound
+        captain: "Boosts Fighter and Driven characters' HP by 1.2x, ATK by 4x, boosts their ATK further for every PERFECT strike in a row (up to approximately 4.5x), and makes crew's [PSY] slots have matching slot effects",
+        special: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, boosts the type effects of normal attack for crew by 2.25x for 1 turn, and changes adjacent slots (including [BLOCK] slots) to [RCV]. If 4 or more [Navy] [World Government] characters are on the crew, further increases crew's type effect boost by +0.5, and extends the duration of crew's ATK and type effect boosts by 2 turns (increase and duration extension also applies to type effect boost from this Special)",
+        specialName: "Tactical Thinking",
+        sailor: {
+            base: "Makes crew's [PSY] slots have matching slot effects",
+            level1: "Reduces character's Special charge time by 2 turns every time another [Navy Vice Admiral] character uses a Special"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire Potential 1: Slot Bind" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire Sailor Ability 2: Reduces character's Special charge time by 2 turns every time another [Navy Vice Admiral] character uses a Special" },
+            { description: "Boosts base HP by 80" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Special Use Limit" },
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Special Use Limit",
+                description: [
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 3 turns"
+                ]
+            }
+        ],
+        festStats: {
+            def: 162,
+            spd: 164,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Damage Over Time, reduce damage taken from [INT] by 20%",
+        festAbility: [
+            "[PSY]/Slasher class teammates HP Up Lv.2, ATK Up Lv.2, DEF Up Lv.1; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.2",
+            "[PSY]/Slasher class teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.1; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.3",
+            "[PSY]/Slasher class teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.2; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.4",
+            "[PSY]/Slasher class teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.2; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.5",
+            "[PSY]/Slasher class teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.3; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies for ATK x 2.6 damage; targets [PSY]/Slasher class teammates for DEF Up Lv.3 (11 s); targets [Navy] [World Government] teammates for ATK Up Lv.3 (11 s); during Assault Rumble, targets Fighter class enemies for DEF Down Lv.4 (11 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies for ATK x 2.7 damage; targets [PSY]/Slasher class teammates for DEF Up Lv.3 (12 s); targets [Navy] [World Government] teammates for ATK Up Lv.3 (12 s); during Assault Rumble, targets Fighter class enemies for DEF Down Lv.4 (12 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies for ATK x 2.8 damage; targets [PSY]/Slasher class teammates for DEF Up Lv.3 (13 s); targets [Navy] [World Government] teammates for ATK Up Lv.3 (13 s); during Assault Rumble, targets Fighter class enemies for DEF Down Lv.4 (13 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies for ATK x 2.9 damage; targets [PSY]/Slasher class teammates for DEF Up Lv.4 (14 s); targets [Navy] [World Government] teammates for ATK Up Lv.4 (14 s); during Assault Rumble, targets Fighter class enemies for DEF Down Lv.5 (14 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies for ATK x 3 damage; targets [PSY]/Slasher class teammates for DEF Up Lv.4 (15 s); targets [Navy] [World Government] teammates for ATK Up Lv.4 (15 s); during Assault Rumble, targets Fighter class enemies for DEF Down Lv.5 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies for ATK x 3.1 damage; targets [PSY]/Slasher class teammates for DEF Up Lv.5 (16 s); targets [Navy] [World Government] teammates for ATK Up Lv.5 (16 s); during Assault Rumble, targets Fighter class enemies for DEF Down Lv.6 (16 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies for ATK x 3.2 damage; targets [PSY]/Slasher class teammates for DEF Up Lv.5 (17 s); targets [Navy] [World Government] teammates for ATK Up Lv.5 (17 s); during Assault Rumble, targets Fighter class enemies for DEF Down Lv.6 (17 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies for ATK x 3.3 damage; targets [PSY]/Slasher class teammates for DEF Up Lv.5 (18 s); targets [Navy] [World Government] teammates for ATK Up Lv.5 (18 s); during Assault Rumble, targets Fighter class enemies for DEF Down Lv.7 (18 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies for ATK x 3.4 damage; targets [PSY]/Slasher class teammates for DEF Up Lv.6 (19 s); targets [Navy] [World Government] teammates for ATK Up Lv.6 (19 s); during Assault Rumble, targets Fighter class enemies for DEF Down Lv.7 (19 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies for ATK x 3.5 damage; targets [PSY]/Slasher class teammates for DEF Up Lv.8 (20 s); targets [Navy] [World Government] teammates for ATK Up Lv.8 (20 s); during Assault Rumble, targets Fighter class enemies for DEF Down Lv.8 (20 s)"
+            }
+        ]
+    },
+    4445: {//Urban
+        captain: "Boosts Shooter and Driven characters' ATK by 4x, HP by 1.4x, and makes their [DEX][RCV] slots have matching slot effects",
+        special: "Reduces crew's ATK Down duration by 6 turns, applies increase damage taken status to all enemies by 1.75x for 1 turn, and changes adjacent slots (including [BLOCK] slots) to [RCV]. If 4 or more [Navy] [World Government] characters are on the crew, extends the duration of crew's slot effect boost by 2 turns, and if crew lands 3 PERFECT strikes in a row in this turn, applies increase damage taken status to all enemies by 1.75x the next turn",
+        specialName: "Observing Egghead",
+        sailor: {
+            base: "Reduces the duration of crew's Remove SFX by 6 turns",
+            level1: "Reduces character's Special charge time by 2 turns every time another [Navy Vice Admiral] character uses a Special"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces crew's ATK Down duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's ATK Down duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's ATK Down duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's ATK Down duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's ATK Down duration by 2 turns"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Acquire Potential 1: Slot Bind" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Reduces character's Special charge time by 2 turns every time another [Navy Vice Admiral] character uses a Special" },
+            { description: "Boosts base HP by 60" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Barrier Penetration" },
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+                ]
+            }
+        ],
+        festStats: {
+            def: 128,
+            spd: 180,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from [QCK] by 20%",
+        festAbility: [
+            "[DEX]/Powerhouse class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.2",
+            "[DEX]/Powerhouse class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.3",
+            "[DEX]/Powerhouse class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.4",
+            "[DEX]/Powerhouse class teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.5",
+            "[DEX]/Powerhouse class teammates HP Up Lv.6, ATK Up Lv.6, SPD Up Lv.6; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 35,
+                description: "Targets 4 enemies for ATK x 2.1 damage; targets [DEX] teammates for ATK Up Lv.3 (11 s); targets [QCK] enemies for ATK Down Lv.1 (11 s); during Assault Rumble, targets [Navy] [World Government] teammates (not including self) for Special CT 11% reduction; targets Cerebral class enemies for ATK x 3.1 damage; targets 1 DBF Style teammate for Action Bind reduction (11 s), 73% chance of Haste"
+            },
+            {
+                cooldown: 35,
+                description: "Targets 4 enemies for ATK x 2.2 damage; targets [DEX] teammates for ATK Up Lv.3 (12 s); targets [QCK] enemies for ATK Down Lv.2 (12 s); during Assault Rumble, targets [Navy] [World Government] teammates (not including self) for Special CT 12% reduction; targets Cerebral class enemies for ATK x 3.2 damage; targets 1 DBF Style teammate for Action Bind reduction (12 s), 76% chance of Haste"
+            },
+            {
+                cooldown: 35,
+                description: "Targets 4 enemies for ATK x 2.3 damage; targets [DEX] teammates for ATK Up Lv.3 (13 s); targets [QCK] enemies for ATK Down Lv.3 (13 s); during Assault Rumble, targets [Navy] [World Government] teammates (not including self) for Special CT 13% reduction; targets Cerebral class enemies for ATK x 3.3 damage; targets 1 DBF Style teammate for Action Bind reduction (13 s), 79% chance of Haste"
+            },
+            {
+                cooldown: 35,
+                description: "Targets 4 enemies for ATK x 2.4 damage; targets [DEX] teammates for ATK Up Lv.4 (14 s); targets [QCK] enemies for ATK Down Lv.4 (14 s); during Assault Rumble, targets [Navy] [World Government] teammates (not including self) for Special CT 14% reduction; targets Cerebral class enemies for ATK x 3.4 damage; targets 1 DBF Style teammate for Action Bind reduction (14 s), 82% chance of Haste"
+            },
+            {
+                cooldown: 35,
+                description: "Targets 4 enemies for ATK x 2.5 damage; targets [DEX] teammates for ATK Up Lv.4 (15 s); targets [QCK] enemies for ATK Down Lv.5 (15 s); during Assault Rumble, targets [Navy] [World Government] teammates (not including self) for Special CT 15% reduction; targets Cerebral class enemies for ATK x 3.5 damage; targets 1 DBF Style teammate for Action Bind reduction (15 s), 85% chance of Haste"
+            },
+            {
+                cooldown: 35,
+                description: "Targets 4 enemies for ATK x 2.6 damage; targets [DEX] teammates for ATK Up Lv.5 (16 s); targets [QCK] enemies for ATK Down Lv.6 (16 s); during Assault Rumble, targets [Navy] [World Government] teammates (not including self) for Special CT 16% reduction; targets Cerebral class enemies for ATK x 3.6 damage; targets 1 DBF Style teammate for Action Bind reduction (16 s), 88% chance of Haste"
+            },
+            {
+                cooldown: 35,
+                description: "Targets 4 enemies for ATK x 2.7 damage; targets [DEX] teammates for ATK Up Lv.5 (17 s); targets [QCK] enemies for ATK Down Lv.7 (17 s); during Assault Rumble, targets [Navy] [World Government] teammates (not including self) for Special CT 17% reduction; targets Cerebral class enemies for ATK x 3.7 damage; targets 1 DBF Style teammate for Action Bind reduction (17 s), 91% chance of Haste"
+            },
+            {
+                cooldown: 35,
+                description: "Targets 4 enemies for ATK x 2.8 damage; targets [DEX] teammates for ATK Up Lv.5 (18 s); targets [QCK] enemies for ATK Down Lv.8 (18 s); during Assault Rumble, targets [Navy] [World Government] teammates (not including self) for Special CT 18% reduction; targets Cerebral class enemies for ATK x 3.8 damage; targets 1 DBF Style teammate for Action Bind reduction (18 s), 94% chance of Haste"
+            },
+            {
+                cooldown: 35,
+                description: "Targets 4 enemies for ATK x 2.9 damage; targets [DEX] teammates for ATK Up Lv.6 (19 s); targets [QCK] enemies for ATK Down Lv.9 (19 s); during Assault Rumble, targets [Navy] [World Government] teammates (not including self) for Special CT 19% reduction; targets Cerebral class enemies for ATK x 3.9 damage; targets 1 DBF Style teammate for Action Bind reduction (19 s), 97% chance of Haste"
+            },
+            {
+                cooldown: 35,
+                description: "Targets 4 enemies for ATK x 3 damage; targets [DEX] teammates for ATK Up Lv.8 (20 s); targets [QCK] enemies for ATK Down Lv.10 (20 s); during Assault Rumble, targets [Navy] [World Government] teammates (not including self) for Special CT 20% reduction; targets Cerebral class enemies for ATK x 4 damage; targets 1 DBF Style teammate for Action Bind reduction (20 s), 100% chance of Haste"
+            }
+        ]
+    },
+    4446: {//Pomsky
+        captain: "Boosts Striker and Driven characters' ATK by 4x, HP by 1.2x, reduces damage taken by 10%, and makes Striker and Driven characters' [INT][RCV] slots have matching slot effects",
+        special: "Reduces crew's Special charge time by 1 turn, and reduces crew's Bind/Despair duration by 6 turns. If 4 or more [Navy] [World Government] characters are on the crew, completely removes crew's Stun, heals crew by 10x character's RCV at end of turn for 6 turns, and reduces character's Special charge time by 7 turns (Special charge time reduction effect of \"Plotting the Course\" can be activated up to 1 time including any Specials with similar effect)",
+        specialName: "Plotting the Course",
+        sailor: {
+            base: "Reduces character's Special Reverse by 2 turns",
+            level1: "Reduces character's Special charge time by 2 turns every time another [Navy Vice Admiral] character uses a Special"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces crew's Bind duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's Bind duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's Bind duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's Bind duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's Bind duration by 2 turns"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Reduces character's Special charge time by 2 turns every time another [Navy Vice Admiral] character uses a Special" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Acquire Potential 2: Slot Bind" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 175 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            }
+        ],
+        festStats: {
+            def: 291,
+            spd: 113,
+            style: "DEF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Heal Self Lv.2"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Heal 200 HP at an interval, reduce damage taken from [PSY] by 20%",
+        festAbility: [
+            "[INT]/Striker class teammates HP Up Lv.1, ATK Up Lv.1, SPD Up Lv.1, DEF Up Lv.1; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.2",
+            "[INT]/Striker class teammates HP Up Lv.1, ATK Up Lv.1, SPD Up Lv.1, DEF Up Lv.1; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.3",
+            "[INT]/Striker class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2, DEF Up Lv.2; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.4",
+            "[INT]/Striker class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3, DEF Up Lv.2; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.5",
+            "[INT]/Striker class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4, DEF Up Lv.3; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 31,
+                description: "Targets 3 enemies for ATK Down Lv.3 (11 s); targets [INT] teammates for Shield Lv.1 (15 s); targets [Navy] [World Government] teammates for ATK x 3.1 Counter stance (11 s); during Assault Rumble, targets 3 Slasher class enemies for DEF Down Lv.4 (11 s); targets [Navy] [World Government] teammates for ATK Up Lv.4 (11 s)"
+            },
+            {
+                cooldown: 31,
+                description: "Targets 3 enemies for ATK Down Lv.3 (12 s); targets [INT] teammates for Shield Lv.1 (15 s); targets [Navy] [World Government] teammates for ATK x 3.2 Counter stance (12 s); during Assault Rumble, targets 3 Slasher class enemies for DEF Down Lv.4 (12 s); targets [Navy] [World Government] teammates for ATK Up Lv.4 (12 s)"
+            },
+            {
+                cooldown: 31,
+                description: "Targets 3 enemies for ATK Down Lv.3 (13 s); targets [INT] teammates for Shield Lv.1 (15 s); targets [Navy] [World Government] teammates for ATK x 3.3 Counter stance (13 s); during Assault Rumble, targets 3 Slasher class enemies for DEF Down Lv.4 (13 s); targets [Navy] [World Government] teammates for ATK Up Lv.4 (13 s)"
+            },
+            {
+                cooldown: 31,
+                description: "Targets 3 enemies for ATK Down Lv.4 (14 s); targets [INT] teammates for Shield Lv.1 (15 s); targets [Navy] [World Government] teammates for ATK x 3.4 Counter stance (14 s); during Assault Rumble, targets 3 Slasher class enemies for DEF Down Lv.5 (14 s); targets [Navy] [World Government] teammates for ATK Up Lv.5 (14 s)"
+            },
+            {
+                cooldown: 31,
+                description: "Targets 3 enemies for ATK Down Lv.4 (15 s); targets [INT] teammates for Shield Lv.1 (15 s); targets [Navy] [World Government] teammates for ATK x 3.5 Counter stance (15 s); during Assault Rumble, targets 3 Slasher class enemies for DEF Down Lv.5 (15 s); targets [Navy] [World Government] teammates for ATK Up Lv.5 (15 s)"
+            },
+            {
+                cooldown: 31,
+                description: "Targets 3 enemies for ATK Down Lv.5 (16 s); targets [INT] teammates for Shield Lv.2 (15 s); targets [Navy] [World Government] teammates for ATK x 3.6 Counter stance (16 s); during Assault Rumble, targets 3 Slasher class enemies for DEF Down Lv.6 (16 s); targets [Navy] [World Government] teammates for ATK Up Lv.6 (16 s)"
+            },
+            {
+                cooldown: 31,
+                description: "Targets 3 enemies for ATK Down Lv.5 (17 s); targets [INT] teammates for Shield Lv.2 (15 s); targets [Navy] [World Government] teammates for ATK x 3.7 Counter stance (17 s); during Assault Rumble, targets 3 Slasher class enemies for DEF Down Lv.6 (17 s); targets [Navy] [World Government] teammates for ATK Up Lv.6 (17 s)"
+            },
+            {
+                cooldown: 31,
+                description: "Targets 3 enemies for ATK Down Lv.5 (18 s); targets [INT] teammates for Shield Lv.2 (15 s); targets [Navy] [World Government] teammates for ATK x 3.8 Counter stance (18 s); during Assault Rumble, targets 3 Slasher class enemies for DEF Down Lv.6 (18 s); targets [Navy] [World Government] teammates for ATK Up Lv.6 (18 s)"
+            },
+            {
+                cooldown: 31,
+                description: "Targets 3 enemies for ATK Down Lv.6 (19 s); targets [INT] teammates for Shield Lv.2 (15 s); targets [Navy] [World Government] teammates for ATK x 3.9 Counter stance (19 s); during Assault Rumble, targets 3 Slasher class enemies for DEF Down Lv.7 (19 s); targets [Navy] [World Government] teammates for ATK Up Lv.7 (19 s)"
+            },
+            {
+                cooldown: 31,
+                description: "Targets 3 enemies for ATK Down Lv.8 (20 s); targets [INT] teammates for Shield Lv.3 (15 s); targets [Navy] [World Government] teammates for ATK x 4 Counter stance (20 s); during Assault Rumble, targets 3 Slasher class enemies for DEF Down Lv.8 (20 s); targets [Navy] [World Government] teammates for ATK Up Lv.8 (20 s)"
+            }
+        ]
+    },
+    4447: {//5* PKA Luffy
+        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts crew's ATK by 3.5x, HP by 1.25x, and reduces character's Special Bind duration by 6 turns",
+        special: "Reduces crew's Special Bind duration by 6 turns, and boosts crew's base ATK by +1250 for 1 turn. If 3 or more [Worst Generation] characters are on the crew, reduces all enemies' damage reduction from certain slots effect duration by 2 turns. If 5 or more [Straw Hat Pirates] [Worst Generation] [Egghead Arc] characters are on the crew, boosts Free Spirit characters' advantageous class effect by 1.5x for 1 turn",
+        specialName: "Vanquishing Gum-Gum Dawn Rocket",
+        sailor: {
+            base: "Boosts crew's base stats by 100",
+            level1: "Reduces character's Special Bind duration by 6 turns"
+        },
+        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Bartholomew Kuma, Trafalgar Law, Eustass Kid",
+        superSpecial: "Completely removes character's Despair, reduces character's Special charge time by 1 turn, changes character's slot (including [BLOCK] slot) to [STR], applies \"Territory: [STR]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn, and changes [STR] characters to Super [STR]",
+        support: [
+            {
+                Characters: "All characters",
+                description: [
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 5% of character's base stats to supported character's base stats",
+                    "Adds 6% of character's base stats to supported character's base stats",
+                    "Adds 7% of character's base stats to supported character's base stats"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 1: Slot Bind" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base HP by 50" },
+            { description: "Acquire Potential 2: Enrage/Increase Damage Taken" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Acquire Potential 3: Damage Limit Break: Type" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Acquire Sailor Ability 2: Reduces character's Special Bind duration by 6 turns" },
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ],
+        festStats: {
+            def: 125,
+            spd: 179,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "60% chance to evade Special Bind",
+        festAbility: [
+            "[STR] teammates ATK Up Lv.1, SPD Up Lv.1; if 6 or more [STR] characters are on the team, [STR] teammates DEF Up Lv.1",
+            "[STR] teammates ATK Up Lv.2, SPD Up Lv.2; if 6 or more [STR] characters are on the team, [STR] teammates DEF Up Lv.1",
+            "[STR] teammates ATK Up Lv.3, SPD Up Lv.3; if 6 or more [STR] characters are on the team, [STR] teammates DEF Up Lv.1",
+            "[STR] teammates ATK Up Lv.4, SPD Up Lv.4; if 6 or more [STR] characters are on the team, [STR] teammates DEF Up Lv.1",
+            "[STR] teammates ATK Up Lv.5, SPD Up Lv.5; if 6 or more [STR] characters are on the team, [STR] teammates DEF Up Lv.1"
+        ],
+        festSpecial: [
+            {
+                cooldown: 34,
+                description: "Targets self for ATK Up Lv.1 (11 s), SPD Up Lv.1 (11 s), Special CT Speed Up Lv.1 (11 s); targets 2 high ATK enemies for ATK x 1.1 damage"
+            },
+            {
+                cooldown: 34,
+                description: "Targets self for ATK Up Lv.1 (11 s), SPD Up Lv.1 (11 s), Special CT Speed Up Lv.1 (11 s); targets 2 high ATK enemies for ATK x 1.2 damage"
+            },
+            {
+                cooldown: 34,
+                description: "Targets self for ATK Up Lv.1 (12 s), SPD Up Lv.1 (12 s), Special CT Speed Up Lv.1 (12 s); targets 2 high ATK enemies for ATK x 1.3 damage"
+            },
+            {
+                cooldown: 34,
+                description: "Targets self for ATK Up Lv.1 (12 s), SPD Up Lv.1 (12 s), Special CT Speed Up Lv.1 (12 s); targets 2 high ATK enemies for ATK x 1.4 damage"
+            },
+            {
+                cooldown: 34,
+                description: "Targets self for ATK Up Lv.1 (13 s), SPD Up Lv.1 (13 s), Special CT Speed Up Lv.1 (13 s); targets 2 high ATK enemies for ATK x 1.5 damage"
+            },
+            {
+                cooldown: 34,
+                description: "Targets self for ATK Up Lv.2 (13 s), SPD Up Lv.2 (13 s), Special CT Speed Up Lv.2 (13 s); targets 2 high ATK enemies for ATK x 1.6 damage"
+            },
+            {
+                cooldown: 34,
+                description: "Targets self for ATK Up Lv.2 (14 s), SPD Up Lv.2 (14 s), Special CT Speed Up Lv.2 (14 s); targets 2 high ATK enemies for ATK x 1.7 damage"
+            },
+            {
+                cooldown: 34,
+                description: "Targets self for ATK Up Lv.2 (14 s), SPD Up Lv.2 (14 s), Special CT Speed Up Lv.2 (14 s); targets 2 high ATK enemies for ATK x 1.8 damage"
+            },
+            {
+                cooldown: 34,
+                description: "Targets self for ATK Up Lv.2 (15 s), SPD Up Lv.2 (15 s), Special CT Speed Up Lv.2 (15 s); targets 2 high ATK enemies for ATK x 1.9 damage"
+            },
+            {
+                cooldown: 34,
+                description: "Targets self for ATK Up Lv.3 (15 s), SPD Up Lv.3 (15 s), Special CT Speed Up Lv.3 (15 s); targets 2 high ATK enemies for ATK x 2 damage"
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
