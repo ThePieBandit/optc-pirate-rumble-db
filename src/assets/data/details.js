@@ -59147,7 +59147,7 @@ window.details = {
     },
     2531: {//Zoro&Sanji
         captain: {
-            character1: "Boosts ATK of Slasher and Fighter characters by 2.75x, by 3.3x instead if any enemies were defeated in the previous turn, and makes [DEX] orbs beneficial for Slasher and Fighter characters. ",
+            character1: "Boosts ATK of Slasher and Fighter characters by 2.75x, by 3.3x instead if any enemies were defeated in the previous turn, and makes [DEX] orbs beneficial for Slasher and Fighter characters.",
             character2: "Boosts ATK of Slasher and Fighter characters by 2.75x, recovers 2x character's RCV in HP at the end of each turn and makes [QCK] orbs beneficial for Slasher and Fighter characters.",
             combined: "Boosts ATK of Slasher and Fighter characters by 3.75x and makes [DEX], [QCK], [RCV] and [TND] orbs beneficial for Slasher and Fighter characters."
         },
@@ -95876,14 +95876,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Nutrition/Reduce Hunger stacks",
@@ -95989,14 +95989,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Reduce No Healing duration",
@@ -96121,14 +96121,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Enrage/Reduce Increase Damage Taken duration",
@@ -102383,14 +102383,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Nutrition/Reduce Hunger stacks",
@@ -102511,14 +102511,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Nutrition/Reduce Hunger stacks",
@@ -108033,13 +108033,13 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
                 ]
             },
         ],
@@ -108158,14 +108158,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -111259,14 +111259,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -114321,14 +114321,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -114419,14 +114419,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Pinch Healing",
@@ -114809,14 +114809,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -114881,14 +114881,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -115350,14 +115350,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -115432,14 +115432,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -118902,14 +118902,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -120717,14 +120717,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -121931,14 +121931,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -122121,14 +122121,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -122193,14 +122193,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -122265,14 +122265,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -122347,14 +122347,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Critical Hit",
@@ -123565,14 +123565,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -126414,14 +126414,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Super Tandem",
@@ -126664,14 +126664,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -128260,14 +128260,14 @@ window.details = {
         ],
         potential: [
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
             {
                 Name: "Nutrition/Reduce Hunger stacks",
@@ -128448,14 +128448,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -129392,14 +129392,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -130017,14 +130017,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -130597,14 +130597,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -130712,14 +130712,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -132363,14 +132363,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -132471,14 +132471,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -133156,14 +133156,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -134225,14 +134225,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -134517,14 +134517,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -134656,14 +134656,14 @@ window.details = {
                 ]
             },
             {
-                Name: "Last Tap",
-                description: [
-                    "Last Tap Ability Lv.1",
-                    "Last Tap Ability Lv.2",
-                    "Last Tap Ability Lv.3",
-                    "Last Tap Ability Lv.4",
-                    "Last Tap Ability Lv.5"
-                ]
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
             },
         ],
         lastTap: {
@@ -136004,8 +136004,8 @@ window.details = {
         specialNotes: "Minimum 2.75, maximum 40.0 for 0 or more HP; minimum 3.0, maximum 40.0 for 20,000 or more HP; minimum 3.25, maximum 40.0 for 50,000 or more HP",
         specialName: "Girl Talk in the Bath",
         swap: {
-            base: "Removes Special Bind duration completely on this character, reduces enemies' Increased Defense duration by 1 turn, reduces enemies' [INT] and [DEX] Resistance by -15% for 1 turn, changes the orb of this character into a [RCV] orb and recovers 2,000 HP at the end of each turn for 1 turn ",
-            super: "Removes Special Bind duration completely on this character, reduces enemies' Increased Defense duration by 3 turns, reduces enemies' [INT] and [DEX] Resistance by -30% for 1 turn, changes the orb of this character into a [RCV] orb and recovers 7,000 HP at the end of each turn for 1 turn ",
+            base: "Removes Special Bind duration completely on this character, reduces enemies' Increased Defense duration by 1 turn, reduces enemies' [INT] and [DEX] Resistance by -15% for 1 turn, changes the orb of this character into a [RCV] orb and recovers 2,000 HP at the end of each turn for 1 turn.",
+            super: "Removes Special Bind duration completely on this character, reduces enemies' Increased Defense duration by 3 turns, reduces enemies' [INT] and [DEX] Resistance by -30% for 1 turn, changes the orb of this character into a [RCV] orb and recovers 7,000 HP at the end of each turn for 1 turn.",
             superTurns: 4
         }
     },
@@ -136023,8 +136023,8 @@ window.details = {
         specialNotes: "Minimum 2.75, maximum 40.0 for 0 or more HP; minimum 3.0, maximum 40.0 for 20,000 or more HP; minimum 3.25, maximum 40.0 for 50,000 or more HP",
         specialName: "Girl Talk in the Bath",
         swap: {
-            base: "Removes Special Bind duration completely on this character, reduces enemies' Increased Defense duration by 1 turn, reduces enemies' [INT] and [DEX] Resistance by -15% for 1 turn, changes the orb of this character into a [RCV] orb and recovers 2,000 HP at the end of each turn for 1 turn ",
-            super: "Removes Special Bind duration completely on this character, reduces enemies' Increased Defense duration by 3 turns, reduces enemies' [INT] and [DEX] Resistance by -30% for 1 turn, changes the orb of this character into a [RCV] orb and recovers 7,000 HP at the end of each turn for 1 turn ",
+            base: "Removes Special Bind duration completely on this character, reduces enemies' Increased Defense duration by 1 turn, reduces enemies' [INT] and [DEX] Resistance by -15% for 1 turn, changes the orb of this character into a [RCV] orb and recovers 2,000 HP at the end of each turn for 1 turn.",
+            super: "Removes Special Bind duration completely on this character, reduces enemies' Increased Defense duration by 3 turns, reduces enemies' [INT] and [DEX] Resistance by -30% for 1 turn, changes the orb of this character into a [RCV] orb and recovers 7,000 HP at the end of each turn for 1 turn.",
             superTurns: 4
         },
         limit: [
@@ -139706,11 +139706,11 @@ window.details = {
             {
                 Characters: "Kaido, Kurozumi Orochi",
                 description: [
-                    "Once per adventure, when an enemy inflicts you with ATK DOWN, randomizes supported character's orb into either [STR], [DEX], [QCK], [PSY] or [INT] orbs",
-                    "Once per adventure, when an enemy inflicts you with ATK DOWN, randomizes supported character's orb into either [STR], [DEX], [QCK], [PSY] or [INT] orbs",
-                    "Once per adventure, when an enemy inflicts you with ATK DOWN, changes the orb of the supported character into a [STR] orb ",
-                    "Once per adventure, when an enemy inflicts you with ATK DOWN, changes the orb of the supported character into a [STR] orb ",
-                    "Once per adventure, when an enemy inflicts you with ATK DOWN, changes the orb of the supported character into a [WANO] orb "
+                    "Once per adventure, when an enemy inflicts you with ATK DOWN, randomizes supported character's orb into either [STR], [DEX], [QCK], [PSY] or [INT] orbs.",
+                    "Once per adventure, when an enemy inflicts you with ATK DOWN, randomizes supported character's orb into either [STR], [DEX], [QCK], [PSY] or [INT] orbs.",
+                    "Once per adventure, when an enemy inflicts you with ATK DOWN, changes the orb of the supported character into a [STR] orb.",
+                    "Once per adventure, when an enemy inflicts you with ATK DOWN, changes the orb of the supported character into a [STR] orb.",
+                    "Once per adventure, when an enemy inflicts you with ATK DOWN, changes the orb of the supported character into a [WANO] orb."
                 ]
             }
         ]
@@ -144193,11 +144193,11 @@ window.details = {
         ],
         rush: {
             characterCondition: [
-                "On the last Stage, if character performs the 2nd or 3rd tap of an attack, and any 2 of the following, excluding Supports and counting only 1 per unit: Silvers Rayleigh, Scopper Gaban, Crocus, Shanks, Buggy, Kozuki Momonosuke, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Kanjuro, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Edward Newgate (Whitebeard), Portgas D. Ace ",
-                "On the last Stage, if character performs the 2nd or 3rd tap of an attack, and any 2 of the following, excluding Supports and counting only 1 per unit: Silvers Rayleigh, Scopper Gaban, Crocus, Shanks, Buggy, Kozuki Momonosuke, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Kanjuro, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Edward Newgate (Whitebeard), Portgas D. Ace ",
-                "On the last Stage, if character performs the 2nd or 3rd tap of an attack, and any 2 of the following, excluding Supports and counting only 1 per unit: Silvers Rayleigh, Scopper Gaban, Crocus, Shanks, Buggy, Kozuki Momonosuke, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Kanjuro, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Edward Newgate (Whitebeard), Portgas D. Ace ",
-                "On the last Stage, if character performs the 2nd or 3rd tap of an attack, and any 2 of the following, excluding Supports and counting only 1 per unit: Silvers Rayleigh, Scopper Gaban, Crocus, Shanks, Buggy, Kozuki Momonosuke, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Kanjuro, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Edward Newgate (Whitebeard), Portgas D. Ace ",
-                "On the last Stage, if character performs the 2nd or 3rd tap of an attack, and any 2 of the following, excluding Supports and counting only 1 per unit: Silvers Rayleigh, Scopper Gaban, Crocus, Shanks, Buggy, Kozuki Momonosuke, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Kanjuro, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Edward Newgate (Whitebeard), Portgas D. Ace "
+                "On the last Stage, if character performs the 2nd or 3rd tap of an attack, and any 2 of the following, excluding Supports and counting only 1 per unit: Silvers Rayleigh, Scopper Gaban, Crocus, Shanks, Buggy, Kozuki Momonosuke, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Kanjuro, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Edward Newgate (Whitebeard), Portgas D. Ace",
+                "On the last Stage, if character performs the 2nd or 3rd tap of an attack, and any 2 of the following, excluding Supports and counting only 1 per unit: Silvers Rayleigh, Scopper Gaban, Crocus, Shanks, Buggy, Kozuki Momonosuke, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Kanjuro, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Edward Newgate (Whitebeard), Portgas D. Ace",
+                "On the last Stage, if character performs the 2nd or 3rd tap of an attack, and any 2 of the following, excluding Supports and counting only 1 per unit: Silvers Rayleigh, Scopper Gaban, Crocus, Shanks, Buggy, Kozuki Momonosuke, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Kanjuro, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Edward Newgate (Whitebeard), Portgas D. Ace",
+                "On the last Stage, if character performs the 2nd or 3rd tap of an attack, and any 2 of the following, excluding Supports and counting only 1 per unit: Silvers Rayleigh, Scopper Gaban, Crocus, Shanks, Buggy, Kozuki Momonosuke, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Kanjuro, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Edward Newgate (Whitebeard), Portgas D. Ace",
+                "On the last Stage, if character performs the 2nd or 3rd tap of an attack, and any 2 of the following, excluding Supports and counting only 1 per unit: Silvers Rayleigh, Scopper Gaban, Crocus, Shanks, Buggy, Kozuki Momonosuke, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Kanjuro, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Edward Newgate (Whitebeard), Portgas D. Ace"
             ],
             description: [
                 "Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn and boosts Finish Tap ATK of [QCK], Slasher and Striker characters by 1.1x-1.6x for 1 turn. Slasher, Striker, and [QCK] characters",
@@ -150406,7 +150406,7 @@ window.details = {
 		captainNotes: "Attacks are still affected by DEF value. DEF boost buffs (Blue shield) still reduce your damage and you can not kill through Resilience, but Damage Negating (Yellow shield), % Damage Reduction (Rainbow shield), Barriers and Threshold Damage Reduction are ignored. Enemy attacks will go through YOUR defensive buffs.",
         special: "Deals 80x character's ATK in Typeless Fixed True damage to all enemies, delays all enemies by 1 turn, changes orbs, including [BLOCK] orbs, of adjacent characters into Matching orbs, carries over 0.1x-1.5x of Chain Multiplier on this turn to the next turn, reduces enemies' Damage Nullification duration by 1 turn, and reduces enemies' Damage Nullification effect by 30%. If your Captain is a [DEX] or [INT] character, inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn; if during that turn you score 3 PERFECT hits, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn in the following turn.",
 		specialNotes: "Carried-over chain amount is equal to 0.1 ✕ final chain multiplier this turn and will be added into the next turn's chain multiplier. In order to get +1.5 Chain carried over, you need to reach 15x or higher Chain Multiplier.",
-		specialName: "Tremor Crush ",
+		specialName: "Tremor Crush",
 		sailor: {
 			base: "Boosts base HP of [DEX] and [INT] characters by 83, and reduces Special Cooldown of this character by 1 turn after each turn you take damage.",
 			level1: "Boosts base ATK of [DEX] and [INT] characters by 83, and reduces Paralysis duration by 1 turn."
@@ -152647,7 +152647,7 @@ window.details = {
         ]
     },
 	4178: {//Gin
-		captain: "Boosts ATK of [PSY] characters by 3x, and boosts HP of [PSY] characters by 1.1x. ",
+		captain: "Boosts ATK of [PSY] characters by 3x, and boosts HP of [PSY] characters by 1.1x.",
 		special: "Reduces Special Cooldown of Striker characters by 1 turn, reduces enemies' Increased Defense duration by 4 turns, and deals 50x character's ATK in [PSY] damage to one enemy.",
 		specialName: "Shedding Tears of Gratitude",
 		sailor: "Boosts base ATK of [PSY] characters by 100.",
@@ -160363,7 +160363,7 @@ window.details = {
 		]
 	},
 	4279: {//Orochi & Kanjuro
-		captain: "Reduces Special Cooldown of Driven and Powerhouse characters by 1 turn at the start of the fight, boosts ATK of Driven and Powerhouse characters by 3.5x, and boosts amount of Beli received by 2x. ",
+		captain: "Reduces Special Cooldown of Driven and Powerhouse characters by 1 turn at the start of the fight, boosts ATK of Driven and Powerhouse characters by 3.5x, and boosts amount of Beli received by 2x.",
 		special: "Deals 50x character's ATK in Typeless damage to all enemies, recovers 5x character's RCV in HP at the end of each turn for 3 turns, reduces enemies' Threshold Damage Reduction duration by 6 turns, and increases Chain Tap Timing Bonus of Driven and Powerhouse characters to +0.3x-0.5x, preventing buff clears, for 2 turns depending on Tap Timing. If this character is your Captain, Friend/Guest Captain or was Captain at start of adventure and is crewmate when the Special is activated, increases boost effects of Chain Tap Timing Bonus buffs by +0.2x, including effects activated in the same Ability.",
 		specialName: "Extensive Dark Grudge",
 		sailor: {
@@ -167900,7 +167900,7 @@ window.details = {
 		captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [PSY], Slasher and Striker characters by 5x, by 6x instead if they have a beneficial orb, boosts RCV of [PSY], Slasher and Striker characters by 1.35x, and boosts amount of Beli received by 4x. If your crew has 4+ [Straw Hat Pirates] characters, reduces Bind and Despair duration by 3 turns.",
 		special: [
 			{
-				description: "Reduces enemies' Percent Damage Reduction and Increased Defense duration by 6 turns, and changes all orbs, including [BLOCK] orbs, into [TND] orbs. If your Captain is a Slasher or Striker character and your crew has 3+ [Straw Hat Pirates] characters, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.25x for 3 turns; if your Captain is a Slasher or Striker character, inflicts all enemies with Increase Damage Taken by 2.25x for 3 turns. ",
+				description: "Reduces enemies' Percent Damage Reduction and Increased Defense duration by 6 turns, and changes all orbs, including [BLOCK] orbs, into [TND] orbs. If your Captain is a Slasher or Striker character and your crew has 3+ [Straw Hat Pirates] characters, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.25x for 3 turns; if your Captain is a Slasher or Striker character, inflicts all enemies with Increase Damage Taken by 2.25x for 3 turns.",
 				cooldown: [ 13, 8 ]
 			},
 			{
@@ -171589,7 +171589,7 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "When your crew has a Critical Hit Rate buff ",
+            condition: "When your crew has a Critical Hit Rate buff",
             description: [
                 "Boosts base ATK of this character by 1,000 for 1 turn.",
                 "Boosts base ATK of this character by 1,250 for 1 turn.",
@@ -173593,11 +173593,11 @@ window.details = {
             {
                 Name: "Damage Limit Break: Class",
                 description: [
-                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6"
                 ]
             },
             {
@@ -173948,11 +173948,11 @@ window.details = {
             {
                 Name: "Damage Limit Break: Type",
                 description: [
-                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6"
                 ]
             }
         ]
@@ -174154,10 +174154,11 @@ window.details = {
         ]
     },
     4440: {//5* St. Shepherd Ju Peter
-        captain: "Boosts [DEX], Driven, and Powerhouse characters' ATK by 6x, and makes crew's [DEX][RCV] slots have matching slot effects. If crew has Orb Boost status and crew launches Specials to boost slot effects, treats the boost as a \"further raising effect\" (this Captain Ability effect does not stack, and each further raising effect launches only 1 time per 1 Special, it cannot be further raised or stacked). If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x and HP by 2x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and crew has Orb Boost status at 10x or more, makes character's normal attacks effective against all enemy types. Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
-        special: "Reduces all enemies' HP by 10% (ignoring all defensive effects and Non-Normal Attacks Deal 1 Damage effect), and completely removes all enemies' Threshold Damage Reduction. If a [DEX] is set as Support for character, applies \"Territory: Driven class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns (applies \"Territory: Powerhouse class\" to the field for 3 turns otherwise). Boosts Driven and Powerhouse characters' slot effects up to 5x based on total Cost of crew at start of quest<hidden> including Friend Captains and Support Characters</hidden> (4x for less than 500 Cost, 4.25x for 500 or more Cost, 4.5x for 600 or more Cost, 4.75x for 700 or more Cost, and 5x for 750 or more Cost) for 1 turn. Further increases crew's ATK boost by up to 1.5x based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5 for EXCELLENT; maximum value is 15x). If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn<hidden> (effect cannot stack; if HP is above max limit, it is treated as being full HP)</hidden>",
+        captain: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 15 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [DEX], Driven and Powerhouse characters by 6x, by 6.6x instead if they have the applicable tag, boosts HP of [Five Elders], [Celestial Dragon] and [Navy] characters by 2x, and makes [DEX] and [RCV] orbs beneficial for all characters. If your crew has Orb Amplification and uses a special with an Orb Amplification buff, increases boost effects of Orb Amplification buffs by +?x, equal to the value of the special. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.3x instead, and boosts ATK of [DEX], Driven and Powerhouse characters by 7.8x instead if they have the applicable tag. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters and your crew has Orb Amplification buff with an effect of 10x or more, makes this character's normal attacks count as Type Effective against all Types.",
+        special: "Deals 10% of enemies' current HP in True damage, ignoring Normal Attack Only, to all enemies, and removes enemies' Threshold Damage Reduction duration completely. If a [DEX] character is supporting this character, applies Territory: Driven class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns; applies Territory: Powerhouse class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns otherwise. Boosts Orb Effects of Driven and Powerhouse characters by 4x-5x for 1 turn depending on the total Cost of crew, including Friend Captain and Supports, at the start of the fight. Increases boost effects of ATK Up buffs by 1.1x-1.5x (up to 15x) depending on the outcome of Action Special. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters, allows HP Overfill up to 2x MAX HP for 1 turn.",
+        specialNotes: "<br><b>Orb Amplification:</b> 499-: 4x, 500-599: 4.25x, 600-699: 4.5x, 700-749: 4.75x, 750+: 5x<br><b>ATK Up:</b> MISS: 1.1x, GOOD: 1.2x, GREAT: 1.3x, PERFECT: 1.4x, EXCELLENT 1.5x",
         specialName: "Slamming Charge of the War God",
-        sailor: "Boosts Driven characters' base stats by 150 and makes their [DEX] slots have matching slot effects",
+        sailor: "Boosts base ATK, HP and RCV of Driven characters by 150. Makes [DEX] orbs beneficial for Driven characters.",
         festStats: {
             def: 231,
             spd: 141,
@@ -174250,24 +174251,25 @@ window.details = {
         festAbilityGPCondition: "After applying status effects 7 times"
     },
     4441: {//6* St. Shepherd Ju Peter
-        captain: "Boosts [DEX], Driven, and Powerhouse characters' ATK by 6x, and makes crew's [DEX][RCV] slots have matching slot effects. If crew has Orb Boost status and crew launches Specials to boost slot effects, treats the boost as a \"further raising effect\" (this Captain Ability effect does not stack, and each further raising effect launches only 1 time per 1 Special, it cannot be further raised or stacked). If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x and HP by 2x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and crew has Orb Boost status at 10x or more, makes character's normal attacks effective against all enemy types. Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
-        special: "Reduces all enemies' HP by 10% (ignoring all defensive effects and Non-Normal Attacks Deal 1 Damage effect), and completely removes all enemies' Threshold Damage Reduction. If a [DEX] is set as Support for character, applies \"Territory: Driven class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns (applies \"Territory: Powerhouse class\" to the field for 3 turns otherwise). Boosts Driven and Powerhouse characters' slot effects up to 5x based on total Cost of crew at start of quest<hidden> including Friend Captains and Support Characters</hidden> (4x for less than 500 Cost, 4.25x for 500 or more Cost, 4.5x for 600 or more Cost, 4.75x for 700 or more Cost, and 5x for 750 or more Cost) for 1 turn. Further increases crew's ATK boost by up to 1.5x based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5 for EXCELLENT; maximum value is 15x). If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn<hidden> (effect cannot stack; if HP is above max limit, it is treated as being full HP)</hidden>",
+        captain: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 15 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [DEX], Driven and Powerhouse characters by 6x, by 6.6x instead if they have the applicable tag, boosts HP of [Five Elders], [Celestial Dragon] and [Navy] characters by 2x, and makes [DEX] and [RCV] orbs beneficial for all characters. If your crew has Orb Amplification and uses a special with an Orb Amplification buff, increases boost effects of Orb Amplification buffs by +?x, equal to the value of the special. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.3x instead, and boosts ATK of [DEX], Driven and Powerhouse characters by 7.8x instead if they have the applicable tag. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters and your crew has Orb Amplification buff with an effect of 10x or more, makes this character's normal attacks count as Type Effective against all Types.",
+        special: "Deals 10% of enemies' current HP in True damage, ignoring Normal Attack Only, to all enemies, and removes enemies' Threshold Damage Reduction duration completely. If a [DEX] character is supporting this character, applies Territory: Driven class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns; applies Territory: Powerhouse class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns otherwise. Boosts Orb Effects of Driven and Powerhouse characters by 4x-5x for 1 turn depending on the total Cost of crew, including Friend Captain and Supports, at the start of the fight. Increases boost effects of ATK Up buffs by 1.1x-1.5x (up to 15x) depending on the outcome of Action Special. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters, allows HP Overfill up to 2x MAX HP for 1 turn.",
+        specialNotes: "<br><b>Orb Amplification:</b> 499-: 4x, 500-599: 4.25x, 600-699: 4.5x, 700-749: 4.75x, 750+: 5x<br><b>ATK Up:</b> MISS: 1.1x, GOOD: 1.2x, GREAT: 1.3x, PERFECT: 1.4x, EXCELLENT 1.5x",
         specialName: "Slamming Charge of the War God",
         sailor: {
-            base: "Boosts Driven characters' base stats by 150 and makes their [DEX] slots have matching slot effects",
-            level1: "Character cannot be blown away by attack, and completely removes character's Special Reverse/Paralysis"
+            base: "Boosts base ATK, HP and RCV of Driven characters by 150. Makes [DEX] orbs beneficial for Driven characters.",
+            level1: "This character cannot be Blown Away, restores Special Cooldown of this character completely when it is rewinded, and reduces Paralysis duration completely on this character."
         },
-        superSpecialCriteria: "When crew has Orb Boost at 8x or more or receives Over Healing status",
-        superSpecial: "Reduces crew's Paralysis duration by 10 turns, applies -50% Driven Resistance to all enemies for 1 turn, changes [DEX] characters to Super [DEX], and changes Driven characters to Super Driven",
+        superSpecialCriteria: "This character must be captain. If your crew has a HP Overfill buff or an Orb Amplification buff with an effect of 8x or more.",
+        superSpecial: "Reduces Paralysis duration by 10 turns, reduces enemies' Driven Resistance by -50% for 1 turn, transforms [DEX] characters into Super [DEX] characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
                 Characters: "Characters with a Cost of 99 or more",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 2 turns",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 3 turns",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 4 turns",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 5 turns",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 6 turns"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 2 turns.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 3 turns.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 4 turns.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 5 turns.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 6 turns."
                 ]
             }
         ],
@@ -174337,28 +174339,28 @@ window.details = {
             {
                 Name: "Damage Limit Break: Class",
                 description: [
-                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6",
+                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6",
+                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6",
+                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6",
+                    "Boosts Damage Limit Break effect based on number of Driven characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6"
                 ]
             }
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
-                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
-                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
-                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
-                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem"
+                "When a [Five Elders], [Celestial Dragon], [World Government] or [Navy] character performs Super Tandem",
+                "When a [Five Elders], [Celestial Dragon], [World Government] or [Navy] character performs Super Tandem",
+                "When a [Five Elders], [Celestial Dragon], [World Government] or [Navy] character performs Super Tandem",
+                "When a [Five Elders], [Celestial Dragon], [World Government] or [Navy] character performs Super Tandem",
+                "When a [Five Elders], [Celestial Dragon], [World Government] or [Navy] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Five Elders] [Celestial Dragon] [World Government] [Navy] characters by 1 for 1 turn",
-                "Raises Boost Level of [Five Elders] [Celestial Dragon] [World Government] [Navy] characters by 2 for 1 turn",
-                "Raises Boost Level of [Five Elders] [Celestial Dragon] [World Government] [Navy] characters by 3 for 1 turn",
-                "Raises Boost Level of [Celestial Dragon] [World Government] [Navy] characters by 4 and raises Boost Level of [Five Elders] characters by 5 for 1 turn",
-                "Raises Boost Level of [Celestial Dragon] [World Government] [Navy] characters by 5 and raises Boost Level of [Five Elders] characters by 7 for 1 turn"
+                "Raises Boost Level of [Five Elders], [Celestial Dragon], [World Government] and [Navy] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Five Elders], [Celestial Dragon], [World Government] and [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Five Elders], [Celestial Dragon], [World Government] and [Navy] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Celestial Dragon], [World Government] and [Navy] characters by 4 for 1 turn, and raises Boost Level of [Five Elders] characters by 5 for 1 turn.",
+                "Raises Boost Level of [Celestial Dragon], [World Government] and [Navy] characters by 5 for 1 turn, and raises Boost Level of [Five Elders] characters by 7 for 1 turn."
             ]
         },
         festStats: {
@@ -174453,10 +174455,11 @@ window.details = {
         festAbilityGPCondition: "After applying status effects 7 times"
     },
     4442: {//5* St. Ethanbaron V. Nusjuro
-        captain: "Boosts [PSY], Driven, and Slasher characters' ATK by 6x, boosts character's ATK by approximately 6.25x, and makes crew's [PSY][RCV] slots have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, reduces crew's Bind duration by 10 turns. If crew uses a Special to boost ATK or slot effects, further increases the effect by +0.5 (stackable with other further raising effects). Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
-        special: "Deals 300x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), and completely removes all enemies' DEF Up. If Captain is a [Five Elders] character when Special is launched and a [PSY] is set as Support for character, applies \"Territory: Driven class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If Captain is a [Five Elders] character when Special is launched and a non-[PSY] is set as Support for character or no Support character is set, applies Set Target status to all enemies for 2 turns<hidden> (Set Target status cannot be affected by immunity to status effects</hidden>. Slasher and Driven characters will deal 1.75x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated by normal attacks and Specials<hidden> (except when defeating with status effects or certain end of turn damage effects)</hidden>) otherwise), then after that, boosts character's ATK up to 5x based on total Cost of crew at start of quest<hidden> including Friend Captains and Support Characters</hidden> and boosts character's slot effects up to 5x based on outcome of Action Special (4x for less than 500 Cost/MISS, 4.25x for 500 or more Cost/GOOD, 4.5x for 600 or more Cost/GREAT, 4.75x for 700 or more Cost/PERFECT, and 5x for 750 or more Cost/EXCELLENT) for 1 turn",
+        captain: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 15 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [PSY], Driven and Slasher characters by 6x, by 6.6x instead if they have the applicable tag, boosts ATK of this characters by 6.875x, makes [PSY] and [RCV] orbs beneficial for all characters, and increases boost effects of ATK Up and Orb Amplification buffs applied by specials by +0.5x.If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.3x instead, boosts ATK of [PSY], Driven and Slasher characters by 7.8x instead if they have the applicable tag, and boosts ATK of this characters by 8.125x instead. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters, reduces Bind duration by 10 turns.",
+        special: "Deals 300x character's ATK in Typeless Fixed True damage to one enemy, removes enemies' Increased Defense duration completely, boosts ATK of this character by 4x-5x for 1 turn depending on the total Cost of crew, including Friend Captain and Supports, at the start of the fight, and boosts Orb Effects of this character by 4x-5x for 1 turn depending on the outcome of Action Special. If your Captain is a [Five Elders] character and a [PSY] character is supporting this character, applies Territory: Driven class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns. If your Captain is a [Five Elders] character and a [PSY] character is not supporting this character, inflicts all enemies with Set Target, increasing damage taken from Slasher and Driven characters by 1.75x and reducing Special Cooldown of Slasher and Driven characters by 2 turns when they defeat an enemy, for 2 turns.",
+        specialNotes: "<br><b>ATK Up:</b> 499-: 4x, 500-599: 4.25x, 600-699: 4.5x, 700-749: 4.75x, 750+: 5x<br><b>Orb Amplification:</b> MISS: 4x, GOOD: 4.25x, GREAT: 4.5x, PERFECT: 4.75x, EXCELLENT: 5x",
         specialName: "Gleaming Slash of the War God",
-        sailor: "Boosts Driven characters' base ATK by 175 and makes their [PSY] slots have matching slot effects",
+        sailor: "Boosts base ATK of Driven characters by 175. Makes [PSY] orbs beneficial for Driven characters.",
         festStats: {
             def: 126,
             spd: 220,
@@ -174549,24 +174552,25 @@ window.details = {
         festAbilityGPCondition: "When 5 enemies are defeated"
     },
     4443: {//6* St. Ethanbaron V. Nusjuro
-        captain: "Boosts [PSY], Driven, and Slasher characters' ATK by 6x, boosts character's ATK by approximately 6.25x, and makes crew's [PSY][RCV] slots have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x. If 4 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew, reduces crew's Bind duration by 10 turns. If crew uses a Special to boost ATK or slot effects, further increases the effect by +0.5 (stackable with other further raising effects). Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest",
-        special: "Deals 300x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), and completely removes all enemies' DEF Up. If Captain is a [Five Elders] character when Special is launched and a [PSY] is set as Support for character, applies \"Territory: Driven class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If Captain is a [Five Elders] character when Special is launched and a non-[PSY] is set as Support for character or no Support character is set, applies Set Target status to all enemies for 2 turns<hidden> (Set Target status cannot be affected by immunity to status effects</hidden>. Slasher and Driven characters will deal 1.75x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated by normal attacks and Specials<hidden> (except when defeating with status effects or certain end of turn damage effects)</hidden>) otherwise), then after that, boosts character's ATK up to 5x based on total Cost of crew at start of quest<hidden> including Friend Captains and Support Characters</hidden> and boosts character's slot effects up to 5x based on outcome of Action Special (4x for less than 500 Cost/MISS, 4.25x for 500 or more Cost/GOOD, 4.5x for 600 or more Cost/GREAT, 4.75x for 700 or more Cost/PERFECT, and 5x for 750 or more Cost/EXCELLENT) for 1 turn",
+        captain: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 15 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [PSY], Driven and Slasher characters by 6x, by 6.6x instead if they have the applicable tag, boosts ATK of this characters by 6.875x, makes [PSY] and [RCV] orbs beneficial for all characters, and increases boost effects of ATK Up and Orb Amplification buffs applied by specials by +0.5x.If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.3x instead, boosts ATK of [PSY], Driven and Slasher characters by 7.8x instead if they have the applicable tag, and boosts ATK of this characters by 8.125x instead. If your crew has 4+ [Five Elders], [Celestial Dragon] or [Navy] characters, reduces Bind duration by 10 turns.",
+        special: "Deals 300x character's ATK in Typeless Fixed True damage to one enemy, removes enemies' Increased Defense duration completely, boosts ATK of this character by 4x-5x for 1 turn depending on the total Cost of crew, including Friend Captain and Supports, at the start of the fight, and boosts Orb Effects of this character by 4x-5x for 1 turn depending on the outcome of Action Special. If your Captain is a [Five Elders] character and a [PSY] character is supporting this character, applies Territory: Driven class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns. If your Captain is a [Five Elders] character and a [PSY] character is not supporting this character, inflicts all enemies with Set Target, increasing damage taken from Slasher and Driven characters by 1.75x and reducing Special Cooldown of Slasher and Driven characters by 2 turns when they defeat an enemy, for 2 turns.",
+        specialNotes: "<br><b>ATK Up:</b> 499-: 4x, 500-599: 4.25x, 600-699: 4.5x, 700-749: 4.75x, 750+: 5x<br><b>Orb Amplification:</b> MISS: 4x, GOOD: 4.25x, GREAT: 4.5x, PERFECT: 4.75x, EXCELLENT: 5x",
         specialName: "Gleaming Slash of the War God",
         sailor: {
-            base: "Boosts Driven characters' base ATK by 175 and makes their [PSY] slots have matching slot effects",
-            level1: "Boosts character's base ATK by 400 when remaining HP is 30% or below"
+            base: "Boosts base ATK of Driven characters by 175. Makes [PSY] orbs beneficial for Driven characters.",
+            level1: "If HP is below 30%, boosts base ATK of this character by 400."
         },
-        superSpecialCriteria: "When crew has ATK boost or slot effect boost at 8x or more or receives Over Healing status (can be launched when character is a crewmate)",
-        superSpecial: "Allows crew's ATK boost to be further increased up to 2 times, boosts the chain multiplier by +1.2 for 1 turn, changes [PSY] characters to Super [PSY], and changes Driven characters to Super Driven",
+        superSpecialCriteria: "Can be launched as crewmate. If your crew has a HP Overfill buff or an ATK Up or Orb Amplification buff with an effect of 8x or more.",
+        superSpecial: "Enables ATK Up buffs to be enhanced up to 2 times, adds 1.2x to chain multiplier for 1 turn, transforms [PSY] characters into Super [PSY] characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
                 Characters: "Characters with a Cost of 99 or more",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 2 turns",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 3 turns",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 4 turns",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 5 turns",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 6 turns"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 2 turns.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 3 turns.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 4 turns.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 5 turns.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 6 turns."
                 ]
             }
         ],
@@ -174645,13 +174649,13 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "On the turn Special is launched during final Battle",
+            condition: "On the last Stage, on the turn this character's special is used",
             description: [
-                "Changes character's slot to [PSY], and further boosts the chain multiplier of the final tap by 1.25x",
-                "Changes character's slot to [PSY], and further boosts the chain multiplier of the final tap by 1.5x",
-                "Changes character's slot (including [BLOCK] slot) to [PSY], and further boosts the chain multiplier of the final tap by 1.75x",
-                "Changes character's slot (including [BLOCK] slot) to [PSY], and further boosts the chain multiplier of the final tap by 2x",
-                "Changes character's slot (including [BLOCK] slot; ignoring inability to change [S. BLOCK] slots) to [PSY], and further boosts the chain multiplier of the final tap by 2.25x"
+                "Changes the orb of this character into a [PSY] orb, and boosts Chain Multiplier Growth Rate by 1.25x.",
+                "Changes the orb of this character into a [PSY] orb, and boosts Chain Multiplier Growth Rate by 1.5x.",
+                "Changes the orb, including [BLOCK] orb, of this character into a [PSY] orb, and boosts Chain Multiplier Growth Rate by 1.75x.",
+                "Changes the orb, including [BLOCK] orb, of this character into a [PSY] orb, and boosts Chain Multiplier Growth Rate by 2x.",
+                "Changes the orb, including [BLOCK] and [SUPERBLOCK] orb, of this character into a [PSY] orb, boosts Chain Multiplier Growth Rate by 2.25x."
             ]
         },
         festStats: {
@@ -174746,22 +174750,22 @@ window.details = {
         festAbilityGPCondition: "When 5 enemies are defeated"
     },
     4444: {//Hound
-        captain: "Boosts Fighter and Driven characters' HP by 1.2x, ATK by 4x, boosts their ATK further for every PERFECT strike in a row (up to approximately 4.5x), and makes crew's [PSY] slots have matching slot effects",
-        special: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, boosts the type effects of normal attack for crew by 2.25x for 1 turn, and changes adjacent slots (including [BLOCK] slots) to [RCV]. If 4 or more [Navy] [World Government] characters are on the crew, further increases crew's type effect boost by +0.5, and extends the duration of crew's ATK and type effect boosts by 2 turns (increase and duration extension also applies to type effect boost from this Special)",
+        captain: "Boosts ATK of Fighter and Driven characters by 4x-4.5x, by an additive 0.1x after each PERFECT in a row, boosts HP of Fighter and Driven characters by 1.2x, and makes [PSY] orbs beneficial for all characters.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 6 turns, boosts the Color Affinity of all characters by 2.25x for 1 turn, and changes orbs, including [BLOCK] orbs, of adjacent characters into [RCV] orbs. If your crew has 4+ [Navy] or [World Government] characters, increases boost effects of Color Affinity buffs by +0.5x, including effects activated in the same ability, and increases duration of any ATK Up and Color Affinity buffs by 2 turns, including effects activated in the same ability.",
         specialName: "Tactical Thinking",
         sailor: {
-            base: "Makes crew's [PSY] slots have matching slot effects",
-            level1: "Reduces character's Special charge time by 2 turns every time another [Navy Vice Admiral] character uses a Special"
+            base: "Makes [PSY] orbs beneficial for all characters.",
+            level1: "When any other [Navy Vice Admiral] character uses a special, reduces Special Cooldown of this character by 2 turns."
         },
         support: [
             {
                 Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 2 turns."
                 ]
             }
         ],
@@ -174868,22 +174872,22 @@ window.details = {
         ]
     },
     4445: {//Urban
-        captain: "Boosts Shooter and Driven characters' ATK by 4x, HP by 1.4x, and makes their [DEX][RCV] slots have matching slot effects",
-        special: "Reduces crew's ATK Down duration by 6 turns, applies increase damage taken status to all enemies by 1.75x for 1 turn, and changes adjacent slots (including [BLOCK] slots) to [RCV]. If 4 or more [Navy] [World Government] characters are on the crew, extends the duration of crew's slot effect boost by 2 turns, and if crew lands 3 PERFECT strikes in a row in this turn, applies increase damage taken status to all enemies by 1.75x the next turn",
+        captain: "Boosts ATK of Shooter and Driven characters by 4x, boosts HP of Shooter and Driven characters by 1.4x, and makes [DEX] and [RCV] orbs beneficial for Shooter and Driven characters.",
+        special: "Reduces ATK Down duration by 6 turns, inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn, and changes orbs, including [BLOCK] orbs, of adjacent characters into [RCV] orbs. If your crew has 4+ [Navy] or [World Government] characters, increases duration of any Orb Amplification buffs by 2 turns, and if during that turn you score 3 PERFECT hits, inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn in the following turn.",
         specialName: "Observing Egghead",
         sailor: {
-            base: "Reduces the duration of crew's Remove SFX by 6 turns",
-            level1: "Reduces character's Special charge time by 2 turns every time another [Navy Vice Admiral] character uses a Special"
+            base: "Reduces Blindness duration by 6 turns.",
+            level1: "When any other [Navy Vice Admiral] character uses a special, reduces Special Cooldown of this character by 2 turns."
         },
         support: [
             {
                 Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces crew's ATK Down duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's ATK Down duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's ATK Down duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's ATK Down duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's ATK Down duration by 2 turns"
+                    "Once per adventure, when the supported character uses their special, reduces ATK Down duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces ATK Down duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces ATK Down duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces ATK Down duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces ATK Down duration by 2 turns."
                 ]
             }
         ],
@@ -174990,22 +174994,22 @@ window.details = {
         ]
     },
     4446: {//Pomsky
-        captain: "Boosts Striker and Driven characters' ATK by 4x, HP by 1.2x, reduces damage taken by 10%, and makes Striker and Driven characters' [INT][RCV] slots have matching slot effects",
-        special: "Reduces crew's Special charge time by 1 turn, and reduces crew's Bind/Despair duration by 6 turns. If 4 or more [Navy] [World Government] characters are on the crew, completely removes crew's Stun, heals crew by 10x character's RCV at end of turn for 6 turns, and reduces character's Special charge time by 7 turns (Special charge time reduction effect of \"Plotting the Course\" can be activated up to 1 time including any Specials with similar effect)",
+        captain: "Boosts ATK of Striker and Driven characters by 4x, boosts HP of Striker and Driven characters by 1.2x, reduces damage received by 10%, and makes [INT] and [RCV] orbs beneficial for Striker and Driven characters.",
+        special: "Reduces Special Cooldown of all characters by 1 turn, and reduces Bind and Despair duration by 6 turns. If your crew has 4+ [Navy] or [World Government] characters, removes Stun duration completely, recovers 10x character's RCV in HP at the end of each turn for 6 turns, and up to 1 time per adventure, reduces Special Cooldown of this character by 7 turns.",
         specialName: "Plotting the Course",
         sailor: {
-            base: "Reduces character's Special Reverse by 2 turns",
-            level1: "Reduces character's Special charge time by 2 turns every time another [Navy Vice Admiral] character uses a Special"
+            base: "Restores Special Cooldown of this character by 2 turns when it is rewinded.",
+            level1: "When any other [Navy Vice Admiral] character uses a special, reduces Special Cooldown of this character by 2 turns."
         },
         support: [
             {
                 Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces crew's Bind duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Bind duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Bind duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Bind duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Bind duration by 2 turns"
+                    "Once per adventure, when the supported character uses their special, reduces Bind duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Bind duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Bind duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Bind duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Bind duration by 2 turns."
                 ]
             }
         ],
@@ -175112,24 +175116,24 @@ window.details = {
         ]
     },
     4447: {//5* PKA Luffy
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts crew's ATK by 3.5x, HP by 1.25x, and reduces character's Special Bind duration by 6 turns",
-        special: "Reduces crew's Special Bind duration by 6 turns, and boosts crew's base ATK by +1250 for 1 turn. If 3 or more [Worst Generation] characters are on the crew, reduces all enemies' damage reduction from certain slots effect duration by 2 turns. If 5 or more [Straw Hat Pirates] [Worst Generation] [Egghead Arc] characters are on the crew, boosts Free Spirit characters' advantageous class effect by 1.5x for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all characters by 3.5x, boosts HP of all characters by 1.25x, and reduces Special Bind duration by 6 turns on this character.",
+        special: "Reduces Special Bind duration by 6 turns, and boosts Base ATK of all characters by 1,250 for 1 turn. If your crew has 3+ [Worst Generation] characters, reduces enemies' Orb-Based Damage Reduction duration by 2 turns. If your crew has 5+ [Straw Hat Pirates], [Worst Generation] or [Egghead Arc] characters, boosts Advantageous Class Effect of Free Spirit characters by 1.5x for 1 turn.",
         specialName: "Vanquishing Gum-Gum Dawn Rocket",
         sailor: {
-            base: "Boosts crew's base stats by 100",
-            level1: "Reduces character's Special Bind duration by 6 turns"
+            base: "Boosts base ATK, HP and RCV of all characters by 100.",
+            level1: "Reduces Special Bind duration by 6 turns on this character."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Bartholomew Kuma, Trafalgar Law, Eustass Kid",
-        superSpecial: "Completely removes character's Despair, reduces character's Special charge time by 1 turn, changes character's slot (including [BLOCK] slot) to [STR], applies \"Territory: [STR]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn, and changes [STR] characters to Super [STR]",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Bartholomew Kuma, Trafalgar Law, Eustass Kid",
+        superSpecial: "Removes Despair duration completely on this character, reduces Special Cooldown of this character by 1 turn, changes the orb, including [BLOCK] orb, of this character into a [STR] orb, applies Territory: [STR] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn, and transforms [STR] characters into Super [STR] characters.",
         support: [
             {
                 Characters: "All characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -175184,11 +175188,11 @@ window.details = {
             {
                 Name: "Damage Limit Break: Type",
                 description: [
-                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
-                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6"
                 ]
             }
         ],
