@@ -173418,7 +173418,7 @@ window.details = {
         ]
     },
     4431: {//Jinbe
-        captain: "Reduces crew's current HP by 75% at the start of the fight, reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [PSY], Cerebral and Free Spirit characters by 5x, by 5.75x instead if HP is below 30% at the start of the turn, boosts HP of [PSY], Cerebral and Free Spirit characters by 1.5x, makes [PSY], [RCV] and [TND] orbs beneficial for all characters, reduces damage received by 30%, and launches the following effect at start of quest: reduces damage received by 100% for 1 attack. If your crew has 4+ [Straw Hat Pirates] characters, reduces Burn duration by 6 turns.",
+        captain: "Reduces crew's current HP by 75% at the start of the fight, reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [PSY], Cerebral and Free Spirit characters by 5x, by 5.75x instead if HP is below 30% at the start of the turn, boosts HP of [PSY], Cerebral and Free Spirit characters by 1.5x, makes [PSY], [RCV] and [TND] orbs beneficial for all characters, reduces damage received by 30%, and launches the following effect at start of fight: reduces damage received by 100% for 1 attack. If your crew has 4+ [Straw Hat Pirates] characters, reduces Burn duration by 6 turns.",
         captainNotes: "Damage Nullification activates on the first instance of damage taken from the enemy.",
         special: "Removes Target Lock duration completely, reduces Bind duration by 6 turns, and increases Chain Tap Timing Bonus of [PSY], Cerebral and Free Spirit characters to +0.3x-0.7x for 3 turns depending on Tap Timing. If your crew has 5+ [Straw Hat Pirates] characters, there is only 1 enemy on the stage, and that enemy has less than or equal to 20% of their MAX HP: instantly defeats that enemy. If HP is below 30% when the special is activated and your crew has 5+ [Egghead Arc] characters, reduces damage received by 100% for 1 attack, and boosts Final Tap ATK of Cerebral or Free Spirit characters by 30%.",
         specialNotes: "GOOD: +0.3, GREAT: +0.5, PERFECT: +0.7",
@@ -173629,7 +173629,7 @@ window.details = {
         }
     },
     4433: {//Kuma
-        captain: "Reduces Special Cooldown of [Child] and [Paramythia-type] characters by 7 turns at the start of the fight, boosts ATK of Fighter and Powerhouse characters by 5.25x, boosts HP of Fighter and Powerhouse characters by 1.4x, boosts base HP of [Child] and [Paramythia-type] characters by 1,500, makes [QCK] and [RCV] orbs beneficial for Fighter and Powerhouse characters, protects from defeat as long as HP is above 60%, and launches the following effect at start of quest: reduces any damage received above 10,000 HP by 65% for 10 turns.",
+        captain: "Reduces Special Cooldown of [Child] and [Paramythia-type] characters by 7 turns at the start of the fight, boosts ATK of Fighter and Powerhouse characters by 5.25x, boosts HP of Fighter and Powerhouse characters by 1.4x, boosts base HP of [Child] and [Paramythia-type] characters by 1,500, makes [QCK] and [RCV] orbs beneficial for Fighter and Powerhouse characters, protects from defeat as long as HP is above 60%, and launches the following effect at start of fight: reduces any damage received above 10,000 HP by 65% for 10 turns.",
         special: "Deals 290x character's ATK in Typeless Fixed True damage to one enemy, and reduces enemies' Threshold Damage Reduction duration by 7 turns. If your crew has ATK Up and Chain Lock when the special is activated, boosts Base ATK of [STR], Free Spirit and Powerhouse characters by 1,750 for 2 turns. If your crew has ATK Up when the special is activated, sets Chain Boundaries to 3.25x and 30.0x for 2 turns; boosts ATK of [STR], Free Spirit and Powerhouse characters by 3.25x for 2 turns otherwise. If your crew has Jewelry Bonney as a member or supporting this character, reduces damage received from [INT] enemies by 100% for 2 turns, and boosts Final Tap ATK of all characters by 50%. If your crew has 3+ [Worst Generation], [Revolutionary Army] or [Paramythia-type] characters, increases duration of any ATK Up, Base ATK Boost and Chain Lock buffs by 1 turn, including effects activated in the same ability.",
         specialName: "Science-Defying Strike",
         sailor: {
@@ -174650,6 +174650,191 @@ window.details = {
                 ]
             }
         ]
+    },
+    4449: {//S-Snake
+        captain: "Boosts ATK of Fighter and Driven characters by 5x-5.75x based on the timing of the attack of the previous unit in the chain, boosts HP and RCV of Fighter and Driven characters by 1.25x, reduces Bind, Despair, Paralysis and Special Bind duration completely on this character, restores Special Cooldown of this character completely when it is rewinded, and launches the following effect at start of fight: reduces damage received by 60% for 5 turns.",
+        special: "Inflicts Melo-Melo to all enemies for 8 hits, reduces Despair and Paralysis duration by 6 turns, allows HP Overfill up to 2x MAX HP for 3 turns, recovers 20,000 HP, and recovers 15,000 HP at the end of the turn, preventing buff clears, for 3 turns. If your crew has 4+ [Vegapunk], [World Government] or [Seraphim] characters, boosts Crew Damage Reduction to ATK of all characters by 1x-3x, proportional to the strength of crew's Percent Damage Reduction buff and preventing buff clears, for 1 turn; boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn otherwise.",
+        specialName: "Captivating Eyes",
+        sailor: {
+            base: "Reduces Paralysis duration completely on this character.",
+            level1: "Restores Special Cooldown of this character by 3 turns when it is rewinded."
+        },
+        support: [
+            {
+                Characters: "Fighter characters",
+                description: [
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 40" },
+            { description: "Acquire Potential 1: No Healing" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 15" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Healing Reduction" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 70" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 100" },
+            { description: "Acquire Sailor Ability 2: Reduces character's Special Reverse by 3 turns" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Potential 3: Critical Hit" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 200" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base RCV by 50" },
+        ],
+        potential: [
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Healing Reduction",
+                description: [
+                    "Reduces Healing Reduction duration by 1 turn",
+                    "Reduces Healing Reduction duration by 2 turns",
+                    "Reduces Healing Reduction duration by 3 turns",
+                    "Reduces Healing Reduction duration by 4 turns",
+                    "Reduces Healing Reduction duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ],
+        festStats: {
+            def: 138,
+            spd: 173,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Action Bind, reduce damage taken from [STR] by 30%, increase damage dealt to [STR] by 30%",
+        festAbility: [
+            "Fighter class/[QCK] teammates ATK Up Lv.4; all enemies DEF Down Lv.1; if 6 or more Fighter/Driven class characters are on the team, all enemies ATK Down Lv.3, Special CT Speed Down Lv.1; if there are 5 or more Shooter class enemies, when appearing on the field self Special CT 10% reduction",
+            "Fighter class/[QCK] teammates ATK Up Lv.5; all enemies DEF Down Lv.2; if 6 or more Fighter/Driven class characters are on the team, all enemies ATK Down Lv.4, Special CT Speed Down Lv.1; if there are 5 or more Shooter class enemies, when appearing on the field self Special CT 15% reduction",
+            "Fighter class/[QCK] teammates ATK Up Lv.6; all enemies DEF Down Lv.3; if 6 or more Fighter/Driven class characters are on the team, all enemies ATK Down Lv.5, Special CT Speed Down Lv.2; if there are 5 or more Shooter class enemies, when appearing on the field self Special CT 20% reduction",
+            "Fighter class/[QCK] teammates ATK Up Lv.7; all enemies DEF Down Lv.4; if 6 or more Fighter/Driven class characters are on the team, all enemies ATK Down Lv.6, Special CT Speed Down Lv.2; if there are 5 or more Shooter class enemies, when appearing on the field self Special CT 25% reduction",
+            "Fighter class/[QCK] teammates ATK Up Lv.8; all enemies DEF Down Lv.5; if 6 or more Fighter/Driven class characters are on the team, all enemies ATK Down Lv.7, Special CT Speed Down Lv.3; if there are 5 or more Shooter class enemies, when appearing on the field self Special CT 30% reduction"
+        ],
+        festSpecial: [
+            {
+                cooldown: 24,
+                description: "Targets 1 DBF Style enemy with high current Special CT for Special CT 32% delay; targets 2 high ATK enemies for 73% chance of Action Bind (10 s); if 6 Fighter/Driven class characters are on the team, targets 1 enemy with high current Special CT for 73% chance of Confusion (10 s); if there or 5 or more Shooter class enemies, targets self for Special CT Speed Up Lv.1 (11 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets 1 DBF Style enemy with high current Special CT for Special CT 34% delay; targets 2 high ATK enemies for 76% chance of Action Bind (10 s); if 6 Fighter/Driven class characters are on the team, targets 1 enemy with high current Special CT for 76% chance of Confusion (10 s); if there or 5 or more Shooter class enemies, targets self for Special CT Speed Up Lv.1 (12 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets 1 DBF Style enemy with high current Special CT for Special CT 36% delay; targets 2 high ATK enemies for 79% chance of Action Bind (10 s); if 6 Fighter/Driven class characters are on the team, targets 1 enemy with high current Special CT for 79% chance of Confusion (10 s); if there or 5 or more Shooter class enemies, targets self for Special CT Speed Up Lv.1 (13 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets 1 DBF Style enemy with high current Special CT for Special CT 38% delay; targets 2 high ATK enemies for 82% chance of Action Bind (10 s); if 6 Fighter/Driven class characters are on the team, targets 1 enemy with high current Special CT for 82% chance of Confusion (10 s); if there or 5 or more Shooter class enemies, targets self for Special CT Speed Up Lv.2 (14 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets 1 DBF Style enemy with high current Special CT for Special CT 40% delay; targets 2 high ATK enemies for 85% chance of Action Bind (10 s); if 6 Fighter/Driven class characters are on the team, targets 1 enemy with high current Special CT for 85% chance of Confusion (10 s); if there or 5 or more Shooter class enemies, targets self for Special CT Speed Up Lv.2 (15 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets 1 DBF Style enemy with high current Special CT for Special CT 42% delay; targets 2 high ATK enemies for 88% chance of Action Bind (10 s); if 6 Fighter/Driven class characters are on the team, targets 1 enemy with high current Special CT for 88% chance of Confusion (10 s); if there or 5 or more Shooter class enemies, targets self for Special CT Speed Up Lv.3 (16 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets 1 DBF Style enemy with high current Special CT for Special CT 44% delay; targets 2 high ATK enemies for 91% chance of Action Bind (10 s); if 6 Fighter/Driven class characters are on the team, targets 1 enemy with high current Special CT for 91% chance of Confusion (10 s); if there or 5 or more Shooter class enemies, targets self for Special CT Speed Up Lv.3 (17 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets 1 DBF Style enemy with high current Special CT for Special CT 46% delay; targets 2 high ATK enemies for 94% chance of Action Bind (10 s); if 6 Fighter/Driven class characters are on the team, targets 1 enemy with high current Special CT for 94% chance of Confusion (10 s); if there or 5 or more Shooter class enemies, targets self for Special CT Speed Up Lv.3 (18 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets 1 DBF Style enemy with high current Special CT for Special CT 48% delay; targets 2 high ATK enemies for 97% chance of Action Bind (10 s); if 6 Fighter/Driven class characters are on the team, targets 1 enemy with high current Special CT for 97% chance of Confusion (10 s); if there or 5 or more Shooter class enemies, targets self for Special CT Speed Up Lv.4 (19 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets 1 DBF Style enemy with high current Special CT for Special CT 50% delay; targets 2 high ATK enemies for 100% chance of Action Bind (10 s); if 6 Fighter/Driven class characters are on the team, targets 1 enemy with high current Special CT for 100% chance of Confusion (10 s); if there or 5 or more Shooter class enemies, targets self for Special CT Speed Up Lv.5 (20 s)"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
+                festGPSpecial: "Targets all enemies for 500 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 625 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 750 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 875 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 1000 damage",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "When 2 teammates are defeated"
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
