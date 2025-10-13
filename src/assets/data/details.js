@@ -159478,7 +159478,7 @@ window.details = {
 	4268: {//Big Mom & Katakuri
 		captain: {
 			character1: "Boosts ATK of Driven and Powerhouse characters by 5.25x, by 5.5x instead if they have a beneficial orb, boosts HP of Driven and Powerhouse characters by 1.5x, slightly boosts chances of getting [TND] orbs, changes [TND] orbs into [SEMLA] orbs, makes [QCK], [RCV], and [SEMLA] orbs beneficial for Driven and Powerhouse characters, makes PERFECTs consume [RCV] and [SEMLA] orbs, recovers HP proportional to the number of enemies you defeated in that turn ✕ crew's RCV at the end of the enemy turn, and makes crew immune to Blow Away. Up to 2 times per adventure, if Charlotte Katakuri, Charlotte Cracker, or Charlotte Smoothie launches a special as a crewmate, enables Chain Lock and Color Affinity buffs to be enhanced up to 2 times, and increases boost effects of Chain Lock buffs by +0.25x.",
-			character2: "Boosts ATK of Driven and Powerhouse characters by 5.25x, boosts HP of Driven and Powerhouse characters by 1.5x, slightly boosts chances of getting [TND] orbs, changes [TND] orbs into [SEMLA] orbs, makes [DEX], [RCV], and [SEMLA] orbs beneficial for Driven and Powerhouse characters, reduces damage received by 20%, recovers 5,000 HP at the end of each turn, and makes crew immune to Blow Away. Ignores Defense Reduction Debuff Protection and and reduces the defense of all enemies by 70% for 2 turns after each turn you take damage.",
+			character2: "Boosts ATK of Driven and Powerhouse characters by 5.25x, boosts HP of Driven and Powerhouse characters by 1.5x, slightly boosts chances of getting [TND] orbs, changes [TND] orbs into [SEMLA] orbs, makes [DEX], [RCV], and [SEMLA] orbs beneficial for Driven and Powerhouse characters, reduces damage received by 20%, recovers 5,000 HP at the end of each turn, and makes crew immune to Blow Away. Ignores Defense Reduction Debuff Protection and reduces the defense of all enemies by 70% for 2 turns after each turn you take damage.",
 			combined: "Boosts ATK of Driven and Powerhouse characters by 5.5x, by 5.75x instead if they have a beneficial orb, boosts HP of Driven and Powerhouse characters by 1.5x, slightly boosts chances of getting [TND] orbs, changes [TND] orbs into [SEMLA] orbs, makes [DEX], [QCK], [RCV], and [SEMLA] orbs beneficial for Driven and Powerhouse characters, makes PERFECTs consume [RCV] and [SEMLA] orbs, reduces damage received by 20%, recovers 5,000 HP at the end of each turn, recovers HP proportional to the number of enemies you defeated in that turn ✕ crew's RCV at the end of the enemy turn, and makes crew immune to Blow Away. Ignores Defense Reduction Debuff Protection and reduces the defense of all enemies by 70% for 2 turns after each turn you take damage. Up to 2 times per adventure, if Charlotte Katakuri, Charlotte Cracker, or Charlotte Smoothie launches a special as a crewmate, enables Chain Lock and Color Affinity buffs to be enhanced up to 2 times, and increases boost effects of Chain Lock buffs by +0.25x."
 		},
 		special: "Deals 20% of enemies' current HP in damage to all enemies, reduces Slot Bind and Despair duration by 7 turns, allows crew to perform Super Tandem with [SEMLA] orbs for 3 turns, changes all orbs, including [BLOCK] orbs, into [SEMLA] orbs, boosts Orb Effects of Driven and Powerhouse characters by 2.75x-3.25x for 2 turns based on the number of status effects applied on enemy, and becomes Big Mom & Katakuri for 3 turns. If enemies have 8 or more status effects when the special is activated, increases boost effects of Orb Amplification and Chain Lock buffs by +0.25x, including effects activated in the same Ability, and enables Orb Amplification buffs to be enhanced up to 2 times.",
@@ -168931,7 +168931,7 @@ window.details = {
 		superSpecialCriteria: "This character must be captain. If your crew has a HP Overfill buff or an ATK Up buff with an effect of 8x or more",
 		support: [
 			{
-				Characters: "Characters with a Cost of 99 or more",
+				Characters: "Characters with cost 99 or more",
 				description: [
 					"Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 2 turns.",
 					"Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 3 turns.",
@@ -171495,7 +171495,7 @@ window.details = {
         superSpecial: "Changes the orb, including [BLOCK] orb, of this character into a [INT] orb, boosts Base ATK of [Five Elders] and [Celestial Dragon] characters by 1,500 for 1 turn, boosts Critical Hit Rate of [DEX] and [INT] characters by 20% for 1 turn, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
-                Characters: "Characters with a Cost of 99 or more",
+                Characters: "Characters with cost 99 or more",
                 description: [
                     "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 2 turns on the supported character.",
                     "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 3 turns on the supported character.",
@@ -174173,7 +174173,7 @@ window.details = {
         superSpecial: "Reduces Paralysis duration by 10 turns, reduces enemies' Driven Resistance by -50% for 1 turn, transforms [DEX] characters into Super [DEX] characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with a Cost of 99 or more",
+                Characters: "Characters with cost 99 or more",
                 description: [
                     "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 2 turns.",
                     "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 3 turns.",
@@ -174294,7 +174294,7 @@ window.details = {
         superSpecial: "Enables ATK Up buffs to be enhanced up to 2 times, adds 1.2x to chain multiplier for 1 turn, transforms [PSY] characters into Super [PSY] characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with a Cost of 99 or more",
+                Characters: "Characters with cost 99 or more",
                 description: [
                     "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 2 turns.",
                     "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 3 turns.",
@@ -174652,24 +174652,24 @@ window.details = {
         ]
     },
     4448: {//5+ PKA Luffy
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts crew's ATK by 3.75x, HP by 1.25x, and reduces character's Special Bind duration by 10 turns",
-        special: "Reduces crew's Special Bind duration by 6 turns, and boosts crew's base ATK by +1500 for 2 turns. If 3 or more [Worst Generation] characters are on the crew, reduces all enemies' damage reduction from certain slots effect duration by 3 turns, boosts Free Spirit characters' advantageous class effect by 1.75x for 1 turn, then after that, if 5 or more [Straw Hat Pirates] [Worst Generation] [Egghead Arc] characters are on the crew, boosts Free Spirit characters' advantageous class effect by 1.5x for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all characters by 3.75x, boosts HP of all characters by 1.25x, and reduces Special Bind duration by 10 turns on this character.",
+        special: "Reduces Special Bind duration by 6 turns, and boosts Base ATK of all characters by 1,500 for 2 turns. If your crew has 3+ [Worst Generation] characters, reduces enemies' Orb-Based Damage Reduction duration by 3 turns, and boosts Advantageous Class Effect of Free Spirit characters by 1.75x for 1 turn. If your crew has 5+ [Straw Hat Pirates], [Worst Generation] or [Egghead Arc] characters, boosts Advantageous Class Effect of Free Spirit characters by 1.5x for 1 turn.",
         specialName: "Vanquishing Gum-Gum Dawn Rocket",
         sailor: {
-            base: "Boosts crew's base stats by 100",
-            level1: "Reduces character's Special Bind duration by 6 turns"
+            base: "Boosts base ATK, HP and RCV of all characters by 100.",
+            level1: "Reduces Special Bind duration by 6 turns on this character."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Bartholomew Kuma, Trafalgar Law, Eustass Kid",
-        superSpecial: "Completely removes character's Despair, reduces character's Special charge time by 1 turn, changes character's slot (including [BLOCK] slot) to [STR], applies \"Territory: [STR]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn, and changes [STR] characters to Super [STR]",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Bartholomew Kuma, Trafalgar Law, Eustass Kid",
+        superSpecial: "Removes Despair duration completely on this character, reduces Special Cooldown of this character by 1 turn, changes the orb, including [BLOCK] orb, of this character into a [STR] orb, applies Territory: [STR] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn, and transforms [STR] characters into Super [STR] characters.",
         support: [
             {
                 Characters: "All characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -174981,10 +174981,11 @@ window.details = {
         festAbilityGPCondition: "When 2 teammates are defeated"
     },
     4450: {//5* St. Topman Warcury
-        captain: "Boosts [QCK], Driven, and Powerhouse characters' ATK by 6x, and makes crew's [QCK][RCV] slots have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\". If crew has type effect boost and crew uses Specials to boost type effects, the effect of that type effect boost instead further increases the effect of existing type effect boost (Captain Ability effect does not stack. Further raising effects can only happen once per Special. Not stackable with other further raising effects) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x, HP by 2x, and reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest. If 5 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and every type is on the crew, allows damage to deal up to 1.3x of enemies' damage limit effect",
-        special: "Deals 250x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), and reduces crew's Bind duration by 20 turns. Boosts Driven and Powerhouse characters' type effects up to 5x based on total Cost of crew at start of quest including Friend Captains and Support Characters (4x for less than 500 Cost, 4.25x for 500 or more Cost, 4.5x for 600 or more Cost, 4.75x for 700 or more Cost, and 5x for 750 or more Cost) for 1 turn. Further increases crew's damage dealt to delayed enemies boost by up to 1.5x based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5 for EXCELLENT; maximum value is 10x). If every type is on the crew, increases all enemies' damage taken by 1.75x for 2 turns ignoring immunity to status effects",
+        captain: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 15 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [QCK], Driven and Powerhouse characters by 6x, by 6.6x instead if they have the applicable tag, boosts HP of [Five Elders], [Celestial Dragon] and [Navy] characters by 2x, and makes [QCK] and [RCV] orbs beneficial for all characters. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.3x instead, and boosts ATK of [QCK], Driven and Powerhouse characters by 7.8x instead if they have the applicable tag. If your crew has Color Affinity and uses a special with a Color Affinity buff, increases boost effects of Color Affinity buffs by +?x, equal to the value of the special. If your crew has 5+ [Five Elders], [Celestial Dragon] or [Navy] characters and there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, increases enemies' Damage Limiter limit up to 1.3x.",
+        special: "Deals 250x character's ATK in Typeless Fixed True damage to one enemy, and reduces Bind duration by 20 turns. Boosts the Color Affinity of Driven and Powerhouse characters by 4x-5x for 1 turn depending on the total Cost of crew, including Friend Captain and Supports, at the start of the fight. Increases boost effects of Delay Status ATK Boost buffs by 1.1x-1.5x (up to 10x) depending on the outcome of Action Special. If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.75x for 2 turns.",
+        specialNotes: "<br><b>Color Affinity:</b> 499-: 4x, 500-599: 4.25x, 600-699: 4.5x, 700-749: 4.75x, 750+: 5x<br><b>Delay Status ATK Boost:</b> MISS: 1.1x, GOOD: 1.2x, GREAT: 1.3x, PERFECT: 1.4x, EXCELLENT 1.5x",
         specialName: "Shredding Rampage of the War God",
-        sailor: "Boosts Driven and Powerhouse characters' base stats by 150, and makes their [QCK] slots have matching slot effects",
+        sailor: "Boosts base ATK, HP and RCV of Driven and Powerhouse characters by 150. Makes [QCK] orbs beneficial for Driven and Powerhouse characters.",
         festStats: {
             def: 274,
             spd: 111,
@@ -175077,24 +175078,25 @@ window.details = {
         festAbilityGPCondition: "After dealing Blow Away 6 times"
     },
     4451: {//6* St. Topman Warcury
-        captain: "Boosts [QCK], Driven, and Powerhouse characters' ATK by 6x, and makes crew's [QCK][RCV] slots have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\". If crew has type effect boost and crew uses Specials to boost type effects, the effect of that type effect boost instead further increases the effect of existing type effect boost (Captain Ability effect does not stack. Further raising effects can only happen once per Special. Not stackable with other further raising effects) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x, HP by 2x, and reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest. If 5 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and every type is on the crew, allows damage to deal up to 1.3x of enemies' damage limit effect",
-        special: "Deals 250x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), and reduces crew's Bind duration by 20 turns. Boosts Driven and Powerhouse characters' type effects up to 5x based on total Cost of crew at start of quest including Friend Captains and Support Characters (4x for less than 500 Cost, 4.25x for 500 or more Cost, 4.5x for 600 or more Cost, 4.75x for 700 or more Cost, and 5x for 750 or more Cost) for 1 turn. Further increases crew's damage dealt to delayed enemies boost by up to 1.5x based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5 for EXCELLENT; maximum value is 10x). If every type is on the crew, increases all enemies' damage taken by 1.75x for 2 turns ignoring immunity to status effects",
+        captain: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 15 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [QCK], Driven and Powerhouse characters by 6x, by 6.6x instead if they have the applicable tag, boosts HP of [Five Elders], [Celestial Dragon] and [Navy] characters by 2x, and makes [QCK] and [RCV] orbs beneficial for all characters. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.3x instead, and boosts ATK of [QCK], Driven and Powerhouse characters by 7.8x instead if they have the applicable tag. If your crew has Color Affinity and uses a special with a Color Affinity buff, increases boost effects of Color Affinity buffs by +?x, equal to the value of the special. If your crew has 5+ [Five Elders], [Celestial Dragon] or [Navy] characters and there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, increases enemies' Damage Limiter limit up to 1.3x.",
+        special: "Deals 250x character's ATK in Typeless Fixed True damage to one enemy, and reduces Bind duration by 20 turns. Boosts the Color Affinity of Driven and Powerhouse characters by 4x-5x for 1 turn depending on the total Cost of crew, including Friend Captain and Supports, at the start of the fight. Increases boost effects of Delay Status ATK Boost buffs by 1.1x-1.5x (up to 10x) depending on the outcome of Action Special. If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.75x for 2 turns.",
+        specialNotes: "<br><b>Color Affinity:</b> 499-: 4x, 500-599: 4.25x, 600-699: 4.5x, 700-749: 4.75x, 750+: 5x<br><b>Delay Status ATK Boost:</b> MISS: 1.1x, GOOD: 1.2x, GREAT: 1.3x, PERFECT: 1.4x, EXCELLENT 1.5x",
         specialName: "Shredding Rampage of the War God",
         sailor: {
-            base: "Boosts Driven and Powerhouse characters' base stats by 150, and makes their [QCK] slots have matching slot effects",
-            level1: "Tapping on this character with a [TND] slot will further increase crew's damage dealt to delayed enemies boost by +0.2"
+            base: "Boosts base ATK, HP and RCV of Driven and Powerhouse characters by 150. Makes [QCK] orbs beneficial for Driven and Powerhouse characters.",
+            level1: "If this character has a [TND] orb and you attack with this character, increases boost effects of Delay Status ATK Boost buffs by +0.2x."
         },
-        superSpecialCriteria: "When crew has Color Affinity at 8x or more or receives Over Healing status (can be launched when character is a crewmate)",
-        superSpecial: "Reduces crew's Burn duration by 6 turns, reduces damage taken by 70% for 1 turn, changes [QCK] characters to Super [QCK], and changes Driven characters to Super Driven",
+        superSpecialCriteria: "Can be launched as crewmate. If your crew has a HP Overfill buff or a Color Affinity buff with an effect of 8x or more.",
+        superSpecial: "Reduces Burn duration by 6 turns, reduces damage received by 70% for 1 turn, transforms [QCK] characters into Super [QCK] characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with a Cost of 99 or more",
+                Characters: "Characters with cost 99 or more",
                 description: [
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 3 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 3 turns."
                 ]
             }
         ],
@@ -175174,18 +175176,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
-                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
-                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
-                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem",
-                "When a [Five Elders] [Celestial Dragon] [World Government] [Navy] character performs Super Tandem"
+                "When a [Five Elders], [Celestial Dragon], [World Government] or [Navy] character performs Super Tandem",
+                "When a [Five Elders], [Celestial Dragon], [World Government] or [Navy] character performs Super Tandem",
+                "When a [Five Elders], [Celestial Dragon], [World Government] or [Navy] character performs Super Tandem",
+                "When a [Five Elders], [Celestial Dragon], [World Government] or [Navy] character performs Super Tandem",
+                "When a [Five Elders], [Celestial Dragon], [World Government] or [Navy] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Five Elders] [Celestial Dragon] [World Government] [Navy] characters by 1 for 1 turn",
-                "Raises Boost Level of [Five Elders] [Celestial Dragon] [World Government] [Navy] characters by 2 for 1 turn",
-                "Raises Boost Level of [Five Elders] [Celestial Dragon] [World Government] [Navy] characters by 3 for 1 turn",
-                "Raises Boost Level of [Celestial Dragon] [World Government] [Navy] characters by 4 and raises Boost Level of [Five Elders] characters by 5 for 1 turn",
-                "Raises Boost Level of [Celestial Dragon] [World Government] [Navy] characters by 5 and raises Boost Level of [Five Elders] characters by 7 for 1 turn"
+                "Raises Boost Level of [Five Elders], [Celestial Dragon], [World Government] and [Navy] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Five Elders], [Celestial Dragon], [World Government] and [Navy] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Five Elders], [Celestial Dragon], [World Government] and [Navy] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Celestial Dragon], [World Government] and [Navy] characters by 4 for 1 turn, and raises Boost Level of [Five Elders] characters by 5 for 1 turn.",
+                "Raises Boost Level of [Celestial Dragon], [World Government] and [Navy] characters by 5 for 1 turn, and raises Boost Level of [Five Elders] characters by 7 for 1 turn."
             ]
         },
         festStats: {
@@ -175280,10 +175282,11 @@ window.details = {
         festAbilityGPCondition: "After dealing Blow Away 6 times"
     },
     4452: {//5* St. Marcus Mars
-        captain: "Boosts [STR], Driven, and Shooter characters' ATK by 6x, and makes crew's [STR][TND] slots have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\". If crew has damage dealt to enemies with a specific status effect boost and crew uses Specials to boost damage dealt to enemies with a specific status, the effect of that damage boost instead further increases the effect of existing damage boost (Captain Ability effect does not stack. Further raising effects can only happen once per Special. Not stackable with other further raising effects) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x, HP by 2x, and reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest. If 5 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and every type is on the crew, allows damage to deal up to 1.3x of enemies' damage limit effect",
-        special: "Reduces crew's lock chain multiplier/decrease chain multiplier growth duration by 10 turns. If Captain is a Driven or Shooter class, delays all enemies for 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), and changes crew's slots (including [BLOCK] slots) to [TND]. Boosts damage dealt to delayed enemies by up to 4x based on total Cost of crew at start of quest including Friend Captains and Support Characters (3x for less than 500 Cost, 3.25x for 500 or more Cost, 3.5x for 600 or more Cost, 3.75x for 700 or more Cost, and 4x for 750 or more Cost) for 1 turn. Further increases crew's type effect boost by up to 1.5x based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5 for EXCELLENT; maximum value is 10x). If every type is on the crew, sets the chain multiplier's minimum value at 3.0 and maximum value at 30.0 for 1 turn",
+        captain: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 15 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [STR], Driven and Shooter characters by 6x, by 6.6x instead if they have the applicable tag, boosts HP of [Five Elders], [Celestial Dragon] and [Navy] characters by 2x, and makes [STR] and [TND] orbs beneficial for all characters. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.3x instead, and boosts ATK of [STR], Driven and Shooter characters by 7.8x instead if they have the applicable tag. If your crew has Status ATK Boost and uses a special with a Status ATK Boost buff, increases boost effects of Status ATK Boost buffs by +?x, equal to the value of the special. If your crew has 5+ [Five Elders], [Celestial Dragon] or [Navy] characters and there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, increases enemies' Damage Limiter limit up to 1.3x.",
+        special: "Reduces Chain Multiplier Limit and Chain Coefficient Reduction duration by 10 turns. If your Captain is a Driven or Shooter character, ignores Debuff Protection and delays all enemies by 1 turn, and changes all orbs, including [BLOCK] orbs, into [TND] orbs. Boosts ATK against delayed enemies by 3x-4x for 1 turn depending on the total Cost of crew, including Friend Captain and Supports, at the start of the fight. Increases boost effects of Color Affinity buffs by 1.1x-1.5x (up to 10x) depending on the outcome of Action Special. If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, sets Chain Boundaries to 3.0x and 30.0x for 1 turn.",
+        specialNotes: "<br><b>Delay Status ATK Boost:</b> 499-: 3x, 500-599: 3.25x, 600-699: 3.5x, 700-749: 3.75x, 750+: 4x<br><b>Color Affinity:</b> MISS: 1.1x, GOOD: 1.2x, GREAT: 1.3x, PERFECT: 1.4x, EXCELLENT 1.5x",
         specialName: "Overwhelming Roar of the War God",
-        sailor: "Makes Driven and Shooter characters' [STR][TND] slots have matching slot effects",
+        sailor: "Makes [STR] and [TND] orbs beneficial for Driven and Shooter characters.",
         festStats: {
             def: 198,
             spd: 144,
@@ -175376,24 +175379,25 @@ window.details = {
         festAbilityGPCondition: "After dealing damage 16 times"
     },
     4453: {//6* St. Marcus Mars
-        captain: "Boosts [STR], Driven, and Shooter characters' ATK by 6x, and makes crew's [STR][TND] slots have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x\" becomes \"Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.3x\". If crew has damage dealt to enemies with a specific status effect boost and crew uses Specials to boost damage dealt to enemies with a specific status, the effect of that damage boost instead further increases the effect of existing damage boost (Captain Ability effect does not stack. Further raising effects can only happen once per Special. Not stackable with other further raising effects) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x, HP by 2x, and reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 15 turns at start of quest. If 5 or more [Five Elders] [Celestial Dragon] [Navy] characters are on the crew and every type is on the crew, allows damage to deal up to 1.3x of enemies' damage limit effect",
-        special: "Reduces crew's lock chain multiplier/decrease chain multiplier growth duration by 10 turns. If Captain is a Driven or Shooter class, delays all enemies for 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), and changes crew's slots (including [BLOCK] slots) to [TND]. Boosts damage dealt to delayed enemies by up to 4x based on total Cost of crew at start of quest including Friend Captains and Support Characters (3x for less than 500 Cost, 3.25x for 500 or more Cost, 3.5x for 600 or more Cost, 3.75x for 700 or more Cost, and 4x for 750 or more Cost) for 1 turn. Further increases crew's type effect boost by up to 1.5x based on outcome of Action Special (1.1x for MISS, 1.2x for GOOD, 1.3x for GREAT, 1.4x for PERFECT, 1.5 for EXCELLENT; maximum value is 10x). If every type is on the crew, sets the chain multiplier's minimum value at 3.0 and maximum value at 30.0 for 1 turn",
+        captain: "Reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 15 turns at the start of the fight, boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.1x, boosts ATK of [STR], Driven and Shooter characters by 6x, by 6.6x instead if they have the applicable tag, boosts HP of [Five Elders], [Celestial Dragon] and [Navy] characters by 2x, and makes [STR] and [TND] orbs beneficial for all characters. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Five Elders], [Celestial Dragon] and [Navy] characters by 1.3x instead, and boosts ATK of [STR], Driven and Shooter characters by 7.8x instead if they have the applicable tag. If your crew has Status ATK Boost and uses a special with a Status ATK Boost buff, increases boost effects of Status ATK Boost buffs by +?x, equal to the value of the special. If your crew has 5+ [Five Elders], [Celestial Dragon] or [Navy] characters and there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, increases enemies' Damage Limiter limit up to 1.3x.",
+        special: "Reduces Chain Multiplier Limit and Chain Coefficient Reduction duration by 10 turns. If your Captain is a Driven or Shooter character, ignores Debuff Protection and delays all enemies by 1 turn, and changes all orbs, including [BLOCK] orbs, into [TND] orbs. Boosts ATK against delayed enemies by 3x-4x for 1 turn depending on the total Cost of crew, including Friend Captain and Supports, at the start of the fight. Increases boost effects of Color Affinity buffs by 1.1x-1.5x (up to 10x) depending on the outcome of Action Special. If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, sets Chain Boundaries to 3.0x and 30.0x for 1 turn.",
+        specialNotes: "<br><b>Delay Status ATK Boost:</b> 499-: 3x, 500-599: 3.25x, 600-699: 3.5x, 700-749: 3.75x, 750+: 4x<br><b>Color Affinity:</b> MISS: 1.1x, GOOD: 1.2x, GREAT: 1.3x, PERFECT: 1.4x, EXCELLENT 1.5x",
         specialName: "Overwhelming Roar of the War God",
         sailor: {
-            base: "Makes Driven and Shooter characters' [STR][TND] slots have matching slot effects",
-            level1: "Tapping on this character with a [TND] slot will further increase crew's type effect boost by +0.25"
+            base: "Makes [STR] and [TND] orbs beneficial for Driven and Shooter characters.",
+            level1: "If this character has a [TND] orb and you attack with this character, increases boost effects of Color Affinity buffs by +0.25x."
         },
-        superSpecialCriteria: "When crew has damage dealt to enemies with a specific status effect boost at 6x or more or receives Over Healing status (can be launched when character is a crewmate)",
-        superSpecial: "Reduces the duration of all enemy barriers by 1 turn, boosts the ATK of the next final tap performed by a Driven character by 25% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), changes [STR] characters to Super [STR], and changes Driven characters to Super Driven",
+        superSpecialCriteria: "Can be launched as crewmate. If your crew has a HP Overfill buff or a Status ATK Boost buff with an effect of 6x or more.",
+        superSpecial: "Reduces enemies' Barrier duration by 1 turn, boosts Final Tap ATK of Driven characters by 25%, transforms [STR] characters into Super [STR] characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with a Cost of 99 or more",
+                Characters: "Characters with cost 99 or more",
                 description: [
-                    "Changes Driven characters' [BLOCK] slots to [TND] at start of final battle",
-                    "Changes Driven characters' [BLOCK] slots to [TND] at start of final battle",
-                    "Changes Driven characters' [BLOCK] slots to [TND] and reduces crew's decrease chain multiplier growth duration by 1 turn at start of final battle",
-                    "Changes Driven characters' [BLOCK] slots to [TND] and reduces crew's decrease chain multiplier growth duration by 2 turns at start of final battle",
-                    "Changes Driven characters' [BLOCK] slots to [TND] and reduces crew's decrease chain multiplier growth duration by 3 turns at start of final battle"
+                    "Once per adventure, when you reach the final stage, changes [BLOCK] orbs of Driven characters into [TND] orbs.",
+                    "Once per adventure, when you reach the final stage, changes [BLOCK] orbs of Driven characters into [TND] orbs.",
+                    "Once per adventure, when you reach the final stage, changes [BLOCK] orbs of Driven characters into [TND] orbs, and reduces Chain Coefficient Reduction duration by 1 turn.",
+                    "Once per adventure, when you reach the final stage, changes [BLOCK] orbs of Driven characters into [TND] orbs, and reduces Chain Coefficient Reduction duration by 2 turns.",
+                    "Once per adventure, when you reach the final stage, changes [BLOCK] orbs of Driven characters into [TND] orbs, and reduces Chain Coefficient Reduction duration by 3 turns."
                 ]
             }
         ],
@@ -175473,18 +175477,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "At final battle and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
-                "At final battle and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
-                "At final battle and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
-                "At final battle and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
-                "At final battle and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard"
+                "On the last stage. Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
+                "On the last stage. Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
+                "On the last stage. Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
+                "On the last stage. Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
+                "On the last stage. Your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 2x to Driven characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.25x to Driven characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.5x to Driven characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.75x to Driven characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 3x to Driven characters for 1 turn, and changes the ATK multiplier of [STR][PSY] slots to 2.75x when slots match (normally 2.0x when matching), 0.5x when unfavorable, 1.0x otherwise for 1 turn"
+                "Boosts Tandem ATK of Driven characters by 2x for 1 turn.",
+                "Boosts Tandem ATK of Driven characters by 2.25x for 1 turn.",
+                "Boosts Tandem ATK of Driven characters by 2.5x for 1 turn.",
+                "Boosts Tandem ATK of Driven characters by 2.75x for 1 turn.",
+                "Boosts Tandem ATK of Driven characters by 3x for 1 turn, and increases Orb Effects of beneficial [STR] and [PSY] orbs to 2.75x for 1 turn."
             ]
         },
         festStats: {
@@ -175579,22 +175583,22 @@ window.details = {
         festAbilityGPCondition: "After dealing damage 16 times"
     },
     4454: {//Tosa
-        captain: "Boosts Powerhouse and Driven characters' ATK by 4x, HP by 1.25x, and reduces damage taken by 15%",
-        special: "Reduces crew's Special charge time by 2 turns, boosts [INT], Powerhouse, and Driven characters' base ATK by +1250 for 1 turn, reduces crew's matching/unfavorable slot effect duration by 5 turns, and massively reduces a portion of each enemies' dealt damage that exceeds 5,000 for 1 turn. If 4 or more [Navy] [World Government] characters are on the crew, further increases crew's base ATK boost by +300, extends the duration of crew's base ATK boost and lock chain multiplier effect by 2 turns (further raising and boosting effect applies to base ATK boost from this Special), then after 1 turn, delays all enemies by 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect)",
+        captain: "Boosts ATK of Powerhouse and Driven characters by 4x, boosts HP of Powerhouse and Driven characters by 1.25x, and reduces damage received by 15%.",
+        special: "Reduces Special Cooldown of all characters by 2 turns, boosts Base ATK of [INT], Powerhouse and Driven characters by 1,250 for 1 turn, reduces Beneficial Orb Buff and Non-Beneficial Orb Debuff duration by 5 turns, and reduces any damage received above 5,000 HP by 97% for 1 turn. If your crew has 4+ [Navy] or [World Government] characters, increases boost effects of Base ATK Boost buffs by +300 and increases duration of any Base ATK Boost and Chain Lock buffs by 2 turns, including effects activated in the same ability, and after 1 turn, ignores Debuff Protection and delays all enemies by 1 turn.",
         specialName: "Tosa Bite",
         sailor: {
-            base: "Reduces character's Special Reverse by 2 turns",
-            level1: "Makes Powerhouse and Driven characters' [INT] slots have matching slot effects"
+            base: "Restores Special Cooldown of this character by 2 turns when it is rewinded.",
+            level1: "Makes [INT] orbs beneficial for Powerhouse and Driven characters."
         },
         support: [
             {
                 Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
                 description: [
-                    "Once per quest, if supported character uses a Special, further increases crew's base ATK boost by +100",
-                    "Once per quest, if supported character uses a Special, further increases crew's base ATK boost by +150",
-                    "Once per quest, if supported character uses a Special, further increases crew's base ATK boost by +200",
-                    "Once per quest, if supported character uses a Special, further increases crew's base ATK boost by +250",
-                    "Once per quest, if supported character uses a Special, further increases crew's base ATK boost by +300"
+                    "Once per adventure, when the supported character uses their special, increases boost effects of Base ATK Boost buffs by +100.",
+                    "Once per adventure, when the supported character uses their special, increases boost effects of Base ATK Boost buffs by +150.",
+                    "Once per adventure, when the supported character uses their special, increases boost effects of Base ATK Boost buffs by +200.",
+                    "Once per adventure, when the supported character uses their special, increases boost effects of Base ATK Boost buffs by +250.",
+                    "Once per adventure, when the supported character uses their special, increases boost effects of Base ATK Boost buffs by +300."
                 ]
             }
         ],
@@ -175648,22 +175652,22 @@ window.details = {
         festAttackTarget: "Targets closest enemies"
     },
     4455: {//Guillotine
-        captain: "Boosts Driven and Slasher characters' ATK by 3.75x, HP by 1.25x, and boosts damage dealt to enemies with damage taken increased, delay, Poison, Venom, progressive Poison, DEF down, or Paralysis status by 1.2x",
-        special: "Reduces the duration of all enemy barriers by 2 turns, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn (effect cannot stack; if HP is above max limit, it is treated as being full HP), boosts damage dealt to enemies with damage taken increased, Poison, Venom, and progressive Poison by 2.25x for 1 turn, and boosts the chain multiplier by +1.1 for 1 turn. If 4 or more [Navy] [World Government] characters are on the crew, extends the duration of crew's chain multiplier additive boost (except multiplicative boost) and damage dealt to enemies with a specific status effect boost by 2 turns (effect applies to additive chain multiplier boost and damage dealt to enemies with a specific status effect boost from this Special)",
+        captain: "Boosts ATK of Driven and Slasher characters by 3.75x, boosts HP of Driven and Slasher characters by 1.25x, and boosts ATK against enemies inflicted with Increase Damage Taken, delayed enemies, poisoned enemies, enemies with reduced defense and paralyzed enemies by 1.2x.",
+        special: "Reduces enemies' Barrier duration by 2 turns, allows HP Overfill up to 2x MAX HP for 1 turn, boosts ATK against enemies inflicted with Increase Damage Taken and poisoned enemies by 2.25x for 1 turn, and adds 1.1x to Chain Multiplier for 1 turn. If your crew has 4+ [Navy] or [World Government] characters, increases duration of any Chain Addition and Status ATK Boosting buffs by 2 turns, including effects activated in the same ability.",
         specialName: "Readied Blade",
         sailor: {
-            base: "Makes Driven and Slasher characters' [PSY] slots have matching slot effects",
-            level1: "Character's [PSY] slot is carried over to the next turn if character lands a PERFECT strike"
+            base: "Makes [PSY] orbs beneficial for Driven and Slasher characters.",
+            level1: "If this character has an [PSY] orb and you hit a PERFECT with him, keep their [PSY] orb for the next turn."
         },
         support: [
             {
                 Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
                 description: [
-                    "Once per quest, if supported character uses a Special, boosts the chain multiplier by +0.2 for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the chain multiplier by +0.3 for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the chain multiplier by +0.4 for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the chain multiplier by +0.5 for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the chain multiplier by +0.6 for 1 turn"
+                    "Once per adventure, when the supported character uses their special, adds 0.2x to Chain Multiplier for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, adds 0.3x to Chain Multiplier for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, adds 0.4x to Chain Multiplier for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, adds 0.5x to Chain Multiplier for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, adds 0.6x to Chain Multiplier for 1 turn."
                 ]
             }
         ],
