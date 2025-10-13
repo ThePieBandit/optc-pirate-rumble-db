@@ -169165,7 +169165,7 @@ window.details = {
 		},
 		support: [
 			{
-				Characters: "Characters with the following Character Tag: Navy Vice Admiral",
+				Characters: "[Navy Vice Admiral] characters",
 				description: [
 					"Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
 					"Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
@@ -169225,7 +169225,7 @@ window.details = {
 		},
 		support: [
 			{
-				Characters: "Characters with the following Character Tag: Navy Vice Admiral",
+				Characters: "[Navy Vice Admiral] characters",
 				description: [
 					"Once per adventure, when the supported character uses their special, reduces Paralysis duration by 1 turn.",
 					"Once per adventure, when the supported character uses their special, reduces Paralysis duration by 1 turn.",
@@ -169884,7 +169884,7 @@ window.details = {
         superSpecialCriteria: "This character must be captain. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Sabo, Koala, Inazuma, Morley, Karasu, Lindbergh, Belo Betty, Ginny, Hack, Nico Robin, Monkey D. Luffy",
         support: [
             {
-                Characters: "[DEX] characters with the following Character Tag: [Revolutionary Army]",
+                Characters: "[DEX] [Revolutionary Army] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn.",
                     "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn, and inflicts all enemies with Increase Damage Taken by 1.1x for 1 turn.",
@@ -170006,7 +170006,7 @@ window.details = {
         superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Sabo, Koala, Monkey D. Dragon, Bartholomew Kuma, Emporio Ivankov, Inazuma, Morley, Karasu, Lindbergh, Belo Betty, Hack, Nico Robin",
         support: [
             {
-                Characters: "[DEX] characters with the following Character Tag: [Revolutionary Army]",
+                Characters: "[DEX] [Revolutionary Army] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
                     "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn, and increases boost effects of Orb Amplification buffs by +0.1x.",
@@ -170235,7 +170235,7 @@ window.details = {
         superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Nico Robin, Yamato, Otama, Carrot, Nefeltari Vivi, Rebecca, Mansherry, Sugar, Shirahoshi, Jewelry Bonney, Boa Hancock, Koala, Vinsmoke Reiju, Perona, Ulti, Tashigi, Charlotte Linlin (Big Mom)",
         support: [
             {
-                Characters: "[STR] characters with the following Character Tag: [Straw Hat Pirates]",
+                Characters: "[STR] [Straw Hat Pirates] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, locks the chain multiplier at 1.75x for 1 turn.",
                     "Once per adventure, when the supported character uses their special, locks the chain multiplier at 1.9x for 1 turn.",
@@ -170901,7 +170901,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Whitebeard Pirates]",
+                Characters: "[Whitebeard Pirates] characters",
                 description: [
                     "Once per adventure, when an enemy inflicts you with ATK Down, changes the orb of the supported character into a [RCV] orb.",
                     "Once per adventure, when an enemy inflicts you with ATK Down, changes the orb of the supported character into a [RCV] orb.",
@@ -170977,7 +170977,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Whitebeard Pirates]",
+                Characters: "[Whitebeard Pirates] characters",
                 description: [
                     "Adds 3% of this character's base RCV to the supported character's base RCV.",
                     "Adds 4% of this character's base RCV to the supported character's base RCV.",
@@ -171373,7 +171373,7 @@ window.details = {
         superSpecial: "Increases boost effects of Color Affinity buffs by +0.5x, allows crew to perform Super Tandem with [DEX] orbs for 1 turn, transforms [DEX] characters into Super [DEX] characters, and transforms Fighter characters into Super Fighter characters.",
         support: [
             {
-                Characters: "[DEX] characters with the following Character Tag: [Navy]",
+                Characters: "[DEX] [Navy] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, boosts ATK of [Navy] characters by 1.25x for 1 turn.",
                     "Once per adventure, when the supported character uses their special, boosts ATK of [Navy] characters by 1.5x for 1 turn.",
@@ -171609,7 +171609,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Child]",
+                Characters: "[Child] characters",
                 description: [
                     "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn.",
                     "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn.",
@@ -173113,7 +173113,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Scientist]",
+                Characters: "[Scientist] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
                     "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
@@ -173189,7 +173189,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Scientist]",
+                Characters: "[Scientist] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
                     "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
@@ -173266,7 +173266,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Navy]",
+                Characters: "[Navy] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, recovers 1,000 HP.",
                     "Once per adventure, when the supported character uses their special, recovers 1,250 HP.",
@@ -173347,7 +173347,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Navy]",
+                Characters: "[Navy] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, recovers 1,000 HP.",
                     "Once per adventure, when the supported character uses their special, recovers 1,250 HP.",
@@ -173429,7 +173429,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Straw Hat Pirates]",
+                Characters: "[Straw Hat Pirates] characters",
                 description: [
                     "Reduces damage received from [INT] characters by 1%. Adds 4% of this character's base HP to the supported character's base HP.",
                     "Reduces damage received from [INT] characters by 2%. Adds 5% of this character's base HP to the supported character's base HP.",
@@ -173967,7 +173967,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Giant]",
+                Characters: "[Giant] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, boosts Color Affinity of Powerhouse characters by 1.2x for 1 turn.",
                     "Once per adventure, when the supported character uses their special, boosts Color Affinity of Powerhouse characters by 1.3x for 1 turn.",
@@ -174399,7 +174399,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                Characters: "[Navy Vice Admiral] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
                     "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
@@ -174459,7 +174459,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                Characters: "[Navy Vice Admiral] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, reduces ATK Down duration by 1 turn.",
                     "Once per adventure, when the supported character uses their special, reduces ATK Down duration by 1 turn.",
@@ -174519,7 +174519,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                Characters: "[Navy Vice Admiral] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, reduces Bind duration by 1 turn.",
                     "Once per adventure, when the supported character uses their special, reduces Bind duration by 1 turn.",
@@ -175592,7 +175592,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                Characters: "[Navy Vice Admiral] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, increases boost effects of Base ATK Boost buffs by +100.",
                     "Once per adventure, when the supported character uses their special, increases boost effects of Base ATK Boost buffs by +150.",
@@ -175661,7 +175661,7 @@ window.details = {
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                Characters: "[Navy Vice Admiral] characters",
                 description: [
                     "Once per adventure, when the supported character uses their special, adds 0.2x to Chain Multiplier for 1 turn.",
                     "Once per adventure, when the supported character uses their special, adds 0.3x to Chain Multiplier for 1 turn.",
