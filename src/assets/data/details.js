@@ -175720,6 +175720,524 @@ window.details = {
         ],
         festAttackTarget: "Targets closest enemies"
     },
+    4456: {//Vasco Shot
+        captain: "Boosts [INT], Powerhouse, and Driven characters' ATK by 5.5x when slots match (5x otherwise), HP by 1.3x, and makes crew's [STR][INT][RCV] slots have matching slot effects. If crew is afflicted with Burn, Poison, or progressive Poison by an enemy action, converts that effect to \"boosts [INT], Powerhouse, and Driven characters' slot effects by 2.75x for 2 turns\" regardless of the effective turns of the converted effect (depending on if the enemy action was a preemptive action or end of turn action, the effect duration will be 1 turn at start of crew's next turn) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] characters are on the crew, reduces the duration of Pain received from the enemy by 6 turns and boosts Powerhouse and Driven characters' ATK by a further 1.1x",
+        special: "If 3 or more [Blackbeard Pirates] characters are on the crew and crew's HP is 50% or below when Special is launched, allows crew to stack up to 2 different damage boosting effects (cannot stack the damage boost of the same type) for 1 turn. If enemy has Ignited, Poison, Venom, or progressive Poison when Special is launched, doubles damage dealt to enemies with Ignited, Poison, Venom, or progressive Poison for 1 turn, then after that, cuts crew's HP by 25%, reduces crew's Bind duration by 3 turns, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 3 turns, boosts the type effects of normal attacks for [INT], Powerhouse, and Driven characters by 2.75x for 1 turns, and applies Ignited status to all enemies (ignoring immunity to all status effects or immunity excluding certain status effect) for 1 turn (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action)",
+        specialName: "Navy-Seeking Drunken Spitfire",
+        sailor: {
+            base: "Makes Powerhouse and Driven characters' [STR][INT] slots have matching slot effects",
+            level1: "Boosts crew's base HP by 200"
+        },
+        superSpecialCriteria: "When crew's HP is 25% or below or any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Doc Q, Kuzan (Aokiji)",
+        superSpecial: "Reduces crew's Bind duration by 2 turns, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns, allows crew's ATK boost to be further increased up to 2 times, and further increases crew's ATK boost by 1.1x (up to a maximum of 6x), and changes Driven characters to Super Driven",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Blackbeard Pirates]",
+                description: [
+                    "Once per quest, if inflicted with Bind or Burn status from the enemy, reduces crew's Bind/Burn duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Bind or Burn status from the enemy, reduces crew's Bind/Burn duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Bind or Burn status from the enemy, reduces crew's Bind/Burn duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Bind or Burn status from the enemy, reduces crew's Bind/Burn duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Bind or Burn status from the enemy, reduces crew's Bind/Burn duration by 2 turns at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 1: Damage Limit Break: Class" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Acquire Potential 2: Special Use Limit" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base ATK by 60" },
+            { description: "Acquire Sailor Ability 2: Boosts crew's base HP by 200" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 60" },
+            { description: "Acquire Potential 3: Double Special Activation" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Special Use Limit",
+                description: [
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Double Special Activation",
+                description: [
+                    "Once per adventure, reduces Special Cooldown of this character by 1 turn after the first time this special is used",
+                    "Once per adventure, reduces Special Cooldown of this character by 3 turns after the first time this special is used",
+                    "Once per adventure, reduces Special Cooldown of this character by 5 turns after the first time this special is used",
+                    "Once per adventure, reduces Special Cooldown of this character by 7 turns after the first time this special is used",
+                    "Once per adventure, reduces Special Cooldown of this character completely after the first time this special is used"
+                ]
+            }
+        ],
+        festStats: {
+            def: 131,
+            spd: 162,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Halve Stats, reduce damage taken from [PSY] by 30%",
+        festAbility: [
+            "Powerhouse/Driven class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; [Blackbeard Pirates] teammates HP Up Lv.2, RCV Up Lv.1; if 4 or more [Blackbeard Pirates] characters are on the team, self ATK Up Lv.1",
+            "Powerhouse/Driven class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; [Blackbeard Pirates] teammates HP Up Lv.3, RCV Up Lv.1; if 4 or more [Blackbeard Pirates] characters are on the team, self ATK Up Lv.1",
+            "Powerhouse/Driven class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; [Blackbeard Pirates] teammates HP Up Lv.4, RCV Up Lv.2; if 4 or more [Blackbeard Pirates] characters are on the team, self ATK Up Lv.2",
+            "Powerhouse/Driven class teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; [Blackbeard Pirates] teammates HP Up Lv.5, RCV Up Lv.3; if 4 or more [Blackbeard Pirates] characters are on the team, self ATK Up Lv.3",
+            "Powerhouse/Driven class teammates HP Up Lv.6, ATK Up Lv.6, SPD Up Lv.6; [Blackbeard Pirates] teammates HP Up Lv.6, RCV Up Lv.4; if 4 or more [Blackbeard Pirates] characters are on the team, self ATK Up Lv.4"
+        ],
+        festSpecial: [
+            {
+                cooldown: 32,
+                description: "Targets enemies within large range (horizontal) for ATK x 2.1 damage; targets [Blackbeard Pirates] teammates for ATK Up Lv.1 (11 s), SPD Up Lv.1 (11 s), DEF Up Lv.1 (11 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.1 damage, Special CT 11% delay"
+            },
+            {
+                cooldown: 32,
+                description: "Targets enemies within large range (horizontal) for ATK x 2.2 damage; targets [Blackbeard Pirates] teammates for ATK Up Lv.1 (11 s), SPD Up Lv.1 (11 s), DEF Up Lv.1 (11 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.2 damage, Special CT 12% delay"
+            },
+            {
+                cooldown: 32,
+                description: "Targets enemies within large range (horizontal) for ATK x 2.3 damage; targets [Blackbeard Pirates] teammates for ATK Up Lv.1 (12 s), SPD Up Lv.1 (12 s), DEF Up Lv.1 (12 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.3 damage, Special CT 13% delay"
+            },
+            {
+                cooldown: 32,
+                description: "Targets enemies within large range (horizontal) for ATK x 2.4 damage; targets [Blackbeard Pirates] teammates for ATK Up Lv.2 (12 s), SPD Up Lv.2 (12 s), DEF Up Lv.2 (12 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.4 damage, Special CT 14% delay"
+            },
+            {
+                cooldown: 32,
+                description: "Targets enemies within large range (horizontal) for ATK x 2.5 damage; targets [Blackbeard Pirates] teammates for ATK Up Lv.2 (13 s), SPD Up Lv.2 (13 s), DEF Up Lv.2 (13 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.5 damage, Special CT 15% delay"
+            },
+            {
+                cooldown: 32,
+                description: "Targets enemies within large range (horizontal) for ATK x 2.6 damage; targets [Blackbeard Pirates] teammates for ATK Up Lv.3 (13 s), SPD Up Lv.3 (13 s), DEF Up Lv.3 (13 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.6 damage, Special CT 16% delay"
+            },
+            {
+                cooldown: 32,
+                description: "Targets enemies within large range (horizontal) for ATK x 2.7 damage; targets [Blackbeard Pirates] teammates for ATK Up Lv.3 (14 s), SPD Up Lv.3 (14 s), DEF Up Lv.3 (14 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.7 damage, Special CT 17% delay"
+            },
+            {
+                cooldown: 32,
+                description: "Targets enemies within large range (horizontal) for ATK x 2.8 damage; targets [Blackbeard Pirates] teammates for ATK Up Lv.3 (14 s), SPD Up Lv.3 (14 s), DEF Up Lv.3 (14 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.8 damage, Special CT 18% delay"
+            },
+            {
+                cooldown: 32,
+                description: "Targets enemies within large range (horizontal) for ATK x 2.9 damage; targets [Blackbeard Pirates] teammates for ATK Up Lv.4 (15 s), SPD Up Lv.4 (15 s), DEF Up Lv.4 (15 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.9 damage, Special CT 19% delay"
+            },
+            {
+                cooldown: 32,
+                description: "Targets enemies within large range (horizontal) for ATK x 3 damage; targets [Blackbeard Pirates] teammates for ATK Up Lv.5 (15 s), SPD Up Lv.5 (15 s), DEF Up Lv.5 (15 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 4 damage, Special CT 20% delay"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
+                festGPSpecial: "Targets all enemies for 500 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 625 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 750 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 875 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 1000 damage",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "When 2 teammates are defeated"
+    },
+    4457: {//Pizarro
+        captain: "Boosts Driven and Powerhouse characters' ATK by 3.5x, HP by 1.5x, and makes their [INT] slots have matching slot effects",
+        special: "Reduces all enemies' Threshold Damage Reduction duration by 6 turns. If crew has slot effect boost when Special is launched, applies -30% Driven and Powerhouse Resistance to all enemies for 1 turn, then after that, boosts [INT], Driven, and Powerhouse characters' slot effects by 2.25x for 2 turns, and massively reduces a portion of each enemy's dealt damage that exceeds 1,000 for 1 turn. If 3 or more [Blackbeard Pirates] characters are on the crew, reduces crew's Blow Away duration by 2 turns and further increases crew's type effect boost and chain multiplier additive boost (except multiplicative boost) by +0.3",
+        specialName: "Halting Shout",
+        sailor: {
+            base: "Character cannot be blown away by attack",
+            level1: "Boosts crew's base stats by 60"
+        },
+        support: [
+            {
+                Characters: "[INT] characters with the following Character Tag: [Blackbeard Pirates]",
+                description: [
+                    "Once per quest, if supported character uses a Special, boosts crew's slot effects by 1.1x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts crew's slot effects by 1.2x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts crew's slot effects by 1.3x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts crew's slot effects by 1.4x for 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn and boosts crew's slot effects by 1.5x for 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 60" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base HP by 70" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Boosts crew's base stats by 60" },
+            { description: "Boosts base HP by 70" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Slot Bind" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            }
+        ],
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack"
+        ],
+        festAttackTarget: "Targets closest enemies"
+    },
+    4458: {//6+ Blackbeard
+        captain: {
+            character1: "Boosts Driven and Powerhouse characters' ATK by 4x, HP by 1.75x, increases damage taken by 1.5x, halves crew's RCV, and reduces chance of landing on [RCV] slots, but reduces all enemies' HP by 10% at the start of each battle (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect). When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 2.25x for 1 turn\" regardless of the effective turns of the converted effect",
+            character2: "Boosts Driven and Powerhouse characters' ATK by 4.25x, HP by 1.75x, increases damage taken by 1.5x, halves crew's RCV, and reduces chance of landing on [RCV] slots, but reduces character's Special charge time by 2 turns and Switch Effect by 2 at start of crew's next turn after receiving damage. When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 2.25x for 1 turn\" regardless of the effective turns of the converted effect",
+            combined: "Boosts Driven and Powerhouse characters' ATK by 5x, HP by 1.75x, reduces character's Special charge time by 3 turns and Switch Effect by 3 at start of crew's next turn after receiving damage, and reduces all enemies' HP by 10% at the start of each battle (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect). When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 2.75x for 1 turn\" regardless of the effective turns of the converted effect"
+        },
+        special: "Boosts the chain multiplier by +1.4 for 1 turn. If 4 or more [Blackbeard Pirates] [Worst Generation] [Four Emperors] characters are on the crew, further increases crew's ATK and slot effect boosts by +0.25, and boosts [INT], Driven, and Powerhouse characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 1 turn. If Captain is a Driven or Powerhouse class, extends the duration of crew's ATK and slot effect boosts by 1 turn, and becomes Double character \"Blackbeard - Absolute Almighty Powers\" for a number of turns based on total damage received from enemies (minimum 3 turns, maximum 8 turns for up to 50,000 damage)",
+        specialName: "Despair-Inducing Darkness and Tremors",
+        sailor: {
+            character1: "Boosts Powerhouse characters' base ATK by 75",
+            character2: "Boosts Driven characters' base ATK by 75",
+            combined: "Boosts Driven and Powerhouse characters' base ATK by 125",
+            level1: "Makes character's type slots have matching slot effects"
+        },
+        swap: {
+            base: "Completely removes character's Special Bind/Despair, changes character's slot (including [BLOCK] slot) to character's own type, and boosts crew's slot effects by 1.3x for 1 turn (effect can be overwritten with other slot effect boosts)",
+            super: "Completely removes character's Special Bind/Despair, changes character's slot and adjacent slots (including [BLOCK] slots) to character's own type, and boosts crew's slot effects by 1.75x for 1 turn (effect can be overwritten with other slot effect boosts)",
+            superTurns: 6
+        },
+        limit: [
+            { description: "Boosts base ATK by 5" },
+            { description: "Boosts base ATK by 5" },
+            { description: "Boosts base HP by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 5" },
+            { description: "Boosts base ATK by 5" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Acquire Potential 2: Critical Hit" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 70" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base HP by 90" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Makes character's type slots have matching slot effects" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Acquire Potential 3: Barrier Penetration" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 200" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base ATK by 100" },
+        ],
+        lLimit: [
+            null,
+            {
+                rAbility: true
+            },
+            {
+                captain: {
+                    character1: "Reduces [INT], Driven, and Powerhouse characters' Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts [INT], Driven, and Powerhouse characters' ATK by 4.25x, HP by 1.75x, increases damage taken by 1.5x, halves crew's RCV, and reduces chance of landing on [RCV] slots, but reduces all enemies' HP by 10% at the start of each battle (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect). When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 2.5x for 1 turn\" regardless of the effective turns of the converted effect",
+                    character2: "Reduces [INT], Driven, and Powerhouse characters' Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts [INT], Driven, and Powerhouse characters' ATK by 4.5x, HP by 1.75x, increases damage taken by 1.5x, halves crew's RCV, and reduces chance of landing on [RCV] slots, but reduces character's Special charge time by 2 turns and Switch Effect by 2 at start of crew's next turn after receiving damage. When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 2.5x for 1 turn\" regardless of the effective turns of the converted effect",
+                    combined: "Reduces [INT], Driven, and Powerhouse characters' Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts [INT], Driven, and Powerhouse characters' ATK by 5x, HP by 1.75x, reduces character's Special charge time by 3 turns and Switch Effect by 3 at start of crew's next turn after receiving damage, and reduces all enemies' HP by 10% at the start of each battle (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect). When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 3x for 1 turn\" regardless of the effective turns of the converted effect [Applies following effect based on number of applicable Character Tags on crew] Boosts [Blackbeard Pirates] [Worst Generation] [Four Emperors] characters' ATK by 1.1x"
+                }
+            },
+            {
+                rSpecial: true
+            },
+            {
+                special: {
+                    base: "Boosts the chain multiplier by +1.4 for 3 turns. If 4 or more [Blackbeard Pirates] [Worst Generation] [Four Emperors] characters are on the crew, further increases crew's ATK and slot effect boosts by +0.5, and boosts [INT], Driven, and Powerhouse characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 3 turns. If Captain is a Driven or Powerhouse class, extends the duration of crew's ATK and slot effect boosts by 2 turns, and becomes Double character \"Blackbeard - Absolute Almighty Powers\" for a number of turns based on total damage received from enemies (minimum 3 turns, maximum 8 turns for up to 50,000 damage)"
+                },
+                rResilience: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 50 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "This character's normal attack will ignore barriers"
+                ]
+            }
+        ],
+        festStats: {
+            def: 241,
+            spd: 147,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: {
+            base: "Completely evades Special Bind and Action Bind, reduce damage taken from Cerebral and Powerhouse by 30%",
+            llbbase: "Completely evades Special Bind and Action Bind, reduce damage taken from Cerebral and Powerhouse by 40%"
+        },
+        festAbility: {
+            base: [
+                "Driven/Powerhouse class teammates ATK Up Lv.2, HP Up Lv.2; all enemies SPD Down Lv.1; if 4 or more [Blackbeard Pirates] characters are on the team, all enemies ATK Down Lv.1, Special CT Speed Down Lv.1; during Assault Rumble, Powerhouse/Cerebral class enemies DEF Down Lv.1",
+                "Driven/Powerhouse class teammates ATK Up Lv.3, HP Up Lv.3; all enemies SPD Down Lv.2; if 4 or more [Blackbeard Pirates] characters are on the team, all enemies ATK Down Lv.1, Special CT Speed Down Lv.1; during Assault Rumble, Powerhouse/Cerebral class enemies DEF Down Lv.1",
+                "Driven/Powerhouse class teammates ATK Up Lv.4, HP Up Lv.4; all enemies SPD Down Lv.3; if 4 or more [Blackbeard Pirates] characters are on the team, all enemies ATK Down Lv.2, Special CT Speed Down Lv.1; during Assault Rumble, Powerhouse/Cerebral class enemies DEF Down Lv.2",
+                "Driven/Powerhouse class teammates ATK Up Lv.5, HP Up Lv.5; all enemies SPD Down Lv.4; if 4 or more [Blackbeard Pirates] characters are on the team, all enemies ATK Down Lv.3, Special CT Speed Down Lv.1; during Assault Rumble, Powerhouse/Cerebral class enemies DEF Down Lv.2",
+                "Driven/Powerhouse class teammates ATK Up Lv.6, HP Up Lv.6; all enemies SPD Down Lv.5; if 4 or more [Blackbeard Pirates] characters are on the team, all enemies ATK Down Lv.4, Special CT Speed Down Lv.2; during Assault Rumble, Powerhouse/Cerebral class enemies DEF Down Lv.3"
+            ],
+            llbbase: [
+                "Driven/Powerhouse class teammates ATK Up Lv.3, HP Up Lv.3; all enemies SPD Down Lv.3; if 4 or more [Blackbeard Pirates] characters are on the team, all enemies ATK Down Lv.1, Special CT Speed Down Lv.2; during Assault Rumble, Powerhouse/Cerebral class enemies DEF Down Lv.2",
+                "Driven/Powerhouse class teammates ATK Up Lv.4, HP Up Lv.4; all enemies SPD Down Lv.4; if 4 or more [Blackbeard Pirates] characters are on the team, all enemies ATK Down Lv.2, Special CT Speed Down Lv.2; during Assault Rumble, Powerhouse/Cerebral class enemies DEF Down Lv.2",
+                "Driven/Powerhouse class teammates ATK Up Lv.5, HP Up Lv.5; all enemies SPD Down Lv.5; if 4 or more [Blackbeard Pirates] characters are on the team, all enemies ATK Down Lv.3, Special CT Speed Down Lv.2; during Assault Rumble, Powerhouse/Cerebral class enemies DEF Down Lv.3",
+                "Driven/Powerhouse class teammates ATK Up Lv.6, HP Up Lv.6; all enemies SPD Down Lv.6; if 4 or more [Blackbeard Pirates] characters are on the team, all enemies ATK Down Lv.4, Special CT Speed Down Lv.2; during Assault Rumble, Powerhouse/Cerebral class enemies DEF Down Lv.3",
+                "Driven/Powerhouse class teammates ATK Up Lv.7, HP Up Lv.7; all enemies SPD Down Lv.7; if 4 or more [Blackbeard Pirates] characters are on the team, all enemies ATK Down Lv.5, Special CT Speed Down Lv.3; during Assault Rumble, Powerhouse/Cerebral class enemies DEF Down Lv.4"
+            ]
+        },
+        festSpecial: {
+            base: [
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 1.6 damage; targets all enemies for ATK Down Lv.3 (11 s), SPD Down Lv.3 (11 s); targets 2 enemies for 73% chance of Action Bind (10 s); during Assault Rumble, targets 2 Powerhouse/Cerebral class enemies for ATK x 1.6 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 1.7 damage; targets all enemies for ATK Down Lv.3 (12 s), SPD Down Lv.3 (12 s); targets 2 enemies for 76% chance of Action Bind (10 s); during Assault Rumble, targets 2 Powerhouse/Cerebral class enemies for ATK x 1.7 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 1.8 damage; targets all enemies for ATK Down Lv.3 (13 s), SPD Down Lv.3 (13 s); targets 2 enemies for 79% chance of Action Bind (10 s); during Assault Rumble, targets 2 Powerhouse/Cerebral class enemies for ATK x 1.8 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 1.9 damage; targets all enemies for ATK Down Lv.4 (14 s), SPD Down Lv.4 (14 s); targets 2 enemies for 82% chance of Action Bind (10 s); during Assault Rumble, targets 2 Powerhouse/Cerebral class enemies for ATK x 1.9 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2 damage; targets all enemies for ATK Down Lv.4 (15 s), SPD Down Lv.4 (15 s); targets 2 enemies for 85% chance of Action Bind (10 s); during Assault Rumble, targets 2 Powerhouse/Cerebral class enemies for ATK x 2 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.1 damage; targets all enemies for ATK Down Lv.5 (16 s), SPD Down Lv.5 (16 s); targets 2 enemies for 88% chance of Action Bind (10 s); during Assault Rumble, targets 2 Powerhouse/Cerebral class enemies for ATK x 2.1 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.2 damage; targets all enemies for ATK Down Lv.5 (17 s), SPD Down Lv.5 (17 s); targets 2 enemies for 91% chance of Action Bind (10 s); during Assault Rumble, targets 2 Powerhouse/Cerebral class enemies for ATK x 2.2 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.3 damage; targets all enemies for ATK Down Lv.5 (18 s), SPD Down Lv.5 (18 s); targets 2 enemies for 94% chance of Action Bind (10 s); during Assault Rumble, targets 2 Powerhouse/Cerebral class enemies for ATK x 2.3 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.4 damage; targets all enemies for ATK Down Lv.6 (19 s), SPD Down Lv.6 (19 s); targets 2 enemies for 97% chance of Action Bind (10 s); during Assault Rumble, targets 2 Powerhouse/Cerebral class enemies for ATK x 2.4 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.5 damage; targets all enemies for ATK Down Lv.7 (20 s), SPD Down Lv.7 (20 s); targets 2 enemies for 100% chance of Action Bind (10 s); during Assault Rumble, targets 2 Powerhouse/Cerebral class enemies for ATK x 2.5 damage"
+                }
+            ],
+            llbbase: [
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.1 damage; targets all enemies for ATK Down Lv.3 (11 s), SPD Down Lv.3 (11 s), DEF Down Lv.1 (11 s); targets 2 enemies for 73% chance of Action Bind (10 s); during Assault Rumble, targets 3 Powerhouse/Cerebral class enemies for ATK x 2.1 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.2 damage; targets all enemies for ATK Down Lv.3 (12 s), SPD Down Lv.3 (12 s), DEF Down Lv.1 (12 s); targets 2 enemies for 76% chance of Action Bind (10 s); during Assault Rumble, targets 3 Powerhouse/Cerebral class enemies for ATK x 2.2 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.3 damage; targets all enemies for ATK Down Lv.3 (13 s), SPD Down Lv.3 (13 s), DEF Down Lv.1 (13 s); targets 2 enemies for 79% chance of Action Bind (10 s); during Assault Rumble, targets 3 Powerhouse/Cerebral class enemies for ATK x 2.3 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.4 damage; targets all enemies for ATK Down Lv.4 (14 s), SPD Down Lv.4 (14 s), DEF Down Lv.1 (14 s); targets 2 enemies for 82% chance of Action Bind (10 s); during Assault Rumble, targets 3 Powerhouse/Cerebral class enemies for ATK x 2.4 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.5 damage; targets all enemies for ATK Down Lv.4 (15 s), SPD Down Lv.4 (15 s), DEF Down Lv.2 (15 s); targets 2 enemies for 85% chance of Action Bind (10 s); during Assault Rumble, targets 3 Powerhouse/Cerebral class enemies for ATK x 2.5 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.6 damage; targets all enemies for ATK Down Lv.5 (16 s), SPD Down Lv.5 (16 s), DEF Down Lv.2 (16 s); targets 2 enemies for 88% chance of Action Bind (10 s); during Assault Rumble, targets 3 Powerhouse/Cerebral class enemies for ATK x 2.6 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.7 damage; targets all enemies for ATK Down Lv.5 (17 s), SPD Down Lv.5 (17 s), DEF Down Lv.2 (17 s); targets 2 enemies for 91% chance of Action Bind (10 s); during Assault Rumble, targets 3 Powerhouse/Cerebral class enemies for ATK x 2.7 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.8 damage; targets all enemies for ATK Down Lv.5 (18 s), SPD Down Lv.5 (18 s), DEF Down Lv.3 (18 s); targets 2 enemies for 94% chance of Action Bind (10 s); during Assault Rumble, targets 3 Powerhouse/Cerebral class enemies for ATK x 2.8 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 2.9 damage; targets all enemies for ATK Down Lv.6 (19 s), SPD Down Lv.6 (19 s), DEF Down Lv.3 (19 s); targets 2 enemies for 97% chance of Action Bind (10 s); during Assault Rumble, targets 3 Powerhouse/Cerebral class enemies for ATK x 2.9 damage"
+                },
+                {
+                    cooldown: 33,
+                    description: "Targets enemies within large range for ATK x 3 damage; targets all enemies for ATK Down Lv.7 (20 s), SPD Down Lv.7 (20 s), DEF Down Lv.4 (20 s); targets 2 enemies for 100% chance of Action Bind (10 s); during Assault Rumble, targets 3 Powerhouse/Cerebral class enemies for ATK x 3 damage"
+                }
+            ]
+        },
+        festAbilityGP: [
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
+                festGPSpecial: "Targets all enemies for 500 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 625 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 750 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 875 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 1000 damage",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "When 2 teammates are defeated"
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
@@ -176123,4 +176641,5 @@ if (UnitUtils){
     UnitUtils.extendDouble(calcGhostStartID, 4408, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4436, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4439, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4458, "dual");
 }
