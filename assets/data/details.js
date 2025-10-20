@@ -125786,15 +125786,15 @@ window.details = {
             }
         ]
     },
-    3779: {//Boa Hancock
+    3779: {//5* Boa Hancock
         captain: "Reduces Special Cooldown of this character by 3 turns at the start of the fight, boosts ATK of [STR], Shooter and Free Spirit characters by 5.25x, boosts HP of [STR], Shooter and Free Spirit characters by 1.25x, makes [STR], [DEX] and [PSY] orbs beneficial for all characters, reduces chances of getting [TND] and [RCV] orbs and recovers 2,000 HP at the end of each turn.",
-        special: "Boosts ATK of [STR], Shooter and Free Spirit characters by 2.5x until your crew takes 3,000 damage, inflicts Petrify to all enemies inflicted with Melo-Melo for 2 turns, inflicts Melo-Melo to all enemies for 8 hits and makes Badly Matching and BLOCK orbs not reduce damage for 3 turns.",
+        special: "Boosts ATK of [STR], Shooter and Free Spirit characters by 2.5x for 0-99 turns (until your crew takes 3,000 damage), inflicts Petrify to all enemies inflicted with Melo-Melo for 2 turns, inflicts Melo-Melo to all enemies for 8 hits and makes Badly Matching and BLOCK orbs not reduce damage for 3 turns.",
         specialNotes: "Petrify will make all attacks not reduce the counter of the Melo-Melo effect while active.",
         specialName: "Intruding Love-Love Mellow",
     },
-    3780: {//Boa Hancock
+    3780: {//6* Boa Hancock
         captain: "Reduces Special Cooldown of this character by 3 turns at the start of the fight, boosts ATK of [STR], Shooter and Free Spirit characters by 5.25x, boosts HP of [STR], Shooter and Free Spirit characters by 1.25x, makes [STR], [DEX] and [PSY] orbs beneficial for all characters, reduces chances of getting [TND] and [RCV] orbs and recovers 2,000 HP at the end of each turn.",
-        special: "Boosts ATK of [STR], Shooter and Free Spirit characters by 2.5x until your crew takes 3,000 damage, inflicts Petrify to all enemies inflicted with Melo-Melo for 2 turns, inflicts Melo-Melo to all enemies for 8 hits and makes Badly Matching and BLOCK orbs not reduce damage for 3 turns.",
+        special: "Boosts ATK of [STR], Shooter and Free Spirit characters by 2.5x for 0-99 turns (until your crew takes 3,000 damage), inflicts Petrify to all enemies inflicted with Melo-Melo for 2 turns, inflicts Melo-Melo to all enemies for 8 hits and makes Badly Matching and BLOCK orbs not reduce damage for 3 turns.",
         specialNotes: "Petrify will make all attacks not reduce the counter of the Melo-Melo effect while active.",
         specialName: "Intruding Love-Love Mellow",
         superSpecial: "Boosts Color Affinity of [STR], Shooter and Free Spirit characters by 2.25x for 3 turns, inflicts Melo-Melo to all enemies for 10 additional hits and transforms [STR] characters into Super [STR] characters.",
@@ -142721,7 +142721,7 @@ window.details = {
             }
         ]
     },
-    4038: {
+    4038: {//5* Kizuna Kid
         captain: "Reduces Special Cooldown of [DEX], Driven and Striker characters by 1 turn at the start of the fight, boosts ATK of [DEX], Driven and Striker characters by 4.5x, by 4.75x instead if they have a beneficial orb, reduces damage received by 15%, changes [RCV] orbs into [BOMB] orbs, makes [BOMB] and [SUPERBOMB] orbs beneficial for all characters, and [BOMB] and [SUPERBOMB] orbs will deal 80% less damage to the crew. If a crew member uses a special with a Color Affinity buff, increases boost effects of those Color Affinity buffs by +0.25x.",
         limit: [
             { description: "Boosts base HP by 25" },
@@ -142786,7 +142786,7 @@ window.details = {
             base: "Makes [BOMB] and [SUPERBOMB] orbs beneficial for all characters",
             level1: "Boosts base ATK of Driven and Striker characters by 80"
         },
-        special: "Deals 70x character's ATK in [DEX] damage to all enemies, reduces Paralysis duration by 5 turns, changes all orbs into [BOMB] orbs, boosts Color Affinity of [DEX], Driven and Striker characters by 2x until your crew takes 5,000 damage, and reduces any damage received above 3,000 HP by ?% for 1 turns.",
+        special: "Deals 70x character's ATK in [DEX] damage to all enemies, reduces Paralysis duration by 5 turns, changes all orbs into [BOMB] orbs, boosts Color Affinity of [DEX], Driven and Striker characters by 2x for 0-99 turns (until your crew takes 5,000 damage), and reduces any damage received above 3,000 HP by ?% for 1 turns.",
         specialName: "Annihilating Steel Arm",
         superSpecial: "Deals 100x character's ATK in Fixed True Typeless damage to all enemies, increases Orb Effects of beneficial [BOMB] orbs to 2.5x for 1 turn, increases Orb Effects of neutral [BOMB] orbs to 1.5x for 1 turn, and transforms [DEX] characters into Super [DEX] characters.",
         superSpecialCriteria: "This character must be captain and this character must have a [BOMB] or [SUPERBOMB] orb",
@@ -142803,7 +142803,7 @@ window.details = {
             }
         ]
     },
-    4039: {
+    4039: {//5+ Kizuna Kid
         captain: "Reduces Special Cooldown of [DEX], Driven and Striker characters by 1 turn at the start of the fight, boosts ATK of [DEX], Driven and Striker characters by 4.75x, by 5x instead if they have a beneficial orb, reduces damage received by 15%, changes [RCV] orbs into [BOMB] orbs, makes [BOMB] and [SUPERBOMB] orbs beneficial for all characters, and [BOMB] and [SUPERBOMB] orbs will deal 80% less damage to the crew. If a crew member uses a special with a Color Affinity buff, increases boost effects of those Color Affinity buffs by +0.25x.",
         limit: [
             { description: "Boosts base HP by 25" },
@@ -142868,7 +142868,7 @@ window.details = {
             base: "Makes [BOMB] and [SUPERBOMB] orbs beneficial for all characters",
             level1: "Boosts base ATK of Driven and Striker characters by 80"
         },
-        special: "Deals 70x character's ATK in [DEX] damage to all enemies, reduces Paralysis duration by 6 turns, changes all orbs, including [BLOCK] orbs, into [SUPERBOMB] orbs, boosts Color Affinity of [DEX], Driven and Striker characters by 2.25x until your crew takes 5,000 damage, and reduces any damage received above 3,000 HP by ?% for 2 turns.",
+        special: "Deals 70x character's ATK in [DEX] damage to all enemies, reduces Paralysis duration by 6 turns, changes all orbs, including [BLOCK] orbs, into [SUPERBOMB] orbs, boosts Color Affinity of [DEX], Driven and Striker characters by 2.25x for 0-99 turns (until your crew takes 5,000 damage), and reduces any damage received above 3,000 HP by ?% for 2 turns.",
         specialName: "Annihilating Steel Arm",
         superSpecial: "Deals 100x character's ATK in Fixed True Typeless damage to all enemies, increases Orb Effects of beneficial [BOMB] and [SUPERBOMB] orbs to 2.5x for 1 turn, increases Orb Effects of neutral [BOMB] orbs to 1.5x for 1 turn, and transforms [DEX] characters into Super [DEX] characters.",
         superSpecialCriteria: "This character must be captain and this character must have a [BOMB] or [SUPERBOMB] orb",
@@ -175721,24 +175721,24 @@ window.details = {
         festAttackTarget: "Targets closest enemies"
     },
     4456: {//Vasco Shot
-        captain: "Boosts [INT], Powerhouse, and Driven characters' ATK by 5.5x when slots match (5x otherwise), HP by 1.3x, and makes crew's [STR][INT][RCV] slots have matching slot effects. If crew is afflicted with Burn, Poison, or progressive Poison by an enemy action, converts that effect to \"boosts [INT], Powerhouse, and Driven characters' slot effects by 2.75x for 2 turns\" regardless of the effective turns of the converted effect (depending on if the enemy action was a preemptive action or end of turn action, the effect duration will be 1 turn at start of crew's next turn) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] characters are on the crew, reduces the duration of Pain received from the enemy by 6 turns and boosts Powerhouse and Driven characters' ATK by a further 1.1x",
-        special: "If 3 or more [Blackbeard Pirates] characters are on the crew and crew's HP is 50% or below when Special is launched, allows crew to stack up to 2 different damage boosting effects (cannot stack the damage boost of the same type) for 1 turn. If enemy has Ignited, Poison, Venom, or progressive Poison when Special is launched, doubles damage dealt to enemies with Ignited, Poison, Venom, or progressive Poison for 1 turn, then after that, cuts crew's HP by 25%, reduces crew's Bind duration by 3 turns, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 3 turns, boosts the type effects of normal attacks for [INT], Powerhouse, and Driven characters by 2.75x for 1 turns, and applies Ignited status to all enemies (ignoring immunity to all status effects or immunity excluding certain status effect) for 1 turn (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action)",
+        captain: "Boosts ATK of [INT], Powerhouse and Driven characters by 5x, by 5.5x instead if they have a beneficial orb, boosts HP of [INT], Powerhouse and Driven characters by 1.3x, and makes [STR], [INT] and [RCV] orbs beneficial for all characters. If crew is inflicted with Poison or Burn from an enemy action, replaces that debuff with the following effect: boosts Orb Effects of [INT], Powerhouse and Driven characters by 2.75x for 2 turns. If your crew has 3+ [Blackbeard Pirates] characters, reduces Pain duration by 6 turns, and boosts ATK of Powerhouse and Driven characters by 5.5x, by 6.05x instead if they have a beneficial orb.",
+        special: "If HP is below 50% when the special is activated and your crew has 3+ [Blackbeard Pirates] characters, allows 2 Status ATK Boost buffs to stack for 1 turn. If enemies are inflicted with Poison or Burn when the special is activated, boosts ATK against poisoned enemies and enemies inflicted with Burn by 2x for 1 turn. Reduces crew's current HP by 25%, reduces Bind duration by 3 turns, reduces enemies' Percent Damage Reduction duration by 3 turns, boosts the Color Affinity of [INT], Powerhouse and Driven characters by 2.75x for 1 turn, and ignores debuff protection and inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 1 turn.",
         specialName: "Navy-Seeking Drunken Spitfire",
         sailor: {
-            base: "Makes Powerhouse and Driven characters' [STR][INT] slots have matching slot effects",
-            level1: "Boosts crew's base HP by 200"
+            base: "Makes [STR] and [INT] orbs beneficial for Powerhouse and Driven characters.",
+            level1: "Boosts base HP of all characters by 200."
         },
-        superSpecialCriteria: "When crew's HP is 25% or below or any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Doc Q, Kuzan (Aokiji)",
-        superSpecial: "Reduces crew's Bind duration by 2 turns, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns, allows crew's ATK boost to be further increased up to 2 times, and further increases crew's ATK boost by 1.1x (up to a maximum of 6x), and changes Driven characters to Super Driven",
+        superSpecialCriteria: "Can be launched as crewmate. HP must be below 25% or your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Doc Q, Kuzan (Aokiji)",
+        superSpecial: "Reduces Bind duration by 2 turns, reduces enemies' Percent Damage Reduction duration by 2 turns, enables ATK Up buffs to be enhanced up to 2 times, increases boost effects of ATK Up buffs by 1.1x (up to 6x), and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Blackbeard Pirates]",
+                Characters: "[Blackbeard Pirates] characters",
                 description: [
-                    "Once per quest, if inflicted with Bind or Burn status from the enemy, reduces crew's Bind/Burn duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind or Burn status from the enemy, reduces crew's Bind/Burn duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind or Burn status from the enemy, reduces crew's Bind/Burn duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind or Burn status from the enemy, reduces crew's Bind/Burn duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind or Burn status from the enemy, reduces crew's Bind/Burn duration by 2 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Bind or Burn, reduces Bind and Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind or Burn, reduces Bind and Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind or Burn, reduces Bind and Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind or Burn, reduces Bind and Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind or Burn, reduces Bind and Burn duration by 2 turns."
                 ]
             }
         ],
@@ -175908,22 +175908,22 @@ window.details = {
         festAbilityGPCondition: "When 2 teammates are defeated"
     },
     4457: {//Pizarro
-        captain: "Boosts Driven and Powerhouse characters' ATK by 3.5x, HP by 1.5x, and makes their [INT] slots have matching slot effects",
-        special: "Reduces all enemies' Threshold Damage Reduction duration by 6 turns. If crew has slot effect boost when Special is launched, applies -30% Driven and Powerhouse Resistance to all enemies for 1 turn, then after that, boosts [INT], Driven, and Powerhouse characters' slot effects by 2.25x for 2 turns, and massively reduces a portion of each enemy's dealt damage that exceeds 1,000 for 1 turn. If 3 or more [Blackbeard Pirates] characters are on the crew, reduces crew's Blow Away duration by 2 turns and further increases crew's type effect boost and chain multiplier additive boost (except multiplicative boost) by +0.3",
+        captain: "Boosts ATK of Driven and Powerhouse characters by 3.5x, boosts HP of Driven and Powerhouse characters by 1.5x, and makes [INT] orbs beneficial for Driven and Powerhouse characters.",
+        special: "Reduces enemies' Threshold Damage Reduction duration by 6 turns, boosts Orb Effects of [INT], Driven and Powerhouse characters by 2.25x for 2 turns, and reduces any damage received above 1,000 HP by 90% for 1 turn. If your crew has Orb Amplification when the special is activated, reduces enemies' Driven and Powerhouse Resistance by -30% for 1 turn. If your crew has 3+ [Blackbeard Pirates] characters, reduces Blow Away duration by 2 turns, and increases boost effects of Color Affinity and Chain Addition buffs by +0.3x.",
         specialName: "Halting Shout",
         sailor: {
-            base: "Character cannot be blown away by attack",
-            level1: "Boosts crew's base stats by 60"
+            base: "This character cannot be Blown Away.",
+            level1: "Boosts base ATK, HP and RCV of all characters by 60."
         },
         support: [
             {
-                Characters: "[INT] characters with the following Character Tag: [Blackbeard Pirates]",
+                Characters: "[INT] [Blackbeard Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, boosts crew's slot effects by 1.1x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts crew's slot effects by 1.2x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts crew's slot effects by 1.3x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts crew's slot effects by 1.4x for 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn and boosts crew's slot effects by 1.5x for 1 turn"
+                    "Once per adventure, when the supported character uses their special, boosts Orb Effects of all characters by 1.1x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Orb Effects of all characters by 1.2x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Orb Effects of all characters by 1.3x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Orb Effects of all characters by 1.4x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn, and boosts Orb Effects of all characters by 1.5x for 1 turn."
                 ]
             }
         ],
@@ -175978,21 +175978,22 @@ window.details = {
     },
     4458: {//6+ Blackbeard
         captain: {
-            character1: "Boosts Driven and Powerhouse characters' ATK by 4x, HP by 1.75x, increases damage taken by 1.5x, halves crew's RCV, and reduces chance of landing on [RCV] slots, but reduces all enemies' HP by 10% at the start of each battle (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect). When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 2.25x for 1 turn\" regardless of the effective turns of the converted effect",
-            character2: "Boosts Driven and Powerhouse characters' ATK by 4.25x, HP by 1.75x, increases damage taken by 1.5x, halves crew's RCV, and reduces chance of landing on [RCV] slots, but reduces character's Special charge time by 2 turns and Switch Effect by 2 at start of crew's next turn after receiving damage. When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 2.25x for 1 turn\" regardless of the effective turns of the converted effect",
-            combined: "Boosts Driven and Powerhouse characters' ATK by 5x, HP by 1.75x, reduces character's Special charge time by 3 turns and Switch Effect by 3 at start of crew's next turn after receiving damage, and reduces all enemies' HP by 10% at the start of each battle (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect). When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 2.75x for 1 turn\" regardless of the effective turns of the converted effect"
+            character1: "Boosts ATK of Driven and Powerhouse characters by 4x, boosts HP of Driven and Powerhouse characters by 1.75x, reduces RCV of all characters by 50%, increases damage received by 1.5x, reduces chances of getting [RCV] orbs, and deals 10% of enemies' current HP in True damage, ignoring Normal Attack Only, to all enemies at the start of every stage. If a crew member uses a special with a Percent Damage Reduction, Threshold Damage Reduction or Damage Nullification buff, replaces those buffs with the following effect: boosts ATK of Driven and Powerhouse characters by 2.25x for 1 turn.",
+            character2: "oosts ATK of Driven and Powerhouse characters by 4.25x, boosts HP of Driven and Powerhouse characters by 1.75x, reduces RCV of all characters by 50%, increases damage received by 1.5x, reduces chances of getting [RCV] orbs, and reduces Special Cooldown of this character by 2 turns and reduces Switch Effect of this character by 2 after each turn you take damage. If a crew member uses a special with a Percent Damage Reduction, Threshold Damage Reduction or Damage Nullification buff, replaces those buffs with the following effect: boosts ATK of Driven and Powerhouse characters by 2.25x for 1 turn.",
+            combined: "Boosts ATK of Driven and Powerhouse characters by 5x, boosts HP of Driven and Powerhouse characters by 1.75x, reduces Special Cooldown of this character by 3 turns and reduces Switch Effect of this character by 3 after each turn you take damage, and deals 10% of enemies' current HP in True damage, ignoring Normal Attack Only, to all enemies at the start of every stage. If a crew member uses a special with a Percent Damage Reduction, Threshold Damage Reduction or Damage Nullification buff, replaces those buffs with the following effect: boosts ATK of Driven and Powerhouse characters by 2.75x for 1 turn."
         },
-        special: "Boosts the chain multiplier by +1.4 for 1 turn. If 4 or more [Blackbeard Pirates] [Worst Generation] [Four Emperors] characters are on the crew, further increases crew's ATK and slot effect boosts by +0.25, and boosts [INT], Driven, and Powerhouse characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 1 turn. If Captain is a Driven or Powerhouse class, extends the duration of crew's ATK and slot effect boosts by 1 turn, and becomes Double character \"Blackbeard - Absolute Almighty Powers\" for a number of turns based on total damage received from enemies (minimum 3 turns, maximum 8 turns for up to 50,000 damage)",
+        special: "Adds 1.4x to chain multiplier for 1 turn, and becomes Blackbeard - Absolute Almighty Powers for 3-8 turns depending on the total damage taken from enemies when the special is activated. If your crew has 4+ [Blackbeard Pirates], [Worst Generation] or [Four Emperors] characters, increases boost effects of ATK Up and Orb Amplification buffs by +0.25x, and increases Chain Tap Timing Bonus of [INT], Driven and Powerhouse characters to +0.2x-0.6x for 1 turn depending on Tap Timing. If your Captain is a Driven or Powerhouse character, increases duration of any ATK Up and Orb Amplification buffs by 1 turn.",
+        specialNotes: "<br><b>Combined Form:</b> 0+: 3 Turns, 10,000+: 4 Turns, 20,000+: 5 Turns, 30,000+: 6 Turns, 40,000+: 7 Turns, 50,000+: 8 Turns<br><b>Chain Tap Timing Bonus:</b> GOOD: +0.2, GREAT: +0.4, PERFECT: +0.6",
         specialName: "Despair-Inducing Darkness and Tremors",
         sailor: {
-            character1: "Boosts Powerhouse characters' base ATK by 75",
-            character2: "Boosts Driven characters' base ATK by 75",
-            combined: "Boosts Driven and Powerhouse characters' base ATK by 125",
-            level1: "Makes character's type slots have matching slot effects"
+            character1: "Boosts base ATK of Powerhouse characters by 75.",
+            character2: "Boosts base ATK of Driven characters by 75.",
+            combined: "Boosts base ATK of Driven and Powerhouse characters by 125.",
+            level1: "Makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for this character."
         },
         swap: {
-            base: "Completely removes character's Special Bind/Despair, changes character's slot (including [BLOCK] slot) to character's own type, and boosts crew's slot effects by 1.3x for 1 turn (effect can be overwritten with other slot effect boosts)",
-            super: "Completely removes character's Special Bind/Despair, changes character's slot and adjacent slots (including [BLOCK] slots) to character's own type, and boosts crew's slot effects by 1.75x for 1 turn (effect can be overwritten with other slot effect boosts)",
+            base: "Removes Special Bind and Despair duration completely on this character, changes the orb, including [BLOCK] orb, of this character into a matching orb, and boosts Orb Effects of all characters by 1.3x, allowing override, for 1 turn.",
+            super: "Removes Special Bind and Despair duration completely on this character, changes the orbs, including [BLOCK] orbs, of this and adjacent characters into matching orbs, and boosts Orb Effects of all characters by 1.75x, allowing override, for 1 turn.",
             superTurns: 6
         },
         limit: [
@@ -176044,9 +176045,9 @@ window.details = {
             },
             {
                 captain: {
-                    character1: "Reduces [INT], Driven, and Powerhouse characters' Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts [INT], Driven, and Powerhouse characters' ATK by 4.25x, HP by 1.75x, increases damage taken by 1.5x, halves crew's RCV, and reduces chance of landing on [RCV] slots, but reduces all enemies' HP by 10% at the start of each battle (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect). When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 2.5x for 1 turn\" regardless of the effective turns of the converted effect",
-                    character2: "Reduces [INT], Driven, and Powerhouse characters' Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts [INT], Driven, and Powerhouse characters' ATK by 4.5x, HP by 1.75x, increases damage taken by 1.5x, halves crew's RCV, and reduces chance of landing on [RCV] slots, but reduces character's Special charge time by 2 turns and Switch Effect by 2 at start of crew's next turn after receiving damage. When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 2.5x for 1 turn\" regardless of the effective turns of the converted effect",
-                    combined: "Reduces [INT], Driven, and Powerhouse characters' Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts [INT], Driven, and Powerhouse characters' ATK by 5x, HP by 1.75x, reduces character's Special charge time by 3 turns and Switch Effect by 3 at start of crew's next turn after receiving damage, and reduces all enemies' HP by 10% at the start of each battle (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect). When crew launches Specials with damage reduction, Threshold Damage Reduction, or damage nullification effects, converts that effect to \"boosts Driven and Powerhouse characters' ATK by 3x for 1 turn\" regardless of the effective turns of the converted effect [Applies following effect based on number of applicable Character Tags on crew] Boosts [Blackbeard Pirates] [Worst Generation] [Four Emperors] characters' ATK by 1.1x"
+                    character1: "Reduces Special Cooldown of [INT], Driven and Powerhouse characters by 1 turn at the start of the fight, reduces Switch Effect of [INT], Driven and Powerhouse characters by 1 at the start of the fight, boosts ATK of [INT], Driven and Powerhouse characters by 4.25x, boosts HP of [INT], Driven and Powerhouse characters by 1.75x, reduces RCV of all characters by 50%, increases damage received by 1.5x, reduces chances of getting [RCV] orbs, and deals 10% of enemies' current HP in True damage, ignoring Normal Attack Only, to all enemies at the start of every stage. If a crew member uses a special with a Percent Damage Reduction, Threshold Damage Reduction or Damage Nullification buff, replaces those buffs with the following effect: boosts ATK of Driven and Powerhouse characters by 2.5x for 1 turn.",
+                    character2: "Reduces Special Cooldown of [INT], Driven and Powerhouse characters by 1 turn at the start of the fight, reduces Switch Effect of [INT], Driven and Powerhouse characters by 1 at the start of the fight, boosts ATK of [INT], Driven and Powerhouse characters by 4.5x, boosts HP of [INT], Driven and Powerhouse characters by 1.75x, reduces RCV of all characters by 50%, increases damage received by 1.5x, reduces chances of getting [RCV] orbs, and reduces Special Cooldown of this character by 2 turns and reduces Switch Effect of this character by 2 after each turn you take damage. If a crew member uses a special with a Percent Damage Reduction, Threshold Damage Reduction or Damage Nullification buff, replaces those buffs with the following effect: boosts ATK of Driven and Powerhouse characters by 2.5x for 1 turn.",
+                    combined: "Reduces Special Cooldown of [INT], Driven and Powerhouse characters by 1 turn at the start of the fight, reduces Switch Effect of [INT], Driven and Powerhouse characters by 1 at the start of the fight, boosts ATK of [Blackbeard Pirates], [Worst Generation] and [Four Emperors] characters by 1.1x, boosts ATK of [INT], Driven and Powerhouse characters by 5x, by 5.5x instead if they have the applicable tag, boosts HP of [INT], Driven and Powerhouse characters by 1.75x, reduces Special Cooldown of this character by 3 turns and reduces Switch Effect of this character by 3 after each turn you take damage, and deals 10% of enemies' current HP in True damage, ignoring Normal Attack Only, to all enemies at the start of every stage. If a crew member uses a special with a Percent Damage Reduction, Threshold Damage Reduction or Damage Nullification buff, replaces those buffs with the following effect: boosts ATK of Driven and Powerhouse characters by 3x for 1 turn."
                 }
             },
             {
@@ -176054,7 +176055,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Boosts the chain multiplier by +1.4 for 3 turns. If 4 or more [Blackbeard Pirates] [Worst Generation] [Four Emperors] characters are on the crew, further increases crew's ATK and slot effect boosts by +0.5, and boosts [INT], Driven, and Powerhouse characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 3 turns. If Captain is a Driven or Powerhouse class, extends the duration of crew's ATK and slot effect boosts by 2 turns, and becomes Double character \"Blackbeard - Absolute Almighty Powers\" for a number of turns based on total damage received from enemies (minimum 3 turns, maximum 8 turns for up to 50,000 damage)"
+                    base: "Adds 1.4x to chain multiplier for 3 turns, and becomes Blackbeard - Absolute Almighty Powers for 3-8 turns depending on the total damage taken from enemies when the special is activated. If your crew has 4+ [Blackbeard Pirates], [Worst Generation] or [Four Emperors] characters, increases boost effects of ATK Up and Orb Amplification buffs by +0.5x, and increases Chain Tap Timing Bonus of [INT], Driven and Powerhouse characters to +0.2x-0.6x for 3 turns depending on Tap Timing. If your Captain is a Driven or Powerhouse character, increases duration of any ATK Up and Orb Amplification buffs by 2 turns."
                 },
                 rResilience: true
             }
