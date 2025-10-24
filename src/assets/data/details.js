@@ -106588,8 +106588,8 @@ window.details = {
     3492: {//Nami & Usopp
         captain: {
             character1: "Boosts ATK of Shooter, Cerebral and Free Spirit characters by 4.25x, their HP by 1.3x and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn.",
-            character2: "Boosts ATK of Shooter, Cerebral and Free Spirit characters by 3.75x, their HP by 1.3x, boosts Shooter, Cerebral and Free Spirit characters' ATK against delayed enemies by 1.2x and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn.",
-            combined: "Boosts ATK of Shooter, Cerebral and Free Spirit characters by 4.25x, their HP by 1.3x, boosts Shooter, Cerebral and Free Spirit characters' ATK against delayed enemies by 1.2x and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn. At the beginning of each Stage, increases the Attack Timer of all enemies by 1 turn."
+            character2: "Boosts ATK of Shooter, Cerebral and Free Spirit characters by 3.75x, their HP by 1.3x, boosts Shooter, Cerebral and Free Spirit characters ATK against delayed enemies by 1.2x and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn.",
+            combined: "Boosts ATK of Shooter, Cerebral and Free Spirit characters by 4.25x, their HP by 1.3x, boosts Shooter, Cerebral and Free Spirit characters ATK against delayed enemies by 1.2x and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn. At the beginning of each Stage, increases the Attack Timer of all enemies by 1 turn."
         },
         captainNotes: "Delay chance is based on damage dealt with normal attacks and does not stack with any other delay specials or effects<br><b>Base Chances</b><br><b>100,000 damage or more:</b> 20% chance to delay<br><b>1,000,000 damage or more:</b> 50% chance to delay<br><b>3,000,000 damage or more:</b> 100% chance to delay<br><b>5,000,000 damage or more:</b> 100% chance to delay ignoring Delay Debuff Protection",
         special: "Paralyzes (75%) all enemies for 5 turns, delays all enemies by 2 turns, reduces Paralysis and Special Bind duration by 6 turns, boosts the Color Affinity of Shooter and Cerebral characters by 2.25x for 1 turn and becomes Nami & Usopp for 3 turns. If your crew has Delay Status ATK Boost when the special is activated, increases boost effects of Delay Status ATK Boost buffs by +0.3x.",
@@ -106609,8 +106609,8 @@ window.details = {
     3493: {//Nami & Usopp
         captain: {
             character1: "Boosts ATK of Shooter, Cerebral and Free Spirit characters by 4.25x, their HP by 1.3x and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn.",
-            character2: "Boosts ATK of Shooter, Cerebral and Free Spirit characters by 3.75x, their HP by 1.3x, boosts Shooter, Cerebral and Free Spirit characters' ATK against delayed enemies by 1.2x and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn.",
-            combined: "Boosts ATK of Shooter, Cerebral and Free Spirit characters by 4.25x, their HP by 1.3x, boosts Shooter, Cerebral and Free Spirit characters' ATK against delayed enemies by 1.2x and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn. At the beginning of each Stage, increases the Attack Timer of all enemies by 1 turn."
+            character2: "Boosts ATK of Shooter, Cerebral and Free Spirit characters by 3.75x, their HP by 1.3x, boosts Shooter, Cerebral and Free Spirit characters ATK against delayed enemies by 1.2x and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn.",
+            combined: "Boosts ATK of Shooter, Cerebral and Free Spirit characters by 4.25x, their HP by 1.3x, boosts Shooter, Cerebral and Free Spirit characters ATK against delayed enemies by 1.2x and has a chance to ignore Debuff Protection and delays all enemies by 1 turn based on damage dealt in previous turn. At the beginning of each Stage, increases the Attack Timer of all enemies by 1 turn."
         },
         captainNotes: "Delay chance is based on damage dealt with normal attacks and does not stack with any other delay specials or effects<br><b>Base Chances</b><br><b>100,000 damage or more:</b> 20% chance to delay<br><b>1,000,000 damage or more:</b> 50% chance to delay<br><b>3,000,000 damage or more:</b> 100% chance to delay<br><b>5,000,000 damage or more:</b> 100% chance to delay ignoring Delay Debuff Protection",
         special: "Paralyzes (75%) all enemies for 5 turns, delays all enemies by 2 turns, reduces Paralysis and Special Bind duration by 6 turns, boosts the Color Affinity of Shooter and Cerebral characters by 2.25x for 1 turn and becomes Nami & Usopp for 3 turns. If your crew has Delay Status ATK Boost when the special is activated, increases boost effects of Delay Status ATK Boost buffs by +0.3x.",
@@ -107382,7 +107382,7 @@ window.details = {
     3505: {//Foxy&Porche
         captain: {
             base: "Boosts ATK of Free Spirit characters by 2.5x and their HP by 1.3x.",
-            level1: "Boosts ATK of Free Spirit characters by 2.5x, their HP by 1.3x and boosts Shooter and Fighter characters' ATK against delayed enemies by 1.3x.",
+            level1: "Boosts ATK of Free Spirit characters by 2.5x, their HP by 1.3x and boosts Shooter and Fighter characters ATK against delayed enemies by 1.3x.",
         },
         special: "Reduces Bind and Despair duration by 3 turns. If enemies are delayed when the special is activated, boosts ATK of all characters by 2x for 1 turn and reduces Special Cooldown of this character by 7 turns.",
         specialName: "Combination Thrust",
@@ -117765,7 +117765,7 @@ window.details = {
         ]
     },
     3664: {//Usopp
-        captain: "Boosts ATK of all characters by 3x, boosts HP of all characters by 1.25x and boosts all characters' ATK against delayed enemies by 1.25x.<br><b>Boosted Ability:</b> Boosts ATK of all characters by 4.5x, boosts HP of all characters by 1.25x and boosts all characters' ATK against delayed enemies by 1.25x.",
+        captain: "Boosts ATK of all characters by 3x, boosts HP of all characters by 1.25x and boosts all characters ATK against delayed enemies by 1.25x.<br><b>Boosted Ability:</b> Boosts ATK of all characters by 4.5x, boosts HP of all characters by 1.25x and boosts all characters ATK against delayed enemies by 1.25x.",
         special: "Reduces enemies' Threshold Damage Reduction and Resilience duration by 6 turns, boosts ATK against delayed enemies by 1.5x for 1 turn and changes [STR], [DEX], [QCK], [PSY] and [INT] orbs into Matching orbs. If there are 3 or more enemies on the stage when the Special is activated, ignores Delay Debuff Protection and delays all enemies by 1 turn.",
         specialName: "Sea Striding Impact Wolf",
         sailor: {
@@ -175465,24 +175465,24 @@ window.details = {
         ]
     },
     4459: {//Catarina Devon
-        captain: "Boosts [INT], Powerhouse, and Driven characters' ATK by 5.25x, HP by 1.5x, makes crew's [INT] slots have matching slot effects, and makes character's type slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] characters are on the crew, boosts [Blackbeard Pirates] characters' ATK by 1.1x. If crew is afflicted with Paralysis status from a Special launched by the crew (including Support Effects) or by an enemy action, converts that effect to \"boosts [INT], Powerhouse, and Driven characters' ATK by 2.75x for 2 turns\" regardless of the effective turns of the converted effect (effect can be overwritten with other ATK boost effects; if crew is afflicted with Paralysis by an enemy action, depending on if the enemy action was a preemptive action or end of turn action, the effect duration will be 1 turn at start of crew's next turn)",
-        special: "Reduces crew's Despair duration by 7 turns, and boosts the ATK of the next final tap performed by an [INT], Powerhouse, or Driven character by 30% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect). If crew's HP is 50% or below when Special is launched, further boosts crew's damage dealt to enemies with a specific status effect boost by +0.5. If 3 or more [Blackbeard Pirates] characters are on the crew, applies \"Territory: [INT]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn, and applies increase damage taken status to all enemies by 2.25x for 1 turn ignoring immunity to all status effects (applies increase damage taken status to all enemies by 2x for 1 turn otherwise)",
+        captain: "Boosts ATK of [INT], Powerhouse and Driven characters by 5.25x, boosts HP of [INT], Powerhouse and Driven characters by 1.5x, makes [INT] orbs beneficial for all characters, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for this character. If your crew has 3+ [Blackbeard Pirates] characters, boosts ATK of [Blackbeard Pirates] characters by 1.1x, by 5.775x instead if they are an [INT], Powerhouse or Driven character. If crew is inflicted with Paralysis from a Special, Support Ability or Enemy Action, replaces that debuff with the following effect: boosts ATK of [INT], Powerhouse and Driven characters by 2.75x for 2 turns.",
+        special: "Reduces Despair duration by 7 turns, and boosts Final Tap ATK of [INT], Powerhouse and Driven characters by 30%. If HP is below 50% when the special is activated, increases boost effects of Status ATK Boost buffs by +0.5x. If your crew has 3+ [Blackbeard Pirates] characters, applies Territory: [INT] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.25x for 1 turn; inflicts all enemies with Increase Damage Taken by 2x for 1 turn otherwise.",
         specialName: "Hand That Touched One of the Five Elders",
         sailor: {
-            base: "Makes character's type slots have matching slot effects",
-            level1: "Makes character immune to Stun"
+            base: "Makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for this character.",
+            level1: "Removes Stun duration completely on this character."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
-        superSpecial: "Cuts crew's HP by 50%, but reduces crew's Special Bind duration by 6 turns, doubles damage dealt to enemies affected by DEF Down and increase damage taken status for 1 turn, makes [INT] characters' type slots and [TND] slots have matching slot effects for 1 turn, and changes [INT] characters to Super [INT]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
+        superSpecial: "Reduces crew's current HP by 50%, reduces Special Bind duration by 6 turns, boosts ATK against enemies with reduced defense and enemies inflicted with Increase Damage Taken by 2x for 1 turn, makes [STR], [DEX], [QCK], [PSY], [INT] and [TND] orbs beneficial for [INT] characters for 1 turn, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Blackbeard Pirates]",
+                Characters: "[Blackbeard Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, applies increase damage taken status to all enemies by 1.1x for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies increase damage taken status to all enemies by 1.15x for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies increase damage taken status to all enemies by 1.2x for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies increase damage taken status to all enemies by 1.25x for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies increase damage taken status to all enemies by 1.3x for 1 turn"
+                    "Once per adventure, when the supported character uses their special, inflicts all enemies with Increase Damage Taken by 1.1x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, inflicts all enemies with Increase Damage Taken by 1.15x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, inflicts all enemies with Increase Damage Taken by 1.2x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, inflicts all enemies with Increase Damage Taken by 1.25x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, inflicts all enemies with Increase Damage Taken by 1.3x for 1 turn."
                 ]
             }
         ],
@@ -175571,18 +175571,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Blackbeard Pirates] [Mythical Zoan-type] [Egghead Arc] character performs Super Tandem",
-                "When a [Blackbeard Pirates] [Mythical Zoan-type] [Egghead Arc] character performs Super Tandem",
-                "When a [Blackbeard Pirates] [Mythical Zoan-type] [Egghead Arc] character performs Super Tandem",
-                "When a [Blackbeard Pirates] [Mythical Zoan-type] [Egghead Arc] character performs Super Tandem",
-                "When a [Blackbeard Pirates] [Mythical Zoan-type] [Egghead Arc] character performs Super Tandem"
+                "When a [Blackbeard Pirates], [Mythical Zoan-type] or [Egghead Arc] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Mythical Zoan-type] or [Egghead Arc] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Mythical Zoan-type] or [Egghead Arc] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Mythical Zoan-type] or [Egghead Arc] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Mythical Zoan-type] or [Egghead Arc] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Blackbeard Pirates] [Mythical Zoan-type] [Egghead Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [Blackbeard Pirates] [Mythical Zoan-type] [Egghead Arc] characters by 2 for 1 turn",
-                "Raises Boost Level of [Blackbeard Pirates] [Mythical Zoan-type] [Egghead Arc] characters by 3 for 1 turn",
-                "Raises Boost Level of [Mythical Zoan-type] [Egghead Arc] characters by 3 and raises Boost Level of [Blackbeard Pirates] characters by 4 for 1 turn",
-                "Raises Boost Level of [Mythical Zoan-type] [Egghead Arc] characters by 3 and raises Boost Level of [Blackbeard Pirates] characters by 6 for 1 turn"
+                "Raises Boost Level of [Blackbeard Pirates], [Mythical Zoan-type] and [Egghead Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Blackbeard Pirates], [Mythical Zoan-type] and [Egghead Arc] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Blackbeard Pirates], [Mythical Zoan-type] and [Egghead Arc] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Mythical Zoan-type] and [Egghead Arc] characters by 3 for 1 turn, and raises Boost Level of [Blackbeard Pirates] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Mythical Zoan-type] and [Egghead Arc] characters by 3 for 1 turn, and raises Boost Level of [Blackbeard Pirates] characters by 6 for 1 turn."
             ]
         },
         festStats: {
@@ -175659,24 +175659,24 @@ window.details = {
         }
     },
     4460: {//Van Ogre
-        captain: "Reduces [INT], Powerhouse, and Shooter characters' Special charge time by 2 turns and VS Effect gauge by 2 at start of quest, boosts their ATK by 5.25x, HP by 1.3x, makes crew's [INT][TND] slots have matching slot effects, and reduces crew's Special Reverse by 10 turns. If \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Shiryu\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Doc Q\", or \"Kuzan (Aokiji)\" is a crewmate and uses a Special, boosts the chain multiplier by 1.5x for 2 turns (up to 2 times per quest; will not launch more than once in the same turn even if meeting the requirement) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] characters are on the crew, boosts [Blackbeard Pirates] characters' ATK by 1.1x, and if crew uses a Special to boost type effects, further increases the effect by +0.3 (stackable with other further raising effects)",
-        special: "Reduces Powerhouse and Shooter characters' Special charge time by 2 turns, reduces crew's lock chain multiplier duration by 7 turns, and sets the chain multiplier's minimum value at 3.0 and maximum value at 40.0 for 3 turns. If crew's HP is 50% or below when Special is launched or 3 or more [Blackbeard Pirates] characters are on the crew, boosts Powerhouse and Shooter characters' advantageous class effect by 1.75x for 3 turns. If 3 or more [Blackbeard Pirates] characters are on the crew, swaps bottom-left character with the Captain for 3 turns (certain effects prevent Swap Captains). If 2 or fewer [Blackbeard Pirates] characters are on the crew and character is a crewmate, swaps character with the Captain for 1 turn",
+        captain: "Reduces Special Cooldown of [INT], Powerhouse and Shooter characters by 2 turns at the start of the fight, reduces VS Gauge of [INT], Powerhouse and Shooter characters by 2 at the start of the fight, boosts ATK of [INT], Powerhouse and Shooter characters by 5.25x, boosts HP of [INT], Powerhouse and Shooter characters by 1.3x, makes [INT] and [TND] orbs beneficial for all characters, and restores Special Cooldown of all characters by 10 turns when they are rewinded. Up to 2 times per adventure, when Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, or Kuzan (Aokiji) uses a special as crewmate, boosts Chain Multiplier Growth Rate by 1.5x for 2 turns. If your crew has 3+ [Blackbeard Pirates] characters, boosts ATK of [Blackbeard Pirates] characters by 1.1x, by 5.775x instead if they are an [INT], Powerhouse or Shooter character, and increases boost effects of Color Affinity buffs applied by specials by +0.3x.",
+        special: "Reduces Special Cooldown of Powerhouse and Shooter characters by 2 turns, reduces Chain Multiplier Limit duration by 7 turns, and sets Chain Boundaries to 3.0x and 40.0x for 3 turns. If HP is below 50% when the special is activated or your crew has 3+ [Blackbeard Pirates] characters, boosts Advantageous Class Effect of Powerhouse and Shooter characters by 1.75x for 3 turns. If your crew has 3+ [Blackbeard Pirates] characters, swaps bottom-left character with your captain for 3 turns. If your crew has 2- [Blackbeard Pirates] characters and this character is a crewmate, swaps this unit with your captain for 1 turn.",
         specialName: "Sniping Down the Commodore's Enemies",
         sailor: {
-            base: "Reduces character's Special Reverse by 3 turns",
-            level1: "Makes crew immune to Remove SFX"
+            base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "Removes Blindness duration completely."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
-        superSpecial: "Can choose to completely remove crew's Swap Captains effect, changes character's slot (including [BLOCK] slot) to [TND], applies -25% Powerhouse and Shooter Resistance to all enemies for 1 turn, adds +0.3 to the effect of ATK boosts that are launched after this Special by Powerhouse and Shooter characters for 1 turn (applies to boosts applied by Support Effect if supported character is a Powerhouse or Shooter character), reduces the duration of all enemy barriers by 2 turns, sets all enemies' DEF to 0 for 2 turns (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), and changes Powerhouse class to Super Powerhouse",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
+        superSpecial: "Optionally removes Captain Swap duration completely, changes the orb, including [BLOCK] orb, of this character into a [TND] orb, reduces enemies' Powerhouse and Shooter Resistance by -25% for 1 turn, increases boost effects of ATK Up buffs applied by Powerhouse and Shooter characters by +0.3x for 1 turn, reduces enemies' Barrier duration by 2 turns, ignores Debuff Protection and reduces the defense of all enemies by 100% for 2 turns, and transforms Powerhouse characters into Super Powerhouse characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Blackbeard Pirates]",
+                Characters: "[Blackbeard Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, applies -5% Powerhouse Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -6% Powerhouse Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -7% Powerhouse Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -8% Powerhouse Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -10% Powerhouse Resistance to all enemies for 1 turn"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Powerhouse Resistance by -5% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Powerhouse Resistance by -6% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Powerhouse Resistance by -7% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Powerhouse Resistance by -8% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Powerhouse Resistance by -10% for 1 turn."
                 ]
             }
         ],
@@ -175765,18 +175765,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)"
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.5x to [INT], Powerhouse, and Shooter characters for 1 turn, and increases crew's slot effect boost to 2x",
-                "Applies ATK Boost (Tandem) of 1.75x to [INT], Powerhouse, and Shooter characters for 1 turn, and increases crew's slot effect boost to 2.25x",
-                "Applies ATK Boost (Tandem) of 2x to [INT], Powerhouse, and Shooter characters for 1 turn, and increases crew's slot effect boost to 2.5x",
-                "Applies ATK Boost (Tandem) of 2.25x to [INT], Powerhouse, and Shooter characters for 1 turn, and increases crew's slot effect boost to 2.75x",
-                "Applies ATK Boost (Tandem) of 2.5x to [INT], Powerhouse, and Shooter characters for 1 turn, and increases crew's slot effect boost to 3x"
+                "Boosts Tandem ATK of [INT], Powerhouse and Shooter characters by 1.5x for 1 turn, and increases boost effects of Orb Amplification buffs to 2x.",
+                "Boosts Tandem ATK of [INT], Powerhouse and Shooter characters by 1.75x for 1 turn, and increases boost effects of Orb Amplification buffs to 2.25x.",
+                "Boosts Tandem ATK of [INT], Powerhouse and Shooter characters by 2x for 1 turn, and increases boost effects of Orb Amplification buffs to 2.5x.",
+                "Boosts Tandem ATK of [INT], Powerhouse and Shooter characters by 2.25x for 1 turn, and increases boost effects of Orb Amplification buffs to 2.75x.",
+                "Boosts Tandem ATK of [INT], Powerhouse and Shooter characters by 2.5x for 1 turn, and increases boost effects of Orb Amplification buffs to 3x."
             ]
         },
         festStats: {
@@ -175853,22 +175853,22 @@ window.details = {
         }
     },
     4461: {//Caribou
-        captain: "Boosts [QCK] and [INT] characters' ATK by 4x, HP by 1.2x, and reduces damage taken by 15%. If crew is inflicted with Target status (does not apply to statuses inflicted by Captain Ability or Crewmate Ability), applies Set Target status to all enemies for 2 turns (Set Target status cannot be affected by immunity to status effects, [QCK], Powerhouse, and Shooter characters will deal 1.5x damage, and their Special charge time will be reduced by 1 turn for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))",
-        special: "Poisons all enemies, deals 100x character's ATK in [QCK] damage to all enemies at end of turn for 5 turns, reduces crew's Paralysis duration by 6 turns, changes crew's slots (including [BLOCK] slots) to [QCK], locks crew's slots for 5 turns, and boosts [QCK], Powerhouse, and Shooter character's slot effects by 1.75x for 5 turns",
+        captain: "Boosts ATK of [QCK] and [INT] characters by 4x, boosts HP of [QCK] and [INT] characters by 1.2x, and reduces damage received by 15%. If crew is inflicted with Target Lock from an enemy action, inflicts all enemies with Set Target, increasing damage taken from [QCK], Powerhouse and Shooter characters by 1.5x and reducing Special Cooldown of [QCK], Powerhouse and Shooter characters by 1 turn when they defeat an enemy, for 2 turns.",
+        special: "Poisons all enemies, deals 100x character's ATK in [QCK] damage to all enemies at the end of each turn for 5 turns, reduces Paralysis duration by 6 turns, changes all orbs, including [BLOCK] orbs, into [QCK] orbs, locks all orbs for 5 turns, and boosts Orb Effects of [QCK], Powerhouse and Shooter characters by 1.75x for 5 turns.",
         specialName: "Desperate Plea",
         sailor: {
-            base: "Makes crew's [QCK][INT] slots have matching slot effects",
-            level1: "Boosts [QCK] and [INT] characters' base HP by 60"
+            base: "Makes [QCK] and [INT] orbs beneficial for all characters.",
+            level1: "Boosts base HP of [QCK] and [INT] characters by 60."
         },
         support: [
             {
                 Characters: "[QCK] characters",
                 description: [
-                    "Adds 5% of character's base HP to supported character's base HP",
-                    "Adds 7% of character's base HP to supported character's base HP",
-                    "Adds 10% of character's base HP to supported character's base HP",
-                    "Adds 12% of character's base HP to supported character's base HP",
-                    "Adds 15% of character's base HP to supported character's base HP"
+                    "Adds 5% of this character's base HP to the supported character's base HP.",
+                    "Adds 7% of this character's base HP to the supported character's base HP.",
+                    "Adds 10% of this character's base HP to the supported character's base HP.",
+                    "Adds 12% of this character's base HP to the supported character's base HP.",
+                    "Adds 15% of this character's base HP to the supported character's base HP."
                 ]
             }
         ],
@@ -175975,22 +175975,23 @@ window.details = {
         ]
     },
     4462: {//Kuzan
-        captain: "Reduces crew's Special charge time by 1 turn and VS Effect gauge by 1 at start of quest, boosts [INT] and [QCK] characters' ATK by 4x and HP by 1.2x. If character became Captain during the quest, reduces damage taken by 15%, boosts [INT] and [QCK] characters' ATK by a further 1.2x, and boosts their damage dealt to enemies with damage taken increased, delay, any Poison, DEF Down, Paralysis, or Ignited status by 1.05x for each status effect (up to 6 for a maximum damage boost of approximately 1.34x; if character became Captain during the quest, boosts damage dealt by up to approximately 6.432x including the ATK boost from this Captain Ability)",
-        special: "Reduces all enemies' damage nullification duration by 1 turn, reduces all enemies' DEF Up duration by 6 turns, and applies -20% [INT] and [QCK] Resistance to all enemies for 1 turn. If crew has ATK Up status when Special is launched, applies a further -30% [INT] and [QCK] Resistance to all enemies for 1 turn (boosts [INT] and [QCK] characters' ATK by 2.5x for 1 turn otherwise). If 3 or more [Blackbeard Pirates] characters are on the crew, delays all enemies for 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), and boosts [INT] and [QCK] characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.2; GREAT +0.4; PERFECT +0.7) for 2 turns",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces VS Gauge of all characters by 1 at the start of the fight, boosts ATK of [QCK] and [INT] characters by 4x, and boosts HP of [QCK] and [INT] characters by 1.2x. If this character becomes your captain in the middle of an island, boosts ATK of [QCK] and [INT] by 4.8x, boosts [QCK] and [INT] characters ATK against enemies inflicted with Increase Damage Taken, delayed enemies, poisoned enemies, enemies with reduced defense, paralyzed enemies and enemies inflicted with Burn by 1.05x-1.34x, by a multiplicative 1.05x for each status effect, and reduces damage received by 15%.",
+        special: "Reduces enemies' Damage Nullification duration by 1 turn, reduces enemies' Increased Defense duration by 6 turns, and reduces enemies' [QCK] and [INT] Resistance by -20% for 1 turn. If your crew has ATK Up when the special is activated, reduces enemies' [QCK] and [INT] Resistance by -50% for 1 turn instead; boosts ATK of [QCK] and [INT] characters by 2.5x for 1 turn otherwise. If your crew has 3+ [Blackbeard Pirates] characters, ignores Debuff Protection and delays all enemies by 1 turn, and increases Chain Tap Timing Bonus of [QCK] and [INT] characters to +0.2x-0.7x for 2 turns depending on Tap Timing.",
+        specialNotes: "GOOD +0.2, GREAT +0.4, PERFECT +0.7",
         specialName: "Chilling Fingers",
         sailor: {
-            base: "Boosts [INT] and [QCK] characters' base stats by 40",
-            level1: "Adds 5x character's ATK on top of tap-timing bonuses"
+            base: "Boosts base ATK, HP and RCV of [QCK] and [INT] characters by 40.",
+            level1: "Adds 5x character's ATK as Additional Damage."
         },
         support: [
             {
                 Characters: "Marshall D. Teach (Blackbeard)",
                 description: [
-                    "Once per quest, if supported character uses a Special, applies -1% [INT] Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -1% [INT] Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -2% [INT] Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -3% [INT] Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -3% [INT] Resistance to all enemies for 1 turn and delays all enemies by 1 turn"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' [INT] Resistance by -1% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' [INT] Resistance by -1% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' [INT] Resistance by -2% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' [INT] Resistance by -2% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' [INT] Resistance by -3% for 1 turn, and delays all enemies by 1 turn."
                 ]
             }
         ],
@@ -176097,22 +176098,22 @@ window.details = {
         ]
     },
     4463: {//5* PKA Pudding
-        captain: "Reduces crew's Special charge time by 2 turns and VS Effect gauge by 2 at start of quest, boosts [QCK] and [INT] characters' ATK by 3.75x, RCV by 1.2x, makes crew's [QCK][INT] slots have matching slot effects, and boosts crew's chance of landing on [QCK][INT] slots",
-        special: "Reduces crew's ATK Down duration by 6 turns, and boosts [QCK] and [INT] characters' ATK by 2.5x for 1 turn. If 2 or more [Blackbeard Pirates] characters are on the crew, binds character for 6 turns but applies Weakened status (increase damage taken by 1.3x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken) to all enemies for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, reduces VS Gauge of all characters by 2 at the start of the fight, boosts ATK of [QCK] and [INT] characters by 3.75x, boosts RCV of [QCK] and [INT] characters by 1.2x, makes [QCK] and [INT] orbs beneficial for all characters, and boosts chances of getting [QCK] and [INT] orbs.",
+        special: "Reduces ATK Down duration by 6 turns, and boosts ATK of [QCK] and [INT] characters by 2.5x for 1 turn. If your crew has 2+ [Blackbeard Pirates] characters, binds self for 6 turns, and inflicts all enemies with Weaken by 1.3x, by 1.625x if enemies are inflicted with Increase Damage Taken, for 1 turn.",
         specialName: "Intimidation Aboard the Enemy's Ship",
         sailor: {
-            base: "Boosts crew's base stats by 60",
-            level1: "Makes crew's [QCK][RCV] slots have matching slot effects"
+            base: "Boosts base ATK, HP and RCV of all characters by 60.",
+            level1: "Makes [QCK] and [RCV] orbs beneficial for all characters."
         },
         support: [
             {
                 Characters: "[QCK] characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 8% of character's base stats to supported character's base stats"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -176177,18 +176178,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] character performs Super Tandem"
+                "When a [Big Mom Pirates], [Paramythia-type], [Egghead Arc] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Big Mom Pirates], [Paramythia-type], [Egghead Arc] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Big Mom Pirates], [Paramythia-type], [Egghead Arc] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Big Mom Pirates], [Paramythia-type], [Egghead Arc] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Big Mom Pirates], [Paramythia-type], [Egghead Arc] or [Blackbeard Pirates] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Egghead Arc] [Blackbeard Pirates] characters by 2 and raises Boost Level of [Big Mom Pirates] [Paramythia-type] characters by 3 for 1 turn"
+                "Raises Boost Level of [Big Mom Pirates], [Paramythia-type], [Egghead Arc] and [Blackbeard Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Big Mom Pirates], [Paramythia-type], [Egghead Arc] and [Blackbeard Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Big Mom Pirates], [Paramythia-type], [Egghead Arc] and [Blackbeard Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Big Mom Pirates], [Paramythia-type], [Egghead Arc] and [Blackbeard Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] and [Blackbeard Pirates] characters by 2 for 1 turn, and raises Boost Level of [Big Mom Pirates] and [Paramythia-type] characters by 3 for 1 turn."
             ]
         },
         festStats: {
@@ -176255,24 +176256,24 @@ window.details = {
         ]
     },
     4465: {//6+ HW Shanks
-        captain: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts [INT] characters' ATK based on the timing of the previous character's attack (minimum 4x, maximum 5x), boosts other characters' ATK by 3.75x, boosts crew's HP by 1.3x, and heals crew by 1x character's RCV for every PERFECT at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 2 or more [Red-Haired Pirates] characters are on the crew, boosts [INT] characters' ATK by a further 1.1x",
-        special: "Reduces all enemies' damage nullification duration by 2 turns, boosts the type effects of normal attacks for [INT], Cerebral, and Slasher characters by 2.25x for 3 turns, and boosts the chain multiplier by +1.2 for 3 turns. If 4 or more [INT] characters are on the crew, extends the duration of crew's chain multiplier additive boost (except multiplicative boost) by 2 turns (this effect also applies to additive chain multiplier boost from this Special). If 2 or more [Red-Haired Pirates] characters are on the crew, extends the duration of crew's type effect boost by 2 turns (this effect also applies to type effect boost from this Special)",
+        captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, reduces Switch Effect of all characters by 2 at the start of the fight, boosts ATK of [INT] characters by 4x-5x based on the timing of the attack of the previous unit in the chain, boosts ATK of all other characters by 3.75x, boosts HP of all characters by 1.3x, and recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT. If your crew has 2+ [Red-Haired Pirates] characters, boosts ATK of [INT] characters by 4.4x-5.5x based on the timing of the attack of the previous unit in the chain instead.",
+        special: "Reduces enemies' Damage Nullification duration by 2 turns, boosts the Color Affinity of [INT], Cerebral and Slasher characters by 2.25x for 3 turns, and adds 1.2x to chain multiplier for 3 turns. If your crew has 4+ [INT] characters, increases duration of any Chain Addition buffs by 2 turns, including effects activated in the same ability. If your crew has 2+ [Red-Haired Pirates] characters, increases duration of any Color Affinity buffs by 2 turns, including effects activated in the same ability.",
         specialName: "Moonlit Cup",
         sailor: {
-            level1: "Boosts crew's base stats by 100",
-            level2: "Makes crew's [INT] slots have matching slot effects"
+            level1: "Boosts base ATK, HP and RCV of all characters by 100.",
+            level2: "Makes [INT] orbs beneficial for all characters."
         },
-        superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters): Monkey D. Luffy, Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
-        superSpecial: "Doubles damage dealt to DEF Down enemies for 3 turns, changes crew's [BLOCK][RCV][TND][BOMB][EMPTY] slots to character's own type, sets all enemies' DEF to 0 for 3 turns, and changes [INT] characters to Super [INT]",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
+        superSpecial: "Boosts ATK against enemies with reduced defense by 2x for 3 turns, changes [BLOCK], [RCV], [TND], [BOMB] and [EMPTY] orbs into Matching orbs, reduces the defense of all enemies by 100% for 3 turns, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
                 Characters: "Monkey D. Luffy, Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Rockstar, Uta, Bonk Punch, Hongo, Howling Gabu, Building Snake, Monster, Lime Juice",
                 description: [
-                    "Once per quest, if enemy changes crew's slots, changes Cerebral characters' slots randomly at start of crew's next turn",
-                    "Once per quest, if enemy changes crew's slots, changes Cerebral characters' slots randomly at start of crew's next turn",
-                    "Once per quest, if enemy changes crew's slots, changes Cerebral characters' slots to [INT] at start of crew's next turn",
-                    "Once per quest, if enemy changes crew's slots, changes Cerebral characters' slots to [INT] at start of crew's next turn",
-                    "Once per quest, if enemy changes crew's slots, changes Cerebral and Slasher characters' slots to [INT] at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with an Orb Randomization or Orb Manipulation, randomizes orbs of Cerebral characters.",
+                    "Once per adventure, when an enemy inflicts you with an Orb Randomization or Orb Manipulation, randomizes orbs of Cerebral characters.",
+                    "Once per adventure, when an enemy inflicts you with an Orb Randomization or Orb Manipulation, changes all orbs of Cerebral characters into [INT] orbs.",
+                    "Once per adventure, when an enemy inflicts you with an Orb Randomization or Orb Manipulation, changes all orbs of Cerebral characters into [INT] orbs.",
+                    "Once per adventure, when an enemy inflicts you with an Orb Randomization or Orb Manipulation, changes all orbs of Cerebral and Slasher characters into [INT] orbs."
                 ]
             }
         ],
@@ -176325,7 +176326,7 @@ window.details = {
             },
             {
                 captain: {
-                    base: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts [INT] characters' ATK based on the timing of the previous character's attack (minimum 4.5x, maximum 5.25x), boosts other characters' ATK by 4x, boosts crew's HP by 1.3x, and heals crew by 1x character's RCV for every PERFECT at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 2 or more [Red-Haired Pirates] characters are on the crew, boosts [INT] characters' ATK by a further 1.1x, and for any character on the crew with Barrier Pierce as a Potential Ability and meets the requirements for it to activate, reduces all enemies' Threshold Damage Reduction and damage reduction duration by 1 turn when landing a successful PERFECT strike with that character"
+                    base: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, reduces Switch Effect of all characters by 2 at the start of the fight, boosts ATK of [INT] characters by 4.5x-5.25x based on the timing of the attack of the previous unit in the chain, boosts ATK of all other characters by 4x, boosts HP of all characters by 1.3x, and recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT. If your crew has 2+ [Red-Haired Pirates] characters, boosts ATK of [INT] characters by 4.95x-5.775x based on the timing of the attack of the previous unit in the chain instead; additionally, when a Barrier Penetration Enabled character hits a PERFECT, reduces enemies' Threshold Damage Reduction and Percent Damage Reduction duration by 1 turn."
                 }
             },
             {
@@ -176333,7 +176334,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Reduces all enemies' damage nullification duration by 2 turns, boosts the type effects of normal attacks for [INT], Cerebral, and Slasher characters by 2.25x for 3 turns, and boosts the chain multiplier by +1.2 for 3 turns. If 4 or more [INT] characters are on the crew, extends the duration of crew's chain multiplier additive boost (except multiplicative boost) by 2 turns (this effect also applies to additive chain multiplier boost from this Special). If 2 or more [Red-Haired Pirates] characters are on the crew, extends the duration of crew's type effect boost by 2 turns (this effect also applies to type effect boost from this Special). If crew lands 2 PERFECT strikes in this turn, boosts the chain multiplier by 1.25x the next turn, then if crew lands 2 PERFECT strikes in the next turn, boosts the chain multiplier by 1.5x and further increases crew's type effect boost by +0.5 the following turn (this effect also applies to type effect boost from this Special)"
+                    base: "Reduces enemies' Damage Nullification duration by 2 turns, boosts the Color Affinity of [INT], Cerebral and Slasher characters by 2.25x for 3 turns, and adds 1.2x to chain multiplier for 3 turns. If your crew has 4+ [INT] characters, increases duration of any Chain Addition buffs by 2 turns, including effects activated in the same ability. If your crew has 2+ [Red-Haired Pirates] characters, increases duration of any Color Affinity buffs by 2 turns, including effects activated in the same ability; if during that turn you score 2 PERFECT hits, boosts Chain Multiplier Growth Rate by 1.25x for 1 turn in the following turn; if during the following turn you score 2 PERFECT hits, boosts Chain Multiplier Growth Rate by 1.5x for 1 turn, and increases boost effects of Color Affinity buffs by +0.5x."
                 },
                 rResilience: true,
                 rSuperSpecial: true
