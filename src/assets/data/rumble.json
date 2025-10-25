@@ -400253,21 +400253,21 @@
               "attributes": ["HP", "ATK", "DEF"],
               "effect": "buff",
               "level": 3,
-              "targeting": {"targets": ["[INT]", "Striker"]}
+              "targeting": {"targets": ["[INT]", "Striker", "[Five Elders]"]}
             },
             {
               "attributes": ["ATK"],
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Striker"]}
+              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
             },
             {
               "attributes": ["Shield"],
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Striker"]}
+              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
             },
             {
               "attributes": ["Special CT"],
@@ -400278,6 +400278,12 @@
             },
             {
               "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[World Government]", "[Navy]"]}
+            },
+            {
+              "attributes": ["Guard"],
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["[World Government]", "[Navy]"]}
@@ -400296,7 +400302,10 @@
             {
               "override": {"level": 7}
             },
-            {}
+            {},
+            {
+              "override": {"level": 2}
+            }
           ]
         },
         {
@@ -400315,6 +400324,9 @@
             },
             {
               "override": {"level": 2}
+            },
+            {
+              "override": {"level": 3}
             }
           ]
         },
@@ -400334,6 +400346,9 @@
             },
             {
               "override": {"level": 2}
+            },
+            {
+              "override": {"level": 4}
             }
           ]
         },
@@ -400353,6 +400368,9 @@
             },
             {
               "override": {"level": 3}
+            },
+            {
+              "override": {"level": 5}
             }
           ]
         }
@@ -400363,17 +400381,17 @@
           "effects": [
             {
               "attributes": ["DEF"],
+              "effect": "buff",
               "level": 2,
               "duration": 21,
-              "effect": "buff",
               "targeting": {"targets": ["crew"]},
               "range": {"size": "large", "direction": "radial"}
             },
             {
               "attributes": ["Special Bind"],
+              "effect": "hinderance",
               "chance": 73,
               "duration": 10,
-              "effect": "hinderance",
               "targeting": {"targets": ["enemies"], "count": 3}
             },
             {
@@ -400381,7 +400399,7 @@
               "effect": "damage",
               "type": "atk",
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "HP"},
-              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Striker"]}
+              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
             },
             {
               "amount": 150,
@@ -400571,13 +400589,13 @@
               "attributes": ["RCV", "SPD"],
               "level": 2,
               "effect": "buff",
-              "targeting": {"targets": ["[INT]"]}
+              "targeting": {"targets": ["[INT]", "[Five Elders]"]}
             },
             {
               "attributes": ["Special CT"],
               "level": 1,
               "effect": "buff",
-              "targeting": {"targets": ["[INT]"]}
+              "targeting": {"targets": ["[INT]", "[Five Elders]"]}
             },
             {
               "attributes": ["HP", "ATK"],
@@ -400696,9 +400714,9 @@
           "effects": [
             {
               "attributes": ["Damage Ignoring DEF"],
+              "effect": "evade",
               "chance": 100,
               "duration": 16,
-              "effect": "evade",
               "targeting": {"targets": ["[PSY]", "[INT]", "Stiker", "Driven"]}
             },
             {
