@@ -176044,22 +176044,22 @@ window.details = {
         ]
     },
     4466: {//San Juan Wolf
-        captain: "Boosts Powerhouse and Fighter characters' HP by 1.3x, ATK by 5.5x when crew's HP is 50% or below (5x otherwise), and makes Powerhouse and Fighter characters' [INT] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] characters are on the crew, crew cannot be blown away by attack, and boosts [Blackbeard Pirates] characters' ATK by 1.1x",
-        special: "Increases crew's HP by 30% (this effect of \"Wake-Up Strike\" can be activated up to 1 time including any Specials with similar effect), reduces all enemies' Threshold Damage Reduction duration by 7 turns, and reduces crew's decrease chain multiplier growth rate duration by 7 turns. If 3 or more [Blackbeard Pirates] characters are on the crew, further increases crew's base ATK boost by 2x (up to a maximum of +6000; further increases crew's base ATK boost by 1.5x otherwise (up to a maximum of +4000)), then after that, boosts [INT], Powerhouse, and Fighter characters' base ATK by +2000 for 2 turns (allows this effect to be further increased up to 2 times)",
+        captain: "Boosts ATK of Powerhouse and Fighter characters by 5x, by 5.5x instead if HP is below 50% at the start of the turn, boosts HP of Powerhouse and Fighter characters by 1.3x, and makes [INT] orbs beneficial for Powerhouse and Fighter characters. If your crew has 3+ [Blackbeard Pirates] characters, boosts ATK of [Blackbeard Pirates] characters by 1.1x, by 5.5x-6.05x instead if they are a Powerhouse or Fighter character, and makes crew immune to Blow Away.",
+        special: "Reduces enemies' Threshold Damage Reduction duration by 7 turns, reduces Chain Coefficient Reduction duration by 7 turns, and up to 1 time per adventure, permanently boosts HP by a static 1.3x. If your crew has 3+ [Blackbeard Pirates] characters, increases boost effects of Base ATK Boost buffs by 2x (up to 6,000); increases boost effects of Base ATK Boost buffs by 1.5x (up to 4,000) otherwise. Then, boosts Base ATK of [INT], Powerhouse and Fighter characters by 2,000, can be enhanced up to 2 times, for 2 turns.",
         specialName: "Wake-Up Strike",
         sailor: {
-            base: "Character cannot be blown away by attack",
-            level1: "Boosts crew's base stats by 75"
+            base: "This character cannot be Blown Away.",
+            level1: "Boosts base ATK, HP and RCV of all characters by 75."
         },
         support: [
             {
                 Characters: "Powerhouse characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -176201,22 +176201,22 @@ window.details = {
         ]
     },
     4467: {//5* Co-Op Bonney
-        captain: "Boosts [INT], Free Spirit, and Cerebral characters' HP by 1.3x, ATK by 4.25x, boosts their ATK by approximately 5x when they have [RCV][SEMLA] slots, and makes their [RCV][TND][SEMLA] slots have matching slot effects. When enemy is inflicted with damage reduction status (does not apply to statuses inflicted by Captain Ability or Crewmate Ability), reduces that effect by 50% (the effect increase/decrease only occurs 1 time)",
-        special: "Deals 150x character's ATK in non-type damage to one enemy, reduces crew's Despair duration by 6 turns, makes it much easier to land PERFECT strikes for 1 turn, and after crew lands 3 PERFECT strikes in this turn, boosts [INT], Free Spirit, and Cerebral characters' ATK when landing a successful strike by 1.5x for 1 turn. If 2 or more [Child] characters or 4 or more [Paramythia-type] characters are on the crew, changes right column slots to [RCV] and left column slots to [SEMLA]",
+        captain: "Boosts ATK of [INT], Free Spirit and Cerebral characters by 4.25x, by 5x instead if they have a [RCV] or [SEMLA] orb, boosts HP of [INT], Free Spirit and Cerebral characters by 1.3x, and makes [RCV], [TND] and [SEMLA] orbs beneficial for [INT], Free Spirit and Cerebral characters. If the enemy has Percent Damage Reduction status, reduces enemies' Percent Damage Reduction effect by 50%.",
+        special: "Deals 150x character's ATK in Typeless damage to one enemy, reduces Despair duration by 6 turns, makes PERFECTs easier to hit for 1 turn, and boosts Tap Timing ATK of [INT], Free Spirit and Cerebral characters by 1.5x following a chain of PERFECT > PERFECT > PERFECT for 1 turn. If your crew has 2+ [Child] characters or 4+ [Paramythia-type] characters, changes orbs of right column characters into [RCV] orbs, and changes orbs of left column characters into [SEMLA] orbs.",
         specialName: "Distorted Future: Nika-Like Future",
         sailor: {
-            base: "Changes middle-row characters' slots to [RCV] at start of quest (no stacking identical abilities), and makes crew's [RCV][SEMLA] slots have matching slot effects",
-            level1: "If field has \"Territory: Free Spirit class\", boosts crew's base ATK by 250 (boosts crew's base ATK by 100 otherwise)"
+            base: "Changes orbs of middle row characters into [RCV] orbs at the start of the fight. Makes [RCV] and [SEMLA] orbs beneficial for all characters.",
+            level1: "If field has Territory: Free Spirit, boosts base ATK, HP and RCV of all characters by 250; boosts base ATK, HP and RCV of all characters by 100 otherwise."
         },
         support: [
             {
                 Characters: "Free Spirit characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -176343,22 +176343,22 @@ window.details = {
         ]
     },
     4468: {//5+ Co-Op Bonney
-        captain: "Boosts [INT], Free Spirit, and Cerebral characters' HP by 1.3x, ATK by 4.5x, boosts their ATK by approximately 5x when they have [RCV][TND][SEMLA] or Rainbow slots, and makes their [RCV][TND][SEMLA] slots have matching slot effects. When enemy is inflicted with damage reduction status (does not apply to statuses inflicted by Captain Ability or Crewmate Ability), reduces that effect by 70% (the effect increase/decrease only occurs 1 time)",
-        special: "Deals 200x character's ATK in non-type damage to one enemy, reduces crew's Despair duration by 6 turns, makes it much easier to land PERFECT strikes for 1 turn, and after crew lands 3 PERFECT strikes in this turn, boosts [INT], Free Spirit, and Cerebral characters' ATK when landing a successful strike by 1.75x for 1 turn. If 2 or more [Child] characters or 4 or more [Paramythia-type] characters are on the crew, reduces crew's Slot Bind duration by 6 turns, changes right column slots to [RCV] and left column slots to [SEMLA]",
+        captain: "Boosts ATK of [INT], Free Spirit and Cerebral characters by 4.5x, by 5x instead if they have a [RCV], [TND], [SEMLA] or [RAINBOW] orb, boosts HP of [INT], Free Spirit and Cerebral characters by 1.3x, and makes [RCV], [TND] and [SEMLA] orbs beneficial for [INT], Free Spirit and Cerebral characters. If the enemy has Percent Damage Reduction status, reduces enemies' Percent Damage Reduction effect by 70%.",
+        special: "Deals 200x character's ATK in Typeless damage to one enemy, reduces Despair duration by 6 turns, makes PERFECTs easier to hit for 1 turn, and boosts Tap Timing ATK of [INT], Free Spirit and Cerebral characters by 1.75x following a chain of PERFECT > PERFECT > PERFECT for 1 turn. If your crew has 2+ [Child] characters or 4+ [Paramythia-type] characters, reduces Slot Bind duration by 6 turns, changes orbs of right column characters into [RCV] orbs, and changes orbs of left column characters into [SEMLA] orbs.",
         specialName: "Distorted Future: Nika-Like Future",
         sailor: {
-            base: "Changes middle-row characters' slots to [RCV] at start of quest (no stacking identical abilities), and makes crew's [RCV][SEMLA] slots have matching slot effects",
-            level1: "If field has \"Territory: Free Spirit class\", boosts crew's base ATK by 250 (boosts crew's base ATK by 100 otherwise)"
+            base: "Changes orbs of middle row characters into [RCV] orbs at the start of the fight. Makes [RCV] and [SEMLA] orbs beneficial for all characters.",
+            level1: "If field has Territory: Free Spirit, boosts base ATK, HP and RCV of all characters by 250; boosts base ATK, HP and RCV of all characters by 100 otherwise."
         },
         support: [
             {
                 Characters: "Free Spirit characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
