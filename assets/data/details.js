@@ -176136,68 +176136,6 @@ window.details = {
                     "Reduces Sailor Despair duration by 5 turns on this character"
                 ]
             }
-        ],
-        festStats: {
-            def: 195,
-            spd: 147,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Forced Out, reduce damage taken from [PSY] by 30%, increase damage dealt to [PSY] by 30%",
-        festAbility: [
-            "Powerhouse/Fighter class teammates HP Up Lv.2, DEF Up Lv.2, Guard % Up Lv.1, Blow Away % Up Lv.1; if 4 or more [Blackbeard Pirates] characters are on the team, Powerhouse/Fighter class teammates ATK Up Lv.1, HP Up Lv.1",
-            "Powerhouse/Fighter class teammates HP Up Lv.3, DEF Up Lv.3, Guard % Up Lv.2, Blow Away % Up Lv.2; if 4 or more [Blackbeard Pirates] characters are on the team, Powerhouse/Fighter class teammates ATK Up Lv.1, HP Up Lv.1",
-            "Powerhouse/Fighter class teammates HP Up Lv.4, DEF Up Lv.4, Guard % Up Lv.3, Blow Away % Up Lv.3; if 4 or more [Blackbeard Pirates] characters are on the team, Powerhouse/Fighter class teammates ATK Up Lv.2, HP Up Lv.2",
-            "Powerhouse/Fighter class teammates HP Up Lv.5, DEF Up Lv.5, Guard % Up Lv.4, Blow Away % Up Lv.4; if 4 or more [Blackbeard Pirates] characters are on the team, Powerhouse/Fighter class teammates ATK Up Lv.3, HP Up Lv.3",
-            "Powerhouse/Fighter class teammates HP Up Lv.6, DEF Up Lv.6, Guard % Up Lv.5, Blow Away % Up Lv.5; if 4 or more [Blackbeard Pirates] characters are on the team, Powerhouse/Fighter class teammates ATK Up Lv.4, HP Up Lv.4"
-        ],
-        festSpecial: [
-            {
-                cooldown: 27,
-                description: "Targets enemies within large range for ATK x 2.1 damage; targets Powerhouse/Fighter class teammates for Blow Away % Up Lv.1 (11 s); targets [Blackbeard Pirates] teammates for 73% chance to evade damage ignoring DEF (11 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.1 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets enemies within large range for ATK x 2.2 damage; targets Powerhouse/Fighter class teammates for Blow Away % Up Lv.1 (12 s); targets [Blackbeard Pirates] teammates for 76% chance to evade damage ignoring DEF (11 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.2 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets enemies within large range for ATK x 2.3 damage; targets Powerhouse/Fighter class teammates for Blow Away % Up Lv.2 (13 s); targets [Blackbeard Pirates] teammates for 79% chance to evade damage ignoring DEF (12 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.3 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets enemies within large range for ATK x 2.4 damage; targets Powerhouse/Fighter class teammates for Blow Away % Up Lv.2 (14 s); targets [Blackbeard Pirates] teammates for 82% chance to evade damage ignoring DEF (12 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.4 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets enemies within large range for ATK x 2.5 damage; targets Powerhouse/Fighter class teammates for Blow Away % Up Lv.3 (15 s); targets [Blackbeard Pirates] teammates for 85% chance to evade damage ignoring DEF (13 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.5 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets enemies within large range for ATK x 2.6 damage; targets Powerhouse/Fighter class teammates for Blow Away % Up Lv.3 (16 s); targets [Blackbeard Pirates] teammates for 88% chance to evade damage ignoring DEF (13 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.6 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets enemies within large range for ATK x 2.7 damage; targets Powerhouse/Fighter class teammates for Blow Away % Up Lv.4 (17 s); targets [Blackbeard Pirates] teammates for 91% chance to evade damage ignoring DEF (14 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.7 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets enemies within large range for ATK x 2.8 damage; targets Powerhouse/Fighter class teammates for Blow Away % Up Lv.4 (18 s); targets [Blackbeard Pirates] teammates for 94% chance to evade damage ignoring DEF (14 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.8 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets enemies within large range for ATK x 2.9 damage; targets Powerhouse/Fighter class teammates for Blow Away % Up Lv.5 (19 s); targets [Blackbeard Pirates] teammates for 97% chance to evade damage ignoring DEF (15 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 3.9 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets enemies within large range for ATK x 3 damage; targets Powerhouse/Fighter class teammates for Blow Away % Up Lv.5 (20 s); targets [Blackbeard Pirates] teammates for 100% chance to evade damage ignoring DEF (15 s); if 4 or more [Blackbeard Pirates] characters are on the team, targets all enemies for ATK x 4 damage"
-            }
         ]
     },
     4467: {//5* Co-Op Bonney
@@ -176278,68 +176216,6 @@ window.details = {
                     "Boosts Damage Limit Break effect based on number of [INT] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
                 ]
             }
-        ],
-        festStats: {
-            def: 131,
-            spd: 153,
-            style: "RCV"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "60% chance to evade Special Bind",
-        festAbility: [
-            "Free Spirit/Cerebral class teammates ATK Up Lv.1, SPD Up Lv.1, RCV Up Lv.1; [Revolutionary Army] teammates DEF Up Lv.1",
-            "Free Spirit/Cerebral class teammates ATK Up Lv.2, SPD Up Lv.2, RCV Up Lv.2; [Revolutionary Army] teammates DEF Up Lv.1",
-            "Free Spirit/Cerebral class teammates ATK Up Lv.3, SPD Up Lv.3, RCV Up Lv.3; [Revolutionary Army] teammates DEF Up Lv.2",
-            "Free Spirit/Cerebral class teammates ATK Up Lv.4, SPD Up Lv.4, RCV Up Lv.4; [Revolutionary Army] teammates DEF Up Lv.2",
-            "Free Spirit/Cerebral class teammates ATK Up Lv.5, SPD Up Lv.5, RCV Up Lv.5; [Revolutionary Army] teammates DEF Up Lv.3"
-        ],
-        festSpecial: [
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.1 (11 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.1 (11 s), Special CT Speed Up Lv.1 (11 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.1 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.1 (12 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.1 (12 s), Special CT Speed Up Lv.1 (12 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.2 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.1 (13 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.1 (13 s), Special CT Speed Up Lv.1 (13 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.3 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.1 (14 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.1 (14 s), Special CT Speed Up Lv.1 (14 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.4 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.1 (15 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.1 (15 s), Special CT Speed Up Lv.1 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.5 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.2 (16 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.2 (16 s), Special CT Speed Up Lv.2 (16 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.6 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.2 (17 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.2 (17 s), Special CT Speed Up Lv.2 (17 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.7 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.2 (18 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.2 (18 s), Special CT Speed Up Lv.2 (18 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.8 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.2 (19 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.2 (19 s), Special CT Speed Up Lv.2 (19 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 2 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.3 (20 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.3 (20 s), Special CT Speed Up Lv.3 (20 s)"
-            }
         ]
     },
     4468: {//5+ Co-Op Bonney
@@ -176419,68 +176295,6 @@ window.details = {
                     "Boosts Damage Limit Break effect based on number of [INT] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
                     "Boosts Damage Limit Break effect based on number of [INT] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
                 ]
-            }
-        ],
-        festStats: {
-            def: 156,
-            spd: 158,
-            style: "RCV"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade Special Bind, reduce damage taken from [PSY] by 20％",
-        festAbility: [
-            "Free Spirit/Cerebral class teammates ATK Up Lv.2, SPD Up Lv.2, RCV Up Lv.2; [Revolutionary Army] teammates DEF Up Lv.1; during Assault Rumble, self HP Up Lv.4; \"Bartholomew Kuma\" and \"Ginny\" teammates ATK Up Lv.6",
-            "Free Spirit/Cerebral class teammates ATK Up Lv.3, SPD Up Lv.3, RCV Up Lv.3; [Revolutionary Army] teammates DEF Up Lv.2; during Assault Rumble, self HP Up Lv.5; \"Bartholomew Kuma\" and \"Ginny\" teammates ATK Up Lv.7",
-            "Free Spirit/Cerebral class teammates ATK Up Lv.4, SPD Up Lv.4, RCV Up Lv.4; [Revolutionary Army] teammates DEF Up Lv.3; during Assault Rumble, self HP Up Lv.6; \"Bartholomew Kuma\" and \"Ginny\" teammates ATK Up Lv.8",
-            "Free Spirit/Cerebral class teammates ATK Up Lv.5, SPD Up Lv.5, RCV Up Lv.5; [Revolutionary Army] teammates DEF Up Lv.4; during Assault Rumble, self HP Up Lv.7; \"Bartholomew Kuma\" and \"Ginny\" teammates ATK Up Lv.9",
-            "Free Spirit/Cerebral class teammates ATK Up Lv.6, SPD Up Lv.6, RCV Up Lv.6; [Revolutionary Army] teammates DEF Up Lv.5; during Assault Rumble, self HP Up Lv.8; \"Bartholomew Kuma\" and \"Ginny\" teammates ATK Up Lv.10"
-        ],
-        festSpecial: [
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.1 (11 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.1 (11 s), Special CT Speed Up Lv.1 (11 s); during Assault Rumble, targets 1 Driven class enemy for DEF Down Lv.1 (11 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.2 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.1 (12 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.1 (12 s), Special CT Speed Up Lv.1 (12 s); during Assault Rumble, targets 1 Driven class enemy for DEF Down Lv.2 (12 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.4 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.2 (13 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.2 (13 s), Special CT Speed Up Lv.2 (13 s); during Assault Rumble, targets 1 Driven class enemy for DEF Down Lv.3 (13 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.6 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.2 (14 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.2 (14 s), Special CT Speed Up Lv.2 (14 s); during Assault Rumble, targets 1 Driven class enemy for DEF Down Lv.4 (14 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 1.8 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.3 (15 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.3 (15 s), Special CT Speed Up Lv.3 (15 s); during Assault Rumble, targets 1 Driven class enemy for DEF Down Lv.5 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 2 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.3 (16 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.3 (16 s), Special CT Speed Up Lv.3 (16 s); during Assault Rumble, targets 1 Driven class enemy for DEF Down Lv.6 (16 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 2.2 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.4 (17 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.4 (17 s), Special CT Speed Up Lv.4 (17 s); during Assault Rumble, targets 1 Driven class enemy for DEF Down Lv.7 (17 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 2.4 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.4 (18 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.4 (18 s), Special CT Speed Up Lv.4 (18 s); during Assault Rumble, targets 1 Driven class enemy for DEF Down Lv.8 (18 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 2.6 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.5 (19 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.5 (19 s), Special CT Speed Up Lv.5 (19 s); during Assault Rumble, targets 1 Driven class enemy for DEF Down Lv.9 (19 s)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets teammates within large range for RCV x 3 healing; targets Free Spirit/Cerebral class teammates for DEF Up Lv.5 (20 s); targets \"Bartholomew Kuma\" and \"Ginny\" teammates for ATK Up Lv.5 (20 s), Special CT Speed Up Lv.5 (20 s); during Assault Rumble, targets 1 Driven class enemy for DEF Down Lv.10 (20 s)"
             }
         ]
     },
