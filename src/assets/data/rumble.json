@@ -426529,6 +426529,349 @@
       "cost": 20
     },
     {
+      "id": 4464,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["HP", "SPD"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[QCK]", "Driven"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[QCK]", "Driven"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["crew"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["[QCK]"]}
+            },
+            {
+              "attributes": ["HP"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 2}
+            },
+            {},
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {}
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["[QCK]", "Driven"]}
+            },
+            {
+              "amount": 230,
+              "duration": 11,
+              "interval": 3,
+              "effect": "recharge",
+              "type": "fixed",
+              "targeting": {"targets": ["[QCK]", "Driven"]}
+            },
+            {
+              "amount": 21,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["[Big Mom Pirates]"], "excludes": ["self"]}
+            },
+            {
+              "attributes": ["ATK", "DEF"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["[Big Mom Pirates]"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"amount": 260, "duration": 12}
+            },
+            {
+              "override": {"amount": 22}
+            },
+            {
+              "override": {"duration": 12}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"duration": 13}
+            },
+            {
+              "override": {"amount": 290, "duration": 13}
+            },
+            {
+              "override": {"amount": 23}
+            },
+            {
+              "override": {"duration": 13}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 14}
+            },
+            {
+              "override": {"amount": 320, "duration": 14}
+            },
+            {
+              "override": {"amount": 24}
+            },
+            {
+              "override": {"level": 2, "duration": 14}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 15}
+            },
+            {
+              "override": {"amount": 350, "duration": 15}
+            },
+            {
+              "override": {"amount": 25}
+            },
+            {
+              "override": {"level": 2, "duration": 15}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 16}
+            },
+            {
+              "override": {"amount": 380, "duration": 16}
+            },
+            {
+              "override": {"amount": 26}
+            },
+            {
+              "override": {"level": 3, "duration": 16}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 17}
+            },
+            {
+              "override": {"amount": 410, "duration": 17}
+            },
+            {
+              "override": {"amount": 27}
+            },
+            {
+              "override": {"level": 3, "duration": 17}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 18}
+            },
+            {
+              "override": {"amount": 440, "duration": 18}
+            },
+            {
+              "override": {"amount": 28}
+            },
+            {
+              "override": {"level": 3, "duration": 18}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 19}
+            },
+            {
+              "override": {"amount": 470, "duration": 19}
+            },
+            {
+              "override": {"amount": 29}
+            },
+            {
+              "override": {"level": 4, "duration": 19}
+            }
+          ]
+        },
+        {
+          "cooldown": 33,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 20}
+            },
+            {
+              "override": {"amount": 500, "duration": 20}
+            },
+            {
+              "override": {"amount": 30}
+            },
+            {
+              "override": {"level": 5, "duration": 20}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Action Bind",
+          "chance": 80,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[STR]",
+          "percentage": 20,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "level": 1,
+          "area": "Small",
+          "action": "heal"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "SPT",
+        "def": 172,
+        "spd": 163
+      },
+      "cost": 20
+    },
+    {
       "id": 4465,
       "ability": [
         {
@@ -428259,6 +428602,1077 @@
         "spd": 158
       },
       "cost": 20
+    },
+    {
+      "id": 4469.1,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["ATK", "RCV", "SPD"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["[INT]", "Slasher"]}
+            },
+            {
+              "attributes": ["Guard"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[INT]", "Slasher"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 2, "targets": ["[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["HP"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[INT]", "Slasher"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 3, "targets": ["[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[INT]", "Slasher"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 4, "targets": ["[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[INT]", "Slasher"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Straw Hat Pirates]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "amount": 4.1,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "small", "direction": "radial"}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "amount": 230,
+              "duration": 11,
+              "interval": 3,
+              "effect": "recharge",
+              "type": "fixed",
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "attributes": ["Shield"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 3,
+              "duration": 11,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "time", "comparator": "remaining", "count": 50}
+            },
+            {
+              "amount": 2.1,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"},
+              "condition": {"type": "time", "comparator": "remaining", "count": 70}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.2}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"amount": 260, "duration": 12}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"amount": 2.2}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.3}
+            },
+            {
+              "override": {"level": 2, "duration": 13}
+            },
+            {
+              "override": {"amount": 290, "duration": 13}
+            },
+            {
+              "override": {"duration": 13}
+            },
+            {
+              "override": {"duration": 13}
+            },
+            {
+              "override": {"amount": 2.3}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.4}
+            },
+            {
+              "override": {"level": 2, "duration": 14}
+            },
+            {
+              "override": {"amount": 320, "duration": 14}
+            },
+            {
+              "override": {"level": 2, "duration": 14}
+            },
+            {
+              "override": {"level": 4, "duration": 14}
+            },
+            {
+              "override": {"amount": 2.4}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.5}
+            },
+            {
+              "override": {"level": 3, "duration": 15}
+            },
+            {
+              "override": {"amount": 350, "duration": 15}
+            },
+            {
+              "override": {"level": 2, "duration": 15}
+            },
+            {
+              "override": {"level": 4, "duration": 15}
+            },
+            {
+              "override": {"amount": 2.5}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.6}
+            },
+            {
+              "override": {"level": 3, "duration": 16}
+            },
+            {
+              "override": {"amount": 380, "duration": 16}
+            },
+            {
+              "override": {"level": 3, "duration": 16}
+            },
+            {
+              "override": {"level": 5, "duration": 16}
+            },
+            {
+              "override": {"amount": 2.6}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.7}
+            },
+            {
+              "override": {"level": 4, "duration": 17}
+            },
+            {
+              "override": {"amount": 410, "duration": 17}
+            },
+            {
+              "override": {"level": 3, "duration": 17}
+            },
+            {
+              "override": {"level": 5, "duration": 17}
+            },
+            {
+              "override": {"amount": 2.7}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.8}
+            },
+            {
+              "override": {"level": 4, "duration": 18}
+            },
+            {
+              "override": {"amount": 440, "duration": 18}
+            },
+            {
+              "override": {"level": 3, "duration": 18}
+            },
+            {
+              "override": {"level": 5, "duration": 18}
+            },
+            {
+              "override": {"amount": 2.8}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.9}
+            },
+            {
+              "override": {"level": 5, "duration": 19}
+            },
+            {
+              "override": {"amount": 470, "duration": 19}
+            },
+            {
+              "override": {"level": 4, "duration": 19}
+            },
+            {
+              "override": {"level": 6, "duration": 19}
+            },
+            {
+              "override": {"amount": 2.9}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 5}
+            },
+            {
+              "override": {"level": 6, "duration": 20}
+            },
+            {
+              "override": {"amount": 500, "duration": 20}
+            },
+            {
+              "override": {"level": 5, "duration": 20}
+            },
+            {
+              "override": {"level": 8, "duration": 20}
+            },
+            {
+              "override": {"amount": 3}
+            }
+          ]
+        }
+      ],
+      "superspecial": [
+        {
+          "condition": {
+            "type": "special",
+            "team": "enemy",
+            "count": 8
+          },
+          "effects": [
+            {
+              "amount": 5,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "medium", "direction": "radial"}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 8,
+              "duration": 25,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "amount": 500,
+              "duration": 25,
+              "interval": 3,
+              "effect": "recharge",
+              "type": "fixed",
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "attributes": ["Shield"],
+              "effect": "buff",
+              "level": 6,
+              "duration": 25,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 9,
+              "duration": 25,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "time", "comparator": "remaining", "count": 50}
+            },
+            {
+              "amount": 3.5,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"},
+              "condition": {"type": "time", "comparator": "remaining", "count": 70}
+            },
+            {
+              "amount": 1.5,
+              "effect": "damage",
+              "type": "atk",
+              "defbypass": true,
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "time", "comparator": "remaining", "count": 25}
+            }
+          ]
+        }
+      ],
+      "llbsuperspecial": [
+        {
+          "condition": {
+            "type": "special",
+            "team": "enemy",
+            "count": 7
+          },
+          "effects": [
+            {
+              "amount": 5,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 10,
+              "duration": 30,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "amount": 500,
+              "duration": 30,
+              "interval": 3,
+              "effect": "recharge",
+              "type": "fixed",
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "amount": 50,
+              "effect": "recharge",
+              "type": "percentage",
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "attributes": ["Shield"],
+              "effect": "buff",
+              "level": 7,
+              "duration": 30,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 10,
+              "duration": 30,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "time", "comparator": "remaining", "count": 50}
+            },
+            {
+              "amount": 4,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"},
+              "condition": {"type": "time", "comparator": "remaining", "count": 75}
+            },
+            {
+              "amount": 2,
+              "effect": "damage",
+              "type": "atk",
+              "defbypass": true,
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "time", "comparator": "remaining", "count": 35}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Special Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[PSY]",
+          "percentage": 30,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "type": "Full",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "ATK",
+        "def": 171,
+        "spd": 162
+      },
+      "cost": 55
+    },
+    {
+      "id": 4469.2,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["HP", "RCV", "SPD"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["[STR]", "Driven"]}
+            },
+            {
+              "attributes": ["Blow Away"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[STR]", "Driven"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 2, "targets": ["[Navy]", "[World Government]"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[STR]", "Driven"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 3, "targets": ["[Navy]", "[World Government]"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[STR]", "Driven"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 4, "targets": ["[Navy]", "[World Government]"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[STR]", "Driven"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]", "[World Government]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "amount": 4.1,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "small", "direction": "radial"}
+            },
+            {
+              "attributes": ["ATK", "SPD"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "amount": 12,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "time", "comparator": "first", "count": 50}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "time", "comparator": "first", "count": 50}
+            },
+            {
+              "amount": 2.1,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"},
+              "condition": {"type": "time", "comparator": "first", "count": 35}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.2}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"amount": 14}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"amount": 2.2}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.3}
+            },
+            {
+              "override": {"level": 2, "duration": 13}
+            },
+            {
+              "override": {"amount": 16}
+            },
+            {
+              "override": {"level": 2, "duration": 13}
+            },
+            {
+              "override": {"amount": 2.3}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.4}
+            },
+            {
+              "override": {"level": 2, "duration": 14}
+            },
+            {
+              "override": {"amount": 18}
+            },
+            {
+              "override": {"level": 2, "duration": 14}
+            },
+            {
+              "override": {"amount": 2.4}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.5}
+            },
+            {
+              "override": {"level": 3, "duration": 15}
+            },
+            {
+              "override": {"amount": 20}
+            },
+            {
+              "override": {"level": 3, "duration": 15}
+            },
+            {
+              "override": {"amount": 2.5}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.6}
+            },
+            {
+              "override": {"level": 3, "duration": 16}
+            },
+            {
+              "override": {"amount": 22}
+            },
+            {
+              "override": {"level": 3, "duration": 16}
+            },
+            {
+              "override": {"amount": 2.6}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.7}
+            },
+            {
+              "override": {"level": 4, "duration": 17}
+            },
+            {
+              "override": {"amount": 24}
+            },
+            {
+              "override": {"level": 4, "duration": 17}
+            },
+            {
+              "override": {"amount": 2.7}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.8}
+            },
+            {
+              "override": {"level": 4, "duration": 18}
+            },
+            {
+              "override": {"amount": 26}
+            },
+            {
+              "override": {"level": 4, "duration": 18}
+            },
+            {
+              "override": {"amount": 2.8}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 4.9}
+            },
+            {
+              "override": {"level": 5, "duration": 19}
+            },
+            {
+              "override": {"amount": 28}
+            },
+            {
+              "override": {"level": 5, "duration": 19}
+            },
+            {
+              "override": {"amount": 2.9}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 5}
+            },
+            {
+              "override": {"level": 6, "duration": 20}
+            },
+            {
+              "override": {"amount": 30}
+            },
+            {
+              "override": {"level": 5, "duration": 20}
+            },
+            {
+              "override": {"amount": 3}
+            }
+          ]
+        }
+      ],
+      "superspecial": [
+        {
+          "condition": {
+            "type": "time",
+            "count": 80
+          },
+          "effects": [
+            {
+              "amount": 5,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "medium", "direction": "radial"}
+            },
+            {
+              "attributes": ["ATK", "SPD"],
+              "effect": "buff",
+              "level": 7,
+              "duration": 25,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "amount": 50,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "time", "comparator": "first", "count": 50}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 6,
+              "duration": 25,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "time", "comparator": "first", "count": 50}
+            },
+            {
+              "amount": 3.5,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"},
+              "condition": {"type": "time", "comparator": "first", "count": 65}
+            },
+            {
+              "amount": 1,
+              "effect": "damage",
+              "type": "atk",
+              "defbypass": true,
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "time", "comparator": "first", "count": 25}
+            }
+          ]
+        }
+      ],
+      "llbsuperspecial": [
+        {
+          "condition": {
+            "type": "time",
+            "count": 80
+          },
+          "effects": [
+            {
+              "amount": 5,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"}
+            },
+            {
+              "attributes": ["ATK", "SPD"],
+              "effect": "buff",
+              "level": 8,
+              "duration": 30,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "amount": 70,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "time", "comparator": "first", "count": 50}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 7,
+              "duration": 30,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "time", "comparator": "first", "count": 50}
+            },
+            {
+              "amount": 4,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"},
+              "condition": {"type": "time", "comparator": "first", "count": 65}
+            },
+            {
+              "amount": 1.2,
+              "effect": "damage",
+              "type": "atk",
+              "defbypass": true,
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "time", "comparator": "first", "count": 30}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Action Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[DEX]",
+          "percentage": 30,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "type": "Full",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "ATK",
+        "def": 119,
+        "spd": 196
+      },
+      "cost": 55
+    },
+    {
+      "id": 4470,
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "ATK",
+        "def": 50,
+        "spd": 100
+      },
+      "cost": 30
+    },
+    {
+      "id": 4471,
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "DEF",
+        "def": 50,
+        "spd": 100
+      },
+      "cost": 30
     },
     {
       "id": 4986,
