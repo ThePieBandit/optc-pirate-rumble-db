@@ -175926,22 +175926,22 @@ window.details = {
         }
     },
     4464: {//5+ PKA Pudding
-        captain: "Reduces crew's Special charge time by 2 turns and VS Effect gauge by 2 at start of quest, boosts [QCK] and [INT] characters' ATK by 4x, RCV by 1.25x, makes crew's [QCK][INT] slots have matching slot effects, and boosts crew's chance of landing on [QCK][INT] slots",
-        special: "Reduces crew's ATK Down duration by 6 turns, and boosts [QCK] and [INT] characters' ATK by 2.5x for 1 turn. If 2 or more [Blackbeard Pirates] characters are on the crew, binds character for 6 turns but applies Weakened status to all enemies ignoring immunity to status effects for 1 turn, then after that, if \"Charlotte Linlin (Big Mom)\" or \"Sanji\" has already launched a Special in this turn, extends the duration of crew's ATK boost by 2 turns, then after 1 turn, applies Weakened status (increase damage taken by 1.3x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken) to all enemies ignoring immunity to status effects for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 2 turns and reduces VS Gauge of all characters by 2 at the start of the fight, boosts ATK of [QCK] and [INT] characters by 4x, boosts RCV of [QCK] and [INT] characters by 1.25x, makes [QCK] and [INT] orbs beneficial for all characters, and boosts chances of getting [QCK] and [INT] orbs.",
+        special: "Reduces ATK Down duration by 6 turns, and boosts ATK of [QCK] and [INT] characters by 2.5x for 1 turn. If your crew has 2+ [Blackbeard Pirates] characters, binds self for 6 turns, and ignores Debuff Protection and inflicts all enemies with Weaken by 1.3x, by 1.625x if enemies are inflicted with Increase Damage Taken, for 1 turn. If your crew has Charlotte Linlin (Big Mom) or Sanji who has used a special this turn, increases duration of any ATK Up buffs by 2 turns, including effects activated in the same ability, and after 1 turn, ignores Debuff Protection and inflicts all enemies with Weaken by 1.3x, by 1.625x if enemies are inflicted with Increase Damage Taken, for 1 turn.",
         specialName: "Intimidation Aboard the Enemy's Ship",
         sailor: {
-            base: "Boosts crew's base stats by 60",
-            level1: "Makes crew's [QCK][RCV] slots have matching slot effects"
+            base: "Boosts base ATK, HP and RCV of all characters by 60.",
+            level1: "Makes [QCK] and [RCV] orbs beneficial for all characters."
         },
         support: [
             {
                 Characters: "[QCK] characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 8% of character's base stats to supported character's base stats"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -176006,18 +176006,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] character performs Super Tandem"
+                "When a [Big Mom Pirates], [Paramythia-type], [Egghead Arc] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Big Mom Pirates], [Paramythia-type], [Egghead Arc] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Big Mom Pirates], [Paramythia-type], [Egghead Arc] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Big Mom Pirates], [Paramythia-type], [Egghead Arc] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Big Mom Pirates], [Paramythia-type], [Egghead Arc] or [Blackbeard Pirates] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Big Mom Pirates] [Paramythia-type] [Egghead Arc] [Blackbeard Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Egghead Arc] [Blackbeard Pirates] characters by 2 and raises Boost Level of [Big Mom Pirates] [Paramythia-type] characters by 3 for 1 turn"
+                "Raises Boost Level of [Big Mom Pirates], [Paramythia-type], [Egghead Arc] and [Blackbeard Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Big Mom Pirates], [Paramythia-type], [Egghead Arc] and [Blackbeard Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Big Mom Pirates], [Paramythia-type], [Egghead Arc] and [Blackbeard Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Big Mom Pirates], [Paramythia-type], [Egghead Arc] and [Blackbeard Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] and [Blackbeard Pirates] characters by 2 for 1 turn, and raises Boost Level of [Big Mom Pirates] and [Paramythia-type] characters by 3 for 1 turn."
             ]
         }
     },
@@ -176396,28 +176396,28 @@ window.details = {
     },
     4469: {//Zoro VS Lucci
         captain: {
-            character1: "Reduces crew's Switch Effect by 3 and VS Effect gauge by 6 at start of quest, changes crew's slots to [TND] at start of quest, boosts [INT], Slasher, and Free Spirit characters' HP by 1.35x, ATK by 5.5x, boosts their ATK by approximately 6x after 3 PERFECT strikes in a row, boosts other characters' ATK by 3.5x, and makes crew's [INT][TND] slots have matching slot effects. If crew uses Specials to reduce or remove enemies' DEF Up, adds 2 turns to the duration reduction",
-            character2: "Reduces crew's Switch Effect by 3 and VS Effect gauge by 6 at start of quest, changes crew's slots to [RCV] at start of quest, boosts [STR], Driven, and Cerebral characters' HP by 1.35x, ATK by 5.5x, boosts their ATK by approximately 6x after 3 PERFECT strikes in a row, boosts other characters' ATK by 3.5x, and makes crew's [STR][RCV] slots have matching slot effects. If crew uses Specials to reduce or remove enemies' Threshold Damage Reduction, adds 2 turns to the duration reduction"
+            character1: "Reduces Switch Effect of all characters by 3 and reduces VS Gauge of all characters by 6 at the start of the fight, changes all orbs into [TND] orbs at the start of the fight, boosts ATK of [INT], Slasher and Free Spirit characters by 5.5x, by 6x instead after the 3rd PERFECTs in a row, boosts ATK of all other characters by 3.5x, boosts HP of [INT], Slasher and Free Spirit characters by 1.35x, and makes [INT] and [TND] orbs beneficial for all characters. If crew uses a special to reduce enemies' Increased Defense, reduces the duration by 2 additional turns.",
+            character2: "Reduces Switch Effect of all characters by 3 and reduces VS Gauge of all characters by 6 at the start of the fight, changes all orbs into [RCV] orbs at the start of the fight, boosts ATK of [STR], Driven and Cerebral characters by 5.5x, by 6x instead after the 3rd PERFECTs in a row, boosts ATK of all other characters by 3.5x, boosts HP of [STR], Driven and Cerebral characters by 1.35x, and makes [STR] and [RCV] orbs beneficial for all characters. If crew uses a special to reduce enemies' Threshold Damage Reduction, reduces the duration by 2 additional turns."
         },
         special: {
-            character1: "Deals 2,000,000 damage to one enemy (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect), reduces all enemies' DEF Up duration by 7 turns, increases all enemies' damage taken by 2.25x for 1 turn ignoring immunity to status effects, allows all enemies' Increase Damage Taken effect to be further increased up to 2 times (effect applies to increase damage taken effect from this Special), and reduces crew's VS Effect gauge by 4. If 3 or more [Straw Hat Pirates] or 5 or more [Egghead Arc] characters are on the crew, reduces crew's ATK Down duration by 7 turns, and sets the chain multiplier's minimum value at 3.0 and maximum value at 35.0 for 1 turn",
-            character2: "Deals 2,000,000 damage to one enemy (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect), reduces all enemies' Threshold Damage Reduction duration by 7 turns, increases all enemies' damage taken by 2.25x for 1 turn ignoring immunity to status effects, allows all enemies' Increase Damage Taken effect to be further increased up to 2 times (effect applies to increase damage taken effect from this Special), and reduces crew's VS Effect gauge by 4. If 3 or more [CP0] [CP9] [Navy] [World Government] or 5 or more [Egghead Arc] characters are on the crew, reduces crew's Paralysis duration by 7 turns, and boosts the chain multiplier by 1.6x for 1 turn"
+            character1: "Deals 2,000,000 Fixed True damage, ignoring Normal Attack Only, to one enemy, reduces enemies' Increased Defense duration by 7 turns, reduces VS Gauge of all characters by 4, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.25x for 1 turn, and enables enemies' Increase Damage Taken debuffs to be enhanced up to 2 times, including effects activated in the same ability. If your crew has 3+ [Straw Hat Pirates] characters or 5+ [Egghead Arc] characters, reduces ATK Down duration by 7 turns, and sets Chain Boundaries to 3.0x and 35.0x for 1 turn.",
+            character2: "Deals 2,000,000 Fixed True damage, ignoring Normal Attack Only, to one enemy, reduces enemies' Threshold Damage Reduction duration by 7 turns, reduces VS Gauge of all characters by 4, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.25x for 1 turn, and enables enemies' Increase Damage Taken debuffs to be enhanced up to 2 times, including effects activated in the same ability. If your crew has 3+ [CP0], [CP9], [Navy] or [World Government] characters or 5+ [Egghead Arc] characters, reduces Paralysis duration by 7 turns, and boosts Chain Multiplier Growth Rate by 1.6x for 1 turn."
         },
         specialName: "Egghead-Shaking Battle",
         sailor: {
             character1: {
-                base: "Sets all slots to [TND] slots at start of quest (no stacking identical abilities)",
-                base2: "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 6 turns at start of crew's next turn (even if no turns are reduced, effect still counts as 1 time activated)"
+                base: "Changes orbs of all characters into [TND] orbs at the start of the fight.",
+                base2: "Once per adventure, when the enemy gains a Threshold Damage Reduction buff, reduces enemies' Threshold Damage Reduction duration by 6 turns."
             },
             character2: {
-                base: "Sets all slots to [RCV] slots at start of quest (no stacking identical abilities)",
-                base2: "Once per quest, if enemy activates damage reduction (except Threshold Damage Reduction), reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns at start of crew's next turn (even if no turns are reduced, effect still counts as 1 time activated)"
+                base: "Changes orbs of all characters into [RCV] orbs at the start of the fight.",
+                base2: "Once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 6 turns."
             }
         },
-        VSCondition: "When number of [RCV][TND][WANO] and Rainbow slots used in normal attacks by crew and number of turns passed totals 18",
+        VSCondition: "When number of [RCV], [TND], [WANO], and [RAINBOW] orbs used in normal attacks by crew and turns passed totals 18.",
         VSSpecial: {
-            character1: "Reduces crew's Paralysis duration by 5 turns, changes middle-row characters' slots to [TND], further increases all enemies' increase damage taken effect by +0.5, and boosts the ATK of the next final tap performed by a Slasher or Free Spirit character by 30% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
-            character2: "Reduces crew's ATK Down duration by 5 turns, changes bottom-row characters' slots to [RCV], boosts the chain multiplier by +1.5 for 1 turn, and boosts the ATK of the next final tap performed by a Driven or Cerebral character by 30% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)"
+            character1: "Reduces Paralysis duration by 5 turns, changes orbs of middle row characters into [TND] orbs, increases boost effects of enemies' Increase Damage Taken debuffs by +0.5x, and boosts Final Tap ATK of Slasher and Free Spirit characters by 30%.",
+            character2: "Reduces ATK Down duration by 5 turns, changes orbs of bottom row characters into [RCV] orbs, adds 1.5x to chain multiplier for 1 turn, and boosts Final Tap ATK of Driven and Cerebral characters by 30%."
         },
         limit: [
             { description: "Boosts base ATK by 10" },
@@ -176495,40 +176495,40 @@ window.details = {
         ],
         rush: {
             characterCondition: [
-                "At final battle, if character performs the 1st tap of an attack, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Jewelry Bonney, Scratchmen Apoo, X Drake, Dracule Mihawk, Spandam, Kaku, Jabra, Blueno, Kumadori, Fukuro, Kalifa, Stussy, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, Borsalino (Kizaru)",
-                "At final battle, if character performs the 1st tap of an attack, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Jewelry Bonney, Scratchmen Apoo, X Drake, Dracule Mihawk, Spandam, Kaku, Jabra, Blueno, Kumadori, Fukuro, Kalifa, Stussy, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, Borsalino (Kizaru)",
-                "At final battle, if character performs the 1st tap of an attack, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Jewelry Bonney, Scratchmen Apoo, X Drake, Dracule Mihawk, Spandam, Kaku, Jabra, Blueno, Kumadori, Fukuro, Kalifa, Stussy, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, Borsalino (Kizaru)",
-                "At final battle, if character performs the 1st tap of an attack, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Jewelry Bonney, Scratchmen Apoo, X Drake, Dracule Mihawk, Spandam, Kaku, Jabra, Blueno, Kumadori, Fukuro, Kalifa, Stussy, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, Borsalino (Kizaru)",
-                "At final battle, if character performs the 1st tap of an attack, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Jewelry Bonney, Scratchmen Apoo, X Drake, Dracule Mihawk, Spandam, Kaku, Jabra, Blueno, Kumadori, Fukuro, Kalifa, Stussy, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, Borsalino (Kizaru)"
+                "On the last stage, when this character performs the 1st tap of an attack, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Jewelry Bonney, Scratchmen Apoo, X Drake, Dracule Mihawk, Spandam, Kaku, Jabra, Blueno, Kumadori, Fukuro, Kalifa, Stussy, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, Borsalino (Kizaru)",
+                "On the last stage, when this character performs the 1st tap of an attack, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Jewelry Bonney, Scratchmen Apoo, X Drake, Dracule Mihawk, Spandam, Kaku, Jabra, Blueno, Kumadori, Fukuro, Kalifa, Stussy, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, Borsalino (Kizaru)",
+                "On the last stage, when this character performs the 1st tap of an attack, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Jewelry Bonney, Scratchmen Apoo, X Drake, Dracule Mihawk, Spandam, Kaku, Jabra, Blueno, Kumadori, Fukuro, Kalifa, Stussy, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, Borsalino (Kizaru)",
+                "On the last stage, when this character performs the 1st tap of an attack, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Jewelry Bonney, Scratchmen Apoo, X Drake, Dracule Mihawk, Spandam, Kaku, Jabra, Blueno, Kumadori, Fukuro, Kalifa, Stussy, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, Borsalino (Kizaru)",
+                "On the last stage, when this character performs the 1st tap of an attack, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Jewelry Bonney, Scratchmen Apoo, X Drake, Dracule Mihawk, Spandam, Kaku, Jabra, Blueno, Kumadori, Fukuro, Kalifa, Stussy, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, Borsalino (Kizaru)"
             ],
             description: [
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Slasher, Free Spirit, Driven, and Cerebral characters (up to +0.5 chain multiplier; Rush ATK boost 1.3x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Slasher, Free Spirit, Driven, and Cerebral characters (up to +0.5 chain multiplier; Rush ATK boost 1.4x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Slasher, Free Spirit, Driven, and Cerebral characters (up to +0.5 chain multiplier; Rush ATK boost 1.45x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Slasher, Free Spirit, Driven, and Cerebral characters (up to +0.5 chain multiplier; Rush ATK boost 1.55x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Slasher, Free Spirit, Driven, and Cerebral characters (up to +0.5 chain multiplier; Rush ATK boost 1.7x)"
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn, and boosts Rush ATK of Slasher, Free Spirit, Driven and Cerebral characters by 1.1x-1.3x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn, and boosts Rush ATK of Slasher, Free Spirit, Driven and Cerebral characters by 1.1x-1.4x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn, and boosts Rush ATK of Slasher, Free Spirit, Driven and Cerebral characters by 1.15x-1.45x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn, and boosts Rush ATK of Slasher, Free Spirit, Driven and Cerebral characters by 1.15x-1.55x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to Chain multiplier for 1 turn, and boosts Rush ATK of Slasher, Free Spirit, Driven and Cerebral characters by 1.2x-1.7x."
             ],
             stats: [
-                "HP Cost: 20,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Slasher, Free Spirit, Driven, and Cerebral Rush ATK boost 1.1x\nEach successful chain adds +0.1 (up to 1.3)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
-                "HP Cost: 15,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Slasher, Free Spirit, Driven, and Cerebral Rush ATK boost 1.1x\nEach successful chain adds +0.1 (up to 1.4)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
-                "HP Cost: 12,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Slasher, Free Spirit, Driven, and Cerebral Rush ATK boost 1.15x\nEach successful chain adds +0.1 (up to 1.45)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
-                "HP Cost: 10,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Slasher, Free Spirit, Driven, and Cerebral Rush ATK boost 1.15x\nEach successful chain adds +0.1 (up to 1.55)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
-                "HP Cost: 7,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Slasher, Free Spirit, Driven, and Cerebral Rush ATK boost 1.2x\nEach successful chain adds +0.1 (up to 1.7)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8"
+                "HP Cost: 20,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Slasher, Free Spirit, Driven and Cerebral characters by 1.1x-1.3x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 15,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Slasher, Free Spirit, Driven and Cerebral characters by 1.1x-1.4x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 12,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Slasher, Free Spirit, Driven and Cerebral characters by 1.15x-1.45x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 10,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Slasher, Free Spirit, Driven and Cerebral characters by 1.15x-1.55x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 7,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Slasher, Free Spirit, Driven and Cerebral characters by 1.2x-1.7x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8"
             ]
         }
     },
     4470: {//Sanji
-        captain: "Boosts crew's HP by 1.35x, makes crew's [PSY][RCV] slots have matching slot effects, boosts [STR], Free Spirit, and Cerebral characters' ATK by 3.5x, and boosts crew's ATK by a further 1.3x if character became Captain during the quest (in addition to the 3.5x boost). If crew uses Specials to reduce or remove enemies' damage reduction (except Threshold Damage Reduction), adds 1 turn to the duration reduction",
+        captain: "Boosts ATK of [STR], Free Spirit and Cerebral characters by 3.5x, by 4.55x instead if this character becomes your captain in the middle of an island, boosts HP of all characters by 1.35x, and makes [PSY] and [RCV] orbs beneficial for all characters. If crew uses a special to reduce enemies' Percent Damage Reduction, reduces the duration by 1 additional turn.",
         special: [
             {
-                description: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 5 turns, changes right column slots (including [BLOCK] slots) to [RCV], and doubles [STR], Free Spirit, and Cerebral characters' ATK for 1 turn. If 3 or more [Straw Hat Pirates] or 5 or more [Egghead Arc] characters are on the crew, can choose to completely remove crew's Swap Captains effect",
+                description: "Reduces enemies' Percent Damage Reduction duration by 5 turns, changes orbs, including [BLOCK] orbs, of right column characters into [RCV] orbs, and boosts ATK of [STR], Free Spirit and Cerebral characters by 2x for 1 turn. If your crew has 3+ [Straw Hat Pirates] characters or 5+ [Egghead Arc] characters, optionally removes Captain Swap duration completely.",
                 cooldown: [
                     13,
                     7
                 ]
             },
             {
-                description: "Reduces crew's Bind duration by 6 turns, locks crew's slots for 1 turn, and boosts [STR], Free Spirit, and Cerebral characters' ATK by 2.75x for 2 turns. If 3 or more [Straw Hat Pirates] or 5 or more [Egghead Arc] characters are on the crew, and if character is a crewmate, swaps character with the Captain for 3 turns, and reduces character's Special charge time by 10 turns (Special charge time reduction effect of \"Five Elders-Assaulting Kick\" can be activated up to 1 time including any Specials with similar effect)",
+                description: "Reduces Bind duration by 6 turns, locks all orbs for 1 turn, and boosts ATK of [STR], Free Spirit and Cerebral characters by 2.75x for 2 turns. If your crew has 3+ [Straw Hat Pirates] characters or 5+ [Egghead Arc] characters, swaps this unit with your captain for 3 turns, and up to 1 time per adventure, reduces Special Cooldown of this character by 10 turns.",
                 cooldown: [
                     21,
                     15
@@ -176537,18 +176537,18 @@ window.details = {
         ],
         specialName: "Five Elders-Assaulting Kick",
         sailor: {
-            base: "Makes Free Spirit and Cerebral characters' [PSY][RCV] slots have matching slot effects",
-            level1: "Boosts [STR], Free Spirit, and Cerebral characters' base ATK by 60"
+            base: "Makes [PSY] and [RCV] orbs beneficial for Free Spirit and Cerebral characters.",
+            level1: "Boosts base ATK of [STR], Free Spirit and Cerebral characters by 60."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, changes supported character's slot to [RCV]",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, changes supported character's slot to [RCV]",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, changes supported character's slot to [RCV]",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, changes supported character's slot to [RCV]",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, changes supported character's slot to [RCV] and reduces [STR] characters' VS Effect gauge by 1"
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, changes the orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, changes the orb of the supported character into a [RCV] orb, and reduces VS Gauge of [STR] characters by 1."
                 ]
             }
         ],
@@ -176593,17 +176593,17 @@ window.details = {
         ]
     },
     4471: {//Jinbe
-        captain: "Boosts crew's HP by 1.35x, makes crew's [QCK][TND] slots have matching slot effects, boosts [INT], Free Spirit, and Cerebral characters' ATK by 3.5x, and boosts crew's ATK by a further 1.3x if character became Captain during the quest (in addition to the 3.5x boost). If crew uses Specials to reduce or remove enemies' Resilience, adds 1 turn to the duration reduction",
+        captain: "Boosts ATK of [INT], Free Spirit and Cerebral characters by 3.5x, by 4.55x instead if this character becomes your captain in the middle of an island, boosts HP of all characters by 1.35x, and makes [QCK] and [TND] orbs beneficial for all characters. If crew uses a special to reduce enemies' Resilience, reduces the duration by 1 additional turn.",
         special: [
             {
-                description: "Reduces all enemies' Resilience duration by 5 turns, changes left column slots (including [BLOCK] slots) to [TND], and doubles [INT], Free Spirit, and Cerebral characters' slot effects for 1 turn. If 3 or more [Straw Hat Pirates] or 5 or more [Egghead Arc] characters are on the crew, can choose to completely remove crew's Swap Captains effect",
+                description: "Reduces enemies' Resilience duration by 5 turns, changes orbs, including [BLOCK] orbs, of left column characters into [TND] orbs, and boosts Orb Effects of [INT], Free Spirit and Cerebral characters by 2x for 1 turn. If your crew has 3+ [Straw Hat Pirates] characters or 5+ [Egghead Arc] characters, optionally removes Captain Swap duration completely.",
                 cooldown: [
                     13,
                     7
                 ]
             },
             {
-                description: "Reduces crew's Despair duration by 6 turns, reduces damage taken by 80% for 1 turn, and boosts [INT], Free Spirit, and Cerebral characters' slot effects by 2.75x for 2 turns. If 3 or more [Straw Hat Pirates] or 5 or more [Egghead Arc] characters are on the crew, and if character is a crewmate, swaps character with the Captain for 3 turns, and reduces character's Special charge time by 10 turns (Special charge time reduction effect of \"Fish-Man Karate: Five Thousand-Brick Chop\" can be activated up to 1 time including any Specials with similar effect)",
+                description: "Reduces Despair duration by 6 turns, reduces damage received by 80% for 1 turn, and boosts Orb Effects of [INT], Free Spirit and Cerebral characters by 2.75x for 2 turns. If your crew has 3+ [Straw Hat Pirates] characters or 5+ [Egghead Arc] characters, swaps this unit with your captain for 3 turns, and up to 1 time per adventure, reduces Special Cooldown of this character by 10 turns.",
                 cooldown: [
                     21,
                     15
@@ -176612,18 +176612,18 @@ window.details = {
         ],
         specialName: "Fish-Man Karate: Five Thousand-Brick Chop",
         sailor: {
-            base: "Makes Free Spirit and Cerebral characters' [QCK][TND] slots have matching slot effects",
-            level1: "Boosts [INT], Free Spirit, and Cerebral characters' base ATK by 60"
+            base: "Makes [QCK] and [TND] orbs beneficial for Free Spirit and Cerebral characters.",
+            level1: "Boosts base ATK of [INT], Free Spirit and Cerebral characters by 60."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces damage taken by 10% for 1 turn",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces damage taken by 15% for 1 turn",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces damage taken by 20% for 1 turn",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces damage taken by 25% for 1 turn",
-                    "Once per quest, if supported character uses a Special to inflict Increase Damage Taken on the enemy, reduces damage taken by 25% for 1 turn and reduces [INT] characters' VS Effect gauge by 1"
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces damage received by 10% for 1 turn.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces damage received by 15% for 1 turn.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces damage received by 20% for 1 turn.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces damage received by 25% for 1 turn.",
+                    "Once per adventure, when the supported character uses a special to inflict Increase Damage Taken, reduces damage received by 25% for 1 turn, and reduces VS Gauge of [INT] characters by 1."
                 ]
             }
         ],
