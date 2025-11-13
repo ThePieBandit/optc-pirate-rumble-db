@@ -290,7 +290,7 @@
 								var keys = Object.entries(window.details[n + 1].lLimit[x].special);
 								keys.forEach(([key, value]) => {
 									window.details[n + 1].special["llb" + key] = value;
-									LLBsailors++;
+									LLBspecials++;
 								})
 							}
 						}
@@ -2928,6 +2928,18 @@
 				break;
 			case (ghostPoint + 700).toString():
 				return relPathToRoot + "/api/images/thumbnail/jap/4/400/4469-2.png";
+				break;
+			case (ghostPoint + 701).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/400/4475-1.png";
+				break;
+			case (ghostPoint + 702).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/400/4475-2.png";
+				break;
+			case (ghostPoint + 703).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/400/4475-DEX.png";
+				break;
+			case (ghostPoint + 704).toString():
+				return relPathToRoot + "/api/images/thumbnail/jap/4/400/4475-QCK.png";
 				break;
 			default:
 				break;
