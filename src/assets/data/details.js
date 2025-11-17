@@ -176668,24 +176668,24 @@ window.details = {
         ]
     },
     4472: {//Doflamingo Pirates
-        captain: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts [QCK], Cerebral, and Driven characters' HP by 1.3x, ATK by 5.25x, boosts their ATK by approximately 5.75x when they have [QCK][INT][TND] slots, and approximately 6x when they have [EMPTY][G] slots. If crew is afflicted with Despair status from a Special launched by the crew (including Support Effects) or by an enemy action, converts that effect to \"applies -30% Cerebral and Driven Resistance to all enemies for 2 turns\" regardless of the effective turns of the converted effect (if crew is afflicted with Despair by an enemy action, depending on if the enemy action was a preemptive action or end of turn action, the effect duration will be 1 turn at start of crew's next turn)",
-        special: "Reduces crew's Burn/Special Bind duration by 7 turns, extends the duration of crew's type effect boost by 2 turns, further increases crew's type effect boost by 1.25x (maximum value is 10x), then after 1 turn, delays all enemies for 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), and extends the duration of crew's ATK based on damage reduction effect by 2 turns. If crew has ATK based on damage reduction effect when Special is launched, boosts Cerebral and Driven characters' base ATK by +1500 for 3 turns. If Captain is a Cerebral or Driven class, boosts Cerebral and Driven characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 3 turns, then after that, boosts Cerebral and Driven characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 2 turns and reduces Switch Effect of all characters by 2 at the start of the fight, boosts ATK of [QCK], Cerebral and Driven characters by 5.25x, by 5.75x instead if they have a [QCK], [INT] or [TND] orb and by 6x instead if they have a [EMPTY] or [G] orb, and boosts HP of [QCK], Cerebral and Driven characters by 1.3x. If crew is inflicted with Despair from a Special, Support Ability or Enemy Action, replaces that debuff with the following effect: reduces enemies' Cerebral and Driven Resistance by -30% for 2 turns.",
+        special: "Reduces Burn and Special Bind duration by 7 turns, increases duration of any Color Affinity buffs by 2 turns, increases boost effects of Color Affinity buffs by 1.25x (up to 10x); and after 1 turn, ignores debuff protection and delays all enemies by 1 turn, and increases duration of any Crew Damage Reduction to ATK buffs by 2 turns. If your crew has Crew Damage Reduction to ATK when the special is activated, boosts Base ATK of Cerebral and Driven characters by 1,500 for 3 turns. If your Captain is a Cerebral or Driven character, boosts Crew Damage Reduction to ATK of Cerebral and Driven characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 3 turns. Then, boosts Crew Damage Reduction to ATK of Cerebral and Driven characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn.",
         specialName: "Darkness-Ruling Family",
         sailor: {
-            level1: "Boosts Cerebral and Driven characters' base ATK by 100, and makes their [QCK] slots have matching slot effects",
-            level2: "Reduces crew's Despair duration by 1 turn"
+            level1: "Boosts base ATK of Cerebral and Driven characters by 100. Makes [QCK] orbs beneficial for Cerebral and Driven characters.",
+            level2: "Reduces Despair duration by 1 turn."
         },
-        superSpecialCriteria: "When character's slot is [EMPTY] or [G] or any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Vergo, Monet, Baby 5, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Kaido, Caesar Clown (Gastino)",
-        superSpecial: "Reduces character's Special Bind duration by 7 turns, boosts damage dealt to delayed enemies by 2.25x for 3 turns, and changes [QCK] characters to Super [QCK]",
+        superSpecialCriteria: "Can be launched as crewmate. This character must have a [EMPTY] or [G] orb or your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Vergo, Monet, Baby 5, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Kaido, Caesar Clown (Gastino)",
+        superSpecial: "Reduces Special Bind duration by 7 turns on this character, boosts ATK against delayed enemies by 2.25x for 3 turns, and transforms [QCK] characters into Super [QCK] characters.",
         support: [
             {
                 Characters: "Vergo, Monet, Baby 5, Buffalo, Sugar, Senor Pink, Giolla, Lao G., Machvise, Gladius, Dellinger",
                 description: [
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces supported character's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces supported character's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces supported character's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces supported character's Special Bind duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces supported character's Special Bind duration by 3 turns, and boosts Cerebral and Driven characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 100% damage reduction, boosts ATK by 1.5x) for 1 turn at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn on the supported character.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn on the supported character.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn on the supported character.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 2 turns on the supported character.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 3 turns on the supported character, and boosts Crew Damage Reduction to ATK of Cerebral and Driven characters by 1x-1.5x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn."
                 ]
             }
         ],
@@ -176827,22 +176827,22 @@ window.details = {
         ]
     },
     4473: {//Corazon
-        captain: "Boosts Cerebral and Driven characters' ATK by 4x, RCV by 1.3x, boosts ATK of Cerebral and Driven characters with a Cost of 40 or less by 4.5x, and tapping on this character with an [EMPTY] slot will further increase crew's chain multiplier additive boost (except multiplicative boost) by +0.5 and boost the chain multiplier by +1.0 for 1 turn",
-        special: "Reduces crew's ATK Down duration by 6 turns, completely removes crew's Remove SFX, reduces damage taken by 80% for 3 turns, changes slots (including [BLOCK] slots), to [EMPTY], and boosts the chain multiplier by +1.0 for 3 turns. If crew has type effect boost when Special is launched, boosts Cerebral and Driven characters' ATK by 2.25x for 3 turns, then after that, boosts the type effects of normal attacks for Cerebral and Driven characters by 2.25x for 3 turns",
+        captain: "Boosts ATK of Cerebral and Driven characters by 4x, by 4.5x instead if they have a Cost 40 or less, and boosts RCV of Cerebral and Driven characters by 1.3x. If this character has a [EMPTY] orb and you attack with this character, increases boost effects of Chain Addition buffs by +0.5x, and adds 1.0x to chain multiplier for 1 turn.",
+        special: "Reduces ATK Down duration by 6 turns, removes Blindness duration completely, reduces damage received by 80% for 3 turns, changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of Cerebral and Driven characters by 2.25x for 3 turns, and adds 1.0x to chain multiplier for 3 turns. If your crew has Color Affinity when the special is activated, boosts ATK of Cerebral and Driven characters by 2.25x for 3 turns.",
         specialName: "Natural Clumsiness",
         sailor: {
-            base: "Boosts Cerebral and Driven characters' base stats by 70",
-            level1: "Tapping on this character with an [EMPTY][G] slot will apply -10% Cerebral and Driven Resistance to all enemies for 1 turn"
+            base: "Boosts base ATK, HP and RCV of Cerebral and Driven characters by 70.",
+            level1: "If this character has a [EMPTY] or [G] orb and you attack with this character, reduces enemies' Cerebral and Driven Resistance by -10% for 1 turn."
         },
         support: [
             {
                 Characters: "Trafalgar Law, Donquixote Doflamingo",
                 description: [
-                    "Once per quest, if inflicted with Special Bind status from the enemy or enemy changes crew's slots, changes supported character's slot to [EMPTY], and reduces damage taken by 20% for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy or enemy changes crew's slots, changes supported character's slot to [EMPTY], and reduces damage taken by 30% for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy or enemy changes crew's slots, changes supported character's slot to [EMPTY], and reduces damage taken by 40% for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy or enemy changes crew's slots, changes supported character's slot to [EMPTY], and reduces damage taken by 50% for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy or enemy changes crew's slots, changes supported character's slot to [EMPTY], and reduces damage taken by 60% for 1 turn at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Special Bind, Orb Randomization or Orb Manipulation, changes the orb of the supported character into a [EMPTY] orb, and reduces damage received by 20% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, Orb Randomization or Orb Manipulation, changes the orb of the supported character into a [EMPTY] orb, and reduces damage received by 30% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, Orb Randomization or Orb Manipulation, changes the orb of the supported character into a [EMPTY] orb, and reduces damage received by 40% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, Orb Randomization or Orb Manipulation, changes the orb of the supported character into a [EMPTY] orb, and reduces damage received by 50% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, Orb Randomization or Orb Manipulation, changes the orb of the supported character into a [EMPTY] orb, and reduces damage received by 60% for 1 turn."
                 ]
             }
         ],
@@ -176896,19 +176896,19 @@ window.details = {
         festAttackTarget: "Targets closest enemies"
     },
     4474: {//Bellamy
-        captain: "Boosts [QCK] characters' ATK by 3x, HP by 1.2x, and boosts character's ATK and ATK of [QCK] characters with a Cost of 40 or less by approximately 4x",
-        special: "Delays all enemies by 1 turn, reduces [QCK] and Driven characters' Special charge time by 1 turn, reduces crew's lock chain multiplier effect by 5 turns, and doubles [QCK] and Driven characters' slot effects for 3 turns. If 2 or more [Donquixote Pirates] characters are on the crew, sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect)",
+        captain: "Boosts ATK of [QCK] characters by 3x, by 4x instead if they have a Cost 40 or less, and boosts HP of [QCK] characters by 1.2x.",
+        special: "Delays all enemies by 1 turn, reduces Special Cooldown of [QCK] and Driven characters by 1 turn, reduces Chain Multiplier Limit duration by 5 turns, and boosts Orb Effects of [QCK] and Driven characters by 2x for 3 turns. If your crew has 2+ [Donquixote Pirates] characters, ignores debuff protection and reduces the defense of all enemies by 100% for 1 turn.",
         specialName: "Seeing the Choice Through to Its End",
-        sailor: "Reduces character's Special Reverse by 2 turns",
+        sailor: "Restores Special Cooldown of this character by 2 turns when it is rewinded.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Donquixote Pirates]",
+                Characters: "[Donquixote Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [G], and reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [G], and reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [G], and reduces all enemies' DEF Up duration by 2 turns",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [G], and reduces all enemies' DEF Up duration by 2 turns",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [G], and reduces all enemies' DEF Up duration by 3 turns, and if crew lands 2 PERFECT strikes in turn Special is used, allows crew's type effect boost to be further increased up to 2 times the next turn"
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [G] orb, and reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [G] orb, and reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [G] orb, and reduces enemies' Increased Defense duration by 2 turns.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [G] orb, and reduces enemies' Increased Defense duration by 2 turns.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [G] orb, reduces enemies' Increased Defense duration by 3 turns; and if during that turn you score 2 PERFECT hits, enables Color Affinity buffs to be enhanced up to 2 times in the following turn."
                 ]
             }
         ],
@@ -176924,24 +176924,24 @@ window.details = {
     },
     4475: {///6+ Luffy & Law
         captain: {
-            character1: "Reduces crew's Special charge time by 1 turn at start of quest, boosts crew's ATK by 4.25x, HP by 1.25x, makes crew's [PSY] slots have matching slot effects, and heals crew by 0.5x character's RCV for every PERFECT at end of turn",
-            character2: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts crew's ATK by 4.5x, HP by 1.25x, and makes crew's [INT] slots have matching slot effects",
-            combined: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts crew's ATK by 5x, HP by 1.25x, and makes crew's [PSY][INT] slots have matching slot effects, heals crew by 1.5x character's RCV for every PERFECT at end of turn, and tapping on this character with a [DEX][QCK] slot will apply increase damage taken status to all enemies by 1.5x for 1 turn (visible effect will be 2 turns and become 1 during character's next action)"
+            character1: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all characters by 4.25x, boosts HP of all characters by 1.25x, makes [PSY] orbs beneficial for all characters, and recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT.",
+            character2: "Reduces Special Cooldown of all characters by 1 turn and reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 4.5x, boosts HP of all characters by 1.25x, and makes [INT] orbs beneficial for all characters.",
+            combined: "Reduces Special Cooldown of all characters by 1 turn and reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 5x, boosts HP of all characters by 1.25x, makes [PSY] and [INT] orbs beneficial for all characters, and recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT. If this character has a [DEX] or [QCK] orb and you attack with this character, inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn."
         },
         special: {
-            character1: "Deals 400x character's ATK in non-type damage to one enemy, reduces crew's Paralysis duration by 6 turns, makes crew's [STR][DEX][QCK] slots have matching slot effects for 1 turn, boosts crew's slot effects by 3x for 1 turn, and becomes \"Luffy & Law\" for 3 turns",
-            character2: "Deals 100x character's ATK in non-type damage to all enemies (ignoring all defensive effects and DEF), reduces crew's Bind duration by 6 turns, makes crew's [STR][DEX][QCK] slots have matching slot effects for 1 turn, boosts crew's slot effects by 3x for 1 turn, and becomes \"Luffy & Law\" for 3 turns"
+            character1: "Deals 400x character's ATK in Typeless damage to one enemy, reduces Paralysis duration by 6 turns, makes [STR], [DEX] and [QCK] orbs beneficial for all characters for 1 turn, boosts Orb Effects of all characters by 3x for 1 turn, and becomes Luffy & Law for 3 turns.",
+            character2: "Deals 100x character's ATK in Typeless Fixed True damage to all enemies, reduces Bind duration by 6 turns, makes [STR], [DEX] and [QCK] orbs beneficial for all characters for 1 turn, boosts Orb Effects of all characters by 3x for 1 turn, and becomes Luffy & Law for 3 turns."
         },
         specialName: "The Worst Plan to Overthrow a God",
         sailor: {
-            character1: "Boosts crew's base stats by 75",
-            character2: "Boosts crew's base stats by 75",
-            combined: "Boosts crew's base stats by 100",
-            level1: "Lets character completely evade Special Bind/Paralysis"
+            character1: "Boosts base ATK, HP and RCV of all characters by 75.",
+            character2: "Boosts base ATK, HP and RCV of all characters by 75.",
+            combined: "Boosts base ATK, HP and RCV of all characters by 100.",
+            level1: "Reduces Special Bind and Paralysis duration completely on this character."
         },
         swap: {
-            base: "Completely removes character's Slot Bind, changes character's slot (including [BLOCK] slot) to character's own type, doubles character's ATK for 1 turn, and allows character's normal attacks to ignore enemies' defensive effects for 1 turn",
-            super: "Completely removes character's Slot Bind, changes crew's slot (including [BLOCK] slot) to character's own type, boosts crew's ATK by 2.25x for 1 turn, and allows character's normal attacks to ignore enemies' defensive effects for 1 turn",
+            base: "Removes Slot Bind duration completely on this character, changes the orb, including [BLOCK] orb, of this character into a matching orb, boosts ATK of this character by 2x for 1 turn, and makes own attacks ignore damage reducing barriers and buffs for 1 turn.",
+            super: "Removes Slot Bind duration completely on this character, changes all orbs, including [BLOCK] orbs, into matching orbs, boosts ATK of all characters by 2.25x for 1 turn, and makes own attacks ignore damage reducing barriers and buffs for 1 turn.",
             superTurns: 7
         },
         limit: [
@@ -176995,9 +176995,9 @@ window.details = {
             },
             {
                 captain: {
-                    character1: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts crew's ATK by 4.5x, HP by 1.25x, makes crew's [PSY] slots have matching slot effects, heals crew by 0.5x character's RCV for every PERFECT at end of turn, and allows crew's Weakened status applying effects to ignore immunity to all status effects",
-                    character2: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts crew's ATK by 4.75x, HP by 1.25x, makes crew's [INT] slots have matching slot effects, and allows crew's Weakened status applying effects to ignore immunity to all status effects",
-                    combined: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts crew's ATK by 5.25x, HP by 1.25x, and makes crew's [PSY][INT] slots have matching slot effects, heals crew by 1.5x character's RCV for every PERFECT at end of turn, allows crew's Weakened status applying effects to ignore immunity to all status effects, and tapping on this character with a [DEX][QCK] slot will apply increase damage taken status to all enemies by 1.5x for 1 turn (visible effect will be 2 turns and become 1 during character's next action)"
+                    character1: "Reduces Special Cooldown of all characters by 1 turn and reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 4.5x, boosts HP of all characters by 1.25x, makes [PSY] orbs beneficial for all characters, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT, and allows specials that inflict Weaken to ignore debuff protection.",
+                    character2: "Reduces Special Cooldown of all characters by 1 turn and reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 4.75x, boosts HP of all characters by 1.25x, makes [INT] orbs beneficial for all characters, and allows specials that inflict Weaken to ignore debuff protection.",
+                    combined: "Reduces Special Cooldown of all characters by 1 turn and reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 5.25x, boosts HP of all characters by 1.25x, makes [PSY] and [INT] orbs beneficial for all characters, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT, and allows specials that inflict Weaken to ignore debuff protection. If this character has a [DEX] or [QCK] orb and you attack with this character, inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn."
                 }
             },
             {
@@ -177005,8 +177005,8 @@ window.details = {
             },
             {
                 special: {
-                    character1: "Deals 400x character's ATK in non-type damage to one enemy. If any character has Paralysis status when Special is launched, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken) to all enemies for 1 turn, then after that, reduces crew's Paralysis duration by 7 turns, makes crew's [STR][DEX][QCK] slots have matching slot effects for 1 turn, further increases crew's ATK boosts by +0.5, boosts crew's slot effects by 3x for 1 turn, and becomes \"Luffy & Law\" for 3 turns",
-                    character2: "Deals 100x character's ATK in non-type damage to all enemies (ignoring all defensive effects and DEF). If any character has Bind status when Special is launched, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken) to all enemies for 1 turn, then after that, reduces crew's Bind duration by 7 turns, makes crew's [STR][DEX][QCK] slots have matching slot effects for 1 turn, further increases crew's ATK boosts by +0.5, boosts crew's slot effects by 3x for 1 turn, and becomes \"Luffy & Law\" for 3 turns"
+                    character1: "Deals 400x character's ATK in Typeless damage to one enemy, reduces Paralysis duration by 7 turns, makes [STR], [DEX] and [QCK] orbs beneficial for all characters for 1 turn, increases boost effects of ATK Up buffs by +0.5x, boosts Orb Effects of all characters by 3x for 1 turn, and becomes Luffy & Law for 3 turns. If your crew is inflicted with Paralysis when the special is activated, inflicts all enemies with Weaken by 1.5x, by 1.8x if enemies are inflicted with Increase Damage Taken, for 1 turn.",
+                    character2: "Deals 100x character's ATK in Typeless Fixed True damage to all enemies, reduces Bind duration by 7 turns, makes [STR], [DEX] and [QCK] orbs beneficial for all characters for 1 turn, increases boost effects of ATK Up buffs by +0.5x, boosts Orb Effects of all characters by 3x for 1 turn, and becomes Luffy & Law for 3 turns. If your crew is inflicted with Bind when the special is activated, inflicts all enemies with Weaken by 1.5x, by 1.8x if enemies are inflicted with Increase Damage Taken, for 1 turn."
                 },
                 rResilience: true
             }
