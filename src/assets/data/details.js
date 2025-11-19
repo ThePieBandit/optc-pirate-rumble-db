@@ -176762,68 +176762,6 @@ window.details = {
                     "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
                 ]
             }
-        ],
-        festStats: {
-            def: 153,
-            spd: 180,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from [STR] by 30％",
-        festAbility: [
-            "[QCK]/Driven class teammates ATK Up Lv.2, SPD Up Lv.2, RCV Up Lv.2; if 5 or more Driven characters are on the team, [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates Special CT Speed Up Lv.1, SPD Up Lv.1",
-            "[QCK]/Driven class teammates ATK Up Lv.3, SPD Up Lv.3, RCV Up Lv.3; if 5 or more Driven characters are on the team, [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates Special CT Speed Up Lv.1, SPD Up Lv.1",
-            "[QCK]/Driven class teammates ATK Up Lv.4, SPD Up Lv.4, RCV Up Lv.4; if 5 or more Driven characters are on the team, [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates Special CT Speed Up Lv.2, SPD Up Lv.2",
-            "[QCK]/Driven class teammates ATK Up Lv.5, SPD Up Lv.5, RCV Up Lv.5; if 5 or more Driven characters are on the team, [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates Special CT Speed Up Lv.2, SPD Up Lv.3",
-            "[QCK]/Driven class teammates ATK Up Lv.6, SPD Up Lv.6, RCV Up Lv.6; if 5 or more Driven characters are on the team, [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates Special CT Speed Up Lv.3, SPD Up Lv.4"
-        ],
-        festSpecial: [
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.1 (11 s), SPD Down Lv.1 (11 s); targets 3 enemies ignoring DEF for ATK x 1 damage; targets Driven teammates for Shield Lv.1 (11 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 32% chance to evade DEF ignoring damage (11 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.1 (12 s), SPD Down Lv.1 (12 s); targets 3 enemies ignoring DEF for ATK x 1.1 damage; targets Driven teammates for Shield Lv.1 (12 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 34% chance to evade DEF ignoring damage (12 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.1 (13 s), SPD Down Lv.1 (13 s); targets 3 enemies ignoring DEF for ATK x 1.2 damage; targets Driven teammates for Shield Lv.1 (13 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 36% chance to evade DEF ignoring damage (13 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.2 (14 s), SPD Down Lv.2 (14 s); targets 3 enemies ignoring DEF for ATK x 1.3 damage; targets Driven teammates for Shield Lv.1 (14 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 38% chance to evade DEF ignoring damage (14 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.2 (15 s), SPD Down Lv.2 (15 s); targets 3 enemies ignoring DEF for ATK x 1.4 damage; targets Driven teammates for Shield Lv.2 (15 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 40% chance to evade DEF ignoring damage (15 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.3 (16 s), SPD Down Lv.3 (16 s); targets 3 enemies ignoring DEF for ATK x 1.5 damage; targets Driven teammates for Shield Lv.2 (16 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 42% chance to evade DEF ignoring damage (16 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.3 (17 s), SPD Down Lv.3 (17 s); targets 3 enemies ignoring DEF for ATK x 1.6 damage; targets Driven teammates for Shield Lv.2 (17 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 44% chance to evade DEF ignoring damage (17 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.3 (18 s), SPD Down Lv.3 (18 s); targets 3 enemies ignoring DEF for ATK x 1.7 damage; targets Driven teammates for Shield Lv.3 (18 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 46% chance to evade DEF ignoring damage (18 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.4 (19 s), SPD Down Lv.4 (19 s); targets 3 enemies ignoring DEF for ATK x 1.8 damage; targets Driven teammates for Shield Lv.3 (19 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 48% chance to evade DEF ignoring damage (19 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets enemies within large range for ATK Down Lv.5 (20 s), SPD Down Lv.5 (20 s); targets 3 enemies ignoring DEF for ATK x 2 damage; targets Driven teammates for Shield Lv.4 (20 s); if 5 or more [QCK] characters are on the team, targets [Donquixote Pirates] [Paramythia-type] [Logia-type] [World Government] teammates for 50% chance to evade DEF ignoring damage (20 s)"
-            }
         ]
     },
     4473: {//Corazon
@@ -176884,16 +176822,7 @@ window.details = {
                     "Reduces Special Use Limit duration by 2 turns"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4474: {//Bellamy
         captain: "Boosts ATK of [QCK] characters by 3x, by 4x instead if they have a Cost 40 or less, and boosts HP of [QCK] characters by 1.2x.",
@@ -176911,16 +176840,7 @@ window.details = {
                     "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [G] orb, reduces enemies' Increased Defense duration by 3 turns; and if during that turn you score 2 PERFECT hits, enables Color Affinity buffs to be enhanced up to 2 times in the following turn."
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4475: {///6+ Luffy & Law
         captain: {
@@ -177042,185 +176962,7 @@ window.details = {
                     "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
                 ]
             }
-        ],
-        festStats: {
-            def: 185,
-            spd: 194,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: {
-            base: "Heal 300 HP at an interval, reduce damage taken from Shooter and Fighter by 30%",
-            llbbase: "Heal 300 HP at an interval, reduce damage taken from Shooter and Fighter by 40%"
-        },
-        festAbility: {
-            base: [
-                "Team ATK Up Lv.2; Fighter/Slasher class teammates HP Up Lv.2, SPD Up Lv.2; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.1; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.1",
-                "Team ATK Up Lv.3; Fighter/Slasher class teammates HP Up Lv.3, SPD Up Lv.3; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.1; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.1",
-                "Team ATK Up Lv.4; Fighter/Slasher class teammates HP Up Lv.4, SPD Up Lv.4; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.2; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.2",
-                "Team ATK Up Lv.5; Fighter/Slasher class teammates HP Up Lv.5, SPD Up Lv.5; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.2; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.2",
-                "Team ATK Up Lv.6; Fighter/Slasher class teammates HP Up Lv.6, SPD Up Lv.6; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.3; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.3"
-            ],
-            llbbase: [
-                "Team ATK Up Lv.3; Fighter/Slasher class teammates HP Up Lv.3, SPD Up Lv.3; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.1; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.1",
-                "Team ATK Up Lv.4; Fighter/Slasher class teammates HP Up Lv.4, SPD Up Lv.4; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.2; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.2",
-                "Team ATK Up Lv.5; Fighter/Slasher class teammates HP Up Lv.5, SPD Up Lv.5; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.3; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.3",
-                "Team ATK Up Lv.6; Fighter/Slasher class teammates HP Up Lv.6, SPD Up Lv.6; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.4; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.4",
-                "Team ATK Up Lv.7; Fighter/Slasher class teammates HP Up Lv.7, SPD Up Lv.7; if 4 or more [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] characters are on the team, self ATK Up Lv.5; during Assault Rumble, Fighter/Slasher class teammates HP Up Lv.5"
-            ]
-        },
-        festSpecial: {
-            base: [
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3100 damage; targets team for ATK Up Lv.1 (11 s); targets 2 enemies for ATK x 3.1 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 6% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.1 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3200 damage; targets team for ATK Up Lv.1 (12 s); targets 2 enemies for ATK x 3.2 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 7% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.2 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3300 damage; targets team for ATK Up Lv.2 (13 s); targets 2 enemies for ATK x 3.3 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 8% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.3 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3400 damage; targets team for ATK Up Lv.2 (14 s); targets 2 enemies for ATK x 3.4 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 9% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.4 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3500 damage; targets team for ATK Up Lv.3 (15 s); targets 2 enemies for ATK x 3.5 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 10% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.5 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3600 damage; targets team for ATK Up Lv.3 (16 s); targets 2 enemies for ATK x 3.6 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 11% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.6 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3700 damage; targets team for ATK Up Lv.4 (17 s); targets 2 enemies for ATK x 3.7 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 12% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.7 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3800 damage; targets team for ATK Up Lv.4 (18 s); targets 2 enemies for ATK x 3.8 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 13% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.8 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 3900 damage; targets team for ATK Up Lv.5 (19 s); targets 2 enemies for ATK x 3.9 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 14% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 3.9 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4000 damage; targets team for ATK Up Lv.6 (20 s); targets 2 enemies for ATK x 4 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 15% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4 damage"
-                }
-            ],
-            llbbase: [
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4100 damage; targets team for ATK Up Lv.2 (11 s); targets 2 enemies for ATK x 4.1 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 11% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.1 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4200 damage; targets team for ATK Up Lv.2 (12 s); targets 2 enemies for ATK x 4.2 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 12% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.2 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4300 damage; targets team for ATK Up Lv.3 (13 s); targets 2 enemies for ATK x 4.3 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 13% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.3 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4400 damage; targets team for ATK Up Lv.3 (14 s); targets 2 enemies for ATK x 4.4 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 14% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.4 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4500 damage; targets team for ATK Up Lv.4 (15 s); targets 2 enemies for ATK x 4.5 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 15% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.5 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4600 damage; targets team for ATK Up Lv.4 (16 s); targets 2 enemies for ATK x 4.6 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 16% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.6 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4700 damage; targets team for ATK Up Lv.5 (17 s); targets 2 enemies for ATK x 4.7 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 17% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.7 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4800 damage; targets team for ATK Up Lv.5 (18 s); targets 2 enemies for ATK x 4.8 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 18% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.8 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 4900 damage; targets team for ATK Up Lv.6 (19 s); targets 2 enemies for ATK x 4.9 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 19% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 4.9 damage"
-                },
-                {
-                    cooldown: 35,
-                    description: "Targets enemies within large range for 5000 damage; targets team for ATK Up Lv.7 (20 s); targets 2 enemies for ATK x 5 damage; targets (not including self) [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates for Special CT 20% reduction; during Assault Rumble, targets 2 Shooter/Fighter class enemies for ATK x 5 damage"
-                }
-            ]
-        },
-        festAbilityGP: {
-            base: [
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.1; Fighter/Slasher class teammates ATK, DEF Up Lv.1, Critical % Up Lv.1; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.1",
-                    festGPSpecial: "Targets 3 high ATK enemies for 3000 damage; targets 3 enemies with high current HP for Leader base ATK x 1 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.2; Fighter/Slasher class teammates ATK, DEF Up Lv.1, Critical % Up Lv.2; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.1",
-                    festGPSpecial: "Targets 3 high ATK enemies for 3500 damage; targets 3 enemies with high current HP for Leader base ATK x 2 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.3; Fighter/Slasher class teammates ATK, DEF Up Lv.2, Critical % Up Lv.3; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.1",
-                    festGPSpecial: "Targets 3 high ATK enemies for 4000 damage; targets 3 enemies with high current HP for Leader base ATK x 3 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.4; Fighter/Slasher class teammates ATK, DEF Up Lv.2, Critical % Up Lv.3; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.2",
-                    festGPSpecial: "Targets 3 high ATK enemies for 4500 damage; targets 3 enemies with high current HP for Leader base ATK x 4 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.5; Fighter/Slasher class teammates ATK, DEF Up Lv.3, Critical % Up Lv.4; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.2",
-                    festGPSpecial: "Targets 3 high ATK enemies for 5000 damage; targets 3 enemies with high current HP for Leader base ATK x 5 damage",
-                    uses: 2
-                }
-            ],
-            llbbase: [
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.1; Fighter/Slasher class teammates ATK, DEF Up Lv.1, Critical % Up Lv.1; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.1",
-                    festGPSpecial: "Targets 4 high ATK enemies for 3000 damage; targets 4 enemies with high current HP for Leader base ATK x 1 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.2; Fighter/Slasher class teammates ATK, DEF Up Lv.2, Critical % Up Lv.2; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.1",
-                    festGPSpecial: "Targets 4 high ATK enemies for 3500 damage; targets 4 enemies with high current HP for Leader base ATK x 2 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.4; Fighter/Slasher class teammates ATK, DEF Up Lv.3, Critical % Up Lv.3; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.2",
-                    festGPSpecial: "Targets 4 high ATK enemies for 4000 damage; targets 4 enemies with high current HP for Leader base ATK x 3 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.5; Fighter/Slasher class teammates ATK, DEF Up Lv.3, Critical % Up Lv.4; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.2",
-                    festGPSpecial: "Targets 4 high ATK enemies for 4500 damage; targets 4 enemies with high current HP for Leader base ATK x 4 damage",
-                    uses: 2
-                },
-                {
-                    festGPAbility: "[DEX]/[QCK] teammates ATK, HP, RCV Up Lv.6; Fighter/Slasher class teammates ATK, DEF Up Lv.4, Critical % Up Lv.5; [Straw Hat Pirates] [Heart Pirates] [Paramythia-type] teammates Special CT Speed Up Lv.3",
-                    festGPSpecial: "Targets 4 high ATK enemies for 5000 damage; targets 4 enemies with high current HP for Leader base ATK x 5 damage",
-                    uses: 2
-                }
-            ]
-        },
-        festAbilityGPCondition: {
-            base: "When enemy uses Rumble Special 6 times",
-            llbbase: "When enemy uses Rumble Special 6 times"
-        }
+        ]
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
