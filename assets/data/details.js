@@ -176964,6 +176964,779 @@ window.details = {
             }
         ]
     },
+    4476: {//Yamato & Momo
+        captain: {
+            character1: "Launches the following effect at start of quest: \"If every type is on the crew, reduces Slasher and Striker characters' Special charge time by 5 turns, Switch Effect by 3, and boosts [STR] and [PSY] characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.2; GREAT +0.4; PERFECT +0.7) for 10 turns\", boosts Slasher and Striker characters' ATK by 5x, HP by 1.3x, makes their [STR][PSY] slots have matching slot effects, and reduces character's Special Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] characters are on the crew, boosts Slasher and Striker characters' ATK by a further 1.1x. If 5 or more [Kozuki Clan] [Land of Wano Arc] [Mythical Zoan-type] characters are on the crew and a character with Critical ATK Potential Ability performs a Critical attack, reduces all enemies' DEF Up duration by 2 turns",
+            character2: "Launches the following effect at start of quest: \"Reduces Slasher characters' Special charge time by 2 turns, Switch Effect by 2, and boosts [STR] and [PSY] characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 5 turns\", boosts Slasher and Striker characters' ATK by 5x, HP by 1.3x, makes their [STR][PSY] slots have matching slot effects, and reduces character's Special Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] characters are on the crew, boosts Slasher and Striker characters' ATK by a further 1.1x. If 5 or more [Kozuki Clan] [Land of Wano Arc] [Mythical Zoan-type] characters are on the crew and a character with Critical ATK Potential Ability performs a Critical attack, reduces all enemies' DEF Up duration by 2 turns",
+            combined: "Boosts Slasher and Striker characters' ATK by 5.5x, HP by 1.3x, makes their [STR][PSY] slots have matching slot effects, and reduces character's Special Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] characters are on the crew, boosts Slasher and Striker characters' ATK by a further 1.1x. If 5 or more [Kozuki Clan] [Land of Wano Arc] [Mythical Zoan-type] characters are on the crew and a character with Critical ATK Potential Ability performs a Critical attack, reduces all enemies' DEF Up duration by 2 turns, and applies -4% Slasher and Striker Resistance to all enemies for 1 turn"
+        },
+        special: "Reduces crew's Despair/Special Bind duration by 7 turns. If crew has slot effect boost when Special is launched, boosts the type effects of normal attacks for Slasher and Striker characters by 2.75x for 2 turns, then after that, boosts Slasher and Striker characters' slot effects by 3x for 2 turns, and becomes \"Yamato & Momonosuke\" for 3 turns. If 5 or more [Kozuki Clan] [Land of Wano Arc] [Mythical Zoan-type] characters are on the crew, further increases crew's ATK and slot effect boosts by 1.2x (maximum value is 7x; effect applies to slot effect boost from this Special), and applies \"Territory: Slasher class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns",
+        specialName: "Honing Skills of Their Blade",
+        sailor: {
+            character1: "Reduces character's Special Bind duration by 7 turns",
+            character2: "Reduces character's Special Bind duration by 7 turns",
+            combined: "Reduces character's Special Bind duration by 7 turns",
+            level1: "Once per quest, if enemy activates DEF Up, reduces all enemies' DEF Up duration by 6 turns at start of crew's next turn (even if no turns are reduced, effect still counts as 1 time activated)"
+        },
+        superSpecialCriteria: "When character becomes \"Yamato & Momonosuke\" and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Kozuki Oden, Kozuki Hiyori (Komurasaki), Kozuki Toki, Kozuki Sukiyaki (Tenguyama Hitetsu), Kin'emon, Izo, Raizo, Okiku, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Denjiro (Kyoshiro), Shinobu, Otama, Monkey D. Luffy, Trafalgar Law, Eustass Kid",
+        superSpecial: "Can choose to completely remove crew's Swap Captains effect, reduces all enemies' damage reduction (except Threshold Damage Reduction) effect by 50% (the effect increase/decrease only occurs 1 time), increases crew's multiplicative chain multiplier boost (except additive boosts) to 1.6x, changes [STR] characters to Super [STR], and changes [PSY] characters to Super [PSY]",
+        swap: "Completely removes character's Despair/Slot Bind, and applies -15% [STR] and [PSY] Resistance to all enemies for 1 turn<br><b>Captain Shift:</b> Can be used up to 2 times per adventure. If \"Yamato\" is Captain, switches to \"Momonosuke\" and can chose to swap bottom-right character with the Captain for 6 turns. If \"Momonosuke\" is bottom-right character, switches to \"Yamato\" and can chose to swap bottom-right character with the Captain for 6 turns. Reduces character's Special charge time by 3 turns, and further increases all enemies' increase damage taken effect by +0.3",
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire Potential 1: Critical Hit" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Sailor Despair" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Acquire Sailor Ability 2: Once per quest, if enemy activates DEF Up, reduces all enemies' DEF Up duration by 6 turns at start of crew's next turn (even if no turns are reduced, effect still counts as 1 time activated)" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Super Tandem Boost" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character",
+                    "Reduces Sailor Despair duration by 4 turns on this character",
+                    "Reduces Sailor Despair duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Kozuki Clan] [Land of Wano Arc] [Mythical Zoan-type] character performs Super Tandem",
+                "When a [Kozuki Clan] [Land of Wano Arc] [Mythical Zoan-type] character performs Super Tandem",
+                "When a [Kozuki Clan] [Land of Wano Arc] [Mythical Zoan-type] character performs Super Tandem",
+                "When a [Kozuki Clan] [Land of Wano Arc] [Mythical Zoan-type] character performs Super Tandem",
+                "When a [Kozuki Clan] [Land of Wano Arc] [Mythical Zoan-type] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Land of Wano Arc] [Mythical Zoan-type] characters by 1 and raises Boost Level of [Kozuki Clan] characters by 2 for 1 turn",
+                "Raises Boost Level of [Land of Wano Arc] [Mythical Zoan-type] characters by 1 and raises Boost Level of [Kozuki Clan] characters by 3 for 1 turn",
+                "Raises Boost Level of [Land of Wano Arc] [Mythical Zoan-type] characters by 2 and raises Boost Level of [Kozuki Clan] characters by 4 for 1 turn",
+                "Raises Boost Level of [Land of Wano Arc] [Mythical Zoan-type] characters by 3 and raises Boost Level of [Kozuki Clan] characters by 5 for 1 turn",
+                "Raises Boost Level of [Land of Wano Arc] [Mythical Zoan-type] characters by 4 and raises Boost Level of [Kozuki Clan] characters by 6 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 179,
+            spd: 182,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from Fighter and Slasher by 30%",
+        festAbility: [
+            "Slasher/Striker class teammates HP Up Lv.2, ATK Up Lv.2, RCV Up Lv.2; if 6 or more Slasher/Striker class characters are on the team, [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates SPD Up Lv.2, DEF Up Lv.2",
+            "Slasher/Striker class teammates HP Up Lv.3, ATK Up Lv.3, RCV Up Lv.3; if 6 or more Slasher/Striker class characters are on the team, [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates SPD Up Lv.3, DEF Up Lv.3",
+            "Slasher/Striker class teammates HP Up Lv.4, ATK Up Lv.4, RCV Up Lv.4; if 6 or more Slasher/Striker class characters are on the team, [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates SPD Up Lv.4, DEF Up Lv.4",
+            "Slasher/Striker class teammates HP Up Lv.5, ATK Up Lv.5, RCV Up Lv.5; if 6 or more Slasher/Striker class characters are on the team, [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates SPD Up Lv.5, DEF Up Lv.5",
+            "Slasher/Striker class teammates HP Up Lv.6, ATK Up Lv.6, RCV Up Lv.6; if 6 or more Slasher/Striker class characters are on the team, [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates SPD Up Lv.6, DEF Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for ATK x 1 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 2 times Lv.1 (11 s), Special CT 6% reduction 2 times; targets [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates for 70% chance to evade fixed damage (15 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for ATK x 1.2 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 2 times Lv.1 (12 s), Special CT 7% reduction 2 times; targets [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates for 73% chance to evade fixed damage (15 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for ATK x 1.4 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 2 times Lv.1 (13 s), Special CT 8% reduction 2 times; targets [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates for 76% chance to evade fixed damage (15 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for ATK x 1.6 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 2 times Lv.2 (14 s), Special CT 9% reduction 2 times; targets [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates for 79% chance to evade fixed damage (15 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for ATK x 1.8 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 2 times Lv.2 (15 s), Special CT 10% reduction 2 times; targets [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates for 82% chance to evade fixed damage (15 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for ATK x 2 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 2 times Lv.2 (16 s), Special CT 11% reduction 2 times; targets [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates for 85% chance to evade fixed damage (15 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for ATK x 2.2 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 2 times Lv.3 (17 s), Special CT 12% reduction 2 times; targets [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates for 88% chance to evade fixed damage (15 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for ATK x 2.4 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 2 times Lv.3 (18 s), Special CT 13% reduction 2 times; targets [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates for 91% chance to evade fixed damage (15 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for ATK x 2.6 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 2 times Lv.3 (19 s), Special CT 14% reduction 2 times; targets [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates for 94% chance to evade fixed damage (15 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for ATK x 3 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 2 times Lv.4 (20 s), Special CT 15% reduction 2 times; targets [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates for 100% chance to evade fixed damage (15 s)"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "After character receives Special CT delay 3 times",
+                description: "Targets enemies within large range for ATK x 4 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 3 times Lv.5 (20 s), Special CT 15% reduction 3 times; targets [Straw Hat Pirates] [Kozuki Clan] [Paramythia-type] [Mythical Zoan-type] [Ancient Zoan-type] teammates for 100% chance to evade fixed damage (20 s)"
+            },
+            llbbase: {
+                condition: "After character receives Special CT delay 1 time",
+                description: "Targets enemies within large range for ATK x 5 damage; targets (not including self) 3 teammates with low current Special CT for ATK Up 3 times Lv.6 (30 s), Special CT 25% reduction 3 times; targets team for 100% chance to evade fixed damage (30 s)"
+            }
+        }
+    },
+    4477: {//Kaido & Big Mom
+        captain: {
+            character1: "Launches the following effect at start of quest: \"Reduces Striker, Slasher, and Powerhouse characters' Special charge time by 2 turns, Switch Effect by 2, and activates HP Guard of 50% effect for 5 turns\", boosts Striker, Slasher, and Powerhouse characters' ATK by 5x, HP by 1.5x, and makes their [STR][QCK][RCV][SEMLA] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] characters are on the crew, boosts Striker, Slasher, and Powerhouse characters' ATK by a further 1.1x. If 5 or more [Animal Kingdom Pirates] [Big Mom Pirates] [Land of Wano Arc] [Mythical Zoan-type] characters are on the crew and crew launches Specials to change the slot multiplier, converts that effect to \"boosts Striker, Slasher, and Powerhouse characters' advantageous class effect by 1.75x for 1 turn\" regardless of the effective turns of the converted effect",
+            character2: "Launches the following effect at start of quest: \"If every type is on the crew, reduces Striker, Slasher, and Powerhouse characters' Special charge time by 5 turns, Switch Effect by 3, and activates HP Guard of 60% effect for 10 turns\", boosts Striker, Slasher, and Powerhouse characters' ATK by 5x, HP by 1.5x, and makes their [STR][QCK][RCV][SEMLA] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] characters are on the crew, boosts Striker, Slasher, and Powerhouse characters' ATK by a further 1.1x. If 5 or more [Animal Kingdom Pirates] [Big Mom Pirates] [Land of Wano Arc] [Mythical Zoan-type] characters are on the crew and crew launches Specials to change the slot multiplier, converts that effect to \"boosts Striker, Slasher, and Powerhouse characters' advantageous class effect by 1.75x for 1 turn\" regardless of the effective turns of the converted effect",
+            combined: "Boosts Striker, Slasher, and Powerhouse characters' ATK by 5x, HP by 1.5x, and makes their [STR][QCK][RCV][SEMLA] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] characters are on the crew, boosts Striker, Slasher, and Powerhouse characters' ATK by a further 1.1x. If 5 or more [Animal Kingdom Pirates] [Big Mom Pirates] [Land of Wano Arc] [Mythical Zoan-type] characters are on the crew and crew launches Specials to change the slot multiplier, converts that effect to \"boosts Striker, Slasher, and Powerhouse characters' advantageous class effect by 1.75x for 1 turn\" regardless of the effective turns of the converted effect, and further increases slot effect and type effect boosts that are launched by crew Specials by +0.3 (stackable with other further raising effects)"
+        },
+        special: "Reduces all enemies' Threshold Damage Reduction by 90% (the effect increase/decrease only occurs 1 time), reduces crew's Bind duration by 7 turns, and applies -20% Striker, Slasher, and Powerhouse Resistance to all enemies for 1 turn. If crew has base ATK boost when Special is launched, boosts damage dealt to damage taken increased enemies for by 2.5x 1 turn, then after that, boosts Striker, Slasher, and Powerhouse characters' base ATK by +1750 for 2 turns, and becomes \"Kaido & Big Mom\" for 3 turns. If 5 or more [Land of Wano Arc] [Animal Kingdom Pirates] [Big Mom Pirates] characters are on the crew, increases all enemies' damage taken by 2.25x for 1 turn ignoring immunity to status effects, and allows crew to perform Super Tandem with [WANO][SEMLA] slots for 1 turn",
+        specialName: "Synchronized Conquest of the Sea",
+        sailor: {
+            character1: "Boosts Striker, Powerhouse, and Slasher characters' base stats by 125",
+            character2: "Boosts Striker, Powerhouse, and Slasher characters' base stats by 125",
+            combined: "Boosts Striker, Powerhouse, and Slasher characters' base stats by 125",
+            level1: "Tapping on this character with a [WANO] slot will further increase crew's type effect boost by +0.2"
+        },
+        superSpecialCriteria: "When character becomes \"Kaido & Big Mom\" with Super Switch effect and any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)",
+        superSpecial: "Completely removes character's Despair, applies Weakened status (increase damage taken by 1.4x for all enemies, damage further increased by 1.1x if enemy has Increase Damage Taken) to all enemies for 1 turn, changes Striker characters to Super Striker, and changes Slasher characters to Super Slasher",
+        swap: {
+            base: "Applies -15% [STR] and [QCK] Resistance to all enemies for 1 turn, and changes character's slot to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies)",
+            super: "Applies -30% [STR] and [QCK] Resistance to all enemies for 1 turn, can choose to completely remove crew's Swap Captains effect, changes crew's slots to [WANO], and becomes \"Kaido & Big Mom\" for 3 turns",
+            superTurns: 8
+        },
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Acquire Potential 1: Critical Hit" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Special Use Limit" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Tapping on this character with a [WANO] slot will further increase crew's type effect boost by +0.2" },
+            { description: "Boosts base RCV by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Rush" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Special Use Limit",
+                description: [
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Rush",
+                description: [
+                    "Obtain Rush Lv.1",
+                    "Obtain Rush Lv.2",
+                    "Obtain Rush Lv.3",
+                    "Obtain Rush Lv.4",
+                    "Obtain Rush Lv.5"
+                ]
+            }
+        ],
+        rush: {
+            characterCondition: [
+                "At final battle, if character's slot is [WANO][SEMLA] and performs the 2nd tap of an attack as a Double Character, and any of the following characters are on the crew (except as Support Characters): King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)",
+                "At final battle, if character's slot is [WANO][SEMLA] and performs the 2nd tap of an attack as a Double Character, and any of the following characters are on the crew (except as Support Characters): King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)",
+                "At final battle, if character's slot is [WANO][SEMLA] and performs the 2nd tap of an attack as a Double Character, and any of the following characters are on the crew (except as Support Characters): King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)",
+                "At final battle, if character's slot is [WANO][SEMLA] and performs the 2nd tap of an attack as a Double Character, and any of the following characters are on the crew (except as Support Characters): King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)",
+                "At final battle, if character's slot is [WANO][SEMLA] and performs the 2nd tap of an attack as a Double Character, and any of the following characters are on the crew (except as Support Characters): King (Alber), Queen, Jack, Yamato, Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie, Charlotte Perospero, Streusen, Shiki, Miss Buckingham Stussy, Edward Newgate (Whitebeard)"
+            ],
+            description: [
+                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Striker, Powerhouse, and Slasher characters (up to +0.5 chain multiplier; Rush ATK boost 1.5x)",
+                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Striker, Powerhouse, and Slasher characters (up to +0.5 chain multiplier; Rush ATK boost 1.55x)",
+                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Striker, Powerhouse, and Slasher characters (up to +0.5 chain multiplier; Rush ATK boost 1.6x)",
+                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Striker, Powerhouse, and Slasher characters (up to +0.5 chain multiplier; Rush ATK boost 1.65x)",
+                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Striker, Powerhouse, and Slasher characters (up to +0.5 chain multiplier; Rush ATK boost 1.8x)"
+            ],
+            stats: [
+                "HP Cost: 30,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Striker, Powerhouse, and Slasher Rush ATK boost 1.1x\nEach successful chain adds +0.1 (up to 1.5)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
+                "HP Cost: 28,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Striker, Powerhouse, and Slasher Rush ATK boost 1.15x\nEach successful chain adds +0.1 (up to 1.55)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
+                "HP Cost: 26,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Striker, Powerhouse, and Slasher Rush ATK boost 1.2x\nEach successful chain adds +0.1 (up to 1.6)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
+                "HP Cost: 24,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Striker, Powerhouse, and Slasher Rush ATK boost 1.25x\nEach successful chain adds +0.1 (up to 1.65)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
+                "HP Cost: 20,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Striker, Powerhouse, and Slasher Rush ATK boost 1.4x\nEach successful chain adds +0.1 (up to 1.8)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8"
+            ]
+        },
+        festStats: {
+            def: 208,
+            spd: 185,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Confusion, reduce damage taken from Fighter and Slasher by 30%",
+        festAbility: [
+            "Slasher/Striker class teammates ATK Up Lv.1, RCV Up Lv.1, SPD Up Lv.1; if 6 or more Slasher/Striker class characters are on the team, self ATK Up Lv.1, DEF Up Lv.1; if 3 or more [Mythical Zoan-type] [Paramythia-type] [Animal Kingdom Pirates] [Big Mom Pirates] characters are on the team, when appearing on the field self Special CT 15% reduction; revives self up to 1 time at 25% HP",
+            "Slasher/Striker class teammates ATK Up Lv.2, RCV Up Lv.2, SPD Up Lv.2; if 6 or more Slasher/Striker class characters are on the team, self ATK Up Lv.2, DEF Up Lv.2; if 3 or more [Mythical Zoan-type] [Paramythia-type] [Animal Kingdom Pirates] [Big Mom Pirates] characters are on the team, when appearing on the field self Special CT 19% reduction; revives self up to 1 time at 30% HP",
+            "Slasher/Striker class teammates ATK Up Lv.3, RCV Up Lv.3, SPD Up Lv.3; if 6 or more Slasher/Striker class characters are on the team, self ATK Up Lv.3, DEF Up Lv.3; if 3 or more [Mythical Zoan-type] [Paramythia-type] [Animal Kingdom Pirates] [Big Mom Pirates] characters are on the team, when appearing on the field self Special CT 23% reduction; revives self up to 1 time at 35% HP",
+            "Slasher/Striker class teammates ATK Up Lv.4, RCV Up Lv.4, SPD Up Lv.4; if 6 or more Slasher/Striker class characters are on the team, self ATK Up Lv.4, DEF Up Lv.4; if 3 or more [Mythical Zoan-type] [Paramythia-type] [Animal Kingdom Pirates] [Big Mom Pirates] characters are on the team, when appearing on the field self Special CT 27% reduction; revives self up to 1 time at 40% HP",
+            "Slasher/Striker class teammates ATK Up Lv.5, RCV Up Lv.5, SPD Up Lv.5; if 6 or more Slasher/Striker class characters are on the team, self ATK Up Lv.5, DEF Up Lv.5; if 3 or more [Mythical Zoan-type] [Paramythia-type] [Animal Kingdom Pirates] [Big Mom Pirates] characters are on the team, when appearing on the field self Special CT 30% reduction; revives self up to 1 time at 50% HP"
+        ],
+        festSpecial: [
+            {
+                cooldown: 50,
+                description: "Targets Striker/Slasher class teammates for SPD Up Lv.1 (11 s); targets self for ATK Up Lv.3 (11 s); targets 3 enemies for 20% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 1 damage; if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 1 damage; when remaining HP is 50% or below, targets self for DEF Up Lv.3 (11 s); targets 2 enemies for 70% chance of Special Bind (10 s)"
+            },
+            {
+                cooldown: 50,
+                description: "Targets Striker/Slasher class teammates for SPD Up Lv.1 (12 s); targets self for ATK Up Lv.3 (12 s); targets 3 enemies for 23% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 1.2 damage; if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 1.35 damage; when remaining HP is 50% or below, targets self for DEF Up Lv.3 (12 s); targets 2 enemies for 73% chance of Special Bind (10 s)"
+            },
+            {
+                cooldown: 50,
+                description: "Targets Striker/Slasher class teammates for SPD Up Lv.2 (13 s); targets self for ATK Up Lv.4 (13 s); targets 3 enemies for 26% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 1.4 damage; if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 1.7 damage; when remaining HP is 50% or below, targets self for DEF Up Lv.4 (13 s); targets 2 enemies for 76% chance of Special Bind (10 s)"
+            },
+            {
+                cooldown: 50,
+                description: "Targets Striker/Slasher class teammates for SPD Up Lv.2 (14 s); targets self for ATK Up Lv.4 (14 s); targets 3 enemies for 29% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 1.6 damage; if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 2.05 damage; when remaining HP is 50% or below, targets self for DEF Up Lv.4 (14 s); targets 2 enemies for 79% chance of Special Bind (10 s)"
+            },
+            {
+                cooldown: 50,
+                description: "Targets Striker/Slasher class teammates for SPD Up Lv.3 (15 s); targets self for ATK Up Lv.5 (15 s); targets 3 enemies for 32% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 1.8 damage; if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 2.4 damage; when remaining HP is 50% or below, targets self for DEF Up Lv.5 (15 s); targets 2 enemies for 82% chance of Special Bind (10 s)"
+            },
+            {
+                cooldown: 50,
+                description: "Targets Striker/Slasher class teammates for SPD Up Lv.3 (16 s); targets self for ATK Up Lv.5 (16 s); targets 3 enemies for 35% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 2 damage; if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 2.75 damage; when remaining HP is 50% or below, targets self for DEF Up Lv.5 (16 s); targets 2 enemies for 85% chance of Special Bind (10 s)"
+            },
+            {
+                cooldown: 50,
+                description: "Targets Striker/Slasher class teammates for SPD Up Lv.4 (17 s); targets self for ATK Up Lv.6 (17 s); targets 3 enemies for 38% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 2.2 damage; if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 3.1 damage; when remaining HP is 50% or below, targets self for DEF Up Lv.6 (17 s); targets 2 enemies for 88% chance of Special Bind (10 s)"
+            },
+            {
+                cooldown: 50,
+                description: "Targets Striker/Slasher class teammates for SPD Up Lv.4 (18 s); targets self for ATK Up Lv.6 (18 s); targets 3 enemies for 41% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 2.4 damage; if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 3.45 damage; when remaining HP is 50% or below, targets self for DEF Up Lv.6 (18 s); targets 2 enemies for 91% chance of Special Bind (10 s)"
+            },
+            {
+                cooldown: 50,
+                description: "Targets Striker/Slasher class teammates for SPD Up Lv.5 (19 s); targets self for ATK Up Lv.7 (19 s); targets 3 enemies for 44% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 2.6 damage; if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 3.8 damage; when remaining HP is 50% or below, targets self for DEF Up Lv.7 (19 s); targets 2 enemies for 94% chance of Special Bind (10 s)"
+            },
+            {
+                cooldown: 50,
+                description: "Targets Striker/Slasher class teammates for SPD Up Lv.6 (20 s); targets self for ATK Up Lv.8 (20 s); targets 3 enemies for 50% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 3 damage; if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 4 damage; when remaining HP is 50% or below, targets self for DEF Up Lv.8 (20 s); targets 2 enemies for 100% chance of Special Bind (10 s)"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "After character receives damage 8 times",
+                description: "Striker/Slasher class teammates for SPD Up Lv.8 (30 s), ATK Up Lv.9 (30 s), DEF Up Lv.9 (30 s); targets 3 enemies for 70% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 3.5 damage; targets 2 enemies for 100% chance of Special Bind (10 s); if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 4.5 damage"
+            },
+            llbbase: {
+                condition: "After character receives damage 8 times",
+                description: "Striker/Slasher class teammates for SPD Up Lv.10 (40 s), ATK Up Lv.10 (40 s), DEF Up Lv.10 (40 s); targets 3 enemies for 100% chance of Halve Stats (15 s); targets 3 low DEF enemies for ATK x 4 damage; targets all enemies for 100% chance of Special Bind (10 s); if 6 or more Striker/Slasher class characters are on the team, targets all enemies for ATK x 5 damage"
+            }
+        }
+    },
+    4478: {//King
+        captain: "Boosts crew's HP by 1.35x, boosts Slasher and Powerhouse characters' ATK by 3.5x, completely removes character's Bind / Despair / Paralysis / Special Bind / Special Reverse, and boosts crew's ATK by a further 1.5x if character became Captain during the quest (in addition to the 3.5x boost)",
+        special: "Reduces crew's Special charge time by 2 turns, reduces all enemies' Resilience duration by 6 turns, boosts Slasher and Powerhouse characters' slot effect by 2.25x for 1 turn, and boosts Slasher and Powerhouse characters' base ATK by +1000 for 1 turn. If 5 or more [Land of Wano Arc] [Animal Kingdom Pirates] characters are on the crew and crew is inflicted with other slot effect or base ATK boosts, overwrites this Special's slot effect and base ATK boosts with that effect, and boosts the chain multiplier by 1.25x for 1 turn",
+        specialName: "Imperial Deep Pride Stake",
+        sailor: {
+            base: "Makes character immune to Special Reverse/Special Bind",
+            level1: "Boosts Slasher and Powerhouse characters' base stats by 60, and lets character completely evade Paralysis"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Animal Kingdom Pirates]",
+                description: [
+                    "Once per quest, if supported character uses a Special, boosts Slasher characters' base ATK by +100 for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts Slasher characters' base ATK by +200 for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts Slasher characters' base ATK by +350 for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts Slasher characters' base ATK by +500 for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts Slasher characters' base ATK by +500 for 1 turn (effect can be overwritten with other base ATK boost effects)"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire Potential 1: Critical Hit" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire Sailor Ability 2: Boosts Slasher and Powerhouse characters' base stats by 60, and lets character completely evade Paralysis" },
+            { description: "Boosts base HP by 80" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Sailor Despair" },
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character"
+                ]
+            }
+        ],
+        festStats: {
+            def: 311,
+            spd: 118,
+            style: "DEF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Heal Self Lv.2"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Damage Over Time, reduce damage taken from Fighter by 20%",
+        festAbility: [
+            "Slasher class teammates ATK Up Lv.2, DEF Up Lv.1; if 3 or more [Land of Wano Arc] characters are on the team, all enemies DEF Down Lv.1; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
+            "Slasher class teammates ATK Up Lv.3, DEF Up Lv.1; if 3 or more [Land of Wano Arc] characters are on the team, all enemies DEF Down Lv.1; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
+            "Slasher class teammates ATK Up Lv.4, DEF Up Lv.2; if 3 or more [Land of Wano Arc] characters are on the team, all enemies DEF Down Lv.2; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4",
+            "Slasher class teammates ATK Up Lv.5, DEF Up Lv.2; if 3 or more [Land of Wano Arc] characters are on the team, all enemies DEF Down Lv.3; during Assault Rumble, self HP Up Lv.9, Special CT Speed Up Lv.5",
+            "Slasher class teammates ATK Up Lv.6, DEF Up Lv.3; if 3 or more [Land of Wano Arc] characters are on the team, all enemies DEF Down Lv.4; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 32,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.3 (11 s); targets Slasher teammates for DEF Up Lv.1 (11 s); if 3 or more [Land of Wano Arc] characters are on the team, targets Slasher class teammate for 70% chance to evade percent damage (20 s); during Assault Rumble, targets 3 Fighter class enemies for ATK x 1 damage; targets [Land of Wano Arc] teammates for 250 HP per interval healing (20 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.3 (12 s); targets Slasher teammates for DEF Up Lv.1 (12 s); if 3 or more [Land of Wano Arc] characters are on the team, targets Slasher class teammate for 73% chance to evade percent damage (20 s); during Assault Rumble, targets 3 Fighter class enemies for ATK x 1.35 damage; targets [Land of Wano Arc] teammates for 275 HP per interval healing (20 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.4 (13 s); targets Slasher teammates for DEF Up Lv.2 (13 s); if 3 or more [Land of Wano Arc] characters are on the team, targets Slasher class teammate for 76% chance to evade percent damage (20 s); during Assault Rumble, targets 3 Fighter class enemies for ATK x 1.7 damage; targets [Land of Wano Arc] teammates for 300 HP per interval healing (20 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.4 (14 s); targets Slasher teammates for DEF Up Lv.2 (14 s); if 3 or more [Land of Wano Arc] characters are on the team, targets Slasher class teammate for 79% chance to evade percent damage (20 s); during Assault Rumble, targets 3 Fighter class enemies for ATK x 2.05 damage; targets [Land of Wano Arc] teammates for 325 HP per interval healing (20 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.5 (15 s); targets Slasher teammates for DEF Up Lv.3 (15 s); if 3 or more [Land of Wano Arc] characters are on the team, targets Slasher class teammate for 82% chance to evade percent damage (20 s); during Assault Rumble, targets 3 Fighter class enemies for ATK x 2.4 damage; targets [Land of Wano Arc] teammates for 350 HP per interval healing (20 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.5 (16 s); targets Slasher teammates for DEF Up Lv.3 (16 s); if 3 or more [Land of Wano Arc] characters are on the team, targets Slasher class teammate for 85% chance to evade percent damage (20 s); during Assault Rumble, targets 3 Fighter class enemies for ATK x 2.75 damage; targets [Land of Wano Arc] teammates for 375 HP per interval healing (20 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.6 (17 s); targets Slasher teammates for DEF Up Lv.4 (17 s); if 3 or more [Land of Wano Arc] characters are on the team, targets Slasher class teammate for 88% chance to evade percent damage (20 s); during Assault Rumble, targets 3 Fighter class enemies for ATK x 3.1 damage; targets [Land of Wano Arc] teammates for 400 HP per interval healing (20 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.6 (18 s); targets Slasher teammates for DEF Up Lv.4 (18 s); if 3 or more [Land of Wano Arc] characters are on the team, targets Slasher class teammate for 91% chance to evade percent damage (20 s); during Assault Rumble, targets 3 Fighter class enemies for ATK x 3.45 damage; targets [Land of Wano Arc] teammates for 425 HP per interval healing (20 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.7 (19 s); targets Slasher teammates for DEF Up Lv.5 (19 s); if 3 or more [Land of Wano Arc] characters are on the team, targets Slasher class teammate for 94% chance to evade percent damage (20 s); during Assault Rumble, targets 3 Fighter class enemies for ATK x 3.8 damage; targets [Land of Wano Arc] teammates for 450 HP per interval healing (20 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.8 (20 s); targets Slasher teammates for DEF Up Lv.6 (20 s); if 3 or more [Land of Wano Arc] characters are on the team, targets Slasher class teammate for 100% chance to evade percent damage (20 s); during Assault Rumble, targets 3 Fighter class enemies for ATK x 4 damage; targets [Land of Wano Arc] teammates for 500 HP per interval healing (20 s)"
+            }
+        ]
+    },
+    4479: {//Perospero
+        captain: "Launches the following effect at start of quest: \"Locks crew's slots for 5 turns\", boosts crew's HP by 1.35x, boosts Striker and Powerhouse characters' ATK by 4x, and reduces damage taken by 10%",
+        special: "Reduces crew's Slot Bind duration by 3 turns, changes character's slot to [TND], prevents character's slot from being changed until character lands a GREAT strike, locks crew's slots for 2 turns, and boosts Striker and Powerhouse characters' ATK based on the number of status effects applied on enemy when Special is launched (1.75x for 0-5 effects, 2.25x for 6-7 effects, and 2.75x and changes the ATK multiplier of [SEMLA] slots to 2.5x when slots match (normally 2x when matching), 0.5x when unfavorable, 1.0x otherwise for 1 turn for 8 effects or more) for 1 turn. If 5 or more [Land of Wano Arc] [Big Mom Pirates] characters are on the crew, applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, Striker and Powerhouse characters will deal 1.5x damage, and their Special charge time will be reduced by 1 turn for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))",
+        specialName: "Brandished Right Arm Before His Adversaries",
+        sailor: {
+            base: "Makes Striker and Powerhouse characters' [DEX][SEMLA] slots have matching slot effects",
+            level1: "Makes Striker and Powerhouse characters' [INT][BOMB][S. BOMB] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Big Mom Pirates]",
+                description: [
+                    "Once per quest, if supported character uses a Special, boosts Striker characters' base ATK by +100 for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts Striker characters' base ATK by +200 for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts Striker characters' base ATK by +350 for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts Striker characters' base ATK by +500 for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts Striker characters' base ATK by +500 for 1 turn (effect can be overwritten with other base ATK boost effects)"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Acquire Potential 1: Slot Bind" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Makes Striker and Powerhouse characters' [INT][BOMB][S. BOMB] slots have matching slot effects" },
+            { description: "Boosts base HP by 60" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Super Tandem" },
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "When any of the following characters are on the crew (except as Support Characters): Charlotte Linlin (Big Mom), Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie",
+                "When any of the following characters are on the crew (except as Support Characters): Charlotte Linlin (Big Mom), Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie",
+                "When any of the following characters are on the crew (except as Support Characters): Charlotte Linlin (Big Mom), Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie",
+                "When any of the following characters are on the crew (except as Support Characters): Charlotte Linlin (Big Mom), Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie",
+                "When any of the following characters are on the crew (except as Support Characters): Charlotte Linlin (Big Mom), Charlotte Katakuri, Charlotte Cracker, Charlotte Smoothie"
+            ],
+            description: [
+                "Halves all enemies' DEF for 1 turn, and applies ATK Boost (Tandem) of 1.1x to [Big Mom Pirates] [Land of Wano Arc] characters for 1 turn",
+                "Halves all enemies' DEF for 1 turn, and applies ATK Boost (Tandem) of 1.2x to [Big Mom Pirates] [Land of Wano Arc] characters for 1 turn",
+                "Halves all enemies' DEF for 1 turn, and applies ATK Boost (Tandem) of 1.3x to [Big Mom Pirates] [Land of Wano Arc] characters for 1 turn",
+                "Halves all enemies' DEF for 1 turn, and applies ATK Boost (Tandem) of 1.4x to [Big Mom Pirates] [Land of Wano Arc] characters for 1 turn",
+                "Halves all enemies' DEF for 2 turns, and applies ATK Boost (Tandem) of 1.5x to [Big Mom Pirates] [Land of Wano Arc] characters for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 165,
+            spd: 143,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from Slasher by 20%",
+        festAbility: [
+            "Striker class teammates HP Up Lv.2, SPD Up Lv.2; if 3 or more [Land of Wano Arc] characters are on the team, Slasher class enemies ATK Down Lv.3; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
+            "Striker class teammates HP Up Lv.3, SPD Up Lv.3; if 3 or more [Land of Wano Arc] characters are on the team, Slasher class enemies ATK Down Lv.4; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
+            "Striker class teammates HP Up Lv.4, SPD Up Lv.4; if 3 or more [Land of Wano Arc] characters are on the team, Slasher class enemies ATK Down Lv.5; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4",
+            "Striker class teammates HP Up Lv.5, SPD Up Lv.5; if 3 or more [Land of Wano Arc] characters are on the team, Slasher class enemies ATK Down Lv.6; during Assault Rumble, self HP Up Lv.9, Special CT Speed Up Lv.5",
+            "Striker class teammates HP Up Lv.6, SPD Up Lv.6; if 3 or more [Land of Wano Arc] characters are on the team, Slasher class enemies ATK Down Lv.7; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 30,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for SPD Up Lv.3 (11 s); targets Striker teammates for DEF Up Lv.1 (11 s); if 3 or more [Land of Wano Arc] characters are on the team, targets 1 Slasher class enemy for Special CT 20% delay, 70% chance of Halve DEF (11 s); during Assault Rumble, Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.1 (11 s); targets 1 Slasher class enemy for DEF Down Lv.6 (11 s), ATK x 1 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for SPD Up Lv.3 (12 s); targets Striker teammates for DEF Up Lv.1 (12 s); if 3 or more [Land of Wano Arc] characters are on the team, targets 1 Slasher class enemy for Special CT 23% delay, 73% chance of Halve DEF (12 s); during Assault Rumble, Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.1 (12 s); targets 1 Slasher class enemy for DEF Down Lv.7 (12 s), ATK x 1.2 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for SPD Up Lv.4 (13 s); targets Striker teammates for DEF Up Lv.2 (13 s); if 3 or more [Land of Wano Arc] characters are on the team, targets 1 Slasher class enemy for Special CT 26% delay, 76% chance of Halve DEF (13 s); during Assault Rumble, Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.2 (13 s); targets 1 Slasher class enemy for DEF Down Lv.8 (13 s), ATK x 1.4 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for SPD Up Lv.4 (14 s); targets Striker teammates for DEF Up Lv.2 (14 s); if 3 or more [Land of Wano Arc] characters are on the team, targets 1 Slasher class enemy for Special CT 29% delay, 79% chance of Halve DEF (14 s); during Assault Rumble, Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.2 (14 s); targets 1 Slasher class enemy for DEF Down Lv.9 (14 s), ATK x 1.6 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for SPD Up Lv.5 (15 s); targets Striker teammates for DEF Up Lv.3 (15 s); if 3 or more [Land of Wano Arc] characters are on the team, targets 1 Slasher class enemy for Special CT 32% delay, 82% chance of Halve DEF (15 s); during Assault Rumble, Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.3 (15 s); targets 1 Slasher class enemy for DEF Down Lv.10 (15 s), ATK x 1.8 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for SPD Up Lv.5 (16 s); targets Striker teammates for DEF Up Lv.3 (16 s); if 3 or more [Land of Wano Arc] characters are on the team, targets 1 Slasher class enemy for Special CT 35% delay, 85% chance of Halve DEF (16 s); during Assault Rumble, Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.3 (16 s); targets 1 Slasher class enemy for DEF Down Lv.11 (16 s), ATK x 2 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for SPD Up Lv.6 (17 s); targets Striker teammates for DEF Up Lv.4 (17 s); if 3 or more [Land of Wano Arc] characters are on the team, targets 1 Slasher class enemy for Special CT 38% delay, 88% chance of Halve DEF (17 s); during Assault Rumble, Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.4 (17 s); targets 1 Slasher class enemy for DEF Down Lv.12 (17 s), ATK x 2.2 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for SPD Up Lv.6 (18 s); targets Striker teammates for DEF Up Lv.4 (18 s); if 3 or more [Land of Wano Arc] characters are on the team, targets 1 Slasher class enemy for Special CT 41% delay, 91% chance of Halve DEF (18 s); during Assault Rumble, Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.4 (18 s); targets 1 Slasher class enemy for DEF Down Lv.13 (18 s), ATK x 2.4 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for SPD Up Lv.7 (19 s); targets Striker teammates for DEF Up Lv.5 (19 s); if 3 or more [Land of Wano Arc] characters are on the team, targets 1 Slasher class enemy for Special CT 44% delay, 94% chance of Halve DEF (19 s); during Assault Rumble, Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.5 (19 s); targets 1 Slasher class enemy for DEF Down Lv.14 (19 s), ATK x 2.6 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for SPD Up Lv.8 (20 s); targets Striker teammates for DEF Up Lv.6 (20 s); if 3 or more [Land of Wano Arc] characters are on the team, targets 1 Slasher class enemy for Special CT 50% delay, 100% chance of Halve DEF (20 s); during Assault Rumble, Targets [Animal Kingdom Pirates] [Big Mom Pirates] teammates for ATK Up Lv.6 (20 s); targets 1 Slasher class enemy for DEF Down Lv.15 (20 s), ATK x 3 damage"
+            }
+        ]
+    },
+    4480: {//5* PKA Kid
+        captain: "Reduces [STR], Striker, and Slasher characters' Special charge time by 1 turn, boosts their ATK by approximately 4x when slots match and approximately 5x when they have [EMPTY] slots (3.75x otherwise), makes their [BOMB][S. BOMB] slots have matching slot effects, and reduces [BOMB][S. BOMB] damage by 80% [Applies following effect based on number of applicable Character Tags on crew] Boosts [Kid Pirates] [Worst Generation] characters' base ATK by +1000",
+        special: "Removes crew's type slots, deals [STR] damage to one enemy based on the number of type slots removed (0-6), reduces the duration of all enemy barriers by 2 turns, reduces crew's ATK Down duration by 6 turns, and boosts crew's damage dealt when landing a Critical hit by 60% (effect applies only to characters with Critical ATK Potential Ability) for 1 turn",
+        specialName: "Punk Clash",
+        sailor: {
+            base: "Makes crew's [BOMB][S. BOMB] slots have matching slot effects",
+            level1: "Reduces cerw's ATK Down duration by 1 turn"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Kid Pirates]",
+                description: [
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB] and reduces the duration of all enemy barriers by 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire Potential 1: Pinch Healing" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Damage Limit Break: Class" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Acquire Potential 3: Critical Hit" },
+            { description: "Boosts base HP by 300" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Acquire Sailor Ability 2: Reduces cerw's ATK Down duration by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ],
+        festStats: {
+            def: 153,
+            spd: 173,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "60% chance to evade Special Bind",
+        festAbility: [
+            "Striker/Slasher class teammates ATK Up Lv.1, RCV Up Lv.1; [Four Emperors] enemies DEF Down Lv.1",
+            "Striker/Slasher class teammates ATK Up Lv.2, RCV Up Lv.2; [Four Emperors] enemies DEF Down Lv.1",
+            "Striker/Slasher class teammates ATK Up Lv.3, RCV Up Lv.3; [Four Emperors] enemies DEF Down Lv.1",
+            "Striker/Slasher class teammates ATK Up Lv.4, RCV Up Lv.4; [Four Emperors] enemies DEF Down Lv.1",
+            "Striker/Slasher class teammates ATK Up Lv.5, RCV Up Lv.5; [Four Emperors] enemies DEF Down Lv.2"
+        ],
+        festSpecial: [
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.1 (11 s); targets enemies within large range (horizontal) for ATK x 1 damage; targets [Four Emperors] enemies for ATK x 1 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.1 (12 s); targets enemies within large range (horizontal) for ATK x 1.1 damage; targets [Four Emperors] enemies for ATK x 1.2 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.1 (13 s); targets enemies within large range (horizontal) for ATK x 1.2 damage; targets [Four Emperors] enemies for ATK x 1.4 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.1 (14 s); targets enemies within large range (horizontal) for ATK x 1.3 damage; targets [Four Emperors] enemies for ATK x 1.6 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.1 (15 s); targets enemies within large range (horizontal) for ATK x 1.4 damage; targets [Four Emperors] enemies for ATK x 1.8 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.2 (16 s); targets enemies within large range (horizontal) for ATK x 1.5 damage; targets [Four Emperors] enemies for ATK x 2 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.2 (17 s); targets enemies within large range (horizontal) for ATK x 1.6 damage; targets [Four Emperors] enemies for ATK x 2.2 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.2 (18 s); targets enemies within large range (horizontal) for ATK x 1.7 damage; targets [Four Emperors] enemies for ATK x 2.4 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.2 (19 s); targets enemies within large range (horizontal) for ATK x 1.8 damage; targets [Four Emperors] enemies for ATK x 2.6 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.3 (20 s); targets enemies within large range (horizontal) for ATK x 2 damage; targets [Four Emperors] enemies for ATK x 3 damage"
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
@@ -177370,4 +178143,6 @@ if (UnitUtils){
     UnitUtils.extendDouble(calcGhostStartID, 4458, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4469, "vs");
     UnitUtils.extendDouble(calcGhostStartID, 4475, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4476, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4477, "dual");
 }
