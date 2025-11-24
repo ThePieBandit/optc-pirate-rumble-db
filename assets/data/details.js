@@ -144674,8 +144674,8 @@ window.details = {
             }
         ]
     },
-    4065: {
-        captain: "Reduces Special Cooldown of Slasher characters by 1 turn at the start of the fight, boosts RCV of Slasher characters by 1.25x, boosts ATK of Slasher characters by 3x and makes [RCV] orbs beneficial for Slasher characters",
+    4065: {//Toki
+        captain: "Reduces Special Cooldown of Slasher characters by 1 turn at the start of the fight, boosts ATK of Slasher characters by 3x, boosts RCV of Slasher characters by 1.25x, and makes [RCV] orbs beneficial for Slasher characters.",
         limit: [
             { description: "Boosts base RCV by 10" },
             { description: "Boosts base ATK by 20" },
@@ -144716,20 +144716,20 @@ window.details = {
             }
         ],
         sailor: {
-            base: "Reduces Special Bind duration by 6 turns on this character",
+            base: "Reduces Special Bind duration by 6 turns on this character.",
             level1: "If this character has a [STR] or [QCK] orb and you attack with this character, increases enemies' Slasher Resistance by +50% for 1 turn. If this character has a [TND] or [WANO] orb and you attack with this character, reduces enemies' Slasher Resistance by -15% for 1 turn."
         },
-        special: "Reduces Special Bind/Bind duration by 6 turns, and if Captain is a Slasher class and crew lands 3 PERFECT strikes in this turn, reduces enemies' Slasher Resistance by -15% for 1 turn in the following turn, and after 1 turn, reduces enemies' Slasher Resistance by -15% for 1 turn",
+        special: "Reduces Special Bind and Bind duration by 6 turns. If your Captain is a Slasher character, after 1 turn, reduces enemies' Slasher Resistance by -15% for 1 turn; and if during that turn you score 3 PERFECT hits, reduces enemies' Slasher Resistance by -15% for 1 turn in the following turn.",
         specialName: "Steadfast Gaze",
         support: [
             {
                 Characters: "Kozuki Momonosuke, Kozuki Hiyori (Komurasaki), Kozuki Oden",
                 description: [
-                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.1x until the next stage",
-                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.1x until the next stage",
-                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.2x until the next stage",
-                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.2x until the next stage",
-                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.3x until the next stage"
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.1x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.1x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.2x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.2x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.3x until the next stage."
                 ]
             }
         ]
