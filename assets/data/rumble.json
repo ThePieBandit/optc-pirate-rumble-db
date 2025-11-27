@@ -432993,6 +432993,360 @@
       "cost": 20
     },
     {
+      "id": 4482,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["HP", "SPD", "DEF"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["[DEX]", "Cerebral"]}
+            },
+            {
+              "amount": 60,
+              "effect": "recharge",
+              "type": "Special CT",
+              "onArrival": true,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 3, "targets": ["[Scientist]", "[Logia-type]", "[Zoan-type]"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "debuff",
+              "level": 1,
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 3, "targets": ["[Scientist]", "[Logia-type]", "[Zoan-type]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"amount": 70}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"amount": 80}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"amount": 90}
+            },
+            {
+              "override": {"level": 4}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"amount": 100}
+            },
+            {
+              "override": {"level": 5}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "attributes": ["ATK", "SPD"],
+              "effect": "debuff",
+              "level": 1,
+              "duration": 73,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "debuff",
+              "level": 1,
+              "duration": 73,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "debuff",
+              "level": 1,
+              "duration": 73,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"}
+            },
+            {
+              "level": 1,
+              "duration": 73,
+              "effect": "damage",
+              "type": "time",
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "crew", "composition": true, "count": 3, "comparator": "more", "targets": ["[Scientist]", "[Logia-type]", "[Zoan-type]"]}
+            },
+            {
+              "attributes": ["Damage Over Time"],
+              "effect": "evade",
+              "chance": 70,
+              "duration": 11,
+              "targeting": {"targets": ["[DEX]", "Cerebral"]},
+              "condition": {"type": "crew", "composition": true, "count": 3, "comparator": "more", "targets": ["[Scientist]", "[Logia-type]", "[Zoan-type]"]}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"duration": 76}
+            },
+            {
+              "override": {"duration": 76}
+            },
+            {
+              "override": {"duration": 76}
+            },
+            {
+              "override": {"duration": 76}
+            },
+            {
+              "override": {"chance": 73, "duration": 12}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"duration": 79}
+            },
+            {
+              "override": {"duration": 79}
+            },
+            {
+              "override": {"duration": 79}
+            },
+            {
+              "override": {"duration": 79}
+            },
+            {
+              "override": {"chance": 76, "duration": 13}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 82}
+            },
+            {
+              "override": {"level": 2, "duration": 82}
+            },
+            {
+              "override": {"duration": 82}
+            },
+            {
+              "override": {"duration": 82}
+            },
+            {
+              "override": {"chance": 79, "duration": 14}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 85}
+            },
+            {
+              "override": {"level": 2, "duration": 85}
+            },
+            {
+              "override": {"duration": 85}
+            },
+            {
+              "override": {"duration": 85}
+            },
+            {
+              "override": {"chance": 82, "duration": 15}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 88}
+            },
+            {
+              "override": {"level": 2, "duration": 88}
+            },
+            {
+              "override": {"level": 2, "duration": 88}
+            },
+            {
+              "override": {"level": 2, "duration": 88}
+            },
+            {
+              "override": {"chance": 85, "duration": 16}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 91}
+            },
+            {
+              "override": {"level": 3, "duration": 91}
+            },
+            {
+              "override": {"level": 2, "duration": 91}
+            },
+            {
+              "override": {"level": 2, "duration": 91}
+            },
+            {
+              "override": {"chance": 88, "duration": 17}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 94}
+            },
+            {
+              "override": {"level": 3, "duration": 94}
+            },
+            {
+              "override": {"level": 2, "duration": 94}
+            },
+            {
+              "override": {"level": 2, "duration": 94}
+            },
+            {
+              "override": {"chance": 91, "duration": 18}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 97}
+            },
+            {
+              "override": {"level": 3, "duration": 97}
+            },
+            {
+              "override": {"level": 2, "duration": 97}
+            },
+            {
+              "override": {"level": 2, "duration": 97}
+            },
+            {
+              "override": {"chance": 94, "duration": 19}
+            }
+          ]
+        },
+        {
+          "cooldown": 25,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 100}
+            },
+            {
+              "override": {"level": 4, "duration": 100}
+            },
+            {
+              "override": {"level": 3, "duration": 100}
+            },
+            {
+              "override": {"level": 3, "duration": 100}
+            },
+            {
+              "override": {"chance": 100, "duration": 20}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Action Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[QCK]",
+          "percentage": 30,
+          "type": "damage"
+        },
+        {
+          "attribute": "[QCK]",
+          "amount": 1.3,
+          "type": "dmgboost"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "level": 2,
+          "area": "Self",
+          "action": "heal"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "DBF",
+        "def": 191,
+        "spd": 147
+      },
+      "cost": 20
+    },
+    {
       "id": 4986,
       "basedOn": 4987
     },

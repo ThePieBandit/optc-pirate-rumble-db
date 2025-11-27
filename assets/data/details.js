@@ -177409,6 +177409,101 @@ window.details = {
             }
         ]
     },
+    4482: {//Caesar
+        captain: "Boosts Cerebral and Driven characters' ATK by 5x, boosts their damage dealt to enemies inflicted with Ignited, Paralysis, or any type of Poison by 1.25x, boosts crew's HP and RCV by 1.3x, makes crew's [QCK][TND] slots have matching slot effects, allows crew's Poison status applying effects to ignore immunity to all status effects, and allows healing up to 2x crew's max HP ignoring max HP limit (effect cannot stack; if HP is above max limit, it is treated as being full HP)",
+        special: "If 3 or more [Scientist] characters are on the crew, allows crew to stack up to 2 different damage boosting effects (cannot stack the damage boost of the same type) for 1 turn. If crew is inflicted with Poison or progressive Poison, applies progressive Poison to all enemies (minimum 50x character's ATK; gradually strengthens over time to a max of 3,000,000 damage), boosts damage dealt to enemies inflicted with progressive Poison by 2.75x for 1 turn, and completely removes all Poison effects. If crew is inflicted with Paralysis, applies Paralysis (50% chance not to reduce action turns) to all enemies for 1 turn (ignoring immunity to all status effects or immunity excluding certain status effect), boosts damage dealt to enemies inflicted with Paralysis by 2.75x for 1 turn, and reduces crew's Paralysis duration by 10 turns. If crew is inflicted with Burn, applies Ignited status to all enemies (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action) for 1 turn (ignoring immunity to all status effects or immunity excluding certain status effect), boosts damage dealt to enemies inflicted with Ignited by 2.75x for 1 turn, and reduces crew's Burn duration by 10 turns",
+        specialName: "Science Power of Land of the Dead",
+        sailor: {
+            base: "Boosts Cerebral and Driven characters' base stats by 50",
+            level1: "Makes Cerebral and Driven characters' [DEX] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "Cerebral characters",
+                description: [
+                    "Once per quest, if supported character uses a Special to inflict Poison on the enemy, reduces supported character's Special charge time by 1 turn",
+                    "Once per quest, if supported character uses a Special to inflict Poison or Venom on the enemy, reduces supported character's Special charge time by 1 turn",
+                    "Once per quest, if supported character uses a Special to inflict Poison, Venom, or progressive Poison on the enemy, reduces supported character's Special charge time by 1 turn",
+                    "Once per quest, if supported character uses a Special to inflict any type of Poison on the enemy, reduces supported character's Special charge time by 1 turn",
+                    "Once per quest, if supported character uses a Special to inflict any type of Poison on the enemy, reduces supported character's Special charge time by 1 turn and reduces all Poison duration by 2 turns"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 40" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Special Use Limit" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 70" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 100" },
+            { description: "Acquire Sailor Ability 2: Makes Cerebral and Driven characters' [DEX] slots have matching slot effects" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Potential 3: Ship Bind" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 200" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base RCV by 50" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 225 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Special Use Limit",
+                description: [
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Ship Bind",
+                description: [
+                    "Reduces Ship Bind duration by 1 turn",
+                    "Reduces Ship Bind duration by 2 turns",
+                    "Reduces Ship Bind duration by 3 turns",
+                    "Reduces Ship Bind duration by 4 turns",
+                    "Reduces Ship Bind duration by 5 turns"
+                ]
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
