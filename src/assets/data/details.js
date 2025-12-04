@@ -177409,6 +177409,148 @@ window.details = {
             }
         ]
     },
+    4481: {//5+ PKA Kid
+        captain: "Reduces [STR], Striker, and Slasher characters' Special charge time by 1 turn, boosts their ATK by 4.5x when slots match and 5.25x when they have [EMPTY] slots (4x otherwise), makes their [BOMB][S. BOMB] slots have matching slot effects, and reduces [BOMB][S. BOMB] damage by 80% [Applies following effect based on number of applicable Character Tags on crew] Boosts [Kid Pirates] [Worst Generation] characters' base ATK by +1000",
+        special: "Removes crew's type slots, deals [STR] damage to one enemy based on the number of type slots removed (0-6), reduces the duration of all enemy barriers by 3 turns, reduces crew's ATK Down duration by 6 turns, and boosts crew's damage dealt when landing a Critical hit by 60% (effect applies only to characters with Critical ATK Potential Ability) for 1 turn. If 5 or more [Land of Wano Arc] [Paramythia-type] [Kid Pirates] characters are on the crew, Binds character for 10 turns, but applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, crew will deal 1.75x damage, and their Special charge time will be reduced by 1 turn for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))",
+        specialName: "Punk Clash",
+        sailor: {
+            base: "Makes crew's [BOMB][S. BOMB] slots have matching slot effects",
+            level1: "Reduces cerw's ATK Down duration by 1 turn"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Kid Pirates]",
+                description: [
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB] and reduces the duration of all enemy barriers by 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire Potential 1: Pinch Healing" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Damage Limit Break: Class" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Acquire Potential 3: Critical Hit" },
+            { description: "Boosts base HP by 300" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Acquire Sailor Ability 2: Reduces cerw's ATK Down duration by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ],
+        festStats: {
+            def: 178,
+            spd: 178,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "80% chance to evade Special Bind, reduce damage taken from [DEX] by 20%",
+        festAbility: [
+            "Striker/Slasher class teammates ATK Up Lv.1, RCV Up Lv.1, SPD Up Lv.1; [Four Emperors] enemies DEF Down Lv.1; during Assault Rumble, self HP Up Lv.2, Special CT Speed Up Lv.1",
+            "Striker/Slasher class teammates ATK Up Lv.2, RCV Up Lv.2, SPD Up Lv.2; [Four Emperors] enemies DEF Down Lv.1; during Assault Rumble, self HP Up Lv.3, Special CT Speed Up Lv.1",
+            "Striker/Slasher class teammates ATK Up Lv.3, RCV Up Lv.3, SPD Up Lv.3; [Four Emperors] enemies DEF Down Lv.2; during Assault Rumble, self HP Up Lv.4, Special CT Speed Up Lv.2",
+            "Striker/Slasher class teammates ATK Up Lv.4, RCV Up Lv.4, SPD Up Lv.4; [Four Emperors] enemies DEF Down Lv.2; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.2",
+            "Striker/Slasher class teammates ATK Up Lv.5, RCV Up Lv.5, SPD Up Lv.5; [Four Emperors] enemies DEF Down Lv.3; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.3"
+        ],
+        festSpecial: [
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.1 (11 s); targets Striker/Slasher class teammates for DEF Up Lv.1 (11 s); targets enemies within large range (horizontal) for ATK x 1 damage; targets [Four Emperors] enemies for 70% chance of Action Bind (10 s), ATK x 1 damage; during Assault Rumble, targets [Charlotte Linlin (Big Mom)] enemies ignoring DEF for ATK x 1.6 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.1 (12 s); targets Striker/Slasher class teammates for DEF Up Lv.1 (12 s); targets enemies within large range (horizontal) for ATK x 1.2 damage; targets [Four Emperors] enemies for 73% chance of Action Bind (10 s), ATK x 1.4 damage; during Assault Rumble, targets [Charlotte Linlin (Big Mom)] enemies ignoring DEF for ATK x 1.7 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.2 (13 s); targets Striker/Slasher class teammates for DEF Up Lv.2 (13 s); targets enemies within large range (horizontal) for ATK x 1.4 damage; targets [Four Emperors] enemies for 76% chance of Action Bind (10 s), ATK x 1.8 damage; during Assault Rumble, targets [Charlotte Linlin (Big Mom)] enemies ignoring DEF for ATK x 1.8 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.2 (14 s); targets Striker/Slasher class teammates for DEF Up Lv.2 (14 s); targets enemies within large range (horizontal) for ATK x 1.6 damage; targets [Four Emperors] enemies for 79% chance of Action Bind (10 s), ATK x 2.2 damage; during Assault Rumble, targets [Charlotte Linlin (Big Mom)] enemies ignoring DEF for ATK x 1.9 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.3 (15 s); targets Striker/Slasher class teammates for DEF Up Lv.3 (15 s); targets enemies within large range (horizontal) for ATK x 1.8 damage; targets [Four Emperors] enemies for 82% chance of Action Bind (10 s), ATK x 2.6 damage; during Assault Rumble, targets [Charlotte Linlin (Big Mom)] enemies ignoring DEF for ATK x 2 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.3 (16 s); targets Striker/Slasher class teammates for DEF Up Lv.3 (16 s); targets enemies within large range (horizontal) for ATK x 2 damage; targets [Four Emperors] enemies for 85% chance of Action Bind (10 s), ATK x 3 damage; during Assault Rumble, targets [Charlotte Linlin (Big Mom)] enemies ignoring DEF for ATK x 2.1 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.4 (17 s); targets Striker/Slasher class teammates for DEF Up Lv.4 (17 s); targets enemies within large range (horizontal) for ATK x 2.2 damage; targets [Four Emperors] enemies for 88% chance of Action Bind (10 s), ATK x 3.4 damage; during Assault Rumble, targets [Charlotte Linlin (Big Mom)] enemies ignoring DEF for ATK x 2.2 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.4 (18 s); targets Striker/Slasher class teammates for DEF Up Lv.4 (18 s); targets enemies within large range (horizontal) for ATK x 2.4 damage; targets [Four Emperors] enemies for 91% chance of Action Bind (10 s), ATK x 3.8 damage; during Assault Rumble, targets [Charlotte Linlin (Big Mom)] enemies ignoring DEF for ATK x 2.3 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.5 (19 s); targets Striker/Slasher class teammates for DEF Up Lv.5 (19 s); targets enemies within large range (horizontal) for ATK x 2.6 damage; targets [Four Emperors] enemies for 94% chance of Action Bind (10 s), ATK x 4.2 damage; during Assault Rumble, targets [Charlotte Linlin (Big Mom)] enemies ignoring DEF for ATK x 2.4 damage"
+            },
+            {
+                cooldown: 30,
+                description: "Targets self for ATK Up Lv.5 (20 s); targets Striker/Slasher class teammates for DEF Up Lv.5 (20 s); targets enemies within large range (horizontal) for ATK x 3 damage; targets [Four Emperors] enemies for 100% chance of Action Bind (10 s), ATK x 5 damage; during Assault Rumble, targets [Charlotte Linlin (Big Mom)] enemies ignoring DEF for ATK x 2.5 damage"
+            }
+        ]
+    },
     4482: {//Caesar
         captain: "Boosts Cerebral and Driven characters' ATK by 5x, boosts their damage dealt to enemies inflicted with Ignited, Paralysis, or any type of Poison by 1.25x, boosts crew's HP and RCV by 1.3x, makes crew's [QCK][TND] slots have matching slot effects, allows crew's Poison status applying effects to ignore immunity to all status effects, and allows healing up to 2x crew's max HP ignoring max HP limit (effect cannot stack; if HP is above max limit, it is treated as being full HP)",
         special: "If 3 or more [Scientist] characters are on the crew, allows crew to stack up to 2 different damage boosting effects (cannot stack the damage boost of the same type) for 1 turn. If crew is inflicted with Poison or progressive Poison, applies progressive Poison to all enemies (minimum 50x character's ATK; gradually strengthens over time to a max of 3,000,000 damage), boosts damage dealt to enemies inflicted with progressive Poison by 2.75x for 1 turn, and completely removes all Poison effects. If crew is inflicted with Paralysis, applies Paralysis (50% chance not to reduce action turns) to all enemies for 1 turn (ignoring immunity to all status effects or immunity excluding certain status effect), boosts damage dealt to enemies inflicted with Paralysis by 2.75x for 1 turn, and reduces crew's Paralysis duration by 10 turns. If crew is inflicted with Burn, applies Ignited status to all enemies (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action) for 1 turn (ignoring immunity to all status effects or immunity excluding certain status effect), boosts damage dealt to enemies inflicted with Ignited by 2.75x for 1 turn, and reduces crew's Burn duration by 10 turns",
@@ -177503,6 +177645,429 @@ window.details = {
                 ]
             }
         ]
+    },
+    4483: {//Sanji & Reiju
+        captain: {
+            character1: "Reduces crew's Special charge time by 2 turns and Switch Effect by 3 at start of quest, boosts crew's ATK by 4x, HP by 1.3x, makes crew's [PSY][RCV] slots have matching slot effects, boosts damage dealt to enemies with Delay, DEF Down, damage taken increased, Paralysis, or Ignited status by 1.05x for each status effect (up to 5 effects for a maximum damage boost of approximately 1.276x; total damage dealt approximately 5.1x including the ATK boost from this Captain Ability), and if every type is on the crew, reduces the duration of ATK Down when above certain chain multiplier effect received from the enemy by 5 turns, and reduces crew's Special Bind duration by 10 turns",
+            character2: "Reduces crew's Special charge time by 2 turns and Switch Effect by 3 at start of quest, boosts crew's ATK by 4x, HP by 1.3x, makes crew's [INT][TND] slots have matching slot effects, boosts damage dealt to poisoned enemies by 1.25x, and if every type is on the crew, reduces the duration of ATK Down when above certain chain multiplier effect received from the enemy by 5 turns, and reduces crew's Special Bind duration by 10 turns",
+            combined: "Reduces crew's Special charge time by 2 turns and Switch Effect by 3 at start of quest, boosts crew's ATK by 4x, HP by 1.3x, makes crew's [PSY][INT][RCV][TND] slots have matching slot effects, boosts damage dealt to poisoned enemies by 1.25x, boosts damage dealt to enemies with Delay, DEF Down, damage taken increased, Paralysis, or Ignited status by 1.05x for each status effect (up to 1 poison effect and 5 other effects for a maximum damage boost of approximately 1.595x; total damage dealt approximately 6.38x including the ATK boost from this Captain Ability), and if every type is on the crew, reduces the duration of ATK Down when above certain chain multiplier effect received from the enemy by 5 turns, and reduces crew's Special Bind duration by 10 turns"
+        },
+        special: "Reduces crew's Bind duration by 7 turns, and reduces all enemies' Damage Nullification buff duration by 2 turns. If crew has Orb Boost status when Special is launched, further increases crew's Orb Boost by 1.5x (up a maximum of 8x; boosts crew's Orb Boost by 3.25x for 1 turn otherwise). If every type is on the crew or 3 or more [Germa 66] [Royalty] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [RCV], further increases crew's ATK based on the damage reduction effect applied on the crew by 150% (e.g. if crew has 80% damage reduction, boosts ATK by 2.2x) for 1 turn. If 4 or more [Straw Hat Pirates] characters are on the crew, applies Weakened status<hidden> (increase damage taken by 1.5x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken)</hidden> to all enemies for 1 turn, then after that, becomes \"Sanji & Reiju\" for 3 turns",
+        specialName: "A Mother's Hard-Won Kind Hearts",
+        sailor: {
+            character1: "Makes crew's [INT][RCV] slots have matching slot effects",
+            character2: "Makes crew's [INT][RCV] slots have matching slot effects",
+            combined: "Makes crew's [INT][RCV] slots have matching slot effects",
+            level1: "Makes crew's [PSY][TND] slots have matching slot effects"
+        },
+        superSpecialCriteria: "When character becomes \"Sanji & Reiju\" with Super Switch effect and any 3 [Straw Hat Pirates] [Germa 66] [Royalty] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
+        superSpecial: "Allows crew to perform Super Tandem with [RCV] and Rainbow slots for 1 turn, allows crew's ATK boost to be further increased up to 2 times and further increases boost by +0.5, completely removes Poison, Venom, and progressive Poison from all enemies, applies Reiju Poison to all enemies (reduces 20% HP at end of enemy's turn, and heals crew for 20% of crew's maximum HP. Reiju Poison also applies for damage boosts against enemies affected by Poison), and changes Powerhouse characters to Super Powerhouse",
+        swap: {
+            base: "Reduces bottom-row characters' Special charge time by 1 turn and Poisons all enemies",
+            super: "Reduces bottom-row characters' Special charge time by 2 turns, Poisons all enemies, allows crew's type effect boost to be further increased up to 2 times and further increases boost by +0.5, doubles the type effects of normal attacks for crew for 1 turn, and becomes \"Sanji & Reiju\" for 3 turns",
+            superTurns: 8
+        },
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Acquire Potential 1: No Healing" },
+            { description: "Boosts base HP by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Potential 2: Enrage/Increase Damage Taken" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 60" },
+            { description: "Acquire Sailor Ability 2: Makes crew's [PSY][TND] slots have matching slot effects" },
+            { description: "Boosts base HP by 70" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Acquire Potential 3: Last Tap" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 150" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 225 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Niji, Vinsmoke Yonji, Sora",
+            description: [
+                "Further boosts the chain multiplier of the final tap by 1.1x",
+                "Further boosts the chain multiplier of the final tap by 1.3x",
+                "Further boosts the chain multiplier of the final tap by 1.5x",
+                "Further boosts the chain multiplier of the final tap by 1.7x",
+                "Further boosts the chain multiplier of the final tap by 2x"
+            ]
+        },
+        festStats: {
+            def: 184,
+            spd: 176,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from Driven and Cerebral by 30%",
+        festAbility: [
+            "Powerhouse/Free Spirit class teammates Special CT Speed Up Lv.1, DEF Up Lv.1; [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates ATK Up Lv.2, RCV Up Lv.2; first 50 s of battle, Cerebral/Driven class enemies Special CT Speed Down Lv.1, ATK Down Lv.1; if 6 or more Powerhouse/Free Spirit characters are on the team and self is KO'd, launches Rumble Special 1 time",
+            "Powerhouse/Free Spirit class teammates Special CT Speed Up Lv.2, DEF Up Lv.1; [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates ATK Up Lv.3, RCV Up Lv.3; first 50 s of battle, Cerebral/Driven class enemies Special CT Speed Down Lv.2, ATK Down Lv.2; if 6 or more Powerhouse/Free Spirit characters are on the team and self is KO'd, launches Rumble Special 1 time",
+            "Powerhouse/Free Spirit class teammates Special CT Speed Up Lv.3, DEF Up Lv.2; [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates ATK Up Lv.4, RCV Up Lv.4; first 50 s of battle, Cerebral/Driven class enemies Special CT Speed Down Lv.3, ATK Down Lv.3; if 6 or more Powerhouse/Free Spirit characters are on the team and self is KO'd, launches Rumble Special 1 time",
+            "Powerhouse/Free Spirit class teammates Special CT Speed Up Lv.4, DEF Up Lv.2; [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates ATK Up Lv.5, RCV Up Lv.5; first 50 s of battle, Cerebral/Driven class enemies Special CT Speed Down Lv.4, ATK Down Lv.4; if 6 or more Powerhouse/Free Spirit characters are on the team and self is KO'd, launches Rumble Special 1 time",
+            "Powerhouse/Free Spirit class teammates Special CT Speed Up Lv.5, DEF Up Lv.3; [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates ATK Up Lv.6, RCV Up Lv.6; first 50 s of battle, Cerebral/Driven class enemies Special CT Speed Down Lv.5, ATK Down Lv.5; if 6 or more Powerhouse/Free Spirit characters are on the team and self is KO'd, launches Rumble Special 1 time"
+        ],
+        festSpecial: [
+            {
+                cooldown: 24,
+                description: "When character has Damage Over Time status, targets all enemies for Damage Over Time Lv.5 (11 s); targets Powerhouse/Free Spirit teammates for Damage Over Time reduction (6 s); targets (not including self) Powerhouse/Free Spirit teammates for 70% chance to evade Damage Over Time (15 s); if 4 or more [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] characters are on the team, targets Powerhouse/Free Spirit teammates for Halve Stats reduction (6 s), 70% chance to evade Halve Stats (15 s), 70% chance to evade stat-reducing effects (15 s); when remaining HP is 1% or below, targets [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates for ATK Up Lv.1 (11 s), DEF Up Lv.1 (11 s)"
+            },
+            {
+                cooldown: 24,
+                description: "When character has Damage Over Time status, targets all enemies for Damage Over Time Lv.5 (12 s); targets Powerhouse/Free Spirit teammates for Damage Over Time reduction (7 s); targets (not including self) Powerhouse/Free Spirit teammates for 73% chance to evade Damage Over Time (15 s); if 4 or more [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] characters are on the team, targets Powerhouse/Free Spirit teammates for Halve Stats reduction (7 s), 73% chance to evade Halve Stats (15 s), 73% chance to evade stat-reducing effects (15 s); when remaining HP is 1% or below, targets [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates for ATK Up Lv.1 (12 s), DEF Up Lv.1 (12 s)"
+            },
+            {
+                cooldown: 24,
+                description: "When character has Damage Over Time status, targets all enemies for Damage Over Time Lv.6 (13 s); targets Powerhouse/Free Spirit teammates for Damage Over Time reduction (8 s); targets (not including self) Powerhouse/Free Spirit teammates for 76% chance to evade Damage Over Time (15 s); if 4 or more [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] characters are on the team, targets Powerhouse/Free Spirit teammates for Halve Stats reduction (8 s), 76% chance to evade Halve Stats (15 s), 76% chance to evade stat-reducing effects (15 s); when remaining HP is 1% or below, targets [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates for ATK Up Lv.2 (13 s), DEF Up Lv.2 (13 s)"
+            },
+            {
+                cooldown: 24,
+                description: "When character has Damage Over Time status, targets all enemies for Damage Over Time Lv.6 (14 s); targets Powerhouse/Free Spirit teammates for Damage Over Time reduction (9 s); targets (not including self) Powerhouse/Free Spirit teammates for 79% chance to evade Damage Over Time (15 s); if 4 or more [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] characters are on the team, targets Powerhouse/Free Spirit teammates for Halve Stats reduction (9 s), 79% chance to evade Halve Stats (15 s), 79% chance to evade stat-reducing effects (15 s); when remaining HP is 1% or below, targets [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates for ATK Up Lv.2 (14 s), DEF Up Lv.2 (14 s)"
+            },
+            {
+                cooldown: 24,
+                description: "When character has Damage Over Time status, targets all enemies for Damage Over Time Lv.7 (15 s); targets Powerhouse/Free Spirit teammates for Damage Over Time reduction (10 s); targets (not including self) Powerhouse/Free Spirit teammates for 82% chance to evade Damage Over Time (15 s); if 4 or more [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] characters are on the team, targets Powerhouse/Free Spirit teammates for Halve Stats reduction (10 s), 82% chance to evade Halve Stats (15 s), 82% chance to evade stat-reducing effects (15 s); when remaining HP is 1% or below, targets [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates for ATK Up Lv.3 (15 s), DEF Up Lv.3 (15 s)"
+            },
+            {
+                cooldown: 24,
+                description: "When character has Damage Over Time status, targets all enemies for Damage Over Time Lv.7 (16 s); targets Powerhouse/Free Spirit teammates for Damage Over Time reduction (11 s); targets (not including self) Powerhouse/Free Spirit teammates for 85% chance to evade Damage Over Time (15 s); if 4 or more [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] characters are on the team, targets Powerhouse/Free Spirit teammates for Halve Stats reduction (11 s), 85% chance to evade Halve Stats (15 s), 85% chance to evade stat-reducing effects (15 s); when remaining HP is 1% or below, targets [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates for ATK Up Lv.3 (16 s), DEF Up Lv.3 (16 s)"
+            },
+            {
+                cooldown: 24,
+                description: "When character has Damage Over Time status, targets all enemies for Damage Over Time Lv.8 (17 s); targets Powerhouse/Free Spirit teammates for Damage Over Time reduction (12 s); targets (not including self) Powerhouse/Free Spirit teammates for 88% chance to evade Damage Over Time (15 s); if 4 or more [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] characters are on the team, targets Powerhouse/Free Spirit teammates for Halve Stats reduction (12 s), 88% chance to evade Halve Stats (15 s), 88% chance to evade stat-reducing effects (15 s); when remaining HP is 1% or below, targets [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates for ATK Up Lv.4 (17 s), DEF Up Lv.4 (17 s)"
+            },
+            {
+                cooldown: 24,
+                description: "When character has Damage Over Time status, targets all enemies for Damage Over Time Lv.8 (18 s); targets Powerhouse/Free Spirit teammates for Damage Over Time reduction (13 s); targets (not including self) Powerhouse/Free Spirit teammates for 91% chance to evade Damage Over Time (15 s); if 4 or more [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] characters are on the team, targets Powerhouse/Free Spirit teammates for Halve Stats reduction (13 s), 91% chance to evade Halve Stats (15 s), 91% chance to evade stat-reducing effects (15 s); when remaining HP is 1% or below, targets [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates for ATK Up Lv.4 (18 s), DEF Up Lv.4 (18 s)"
+            },
+            {
+                cooldown: 24,
+                description: "When character has Damage Over Time status, targets all enemies for Damage Over Time Lv.9 (19 s); targets Powerhouse/Free Spirit teammates for Damage Over Time reduction (14 s); targets (not including self) Powerhouse/Free Spirit teammates for 94% chance to evade Damage Over Time (15 s); if 4 or more [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] characters are on the team, targets Powerhouse/Free Spirit teammates for Halve Stats reduction (14 s), 94% chance to evade Halve Stats (15 s), 94% chance to evade stat-reducing effects (15 s); when remaining HP is 1% or below, targets [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates for ATK Up Lv.5 (19 s), DEF Up Lv.5 (19 s)"
+            },
+            {
+                cooldown: 24,
+                description: "When character has Damage Over Time status, targets all enemies for Damage Over Time Lv.10 (20 s); targets Powerhouse/Free Spirit teammates for Damage Over Time reduction (15 s); targets (not including self) Powerhouse/Free Spirit teammates for 100% chance to evade Damage Over Time (15 s); if 4 or more [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] characters are on the team, targets Powerhouse/Free Spirit teammates for Halve Stats reduction (15 s), 100% chance to evade Halve Stats (15 s), 100% chance to evade stat-reducing effects (15 s); when remaining HP is 1% or below, targets [Straw Hat Pirates] [Germa 66] [Paramythia-type] [Logia-type] teammates for ATK Up Lv.6 (20 s), DEF Up Lv.6 (20 s)"
+            }
+        ]
+    },
+    4484: {//Ichiji
+        captain: "Boosts Powerhouse characters' HP by 1.5x, makes crew's [STR] slots have matching slot effects, and if [STR], [DEX], and [QCK] characters are all on the crew, boosts Powerhouse characters' ATK by 4.25x",
+        special: "Applies Ignited status (deals 50x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action) to all enemies for 1 turn, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 3 turns, reduces crew's ATK Down duration by 6 turns, and sets the chain multiplier's minimum value at 2.5 and maximum value at 35.0 for 1 turn. If 3 or more [Germa 66] [Royalty] characters are on the crew, allows Ignited applied from this Special to ignore immunity to all status effects, and boosts [Germa 66] [Royalty] characters' base ATK by +1500 for 1 turn",
+        specialName: "Energy-Blasting Sparking Red",
+        sailor: {
+            base: "If 3 or more [Germa 66] [Royalty] characters are on the crew and enemy launches DEF Up effect, reduces all enemies' DEF Up duration by 2 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)",
+            level1: "If every type is on the crew and enemy launches damage reduction (except Threshold Damage Reduction) effect, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 3 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Germa 66]",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Acquire Sailor Ability 2: If every type is on the crew and enemy launches damage reduction (except Threshold Damage Reduction) effect, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 3 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Super Tandem Boost" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Germa 66] [Scientist] [Whole Cake Island Arc] characters by 1 for 1 turn",
+                "Raises Boost Level of [Germa 66] [Scientist] [Whole Cake Island Arc] characters by 1 for 1 turn",
+                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 2 for 1 turn",
+                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 3 for 1 turn",
+                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 4 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack"
+        ],
+        festAttackTarget: "Targets closest enemies"
+    },
+    4485: {//Niji
+        captain: "Boosts Powerhouse characters' HP by 1.35x, makes crew's [QCK][TND] slots have matching slot effects, and if [STR], [DEX], and [QCK] characters are all on the crew, boosts Powerhouse characters' ATK by 4.25x",
+        special: "Applies Paralysis (60% chance not to reduce action turns) to all enemies for 1 turn, reduces Powerhouse characters' Special charge time by 2 turns, reduces all enemies' Threshold Damage Reduction duration by 3 turns, and boosts the chain multiplier by +1.4 for 1 turn. If 3 or more [Germa 66] [Royalty] characters are on the crew, allows Paralysis applied from this Special to ignore immunity to all status effects, and boosts [Germa 66] [Royalty] characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.3; GREAT +0.5; PERFECT +0.7) for 1 turn",
+        specialName: "Battle-Striding Electric Blue",
+        sailor: {
+            base: "If 3 or more [Germa 66] [Royalty] characters are on the crew and enemy launches damage reduction (except Threshold Damage Reduction) effect, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)",
+            level1: "If every type is on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 3 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Germa 66]",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 2 turns"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Acquire Sailor Ability 2: If every type is on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 3 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)" },
+            { description: "Boosts base HP by 40" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Super Tandem" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora"
+            ],
+            description: [
+                "Applies ATK Boost (Tandem) of 1.2x to top-right character and ATK Boost (Tandem) of 1.1x to other characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.4x to top-right character and ATK Boost (Tandem) of 1.2x to other characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.6x to top-right character and ATK Boost (Tandem) of 1.3x to other characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.8x to top-right character and ATK Boost (Tandem) of 1.4x to other characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 2x to top-right character and ATK Boost (Tandem) of 1.5x to other characters for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack"
+        ],
+        festAttackTarget: "Targets closest enemies"
+    },
+    4486: {//Yonji
+        captain: "Boosts Powerhouse characters' HP by 1.35x, makes crew's [DEX][RCV] slots have matching slot effects, and if [STR], [DEX], and [QCK] characters are all on the crew, boosts Powerhouse characters' ATK by 4.25x",
+        special: "Reduces all enemies' DEF by 80% for 1 turn. If crew has damage reduction (except Threshold Damage Reduction) when Special is launched, reduces crew's Paralysis duration by 6 turns (reduces damage taken by 80% for 1 turn otherwise), then after that, reduces all enemies' DEF Up duration by 3 turns, and boosts the chain multiplier by 1.5x for 1 turn. If 3 or more [Germa 66] [Royalty] characters are on the crew, allows DEF reducing effects applied from this Special to ignore immunity to all status effects, and boosts the ATK of the next final tap performed by a [Germa 66] [Royalty] character by 70% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+        specialName: "Obstacle-Clearing Winch Green",
+        sailor: {
+            base: "If 3 or more [Germa 66] [Royalty] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 2 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)",
+            level1: "If every type is on the crew and enemy launches DEF Up effect, reduces all enemies' DEF Up duration by 3 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Germa 66]",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 2 turns"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Acquire Sailor Ability 2: If every type is on the crew and enemy launches DEF Up effect, reduces all enemies' DEF Up duration by 3 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Super Tandem Boost" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Germa 66] [Scientist] [Whole Cake Island Arc] characters by 1 for 1 turn",
+                "Raises Boost Level of [Germa 66] [Scientist] [Whole Cake Island Arc] characters by 1 for 1 turn",
+                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 2 for 1 turn",
+                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 3 for 1 turn",
+                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 4 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: [
+            "Normal Attack"
+        ],
+        festAttackTarget: "Targets closest enemies"
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
@@ -177912,4 +178477,5 @@ if (UnitUtils){
     UnitUtils.extendDouble(calcGhostStartID, 4475, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4476, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4477, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4483, "dual");
 }
