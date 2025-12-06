@@ -79636,7 +79636,7 @@ window.details = {
             level5: "Boosts ATK of [QCK] and [INT] characters by 3x.",
             level6: "Boosts ATK of [QCK] and [INT] characters by 3.5x and reduces Paralysis duration by 1 turn."
         },
-        captainNotes: "Poison Pink deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn.",
+        captainNotes: "Reiju Poison deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn.",
         special: "Reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 5 turns and changes [BLOCK] orbs into Matching orbs. If your captain is a [QCK] or [INT] character, poisons all enemies, boosts ATK against Poisoned enemies by 1.75x for 3 turns. If during that turn you score 2 PERFECT hits, poisons all enemies in the following turn.",
         specialName: "Dangerous Butterfly - Germa Kick",
         sailor: {
@@ -79701,7 +79701,7 @@ window.details = {
             {
                 captain: {
                     base: "Boosts ATK of [QCK] and [INT] character by 3.5x, and reduces Paralysis duration by 1 turn.",
-                    level6: "Boosts ATK of [QCK] and [INT] characters by 5x, and reduces Paralysis duration by 2 turns. If a crew member uses a special that inflicts Poison, inflict enemies with Poison Pink."
+                    level6: "Boosts ATK of [QCK] and [INT] characters by 5x, and reduces Paralysis duration by 2 turns. If a crew member uses a special that inflicts Poison, inflicts all enemies with Reiju Poison."
                 }
             },
             null,
@@ -100544,15 +100544,15 @@ window.details = {
         ]
     },
     3402: {//Reiju
-        captain: "Boosts ATK of [INT], Cerebral and Powerhouse characters by 5x and their HP by 1.2x. If a crew member uses a special that inflicts Poison, Strong Poison or Toxic, inflict enemies with Poison Pink. If your crew is inflicted with Poison, Strong Poison or Toxic, activates \"Lustrous Devilish Woman\" in the following turn.",
-        special: "Boosts ATK of [INT], Cerebral and Powerhouse characters by 2.25x for 3 turns, and removes Paralysis and Poison duration completely. If enemies are inflicted with Poison, Strong Poison, Toxic or Poison Pink when the special is activated, poison deals 30% of enemies' current HP in damage to all enemies and removes enemies' Poison duration completely. Otherwise, inflicts enemies with Poison Pink.",
-        specialNotes: "Poison HP Cut deals damage in the same way as other poisons.<br>Poison Pink deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn. Poison Pink is derivative of Normal Poison, so it fulfills Poison Status ATK Boosts and is affected by Poison Debuff Immunity.",
+        captain: "Boosts ATK of [INT], Cerebral and Powerhouse characters by 5x and their HP by 1.2x. If a crew member uses a special that inflicts Poison, Strong Poison or Toxic, inflicts all enemies with Reiju Poison. If your crew is inflicted with Poison, Strong Poison or Toxic, activates \"Lustrous Devilish Woman\" in the following turn.",
+        special: "Boosts ATK of [INT], Cerebral and Powerhouse characters by 2.25x for 3 turns, and removes Paralysis and Poison duration completely. If enemies are inflicted with Poison, Strong Poison, Toxic or Reiju Poison when the special is activated, poison deals 30% of enemies' current HP in damage to all enemies and removes enemies' Poison duration completely. Otherwise, inflicts all enemies with Reiju Poison.",
+        specialNotes: "Poison HP Cut deals damage in the same way as other poisons.<br>Reiju Poison deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn. Reiju Poison is derivative of Normal Poison, so it fulfills Poison Status ATK Boosts and is affected by Poison Debuff Immunity.",
         specialName: "Lustrous Devilish Woman",
     },
     3403: {//Reiju
-        captain: "Boosts ATK of [INT], Cerebral and Powerhouse characters by 5x and their HP by 1.2x. If a crew member uses a special that inflicts Poison, Strong Poison or Toxic, inflict enemies with Poison Pink. If your crew is inflicted with Poison, Strong Poison or Toxic, activates \"Lustrous Devilish Woman\" in the following turn.",
-        special: "Boosts ATK of [INT], Cerebral and Powerhouse characters by 2.25x for 3 turns, and removes Paralysis and Poison duration completely. If enemies are inflicted with Poison, Strong Poison, Toxic or Poison Pink when the special is activated, poison deals 30% of enemies' current HP in damage to all enemies and removes enemies' Poison duration completely. Otherwise, inflicts enemies with Poison Pink.",
-        specialNotes: "Poison HP Cut deals damage in the same way as other poisons.<br>Poison Pink deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn. Poison Pink is derivative of Normal Poison, so it fulfills Poison Status ATK Boosts and is affected by Poison Debuff Immunity.",
+        captain: "Boosts ATK of [INT], Cerebral and Powerhouse characters by 5x and their HP by 1.2x. If a crew member uses a special that inflicts Poison, Strong Poison or Toxic, inflicts all enemies with Reiju Poison. If your crew is inflicted with Poison, Strong Poison or Toxic, activates \"Lustrous Devilish Woman\" in the following turn.",
+        special: "Boosts ATK of [INT], Cerebral and Powerhouse characters by 2.25x for 3 turns, and removes Paralysis and Poison duration completely. If enemies are inflicted with Poison, Strong Poison, Toxic or Reiju Poison when the special is activated, poison deals 30% of enemies' current HP in damage to all enemies and removes enemies' Poison duration completely. Otherwise, inflicts all enemies with Reiju Poison.",
+        specialNotes: "Poison HP Cut deals damage in the same way as other poisons.<br>Reiju Poison deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn. Reiju Poison is derivative of Normal Poison, so it fulfills Poison Status ATK Boosts and is affected by Poison Debuff Immunity.",
         superSpecial: "Boosts Orb Effects of [INT], Cerebral and Powerhouse characters by 2x for 1 turn and transforms [INT] characters into Super [INT] characters.",
         superSpecialCriteria: "This character must be captain and your crew must consist of any 6 of the following, excluding Supports and counting only 1 per unit: Powerhouse or Cerebral characters.",
         specialName: "Lustrous Devilish Woman",
@@ -138327,7 +138327,7 @@ window.details = {
         },
         special: "Reduces enemies' Threshold Damage Reduction duration by 7 turns, reduces Paralysis duration by 7 turns, removes Poison duration completely, and changes [BLOCK] and Badly Matching orbs into [TND] orbs and changes orbs of adjacent characters into [TND] orbs. If this character was Captain at the start of the fight and this character is a Crewmate when the special is activated, boosts ATK against enemies inflicted with Poison, Strong Poison or Toxic by 2.75x for 3 turns, by 2.5x for 1 turn otherwise.",
         specialName: "Brother-Protecting Pink Hornet",
-        superSpecial: "Inflicts enemies with Poison Pink for 99 turns, boosts Color Affinity of [DEX], Fighter, and Powerhouse characters by 2.25x for 3 turns, and changes [DEX] characters to Super [DEX]",
+        superSpecial: "Inflicts all enemies with Reiju Poison for 99 turns, boosts Color Affinity of [DEX], Fighter, and Powerhouse characters by 2.25x for 3 turns, and changes [DEX] characters to Super [DEX]",
         superSpecialCriteria: "This character must be captain and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Niji, Vinsmoke Yonji, Vinsmoke Sanji",
         superTandem: {
             characterCondition: [
@@ -177410,22 +177410,22 @@ window.details = {
         ]
     },
     4481: {//5+ PKA Kid
-        captain: "Reduces [STR], Striker, and Slasher characters' Special charge time by 1 turn, boosts their ATK by 4.5x when slots match and 5.25x when they have [EMPTY] slots (4x otherwise), makes their [BOMB][S. BOMB] slots have matching slot effects, and reduces [BOMB][S. BOMB] damage by 80% [Applies following effect based on number of applicable Character Tags on crew] Boosts [Kid Pirates] [Worst Generation] characters' base ATK by +1000",
-        special: "Removes crew's type slots, deals [STR] damage to one enemy based on the number of type slots removed (0-6), reduces the duration of all enemy barriers by 3 turns, reduces crew's ATK Down duration by 6 turns, and boosts crew's damage dealt when landing a Critical hit by 60% (effect applies only to characters with Critical ATK Potential Ability) for 1 turn. If 5 or more [Land of Wano Arc] [Paramythia-type] [Kid Pirates] characters are on the crew, Binds character for 10 turns, but applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, crew will deal 1.75x damage, and their Special charge time will be reduced by 1 turn for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))",
+        captain: "Reduces Special Cooldown of [STR], Striker and Slasher characters by 1 turn at the start of the fight, boosts ATK of [STR], Striker and Slasher characters by 4x, by 4.5x instead if they have a beneficial orb and by 5.25x instead if they have a [EMPTY] orb, boosts base ATK of [Kid Pirates] and [Worst Generation] characters by 1,000, makes [BOMB] and [SUPERBOMB] orbs beneficial for [STR], Striker and Slasher characters, and [BOMB] and [SUPERBOMB] orbs will deal 80% less damage to the crew.",
+        special: "Changes [STR], [DEX], [QCK], [PSY] and [INT] orbs into [EMPTY] orbs, deals 35x-350x character's ATK in [STR] damage to one enemy depending on number of [STR], [DEX], [QCK], [PSY] and [INT] slots emptied, reduces enemies' Barrier duration by 3 turns, reduces ATK Down duration by 6 turn, and boosts Critical Hit Damage of all characters by 60% for 1 turn. If your crew has 5+ [Land of Wano Arc], [Paramythia-type] or [Kid Pirates] characters, binds self for 10 turns, and inflicts all enemies with Set Target, increasing damage taken from all characters by 1.75x and reducing Special Cooldown of all characters by 1 turn when they defeat an enemy, for 1 turn.",
         specialName: "Punk Clash",
         sailor: {
-            base: "Makes crew's [BOMB][S. BOMB] slots have matching slot effects",
-            level1: "Reduces cerw's ATK Down duration by 1 turn"
+            base: "Makes [BOMB] and [SUPERBOMB] orbs beneficial for all characters.",
+            level1: "Reduces ATK Down duration by 1 turn."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Kid Pirates]",
+                Characters: "[Kid Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [BOMB] and reduces the duration of all enemy barriers by 1 turn"
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [BOMB] orb, and reduces enemies' Barrier duration by 1 turn."
                 ]
             }
         ],
@@ -177648,23 +177648,24 @@ window.details = {
     },
     4483: {//Sanji & Reiju
         captain: {
-            character1: "Reduces crew's Special charge time by 2 turns and Switch Effect by 3 at start of quest, boosts crew's ATK by 4x, HP by 1.3x, makes crew's [PSY][RCV] slots have matching slot effects, boosts damage dealt to enemies with Delay, DEF Down, damage taken increased, Paralysis, or Ignited status by 1.05x for each status effect (up to 5 effects for a maximum damage boost of approximately 1.276x; total damage dealt approximately 5.1x including the ATK boost from this Captain Ability), and if every type is on the crew, reduces the duration of ATK Down when above certain chain multiplier effect received from the enemy by 5 turns, and reduces crew's Special Bind duration by 10 turns",
-            character2: "Reduces crew's Special charge time by 2 turns and Switch Effect by 3 at start of quest, boosts crew's ATK by 4x, HP by 1.3x, makes crew's [INT][TND] slots have matching slot effects, boosts damage dealt to poisoned enemies by 1.25x, and if every type is on the crew, reduces the duration of ATK Down when above certain chain multiplier effect received from the enemy by 5 turns, and reduces crew's Special Bind duration by 10 turns",
-            combined: "Reduces crew's Special charge time by 2 turns and Switch Effect by 3 at start of quest, boosts crew's ATK by 4x, HP by 1.3x, makes crew's [PSY][INT][RCV][TND] slots have matching slot effects, boosts damage dealt to poisoned enemies by 1.25x, boosts damage dealt to enemies with Delay, DEF Down, damage taken increased, Paralysis, or Ignited status by 1.05x for each status effect (up to 1 poison effect and 5 other effects for a maximum damage boost of approximately 1.595x; total damage dealt approximately 6.38x including the ATK boost from this Captain Ability), and if every type is on the crew, reduces the duration of ATK Down when above certain chain multiplier effect received from the enemy by 5 turns, and reduces crew's Special Bind duration by 10 turns"
+            character1: "Reduces Special Cooldown of all characters by 2 turns and reduces Switch Effect of all characters by 3 at the start of the fight, boosts ATK of all characters by 4x, boosts ATK against delayed enemies, enemies with reduced defense, enemies inflicted with Increase Damage Taken, paralyzed enemies and enemies inflicted with Burn by 1.05x-1.276x, by a multiplicative 1.05x for each status effect, boosts HP of all characters by 1.3x, and makes [PSY] and [RCV] orbs beneficial for all characters. If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, reduces Maximum-Chain ATK Down duration by 5 turns, and reduces Special Bind duration by 10 turns.",
+            character2: "Reduces Special Cooldown of all characters by 2 turns and reduces Switch Effect of all characters by 3 at the start of the fight, boosts ATK of all characters by 4x, boosts ATK against poisoned enemies by 1.25x, boosts HP of all characters by 1.3x, and makes [INT] and [TND] orbs beneficial for all characters. If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, reduces Maximum-Chain ATK Down duration by 5 turns, and reduces Special Bind duration by 10 turns.",
+            combined: "Reduces Special Cooldown of all characters by 2 turns and reduces Switch Effect of all characters by 3 at the start of the fight, boosts ATK of all characters by 4x, boosts ATK against poisoned enemies by 1.25x, boosts ATK against delayed enemies, enemies with reduced defense, enemies inflicted with Increase Damage Taken, paralyzed enemies and enemies inflicted with Burn by 1.05x-1.276x, by a multiplicative 1.05x for each status effect, boosts HP of all characters by 1.3x, and makes [PSY], [INT], [RCV] and [TND] orbs beneficial for all characters. If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, reduces Maximum-Chain ATK Down duration by 5 turns, and reduces Special Bind duration by 10 turns."
         },
-        special: "Reduces crew's Bind duration by 7 turns, and reduces all enemies' Damage Nullification buff duration by 2 turns. If crew has Orb Boost status when Special is launched, further increases crew's Orb Boost by 1.5x (up a maximum of 8x; boosts crew's Orb Boost by 3.25x for 1 turn otherwise). If every type is on the crew or 3 or more [Germa 66] [Royalty] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [RCV], further increases crew's ATK based on the damage reduction effect applied on the crew by 150% (e.g. if crew has 80% damage reduction, boosts ATK by 2.2x) for 1 turn. If 4 or more [Straw Hat Pirates] characters are on the crew, applies Weakened status<hidden> (increase damage taken by 1.5x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken)</hidden> to all enemies for 1 turn, then after that, becomes \"Sanji & Reiju\" for 3 turns",
+        special: "Reduces Bind duration by 7 turns, reduces enemies' Damage Nullification duration by 2 turns, and becomes Sanji & Reiju for 3 turns. If your crew has Orb Amplification when the special is activated, increases boost effects of Orb Amplification buffs by 1.5x (up to 8x); boosts Orb Effects of all characters by 3.25x for 1 turn otherwise. If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew or your crew has 3+ [Germa 66] or [Royalty] characters, changes all orbs, including [BLOCK] orbs, into [RCV] orbs, and boosts Crew Damage Reduction to ATK of all characters by 1x-2.5x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn. If your crew has 4+ [Straw Hat Pirates] characters, inflicts all enemies with Weaken by 1.5x, by 1.875x if enemies are inflicted with Increase Damage Taken, for 1 turn.",
         specialName: "A Mother's Hard-Won Kind Hearts",
         sailor: {
-            character1: "Makes crew's [INT][RCV] slots have matching slot effects",
-            character2: "Makes crew's [INT][RCV] slots have matching slot effects",
-            combined: "Makes crew's [INT][RCV] slots have matching slot effects",
-            level1: "Makes crew's [PSY][TND] slots have matching slot effects"
+            character1: "Makes [INT] and [RCV] orbs beneficial for all characters.",
+            character2: "Makes [INT] and [RCV] orbs beneficial for all characters.",
+            combined: "Makes [INT] and [RCV] orbs beneficial for all characters.",
+            level1: "Makes [PSY] and [TND] orbs beneficial for all characters."
         },
-        superSpecialCriteria: "When character becomes \"Sanji & Reiju\" with Super Switch effect and any 3 [Straw Hat Pirates] [Germa 66] [Royalty] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
-        superSpecial: "Allows crew to perform Super Tandem with [RCV] and Rainbow slots for 1 turn, allows crew's ATK boost to be further increased up to 2 times and further increases boost by +0.5, completely removes Poison, Venom, and progressive Poison from all enemies, applies Reiju Poison to all enemies (reduces 20% HP at end of enemy's turn, and heals crew for 20% of crew's maximum HP. Reiju Poison also applies for damage boosts against enemies affected by Poison), and changes Powerhouse characters to Super Powerhouse",
+        superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: [Straw Hat Pirates], [Germa 66], [Royalty] characters",
+        superSpecial: "Allows crew to perform Super Tandem with [RCV] and [RAINBOW] orbs for 1 turn, enables ATK Up buffs to be enhanced up to 2 times, increases boost effects of ATK Up buffs by +0.5x, removes enemies' Poison duration completely, inflicts all enemies with Reiju Poison, and transforms Powerhouse characters into Super Powerhouse characters.",
+        superSpecialNotes: "Reiju Poison deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn. Reiju Poison is derivative of Normal Poison, so it fulfills Poison Status ATK Boosts and is affected by Poison Debuff Immunity.",
         swap: {
-            base: "Reduces bottom-row characters' Special charge time by 1 turn and Poisons all enemies",
-            super: "Reduces bottom-row characters' Special charge time by 2 turns, Poisons all enemies, allows crew's type effect boost to be further increased up to 2 times and further increases boost by +0.5, doubles the type effects of normal attacks for crew for 1 turn, and becomes \"Sanji & Reiju\" for 3 turns",
+            base: "Reduces Special Cooldown of bottom row characters by 1 turn, and poisons all enemies.",
+            super: "Reduces Special Cooldown of bottom row characters by 2 turns, poisons all enemies, enables Color Affinity buffs to be enhanced up to 2 times, increases boost effects of Color Affinity buffs by +0.5x, boosts the Color Affinity of all characters by 2x for 1 turn, and becomes Sanji & Reiju for 3 turns.",
             superTurns: 8
         },
         limit: [
@@ -177742,13 +177743,13 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Niji, Vinsmoke Yonji, Sora",
+            condition: "On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Niji, Vinsmoke Yonji, Sora",
             description: [
-                "Further boosts the chain multiplier of the final tap by 1.1x",
-                "Further boosts the chain multiplier of the final tap by 1.3x",
-                "Further boosts the chain multiplier of the final tap by 1.5x",
-                "Further boosts the chain multiplier of the final tap by 1.7x",
-                "Further boosts the chain multiplier of the final tap by 2x"
+                "Boosts Chain Multiplier Growth Rate by 1.1x.",
+                "Boosts Chain Multiplier Growth Rate by 1.3x",
+                "Boosts Chain Multiplier Growth Rate by 1.5x.",
+                "Boosts Chain Multiplier Growth Rate by 1.7x.",
+                "Boosts Chain Multiplier Growth Rate by 2x."
             ]
         },
         festStats: {
@@ -177815,22 +177816,22 @@ window.details = {
         ]
     },
     4484: {//Ichiji
-        captain: "Boosts Powerhouse characters' HP by 1.5x, makes crew's [STR] slots have matching slot effects, and if [STR], [DEX], and [QCK] characters are all on the crew, boosts Powerhouse characters' ATK by 4.25x",
-        special: "Applies Ignited status (deals 50x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action) to all enemies for 1 turn, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 3 turns, reduces crew's ATK Down duration by 6 turns, and sets the chain multiplier's minimum value at 2.5 and maximum value at 35.0 for 1 turn. If 3 or more [Germa 66] [Royalty] characters are on the crew, allows Ignited applied from this Special to ignore immunity to all status effects, and boosts [Germa 66] [Royalty] characters' base ATK by +1500 for 1 turn",
+        captain: "Boosts HP of Powerhouse characters by 1.5x, and makes [STR] orbs beneficial for all characters. If there is a [STR], [DEX] and [QCK] character in your crew, boosts ATK of Powerhouse characters by 4.25x.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 3 turns, reduces ATK Down duration by 6 turns, and sets Chain Boundaries to 2.5x and 35.0x for 1 turn. If your crew has 3+ [Germa 66] or [Royalty] characters, boosts Base ATK of [Germa 66] and [Royalty] characters by 1,500 for 1 turn, and ignores Debuff Protection and inflicts all enemies with Burn that will deal 50x enemies' ATK in damage for 1 turn; inflicts all enemies with Burn that will deal 50x enemies' ATK in damage for 1 turn otherwise.",
         specialName: "Energy-Blasting Sparking Red",
         sailor: {
-            base: "If 3 or more [Germa 66] [Royalty] characters are on the crew and enemy launches DEF Up effect, reduces all enemies' DEF Up duration by 2 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)",
-            level1: "If every type is on the crew and enemy launches damage reduction (except Threshold Damage Reduction) effect, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 3 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "If your crew has 3+ [Germa 66] or [Royalty] characters: once per adventure, when the enemy gains an Increased Defense buff, reduces enemies' Increased Defense duration by 2 turns.",
+            level1: "If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew: once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 3 turns."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Germa 66]",
+                Characters: "[Germa 66] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 2 turns."
                 ]
             }
         ],
@@ -177875,18 +177876,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
-                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
-                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
-                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
-                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem"
+                "When a [Germa 66], [Scientist] or [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66], [Scientist] or [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66], [Scientist] or [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66], [Scientist] or [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66], [Scientist] or [Whole Cake Island Arc] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Germa 66] [Scientist] [Whole Cake Island Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [Germa 66] [Scientist] [Whole Cake Island Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 2 for 1 turn",
-                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 3 for 1 turn",
-                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 4 for 1 turn"
+                "Raises Boost Level of [Germa 66], [Scientist] and [Whole Cake Island Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Germa 66], [Scientist] and [Whole Cake Island Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Whole Cake Island Arc] characters by 1 for 1 turn, and raises Boost Level of [Germa 66] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Whole Cake Island Arc] characters by 1 for 1 turn, and raises Boost Level of [Germa 66] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Whole Cake Island Arc] characters by 1 for 1 turn, and raises Boost Level of [Germa 66] characters by 4 for 1 turn."
             ]
         },
         festStats: {
@@ -177900,22 +177901,23 @@ window.details = {
         festAttackTarget: "Targets closest enemies"
     },
     4485: {//Niji
-        captain: "Boosts Powerhouse characters' HP by 1.35x, makes crew's [QCK][TND] slots have matching slot effects, and if [STR], [DEX], and [QCK] characters are all on the crew, boosts Powerhouse characters' ATK by 4.25x",
-        special: "Applies Paralysis (60% chance not to reduce action turns) to all enemies for 1 turn, reduces Powerhouse characters' Special charge time by 2 turns, reduces all enemies' Threshold Damage Reduction duration by 3 turns, and boosts the chain multiplier by +1.4 for 1 turn. If 3 or more [Germa 66] [Royalty] characters are on the crew, allows Paralysis applied from this Special to ignore immunity to all status effects, and boosts [Germa 66] [Royalty] characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.3; GREAT +0.5; PERFECT +0.7) for 1 turn",
+        captain: "Boosts HP of Powerhouse characters by 1.35x, and makes [QCK] and [TND] orbs beneficial for all characters. If there is a [STR], [DEX] and [QCK] character in your crew, boosts ATK of Powerhouse characters by 4.25x.",
+        special: "Reduces Special Cooldown of Powerhouse characters by 2 turns, reduces enemies' Threshold Damage Reduction duration by 3 turns, and adds 1.4x to chain multiplier for 1 turn. If your crew has 3+ [Germa 66] or [Royalty] characters, increases Chain Tap Timing Bonus of [Germa 66] and [Royalty] characters to +0.3x-0.7x for 1 turn depending on Tap Timing, and ignores Debuff Protection and paralyzes (60%) all enemies for 1 turn; paralyzes (60%) all enemies for 1 turn otherwise.",
+        specialNotes: "GOOD +0.3, GREAT +0.5, PERFECT +0.7",
         specialName: "Battle-Striding Electric Blue",
         sailor: {
-            base: "If 3 or more [Germa 66] [Royalty] characters are on the crew and enemy launches damage reduction (except Threshold Damage Reduction) effect, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)",
-            level1: "If every type is on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 3 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "If your crew has 3+ [Germa 66] or [Royalty] characters: once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 2 turns.",
+            level1: "If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew: once per adventure, when the enemy gains a Threshold Damage Reduction buff, reduces enemies' Threshold Damage Reduction duration by 3 turns."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Germa 66]",
+                Characters: "[Germa 66] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 2 turns"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 2 turns."
                 ]
             }
         ],
@@ -177960,18 +177962,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Vinsmoke Judge, Vinsmoke Ichiji, Vinsmoke Yonji, Vinsmoke Reiju, Sanji, Sora"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.2x to top-right character and ATK Boost (Tandem) of 1.1x to other characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.4x to top-right character and ATK Boost (Tandem) of 1.2x to other characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.6x to top-right character and ATK Boost (Tandem) of 1.3x to other characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.8x to top-right character and ATK Boost (Tandem) of 1.4x to other characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2x to top-right character and ATK Boost (Tandem) of 1.5x to other characters for 1 turn"
+                "Boosts Tandem ATK of Captain character by 1.2x for 1 turn, and boosts Tandem ATK of all other characters by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of Captain character by 1.4x for 1 turn, and boosts Tandem ATK of all other characters by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of Captain character by 1.6x for 1 turn, and boosts Tandem ATK of all other characters by 1.3x for 1 turn.",
+                "Boosts Tandem ATK of Captain character by 1.8x for 1 turn, and boosts Tandem ATK of all other characters by 1.4x for 1 turn.",
+                "Boosts Tandem ATK of Captain character by 2x for 1 turn, and boosts Tandem ATK of all other characters by 1.5x for 1 turn."
             ]
         },
         festStats: {
@@ -177985,22 +177987,22 @@ window.details = {
         festAttackTarget: "Targets closest enemies"
     },
     4486: {//Yonji
-        captain: "Boosts Powerhouse characters' HP by 1.35x, makes crew's [DEX][RCV] slots have matching slot effects, and if [STR], [DEX], and [QCK] characters are all on the crew, boosts Powerhouse characters' ATK by 4.25x",
-        special: "Reduces all enemies' DEF by 80% for 1 turn. If crew has damage reduction (except Threshold Damage Reduction) when Special is launched, reduces crew's Paralysis duration by 6 turns (reduces damage taken by 80% for 1 turn otherwise), then after that, reduces all enemies' DEF Up duration by 3 turns, and boosts the chain multiplier by 1.5x for 1 turn. If 3 or more [Germa 66] [Royalty] characters are on the crew, allows DEF reducing effects applied from this Special to ignore immunity to all status effects, and boosts the ATK of the next final tap performed by a [Germa 66] [Royalty] character by 70% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+        captain: "Boosts HP of Powerhouse characters by 1.35x, and makes [DEX] and [RCV] orbs beneficial for all characters. If there is a [STR], [DEX] and [QCK] character in your crew, boosts ATK of Powerhouse characters by 4.25x.",
+        special: "Reduces enemies' Increased Defense duration by 3 turns, and boosts Chain Multiplier Growth Rate by 1.5x for 1 turn. If your crew has Percent Damage Reduction when the special is activated, reduces Paralysis duration by 6 turns; reduces damage received by 80% for 1 turn otherwise. If your crew has 3+ [Germa 66] or [Royalty] characters, boosts Final Tap ATK of [Germa 66] and [Royalty] characters by 70%, and ignores Debuff Protection and reduces the defense of all enemies by 80% for 1 turn; reduces the defense of all enemies by 80% for 1 turn otherwise.",
         specialName: "Obstacle-Clearing Winch Green",
         sailor: {
-            base: "If 3 or more [Germa 66] [Royalty] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 2 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)",
-            level1: "If every type is on the crew and enemy launches DEF Up effect, reduces all enemies' DEF Up duration by 3 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "If your crew has 3+ [Germa 66] or [Royalty] characters: once per adventure, when the enemy gains a Threshold Damage Reduction buff, reduces enemies' Threshold Damage Reduction duration by 2 turns.",
+            level1: "If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew: once per adventure, when the enemy gains an Increased Defense buff, reduces enemies' Increased Defense duration by 3 turns."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Germa 66]",
+                Characters: "[Germa 66] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 2 turns"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 2 turns."
                 ]
             }
         ],
@@ -178045,18 +178047,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
-                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
-                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
-                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem",
-                "When a [Germa 66] [Scientist] [Whole Cake Island Arc] character performs Super Tandem"
+                "When a [Germa 66], [Scientist] or [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66], [Scientist] or [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66], [Scientist] or [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66], [Scientist] or [Whole Cake Island Arc] character performs Super Tandem",
+                "When a [Germa 66], [Scientist] or [Whole Cake Island Arc] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Germa 66] [Scientist] [Whole Cake Island Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [Germa 66] [Scientist] [Whole Cake Island Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 2 for 1 turn",
-                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 3 for 1 turn",
-                "Raises Boost Level of [Scientist] [Whole Cake Island Arc] characters by 1 and raises Boost Level of [Germa 66] characters by 4 for 1 turn"
+                "Raises Boost Level of [Germa 66], [Scientist] and [Whole Cake Island Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Germa 66], [Scientist] and [Whole Cake Island Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Whole Cake Island Arc] characters by 1 for 1 turn, and raises Boost Level of [Germa 66] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Whole Cake Island Arc] characters by 1 for 1 turn, and raises Boost Level of [Germa 66] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Whole Cake Island Arc] characters by 1 for 1 turn, and raises Boost Level of [Germa 66] characters by 4 for 1 turn."
             ]
         },
         festStats: {
