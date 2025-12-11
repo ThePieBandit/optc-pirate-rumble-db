@@ -177921,6 +177921,279 @@ window.details = {
             ]
         }
     },
+    4487: {//Dr. Vegapunk - Atlas
+        captain: "Reduces [STR], Cerebral, and Free Spirit characters' Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts their ATK by 5.5x, boosts their ATK by approximately 6x when they have [STR][TND][BOMB][S. BOMB] slots, boosts their HP by 1.2x, makes crew's [BOMB][S. BOMB] slots have matching slot effects, changes crew's [DEX][INT] slots into [BOMB] slots, slightly boosts crew's chance of landing on [DEX] slots, and makes [BOMB][S. BOMB] slots deal 0 damage to crew [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Scientist] characters are on the crew, boosts Cerebral characters' ATK by a further 1.1x and tapping on this character with a [BOMB][S. BOMB] slot will reduce all enemies' damage nullification duration by 2 turns",
+        special: "Reduces Cerebral characters' Special charge time by 2 turns, reduces all enemies' Threshold Damage Reduction duration by 10 turns, reduces damage taken by 90% for 2 turns, and allows you to select 1 of the following effects to launch for 1 turn (2 effects can be applied if 3 or more [Scientist] characters are on the crew; launched effects will not trigger enemies' interrupting actions): \"boosts Cerebral characters' ATK by 3.25x\", \"boosts Cerebral characters' slot effects by 3.25x\", \"boosts crew's ATK based on the damage reduction effect applied on the crew (e.g. if crew has 90% damage reduction, boosts ATK by 1.9x)\", \"boosts Cerebral characters' base ATK by +1750\", \"boosts the chain multiplier by +2.0\"",
+        specialName: "Determined Strike",
+        sailor: {
+            base: "Makes crew's [BOMB][S. BOMB] slots have matching slot effects",
+            level1: "Character cannot be blown away by attack, and tapping on this character with a [BOMB][S. BOMB] slot will apply -10% Cerebral and Free Spirit Resistance to all enemies for 1 turn"
+        },
+        superSpecialCriteria: "When any 2 [Scientist] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
+        superSpecial: "Reduces character's Special charge time by 2 turns, reduces character's Special Bind duration by 10 turns, and if crew has ATK Up, reduces crew's ATK boost effect by 0.5 but changes the ATK boost to a stackable ATK boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as an ATK boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other ATK boost effect), and changes [STR] characters to Super [STR]",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Scientist]",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces damage taken by 20% for 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces damage taken by 25% for 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces damage taken by 25% for 2 turns",
+                    "Once per quest, if supported character uses a Special, reduces damage taken by 30% for 2 turns",
+                    "Once per quest, if supported character uses a Special, reduces damage taken by 30% for 2 turns and changes adjacent slots to [BOMB]"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 20" },
+            { description: "Acquire Potential 2: Sailor Despair" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 60" },
+            { description: "Acquire Sailor Ability 2: Character cannot be blown away by attack, and tapping on this character with a [BOMB][S. BOMB] slot will apply -10% Cerebral and Free Spirit Resistance to all enemies for 1 turn" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 60" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Acquire Potential 3: Damage Limit Break: Class" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base RCV by 25" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 25" },
+            { description: "Boosts base HP by 200" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base ATK by 100" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns",
+                    "Boosts base ATK by 250 the turn after taking damage and reduces Increase Damage Taken duration by 4 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character",
+                    "Reduces Sailor Despair duration by 4 turns on this character",
+                    "Reduces Sailor Despair duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ]
+    },
+    4488: {//Dr. Vegapunk - Lilith
+        captain: "Boosts Cerebral characters' ATK by 4x, HP by 1.2x, and makes their [DEX][BOMB][S. BOMB] slots have matching slot effects",
+        special: "Reduces crew's Burn duration by 6 turns, changes crew's ATK multiplier of [BOMB][S. BOMB] slots to 3.0x when slots match (normally 2x when matching) 0.5x when unfavorable, 1.0x otherwise for 1 turn, boosts the type effects of normal attacks for Cerebral characters by 2.25x for 1 turn, changes crew's slots (including [BLOCK] slots) to [DEX], locks crew's slots for 1 turn, sets all enemies' DEF to 0 for 1 turn, and if 3 or more [Scientist] characters are on the crew, allows DEF reducing effects applied from this Special to ignore immunity to all status effects, and extends the duration of crew's type effect boost and slot ATK multiplier effect by 2 turns (this effect also applies to type effect boost and slot ATK multiplier effect from this Special)",
+        specialName: "Ominous Calculations",
+        sailor: {
+            base: "Sets all slots to [DEX] slots at start of quest (no stacking identical abilities)",
+            level1: "Makes Cerebral characters' [DEX] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Scientist]",
+                description: [
+                    "Once per quest, if inflicted with Burn status from the enemy, changes supported character's slot to [DEX] at start of crew's next turn",
+                    "Once per quest, if inflicted with Burn status from the enemy, changes supported character's slot to [DEX] at start of crew's next turn",
+                    "Once per quest, if inflicted with Burn status from the enemy, changes supported character's slot to [DEX] and reduces crew's Burn duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Burn status from the enemy, changes supported character's slot to [DEX] and reduces crew's Burn duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Burn status from the enemy, changes supported character's slot to [DEX] and reduces crew's Burn duration by 2 turns at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 1: Slot Bind" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 70" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 70" },
+            { description: "Acquire Sailor Ability 2: Makes Cerebral characters' [DEX] slots have matching slot effects" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: [DEX] Damage Reduction" },
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "[DEX] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [DEX] characters by 1%",
+                    "Reduces damage taken from [DEX] characters by 2%",
+                    "Reduces damage taken from [DEX] characters by 3%",
+                    "Reduces damage taken from [DEX] characters by 4%",
+                    "Reduces damage taken from [DEX] characters by 5%"
+                ]
+            }
+        ]
+    },
+    4489: {//6+ Shirahoshi & Mansherry 
+        captain: {
+            character1: "Boosts Striker and Cerebral characters' ATK more when HP is high (minimum 3.25x, maximum 4.25x), boosts crew's HP by 1.2x, heals crew by 0.5x character's RCV for every PERFECT at end of turn, heals crew by 0.75x character's RCV for every GREAT at end of turn, and heals crew by 1x character's RCV for every GOOD at end of turn",
+            character2: "Boosts Striker and Cerebral characters' ATK more when HP is high (minimum 3.25x, maximum 4.25x), boosts crew's HP by 1.2x, heals crew by 0.5x character's RCV for every PERFECT at end of turn, heals crew by 0.75x character's RCV for every GREAT at end of turn, and heals crew by 1x character's RCV for every GOOD at end of turn",
+            combined: "Boosts Striker and Cerebral characters' ATK more when HP is high (minimum 3.75x, maximum 4.75x), boosts crew's HP by 1.2x, heals crew by 1x character's RCV for every PERFECT at end of turn, heals crew by 1.5x character's RCV for every GREAT at end of turn, and heals crew by 2x character's RCV for every GOOD at end of turn, and allows healing up to 2x crew's max HP ignoring max HP limit (effect cannot stack; if HP is above max limit, it is treated as being full HP)"
+        },
+        special: "Heals crew by 10,000 HP at end of turn for 10 turns, completely removes crew's Poison (all)/Paralysis/RCV Down/Remove SFX, reduces crew's Bleed and Despair/Burn duration by 7 turns, changes all slots into Rainbow slots (doubling ATK; cannot be changed by crew or enemies), boosts the chain multiplier by +1.5 for 3 turns, heals crew by 50x character's RCV, and becomes \"Shirahoshi & Mansherry\" for 3 turns",
+        specialName: "Shared Taste of Happiness",
+        sailor: {
+            character1: "Boosts Cerebral and Striker characters' base ATK by 50",
+            character2: "Boosts Cerebral and Striker characters' base HP and RCV by 50",
+            combined: "Boosts Cerebral and Striker characters' base stats by 75",
+            level1: "Makes crew's [STR] slots have matching slot effects"
+        },
+        swap: {
+            base: "Allows crew to heal over the max HP limit for 1 turn (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP), heals crew by 1,500 HP, and reduces crew's Slot Bind/Special Bind/Bind/Despair duration by 1 turn",
+            super: "Allows crew to heal over the max HP limit for 1 turn (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP), heals crew by 10,000 HP, locks crew's slots for 1 turn, and reduces crew's Slot Bind/Special Bind/Bind/Despair duration by 2 turns",
+            superTurns: 5
+        },
+        limit: [
+            { description: "Boosts base RCV by 5" },
+            { description: "Boosts base RCV by 5" },
+            { description: "Boosts base RCV by 5" },
+            { description: "Acquire Potential 1: Slot Bind" },
+            { description: "Boosts base ATK by 5" },
+            { description: "Boosts base ATK by 5" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base RCV by 5" },
+            { description: "Boosts base RCV by 5" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Nutrition/Hunger" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 5" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base HP by 100" },
+            { description: "Acquire Sailor Ability 2: Makes crew's [STR] slots have matching slot effects" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 70" },
+            { description: "Acquire Potential 3: No Healing" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 25" },
+            { description: "Boosts base RCV by 25" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base ATK by 100" },
+        ],
+        lLimit: [
+            null,
+            {
+                rAbility: true
+            },
+            {
+                captain: {
+                    character1: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts Striker and Cerebral characters' ATK more when HP is high (minimum 3.5x, maximum 4.5x), boosts crew's HP by 1.2x, heals crew by 0.5x character's RCV for every PERFECT at end of turn, heals crew by 0.75x character's RCV for every GREAT at end of turn, and heals crew by 1x character's RCV for every GOOD at end of turn",
+                    character2: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts Striker and Cerebral characters' ATK more when HP is high (minimum 3.5x, maximum 4.5x), boosts crew's HP by 1.2x, heals crew by 0.5x character's RCV for every PERFECT at end of turn, heals crew by 0.75x character's RCV for every GREAT at end of turn, and heals crew by 1x character's RCV for every GOOD at end of turn",
+                    combined: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts Striker and Cerebral characters' ATK more when HP is high (minimum 4x, maximum 5x), boosts crew's HP by 1.2x, heals crew by 1.5x character's RCV for every PERFECT at end of turn, heals crew by 2x character's RCV for every GREAT at end of turn, and heals crew by 2.5x character's RCV for every GOOD at end of turn, and allows healing up to 2x crew's max HP ignoring max HP limit (effect cannot stack; if HP is above max limit, it is treated as being full HP)"
+                }
+            },
+            {
+                rSpecial: true
+            },
+            {
+                special: {
+                    base: "Heals crew by 15,000 HP at end of turn for 10 turns, completely removes crew's Poison (all)/Paralysis/RCV Down/Remove SFX, reduces crew's Bleed and Despair/Burn duration by 10 turns, changes all slots into Rainbow slots (doubling ATK; cannot be changed by crew or enemies), boosts the chain multiplier by +1.5 for 3 turns, changes the ATK multiplier of Rainbow slots to 2.5x (normally 2x) for 3 turns, heals crew by 50x character's RCV, and becomes \"Shirahoshi & Mansherry\" for 3 turns. If 3 or more [Royalty] [Merfolk] [Tontatta] characters are on the crew, further increases crew's multiplicative and additive chain multiplier boosts by +0.25 (this effect also applies to additive chain multiplier boost from this Special), and boosts the chain multiplier by 1.75x for 3 turns"
+                },
+                rResilience: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Nutrition/Hunger",
+                description: [
+                    "Boosts base ATK by up to 50, the turn after recovering up to 3000 HP and reduces Hunger stack by 1 stack",
+                    "Boosts base ATK by up to 100, the turn after recovering up to 3000 HP and reduces Hunger stack by 1 stack",
+                    "Boosts base ATK by up to 150, the turn after recovering up to 3000 HP and reduces Hunger stack by 2 stacks",
+                    "Boosts base ATK by up to 200, the turn after recovering up to 3000 HP and reduces Hunger stack by 2 stacks",
+                    "Boosts base ATK by up to 300, the turn after recovering up to 3000 HP and reduces Hunger stack by 3 stacks"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 5 turns",
+                    "Reduces No Healing duration by 10 turns"
+                ]
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
@@ -178330,4 +178603,5 @@ if (UnitUtils){
     UnitUtils.extendDouble(calcGhostStartID, 4476, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4477, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4483, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4489, "dual");
 }
