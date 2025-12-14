@@ -177922,24 +177922,24 @@ window.details = {
         }
     },
     4487: {//Dr. Vegapunk - Atlas
-        captain: "Reduces [STR], Cerebral, and Free Spirit characters' Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts their ATK by 5.5x, boosts their ATK by approximately 6x when they have [STR][TND][BOMB][S. BOMB] slots, boosts their HP by 1.2x, makes crew's [BOMB][S. BOMB] slots have matching slot effects, changes crew's [DEX][INT] slots into [BOMB] slots, slightly boosts crew's chance of landing on [DEX] slots, and makes [BOMB][S. BOMB] slots deal 0 damage to crew [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Scientist] characters are on the crew, boosts Cerebral characters' ATK by a further 1.1x and tapping on this character with a [BOMB][S. BOMB] slot will reduce all enemies' damage nullification duration by 2 turns",
-        special: "Reduces Cerebral characters' Special charge time by 2 turns, reduces all enemies' Threshold Damage Reduction duration by 10 turns, reduces damage taken by 90% for 2 turns, and allows you to select 1 of the following effects to launch for 1 turn (2 effects can be applied if 3 or more [Scientist] characters are on the crew; launched effects will not trigger enemies' interrupting actions): \"boosts Cerebral characters' ATK by 3.25x\", \"boosts Cerebral characters' slot effects by 3.25x\", \"boosts crew's ATK based on the damage reduction effect applied on the crew (e.g. if crew has 90% damage reduction, boosts ATK by 1.9x)\", \"boosts Cerebral characters' base ATK by +1750\", \"boosts the chain multiplier by +2.0\"",
+        captain: "Reduces Special Cooldown of [STR], Cerebral and Free Spirit characters by 2 turns and reduces Switch Effect of [STR], Cerebral and Free Spirit characters by 2 at the start of the fight, boosts ATK of [STR], Cerebral and Free Spirit characters by 5.5x, by 6x instead if they have a [STR], [TND], [BOMB] or [SUPERBOMB] orb, boosts HP of [STR], Cerebral and Free Spirit characters by 1.2x, boosts chances of getting [DEX] orbs, changes [DEX] and [INT] orbs into [BOMB] orbs, makes [BOMB] and [SUPERBOMB] orbs beneficial for all characters, and [BOMB] and [SUPERBOMB] orbs will deal 100% less damage to the crew. If your crew has 3+ [Scientist] characters, boosts ATK of Cerebral characters by 6.05x, by 6.6x instead if they have a [STR], [TND], [BOMB] or [SUPERBOMB] orb; additionally, if this character has a [BOMB] or [SUPERBOMB] orb and you attack with this character, reduces enemies' Damage Nullification duration by 2 turns.",
+        special: "Reduces Special Cooldown of Cerebral characters by 2 turns, reduces enemies' Threshold Damage Reduction duration by 10 turns, and reduces damage received by 90% for 2 turns. If your crew has 3+ [Scientist] characters, allows you to select up to 2 of the following effects to launch; allows you to select up to 1 of the following effects to launch otherwise (launched effects will bypass special interrupts):<ul><li>Boosts ATK of Cerebral characters by 3.25x for 1 turn</li><li>Boosts Orb Effects of Cerebral characters by 3.25x for 1 turn</li><li>Boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn</li><li>Boosts Base ATK of Cerebral characters by 1,750 for 1 turn</li><li>Adds 2.0x to chain multiplier for 1 turn</li></ul>",
         specialName: "Determined Strike",
         sailor: {
-            base: "Makes crew's [BOMB][S. BOMB] slots have matching slot effects",
-            level1: "Character cannot be blown away by attack, and tapping on this character with a [BOMB][S. BOMB] slot will apply -10% Cerebral and Free Spirit Resistance to all enemies for 1 turn"
+            base: "Makes [BOMB] and [SUPERBOMB] orbs beneficial for all characters.",
+            level1: "This character cannot be Blown Away. If this character has a [BOMB] or [SUPERBOMB] orb and you attack with this character, reduces enemies' Cerebral and Free Spirit Resistance by -10% for 1 turn."
         },
-        superSpecialCriteria: "When any 2 [Scientist] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
-        superSpecial: "Reduces character's Special charge time by 2 turns, reduces character's Special Bind duration by 10 turns, and if crew has ATK Up, reduces crew's ATK boost effect by 0.5 but changes the ATK boost to a stackable ATK boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as an ATK boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other ATK boost effect), and changes [STR] characters to Super [STR]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: [Scientist] characters",
+        superSpecial: "Reduces Special Cooldown of this character by 2 turns, and reduces Special Bind duration by 10 turns on this character. If your crew has ATK Up, decreases boost effects of ATK Up buffs by -0.5x, and converts ATK Up into a Stackable ATK Up. Transforms [STR] characters into Super [STR] characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Scientist]",
+                Characters: "[Scientist] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces damage taken by 20% for 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces damage taken by 25% for 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces damage taken by 25% for 2 turns",
-                    "Once per quest, if supported character uses a Special, reduces damage taken by 30% for 2 turns",
-                    "Once per quest, if supported character uses a Special, reduces damage taken by 30% for 2 turns and changes adjacent slots to [BOMB]"
+                    "Once per adventure, when the supported character uses their special, reduces damage received by 20% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces damage received by 25% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces damage received by 25% for 2 turns.",
+                    "Once per adventure, when the supported character uses their special, reduces damage received by 30% for 2 turns.",
+                    "Once per adventure, when the supported character uses their special, reduces damage received by 30% for 2 turns, and changes orbs of adjacent characters into [BOMB] orbs."
                 ]
             }
         ],
@@ -178019,22 +178019,22 @@ window.details = {
         ]
     },
     4488: {//Dr. Vegapunk - Lilith
-        captain: "Boosts Cerebral characters' ATK by 4x, HP by 1.2x, and makes their [DEX][BOMB][S. BOMB] slots have matching slot effects",
-        special: "Reduces crew's Burn duration by 6 turns, changes crew's ATK multiplier of [BOMB][S. BOMB] slots to 3.0x when slots match (normally 2x when matching) 0.5x when unfavorable, 1.0x otherwise for 1 turn, boosts the type effects of normal attacks for Cerebral characters by 2.25x for 1 turn, changes crew's slots (including [BLOCK] slots) to [DEX], locks crew's slots for 1 turn, sets all enemies' DEF to 0 for 1 turn, and if 3 or more [Scientist] characters are on the crew, allows DEF reducing effects applied from this Special to ignore immunity to all status effects, and extends the duration of crew's type effect boost and slot ATK multiplier effect by 2 turns (this effect also applies to type effect boost and slot ATK multiplier effect from this Special)",
+        captain: "Boosts ATK of Cerebral characters by 4x, boosts HP of Cerebral characters by 1.2x, and makes [DEX], [BOMB] and [SUPERBOMB] orbs beneficial for Cerebral characters.",
+        special: "Reduces Burn duration by 6 turns, increases Orb Effects of beneficial [BOMB] and [SUPERBOMB] orbs to 3x for 1 turn, boosts the Color Affinity of Cerebral characters by 2.25x for 1 turn, changes all orbs, including [BLOCK] orbs, into [DEX] orbs, and locks all orbs for 1 turn. If your crew has 3+ [Scientist] characters, increases duration of any Color Affinity and Orb Multiplier Override buffs by 2 turns, including effects activated in the same ability, and ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn; reduces the defense of all enemies by 100% for 1 turn otherwise.",
         specialName: "Ominous Calculations",
         sailor: {
-            base: "Sets all slots to [DEX] slots at start of quest (no stacking identical abilities)",
-            level1: "Makes Cerebral characters' [DEX] slots have matching slot effects"
+            base: "Changes orbs of all characters into [DEX] orbs at the start of the fight.",
+            level1: "Makes [DEX] orbs beneficial for Cerebral characters."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Scientist]",
+                Characters: "[Scientist] characters",
                 description: [
-                    "Once per quest, if inflicted with Burn status from the enemy, changes supported character's slot to [DEX] at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn status from the enemy, changes supported character's slot to [DEX] at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn status from the enemy, changes supported character's slot to [DEX] and reduces crew's Burn duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn status from the enemy, changes supported character's slot to [DEX] and reduces crew's Burn duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn status from the enemy, changes supported character's slot to [DEX] and reduces crew's Burn duration by 2 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Burn, changes the orb of the supported character into a [DEX] orb.",
+                    "Once per adventure, when an enemy inflicts you with Burn, changes the orb of the supported character into a [DEX] orb.",
+                    "Once per adventure, when an enemy inflicts you with Burn, changes the orb of the supported character into a [DEX] orb, and reduces Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Burn, changes the orb of the supported character into a [DEX] orb, and reduces Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Burn, changes the orb of the supported character into a [DEX] orb, and reduces Burn duration by 2 turns."
                 ]
             }
         ],
@@ -178080,21 +178080,21 @@ window.details = {
     },
     4489: {//6+ Shirahoshi & Mansherry 
         captain: {
-            character1: "Boosts Striker and Cerebral characters' ATK more when HP is high (minimum 3.25x, maximum 4.25x), boosts crew's HP by 1.2x, heals crew by 0.5x character's RCV for every PERFECT at end of turn, heals crew by 0.75x character's RCV for every GREAT at end of turn, and heals crew by 1x character's RCV for every GOOD at end of turn",
-            character2: "Boosts Striker and Cerebral characters' ATK more when HP is high (minimum 3.25x, maximum 4.25x), boosts crew's HP by 1.2x, heals crew by 0.5x character's RCV for every PERFECT at end of turn, heals crew by 0.75x character's RCV for every GREAT at end of turn, and heals crew by 1x character's RCV for every GOOD at end of turn",
-            combined: "Boosts Striker and Cerebral characters' ATK more when HP is high (minimum 3.75x, maximum 4.75x), boosts crew's HP by 1.2x, heals crew by 1x character's RCV for every PERFECT at end of turn, heals crew by 1.5x character's RCV for every GREAT at end of turn, and heals crew by 2x character's RCV for every GOOD at end of turn, and allows healing up to 2x crew's max HP ignoring max HP limit (effect cannot stack; if HP is above max limit, it is treated as being full HP)"
+            character1: "Boosts ATK of Striker and Cerebral characters by 3.25x-4.25x depending on the crew's current HP, boosts HP of all characters by 1.2x, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT, recovers 0.75x this character's RCV at the end of the turn for each time you hit a GREAT, and recovers 1x this character's RCV at the end of the turn for each time you hit a GOOD.",
+            character2: "Boosts ATK of Striker and Cerebral characters by 3.25x-4.25x depending on the crew's current HP, boosts HP of all characters by 1.2x, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT, recovers 0.75x this character's RCV at the end of the turn for each time you hit a GREAT, and recovers 1x this character's RCV at the end of the turn for each time you hit a GOOD.",
+            combined: "Boosts ATK of Striker and Cerebral characters by 3.75x-4.75x depending on the crew's current HP, boosts HP of all characters by 1.2x, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT, recovers 1.5x this character's RCV at the end of the turn for each time you hit a GREAT, recovers 2x this character's RCV at the end of the turn for each time you hit a GOOD, and allows HP Overfill up to 2x MAX."
         },
-        special: "Heals crew by 10,000 HP at end of turn for 10 turns, completely removes crew's Poison (all)/Paralysis/RCV Down/Remove SFX, reduces crew's Bleed and Despair/Burn duration by 7 turns, changes all slots into Rainbow slots (doubling ATK; cannot be changed by crew or enemies), boosts the chain multiplier by +1.5 for 3 turns, heals crew by 50x character's RCV, and becomes \"Shirahoshi & Mansherry\" for 3 turns",
+        special: "Recovers 10,000 HP at the end of the turn for 10 turns, removes Poison, Paralysis, RCV Down and Blindness duration completely, reduces Bleed, Despair and Burn duration by 7 turns, changes all orbs into [RAINBOW] orbs, adds 1.5x to chain multiplier for 3 turns, recovers 50x character's RCV in HP, and becomes Shirahoshi & Mansherry for 3 turns.",
         specialName: "Shared Taste of Happiness",
         sailor: {
-            character1: "Boosts Cerebral and Striker characters' base ATK by 50",
-            character2: "Boosts Cerebral and Striker characters' base HP and RCV by 50",
-            combined: "Boosts Cerebral and Striker characters' base stats by 75",
-            level1: "Makes crew's [STR] slots have matching slot effects"
+            character1: "Boosts base ATK of Cerebral and Striker characters by 50.",
+            character2: "BBoosts base HP and RCV of Cerebral and Striker characters by 50.",
+            combined: "Boosts base ATK, HP and RCV of Cerebral and Striker characters by 75.",
+            level1: "Makes [STR] orbs beneficial for all characters."
         },
         swap: {
-            base: "Allows crew to heal over the max HP limit for 1 turn (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP), heals crew by 1,500 HP, and reduces crew's Slot Bind/Special Bind/Bind/Despair duration by 1 turn",
-            super: "Allows crew to heal over the max HP limit for 1 turn (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP), heals crew by 10,000 HP, locks crew's slots for 1 turn, and reduces crew's Slot Bind/Special Bind/Bind/Despair duration by 2 turns",
+            base: "Allows HP Overfill up to 2x MAX HP for 1 turn, recovers 1,500 HP, and reduces Slot Bind, Special Bind, Bind and Despair duration by 1 turn.",
+            super: "Allows HP Overfill up to 2x MAX HP for 1 turn, recovers 10,000 HP, locks all orbs for 1 turn, and reduces Slot Bind, Special Bind, Bind and Despair duration by 2 turns.",
             superTurns: 5
         },
         limit: [
@@ -178146,9 +178146,9 @@ window.details = {
             },
             {
                 captain: {
-                    character1: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts Striker and Cerebral characters' ATK more when HP is high (minimum 3.5x, maximum 4.5x), boosts crew's HP by 1.2x, heals crew by 0.5x character's RCV for every PERFECT at end of turn, heals crew by 0.75x character's RCV for every GREAT at end of turn, and heals crew by 1x character's RCV for every GOOD at end of turn",
-                    character2: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts Striker and Cerebral characters' ATK more when HP is high (minimum 3.5x, maximum 4.5x), boosts crew's HP by 1.2x, heals crew by 0.5x character's RCV for every PERFECT at end of turn, heals crew by 0.75x character's RCV for every GREAT at end of turn, and heals crew by 1x character's RCV for every GOOD at end of turn",
-                    combined: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts Striker and Cerebral characters' ATK more when HP is high (minimum 4x, maximum 5x), boosts crew's HP by 1.2x, heals crew by 1.5x character's RCV for every PERFECT at end of turn, heals crew by 2x character's RCV for every GREAT at end of turn, and heals crew by 2.5x character's RCV for every GOOD at end of turn, and allows healing up to 2x crew's max HP ignoring max HP limit (effect cannot stack; if HP is above max limit, it is treated as being full HP)"
+                    character1: "Reduces Special Cooldown of all characters by 2 turns and reduces Switch Effect of all characters by 2 at the start of the fight, boosts ATK of Striker and Cerebral characters by 3.5x-4.5x depending on the crew's current HP, boosts HP of all characters by 1.2x, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT, recovers 0.75x this character's RCV at the end of the turn for each time you hit a GREAT, and recovers 1x this character's RCV at the end of the turn for each time you hit a GOOD.",
+                    character2: "Reduces Special Cooldown of all characters by 2 turns and reduces Switch Effect of all characters by 2 at the start of the fight, boosts ATK of Striker and Cerebral characters by 3.5x-4.5x depending on the crew's current HP, boosts HP of all characters by 1.2x, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT, recovers 0.75x this character's RCV at the end of the turn for each time you hit a GREAT, and recovers 1x this character's RCV at the end of the turn for each time you hit a GOOD.",
+                    combined: "Reduces Special Cooldown of all characters by 2 turns and reduces Switch Effect of all characters by 2 at the start of the fight, boosts ATK of Striker and Cerebral characters by 4x-5x depending on the crew's current HP, boosts HP of all characters by 1.2x, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT, recovers 2x this character's RCV at the end of the turn for each time you hit a GREAT, recovers 2.5x this character's RCV at the end of the turn for each time you hit a GOOD, and allows HP Overfill up to 2x MAX."
                 }
             },
             {
@@ -178156,7 +178156,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Heals crew by 15,000 HP at end of turn for 10 turns, completely removes crew's Poison (all)/Paralysis/RCV Down/Remove SFX, reduces crew's Bleed and Despair/Burn duration by 10 turns, changes all slots into Rainbow slots (doubling ATK; cannot be changed by crew or enemies), boosts the chain multiplier by +1.5 for 3 turns, changes the ATK multiplier of Rainbow slots to 2.5x (normally 2x) for 3 turns, heals crew by 50x character's RCV, and becomes \"Shirahoshi & Mansherry\" for 3 turns. If 3 or more [Royalty] [Merfolk] [Tontatta] characters are on the crew, further increases crew's multiplicative and additive chain multiplier boosts by +0.25 (this effect also applies to additive chain multiplier boost from this Special), and boosts the chain multiplier by 1.75x for 3 turns"
+                    base: "Recovers 15,000 HP at the end of the turn for 10 turns, removes Poison, Paralysis, RCV Down and Blindness duration completely, reduces Bleed, Despair and Burn duration by 10 turns, changes all orbs into [RAINBOW] orbs, adds 1.5x to chain multiplier for 3 turns, increases Orb Effects of beneficial [RAINBOW] orbs to 2.5x for 3 turns, recovers 50x character's RCV in HP, and becomes Shirahoshi & Mansherry for 3 turns. If your crew has 3+ [Royalty], [Merfolk] or [Tontatta] characters, increases boost effects of Chain Multiplication and Chain Addition buffs by +0.25x, including effects activated in the same ability, and boosts Chain Multiplier Growth Rate by 1.75x for 3 turns."
                 },
                 rResilience: true
             }
