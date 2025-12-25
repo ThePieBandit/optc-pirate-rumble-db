@@ -178194,6 +178194,1362 @@ window.details = {
             }
         ]
     },
+    4490: {//Luffy & Bonney
+        captain: "Launches the following effect at start of quest: \"Reduces crew's Special charge time by 3 turns and VS Effect gauge and Switch Effect by 3, locks crew's slots for 10 turns, allows crew to perform Super Tandem with [RCV] and Rainbow slots for 10 turns (cannot be removed by crew or enemies)\". Boosts [INT], Free Spirit, and Cerebral characters' ATK by 6x, HP by 1.2x, and makes crew's [INT][RCV] have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters' ATK by 1.1x\" becomes \"Boosts [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters' ATK by 1.4x\" [Applies following effect based on number of applicable Character Tags on crew] Reduces [Straw Hat Pirates] [Egghead Arc] characters' Special charge time by a further 2 turns at start of quest. If 4 or more [Straw Hat Pirates] [Egghead Arc] characters are on the crew, boosts [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters' ATK by 1.1x, and allows crew's Weakened stats/damage taken increased status applying effects to ignore immunity to all status effects",
+        special: "Delays all enemies for 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), reduces crew's Despair duration by 10 turns, deals 300x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), applies \"Territory: [INT]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns, and boosts damage dealt to delayed enemies by up to 4x based on outcome of Action Special<hidden> (3x for MISS, 3.2x for GOOD, 3.5x for GREAT, 3.8x for PERFECT, 4 for EXCELLENT)</hidden> for 1 turn. If crew has ability to ignore all defensive effects with normal attacks when Special is launched, allows crew to stack up to 2 different damage boosting effects<hidden> (cannot stack the damage boost of the same type)</hidden> for 1 turn, and boosts damage dealt to enemies with Increase Damage TakenWeaken status by 2.75x for 1 turn. If character is a Captain and an [INT] is set as support for character, allows [Straw Hat Pirates] [Egghead Arc] characters' normal attacks to ignore enemies' defensive effects for 1 turn (allows character's normal attacks to ignore enemies' defensive effects for 1 turn otherwise)",
+        specialName: "Liberation Nika Punch",
+        sailor: {
+            base: "Boosts Free Spirit characters' base ATK by 1.1x",
+            level1: "Boosts Free Spirit and Cerebral characters' base HP by 150, makes Free Spirit characters' [INT][RCV] slots have matching slot effects, and makes Cerebral characters' [PSY][TND] slots have matching slot effects"
+        },
+        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
+        superSpecial: "Reduces character's Special charge time by 3 turns, boosts the chain multiplier by 1.5x for 1 turn, and changes crew's slots (including [BLOCK] slots) to [RCV]. If characters' 1st class is Slasher or Powerhouse, changes their 1st class to Cerebral<hidden> (unless character is already a Cerebral as a 2nd class)</hidden> for 1 turn. Changes Free Spirit characters to Super Free Spirit and changes Cerebral characters to Super Cerebral",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                description: [
+                    "Adds 7% of character's base stats to supported character's base stats",
+                    "Adds 9% of character's base stats to supported character's base stats",
+                    "Adds 11% of character's base stats to supported character's base stats",
+                    "Adds 13% of character's base stats to supported character's base stats",
+                    "Adds 15% of character's base stats to supported character's base stats"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Super Tandem" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Acquire Sailor Ability 2: Boosts Free Spirit and Cerebral characters' base HP by 150, makes Free Spirit characters' [INT][RCV] slots have matching slot effects, and makes Cerebral characters' [PSY][TND] slots have matching slot effects" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Damage Limit Break: Class" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns",
+                    "Boosts base ATK by 400 the turn after taking damage and reduces Increase Damage Taken duration by 4 turns",
+                    "Boosts base ATK by 500 the turn after taking damage and reduces Increase Damage Taken duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Free Spirit characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Free Spirit characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Free Spirit characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Free Spirit characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Free Spirit characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake"
+            ],
+            description: [
+                "Reduces Special charge time of \"Monkey D. Luffy\" and \"Jewelry Bonney\" by 1 turn, and applies ATK Boost (Tandem) of 1.75x to Free Spirit and Cerebral characters for 1 turn",
+                "Reduces Special charge time of \"Monkey D. Luffy\" and \"Jewelry Bonney\" by 1 turn, and applies ATK Boost (Tandem) of 2x to Free Spirit and Cerebral characters for 1 turn",
+                "Reduces Special charge time of \"Monkey D. Luffy\" and \"Jewelry Bonney\" by 1 turn, and applies ATK Boost (Tandem) of 2.25x to Free Spirit and Cerebral characters for 1 turn",
+                "Reduces Special charge time of \"Monkey D. Luffy\" and \"Jewelry Bonney\" by 2 turns, and applies ATK Boost (Tandem) of 2.5x to Free Spirit and Cerebral characters for 1 turn",
+                "Reduces Special charge time of \"Monkey D. Luffy\" and \"Jewelry Bonney\" by 2 turns, and applies ATK Boost (Tandem) of 3x to Free Spirit and Cerebral characters for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 128,
+            spd: 215,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Action Bind/Confusion, reduce damage taken from [PSY] by 30%",
+        festAbility: [
+            "[INT]/Free Spirit class teammates HP Up Lv.3, RCV Up Lv.3, SPD Up Lv.3; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates ATK Up Lv.1, Special CT Speed Up Lv.1; when appearing on the field, \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates Special CT 5% reduction; when remaining time is 50 s or less, or when appearing on the field when remaining time is 50 s or less, all enemies Special CT 10% delay",
+            "[INT]/Free Spirit class teammates HP Up Lv.4, RCV Up Lv.4, SPD Up Lv.4; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates ATK Up Lv.2, Special CT Speed Up Lv.1; when appearing on the field, \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates Special CT 6% reduction; when remaining time is 50 s or less, or when appearing on the field when remaining time is 50 s or less, all enemies Special CT 15% delay",
+            "[INT]/Free Spirit class teammates HP Up Lv.5, RCV Up Lv.5, SPD Up Lv.5; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates ATK Up Lv.3, Special CT Speed Up Lv.2; when appearing on the field, \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates Special CT 7% reduction; when remaining time is 50 s or less, or when appearing on the field when remaining time is 50 s or less, all enemies Special CT 20% delay",
+            "[INT]/Free Spirit class teammates HP Up Lv.6, RCV Up Lv.6, SPD Up Lv.6; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates ATK Up Lv.4, Special CT Speed Up Lv.2; when appearing on the field, \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates Special CT 8% reduction; when remaining time is 50 s or less, or when appearing on the field when remaining time is 50 s or less, all enemies Special CT 25% delay",
+            "[INT]/Free Spirit class teammates HP Up Lv.7, RCV Up Lv.7, SPD Up Lv.7; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates ATK Up Lv.5, Special CT Speed Up Lv.3; when appearing on the field, \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates Special CT 10% reduction; when remaining time is 50 s or less, or when appearing on the field when remaining time is 50 s or less, all enemies Special CT 30% delay"
+        ],
+        festSpecial: [
+            {
+                cooldown: 27,
+                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.1 (11 s); targets 3 enemies with high current Special CT for Special CT 21% delay; targets all [Five Elders] enemies for 82% chance of Forced Out (10 s); targets enemies within large range for 11000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 3.2 damage"
+            },
+            {
+                cooldown: 27,
+                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.1 (12 s); targets 3 enemies with high current Special CT for Special CT 22% delay; targets all [Five Elders] enemies for 84% chance of Forced Out (10 s); targets enemies within large range for 12000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 3.4 damage"
+            },
+            {
+                cooldown: 27,
+                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.2 (13 s); targets 3 enemies with high current Special CT for Special CT 23% delay; targets all [Five Elders] enemies for 86% chance of Forced Out (10 s); targets enemies within large range for 13000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 3.6 damage"
+            },
+            {
+                cooldown: 27,
+                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.2 (14 s); targets 3 enemies with high current Special CT for Special CT 24% delay; targets all [Five Elders] enemies for 88% chance of Forced Out (10 s); targets enemies within large range for 14000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 3.8 damage"
+            },
+            {
+                cooldown: 27,
+                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.3 (15 s); targets 3 enemies with high current Special CT for Special CT 25% delay; targets all [Five Elders] enemies for 90% chance of Forced Out (10 s); targets enemies within large range for 15000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 4 damage"
+            },
+            {
+                cooldown: 27,
+                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.3 (16 s); targets 3 enemies with high current Special CT for Special CT 26% delay; targets all [Five Elders] enemies for 92% chance of Forced Out (10 s); targets enemies within large range for 16000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 4.2 damage"
+            },
+            {
+                cooldown: 27,
+                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.4 (17 s); targets 3 enemies with high current Special CT for Special CT 27% delay; targets all [Five Elders] enemies for 94% chance of Forced Out (10 s); targets enemies within large range for 17000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 4.4 damage"
+            },
+            {
+                cooldown: 27,
+                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.4 (18 s); targets 3 enemies with high current Special CT for Special CT 28% delay; targets all [Five Elders] enemies for 96% chance of Forced Out (10 s); targets enemies within large range for 18000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 4.6 damage"
+            },
+            {
+                cooldown: 27,
+                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.5 (19 s); targets 3 enemies with high current Special CT for Special CT 29% delay; targets all [Five Elders] enemies for 98% chance of Forced Out (10 s); targets enemies within large range for 19000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 4.8 damage"
+            },
+            {
+                cooldown: 27,
+                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.5 (20 s); targets 3 enemies with high current Special CT for Special CT 30% delay; targets all [Five Elders] enemies for 100% chance of Forced Out (10 s); targets enemies within large range for 20000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 5 damage"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "[INT]/[PSY] teammates ATK, RCV Up Lv.2, Special CT Speed Up Lv.1; Free Spirit/Cerebral class teammates HP, SPD Up Lv.2, DEF Up Lv.1; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates HP, DEF Up Lv.2; if there are 4 or more [Navy] [World Government] enemies, all enemies Special CT Speed Down Lv.1",
+                festGPSpecial: "Targets all enemies for Special CT 22% delay, targets all enemies ignoring DEF for Leader base ATK x 1.2 damage; targets [INT]/[PSY]/Free Spirit/Cerebral class teammates for Special CT 22% reduction",
+                uses: 2
+            },
+            {
+                festGPAbility: "[INT]/[PSY] teammates ATK, RCV Up Lv.3, Special CT Speed Up Lv.1; Free Spirit/Cerebral class teammates HP, SPD Up Lv.3, DEF Up Lv.2; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates HP, DEF Up Lv.3; if there are 4 or more [Navy] [World Government] enemies, all enemies Special CT Speed Down Lv.2",
+                festGPSpecial: "Targets all enemies for Special CT 24% delay, targets all enemies ignoring DEF for Leader base ATK x 1.3 damage; targets [INT]/[PSY]/Free Spirit/Cerebral class teammates for Special CT 24% reduction",
+                uses: 2
+            },
+            {
+                festGPAbility: "[INT]/[PSY] teammates ATK, RCV Up Lv.4, Special CT Speed Up Lv.2; Free Spirit/Cerebral class teammates HP, SPD Up Lv.4, DEF Up Lv.3; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates HP, DEF Up Lv.4; if there are 4 or more [Navy] [World Government] enemies, all enemies Special CT Speed Down Lv.3",
+                festGPSpecial: "Targets all enemies for Special CT 26% delay, targets all enemies ignoring DEF for Leader base ATK x 1.4 damage; targets [INT]/[PSY]/Free Spirit/Cerebral class teammates for Special CT 26% reduction",
+                uses: 2
+            },
+            {
+                festGPAbility: "[INT]/[PSY] teammates ATK, RCV Up Lv.5, Special CT Speed Up Lv.2; Free Spirit/Cerebral class teammates HP, SPD Up Lv.5, DEF Up Lv.3; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates HP, DEF Up Lv.5; if there are 4 or more [Navy] [World Government] enemies, all enemies Special CT Speed Down Lv.4",
+                festGPSpecial: "Targets all enemies for Special CT 28% delay, targets all enemies ignoring DEF for Leader base ATK x 1.5 damage; targets [INT]/[PSY]/Free Spirit/Cerebral class teammates for Special CT 28% reduction",
+                uses: 2
+            },
+            {
+                festGPAbility: "[INT]/[PSY] teammates ATK, RCV Up Lv.6, Special CT Speed Up Lv.3; Free Spirit/Cerebral class teammates HP, SPD Up Lv.6, DEF Up Lv.4; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates HP, DEF Up Lv.6; if there are 4 or more [Navy] [World Government] enemies, all enemies Special CT Speed Down Lv.5",
+                festGPSpecial: "Targets all enemies for Special CT 30% delay, targets all enemies ignoring DEF for Leader base ATK x 1.6 damage; targets [INT]/[PSY]/Free Spirit/Cerebral class teammates for Special CT 30% reduction",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "After dealing damage 16 times"
+    },
+    4491: {//Saturn
+        captain: "Reduces [STR], Driven, and Cerebral characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts [STR], Driven, and Cerebral characters' ATK by 6x, and makes their [STR][RCV] have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Egghead Arc] [Scientist] [Navy] [World Government] [Five Elders] characters' ATK by 1.1x\" becomes \"Boosts [Egghead Arc] [Scientist] [Navy] [World Government] [Five Elders] characters' ATK by 1.4x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Egghead Arc] [Scientist] [Navy] [World Government] [Five Elders] characters' ATK by 1.1x. If 4 or more [Egghead Arc] [Scientist] [Navy] [World Government] [Five Elders] characters are on the crew, and crew is inflicted with Color Affinity status (does not apply to statuses inflicted by Captain Ability or Crewmate Ability), allows crew's type effect boost to be further increased up to 2 times, and further increases boost by 1.4x (maximum value is 10x, cannot be further increased). Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 8 turns at start of quest",
+        special: "Reduces crew's Paralysis/ATK Down duration by 10 turns, applies \"Territory: [STR]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 3 turns, boosts the minimum chain multiplier value by up to 4.5 for up to 5 turns based on outcome of Action Special (3.25 and 3 turns for MISS, 3.5 and 4 turns for GOOD, 3.75 and 5 turns for GREAT, 4.0 and 5 turns for PERFECT, 4.5 and 5 turns for EXCELLENT), and sets the chain multiplier's maximum value to 30.0. If 5 or more [Egghead Arc] [Scientist] [Navy] [World Government] [Five Elders] characters are on the crew, increases all enemies' damage taken by 2.5x for 2 turns ignoring immunity to status effects. If 5 or more [Scientist] [Five Elders] characters are on the crew, further increases all enemies' increase damage taken effect by +1.0<hidden> (effect applies to increase damage taken effect from this Special)</hidden>",
+        specialName: "Insect-Crushing Claws of the World Government's Highest Authority",
+        sailor: {
+            base: "Makes Driven and Cerebral characters' [STR][RCV] slots have matching slot effects, and boosts their base stats by 150",
+            level1: "If field has \"Territory: Driven class\" or \"Territory: Cerebral class\", adds +0.2 to the minimum chain multiplier value (this effect can stack; boosts Driven and Cerebral characters' base ATK by 50 otherwise)"
+        },
+        superSpecialCriteria: "When crew has Color Affinity at 7x or more or receives Over Healing status (can be launched when character is a crewmate)",
+        superSpecial: "Reduces character's Special charge time by 5 turns, boosts Driven and Cerebral characters' advantageous class effect by 1.5x for 1 turn (effect can be overwritten with other advantageous class effect boosts), changes [STR] characters to Super [STR], and changes Driven characters to Super Driven",
+        support: [
+            {
+                Characters: "Characters with a Cost of 99 or more",
+                description: [
+                    "Once per quest, if inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Paralysis or ATK Down status from the enemy, reduces crew's Paralysis/ATK Down duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Paralysis or ATK Down status from the enemy, reduces crew's Paralysis/ATK Down duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Paralysis or ATK Down status from the enemy, reduces crew's Paralysis/ATK Down duration by 2 turns at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Acquire Potential 1: Special Use Limit" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Enrage/Increase Damage Taken" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: If field has \"Territory: Driven class\" or \"Territory: Cerebral class\", adds +0.2 to the minimum chain multiplier value (this effect can stack; boosts Driven and Cerebral characters\\' base ATK by 50 otherwise)" },
+            { description: "Boosts base RCV by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Last Tap" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Special Use Limit",
+                description: [
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns",
+                    "Boosts base ATK by 400 the turn after taking damage and reduces Increase Damage Taken duration by 4 turns",
+                    "Boosts base ATK by 500 the turn after taking damage and reduces Increase Damage Taken duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "On the turn Special is launched during final Battle",
+            description: [
+                "Changes character's slot to character's own type, and further boosts the chain multiplier of the final tap by 1.25x",
+                "Changes character's slot to character's own type, and further boosts the chain multiplier of the final tap by 1.5x",
+                "Changes character's slot to character's own type, and further boosts the chain multiplier of the final tap by 1.75x",
+                "Changes character's slot to character's own type, and further boosts the chain multiplier of the final tap by 2x",
+                "Changes character's slot to character's own type, further increases crew's slot effect boost by +0.3, and further boosts the chain multiplier of the final tap by 2.25x"
+            ]
+        },
+        festStats: {
+            def: 155,
+            spd: 179,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Forced Out/Special Bind, reduce damage taken from [DEX] by 30%",
+        festAbility: [
+            "[STR]/Driven class and [Five Elders] teammates HP Up Lv.3, RCV Up Lv.3, SPD Up Lv.3; [Navy] [World Government] [Zoan-type] teammates ATK Up Lv.1, DEF Up Lv.1; when character receives Halve Stats, up to 2 times self ATK Up Lv.2; all enemies DEF Down Lv.1",
+            "[STR]/Driven class and [Five Elders] teammates HP Up Lv.4, RCV Up Lv.4, SPD Up Lv.4; [Navy] [World Government] [Zoan-type] teammates ATK Up Lv.2, DEF Up Lv.1; when character receives Halve Stats, up to 2 times self ATK Up Lv.3; all enemies DEF Down Lv.2",
+            "[STR]/Driven class and [Five Elders] teammates HP Up Lv.5, RCV Up Lv.5, SPD Up Lv.5; [Navy] [World Government] [Zoan-type] teammates ATK Up Lv.3, DEF Up Lv.2; when character receives Halve Stats, up to 2 times self ATK Up Lv.4; all enemies DEF Down Lv.3",
+            "[STR]/Driven class and [Five Elders] teammates HP Up Lv.6, RCV Up Lv.6, SPD Up Lv.6; [Navy] [World Government] [Zoan-type] teammates ATK Up Lv.4, DEF Up Lv.2; when character receives Halve Stats, up to 2 times self ATK Up Lv.5; all enemies DEF Down Lv.4",
+            "[STR]/Driven class and [Five Elders] teammates HP Up Lv.7, RCV Up Lv.7, SPD Up Lv.7; [Navy] [World Government] [Zoan-type] teammates ATK Up Lv.5, DEF Up Lv.3; when character receives Halve Stats, up to 2 times self ATK Up Lv.6; all enemies DEF Down Lv.4"
+        ],
+        festSpecial: [
+            {
+                cooldown: 30,
+                description: "Targets [STR]/Driven class teammates for DEF Up Lv.1 (11 s), Halve Stats reduction (6 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 82% chance of Haste; targets enemies within medium range for ATK x 3 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [STR]/Driven class teammates for DEF Up Lv.1 (12 s), Halve Stats reduction (7 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 84% chance of Haste; targets enemies within medium range for ATK x 4 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [STR]/Driven class teammates for DEF Up Lv.2 (13 s), Halve Stats reduction (8 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 86% chance of Haste; targets enemies within medium range for ATK x 5 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [STR]/Driven class teammates for DEF Up Lv.2 (14 s), Halve Stats reduction (9 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 88% chance of Haste; targets enemies within medium range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [STR]/Driven class teammates for DEF Up Lv.3 (15 s), Halve Stats reduction (10 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 90% chance of Haste; targets enemies within medium range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [STR]/Driven class teammates for DEF Up Lv.3 (16 s), Halve Stats reduction (11 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 92% chance of Haste; targets enemies within medium range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [STR]/Driven class teammates for DEF Up Lv.4 (17 s), Halve Stats reduction (12 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 94% chance of Haste; targets enemies within medium range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [STR]/Driven class teammates for DEF Up Lv.4 (18 s), Halve Stats reduction (13 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 96% chance of Haste; targets enemies within medium range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [STR]/Driven class teammates for DEF Up Lv.5 (19 s), Halve Stats reduction (14 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 98% chance of Haste; targets enemies within medium range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets [STR]/Driven class teammates for DEF Up Lv.6 (20 s), Halve Stats reduction (15 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 100% chance of Haste; targets enemies within medium range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies)"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "[STR] teammates SPD, RCV Up Lv.2, Special CT Speed Up Lv.1; Driven/Cerebral class teammates HP, ATK Up Lv.2, DEF Up Lv.1; when remaining time is 50 s or less, all enemies DEF Down Lv.1",
+                festGPSpecial: "Targets [STR]/Driven/Cerebral class teammates for Halve Stats reduction (11 s); targets Powerhouse/Free Spirit class enemies for 100% chance of Halve Stats (11 s); targets all enemies for Leader base ATK x 2 damage, Leader base ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[STR] teammates SPD, RCV Up Lv.3, Special CT Speed Up Lv.1; Driven/Cerebral class teammates HP, ATK Up Lv.3, DEF Up Lv.2; when remaining time is 50 s or less, all enemies DEF Down Lv.2",
+                festGPSpecial: "Targets [STR]/Driven/Cerebral class teammates for Halve Stats reduction (12 s); targets Powerhouse/Free Spirit class enemies for 100% chance of Halve Stats (12 s); targets all enemies for Leader base ATK x 2.5 damage, Leader base ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[STR] teammates SPD, RCV Up Lv.4, Special CT Speed Up Lv.2; Driven/Cerebral class teammates HP, ATK Up Lv.4, DEF Up Lv.3; when remaining time is 50 s or less, all enemies DEF Down Lv.3",
+                festGPSpecial: "Targets [STR]/Driven/Cerebral class teammates for Halve Stats reduction (13 s); targets Powerhouse/Free Spirit class enemies for 100% chance of Halve Stats (13 s); targets all enemies for Leader base ATK x 3 damage, Leader base ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[STR] teammates SPD, RCV Up Lv.5, Special CT Speed Up Lv.2; Driven/Cerebral class teammates HP, ATK Up Lv.5, DEF Up Lv.3; when remaining time is 50 s or less, all enemies DEF Down Lv.4",
+                festGPSpecial: "Targets [STR]/Driven/Cerebral class teammates for Halve Stats reduction (14 s); targets Powerhouse/Free Spirit class enemies for 100% chance of Halve Stats (14 s); targets all enemies for Leader base ATK x 3.5 damage, Leader base ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies)",
+                uses: 3
+            },
+            {
+                festGPAbility: "[STR] teammates SPD, RCV Up Lv.6, Special CT Speed Up Lv.3; Driven/Cerebral class teammates HP, ATK Up Lv.6, DEF Up Lv.4; when remaining time is 50 s or less, all enemies DEF Down Lv.5",
+                festGPSpecial: "Targets [STR]/Driven/Cerebral class teammates for Halve Stats reduction (15 s); targets Powerhouse/Free Spirit class enemies for 100% chance of Halve Stats (15 s); targets all enemies for Leader base ATK x 4 damage, Leader base ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies)",
+                uses: 3
+            }
+        ],
+        festAbilityGPCondition: "After receiving damage 12 times"
+    },
+    4492: {//Kuma
+        captain: "Reduces crew's VS Effect gauge and Switch Effect by 2 at start of quest, boosts [INT], Cerebral, and Free Spirit characters' ATK by 6x, HP by 1.5x, makes crew's [DEX][RCV] slots have matching slot effects, crew cannot be blown away by attack, and reduces character's Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters are on the crew, boosts [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters' ATK by 1.25x. Reduces [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters's Special charge time by 3 turns at start of quest",
+        special: "Reduces crew's Special charge time by 1 turn, reduces crew's Bind/Special Bind duration by 7 turns, applies \"Territory: Cerebral class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns, and reduces crew's type effect boost effect by 0.5 but changes the type effect boost to a stackable boost<hidden> (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as a type effect boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other type effect boost effect)</hidden>. If character has used \"Memories of the Path Thus Far\" 0 times, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 3.5x for 3 turns (cannot be removed by crew or enemies). If character has used \"Memories of the Path Thus Far\" 1 or more times and 4 or more [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters are on the crew, heals crew by 50x character's RCV<hidden> (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP)</hidden>, and applies Set Target status (Cerebral and Free Spirit characters will deal 2x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated) to all enemies for 1 turn<hidden> (Set Target status cannot be affected by immunity to status effects; Special charge time reduction effect is activated when defeating enemies with normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))</hidden>",
+        specialName: "Memories of the Path Thus Far",
+        sailor: {
+            base: "Reduces character's Special Reverse/Special Bind/Bind duration by 10 turns, and sets all slots to Rainbow slots at start of quest (no stacking identical abilities)",
+            level1: "If field has \"Territory: Free Spirit class\" or \"Territory: Cerebral class\", adds +0.2 to the minimum chain multiplier value (this effect can stack; boosts Free Spirit and Cerebral characters' base ATK by 60 otherwise)"
+        },
+        superSpecialCriteria: "When Jewelry Bonney and any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Borsalino (Kizaru), Sentomaru, Stussy, Monkey D. Luffy, Dr. Vegapunk (Stella), Ginny, Emporio Ivankov, Sabo, Monkey D. Dragon",
+        superSpecial: "Reduces Captain and character's Special charge time by 17 turns, allows crew to heal over the max HP limit for 1 turn<hidden> (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP)</hidden>, changes [INT] characters to Super [INT], and changes Cerebral characters to Super Cerebral",
+        support: [
+            {
+                Characters: "Jewelry Bonney",
+                description: [
+                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 1.5x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 1.75x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 2x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 2.25x for 2 turns",
+                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 2.25x for 2 turns, and boosts the ATK of the next final tap performed by crew by 10% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Super Tandem Boost" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: If field has \"Territory: Free Spirit class\" or \"Territory: Cerebral class\", adds +0.2 to the minimum chain multiplier value (this effect can stack; boosts Free Spirit and Cerebral characters\\' base ATK by 60 otherwise)" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base RCV by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Damage Limit Break: Type" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 200" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns",
+                    "Boosts base ATK by 400 the turn after taking damage and reduces Increase Damage Taken duration by 4 turns",
+                    "Boosts base ATK by 500 the turn after taking damage and reduces Increase Damage Taken duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [INT] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [INT] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [INT] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [INT] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [INT] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] character performs Super Tandem",
+                "When a [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] character performs Super Tandem",
+                "When a [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] character performs Super Tandem",
+                "When a [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] character performs Super Tandem",
+                "When a [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 1 and raises Boost Level of [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] characters by 2 for 1 turn",
+                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 2 and raises Boost Level of [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] characters by 3 for 1 turn",
+                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 3 and raises Boost Level of [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] characters by 4 for 1 turn",
+                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 4 and raises Boost Level of [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] characters by 5 for 1 turn",
+                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 5 and raises Boost Level of [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] characters by 6 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 174,
+            spd: 142,
+            style: "RCV"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Action Bind/Confusion, reduce damage taken from [PSY] by 30%",
+        festAbility: [
+            "[INT]/Free Spirit class teammates ATK Up Lv.3, RCV Up Lv.3, DEF Up Lv.3; if \"Jewelry Bonney\" is on the team, when appearing on the field, self Special CT 25% reduction; when receiving damage, up to 12 times targets [INT]/Free Spirit class teammates for RCV x 0.6 healing",
+            "[INT]/Free Spirit class teammates ATK Up Lv.4, RCV Up Lv.4, DEF Up Lv.4; if \"Jewelry Bonney\" is on the team, when appearing on the field, self Special CT 30% reduction; when receiving damage, up to 12 times targets [INT]/Free Spirit class teammates for RCV x 0.7 healing",
+            "[INT]/Free Spirit class teammates ATK Up Lv.5, RCV Up Lv.5, DEF Up Lv.5; if \"Jewelry Bonney\" is on the team, when appearing on the field, self Special CT 35% reduction; when receiving damage, up to 12 times targets [INT]/Free Spirit class teammates for RCV x 0.8 healing",
+            "[INT]/Free Spirit class teammates ATK Up Lv.6, RCV Up Lv.6, DEF Up Lv.6; if \"Jewelry Bonney\" is on the team, when appearing on the field, self Special CT 40% reduction; when receiving damage, up to 12 times targets [INT]/Free Spirit class teammates for RCV x 0.9 healing",
+            "[INT]/Free Spirit class teammates ATK Up Lv.7, RCV Up Lv.7, DEF Up Lv.7; if \"Jewelry Bonney\" is on the team, when appearing on the field, self Special CT 50% reduction; when receiving damage, up to 12 times targets [INT]/Free Spirit class teammates for RCV x 1 healing"
+        ],
+        festSpecial: [
+            {
+                cooldown: 40,
+                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.1 (21 s), DEF Up Lv.1 (21 s); targets Driven class enemies for 73% chance of Halve Stats (11 s); targets enemies within large range for ATK x 2.1 damage; targets \"Jewelry Bonney\" teammates for Special CT 21% reduction, 73% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (21 s), ATK x 2.1 Counter stance (21 s)"
+            },
+            {
+                cooldown: 40,
+                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.1 (22 s), DEF Up Lv.1 (22 s); targets Driven class enemies for 76% chance of Halve Stats (12 s); targets enemies within large range for ATK x 2.2 damage; targets \"Jewelry Bonney\" teammates for Special CT 22% reduction, 76% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (22 s), ATK x 2.2 Counter stance (22 s)"
+            },
+            {
+                cooldown: 40,
+                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.2 (23 s), DEF Up Lv.2 (23 s); targets Driven class enemies for 79% chance of Halve Stats (13 s); targets enemies within large range for ATK x 2.3 damage; targets \"Jewelry Bonney\" teammates for Special CT 23% reduction, 79% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (23 s), ATK x 2.3 Counter stance (23 s)"
+            },
+            {
+                cooldown: 40,
+                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.2 (24 s), DEF Up Lv.2 (24 s); targets Driven class enemies for 82% chance of Halve Stats (14 s); targets enemies within large range for ATK x 2.4 damage; targets \"Jewelry Bonney\" teammates for Special CT 24% reduction, 82% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (24 s), ATK x 2.4 Counter stance (24 s)"
+            },
+            {
+                cooldown: 40,
+                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.3 (25 s), DEF Up Lv.3 (25 s); targets Driven class enemies for 85% chance of Halve Stats (15 s); targets enemies within large range for ATK x 2.5 damage; targets \"Jewelry Bonney\" teammates for Special CT 25% reduction, 85% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (25 s), ATK x 2.5 Counter stance (25 s)"
+            },
+            {
+                cooldown: 40,
+                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.3 (26 s), DEF Up Lv.3 (26 s); targets Driven class enemies for 88% chance of Halve Stats (16 s); targets enemies within large range for ATK x 2.6 damage; targets \"Jewelry Bonney\" teammates for Special CT 26% reduction, 88% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (26 s), ATK x 2.6 Counter stance (26 s)"
+            },
+            {
+                cooldown: 40,
+                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.4 (27 s), DEF Up Lv.4 (27 s); targets Driven class enemies for 91% chance of Halve Stats (17 s); targets enemies within large range for ATK x 2.7 damage; targets \"Jewelry Bonney\" teammates for Special CT 27% reduction, 91% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (27 s), ATK x 2.7 Counter stance (27 s)"
+            },
+            {
+                cooldown: 40,
+                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.4 (28 s), DEF Up Lv.4 (28 s); targets Driven class enemies for 94% chance of Halve Stats (18 s); targets enemies within large range for ATK x 2.8 damage; targets \"Jewelry Bonney\" teammates for Special CT 28% reduction, 94% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (28 s), ATK x 2.8 Counter stance (28 s)"
+            },
+            {
+                cooldown: 40,
+                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.5 (29 s), DEF Up Lv.5 (29 s); targets Driven class enemies for 97% chance of Halve Stats (19 s); targets enemies within large range for ATK x 2.9 damage; targets \"Jewelry Bonney\" teammates for Special CT 29% reduction, 97% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (29 s), ATK x 2.9 Counter stance (29 s)"
+            },
+            {
+                cooldown: 40,
+                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.6 (30 s), DEF Up Lv.6 (30 s); targets Driven class enemies for 100% chance of Halve Stats (20 s); targets enemies within large range for ATK x 3 damage; targets \"Jewelry Bonney\" teammates for Special CT 30% reduction, 100% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (30 s), ATK x 3 Counter stance (30 s)"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "[STR]/[INT]/[PSY] teammates HP, SPD Up Lv.2, DEF Up Lv.1; Free Spirit/Cerebral class teammates ATK, RCV Up Lv.2, Special CT Speed Up Lv.1; revives Free Spirit/Cerebral class teammates up to 1 time at 30% HP",
+                festGPSpecial: "Targets [STR]/[INT]/[PSY]/Free Spirit/Cerebral class teammates for 100% chance to evade Forced Out (16 s); targets team for 480 HP per interval healing (26 s); targets all enemies for 4000 damage",
+                uses: 3
+            },
+            {
+                festGPAbility: "[STR]/[INT]/[PSY] teammates HP, SPD Up Lv.3, DEF Up Lv.2; Free Spirit/Cerebral class teammates ATK, RCV Up Lv.3, Special CT Speed Up Lv.1; revives Free Spirit/Cerebral class teammates up to 1 time at 35% HP",
+                festGPSpecial: "Targets [STR]/[INT]/[PSY]/Free Spirit/Cerebral class teammates for 100% chance to evade Forced Out (17 s); targets team for 560 HP per interval healing (27 s); targets all enemies for 4500 damage",
+                uses: 3
+            },
+            {
+                festGPAbility: "[STR]/[INT]/[PSY] teammates HP, SPD Up Lv.4, DEF Up Lv.3; Free Spirit/Cerebral class teammates ATK, RCV Up Lv.4, Special CT Speed Up Lv.2; revives Free Spirit/Cerebral class teammates up to 1 time at 40% HP",
+                festGPSpecial: "Targets [STR]/[INT]/[PSY]/Free Spirit/Cerebral class teammates for 100% chance to evade Forced Out (18 s); targets team for 640 HP per interval healing (28 s); targets all enemies for 5000 damage",
+                uses: 3
+            },
+            {
+                festGPAbility: "[STR]/[INT]/[PSY] teammates HP, SPD Up Lv.5, DEF Up Lv.3; Free Spirit/Cerebral class teammates ATK, RCV Up Lv.5, Special CT Speed Up Lv.2; revives Free Spirit/Cerebral class teammates up to 1 time at 45% HP",
+                festGPSpecial: "Targets [STR]/[INT]/[PSY]/Free Spirit/Cerebral class teammates for 100% chance to evade Forced Out (19 s); targets team for 720 HP per interval healing (29 s); targets all enemies for 5500 damage",
+                uses: 3
+            },
+            {
+                festGPAbility: "[STR]/[INT]/[PSY] teammates HP, SPD Up Lv.6, DEF Up Lv.4; Free Spirit/Cerebral class teammates ATK, RCV Up Lv.6, Special CT Speed Up Lv.3; revives Free Spirit/Cerebral class teammates up to 1 time at 50% HP",
+                festGPSpecial: "Targets [STR]/[INT]/[PSY]/Free Spirit/Cerebral class teammates for 100% chance to evade Forced Out (20 s); targets team for 800 HP per interval healing (30 s); targets all enemies for 6000 damage",
+                uses: 3
+            }
+        ],
+        festAbilityGPCondition: "After receiving 30,000 damage"
+    },
+    4493: {//Emet
+        captain: "Reduces crew's Special charge time by 2 turns at start of quest, boosts [INT], [STR], Powerhouse, and Free Spirit characters' ATK by 5.5x, and HP by 1.25x. If crew uses a Special to apply lock chain multiplier status, extends the duration of that effect by 3 turns. If crew is inflicted with lock chain multiplier status (does not apply to statuses inflicted by Captain Ability or Crewmate Ability), further increases that effect by +0.5. If \"Monkey D. Luffy\" is a crewmate and uses a Special, delays all enemies by 1 turn ignoring immunity to status effects, reduces all enemies' beneficial effect duration by 1 turn, and launches the following effect for 1 turn: \"Reduces damage taken by 100%, nullifies a portion of each enemy's dealt damage that exceeds 1,000, all enemy attacks deal no damage, and activates HP Guard of 100% effect\" (this effect can be activated up to 1 time) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Egghead Arc] characters' HP by 1.5x. If 4 or more [Egghead Arc] characters are on the crew, reduces damage taken by 25%, and reduces [BOMB][S. BOMB] damage by 90%",
+        special: "Reduces the duration of all enemy barriers by 3 turns, and reduces all enemies' Resilience duration by 7 turns. If crew has lock chain multiplier effect when Special is launched, boosts [INT], [STR], Powerhouse, and Free Spirit characters' chain multiplier growth rate of normal attacks up to +0.8<hidden> (GOOD +0.1; GREAT +0.1; PERFECT +0.8)</hidden> for 2 turns (allows this effect to be further increased up to 2 times), then after that, reduces crew's lock chain multiplier effect duration by 4 turns, allows crew's ATK boost to be further increased up to 2 times, and if crew lands 3 PERFECT strike in a row in this turn, boosts [INT], [STR], Powerhouse, and Free Spirit characters' ATK by 2.25x for 1 turn, and allows you to freely swap slots 2 times the next turn. If 4 or more [Mythical Zoan-type] [Egghead Arc] characters are on the crew, further increases crew's chain multiplier growth rate alterating effect by +0.2 (this effect also applies to chain multiplier growth rate alterating effect from this Special)",
+        specialName: "Haki for When the Time is Right",
+        sailor: {
+            base: "Character cannot be blown away by attack, and boosts [INT] and [STR] characters' base stats by 100",
+            level1: "Makes crew immune to Remove SFX, and makes crew's [TND] slots have matching slot effects"
+        },
+        superSpecialCriteria: "When crew has ability to ignore defensive effects with normal attacks or Monkey D. Luffy is on the crew (except as Support Character; can be launched when character is a crewmate)",
+        superSpecial: "Applies \"Territory: Free Spirit class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 2 turns, changes character's slot to [TND] (ignoring inability to change Rainbow slots), further increases crew's slot effect boost by +0.4, allows character's normal attacks to ignore enemies' defensive effects for 1 turn, and changes [INT] characters to Super [INT]",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                description: [
+                    "Once per quest, if supported character uses a Special to apply lock chain multiplier status, reduces damage taken by 20% for 1 turn",
+                    "Once per quest, if supported character uses a Special to apply lock chain multiplier status, reduces damage taken by 25% for 1 turn",
+                    "Once per quest, if supported character uses a Special to apply lock chain multiplier status, reduces damage taken by 30% for 1 turn",
+                    "Once per quest, if supported character uses a Special to apply lock chain multiplier status, reduces damage taken by 35% for 1 turn",
+                    "Once per quest, if supported character uses a Special to apply lock chain multiplier status, reduces damage taken by 40% for 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Pinch Healing" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Makes crew immune to Remove SFX, and makes crew's [TND] slots have matching slot effects" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base RCV by 40" },
+            { description: "Acquire Potential 3: Super Tandem Boost" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 200" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns",
+                    "Boosts base ATK by 400 the turn after taking damage and reduces Increase Damage Taken duration by 4 turns",
+                    "Boosts base ATK by 500 the turn after taking damage and reduces Increase Damage Taken duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Mythical Zoan-type] [Scientist] [Egghead Arc] character performs Super Tandem",
+                "When a [Mythical Zoan-type] [Scientist] [Egghead Arc] character performs Super Tandem",
+                "When a [Mythical Zoan-type] [Scientist] [Egghead Arc] character performs Super Tandem",
+                "When a [Mythical Zoan-type] [Scientist] [Egghead Arc] character performs Super Tandem",
+                "When a [Mythical Zoan-type] [Scientist] [Egghead Arc] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Mythical Zoan-type] [Scientist] [Egghead Arc] [Straw Hat Pirates] characters by 1 for 1 turn",
+                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 1 and raises Boost Level of [Mythical Zoan-type] [Straw Hat Pirates] characters by 2 for 1 turn",
+                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 2 and raises Boost Level of [Mythical Zoan-type] [Straw Hat Pirates] characters by 3 for 1 turn",
+                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 3 and raises Boost Level of [Mythical Zoan-type] [Straw Hat Pirates] characters by 4 for 1 turn",
+                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 4 and raises Boost Level of [Mythical Zoan-type] [Straw Hat Pirates] characters by 5 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 174,
+            spd: 158,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Action Bind, reduce damage taken from [PSY] by 30％",
+        festAbility: [
+            "[INT]/Free Spirit class teammates HP Up Lv.2, RCV Up Lv.2, DEF Up Lv.2; if \"Monkey D. Luffy\" is on the team, Free Spirit class teammates ATK Up Lv.2, SPD Up Lv.2",
+            "[INT]/Free Spirit class teammates HP Up Lv.3, RCV Up Lv.3, DEF Up Lv.3; if \"Monkey D. Luffy\" is on the team, Free Spirit class teammates ATK Up Lv.3, SPD Up Lv.3",
+            "[INT]/Free Spirit class teammates HP Up Lv.4, RCV Up Lv.4, DEF Up Lv.4; if \"Monkey D. Luffy\" is on the team, Free Spirit class teammates ATK Up Lv.4, SPD Up Lv.4",
+            "[INT]/Free Spirit class teammates HP Up Lv.5, RCV Up Lv.5, DEF Up Lv.5; if \"Monkey D. Luffy\" is on the team, Free Spirit class teammates ATK Up Lv.5, SPD Up Lv.5",
+            "[INT]/Free Spirit class teammates HP Up Lv.6, RCV Up Lv.6, DEF Up Lv.6; if \"Monkey D. Luffy\" is on the team, Free Spirit class teammates ATK Up Lv.6, SPD Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 29,
+                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.1 (11 s); targets [Five Elders] enemies for DEF Down Lv.1 (11 s); targets enemies within large range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 330 HP per interval healing (11 s), DEF Up Lv.1 (11 s)"
+            },
+            {
+                cooldown: 29,
+                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.1 (12 s); targets [Five Elders] enemies for DEF Down Lv.1 (12 s); targets enemies within large range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 360 HP per interval healing (12 s), DEF Up Lv.1 (12 s)"
+            },
+            {
+                cooldown: 29,
+                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.2 (13 s); targets [Five Elders] enemies for DEF Down Lv.2 (13 s); targets enemies within large range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 390 HP per interval healing (13 s), DEF Up Lv.2 (13 s)"
+            },
+            {
+                cooldown: 29,
+                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.2 (14 s); targets [Five Elders] enemies for DEF Down Lv.2 (14 s); targets enemies within large range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 420 HP per interval healing (14 s), DEF Up Lv.2 (14 s)"
+            },
+            {
+                cooldown: 29,
+                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.3 (15 s); targets [Five Elders] enemies for DEF Down Lv.3 (15 s); targets enemies within large range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 450 HP per interval healing (15 s), DEF Up Lv.3 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.3 (16 s); targets [Five Elders] enemies for DEF Down Lv.3 (16 s); targets enemies within large range for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 480 HP per interval healing (16 s), DEF Up Lv.3 (16 s)"
+            },
+            {
+                cooldown: 29,
+                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.4 (17 s); targets [Five Elders] enemies for DEF Down Lv.4 (17 s); targets enemies within large range for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 510 HP per interval healing (17 s), DEF Up Lv.4 (17 s)"
+            },
+            {
+                cooldown: 29,
+                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.4 (18 s); targets [Five Elders] enemies for DEF Down Lv.4 (18 s); targets enemies within large range for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 540 HP per interval healing (18 s), DEF Up Lv.4 (18 s)"
+            },
+            {
+                cooldown: 29,
+                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.5 (19 s); targets [Five Elders] enemies for DEF Down Lv.5 (19 s); targets enemies within large range for ATK x 19 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 570 HP per interval healing (19 s), DEF Up Lv.5 (19 s)"
+            },
+            {
+                cooldown: 29,
+                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.6 (20 s); targets [Five Elders] enemies for DEF Down Lv.6 (20 s); targets enemies within large range for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 600 HP per interval healing (20 s), DEF Up Lv.6 (20 s)"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "After enemy uses Rumble Special 3 times",
+                description: "If \"Monkey D. Luffy\" is on the team, targets [INT]/Free Spirit class teammates for ATK Up Lv.8 (25 s); targets [Five Elders] enemies for DEF Down Lv.7 (25 s); targets enemies within large range for ATK x 25 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [INT]/Free Spirit class teammates for 700 HP per interval healing (25 s), DEF Up Lv.7 (25 s)"
+            },
+            llbbase: {
+                condition: "After enemy uses Rumble Special 2 times",
+                description: "If \"Monkey D. Luffy\" is on the team, targets [INT]/Free Spirit class teammates for ATK Up Lv.10 (30 s); targets [Five Elders] enemies for DEF Down Lv.8 (30 s); targets enemies within large range for ATK x 30 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [INT]/Free Spirit class teammates for 800 HP per interval healing (30 s), DEF Up Lv.8 (30 s)"
+            }
+        }
+    },
+    4494: {//Dorry
+        captain: "Boosts Powerhouse and Free Spirit characters' ATK by 3.25x, HP by 1.3x, makes their [TND] slots have matching slot effects, and boosts their ATK by approximately 4.5x after 3 PERFECT strikes in a row",
+        special: "Reduces all enemies' DEF Up duration by 6 turns, boosts [INT], Powerhouse, Free Spirit, and Cerebral characters' ATK by 2.5x for 3 turns (allows this effect to be further increased up to 2 times), and if \"Broggy\" launches a Special in this turn, further increases crew's slot effect boost by +0.5, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, and applies Weakened status (increase damage taken by 1.3x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken) to all enemies for 1 turn",
+        specialName: "Fengxi-Impeding Svalinn Sun-Shield",
+        sailor: {
+            base: "Character cannot be blown away by attack",
+            level1: "Boosts crew's base ATK and HP by 150"
+        },
+        support: [
+            {
+                Characters: "[INT] characters",
+                description: [
+                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [TND] (ignoring inability to change Rainbow slots),",
+                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [TND] (ignoring inability to change Rainbow slots),",
+                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [TND] (ignoring inability to change Rainbow slots),",
+                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [TND] (ignoring inability to change Rainbow slots),",
+                    "Once per quest, if supported character uses a Special, changes supported character's [BLOCK] or Rainbow slot to [TND] (ignoring inability to change Rainbow slots),"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire Sailor Ability 2: Boosts crew's base ATK and HP by 150" },
+            { description: "Boosts base HP by 80" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Critical Hit" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ],
+        festStats: {
+            def: 311,
+            spd: 118,
+            style: "DEF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Heal Self Lv.2"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Action Bind, reduce damage taken from [PSY] by 20%",
+        festAbility: [
+            "[INT] teammates HP Up Lv.2, DEF Up Lv.1; if 4 or more [Egghead Arc] characters are on the team, [PSY] enemies ATK Down Lv.3; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.2",
+            "[INT] teammates HP Up Lv.3, DEF Up Lv.1; if 4 or more [Egghead Arc] characters are on the team, [PSY] enemies ATK Down Lv.4; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.3",
+            "[INT] teammates HP Up Lv.4, DEF Up Lv.2; if 4 or more [Egghead Arc] characters are on the team, [PSY] enemies ATK Down Lv.5; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.4",
+            "[INT] teammates HP Up Lv.5, DEF Up Lv.2; if 4 or more [Egghead Arc] characters are on the team, [PSY] enemies ATK Down Lv.6; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.5",
+            "[INT] teammates HP Up Lv.6, DEF Up Lv.3; if 4 or more [Egghead Arc] characters are on the team, [PSY] enemies ATK Down Lv.7; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 32,
+                description: "Targets [INT] teammates for Shield Lv.1 (11 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.1 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.4 (11 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 11% reduction; targets 3 [PSY] enemies for ATK x 4 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT] teammates for Shield Lv.1 (12 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.2 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.4 (12 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 12% reduction; targets 3 [PSY] enemies for ATK x 4.4 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT] teammates for Shield Lv.1 (13 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.3 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.4 (13 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 13% reduction; targets 3 [PSY] enemies for ATK x 4.8 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT] teammates for Shield Lv.2 (14 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.4 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.5 (14 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 14% reduction; targets 3 [PSY] enemies for ATK x 5.2 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT] teammates for Shield Lv.2 (15 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.5 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.5 (15 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 15% reduction; targets 3 [PSY] enemies for ATK x 5.6 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT] teammates for Shield Lv.3 (16 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.6 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.6 (16 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 16% reduction; targets 3 [PSY] enemies for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT] teammates for Shield Lv.3 (17 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.7 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.6 (17 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 17% reduction; targets 3 [PSY] enemies for ATK x 6.4 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT] teammates for Shield Lv.3 (18 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.8 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.6 (18 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 18% reduction; targets 3 [PSY] enemies for ATK x 6.8 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT] teammates for Shield Lv.4 (19 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.9 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.7 (19 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 19% reduction; targets 3 [PSY] enemies for ATK x 7.2 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT] teammates for Shield Lv.5 (20 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 2 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.8 (20 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 20% reduction; targets 3 [PSY] enemies for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies)"
+            }
+        ]
+    },
+    4495: {//Broggy
+        captain: "Boosts Powerhouse and Free Spirit characters' ATK by 3.25x, HP by 1.3x, makes their [RCV] slots have matching slot effects, and boosts their ATK by approximately 4.5x after 3 PERFECT strikes in a row",
+        special: "Reduces all enemies' DEF Up duration by 6 turns, boosts [INT], Powerhouse, Free Spirit, and Cerebral characters' slot effects by 2.5x for 3 turns (allows this effect to be further increased up to 2 times), and if \"Dorry\" launches a Special in this turn, further increases crew's ATK boost by +0.5, reduces all enemies' Threshold Damage Reduction duration by 6 turns, and applies Weakened status (increase damage taken by 1.3x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken) to all enemies for 1 turn",
+        specialName: "Fengxi-Stopping Svalinn Sun-Shield",
+        sailor: {
+            base: "Character cannot be blown away by attack",
+            level1: "Boosts crew's base ATK and HP by 150"
+        },
+        support: [
+            {
+                Characters: "[INT] characters",
+                description: [
+                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [RCV] (ignoring inability to change Rainbow slots),",
+                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [RCV] (ignoring inability to change Rainbow slots),",
+                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [RCV] (ignoring inability to change Rainbow slots),",
+                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [RCV] (ignoring inability to change Rainbow slots),",
+                    "Once per quest, if supported character uses a Special, changes supported character's [BLOCK] or Rainbow slot to [RCV] (ignoring inability to change Rainbow slots),"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Boosts crew's base ATK and HP by 150" },
+            { description: "Boosts base HP by 60" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Critical Hit" },
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ],
+        festStats: {
+            def: 311,
+            spd: 118,
+            style: "DEF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Heal Self Lv.2"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Action Bind, reduce damage taken from [PSY] by 20%",
+        festAbility: [
+            "Free Spirit class teammates ATK Up Lv.2, SPD Up Lv.2; if 4 or more [Egghead Arc] characters are on the team, Driven class enemies DEF Down Lv.1; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
+            "Free Spirit class teammates ATK Up Lv.3, SPD Up Lv.3; if 4 or more [Egghead Arc] characters are on the team, Driven class enemies DEF Down Lv.2; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
+            "Free Spirit class teammates ATK Up Lv.4, SPD Up Lv.4; if 4 or more [Egghead Arc] characters are on the team, Driven class enemies DEF Down Lv.3; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4",
+            "Free Spirit class teammates ATK Up Lv.5, SPD Up Lv.5; if 4 or more [Egghead Arc] characters are on the team, Driven class enemies DEF Down Lv.4; during Assault Rumble, self HP Up Lv.9, Special CT Speed Up Lv.5",
+            "Free Spirit class teammates ATK Up Lv.6, SPD Up Lv.6; if 4 or more [Egghead Arc] characters are on the team, Driven class enemies DEF Down Lv.4; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 30,
+                description: "Targets Free Spirit class teammates for ATK x 2.1 Counter stance (11 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.1 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.1 (11 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.1 (11 s), ATK x 4 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets Free Spirit class teammates for ATK x 2.2 Counter stance (12 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.2 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.1 (12 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.1 (12 s), ATK x 4.4 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets Free Spirit class teammates for ATK x 2.3 Counter stance (13 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.3 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.2 (13 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.2 (13 s), ATK x 4.8 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets Free Spirit class teammates for ATK x 2.4 Counter stance (14 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.4 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.2 (14 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.2 (14 s), ATK x 5.2 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets Free Spirit class teammates for ATK x 2.5 Counter stance (15 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.5 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.3 (15 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.3 (15 s), ATK x 5.6 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets Free Spirit class teammates for ATK x 2.6 Counter stance (16 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.6 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.3 (16 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.3 (16 s), ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets Free Spirit class teammates for ATK x 2.7 Counter stance (17 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.7 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.4 (17 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.4 (17 s), ATK x 6.4 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets Free Spirit class teammates for ATK x 2.8 Counter stance (18 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.8 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.4 (18 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.4 (18 s), ATK x 6.8 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets Free Spirit class teammates for ATK x 2.9 Counter stance (19 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.9 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.5 (19 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.5 (19 s), ATK x 7.2 spread damage (damage on each enemy reduced based on number of total enemies)"
+            },
+            {
+                cooldown: 30,
+                description: "Targets Free Spirit class teammates for ATK x 3 Counter stance (20 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 2 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.6 (20 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.5 (20 s), ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies)"
+            }
+        ]
+    },
+    4496: {//5* PKA Doll & Bluegrass
+        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts [STR], Fighter, and Cerebral characters' ATK by 4x, RCV by 1.2x, makes crew's [RCV][BOMB] slots have matching slot effects, reduces damage taken by 10%, and reduces crew's Special Bind duration by 2 turns",
+        special: "Reduces crew's Despair duration by 6 turns, reduces all enemies' damage nullification duration by 1 turn, boosts [STR], Fighter, and Cerebral characters' base ATK by +1250 for 2 turns, and if 4 or more [Navy] [World Government] characters are on the crew, allows character's normal attacks to ignore enemies' defensive effects for 1 turn",
+        specialName: "Pirate-Subduing Onslaught",
+        sailor: {
+            base: "Sets all slots to [RCV] slots at start of quest (no stacking identical abilities)",
+            level1: "Reduces crew's ATK Down duration by 1 turn, and reduces character's Special charge time by 3 turns at start of quest"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                description: [
+                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +150 for 1 turn",
+                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +200 for 1 turn",
+                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +250 for 1 turn",
+                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +300 for 1 turn",
+                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +300 for 1 turn and reduces all enemies' damage nullification duration by 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire Potential 1: Pinch Healing" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Super Tandem" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Acquire Potential 3: Damage Limit Break: Class" },
+            { description: "Boosts base HP by 300" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Acquire Sailor Ability 2: Reduces crew's ATK Down duration by 1 turn, and reduces character's Special charge time by 3 turns at start of quest" },
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman"
+            ],
+            description: [
+                "Applies ATK Boost (Tandem) of 1.15x to Cerebral and Fighter characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.2x to Cerebral and Fighter characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.25x to Cerebral and Fighter characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.3x to Cerebral and Fighter characters for 1 turn",
+                "Reduces crew's ATK Down duration by 1 turn, and applies ATK Boost (Tandem) of 1.3x to Cerebral and Fighter characters for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 138,
+            spd: 151,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "60% chance to evade Action Bind",
+        festAbility: [
+            "[STR]/Cerebral class teammates HP Up Lv.1, ATK Up Lv.1; if 5 or more [Navy] [World Government] characters are on the team, Free Spirit enemies DEF Down Lv.1",
+            "[STR]/Cerebral class teammates HP Up Lv.2, ATK Up Lv.2; if 5 or more [Navy] [World Government] characters are on the team, Free Spirit enemies DEF Down Lv.1",
+            "[STR]/Cerebral class teammates HP Up Lv.3, ATK Up Lv.3; if 5 or more [Navy] [World Government] characters are on the team, Free Spirit enemies DEF Down Lv.1",
+            "[STR]/Cerebral class teammates HP Up Lv.4, ATK Up Lv.4; if 5 or more [Navy] [World Government] characters are on the team, Free Spirit enemies DEF Down Lv.1",
+            "[STR]/Cerebral class teammates HP Up Lv.5, ATK Up Lv.5; if 5 or more [Navy] [World Government] characters are on the team, Free Spirit enemies DEF Down Lv.2"
+        ],
+        festSpecial: [
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for DEF Down Lv.1 (11 s); targets Free Spirit class enemies for DEF Down Lv.1 (11 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 82% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for DEF Down Lv.1 (12 s); targets Free Spirit class enemies for DEF Down Lv.1 (12 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 84% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for DEF Down Lv.1 (13 s); targets Free Spirit class enemies for DEF Down Lv.1 (13 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 86% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for DEF Down Lv.1 (14 s); targets Free Spirit class enemies for DEF Down Lv.1 (14 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 88% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for DEF Down Lv.1 (15 s); targets Free Spirit class enemies for DEF Down Lv.1 (15 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 90% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for DEF Down Lv.2 (16 s); targets Free Spirit class enemies for DEF Down Lv.2 (16 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 92% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for DEF Down Lv.2 (17 s); targets Free Spirit class enemies for DEF Down Lv.2 (17 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 94% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for DEF Down Lv.2 (18 s); targets Free Spirit class enemies for DEF Down Lv.2 (18 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 96% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for DEF Down Lv.2 (19 s); targets Free Spirit class enemies for DEF Down Lv.2 (19 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 98% chance of Forced Out (5 s)"
+            },
+            {
+                cooldown: 24,
+                description: "Targets enemies within large range for DEF Down Lv.2 (20 s); targets Free Spirit class enemies for DEF Down Lv.2 (20 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 100% chance of Forced Out (5 s)"
+            }
+        ]
+    },
+    4498: {//Stussy
+        captain: "Adds 1 turn to all enemies for each battle (after preemptive actions), boosts Driven and Cerebral characters' ATK by 4.25x, HP by 1.3x, makes their [STR][RCV][TND][BOMB][S. BOMB] slots have matching slot effects, reduces character's Special Reverse by 10 turns, and heals crew by 6,000 HP at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 2 or more [Scientist] [Seraphim] characters are on the crew, boosts crew's ATK by a further 1.2x, and if 2 or more [CP0] [World Government] characters are on the crew, boosts crew's ATK by a further 1.2x",
+        special: "Reduces crew's Special charge time by 2 turns and VS Effect gauge by 6. If crew has Bleed, Poison, progressive Poison, or slot multiplier change effect when Special is launched, boosts Driven and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.8 (GOOD +0.3; GREAT +0.5; PERFECT +0.8) for 2 turns (boosts Driven and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 2 turns otherwise), then after that, reduces crew's Bleed duration by 10 turns. If 2 or more [Scientist] [Seraphim] characters and 2 or more [CP0] [World Government] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [S. BOMB], and changes the ATK multiplier of [BOMB][S. BOMB][RCV][TND] slots to 3.5x when slots match (normally 2x when matching, 1.5x for [S. BOMB] slots), 0.5x when unfavorable, 1.0x otherwise for 3 turns. If 3 or more [Scientist] [Seraphim] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [BOMB], and changes the ATK multiplier of [BOMB][S. BOMB] slots to 3.5x when slots match (normally 2x when matching, 1.5x for [S. BOMB] slots), 0.5x when unfavorable, 1.0x otherwise for 2 turns. If 3 or more [CP0] [World Government] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [RCV], and changes the ATK multiplier of [RCV][TND] slots to 3.5x when slots match (normally 2x when matching), 0.5x when unfavorable, 1.0x otherwise for 2 turns",
+        specialName: "Last Promise to Live",
+        sailor: {
+            base: "Boosts Driven and Cerebral characters' base stats by 60",
+            level1: "Reduces character's Special Reverse by 3 turns"
+        },
+        support: [
+            {
+                Characters: "[STR] characters",
+                description: [
+                    "Adds 5% of character's base RCV to supported character's base RCV",
+                    "Adds 10% of character's base RCV to supported character's base RCV",
+                    "Adds 15% of character's base RCV to supported character's base RCV",
+                    "Adds 20% of character's base RCV to supported character's base RCV",
+                    "Adds 25% of character's base RCV to supported character's base RCV"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 40" },
+            { description: "Acquire Potential 1: Pinch Healing" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: Slot Bind" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 70" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 100" },
+            { description: "Acquire Sailor Ability 2: Reduces character's Special Reverse by 3 turns" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Potential 3: Special Use Limit" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base HP by 200" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base RCV by 50" },
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+            {
+                Name: "Special Use Limit",
+                description: [
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 3 turns"
+                ]
+            }
+        ],
+        festStats: {
+            def: 199,
+            spd: 175,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Confusion, reduce damage taken from [DEX] by 30%",
+        festAbility: [
+            "[STR]/Driven class teammates HP Up Lv.2, SPD Up Lv.2, DEF Up Lv.2; after receiving Halve Stats, up to 5 times, [STR]/Driven class teammates (not including self) Special CT 11% reduction; when appearing on the field [Straw Hat Pirates] [Vegapunk] [Paramythia-type] [Zoan-type] teammates Special CT 2% reduction",
+            "[STR]/Driven class teammates HP Up Lv.3, SPD Up Lv.3, DEF Up Lv.3; after receiving Halve Stats, up to 5 times, [STR]/Driven class teammates (not including self) Special CT 12% reduction; when appearing on the field [Straw Hat Pirates] [Vegapunk] [Paramythia-type] [Zoan-type] teammates Special CT 4% reduction",
+            "[STR]/Driven class teammates HP Up Lv.4, SPD Up Lv.4, DEF Up Lv.4; after receiving Halve Stats, up to 5 times, [STR]/Driven class teammates (not including self) Special CT 13% reduction; when appearing on the field [Straw Hat Pirates] [Vegapunk] [Paramythia-type] [Zoan-type] teammates Special CT 6% reduction",
+            "[STR]/Driven class teammates HP Up Lv.5, SPD Up Lv.5, DEF Up Lv.5; after receiving Halve Stats, up to 5 times, [STR]/Driven class teammates (not including self) Special CT 14% reduction; when appearing on the field [Straw Hat Pirates] [Vegapunk] [Paramythia-type] [Zoan-type] teammates Special CT 8% reduction",
+            "[STR]/Driven class teammates HP Up Lv.6, SPD Up Lv.6, DEF Up Lv.6; after receiving Halve Stats, up to 5 times, [STR]/Driven class teammates (not including self) Special CT 15% reduction; when appearing on the field [Straw Hat Pirates] [Vegapunk] [Paramythia-type] [Zoan-type] teammates Special CT 10% reduction"
+        ],
+        festSpecial: [
+            {
+                cooldown: 25,
+                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.1 (11 s), RCV Up Lv.1 (11 s), SPD Up Lv.1 (11 s), DEF Up Lv.2 (11 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.2 (11 s), RCV Up Lv.2 (11 s), SPD Up Lv.2 (11 s), DEF Up Lv.1 (11 s); targets 1 low DEF enemy for ATK x 1 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.1 (12 s), RCV Up Lv.1 (12 s), SPD Up Lv.1 (12 s), DEF Up Lv.2 (12 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.2 (12 s), RCV Up Lv.2 (12 s), SPD Up Lv.2 (12 s), DEF Up Lv.1 (12 s); targets 1 low DEF enemy for ATK x 1.5 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.2 (13 s), RCV Up Lv.2 (13 s), SPD Up Lv.2 (13 s), DEF Up Lv.2 (13 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.2 (13 s), RCV Up Lv.2 (13 s), SPD Up Lv.2 (13 s), DEF Up Lv.1 (13 s); targets 1 low DEF enemy for ATK x 2 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.2 (14 s), RCV Up Lv.2 (14 s), SPD Up Lv.2 (14 s), DEF Up Lv.2 (14 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.2 (14 s), RCV Up Lv.2 (14 s), SPD Up Lv.2 (14 s), DEF Up Lv.1 (14 s); targets 1 low DEF enemy for ATK x 2.5 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.3 (15 s), RCV Up Lv.3 (15 s), SPD Up Lv.3 (15 s), DEF Up Lv.2 (15 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.2 (15 s), RCV Up Lv.2 (15 s), SPD Up Lv.2 (15 s), DEF Up Lv.1 (15 s); targets 1 low DEF enemy for ATK x 3 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.3 (16 s), RCV Up Lv.3 (16 s), SPD Up Lv.3 (16 s), DEF Up Lv.3 (16 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.3 (16 s), RCV Up Lv.3 (16 s), SPD Up Lv.3 (16 s), DEF Up Lv.2 (16 s); targets 1 low DEF enemy for ATK x 3.5 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.4 (17 s), RCV Up Lv.4 (17 s), SPD Up Lv.4 (17 s), DEF Up Lv.3 (17 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.3 (17 s), RCV Up Lv.3 (17 s), SPD Up Lv.3 (17 s), DEF Up Lv.2 (17 s); targets 1 low DEF enemy for ATK x 4 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.4 (18 s), RCV Up Lv.4 (18 s), SPD Up Lv.4 (18 s), DEF Up Lv.3 (18 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.3 (18 s), RCV Up Lv.3 (18 s), SPD Up Lv.3 (18 s), DEF Up Lv.2 (18 s); targets 1 low DEF enemy for ATK x 4.5 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.5 (19 s), RCV Up Lv.5 (19 s), SPD Up Lv.5 (19 s), DEF Up Lv.3 (19 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.3 (19 s), RCV Up Lv.3 (19 s), SPD Up Lv.3 (19 s), DEF Up Lv.2 (19 s); targets 1 low DEF enemy for ATK x 5 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.6 (20 s), RCV Up Lv.6 (20 s), SPD Up Lv.6 (20 s), DEF Up Lv.4 (20 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.4 (20 s), RCV Up Lv.4 (20 s), SPD Up Lv.4 (20 s), DEF Up Lv.3 (20 s); targets 1 low DEF enemy for ATK x 6 damage"
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
