@@ -178195,24 +178195,25 @@ window.details = {
         ]
     },
     4490: {//Luffy & Bonney
-        captain: "Launches the following effect at start of quest: \"Reduces crew's Special charge time by 3 turns and VS Effect gauge and Switch Effect by 3, locks crew's slots for 10 turns, allows crew to perform Super Tandem with [RCV] and Rainbow slots for 10 turns (cannot be removed by crew or enemies)\". Boosts [INT], Free Spirit, and Cerebral characters' ATK by 6x, HP by 1.2x, and makes crew's [INT][RCV] have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters' ATK by 1.1x\" becomes \"Boosts [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters' ATK by 1.4x\" [Applies following effect based on number of applicable Character Tags on crew] Reduces [Straw Hat Pirates] [Egghead Arc] characters' Special charge time by a further 2 turns at start of quest. If 4 or more [Straw Hat Pirates] [Egghead Arc] characters are on the crew, boosts [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters' ATK by 1.1x, and allows crew's Weakened stats/damage taken increased status applying effects to ignore immunity to all status effects",
-        special: "Delays all enemies for 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), reduces crew's Despair duration by 10 turns, deals 300x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), applies \"Territory: [INT]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns, and boosts damage dealt to delayed enemies by up to 4x based on outcome of Action Special<hidden> (3x for MISS, 3.2x for GOOD, 3.5x for GREAT, 3.8x for PERFECT, 4 for EXCELLENT)</hidden> for 1 turn. If crew has ability to ignore all defensive effects with normal attacks when Special is launched, allows crew to stack up to 2 different damage boosting effects<hidden> (cannot stack the damage boost of the same type)</hidden> for 1 turn, and boosts damage dealt to enemies with Increase Damage TakenWeaken status by 2.75x for 1 turn. If character is a Captain and an [INT] is set as support for character, allows [Straw Hat Pirates] [Egghead Arc] characters' normal attacks to ignore enemies' defensive effects for 1 turn (allows character's normal attacks to ignore enemies' defensive effects for 1 turn otherwise)",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 3 turns, by 5 turns instead if they are a [Straw Hat Pirates] or [Egghead Arc] character, reduces VS Gauge and Switch Effect of all characters by 3, locks all orbs for 10 turns, and allows crew to perform Super Tandem with [RCV] and [RAINBOW] orbs, preventing buff clears, for 10 turns. Boosts ATK of [INT], Free Spirit and Cerebral characters by 6x, boosts HP of [INT], Free Spirit and Cerebral characters by 1.2x, and makes [INT] and [RCV] orbs beneficial for all characters. If your crew has 4+ [Straw Hat Pirates] or [Egghead Arc] characters, boosts ATK of [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] and [Egghead Arc] characters by 1.1x, boosts ATK of [INT], Free Spirit and Cerebral characters by 6.6x instead if they have the applicable tag, and allows effects that inflict Increase Damage Taken and Weaken to ignore Debuff Protection; additionally, if this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] and [Egghead Arc] characters by 1.4x instead, and boosts ATK of [INT], Free Spirit and Cerebral characters by 8.4x instead if they have the applicable tag.",
+        special: "Ignores Debuff Protection and delays all enemies by 1 turn, reduces Despair duration by 10 turns, deals 300x character's ATK in Typeless Fixed True damage to one enemy, applies Territory: [INT] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns, and boosts ATK against delayed enemies by 3x-4x for 1 turn depending on the outcome of Action Special. If your crew has ability to ignore all defensive effects with normal attacks when the special is activated, allows crew to stack 2 different Status ATK Boost buffs for 1 turn, and boosts ATK against enemies inflicted with Increase Damage Taken and enemies inflicted with Weaken by 2.75x for 1 turn. If this character is your Captain and an [INT] character is supporting this character, makes [Straw Hat Pirates] and [Egghead Arc] characters' normal attacks ignore damage reducing barriers and buffs for 1 turn; makes this character's normal attacks ignore damage reducing barriers and buffs for 1 turn otherwise.",
+        specialNotes: "MISS: 3x, GOOD: 3.2x, GREAT: 3.5x, PERFECT: 3.8x, EXCELLENT: 4x",
         specialName: "Liberation Nika Punch",
         sailor: {
-            base: "Boosts Free Spirit characters' base ATK by 1.1x",
-            level1: "Boosts Free Spirit and Cerebral characters' base HP by 150, makes Free Spirit characters' [INT][RCV] slots have matching slot effects, and makes Cerebral characters' [PSY][TND] slots have matching slot effects"
+            base: "Boosts base ATK of Free Spirit characters by 1.1x.",
+            level1: "Boosts base HP of Free Spirit and Cerebral characters by 150, makes [INT] and [RCV] orbs beneficial for Free Spirit characters, and makes [PSY] and [TND] orbs beneficial for Cerebral characters."
         },
-        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
-        superSpecial: "Reduces character's Special charge time by 3 turns, boosts the chain multiplier by 1.5x for 1 turn, and changes crew's slots (including [BLOCK] slots) to [RCV]. If characters' 1st class is Slasher or Powerhouse, changes their 1st class to Cerebral<hidden> (unless character is already a Cerebral as a 2nd class)</hidden> for 1 turn. Changes Free Spirit characters to Super Free Spirit and changes Cerebral characters to Super Cerebral",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
+        superSpecial: "Reduces Special Cooldown of this character by 3 turns, boosts Chain Multiplier Growth Rate by 1.5x for 1 turn, changes all orbs, including [BLOCK] orbs, into [RCV] orbs, changes Class 1 of all non-Cerebral Class 1 Slasher and Class 1 Powerhouse characters to Cerebral class for 1 turn, transforms Free Spirit characters into Super Free Spirit characters, and transforms Cerebral characters into Super Cerebral characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 11% of character's base stats to supported character's base stats",
-                    "Adds 13% of character's base stats to supported character's base stats",
-                    "Adds 15% of character's base stats to supported character's base stats"
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 11% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 13% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -178292,18 +178293,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Bartholomew Kuma, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Stussy, Emet, Dorry, Broggy, Kashii, Oimo, Trafalgar Law, Basil Hawkins, Killer, Urouge, Eustass Kid, Capone Bege, Scratchmen Apoo, X Drake"
             ],
             description: [
-                "Reduces Special charge time of \"Monkey D. Luffy\" and \"Jewelry Bonney\" by 1 turn, and applies ATK Boost (Tandem) of 1.75x to Free Spirit and Cerebral characters for 1 turn",
-                "Reduces Special charge time of \"Monkey D. Luffy\" and \"Jewelry Bonney\" by 1 turn, and applies ATK Boost (Tandem) of 2x to Free Spirit and Cerebral characters for 1 turn",
-                "Reduces Special charge time of \"Monkey D. Luffy\" and \"Jewelry Bonney\" by 1 turn, and applies ATK Boost (Tandem) of 2.25x to Free Spirit and Cerebral characters for 1 turn",
-                "Reduces Special charge time of \"Monkey D. Luffy\" and \"Jewelry Bonney\" by 2 turns, and applies ATK Boost (Tandem) of 2.5x to Free Spirit and Cerebral characters for 1 turn",
-                "Reduces Special charge time of \"Monkey D. Luffy\" and \"Jewelry Bonney\" by 2 turns, and applies ATK Boost (Tandem) of 3x to Free Spirit and Cerebral characters for 1 turn"
+                "Reduces Special Cooldown of Monkey D. Luffy and Jewelry Bonney characters by 1 turn, and boosts Tandem ATK of Free Spirit and Cerebral characters by 1.75x for 1 turn.",
+                "Reduces Special Cooldown of Monkey D. Luffy and Jewelry Bonney characters by 1 turn, and boosts Tandem ATK of Free Spirit and Cerebral characters by 2x for 1 turn.",
+                "Reduces Special Cooldown of Monkey D. Luffy and Jewelry Bonney characters by 1 turn, and boosts Tandem ATK of Free Spirit and Cerebral characters by 2.25x for 1 turn.",
+                "Reduces Special Cooldown of Monkey D. Luffy and Jewelry Bonney characters by 2 turns, and boosts Tandem ATK of Free Spirit and Cerebral characters by 2.5x for 1 turn.",
+                "Reduces Special Cooldown of Monkey D. Luffy and Jewelry Bonney characters by 2 turns, and boosts Tandem ATK of Free Spirit and Cerebral characters by 3x for 1 turn."
             ]
         },
         festStats: {
@@ -178398,24 +178399,25 @@ window.details = {
         festAbilityGPCondition: "After dealing damage 16 times"
     },
     4491: {//Saturn
-        captain: "Reduces [STR], Driven, and Cerebral characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts [STR], Driven, and Cerebral characters' ATK by 6x, and makes their [STR][RCV] have matching slot effects. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, for 3 turns, \"Boosts [Egghead Arc] [Scientist] [Navy] [World Government] [Five Elders] characters' ATK by 1.1x\" becomes \"Boosts [Egghead Arc] [Scientist] [Navy] [World Government] [Five Elders] characters' ATK by 1.4x\" [Applies following effect based on number of applicable Character Tags on crew] Boosts [Egghead Arc] [Scientist] [Navy] [World Government] [Five Elders] characters' ATK by 1.1x. If 4 or more [Egghead Arc] [Scientist] [Navy] [World Government] [Five Elders] characters are on the crew, and crew is inflicted with Color Affinity status (does not apply to statuses inflicted by Captain Ability or Crewmate Ability), allows crew's type effect boost to be further increased up to 2 times, and further increases boost by 1.4x (maximum value is 10x, cannot be further increased). Reduces [Five Elders] [Celestial Dragon] characters' Special charge time by 8 turns at start of quest",
-        special: "Reduces crew's Paralysis/ATK Down duration by 10 turns, applies \"Territory: [STR]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 3 turns, boosts the minimum chain multiplier value by up to 4.5 for up to 5 turns based on outcome of Action Special (3.25 and 3 turns for MISS, 3.5 and 4 turns for GOOD, 3.75 and 5 turns for GREAT, 4.0 and 5 turns for PERFECT, 4.5 and 5 turns for EXCELLENT), and sets the chain multiplier's maximum value to 30.0. If 5 or more [Egghead Arc] [Scientist] [Navy] [World Government] [Five Elders] characters are on the crew, increases all enemies' damage taken by 2.5x for 2 turns ignoring immunity to status effects. If 5 or more [Scientist] [Five Elders] characters are on the crew, further increases all enemies' increase damage taken effect by +1.0<hidden> (effect applies to increase damage taken effect from this Special)</hidden>",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 8 turns, reduces Special Cooldown of [STR], Driven and Cerebral characters by 2 turns, and reduces VS Gauge and Switch Effect of [STR], Driven and Cerebral characters by 2. Boosts ATK of [Egghead Arc], [Scientist], [Navy], [World Government] and [Five Elders] characters by 1.1x, boosts ATK of [STR], Driven and Cerebral characters by 6x, by 6.6x instead if they have the applicable tag, and makes [STR] and [RCV] orbs beneficial for [STR], Driven and Cerebral characters. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Egghead Arc], [Scientist], [Navy], [World Government] and [Five Elders] characters by 1.4x instead, and boosts ATK of [STR], Driven and Cerebral characters by 8.4x instead if they have the applicable tag. If your crew has 4+ [Egghead Arc], [Scientist], [Navy], [World Government] or [Five Elders] characters and you gain a Color Affinity buff, enables Color Affinity buffs to be enhanced up to 2 times, and increases boost effects of Color Affinity buffs by 1.4x (up to 10x).",
+        special: "Reduces Paralysis and ATK Down duration by 10 turns, applies Territory: [STR] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns, and sets Chain Boundaries to 3.25x-4.5x and 30.0x for 3-5 turns depending on the outcome of Action Special. If your crew has 5+ [Egghead Arc], [Scientist], [Navy], [World Government] or [Five Elders] characters, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.5x for 2 turns. If your crew has 5+ [Egghead Arc], [Scientist], [Navy], [World Government] or [Five Elders] characters, increases boost effects of enemies' Increase Damage Taken debuffs by +1.0x, including effects activated in the same ability.",
+        specialNotes: "<br><b>MISS:</b> 3.25x for 3 turns, <b>GOOD:</b> 3.5x for 4 turns, <b>GREAT:</b> 3.75x for 5 turns, <b>PERFECT:</b> 4.0x for 5 turns, <b>EXCELLENT:</b> 4.5x for 5 turns",
         specialName: "Insect-Crushing Claws of the World Government's Highest Authority",
         sailor: {
-            base: "Makes Driven and Cerebral characters' [STR][RCV] slots have matching slot effects, and boosts their base stats by 150",
-            level1: "If field has \"Territory: Driven class\" or \"Territory: Cerebral class\", adds +0.2 to the minimum chain multiplier value (this effect can stack; boosts Driven and Cerebral characters' base ATK by 50 otherwise)"
+            base: "Boosts base ATK, HP and RCV of Driven and Cerebral characters by 150, and makes [STR] and [RCV] orbs beneficial for Driven and Cerebral characters.",
+            level1: "If field has Territory: Driven or Territory: Cerebral, adds 0.2x to chain multiplier; boosts base ATK of Driven and Cerebral characters by 50 otherwise."
         },
-        superSpecialCriteria: "When crew has Color Affinity at 7x or more or receives Over Healing status (can be launched when character is a crewmate)",
-        superSpecial: "Reduces character's Special charge time by 5 turns, boosts Driven and Cerebral characters' advantageous class effect by 1.5x for 1 turn (effect can be overwritten with other advantageous class effect boosts), changes [STR] characters to Super [STR], and changes Driven characters to Super Driven",
+        superSpecialCriteria: "Can be launched as crewmate. If your crew has a HP Overfill buff or a Color Affinity buff with an effect of 7x or more.",
+        superSpecial: "Reduces Special Cooldown of this character by 5 turns, boosts Advantageous Class Effect of Driven and Cerebral characters by 1.5x, allowing override, for 1 turn, transforms [STR] characters into Super [STR] characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with a Cost of 99 or more",
+                Characters: "Characters with cost 99 or more",
                 description: [
-                    "Once per quest, if inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Paralysis or ATK Down status from the enemy, reduces crew's Paralysis/ATK Down duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Paralysis or ATK Down status from the enemy, reduces crew's Paralysis/ATK Down duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Paralysis or ATK Down status from the enemy, reduces crew's Paralysis/ATK Down duration by 2 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis or ATK Down, reduces Paralysis and ATK Down duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis or ATK Down, reduces Paralysis and ATK Down duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis or ATK Down, reduces Paralysis and ATK Down duration by 2 turns."
                 ]
             }
         ],
@@ -178494,13 +178496,13 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "On the turn Special is launched during final Battle",
+            condition: "On the last stage, on the turn this character's special is used",
             description: [
-                "Changes character's slot to character's own type, and further boosts the chain multiplier of the final tap by 1.25x",
-                "Changes character's slot to character's own type, and further boosts the chain multiplier of the final tap by 1.5x",
-                "Changes character's slot to character's own type, and further boosts the chain multiplier of the final tap by 1.75x",
-                "Changes character's slot to character's own type, and further boosts the chain multiplier of the final tap by 2x",
-                "Changes character's slot to character's own type, further increases crew's slot effect boost by +0.3, and further boosts the chain multiplier of the final tap by 2.25x"
+                "Changes the orb of this character into a Matching orb, and boosts Chain Multiplier Growth Rate by 1.25x.",
+                "Changes the orb of this character into a Matching orb, and boosts Chain Multiplier Growth Rate by 1.5x.",
+                "Changes the orb of this character into a Matching orb, and boosts Chain Multiplier Growth Rate by 1.75x.",
+                "Changes the orb of this character into a Matching orb, and boosts Chain Multiplier Growth Rate by 2x.",
+                "Changes the orb of this character into a Matching orb, increases boost effects of Orb Amplification buffs by +0.3x, and boosts Chain Multiplier Growth Rate by 2.25x."
             ]
         },
         festStats: {
@@ -178595,24 +178597,25 @@ window.details = {
         festAbilityGPCondition: "After receiving damage 12 times"
     },
     4492: {//Kuma
-        captain: "Reduces crew's VS Effect gauge and Switch Effect by 2 at start of quest, boosts [INT], Cerebral, and Free Spirit characters' ATK by 6x, HP by 1.5x, makes crew's [DEX][RCV] slots have matching slot effects, crew cannot be blown away by attack, and reduces character's Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters are on the crew, boosts [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters' ATK by 1.25x. Reduces [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters's Special charge time by 3 turns at start of quest",
-        special: "Reduces crew's Special charge time by 1 turn, reduces crew's Bind/Special Bind duration by 7 turns, applies \"Territory: Cerebral class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns, and reduces crew's type effect boost effect by 0.5 but changes the type effect boost to a stackable boost<hidden> (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as a type effect boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other type effect boost effect)</hidden>. If character has used \"Memories of the Path Thus Far\" 0 times, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 3.5x for 3 turns (cannot be removed by crew or enemies). If character has used \"Memories of the Path Thus Far\" 1 or more times and 4 or more [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] characters are on the crew, heals crew by 50x character's RCV<hidden> (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP)</hidden>, and applies Set Target status (Cerebral and Free Spirit characters will deal 2x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated) to all enemies for 1 turn<hidden> (Set Target status cannot be affected by immunity to status effects; Special charge time reduction effect is activated when defeating enemies with normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))</hidden>",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] and [Egghead Arc] characters by 3 turns, and reduces VS Gauge and Switch Effect of all characters by 2. Boosts ATK of [INT], Cerebral and Free Spirit characters by 6x, boosts HP of [INT], Cerebral and Free Spirit characters by 1.5x, makes [DEX] and [RCV] orbs beneficial for all characters, makes crew immune to Blow Away, and reduces Bind duration by 10 turns on this character. If your crew has 4+ [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] or [Egghead Arc] characters, boosts ATK of [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] and [Egghead Arc] characters by 1.25x, and boosts ATK of [INT], Cerebral and Free Spirit characters by 7.5x instead if they have the applicable tag.",
+        special: "Reduces Special Cooldown of all characters by 1 turn, reduces Bind and Special Bind duration by 7 turns, applies Territory: Cerebral class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 3 turns, decreases boost effects of Color Affinity buffs by -0.5x, and converts Color Affinity into a Stackable Color Affinity. If this character has used \"Memories of the Path Thus Far\" 0 times this adventure, boosts Color Affinity of [INT], Cerebral and Free Spirit characters by 3.5x, preventing buff clears, for 3 turns. If this character has used \"Memories of the Path Thus Far\" 1+ times this adventure and your crew has 4+ [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] or [Egghead Arc] characters, recovers 50x character's RCV in HP, allowing HP Overfill up to 2x MAX HP, and inflicts all enemies with Set Target, increasing damage taken from Cerebral and Free Spirit characters by 2x and reducing Special Cooldown of Cerebral and Free Spirit characters by 2 turns when they defeat an enemy, for 1 turn.",
         specialName: "Memories of the Path Thus Far",
         sailor: {
-            base: "Reduces character's Special Reverse/Special Bind/Bind duration by 10 turns, and sets all slots to Rainbow slots at start of quest (no stacking identical abilities)",
-            level1: "If field has \"Territory: Free Spirit class\" or \"Territory: Cerebral class\", adds +0.2 to the minimum chain multiplier value (this effect can stack; boosts Free Spirit and Cerebral characters' base ATK by 60 otherwise)"
+            base: "Reduces Special Bind and Bind duration by 10 turns on this character, and restores Special Cooldown of this character by 10 turns when it is rewinded.  Changes orbs of all characters into [RAINBOW] orbs at the start of the fight.",
+            level1: "If field has Territory: Free Spirit or Territory: Cerebral, adds 0.2x to chain multiplier; boosts base ATK of Free Spirit and Cerebral characters by 60 otherwise."
         },
-        superSpecialCriteria: "When Jewelry Bonney and any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Borsalino (Kizaru), Sentomaru, Stussy, Monkey D. Luffy, Dr. Vegapunk (Stella), Ginny, Emporio Ivankov, Sabo, Monkey D. Dragon",
-        superSpecial: "Reduces Captain and character's Special charge time by 17 turns, allows crew to heal over the max HP limit for 1 turn<hidden> (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP)</hidden>, changes [INT] characters to Super [INT], and changes Cerebral characters to Super Cerebral",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of Jewelry Bonney and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Borsalino (Kizaru), Sentomaru, Stussy, Monkey D. Luffy, Dr. Vegapunk (Stella), Ginny, Emporio Ivankov, Sabo, Monkey D. Dragon",
+        superSpecialCriteriaNotes: "This condition can be met with a single unit if Jewelry Bonney is also part of one of the aforementioned units. For example: Luffy & Bonney or Sabo & Bonney",
+        superSpecial: "Reduces Special Cooldown of your Captain and this character by 17 turns, allows HP Overfill up to 2x MAX HP for 1 turn, transforms [INT] characters into Super [INT] characters, and transforms Cerebral characters into Super Cerebral characters.",
         support: [
             {
                 Characters: "Jewelry Bonney",
                 description: [
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 1.5x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 1.75x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 2x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 2.25x for 2 turns",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [INT], Cerebral, and Free Spirit characters by 2.25x for 2 turns, and boosts the ATK of the next final tap performed by crew by 10% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)"
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of [INT], Cerebral and Free Spirit characters by 1.5x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of [INT], Cerebral and Free Spirit characters by 1.75x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of [INT], Cerebral and Free Spirit characters by 2x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of [INT], Cerebral and Free Spirit characters by 2.25x for 2 turns.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of [INT], Cerebral and Free Spirit characters by 2.25x for 2 turns, and boosts Final Tap ATK of all characters by 10%."
                 ]
             }
         ],
@@ -178692,18 +178695,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] character performs Super Tandem",
-                "When a [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] character performs Super Tandem",
-                "When a [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] character performs Super Tandem",
-                "When a [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] character performs Super Tandem",
-                "When a [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] [Scientist] [Egghead Arc] character performs Super Tandem"
+                "When a [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] or [Egghead Arc] character performs Super Tandem",
+                "When a [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] or [Egghead Arc] character performs Super Tandem",
+                "When a [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] or [Egghead Arc] character performs Super Tandem",
+                "When a [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] or [Egghead Arc] character performs Super Tandem",
+                "When a [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] or [Egghead Arc] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 1 and raises Boost Level of [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 2 and raises Boost Level of [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] characters by 3 for 1 turn",
-                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 3 and raises Boost Level of [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] characters by 4 for 1 turn",
-                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 4 and raises Boost Level of [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] characters by 5 for 1 turn",
-                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 5 and raises Boost Level of [Bonney Pirates] [Revolutionary Army] [Straw Hat Pirates] characters by 6 for 1 turn"
+                "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 1 for 1 turn, and raises Boost Level of [Bonney Pirates], [Revolutionary Army] and [Straw Hat Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 2 for 1 turn, and raises Boost Level of [Bonney Pirates], [Revolutionary Army] and [Straw Hat Pirates] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 3 for 1 turn, and raises Boost Level of [Bonney Pirates], [Revolutionary Army] and [Straw Hat Pirates] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 4 for 1 turn, and raises Boost Level of [Bonney Pirates], [Revolutionary Army] and [Straw Hat Pirates] characters by 5 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 5 for 1 turn, and raises Boost Level of [Bonney Pirates], [Revolutionary Army] and [Straw Hat Pirates] characters by 6 for 1 turn."
             ]
         },
         festStats: {
@@ -178798,24 +178801,25 @@ window.details = {
         festAbilityGPCondition: "After receiving 30,000 damage"
     },
     4493: {//Emet
-        captain: "Reduces crew's Special charge time by 2 turns at start of quest, boosts [INT], [STR], Powerhouse, and Free Spirit characters' ATK by 5.5x, and HP by 1.25x. If crew uses a Special to apply lock chain multiplier status, extends the duration of that effect by 3 turns. If crew is inflicted with lock chain multiplier status (does not apply to statuses inflicted by Captain Ability or Crewmate Ability), further increases that effect by +0.5. If \"Monkey D. Luffy\" is a crewmate and uses a Special, delays all enemies by 1 turn ignoring immunity to status effects, reduces all enemies' beneficial effect duration by 1 turn, and launches the following effect for 1 turn: \"Reduces damage taken by 100%, nullifies a portion of each enemy's dealt damage that exceeds 1,000, all enemy attacks deal no damage, and activates HP Guard of 100% effect\" (this effect can be activated up to 1 time) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Egghead Arc] characters' HP by 1.5x. If 4 or more [Egghead Arc] characters are on the crew, reduces damage taken by 25%, and reduces [BOMB][S. BOMB] damage by 90%",
-        special: "Reduces the duration of all enemy barriers by 3 turns, and reduces all enemies' Resilience duration by 7 turns. If crew has lock chain multiplier effect when Special is launched, boosts [INT], [STR], Powerhouse, and Free Spirit characters' chain multiplier growth rate of normal attacks up to +0.8<hidden> (GOOD +0.1; GREAT +0.1; PERFECT +0.8)</hidden> for 2 turns (allows this effect to be further increased up to 2 times), then after that, reduces crew's lock chain multiplier effect duration by 4 turns, allows crew's ATK boost to be further increased up to 2 times, and if crew lands 3 PERFECT strike in a row in this turn, boosts [INT], [STR], Powerhouse, and Free Spirit characters' ATK by 2.25x for 1 turn, and allows you to freely swap slots 2 times the next turn. If 4 or more [Mythical Zoan-type] [Egghead Arc] characters are on the crew, further increases crew's chain multiplier growth rate alterating effect by +0.2 (this effect also applies to chain multiplier growth rate alterating effect from this Special)",
+        captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [STR], [INT], Powerhouse and Free Spirit characters by 5.5x, boosts HP of [STR], [INT], Powerhouse and Free Spirit characters by 1.25x, boosts HP of [Egghead Arc] characters 1.5x, increases boost effects of Chain Lock buffs by +0.5x, and increases duration of any Chain Lock buffs applied by specials by 3 turns. If your crew has 4+ [Egghead Arc] characters, reduces damage received by 25%, and [BOMB] and [SUPERBOMB] orbs will deal 90% less damage to the crew. Up to 1 time per adventure, when Monkey D. Luffy uses a special as crewmate, ignores Debuff Protection and delays all enemies by 1 turn, reduces enemies' positive buffs duration by 1 turn, reduces damage received by 100% for 1 turn, reduces any damage received above 1,000 HP by 100% for 1 turn, and activates HP Guard of 100% effect for 1 turn.",
+        special: "Reduces enemies' Barrier duration by 3 turns, reduces enemies' Resilience duration by 7 turns, enables ATK Up buffs to be enhanced up to 2 times, switches orbs between slots 2 times, and boosts Tap Timing ATK of [STR], [INT], Powerhouse and Free Spirit characters by 2.25x following a chain of PERFECT > PERFECT > PERFECT for 1 turn. If your crew has Chain Lock when the special is activated, increases Chain Tap Timing Bonus of [STR], [INT], Powerhouse and Free Spirit characters to +0.1x-0.8x, can be enhanced up to 2 times, for 2 turns depending on Tap Timing. Reduces Chain Multiplier Limit duration by 4 turns. If your crew has 4+ [Mythical Zoan-type] or [Egghead Arc] characters, increases boost effects of Chain Tap Timing Bonus buffs by +0.2x, including effects activated in the same ability.",
+        specialNotes: "GOOD +0.1, GREAT +0.1, PERFECT +0.8",
         specialName: "Haki for When the Time is Right",
         sailor: {
-            base: "Character cannot be blown away by attack, and boosts [INT] and [STR] characters' base stats by 100",
-            level1: "Makes crew immune to Remove SFX, and makes crew's [TND] slots have matching slot effects"
+            base: "This character cannot be Blown Away. Boosts base ATK, HP and RCV of [STR] and [INT] characters by 100.",
+            level1: "Removes Blindness duration completely, and makes [TND] orbs beneficial for all characters."
         },
-        superSpecialCriteria: "When crew has ability to ignore defensive effects with normal attacks or Monkey D. Luffy is on the crew (except as Support Character; can be launched when character is a crewmate)",
-        superSpecial: "Applies \"Territory: Free Spirit class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 2 turns, changes character's slot to [TND] (ignoring inability to change Rainbow slots), further increases crew's slot effect boost by +0.4, allows character's normal attacks to ignore enemies' defensive effects for 1 turn, and changes [INT] characters to Super [INT]",
+        superSpecialCriteria: "Can be launched as crewmate. When your crew has ability to ignore all defensive effects with normal attacks or your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy",
+        superSpecial: "Applies Territory: Free Spirit class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns, changes the orb, including [RAINBOW] orb, of this character into a [TND] orb, increases boost effects of Orb Amplification buffs by +0.4x, makes this character's normal attacks ignore damage reducing barriers and buffs for 1 turn, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to apply lock chain multiplier status, reduces damage taken by 20% for 1 turn",
-                    "Once per quest, if supported character uses a Special to apply lock chain multiplier status, reduces damage taken by 25% for 1 turn",
-                    "Once per quest, if supported character uses a Special to apply lock chain multiplier status, reduces damage taken by 30% for 1 turn",
-                    "Once per quest, if supported character uses a Special to apply lock chain multiplier status, reduces damage taken by 35% for 1 turn",
-                    "Once per quest, if supported character uses a Special to apply lock chain multiplier status, reduces damage taken by 40% for 1 turn"
+                    "Once per adventure, when the supported character uses a Chain Lock special, reduces damage received by 20% for 1 turn.",
+                    "Once per adventure, when the supported character uses a Chain Lock special, reduces damage received by 25% for 1 turn.",
+                    "Once per adventure, when the supported character uses a Chain Lock special, reduces damage received by 30% for 1 turn.",
+                    "Once per adventure, when the supported character uses a Chain Lock special, reduces damage received by 35% for 1 turn.",
+                    "Once per adventure, when the supported character uses a Chain Lock special, reduces damage received by 40% for 1 turn."
                 ]
             }
         ],
@@ -178904,18 +178908,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Mythical Zoan-type] [Scientist] [Egghead Arc] character performs Super Tandem",
-                "When a [Mythical Zoan-type] [Scientist] [Egghead Arc] character performs Super Tandem",
-                "When a [Mythical Zoan-type] [Scientist] [Egghead Arc] character performs Super Tandem",
-                "When a [Mythical Zoan-type] [Scientist] [Egghead Arc] character performs Super Tandem",
-                "When a [Mythical Zoan-type] [Scientist] [Egghead Arc] character performs Super Tandem"
+                "When a [Mythical Zoan-type], [Scientist] or [Egghead Arc] character performs Super Tandem",
+                "When a [Mythical Zoan-type], [Scientist] or [Egghead Arc] character performs Super Tandem",
+                "When a [Mythical Zoan-type], [Scientist] or [Egghead Arc] character performs Super Tandem",
+                "When a [Mythical Zoan-type], [Scientist] or [Egghead Arc] character performs Super Tandem",
+                "When a [Mythical Zoan-type], [Scientist] or [Egghead Arc] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Mythical Zoan-type] [Scientist] [Egghead Arc] [Straw Hat Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 1 and raises Boost Level of [Mythical Zoan-type] [Straw Hat Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 2 and raises Boost Level of [Mythical Zoan-type] [Straw Hat Pirates] characters by 3 for 1 turn",
-                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 3 and raises Boost Level of [Mythical Zoan-type] [Straw Hat Pirates] characters by 4 for 1 turn",
-                "Raises Boost Level of [Scientist] [Egghead Arc] characters by 4 and raises Boost Level of [Mythical Zoan-type] [Straw Hat Pirates] characters by 5 for 1 turn"
+                "Raises Boost Level of [Mythical Zoan-type], [Scientist], [Egghead Arc] and [Straw Hat Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 1 for 1 turn, and raises Boost Level of [Mythical Zoan-type] and [Straw Hat Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 2 for 1 turn, and raises Boost Level of [Mythical Zoan-type] and [Straw Hat Pirates] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 3 for 1 turn, and raises Boost Level of [Mythical Zoan-type] and [Straw Hat Pirates] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 4 for 1 turn, and raises Boost Level of [Mythical Zoan-type] and [Straw Hat Pirates] characters by 5 for 1 turn."
             ]
         },
         festStats: {
@@ -178992,22 +178996,22 @@ window.details = {
         }
     },
     4494: {//Dorry
-        captain: "Boosts Powerhouse and Free Spirit characters' ATK by 3.25x, HP by 1.3x, makes their [TND] slots have matching slot effects, and boosts their ATK by approximately 4.5x after 3 PERFECT strikes in a row",
-        special: "Reduces all enemies' DEF Up duration by 6 turns, boosts [INT], Powerhouse, Free Spirit, and Cerebral characters' ATK by 2.5x for 3 turns (allows this effect to be further increased up to 2 times), and if \"Broggy\" launches a Special in this turn, further increases crew's slot effect boost by +0.5, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, and applies Weakened status (increase damage taken by 1.3x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken) to all enemies for 1 turn",
+        captain: "Boosts ATK of Powerhouse and Free Spirit characters by 3.25x, by 4.5x instead after the 3rd PERFECT in a row, boosts HP of Powerhouse and Free Spirit characters by 1.3x, and makes [TND] orbs beneficial for Powerhouse and Free Spirit characters.",
+        special: "Reduces enemies' Increased Defense duration by 6 turns, and boosts ATK of [INT], Powerhouse, Free Spirit and Cerebral characters by 2.5x, can be enhanced up to 2 times, for 3 turns. If your crew has Broggy who has used a special this turn, increases boost effects of Orb Amplification buffs by +0.5x, reduces enemies' Percent Damage Reduction duration by 6 turns, and inflicts all enemies with Weaken by 1.3x, by 1.56x if enemies are inflicted with Increase Damage Taken, for 1 turn.",
         specialName: "Fengxi-Impeding Svalinn Sun-Shield",
         sailor: {
-            base: "Character cannot be blown away by attack",
-            level1: "Boosts crew's base ATK and HP by 150"
+            base: "This character cannot be Blown Away.",
+            level1: "Boosts base ATK and HP of all characters by 150."
         },
         support: [
             {
                 Characters: "[INT] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [TND] (ignoring inability to change Rainbow slots),",
-                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [TND] (ignoring inability to change Rainbow slots),",
-                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [TND] (ignoring inability to change Rainbow slots),",
-                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [TND] (ignoring inability to change Rainbow slots),",
-                    "Once per quest, if supported character uses a Special, changes supported character's [BLOCK] or Rainbow slot to [TND] (ignoring inability to change Rainbow slots),"
+                    "Once per adventure, when the supported character uses their special, changes the [RAINBOW] orb of the supported character into a [TND] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the [RAINBOW] orb of the supported character into a [TND] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the [RAINBOW] orb of the supported character into a [TND] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the [RAINBOW] orb of the supported character into a [TND] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the [BLOCK] or [RAINBOW] orb of the supported character into a [TND] orb."
                 ]
             }
         ],
@@ -179114,22 +179118,22 @@ window.details = {
         ]
     },
     4495: {//Broggy
-        captain: "Boosts Powerhouse and Free Spirit characters' ATK by 3.25x, HP by 1.3x, makes their [RCV] slots have matching slot effects, and boosts their ATK by approximately 4.5x after 3 PERFECT strikes in a row",
-        special: "Reduces all enemies' DEF Up duration by 6 turns, boosts [INT], Powerhouse, Free Spirit, and Cerebral characters' slot effects by 2.5x for 3 turns (allows this effect to be further increased up to 2 times), and if \"Dorry\" launches a Special in this turn, further increases crew's ATK boost by +0.5, reduces all enemies' Threshold Damage Reduction duration by 6 turns, and applies Weakened status (increase damage taken by 1.3x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken) to all enemies for 1 turn",
+        captain: "Boosts ATK of Powerhouse and Free Spirit characters by 3.25x, by 4.5x instead after the 3rd PERFECT in a row, boosts HP of Powerhouse and Free Spirit characters by 1.3x, and makes [RCV] orbs beneficial for Powerhouse and Free Spirit characters.",
+        special: "Reduces enemies' Increased Defense duration by 6 turns, and boosts Orb Effects of [INT], Powerhouse, Free Spirit and Cerebral characters by 2.5x, can be enhanced up to 2 times, for 3 turns. If your crew has Dorry who has used a special this turn, increases boost effects of ATK Up buffs by +0.5x, reduces enemies' Threshold Damage Reduction duration by 6 turns, and inflicts all enemies with Weaken by 1.3x, by 1.56x if enemies are inflicted with Increase Damage Taken, for 1 turn.",
         specialName: "Fengxi-Stopping Svalinn Sun-Shield",
         sailor: {
-            base: "Character cannot be blown away by attack",
-            level1: "Boosts crew's base ATK and HP by 150"
+            base: "This character cannot be Blown Away.",
+            level1: "Boosts base ATK and HP of all characters by 150."
         },
         support: [
             {
                 Characters: "[INT] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [RCV] (ignoring inability to change Rainbow slots),",
-                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [RCV] (ignoring inability to change Rainbow slots),",
-                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [RCV] (ignoring inability to change Rainbow slots),",
-                    "Once per quest, if supported character uses a Special, changes supported character's Rainbow slot to [RCV] (ignoring inability to change Rainbow slots),",
-                    "Once per quest, if supported character uses a Special, changes supported character's [BLOCK] or Rainbow slot to [RCV] (ignoring inability to change Rainbow slots),"
+                    "Once per adventure, when the supported character uses their special, changes the [RAINBOW] orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the [RAINBOW] orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the [RAINBOW] orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the [RAINBOW] orb of the supported character into a [RCV] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the [BLOCK] or [RAINBOW] orb of the supported character into a [RCV] orb."
                 ]
             }
         ],
@@ -179236,22 +179240,22 @@ window.details = {
         ]
     },
     4496: {//5* PKA Doll & Bluegrass
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts [STR], Fighter, and Cerebral characters' ATK by 4x, RCV by 1.2x, makes crew's [RCV][BOMB] slots have matching slot effects, reduces damage taken by 10%, and reduces crew's Special Bind duration by 2 turns",
-        special: "Reduces crew's Despair duration by 6 turns, reduces all enemies' damage nullification duration by 1 turn, boosts [STR], Fighter, and Cerebral characters' base ATK by +1250 for 2 turns, and if 4 or more [Navy] [World Government] characters are on the crew, allows character's normal attacks to ignore enemies' defensive effects for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [STR], Fighter and Cerebral characters by 4x, boosts RCV of [STR], Fighter and Cerebral characters by 1.2x, makes [RCV] and [BOMB] orbs beneficial for all characters, reduces damage received by 10%, and reduces Special Bind duration by 2 turns.",
+        special: "Reduces Despair duration by 6 turns, reduces enemies' Damage Nullification duration by 1 turn, and boosts Base ATK of [STR], Fighter and Cerebral characters by 1,250 for 2 turns. If your crew has 4+ [Navy] or [World Government] characters, makes this character's normal attacks ignore damage reducing barriers and buffs for 1 turn.",
         specialName: "Pirate-Subduing Onslaught",
         sailor: {
-            base: "Sets all slots to [RCV] slots at start of quest (no stacking identical abilities)",
-            level1: "Reduces crew's ATK Down duration by 1 turn, and reduces character's Special charge time by 3 turns at start of quest"
+            base: "Changes orbs of all characters into [RCV] orbs at the start of the fight.",
+            level1: "Reduces ATK Down duration by 1 turn, and reduces Special Cooldown of this character by 3 turns at the start of the fight."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                Characters: "[Navy Vice Admiral] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +150 for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +200 for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +250 for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +300 for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +300 for 1 turn and reduces all enemies' damage nullification duration by 1 turn"
+                    "Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, boosts Base ATK of [STR], Fighter and Cerebral characters by 150 for 1 turn.",
+                    "Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, boosts Base ATK of [STR], Fighter and Cerebral characters by 200 for 1 turn.",
+                    "Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, boosts Base ATK of [STR], Fighter and Cerebral characters by 250 for 1 turn.",
+                    "Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, boosts Base ATK of [STR], Fighter and Cerebral characters by 300 for 1 turn.",
+                    "Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, boosts Base ATK of [STR], Fighter and Cerebral characters by 300 for 1 turn, and reduces enemies' Damage Nullification duration by 1 turn."
                 ]
             }
         ],
@@ -179316,18 +179320,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.15x to Cerebral and Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.2x to Cerebral and Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.25x to Cerebral and Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.3x to Cerebral and Fighter characters for 1 turn",
-                "Reduces crew's ATK Down duration by 1 turn, and applies ATK Boost (Tandem) of 1.3x to Cerebral and Fighter characters for 1 turn"
+                "Boosts Tandem ATK of Cerebral and Fighter characters by 1.15x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Fighter characters by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Fighter characters by 1.25x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Fighter characters by 1.3x for 1 turn.",
+                "Reduces ATK Down duration by 1 turn, and boosts Tandem ATK of Cerebral and Fighter characters by 1.3x for 1 turn."
             ]
         },
         festStats: {
