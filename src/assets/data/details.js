@@ -139359,12 +139359,12 @@ window.details = {
         supportNotes: "GOOD +0.4; GREAT +0.1; PERFECT +0.4"
     },
     3983: {
-        captain: "Reduces Special Cooldown of [STR] and Powerhouse characters by 2 turns at the start of the fight, boosts ATK of [STR] and Powerhouse characters by 5.75x, by 6x instead if they have a [WANO] orb, boosts HP of [STR] and Powerhouse characters by 1.5x, deals 500x character's ATK in [STR] damage to all enemies at end of each turn and changes [DEX] orbs into [WANO] orbs. If this character has a [WANO] orb and you attack with this character, reduces enemies' Barrier duration by 1 turn and ignores Burn Debuff Protection and inflicts all enemies with Burn that will deal 150x enemies' ATK in damage for 3 turns. Ignores Increase Damage Taken Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x for 10 turns after each turn you take damage.",
+        captain: "Reduces Special Cooldown of [STR] and Powerhouse characters by 2 turns at the start of the fight, boosts ATK of [STR] and Powerhouse characters by 5.75x, by 6x instead if they have a [WANO] orb, boosts HP of [STR] and Powerhouse characters by 1.5x, deals 500x character's ATK in [STR] damage to all enemies at the end of each turn and changes [DEX] orbs into [WANO] orbs. If this character has a [WANO] orb and you attack with this character, reduces enemies' Barrier duration by 1 turn and ignores Burn Debuff Protection and inflicts all enemies with Burn that will deal 150x enemies' ATK in damage for 3 turns. Ignores Increase Damage Taken Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x for 10 turns after each turn you take damage.",
         special: "If the HP of the enemy with the highest Maximum HP is above 1,000,000 HP, deals 1,000,000 Fixed True damage, ignoring Normal Attack Only, to all enemies, instantly defeats all enemies otherwise. Boosts Orb Effects of [STR] and Powerhouse characters by 2.75x-3x for 2 turns, depending on if they have a [WANO] orb. If this character is your Captain or Friend/Guest Captain, boosts ATK against enemies inflicted with Increase Damage Taken by 3x for 2 turns, by 2.75x for 1 turn otherwise.",
         specialName: "Flame Dragon Torch: Rising Dragon Flame Bagua",
     },
     3984: {
-        captain: "Reduces Special Cooldown of [STR] and Powerhouse characters by 2 turns at the start of the fight, boosts ATK of [STR] and Powerhouse characters by 5.75x, by 6x instead if they have a [WANO] orb, boosts HP of [STR] and Powerhouse characters by 1.5x, deals 500x character's ATK in [STR] damage to all enemies at end of each turn and changes [DEX] orbs into [WANO] orbs. If this character has a [WANO] orb and you attack with this character, reduces enemies' Barrier duration by 1 turn and ignores Burn Debuff Protection and inflicts all enemies with Burn that will deal 150x enemies' ATK in damage for 3 turns. Ignores Increase Damage Taken Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x for 10 turns after each turn you take damage.",
+        captain: "Reduces Special Cooldown of [STR] and Powerhouse characters by 2 turns at the start of the fight, boosts ATK of [STR] and Powerhouse characters by 5.75x, by 6x instead if they have a [WANO] orb, boosts HP of [STR] and Powerhouse characters by 1.5x, deals 500x character's ATK in [STR] damage to all enemies at the end of each turn and changes [DEX] orbs into [WANO] orbs. If this character has a [WANO] orb and you attack with this character, reduces enemies' Barrier duration by 1 turn and ignores Burn Debuff Protection and inflicts all enemies with Burn that will deal 150x enemies' ATK in damage for 3 turns. Ignores Increase Damage Taken Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x for 10 turns after each turn you take damage.",
         limit: [
             { description: "Boosts base ATK by 10" },
             { description: "Boosts base ATK by 10" },
@@ -178306,97 +178306,7 @@ window.details = {
                 "Reduces Special Cooldown of Monkey D. Luffy and Jewelry Bonney characters by 2 turns, and boosts Tandem ATK of Free Spirit and Cerebral characters by 2.5x for 1 turn.",
                 "Reduces Special Cooldown of Monkey D. Luffy and Jewelry Bonney characters by 2 turns, and boosts Tandem ATK of Free Spirit and Cerebral characters by 3x for 1 turn."
             ]
-        },
-        festStats: {
-            def: 128,
-            spd: 215,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind/Confusion, reduce damage taken from [PSY] by 30%",
-        festAbility: [
-            "[INT]/Free Spirit class teammates HP Up Lv.3, RCV Up Lv.3, SPD Up Lv.3; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates ATK Up Lv.1, Special CT Speed Up Lv.1; when appearing on the field, \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates Special CT 5% reduction; when remaining time is 50 s or less, or when appearing on the field when remaining time is 50 s or less, all enemies Special CT 10% delay",
-            "[INT]/Free Spirit class teammates HP Up Lv.4, RCV Up Lv.4, SPD Up Lv.4; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates ATK Up Lv.2, Special CT Speed Up Lv.1; when appearing on the field, \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates Special CT 6% reduction; when remaining time is 50 s or less, or when appearing on the field when remaining time is 50 s or less, all enemies Special CT 15% delay",
-            "[INT]/Free Spirit class teammates HP Up Lv.5, RCV Up Lv.5, SPD Up Lv.5; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates ATK Up Lv.3, Special CT Speed Up Lv.2; when appearing on the field, \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates Special CT 7% reduction; when remaining time is 50 s or less, or when appearing on the field when remaining time is 50 s or less, all enemies Special CT 20% delay",
-            "[INT]/Free Spirit class teammates HP Up Lv.6, RCV Up Lv.6, SPD Up Lv.6; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates ATK Up Lv.4, Special CT Speed Up Lv.2; when appearing on the field, \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates Special CT 8% reduction; when remaining time is 50 s or less, or when appearing on the field when remaining time is 50 s or less, all enemies Special CT 25% delay",
-            "[INT]/Free Spirit class teammates HP Up Lv.7, RCV Up Lv.7, SPD Up Lv.7; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates ATK Up Lv.5, Special CT Speed Up Lv.3; when appearing on the field, \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates Special CT 10% reduction; when remaining time is 50 s or less, or when appearing on the field when remaining time is 50 s or less, all enemies Special CT 30% delay"
-        ],
-        festSpecial: [
-            {
-                cooldown: 27,
-                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.1 (11 s); targets 3 enemies with high current Special CT for Special CT 21% delay; targets all [Five Elders] enemies for 82% chance of Forced Out (10 s); targets enemies within large range for 11000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 3.2 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.1 (12 s); targets 3 enemies with high current Special CT for Special CT 22% delay; targets all [Five Elders] enemies for 84% chance of Forced Out (10 s); targets enemies within large range for 12000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 3.4 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.2 (13 s); targets 3 enemies with high current Special CT for Special CT 23% delay; targets all [Five Elders] enemies for 86% chance of Forced Out (10 s); targets enemies within large range for 13000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 3.6 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.2 (14 s); targets 3 enemies with high current Special CT for Special CT 24% delay; targets all [Five Elders] enemies for 88% chance of Forced Out (10 s); targets enemies within large range for 14000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 3.8 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.3 (15 s); targets 3 enemies with high current Special CT for Special CT 25% delay; targets all [Five Elders] enemies for 90% chance of Forced Out (10 s); targets enemies within large range for 15000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 4 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.3 (16 s); targets 3 enemies with high current Special CT for Special CT 26% delay; targets all [Five Elders] enemies for 92% chance of Forced Out (10 s); targets enemies within large range for 16000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 4.2 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.4 (17 s); targets 3 enemies with high current Special CT for Special CT 27% delay; targets all [Five Elders] enemies for 94% chance of Forced Out (10 s); targets enemies within large range for 17000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 4.4 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.4 (18 s); targets 3 enemies with high current Special CT for Special CT 28% delay; targets all [Five Elders] enemies for 96% chance of Forced Out (10 s); targets enemies within large range for 18000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 4.6 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.5 (19 s); targets 3 enemies with high current Special CT for Special CT 29% delay; targets all [Five Elders] enemies for 98% chance of Forced Out (10 s); targets enemies within large range for 19000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 4.8 damage"
-            },
-            {
-                cooldown: 27,
-                description: "Targets \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates for DEF Up Lv.5 (20 s); targets 3 enemies with high current Special CT for Special CT 30% delay; targets all [Five Elders] enemies for 100% chance of Forced Out (10 s); targets enemies within large range for 20000 spread damage (damage on each enemy reduced based on number of total enemies), ATK x 5 damage"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[INT]/[PSY] teammates ATK, RCV Up Lv.2, Special CT Speed Up Lv.1; Free Spirit/Cerebral class teammates HP, SPD Up Lv.2, DEF Up Lv.1; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates HP, DEF Up Lv.2; if there are 4 or more [Navy] [World Government] enemies, all enemies Special CT Speed Down Lv.1",
-                festGPSpecial: "Targets all enemies for Special CT 22% delay, targets all enemies ignoring DEF for Leader base ATK x 1.2 damage; targets [INT]/[PSY]/Free Spirit/Cerebral class teammates for Special CT 22% reduction",
-                uses: 2
-            },
-            {
-                festGPAbility: "[INT]/[PSY] teammates ATK, RCV Up Lv.3, Special CT Speed Up Lv.1; Free Spirit/Cerebral class teammates HP, SPD Up Lv.3, DEF Up Lv.2; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates HP, DEF Up Lv.3; if there are 4 or more [Navy] [World Government] enemies, all enemies Special CT Speed Down Lv.2",
-                festGPSpecial: "Targets all enemies for Special CT 24% delay, targets all enemies ignoring DEF for Leader base ATK x 1.3 damage; targets [INT]/[PSY]/Free Spirit/Cerebral class teammates for Special CT 24% reduction",
-                uses: 2
-            },
-            {
-                festGPAbility: "[INT]/[PSY] teammates ATK, RCV Up Lv.4, Special CT Speed Up Lv.2; Free Spirit/Cerebral class teammates HP, SPD Up Lv.4, DEF Up Lv.3; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates HP, DEF Up Lv.4; if there are 4 or more [Navy] [World Government] enemies, all enemies Special CT Speed Down Lv.3",
-                festGPSpecial: "Targets all enemies for Special CT 26% delay, targets all enemies ignoring DEF for Leader base ATK x 1.4 damage; targets [INT]/[PSY]/Free Spirit/Cerebral class teammates for Special CT 26% reduction",
-                uses: 2
-            },
-            {
-                festGPAbility: "[INT]/[PSY] teammates ATK, RCV Up Lv.5, Special CT Speed Up Lv.2; Free Spirit/Cerebral class teammates HP, SPD Up Lv.5, DEF Up Lv.3; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates HP, DEF Up Lv.5; if there are 4 or more [Navy] [World Government] enemies, all enemies Special CT Speed Down Lv.4",
-                festGPSpecial: "Targets all enemies for Special CT 28% delay, targets all enemies ignoring DEF for Leader base ATK x 1.5 damage; targets [INT]/[PSY]/Free Spirit/Cerebral class teammates for Special CT 28% reduction",
-                uses: 2
-            },
-            {
-                festGPAbility: "[INT]/[PSY] teammates ATK, RCV Up Lv.6, Special CT Speed Up Lv.3; Free Spirit/Cerebral class teammates HP, SPD Up Lv.6, DEF Up Lv.4; \"Emet\" and [Straw Hat Pirates] [Vegapunk] [Revolutionary Army] [Paramythia-type] teammates HP, DEF Up Lv.6; if there are 4 or more [Navy] [World Government] enemies, all enemies Special CT Speed Down Lv.5",
-                festGPSpecial: "Targets all enemies for Special CT 30% delay, targets all enemies ignoring DEF for Leader base ATK x 1.6 damage; targets [INT]/[PSY]/Free Spirit/Cerebral class teammates for Special CT 30% reduction",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "After dealing damage 16 times"
+        }
     },
     4491: {//Saturn
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Five Elders] and [Celestial Dragon] characters by 8 turns, reduces Special Cooldown of [STR], Driven and Cerebral characters by 2 turns, and reduces VS Gauge and Switch Effect of [STR], Driven and Cerebral characters by 2. Boosts ATK of [Egghead Arc], [Scientist], [Navy], [World Government] and [Five Elders] characters by 1.1x, boosts ATK of [STR], Driven and Cerebral characters by 6x, by 6.6x instead if they have the applicable tag, and makes [STR] and [RCV] orbs beneficial for [STR], Driven and Cerebral characters. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Egghead Arc], [Scientist], [Navy], [World Government] and [Five Elders] characters by 1.4x instead, and boosts ATK of [STR], Driven and Cerebral characters by 8.4x instead if they have the applicable tag. If your crew has 4+ [Egghead Arc], [Scientist], [Navy], [World Government] or [Five Elders] characters and you gain a Color Affinity buff, enables Color Affinity buffs to be enhanced up to 2 times, and increases boost effects of Color Affinity buffs by 1.4x (up to 10x).",
@@ -178504,97 +178414,7 @@ window.details = {
                 "Changes the orb of this character into a Matching orb, and boosts Chain Multiplier Growth Rate by 2x.",
                 "Changes the orb of this character into a Matching orb, increases boost effects of Orb Amplification buffs by +0.3x, and boosts Chain Multiplier Growth Rate by 2.25x."
             ]
-        },
-        festStats: {
-            def: 155,
-            spd: 179,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Forced Out/Special Bind, reduce damage taken from [DEX] by 30%",
-        festAbility: [
-            "[STR]/Driven class and [Five Elders] teammates HP Up Lv.3, RCV Up Lv.3, SPD Up Lv.3; [Navy] [World Government] [Zoan-type] teammates ATK Up Lv.1, DEF Up Lv.1; when character receives Halve Stats, up to 2 times self ATK Up Lv.2; all enemies DEF Down Lv.1",
-            "[STR]/Driven class and [Five Elders] teammates HP Up Lv.4, RCV Up Lv.4, SPD Up Lv.4; [Navy] [World Government] [Zoan-type] teammates ATK Up Lv.2, DEF Up Lv.1; when character receives Halve Stats, up to 2 times self ATK Up Lv.3; all enemies DEF Down Lv.2",
-            "[STR]/Driven class and [Five Elders] teammates HP Up Lv.5, RCV Up Lv.5, SPD Up Lv.5; [Navy] [World Government] [Zoan-type] teammates ATK Up Lv.3, DEF Up Lv.2; when character receives Halve Stats, up to 2 times self ATK Up Lv.4; all enemies DEF Down Lv.3",
-            "[STR]/Driven class and [Five Elders] teammates HP Up Lv.6, RCV Up Lv.6, SPD Up Lv.6; [Navy] [World Government] [Zoan-type] teammates ATK Up Lv.4, DEF Up Lv.2; when character receives Halve Stats, up to 2 times self ATK Up Lv.5; all enemies DEF Down Lv.4",
-            "[STR]/Driven class and [Five Elders] teammates HP Up Lv.7, RCV Up Lv.7, SPD Up Lv.7; [Navy] [World Government] [Zoan-type] teammates ATK Up Lv.5, DEF Up Lv.3; when character receives Halve Stats, up to 2 times self ATK Up Lv.6; all enemies DEF Down Lv.4"
-        ],
-        festSpecial: [
-            {
-                cooldown: 30,
-                description: "Targets [STR]/Driven class teammates for DEF Up Lv.1 (11 s), Halve Stats reduction (6 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 82% chance of Haste; targets enemies within medium range for ATK x 3 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets [STR]/Driven class teammates for DEF Up Lv.1 (12 s), Halve Stats reduction (7 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 84% chance of Haste; targets enemies within medium range for ATK x 4 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets [STR]/Driven class teammates for DEF Up Lv.2 (13 s), Halve Stats reduction (8 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 86% chance of Haste; targets enemies within medium range for ATK x 5 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets [STR]/Driven class teammates for DEF Up Lv.2 (14 s), Halve Stats reduction (9 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 88% chance of Haste; targets enemies within medium range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets [STR]/Driven class teammates for DEF Up Lv.3 (15 s), Halve Stats reduction (10 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 90% chance of Haste; targets enemies within medium range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets [STR]/Driven class teammates for DEF Up Lv.3 (16 s), Halve Stats reduction (11 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 92% chance of Haste; targets enemies within medium range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets [STR]/Driven class teammates for DEF Up Lv.4 (17 s), Halve Stats reduction (12 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 94% chance of Haste; targets enemies within medium range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets [STR]/Driven class teammates for DEF Up Lv.4 (18 s), Halve Stats reduction (13 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 96% chance of Haste; targets enemies within medium range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets [STR]/Driven class teammates for DEF Up Lv.5 (19 s), Halve Stats reduction (14 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 98% chance of Haste; targets enemies within medium range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets [STR]/Driven class teammates for DEF Up Lv.6 (20 s), Halve Stats reduction (15 s); targets (not including self) 2 [Navy] [World Government] [Zoan-type] teammates for 100% chance of Haste; targets enemies within medium range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); if 5 or more [Navy] [World Government] [Zoan-type] characters are on the team, targets enemies within large range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies)"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[STR] teammates SPD, RCV Up Lv.2, Special CT Speed Up Lv.1; Driven/Cerebral class teammates HP, ATK Up Lv.2, DEF Up Lv.1; when remaining time is 50 s or less, all enemies DEF Down Lv.1",
-                festGPSpecial: "Targets [STR]/Driven/Cerebral class teammates for Halve Stats reduction (11 s); targets Powerhouse/Free Spirit class enemies for 100% chance of Halve Stats (11 s); targets all enemies for Leader base ATK x 2 damage, Leader base ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies)",
-                uses: 3
-            },
-            {
-                festGPAbility: "[STR] teammates SPD, RCV Up Lv.3, Special CT Speed Up Lv.1; Driven/Cerebral class teammates HP, ATK Up Lv.3, DEF Up Lv.2; when remaining time is 50 s or less, all enemies DEF Down Lv.2",
-                festGPSpecial: "Targets [STR]/Driven/Cerebral class teammates for Halve Stats reduction (12 s); targets Powerhouse/Free Spirit class enemies for 100% chance of Halve Stats (12 s); targets all enemies for Leader base ATK x 2.5 damage, Leader base ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies)",
-                uses: 3
-            },
-            {
-                festGPAbility: "[STR] teammates SPD, RCV Up Lv.4, Special CT Speed Up Lv.2; Driven/Cerebral class teammates HP, ATK Up Lv.4, DEF Up Lv.3; when remaining time is 50 s or less, all enemies DEF Down Lv.3",
-                festGPSpecial: "Targets [STR]/Driven/Cerebral class teammates for Halve Stats reduction (13 s); targets Powerhouse/Free Spirit class enemies for 100% chance of Halve Stats (13 s); targets all enemies for Leader base ATK x 3 damage, Leader base ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies)",
-                uses: 3
-            },
-            {
-                festGPAbility: "[STR] teammates SPD, RCV Up Lv.5, Special CT Speed Up Lv.2; Driven/Cerebral class teammates HP, ATK Up Lv.5, DEF Up Lv.3; when remaining time is 50 s or less, all enemies DEF Down Lv.4",
-                festGPSpecial: "Targets [STR]/Driven/Cerebral class teammates for Halve Stats reduction (14 s); targets Powerhouse/Free Spirit class enemies for 100% chance of Halve Stats (14 s); targets all enemies for Leader base ATK x 3.5 damage, Leader base ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies)",
-                uses: 3
-            },
-            {
-                festGPAbility: "[STR] teammates SPD, RCV Up Lv.6, Special CT Speed Up Lv.3; Driven/Cerebral class teammates HP, ATK Up Lv.6, DEF Up Lv.4; when remaining time is 50 s or less, all enemies DEF Down Lv.5",
-                festGPSpecial: "Targets [STR]/Driven/Cerebral class teammates for Halve Stats reduction (15 s); targets Powerhouse/Free Spirit class enemies for 100% chance of Halve Stats (15 s); targets all enemies for Leader base ATK x 4 damage, Leader base ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies)",
-                uses: 3
-            }
-        ],
-        festAbilityGPCondition: "After receiving damage 12 times"
+        }
     },
     4492: {//Kuma
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] and [Egghead Arc] characters by 3 turns, and reduces VS Gauge and Switch Effect of all characters by 2. Boosts ATK of [INT], Cerebral and Free Spirit characters by 6x, boosts HP of [INT], Cerebral and Free Spirit characters by 1.5x, makes [DEX] and [RCV] orbs beneficial for all characters, makes crew immune to Blow Away, and reduces Bind duration by 10 turns on this character. If your crew has 4+ [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] or [Egghead Arc] characters, boosts ATK of [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] and [Egghead Arc] characters by 1.25x, and boosts ATK of [INT], Cerebral and Free Spirit characters by 7.5x instead if they have the applicable tag.",
@@ -178708,97 +178528,7 @@ window.details = {
                 "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 4 for 1 turn, and raises Boost Level of [Bonney Pirates], [Revolutionary Army] and [Straw Hat Pirates] characters by 5 for 1 turn.",
                 "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 5 for 1 turn, and raises Boost Level of [Bonney Pirates], [Revolutionary Army] and [Straw Hat Pirates] characters by 6 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 174,
-            spd: 142,
-            style: "RCV"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind/Confusion, reduce damage taken from [PSY] by 30%",
-        festAbility: [
-            "[INT]/Free Spirit class teammates ATK Up Lv.3, RCV Up Lv.3, DEF Up Lv.3; if \"Jewelry Bonney\" is on the team, when appearing on the field, self Special CT 25% reduction; when receiving damage, up to 12 times targets [INT]/Free Spirit class teammates for RCV x 0.6 healing",
-            "[INT]/Free Spirit class teammates ATK Up Lv.4, RCV Up Lv.4, DEF Up Lv.4; if \"Jewelry Bonney\" is on the team, when appearing on the field, self Special CT 30% reduction; when receiving damage, up to 12 times targets [INT]/Free Spirit class teammates for RCV x 0.7 healing",
-            "[INT]/Free Spirit class teammates ATK Up Lv.5, RCV Up Lv.5, DEF Up Lv.5; if \"Jewelry Bonney\" is on the team, when appearing on the field, self Special CT 35% reduction; when receiving damage, up to 12 times targets [INT]/Free Spirit class teammates for RCV x 0.8 healing",
-            "[INT]/Free Spirit class teammates ATK Up Lv.6, RCV Up Lv.6, DEF Up Lv.6; if \"Jewelry Bonney\" is on the team, when appearing on the field, self Special CT 40% reduction; when receiving damage, up to 12 times targets [INT]/Free Spirit class teammates for RCV x 0.9 healing",
-            "[INT]/Free Spirit class teammates ATK Up Lv.7, RCV Up Lv.7, DEF Up Lv.7; if \"Jewelry Bonney\" is on the team, when appearing on the field, self Special CT 50% reduction; when receiving damage, up to 12 times targets [INT]/Free Spirit class teammates for RCV x 1 healing"
-        ],
-        festSpecial: [
-            {
-                cooldown: 40,
-                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.1 (21 s), DEF Up Lv.1 (21 s); targets Driven class enemies for 73% chance of Halve Stats (11 s); targets enemies within large range for ATK x 2.1 damage; targets \"Jewelry Bonney\" teammates for Special CT 21% reduction, 73% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (21 s), ATK x 2.1 Counter stance (21 s)"
-            },
-            {
-                cooldown: 40,
-                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.1 (22 s), DEF Up Lv.1 (22 s); targets Driven class enemies for 76% chance of Halve Stats (12 s); targets enemies within large range for ATK x 2.2 damage; targets \"Jewelry Bonney\" teammates for Special CT 22% reduction, 76% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (22 s), ATK x 2.2 Counter stance (22 s)"
-            },
-            {
-                cooldown: 40,
-                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.2 (23 s), DEF Up Lv.2 (23 s); targets Driven class enemies for 79% chance of Halve Stats (13 s); targets enemies within large range for ATK x 2.3 damage; targets \"Jewelry Bonney\" teammates for Special CT 23% reduction, 79% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (23 s), ATK x 2.3 Counter stance (23 s)"
-            },
-            {
-                cooldown: 40,
-                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.2 (24 s), DEF Up Lv.2 (24 s); targets Driven class enemies for 82% chance of Halve Stats (14 s); targets enemies within large range for ATK x 2.4 damage; targets \"Jewelry Bonney\" teammates for Special CT 24% reduction, 82% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (24 s), ATK x 2.4 Counter stance (24 s)"
-            },
-            {
-                cooldown: 40,
-                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.3 (25 s), DEF Up Lv.3 (25 s); targets Driven class enemies for 85% chance of Halve Stats (15 s); targets enemies within large range for ATK x 2.5 damage; targets \"Jewelry Bonney\" teammates for Special CT 25% reduction, 85% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (25 s), ATK x 2.5 Counter stance (25 s)"
-            },
-            {
-                cooldown: 40,
-                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.3 (26 s), DEF Up Lv.3 (26 s); targets Driven class enemies for 88% chance of Halve Stats (16 s); targets enemies within large range for ATK x 2.6 damage; targets \"Jewelry Bonney\" teammates for Special CT 26% reduction, 88% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (26 s), ATK x 2.6 Counter stance (26 s)"
-            },
-            {
-                cooldown: 40,
-                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.4 (27 s), DEF Up Lv.4 (27 s); targets Driven class enemies for 91% chance of Halve Stats (17 s); targets enemies within large range for ATK x 2.7 damage; targets \"Jewelry Bonney\" teammates for Special CT 27% reduction, 91% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (27 s), ATK x 2.7 Counter stance (27 s)"
-            },
-            {
-                cooldown: 40,
-                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.4 (28 s), DEF Up Lv.4 (28 s); targets Driven class enemies for 94% chance of Halve Stats (18 s); targets enemies within large range for ATK x 2.8 damage; targets \"Jewelry Bonney\" teammates for Special CT 28% reduction, 94% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (28 s), ATK x 2.8 Counter stance (28 s)"
-            },
-            {
-                cooldown: 40,
-                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.5 (29 s), DEF Up Lv.5 (29 s); targets Driven class enemies for 97% chance of Halve Stats (19 s); targets enemies within large range for ATK x 2.9 damage; targets \"Jewelry Bonney\" teammates for Special CT 29% reduction, 97% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (29 s), ATK x 2.9 Counter stance (29 s)"
-            },
-            {
-                cooldown: 40,
-                description: "Targets [INT]/Free Spirit class teammates for ATK Up Lv.6 (30 s), DEF Up Lv.6 (30 s); targets Driven class enemies for 100% chance of Halve Stats (20 s); targets enemies within large range for ATK x 3 damage; targets \"Jewelry Bonney\" teammates for Special CT 30% reduction, 100% chance of Haste; if \"Jewelry Bonney\" is on the team, activates Provoke on self (30 s), ATK x 3 Counter stance (30 s)"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[STR]/[INT]/[PSY] teammates HP, SPD Up Lv.2, DEF Up Lv.1; Free Spirit/Cerebral class teammates ATK, RCV Up Lv.2, Special CT Speed Up Lv.1; revives Free Spirit/Cerebral class teammates up to 1 time at 30% HP",
-                festGPSpecial: "Targets [STR]/[INT]/[PSY]/Free Spirit/Cerebral class teammates for 100% chance to evade Forced Out (16 s); targets team for 480 HP per interval healing (26 s); targets all enemies for 4000 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[STR]/[INT]/[PSY] teammates HP, SPD Up Lv.3, DEF Up Lv.2; Free Spirit/Cerebral class teammates ATK, RCV Up Lv.3, Special CT Speed Up Lv.1; revives Free Spirit/Cerebral class teammates up to 1 time at 35% HP",
-                festGPSpecial: "Targets [STR]/[INT]/[PSY]/Free Spirit/Cerebral class teammates for 100% chance to evade Forced Out (17 s); targets team for 560 HP per interval healing (27 s); targets all enemies for 4500 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[STR]/[INT]/[PSY] teammates HP, SPD Up Lv.4, DEF Up Lv.3; Free Spirit/Cerebral class teammates ATK, RCV Up Lv.4, Special CT Speed Up Lv.2; revives Free Spirit/Cerebral class teammates up to 1 time at 40% HP",
-                festGPSpecial: "Targets [STR]/[INT]/[PSY]/Free Spirit/Cerebral class teammates for 100% chance to evade Forced Out (18 s); targets team for 640 HP per interval healing (28 s); targets all enemies for 5000 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[STR]/[INT]/[PSY] teammates HP, SPD Up Lv.5, DEF Up Lv.3; Free Spirit/Cerebral class teammates ATK, RCV Up Lv.5, Special CT Speed Up Lv.2; revives Free Spirit/Cerebral class teammates up to 1 time at 45% HP",
-                festGPSpecial: "Targets [STR]/[INT]/[PSY]/Free Spirit/Cerebral class teammates for 100% chance to evade Forced Out (19 s); targets team for 720 HP per interval healing (29 s); targets all enemies for 5500 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[STR]/[INT]/[PSY] teammates HP, SPD Up Lv.6, DEF Up Lv.4; Free Spirit/Cerebral class teammates ATK, RCV Up Lv.6, Special CT Speed Up Lv.3; revives Free Spirit/Cerebral class teammates up to 1 time at 50% HP",
-                festGPSpecial: "Targets [STR]/[INT]/[PSY]/Free Spirit/Cerebral class teammates for 100% chance to evade Forced Out (20 s); targets team for 800 HP per interval healing (30 s); targets all enemies for 6000 damage",
-                uses: 3
-            }
-        ],
-        festAbilityGPCondition: "After receiving 30,000 damage"
+        }
     },
     4493: {//Emet
         captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [STR], [INT], Powerhouse and Free Spirit characters by 5.5x, boosts HP of [STR], [INT], Powerhouse and Free Spirit characters by 1.25x, boosts HP of [Egghead Arc] characters 1.5x, increases boost effects of Chain Lock buffs by +0.5x, and increases duration of any Chain Lock buffs applied by specials by 3 turns. If your crew has 4+ [Egghead Arc] characters, reduces damage received by 25%, and [BOMB] and [SUPERBOMB] orbs will deal 90% less damage to the crew. Up to 1 time per adventure, when Monkey D. Luffy uses a special as crewmate, ignores Debuff Protection and delays all enemies by 1 turn, reduces enemies' positive buffs duration by 1 turn, reduces damage received by 100% for 1 turn, reduces any damage received above 1,000 HP by 100% for 1 turn, and activates HP Guard of 100% effect for 1 turn.",
@@ -178921,78 +178651,6 @@ window.details = {
                 "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 3 for 1 turn, and raises Boost Level of [Mythical Zoan-type] and [Straw Hat Pirates] characters by 4 for 1 turn.",
                 "Raises Boost Level of [Scientist] and [Egghead Arc] characters by 4 for 1 turn, and raises Boost Level of [Mythical Zoan-type] and [Straw Hat Pirates] characters by 5 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 174,
-            spd: 158,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind, reduce damage taken from [PSY] by 30％",
-        festAbility: [
-            "[INT]/Free Spirit class teammates HP Up Lv.2, RCV Up Lv.2, DEF Up Lv.2; if \"Monkey D. Luffy\" is on the team, Free Spirit class teammates ATK Up Lv.2, SPD Up Lv.2",
-            "[INT]/Free Spirit class teammates HP Up Lv.3, RCV Up Lv.3, DEF Up Lv.3; if \"Monkey D. Luffy\" is on the team, Free Spirit class teammates ATK Up Lv.3, SPD Up Lv.3",
-            "[INT]/Free Spirit class teammates HP Up Lv.4, RCV Up Lv.4, DEF Up Lv.4; if \"Monkey D. Luffy\" is on the team, Free Spirit class teammates ATK Up Lv.4, SPD Up Lv.4",
-            "[INT]/Free Spirit class teammates HP Up Lv.5, RCV Up Lv.5, DEF Up Lv.5; if \"Monkey D. Luffy\" is on the team, Free Spirit class teammates ATK Up Lv.5, SPD Up Lv.5",
-            "[INT]/Free Spirit class teammates HP Up Lv.6, RCV Up Lv.6, DEF Up Lv.6; if \"Monkey D. Luffy\" is on the team, Free Spirit class teammates ATK Up Lv.6, SPD Up Lv.6"
-        ],
-        festSpecial: [
-            {
-                cooldown: 29,
-                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.1 (11 s); targets [Five Elders] enemies for DEF Down Lv.1 (11 s); targets enemies within large range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 330 HP per interval healing (11 s), DEF Up Lv.1 (11 s)"
-            },
-            {
-                cooldown: 29,
-                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.1 (12 s); targets [Five Elders] enemies for DEF Down Lv.1 (12 s); targets enemies within large range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 360 HP per interval healing (12 s), DEF Up Lv.1 (12 s)"
-            },
-            {
-                cooldown: 29,
-                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.2 (13 s); targets [Five Elders] enemies for DEF Down Lv.2 (13 s); targets enemies within large range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 390 HP per interval healing (13 s), DEF Up Lv.2 (13 s)"
-            },
-            {
-                cooldown: 29,
-                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.2 (14 s); targets [Five Elders] enemies for DEF Down Lv.2 (14 s); targets enemies within large range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 420 HP per interval healing (14 s), DEF Up Lv.2 (14 s)"
-            },
-            {
-                cooldown: 29,
-                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.3 (15 s); targets [Five Elders] enemies for DEF Down Lv.3 (15 s); targets enemies within large range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 450 HP per interval healing (15 s), DEF Up Lv.3 (15 s)"
-            },
-            {
-                cooldown: 29,
-                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.3 (16 s); targets [Five Elders] enemies for DEF Down Lv.3 (16 s); targets enemies within large range for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 480 HP per interval healing (16 s), DEF Up Lv.3 (16 s)"
-            },
-            {
-                cooldown: 29,
-                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.4 (17 s); targets [Five Elders] enemies for DEF Down Lv.4 (17 s); targets enemies within large range for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 510 HP per interval healing (17 s), DEF Up Lv.4 (17 s)"
-            },
-            {
-                cooldown: 29,
-                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.4 (18 s); targets [Five Elders] enemies for DEF Down Lv.4 (18 s); targets enemies within large range for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 540 HP per interval healing (18 s), DEF Up Lv.4 (18 s)"
-            },
-            {
-                cooldown: 29,
-                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.5 (19 s); targets [Five Elders] enemies for DEF Down Lv.5 (19 s); targets enemies within large range for ATK x 19 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 570 HP per interval healing (19 s), DEF Up Lv.5 (19 s)"
-            },
-            {
-                cooldown: 29,
-                description: "If \"Monkey D. Luffy\" is on the team, targets self for ATK Up Lv.6 (20 s); targets [Five Elders] enemies for DEF Down Lv.6 (20 s); targets enemies within large range for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble targets self for 600 HP per interval healing (20 s), DEF Up Lv.6 (20 s)"
-            }
-        ],
-        festSuperSpecial: {
-            base: {
-                condition: "After enemy uses Rumble Special 3 times",
-                description: "If \"Monkey D. Luffy\" is on the team, targets [INT]/Free Spirit class teammates for ATK Up Lv.8 (25 s); targets [Five Elders] enemies for DEF Down Lv.7 (25 s); targets enemies within large range for ATK x 25 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [INT]/Free Spirit class teammates for 700 HP per interval healing (25 s), DEF Up Lv.7 (25 s)"
-            },
-            llbbase: {
-                condition: "After enemy uses Rumble Special 2 times",
-                description: "If \"Monkey D. Luffy\" is on the team, targets [INT]/Free Spirit class teammates for ATK Up Lv.10 (30 s); targets [Five Elders] enemies for DEF Down Lv.8 (30 s); targets enemies within large range for ATK x 30 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [INT]/Free Spirit class teammates for 800 HP per interval healing (30 s), DEF Up Lv.8 (30 s)"
-            }
         }
     },
     4494: {//Dorry
@@ -179053,68 +178711,6 @@ window.details = {
                     "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             }
-        ],
-        festStats: {
-            def: 311,
-            spd: 118,
-            style: "DEF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Heal Self Lv.2"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind, reduce damage taken from [PSY] by 20%",
-        festAbility: [
-            "[INT] teammates HP Up Lv.2, DEF Up Lv.1; if 4 or more [Egghead Arc] characters are on the team, [PSY] enemies ATK Down Lv.3; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.2",
-            "[INT] teammates HP Up Lv.3, DEF Up Lv.1; if 4 or more [Egghead Arc] characters are on the team, [PSY] enemies ATK Down Lv.4; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.3",
-            "[INT] teammates HP Up Lv.4, DEF Up Lv.2; if 4 or more [Egghead Arc] characters are on the team, [PSY] enemies ATK Down Lv.5; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.4",
-            "[INT] teammates HP Up Lv.5, DEF Up Lv.2; if 4 or more [Egghead Arc] characters are on the team, [PSY] enemies ATK Down Lv.6; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.5",
-            "[INT] teammates HP Up Lv.6, DEF Up Lv.3; if 4 or more [Egghead Arc] characters are on the team, [PSY] enemies ATK Down Lv.7; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
-        ],
-        festSpecial: [
-            {
-                cooldown: 32,
-                description: "Targets [INT] teammates for Shield Lv.1 (11 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.1 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.4 (11 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 11% reduction; targets 3 [PSY] enemies for ATK x 4 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets [INT] teammates for Shield Lv.1 (12 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.2 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.4 (12 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 12% reduction; targets 3 [PSY] enemies for ATK x 4.4 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets [INT] teammates for Shield Lv.1 (13 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.3 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.4 (13 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 13% reduction; targets 3 [PSY] enemies for ATK x 4.8 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets [INT] teammates for Shield Lv.2 (14 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.4 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.5 (14 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 14% reduction; targets 3 [PSY] enemies for ATK x 5.2 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets [INT] teammates for Shield Lv.2 (15 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.5 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.5 (15 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 15% reduction; targets 3 [PSY] enemies for ATK x 5.6 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets [INT] teammates for Shield Lv.3 (16 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.6 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.6 (16 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 16% reduction; targets 3 [PSY] enemies for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets [INT] teammates for Shield Lv.3 (17 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.7 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.6 (17 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 17% reduction; targets 3 [PSY] enemies for ATK x 6.4 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets [INT] teammates for Shield Lv.3 (18 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.8 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.6 (18 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 18% reduction; targets 3 [PSY] enemies for ATK x 6.8 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets [INT] teammates for Shield Lv.4 (19 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.9 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.7 (19 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 19% reduction; targets 3 [PSY] enemies for ATK x 7.2 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets [INT] teammates for Shield Lv.5 (20 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 2 damage; if \"Broggy\" is on the team, targets [INT] teammates for ATK Up Lv.8 (20 s); during Assault Rumble, targets (not including self) [INT] teammates for Special CT 20% reduction; targets 3 [PSY] enemies for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies)"
-            }
         ]
     },
     4495: {//Broggy
@@ -179174,68 +178770,6 @@ window.details = {
                     "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
                     "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
-            }
-        ],
-        festStats: {
-            def: 311,
-            spd: 118,
-            style: "DEF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Heal Self Lv.2"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind, reduce damage taken from [PSY] by 20%",
-        festAbility: [
-            "Free Spirit class teammates ATK Up Lv.2, SPD Up Lv.2; if 4 or more [Egghead Arc] characters are on the team, Driven class enemies DEF Down Lv.1; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
-            "Free Spirit class teammates ATK Up Lv.3, SPD Up Lv.3; if 4 or more [Egghead Arc] characters are on the team, Driven class enemies DEF Down Lv.2; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
-            "Free Spirit class teammates ATK Up Lv.4, SPD Up Lv.4; if 4 or more [Egghead Arc] characters are on the team, Driven class enemies DEF Down Lv.3; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4",
-            "Free Spirit class teammates ATK Up Lv.5, SPD Up Lv.5; if 4 or more [Egghead Arc] characters are on the team, Driven class enemies DEF Down Lv.4; during Assault Rumble, self HP Up Lv.9, Special CT Speed Up Lv.5",
-            "Free Spirit class teammates ATK Up Lv.6, SPD Up Lv.6; if 4 or more [Egghead Arc] characters are on the team, Driven class enemies DEF Down Lv.4; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
-        ],
-        festSpecial: [
-            {
-                cooldown: 30,
-                description: "Targets Free Spirit class teammates for ATK x 2.1 Counter stance (11 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.1 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.1 (11 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.1 (11 s), ATK x 4 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets Free Spirit class teammates for ATK x 2.2 Counter stance (12 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.2 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.1 (12 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.1 (12 s), ATK x 4.4 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets Free Spirit class teammates for ATK x 2.3 Counter stance (13 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.3 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.2 (13 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.2 (13 s), ATK x 4.8 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets Free Spirit class teammates for ATK x 2.4 Counter stance (14 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.4 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.2 (14 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.2 (14 s), ATK x 5.2 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets Free Spirit class teammates for ATK x 2.5 Counter stance (15 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.5 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.3 (15 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.3 (15 s), ATK x 5.6 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets Free Spirit class teammates for ATK x 2.6 Counter stance (16 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.6 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.3 (16 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.3 (16 s), ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets Free Spirit class teammates for ATK x 2.7 Counter stance (17 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.7 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.4 (17 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.4 (17 s), ATK x 6.4 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets Free Spirit class teammates for ATK x 2.8 Counter stance (18 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.8 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.4 (18 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.4 (18 s), ATK x 6.8 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets Free Spirit class teammates for ATK x 2.9 Counter stance (19 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 1.9 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.5 (19 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.5 (19 s), ATK x 7.2 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets Free Spirit class teammates for ATK x 3 Counter stance (20 s); If 1 or more [Straw Hat Pirates] characters are on the team, targets 3 enemies for ATK x 2 damage; if \"Dorry\" is on the team, targets Free Spirit class teammates for DEF Up Lv.6 (20 s); during Assault Rumble, targets 3 Driven class enemies for DEF Down Lv.5 (20 s), ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies)"
             }
         ]
     },
@@ -179333,69 +178867,7 @@ window.details = {
                 "Boosts Tandem ATK of Cerebral and Fighter characters by 1.3x for 1 turn.",
                 "Reduces ATK Down duration by 1 turn, and boosts Tandem ATK of Cerebral and Fighter characters by 1.3x for 1 turn."
             ]
-        },
-        festStats: {
-            def: 138,
-            spd: 151,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "60% chance to evade Action Bind",
-        festAbility: [
-            "[STR]/Cerebral class teammates HP Up Lv.1, ATK Up Lv.1; if 5 or more [Navy] [World Government] characters are on the team, Free Spirit enemies DEF Down Lv.1",
-            "[STR]/Cerebral class teammates HP Up Lv.2, ATK Up Lv.2; if 5 or more [Navy] [World Government] characters are on the team, Free Spirit enemies DEF Down Lv.1",
-            "[STR]/Cerebral class teammates HP Up Lv.3, ATK Up Lv.3; if 5 or more [Navy] [World Government] characters are on the team, Free Spirit enemies DEF Down Lv.1",
-            "[STR]/Cerebral class teammates HP Up Lv.4, ATK Up Lv.4; if 5 or more [Navy] [World Government] characters are on the team, Free Spirit enemies DEF Down Lv.1",
-            "[STR]/Cerebral class teammates HP Up Lv.5, ATK Up Lv.5; if 5 or more [Navy] [World Government] characters are on the team, Free Spirit enemies DEF Down Lv.2"
-        ],
-        festSpecial: [
-            {
-                cooldown: 24,
-                description: "Targets enemies within large range for DEF Down Lv.1 (11 s); targets Free Spirit class enemies for DEF Down Lv.1 (11 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 82% chance of Forced Out (5 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets enemies within large range for DEF Down Lv.1 (12 s); targets Free Spirit class enemies for DEF Down Lv.1 (12 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 84% chance of Forced Out (5 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets enemies within large range for DEF Down Lv.1 (13 s); targets Free Spirit class enemies for DEF Down Lv.1 (13 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 86% chance of Forced Out (5 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets enemies within large range for DEF Down Lv.1 (14 s); targets Free Spirit class enemies for DEF Down Lv.1 (14 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 88% chance of Forced Out (5 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets enemies within large range for DEF Down Lv.1 (15 s); targets Free Spirit class enemies for DEF Down Lv.1 (15 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 90% chance of Forced Out (5 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets enemies within large range for DEF Down Lv.2 (16 s); targets Free Spirit class enemies for DEF Down Lv.2 (16 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 92% chance of Forced Out (5 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets enemies within large range for DEF Down Lv.2 (17 s); targets Free Spirit class enemies for DEF Down Lv.2 (17 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 94% chance of Forced Out (5 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets enemies within large range for DEF Down Lv.2 (18 s); targets Free Spirit class enemies for DEF Down Lv.2 (18 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 96% chance of Forced Out (5 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets enemies within large range for DEF Down Lv.2 (19 s); targets Free Spirit class enemies for DEF Down Lv.2 (19 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 98% chance of Forced Out (5 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets enemies within large range for DEF Down Lv.2 (20 s); targets Free Spirit class enemies for DEF Down Lv.2 (20 s); if 5 or more [Navy] [World Government] characters are on the team, targets 1 Free Spirit class enemy for 100% chance of Forced Out (5 s)"
-            }
-        ]
+        }
     },
     4498: {//Stussy
         captain: "Adds 1 turn to all enemies for each battle (after preemptive actions), boosts Driven and Cerebral characters' ATK by 4.25x, HP by 1.3x, makes their [STR][RCV][TND][BOMB][S. BOMB] slots have matching slot effects, reduces character's Special Reverse by 10 turns, and heals crew by 6,000 HP at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 2 or more [Scientist] [Seraphim] characters are on the crew, boosts crew's ATK by a further 1.2x, and if 2 or more [CP0] [World Government] characters are on the crew, boosts crew's ATK by a further 1.2x",
@@ -179489,68 +178961,6 @@ window.details = {
                     "Reduces Special Use Limit duration by 2 turns",
                     "Reduces Special Use Limit duration by 3 turns"
                 ]
-            }
-        ],
-        festStats: {
-            def: 199,
-            spd: 175,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Confusion, reduce damage taken from [DEX] by 30%",
-        festAbility: [
-            "[STR]/Driven class teammates HP Up Lv.2, SPD Up Lv.2, DEF Up Lv.2; after receiving Halve Stats, up to 5 times, [STR]/Driven class teammates (not including self) Special CT 11% reduction; when appearing on the field [Straw Hat Pirates] [Vegapunk] [Paramythia-type] [Zoan-type] teammates Special CT 2% reduction",
-            "[STR]/Driven class teammates HP Up Lv.3, SPD Up Lv.3, DEF Up Lv.3; after receiving Halve Stats, up to 5 times, [STR]/Driven class teammates (not including self) Special CT 12% reduction; when appearing on the field [Straw Hat Pirates] [Vegapunk] [Paramythia-type] [Zoan-type] teammates Special CT 4% reduction",
-            "[STR]/Driven class teammates HP Up Lv.4, SPD Up Lv.4, DEF Up Lv.4; after receiving Halve Stats, up to 5 times, [STR]/Driven class teammates (not including self) Special CT 13% reduction; when appearing on the field [Straw Hat Pirates] [Vegapunk] [Paramythia-type] [Zoan-type] teammates Special CT 6% reduction",
-            "[STR]/Driven class teammates HP Up Lv.5, SPD Up Lv.5, DEF Up Lv.5; after receiving Halve Stats, up to 5 times, [STR]/Driven class teammates (not including self) Special CT 14% reduction; when appearing on the field [Straw Hat Pirates] [Vegapunk] [Paramythia-type] [Zoan-type] teammates Special CT 8% reduction",
-            "[STR]/Driven class teammates HP Up Lv.6, SPD Up Lv.6, DEF Up Lv.6; after receiving Halve Stats, up to 5 times, [STR]/Driven class teammates (not including self) Special CT 15% reduction; when appearing on the field [Straw Hat Pirates] [Vegapunk] [Paramythia-type] [Zoan-type] teammates Special CT 10% reduction"
-        ],
-        festSpecial: [
-            {
-                cooldown: 25,
-                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.1 (11 s), RCV Up Lv.1 (11 s), SPD Up Lv.1 (11 s), DEF Up Lv.2 (11 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.2 (11 s), RCV Up Lv.2 (11 s), SPD Up Lv.2 (11 s), DEF Up Lv.1 (11 s); targets 1 low DEF enemy for ATK x 1 damage"
-            },
-            {
-                cooldown: 25,
-                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.1 (12 s), RCV Up Lv.1 (12 s), SPD Up Lv.1 (12 s), DEF Up Lv.2 (12 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.2 (12 s), RCV Up Lv.2 (12 s), SPD Up Lv.2 (12 s), DEF Up Lv.1 (12 s); targets 1 low DEF enemy for ATK x 1.5 damage"
-            },
-            {
-                cooldown: 25,
-                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.2 (13 s), RCV Up Lv.2 (13 s), SPD Up Lv.2 (13 s), DEF Up Lv.2 (13 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.2 (13 s), RCV Up Lv.2 (13 s), SPD Up Lv.2 (13 s), DEF Up Lv.1 (13 s); targets 1 low DEF enemy for ATK x 2 damage"
-            },
-            {
-                cooldown: 25,
-                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.2 (14 s), RCV Up Lv.2 (14 s), SPD Up Lv.2 (14 s), DEF Up Lv.2 (14 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.2 (14 s), RCV Up Lv.2 (14 s), SPD Up Lv.2 (14 s), DEF Up Lv.1 (14 s); targets 1 low DEF enemy for ATK x 2.5 damage"
-            },
-            {
-                cooldown: 25,
-                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.3 (15 s), RCV Up Lv.3 (15 s), SPD Up Lv.3 (15 s), DEF Up Lv.2 (15 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.2 (15 s), RCV Up Lv.2 (15 s), SPD Up Lv.2 (15 s), DEF Up Lv.1 (15 s); targets 1 low DEF enemy for ATK x 3 damage"
-            },
-            {
-                cooldown: 25,
-                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.3 (16 s), RCV Up Lv.3 (16 s), SPD Up Lv.3 (16 s), DEF Up Lv.3 (16 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.3 (16 s), RCV Up Lv.3 (16 s), SPD Up Lv.3 (16 s), DEF Up Lv.2 (16 s); targets 1 low DEF enemy for ATK x 3.5 damage"
-            },
-            {
-                cooldown: 25,
-                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.4 (17 s), RCV Up Lv.4 (17 s), SPD Up Lv.4 (17 s), DEF Up Lv.3 (17 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.3 (17 s), RCV Up Lv.3 (17 s), SPD Up Lv.3 (17 s), DEF Up Lv.2 (17 s); targets 1 low DEF enemy for ATK x 4 damage"
-            },
-            {
-                cooldown: 25,
-                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.4 (18 s), RCV Up Lv.4 (18 s), SPD Up Lv.4 (18 s), DEF Up Lv.3 (18 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.3 (18 s), RCV Up Lv.3 (18 s), SPD Up Lv.3 (18 s), DEF Up Lv.2 (18 s); targets 1 low DEF enemy for ATK x 4.5 damage"
-            },
-            {
-                cooldown: 25,
-                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.5 (19 s), RCV Up Lv.5 (19 s), SPD Up Lv.5 (19 s), DEF Up Lv.3 (19 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.3 (19 s), RCV Up Lv.3 (19 s), SPD Up Lv.3 (19 s), DEF Up Lv.2 (19 s); targets 1 low DEF enemy for ATK x 5 damage"
-            },
-            {
-                cooldown: 25,
-                description: "Targets [STR]/Driven class teammates for 100% chance of Halve Stats (5 s), ATK Up Lv.6 (20 s), RCV Up Lv.6 (20 s), SPD Up Lv.6 (20 s), DEF Up Lv.4 (20 s); if 5 or more Driven characters are on the team, targets self for Halve Stats reduction (5 s); targets [STR] teammates for ATK Up Lv.4 (20 s), RCV Up Lv.4 (20 s), SPD Up Lv.4 (20 s), DEF Up Lv.3 (20 s); targets 1 low DEF enemy for ATK x 6 damage"
             }
         ]
     },
