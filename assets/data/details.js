@@ -85092,7 +85092,7 @@ window.details = {
     3134: {//Kaido VS BigMom
         captain: {
             character1: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [STR], [DEX] and [INT] characters by 5x, their HP by 1.3x, deals 20% of enemies' current HP in damage to all enemies at the end of each turn, boosts chances of getting [TND] orbs and makes [TND] orbs beneficial for all characters.",
-            character2: "Boosts ATK of [STR], [PSY] and [INT] characters by 5x, their HP by 1.5x, boosts chances of getting [RCV] orbs, makes [RCV] and [SEMLA] orbs beneficial for all characters and PERFECTs will consume [RCV] and [SEMLA] orbs.",
+            character2: "Boosts ATK of [STR], [PSY] and [INT] characters by 5x, their HP by 1.5x, boosts chances of getting [RCV] orbs, makes [RCV] and [SEMLA] orbs beneficial for all characters and makes PERFECTs consume [RCV] and [SEMLA] orbs.",
         },
         special: {
             character1: "Deals 20% of enemies' current HP in True damage to all enemies, changes [BLOCK] and [RCV] orbs into [TND] orbs, boosts ATK of [STR], [DEX] and [INT] characters by 2.25x for 1 turn. If during that turn you score 3 PERFECT hits, boosts Orb Effects of [STR], [DEX] and [INT] characters by 2.5x for 1 turn.",
@@ -85112,7 +85112,7 @@ window.details = {
     3135: {//Kaido VS Big Mom
         captain: {
             character1: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [STR], [DEX] and [INT] characters by 5x, their HP by 1.3x, deals 20% of enemies' current HP in damage to all enemies at the end of each turn, boosts chances of getting [TND] orbs and makes [TND] orbs beneficial for all characters.",
-            character2: "Boosts ATK of [STR], [PSY] and [INT] characters by 5x, their HP by 1.5x, boosts chances of getting [RCV] orbs, makes [RCV] and [SEMLA] orbs beneficial for all characters and PERFECTs will consume [RCV] and [SEMLA] orbs.",
+            character2: "Boosts ATK of [STR], [PSY] and [INT] characters by 5x, their HP by 1.5x, boosts chances of getting [RCV] orbs, makes [RCV] and [SEMLA] orbs beneficial for all characters and makes PERFECTs consume [RCV] and [SEMLA] orbs.",
         },
         special: {
             character1: "Deals 20% of enemies' current HP in True damage to all enemies, changes [BLOCK] and [RCV] orbs into [TND] orbs, boosts ATK of [STR], [DEX] and [INT] characters by 2.25x for 1 turn. If during that turn you score 3 PERFECT hits, boosts Orb Effects of [STR], [DEX] and [INT] characters by 2.5x for 1 turn.",
@@ -93435,7 +93435,7 @@ window.details = {
         specialName: "Don't you Talk or Make that Face Again",
     },
     3289: {//Nami?
-        captain: "Boosts ATK of Fighter and Free Spirit characters by 2x, their HP by 1.2x, makes [RCV] orbs beneficial for Fighter and Free Spirit characters and PERFECTs will consume [RCV] orbs. If this character becomes your captain in the middle of an island, boosts ATK of Fighter and Free Spirit characters by 4x instead",
+        captain: "Boosts ATK of Fighter and Free Spirit characters by 2x, their HP by 1.2x, makes [RCV] orbs beneficial for Fighter and Free Spirit characters and makes PERFECTs consume [RCV] orbs. If this character becomes your captain in the middle of an island, boosts ATK of Fighter and Free Spirit characters by 4x instead",
         special: "Reduces crew's current HP by 70%, changes all orbs into [RCV] orbs, reduces Special Bind duration by 5 turns, reduces enemies' Resilience duration by 5 turns, adds 0.7x to Chain multiplier for 1 turn. If this character is a Crewmate when the special is activated, swaps this unit with your captain for 2 turns.",
         specialName: "Long-Awaited of Physical Beauty",
         sailor: {
@@ -95816,13 +95816,13 @@ window.details = {
         ]
     },
     3333: {//Luffy
-        captain: "Boosts ATK of [QCK], Fighter and Free Spirit characters by 5x, their HP by 1.3x, boosts chances of getting [RCV] orbs, makes [RCV] orbs beneficial for all characters and PERFECTs will consume [RCV] orbs.",
+        captain: "Boosts ATK of [QCK], Fighter and Free Spirit characters by 5x, their HP by 1.3x, boosts chances of getting [RCV] orbs, makes [RCV] orbs beneficial for all characters and makes PERFECTs consume [RCV] orbs.",
         special: "Deals 300x character's ATK in Typeless damage to all enemies and boosts ATK of [QCK], Free Spirit and Fighter characters by 2.75x for 1 turn. Boosts base ATK of this character by 0-1,000 for 1 turn, depending on how many [RCV] orbs used in normal attacks.",
         specialNotes: "Base ATK boost is equal to 100 x [RCV] orbs consumed up to a maximum of 1000.",
         specialName: "King Kong Gun - Hold Down",
     },
     3334: {//Luffy
-        captain: "Boosts ATK of [QCK], Fighter and Free Spirit characters by 5x, their HP by 1.3x, boosts chances of getting [RCV] orbs, makes [RCV] orbs beneficial for all characters and PERFECTs will consume [RCV] orbs.",
+        captain: "Boosts ATK of [QCK], Fighter and Free Spirit characters by 5x, their HP by 1.3x, boosts chances of getting [RCV] orbs, makes [RCV] orbs beneficial for all characters and makes PERFECTs consume [RCV] orbs.",
         special: "Deals 300x character's ATK in Typeless damage to all enemies and boosts ATK of [QCK], Free Spirit and Fighter characters by 2.75x for 1 turn. Boosts base ATK of this character by 0-1,000 for 1 turn, depending on how many [RCV] orbs used in normal attacks.",
         specialNotes: "Base ATK boost is equal to 100 x [RCV] orbs consumed up to a maximum of 1000.",
         superSpecial: "Reduces Special Cooldown of [QCK], Free Spirit and Fighter characters by 1 turn, adds 1.0x to Chain multiplier for 1 turn and transforms [QCK] characters into Super [QCK] characters.",
@@ -104254,7 +104254,7 @@ window.details = {
         ]
     },
     3456: {//Bonney
-        captain: "Boosts ATK of Fighter and Free Spirit characters by 3x, boosts HP of [QCK] characters by 1.2x and PERFECTs will consume [RCV] orbs.",
+        captain: "Boosts ATK of Fighter and Free Spirit characters by 3x, boosts HP of [QCK] characters by 1.2x and makes PERFECTs consume [RCV] orbs.",
         special: "Reduces the defense of all enemies by 100% for 1 turn, reduces Bind and Despair duration by 5 turns and recovers 4,000 HP at the end of the turn for 5 turns. If your crew is inflicted with Bind when the special is activated, boosts ATK of Free Spirit and Fighter characters by 2.25x for 1 turn, by 1.75x otherwise.",
         specialName: "All-You-Can-Eat Halloween Dinner",
         sailor: {
@@ -178870,22 +178870,23 @@ window.details = {
         }
     },
     4498: {//Stussy
-        captain: "Adds 1 turn to all enemies for each battle (after preemptive actions), boosts Driven and Cerebral characters' ATK by 4.25x, HP by 1.3x, makes their [STR][RCV][TND][BOMB][S. BOMB] slots have matching slot effects, reduces character's Special Reverse by 10 turns, and heals crew by 6,000 HP at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 2 or more [Scientist] [Seraphim] characters are on the crew, boosts crew's ATK by a further 1.2x, and if 2 or more [CP0] [World Government] characters are on the crew, boosts crew's ATK by a further 1.2x",
-        special: "Reduces crew's Special charge time by 2 turns and VS Effect gauge by 6. If crew has Bleed, Poison, progressive Poison, or slot multiplier change effect when Special is launched, boosts Driven and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.8 (GOOD +0.3; GREAT +0.5; PERFECT +0.8) for 2 turns (boosts Driven and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 2 turns otherwise), then after that, reduces crew's Bleed duration by 10 turns. If 2 or more [Scientist] [Seraphim] characters and 2 or more [CP0] [World Government] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [S. BOMB], and changes the ATK multiplier of [BOMB][S. BOMB][RCV][TND] slots to 3.5x when slots match (normally 2x when matching, 1.5x for [S. BOMB] slots), 0.5x when unfavorable, 1.0x otherwise for 3 turns. If 3 or more [Scientist] [Seraphim] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [BOMB], and changes the ATK multiplier of [BOMB][S. BOMB] slots to 3.5x when slots match (normally 2x when matching, 1.5x for [S. BOMB] slots), 0.5x when unfavorable, 1.0x otherwise for 2 turns. If 3 or more [CP0] [World Government] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [RCV], and changes the ATK multiplier of [RCV][TND] slots to 3.5x when slots match (normally 2x when matching), 0.5x when unfavorable, 1.0x otherwise for 2 turns",
+        captain: "At the beginning of each stage, increases the Attack Timer of all enemies by 1 turn. Boosts ATK of Driven and Cerebral characters by 4.25x-6.12x, depending of if crew meets tag conditions, boosts HP of Driven and Cerebral characters by 1.3x, makes [STR], [RCV], [TND], [BOMB] and [SUPERBOMB] orbs beneficial for Driven and Cerebral characters, recovers 6,000 HP at the end of each turn, and restores Special Cooldown of this character by 10 turns when it is rewinded. If your crew has 2+ [Scientist] or [Seraphim] characters, boosts ATK of all characters by a further 1.2x. If your crew has 2+ [CP0] or [World Government] characters, boosts ATK of all characters a further 1.2x.",
+        special: "Reduces Special Cooldown of all characters by 2 turns, reduces VS Gauge of all characters by 6, and reduces Bleed duration by 10 turns. If your crew is inflicted with Bleed, Poison or Toxic or your crew has Orb Multiplier Override buff when the special is activated, increases Chain Tap Timing Bonus of Driven and Cerebral characters to +0.3x-0.8x for 2 turns depending on Tap Timing; increases Chain Tap Timing Bonus of Driven and Cerebral characters to +0.2x-0.6x for 2 turns depending on Tap Timing otherwise. If your crew has 2+ [Scientist] or [Seraphim] characters and 2+ [CP0] or [World Government] characters, changes all orbs, including [BLOCK] orbs, into [SUPERBOMB] orbs, and increases Orb Effects of beneficial [RCV], [TND], [BOMB] and [SUPERBOMB] orbs to 3.5x for 3 turns. If your crew has 3+ [Scientist] or [Seraphim] characters, changes all orbs, including [BLOCK] orbs, into [BOMB] orbs, and increases Orb Effects of beneficial [BOMB] and [SUPERBOMB] orbs to 3.5x for 2 turns. If your crew has 3+ [CP0] or [World Government] characters, changes all orbs, including [BLOCK] orbs, into [RCV] orbs, and increases Orb Effects of beneficial [RCV] and [TND] orbs to 3.5x for 2 turns.",
+        specialNotes: "<br><b>GOOD:</b> +0.3, <b>GREAT:</b> +0.5, <b>PERFECT:</b> +0.8<br><b>GOOD:</b> +0.2, <b>GREAT:</b> +0.4, <b>PERFECT:</b> +0.6",
         specialName: "Last Promise to Live",
         sailor: {
-            base: "Boosts Driven and Cerebral characters' base stats by 60",
-            level1: "Reduces character's Special Reverse by 3 turns"
+            base: "Boosts base ATK, HP and RCV of Driven and Cerebral characters by 60.",
+            level1: "Restores Special Cooldown of this character by 3 turns when it is rewinded."
         },
         support: [
             {
                 Characters: "[STR] characters",
                 description: [
-                    "Adds 5% of character's base RCV to supported character's base RCV",
-                    "Adds 10% of character's base RCV to supported character's base RCV",
-                    "Adds 15% of character's base RCV to supported character's base RCV",
-                    "Adds 20% of character's base RCV to supported character's base RCV",
-                    "Adds 25% of character's base RCV to supported character's base RCV"
+                    "Adds 5% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 10% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 15% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 20% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 25% of this character's base RCV to the supported character's base RCV."
                 ]
             }
         ],
