@@ -178870,22 +178870,22 @@ window.details = {
         }
     },
     4497: {//5+ PKA Doll & Bluegrass
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts [STR], Fighter, and Cerebral characters' ATK by 4.5x, RCV by 1.2x, makes crew's [RCV][BOMB] slots have matching slot effects, reduces damage taken by 10%, and reduces crew's Special Bind duration by 3 turns",
-        special: "Reduces crew's Despair duration by 6 turns, reduces all enemies' damage nullification duration by 1 turn, and boosts [STR], Fighter, and Cerebral characters' base ATK by +1250 for 2 turns. If crew has End of Turn Healing with a duration of 5 turns or more when Special is launched, extends the duration of crew's base ATK boost by 1 turn, further increases crew's base ATK boost by +500 (this effect applies to base ATK boost from this Special), applies -20% Fighter and Cerebral Resistance to all enemies for 1 turn, then after that, heals crew by 5,000 HP at end of turn for 8 turns. If 4 or more [Navy] [World Government] characters are on the crew, allows character's normal attacks to ignore enemies' defensive effects for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [STR], Fighter and Cerebral characters by 4.5x, boosts RCV of [STR], Fighter and Cerebral characters by 1.2x, makes [RCV] and [BOMB] orbs beneficial for all characters, reduces damage received by 10%, and reduces Special Bind duration by 3 turns.",
+        special: "Reduces Despair duration by 6 turns, reduces enemies' Damage Nullification duration by 1 turn, and boosts Base ATK of [STR], Fighter and Cerebral characters by 1,250 for 2 turns. If your crew has 5+ turns of End of Turn Healing when the special is activated, increases duration of any Base ATK Boost buffs by 1 turn and increases boost effects of Base ATK Boost buffs by +500, including effects activated in the same ability, and reduces enemies' Fighter and Cerebral Resistance by -20% for 1 turn. Recovers 5,000 HP at the end of the turn for 8 turns. If your crew has 4+ [Navy] or [World Government] characters, makes this character's normal attacks ignore damage reducing barriers and buffs for 1 turn.",
         specialName: "Pirate-Subduing Onslaught",
         sailor: {
-            base: "Sets all slots to [RCV] slots at start of quest (no stacking identical abilities)",
-            level1: "Reduces crew's ATK Down duration by 1 turn, and reduces character's Special charge time by 3 turns at start of quest"
+            base: "Changes orbs of all characters into [RCV] orbs at the start of the fight.",
+            level1: "Reduces ATK Down duration by 1 turn, and reduces Special Cooldown of this character by 3 turns at the start of the fight."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                Characters: "[Navy Vice Admiral] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +150 for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +200 for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +250 for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +300 for 1 turn",
-                    "Once per quest, if supported character uses a Special to boost ATK or slot effects, boosts [STR], Fighter, and Cerebral characters' base ATK by +300 for 1 turn and reduces all enemies' damage nullification duration by 1 turn"
+                    "Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, boosts Base ATK of [STR], Fighter and Cerebral characters by 150 for 1 turn.",
+                    "Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, boosts Base ATK of [STR], Fighter and Cerebral characters by 200 for 1 turn.",
+                    "Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, boosts Base ATK of [STR], Fighter and Cerebral characters by 250 for 1 turn.",
+                    "Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, boosts Base ATK of [STR], Fighter and Cerebral characters by 300 for 1 turn.",
+                    "Once per adventure, when the supported character uses an ATK Up or Orb Amplification special, boosts Base ATK of [STR], Fighter and Cerebral characters by 300 for 1 turn, and reduces enemies' Damage Nullification duration by 1 turn."
                 ]
             }
         ],
@@ -178950,18 +178950,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: St. Jaygarcia Saturn, Sengoku, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Monkey D. Garp, Coby, Tsuru, Tosa, Guillotine, Hound, Urban, Pomsky, Doberman"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.15x to Cerebral and Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.2x to Cerebral and Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.25x to Cerebral and Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.3x to Cerebral and Fighter characters for 1 turn",
-                "Reduces crew's ATK Down duration by 1 turn, and applies ATK Boost (Tandem) of 1.3x to Cerebral and Fighter characters for 1 turn"
+                "Boosts Tandem ATK of Cerebral and Fighter characters by 1.15x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Fighter characters by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Fighter characters by 1.25x for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Fighter characters by 1.3x for 1 turn.",
+                "Reduces ATK Down duration by 1 turn, and boosts Tandem ATK of Cerebral and Fighter characters by 1.3x for 1 turn."
             ]
         }
     },
@@ -179062,24 +179062,24 @@ window.details = {
         ]
     },
     4499: {//Dr. Vegapunk - Stella
-        captain: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts [STR] and Cerebral characters' HP by 1.2x, ATK by approximately 5.5x when slots match (5.25x otherwise), makes their [BOMB][S. BOMB] slots have matching slot effects, reduces crew's Special Reverse by 10 turns, and tapping on this character with a [BOMB][S. BOMB] slot will apply -30% Cerebral Resistance to all enemies for 1 turn [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Scientist] [Seraphim] [Ohara] characters are on the crew, boosts Cerebral characters' ATK by a further 1.2x, and adds +0.25 to the effect of ATK and slot effect boosts launched by crew Specials (stackable with other further raising effects)",
-        special: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 7 turns, and reduces crew's Despair duration by 7 turns. If 4 or more [Scientist] [Vegapunk] [Seraphim] [Ohara] characters are on the crew, boosts the type effects of normal attacks for Cerebral characters by 3.75x for 3 turns (boosts the type effects of normal attacks for Cerebral characters by 3x for 1 turn otherwise). If 6 Cerebral characters and 3 or more [Scientist] characters are on the crew, reduces middle-row [Scientist] characters' Special charge time by 15 turns, and boosts Cerebral characters' slot effects by 3.25x for 1 turn (allows this effect to be further increased up to 2 times; Special charge time reduction effect of \"Sharing Opinions With a Friend\" can be activated up to 1 time including any Specials with similar effect)",
+        captain: "Reduces Special Cooldown of all characters by 2 turns and reduces Switch Effect of all characters by 2 at the start of the fight, boosts ATK of [STR] and Cerebral characters by 5.25x, by 5.5x instead if they have a beneficial orb, boosts HP of [STR] and Cerebral characters by 1.2x, makes [BOMB] and [SUPERBOMB] orbs beneficial for [STR] and Cerebral characters, and restores Special Cooldown of all characters by 10 turns when they are rewinded. If this character has a [BOMB] or [SUPERBOMB] orb and you attack with this character, reduces enemies' Cerebral Resistance by -30% for 1 turn. If your crew has 4+ [Scientist], [Seraphim] or [Ohara] characters, boosts ATK of Cerebral characters by 6.3x, by 6.6x instead if they have a beneficial orb, and increases boost effects of ATK Up and Orb Amplification buffs applied by specials by +0.25x.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 7 turns, and reduces Despair duration by 7 turns. If your crew has 4+ [Scientist], [Vegapunk], [Seraphim] or [Ohara] characters, boosts Color Affinity of Cerebral characters by 3.75x for 3 turns; boosts Color Affinity of Cerebral characters by 3x for 1 turn otherwise. If your crew has 6+ Cerebral characters and 3+ [Scientist] characters, boosts Orb Effects of Cerebral characters by 3.25x, can be enhanced up to 2 times, for 1 turn, and up to 1 time per adventure, reduces Special Cooldown of middle row [Scientist] characters by 15 turns.",
         specialName: "Sharing Opinions With a Friend",
         sailor: {
-            base: "Boosts Cerebral characters' base stats by 200",
-            level1: "If 6 Cerebral characters are on the crew, reduces crew's Despair duration by 2 turns"
+            base: "Boosts base ATK, HP and RCV of Cerebral characters by 200.",
+            level1: "If your crew has 6+ Cerebral characters, reduces Despair duration by 2 turns."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge",
-        superSpecial: "Reduces all enemies' DEF Up duration by 5 turns, when crew has Orb Boost status, reduces crew's slot effect boost effect by 0.5 but changes the slot effect boost to a stackable boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as a slot effect boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other slot effect boost effect), and changes Cerebral characters to Super Cerebral",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge",
+        superSpecial: "Reduces enemies' Increased Defense duration by 5 turns, decreases boost effects of Orb Amplification buffs by -0.5x, converts Orb Amplification into a Stackable Orb Amplification, and transforms Cerebral characters into Super Cerebral characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Scientist]",
+                Characters: "[Scientist] characters",
                 description: [
-                    "Once per quest, if inflicted with Despair status from the enemy, applies -5% Cerebral Resistance to all enemies for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Despair status from the enemy, applies -10% Cerebral Resistance to all enemies for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Despair status from the enemy, applies -10% Cerebral Resistance to all enemies for 1 turn, and reduces crew's Despair duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Despair status from the enemy, applies -10% Cerebral Resistance to all enemies for 1 turn, and reduces crew's Despair duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Despair status from the enemy, applies -10% Cerebral Resistance to all enemies for 1 turn, and reduces crew's Despair duration by 3 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Despair, reduces enemies' Cerebral Resistance by -5% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Despair, reduces enemies' Cerebral Resistance by -10% for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Despair, reduces enemies' Cerebral Resistance by -10% for 1 turn, and reduces Despair duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Despair, reduces enemies' Cerebral Resistance by -10% for 1 turn, and reduces Despair duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with Despair, reduces enemies' Cerebral Resistance by -10% for 1 turn, and reduces Despair duration by 3 turns."
                 ]
             }
         ],
@@ -179159,38 +179159,39 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge",
-                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge"
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Dr. Vegapunk \"York the Greedy\", S-Snake, S-Hawk, S-Shark, S-Bear, Stussy, Sentomaru, Borsalino (Kizaru), Bartholomew Kuma, Jewelry Bonney, Clou D. Clover, Caesar Clown (Gastino), Queen, Vinsmoke Judge"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.5x to [Scientist] [Seraphim] [Ohara] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2x to [Scientist] [Seraphim] [Ohara] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.5x to [Scientist] [Seraphim] [Ohara] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 3x to [Scientist] [Seraphim] [Ohara] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 3.25x to [Scientist] [Seraphim] [Ohara] characters for 1 turn, and boosts the ATK of the next final tap performed by a crew by 25% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)"
+                "Boosts Tandem ATK of [Scientist], [Seraphim] and [Ohara] characters by 1.5x for 1 turn.",
+                "Boosts Tandem ATK of [Scientist], [Seraphim] and [Ohara] characters by 2x for 1 turn.",
+                "Boosts Tandem ATK of [Scientist], [Seraphim] and [Ohara] characters by 2.5x for 1 turn.",
+                "Boosts Tandem ATK of [Scientist], [Seraphim] and [Ohara] characters by 3x for 1 turn.",
+                "Boosts Tandem ATK of [Scientist], [Seraphim] and [Ohara] characters by 3.25x for 1 turn, and boosts Final Tap ATK of all characters by 25%."
             ]
         }
     },
     4500: {//Clou D. Clover
-        captain: "Boosts Cerebral characters' ATK by 3.5x, RCV by 1.5x, makes their [RCV] slots have matching slot effects, and heals crew by 1,000 HP at end of turn",
-        special: "Reduces crew's Bind/ATK Down/Paralysis duration by 5 turns, allows crew to heal over the max HP limit for 1 turn (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP), heals crew by 15,000 HP, locks crew's slots for 1 turn, doubles Cerebral characters' ATK for 1 turn (effect can be overwritten with other ATK boost effects), and if 3 or more [Scientist] [Ohara] characters are on the crew, reduces Cerebral characters' Special charge time by 2 turns, and boosts Cerebral characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 1 turn",
+        captain: "Boosts ATK of Cerebral characters by 3.5x, boosts RCV of Cerebral characters by 1.5x, makes [RCV] orbs beneficial for Cerebral characters, and recovers 1,000 HP at the end of each turn.",
+        special: "Reduces Bind, ATK Down and Paralysis duration by 5 turns, allows HP Overfill up to 2x MAX HP for 1 turn, recovers 15,000 HP, locks all orbs for 1 turn, and boosts ATK of Cerebral characters by 2x, allowing override, for 1 turn. If your crew has 3+ [Scientist] or [Ohara] characters, reduces Special Cooldown of Cerebral characters by 2 turns, and increases Chain Tap Timing Bonus of Cerebral characters to +0.2x-0.6x for 1 turn depending on Tap Timing.",
+        specialNotes: "<b>GOOD:</b> +0.2, <b>GREAT:</b> +0.4, <b>PERFECT:</b> +0.6",
         specialName: "Exposing the Hidden Darkness",
         sailor: {
-            base: "Reduces character's Special Reverse by 3 turns when Captain is a Cerebral class",
-            level1: "Reduces crew's ATK Down duration by 1 turn when Captain is a Cerebral class"
+            base: "If your Captain is a Cerebral character, restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "If your Captain is a Cerebral character, reduces ATK Down duration by 1 turn."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Scientist]",
+                Characters: "[Scientist] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to boost type effects or ATK, further increases crew's ATK boost by 1.05x (up to a maximum 4x)",
-                    "Once per quest, if supported character uses a Special to boost type effects or ATK, further increases crew's ATK boost by 1.05x (up to a maximum 4x)",
-                    "Once per quest, if supported character uses a Special to boost type effects or ATK, further increases crew's ATK boost by 1.1x (up to a maximum 4x)",
-                    "Once per quest, if supported character uses a Special to boost type effects or ATK, further increases crew's ATK boost by 1.15x (up to a maximum 4x)",
-                    "Once per quest, if supported character uses a Special to boost type effects or ATK, further increases crew's ATK boost by 1.2x (up to a maximum 4x)"
+                    "Once per adventure, when the supported character uses an ATK Up or Color Affinity special, increases boost effects of ATK Up buffs by 1.05x (up to 4x).",
+                    "Once per adventure, when the supported character uses an ATK Up or Color Affinity special, increases boost effects of ATK Up buffs by 1.05x (up to 4x).)",
+                    "Once per adventure, when the supported character uses an ATK Up or Color Affinity special, increases boost effects of ATK Up buffs by 1.1x (up to 4x).",
+                    "Once per adventure, when the supported character uses an ATK Up or Color Affinity special, increases boost effects of ATK Up buffs by 1.15x (up to 4x).",
+                    "Once per adventure, when the supported character uses an ATK Up or Color Affinity special, increases boost effects of ATK Up buffs by 1.2x (up to 4x)."
                 ]
             }
         ],
@@ -179235,17 +179236,17 @@ window.details = {
         ]
     },
     4501: {//Caesar Clown
-        captain: "Boosts Cerebral characters' ATK by 3.5x, RCV by 1.5x, makes their [BOMB] slots have matching slot effects, and allows crew's Poison status applying effects (except Venom and progressive Poison) to ignore immunity to all status effects",
+        captain: "Boosts ATK of Cerebral characters by 3.5x, boosts RCV of Cerebral characters by 1.5x, makes [BOMB] orbs beneficial for Cerebral characters, and allows effects that inflict Poison to ignore Debuff Protection.",
         special: [
             {
-                description: "Poisons all enemies, and locks crew's slots for 1 turn. If 3 or more [Scientist] characters are on the crew, can choose to completely remove crew's Swap Captains effect, and further increases crew's ATK UpOrb Boost and damage dealt to enemies with a specific status effect boost by +0.25",
+                description: "Poisons all enemies, and locks all orbs for 1 turn. If your crew has 3+ [Scientist] characters, optionally removes Captain Swap duration completely, and increases boost effects of ATK Up, Orb Amplification and Status ATK Boost buffs by +0.25x.",
                 cooldown: [
                     12,
                     7
                 ]
             },
             {
-                description: "Changes crew's slots (including [BLOCK] slots) to [BOMB], and reduces crew's lock chain multiplier duration by 7 turns. If crew has ATK Up status when Special is launched, boosts damage dealt to Poisoned enemies by 2.5x, then after that, boosts Cerebral and Driven characters' ATK by 2.5x for 1 turn. If 3 or more [Scientist] characters are on the crew, can choose to swap character out for the Captain for 1 turn, and reduces character's Special charge time by 8 turns (Special charge time reduction effect of \"Buster Call Rumor\" can be activated up to 1 time including any Specials with similar effect)",
+                description: "Changes all orbs, including [BLOCK] orbs, into [BOMB] orbs, reduces Chain Multiplier Limit duration by 7 turns, and boosts ATK of Cerebral and Driven characters by 2.5x for 1 turn. If your crew has ATK Up when the special is activated, boosts ATK against poisoned enemies by 2.5x for 1 turn. If your crew has 3+ [Scientist] characters, optionally swaps this unit with your captain for 1 turn, and up to 1 time per adventure, reduces Special Cooldown of this character by 8 turns.",
                 cooldown: [
                     18,
                     13
@@ -179254,18 +179255,18 @@ window.details = {
         ],
         specialName: "Buster Call Rumor",
         sailor: {
-            base: "Makes crew's [TND][BOMB][S. BOMB] slots have matching slot effects",
-            level1: "Boosts crew's base ATK and RCV by 60"
+            base: "Makes [TND], [BOMB] and [SUPERBOMB] orbs beneficial for all characters.",
+            level1: "Boosts base ATK and RCV of all characters by 60."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Scientist]",
+                Characters: "[Scientist] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, further increases crew's slot effect boost by 1.05x (up to a maximum 4x)",
-                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, further increases crew's slot effect boost by 1.05x (up to a maximum 4x)",
-                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, further increases crew's slot effect boost by 1.1x (up to a maximum 4x)",
-                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, further increases crew's slot effect boost by 1.15x (up to a maximum 4x)",
-                    "Once per quest, if supported character uses a Special to boost type effects or slot effects, further increases crew's slot effect boost by 1.2x (up to a maximum 4x)"
+                    "Once per adventure, when the supported character uses an Orb Amplification or Color Affinity special, increases boost effects of Orb Amplification buffs by 1.05x (up to 4x).",
+                    "Once per adventure, when the supported character uses an Orb Amplification or Color Affinity special, increases boost effects of Orb Amplification buffs by 1.05x (up to 4x).",
+                    "Once per adventure, when the supported character uses an Orb Amplification or Color Affinity special, increases boost effects of Orb Amplification buffs by 1.1x (up to 4x).",
+                    "Once per adventure, when the supported character uses an Orb Amplification or Color Affinity special, increases boost effects of Orb Amplification buffs by 1.15x (up to 4x).",
+                    "Once per adventure, when the supported character uses an Orb Amplification or Color Affinity special, increases boost effects of Orb Amplification buffs by 1.2x (up to 4x)."
                 ]
             }
         ],
