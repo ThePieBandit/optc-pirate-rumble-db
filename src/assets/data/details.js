@@ -149452,7 +149452,7 @@ window.details = {
         },
         special: "If your Captain is a Cerebral character and your crew has Orb Amplification when the special is activated, decreases boost effects of Orb Amplification buffs by -1.0x and converts Orb Amplification into a Stackable Orb Amplification. Reduces enemies' Percent Damage Reduction and Orb-Based Damage Reduction duration by 6 turns, and makes own normal attacks ignore damage reducing Barriers and Buffs for 1 turn. If your crew has ATK UP when the special is activated, increases boost effects of ATK UP buffs by +0.5x, boosts ATK of [INT], Cerebral, and Fighter characters by 2.75x for 2 turns otherwise.",
         specialName: "Raging Fist of the Genius Scientist",
-        superSpecial: "Changes all orbs, including [BLOCK] orbs, into [STR] orbs, boosts Orbe Effects of [INT] Cerebral characters by 2.75x for 2 turns, boosts Orb Effects of [INT] and Cerebral characters by 2.5x for 2 turns, and transforms Cerebral characters into Super Cerebral characters.",
+        superSpecial: "Changes all orbs, including [BLOCK] orbs, into [STR] orbs, boosts Orb Effects of [INT] Cerebral characters by 2.75x for 2 turns, boosts Orb Effects of [INT] and Cerebral characters by 2.5x for 2 turns, and transforms Cerebral characters into Super Cerebral characters.",
         superSpecialCriteria: "This character must be captain and your crew must consist of any 6 or 6 of the following, excluding Supports and counting only 1 per unit: Cerebral or [INT] characters.",
         support: [
             {
@@ -178088,7 +178088,7 @@ window.details = {
         specialName: "Shared Taste of Happiness",
         sailor: {
             character1: "Boosts base ATK of Cerebral and Striker characters by 50.",
-            character2: "BBoosts base HP and RCV of Cerebral and Striker characters by 50.",
+            character2: "Boosts base HP and RCV of Cerebral and Striker characters by 50.",
             combined: "Boosts base ATK, HP and RCV of Cerebral and Striker characters by 75.",
             level1: "Makes [STR] orbs beneficial for all characters."
         },
