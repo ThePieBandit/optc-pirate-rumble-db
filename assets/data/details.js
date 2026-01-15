@@ -179310,6 +179310,299 @@ window.details = {
             }
         ]
     },
+    4502: {//Drake & Apoo
+        captain: {
+            character1: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, reduces damage taken by 25%, boosts [STR], Slasher, Shooter, and Striker characters' ATK by 5x, HP by 1.2x, and changes their [DEX][BOMB] slots into [WANO] slots (boosts ATK by 2.5x; cannot be changed by crew or enemies) [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Worst Generation] [Land of Wano Arc] characters are on the crew, further increases slot effect and type effect boosts that are launched by crew Specials by +0.3 (stackable with other further raising effects)",
+            character2: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts [DEX], Slasher, Shooter, and Striker characters' ATK by approximately 5.25x when slots match (4.75x otherwise), HP by 1.2x, and changes their [STR][BOMB] slots into [WANO] slots (boosts ATK by 2.5x; cannot be changed by crew or enemies) [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Worst Generation] [Land of Wano Arc] characters are on the crew, further increases slot effect and type effect boosts that are launched by crew Specials by +0.3 (stackable with other further raising effects)",
+            combined: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts [STR], [DEX], Slasher, Shooter, and Striker characters' ATK by approximately 5.5x when slots match (5.25x otherwise), HP by 1.2x, changes their [STR][DEX][BOMB] slots into [WANO] slots (boosts ATK by 2.5x; cannot be changed by crew or enemies), and if a Slasher or Shooter character uses a Special, further increases crew's type effect and damage dealt to enemies with a specific status effect boosts by +0.5 (stackable with other further raising effects), and boosts damage dealt to DEF Down enemies by 2.25x for 3 turns (these effects only launches once per quest; only the character class that used the Special counts for Double Characters; similar effect of Captain/Friend/Helper Captain will not activate at the same time) [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Worst Generation] [Land of Wano Arc] characters are on the crew, further increases slot effect and type effect boosts that are launched by crew Specials by +0.3 (stackable with other further raising effects)"
+        },
+        special: "Reduces crew's Silence duration by 5 turns and ATK Down duration by 7 turns, removes Weakend status placed on the enemy when Special is launched, and heals crew by 5,000 HP at end of turn for 7 turns. If crew has End of Turn Healing status with 7 or more turns, applies Weakened status<hidden> (increase damage taken by 1.5x for all enemies, damage further increased by 1.5x if enemy has Increase Damage Taken)</hidden> on all enemies for 1 turn ignoring immunity to all status effects (applies Weakened status<hidden> (increase damage taken by 1.5x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken)</hidden> on all enemies for 1 turn otherwise). If a [DEX] is set as Support for character, applies Percent Damage Reduction effect of 33% to all enemies for 3 turns<hidden> (effect is treated as damage reduction)</hidden>, reduces damage taken by 90% for 1 turn, and launches effect to boost crew's ATK based on Percent Damage Reduction status for 1 turn (1.54x at 90% damage reduction). If 4 or more [Worst Generation] [Land of Wano Arc] characters are on the crew, this Special's Weakened effect will ignore immunity to status effects, boosts crew's base ATK by +1000 for 1 turn, further increases crew's Base ATK Boost effect by +750<hidden> (effect applies to base ATK boost from this Special)</hidden>, then after that, becomes \"Drake & Apoo\" for 3 turns",
+        specialName: "Red Flag and Roar of the Sea Onslaught",
+        sailor: {
+            character1: "Makes crew immune to Remove SFX",
+            character2: "Makes crew immune to Remove SFX",
+            combined: "Makes crew immune to Remove SFX",
+            level1: "If 4 or more [Worst Generation] [Land of Wano Arc] characters are on the crew, reduces character's Silence duration by 5 turns"
+        },
+        superSpecialCriteria: "When character becomes \"Drake & Apoo\" with Super Switch effect and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Kaido, King (Alber), Queen, Jack, Ulti, Page One, Black Maria, Who's-Who, Sasaki, Yamato, Coby, Helmeppo, Prince Grus, Kujaku, Hibari, [Worst Generation]",
+        superSpecial: "Applies Set Target status (Slasher, Shooter, and Striker characters will deal 2.25x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated) to all enemies for 2 turns<hidden> (Set Target status cannot be affected by immunity to status effects; Special charge time reduction effect is activated when defeating enemies with normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))</hidden>, changes Slasher characters to Super Slasher, and changes Striker characters to Super Striker",
+        swap: {
+            base: "Applies -15% Slasher and Striker Resistance to all enemies for 1 turn, changes character's slot to [BOMB], heals 5% of crew's maximum HP, and deals 30x character's ATK in type damage to all enemies at end of turn for 1 turn",
+            super: "Applies -30% Slasher and Striker Resistance to all enemies for 1 turn, changes character's slot to [BOMB], changes adjacent slots to [WANO]<hidden> (boosts ATK by 2.5x; cannot be changed by crew or enemies)</hidden>, heals 5% of crew's maximum HP, deals 50x character's ATK in type damage to all enemies at end of turn for 5 turns, and becomes \"Drake & Apoo\" for 3 turns",
+            superTurns: 6
+        },
+        limit: [
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Acquire Potential 1: Critical Hit" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Acquire Potential 2: Barrier Penetration" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 60" },
+            { description: "Acquire Sailor Ability 2: If 4 or more [Worst Generation] [Land of Wano Arc] characters are on the crew, reduces character's Silence duration by 5 turns" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base ATK by 60" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base ATK by 60" },
+            { description: "Acquire Potential 3: Damage Limit Break: Class" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "This character's normal attack will ignore barriers"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ]
+    },
+    4503: {//Basil Hawkins
+        captain: "Reduces crew's Special charge time by 1 turn at start of quest, reduces damage taken by 20%, boosts [DEX], Slasher, and Striker characters' ATK by 3.75x, HP by 1.3x, makes their [QCK][TND] slots have matching slot effects, and boosts chance of landing on [DEX] slots",
+        special: "Sets all enemies' DEF to 0 for 1 turn, reduces crew's Bind/Burn duration by 6 turns, massively reduces a portion of each enemy's dealt damage that exceeds 3,000 for 2 turns, and increases all enemies' damage taken by 2.25x for 1 turn. If crew's End of Turn Damage status has 5 or more turns and 3 or more [Land of Wano Arc] characters are on the crew when Special is launched, after 1 turn, launches the following effect: \"Sets all enemies' DEF to 0 for 2 turns (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), increases all enemies' damage taken by 1.75x for 1 turn ignoring immunity to status effects, and boosts crew's slot effects by 2.5x for 1 turn\"",
+        specialName: "Sardonic Flash",
+        sailor: {
+            base: "Boosts [DEX], Slasher, and Striker characters' base HP by 150, and makes their [DEX] slots have matching slot effects",
+            level1: "Boosts [DEX], Slasher, and Striker characters' base ATK by 100, and makes their [TND] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "Scratchmen Apoo, Kaido",
+                description: [
+                    "Changes supported character's slot to [DEX] at start of final battle",
+                    "Changes supported character's slot to [DEX] at start of final battle",
+                    "Changes supported character's slot to [DEX] at start of final battle",
+                    "Changes supported character's slot to [DEX] at start of final battle",
+                    "Changes supported character's slot to [DEX] and allows you to freely swap slots 1 time at start of final battle"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire Potential 1: Critical Hit" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 70" },
+            { description: "Boosts base HP by 70" },
+            { description: "Acquire Sailor Ability 2: Boosts [DEX], Slasher, and Striker characters' base ATK by 100, and makes their [TND] slots have matching slot effects" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Slot Bind" },
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            }
+        ]
+    },
+    4504: {//Guernica & Maha & Joseph
+        captain: "Boosts Fighter and Striker characters' ATK by 2.5x and RCV by 1.3x",
+        special: "Reduces crew's Switch Effect by 2, reduces crew's Special Bind duration by 5 turns, sets the chain multiplier to 3.25x for 2 turns, and if 3 or more [Land of Wano Arc] characters are on the crew, extends the duration of crew's end of turn additional damage effects by 3 turns, and boosts the type effects of normal attacks for crew by 1.5x for 1 turn",
+        specialName: "Finger Pistol Aimed at the Inconvenience",
+        sailor: "Reduces character's Special Bind duration by 5 turns",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [World Government], [Mythical Zoan-type], [Ancient Zoan-type]",
+                description: [
+                    "Once per quest, if inflicted with lock chain multiplier effect or Special Bind status from the enemy, reduces crew's lock chain multiplier effect duration by 2 turns, reduces supported character's Special Bind duration by 2 turns, and sets the chain multiplier to 3.0x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with lock chain multiplier effect or Special Bind status from the enemy, reduces crew's lock chain multiplier effect duration by 3 turns, reduces supported character's Special Bind duration by 3 turns, and sets the chain multiplier to 3.0x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with lock chain multiplier effect or Special Bind status from the enemy, reduces crew's lock chain multiplier effect duration by 3 turns, reduces supported character's Special Bind duration by 3 turns, and sets the chain multiplier to 3.0x for 1 turn, and applies -1% [STR], [DEX], and [INT] Resistance to all enemeis for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with lock chain multiplier effect or Special Bind status from the enemy, reduces crew's lock chain multiplier effect duration by 3 turns, reduces supported character's Special Bind duration by 3 turns, and sets the chain multiplier to 3.0x for 1 turn, and applies -2% [STR], [DEX], and [INT] Resistance to all enemeis for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with lock chain multiplier effect or Special Bind status from the enemy, reduces crew's lock chain multiplier effect duration by 3 turns, reduces supported character's Special Bind duration by 3 turns, and sets the chain multiplier to 3.0x for 1 turn, and applies -3% [STR], [DEX], and [INT] Resistance to all enemeis for 1 turn at start of crew's next turn"
+                ]
+            }
+        ]
+    },
+    4505: {//6+ Kaido
+        captain: "Boosts Powerhouse and Striker characters' ATK by 4.5x, HP by 1.4x, reduces their Special charge time by 3 turns and Switch Effect by 3 at start of quest, deals 400x character's ATK in [DEX] damage to all enemies at end of turn, and launches \"Disastrous Dragon Twister\" at start of quest",
+        special: "Launches the following effects based on character's Special launch status: (0) Reduces all enemies' HP by 20%, and deals 400x character's ATK in [DEX] damage to all enemies at end of every turn. After launching Special, applies the same Special effect at start of each BATTLE (will not stack with other abilities that apply the same Special effects at start of each BATTLE; also will not trigger the damage effects at the end of turns where enemy performs a preemptive action), and reduces character's Special charge time by 2 turns; (1) reduces all enemies' HP by 10%, reduces all enemies' Threshold Damage Reduction and damage reduction duration by 1 turn, and boosts Powerhouse and Striker characters' ATK by 2.5x for 2 turns",
+        specialName: "Disastrous Dragon Twister",
+        sailor: {
+            level1: "Boosts Powerhouse and Striker characters' base stats by 75",
+            level2: "Character cannot be blown away by attack"
+        },
+        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Charlotte Linlin (Big Mom), King (Alber), Queen, Jack, Yamato, X Drake, Ulti, Page One, Black Maria, Who's-Who, Sasaki, Scratchmen Apoo, Basil Hawkins",
+        superSpecial: "Reduces all enemies' Threshold Damage Reduction and damage reduction duration by 4 turns, applies increase damage taken status to all enemies by 2x for 1 turn ignoring immunity to status effects, sets character's Special launch status to (1), and changes [DEX] characters to Super [DEX]",
+        support: [
+            {
+                Characters: "Jack, Holdem, Speed, King, Queen",
+                description: [
+                    "Adds 8% of character's base ATK to supported character's base ATK",
+                    "Adds 10% of character's base ATK to supported character's base ATK",
+                    "Adds 12% of character's base ATK to supported character's base ATK",
+                    "Adds 15% of character's base ATK to supported character's base ATK",
+                    "Adds 18% of character's base ATK to supported character's base ATK"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 5" },
+            { description: "Boosts base RCV by 5" },
+            { description: "Boosts base RCV by 5" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base HP by 10" },
+            { description: "Boosts base HP by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base ATK by 15" },
+            { description: "Acquire Sailor Ability 1: Boosts Powerhouse and Striker characters' base stats by 75" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 25" },
+            { description: "Acquire Potential 2: No Healing" },
+            { description: "Boosts base RCV by 15" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base HP by 30" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 50" },
+            { description: "Acquire Sailor Ability 2: Character cannot be blown away by attack" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Acquire Potential 3: Slot Bind" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base HP by 100" },
+            { description: "Boosts base RCV by 25" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Reduce base Special Cooldown by 2 turns" },
+            { description: "Boosts base HP by 150" },
+        ],
+        lLimit: [
+            null,
+            {
+                rAbility: true,
+                gpAbility: true,
+                gpSpecial: true
+            },
+            {
+                captain: {
+                    base: "Boosts Powerhouse and Striker characters' ATK by 5x, HP by 1.4x, reduces their Special charge time by 3 turns and Switch Effect by 3 at start of quest, deals 450x character's ATK in [DEX] damage to all enemies at end of turn, and launches \"Disastrous Dragon Twister\" at start of quest"
+                }
+            },
+            {
+                rSpecial: true
+            },
+            {
+                special: {
+                    base: "Launches the following effects based on character's Special launch status: (0) Reduces all enemies' HP by 20%, and deals 500x character's ATK in [DEX] damage to all enemies at end of every turn. After launching Special, applies the same Special effect at start of each BATTLE (will not stack with other abilities that apply the same Special effects at start of each BATTLE; also will not trigger the damage effects at the end of turns where enemy performs a preemptive action), and reduces character's Special charge time by 2 turns; (1) reduces all enemies' HP by 10%, reduces all enemies' Threshold Damage Reduction and damage reduction duration by 3 turns, and boosts Powerhouse and Striker characters' ATK by 2.75x for 2 turns"
+                },
+                rResilience: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 5 turns",
+                    "Reduces No Healing duration by 7 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration completely on this character"
+                ]
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
@@ -179720,4 +180013,5 @@ if (UnitUtils){
     UnitUtils.extendDouble(calcGhostStartID, 4477, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4483, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4489, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4502, "dual");
 }

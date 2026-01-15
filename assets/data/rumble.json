@@ -439695,6 +439695,1353 @@
       "cost": 30
     },
     {
+      "id": 4502,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["HP"],
+              "effect": "buff",
+              "level": 4,
+              "targeting": {"targets": ["[Land of Wano Arc]", "[Navy]", "[Worst Generation]", "[Paramythia-type]"]}
+            },
+            {
+              "attributes": ["ATK", "SPD", "DEF"],
+              "effect": "debuff",
+              "level": 1,
+              "targeting": {"targets": ["Fighter", "Slasher"]},
+              "condition": {"type": "trigger", "stat": "hit", "count": 7}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "hinderance",
+              "amount": 2,
+              "targeting": {"targets": ["Fighter", "Slasher"]},
+              "condition": {"type": "trigger", "stat": "takes damage", "count": 5}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {},
+            {
+              "override": {"amount": 4}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {},
+            {
+              "override": {"amount": 6}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 7}
+            },
+            {},
+            {
+              "override": {"amount": 8}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 8}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"amount": 10}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "attributes": ["Special CT"],
+              "effect": "hinderance",
+              "amount": 11,
+              "targeting": {"count": 3, "targets": ["enemies"], "priority": "highest", "stat": "Special CT"}
+            },
+            {
+              "amount": 2750,
+              "effect": "damage",
+              "type": "fixed",
+              "targeting": {"targets": ["Fighter", "Slasher"]}
+            },
+            {
+              "amount": 32,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Land of Wano Arc]", "[SWORD]"]}
+            },
+            {
+              "attributes": ["Haste"],
+              "effect": "boon",
+              "chance": 73,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Land of Wano Arc]", "[SWORD]"]}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 12}
+            },
+            {
+              "override": {"amount": 3000}
+            },
+            {
+              "override": {"amount": 34}
+            },
+            {
+              "override": {"chance": 76}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 13}
+            },
+            {
+              "override": {"amount": 3250}
+            },
+            {
+              "override": {"amount": 36}
+            },
+            {
+              "override": {"chance": 79}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 14}
+            },
+            {
+              "override": {"amount": 3500}
+            },
+            {
+              "override": {"amount": 38}
+            },
+            {
+              "override": {"chance": 82}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 15}
+            },
+            {
+              "override": {"amount": 3750}
+            },
+            {
+              "override": {"amount": 40}
+            },
+            {
+              "override": {"chance": 85}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 16}
+            },
+            {
+              "override": {"amount": 4000}
+            },
+            {
+              "override": {"amount": 42}
+            },
+            {
+              "override": {"chance": 88}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 17}
+            },
+            {
+              "override": {"amount": 4250}
+            },
+            {
+              "override": {"amount": 44}
+            },
+            {
+              "override": {"chance": 91}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 18}
+            },
+            {
+              "override": {"amount": 4500}
+            },
+            {
+              "override": {"amount": 46}
+            },
+            {
+              "override": {"chance": 94}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 19}
+            },
+            {
+              "override": {"amount": 4750}
+            },
+            {
+              "override": {"amount": 48}
+            },
+            {
+              "override": {"chance": 97}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"amount": 20}
+            },
+            {
+              "override": {"amount": 5000}
+            },
+            {
+              "override": {"amount": 50}
+            },
+            {
+              "override": {"chance": 100}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Action Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "Fighter",
+          "percentage": 30,
+          "type": "damage"
+        },
+        {
+          "attribute": "Slasher",
+          "percentage": 30,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "type": "Full",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "DBF",
+        "def": 165,
+        "spd": 159
+      },
+      "cost": 55
+    },
+    {
+      "id": 4503,
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "DEF",
+        "def": 50,
+        "spd": 100
+      },
+      "cost": 30
+    },
+    {
+      "id": 4504,
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "SPT",
+        "def": 50,
+        "spd": 100
+      },
+      "cost": 1
+    },
+    {
+      "id": 4505,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["ATK", "HP"],
+              "effect": "buff",
+              "level": 3,
+              "targeting": {"targets": ["Powerhouse", "Striker"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 4,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "time", "comparator": "first", "count": 20}
+            },
+            {
+              "amount": 12,
+              "effect": "recharge",
+              "type": "Special CT",
+              "onArrival": true,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 4, "targets": ["[Land of Wano Arc]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"amount": 14}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"amount": 16}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 7}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"amount": 18}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 7}
+            },
+            {
+              "override": {"level": 8}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"amount": 20}
+            }
+          ]
+        }
+      ],
+      "llbability": [
+        {
+          "effects": [
+            {
+              "attributes": ["ATK", "HP"],
+              "effect": "buff",
+              "level": 4,
+              "targeting": {"targets": ["Powerhouse", "Striker"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 5,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 3,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "time", "comparator": "first", "count": 20}
+            },
+            {
+              "amount": 22,
+              "effect": "recharge",
+              "type": "Special CT",
+              "onArrival": true,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 4, "targets": ["[Land of Wano Arc]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"amount": 24}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 7}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"amount": 26}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 7}
+            },
+            {
+              "override": {"level": 8}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"amount": 28}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 8}
+            },
+            {
+              "override": {"level": 9}
+            },
+            {
+              "override": {"level": 7}
+            },
+            {
+              "override": {"amount": 30}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "amount": 15,
+              "effect": "damage",
+              "type": "cut",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "forward"}
+            },
+            {
+              "amount": 6,
+              "effect": "damage",
+              "type": "atk",
+              "spread": true,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "forward"}
+            },
+            {
+              "amount": 11,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Land of Wano Arc]"]}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 17}
+            },
+            {
+              "override": {"amount": 7}
+            },
+            {
+              "override": {"amount": 12}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 19}
+            },
+            {
+              "override": {"amount": 8}
+            },
+            {
+              "override": {"amount": 13}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 21}
+            },
+            {
+              "override": {"amount": 9}
+            },
+            {
+              "override": {"amount": 14}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 23}
+            },
+            {
+              "override": {"amount": 10}
+            },
+            {
+              "override": {"amount": 15}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 25}
+            },
+            {
+              "override": {"amount": 11}
+            },
+            {
+              "override": {"amount": 16}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 27}
+            },
+            {
+              "override": {"amount": 12}
+            },
+            {
+              "override": {"amount": 17}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 29}
+            },
+            {
+              "override": {"amount": 13}
+            },
+            {
+              "override": {"amount": 18}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 31}
+            },
+            {
+              "override": {"amount": 14}
+            },
+            {
+              "override": {"amount": 19}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 35}
+            },
+            {
+              "override": {"amount": 15}
+            },
+            {
+              "override": {"amount": 20}
+            }
+          ]
+        }
+      ],
+      "llbspecial": [
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "amount": 20,
+              "effect": "damage",
+              "type": "cut",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "forward"}
+            },
+            {
+              "amount": 11,
+              "effect": "damage",
+              "type": "atk",
+              "spread": true,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "forward"}
+            },
+            {
+              "amount": 21,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Land of Wano Arc]"]}
+            },
+            {
+              "attributes": ["ATK", "DEF"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 21,
+              "targeting": {"targets": ["Powerhouse", "Striker"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 22}
+            },
+            {
+              "override": {"amount": 12}
+            },
+            {
+              "override": {"amount": 22}
+            },
+            {
+              "override": {"duration": 22}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 24}
+            },
+            {
+              "override": {"amount": 13}
+            },
+            {
+              "override": {"amount": 23}
+            },
+            {
+              "override": {"level": 2, "duration": 23}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 26}
+            },
+            {
+              "override": {"amount": 14}
+            },
+            {
+              "override": {"amount": 24}
+            },
+            {
+              "override": {"level": 2, "duration": 24}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 28}
+            },
+            {
+              "override": {"amount": 15}
+            },
+            {
+              "override": {"amount": 25}
+            },
+            {
+              "override": {"level": 3, "duration": 25}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 30}
+            },
+            {
+              "override": {"amount": 16}
+            },
+            {
+              "override": {"amount": 26}
+            },
+            {
+              "override": {"level": 3, "duration": 26}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 32}
+            },
+            {
+              "override": {"amount": 17}
+            },
+            {
+              "override": {"amount": 27}
+            },
+            {
+              "override": {"level": 4, "duration": 27}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 34}
+            },
+            {
+              "override": {"amount": 18}
+            },
+            {
+              "override": {"amount": 28}
+            },
+            {
+              "override": {"level": 4, "duration": 28}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 36}
+            },
+            {
+              "override": {"amount": 19}
+            },
+            {
+              "override": {"amount": 29}
+            },
+            {
+              "override": {"level": 5, "duration": 29}
+            }
+          ]
+        },
+        {
+          "cooldown": 45,
+          "effects": [
+            {
+              "override": {"amount": 40}
+            },
+            {
+              "override": {"amount": 20}
+            },
+            {
+              "override": {"amount": 30}
+            },
+            {
+              "override": {"level": 6, "duration": 30}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Special Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[QCK]",
+          "percentage": 30,
+          "type": "damage"
+        }
+      ],
+      "llbresilience": [
+        {
+          "attribute": "Special Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[QCK]",
+          "percentage": 40,
+          "type": "damage"
+        }
+      ],
+      "gpability": [
+        {
+          "effects": [
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[DEX]"]}
+            },
+            {
+              "attributes": ["ATK", "SPD"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[DEX]"]}
+            },
+            {
+              "attributes": ["ATK", "SPD"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[INT]"]}
+            },
+            {
+              "attributes": ["Guard"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[INT]"]}
+            },
+            {
+              "attributes": ["HP", "ATK", "RCV"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["Powerhouse", "Striker"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[Land of Wano Arc]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {},
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {}
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        }
+      ],
+      "llbgpability": [
+        {
+          "effects": [
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[DEX]"]}
+            },
+            {
+              "attributes": ["ATK", "SPD"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["[DEX]"]}
+            },
+            {
+              "attributes": ["ATK", "SPD"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["[INT]"]}
+            },
+            {
+              "attributes": ["Guard"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[INT]"]}
+            },
+            {
+              "attributes": ["HP", "ATK", "RCV"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["Powerhouse", "Striker"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[Land of Wano Arc]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 4}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 5}
+            }
+          ]
+        }
+      ],
+      "gpspecial": [
+        {
+          "uses": 2,
+          "effects": [
+            {
+              "amount": 30,
+              "effect": "damage",
+              "type": "cut",
+              "targeting": {"count": 3, "targets": ["enemies"], "priority": "lowest", "stat": "HP"}
+            },
+            {
+              "attributes": ["Blow Away", "ATK"],
+              "effect": "buff",
+              "level": 6,
+              "duration": 26,
+              "targeting": {"targets": ["[DEX]", "[INT]"]}
+            }
+          ]
+        },
+        {
+          "uses": 2,
+          "effects": [
+            {
+              "override": {"amount": 35}
+            },
+            {
+              "override": {"level": 7, "duration": 27}
+            }
+          ]
+        },
+        {
+          "uses": 2,
+          "effects": [
+            {
+              "override": {"amount": 40}
+            },
+            {
+              "override": {"level": 8, "duration": 28}
+            }
+          ]
+        },
+        {
+          "uses": 2,
+          "effects": [
+            {
+              "override": {"amount": 45}
+            },
+            {
+              "override": {"level": 9, "duration": 29}
+            }
+          ]
+        },
+        {
+          "uses": 2,
+          "effects": [
+            {
+              "override": {"amount": 50}
+            },
+            {
+              "override": {"level": 10, "duration": 30}
+            }
+          ]
+        }
+      ],
+      "llbgpspecial": [
+        {
+          "uses": 2,
+          "effects": [
+            {
+              "amount": 30,
+              "effect": "damage",
+              "type": "cut",
+              "targeting": {"targets": ["enemies"]}
+            },
+            {
+              "attributes": ["Blow Away", "ATK"],
+              "effect": "buff",
+              "level": 6,
+              "duration": 26,
+              "targeting": {"targets": ["[DEX]", "[INT]"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 3,
+              "duration": 26,
+              "targeting": {"targets": ["[DEX]", "[INT]"]}
+            }
+          ]
+        },
+        {
+          "uses": 2,
+          "effects": [
+            {
+              "override": {"amount": 35}
+            },
+            {
+              "override": {"level": 7, "duration": 27}
+            },
+            {
+              "override": {"level": 4, "duration": 27}
+            }
+          ]
+        },
+        {
+          "uses": 2,
+          "effects": [
+            {
+              "override": {"amount": 40}
+            },
+            {
+              "override": {"level": 8, "duration": 28}
+            },
+            {
+              "override": {"level": 5, "duration": 28}
+            }
+          ]
+        },
+        {
+          "uses": 2,
+          "effects": [
+            {
+              "override": {"amount": 45}
+            },
+            {
+              "override": {"level": 9, "duration": 29}
+            },
+            {
+              "override": {"level": 6, "duration": 29}
+            }
+          ]
+        },
+        {
+          "uses": 2,
+          "effects": [
+            {
+              "override": {"amount": 50}
+            },
+            {
+              "override": {"level": 10, "duration": 30}
+            },
+            {
+              "override": {"level": 7, "duration": 30}
+            }
+          ]
+        }
+      ],
+      "gpcondition": [
+        {
+          "count": 6,
+          "team": "crew",
+          "type": "special"
+        }
+      ],
+      "llbgpcondition": [
+        {
+          "count": 6,
+          "team": "crew",
+          "type": "special"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "type": "Full",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "ATK",
+        "def": 216,
+        "spd": 131
+      },
+      "cost": 55
+    },
+    {
       "id": 4986,
       "basedOn": 4987
     },
