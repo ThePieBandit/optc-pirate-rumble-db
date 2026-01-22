@@ -179603,6 +179603,428 @@ window.details = {
             }
         ]
     },
+    4506: {//Hancock & Sandersonia & Marigold
+        captain: {
+            character1: "Makes [PSY], Cerebral, and Striker characters' [STR][PSY][RCV][TND] have matching slot effects, boosts their HP by 1.3x, ATK by 5x, boosts their damage dealt to enemies with increase damage taken, Delay, any type of Poison, DEF Down, Paralysis, Ignited, Negative status by 1.03x for each status effect (up to 7 effects for a maximum damage boost of approximately 1.229x; total damage dealt approximately 6.149x including the ATK boost from this Captain Ability), boosts other characters' ATK by 3.5x, and reduces crew's Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Paramythia-type] [Zoan-type] characters are on the crew, allows crew's special status applying effects to ignore immunity to those status effects (applies to increase damage taken, Delay, any type of Poison, DEF Down, Paralysis, Ignited, Weakened)",
+            character2: "Makes [STR], Cerebral, and Striker characters' [STR][PSY][RCV][TND] have matching slot effects, boosts their HP by 1.3x, ATK by 4.75x, boosts their damage dealt to enemies with any type of Poison status by 1.1x, and reduces crew's Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Paramythia-type] [Zoan-type] characters are on the crew, allows crew's special status applying effects to ignore immunity to those status effects (applies to increase damage taken, Delay, any type of Poison, DEF Down, Paralysis, Ignited, Negative, Weakened)",
+            combined: "Makes [STR], [PSY], Cerebral, and Striker characters' [STR][PSY][RCV][TND] have matching slot effects, boosts their HP by 1.3x, ATK by 5x, boosts their damage dealt to enemies with increase damage taken, Delay, any type of Poison, DEF Down, Paralysis, Ignited, Negative status by 1.04x for each status effect (up to 7 effects for a maximum damage boost of approximately 1.315x; total damage dealt approximately 6.579x including the ATK boost from this Captain Ability), boosts other characters' ATK by 4x, and reduces crew's Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Paramythia-type] [Zoan-type] characters are on the crew, allows crew's special status applying effects to ignore immunity to those status effects (applies to increase damage taken, Delay, any type of Poison, DEF Down, Paralysis, Ignited, Negative, Weakened)"
+        },
+        special: "Applies Ignited status to all enemies (ignoring immunity to all status effects or immunity excluding certain status effect) for 1 turn<hidden> (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action)</hidden>. If crew has Color Affinity status when Special is launched, boosts [STR], [PSY], and Cerebral characters' base ATK by +2000 for 1 turn, and boosts their Color Affinity based on the number of status effects applied on enemy when Special is launched (2.5x for 0-2 effects, 2.75x for 3-5 effects, 3x for 6-7 effects, and 3x and further increases crew's Color Affinity by +0.4 for 8 effects or more; effect applies to type effect boost from this Special) for 1 turn. If 3 or more [Paramythia-type] [Zoan-type] characters are on the crew, further increases crew's Orb Boost by +0.5, further increases crew's Base ATK Boost by +500 (effect applies to Base ATK Boost boost from this Special), then after that, becomes \"Hancock & Sandersonia & Marigold\" for 3 turns",
+        specialName: "Coordinated Attacks of Gorgon Sisters",
+        sailor: {
+            character1: "Reduces crew's Burn duration by 1 turn",
+            character2: "Reduces crew's Burn duration by 1 turn",
+            combined: "Reduces crew's Burn duration by 1 turn",
+            level1: "Makes crew's [STR][PSY] slots have matching slot effects"
+        },
+        superSpecialCriteria: "When character becomes \"Hancock & Sandersonia & Marigold\" during Captain Shift and any 3 [Paramythia-type] [Zoan-type] [Straw Hat Pirates] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
+        superSpecial: "Reduces all enemies' Threshold Damage Reduction duration by 6 turns, boosts damage dealt to poisoned/Ignited enemies by 2.25x for 1 turn, can choose to completely remove crew's Swap Captains effect, changes [STR] characters to Super [STR], and changes [PSY] characters to Super [PSY]",
+        swap: "Reduces character's Slot Bind duration by 6 turns, changes adjacent slots to character's own type, applies -15% Cerebral and Striker Resistance to all enemies for 1 turn, and boosts crew's base ATK by +500 for 1 turn (effect can be overwritten with other base ATK boost effects)<br><b>Captain Shift:</b> Can be used up to 2 times per adventure. If \"Boa Hancock\" is Captain, switches to \"Sandersonia & Marigold\" and can chose to swap bottom-left character with the Captain for 5 turns. If \"Sandersonia & Marigold\" is bottom-left character, switches to \"Boa Hancock\" and can chose to swap bottom-left character with the Captain for 5 turns. Reduces crew's Switch Effect by 2, and boosts the ATK of the next final tap performed by a [STR] or [PSY] character by 30%<hidden> (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)</hidden>",
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Acquire Potential 1: Enrage/Increase Damage Taken" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: [INT] Damage Reduction" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Acquire Sailor Ability 2: Makes crew's [STR][PSY] slots have matching slot effects" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Acquire Potential 3: Damage Limit Break: Class" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 50" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 250 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "[INT] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [INT] characters by 2%",
+                    "Reduces damage taken from [INT] characters by 3%",
+                    "Reduces damage taken from [INT] characters by 4%",
+                    "Reduces damage taken from [INT] characters by 5%",
+                    "Reduces damage taken from [INT] characters by 7%"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Cerebral characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ]
+    },
+    4507: {//Nami & Vivi
+        captain: {
+            character1: "Reduces crew's Special charge time by 2 turns and Switch Effect and VS Effect gauge by 2 at start of quest, boosts Cerebral and Free Spirit characters' HP by 1.35x, ATK by approximately 5.25x when slots match (4.75x otherwise), makes their [QCK][TND] slots have matching slot effects, and reduces crew's Paralysis duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Alabasta Arc] characters' ATK by 1.1x, and if 3 or more [Alabasta Arc] [Royalty] characters are on the crew, reduces crew's Limit Special Uses duration by 7 turns",
+            character2: "Reduces crew's Special charge time by 2 turns and Switch Effect and VS Effect gauge by 2 at start of quest, boosts Cerebral and Free Spirit characters' HP by 1.35x, ATK by 5x, makes their [INT][TND] slots have matching slot effects, and reduces crew's Paralysis duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Alabasta Arc] [Royalty] characters' ATK by 1.1x, and if 3 or more [Alabasta Arc] [Royalty] characters are on the crew, reduces crew's Limit Special Uses duration by 7 turns",
+            combined: "Reduces crew's Special charge time by 2 turns and Switch Effect and VS Effect gauge by 2 at start of quest, boosts Cerebral and Free Spirit characters' HP by 1.35x, ATK by 5.5x when slots match (5x otherwise), makes their [QCK][INT][TND] slots have matching slot effects, and reduces crew's Paralysis duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Alabasta Arc] [Royalty] characters' ATK by 1.1x, and if 3 or more [Alabasta Arc] [Royalty] characters are on the crew, reduces crew's Limit Special Uses duration by 7 turns"
+        },
+        special: "Reduces crew's Switch Effect and VS Effect gauge by 2, reduces crew's Slot Bind duration by 7 turns, boosts crew's slot effects by 2.75x for 2 turn (allows this effect to be further increased up to 2 times), further increases crew's type effect boost by +0.4, and further increases damage dealt to enemies with a specific status effect boosts that are launched after this Special by crew (applies to boosts applied by Support Effect) by +0.25. If 2 or more [Alabasta Arc] [Royalty] characters are on the crew, reduces crew's \"ATK Down when chain multiplier is below certain amount\" effect by 3 turns, and applies -15% Cerebral and Free Spirit Resistance to all enemies for 1 turn. If 3 or more [Alabasta Arc] [Royalty] characters are on the crew, applies an additional -10% Cerebral and Free Spirit Resistance to all enemies for 1 turn, then after that, becomes \"Nami & Vivi\" for 3 turns",
+        specialName: "Showing Off Their Dancers' Outfits",
+        sailor: {
+            character1: "Boosts Cerebral and Free Spirit characters' base stats by 100",
+            character2: "Boosts Cerebral and Free Spirit characters' base stats by 100",
+            combined: "Boosts Cerebral and Free Spirit characters' base stats by 100",
+            level1: "Makes crew's [QCK][INT] slots have matching slot effects"
+        },
+        superSpecialCriteria: "When character becomes \"Nami & Vivi\" with Super Switch effect and any [Alabasta Arc] [Royalty] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; can be launched when character is a crewmate)",
+        superSpecial: "Further increases all enemies' increase damage taken effect by +0.25, increases all enemies' damage taken by 2x for 1 turn, reduces character's Special charge time by 9 turns, and changes Cerebral characters to Super Cerebral",
+        swap: {
+            base: "Reduces all enemies' DEF by 80% for 1 turn, and boosts the chain multiplier by +0.5 for 1 turn",
+            super: "Completely removes character's Special Bind, sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), boosts the chain multiplier by +1.2 for 1 turn, and becomes \"Nami & Vivi\" for 3 turns",
+            superTurns: 4
+        },
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Acquire Potential 1: Pinch Healing" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base HP by 20" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: [PSY] Damage Reduction" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Makes crew's [QCK][INT] slots have matching slot effects" },
+            { description: "Boosts base RCV by 40" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base HP by 80" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Acquire Potential 3: Super Tandem Boost" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 150" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "[PSY] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [PSY] characters by 2%",
+                    "Reduces damage taken from [PSY] characters by 3%",
+                    "Reduces damage taken from [PSY] characters by 4%",
+                    "Reduces damage taken from [PSY] characters by 5%",
+                    "Reduces damage taken from [PSY] characters by 7%"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When an [Alabasta Arc] [Royalty] [Straw Hat Pirates] character performs Super Tandem",
+                "When an [Alabasta Arc] [Royalty] [Straw Hat Pirates] character performs Super Tandem",
+                "When an [Alabasta Arc] [Royalty] [Straw Hat Pirates] character performs Super Tandem",
+                "When an [Alabasta Arc] [Royalty] [Straw Hat Pirates] character performs Super Tandem",
+                "When an [Alabasta Arc] [Royalty] [Straw Hat Pirates] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Alabasta Arc] [Royalty] [Straw Hat Pirates] characters by 2 for 1 turn",
+                "Raises Boost Level of [Alabasta Arc] [Royalty] characters by 3 and raises Boost Level of [Straw Hat Pirates] characters by 2 for 1 turn",
+                "Raises Boost Level of [Alabasta Arc] [Royalty] characters by 4 and raises Boost Level of [Straw Hat Pirates] characters by 3 for 1 turn",
+                "Raises Boost Level of [Alabasta Arc] [Royalty] characters by 5 and raises Boost Level of [Straw Hat Pirates] characters by 3 for 1 turn",
+                "Raises Boost Level of [Alabasta Arc] [Royalty] characters by 6 and raises Boost Level of [Straw Hat Pirates] characters by 4 for 1 turn"
+            ]
+        }
+    },
+    4508: {//Tashigi
+        captain: "Boosts Slasher and Cerebral characters' ATK by 3.5x, HP by 1.2x, and when a Slasher or Cerebral character with Critical ATK Potential Ability performs a Critical attack, applies -3% Slasher and Cerebral Resistance to all enemies for 1 turn",
+        special: "Reduces crew's Despair/Special Bind duration by 6 turns. If crew has type effect boost when Special is launched, boosts the ATK of the next final tap performed by a Slasher or Cerebral character by 30% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect; boosts the type effects of normal attacks for Slasher and Cerebral chracters by 2.25x for 1 turn otherwise). If 2 or more [Navy] [Alabasta Arc] characters are on the crew, reduces crew's Special charge time by 2 turns, further increases all enemies' increase damage taken effect by +0.2, and doubles damage dealt to enemies with increase damage taken and Weakened status for 1 turn",
+        specialName: "Enemy-Quelling Slash",
+        sailor: {
+            base: "Reduces character's Special Bind duration by 6 turns",
+            level1: "Doubles damage from normal attacks dealt by character to [DEX] enemies"
+        },
+        support: [
+            {
+                Characters: "Cerebral class characters with the following Character Tag: [Navy], [Alabasta Arc]",
+                description: [
+                    "Changes supported character’s slot randomly at start of final battle",
+                    "Changes supported character’s slot randomly at start of final battle",
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [QCK]",
+                    "Once per quest, if supported character uses a Special, changes supported character's slot to [QCK]",
+                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 1 turn, and changes supported character's slot to [QCK]"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Acquire Potential 1: Critical Hit" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base ATK by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire Sailor Ability 2: Doubles damage from normal attacks dealt by character to [DEX] enemies" },
+            { description: "Boosts base HP by 80" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: Enrage/Increase Damage Taken" },
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            }
+        ]
+    },
+    4509: {//Perona
+        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts [PSY], Driven, and Cerebral characters' ATK by 3.5x, HP by 1.2x, and boosts damage dealt to enemies with Negative status by 1.2x",
+        special: "Reduces crew's Counter-Healing duration by 6 turns, Poisons all enemies, gives all enemies Negative status (reduces their ATK and DEF by 20%) for 1 turn, and changes all slots to character's own type. If crew has slot effect boost when Special is launched, boosts Driven and Cerebral characters' ATK by 2.25x for 1 turn (boosts Driven and Cerebral characters' slot effects by 2.25x for 1 turn otherwise). If 3 or more [Paramythia-type] [Thriller Bark Arc] characters are on the crew, allows this Special's Negative status applying effect to ignore immunity to status effects, and reduces crew's Special charge time by 3 turns (Special charge time reduction effect of \"Explosive Special Hollow\" can be activated up to 1 time including any Specials with similar effect)",
+        specialName: "Explosive Special Hollow",
+        sailor: {
+            base: "Reduces character's Special Reverse by 3 turns",
+            level1: "Boosts Driven and Cerebral characters' base stats by 40"
+        },
+        support: [
+            {
+                Characters: "Driven class characters with the following Character Tag: [Thriller Bark Arc], [Paramythia-type]",
+                description: [
+                    "Once per quest, if supported character uses a Special, applies -1% Driven Resistance to all enemies for 1 turn",
+                    "Once per quest, if supported character uses a Special, applies -1% Driven Resistance to all enemies for 1 turn",
+                    "Once per quest, if supported character uses a Special, applies -1% Driven and Cerebral Resistance to all enemies for 1 turn",
+                    "Once per quest, if supported character uses a Special, applies -2% Driven and Cerebral Resistance to all enemies for 1 turn",
+                    "Once per quest, if supported character uses a Special, applies -3% Driven and Cerebral Resistance to all enemies for 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base HP by 50" },
+            { description: "Acquire Potential 1: Pinch Healing" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 30" },
+            { description: "Boosts base HP by 50" },
+            { description: "Boosts base ATK by 30" },
+            { description: "Acquire Sailor Ability 2: Boosts Driven and Cerebral characters' base stats by 40" },
+            { description: "Boosts base HP by 60" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "Acquire Potential 2: [INT] Damage Reduction" },
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 2x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "[INT] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [INT] characters by 1%",
+                    "Reduces damage taken from [INT] characters by 2%",
+                    "Reduces damage taken from [INT] characters by 3%",
+                    "Reduces damage taken from [INT] characters by 4%",
+                    "Reduces damage taken from [INT] characters by 5%"
+                ]
+            }
+        ]
+    },
+    4510: {//5* PKA Reiju
+        captain: "Boosts [QCK], Cerebral, and Fighter characters' ATK by 3.25x, HP by 1.2x, boosts crew's damage dealt to enemies with any type of Poison by 1.2x, and allows crew's poison applying effects to ignore immunity to status effects",
+        special: "Removes all Poison effects on the crew, and boosts the type effects of normal attacks for [QCK], Cerebral, and Fighter characters by 2.25x for 1 turn. If enemy has any type of Poison when Special is launched, applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, [QCK], Cerebral, and Fighter characters will deal 1.5x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects)). If 3 or more [Germa 66] [Royalty] characters are on the crew, completely removes all enemies' Poison, Venom, and progressive Poison, applies Reiju Poison to all enemies (reduces 20% HP at end of enemy's turn, and heals crew for 20% of crew's maximum HP. Reiju Poison also applies for damage boosts against enemies affected by Poison), and reduces crew's decrease chain multiplier growth duration by 4 turns",
+        specialName: "Little Brother's Irreplaceable Friends",
+        sailor: {
+            base: "Boosts Cerebral and Fighter characters' base stats by 50",
+            level1: "Lets character completely evade Paralysis"
+        },
+        support: [
+            {
+                Characters: "Cerebral class characters with the following Character Tag: [Germa 66], [Royalty]",
+                description: [
+                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.1x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.2x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.3x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.4x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.5x for 1 turn at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            { description: "Boosts base ATK by 10" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 30" },
+            { description: "Acquire Potential 1: Pinch Healing" },
+            { description: "Boosts base HP by 40" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Boosts base ATK by 20" },
+            { description: "Acquire Potential 2: [STR] Damage Reduction" },
+            { description: "Acquire 1 additional Socket slot" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base HP by 60" },
+            { description: "Boosts base ATK by 50" },
+            { description: "Boosts base HP by 70" },
+            { description: "Reduce base Special Cooldown by 1 turn" },
+            { description: "LOCKED WITH KEY" },
+            { description: "Boosts base RCV by 10" },
+            { description: "Boosts base HP by 200" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Boosts base RCV by 20" },
+            { description: "Acquire Potential 3: Damage Limit Break: Type" },
+            { description: "Boosts base HP by 300" },
+            { description: "Boosts base ATK by 100" },
+            { description: "Acquire Sailor Ability 2: Lets character completely evade Paralysis" },
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "[STR] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [STR] characters by 2%",
+                    "Reduces damage taken from [STR] characters by 3%",
+                    "Reduces damage taken from [STR] characters by 4%",
+                    "Reduces damage taken from [STR] characters by 5%",
+                    "Reduces damage taken from [STR] characters by 7%"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
@@ -180014,4 +180436,6 @@ if (UnitUtils){
     UnitUtils.extendDouble(calcGhostStartID, 4483, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4489, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4502, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4506, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4507, "dual");
 }
