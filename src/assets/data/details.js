@@ -155373,11 +155373,11 @@ window.details = {
 			{
 				Characters: "Izo, Dogstorm, Cat Viper, Raizo, Kozuki Hiyori (Komurasaki), Okiku, Otama, Ashura Doji (Shutenmaru), Kozuki Sukiyaki (Tenguyama Hitetsu), Kozuki Oden, Kawamatsu, Shinobu, Yamato, Toki",
 				description: [
-					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and boosts Base ATK of all characters by 100 for 1 turn.",
-					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and boosts Base ATK of all characters by 150 for 1 turn.",
-					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and boosts Base ATK of all characters by 200 for 1 turn.",
-					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and boosts Base ATK of all characters by 250 for 1 turn.",
-					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, changes orbs of adjacent characters into [WANO] orbs, and boosts Base ATK of all characters by 250 for 1 turn."
+					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and increases boost effects of Base ATK Boost buffs by +100.",
+					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and increases boost effects of Base ATK Boost buffs by +150.",
+					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and increases boost effects of Base ATK Boost buffs by +200.",
+					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and increases boost effects of Base ATK Boost buffs by +250.",
+					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, changes orbs of adjacent characters into [WANO] orbs, and increases boost effects of Base ATK Boost buffs by +250."
 				]
 			}
 		],
@@ -179605,21 +179605,22 @@ window.details = {
     },
     4506: {//Hancock & Sandersonia & Marigold
         captain: {
-            character1: "Makes [PSY], Cerebral, and Striker characters' [STR][PSY][RCV][TND] have matching slot effects, boosts their HP by 1.3x, ATK by 5x, boosts their damage dealt to enemies with increase damage taken, Delay, any type of Poison, DEF Down, Paralysis, Ignited, Negative status by 1.03x for each status effect (up to 7 effects for a maximum damage boost of approximately 1.229x; total damage dealt approximately 6.149x including the ATK boost from this Captain Ability), boosts other characters' ATK by 3.5x, and reduces crew's Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Paramythia-type] [Zoan-type] characters are on the crew, allows crew's special status applying effects to ignore immunity to those status effects (applies to increase damage taken, Delay, any type of Poison, DEF Down, Paralysis, Ignited, Weakened)",
-            character2: "Makes [STR], Cerebral, and Striker characters' [STR][PSY][RCV][TND] have matching slot effects, boosts their HP by 1.3x, ATK by 4.75x, boosts their damage dealt to enemies with any type of Poison status by 1.1x, and reduces crew's Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Paramythia-type] [Zoan-type] characters are on the crew, allows crew's special status applying effects to ignore immunity to those status effects (applies to increase damage taken, Delay, any type of Poison, DEF Down, Paralysis, Ignited, Negative, Weakened)",
-            combined: "Makes [STR], [PSY], Cerebral, and Striker characters' [STR][PSY][RCV][TND] have matching slot effects, boosts their HP by 1.3x, ATK by 5x, boosts their damage dealt to enemies with increase damage taken, Delay, any type of Poison, DEF Down, Paralysis, Ignited, Negative status by 1.04x for each status effect (up to 7 effects for a maximum damage boost of approximately 1.315x; total damage dealt approximately 6.579x including the ATK boost from this Captain Ability), boosts other characters' ATK by 4x, and reduces crew's Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Paramythia-type] [Zoan-type] characters are on the crew, allows crew's special status applying effects to ignore immunity to those status effects (applies to increase damage taken, Delay, any type of Poison, DEF Down, Paralysis, Ignited, Negative, Weakened)"
+            character1: "Boosts ATK of [PSY], Cerebral and Striker characters by 5x, boosts ATK of all other characters by 3.5x, boosts HP of [PSY], Cerebral and Striker characters by 1.3x, makes [STR], [PSY], [RCV] and [TND] orbs beneficial for [PSY], Cerebral and Striker characters, and reduces Bind duration by 10 turns. Boosts [PSY], Cerebral and Striker characters ATK against enemies inflicted with Increase Damage Taken, delayed enemies, poisoned enemies, enemies with reduced defense, paralyzed enemies, enemies inflicted with Burn and enemies inflicted with Negative by 1.03x-1.23x, by a multiplicative 1.03x for each status effect. If your crew has 4+ [Paramythia-type] or [Zoan-type] characters, allows effects that inflict Increase Damage Taken, Delay, Poison, Defense Reduction, Paralysis, Burn and Weaken to ignore Debuff Protection.",
+            character2: "Boosts ATK of [STR], Cerebral and Striker characters by 4.75x, boosts HP of [STR], Cerebral and Striker characters by 1.3x, makes [STR], [PSY], [RCV] and [TND] orbs beneficial for [STR], Cerebral and Striker characters, and reduces Bind duration by 10 turns. Boosts [STR], Cerebral and Striker characters ATK against poisoned enemies by 1.1x. If your crew has 4+ [Paramythia-type] or [Zoan-type] characters, allows effects that inflict Increase Damage Taken, Delay, Poison, Defense Reduction, Paralysis, Burn, Negative and Weaken to ignore Debuff Protection.",
+            combined: "Boosts ATK of [STR], [PSY], Cerebral and Striker characters by 5x, boosts ATK of all other characters by 4x, boosts HP of [STR], [PSY], Cerebral and Striker characters by 1.3x, makes [STR], [PSY], [RCV] and [TND] orbs beneficial for [STR], [PSY], Cerebral and Striker characters, and reduces Bind duration by 10 turns. Boosts [STR], [PSY], Cerebral and Striker characters ATK against enemies inflicted with Increase Damage Taken, delayed enemies, poisoned enemies, enemies with reduced defense, paralyzed enemies, enemies inflicted with Burn and enemies inflicted with Negative by 1.04x-1.316x, by a multiplicative 1.04x for each status effect. If your crew has 4+ [Paramythia-type] or [Zoan-type] characters, allows effects that inflict Increase Damage Taken, Delay, Poison, Defense Reduction, Paralysis, Burn, Negative and Weaken to ignore Debuff Protection."
         },
-        special: "Applies Ignited status to all enemies (ignoring immunity to all status effects or immunity excluding certain status effect) for 1 turn<hidden> (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action)</hidden>. If crew has Color Affinity status when Special is launched, boosts [STR], [PSY], and Cerebral characters' base ATK by +2000 for 1 turn, and boosts their Color Affinity based on the number of status effects applied on enemy when Special is launched (2.5x for 0-2 effects, 2.75x for 3-5 effects, 3x for 6-7 effects, and 3x and further increases crew's Color Affinity by +0.4 for 8 effects or more; effect applies to type effect boost from this Special) for 1 turn. If 3 or more [Paramythia-type] [Zoan-type] characters are on the crew, further increases crew's Orb Boost by +0.5, further increases crew's Base ATK Boost by +500 (effect applies to Base ATK Boost boost from this Special), then after that, becomes \"Hancock & Sandersonia & Marigold\" for 3 turns",
+        special: "Ignores Debuff Protection and inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 1 turn, and becomes Hancock & Sandersonia & Marigold for 3 turns. If your crew has Color Affinity when the special is activated, boosts Base ATK of [STR], [PSY] and Cerebral characters by 2,000 for 1 turn. Boosts Color Affinity of [STR], [PSY] and Cerebral characters by 2.5x-3x for 1 turn depending on the number of status effects applied on enemy when special is activated. If enemies have 8+ status effects when the special is activated, increases boost effects of Color Affinity buffs by +0.4x, including effects activated in the same ability. If your crew has 3+ [Paramythia-type] or [Zoan-type] characters, increases boost effects of Orb Amplification buffs by +0.5x, and increases boost effects of Base ATK Boost buffs by +500, including effects activated in the same ability.",
+        specialNotes: "2.5x for 0-2 effects, 2.75x for 3-5 effects, 3x for 6+ effects",
         specialName: "Coordinated Attacks of Gorgon Sisters",
         sailor: {
-            character1: "Reduces crew's Burn duration by 1 turn",
-            character2: "Reduces crew's Burn duration by 1 turn",
-            combined: "Reduces crew's Burn duration by 1 turn",
-            level1: "Makes crew's [STR][PSY] slots have matching slot effects"
+            character1: "Reduces Burn duration by 1 turn.",
+            character2: "Reduces Burn duration by 1 turn.",
+            combined: "Reduces Burn duration by 1 turn.",
+            level1: "Makes [STR] and [PSY] orbs beneficial for all characters."
         },
-        superSpecialCriteria: "When character becomes \"Hancock & Sandersonia & Marigold\" during Captain Shift and any 3 [Paramythia-type] [Zoan-type] [Straw Hat Pirates] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
-        superSpecial: "Reduces all enemies' Threshold Damage Reduction duration by 6 turns, boosts damage dealt to poisoned/Ignited enemies by 2.25x for 1 turn, can choose to completely remove crew's Swap Captains effect, changes [STR] characters to Super [STR], and changes [PSY] characters to Super [PSY]",
-        swap: "Reduces character's Slot Bind duration by 6 turns, changes adjacent slots to character's own type, applies -15% Cerebral and Striker Resistance to all enemies for 1 turn, and boosts crew's base ATK by +500 for 1 turn (effect can be overwritten with other base ATK boost effects)<br><b>Captain Shift:</b> Can be used up to 2 times per adventure. If \"Boa Hancock\" is Captain, switches to \"Sandersonia & Marigold\" and can chose to swap bottom-left character with the Captain for 5 turns. If \"Sandersonia & Marigold\" is bottom-left character, switches to \"Boa Hancock\" and can chose to swap bottom-left character with the Captain for 5 turns. Reduces crew's Switch Effect by 2, and boosts the ATK of the next final tap performed by a [STR] or [PSY] character by 30%<hidden> (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)</hidden>",
+        superSpecialCriteria: "Can be launched as crewmate. When character becomes Hancock & Sandersonia & Marigold during Captain Shift and your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: [Paramythia-type], [Zoan-type], [Straw Hat Pirates]",
+        superSpecial: "Reduces enemies' Threshold Damage Reduction duration by 6 turns, boosts ATK against poisoned enemies and enemies inflicted with Burn by 2.25x for 1 turn, optionally removes Captain Swap duration completely, transforms [STR] characters into Super [STR] characters, and transforms [PSY] characters into Super [PSY] characters.",
+        swap: "Reduces Slot Bind duration by 6 turns on this character, changes orbs of adjacent characters into matching orbs, reduces enemies' Cerebral and Striker resistance by -15% for 1 turn, and boosts Base ATK of all characters by 500, allowing override, for 1 turn. <br><b>Captain Shift:</b> This effect is limited to 2 uses per adventure. If Hancock is Captain and switches to Sandersonia & Marigold, optionally swaps this unit with your bottom left unit for 5 turns. If Sandersonia & Marigold is your bottom left unit and switches to Hancock, optionally swaps this unit with your captain for 5 turns. Reduces Switch Effect of all characters by 2, and boosts Final Tap ATK of [STR] and [PSY] characters by 30%.",
         limit: [
             { description: "Boosts base ATK by 10" },
             { description: "Boosts base HP by 20" },
@@ -179706,23 +179707,23 @@ window.details = {
     },
     4507: {//Nami & Vivi
         captain: {
-            character1: "Reduces crew's Special charge time by 2 turns and Switch Effect and VS Effect gauge by 2 at start of quest, boosts Cerebral and Free Spirit characters' HP by 1.35x, ATK by approximately 5.25x when slots match (4.75x otherwise), makes their [QCK][TND] slots have matching slot effects, and reduces crew's Paralysis duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Alabasta Arc] characters' ATK by 1.1x, and if 3 or more [Alabasta Arc] [Royalty] characters are on the crew, reduces crew's Limit Special Uses duration by 7 turns",
-            character2: "Reduces crew's Special charge time by 2 turns and Switch Effect and VS Effect gauge by 2 at start of quest, boosts Cerebral and Free Spirit characters' HP by 1.35x, ATK by 5x, makes their [INT][TND] slots have matching slot effects, and reduces crew's Paralysis duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Alabasta Arc] [Royalty] characters' ATK by 1.1x, and if 3 or more [Alabasta Arc] [Royalty] characters are on the crew, reduces crew's Limit Special Uses duration by 7 turns",
-            combined: "Reduces crew's Special charge time by 2 turns and Switch Effect and VS Effect gauge by 2 at start of quest, boosts Cerebral and Free Spirit characters' HP by 1.35x, ATK by 5.5x when slots match (5x otherwise), makes their [QCK][INT][TND] slots have matching slot effects, and reduces crew's Paralysis duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Alabasta Arc] [Royalty] characters' ATK by 1.1x, and if 3 or more [Alabasta Arc] [Royalty] characters are on the crew, reduces crew's Limit Special Uses duration by 7 turns"
+            character1: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 2 turns, and reduces Switch Effect and VS Gauge of all characters by 2. Boosts ATK of [Alabasta Arc] characters by 1.1x, boosts ATK of Cerebral and Free Spirit characters by 4.75x, by 5.25x instead if they have a beneficial orb, boosts HP of Cerebral and Free Spirit characters by 1.35x, makes [QCK] and [TND] orbs beneficial for Cerebral and Free Spirit characters, and reduces Paralysis duration by 10 turns. If your crew has 3+ [Alabasta Arc] or [Royalty] characters, reduces Special Use Limit duration by 7 turns.",
+            character2: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 2 turns, and reduces Switch Effect and VS Gauge of all characters by 2. Boosts ATK of [Alabasta Arc] and [Royalty] characters by 1.1x, boosts ATK of Cerebral and Free Spirit characters by 5x, by 5.5x instead if they have the applicable tag, boosts HP of Cerebral and Free Spirit characters by 1.35x, makes [INT] and [TND] orbs beneficial for Cerebral and Free Spirit characters, and reduces Paralysis duration by 10 turns. If your crew has 3+ [Alabasta Arc] or [Royalty] characters, reduces Special Use Limit duration by 7 turns.",
+            combined: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 2 turns, and reduces Switch Effect and VS Gauge of all characters by 2. Boosts ATK of [Alabasta Arc] and [Royalty] characters by 1.1x, boosts ATK of Cerebral and Free Spirit characters by 5x, by 5.5x instead if they have a beneficial orb, boosts HP of Cerebral and Free Spirit characters by 1.35x, makes [QCK], [INT] and [TND] orbs beneficial for Cerebral and Free Spirit characters, and reduces Paralysis duration by 10 turns. If your crew has 3+ [Alabasta Arc] or [Royalty] characters, reduces Special Use Limit duration by 7 turns."
         },
-        special: "Reduces crew's Switch Effect and VS Effect gauge by 2, reduces crew's Slot Bind duration by 7 turns, boosts crew's slot effects by 2.75x for 2 turn (allows this effect to be further increased up to 2 times), further increases crew's type effect boost by +0.4, and further increases damage dealt to enemies with a specific status effect boosts that are launched after this Special by crew (applies to boosts applied by Support Effect) by +0.25. If 2 or more [Alabasta Arc] [Royalty] characters are on the crew, reduces crew's \"ATK Down when chain multiplier is below certain amount\" effect by 3 turns, and applies -15% Cerebral and Free Spirit Resistance to all enemies for 1 turn. If 3 or more [Alabasta Arc] [Royalty] characters are on the crew, applies an additional -10% Cerebral and Free Spirit Resistance to all enemies for 1 turn, then after that, becomes \"Nami & Vivi\" for 3 turns",
+        special: "Reduces Switch Effect and VS Gauge of all characters by 2, reduces Slot Bind duration by 7 turns, boosts Orb Effects of all characters by 2.75x, can be enhanced up to 2 times, for 2 turns, increases boost effects of Color Affinity buffs by +0.4x, increases boost effects of Status ATK Boost buffs applied by all characters by +0.25x for 1 turn, and becomes Nami & Vivi for 3 turns. If your crew has 2+ [Alabasta Arc] or [Royalty] characters, reduces Minimum-Chain ATK Down duration by 3 turns, and reduces enemies' Cerebral and Free Spirit resistance by -15% for 1 turn. If your crew has 3+ [Alabasta Arc] or [Royalty] characters, reduces enemies' Cerebral and Free Spirit resistance by -10% for 1 turn.",
         specialName: "Showing Off Their Dancers' Outfits",
         sailor: {
-            character1: "Boosts Cerebral and Free Spirit characters' base stats by 100",
-            character2: "Boosts Cerebral and Free Spirit characters' base stats by 100",
-            combined: "Boosts Cerebral and Free Spirit characters' base stats by 100",
-            level1: "Makes crew's [QCK][INT] slots have matching slot effects"
+            character1: "Boosts base ATK, HP and RCV of Cerebral and Free Spirit characters by 100.",
+            character2: "Boosts base ATK, HP and RCV of Cerebral and Free Spirit characters by 100.",
+            combined: "Boosts base ATK, HP and RCV of Cerebral and Free Spirit characters by 100.",
+            level1: "Makes [QCK] and [INT] orbs beneficial for all characters."
         },
-        superSpecialCriteria: "When character becomes \"Nami & Vivi\" with Super Switch effect and any [Alabasta Arc] [Royalty] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; can be launched when character is a crewmate)",
-        superSpecial: "Further increases all enemies' increase damage taken effect by +0.25, increases all enemies' damage taken by 2x for 1 turn, reduces character's Special charge time by 9 turns, and changes Cerebral characters to Super Cerebral",
+        superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: [Alabasta Arc], [Royalty]",
+        superSpecial: "Increases boost effects of enemies' Increase Damage Taken debuffs by +0.25x, inflicts all enemies with Increase Damage Taken by 2x for 1 turn, reduces Special Cooldown of this character by 9 turns, and transforms Cerebral characters into Super Cerebral characters.",
         swap: {
-            base: "Reduces all enemies' DEF by 80% for 1 turn, and boosts the chain multiplier by +0.5 for 1 turn",
-            super: "Completely removes character's Special Bind, sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), boosts the chain multiplier by +1.2 for 1 turn, and becomes \"Nami & Vivi\" for 3 turns",
+            base: "Reduces the defense of all enemies by 80% for 1 turn, and adds 0.5x to chain multiplier for 1 turn.",
+            super: "Removes Special Bind duration completely on this character, ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, adds 1.2x to chain multiplier for 1 turn, and becomes Nami & Vivi for 3 turns.",
             superTurns: 4
         },
         limit: [
@@ -179810,38 +179811,38 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When an [Alabasta Arc] [Royalty] [Straw Hat Pirates] character performs Super Tandem",
-                "When an [Alabasta Arc] [Royalty] [Straw Hat Pirates] character performs Super Tandem",
-                "When an [Alabasta Arc] [Royalty] [Straw Hat Pirates] character performs Super Tandem",
-                "When an [Alabasta Arc] [Royalty] [Straw Hat Pirates] character performs Super Tandem",
-                "When an [Alabasta Arc] [Royalty] [Straw Hat Pirates] character performs Super Tandem"
+                "When an [Alabasta Arc], [Royalty] or [Straw Hat Pirates] character performs Super Tandem",
+                "When an [Alabasta Arc], [Royalty] or [Straw Hat Pirates] character performs Super Tandem",
+                "When an [Alabasta Arc], [Royalty] or [Straw Hat Pirates] character performs Super Tandem",
+                "When an [Alabasta Arc], [Royalty] or [Straw Hat Pirates] character performs Super Tandem",
+                "When an [Alabasta Arc], [Royalty] or [Straw Hat Pirates] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Alabasta Arc] [Royalty] [Straw Hat Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Alabasta Arc] [Royalty] characters by 3 and raises Boost Level of [Straw Hat Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Alabasta Arc] [Royalty] characters by 4 and raises Boost Level of [Straw Hat Pirates] characters by 3 for 1 turn",
-                "Raises Boost Level of [Alabasta Arc] [Royalty] characters by 5 and raises Boost Level of [Straw Hat Pirates] characters by 3 for 1 turn",
-                "Raises Boost Level of [Alabasta Arc] [Royalty] characters by 6 and raises Boost Level of [Straw Hat Pirates] characters by 4 for 1 turn"
+                "Raises Boost Level of [Alabasta Arc], [Royalty] and [Straw Hat Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Alabasta Arc] and [Royalty] characters by 3 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Alabasta Arc] and [Royalty] characters by 4 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Alabasta Arc] and [Royalty] characters by 5 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Alabasta Arc] and [Royalty] characters by 6 for 1 turn, and raises Boost Level of [Straw Hat Pirates] characters by 4 for 1 turn."
             ]
         }
     },
     4508: {//Tashigi
-        captain: "Boosts Slasher and Cerebral characters' ATK by 3.5x, HP by 1.2x, and when a Slasher or Cerebral character with Critical ATK Potential Ability performs a Critical attack, applies -3% Slasher and Cerebral Resistance to all enemies for 1 turn",
-        special: "Reduces crew's Despair/Special Bind duration by 6 turns. If crew has type effect boost when Special is launched, boosts the ATK of the next final tap performed by a Slasher or Cerebral character by 30% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect; boosts the type effects of normal attacks for Slasher and Cerebral chracters by 2.25x for 1 turn otherwise). If 2 or more [Navy] [Alabasta Arc] characters are on the crew, reduces crew's Special charge time by 2 turns, further increases all enemies' increase damage taken effect by +0.2, and doubles damage dealt to enemies with increase damage taken and Weakened status for 1 turn",
+        captain: "Boosts ATK of Slasher and Cerebral characters by 3.5x, boosts HP of Slasher and Cerebral characters by 1.2x, and reduces enemies' Slasher and Cerebral Resistance by -3% for 1 turn when a Slasher or Cerebral character performs a Critical Hit.",
+        special: "Reduces Despair and Special Bind duration by 6 turns. If your crew has Color Affinity when the special is activated, boosts Final Tap ATK of Slasher or Cerebral characters by 30%; boosts Color Affinity of Slasher and Cerebral characters by 2.25x for 1 turn otherwise. If your crew has 2+ [Navy] or [Alabasta Arc] characters, reduces Special Cooldown of all characters by 2 turns, increases boost effects of enemies' Increase Damage Taken debuffs by +0.2x, and boosts ATK against enemies inflicted with Increase Damage Taken and enemies inflicted with Weaken by 2x for 1 turn.",
         specialName: "Enemy-Quelling Slash",
         sailor: {
-            base: "Reduces character's Special Bind duration by 6 turns",
-            level1: "Doubles damage from normal attacks dealt by character to [DEX] enemies"
+            base: "Reduces Special Bind duration by 6 turns on this character.",
+            level1: "Boosts this character's damage against [DEX] characters by 2x."
         },
         support: [
             {
-                Characters: "Cerebral class characters with the following Character Tag: [Navy], [Alabasta Arc]",
+                Characters: "Cerebral [Navy] and [Alabasta Arc] characters",
                 description: [
-                    "Changes supported character’s slot randomly at start of final battle",
-                    "Changes supported character’s slot randomly at start of final battle",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [QCK]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [QCK]",
-                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 1 turn, and changes supported character's slot to [QCK]"
+                    "Once per adventure, when you reach the final stage, randomizes supported character's orb.",
+                    "Once per adventure, when you reach the final stage, randomizes supported character's orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [QCK] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [QCK] orb.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Cooldown of supported character by 1 turn, and changes the orb of the supported character into a [QCK] orb."
                 ]
             }
         ],
@@ -179886,22 +179887,22 @@ window.details = {
         ]
     },
     4509: {//Perona
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts [PSY], Driven, and Cerebral characters' ATK by 3.5x, HP by 1.2x, and boosts damage dealt to enemies with Negative status by 1.2x",
-        special: "Reduces crew's Counter-Healing duration by 6 turns, Poisons all enemies, gives all enemies Negative status (reduces their ATK and DEF by 20%) for 1 turn, and changes all slots to character's own type. If crew has slot effect boost when Special is launched, boosts Driven and Cerebral characters' ATK by 2.25x for 1 turn (boosts Driven and Cerebral characters' slot effects by 2.25x for 1 turn otherwise). If 3 or more [Paramythia-type] [Thriller Bark Arc] characters are on the crew, allows this Special's Negative status applying effect to ignore immunity to status effects, and reduces crew's Special charge time by 3 turns (Special charge time reduction effect of \"Explosive Special Hollow\" can be activated up to 1 time including any Specials with similar effect)",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [PSY], Driven and Cerebral characters by 3.5x, boosts ATK against enemies inflicted with Negative by 1.2x, and boosts HP of [PSY], Driven and Cerebral characters by 1.2x.",
+        special: "Reduces Counter-Healing duration by 6 turns, poisons all enemies, and changes all orbs into matching orbs. If your crew has Orb Amplification when the special is activated, boosts ATK of Driven and Cerebral characters by 2.25x for 1 turn; boosts Orb Effects of Driven and Cerebral characters by 2.25x for 1 turn otherwise. If your crew has 3+ [Paramythia-type] or [Thriller Bark Arc] characters, ignores Debuff Protection and inflicts enemies with Negative for 1 turn, and up to 1 time per adventure, reduces Special Cooldown of all characters by 3 turns; inflicts enemies with Negative for 1 turn otherwise.",
         specialName: "Explosive Special Hollow",
         sailor: {
-            base: "Reduces character's Special Reverse by 3 turns",
-            level1: "Boosts Driven and Cerebral characters' base stats by 40"
+            base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "Boosts base ATK, HP and RCV of Driven and Cerebral characters by 40."
         },
         support: [
             {
-                Characters: "Driven class characters with the following Character Tag: [Thriller Bark Arc], [Paramythia-type]",
+                Characters: "Driven [Thriller Bark Arc] and [Paramythia-type] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, applies -1% Driven Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -1% Driven Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -1% Driven and Cerebral Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -2% Driven and Cerebral Resistance to all enemies for 1 turn",
-                    "Once per quest, if supported character uses a Special, applies -3% Driven and Cerebral Resistance to all enemies for 1 turn"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Driven Resistance by -1% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Driven Resistance by -1% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Driven and Cerebral Resistance by -1% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Driven and Cerebral Resistance by -2% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Driven and Cerebral Resistance by -3% for 1 turn."
                 ]
             }
         ],
@@ -179946,22 +179947,23 @@ window.details = {
         ]
     },
     4510: {//5* PKA Reiju
-        captain: "Boosts [QCK], Cerebral, and Fighter characters' ATK by 3.25x, HP by 1.2x, boosts crew's damage dealt to enemies with any type of Poison by 1.2x, and allows crew's poison applying effects to ignore immunity to status effects",
-        special: "Removes all Poison effects on the crew, and boosts the type effects of normal attacks for [QCK], Cerebral, and Fighter characters by 2.25x for 1 turn. If enemy has any type of Poison when Special is launched, applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, [QCK], Cerebral, and Fighter characters will deal 1.5x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects)). If 3 or more [Germa 66] [Royalty] characters are on the crew, completely removes all enemies' Poison, Venom, and progressive Poison, applies Reiju Poison to all enemies (reduces 20% HP at end of enemy's turn, and heals crew for 20% of crew's maximum HP. Reiju Poison also applies for damage boosts against enemies affected by Poison), and reduces crew's decrease chain multiplier growth duration by 4 turns",
+        captain: "Boosts ATK of [QCK], Cerebral and Fighter characters by 3.25x, boosts ATK against poisoned enemies by 1.2x, boosts HP of [QCK], Cerebral and Fighter characters by 1.2x, and allows effects that inflict Poison to ignore Debuff Protection.",
+        special: "Removes Poison duration completely, and boosts Color Affinity of [QCK], Cerebral and Fighter characters by 2.25x for 1 turn. If enemies are inflicted with any Poison when the special is activated, inflicts all enemies with Set Target, increasing damage taken from [QCK], Cerebral and Fighter characters by 1.5x and reducing Special Cooldown of [QCK], Cerebral and Fighter characters by 2 turns when they defeat an enemy, for 1 turn. If your crew has 3+ [Germa 66] or [Royalty] characters, removes enemies' Poison duration completely, inflicts all enemies with Reiju Poison, and reduces Chain Coefficient Reduction duration by 4 turns.",
+        specialNotes: "Reiju Poison deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn. Reiju Poison is derivative of Normal Poison, so it fulfills Poison Status ATK Boosts and is affected by Poison Debuff Immunity.",
         specialName: "Little Brother's Irreplaceable Friends",
         sailor: {
-            base: "Boosts Cerebral and Fighter characters' base stats by 50",
-            level1: "Lets character completely evade Paralysis"
+            base: "Boosts base ATK, HP and RCV of Cerebral and Fighter characters by 50.",
+            level1: "Reduces Paralysis duration completely on this character."
         },
         support: [
             {
-                Characters: "Cerebral class characters with the following Character Tag: [Germa 66], [Royalty]",
+                Characters: "Cerebral [Germa 66] and [Royalty] characters",
                 description: [
-                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.1x for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.2x for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.3x for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.4x for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.5x for 1 turn at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Poison or Toxic, boosts Color Affinity of [QCK] and Cerebral characters by 1.1x for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Poison or Toxic, boosts Color Affinity of [QCK] and Cerebral characters by 1.2x for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Poison or Toxic, boosts Color Affinity of [QCK] and Cerebral characters by 1.3x for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Poison or Toxic, boosts Color Affinity of [QCK] and Cerebral characters by 1.4x for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Poison or Toxic, boosts Color Affinity of [QCK] and Cerebral characters by 1.5x for 1 turn."
                 ]
             }
         ],
