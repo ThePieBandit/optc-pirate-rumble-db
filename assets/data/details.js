@@ -180027,6 +180027,481 @@ window.details = {
             }
         ]
     },
+    4512: {//Kujaku
+        captain: "Boosts [PSY], Slasher, and Fighter characters' ATK by 5.625x when slots match (4.5x otherwise), HP by 1.3x, boosts their chance of landing on own type slots, and makes their [PSY][RCV][TND] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Paramythia-type] [Navy] [SWORD] characters are on the crew, and crew uses a Special to boost ATK or slot effects, extends the duration of that effect by 1 turn",
+        special: "Removes crew's [BLOCK][BOMB][S. BOMB] slots, deals [PSY] damage to one enemy based on the number of [BLOCK][BOMB][S. BOMB] slots removed (0-6), changes all slots to character's own type, changes the ATK multiplier of type slots to 3.5x when slots match (normally 2x when matching), 0.5x when unfavorable, 1.0x otherwise for 1 turn, and applies Paralysis (60% chance not to reduce action turns) to all enemies for 1 turn. If 3 or more [Paramythia-type] [Navy] [SWORD] characters are on the crew, reduces the duration of all enemy barriers by 2 turns, reduces crew's Paralysis duration by 3 turns, completely removes all Poison effects on the crew, boosts the chain multiplier by +1.6 for 1 turn, and allows this Special's Paralysis status applying effect to ignore immunity to status effects",
+        specialName: "Almighty Discipline",
+        sailor: {
+            base: "Makes crew's [PSY][RCV] slots have matching slot effects",
+            level1: "Sets all slots to [PSY] slots at start of quest (no stacking identical abilities)"
+        },
+        support: [
+            {
+                Characters: "[PSY] characters with the following Character Tag: [Navy], [SWORD], [Paramythia-type]",
+                description: [
+                    "Adds 2% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 6% of character's base stats to supported character's base stats",
+                    "Adds 8% of character's base stats to supported character's base stats",
+                    "Adds 10% of character's base stats to supported character's base stats"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Slot Barrier",
+            "Boosts base ATK by 15",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 15",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Acquire Potential 2: Slot Bind",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Acquire Sailor Ability 2: Sets all slots to [PSY] slots at start of quest (no stacking identical abilities)",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 20",
+            "Acquire Potential 3: [INT] Damage Reduction",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 30"
+        ],
+        potential: [
+            {
+                Name: "Slot Barrier",
+                description: [
+                    "Reduces Slot Barrier duration by 1 stack on this character",
+                    "Reduces Slot Barrier duration by 2 stacks on this character",
+                    "Reduces Slot Barrier duration by 3 stacks on this character",
+                    "Reduces Slot Barrier duration by 4 stacks on this character",
+                    "Reduces Slot Barrier duration by 5 stacks on this character"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "[INT] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [INT] characters by 1%",
+                    "Reduces damage taken from [INT] characters by 2%",
+                    "Reduces damage taken from [INT] characters by 3%",
+                    "Reduces damage taken from [INT] characters by 4%",
+                    "Reduces damage taken from [INT] characters by 5%"
+                ]
+            }
+        ],
+        festStats: {
+            def: 209,
+            spd: 137,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Confusion, reduce damage taken from [INT] by 30%",
+        festAbility: [
+            "[PSY]/Fighter class and [Navy] teammates HP Up Lv.2, ATK Up Lv.2, DEF Up Lv.2; [SWORD] teammates ATK Up Lv.1, RCV Up Lv.1: after dealing damage, up to 5 times, self Blow Away % Up Lv.1; if 4 or more [Navy] characters are on the team, when appearing on the field, self Special CT 10% reduction",
+            "[PSY]/Fighter class and [Navy] teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.3; [SWORD] teammates ATK Up Lv.2, RCV Up Lv.2: after dealing damage, up to 5 times, self Blow Away % Up Lv.1; if 4 or more [Navy] characters are on the team, when appearing on the field, self Special CT 15% reduction",
+            "[PSY]/Fighter class and [Navy] teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.4; [SWORD] teammates ATK Up Lv.3, RCV Up Lv.3: after dealing damage, up to 5 times, self Blow Away % Up Lv.1; if 4 or more [Navy] characters are on the team, when appearing on the field, self Special CT 20% reduction",
+            "[PSY]/Fighter class and [Navy] teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.5; [SWORD] teammates ATK Up Lv.4, RCV Up Lv.4: after dealing damage, up to 5 times, self Blow Away % Up Lv.1; if 4 or more [Navy] characters are on the team, when appearing on the field, self Special CT 25% reduction",
+            "[PSY]/Fighter class and [Navy] teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.6; [SWORD] teammates ATK Up Lv.4, RCV Up Lv.4: after dealing damage, up to 5 times, self Blow Away % Up Lv.2; if 4 or more [Navy] characters are on the team, when appearing on the field, self Special CT 30% reduction"
+        ],
+        festSpecial: [
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Fighter class and [Navy] teammates for ATK Up Lv.2 (20 s), SPD Up Lv.2 (20 s), DEF Up Lv.2 (20 s); if 5 or more Fighter class characters or 5 or more [Navy] characters are on the team, targets team for 80% chance to evade stat-reducing effects (11 s); targets (not including self) [PSY]/Fighter class and [Navy] teammates for Special CT 11% reduction; targets 3 [Navy] teammates with high current Special CT for 73% chance of Haste"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Fighter class and [Navy] teammates for ATK Up Lv.2 (20 s), SPD Up Lv.2 (20 s), DEF Up Lv.2 (20 s); if 5 or more Fighter class characters or 5 or more [Navy] characters are on the team, targets team for 82% chance to evade stat-reducing effects (12 s); targets (not including self) [PSY]/Fighter class and [Navy] teammates for Special CT 12% reduction; targets 3 [Navy] teammates with high current Special CT for 76% chance of Haste"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Fighter class and [Navy] teammates for ATK Up Lv.3 (20 s), SPD Up Lv.3 (20 s), DEF Up Lv.2 (20 s); if 5 or more Fighter class characters or 5 or more [Navy] characters are on the team, targets team for 84% chance to evade stat-reducing effects (13 s); targets (not including self) [PSY]/Fighter class and [Navy] teammates for Special CT 13% reduction; targets 3 [Navy] teammates with high current Special CT for 79% chance of Haste"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Fighter class and [Navy] teammates for ATK Up Lv.3 (20 s), SPD Up Lv.3 (20 s), DEF Up Lv.2 (20 s); if 5 or more Fighter class characters or 5 or more [Navy] characters are on the team, targets team for 86% chance to evade stat-reducing effects (14 s); targets (not including self) [PSY]/Fighter class and [Navy] teammates for Special CT 14% reduction; targets 3 [Navy] teammates with high current Special CT for 82% chance of Haste"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Fighter class and [Navy] teammates for ATK Up Lv.4 (20 s), SPD Up Lv.4 (20 s), DEF Up Lv.2 (20 s); if 5 or more Fighter class characters or 5 or more [Navy] characters are on the team, targets team for 88% chance to evade stat-reducing effects (15 s); targets (not including self) [PSY]/Fighter class and [Navy] teammates for Special CT 15% reduction; targets 3 [Navy] teammates with high current Special CT for 85% chance of Haste"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Fighter class and [Navy] teammates for ATK Up Lv.4 (20 s), SPD Up Lv.4 (20 s), DEF Up Lv.3 (20 s); if 5 or more Fighter class characters or 5 or more [Navy] characters are on the team, targets team for 90% chance to evade stat-reducing effects (16 s); targets (not including self) [PSY]/Fighter class and [Navy] teammates for Special CT 16% reduction; targets 3 [Navy] teammates with high current Special CT for 88% chance of Haste"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Fighter class and [Navy] teammates for ATK Up Lv.5 (20 s), SPD Up Lv.5 (20 s), DEF Up Lv.3 (20 s); if 5 or more Fighter class characters or 5 or more [Navy] characters are on the team, targets team for 92% chance to evade stat-reducing effects (17 s); targets (not including self) [PSY]/Fighter class and [Navy] teammates for Special CT 17% reduction; targets 3 [Navy] teammates with high current Special CT for 91% chance of Haste"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Fighter class and [Navy] teammates for ATK Up Lv.5 (20 s), SPD Up Lv.5 (20 s), DEF Up Lv.3 (20 s); if 5 or more Fighter class characters or 5 or more [Navy] characters are on the team, targets team for 94% chance to evade stat-reducing effects (18 s); targets (not including self) [PSY]/Fighter class and [Navy] teammates for Special CT 18% reduction; targets 3 [Navy] teammates with high current Special CT for 94% chance of Haste"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Fighter class and [Navy] teammates for ATK Up Lv.6 (20 s), SPD Up Lv.6 (20 s), DEF Up Lv.3 (20 s); if 5 or more Fighter class characters or 5 or more [Navy] characters are on the team, targets team for 96% chance to evade stat-reducing effects (19 s); targets (not including self) [PSY]/Fighter class and [Navy] teammates for Special CT 19% reduction; targets 3 [Navy] teammates with high current Special CT for 97% chance of Haste"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Fighter class and [Navy] teammates for ATK Up Lv.6 (20 s), SPD Up Lv.6 (20 s), DEF Up Lv.4 (20 s); if 5 or more Fighter class characters or 5 or more [Navy] characters are on the team, targets team for 100% chance to evade stat-reducing effects (20 s); targets (not including self) [PSY]/Fighter class and [Navy] teammates for Special CT 20% reduction; targets 3 [Navy] teammates with high current Special CT for 100% chance of Haste"
+            }
+        ]
+    },
+    4513: {//5* Co-Op Orobi
+        captain: "Boosts [DEX], Cerebral, and Free Spirit characters' HP by 1.2x, ATK by 4.25x, boosts their ATK by approximately 4.75x when they have [DEX][TND][WANO] slots, slightly boosts crew's chance of landing on [DEX][TND] slots, and reduces crew's Special Bind duration by 3 turns",
+        special: "Reduces crew's Despair/Special Bind duration by 5 turns, boosts Cerebral and Free Spirit characters' slot effects by 2.5x for 1 turn, changes all slots (including [BLOCK] slots) to [DEX], changes character's slot to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and if 4 or more [Land of Wano Arc] [Paramythia-type] characters are on the crew, reduces all enemies' damage nullification duration by 1 turn",
+        specialName: "Mil Fleurs Gigantesco Mano of the Geisha",
+        sailor: {
+            base: "Boosts Cerebral and Free Spirit characters' base stats by 50",
+            level1: "Reduces character's Special Bind duration by 6 turns"
+        },
+        support: [
+            {
+                Characters: "Free Spirit class characters with the following Character Tag: [Land of Wano Arc]",
+                description: [
+                    "Adds 3% of character's base ATK to supported character's base ATK",
+                    "Adds 4% of character's base ATK to supported character's base ATK",
+                    "Adds 5% of character's base ATK to supported character's base ATK",
+                    "Adds 7% of character's base ATK to supported character's base ATK",
+                    "Adds 9% of character's base ATK to supported character's base ATK"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 30",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 30",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Acquire Potential 2: Pinch Healing",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 40",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Reduce base Special Cooldown by 1 turn",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 100",
+            "Acquire Sailor Ability 2: Reduces character's Special Bind duration by 6 turns",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 100",
+            "Acquire Potential 3: Super Tandem Boost"
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] characters by 1 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 2 and raises Boost Level of [Land of Wano Arc] [Paramythia-type] characters by 1 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] [Land of Wano Arc] characters by 2 and raises Boost Level of [Paramythia-type] characters by 1 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] characters by 2 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 3 and raises Boost Level of [Land of Wano Arc] [Paramythia-type] characters by 2 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 148,
+            spd: 141,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "60% chance to evade Action Bind",
+        festAbility: [
+            "Cerebral/Free Spirit class teammates HP Up Lv.1, ATK Up Lv.1, SPD Up Lv.1; [Straw Hat Pirates] [Land of Wano Arc] teammates DEF Up Lv.1",
+            "Cerebral/Free Spirit class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; [Straw Hat Pirates] [Land of Wano Arc] teammates DEF Up Lv.1",
+            "Cerebral/Free Spirit class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; [Straw Hat Pirates] [Land of Wano Arc] teammates DEF Up Lv.2",
+            "Cerebral/Free Spirit class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; [Straw Hat Pirates] [Land of Wano Arc] teammates DEF Up Lv.2",
+            "Cerebral/Free Spirit class teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; [Straw Hat Pirates] [Land of Wano Arc] teammates DEF Up Lv.3"
+        ],
+        festSpecial: [
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 42% chance of Paralysis (6 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.1 (11 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 21% chance to evade damage ignoring DEF (6 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 44% chance of Paralysis (7 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.1 (12 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 22% chance to evade damage ignoring DEF (6 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 46% chance of Paralysis (8 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.2 (13 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 23% chance to evade damage ignoring DEF (7 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 48% chance of Paralysis (9 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.2 (14 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 24% chance to evade damage ignoring DEF (7 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 50% chance of Paralysis (10 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.3 (15 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 25% chance to evade damage ignoring DEF (8 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 52% chance of Paralysis (11 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.3 (16 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 26% chance to evade damage ignoring DEF (8 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 54% chance of Paralysis (12 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.4 (17 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 27% chance to evade damage ignoring DEF (9 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 56% chance of Paralysis (13 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.4 (18 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 28% chance to evade damage ignoring DEF (9 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 58% chance of Paralysis (14 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.5 (19 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 29% chance to evade damage ignoring DEF (10 s)"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 60% chance of Paralysis (15 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.5 (20 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 30% chance to evade damage ignoring DEF (10 s)"
+            }
+        ]
+    },
+    4514: {//5+ Co-Op Orobi
+        captain: "Boosts [DEX], Cerebral, and Free Spirit characters' HP by 1.3x, ATK by 4.5x, boosts their ATK by approximately 5x when they have [DEX][TND][WANO] slots, slightly boosts crew's chance of landing on [DEX][TND] slots, and reduces crew's Special Bind duration by 3 turns",
+        special: "Reduces crew's Despair/Special Bind duration by 6 turns, boosts Cerebral and Free Spirit characters' slot effects by 2.75x for 1 turn, changes all slots (including [BLOCK] slots) to [DEX], changes character's slot to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and if 4 or more [Land of Wano Arc] [Paramythia-type] characters are on the crew, reduces all enemies' damage nullification duration by 2 turns",
+        specialName: "Mil Fleurs Gigantesco Mano of the Geisha",
+        sailor: {
+            base: "Boosts Cerebral and Free Spirit characters' base stats by 50",
+            level1: "Reduces character's Special Bind duration by 6 turns"
+        },
+        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Franky, Brook, Jinbe, Yamato, Shinobu, Otama, Kozuki Momonosuke, Kin'emon, Jaguar D. Saul, Nico Olvia, Clou D. Clover",
+        superSpecial: "Applies \"Territory: Cerebral class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn, applies -15% Cerebral Resistance to all enemies for 1 turn, and changes Cerebral characters to Super Cerebral",
+        support: [
+            {
+                Characters: "Free Spirit class characters with the following Character Tag: [Land of Wano Arc]",
+                description: [
+                    "Adds 3% of character's base ATK to supported character's base ATK",
+                    "Adds 4% of character's base ATK to supported character's base ATK",
+                    "Adds 5% of character's base ATK to supported character's base ATK",
+                    "Adds 7% of character's base ATK to supported character's base ATK",
+                    "Adds 9% of character's base ATK to supported character's base ATK"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 30",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 30",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Acquire Potential 2: Pinch Healing",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 40",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Reduce base Special Cooldown by 1 turn",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 100",
+            "Acquire Sailor Ability 2: Reduces character's Special Bind duration by 6 turns",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 100",
+            "Acquire Potential 3: Super Tandem Boost"
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] characters by 1 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 2 and raises Boost Level of [Land of Wano Arc] [Paramythia-type] characters by 1 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] [Land of Wano Arc] characters by 2 and raises Boost Level of [Paramythia-type] characters by 1 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] characters by 2 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 3 and raises Boost Level of [Land of Wano Arc] [Paramythia-type] characters by 2 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 173,
+            spd: 146,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "80% chance to evade Action Bind, reduce damage taken from [QCK] by 20%",
+        festAbility: [
+            "Cerebral/Free Spirit class teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; [Straw Hat Pirates] [Land of Wano Arc] teammates DEF Up Lv.1; during Assault Rumble, self HP Up Lv.4; [Straw Hat Pirates] [Land of Wano Arc] teammates Special CT Speed Up Lv.1",
+            "Cerebral/Free Spirit class teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; [Straw Hat Pirates] [Land of Wano Arc] teammates DEF Up Lv.2; during Assault Rumble, self HP Up Lv.5; [Straw Hat Pirates] [Land of Wano Arc] teammates Special CT Speed Up Lv.1",
+            "Cerebral/Free Spirit class teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; [Straw Hat Pirates] [Land of Wano Arc] teammates DEF Up Lv.3; during Assault Rumble, self HP Up Lv.6; [Straw Hat Pirates] [Land of Wano Arc] teammates Special CT Speed Up Lv.1",
+            "Cerebral/Free Spirit class teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; [Straw Hat Pirates] [Land of Wano Arc] teammates DEF Up Lv.4; during Assault Rumble, self HP Up Lv.7; [Straw Hat Pirates] [Land of Wano Arc] teammates Special CT Speed Up Lv.1",
+            "Cerebral/Free Spirit class teammates HP Up Lv.6, ATK Up Lv.6, SPD Up Lv.6; [Straw Hat Pirates] [Land of Wano Arc] teammates DEF Up Lv.5; during Assault Rumble, self HP Up Lv.8; [Straw Hat Pirates] [Land of Wano Arc] teammates Special CT Speed Up Lv.2"
+        ],
+        festSpecial: [
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 62% chance of Paralysis (11 s); targets 2 high ATK enemies for 82% chance of Halve ATK (6 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.3 (11 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 32% chance to evade damage ignoring DEF (11 s); during Assault Rumble, targets Free Spirit/Driven class enemies for Special CT 12% delay"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 64% chance of Paralysis (12 s); targets 2 high ATK enemies for 84% chance of Halve ATK (7 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.3 (12 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 34% chance to evade damage ignoring DEF (11 s); during Assault Rumble, targets Free Spirit/Driven class enemies for Special CT 14% delay"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 66% chance of Paralysis (13 s); targets 2 high ATK enemies for 86% chance of Halve ATK (8 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.4 (13 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 36% chance to evade damage ignoring DEF (12 s); during Assault Rumble, targets Free Spirit/Driven class enemies for Special CT 16% delay"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 68% chance of Paralysis (14 s); targets 2 high ATK enemies for 88% chance of Halve ATK (9 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.4 (14 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 38% chance to evade damage ignoring DEF (12 s); during Assault Rumble, targets Free Spirit/Driven class enemies for Special CT 18% delay"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 70% chance of Paralysis (15 s); targets 2 high ATK enemies for 90% chance of Halve ATK (10 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.5 (15 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 40% chance to evade damage ignoring DEF (13 s); during Assault Rumble, targets Free Spirit/Driven class enemies for Special CT 20% delay"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 72% chance of Paralysis (16 s); targets 2 high ATK enemies for 92% chance of Halve ATK (11 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.5 (16 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 42% chance to evade damage ignoring DEF (13 s); during Assault Rumble, targets Free Spirit/Driven class enemies for Special CT 22% delay"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 74% chance of Paralysis (17 s); targets 2 high ATK enemies for 94% chance of Halve ATK (12 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.6 (17 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 44% chance to evade damage ignoring DEF (14 s); during Assault Rumble, targets Free Spirit/Driven class enemies for Special CT 24% delay"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 76% chance of Paralysis (18 s); targets 2 high ATK enemies for 96% chance of Halve ATK (13 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.6 (18 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 46% chance to evade damage ignoring DEF (14 s); during Assault Rumble, targets Free Spirit/Driven class enemies for Special CT 26% delay"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 78% chance of Paralysis (19 s); targets 2 high ATK enemies for 98% chance of Halve ATK (14 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.7 (19 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 48% chance to evade damage ignoring DEF (15 s); during Assault Rumble, targets Free Spirit/Driven class enemies for Special CT 28% delay"
+            },
+            {
+                cooldown: 25,
+                description: "Targets enemies within large range for 80% chance of Paralysis (20 s); targets 2 high ATK enemies for 100% chance of Halve ATK (15 s); if 6 or more Cerebral/Free Spirit class characters are on the team, targets all enemies for ATK Down Lv.7 (20 s); targets [Straw Hat Pirates] [Land of Wano Arc] teammates for 50% chance to evade damage ignoring DEF (15 s); during Assault Rumble, targets Free Spirit/Driven class enemies for Special CT 30% delay"
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
