@@ -17,58 +17,58 @@ class UserService {
 
   constructor() {
     const unitDetails: TempUnit[] = [];
-    for (let i = 0; i < window.units.length; i++){
-      if (window.units[i].incomplete) {
+    for (var id of Object.keys(window.units)) {
+      if (window.units[id].incomplete) {
           continue;
       }
 
       let vsUnit = false;
-      const id = i + 1;
-      const rarity = window.units[i][3];
+      let idNum = Number(id);
+      const rarity = window.units[id]['stars'];
       const unitDetail: TempUnit = {
-        id,
+        id: idNum,
         complete: true,
         isBaseForm: window.evolutions[id] && rarity !== 6,
-        name: window.units[i][0],
-        baseHp: window.units[i][12],
-        baseAtk: window.units[i][13],
-        baseRcv: window.units[i][14],
-        type: Array.isArray(window.units[i][1]) ? 'DUAL' : window.units[i][1],
-        aliases: this.getUnitAliases(id),
+        name: window.units[id]['name'],
+        baseHp: window.units[id]['maxHP'],
+        baseAtk: window.units[id]['maxATK'],
+        baseRcv: window.units[id]['maxRCV'],
+        type: Array.isArray(window.units[id]['name']) ? 'DUAL' : window.units[id]['name'],
+        aliases: this.getUnitAliases(idNum),
         gpStyle: 'none',
       };
 
       // VS units will be handled later
-      if (Array.isArray(window.units[i][2])) {
-        if (Array.isArray(window.units[i][2][0])) {
-          if (window.units[i][2].length === 2) { // VS unit
-            unitDetail.class1 = window.units[i][2][0][0];
-            unitDetail.class2 = window.units[i][2][0][1];
+      if (Array.isArray(window.units[id]['class'])) {
+        if (Array.isArray(window.units[id]['class'][0])) {
+          if (window.units[id]['class'].length === 2) { // VS unit
+            unitDetail.class1 = window.units[id]['class'][0][0];
+            unitDetail.class2 = window.units[id]['class'][0][1];
             vsUnit = true;
           } else { // dual unit, length == 3
-            unitDetail.class1 = window.units[i][2][2][0];
-            unitDetail.class2 = window.units[i][2][2][1];
+            unitDetail.class1 = window.units[id]['class'][2][0];
+            unitDetail.class2 = window.units[id]['class'][2][1];
           }
         } else { // Double class Unit
-          unitDetail.class1 = window.units[i][2][0];
-          unitDetail.class2 = window.units[i][2][1];
+          unitDetail.class1 = window.units[id]['class'][0];
+          unitDetail.class2 = window.units[id]['class'][1];
         }
       } else { // Single class unit
-        unitDetail.class1 = window.units[i][2];
+        unitDetail.class1 = window.units[id]['class'];
       }
 
       if (vsUnit) {
         unitDetail.id += 0.1;
         const unitDetailNameBase = unitDetail.name;
         unitDetail.name += ' (Character 1)';
-        unitDetail.type = window.units[i][1][0];
+        unitDetail.type = window.units[id]['type'][0];
         unitDetails.push(unitDetail);
         const secondUnit = Object.assign({}, unitDetail);
         secondUnit.id += 0.1;
         secondUnit.name = unitDetailNameBase + ' (Character 2)';
-        secondUnit.type = window.units[i][1][1];
-        secondUnit.class1 = window.units[i][2][1][0];
-        secondUnit.class2 = window.units[i][2][1][1];
+        secondUnit.type = window.units[id]['type'][1];
+        secondUnit.class1 = window.units[id]['class'][1][0];
+        secondUnit.class2 = window.units[id]['class'][1][1];
         unitDetails.push(secondUnit);
       } else {
         unitDetails.push(unitDetail);
@@ -152,7 +152,7 @@ class UserService {
       }
       unitDetail.lvl10Cooldown = unit.special[9].cooldown;
       //unitDetail.thumbnailUrl = window.Utils.getThumbnailUrl(Math.floor(unit.id)).replace('..', 'https://2shankz.github.io/optc-db.github.io/');
-      unitDetail.thumbnailUrl = 'https://2shankz.github.io/optc-db.github.io/' + window.Utils.getThumbnailUrl(Math.floor(unit.id));
+      unitDetail.thumbnailUrl = 'https://2shankz.github.io/optc-db.github.io/' + window.Utils.getThumbnailUrl(Math.floor(unit.id).toString()).glo;
 
       // merge of all props between unit and unitDetail
       this.rumbleUnits.push({
