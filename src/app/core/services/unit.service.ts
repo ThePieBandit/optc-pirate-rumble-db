@@ -33,7 +33,7 @@ class UserService {
         baseHp: window.units[id]['maxHP'],
         baseAtk: window.units[id]['maxATK'],
         baseRcv: window.units[id]['maxRCV'],
-        type: Array.isArray(window.units[id]['name']) ? 'DUAL' : window.units[id]['name'],
+        type: Array.isArray(window.units[id]['type']) ? 'DUAL' : window.units[id]['type'],
         aliases: this.getUnitAliases(idNum),
         gpStyle: 'none',
       };
@@ -152,7 +152,7 @@ class UserService {
       }
       unitDetail.lvl10Cooldown = unit.special[9].cooldown;
       //unitDetail.thumbnailUrl = window.Utils.getThumbnailUrl(Math.floor(unit.id)).replace('..', 'https://2shankz.github.io/optc-db.github.io/');
-      unitDetail.thumbnailUrl = 'https://2shankz.github.io/optc-db.github.io/' + window.Utils.getThumbnailUrl(Math.floor(unit.id).toString()).glo;
+      unitDetail.thumbnailUrl = 'https://2shankz.github.io/optc-db.github.io/' + window.Utils.getThumbnailUrl(Math.floor(unit.id).toString()).glo ;
 
       // merge of all props between unit and unitDetail
       this.rumbleUnits.push({
