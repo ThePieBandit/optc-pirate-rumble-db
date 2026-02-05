@@ -180027,6 +180027,86 @@ window.details = {
             }
         ]
     },
+    4511: {//5+ PKA Reiju
+        captain: "Boosts [QCK], Cerebral, and Fighter characters' ATK by 3.5x, HP by 1.2x, boosts crew's damage dealt to enemies with any type of Poison by 1.2x, and allows crew's poison applying effects to ignore immunity to status effects",
+        special: "Removes all Poison effects on the crew, and boosts the type effects of normal attacks for [QCK], Cerebral, and Fighter characters by 2.5x for 1 turn. If enemy has any type of Poison when Special is launched, applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, [QCK], Cerebral, and Fighter characters will deal 1.5x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects)). If 3 or more [Germa 66] [Royalty] characters are on the crew, completely removes all enemies' Poison, Venom, and progressive Poison, applies Reiju Poison to all enemies (reduces 20% HP at end of enemy's turn, and heals crew for 20% of crew's maximum HP. Reiju Poison also applies for damage boosts against enemies affected by Poison), reduces crew's decrease chain multiplier growth duration by 6 turns, and applies \"Territory: [QCK]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        specialName: "Little Brother's Irreplaceable Friends",
+        sailor: {
+            base: "Boosts Cerebral and Fighter characters' base stats by 50",
+            level1: "Lets character completely evade Paralysis"
+        },
+        support: [
+            {
+                Characters: "Cerebral class characters with the following Character Tag: [Germa 66], [Royalty]",
+                description: [
+                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.1x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.2x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.3x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.4x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.5x for 1 turn at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: [STR] Damage Reduction",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 70",
+            "Reduce base Special Cooldown by 1 turn",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 200",
+            "Boosts base ATK by 100",
+            "Boosts base RCV by 20",
+            "Boosts base RCV by 20",
+            "Acquire Potential 3: Damage Limit Break: Type",
+            "Boosts base HP by 300",
+            "Boosts base ATK by 100",
+            "Acquire Sailor Ability 2: Lets character completely evade Paralysis"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "[STR] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [STR] characters by 2%",
+                    "Reduces damage taken from [STR] characters by 3%",
+                    "Reduces damage taken from [STR] characters by 4%",
+                    "Reduces damage taken from [STR] characters by 5%",
+                    "Reduces damage taken from [STR] characters by 7%"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ]
+    },
     4512: {//Kujaku
         captain: "Boosts ATK of [PSY], Slasher and Fighter characters by 4.5x, by 5.625x instead if they have a beneficial orb, boosts HP of [PSY], Slasher and Fighter characters by 1.3x, boosts chances of getting matching orbs, and makes [PSY], [RCV] and [TND] orbs beneficial for [PSY], Slasher and Fighter characters. If your crew has 3+ [Paramythia-type], [Navy] or [SWORD] characters, increases duration of any ATK Up and Orb Amplification buffs applied by specials by 1 turn.",
         special: "Changes [BLOCK], [BOMB] and [SUPERBOMB] orbs into [EMPTY] orbs, deals 50x-500x character's ATK in [PSY] damage to one enemy depending on number of [BLOCK], [BOMB] and [SUPERBOMB] slots emptied, changes all orbs into matching orbs, and increases Orb Effects of beneficial [STR], [DEX], [QCK], [PSY] and [INT] orbs to 3.5x for 1 turn. If your crew has 3+ [Paramythia-type], [Navy] or [SWORD] characters, reduces enemies' Barrier duration by 2 turns, reduces Paralysis duration by 3 turns, removes Poison duration completely, adds 1.6x to chain multiplier for 1 turn, and ignores Debuff Protection and paralyzes (60%) all enemies for 1 turn; paralyzes (60%) all enemies for 1 turn otherwise.",
@@ -180315,6 +180395,223 @@ window.details = {
                 "Raises Boost Level of [Mythical Zoan-type] characters by 3 for 1 turn, and raises Boost Level of [Land of Wano Arc] and [Paramythia-type] characters by 2 for 1 turn."
             ]
         }
+    },
+    4515: {//Rebecca
+        captain: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts crew's HP and RCV by 1.3x, ATK by 5.5x when slots match (5x otherwise), makes crew's [QCK][RCV][TND] slots have matching slot effects, and completely removes character's Special Reverse [Applies following effect based on number of applicable Character Tags on crew] Boosts [Dressrosa Kingdom] [Royalty] characters' ATK by a further 1.1x. If 3 or more [Dressrosa Kingdom] [Royalty] characters are on the crew and crew uses a Special to boost ATK or slot effects, extends the duration of that effect by 1 turn",
+        special: "[If 3 or more [Dressrosa Kingdom] [Royalty] characters are on the crew when Special is launched, allows this Special's base ATK and ATK boosts to apply to all characters and adds +0.5 to the ATK boost at launch] If character is a Captain/Friend Captain/Helper Captain, reduces bottom-right character's Special charge time by 5 turns. If character is a crewmate, reduces top-right character's Special charge time by 5 turns (Special charge time reduction effect of \"Bond of Father and Daughter\" can be activated up to 1 time including any Specials with similar effect), reduces the duration of all enemy barriers by 3 turns, and reduces damage taken by 95% for 1 turn. If 3 or more [Dressrosa Kingdom] [Royalty] characters are on the crew, reduces all enemies' Intimidation duration by 2 turns, then after that, if crew has ATK Up status when Special is launched, boosts Free Spirit and Fighter characters' base ATK by +1750 for 2 turns, then after that, boosts Free Spirit and Fighter characters' ATK by 2.75x for 2 turns",
+        specialName: "Bond of Father and Daughter",
+        sailor: {
+            base: "Boosts [QCK], Free Spirit, and Fighter characters' base ATK and RCV by 100",
+            level1: "Reduces character's Special Reverse by 10 turns"
+        },
+        superSpecialCriteria: "When any 3 [Dressrosa Kingdom] [Royalty] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
+        superSpecial: "Heals crew by 10,000 HP, changes all slots to character's own type, further increases crew's ATK, slot effect, and chain multiplier additive boosts (except multiplicative boosts) by +0.4, and changes [QCK] characters to Super [QCK]",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Dressrosa Kingdom], [Royalty]",
+                description: [
+                    "Reduces supported character's Special charge time by 1 turn and reduces damage taken by 20% for 1 turn at start of final battle",
+                    "Reduces supported character's Special charge time by 1 turn and reduces damage taken by 25% for 1 turn at start of final battle",
+                    "Reduces supported character's Special charge time by 1 turn and reduces damage taken by 30% for 1 turn at start of final battle",
+                    "Reduces supported character's Special charge time by 2 turns and reduces damage taken by 35% for 1 turn at start of final battle",
+                    "Reduces supported character's Special charge time by 2 turns and reduces damage taken by 40% for 1 turn at start of final battle"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 40",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 50",
+            "Acquire Potential 2: [STR] Damage Reduction",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 40",
+            "Acquire Sailor Ability 2: Reduces character's Special Reverse by 10 turns",
+            "Boosts base HP by 70",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 70",
+            "Boosts base RCV by 30",
+            "Acquire Potential 3: No Healing",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 100",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 150"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 99% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "[STR] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [STR] characters by 2%",
+                    "Reduces damage taken from [STR] characters by 3%",
+                    "Reduces damage taken from [STR] characters by 4%",
+                    "Reduces damage taken from [STR] characters by 5%",
+                    "Reduces damage taken from [STR] characters by 7%"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 5 turns",
+                    "Reduces No Healing duration by 10 turns"
+                ]
+            }
+        ]
+    },
+    4516: {//Viola
+        captain: "Boosts [QCK], Free Spirit, and Slasher characters' ATK by 4x, HP by 1.2x, and makes crew's [QCK] slots have matching slot effects",
+        special: "Displays all enemies' status, and reduces the duration of Remove SFX by 6 turns. If crew has advantageous class effect boost when Special is launched, boosts the type effects of normal attacks for [QCK] characters by 2.5x for 2 turns (boosts Free Spirit and Slasher characters' advantageous class effect by 1.5x for 2 turns otherwise), then after that, further increases crew's lock chain multiplier effect by +0.25. If 3 or more [Dressrosa Kingdom] [Royalty] characters are on the crew, boosts [QCK] characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 1 turn, and reduces all enemies' damage reduction (except Threshold Damage Reduction) effect by 80% (the effect increase/decrease only occurs 1 time). If 3 or more [Dressrosa Kingdom] [Royalty] characters are on the crew and amount of HP beyond crew's maximum HP healed before Special is launched is 20,000 or more, extends the duration of crew's advantageous class effect boost and type effect boost by 1 turn (this effect also applies to advantageous class effect boost and type effect boost from this Special)",
+        specialName: "Kick of Resolution",
+        sailor: {
+            base: "Boosts Free Spirit characters' base ATK by 1.1x when Captain is a Free Spirit class",
+            level1: "Boosts damage from normal attacks dealt by character to [STR] enemies by 1.1x"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Dressrosa Kingdom], [Royalty]",
+                description: [
+                    "Once per quest, if inflicted with Remove SFX status from the enemy, reduces the duration of crew's Remove SFX by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Remove SFX status from the enemy, reduces the duration of crew's Remove SFX by 2 turns at start of crew's next turn",
+                    "Once per quest, if inflicted with Remove SFX status from the enemy, reduces the duration of crew's Remove SFX by 2 turns and boosts the type effects of normal attacks for Free Spirit characters by 1.1x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Remove SFX status from the enemy, reduces the duration of crew's Remove SFX by 2 turns and boosts the type effects of normal attacks for Free Spirit characters by 1.2x for 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Remove SFX status from the enemy, reduces the duration of crew's Remove SFX by 3 turns and boosts the type effects of normal attacks for Free Spirit characters by 1.3x for 1 turn at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: [STR] Damage Reduction",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Acquire Sailor Ability 2: Boosts damage from normal attacks dealt by character to [STR] enemies by 1.1x",
+            "Boosts base ATK by 50",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Critical Hit"
+        ],
+        potential: [
+            {
+                Name: "[STR] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [STR] characters by 2%",
+                    "Reduces damage taken from [STR] characters by 3%",
+                    "Reduces damage taken from [STR] characters by 4%",
+                    "Reduces damage taken from [STR] characters by 5%",
+                    "Reduces damage taken from [STR] characters by 7%"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 20% chance to deal 2% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ]
+    },
+    4517: {//Mansherry
+        captain: "Boosts [QCK], Free Spirit, and Cerebral characters' ATK by 3.5x, HP and RCV by 1.3x, and makes crew's [QCK][RCV] slots have matching slot effects",
+        special: "Heals crew by 20x character's RCV, reduces crew's Burn/Pain duration by 6 turns, and sets the chain multiplier's minimum value at 2.5 and maximum value at 20.0 for 3 turns. If 3 or more [Tontatta Kingdom] [Tontatta] [Royalty] characters are on the crew, after 1 turn, launches the following effect: \"Delays all enemies for 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), and applies Weakened status (increase damage taken by 1.25x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken) on all enemies (ignoring immunity to all status effects) for 1 turn\" (delays all enemies for 1 turn otherwise)",
+        specialName: "Well-Deserved Dande-Donors",
+        sailor: {
+            base: "Boosts Free Spirit and Cerebral characters' base RCV by 100",
+            level1: "Adds an additional 500 HP when obtaining a [RCV] slot"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Tontatta Kingdom], [Royalty], [Tontatta]",
+                description: [
+                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 1 turn and heals crew by 500 HP at start of crew's next turn",
+                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 1 turn and heals crew by 1,000 HP at start of crew's next turn",
+                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 1 turn and heals crew by 1,500 HP at start of crew's next turn",
+                    "Once per quest, if inflicted with Burn or Pain status from the enemy, reduces crew's Burn/Pain duration by 1 turn and heals crew by 2,000 HP at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 30",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 30",
+            "Acquire Potential 1: No Healing",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 50",
+            "Acquire Sailor Ability 2: Adds an additional 500 HP when obtaining a [RCV] slot",
+            "Boosts base RCV by 20",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Nutrition/Hunger"
+        ],
+        potential: [
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Nutrition/Hunger",
+                description: [
+                    "Boosts base ATK by 100 the turn after recovering 3000, HP and reduces Hunger stack by 1 stack",
+                    "Boosts base ATK by 150 the turn after recovering 3000, HP and reduces Hunger stack by 1 stack",
+                    "Boosts base ATK by 200 the turn after recovering 3000, HP and reduces Hunger stack by 2 stacks",
+                    "Boosts base ATK by 250 the turn after recovering 3000, HP and reduces Hunger stack by 2 stacks",
+                    "Boosts base ATK by 300 the turn after recovering 3000, HP and reduces Hunger stack by 2 stacks"
+                ]
+            }
+        ]
     },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
