@@ -180028,22 +180028,23 @@ window.details = {
         ]
     },
     4511: {//5+ PKA Reiju
-        captain: "Boosts [QCK], Cerebral, and Fighter characters' ATK by 3.5x, HP by 1.2x, boosts crew's damage dealt to enemies with any type of Poison by 1.2x, and allows crew's poison applying effects to ignore immunity to status effects",
-        special: "Removes all Poison effects on the crew, and boosts the type effects of normal attacks for [QCK], Cerebral, and Fighter characters by 2.5x for 1 turn. If enemy has any type of Poison when Special is launched, applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, [QCK], Cerebral, and Fighter characters will deal 1.5x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects)). If 3 or more [Germa 66] [Royalty] characters are on the crew, completely removes all enemies' Poison, Venom, and progressive Poison, applies Reiju Poison to all enemies (reduces 20% HP at end of enemy's turn, and heals crew for 20% of crew's maximum HP. Reiju Poison also applies for damage boosts against enemies affected by Poison), reduces crew's decrease chain multiplier growth duration by 6 turns, and applies \"Territory: [QCK]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        captain: "Boosts ATK of [QCK], Cerebral and Fighter characters by 3.5x, boosts ATK against poisoned enemies by 1.2x, boosts HP of [QCK], Cerebral and Fighter characters by 1.2x, and allows effects that inflict Poison to ignore Debuff Protection.",
+        special: "Removes Poison duration completely, and boosts Color Affinity of [QCK], Cerebral and Fighter characters by 2.5x for 1 turn. If enemies are inflicted with any Poison when the special is activated, inflicts all enemies with Set Target, increasing damage taken from [QCK], Cerebral and Fighter characters by 1.5x and reducing Special Cooldown of [QCK], Cerebral and Fighter characters by 2 turns when they defeat an enemy, for 1 turn. If your crew has 3+ [Germa 66] or [Royalty] characters, removes enemies' Poison duration completely, inflicts all enemies with Reiju Poison, reduces Chain Coefficient Reduction duration by 6 turns, and applies Territory: [QCK] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn.",
+        specialNotes: "Reiju Poison deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn. Reiju Poison is derivative of Normal Poison, so it fulfills Poison Status ATK Boosts and is affected by Poison Debuff Immunity.",
         specialName: "Little Brother's Irreplaceable Friends",
         sailor: {
-            base: "Boosts Cerebral and Fighter characters' base stats by 50",
-            level1: "Lets character completely evade Paralysis"
+            base: "Boosts base ATK, HP and RCV of Cerebral and Fighter characters by 50.",
+            level1: "Reduces Paralysis duration completely on this character."
         },
         support: [
             {
-                Characters: "Cerebral class characters with the following Character Tag: [Germa 66], [Royalty]",
+                Characters: "Cerebral [Germa 66], [Royalty] characters",
                 description: [
-                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.1x for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.2x for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.3x for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.4x for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Poison or progressive Poison from the enemy, boosts the type effects of normal attacks for [QCK] and Cerebral characters by 1.5x for 1 turn at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Poison or Toxic, boosts Color Affinity of [QCK] and Cerebral characters by 1.1x for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Poison or Toxic, boosts Color Affinity of [QCK] and Cerebral characters by 1.2x for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Poison or Toxic, boosts Color Affinity of [QCK] and Cerebral characters by 1.3x for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Poison or Toxic, boosts Color Affinity of [QCK] and Cerebral characters by 1.4x for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Poison or Toxic, boosts Color Affinity of [QCK] and Cerebral characters by 1.5x for 1 turn."
                 ]
             }
         ],
@@ -180397,24 +180398,25 @@ window.details = {
         }
     },
     4515: {//Rebecca
-        captain: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts crew's HP and RCV by 1.3x, ATK by 5.5x when slots match (5x otherwise), makes crew's [QCK][RCV][TND] slots have matching slot effects, and completely removes character's Special Reverse [Applies following effect based on number of applicable Character Tags on crew] Boosts [Dressrosa Kingdom] [Royalty] characters' ATK by a further 1.1x. If 3 or more [Dressrosa Kingdom] [Royalty] characters are on the crew and crew uses a Special to boost ATK or slot effects, extends the duration of that effect by 1 turn",
-        special: "[If 3 or more [Dressrosa Kingdom] [Royalty] characters are on the crew when Special is launched, allows this Special's base ATK and ATK boosts to apply to all characters and adds +0.5 to the ATK boost at launch] If character is a Captain/Friend Captain/Helper Captain, reduces bottom-right character's Special charge time by 5 turns. If character is a crewmate, reduces top-right character's Special charge time by 5 turns (Special charge time reduction effect of \"Bond of Father and Daughter\" can be activated up to 1 time including any Specials with similar effect), reduces the duration of all enemy barriers by 3 turns, and reduces damage taken by 95% for 1 turn. If 3 or more [Dressrosa Kingdom] [Royalty] characters are on the crew, reduces all enemies' Intimidation duration by 2 turns, then after that, if crew has ATK Up status when Special is launched, boosts Free Spirit and Fighter characters' base ATK by +1750 for 2 turns, then after that, boosts Free Spirit and Fighter characters' ATK by 2.75x for 2 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 2 turns, and reduces Switch Effect of all characters by 2. Boosts ATK of [Dressrosa Kingdom] and [Royalty] characters by 1.1x, boosts ATK of all characters by 5x, by 5.5x instead if they have a beneficial orb, boosts HP and RCV of all characters by 1.3x, makes [QCK], [RCV] and [TND] orbs beneficial for all characters, and restores Special Cooldown of this character completely when it is rewinded. If your crew has 3+ [Dressrosa Kingdom] or [Royalty] characters, increases duration of any ATK Up and Orb Amplification buffs applied by specials by 1 turn.",
+        special: "Reduces enemies' Barrier duration by 3 turns, and reduces damage received by 95% for 1 turn. If this character is your Captain or Friend Captain, reduces Special Cooldown of bottom right character by 5 turns; reduces Special Cooldown of top right character by 5 turns otherwise. If your crew has ATK Up when the special is activated, boosts Base ATK of Free Spirit and Fighter characters by 1,750 for 2 turns; if your crew also has 3+ [Dressrosa Kingdom] or [Royalty] characters, boosts Base ATK of all characters by 1,750 for 2 turns instead. If your crew has 3+ [Dressrosa Kingdom] or [Royalty] characters, reduces enemies' Intimidation duration by 2 turns, and boosts ATK of all characters by 3.25x for 2 turns; boosts ATK of Free Spirit and Fighter characters by 2.75x for 2 turns otherwise.",
+        specialNotes: "The reduce Special Cooldown effect is limited to once per adventure.",
         specialName: "Bond of Father and Daughter",
         sailor: {
-            base: "Boosts [QCK], Free Spirit, and Fighter characters' base ATK and RCV by 100",
-            level1: "Reduces character's Special Reverse by 10 turns"
+            base: "Boosts base ATK and RCV of [QCK], Free Spirit and Fighter characters by 100.",
+            level1: "Restores Special Cooldown of this character by 10 turns when it is rewinded."
         },
-        superSpecialCriteria: "When any 3 [Dressrosa Kingdom] [Royalty] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
-        superSpecial: "Heals crew by 10,000 HP, changes all slots to character's own type, further increases crew's ATK, slot effect, and chain multiplier additive boosts (except multiplicative boosts) by +0.4, and changes [QCK] characters to Super [QCK]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: [Dressrosa Kingdom], [Royalty] characters",
+        superSpecial: "Recovers 10,000 HP, changes all orbs into matching orbs, increases boost effects of ATK Up, Orb Amplification and Chain Addition buffs by +0.4x, and transforms [QCK] characters into Super [QCK] characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Dressrosa Kingdom], [Royalty]",
+                Characters: "[Dressrosa Kingdom], [Royalty] characters",
                 description: [
-                    "Reduces supported character's Special charge time by 1 turn and reduces damage taken by 20% for 1 turn at start of final battle",
-                    "Reduces supported character's Special charge time by 1 turn and reduces damage taken by 25% for 1 turn at start of final battle",
-                    "Reduces supported character's Special charge time by 1 turn and reduces damage taken by 30% for 1 turn at start of final battle",
-                    "Reduces supported character's Special charge time by 2 turns and reduces damage taken by 35% for 1 turn at start of final battle",
-                    "Reduces supported character's Special charge time by 2 turns and reduces damage taken by 40% for 1 turn at start of final battle"
+                    "Once per adventure, when you reach the final stage, reduces Special Cooldown of supported character by 1 turn, and reduces damage received by 20% for 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces Special Cooldown of supported character by 1 turn, and reduces damage received by 25% for 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces Special Cooldown of supported character by 1 turn, and reduces damage received by 30% for 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces Special Cooldown of supported character by 2 turns, and reduces damage received by 35% for 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces Special Cooldown of supported character by 2 turns, and reduces damage received by 40% for 1 turn."
                 ]
             }
         ],
@@ -180494,22 +180496,23 @@ window.details = {
         ]
     },
     4516: {//Viola
-        captain: "Boosts [QCK], Free Spirit, and Slasher characters' ATK by 4x, HP by 1.2x, and makes crew's [QCK] slots have matching slot effects",
-        special: "Displays all enemies' status, and reduces the duration of Remove SFX by 6 turns. If crew has advantageous class effect boost when Special is launched, boosts the type effects of normal attacks for [QCK] characters by 2.5x for 2 turns (boosts Free Spirit and Slasher characters' advantageous class effect by 1.5x for 2 turns otherwise), then after that, further increases crew's lock chain multiplier effect by +0.25. If 3 or more [Dressrosa Kingdom] [Royalty] characters are on the crew, boosts [QCK] characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 1 turn, and reduces all enemies' damage reduction (except Threshold Damage Reduction) effect by 80% (the effect increase/decrease only occurs 1 time). If 3 or more [Dressrosa Kingdom] [Royalty] characters are on the crew and amount of HP beyond crew's maximum HP healed before Special is launched is 20,000 or more, extends the duration of crew's advantageous class effect boost and type effect boost by 1 turn (this effect also applies to advantageous class effect boost and type effect boost from this Special)",
+        captain: "Boosts ATK of [QCK], Free Spirit and Slasher characters by 4x, boosts HP of [QCK], Free Spirit and Slasher characters by 1.2x, and makes [QCK] orbs beneficial for all characters.",
+        special: "Displays the status of all enemies, reduces Blindness duration by 6 turns, and increases boost effects of Chain Lock buffs by +0.25x. If your crew has Advantageous Class Effect when the special is activated, boosts Color Affinity of [QCK] characters by 2.5x for 2 turns; boosts Advantageous Class Effect of Free Spirit and Slasher characters by 1.5x for 2 turns otherwise. If your crew has 3+ [Dressrosa Kingdom] or [Royalty] characters, increases Chain Tap Timing Bonus of [QCK] characters to +0.2x-0.6x for 1 turn depending on Tap Timing, and reduces enemies' Percent Damage Reduction effect by 80%; additionally, if there is more than 20,000 excess healing done when the special is activated, increases duration of any Advantageous Class Effect and Color Affinity buffs by 1 turn, including effects activated in the same ability.",
+        specialNotes: "<b>GOOD:</b> +0.2, <b>GREAT:</b> +0.4, <b>PERFECT:</b> +0.6",
         specialName: "Kick of Resolution",
         sailor: {
-            base: "Boosts Free Spirit characters' base ATK by 1.1x when Captain is a Free Spirit class",
-            level1: "Boosts damage from normal attacks dealt by character to [STR] enemies by 1.1x"
+            base: "If your Captain is a Free Spirit character, boosts base ATK of Free Spirit characters by 1.1x.",
+            level1: "Boosts this character's damage against [STR] characters by 1.1x."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Dressrosa Kingdom], [Royalty]",
+                Characters: "[Dressrosa Kingdom], [Royalty] characters",
                 description: [
-                    "Once per quest, if inflicted with Remove SFX status from the enemy, reduces the duration of crew's Remove SFX by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Remove SFX status from the enemy, reduces the duration of crew's Remove SFX by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Remove SFX status from the enemy, reduces the duration of crew's Remove SFX by 2 turns and boosts the type effects of normal attacks for Free Spirit characters by 1.1x for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Remove SFX status from the enemy, reduces the duration of crew's Remove SFX by 2 turns and boosts the type effects of normal attacks for Free Spirit characters by 1.2x for 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Remove SFX status from the enemy, reduces the duration of crew's Remove SFX by 3 turns and boosts the type effects of normal attacks for Free Spirit characters by 1.3x for 1 turn at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Blindness, reduces Blindness duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Blindness, reduces Blindness duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with Blindness, reduces Blindness duration by 2 turns, and boosts Color Affinity of Free Spirit characters by 1.1x for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Blindness, reduces Blindness duration by 2 turns, and boosts Color Affinity of Free Spirit characters by 1.2x for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Blindness, reduces Blindness duration by 3 turns, and boosts Color Affinity of Free Spirit characters by 1.3x for 1 turn."
                 ]
             }
         ],
@@ -180554,22 +180557,22 @@ window.details = {
         ]
     },
     4517: {//Mansherry
-        captain: "Boosts [QCK], Free Spirit, and Cerebral characters' ATK by 3.5x, HP and RCV by 1.3x, and makes crew's [QCK][RCV] slots have matching slot effects",
-        special: "Heals crew by 20x character's RCV, reduces crew's Burn/Pain duration by 6 turns, and sets the chain multiplier's minimum value at 2.5 and maximum value at 20.0 for 3 turns. If 3 or more [Tontatta Kingdom] [Tontatta] [Royalty] characters are on the crew, after 1 turn, launches the following effect: \"Delays all enemies for 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), and applies Weakened status (increase damage taken by 1.25x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken) on all enemies (ignoring immunity to all status effects) for 1 turn\" (delays all enemies for 1 turn otherwise)",
+        captain: "Boosts ATK of [QCK], Free Spirit and Cerebral characters by 3.5x, boosts HP and RCV of [QCK], Free Spirit and Cerebral characters by 1.3x, and makes [QCK] and [RCV] orbs beneficial for all characters.",
+        special: "Recovers 20x character's RCV in HP, reduces Burn and Pain duration by 6 turns, and sets Chain Boundaries to 2.5x and 20.0x for 3 turns. If your crew has 3+ [Tontatta Kingdom], [Tontatta] or [Royalty] characters, launches the following effects after 1 turn: ignores Debuff Protection and delays all enemies by 1 turn, and ignores Debuff Protection and inflicts all enemies with Weaken by 1.25x, by 1.5625x if enemies are inflicted with Increase Damage Taken, for 1 turn; after 1 turn, delays all enemies by 1 turn otherwise.",
         specialName: "Well-Deserved Dande-Donors",
         sailor: {
-            base: "Boosts Free Spirit and Cerebral characters' base RCV by 100",
-            level1: "Adds an additional 500 HP when obtaining a [RCV] slot"
+            base: "Boosts base RCV of Free Spirit and Cerebral characters by 100.",
+            level1: "Boosts amount healed from [RCV] orbs by 500."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Tontatta Kingdom], [Royalty], [Tontatta]",
+                Characters: "[Tontatta Kingdom], [Royalty], [Tontatta] characters",
                 description: [
-                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 1 turn and heals crew by 500 HP at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 1 turn and heals crew by 1,000 HP at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 1 turn and heals crew by 1,500 HP at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn or Pain status from the enemy, reduces crew's Burn/Pain duration by 1 turn and heals crew by 2,000 HP at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn, and recovers 500 HP.",
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn, and recovers 1,000 HP.",
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn, and recovers 1,500 HP.",
+                    "Once per adventure, when an enemy inflicts you with Burn or Pain, reduces Burn and Pain duration by 1 turn, and recovers 2,000 HP."
                 ]
             }
         ],
