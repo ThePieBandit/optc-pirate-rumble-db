@@ -180406,7 +180406,7 @@ window.details = {
             base: "Boosts base ATK and RCV of [QCK], Free Spirit and Fighter characters by 100.",
             level1: "Restores Special Cooldown of this character by 10 turns when it is rewinded."
         },
-        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: [Dressrosa Kingdom], [Royalty] characters",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: [Dressrosa Kingdom], [Royalty] characters",
         superSpecial: "Recovers 10,000 HP, changes all orbs into matching orbs, increases boost effects of ATK Up, Orb Amplification and Chain Addition buffs by +0.4x, and transforms [QCK] characters into Super [QCK] characters.",
         support: [
             {
