@@ -180616,6 +180616,295 @@ window.details = {
             }
         ]
     },
+    4518: {//Shinobu & Otama
+        captain: "Boosts [STR], Free Spirit, and Slasher characters' HP by 1.35x, ATK by 5x, and changes their [DEX] slots into [WANO] slots (boosts ATK by 2.5x; cannot be changed by crew or enemies). When a Free Spirit or Slasher crewmate launches a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 15% (can be launched up to 6 times, 3 times in a single turn; similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect) [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Land of Wano Arc] [Paramythia-type] [Child] characters are on the crew, reduces the duration of crew's decrease chain multiplier growth received from the enemy by 7 turns, and if crew uses a Special to boost type effects or slot effects, extends the duration of the effect by 1 turn",
+        special: "Reduces all enemies' Resilience duration by 6 turns, reduces all enemies' damage reduction from certain slots effect duration by 4 turns, and heals crew by 40x character's RCV (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP). If 4 or more [Land of Wano Arc] [Child] characters are on the crew, allows crew's Color AffinityOrb Boost effects to be further increased up to 2 times, boosts [STR], Free Spirit, and Slasher characters' ATK by 2.75x for the number of turns equal to the number of enemies present when Special is launched (1-6 turns; also allows this effect to be further increased up to 2 times), and reduces the duration of crew's ATK boost and further boosts crew's ATK UpColor AffinityOrb Boost effects based on number of turns of crew's ATK Up effect remaining (5 or more turns, reduces 1 turn and boosts effects by +0.4, after that, 4 or more turns, reduces 1 turn and boosts effects by +0.3, then after that, boosts effects by +0.2; this effect also applies to ATK boost from this Special)",
+        specialName: "Kunoichi Master and Apprentice On the Scene",
+        sailor: {
+            base: "Makes crew's [STR] slots have matching slot effects",
+            level1: "Boosts crew's base RCV by 125"
+        },
+        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Kozuki Oden, Kozuki Hiyori (Komurasaki), Kozuki Momonosuke, Kin'emon, Denjiro (Kyoshiro), Yamato, Portgas D. Ace, Monkey D. Luffy, Nami, Nico Robin",
+        superSpecial: "Removes all Poison effects on the crew, applies \"Territory: [STR]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 1 turn, extends the duration of crew's Color Affinity effect by 1 turn, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 30%<hidden> (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)</hidden>, and changes Free Spirit characters to Super Free Spirit",
+        support: [
+            {
+                Characters: "Free Spirit class characters with the following Character Tag: [Land of Wano Arc]",
+                description: [
+                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 5% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 6% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 7% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 8% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 10% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Acquire Potential 1: Damage Limit Break: Type",
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 20",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 20",
+            "Boosts base ATK by 20",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 20",
+            "Acquire Potential 2: Critical Hit",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 40",
+            "Boosts base RCV by 20",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 60",
+            "Acquire Sailor Ability 2: Boosts crew's base RCV by 125",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 50",
+            "Boosts base ATK by 60",
+            "Boosts base HP by 60",
+            "Acquire Potential 3: Barrier Penetration",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 150",
+            "Boosts base HP by 150",
+            "Boosts base RCV by 25",
+            "Boosts base ATK by 50",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 25",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 100"
+        ],
+        potential: [
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [STR] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "This character's normal attack will ignore barriers"
+                ]
+            }
+        ]
+    },
+    4519: {//Yamato
+        captain: "Boosts Free Spirit and Striker characters' ATK by 4.5x, HP by 1.2x, and makes their [STR] slots have matching slot effects",
+        special: "Deals 200x character's ATK in [STR] damage to one enemy, boosts the type effects of normal attacks for [STR], Free Spirit, and Striker characters by 2.25x for 1 turn, boosts the chain multiplier by +1.4 for 1 turn, massively reduces a portion of each enemy's dealt damage that exceeds 1,000 for 1 turn, and reduces all enemies' Threshold Damage Reduction duration by 6 turns. If enemy has DEF Up status when Special is launched, reduces all enemies' DEF Up duration by 6 turns (sets all enemies' DEF to 0 for 1 turn otherwise). If 4 or more [Land of Wano Arc] [Paramythia-type] [Mythical Zoan-type] characters are on the crew, applies -30% Free Spirit Resistance to all enemies for 1 turn",
+        specialName: "First-Ever Festival",
+        sailor: {
+            base: "Makes crew's [STR] slots have matching slot effects",
+            level1: "Boosts crew's base ATK by 100"
+        },
+        support: [
+            {
+                Characters: "Free Spirit class characters with the following Character Tag: [Land of Wano Arc], [Mythical Zoan-type]",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 2 turns"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 20",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 70",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Boosts crew's base ATK by 100",
+            "Boosts base HP by 70",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Super Tandem Boost"
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
+                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Mythical Zoan-type] characters by 1 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 2 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 2 and raises Boost Level of [Land of Wano Arc] [Paramythia-type] characters by 1 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 3 and raises Boost Level of [Land of Wano Arc] [Paramythia-type] characters by 1 for 1 turn",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 4 and raises Boost Level of [Land of Wano Arc] [Paramythia-type] characters by 2 for 1 turn"
+            ]
+        }
+    },
+    4520: {//6+ Ulti & Page One
+        captain: {
+            character1: "Boosts Driven and Powerhouse character's ATK by approximately 4.75x when slots match (4.25x otherwise) and makes crew's [RCV][TND] slots have matching slot effects. If there are Marked enemies, reduces damage taken by 30% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 6 turns",
+            character2: "Boosts Driven and Powerhouse character's ATK by 4.5x and makes crew's [RCV][TND] slots have matching slot effects. If there are Marked enemies, reduces damage taken by 20% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 6 turns",
+            combined: "Boosts Driven and Powerhouse character's ATK by 5.25x when slots match (5x otherwise), makes crew's [DEX][QCK][RCV][TND] slots have matching slot effects, and deals 500x character's ATK in type damage to all enemies at end of turn. If there are Marked enemies, reduces damage taken by 30% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 6 turns"
+        },
+        special: "Deals 300x character's ATK in non-type damage to all enemies (ignoring all defensive effects and DEF), changes crew's slots (including [BLOCK] slots) to character's own type, completely removes crew's Target Lock status, and becomes \"Ulti & Page One\" for 3 turns. If Captain is a Driven or Powerhouse class, applies Marked status on enemy with HP of 10,000,000 or more when Special is launched and boosts damage dealt to Marked enemies by 2.5x for 1 turn (Marked ignores enemies' status effect immunity)",
+        specialName: "Unrelenting Ancient Zoan Rush",
+        sailor: {
+            character1: "Makes Driven and Powerhouse characters' [TND] slots have matching slot effects",
+            character2: "Makes Driven and Powerhouse characters' [RCV] slots have matching slot effects",
+            combined: "Makes Driven and Powerhouse characters' [RCV][TND] slots have matching slot effects",
+            level1: "Boosts Driven and Powerhouse characters' base ATK by 100"
+        },
+        swap: {
+            base: "Completely removes character's Paralysis, changes character's slot to character's own type, and sets the chain multiplier's minimum value at 1.6 and maximum value at 35.0 for 1 turn",
+            super: "Completely removes character's Paralysis, changes character's slot to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and sets the chain multiplier's minimum value at 2.75 and maximum value at 35.0 for 3 turns",
+            superTurns: 6
+        },
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Enrage/Increase Damage Taken",
+            "Boosts base ATK by 5",
+            "Boosts base ATK by 5",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 30",
+            "Boosts base HP by 30",
+            "Acquire Potential 2: No Healing",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 40",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 60",
+            "Boosts base HP by 70",
+            "Acquire Sailor Ability 2: Boosts Driven and Powerhouse characters' base ATK by 100",
+            "Boosts base RCV by 30",
+            "Boosts base RCV by 40",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 100",
+            "Acquire Potential 3: Slot Bind",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base ATK by 50",
+            "Boosts base ATK by 100",
+            "Boosts base RCV by 50",
+            "Boosts base HP by 100",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 200"
+        ],
+        lLimit: [
+            null,
+            {
+                rAbility: true
+            },
+            {
+                captain: {
+                    character1: "Reduces character's Switch Effect by 3 at start of quest, boosts Driven and Powerhouse character's ATK by approximately 5x when slots match (4.25x otherwise) and makes crew's [DEX][QCK][RCV][TND] slots have matching slot effects. If there are Marked enemies, reduces damage taken by 30% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 7 turns",
+                    character2: "Reduces character's Switch Effect by 3 at start of quest, boosts Driven and Powerhouse character's ATK by 4.5x and makes crew's [DEX][QCK][RCV][TND] slots have matching slot effects. If there are Marked enemies, reduces damage taken by 20% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 7 turns, and boosts [Land of Wano Arc] [Ancient Zoan-type] characters' ATK by 1.1x",
+                    combined: "Reduces character's Switch Effect by 3 at start of quest, boosts Driven and Powerhouse character's ATK by 5.25x when slots match (5x otherwise), makes crew's [DEX][QCK][RCV][TND] slots have matching slot effects, and deals 500x character's ATK in type damage to all enemies at end of turn. If there are Marked enemies, reduces damage taken by 30% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 7 turns, and boosts [Land of Wano Arc] [Ancient Zoan-type] characters' ATK by 1.1x"
+                }
+            },
+            {
+                rSpecial: true
+            },
+            {
+                special: {
+                    base: "Deals 300x character's ATK in non-type damage to all enemies (ignoring all defensive effects and DEF), changes crew's slots (including [BLOCK] slots) to character's own type, changes adjacent slots to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), completely removes crew's Target Lock status, and becomes \"Ulti & Page One\" for 3 turns. If Captain is a Driven or Powerhouse class, applies Marked status on enemy with HP of 10,000,000 or more when Special is launched (Marked ignores enemies' status effect immunity). If 3 or more [Animal Kingdom Pirates] [Tobi Roppo] [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, boosts damage dealt to Marked enemies by 3.5x for 1 turn (boosts damage dealt to Marked enemies by 2.5x for 1 turn otherwise)"
+                },
+                rResilience: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 50 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 5 turns",
+                    "Reduces No Healing duration by 7 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character",
+                    "Reduces Slot Bind duration completely on this character"
+                ]
+            }
+        ]
+    },
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
