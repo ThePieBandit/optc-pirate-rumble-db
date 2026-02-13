@@ -102651,7 +102651,7 @@ window.details = {
             character2: "Boosts ATK of Driven and Powerhouse characters by 4.25x and makes [RCV] and [TND] orbs beneficial for all characters. If there is a Marked enemy, reduces damage received by 20%.",
             combined: "Boosts ATK of Driven and Powerhouse characters by 4.75x, by 5x instead if they have a beneficial orb, and makes [DEX], [QCK], [RCV] and [TND] orbs beneficial for all characters and deals 500x character's ATK in character's Type damage to all enemies at the end of each turn. If there is a Marked enemy, reduces damage received by 30%"
         },
-        special: "Deals 300x character's ATK in Typeless damage to all enemies, changes all orbs into Matching orbs, removes Target Lock duration completely and becomes Ulti & Page One for 3 turns. If your Captain is a Powerhouse or Driven character, Marks all enemies with 10,000,000 or more MAX HP, and boosts ATK against Marked enemies by 2.25x for 1 turn.",
+        special: "Deals 300x character's ATK in Typeless damage to all enemies, changes all orbs into Matching orbs, removes Target Lock duration completely and becomes Ulti & Page One for 3 turns. If your Captain is a Powerhouse or Driven character, Marks all enemies with 10,000,000 or more HP, and boosts ATK against Marked enemies by 2.25x for 1 turn.",
         specialNotes: "Mark is not a debuff, so it bypasses Debuff Protection.",
         swap: {
             base: "Reduces Paralysis duration completely on this character, changes the orb of this character into a Matching orb and sets Chain Boundaries to 1.6x and 35.0x for 1 turn.",
@@ -102671,7 +102671,7 @@ window.details = {
             character2: "Boosts ATK of Driven and Powerhouse characters by 4.25x and makes [RCV] and [TND] orbs beneficial for all characters. If there is a Marked enemy, reduces damage received by 20%.",
             combined: "Boosts ATK of Driven and Powerhouse characters by 4.75x, by 5x instead if they have a beneficial orb, and makes [DEX], [QCK], [RCV] and [TND] orbs beneficial for all characters and deals 500x character's ATK in character's Type damage to all enemies at the end of each turn. If there is a Marked enemy, reduces damage received by 30%"
         },
-        special: "Deals 300x character's ATK in Typeless damage to all enemies, changes all orbs into Matching orbs, removes Target Lock duration completely and becomes Ulti & Page One for 3 turns. If your Captain is a Powerhouse or Driven character, Marks all enemies with 10,000,000 or more MAX HP, and boosts ATK against Marked enemies by 2.25x for 1 turn.",
+        special: "Deals 300x character's ATK in Typeless damage to all enemies, changes all orbs into Matching orbs, removes Target Lock duration completely and becomes Ulti & Page One for 3 turns. If your Captain is a Powerhouse or Driven character, Marks all enemies with 10,000,000 or more HP, and boosts ATK against Marked enemies by 2.25x for 1 turn.",
         specialNotes: "Mark is not a debuff, so it bypasses Debuff Protection.",
         swap: {
             base: "Reduces Paralysis duration completely on this character, changes the orb of this character into a Matching orb and sets Chain Boundaries to 1.6x and 35.0x for 1 turn.",
@@ -118401,7 +118401,7 @@ window.details = {
         captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Fighter and Powerhouse characters by 5x, by 5.25x if there is a Marked enemy, boosts HP of Fighter and Powerhouse characters by 1.5x, and reduces Despair duration by 10 turns.",
         special: "Reduces Special Bind and ATK DOWN duration by 7 turns, increases Chain Tap Timing Bonus of Fighter and Powerhouse characters to +0.2x-0.6x for 1 turn depending on Tap Timing and boosts base ATK of Fighter and Powerhouse characters by 1,250 for 1 turn.",
         specialName: "Summer-Time Lull",
-        superSpecial: "Marks all enemies with 10,000,000 or more MAX HP, boosts ATK against Marked enemies by 1.75x for 1 turn, and increases duration of any ATK UP buffs by 1 turn and transforms Powerhouse characters into Super Powerhouse characters.",
+        superSpecial: "Marks all enemies with 10,000,000 or more HP, boosts ATK against Marked enemies by 1.75x for 1 turn, and increases duration of any ATK UP buffs by 1 turn and transforms Powerhouse characters into Super Powerhouse characters.",
         superSpecialNotes: "Mark is not a debuff, so it bypasses Debuff Protection.",
         superSpecialCriteria: "This character must be captain and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Kaido, King, Queen, Jack, Black Maria, Who's-Who, Page One and Sasaki.",
         sailor: {
@@ -180617,24 +180617,25 @@ window.details = {
         ]
     },
     4518: {//Shinobu & Otama
-        captain: "Boosts [STR], Free Spirit, and Slasher characters' HP by 1.35x, ATK by 5x, and changes their [DEX] slots into [WANO] slots (boosts ATK by 2.5x; cannot be changed by crew or enemies). When a Free Spirit or Slasher crewmate launches a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 15% (can be launched up to 6 times, 3 times in a single turn; similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect) [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Land of Wano Arc] [Paramythia-type] [Child] characters are on the crew, reduces the duration of crew's decrease chain multiplier growth received from the enemy by 7 turns, and if crew uses a Special to boost type effects or slot effects, extends the duration of the effect by 1 turn",
-        special: "Reduces all enemies' Resilience duration by 6 turns, reduces all enemies' damage reduction from certain slots effect duration by 4 turns, and heals crew by 40x character's RCV (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP). If 4 or more [Land of Wano Arc] [Child] characters are on the crew, allows crew's Color AffinityOrb Boost effects to be further increased up to 2 times, boosts [STR], Free Spirit, and Slasher characters' ATK by 2.75x for the number of turns equal to the number of enemies present when Special is launched (1-6 turns; also allows this effect to be further increased up to 2 times), and reduces the duration of crew's ATK boost and further boosts crew's ATK UpColor AffinityOrb Boost effects based on number of turns of crew's ATK Up effect remaining (5 or more turns, reduces 1 turn and boosts effects by +0.4, after that, 4 or more turns, reduces 1 turn and boosts effects by +0.3, then after that, boosts effects by +0.2; this effect also applies to ATK boost from this Special)",
+        captain: "Boosts ATK of [STR], Free Spirit and Slasher characters by 5x, boosts HP of [STR], Free Spirit and Slasher characters by 1.35x, and changes [DEX] orbs of [STR], Free Spirit and Slasher characters into [WANO] orbs. Up to 6 times per adventure but up to 3 times per turn, when a Free Spirit or Slasher crewmate uses a special, boosts Final Tap ATK of Free Spirit and Slasher characters by 15%. If your crew has 4+ [Land of Wano Arc], [Paramythia-type] or [Child] characters, reduces Chain Coefficient Reduction duration by 7 turns, and increases duration of any Orb Amplification and Color Affinity buffs applied by specials by 1 turn.",
+        special: "Reduces enemies' Resilience duration by 6 turns, reduces enemies' Orb-Based Damage Reduction duration by 4 turns, and recovers 40x character's RCV in HP, allowing HP Overfill up to 2x MAX HP. If your crew has 4+ [Land of Wano Arc] or [Child] characters, enables Orb Amplification and Color Affinity buffs to be enhanced up to 2 times, and boosts ATK of [STR], Free Spirit and Slasher characters by 2.75x, can be enhanced up to 2 times, for 1-6 turns, depending on the number of enemies on the stage when the special is activated; subsequently, if your crew has 5+ turns of ATK Up, decreases duration of any ATK Up buffs by 1 turn, and increases boost effects of ATK Up, Orb Amplification and Color Affinity buffs by +0.4x; subsequently, if your crew has 4+ turns of ATK Up, decreases duration of any ATK Up buffs by 1 turn, and increases boost effects of ATK Up, Orb Amplification and Color Affinity buffs by +0.3x; subsequently, increases boost effects of ATK Up, Orb Amplification and Color Affinity buffs by +0.2x.",
+        specialNotes: "The decrease ATK Up duration and increase boost effect of ATK Up applies to the ATK Up boost of this special.",
         specialName: "Kunoichi Master and Apprentice On the Scene",
         sailor: {
-            base: "Makes crew's [STR] slots have matching slot effects",
-            level1: "Boosts crew's base RCV by 125"
+            base: "Makes [STR] orbs beneficial for all characters.",
+            level1: "Boosts base RCV of all characters by 125."
         },
-        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Kozuki Oden, Kozuki Hiyori (Komurasaki), Kozuki Momonosuke, Kin'emon, Denjiro (Kyoshiro), Yamato, Portgas D. Ace, Monkey D. Luffy, Nami, Nico Robin",
-        superSpecial: "Removes all Poison effects on the crew, applies \"Territory: [STR]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 1 turn, extends the duration of crew's Color Affinity effect by 1 turn, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 30%<hidden> (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)</hidden>, and changes Free Spirit characters to Super Free Spirit",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: Kozuki Oden, Kozuki Hiyori (Komurasaki), Kozuki Momonosuke, Kin'emon, Denjiro (Kyoshiro), Yamato, Portgas D. Ace, Monkey D. Luffy, Nami, Nico Robin",
+        superSpecial: "Removes Poison duration completely, applies Territory: [STR] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn, increases duration of any Color Affinity buffs by 1 turn, boosts Final Tap ATK of Free Spirit and Slasher characters by 30%, and transforms Free Spirit characters into Super Free Spirit characters.",
         support: [
             {
-                Characters: "Free Spirit class characters with the following Character Tag: [Land of Wano Arc]",
+                Characters: "Free Spirit [Land of Wano Arc] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 5% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
-                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 6% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
-                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 7% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
-                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 8% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
-                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by a Free Spirit or Slasher character by 10% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)"
+                    "Once per adventure, when the supported character uses their special, boosts Final Tap ATK of Free Spirit and Slasher characters by 5%.",
+                    "Once per adventure, when the supported character uses their special, boosts Final Tap ATK of Free Spirit and Slasher characters by 6%.",
+                    "Once per adventure, when the supported character uses their special, boosts Final Tap ATK of Free Spirit and Slasher characters by 7%.",
+                    "Once per adventure, when the supported character uses their special, boosts Final Tap ATK of Free Spirit and Slasher characters by 8%.",
+                    "Once per adventure, when the supported character uses their special, boosts Final Tap ATK of Free Spirit and Slasher characters by 10%."
                 ]
             }
         ],
@@ -180714,22 +180715,22 @@ window.details = {
         ]
     },
     4519: {//Yamato
-        captain: "Boosts Free Spirit and Striker characters' ATK by 4.5x, HP by 1.2x, and makes their [STR] slots have matching slot effects",
-        special: "Deals 200x character's ATK in [STR] damage to one enemy, boosts the type effects of normal attacks for [STR], Free Spirit, and Striker characters by 2.25x for 1 turn, boosts the chain multiplier by +1.4 for 1 turn, massively reduces a portion of each enemy's dealt damage that exceeds 1,000 for 1 turn, and reduces all enemies' Threshold Damage Reduction duration by 6 turns. If enemy has DEF Up status when Special is launched, reduces all enemies' DEF Up duration by 6 turns (sets all enemies' DEF to 0 for 1 turn otherwise). If 4 or more [Land of Wano Arc] [Paramythia-type] [Mythical Zoan-type] characters are on the crew, applies -30% Free Spirit Resistance to all enemies for 1 turn",
+        captain: "Boosts ATK of Free Spirit and Striker characters by 4.5x, boosts HP of Free Spirit and Striker characters by 1.2x, and makes [STR] orbs beneficial for Free Spirit and Striker characters.",
+        special: "Deals 200x character's ATK in [STR] damage to one enemy, boosts Color Affinity of [STR], Free Spirit and Striker characters by 2.25x for 1 turn, adds 1.4x to chain multiplier for 1 turn, reduces any damage received above 1,000 HP by 97% for 1 turn, and reduces enemies' Threshold Damage Reduction duration by 6 turns. If enemies have Increased Defense when the special is activated, reduces enemies' Increased Defense duration by 6 turns; reduces the defense of all enemies by 100% for 1 turn otherwise. If your crew has 4+ [Land of Wano Arc], [Paramythia-type] or [Mythical Zoan-type] characters, reduces enemies' Free Spirit resistance by -30% for 1 turn.",
         specialName: "First-Ever Festival",
         sailor: {
-            base: "Makes crew's [STR] slots have matching slot effects",
-            level1: "Boosts crew's base ATK by 100"
+            base: "Makes [STR] orbs beneficial for all characters.",
+            level1: "Boosts base ATK of all characters by 100."
         },
         support: [
             {
-                Characters: "Free Spirit class characters with the following Character Tag: [Land of Wano Arc], [Mythical Zoan-type]",
+                Characters: "Free Spirit [Land of Wano Arc], [Mythical Zoan-type] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' DEF Up duration by 2 turns"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Increased Defense duration by 2 turns."
                 ]
             }
         ],
@@ -180774,38 +180775,39 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
-                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
-                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
-                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem",
-                "When an [Mythical Zoan-type] [Land of Wano Arc] [Paramythia-type] character performs Super Tandem"
+                "When a [Mythical Zoan-type], [Land of Wano Arc] or [Paramythia-type] character performs Super Tandem",
+                "When a [Mythical Zoan-type], [Land of Wano Arc] or [Paramythia-type] character performs Super Tandem",
+                "When a [Mythical Zoan-type], [Land of Wano Arc] or [Paramythia-type] character performs Super Tandem",
+                "When a [Mythical Zoan-type], [Land of Wano Arc] or [Paramythia-type] character performs Super Tandem",
+                "When a [Mythical Zoan-type], [Land of Wano Arc] or [Paramythia-type] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Mythical Zoan-type] characters by 1 for 1 turn",
-                "Raises Boost Level of [Mythical Zoan-type] characters by 2 for 1 turn",
-                "Raises Boost Level of [Mythical Zoan-type] characters by 2 and raises Boost Level of [Land of Wano Arc] [Paramythia-type] characters by 1 for 1 turn",
-                "Raises Boost Level of [Mythical Zoan-type] characters by 3 and raises Boost Level of [Land of Wano Arc] [Paramythia-type] characters by 1 for 1 turn",
-                "Raises Boost Level of [Mythical Zoan-type] characters by 4 and raises Boost Level of [Land of Wano Arc] [Paramythia-type] characters by 2 for 1 turn"
+                "Raises Boost Level of [Mythical Zoan-type] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 2 for 1 turn, and raises Boost Level of [Land of Wano Arc] and [Paramythia-type] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 3 for 1 turn, and raises Boost Level of [Land of Wano Arc] and [Paramythia-type] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Mythical Zoan-type] characters by 4 for 1 turn, and raises Boost Level of [Land of Wano Arc] and [Paramythia-type] characters by 2 for 1 turn."
             ]
         }
     },
     4520: {//6+ Ulti & Page One
         captain: {
-            character1: "Boosts Driven and Powerhouse character's ATK by approximately 4.75x when slots match (4.25x otherwise) and makes crew's [RCV][TND] slots have matching slot effects. If there are Marked enemies, reduces damage taken by 30% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 6 turns",
-            character2: "Boosts Driven and Powerhouse character's ATK by 4.5x and makes crew's [RCV][TND] slots have matching slot effects. If there are Marked enemies, reduces damage taken by 20% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 6 turns",
-            combined: "Boosts Driven and Powerhouse character's ATK by 5.25x when slots match (5x otherwise), makes crew's [DEX][QCK][RCV][TND] slots have matching slot effects, and deals 500x character's ATK in type damage to all enemies at end of turn. If there are Marked enemies, reduces damage taken by 30% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 6 turns"
+            character1: "Boosts ATK of Driven and Powerhouse characters by 4.25x, by 4.75x instead if they have a beneficial orb, and makes [RCV] and [TND] orbs beneficial for all characters. If there is a Marked enemy, reduces damage received by 30%. If your crew has 3+ [Land of Wano Arc] or [Ancient Zoan-type] characters, reduces Special Bind duration by 6 turns.",
+            character2: "Boosts ATK of Driven and Powerhouse characters by 4.5x, and makes [RCV] and [TND] orbs beneficial for all characters. If there is a Marked enemy, reduces damage received by 20%. If your crew has 3+ [Land of Wano Arc] or [Ancient Zoan-type] characters, reduces Special Bind duration by 6 turns.",
+            combined: "Boosts ATK of Driven and Powerhouse characters by 5x, by 5.25x instead if they have a beneficial orb, makes [DEX], [QCK], [RCV] and [TND] orbs beneficial for all characters, and deals 500x character's ATK in character's type damage to all enemies at the end of each turn. If there is a Marked enemy, reduces damage received by 30%. If your crew has 3+ [Land of Wano Arc] or [Ancient Zoan-type] characters, reduces Special Bind duration by 6 turns."
         },
-        special: "Deals 300x character's ATK in non-type damage to all enemies (ignoring all defensive effects and DEF), changes crew's slots (including [BLOCK] slots) to character's own type, completely removes crew's Target Lock status, and becomes \"Ulti & Page One\" for 3 turns. If Captain is a Driven or Powerhouse class, applies Marked status on enemy with HP of 10,000,000 or more when Special is launched and boosts damage dealt to Marked enemies by 2.5x for 1 turn (Marked ignores enemies' status effect immunity)",
+        special: "Deals 300x character's ATK in Typeless Fixed True damage to all enemies, changes all orbs, including [BLOCK] orbs, into matching orbs, removes Target Lock duration completely, and becomes Ulti & Page One for 3 turns. If your Captain is a Driven or Powerhouse character, marks all enemies with 10,000,000 or more HP when the special is activated, and boosts ATK against Marked enemies by 2.5x for 1 turn.",
+        specialNotes: "Mark bypasses Debuff Protection.",
         specialName: "Unrelenting Ancient Zoan Rush",
         sailor: {
-            character1: "Makes Driven and Powerhouse characters' [TND] slots have matching slot effects",
-            character2: "Makes Driven and Powerhouse characters' [RCV] slots have matching slot effects",
-            combined: "Makes Driven and Powerhouse characters' [RCV][TND] slots have matching slot effects",
-            level1: "Boosts Driven and Powerhouse characters' base ATK by 100"
+            character1: "Makes [TND] orbs beneficial for Driven and Powerhouse characters.",
+            character2: "Makes [RCV] orbs beneficial for Driven and Powerhouse characters.",
+            combined: "Makes [RCV] and [TND] orbs beneficial for Driven and Powerhouse characters.",
+            level1: "Boosts base ATK of Driven and Powerhouse characters by 100."
         },
         swap: {
-            base: "Completely removes character's Paralysis, changes character's slot to character's own type, and sets the chain multiplier's minimum value at 1.6 and maximum value at 35.0 for 1 turn",
-            super: "Completely removes character's Paralysis, changes character's slot to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and sets the chain multiplier's minimum value at 2.75 and maximum value at 35.0 for 3 turns",
+            base: "Removes Paralysis duration completely on this character, changes the orb of this character into a matching orb, and sets Chain Boundaries to 1.6x and 35.0x for 1 turn.",
+            super: "Removes Paralysis duration completely on this character, changes the orb of this character into a [WANO] orb, and sets Chain Boundaries to 2.75x and 35.0x for 3 turns.",
             superTurns: 6
         },
         limit: [
@@ -180857,9 +180859,9 @@ window.details = {
             },
             {
                 captain: {
-                    character1: "Reduces character's Switch Effect by 3 at start of quest, boosts Driven and Powerhouse character's ATK by approximately 5x when slots match (4.25x otherwise) and makes crew's [DEX][QCK][RCV][TND] slots have matching slot effects. If there are Marked enemies, reduces damage taken by 30% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 7 turns",
-                    character2: "Reduces character's Switch Effect by 3 at start of quest, boosts Driven and Powerhouse character's ATK by 4.5x and makes crew's [DEX][QCK][RCV][TND] slots have matching slot effects. If there are Marked enemies, reduces damage taken by 20% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 7 turns, and boosts [Land of Wano Arc] [Ancient Zoan-type] characters' ATK by 1.1x",
-                    combined: "Reduces character's Switch Effect by 3 at start of quest, boosts Driven and Powerhouse character's ATK by 5.25x when slots match (5x otherwise), makes crew's [DEX][QCK][RCV][TND] slots have matching slot effects, and deals 500x character's ATK in type damage to all enemies at end of turn. If there are Marked enemies, reduces damage taken by 30% [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, reduces crew's Special Bind duration by 7 turns, and boosts [Land of Wano Arc] [Ancient Zoan-type] characters' ATK by 1.1x"
+                    character1: "Reduces Switch Effect of this character by 3 at the start of the fight, boosts ATK of Driven and Powerhouse characters by 4.25x, by 5x instead if they have a beneficial orb, and makes [DEX], [QCK], [RCV] and [TND] orbs beneficial for all characters. If there is a Marked enemy, reduces damage received by 30%. If your crew has 3+ [Land of Wano Arc] or [Ancient Zoan-type] characters, reduces Special Bind duration by 7 turns.",
+                    character2: "Reduces Switch Effect of this character by 3 at the start of the fight, boosts ATK of Driven and Powerhouse characters by 4.5x, and makes [DEX], [QCK], [RCV] and [TND] orbs beneficial for all characters. If there is a Marked enemy, reduces damage received by 20%. If your crew has 3+ [Land of Wano Arc] or [Ancient Zoan-type] characters, reduces Special Bind duration by 7 turns, and boosts ATK of [Land of Wano Arc] and [Ancient Zoan-type] characters by 1.1x.",
+                    combined: "Reduces Switch Effect of this character by 3 at the start of the fight, boosts ATK of Driven and Powerhouse characters by 5x, by 5.25x instead if they have a beneficial orb, makes [DEX], [QCK], [RCV] and [TND] orbs beneficial for all characters, and deals 500x character's ATK in character's type damage to all enemies at the end of each turn. If there is a Marked enemy, reduces damage received by 30%. If your crew has 3+ [Land of Wano Arc] or [Ancient Zoan-type] characters, reduces Special Bind duration by 7 turns, and boosts ATK of [Land of Wano Arc] and [Ancient Zoan-type] characters by 1.1x."
                 }
             },
             {
@@ -180867,7 +180869,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Deals 300x character's ATK in non-type damage to all enemies (ignoring all defensive effects and DEF), changes crew's slots (including [BLOCK] slots) to character's own type, changes adjacent slots to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), completely removes crew's Target Lock status, and becomes \"Ulti & Page One\" for 3 turns. If Captain is a Driven or Powerhouse class, applies Marked status on enemy with HP of 10,000,000 or more when Special is launched (Marked ignores enemies' status effect immunity). If 3 or more [Animal Kingdom Pirates] [Tobi Roppo] [Land of Wano Arc] [Ancient Zoan-type] characters are on the crew, boosts damage dealt to Marked enemies by 3.5x for 1 turn (boosts damage dealt to Marked enemies by 2.5x for 1 turn otherwise)"
+                    base: "Deals 300x character's ATK in Typeless Fixed True damage to all enemies, changes all orbs, including [BLOCK] orbs, into matching orbs, changes orbs of adjacent characters into [WANO] orbs, removes Target Lock duration completely, and becomes Ulti & Page One for 3 turns. If your Captain is a Driven or Powerhouse character, marks all enemies with 10,000,000 or more HP when the special is activated. If your crew has 3+ [Animal Kingdom Pirates], [Tobi Roppo], [Land of Wano Arc] or [Ancient Zoan-type] characters, boosts ATK against Marked enemies by 3.5x for 1 turn; boosts ATK against Marked enemies by 2.5x for 1 turn otherwise."
                 },
                 rResilience: true
             }
