@@ -416793,7 +416793,7 @@
           "uses": 2,
           "effects": [
             {
-              "attributes": ["Special CT"],
+              "attributes": ["Special CT Delay"],
               "chance": 80,
               "duration": 20,
               "effect": "evade",
