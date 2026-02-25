@@ -180909,23 +180909,23 @@ window.details = {
     },
     4521: {//Garp & Coby
         captain: {
-            character1: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts [QCK], Fighter, and Powerhouse characters' HP by 1.35x, ATK by 4.75x, and boosts other characters' ATK by 3.5x. If a [QCK] or [DEX] crewmate uses a Special, reduces character's Switch Effect use by 1, and adds 5% ATK to crew's next final tap (can be launched up to 7 times, both effects will count towards the total regardless of crew's status; similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect). If the final tap ATK boost effect activates before the final battle, effect accumulates until the final battle. At the start of the final battle, applies a final tap ATK boost based on the accumulated value [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Egghead Arc] [Navy] characters are on the crew and ATK Up or Orb Boost is applied on the crew (does not apply to statuses applied by Captain Ability or Crewmate Ability), further increases crew's ATK UpOrb Boost by 1.1x (up to a maximum 8x, cannot be further increased)",
-            character2: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts [DEX], Fighter, and Powerhouse characters' HP by 1.35x, ATK by 4.75x, and boosts other characters' ATK by 3.5x. If a [QCK] or [DEX] crewmate uses a Special, reduces character's Switch Effect use by 1, and adds 5% ATK to crew's next final tap (can be launched up to 7 times, both effects will count towards the total regardless of crew's status; similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect). If the final tap ATK boost effect activates before the final battle, effect accumulates until the final battle. At the start of the final battle, applies a final tap ATK boost based on the accumulated value [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Egghead Arc] [Navy] characters are on the crew and ATK Up or Orb Boost is applied on the crew (does not apply to statuses applied by Captain Ability or Crewmate Ability), further increases crew's ATK UpOrb Boost by 1.1x (up to a maximum 8x, cannot be further increased)",
-            combined: "Reduces crew's Special charge time by 1 turn and Switch Effect by 1 at start of quest, boosts [QCK], [DEX], Fighter, and Powerhouse characters' HP by 1.35x, ATK by 5.75x, and boosts other characters' ATK by 4x. If a [QCK] or [DEX] crewmate uses a Special, reduces character's Switch Effect use by 1, and adds 5% ATK to crew's next final tap (can be launched up to 7 times, both effects will count towards the total regardless of crew's status; similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect). If the final tap ATK boost effect activates before the final battle, effect accumulates until the final battle. At the start of the final battle, applies a final tap ATK boost based on the accumulated value [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Egghead Arc] [Navy] characters are on the crew and ATK Up or Orb Boost is applied on the crew (does not apply to statuses applied by Captain Ability or Crewmate Ability), further increases crew's ATK UpOrb Boost by 1.1x (up to a maximum 8x, cannot be further increased)"
+            character1: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Switch Effect of all characters by 1. Boosts ATK of [QCK], Fighter and Powerhouse characters by 4.75x, boosts ATK of all other characters by 3.5x, and boosts HP of [QCK], Fighter and Powerhouse characters by 1.35x. Up to 7 times per adventure, when a [DEX] or [QCK] crewmate uses a special, reduces Switch Effect of this character by 1, and boosts Final Tap ATK of all characters by 5%. If the Final Tap ATK boost effect activates before the final stage, effect accumulates until the final stage; at the start of the final stage, applies Final Tap ATK boost based on the accumulated value. If your crew has 4+ [Egghead Arc] or [Navy] characters and you gain an ATK Up or Orb Amplification buff, increases boost effects of ATK Up and Orb Amplification buffs by 1.1x (up to 8x).",
+            character2: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Switch Effect of all characters by 1. Boosts ATK of [DEX], Fighter and Powerhouse characters by 4.75x, boosts ATK of all other characters by 3.5x, and boosts HP of [DEX], Fighter and Powerhouse characters by 1.35x. Up to 7 times per adventure, when a [DEX] or [QCK] crewmate uses a special, reduces Switch Effect of this character by 1, and boosts Final Tap ATK of all characters by 5%. If the Final Tap ATK boost effect activates before the final stage, effect accumulates until the final stage; at the start of the final stage, applies Final Tap ATK boost based on the accumulated value. If your crew has 4+ [Egghead Arc] or [Navy] characters and you gain an ATK Up or Orb Amplification buff, increases boost effects of ATK Up and Orb Amplification buffs by 1.1x (up to 8x).",
+            combined: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Switch Effect of all characters by 1. Boosts ATK of [DEX], [QCK], Fighter and Powerhouse characters by 5.75x, boosts ATK of all other characters by 4x, and boosts HP of [DEX], [QCK], Fighter and Powerhouse characters by 1.35x. Up to 7 times per adventure, when a [DEX] or [QCK] crewmate uses a special, reduces Switch Effect of this character by 1, and boosts Final Tap ATK of all characters by 5%. If the Final Tap ATK boost effect activates before the final stage, effect accumulates until the final stage; at the start of the final stage, applies Final Tap ATK boost based on the accumulated value. If your crew has 4+ [Egghead Arc] or [Navy] characters and you gain an ATK Up or Orb Amplification buff, increases boost effects of ATK Up and Orb Amplification buffs by 1.1x (up to 8x)."
         },
-        special: "Reduces crew's Special charge time by 1 turn, deals 300x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), reduces crew's Despair duration by 7 turns, and reduces all enemies' Threshold Damage Reduction duration by 7 turns. If crew has type effect boost when Special is launched, boosts the ATK of the next final tap performed by crew by 50%<hidden> (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)</hidden>, otherwise, boosts the type effects of normal attacks for [QCK] and [DEX] characters by 3.25x for 3 turns. If crew's End of Turn Healing status has 5 or more turns or crew's Additional Damage status has 5 or more turns when Special is launched, further increases crew's type effect boost by 1.2x (up a maximum of 5x; effect applies to type effect boost from this Special), applies \"Territory: Fighter class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 2 turns, then after that, becomes \"Garp & Coby\" for 3 turns",
+        special: "Reduces Special Cooldown of all characters by 1 turn, deals 300x character's ATK in Typeless Fixed True damage to one enemy, reduces Despair duration by 7 turns, reduces enemies' Threshold Damage Reduction duration by 7 turns, and becomes Garp & Coby for 3 turns. If your crew has Color Affinity when the special is activated, boosts Final Tap ATK of all characters by 50%; boosts Color Affinity of [DEX] and [QCK] characters by 3.25x for 3 turns otherwise. If your crew has 5+ turns of End of Turn Healing or 5+ turns of Additional Damage when the special is activated, increases boost effects of Color Affinity buffs by 1.2x (up to 5x), including effects activated in the same ability, and applies Territory: Fighter class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns.",
         specialName: "Inherited Fists of Justice",
         sailor: {
-            character1: "Reduces crew's Special charge time by 1 turn at start of quest",
-            character2: "Reduces crew's Special charge time by 1 turn at start of quest",
-            combined: "Reduces crew's Special charge time by 1 turn at start of quest",
-            level1: "Reduces character's Special Reverse by 5 turns"
+            character1: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight.",
+            character2: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight.",
+            combined: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight.",
+            level1: "Restores Special Cooldown of this character by 5 turns when it is rewinded."
         },
-        superSpecialCriteria: "When character becomes \"Garp & Coby\" with Super Switch effect and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Helmeppo, Prince Grus, Kujaku, Hibari, X Drake, Sakazuki (Akainu), Kuzan (Aokiji), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi, Vice Admiral Doll, Monkey D. Luffy, Portgas D. Ace, Sabo",
-        superSpecial: "Reduces all enemies' damage reduction from certain slots effect duration by 2 turns, allows crew's type effect boost to be further increased up to 2 times, reduces character's Special charge time by 10 turns, changes Fighter characters to Super Fighter, and changes Powerhouse characters to Super Powerhouse",
+        superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Helmeppo, Prince Grus, Kujaku, Hibari, X Drake, Sakazuki (Akainu), Kuzan (Aokiji), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi, Vice Admiral Doll, Monkey D. Luffy, Portgas D. Ace, Sabo",
+        superSpecial: "Reduces enemies' Orb-Based Damage Reduction duration by 2 turns, enables Color Affinity buffs to be enhanced up to 2 times, reduces Special Cooldown of this character by 10 turns, transforms Fighter characters into Super Fighter characters, and transforms Powerhouse characters into Super Powerhouse characters.",
         swap: {
-            base: "Changes character's slot (including [BLOCK] slot) to character's own type, and boosts the ATK of the next final tap performed by crew by 5% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
-            super: "Changes character's slot (including [BLOCK] slot) to character's own type, boosts the ATK of the next final tap performed by crew by 10% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), further increases crew's base ATK boost by +300, applies -15% [QCK], [DEX], Fighter, and Powerhouse Resistance to all enemies for 1 turn, and becomes \"Garp & Coby\" for 3 turns",
+            base: "Changes the orb, including [BLOCK] orb, of this character into a matching orb, and boosts Final Tap ATK of all characters by 5%.",
+            super: "Changes the orb, including [BLOCK] orb, of this character into a matching orb, increases boost effects of Base ATK Boost buffs by +300, boosts Final Tap ATK of all characters by 10%, reduces enemies' [DEX], [QCK], Fighter and Powerhouse resistance by -15% for 1 turn, and becomes Garp & Coby for 3 turns.",
             superTurns: 7
         },
         limit: [
@@ -181013,18 +181013,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Navy] [SWORD] [Straw Hat Pirates] [Egghead Arc] character performs Super Tandem",
-                "When a [Navy] [SWORD] [Straw Hat Pirates] [Egghead Arc] character performs Super Tandem",
-                "When a [Navy] [SWORD] [Straw Hat Pirates] [Egghead Arc] character performs Super Tandem",
-                "When a [Navy] [SWORD] [Straw Hat Pirates] [Egghead Arc] character performs Super Tandem",
-                "When a [Navy] [SWORD] [Straw Hat Pirates] [Egghead Arc] character performs Super Tandem"
+                "When a [Navy], [SWORD], [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+                "When a [Navy], [SWORD], [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+                "When a [Navy], [SWORD], [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+                "When a [Navy], [SWORD], [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem",
+                "When a [Navy], [SWORD], [Straw Hat Pirates] or [Egghead Arc] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Navy] [SWORD] [Straw Hat Pirates] [Egghead Arc] characters by 2 for 1 turn",
-                "Raises Boost Level of [Straw Hat Pirates] [Egghead Arc] characters by 2 and raises Boost Level of [Navy] [SWORD] characters by 3 for 1 turn",
-                "Raises Boost Level of [Straw Hat Pirates] [Egghead Arc] characters by 3 and raises Boost Level of [Navy] [SWORD] characters by 4 for 1 turn",
-                "Raises Boost Level of [Straw Hat Pirates] [Egghead Arc] characters by 3 and raises Boost Level of [Navy] [SWORD] characters by 5 for 1 turn",
-                "Raises Boost Level of [Straw Hat Pirates] [Egghead Arc] characters by 4 and raises Boost Level of [Navy] [SWORD] characters by 6 for 1 turn"
+                "Raises Boost Level of [Navy], [SWORD], [Straw Hat Pirates] and [Egghead Arc] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates] and [Egghead Arc] characters by 2 for 1 turn, and raises Boost Level of [Navy] and [SWORD] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates] and [Egghead Arc] characters by 3 for 1 turn, and raises Boost Level of [Navy] and [SWORD] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates] and [Egghead Arc] characters by 3 for 1 turn, and raises Boost Level of [Navy] and [SWORD] characters by 5 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates] and [Egghead Arc] characters by 4 for 1 turn, and raises Boost Level of [Navy] and [SWORD] characters by 6 for 1 turn."
             ]
         },
         festStats: {
@@ -181102,23 +181102,24 @@ window.details = {
     },
     4522: {//Blackbeard & Kuzan
         captain: {
-            character1: "Launches the following effect at start of quest: \"Boosts crew's ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 8 turns, reduces crew's Switch Effect by 2, reduces [Blackbeard Pirates] characters' Special charge time by 3 turns\", boosts [DEX], [INT], Driven, and Shooter characters' HP by 1.5x, ATK by 4.5x, boosts their ATK by approximately 5.5x when they have [RCV][TND][EMPTY][BOMB][S. BOMB] slots, and makes their [INT][DEX][TND][BOMB] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] characters or 6 [Egghead Arc] characters are on the crew and crew launches Specials to apply damage reduction (except Threshold Damage Reduction), converts that effect to \"further increases crew's ATK boost by 2x (up a maximum 6x)\" regardless of the effective turns of the converted effect",
-            character2: "Launches the following effect at start of quest: \"Boosts crew's ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 8 turns, reduces crew's Switch Effect by 2 and Special charge time by 1 turn\", boosts [DEX], [INT], Driven, and Shooter characters' HP by 1.5x, ATK by 4.5x, boosts their ATK by approximately 5.5x when they have [RCV][TND][EMPTY][BOMB][S. BOMB] slots, and makes their [INT][DEX][TND][BOMB] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] characters or 6 [Egghead Arc] characters are on the crew and crew launches Specials to apply damage reduction (except Threshold Damage Reduction), converts that effect to \"further increases crew's ATK boost by 2x (up a maximum 6x)\" regardless of the effective turns of the converted effect",
-            combined: "Boosts [DEX], [INT], Driven, and Shooter characters' HP by 1.5x, ATK by 4.75x, boosts their ATK by approximately 5.75x when they have [RCV][TND][EMPTY][BOMB][S. BOMB] slots, and makes their [INT][DEX][TND][BOMB] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] characters or 6 [Egghead Arc] characters are on the crew and crew launches Specials to apply damage reduction (except Threshold Damage Reduction), converts that effect to \"further increases crew's ATK boost by 2x (up a maximum 6x)\" regardless of the effective turns of the converted effect. If 5 or more [Blackbeard Pirates] characters are on the crew, allows crew's normal attacks to ignore enemy's defensive effects but cancels all crew's defensive effects"
+            character1: "Launches the following effect at start of fight: reduces Special Cooldown of [Blackbeard Pirates] characters by 3 turns, reduces Switch Effect of all characters by 2, and boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 8 turns. Boosts ATK of [DEX], [INT], Driven and Shooter characters by 4.5x, by 5.5x instead if they have a [RCV], [TND], [EMPTY], [BOMB] or [SUPERBOMB] orb, boosts HP of [DEX], [INT], Driven and Shooter characters by 1.5x, and makes [DEX], [INT], [TND] and [BOMB] orbs beneficial for [DEX], [INT], Driven and Shooter characters. If your crew has 3+ [Blackbeard Pirates] or 6 [Egghead Arc] characters and a crew member uses a special with a Percent Damage Reduction buff, replaces that buff with the following effect: increases boost effects of ATK Up buffs by 2x (up to 6x).",
+            character2: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, reduces Switch Effect of all characters by 2, and boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 8 turns. Boosts ATK of [DEX], [INT], Driven and Shooter characters by 4.5x, by 5.5x instead if they have a [RCV], [TND], [EMPTY], [BOMB] or [SUPERBOMB] orb, boosts HP of [DEX], [INT], Driven and Shooter characters by 1.5x, and makes [DEX], [INT], [TND] and [BOMB] orbs beneficial for [DEX], [INT], Driven and Shooter characters. If your crew has 3+ [Blackbeard Pirates] or 6 [Egghead Arc] characters and a crew member uses a special with a Percent Damage Reduction buff, replaces that buff with the following effect: increases boost effects of ATK Up buffs by 2x (up to 6x).",
+            combined: "Boosts ATK of [DEX], [INT], Driven and Shooter characters by 4.75x, by 5.75x instead if they have a [RCV], [TND], [EMPTY], [BOMB] or [SUPERBOMB] orb, boosts HP of [DEX], [INT], Driven and Shooter characters by 1.5x, and makes [DEX], [INT], [TND] and [BOMB] orbs beneficial for [DEX], [INT], Driven and Shooter characters. If your crew has 3+ [Blackbeard Pirates] or 6 [Egghead Arc] characters and a crew member uses a special with a Percent Damage Reduction buff, replaces that buff with the following effect: increases boost effects of ATK Up buffs by 2x (up to 6x). If your crew has 5+ [Blackbeard Pirates] characters, attacks will ignore damage reducing Barriers and Buffs."
         },
-        special: "Reduces crew's Paralysis duration by 10 turns, and boosts [DEX], [INT], Driven, and Shooter characters' ATK by 2.75x for 1 turn (allows this effect to be further increased up to 2 times). If crew's HP is 50% or below or crew has HP Guard when Special is launched, boosts [DEX], [INT], Driven, and Shooter characters' slot effects by 3.5x for 3 turns. If 3 or more [Blackbeard Pirates] characters or 6 [Egghead Arc] characters are on the crew, activates HP Guard of 85% effect for 1 turn, and boosts crew's ATK based on the damage reduction effect applied on the crew (base boost 1.7x; e.g. if crew has 50% damage reduction, boosts ATK by 2.2x, 1x for no damage reduction) for 1 turn, then after that, becomes \"Blackbeard & Kuzan\" for 3 turns",
+        captainNotes: "Attacks are still affected by DEF value. DEF boost buffs (Blue shield) still reduce your damage and you cannot kill through Resilience, but Damage Negating (Yellow shield), % Damage Reduction (Rainbow shield), Barriers and Threshold Damage Reduction are ignored. Enemy attacks will go through YOUR defensive buffs.",
+        special: "Reduces Paralysis duration by 10 turns, boosts ATK of [DEX], [INT], Driven and Shooter characters by 2.75x, can be enhanced up to 2 times, for 1 turn, and becomes Blackbeard & Kuzan for 3 turns. If HP is below 50% or crew has HP Guard when the special is activated, boosts Orb Effects of [DEX], [INT], Driven and Shooter characters by 3.5x for 3 turns. If your crew has 3+ [Blackbeard Pirates] or 6 [Egghead Arc] characters, activates HP Guard of 85% effect for 1 turn, and boosts Enemy Damage Reduction to ATK of all characters by 1.7x-2.7x, proportional to the strength of enemies' Percent Damage Reduction buff, for 1 turn.",
         specialName: "Drinking Together",
         sailor: {
-            character1: "Boosts [DEX] and [INT] characters' base ATK by 1.1x",
-            character2: "Boosts [DEX] and [INT] characters' base ATK by 1.1x",
-            combined: "Boosts [DEX] and [INT] characters' base ATK by 1.1x",
-            level1: "Reduces crew's Special charge time by 1 turn at start of quest"
+            character1: "Boosts base ATK of [DEX] and [INT] characters by 1.1x.",
+            character2: "Boosts base ATK of [DEX] and [INT] characters by 1.1x.",
+            combined: "Boosts base ATK of [DEX] and [INT] characters by 1.1x.",
+            level1: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight."
         },
-        superSpecialCriteria: "When character becomes \"Blackbeard & Kuzan\" with Super Switch effect and crew's HP becomes 50% or below (can be launched when character is a crewmate)",
-        superSpecial: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) effect by 40% (the effect increase/decrease only occurs 1 time), boosts the ATK of the next final tap performed by crew by 50% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), changes [DEX] characters to Super [DEX], and changes [INT] characters to Super [INT]",
+        superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and HP must be below 50%",
+        superSpecial: "Reduces enemies' Percent Damage Reduction effect by 40%, boosts Final Tap ATK of all characters by 50%, transforms [DEX] characters into Super [DEX] characters, and transforms [INT] characters into Super [INT] characters.",
         swap: {
-            base: "Completely removes crew's Slot Bind, changes character's slot (including [BLOCK] slot) to character's own type, reduces crew's Paralysis duration by 1 turn, boosts character's ATK by 1.5x for 1 turn (effect can be overwritten with other ATK boost effects), and allows character's normal attacks to ignore enemies' defensive effects for 1 turn",
-            super: "Completely removes crew's Slot Bind, changes character's slot (including [BLOCK] slot) to character's own type, reduces crew's Paralysis duration by 3 turns, doubles crew's ATK for 1 turn (effect can be overwritten with other ATK boost effects), allows character's normal attacks to ignore enemies' defensive effects for 1 turn, and becomes \"Blackbeard & Kuzan\" for 3 turns",
+            base: "Removes Slot Bind duration completely on this character, changes the orb, including [BLOCK] orb, of this character into a matching orb, reduces Paralysis duration by 1 turn, boosts ATK of this character by 1.5x, allowing override, for 1 turn, and makes this character's normal attacks ignore damage reducing barriers and buffs for 1 turn.",
+            super: "Removes Slot Bind duration completely on this character, changes the orb, including [BLOCK] orb, of this character into a matching orb, reduces Paralysis duration by 3 turns, boosts ATK of all characters by 2x, allowing override, for 1 turn, makes this character's normal attacks ignore damage reducing barriers and buffs for 1 turn, and becomes Blackbeard & Kuzan for 3 turns.",
             superTurns: 6
         },
         limit: [
@@ -181206,25 +181207,25 @@ window.details = {
         ],
         rush: {
             characterCondition: [
-                "At final battle, if crew has ATK based on damage reduction effect and character performs the 2nd tap of an attack as a Double Character",
-                "At final battle, if crew has ATK based on damage reduction effect and character performs the 2nd tap of an attack as a Double Character",
-                "At final battle, if crew has ATK based on damage reduction effect and character performs the 2nd tap of an attack as a Double Character",
-                "At final battle, if crew has ATK based on damage reduction effect and character performs the 2nd tap of an attack as a Double Character",
-                "At final battle, if crew has ATK based on damage reduction effect and character performs the 2nd tap of an attack as a Double Character"
+                "On the last stage, when crew has Crew Damage Reduction to ATK buff and performs the 2nd tap of an attack in Combined Form",
+                "On the last stage, when crew has Crew Damage Reduction to ATK buff and performs the 2nd tap of an attack in Combined Form",
+                "On the last stage, when crew has Crew Damage Reduction to ATK buff and performs the 2nd tap of an attack in Combined Form",
+                "On the last stage, when crew has Crew Damage Reduction to ATK buff and performs the 2nd tap of an attack in Combined Form",
+                "On the last stage, when crew has Crew Damage Reduction to ATK buff and performs the 2nd tap of an attack in Combined Form"
             ],
             description: [
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [DEX], [INT], Driven, and Shooter characters (up to +0.5 chain multiplier; Rush ATK boost 1.5x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [DEX], [INT], Driven, and Shooter characters (up to +0.5 chain multiplier; Rush ATK boost 1.55x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [DEX], [INT], Driven, and Shooter characters (up to +0.5 chain multiplier; Rush ATK boost 1.6x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [DEX], [INT], Driven, and Shooter characters (up to +0.5 chain multiplier; Rush ATK boost 1.65x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [DEX], [INT], Driven, and Shooter characters (up to +0.5 chain multiplier; Rush ATK boost 1.8x)"
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to chain multiplier for 1 turn, and boosts Rush ATK of [DEX], [INT], Driven and Shooter characters by 1.1x-1.5x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to chain multiplier for 1 turn, and boosts Rush ATK of [DEX], [INT], Driven and Shooter characters by 1.15x-1.55x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to chain multiplier for 1 turn, and boosts Rush ATK of [DEX], [INT], Driven and Shooter characters by 1.2x-1.6x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to chain multiplier for 1 turn, and boosts Rush ATK of [DEX], [INT], Driven and Shooter characters by 1.25x-1.65x.",
+                "Performs a Rush up to 7 times. Adds 0.1x-0.5x to chain multiplier for 1 turn, and boosts Rush ATK of [DEX], [INT], Driven and Shooter characters by 1.4x-1.8x."
             ],
             stats: [
-                "HP Cost: 30,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [DEX], [INT], Driven, and Shooter Rush ATK boost 1.1x\nEach successful chain adds +0.1 (up to 1.5)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
-                "HP Cost: 28,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [DEX], [INT], Driven, and Shooter Rush ATK boost 1.15x\nEach successful chain adds +0.1 (up to 1.55)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
-                "HP Cost: 26,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [DEX], [INT], Driven, and Shooter Rush ATK boost 1.2x\nEach successful chain adds +0.1 (up to 1.6)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
-                "HP Cost: 24,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [DEX], [INT], Driven, and Shooter Rush ATK boost 1.25x\nEach successful chain adds +0.1 (up to 1.65)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
-                "HP Cost: 20,000\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [DEX], [INT], Driven, and Shooter Rush ATK boost 1.4x\nEach successful chain adds +0.1 (up to 1.8)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8"
+                "HP Cost: 30,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [DEX], [INT], Driven and Shooter characters by 1.1x-1.5x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 28,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [DEX], [INT], Driven and Shooter characters by 1.15x-1.55x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 26,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [DEX], [INT], Driven and Shooter characters by 1.2x-1.6x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 24,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [DEX], [INT], Driven and Shooter characters by 1.25x-1.65x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 20,000<br>Max Rush: 7 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of [DEX], [INT], Driven and Shooter characters by 1.4x-1.8x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8"
             ]
         },
         festStats: {
@@ -181301,24 +181302,24 @@ window.details = {
         }
     },
     4523: {//Hibari
-        captain: "Reduces crew's Switch Effect by 4 at start of quest, and boosts [DEX], Shooter, and Fighter characters' ATK by 5.25x, RCV by 1.35x. If crew uses a Special to boost damage dealt to enemies with a specific status effect, further increases that damage boost by +0.25 (stackable with other further raising effects). If \"Coby\" is a crewmate and uses a Special, applies Set Target status to all enemies for 1 turn (can be launched up to 2 times; Set Target status cannot be affected by immunity to status effects, crew will deal 1.75x damage, and their Special charge time will be reduced by 1 turn for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects)) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Navy] [SWORD] characters' ATK by 1.2x, and reduces their Special charge time by 3 turns at start of quest",
-        special: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 7 turns, reduces crew's ATK Down duration by 7 turns, and increases all enemies' damage taken by 2.5x for 1 turn. If 4 or more [Navy] characters are on the crew, allows this Special's increase damage taken applying effect to ignore immunity to status effects, and boosts damage dealt to enemies affected by increase damage taken status by 2.25x for 1 turn. If crew's End of Turn Healing status has 5 or more turns or less than 10 turns when Special is launched, further increases crew's type effect and slot effect boosts by +0.3. If crew's End of Turn Healing status has 10 or more turns when Special is launched, further increases crew's ATK boost by 1.5x (up to a maximum 8x), heals crew's by 30,000 HP, and reduces crew's End of Turn Healing duration by 3 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Navy] and [SWORD] characters by 3 turns, and reduces Switch Effect of all characters by 4. Boosts ATK of [Navy] and [SWORD] characters by 1.2x, boosts ATK of [DEX], Shooter and Fighter characters by 5.25x, by 6.3x instead if they have the applicable tag, boosts RCV of [DEX], Shooter and Fighter characters by 1.35x, and increases boost effects of Status ATK Boost buffs applied by specials by +0.25x. Up to 2 times per adventure, when Coby uses a special as crewmate, inflicts all enemies with Set Target, increasing damage taken from all characters by 1.75x and reducing Special Cooldown of all characters by 1 turn when they defeat an enemy, for 1 turn.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 7 turns, and reduces ATK Down duration by 7 turns. If your crew has 4+ [Navy] characters, boosts ATK against enemies inflicted with Increase Damage Taken by 2.25x for 1 turn, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.5x for 1 turn; inflicts all enemies with Increase Damage Taken by 2.5x for 1 turn otherwise. If your crew has 5-10 turns of End of Turn Healing when the special is activated, increases boost effects of Orb Amplification and Color Affinity buffs by +0.3x. If your crew has 10+ turns of End of Turn Healing when the special is activated, increases boost effects of ATK Up buffs by 1.5x (up to 8x), recovers 30,000 HP, and reduces End of Turn Healing duration by 3 turns.",
         specialName: "Senior-Rescuing Flower Rounds",
         sailor: {
-            base: "Makes crew's [TND] slots have matching slot effects, and boosts [DEX], Shooter, and Fighter characters' base stats by 125",
-            level1: "Heals crew by 800 HP at end of turn"
+            base: "Makes [TND] orbs beneficial for all characters. Boosts base ATK, HP and RCV of [DEX], Shooter and Fighter characters by 125.",
+            level1: "Recovers 800 HP at the end of each turn."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi",
-        superSpecial: "Can choose to completely remove crew's Swap Captains effect, further increases crew's multiplicative chain multiplier boost (except additive boosts) by +0.2, boosts the chain multiplier by +1.2 for 1 turn, changes character's slot to [TND], extends the duration of crew's End of Turn Healing by 3 turns, heals crew by 5,000 HP at end of turn for 5 turns, and changes [DEX] characters to Super [DEX]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi",
+        superSpecial: "Optionally removes Captain Swap duration completely, increases boost effects of Chain Multiplication buffs by +0.2x, adds 1.2x to chain multiplier for 1 turn, changes the orb of this character into a [TND] orb, increases duration of any End of Turn Healing buffs by 3 turns, recovers 5,000 HP at the end of the turn for 5 turns, and transforms [DEX] characters into Super [DEX] characters.",
         support: [
             {
                 Characters: "Coby",
                 description: [
-                    "Once per quest, if supported character uses a Special, extends the duration of crew's End of Turn Healing by 1 turn at start of crew's next turn",
-                    "Once per quest, if supported character uses a Special, extends the duration of crew's End of Turn Healing by 1 turn at start of crew's next turn",
-                    "Once per quest, if supported character uses a Special, extends the duration of crew's End of Turn Healing by 2 turns at start of crew's next turn",
-                    "Once per quest, if supported character uses a Special, extends the duration of crew's End of Turn Healing by 2 turns and reduces crew's ATK Down duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if supported character uses a Special, extends the duration of crew's End of Turn Healing by 2 turns and reduces crew's ATK Down duration by 2 turns at start of crew's next turn"
+                    "Once per adventure, when the supported character uses their special, increases duration of any End of Turn Healing buffs by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, increases duration of any End of Turn Healing buffs by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, increases duration of any End of Turn Healing buffs by 2 turns.",
+                    "Once per adventure, when the supported character uses their special, increases duration of any End of Turn Healing buffs by 2 turns, and reduces ATK Down duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, increases duration of any End of Turn Healing buffs by 2 turns, and reduces ATK Down duration by 2 turns."
                 ]
             }
         ],
@@ -181407,18 +181408,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "At final battle, when any of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi",
-                "At final battle, when any of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi",
-                "At final battle, when any of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi",
-                "At final battle, when any of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi",
-                "At final battle, when any of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi"
+                "On the last stage. Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi",
+                "On the last stage. Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi",
+                "On the last stage. Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi",
+                "On the last stage. Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi",
+                "On the last stage. Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Monkey D. Garp, Coby, Helmeppo, Prince Grus, Kujaku, X Drake, Sakazuki (Akainu), Borsalino (Kizaru), Issho (Fujitora), Aramaki (Ryokugyu), Sengoku, Tsuru, Tashigi",
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.4x to [DEX], Shooter, and Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.6x to [DEX], Shooter, and Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.8x to [DEX], Shooter, and Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2x to [DEX], Shooter, and Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.25x to [DEX], Shooter, and Fighter characters for 1 turn and further increases crew's damage boost by +0.2"
+                "Boosts Tandem ATK of [DEX], Shooter and Fighter characters by 1.4x for 1 turn.",
+                "Boosts Tandem ATK of [DEX], Shooter and Fighter characters by 1.6x for 1 turn.",
+                "Boosts Tandem ATK of [DEX], Shooter and Fighter characters by 1.8x for 1 turn.",
+                "Boosts Tandem ATK of [DEX], Shooter and Fighter characters by 2x for 1 turn.",
+                "Boosts Tandem ATK of [DEX], Shooter and Fighter characters by 2.25x for 1 turn, and increases boost effects of Status ATK Boost buffs by +0.2x."
             ]
         },
         festStats: {
@@ -181495,24 +181496,24 @@ window.details = {
         }
     },
     4524: {//Helmeppo
-        captain: "Boosts crew's HP by 1.35x, boosts [DEX], Slasher and Fighter characters' ATK by 3.5x, makes crew's [TND] slots have matching slot effects, and further boosts crew's ATK by 1.5x if character became Captain during the quest",
-        special: "Reduces top-row characters' Special charge time by 3 turns, sets all enemies' DEF to 0 for 1 turn, changes all slots (including [BLOCK] slots) to [TND], and sets the chain multiplier's minimum value at 2.5 and maximum value at 25.0 for 2 turns. If 3 or more [SWORD] characters are on the crew, allows this Special's DEF Down applying effect to ignore immunity to status effects, boosts the chain multiplier by 1.75x for 3 turns, and extends the duration of crew's lock chain multiplier effect by 1 turn (effect applies to lock chain multiplier effect from this Special)",
+        captain: "Boosts ATK of [DEX], Slasher and Fighter characters by 3.5x, boosts HP of all characters by 1.35x, and makes [TND] orbs beneficial for all characters. If this character becomes your captain in the middle of an island, boosts ATK of [DEX], Slasher and Fighter characters by 5.25x, and boosts ATK of all other characters 1.5x.",
+        special: "Reduces Special Cooldown of top row characters by 3 turns, changes all orbs, including [BLOCK] orbs, into [TND] orbs, and sets Chain Boundaries to 2.5x and 25.0x for 2 turns. If your crew has 3+ [SWORD] characters, boosts Chain Multiplier Growth Rate by 1.75x for 3 turns, increases duration of any Chain Lock buffs by 1 turn, including effects activated in the same ability, and ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn; reduces the defense of all enemies by 100% for 1 turn otherwise.",
         specialName: "Protecting Friend's Back",
         sailor: {
-            base: "Reduces character's Special Reverse by 3 turns",
-            level1: "Reduces the duration of Remove SFX by 5 turns"
+            base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "Reduces Blindness duration by 5 turns."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Garp, Coby, Prince Grus, Kujaku, Hibari, X Drake",
-        superSpecial: "Cuts crew's HP by 51%, but boosts crew's ATK by 1.25x for 1 turn (effect can be overwritten with other ATK boost effects), boosts the ATK of the next final tap performed by crew by 25% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and changes Slasher characters to Super Slasher",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Garp, Coby, Prince Grus, Kujaku, Hibari, X Drake",
+        superSpecial: "Reduces crew's current HP by 51%, boosts ATK of all characters by 1.25x, allowing override, for 1 turn, boosts Final Tap ATK of all characters by 25%, and transforms Slasher characters into Super Slasher characters.",
         support: [
             {
                 Characters: "Coby",
                 description: [
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [TND]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [TND]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [TND]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [TND]",
-                    "Once per quest, if supported character uses a Special, changes supported character's slot to [TND] and reduces top-right character's Special charge tim by 1 turn"
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [TND] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [TND] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [TND] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [TND] orb.",
+                    "Once per adventure, when the supported character uses their special, changes the orb of the supported character into a [TND] orb, and reduces Special Cooldown of top right character by 1 turn."
                 ]
             }
         ],
@@ -181619,22 +181620,22 @@ window.details = {
         ]
     },
     4525: {//Doll
-        captain: "Boosts crew's RCV by 1.35x, boosts [DEX], Fighter and Free Spirit characters' ATK by 3.75x, and makes crew's [TND] slots have matching slot effects",
-        special: "Reduces crew's Special Bind/Burn duration by 6 turns, and boosts [DEX] and [INT] characters' base ATK by +1250 for 2 turns. If 3 or more [Navy] characters are on the crew, reduces all enemies' Resilience duration by 6 turns, and heals crew by 4,000 HP at end of turn for 10 turns",
+        captain: "Boosts ATK of [DEX], Fighter and Free Spirit characters by 3.75x, boosts RCV of all characters by 1.35x, and makes [TND] orbs beneficial for all characters.",
+        special: "Reduces Special Bind and Burn duration by 6 turns, and boosts Base ATK of [DEX] and [INT] characters by 1,250 for 2 turns. If your crew has 3+ [Navy] characters, reduces enemies' Resilience duration by 6 turns, and recovers 4,000 HP at the end of the turn for 10 turns.",
         specialName: "Ship-Protecting Axe Kick",
         sailor: {
-            base: "Reduces character's Special Bind duration by 6 turns",
-            level1: "Boosts crew's base RCV and HP by 100"
+            base: "Reduces Special Bind duration by 6 turns on this character.",
+            level1: "Boosts base HP and RCV of all characters by 100."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                Characters: "[Navy Vice Admiral] characters",
                 description: [
-                    "Heals crew by 500 HP at end of turn for 1 turn at start of Battle 3",
-                    "Heals crew by 1,000 HP at end of turn for 1 turn at start of Battle 3",
-                    "Heals crew by 2,000 HP at end of turn for 2 turns at start of Battle 3",
-                    "Heals crew by 3,000 HP at end of turn for 2 turns at start of Battle 3",
-                    "Heals crew by 4,000 HP at end of turn for 3 turns at start of Battle 3"
+                    "Once per adventure, when you reach the 3rd stage, recovers 500 HP at the end of the turn for 1 turn.",
+                    "Once per adventure, when you reach the 3rd stage, recovers 1,000 HP at the end of the turn for 1 turn.",
+                    "Once per adventure, when you reach the 3rd stage, recovers 2,000 HP at the end of the turn for 2 turns.",
+                    "Once per adventure, when you reach the 3rd stage, recovers 3,000 HP at the end of the turn for 2 turns.",
+                    "Once per adventure, when you reach the 3rd stage, recovers 4,000 HP at the end of the turn for 3 turns."
                 ]
             }
         ],
@@ -181741,24 +181742,24 @@ window.details = {
         ]
     },
     4526: {//Shiryu
-        captain: "Reduces crew's Switch Effect by 2 at start of quest, boosts crew's ATK by 3.5x, HP by 1.2x, boosts their ATK further if any enemies were defeated in previous turns (up to approximately 4.25x in 5 straight turns), and makes crew's [INT][DEX] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] Boosts [Blackbeard Pirates] characters' base ATK by +500",
-        special: "If 3 or more [Blackbeard Pirates] characters are on the crew, reduces crew's Bind duration by 3 turns, then after that, reduces all enemies' DEF Up duration by 6 turns, cuts crew's HP by 70%, but reduces crew's Switch Effect by 3. If Captain is an [INT], [DEX], or [QCK], applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, [INT], [DEX], and [QCK] characters will deal 1.5x damage, and their Special charge time will be reduced by 1 turn for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))",
+        captain: "Reduces Switch Effect of all characters by 2 at the start of the fight, boosts ATK of all characters by 3.5x-4.25x, depending on how many previous consecutive turns you have defeated an enemy, boosts HP of all characters by 1.2x, boosts base ATK of [Blackbeard Pirates] characters by 500, and makes [DEX] and [INT] orbs beneficial for all characters.",
+        special: "Reduces enemies' Increased Defense duration by 6 turns, reduces crew's current HP by 70%, and reduces Switch Effect of all characters by 3. If your crew has 3+ [Blackbeard Pirates] characters, reduces Bind duration by 3 turns. If your Captain is a [DEX], [QCK] or [INT] character, inflicts all enemies with Set Target, increasing damage taken from [DEX], [QCK] and [INT] characters by 1.5x and reducing Special Cooldown of [DEX], [QCK] and [INT] characters by 1 turn when they defeat an enemy, for 1 turn.",
         specialName: "Retaliating the Ice",
         sailor: {
-            base: "Reduces character's Bind duration by 5 turns",
-            level1: "Boosts crew's base ATK by 75"
+            base: "Reduces Bind duration by 5 turns on this character.",
+            level1: "Boosts base ATK of all characters by 75."
         },
-        superSpecialCriteria: "When crew has Poison status or Marshall D. Teach (Blackbeard) is on the crew (except as Support Character; can be launched when character is a crewmate)",
-        superSpecial: "Applies 40% damage reduction to enemies for 1 turn (this effect is treated as an activation of damage reduction effect), reduces damage taken by 60% for 1 turn, boosts the ATK of the next final tap performed by crew by 25% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and changes [INT] characters to Super [INT]",
+        superSpecialCriteria: "Can be launched as crewmate. When crew has Poison debuff or your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Marshall D. Teach (Blackbeard)",
+        superSpecial: "Reduces enemies' damage received by 40% for 1 turn, reduces damage received by 60% for 1 turn, boosts Final Tap ATK of all characters by 25%, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
                 Characters: "[INT] Driven characters",
                 description: [
-                    "Adds 3% of character's base ATK to supported character's base ATK",
-                    "Adds 4% of character's base ATK to supported character's base ATK",
-                    "Adds 5% of character's base ATK to supported character's base ATK",
-                    "Adds 6% of character's base ATK to supported character's base ATK",
-                    "Adds 8% of character's base ATK to supported character's base ATK [AUTO+] At battle 4, activates supported character's Switch Effect. At final battle, activates supported character's Special"
+                    "Adds 3% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 4% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 5% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 6% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 8% of this character's base ATK to the supported character's base ATK.<br><b>AUTO+:</b> When you reach the 4th stage, activates supported character's switch effect. When you reach the final stage, activates supported character's special."
                 ]
             }
         ],
