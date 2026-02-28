@@ -55,13 +55,13 @@ export class EffectPipe implements PipeTransform {
             e += 'Deals Lv.' + effect.level + ' Damage Over Time';
             break;
           case 'atk':
-            e += 'Deals ' + numberFormatter.format(effect.amount) + 'x ATK in damage';
+            e += 'Deals ' + numberFormatter.format(effect.amount) + 'x ATK in' + (effect.spread ? ' spread' : '') + ' damage';
             if (effect.defbypass) {
               e += ' that will ignore DEF'
             }
             break;
           case 'fixed':
-            e += 'Deals ' + numberFormatter.format(effect.amount) + ' fixed damage';
+            e += 'Deals ' + numberFormatter.format(effect.amount) + ' fixed' + (effect.spread ? ' spread' : '') + ' damage';
             break;
           case 'cut':
             e += numberFormatter.format(effect.amount) + '% health cut';
@@ -129,6 +129,9 @@ export class EffectPipe implements PipeTransform {
               boonMessage += ` (${effect.amount}% HP)`;
             }
             break;
+          case 'Switch':
+            boonMessage = 'switches';
+            break;
           default:
             boonMessage = `reduce ${boonEffects}`;
         }
@@ -177,6 +180,10 @@ export class EffectPipe implements PipeTransform {
       e += ` ${effect.repeat} times`;
     }
 
+    if (effect.onArrival) {
+      e += ' upon appearance';
+    }
+
     return `${this.capitalizeFirst(e)}.`;
   }
 
@@ -202,18 +209,23 @@ export class EffectPipe implements PipeTransform {
       }
     }
 
-    const to = ' to ' + ('count' in target ? target.count + ' ' : '') + targetStr;
+    let t = ' ' + ('count' in target ? target.count + ' ' : '') + targetStr;
 
-    if (target.percentage && target.priority && target.stat) {
-      switch (target.priority) {
-        case 'exactly':
-          return `${to} with ${target.priority} ${target.percentage}% ${target.stat}`;
-        default:
-          return `${to} with a ${target.percentage}% or ${target.priority} ${target.stat}`;
+    if (target.stat) {
+      if (target.percentage && target.priority) {
+        switch (target.priority) {
+          case 'exactly':
+            t += ` with ${target.priority} ${target.percentage}% ${target.stat}`;
+          default:
+            t += ` with a ${target.percentage}% or ${target.priority} ${target.stat}`;
+        }
+      }
+      else {
+        t += ' with' + (target.priority ? ' the ' + target.priority : '') + ' ' + target.stat
       }
     }
 
-    return to + ('stat' in target ? ' with the ' + target.priority + ' ' + target.stat : '');
+    return (target.switch ? t + ` with ${target.switch}` : ' to' + t);
   }
 
   capitalizeFirst(str: string): string {

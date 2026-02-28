@@ -66,10 +66,13 @@ export class ConditionPipe implements PipeTransform {
         if (!condition.team) {
           return `When ${condition.count} specials are used`;
         }
-
         return `When ${condition.team} uses specials ${condition.count} times`;
       case 'dmgdealt':
         return `After ${condition.count} damage dealt`;
+      case 'mode':
+        return `During ${condition.mode}`;
+      case 'multi':
+        return `${orListFormatter.format(condition.conditions.map(this.transform))}`;
       default:
         return 'UNKNOWN CONDITION ' + JSON.stringify(condition);
     }
