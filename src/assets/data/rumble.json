@@ -400307,14 +400307,14 @@
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["crew"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Shield"],
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["self"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -400446,7 +400446,7 @@
               "effect": "damage",
               "type": "atk",
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "HP"},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "amount": 150,
@@ -418636,7 +418636,7 @@
               "effect": "debuff",
               "level": 3,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["HP", "RCV"],
@@ -418768,7 +418768,7 @@
               "level": 1,
               "duration": 20,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -418776,14 +418776,14 @@
               "level": 1,
               "duration": 11,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
               "effect": "hinderance",
               "amount": 11,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Fixed Damage"],
@@ -419144,21 +419144,21 @@
               "effect": "debuff",
               "level": 2,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["ATK"],
               "effect": "debuff",
               "level": 2,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["DEF"],
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -419394,35 +419394,35 @@
               "effect": "buff",
               "level": 3,
               "targeting": {"targets": ["self"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Critical Hit"],
               "effect": "buff",
               "level": 2,
               "targeting": {"targets": ["self"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Guard"],
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["self"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["ATK"],
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["SPD"],
               "effect": "debuff",
               "level": 3,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["SPD"],
@@ -419569,14 +419569,14 @@
               "effect": "hinderance",
               "chance": 73,
               "duration": 10,
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "amount": 3.1,
               "effect": "damage",
               "type": "atk",
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "highest", "stat": "ATK"},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "amount": 0.85,
@@ -419584,7 +419584,7 @@
               "type": "atk",
               "defbypass": true,
               "targeting": {"targets": ["enemies"], "count": 2, "priority": "highest", "stat": "DEF"},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["ATK", "DEF"],
@@ -422194,7 +422194,7 @@
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["self"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Revive"],
@@ -422202,7 +422202,7 @@
               "repeat": 1,
               "amount": 30,
               "targeting": {"targets": ["self"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["DEF"],
@@ -422335,7 +422335,7 @@
               "chance": 70,
               "duration": 11,
               "targeting": {"targets": ["self"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -422343,7 +422343,7 @@
               "level": 5,
               "duration": 50,
               "targeting": {"targets": ["self"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Shield"],
@@ -422814,7 +422814,7 @@
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -422910,7 +422910,7 @@
               "level": 1,
               "duration": 11,
               "targeting": {"targets": ["crew"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -422918,7 +422918,7 @@
               "level": 1,
               "duration": 11,
               "targeting": {"targets": ["crew"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -422926,7 +422926,7 @@
               "level": 1,
               "duration": 11,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "amount": 10,
@@ -441712,7 +441712,7 @@
               "level": 2,
               "duration": 11,
               "targeting": {"targets": ["crew"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF"],
@@ -441720,7 +441720,7 @@
               "level": 2,
               "duration": 11,
               "targeting": {"targets": ["crew"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["ATK", "SPD"],
@@ -441728,7 +441728,7 @@
               "level": 2,
               "duration": 11,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF"],
@@ -441736,7 +441736,7 @@
               "level": 1,
               "duration": 11,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["Special Bind"],
@@ -442045,7 +442045,7 @@
               "level": 8,
               "duration": 30,
               "targeting": {"targets": ["crew"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF", "Special CT"],
@@ -442053,7 +442053,7 @@
               "level": 5,
               "duration": 30,
               "targeting": {"targets": ["crew"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["ATK", "SPD"],
@@ -442061,7 +442061,7 @@
               "level": 6,
               "duration": 30,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF", "Special CT"],
@@ -442069,7 +442069,7 @@
               "level": 4,
               "duration": 30,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["Special Bind"],
@@ -442117,7 +442117,7 @@
               "level": 10,
               "duration": 40,
               "targeting": {"targets": ["crew"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF", "Special CT"],
@@ -442125,7 +442125,7 @@
               "level": 7,
               "duration": 40,
               "targeting": {"targets": ["crew"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["ATK", "SPD"],
@@ -442133,7 +442133,7 @@
               "level": 7,
               "duration": 40,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF", "Special CT"],
@@ -442141,7 +442141,7 @@
               "level": 5,
               "duration": 40,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["Special Bind"],
@@ -443907,14 +443907,14 @@
               "chance": 80,
               "duration": 11,
               "targeting": {"targets": ["crew"]},
-              "condition": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
             },
             {
               "amount": 11,
               "effect": "recharge",
               "type": "Special CT",
               "targeting": {"targets": ["[PSY]", "Fighter", "[Navy]"], "excludes": ["self"]},
-              "condition": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
             },
             {
               "attributes": ["Haste"],
@@ -446463,7 +446463,7 @@
               "attributes": ["On Death"],
               "effect": "boon",
               "repeat": 1,
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Fighter", "Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Fighter", "Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
             },
             {
               "amount": 12,
@@ -446551,7 +446551,7 @@
               "level": 2,
               "duration": 11,
               "targeting": {"targets": ["self"]},
-              "condition": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
             },
             {
               "attributes": ["ATK"],
@@ -447004,33 +447004,33 @@
               "effect": "debuff",
               "level": 4,
               "duration": 11,
-              "targeting": {"targets": ["enemies"], "priority": "RCV Bind"}
+              "targeting": {"targets": ["enemies"], "stat": "RCV Bind"}
             },
             {
               "attributes": ["Action Bind"],
               "effect": "hinderance",
               "chance": 73,
               "duration": 10,
-              "targeting": {"targets": ["enemies"], "priority": "Special Bind"}
+              "targeting": {"targets": ["enemies"], "stat": "Special Bind"}
             },
             {
               "attributes": ["Special CT"],
               "effect": "hinderance",
               "amount": 11,
-              "targeting": {"targets": ["enemies"], "priority": "Shield"}
+              "targeting": {"targets": ["enemies"], "stat": "Shield"}
             },
             {
               "amount": 3300,
               "type": "fixed",
               "effect": "damage",
-              "targeting": {"targets": ["enemies"], "priority": "Shield"}
+              "targeting": {"targets": ["enemies"], "stat": "Shield"}
             },
             {
               "amount": 3.2,
               "type": "atk",
               "effect": "damage",
               "spread": true,
-              "targeting": {"targets": ["enemies"], "priority": "Confusion"}
+              "targeting": {"targets": ["enemies"], "stat": "Confusion"}
             },
             {
               "amount": 2.1,
@@ -447295,40 +447295,40 @@
               "effect": "debuff",
               "level": 9,
               "duration": 25,
-              "targeting": {"targets": ["enemies"], "priority": "RCV Bind"}
+              "targeting": {"targets": ["enemies"], "stat": "RCV Bind"}
             },
             {
               "attributes": ["Paralysis"],
               "effect": "hinderance",
               "chance": 100,
               "duration": 25,
-              "targeting": {"targets": ["enemies"], "priority": "RCV Bind"}
+              "targeting": {"targets": ["enemies"], "stat": "RCV Bind"}
             },
             {
               "attributes": ["Action Bind"],
               "effect": "hinderance",
               "chance": 100,
               "duration": 15,
-              "targeting": {"targets": ["enemies"], "priority": "Special Bind"}
+              "targeting": {"targets": ["enemies"], "stat": "Special Bind"}
             },
             {
               "attributes": ["Special CT"],
               "effect": "hinderance",
               "amount": 30,
-              "targeting": {"targets": ["enemies"], "priority": "Shield"}
+              "targeting": {"targets": ["enemies"], "stat": "Shield"}
             },
             {
               "amount": 6000,
               "type": "fixed",
               "effect": "damage",
-              "targeting": {"targets": ["enemies"], "priority": "Shield"}
+              "targeting": {"targets": ["enemies"], "stat": "Shield"}
             },
             {
               "amount": 6,
               "type": "atk",
               "effect": "damage",
               "spread": true,
-              "targeting": {"targets": ["enemies"], "priority": "Confusion"}
+              "targeting": {"targets": ["enemies"], "stat": "Confusion"}
             },
             {
               "amount": 3.5,
@@ -447359,40 +447359,40 @@
               "effect": "debuff",
               "level": 10,
               "duration": 30,
-              "targeting": {"targets": ["enemies"], "priority": "RCV Bind"}
+              "targeting": {"targets": ["enemies"], "stat": "RCV Bind"}
             },
             {
               "attributes": ["Paralysis"],
               "effect": "hinderance",
               "chance": 100,
               "duration": 30,
-              "targeting": {"targets": ["enemies"], "priority": "RCV Bind"}
+              "targeting": {"targets": ["enemies"], "stat": "RCV Bind"}
             },
             {
               "attributes": ["Action Bind"],
               "effect": "hinderance",
               "chance": 100,
               "duration": 20,
-              "targeting": {"targets": ["enemies"], "priority": "Special Bind"}
+              "targeting": {"targets": ["enemies"], "stat": "Special Bind"}
             },
             {
               "attributes": ["Special CT"],
               "effect": "hinderance",
               "amount": 40,
-              "targeting": {"targets": ["enemies"], "priority": "Shield"}
+              "targeting": {"targets": ["enemies"], "stat": "Shield"}
             },
             {
               "amount": 6000,
               "type": "fixed",
               "effect": "damage",
-              "targeting": {"targets": ["enemies"], "priority": "Shield"}
+              "targeting": {"targets": ["enemies"], "stat": "Shield"}
             },
             {
               "amount": 7,
               "type": "atk",
               "effect": "damage",
               "spread": true,
-              "targeting": {"targets": ["enemies"], "priority": "Confusion"}
+              "targeting": {"targets": ["enemies"], "stat": "Confusion"}
             },
             {
               "amount": 4,
@@ -447406,7 +447406,7 @@
               "type": "atk",
               "effect": "damage",
               "spread": true,
-              "targeting": {"targets": ["enemies"], "priority": "Paralysis"}
+              "targeting": {"targets": ["enemies"], "stat": "Paralysis"}
             }
           ]
         }
@@ -447479,14 +447479,14 @@
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
             },
             {
               "attributes": ["Special CT"],
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -447607,7 +447607,7 @@
               "chance": 53,
               "duration": 10,
               "targeting": {"targets": ["Shooter"]},
-              "condition": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]
+              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
             },
             {
               "amount": 21,
