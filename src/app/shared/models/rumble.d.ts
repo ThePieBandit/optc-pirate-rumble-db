@@ -59,7 +59,7 @@ export type RechargeEffectType =  "Special CT" | "RCV" | "percentage" | "fixed";
 export type Direction = "forward" | "radial" | "sideways";
 export type Size = "large" | "small" | "medium";
 export type ConditionComparator = "above" | "below" | "remaining" | "first" | "after" | "more" | "less";
-export type ConditionType = "stat" | "time" | "crew" | "enemies" | "trigger" | "character" | "defeat" | "dmgreceived" | "special" | "action" | "attack" | "debuff" | "damage" | "hitreceived" | "dbfreceived" | "dmgdealt";
+export type ConditionType = "stat" | "time" | "crew" | "enemies" | "trigger" | "character" | "defeat" | "dmgreceived" | "special" | "action" | "attack" | "debuff" | "damage" | "hitreceived" | "dbfreceived" | "dmgdealt" | "mode" | "multi";
 export type TeamType  = "crew" | "enemy";
 export type Pattern = AttackPattern | HealPattern;
 export type Action = "attack" | "heal";
@@ -110,6 +110,8 @@ export interface Effect {
   defbypass?: boolean;
   repeat?: number;
   leader?: boolean;
+  spread?: boolean;
+  onArrival?: boolean;
 }
 export interface EffectOverride {
   override?: {
@@ -127,6 +129,7 @@ export interface Targeting {
   count?: number;
   priority?: TargetingPriority;
   stat?: Attribute;
+  swith?: string;
   targets: TargetElement[];
 }
 export interface Range {
@@ -143,6 +146,8 @@ export interface Condition {
   attack: PatternType;
   attribute: Attribute;
   action: string;
+  mode: string;
+  conditions: Condition[];
 }
 export interface AttackPattern {
   action: Action;
