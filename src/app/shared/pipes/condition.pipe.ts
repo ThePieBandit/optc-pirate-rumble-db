@@ -72,7 +72,7 @@ export class ConditionPipe implements PipeTransform {
       case 'mode':
         return `During ${condition.mode}`;
       case 'multi':
-        return `${orListFormatter.format(condition.conditions.map(this.transform))}}`;
+        return `${orListFormatter.format(condition.conditions.map(this.transform))}`;
       default:
         return 'UNKNOWN CONDITION ' + JSON.stringify(condition);
     }

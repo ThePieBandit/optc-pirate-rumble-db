@@ -55,13 +55,13 @@ export class EffectPipe implements PipeTransform {
             e += 'Deals Lv.' + effect.level + ' Damage Over Time';
             break;
           case 'atk':
-            e += 'Deals ' + numberFormatter.format(effect.amount) + 'x ATK in' + (effect.spread ? ' spread' : '') + 'damage';
+            e += 'Deals ' + numberFormatter.format(effect.amount) + 'x ATK in' + (effect.spread ? ' spread' : '') + ' damage';
             if (effect.defbypass) {
               e += ' that will ignore DEF'
             }
             break;
           case 'fixed':
-            e += 'Deals ' + numberFormatter.format(effect.amount) + ' fixed' + (effect.spread ? ' spread' : '') + 'damage';
+            e += 'Deals ' + numberFormatter.format(effect.amount) + ' fixed' + (effect.spread ? ' spread' : '') + ' damage';
             break;
           case 'cut':
             e += numberFormatter.format(effect.amount) + '% health cut';
@@ -131,6 +131,7 @@ export class EffectPipe implements PipeTransform {
             break;
           case 'Switch':
             boonMessage = 'switches';
+            break;
           default:
             boonMessage = `reduce ${boonEffects}`;
         }
