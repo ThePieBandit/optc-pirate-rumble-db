@@ -181483,13 +181483,13 @@ window.details = {
             }
         ]
     },
-    4986: {//Kung Fu Luffy
+    5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
         sailor: "Adds 3x character's ATK as Additional Damage",
         specialName: "Gum-Gum Giant Rifle: Kung Fu",
     },
-    4987: {//Kung Fu Luffy
+    5014: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
         sailor: {
@@ -181575,50 +181575,50 @@ window.details = {
             }
         ]
     },
-    4988:{//Log Vivi
+    5029:{//Log Vivi
         captain: "Boosts ATK of Slasher and Striker characters by 1.5x. Boosts EXP gained by 1.25x",
         special: "Reduces crew's current HP by 90%, deals 10% of enemies' current HP in True damage to one enemy, changes [STR], [DEX], [QCK], [PSY] and [INT] orbs of top and bottom row characters into Matching orbs and boosts Orb Effects of all characters by 1.75x for 2 turns. If your Captain is a Slasher or Striker character, removes enemies' End of Turn Damage/Percent Cut Buffs duration completely",
         specialName: "Peacock String Slasher",
         sailor: "Boosts base ATK of top row characters by 60",
     },
-    4989:{//Log Vivi
+    5030:{//Log Vivi
         captain: "Boosts ATK of Slasher and Striker characters by 1.75x and their RCV by 1.5x. Boosts EXP gained by 1.5x",
         special: "Reduces crew's current HP by 90%, deals 10% of enemies' current HP in True damage to one enemy, changes [STR], [DEX], [QCK], [PSY] and [INT] orbs of top and bottom row characters into Matching orbs and boosts Orb Effects of all characters by 1.75x for 2 turns. If your Captain is a Slasher or Striker character, removes enemies' End of Turn Damage/Percent Cut Buffs duration completely",
         specialName: "Peacock String Slasher",
         sailor: "Boosts base ATK of top row characters by 60",
     },
-    4990:{//Log Ace
+    5031:{//Log Ace
         captain: "Boosts ATK of Free Spirit and Powerhouse characters by 1.5x. Boosts Beli gained by 1.5x",
         special: "Reduces crew's current HP to 1, removes Poison duration completely, reduces Paralysis, Bind and Special Bind duration by 4 turns, recovers 7,000 HP at the end of the turn for 1 turn and changes [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs. If your Captain is a Free Spirit or Powerhouse character, reduces enemies' Threshold Damage Reduction duration by 5 turns.",
         specialName: "Flame Fence",
         sailor: "Reduces Special Bind duration by 3 turns on this character",
     },
-    4991:{//Log Ace
+    5032:{//Log Ace
         captain: "Boosts ATK of Free Spirit and Powerhouse characters by 1.75x and their HP by 1.5x. Boosts Beli gained by 2.5x",
         special: "Reduces crew's current HP to 1, removes Poison duration completely, reduces Paralysis, Bind and Special Bind duration by 4 turns, recovers 7,000 HP at the end of the turn for 1 turn and changes [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs. If your Captain is a Free Spirit or Powerhouse character, reduces enemies' Threshold Damage Reduction duration by 5 turns.",
         specialName: "Flame Fence",
         sailor: "Reduces Special Bind duration by 3 turns on this character",
     },
-    4992: {//Pudding
+    5046: {//Pudding
         captain: "Boosts ATK of Cerebral characters by 1.75x",
         special: "Recovers 7,000 HP, reduces ATK DOWN duration by 5 turns and reduces enemies' Resilience Buffs duration by 5 turns and changes orbs of adjacent characters into Matching Orbs",
         specialName: "Eyes Hiding Shyness",
         sailor: "Reduces Paralysis duration by 1 turn",
     },
-    4993: {//Pudding
+    5047: {//Pudding
         captain: "Boosts ATK of Cerebral characters by 2.25x and their RCV by 1.2x",
         special: "Recovers 7,000 HP, reduces ATK DOWN duration by 5 turns and reduces enemies' Resilience Buffs duration by 5 turns and changes orbs of adjacent characters into Matching Orbs",
         specialName: "Eyes Hiding Shyness",
         sailor: "Reduces Paralysis duration by 1 turn",
     },
-    4994: {//EX Coby
+    5054: {//EX Coby
         captain: "Boosts ATK of Fighter characters by 1.5x, reduces damage received by 0%-10% depending on the crew's current HP",
         specialName: "Pleading at the Risk of One's Life [EX]",
         special: "Locks all orbs for 1 turn and changes orbs of adjacent characters into [STR] orbs. If the special is activated with more than 50% health remaining, protects from defeat for 1 turn",
         specialNotes: "#{zombie}",
         sailor: "Boosts base ATK, HP and RCV of all characters by 50",
     },
-    4995: {//EX Coby
+    5055: {//EX Coby
         captain: "Boosts ATK of Fighter characters by 2x, reduces damage received by 0%-30% depending on the crew's current HP",
         specialName: "Pleading at the Risk of One's Life [EX]",
         special: "Locks all orbs for 1 turn and changes orbs of adjacent characters into [STR] orbs. If the special is activated with more than 50% health remaining, protects from defeat for 1 turn",
@@ -181679,7 +181679,7 @@ window.details = {
             }
         ]
     },
-    4996: {//EX Helmeppo
+    5056: {//EX Helmeppo
         special: "Reduces Bind duration by 3 turns",
         specialName: "Tempered Kukris [EX]",
         captain: "Boosts ATK and HP of Driven characters by 1.5x",
