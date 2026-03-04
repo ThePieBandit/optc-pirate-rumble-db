@@ -369255,30 +369255,30 @@
           "effects": [
             {
               "attributes": ["ATK", "SPD"],
+              "effect": "buff",
               "level": 3,
               "duration": 20,
-              "effect": "buff",
               "targeting": {"targets": ["[DEX]"]}
             },
             {
               "attributes": ["DEF"],
+              "effect": "buff",
               "level": 1,
               "duration": 20,
-              "effect": "buff",
               "targeting": {"targets": ["[DEX]"]}
             },
             {
               "amount": 10,
               "effect": "recharge",
               "type": "Special CT",
-              "targeting": {"targets": ["[DEX]"], "excludes": ["self"], "count": 3, "priority": "lowest", "stat": "Special CT"}
+              "targeting": {"count": 3, "targets": ["crew"], "excludes": ["self"], "priority": "lowest", "stat": "Special CT"}
             },
             {
               "attributes": ["Shield"],
+              "effect": "buff",
               "level": 1,
               "duration": 20,
-              "effect": "buff",
-              "targeting": {"targets": ["[DEX]"], "excludes": ["self"], "count": 3, "priority": "lowest", "stat": "Special CT"}
+              "targeting": {"count": 3, "targets": ["crew"], "excludes": ["self"], "priority": "lowest", "stat": "Special CT"}
             }
           ]
         },
@@ -369428,16 +369428,16 @@
           "effects": [
             {
               "attributes": ["ATK", "SPD"],
+              "effect": "buff",
               "level": 10,
               "duration": 30,
-              "effect": "buff",
               "targeting": {"targets": ["[DEX]"]}
             },
             {
               "attributes": ["DEF"],
+              "effect": "buff",
               "level": 6,
               "duration": 30,
-              "effect": "buff",
               "targeting": {"targets": ["[DEX]"]}
             },
             {
@@ -369448,9 +369448,9 @@
             },
             {
               "attributes": ["Shield"],
+              "effect": "buff",
               "level": 5,
               "duration": 30,
-              "effect": "buff",
               "targeting": {"targets": ["crew"]}
             },
             {
@@ -369472,16 +369472,16 @@
           "effects": [
             {
               "attributes": ["ATK", "SPD"],
+              "effect": "buff",
               "level": 10,
               "duration": 30,
-              "effect": "buff",
               "targeting": {"targets": ["[DEX]"]}
             },
             {
               "attributes": ["DEF"],
+              "effect": "buff",
               "level": 6,
               "duration": 30,
-              "effect": "buff",
               "targeting": {"targets": ["[DEX]"]}
             },
             {
@@ -369492,9 +369492,9 @@
             },
             {
               "attributes": ["Shield"],
+              "effect": "buff",
               "level": 5,
               "duration": 30,
-              "effect": "buff",
               "targeting": {"targets": ["crew"]}
             },
             {
@@ -369523,14 +369523,14 @@
           "effects": [
             {
               "attributes": ["ATK"],
-              "level": 1,
               "effect": "buff",
+              "level": 1,
               "targeting": {"targets": ["crew"]}
             },
             {
               "attributes": ["HP", "SPD"],
-              "level": 1,
               "effect": "buff",
+              "level": 1,
               "targeting": {"targets": ["crew"]}
             }
           ]
@@ -369580,8 +369580,8 @@
           "effects": [
             {
               "amount": 500,
-              "effect": "damage",
               "type": "fixed",
+              "effect": "damage",
               "targeting": {"targets": ["enemies"]}
             }
           ]
@@ -369621,9 +369621,9 @@
       ],
       "gpcondition": [
         {
-          "count": 2,
           "type": "defeat",
-          "team": "crew"
+          "team": "crew",
+          "count": 2
         }
       ],
       "pattern": [

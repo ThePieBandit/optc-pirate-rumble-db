@@ -75172,13 +75172,13 @@ window.details = {
         ],
         support: [
             {
-                Characters: "Roronoa Zoro, Nami, Usopp, Vinsmoke Sanji, Tony Tony Chopper, Nico Robin, Franky and Brook",
+                Characters: "All characters",
                 description: [
-                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special."
                 ]
             }
         ]
@@ -75276,13 +75276,13 @@ window.details = {
         ],
         support: [
             {
-                Characters: "Monkey D. Luffy, Nami, Usopp, Vinsmoke Sanji, Tony Tony Chopper, Nico Robin, Franky and Brook",
+                Characters: "All characters",
                 description: [
-                    "Reduces damage received from [INT] characters by 1%. Adds 1% of this character's base ATK to the supported character's base ATK",
-                    "Reduces damage received from [INT] characters by 1%. Adds 2% of this character's base ATK to the supported character's base ATK",
-                    "Reduces damage received from [INT] characters by 2%. Adds 3% of this character's base ATK to the supported character's base ATK",
-                    "Reduces damage received from [INT] characters by 2%. Adds 5% of this character's base ATK to the supported character's base ATK",
-                    "Reduces damage received from [INT] characters by 3%. Adds 7% of this character's base ATK to the supported character's base ATK"
+                    "Reduces damage received from [INT] characters by 1%. Adds 1% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 1%. Adds 2% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 2%. Adds 3% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 2%. Adds 5% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 3%. Adds 7% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ]
@@ -75404,13 +75404,13 @@ window.details = {
         ],
         support: [
             {
-                Characters: "Monkey D. Luffy, Roronoa Zoro, Usopp, Vinsmoke Sanji, Tony Tony Chopper, Nico Robin, Franky and Brook",
+                Characters: "All characters",
                 description: [
-                    "Reduces damage received from [INT] characters by 1%.",
-                    "Reduces damage received from [INT] characters by 2%.",
-                    "Reduces damage received from [INT] characters by 3%.",
-                    "Reduces damage received from [INT] characters by 4%.",
-                    "Reduces damage received from [INT] characters by 5%."
+                    "Reduces damage received from [INT] characters by 1%. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 2%. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 3%. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 4%. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 5%. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Special."
                 ]
             }
         ]
@@ -75508,13 +75508,13 @@ window.details = {
         ],
         support: [
             {
-                Characters: "Monkey D. Luffy, Roronoa Zoro, Nami, Vinsmoke Sanji, Tony Tony Chopper, Nico Robin, Franky and Brook",
+                Characters: "All characters",
                 description: [
-                    "Adds 4% of this character's base HP and RCV to the supported character's base HP and RCV.",
-                    "Adds 5% of this character's base HP and RCV to the supported character's base HP and RCV.",
-                    "Adds 6% of this character's base HP and RCV to the supported character's base HP and RCV.",
-                    "Adds 8% of this character's base HP and RCV to the supported character's base HP and RCV.",
-                    "Adds 10% of this character's base HP and RCV to the supported character's base HP and RCV."
+                    "Adds 4% of this character's base HP and RCV to the supported character's base HP and RCV. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Special.",
+                    "Adds 5% of this character's base HP and RCV to the supported character's base HP and RCV. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Special.",
+                    "Adds 6% of this character's base HP and RCV to the supported character's base HP and RCV. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Special.",
+                    "Adds 8% of this character's base HP and RCV to the supported character's base HP and RCV. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Special.",
+                    "Adds 10% of this character's base HP and RCV to the supported character's base HP and RCV. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Special."
                 ]
             }
         ]
@@ -75612,13 +75612,13 @@ window.details = {
         ],
         support: [
             {
-                Characters: "Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Tony Tony Chopper, Nico Robin, Franky and Brook",
+                Characters: "All characters",
                 description: [
-                    "Adds 3% of this character's base ATK to the supported character's base ATK.",
-                    "Adds 4% of this character's base ATK to the supported character's base ATK.",
-                    "Adds 5% of this character's base ATK to the supported character's base ATK.",
-                    "Adds 7% of this character's base ATK to the supported character's base ATK.",
-                    "Adds 9% of this character's base ATK to the supported character's base ATK."
+                    "Adds 3% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Special.",
+                    "Adds 4% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Special.",
+                    "Adds 5% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Special.",
+                    "Adds 7% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Special.",
+                    "Adds 9% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Special."
                 ]
             }
         ]
@@ -75740,13 +75740,13 @@ window.details = {
         ],
         support: [
             {
-                Characters: "Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Vinsmoke Sanji, Nico Robin, Franky and Brook",
+                Characters: "All characters",
                 description: [
-                    "Adds 5% of this character's base RCV to the supported character's base RCV.",
-                    "Adds 6% of this character's base RCV to the supported character's base RCV.",
-                    "Adds 8% of this character's base RCV to the supported character's base RCV.",
-                    "Adds 10% of this character's base RCV to the supported character's base RCV.",
-                    "Adds 13% of this character's base RCV to the supported character's base RCV."
+                    "Adds 5% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Adds 6% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Adds 8% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Adds 10% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Adds 13% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ]
@@ -75841,13 +75841,13 @@ window.details = {
         ],
         support: [
             {
-                Characters: "Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Vinsmoke Sanji, Tony Tony Chopper, Franky and Brook",
+                Characters: "All characters",
                 description: [
-                    "Reduces damage received from [INT] characters by 1%. Adds 3% of this character's base HP to the supported character's base HP",
-                    "Reduces damage received from [INT] characters by 1%. Adds 4% of this character's base HP to the supported character's base HP",
-                    "Reduces damage received from [INT] characters by 2%. Adds 6% of this character's base HP to the supported character's base HP",
-                    "Reduces damage received from [INT] characters by 2%. Adds 8% of this character's base HP to the supported character's base HP",
-                    "Reduces damage received from [INT] characters by 3%. Adds 11% of this character's base HP to the supported character's base HP"
+                    "Reduces damage received from [INT] characters by 1%. Adds 3% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 1%. Adds 4% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 2%. Adds 6% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 2%. Adds 8% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special.",
+                    "Reduces damage received from [INT] characters by 3%. Adds 11% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ]
@@ -75942,13 +75942,13 @@ window.details = {
         ],
         support: [
             {
-                Characters: "Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Vinsmoke Sanji, Tony Tony Chopper, Nico Robin and Brook",
+                Characters: "All characters",
                 description: [
-                    "Adds 5% of this character's base HP to the supported character's base HP",
-                    "Adds 6% of this character's base HP to the supported character's base HP",
-                    "Adds 8% of this character's base HP to the supported character's base HP",
-                    "Adds 10% of this character's base HP to the supported character's base HP",
-                    "Adds 13% of this character's base HP to the supported character's base HP"
+                    "Adds 5% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special.",
+                    "Adds 6% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special.",
+                    "Adds 8% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special.",
+                    "Adds 10% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special.",
+                    "Adds 13% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 3rd stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ]
@@ -76043,13 +76043,13 @@ window.details = {
         ],
         support: [
             {
-                Characters: "Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Vinsmoke Sanji, Tony Tony Chopper, Nico Robin and Franky",
+                Characters: "All characters",
                 description: [
-                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> Supported character is more likely to hit PERFECTs. When you reach the final stage, activates supported character's Special.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> Supported character is more likely to hit PERFECTs. When you reach the final stage, activates supported character's Special.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> Supported character is more likely to hit PERFECTs. When you reach the final stage, activates supported character's Special.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> Supported character is more likely to hit PERFECTs. When you reach the final stage, activates supported character's Special.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> Supported character is more likely to hit PERFECTs. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ]
@@ -132906,13 +132906,13 @@ window.details = {
         ],
         support: [
             {
-                Characters: "Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Vinsmoke Sanji, Tony Tony Chopper, Nico Robin, Franky and Brook",
+                Characters: "All characters",
                 description: [
-                    "Adds 5% of this character's base HP to the supported character's base HP",
-                    "Adds 6% of this character's base HP to the supported character's base HP",
-                    "Adds 8% of this character's base HP to the supported character's base HP",
-                    "Adds 10% of this character's base HP to the supported character's base HP",
-                    "Adds 13% of this character's base HP to the supported character's base HP"
+                    "Adds 5% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> Does not activate supported character's Special.",
+                    "Adds 6% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> Does not activate supported character's Special.",
+                    "Adds 8% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> Does not activate supported character's Special.",
+                    "Adds 10% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> Does not activate supported character's Special.",
+                    "Adds 13% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> Does not activate supported character's Special."
                 ]
             }
         ]
@@ -133086,13 +133086,13 @@ window.details = {
         ],
         support: [
             {
-                Characters: "Roronoa Zoro, Nami, Usopp, Vinsmoke Sanji, Tony Tony Chopper, Nico Robin, Franky and Brook",
+                Characters: "All characters",
                 description: [
-                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
-                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special."
                 ]
             }
         ]
@@ -181419,7 +181419,7 @@ window.details = {
                     "Adds 4% of this character's base ATK to the supported character's base ATK.",
                     "Adds 5% of this character's base ATK to the supported character's base ATK.",
                     "Adds 6% of this character's base ATK to the supported character's base ATK.",
-                    "Adds 8% of this character's base ATK to the supported character's base ATK.<br><b>AUTO+:</b> When you reach the 4th stage, activates supported character's switch effect. When you reach the final stage, activates supported character's special."
+                    "Adds 8% of this character's base ATK to the supported character's base ATK. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
