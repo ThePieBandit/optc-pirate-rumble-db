@@ -181483,6 +181483,111 @@ window.details = {
             }
         ]
     },
+    4528: {//Prince Grus
+        captain: "Launches the following effect at start of fight: reduces damage received by 100% for 1 attack. Boosts ATK of [DEX], Powerhouse and Fighter characters by 5x, by 5.25x instead if they have a beneficial orb, boosts HP of [DEX], Powerhouse and Fighter characters by 1.4x, makes [DEX] and [RCV] orbs beneficial for all characters, and reduces damage received by 20%. If your crew has 3+ [SWORD] characters, boosts ATK of [DEX] characters by 5.5x, by 5.775x instead if they have a beneficial orb.",
+        special: "Reduces damage received by 80% for 3 turns, reduces enemies' End of Turn Damage and Enrage duration by 20 turns, changes all orbs, including [BLOCK] orbs, into [DEX] orbs, and boosts ATK of all characters by 3.25x for 3 turns. If during that turn you score 3 PERFECT hits, boosts ATK against enemies with reduced defense by 2.25x for 1 turn in the following turn. If your crew has 3+ [SWORD] characters, allows crew to stack 2 different Status ATK Boost buffs for 3 turns, and recovers 8,000 HP at the end of the turn for 10 turns.",
+        specialName: "Battleship-Protecting Glorp Web",
+        sailor: {
+            base: "This character cannot be Blown Away.",
+            level1: "If this character is the last in the chain to attack, boosts base ATK of this character by 500. If field has Territory: Any Type, boosts base ATK of [DEX] characters by 150."
+        },
+        support: [
+            {
+                Characters: "[SWORD] characters",
+                description: [
+                    "Reduces damage received from [QCK] characters by 1%. Adds 3% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [QCK] characters by 2%. Adds 6% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [QCK] characters by 3%. Adds 9% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [QCK] characters by 4%. Adds 12% of this character's base HP to the supported character's base HP.",
+                    "Reduces damage received from [QCK] characters by 5%. Adds 15% of this character's base HP to the supported character's base HP."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 40",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 40",
+            "Acquire Potential 1: [QCK] Damage Reduction",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Enrage/Increase Damage Taken",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 70",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 80",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Boosts character's base ATK by 500 when attacking last out of all available characters, and if field has any applicable type Territory for the crew, boosts [DEX] characters' base ATK by 150",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire Potential 3: Last Tap",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 50"
+        ],
+        potential: [
+            {
+                Name: "[QCK] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [QCK] characters by 2%",
+                    "Reduces damage taken from [QCK] characters by 3%",
+                    "Reduces damage taken from [QCK] characters by 4%",
+                    "Reduces damage taken from [QCK] characters by 5%",
+                    "Reduces damage taken from [QCK] characters by 7%"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "On the last stage",
+            description: [
+                "Boosts base ATK of this character by 750 for 1 turn.",
+                "Boosts base ATK of this character by 1,000 for 1 turn.",
+                "Boosts base ATK of this character by 1,250 for 1 turn.",
+                "Boosts base ATK of this character by 1,500 for 1 turn.",
+                "Increases Orb Effects of beneficial [DEX] orbs to 3.0x for 1 turn, and boosts base ATK of this character by 1,750 for 1 turn."
+            ]
+        }
+    },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
