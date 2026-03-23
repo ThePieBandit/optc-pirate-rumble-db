@@ -181934,24 +181934,24 @@ window.details = {
         ]
     },
     4532: {//Doc Q & Strongheart
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts [QCK] and [INT] characters' ATK by 4x, HP by 1.35x, makes their [QCK][INT][BOMB] slots have matching slot effects, and boosts their ATK by a further 1.5x after characters attack at GOOD or better in the order of [INT], [QCK], [INT] without breaking the chain. If \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Shiryu\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Van Ogre\", or \"Kuzan (Aokiji)\" is a crewmate and uses a Special, boosts the ATK of the next final tap performed by crew by 25% (up to 4 times per quest; similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] characters are on the crew, reduces crew's Despair duration by 10 turns, and makes [BOMB][S. BOMB] slots deal 0 damage to crew",
-        special: "Reduces all enemies' Resilience duration by 6 turns, reduces crew's ATK Down duration by 6 turns, boosts [QCK] and [INT] characters' base ATK by +1750 for 1 turn, and changes crew's slots (including [BLOCK] slots) to [BOMB]. If crew's HP is 30% or below when Special is launched and 3 or more [Blackbeard Pirates] characters are on the crew, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.3x if enemy has Increase Damage Taken) to all enemies for 1 turn (ignoring immunity to status effects). If an [INT] is set as Support for character, applies 50% damage reduction to enemies for 3 turns (this effect is treated as an activation of damage reduction effect) and reduces damage taken by 80% for 1 turn. If a [QCK] is set as Support for character, boosts the chain multiplier by +1.4 for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [QCK] and [INT] characters by 4x, by 6x instead following a chain of [INT] > [QCK] > [INT] attacks no lower than GOOD, boosts HP of [QCK] and [INT] characters by 1.35x, and makes [QCK], [INT] and [BOMB] orbs beneficial for [QCK] and [INT] characters. Up to 4 times per adventure, when Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Van Ogre or Kuzan (Aokiji) uses a special as crewmate, boosts Final Tap ATK of all characters by 25%. If your crew has 3+ [Blackbeard Pirates] characters, reduces Despair duration by 10 turns, and [BOMB] and [SUPERBOMB] orbs will deal 100% less damage to the crew.",
+        special: "Reduces enemies' Resilience duration by 6 turns, reduces ATK Down duration by 6 turns, boosts Base ATK of [QCK] and [INT] characters by 1,750 for 1 turn, and changes all orbs, including [BLOCK] orbs, into [BOMB] orbs. If HP is below 30% when the special is activated and your crew has 3+ [Blackbeard Pirates] characters, ignores Debuff Protection and inflicts all enemies with Weaken by 1.5x, by 1.95x if enemies are inflicted with Increase Damage Taken, for 1 turn. If an [INT] character is supporting this character, reduces enemies' damage received by 50% for 3 turns, and reduces damage received by 80% for 1 turn. If a [QCK] character is supporting this character, adds 1.4x to chain multiplier for 1 turn.",
         specialName: "Red Fruit Bombardment",
         sailor: {
-            base: "Boosts crew's base ATK by 75, amd makes [RCV][BOMB] slots have matching slot effects",
-            level1: "Reduces character's Special Bind duration by 6 turns, and when remaining HP is 30% or below, boosts character's base ATK by 600"
+            base: "Boosts base ATK of all characters by 75, and makes [RCV] and [BOMB] orbs beneficial for all characters.",
+            level1: "Reduces Special Bind duration by 6 turns on this character. If HP is below 30%, boosts base ATK of this character by 600."
         },
-        superSpecialCriteria: "When any 2 [Blackbeard Pirates] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
-        superSpecial: "Reduces [QCK] and [INT] characters' Special charge time by 2 turns, reduces damage taken by 80% for 1 turn, changes crew's ATK multiplier of [QCK][BOMB] slots to 3x when slots match (normally 2x when matching) 0.5x when unfavorable, 1.0x otherwise for 1 turn, allows crew to perform Super Tandem with [RCV][BOMB] slots for 2 turns, and changes Free Spirit characters to Super Free Spirit",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: [Blackbeard Pirates] characters",
+        superSpecial: "Reduces Special Cooldown of [QCK] and [INT] characters by 2 turns, reduces damage received by 80% for 1 turn, increases Orb Effects of beneficial [QCK] and [BOMB] orbs to 3x for 1 turn, allows crew to perform Super Tandem with [RCV] and [BOMB] orbs for 2 turns, and transforms Free Spirit characters into Super Free Spirit characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Blackbeard Pirates]",
+                Characters: "[Blackbeard Pirates] characters",
                 description: [
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 3 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 3 turns."
                 ]
             }
         ],
@@ -182030,35 +182030,35 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "At final battle, when crew's HP is at 30% or below and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Van Ogre, Kuzan (Aokiji)",
+            condition: "On the last stage. When HP is below 30% and your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Shiryu, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Van Ogre, Kuzan (Aokiji)",
             description: [
-                "Adds 0.2x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 0.4x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 0.6x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 0.8x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 1.0x of damage dealt by normal attacks of other characters this turn on top of the final damage"
+                "Adds 0.2x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 0.4x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 0.6x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 0.8x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 1.0x of damage dealt by normal attacks of other characters this turn on top of the final damage."
             ]
         }
     },
     4533: {//Jesus Burgess
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Driven and Fighter characters' HP by 1.4x, ATK by 3.5x, makes their [INT] slots have matching slot effects, reduces damage taken by 15%, and boosts character's ATK by 4.2x in turns where \"Throw of Monstrous Might\" is used",
-        special: "Cuts crew's HP by 90%, but deals 50x the HP lost in non-type damage to all enemies, and reduces crew's decrease chain multiplier growth/Burn and Bleed duration by 6 turns. If enemy is immune to status effects (not including partial immunity) or enemy has Increase Damage Taken status when Special is launched, boosts Driven and Fighter characters' ATK by 2.5x for 3 turns, then after that, increases all enemies' damage taken by 2.25x for 1 turn. If 3 or more [Blackbeard Pirates] characters are on the crew, activates HP Guard of 75% effect for 1 turn, and sets the chain multiplier's minimum value at 2.25 and maximum value at 15.0 for 1 turn",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Driven and Fighter characters by 3.5x, boosts HP of Driven and Fighter characters by 1.4x, makes [INT] orbs beneficial for Driven and Fighter characters, and reduces damage received by 15%. If you use \"Throw of Monstrous Might\", boosts ATK of this character by 4.2x in this turn instead.",
+        special: "Reduces crew's current HP by 90%, deals 50x the amount of HP subtracted in Typeless damage to all enemies, reduces Chain Coefficient Reduction, Burn and Bleed duration by 6 turns, and inflicts all enemies with Increase Damage Taken by 2.25x for 1 turn. If enemies have Full Immunity or Increase Damage Taken when the special is activated, boosts ATK of Driven and Fighter characters by 2.5x for 3 turns. If your crew has 3+ [Blackbeard Pirates] characters, activates HP Guard of 75% effect for 1 turn, and sets Chain Boundaries to 2.25x and 15.0x for 1 turn.",
         specialName: "Throw of Monstrous Might",
         sailor: {
-            base: "Makes character immune to Stun",
-            level1: "Boosts Driven and Fighter characters' base ATK by 100, and makes their [INT] slots have matching slot effects"
+            base: "Removes Stun duration completely on this character.",
+            level1: "Boosts base ATK of Driven and Fighter characters by 100, and makes [INT] orbs beneficial for Driven and Fighter characters."
         },
-        superSpecialCriteria: "When any 2 [Blackbeard Pirates] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
-        superSpecial: "Heals 50% of crew's maximum HP, and changes [INT] characters to Super [INT]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: [Blackbeard Pirates] characters",
+        superSpecial: "Recovers 50% of crew's MAX HP, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Blackbeard Pirates]",
+                Characters: "[Blackbeard Pirates] characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 10% of character's base stats to supported character's base stats"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -182103,42 +182103,42 @@ window.details = {
         ]
     },
     4534: {//Van Ogre
-        captain: "Boosts Shooter and Driven characters' ATK by 3.75x and RCV by 1.2x",
-        special: "Reduces all enemies' DEF Up duration by 4 turns, and reduces crew's Special Bind duration by 4 turns. If crew's HP is 30% or below when Special is launched and 3 or more [Blackbeard Pirates] characters are on the crew, boosts Shooter and Driven characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.4x) for 1 turn",
+        captain: "Boosts ATK of Shooter and Driven characters by 3.75x, and boosts RCV of Shooter and Driven characters by 1.2x.",
+        special: "Reduces enemies' Increased Defense duration by 4 turns, and reduces Special Bind duration by 4 turns. If HP is below 30% when the special is activated and your crew has 3+ [Blackbeard Pirates] characters, boosts Crew Damage Reduction to ATK of Shooter and Driven characters by 1x-1.5x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn.",
         specialName: "Stepping Foot on Hostile Ground",
-        sailor: "Reduces the duration of Remove SFX by 3 turns",
+        sailor: "Reduces Blindness duration by 3 turns.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Blackbeard Pirates]",
+                Characters: "[Blackbeard Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to boost ATK or apply additive chain multiplier boost (except multiplicative boosts), reduces crew's ATK Down duration by 1 turn, reduces all enemies' DEF Up duration by 1 turn, and applies 40% damage reduction to enemies for 6 turns (this effect is treated as an activation of damage reduction effect)",
-                    "Once per quest, if supported character uses a Special to boost ATK or apply additive chain multiplier boost (except multiplicative boosts), reduces crew's ATK Down duration by 1 turn, reduces all enemies' DEF Up duration by 1 turn, and applies 40% damage reduction to enemies for 6 turns (this effect is treated as an activation of damage reduction effect)",
-                    "Once per quest, if supported character uses a Special to boost ATK or apply additive chain multiplier boost (except multiplicative boosts), reduces crew's ATK Down duration by 2 turns, reduces all enemies' DEF Up duration by 2 turns, and applies 40% damage reduction to enemies for 6 turns (this effect is treated as an activation of damage reduction effect)",
-                    "Once per quest, if supported character uses a Special to boost ATK or apply additive chain multiplier boost (except multiplicative boosts), reduces crew's ATK Down duration by 2 turns, reduces all enemies' DEF Up duration by 2 turns, applies -10% [QCK] and [INT] Resistance to all enemies for 1 turn, and applies 40% damage reduction to enemies for 6 turns (this effect is treated as an activation of damage reduction effect)",
-                    "Once per quest, if supported character uses a Special to boost ATK or apply additive chain multiplier boost (except multiplicative boosts), reduces crew's ATK Down duration by 3 turns, reduces all enemies' DEF Up duration by 3 turns, applies -10% [QCK] and [INT] Resistance to all enemies for 1 turn, and applies 40% damage reduction to enemies for 6 turns (this effect is treated as an activation of damage reduction effect) [AUTO+] At battle 2, activates supported character's Super Effect"
+                    "Once per adventure, when the supported character uses an ATK Up or Chain Addition special, reduces ATK Down duration by 1 turn, reduces enemies' Increased Defense duration by 1 turn, and reduces enemies' damage received by 40% for 6 turns.",
+                    "Once per adventure, when the supported character uses an ATK Up or Chain Addition special, reduces ATK Down duration by 1 turn, reduces enemies' Increased Defense duration by 1 turn, and reduces enemies' damage received by 40% for 6 turns.",
+                    "Once per adventure, when the supported character uses an ATK Up or Chain Addition special, reduces ATK Down duration by 2 turns, reduces enemies' Increased Defense duration by 2 turns, and reduces enemies' damage received by 40% for 6 turns.",
+                    "Once per adventure, when the supported character uses an ATK Up or Chain Addition special, reduces ATK Down duration by 2 turns, reduces enemies' Increased Defense duration by 2 turns, reduces enemies' [QCK] and [INT] resistance by -10% for 1 turn, and reduces enemies' damage received by 40% for 6 turns.",
+                    "Once per adventure, when the supported character uses an ATK Up or Chain Addition special, reduces ATK Down duration by 3 turns, reduces enemies' Increased Defense duration by 3 turns, reduces enemies' [QCK] and [INT] resistance by -10% for 1 turn, and reduces enemies' damage received by 40% for 6 turns. <b>[AUTO+]</b> When you reach the 2nd stage, activates supported character's Super Effect."
                 ]
             }
         ]
     },
     4535: {//Smoker
-        captain: "Reduces [QCK] characters' Special charge time by 1 turn and VS Effect gauge and Switch Effect by 1 at start of quest, boosts [QCK] characters' ATK by 4.5x, HP by 1.3x, and boosts their ATK further for every PERFECT strike in a row (up to approximately 5.5x) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Navy] characters are on the crew and crew uses a Special to boost ATK or slot effects, extends the duration of that effect by 2 turns",
-        special: "Deals 150x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), reduces crew's Burn/ATK Down duration by 6 turns, makes crew immune to Burn/ATK Down for 5 turns, and if crew has ATK Up status when Special is launched, boosts [QCK] characters' slot effects by 2.75x for 1 turn (boosts their ATK by 3x for 1 turn otherwise)",
+        captain: "Reduces Special Cooldown of [QCK] characters by 1 turn and reduces VS Gauge and Switch Effect of [QCK] characters by 1 at the start of the fight, boosts ATK of [QCK] characters by 4.5x-5.5x, by an additive 0.2x after each PERFECT in a row, and boosts HP of [QCK] characters by 1.3x. If your crew has 3+ [Navy] characters, increases duration of any ATK Up and Orb Amplification buffs applied by specials by 2 turns.",
+        special: "Deals 150x character's ATK in Typeless Fixed True damage to one enemy, reduces Burn and ATK Down duration by 6 turns, and applies Burn and ATK Down Immunity for 5 turns. If your crew has ATK Up when the special is activated, boosts Orb Effects of [QCK] characters by 2.75x for 1 turn; boosts ATK of [QCK] characters by 3x for 1 turn otherwise.",
         specialName: "Rushing to the Objective",
         sailor: {
-            level1: "Character cannot be blown away by attack",
-            level2: "Makes crew's [QCK] slots have matching slot effects"
+            level1: "This character cannot be Blown Away.",
+            level2: "Makes [QCK] orbs beneficial for all characters."
         },
-        superSpecialCriteria: "When crew's ATK or slot effects are boosted (can be launched when character is a crewmate)",
-        superSpecial: "Extends the duration of crew's ATK and slot effect boosts by 1 turn, further increases the boost by +0.25, and changes [QCK] characters to Super [QCK]",
+        superSpecialCriteria: "Can be launched as crewmate. If your crew has an ATK UP or Orb Amplification buff",
+        superSpecial: "Increases duration of any ATK Up and Orb Amplification buffs by 1 turn, increases boost effects of ATK Up and Orb Amplification buffs by +0.25x, and transforms [QCK] characters into Super [QCK] characters.",
         support: [
             {
                 Characters: "[QCK] characters",
                 description: [
-                    "Once per quest, if supported character uses a damage dealing or HP reducing Special, boosts [QCK] characters' ATK by 1.5x for 1 turn",
-                    "Once per quest, if supported character uses a damage dealing or HP reducing Special, boosts [QCK] characters' ATK by 1.55x for 1 turn",
-                    "Once per quest, if supported character uses a damage dealing or HP reducing Special, boosts [QCK] characters' ATK by 1.6x for 1 turn",
-                    "Once per quest, if supported character uses a damage dealing or HP reducing Special, boosts [QCK] characters' ATK by 1.65x for 1 turn",
-                    "Once per quest, if supported character uses a damage dealing or HP reducing Special, boosts [QCK] characters' ATK by 1.75x for 1 turn"
+                    "Once per adventure, when the supported character uses a Damage Dealing or Health Cutting special, boosts ATK of [QCK] characters by 1.5x for 1 turn.",
+                    "Once per adventure, when the supported character uses a Damage Dealing or Health Cutting special, boosts ATK of [QCK] characters by 1.55x for 1 turn.",
+                    "Once per adventure, when the supported character uses a Damage Dealing or Health Cutting special, boosts ATK of [QCK] characters by 1.6x for 1 turn.",
+                    "Once per adventure, when the supported character uses a Damage Dealing or Health Cutting special, boosts ATK of [QCK] characters by 1.65x for 1 turn.",
+                    "Once per adventure, when the supported character uses a Damage Dealing or Health Cutting special, boosts ATK of [QCK] characters by 1.75x for 1 turn."
                 ]
             }
         ],
@@ -182191,7 +182191,7 @@ window.details = {
             },
             {
                 captain: {
-                    base: "Reduces [QCK] and [DEX] characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts [QCK] and [DEX] characters' ATK by 4.5x, HP by 1.3x, and boosts their ATK further for every PERFECT strike in a row (up to approximately 5.75x) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Navy] characters are on the crew and crew uses a Special to boost ATK or slot effects, extends the duration of that effect by 2 turns, and further increases the boost by 1.2x (up to a maximum 8x, cannot be further increased)"
+                    base: "Reduces Special Cooldown of [DEX] and [QCK] characters by 2 turns and reduces VS Gauge and Switch Effect of [DEX] and [QCK] characters by 2 at the start of the fight, boosts ATK of [DEX] and [QCK] characters by 4.5x-5.75x, by an additive 0.25x after each PERFECT in a row, and boosts HP of [DEX] and [QCK] characters by 1.3x. If your crew has 3+ [Navy] characters, increases duration of any ATK Up and Orb Amplification buffs applied by specials by 2 turns, and increases boost effects of ATK Up and Orb Amplification buffs applied by specials by 1.2x (up to 8x)."
                 }
             },
             {
@@ -182199,7 +182199,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Deals 200x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF), reduces crew's Burn/ATK Down duration by 6 turns, makes crew immune to Burn/ATK Down for 5 turns, and if crew has ATK Up status when Special is launched, boosts [QCK] and [DEX] characters' slot effects by 2.75x for 1 turn, then after that, boosts [QCK] and [DEX] characters' ATK by 3.25x for 1 turn. If 3 or more [Navy] characters are on the crew, extends the duration of crew's ATK and slot effects boosts by 1 turn (this effect also applies to ATK and slot effect boosts from this Special)"
+                    base: "Deals 200x character's ATK in Typeless Fixed True damage to one enemy, reduces Burn and ATK Down duration by 6 turns, applies Burn and ATK Down Immunity for 5 turns, and boosts ATK of [DEX] and [QCK] characters by 3.25x for 1 turn. If your crew has ATK Up when the special is activated, boosts Orb Effects of [DEX] and [QCK] characters by 2.75x for 1 turn. If your crew has 3+ [Navy] characters, increases duration of any ATK Up and Orb Amplification buffs by 1 turn, including effects activated in the same ability."
                 },
                 rResilience: true
             }
