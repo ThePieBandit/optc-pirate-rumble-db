@@ -182237,6 +182237,774 @@ window.details = {
             }
         ]
     },
+    4536: {//Usopp & Dorry
+        captain: "Reduces [STR] and [DEX] characters' Special charge time by 2 turns at start of quest, reduces Free Spirit characters' Special charge time a further 1 turn, boosts [STR], [DEX], and Free Spirit characters' ATK by 5x, HP by 1.3x, boosts their ATK by 5.5x in turns where \"Coordinated Giant Arm and Sniping\" is used, and makes crew's [DEX][RCV] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If a [Straw Hat Pirates] [Giant] [Four Emperors] crewmate uses a Special, reduces character's Special charge time by 5 turns (up to 3 times per quest). If 3 or more [Straw Hat Pirates] [Giant] [Four Emperors] characters are on the crew, boosts Free Spirit characters' ATK by a further 1.1x, and for any character on the crew with Barrier Pierce as a Potential Ability and meets the requirements for it to activate, reduces all enemies' damage reduction duration by 3 turns when landing a successful PERFECT strike with that character",
+        special: "Delays all enemies for 1 turn (ignoring immunity to Delay, immunity to all status effects, or immunity excluding certain status effect), changes crew's slots (including [BLOCK] slots) to [DEX], reduces [DEX] and [STR] characters' Special charge time by 2 turns, reduces crew's Special Bind duration by 7 turns, and boosts damage dealt to delayed enemies by 3.25x for 1 turn. If character has used \"Coordinated Giant Arm and Sniping\" 1 or more times and 4 or more [Straw Hat Pirates] [Giant] [Four Emperors] characters are on the crew, boosts damage dealt to enemies with increase damage taken status by 2.75x for 1 turn, and further increases crew's slot effect boost by 1.2x (up to a maximum of 15x)",
+        specialName: "Coordinated Giant Arm and Sniping",
+        sailor: {
+            base: "Character cannot be blown away by attack, and makes [STR] and [DEX] characters' [QCK][BOMB] slots have matching slot effects",
+            level1: "Reduces character's Special charge time by 3 turns every time another [Straw Hat Pirates] [Giant] [Four Emperors] character uses a Special (4 times per quest)"
+        },
+        superSpecialCriteria: "When any 3 [Straw Hat Pirates] [Giant] [Four Emperors] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
+        superSpecial: "Reduces character's Special Bind duration by 7 turns, boosts crew's ATK by 1.3x for 1 turn (effect can be overwritten with other ATK boost effects), boosts the chain multiplier by 1.5x for 1 turn, and changes [DEX] characters to Super [DEX]",
+        support: [
+            {
+                Characters: "Broggy, Oimo, Kashii",
+                description: [
+                    "At start of battle 3, reduces supported character's Special charge time by 1 turn",
+                    "At start of battle 3, reduces supported character's Special charge time by 1 turn",
+                    "At start of battle 3, reduces supported character's Special charge time by 2 turns",
+                    "At start of battle 3, reduces supported character's Special charge time by 2 turns",
+                    "At start of battle 3, reduces supported character's Special charge time by 3 turns, and changes supported character's slot to character's own type"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Barrier Penetration",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base HP by 40",
+            "Acquire Potential 2: Super Tandem",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: Reduces character's Special charge time by 3 turns every time another [Straw Hat Pirates] [Giant] [Four Emperors] character uses a Special (4 times per quest)",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 80",
+            "Acquire Potential 3: Pinch Healing",
+            "LOCKED WITH KEY",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "This character's normal attack will ignore barriers"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            },
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 60% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 70% at the start of the turn, recovers 2x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 80% at the start of the turn, recovers 2x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 90% at the start of the turn, recovers 2.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "At final battle and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Broggy, Kashii, Oimo, Monkey D. Luffy, Roronoa Zoro, Sanji, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Emet, Bartholomew Kuma, Shanks, Yasopp",
+                "At final battle and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Broggy, Kashii, Oimo, Monkey D. Luffy, Roronoa Zoro, Sanji, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Emet, Bartholomew Kuma, Shanks, Yasopp",
+                "At final battle and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Broggy, Kashii, Oimo, Monkey D. Luffy, Roronoa Zoro, Sanji, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Emet, Bartholomew Kuma, Shanks, Yasopp",
+                "At final battle and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Broggy, Kashii, Oimo, Monkey D. Luffy, Roronoa Zoro, Sanji, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Emet, Bartholomew Kuma, Shanks, Yasopp",
+                "At final battle and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Broggy, Kashii, Oimo, Monkey D. Luffy, Roronoa Zoro, Sanji, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dr. Vegapunk (Stella), Dr. Vegapunk \"Shaka the Good\", Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Edison the Thinker\", Dr. Vegapunk \"Pythagoras the Wise\", Dr. Vegapunk \"Atlas the Violent\", Sentomaru, Emet, Bartholomew Kuma, Shanks, Yasopp"
+            ],
+            description: [
+                "Applies ATK Boost (Tandem) of 1.5x to [DEX] and [STR] characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 1.75x to [DEX] and [STR] characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 2x to [DEX] and [STR] characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 2.25x to [DEX] and [STR] characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 2.5x to [DEX] and [STR] characters for 1 turn, and further increases crew's damage boost by +0.25"
+            ]
+        },
+        festStats: {
+            def: 126,
+            spd: 185,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Forced Out, reduce damage taken from [QCK] by 30%",
+        festAbility: [
+            "[DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.2, SPD Up Lv.2, HP Up Lv.2; if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, team Guard % Up Lv.1; all enemies ATK Down Lv.1",
+            "[DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.3, SPD Up Lv.3, HP Up Lv.3; if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, team Guard % Up Lv.2; all enemies ATK Down Lv.2",
+            "[DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.4, SPD Up Lv.4, HP Up Lv.4; if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, team Guard % Up Lv.3; all enemies ATK Down Lv.3",
+            "[DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.5, SPD Up Lv.5, HP Up Lv.5; if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, team Guard % Up Lv.4; all enemies ATK Down Lv.4",
+            "[DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.6, SPD Up Lv.6, HP Up Lv.6; if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, team Guard % Up Lv.5; all enemies ATK Down Lv.5"
+        ],
+        festSpecial: [
+            {
+                cooldown: 36,
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.1 (11 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.1 (11 s); targets 3 enemies for ATK x 3.1 damage 2 times; targets \"Broggy\" teammate for ATK Up Lv.8 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 82% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 6% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.1 (12 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.1 (12 s); targets 3 enemies for ATK x 3.2 damage 2 times; targets \"Broggy\" teammate for ATK Up Lv.8 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 84% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 7% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.2 (13 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.2 (13 s); targets 3 enemies for ATK x 3.3 damage 2 times; targets \"Broggy\" teammate for ATK Up Lv.8 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 86% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 8% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.2 (14 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.2 (14 s); targets 3 enemies for ATK x 3.4 damage 2 times; targets \"Broggy\" teammate for ATK Up Lv.9 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 88% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 9% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.3 (15 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.3 (15 s); targets 3 enemies for ATK x 3.5 damage 2 times; targets \"Broggy\" teammate for ATK Up Lv.9 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 90% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 10% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.3 (16 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.3 (16 s); targets 3 enemies for ATK x 3.6 damage 2 times; targets \"Broggy\" teammate for ATK Up Lv.10 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 92% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 11% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.4 (17 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.4 (17 s); targets 3 enemies for ATK x 3.7 damage 2 times; targets \"Broggy\" teammate for ATK Up Lv.10 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 94% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 12% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.4 (18 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.4 (18 s); targets 3 enemies for ATK x 3.8 damage 2 times; targets \"Broggy\" teammate for ATK Up Lv.10 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 96% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 13% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.5 (19 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.5 (19 s); targets 3 enemies for ATK x 3.9 damage 2 times; targets \"Broggy\" teammate for ATK Up Lv.11 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 98% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 14% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.5 (20 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.5 (20 s); targets 3 enemies for ATK x 4 damage 2 times; targets \"Broggy\" teammate for ATK Up Lv.12 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 100% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 15% reduction"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "When remaining time is 40s or less",
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.6 (25 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.6 (25 s); targets 3 enemies for ATK x 4.5 damage 2 times; targets \"Broggy\" teammate for ATK Up Lv.15 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 100% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 20% reduction"
+            },
+            llbbase: {
+                condition: "When remaining time is 50s or less",
+                description: "Targets [DEX]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.7 (30 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets Driven class enemies for DEF Down Lv.7 (30 s); targets 3 enemies for ATK x 4.5 damage 3 times; targets \"Broggy\" teammate for ATK Up Lv.18 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 100% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 25% reduction"
+            }
+        }
+    },
+    4537: {//Luffy & Broggy
+        captain: "Reduces [STR] and [DEX] characters' Special charge time by 2 turns at start of quest, reduces Free Spirit characters' Special charge time a further 1 turn, boosts [STR], [DEX], and Free Spirit characters' ATK by 5x, HP by 1.3x, boosts their ATK by 5.5x in turns where \"Rampage of the Captains\" is used, and makes crew's [STR][TND] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If a [Straw Hat Pirates] [Giant] [Four Emperors] crewmate uses a Special, reduces character's Special charge time by 5 turns (up to 3 times per quest). If 3 or more [Straw Hat Pirates] [Giant] [Four Emperors] characters are on the crew, boosts Free Spirit characters' ATK by a further 1.1x, and reduces crew's ATK Down (applied by enemy) duration by 10 turns ",
+        special: "Sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), reduces Free Spirit and Slasher characters' Special charge time by 1 turn, reduces crew's Burn duration by 7 turns, and boosts [STR] and [DEX] characters' base ATK by +2000 for 1 turn. If character has used \"Rampage of the Captains\" 1 or more times and 4 or more [Straw Hat Pirates] [Giant] [Four Emperors] characters are on the crew, increases all enemies' damage taken by 2.25x for 1 turn (ignoring immunity to status effects), and further increases crew's ATK boost by 1.2x (up to a maximum of 15x). If 3 or more [Giant] [Four Emperors] characters are on the crew, allows crew to stack up to 2 different damage boosting effects (cannot stack the damage boost of the same type) for 1 turn",
+        specialName: "Rampage of the Captains",
+        sailor: {
+            base: "Character cannot be blown away by attack, and reduces character's Special Reverse by 3 turns",
+            level1: "Reduces character's Special charge time by 3 turns every time another [Straw Hat Pirates] [Giant] [Four Emperors] character uses a Special (4 times per quest)"
+        },
+        superSpecialCriteria: "When any 3 [Straw Hat Pirates] [Giant] [Four Emperors] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
+        superSpecial: "Changes character's slot (including [BLOCK] slot) to [TND], prevents character's slot from being changed until character lands a PERFECT strike, boosts crew's slot effects by 1.3x for 1 turn (effect can be overwritten with other slot effect boost effects), boosts the ATK of the next final tap performed by a [STR] character by 50%<hidden> (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)</hidden>, and changes [STR] characters to Super [STR]",
+        support: [
+            {
+                Characters: "Dorry, Oimo, Kashii",
+                description: [
+                    "At start of battle 2, reduces supported character's Special charge time by 1 turn",
+                    "At start of battle 2, reduces supported character's Special charge time by 1 turn",
+                    "At start of battle 2, reduces supported character's Special charge time by 2 turns",
+                    "At start of battle 2, reduces supported character's Special charge time by 2 turns",
+                    "At start of battle 2, reduces supported character's Special charge time by 3 turns, and changes supported character's slot to [RCV]"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Last Tap",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Reduces character's Special charge time by 3 turns every time another [Straw Hat Pirates] [Giant] [Four Emperors] character uses a Special (4 times per quest)",
+            "Boosts base HP by 80",
+            "Boosts base RCV by 40",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Acquire Potential 3: Barrier Penetration",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 200",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            },
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "This character's normal attack will ignore barriers"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "On the turn Special is launched during final Battle",
+            description: [
+                "Further boosts the chain multiplier of the final tap by 1.3x",
+                "Further boosts the chain multiplier of the final tap by 1.4x",
+                "Further boosts the chain multiplier of the final tap by 1.5x",
+                "Further boosts the chain multiplier of the final tap by 1.6x",
+                "Further increases crew's ATK and slot effect boosts by +0.5, and further boosts the chain multiplier of the final tap by 1.75x"
+            ]
+        },
+        festStats: {
+            def: 162,
+            spd: 170,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Forced Out, reduce damage taken from [DEX] by 30%",
+        festAbility: [
+            "[STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.2, HP Up Lv.2, Blow Away % Up Lv.1; if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, team DEF Up Lv.1, SPD Up Lv.2",
+            "[STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.3, HP Up Lv.3, Blow Away % Up Lv.2; if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, team DEF Up Lv.2, SPD Up Lv.3",
+            "[STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.4, HP Up Lv.4, Blow Away % Up Lv.3; if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, team DEF Up Lv.3, SPD Up Lv.4",
+            "[STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.5, HP Up Lv.5, Blow Away % Up Lv.4; if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, team DEF Up Lv.4, SPD Up Lv.5",
+            "[STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.6, HP Up Lv.6, Blow Away % Up Lv.5; if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, team DEF Up Lv.5, SPD Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 36,
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.1 (11 s), Halve Stats reduction (11 s); targets enemies within large range (frontal) for ATK x 5.5 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 5.5 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.8 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 82% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 6% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.1 (12 s), Halve Stats reduction (12 s); targets enemies within large range (frontal) for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.8 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 84% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 7% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.2 (13 s), Halve Stats reduction (13 s); targets enemies within large range (frontal) for ATK x 6.5 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 6.5 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.8 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 86% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 8% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.2 (14 s), Halve Stats reduction (14 s); targets enemies within large range (frontal) for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.9 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 88% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 9% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.3 (15 s), Halve Stats reduction (15 s); targets enemies within large range (frontal) for ATK x 7.5 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 7.5 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.9 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 90% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 10% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.3 (16 s), Halve Stats reduction (16 s); targets enemies within large range (frontal) for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.10 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 92% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 11% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.4 (17 s), Halve Stats reduction (17 s); targets enemies within large range (frontal) for ATK x 8.5 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 8.5 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.10 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 94% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 12% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.4 (18 s), Halve Stats reduction (18 s); targets enemies within large range (frontal) for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.10 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 96% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 13% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.5 (19 s), Halve Stats reduction (19 s); targets enemies within large range (frontal) for ATK x 9.5 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 9.5 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.11 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 98% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 14% reduction"
+            },
+            {
+                cooldown: 36,
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.5 (20 s), Halve Stats reduction (20 s); targets enemies within large range (frontal) for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.12 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 100% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 15% reduction"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "When remaining time is 40s or less",
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.6 (25 s), Halve Stats reduction (25 s); targets enemies within large range (frontal) for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.15 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 100% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 20% reduction"
+            },
+            llbbase: {
+                condition: "When remaining time is 45s or less",
+                description: "Targets [STR]/Free Spirit class and [Giant] [Straw Hat Pirates] teammates for DEF Up Lv.7 (30 s), Halve Stats reduction (30 s); targets enemies within large range (frontal) for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); targets enemies within large range (horizontal) for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); targets \"Dorry\" teammate for ATK Up Lv.18 (5 s); targets (not including self) 1 high ATK ATK Style teammate for 100% chance of Haste; during Assault Rumble, targets (not including self) [Giant] [Straw Hat Pirates] teammates for Special CT 25% reduction"
+            }
+        }
+    },
+    4538: {//Oimo
+        captain: "Boosts Free Spirit and Powerhouse characters' ATK by 3.25x, HP by 1.3x, boosts their ATK by approximately 4.5x after 3 PERFECT strikes in a row, and makes crew's [PSY] slots have matching slot effects",
+        special: "Reduces crew's Paralysis duration by 6 turns. If crew has ATK Up status when Special is launched, boosts the chain multiplier by +1.2 for 1 turn, then after that, boosts [STR], Free Spirit, and Powerhouse characters' ATK by 2.5x for 1 turn. If 4 or more [Giant] characters are on the crew, reduces top-row characters' Special charge time by 2 turns, and applies Weakened status to all enemies for 1 turn (increase damage taken by 1.3x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken)",
+        specialName: "Toast to Celebrate the Reunion",
+        sailor: {
+            base: "Character cannot be blown away by attack, and makes Free Spirit and Powerhouse characters' [STR][TND] slots have matching slot effects",
+            level1: "Boosts crew's base ATK and HP by 150"
+        },
+        support: [
+            {
+                Characters: "Dorry, Broggy, Kashii",
+                description: [
+                    "Once per quest, if supported character uses a Special, boosts [STR] and [DEX] characters' ATK by 1.2x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts [STR] and [DEX] characters' ATK by 1.3x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts [STR] and [DEX] characters' ATK by 1.4x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts [STR] and [DEX] characters' ATK by 1.5x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts [STR] and [DEX] characters' ATK by 1.75x for 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Acquire Potential 1: Barrier Penetration",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 10",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 40",
+            "Boosts base RCV by 20",
+            "Acquire Sailor Ability 2: Boosts crew's base ATK and HP by 150",
+            "Boosts base HP by 80",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Critical Hit"
+        ],
+        potential: [
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 95% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 85% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 80% at the start of the turn"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ],
+        festStats: {
+            def: 222,
+            spd: 155,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Action Bind, reduce damage taken from [DEX] by 20%",
+        festAbility: [
+            "Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.1, HP Up Lv.1, Blow Away % Up Lv.1; when blowing away enemy, up to 5 times self Special CT Speed Up Lv.1; targets 2 high ATK teammates for Special CT 6% reduction; when appearing on the field, \"Kashii\" Special CT 10% reduction; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
+            "Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.2, HP Up Lv.2, Blow Away % Up Lv.2; when blowing away enemy, up to 5 times self Special CT Speed Up Lv.1; targets 2 high ATK teammates for Special CT 7% reduction; when appearing on the field, \"Kashii\" Special CT 20% reduction; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
+            "Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.3, HP Up Lv.3, Blow Away % Up Lv.3; when blowing away enemy, up to 5 times self Special CT Speed Up Lv.1; targets 2 high ATK teammates for Special CT 8% reduction; when appearing on the field, \"Kashii\" Special CT 30% reduction; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4",
+            "Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.4, HP Up Lv.4, Blow Away % Up Lv.4; when blowing away enemy, up to 5 times self Special CT Speed Up Lv.1; targets 2 high ATK teammates for Special CT 9% reduction; when appearing on the field, \"Kashii\" Special CT 40% reduction; during Assault Rumble, self HP Up Lv.9, Special CT Speed Up Lv.5",
+            "Free Spirit class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.5, HP Up Lv.5, Blow Away % Up Lv.5; when blowing away enemy, up to 5 times self Special CT Speed Up Lv.1; targets 2 high ATK teammates for Special CT 10% reduction; when appearing on the field, \"Kashii\" Special CT 50% reduction; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 29,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.1 (11 s), Blow Away % Up Lv.1 (11 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets 2 high ATK teammates for Special CT 11% reduction; during Assault Rumble, targets 3 enemies for DEF Down Lv.1 (11 s), SPD Down Lv.1 (11 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.1 (12 s), Blow Away % Up Lv.1 (12 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets 2 high ATK teammates for Special CT 12% reduction; during Assault Rumble, targets 3 enemies for DEF Down Lv.1 (12 s), SPD Down Lv.1 (12 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.2 (13 s), Blow Away % Up Lv.2 (13 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets 2 high ATK teammates for Special CT 13% reduction; during Assault Rumble, targets 3 enemies for DEF Down Lv.1 (13 s), SPD Down Lv.2 (13 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.2 (14 s), Blow Away % Up Lv.2 (14 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets 2 high ATK teammates for Special CT 14% reduction; during Assault Rumble, targets 3 enemies for DEF Down Lv.1 (14 s), SPD Down Lv.2 (14 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.3 (15 s), Blow Away % Up Lv.3 (15 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets 2 high ATK teammates for Special CT 15% reduction; during Assault Rumble, targets 3 enemies for DEF Down Lv.1 (15 s), SPD Down Lv.3 (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.3 (16 s), Blow Away % Up Lv.3 (16 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets 2 high ATK teammates for Special CT 16% reduction; during Assault Rumble, targets 3 enemies for DEF Down Lv.2 (16 s), SPD Down Lv.3 (16 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.4 (17 s), Blow Away % Up Lv.4 (17 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets 2 high ATK teammates for Special CT 17% reduction; during Assault Rumble, targets 3 enemies for DEF Down Lv.2 (17 s), SPD Down Lv.4 (17 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.4 (18 s), Blow Away % Up Lv.4 (18 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets 2 high ATK teammates for Special CT 18% reduction; during Assault Rumble, targets 3 enemies for DEF Down Lv.2 (18 s), SPD Down Lv.4 (18 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.5 (19 s), Blow Away % Up Lv.5 (19 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets 2 high ATK teammates for Special CT 19% reduction; during Assault Rumble, targets 3 enemies for DEF Down Lv.2 (19 s), SPD Down Lv.5 (19 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for ATK Up Lv.5 (20 s), Blow Away % Up Lv.5 (20 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets 2 high ATK teammates for Special CT 20% reduction; during Assault Rumble, targets 3 enemies for DEF Down Lv.3 (20 s), SPD Down Lv.5 (20 s)"
+            }
+        ]
+    },
+    4539: {//Kashii
+        captain: "Boosts Free Spirit and Powerhouse characters' ATK by 3.25x, HP by 1.3x, boosts their ATK by approximately 4.5x after 3 PERFECT strikes in a row, and makes crew's [INT] slots have matching slot effects",
+        special: "Reduces all enemies' damage nullification duration by 2 turns. If crew has slot effect boost when Special is launched, boosts the type effects of normal attacks for [DEX], Free Spirit, and Powerhouse characters by 2.25x for 1 turn, then after that, boosts their slot effects by 2.5x for 1 turn. If 4 or more [Giant] characters are on the crew, reduces top-row characters' Special charge time by 2 turns, and applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, [DEX], Free Spirit, and Powerhouse characters will deal 1.5x damage, and their Special charge time will be reduced by 1 turn for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))",
+        specialName: "Drinks to Enjoy the Reunion",
+        sailor: {
+            base: "Character cannot be blown away by attack, and makes Free Spirit and Powerhouse characters' [DEX][RCV] slots have matching slot effects",
+            level1: "Boosts crew's base ATK and HP by 150"
+        },
+        support: [
+            {
+                Characters: "Dorry, Broggy, Oimo",
+                description: [
+                    "Once per quest, if supported character uses a Special, boosts [STR] and [DEX] characters' slot effects by 1.2x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts [STR] and [DEX] characters' slot effects by 1.3x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts [STR] and [DEX] characters' slot effects by 1.4x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts [STR] and [DEX] characters' slot effects by 1.5x for 1 turn",
+                    "Once per quest, if supported character uses a Special, boosts [STR] and [DEX] characters' slot effects by 1.75x for 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Acquire Potential 1: Barrier Penetration",
+            "Boosts base ATK by 20",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: Boosts crew's base ATK and HP by 150",
+            "Boosts base ATK by 30",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Critical Hit"
+        ],
+        potential: [
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 95% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 85% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 80% at the start of the turn"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ],
+        festStats: {
+            def: 308,
+            spd: 119,
+            style: "DEF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Heal Self Lv.2"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from [QCK] by 20%",
+        festAbility: [
+            "Free Spirit class and [Giant] [Straw Hat Pirates] teammates SPD Up Lv.1, HP Up Lv.1; when guarding, up to 10 times [Giant] [Straw Hat Pirates] teammates ATK Up Lv.1, DEF Up Lv.1, HP 6% healing; if \"Oimo\" is on the team, when appearing on the field, self Special CT 10% reduction; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
+            "Free Spirit class and [Giant] [Straw Hat Pirates] teammates SPD Up Lv.2, HP Up Lv.2; when guarding, up to 10 times [Giant] [Straw Hat Pirates] teammates ATK Up Lv.1, DEF Up Lv.1, HP 7% healing; if \"Oimo\" is on the team, when appearing on the field, self Special CT 20% reduction; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
+            "Free Spirit class and [Giant] [Straw Hat Pirates] teammates SPD Up Lv.3, HP Up Lv.3; when guarding, up to 10 times [Giant] [Straw Hat Pirates] teammates ATK Up Lv.1, DEF Up Lv.1, HP 8% healing; if \"Oimo\" is on the team, when appearing on the field, self Special CT 30% reduction; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4",
+            "Free Spirit class and [Giant] [Straw Hat Pirates] teammates SPD Up Lv.4, HP Up Lv.4; when guarding, up to 10 times [Giant] [Straw Hat Pirates] teammates ATK Up Lv.1, DEF Up Lv.1, HP 9% healing; if \"Oimo\" is on the team, when appearing on the field, self Special CT 40% reduction; during Assault Rumble, self HP Up Lv.9, Special CT Speed Up Lv.5",
+            "Free Spirit class and [Giant] [Straw Hat Pirates] teammates SPD Up Lv.5, HP Up Lv.5; when guarding, up to 10 times [Giant] [Straw Hat Pirates] teammates ATK Up Lv.1, DEF Up Lv.1, HP 10% healing; if \"Oimo\" is on the team, when appearing on the field, self Special CT 50% reduction; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 28,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for Guard % Up Lv.6 (11 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets team for 73% chance to evade fixed damage (11 s); activates Provoke on self (11 s); during Assault Rumble, targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for 73% chance to evade Halve Stats (11 s); targets teammates with remaining HP 50% or less for HP 21% healing"
+            },
+            {
+                cooldown: 28,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for Guard % Up Lv.6 (12 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets team for 76% chance to evade fixed damage (12 s); activates Provoke on self (12 s); during Assault Rumble, targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for 76% chance to evade Halve Stats (12 s); targets teammates with remaining HP 50% or less for HP 22% healing"
+            },
+            {
+                cooldown: 28,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for Guard % Up Lv.7 (13 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets team for 79% chance to evade fixed damage (13 s); activates Provoke on self (13 s); during Assault Rumble, targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for 79% chance to evade Halve Stats (13 s); targets teammates with remaining HP 50% or less for HP 23% healing"
+            },
+            {
+                cooldown: 28,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for Guard % Up Lv.7 (14 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets team for 82% chance to evade fixed damage (14 s); activates Provoke on self (14 s); during Assault Rumble, targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for 82% chance to evade Halve Stats (14 s); targets teammates with remaining HP 50% or less for HP 24% healing"
+            },
+            {
+                cooldown: 28,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for Guard % Up Lv.8 (15 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets team for 85% chance to evade fixed damage (15 s); activates Provoke on self (15 s); during Assault Rumble, targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for 85% chance to evade Halve Stats (15 s); targets teammates with remaining HP 50% or less for HP 25% healing"
+            },
+            {
+                cooldown: 28,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for Guard % Up Lv.8 (16 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets team for 88% chance to evade fixed damage (16 s); activates Provoke on self (16 s); during Assault Rumble, targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for 88% chance to evade Halve Stats (16 s); targets teammates with remaining HP 50% or less for HP 26% healing"
+            },
+            {
+                cooldown: 28,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for Guard % Up Lv.9 (17 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets team for 91% chance to evade fixed damage (17 s); activates Provoke on self (17 s); during Assault Rumble, targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for 91% chance to evade Halve Stats (17 s); targets teammates with remaining HP 50% or less for HP 27% healing"
+            },
+            {
+                cooldown: 28,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for Guard % Up Lv.9 (18 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets team for 94% chance to evade fixed damage (18 s); activates Provoke on self (18 s); during Assault Rumble, targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for 94% chance to evade Halve Stats (18 s); targets teammates with remaining HP 50% or less for HP 28% healing"
+            },
+            {
+                cooldown: 28,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for Guard % Up Lv.10 (19 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets team for 97% chance to evade fixed damage (19 s); activates Provoke on self (19 s); during Assault Rumble, targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for 97% chance to evade Halve Stats (19 s); targets teammates with remaining HP 50% or less for HP 29% healing"
+            },
+            {
+                cooldown: 28,
+                description: "Targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for Guard % Up Lv.10 (20 s); if 4 or more [Giant] [Straw Hat Pirates] characters are on the team, targets team for 100% chance to evade fixed damage (20 s); activates Provoke on self (20 s); during Assault Rumble, targets Free Spirit class and [Giant] [Straw Hat Pirates] teammates for 100% chance to evade Halve Stats (20 s); targets teammates with remaining HP 50% or less for HP 30% healing"
+            }
+        ]
+    },
+    4540: {//5* PKA Lucci
+        captain: "Boosts [DEX], Powerhouse, and Free Spirit characters' ATK by 4.25x when slots match (4x otherwise), HP by 1.2x, and reduces damage taken by 10%",
+        special: "Reduces Powerhouse and Free Spirit characters' Special charge time by 1 turn, reduces crew's Bind duration by 4 turns, boosts Powerhouse and Free Spirit characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.4x) for 1 turn, and applies -30% [STR], [DEX], [INT] Resistance for 1 turn. If 3 or more [CP0] [CP9] [World Government] characters or 6 [Egghead Arc] characters are on the crew, reduces damage taken by 80% for 1 turn",
+        specialName: "Unyielding Roar of the Leopard",
+        sailor: {
+            base: "Makes Powerhouse and Free Spirit characters' [DEX] slots have matching slot effects",
+            level1: "Reduces character's Special Reverse by 3 turns"
+        },
+        support: [
+            {
+                Characters: "[DEX] Free Spirit characters",
+                description: [
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 6% of character's base stats to supported character's base stats",
+                    "Adds 7% of character's base stats to supported character's base stats",
+                    "Adds 8% of character's base stats to supported character's base stats [AUTO+] At battle 5, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire Potential 2: Critical Hit",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 70",
+            "Boosts base ATK by 40",
+            "Reduce base Special Cooldown by 1 turn",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 20",
+            "Acquire Potential 3: Cooldown Reduction",
+            "Boosts base HP by 300",
+            "Boosts base ATK by 100",
+            "Acquire Sailor Ability 2: Reduces character's Special Reverse by 3 turns"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Cooldown Reduction",
+                description: [
+                    "Reduces Special Cooldown of this character by 2 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 3 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 4 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 5 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 6 turns at the start of the fight"
+                ]
+            }
+        ],
+        festStats: {
+            def: 130,
+            spd: 157,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "60% chance to evade RCV Bind",
+        festAbility: [
+            "[DEX]/Free Spirit class and [Navy] [World Government] [Zoan-type] teammates DEF Up Lv.1; when remaining time is 50 s or less, self ATK Up Lv.1, SPD Up Lv.1, Critical % Up Lv.1; when appearing on the field, targets 2 enemies with high current Special CT for 6% delay",
+            "[DEX]/Free Spirit class and [Navy] [World Government] [Zoan-type] teammates DEF Up Lv.1; when remaining time is 50 s or less, self ATK Up Lv.2, SPD Up Lv.2, Critical % Up Lv.2; when appearing on the field, targets 2 enemies with high current Special CT for 7% delay",
+            "[DEX]/Free Spirit class and [Navy] [World Government] [Zoan-type] teammates DEF Up Lv.2; when remaining time is 50 s or less, self ATK Up Lv.3, SPD Up Lv.3, Critical % Up Lv.3; when appearing on the field, targets 2 enemies with high current Special CT for 8% delay",
+            "[DEX]/Free Spirit class and [Navy] [World Government] [Zoan-type] teammates DEF Up Lv.2; when remaining time is 50 s or less, self ATK Up Lv.4, SPD Up Lv.4, Critical % Up Lv.4; when appearing on the field, targets 2 enemies with high current Special CT for 9% delay",
+            "[DEX]/Free Spirit class and [Navy] [World Government] [Zoan-type] teammates DEF Up Lv.3; when remaining time is 50 s or less, self ATK Up Lv.5, SPD Up Lv.5, Critical % Up Lv.5; when appearing on the field, targets 2 enemies with high current Special CT for 10% delay"
+        ],
+        festSpecial: [
+            {
+                cooldown: 32,
+                description: "Targets self for DEF Up Lv.1 (6 s); targets enemies within medium range for ATK x 5.5 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 120 HP per interval healing (5 s); when remaining time is 50 s or less, targets self for ATK Up Lv.1 (6 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets self for DEF Up Lv.1 (7 s); targets enemies within medium range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 140 HP per interval healing (6 s); when remaining time is 50 s or less, targets self for ATK Up Lv.1 (7 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets self for DEF Up Lv.1 (8 s); targets enemies within medium range for ATK x 6.5 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 160 HP per interval healing (6 s); when remaining time is 50 s or less, targets self for ATK Up Lv.1 (8 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets self for DEF Up Lv.1 (9 s); targets enemies within medium range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 180 HP per interval healing (7 s); when remaining time is 50 s or less, targets self for ATK Up Lv.2 (9 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets self for DEF Up Lv.1 (10 s); targets enemies within medium range for ATK x 7.5 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 200 HP per interval healing (7 s); when remaining time is 50 s or less, targets self for ATK Up Lv.2 (10 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets self for DEF Up Lv.2 (11 s); targets enemies within medium range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 220 HP per interval healing (8 s); when remaining time is 50 s or less, targets self for ATK Up Lv.3 (11 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets self for DEF Up Lv.2 (12 s); targets enemies within medium range for ATK x 8.5 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 240 HP per interval healing (8 s); when remaining time is 50 s or less, targets self for ATK Up Lv.3 (12 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets self for DEF Up Lv.2 (13 s); targets enemies within medium range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 260 HP per interval healing (9 s); when remaining time is 50 s or less, targets self for ATK Up Lv.3 (13 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets self for DEF Up Lv.2 (14 s); targets enemies within medium range for ATK x 9.5 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 280 HP per interval healing (9 s); when remaining time is 50 s or less, targets self for ATK Up Lv.4 (14 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets self for DEF Up Lv.3 (15 s); targets enemies within medium range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); targets [Navy] [World Government] [Zoan-type] teammates for 300 HP per interval healing (10 s); when remaining time is 50 s or less, targets self for ATK Up Lv.5 (15 s)"
+            }
+        ]
+    },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
