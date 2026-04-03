@@ -182675,6 +182675,101 @@ window.details = {
             }
         ]
     },
+    4543: {//Kaku
+        captain: "Locks all orbs for 5 turns at the start of the fight, reduces VS Gauge of all characters by 3 at the start of the fight, boosts ATK of Driven and Powerhouse characters by 5.25x, by 5.5x instead after the 3rd PERFECTs in a row, boosts HP of Driven and Powerhouse characters by 1.35x, and makes [INT] and [RCV] orbs beneficial for all characters. If crew uses a special to reduce enemies' Percent Damage Reduction, reduces the duration by 1 additional turn.",
+        special: "Deals 300x character's ATK in Typeless damage to all enemies, reduces enemies' Barrier duration by 2 turns, and reduces VS Gauge of all characters by 2. If your crew has ATK Up when the special is activated, boosts Orb Effects of [INT], Driven and Powerhouse characters by 2.75x for 1 turn; boosts ATK of [INT], Driven and Powerhouse characters by 2.75x for 1 turn otherwise. If your crew has 3+ [CP0], [CP9] or [World Government] characters, increases boost effects of enemies' Increase Damage Taken debuffs by +0.5x, and boosts Critical Hit Rate of [INT], Driven and Powerhouse characters by 20% for 1 turn. If you have used 16+ [RCV] orbs in normal attacks when the special is activated, reduces Special Cooldown of this character by 12 turns, and boosts Critical Hit Damage of all characters by 75% for 1 turn.",
+        specialName: "Kiliman-Gyro",
+        sailor: {
+            base: "Boosts base ATK and HP of Driven and Powerhouse characters by 150.",
+            level1: "Up to 2 times per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 1 turn."
+        },
+        support: [
+            {
+                Characters: "Driven characters",
+                description: [
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 40",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 40",
+            "Acquire Potential 1: [PSY] Damage Reduction",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: [STR] Damage Reduction",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 70",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 80",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: If enemy activates damage reduction (except Threshold Damage Reduction), reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn at start of crew's next turn (up to 2 times per quest; even if no turns are reduced, effect still counts as 1 time activated)",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire Potential 3: Critical Hit",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 50"
+        ],
+        potential: [
+            {
+                Name: "[PSY] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [PSY] characters by 2%",
+                    "Reduces damage taken from [PSY] characters by 3%",
+                    "Reduces damage taken from [PSY] characters by 4%",
+                    "Reduces damage taken from [PSY] characters by 5%",
+                    "Reduces damage taken from [PSY] characters by 7%"
+                ]
+            },
+            {
+                Name: "[STR] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [STR] characters by 2%",
+                    "Reduces damage taken from [STR] characters by 3%",
+                    "Reduces damage taken from [STR] characters by 4%",
+                    "Reduces damage taken from [STR] characters by 5%",
+                    "Reduces damage taken from [STR] characters by 7%"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ]
+    },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
