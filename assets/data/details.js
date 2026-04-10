@@ -182675,6 +182675,86 @@ window.details = {
             }
         ]
     },
+    4541: {//5+ PKA Lucci
+        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts [DEX], Powerhouse, and Free Spirit characters' ATK by 4.5x when slots match (4x otherwise), HP by 1.3x, and reduces damage taken by 15%",
+        special: "Reduces Powerhouse and Free Spirit characters' Special charge time by 2 turns, reduces crew's Bind duration by 4 turns, boosts Powerhouse and Free Spirit characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.4x) for 1 turn, and applies -30% [STR], [DEX], [INT] Resistance for 1 turn. If 3 or more [CP0] [CP9] [World Government] characters or 6 [Egghead Arc] characters are on the crew, applies \"Territory: [DEX]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn, and reduces damage taken by 80% for 1 turn",
+        specialName: "Unyielding Roar of the Leopard",
+        sailor: {
+            base: "Makes Powerhouse and Free Spirit characters' [DEX] slots have matching slot effects",
+            level1: "Reduces character's Special Reverse by 3 turns"
+        },
+        support: [
+            {
+                Characters: "[DEX] Free Spirit characters",
+                description: [
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 6% of character's base stats to supported character's base stats",
+                    "Adds 7% of character's base stats to supported character's base stats",
+                    "Adds 8% of character's base stats to supported character's base stats [AUTO+] At battle 5, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire Potential 2: Critical Hit",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 70",
+            "Boosts base ATK by 40",
+            "Reduce base Special Cooldown by 1 turn",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 20",
+            "Acquire Potential 3: Cooldown Reduction",
+            "Boosts base HP by 300",
+            "Boosts base ATK by 100",
+            "Acquire Sailor Ability 2: Reduces character's Special Reverse by 3 turns"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Cooldown Reduction",
+                description: [
+                    "Reduces Special Cooldown of this character by 2 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 3 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 4 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 5 turns at the start of the fight",
+                    "Reduces Special Cooldown of this character by 6 turns at the start of the fight"
+                ]
+            }
+        ]
+    },
     4543: {//Kaku
         captain: "Locks all orbs for 5 turns at the start of the fight, reduces VS Gauge of all characters by 3 at the start of the fight, boosts ATK of Driven and Powerhouse characters by 5.25x, by 5.5x instead after the 3rd PERFECTs in a row, boosts HP of Driven and Powerhouse characters by 1.35x, and makes [INT] and [RCV] orbs beneficial for all characters. If crew uses a special to reduce enemies' Percent Damage Reduction, reduces the duration by 1 additional turn.",
         special: "Deals 300x character's ATK in Typeless damage to all enemies, reduces enemies' Barrier duration by 2 turns, and reduces VS Gauge of all characters by 2. If your crew has ATK Up when the special is activated, boosts Orb Effects of [INT], Driven and Powerhouse characters by 2.75x for 1 turn; boosts ATK of [INT], Driven and Powerhouse characters by 2.75x for 1 turn otherwise. If your crew has 3+ [CP0], [CP9] or [World Government] characters, increases boost effects of enemies' Increase Damage Taken debuffs by +0.5x, and boosts Critical Hit Rate of [INT], Driven and Powerhouse characters by 20% for 1 turn. If you have used 16+ [RCV] orbs in normal attacks when the special is activated, reduces Special Cooldown of this character by 12 turns, and boosts Critical Hit Damage of all characters by 75% for 1 turn.",
@@ -182766,6 +182846,239 @@ window.details = {
                     "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
                     "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
                     "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
+        ]
+    },
+    4544: {//Kizaru
+        captain: "Reduces character's Special charge time by 20 turns at start of quest, boosts [INT], Slasher, Cerebral, and Shooter characters' ATK by 5.25x, HP and RCV by 1.2x, makes their [DEX][INT][TND] slots have matching slot effects, and completely removes character's Bind [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Five Elders] [Navy] [Vegapunk] characters are on the crew, boosts crew's ATK by 1.2x, and reduces crew's Limit Special Uses duration by 10 turns. If 1 or more [Vegapunk] characters are on the crew, boosts [Navy] [World Government] characters' base ATK by +1000. If an ATK or slot effect boost is applied on the crew (does not apply to statuses applied by Captain Ability or Crewmate Ability further increases the boost by 1.2x (up to a maximum 10x, cannot be further increased)",
+        special: "Redues crew's Bind duration by 10 turns, further increases all enemies' increase damage taken effect by +0.75, boosts [INT], Slasher, Cerebral, and Shooter characters' base ATK by +1750 for 1 turn, and applies -50% [INT] Resistance to all enemies for 1 turn. If 3 or more [Five Elders] [Navy] [Vegapunk] characters or 5 or more [Egghead Arc] characters are on the crew, reduces crew's Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2, and boosts the ATK of the next final tap performed by an [INT] character by 60% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+        specialName: "The Price of Justice",
+        sailor: {
+            base: "Boosts [INT] characters' base ATK by 75, and makes their [DEX] slots have matching slot effects",
+            level1: "Reduces character's Bind duration by 5 turns"
+        },
+        superSpecialCriteria: "When any 2 [Five Elders] [Navy] [Vegapunk] characters or any 5 [Egghead Arc] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
+        superSpecial: "Reduces crew's Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2, makes crew's [PSY] slots have matching slot effects for 1 turn, doubles crew's slot effects for 1 turn (effect can be overwritten with other slot effect boost effects), and changes [INT] characters to Super [INT]",
+        support: [
+            {
+                Characters: "Dr. Vegapunk (Stella)",
+                description: [
+                    "Cuts crew's HP by 90% but boosts Cerebral characters' base ATK by +300 for 1 turn at start of final battle",
+                    "Cuts crew's HP by 90% but boosts Cerebral characters' base ATK by +400 for 1 turn at start of final battle",
+                    "Cuts crew's HP by 90% but boosts Cerebral characters' base ATK by +500 for 1 turn at start of final battle",
+                    "Cuts crew's HP by 90% but boosts Cerebral characters' base ATK by +750 for 1 turn at start of final battle",
+                    "Cuts crew's HP by 90% but boosts Cerebral characters' base ATK by +1000 for 1 turn at start of final battle"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 10",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 10",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 20",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 30",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 30",
+            "Acquire Potential 2: Critical Hit",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 60",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 40",
+            "Acquire Sailor Ability 2: Reduces character's Bind duration by 5 turns",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 70",
+            "Boosts base HP by 80",
+            "Boosts base RCV by 30",
+            "Acquire Potential 3: Super Tandem Boost",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 100",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 150"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When an [Egghead Arc] [Five Elders] [Navy] [Vegapunk] character performs Super Tandem",
+                "When an [Egghead Arc] [Five Elders] [Navy] [Vegapunk] character performs Super Tandem",
+                "When an [Egghead Arc] [Five Elders] [Navy] [Vegapunk] character performs Super Tandem",
+                "When an [Egghead Arc] [Five Elders] [Navy] [Vegapunk] character performs Super Tandem",
+                "When an [Egghead Arc] [Five Elders] [Navy] [Vegapunk] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Egghead Arc] [Five Elders] [Navy] [Vegapunk] characters by 1 for 1 turn",
+                "Raises Boost Level of [Egghead Arc] [Five Elders] [Navy] [Vegapunk] characters by 2 for 1 turn",
+                "Raises Boost Level of [Egghead Arc] [Five Elders] [Navy] [Vegapunk] characters by 3 for 1 turn",
+                "Raises Boost Level of [Egghead Arc] characters by 4 and raises Boost Level of [Five Elders] [Navy] [Vegapunk] characters by 5 for 1 turn",
+                "Raises Boost Level of [Egghead Arc] characters by 5 and raises Boost Level of [Five Elders] [Navy] [Vegapunk] characters by 6 for 1 turn"
+            ]
+        }
+    },
+    4545: {//Akainu
+        captain: "Boosts [INT], Shooter, and Cerebral characters' ATK by approximately 4.25x when slots match (3.25x otherwise), HP by 1.35x, and further increases ATK boosts that are launched by crew Specials by +0.3 (stackable with other further raising effects)",
+        special: "Applies Ignited status to all enemies for 2 turns (deals 40x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action), reduces crew's Special Bind duration by 6 turns, and applies increase damage taken status to all enemies by 1.75x for 1 turn (ignoring immunity to status effects). If 3 or more [Navy] [World Government] characters are on the crew, heals crew by 5,000 HP at end of turn for 7 turns, and boosts damage dealt to Ignited enemies by 2.5x for 1 turn",
+        specialName: "The Price of the Grueling Mission",
+        sailor: {
+            base: "Reduces character's Special Bind duration by 6 turns",
+            level1: "Boosts [INT] characters' base ATK by 70, and makes their [STR] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "Borsalino (Kizaru)",
+                description: [
+                    "Once per quest, if inflicted with Special Bind status from the enemy, heals crew by 3,000 HP at end of turn for 2 turns at start of crew's next turn",
+                    "Once per quest, if inflicted with Special Bind status from the enemy, heals crew by 3,000 HP at end of turn for 3 turns at start of crew's next turn",
+                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn and heals crew by 3,000 HP at end of turn for 4 turns at start of crew's next turn",
+                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn and heals crew by 3,000 HP at end of turn for 5 turns at start of crew's next turn",
+                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 2 turns and heals crew by 3,000 HP at end of turn for 5 turns at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Barrier Penetration",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Acquire Sailor Ability 2: Boosts [INT] characters' base ATK by 70, and makes their [STR] slots have matching slot effects",
+            "Boosts base ATK by 50",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Sailor Despair"
+        ],
+        potential: [
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 60% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character",
+                    "Reduces Sailor Despair duration by 4 turns on this character",
+                    "Reduces Sailor Despair duration by 5 turns on this character"
+                ]
+            }
+        ]
+    },
+    4546: {//Sentomaru
+        captain: "Boosts [INT], Powerhouse, and Cerebral characters' ATK by approximately 4x when slots match (3.25x otherwise), HP by 1.5x, and further increases slot effect boosts that are launched by crew Specials by +0.3 (stackable with other further raising effects)",
+        special: "Changes crew's slots (including [BLOCK] slots) to [INT]. If crew has slot effect boost when Special is launched, boosts [INT], Powerhouse, and Cerebral characters' ATK by 2.5x for 1 turn, then after that, boosts their slot effects by 2.75x for 1 turn. If 3 or more [Five Elders] [Navy] [Vegapunk] characters are on the crew, reduces all enemies' Threshold Damage Reduction, damage reduction, and DEF Up duration by 5 turns, and changes adjacent slots to [RCV]",
+        specialName: "Silent Escape",
+        sailor: {
+            base: "Character cannot be blown away by attack, and makes [INT] characters' [RCV] slots have matching slot effects",
+            level1: "Boosts [INT] characters' base HP by 200, and makes their [QCK] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "[STR] or [INT] Dr. Vegapunk (Stella), Borsalino (Kizaru)",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction and damage reduction duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction and damage reduction duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction, damage reduction, and DEF Up duration by 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 30",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 30",
+            "Acquire Potential 1: Enrage/Increase Damage Taken",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 50",
+            "Acquire Sailor Ability 2: Boosts [INT] characters' base HP by 200, and makes their [QCK] slots have matching slot effects",
+            "Boosts base RCV by 20",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: No Healing"
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
                 ]
             }
         ]
