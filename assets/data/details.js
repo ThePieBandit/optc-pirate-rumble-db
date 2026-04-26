@@ -147910,7 +147910,7 @@ window.details = {
         special: "Applies effects based on a cycle: <ul><li><b>Effect 0:</b> Inflicts all enemies with Set Target, increasing damage taken from Driven and Slasher characters by 2x and reducing Special Cooldown of Driven and Slasher characters by 2 turns when they defeat an enemy, for 3 turns, advances Special Cooldown of this character by 13 turns, and changes next launched effect to Effect 1.</li><li><b>Effect 1:</b> Reduces enemies' Increased Defense and Threshold Damage Reduction duration by 6 turns, deals 1,000,000 Fixed True damage, ignoring Normal Attack Only, to all enemies, boosts Orb Effects of Driven and Slasher characters by 2.75x for 2 turns, advances Special Cooldown of this character by 13 turns, and changes next launched effect to Effect 2.</li><li><b>Effect 2:</b> Reduces Despair duration by 6 turns, sets Chain Boundaries to 3x and 20.0x for 3 turns, reduces enemies' Driven and Slasher Resistance by -20% for 1 turn, and changes next launched effect to Effect 0</li></ul>",
         specialName: "Team Up! Cross Guild",
         superSpecial: "Reduces Special Cooldown of all characters by 2 turns, boosts Final Tap ATK of Driven and Slasher characters by 20%, reduces enemies' Driven and Slasher Resistance by -15% for 1 turn, transforms Driven characters into Super Driven characters, and transforms Slasher characters into Super Slasher characters.",
-        superSpecialCriteria: "This character must be captain. When defeating an enemy with Set Target status or your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Galdino (Mr. 3), Mohji & Richie, Cabaji, Alvida, Daz Bones (Mr. 1), Roronoa Zoro, Perona, Shanks",
+        superSpecialCriteria: "This character must be captain. When defeating an enemy with Set Target status or your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Galdino (Mr. 3), Mohji, Richie, Cabaji, Alvida, Daz Bones (Mr. 1), Roronoa Zoro, Perona, Shanks",
         support: [
             {
                 Characters: "Driven and Slasher characters",
@@ -163562,7 +163562,7 @@ window.details = {
 		},
 		superSpecial: "Boosts Advantageous Class Effect of Driven characters by 2x for 2 turns, changes the orb, including [BLOCK] orb, of this character into a [STR] orb, and transforms Driven characters into Super Driven characters.",
 		superSpecialNotes: "Advantageous Class Effect boosts damage against enemies with Class Weakness.",
-        superSpecialCriteria: "This character must be captain and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dracule Mihawk, Sir Crocodile (Mr. 0), Galdino (Mr. 3), Mohji & Richie, Cabaji, Alvida, Daz Bones (Mr. 1), Monkey D. Luffy, Marshall D. Teach (Blackbeard), Shanks",
+        superSpecialCriteria: "This character must be captain and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Dracule Mihawk, Sir Crocodile (Mr. 0), Galdino (Mr. 3), Mohji, Richie, Cabaji, Alvida, Daz Bones (Mr. 1), Monkey D. Luffy, Marshall D. Teach (Blackbeard), Shanks",
 		support: [
 			{
 				Characters: "Alvida, Cabaji, Mohji & Richie, Dracule Mihawk, Galdino (Mr. 3), Sir Crocodile (Mr. 0), Daz Bones (Mr. 1)",
@@ -183386,23 +183386,23 @@ window.details = {
     },
     4550: {//Crocodile & Mihawk
         captain: {
-            character1: "Reduces crew's Switch Effect and VS Effect gauge by 2 at start of quest, boosts [STR] and [INT] characters' HP by 1.3x, ATK by 4.5x, boosts their damage dealt to enemies affected by Delay, Poison, Venom, progressive Poison, Paralysis, and DEF Down by 1.15x, makes their [INT][TND] slots have matching slot effects, and reduces crew's ATK Down (applied by enemy) duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Reduces [Cross Guild] [Four Emperors] characters' Special charge time by 3 turns at start of quest",
-            character2: "Reduces crew's Switch Effect and VS Effect gauge by 2 at start of quest, boosts [STR] and [INT] characters' HP by 1.3x, ATK by 4.5x, boosts their ATK by approximately 5.25x after 3 PERFECT strikes in a row, makes their [STR][TND] slots have matching slot effects, and reduces crew's ATK Down (applied by enemy) duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Reduces [Cross Guild] [Four Emperors] characters' Special charge time by 3 turns at start of quest",
-            combined: "Reduces crew's Switch Effect and VS Effect gauge by 2 at start of quest, boosts [STR] and [INT] characters' HP by 1.3x, ATK by 4.5x, boosts their ATK by approximately 5.25x after 3 PERFECT strikes in a row, boosts their damage dealt to enemies affected by Delay, Poison, Venom, progressive Poison, Paralysis, and DEF Down by 1.15x, makes their [STR][INT][TND] slots have matching slot effects, and reduces crew's ATK Down (applied by enemy) duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Reduces [Cross Guild] [Four Emperors] characters' Special charge time by 3 turns at start of quest. If 2 or more [Cross Guild] [Four Emperors] characters are on the crew, boosts Slasher and Cerebral characters' ATK by 1.1x"
+            character1: "Launches the following effects at start of fight: reduces Special Cooldown of [Cross Guild] and [Four Emperors] characters by 3 turns, and reduces Switch Effect and VS Gauge of all characters by 2. Boosts ATK of [STR] and [INT] characters by 4.5x, boosts [STR] and [INT] characters ATK against delayed enemies, poisoned enemies, paralyzed enemies and enemies with reduced defense by 1.15x, boosts HP of [STR] and [INT] characters by 1.3x, makes [INT] and [TND] orbs beneficial for [STR] and [INT] characters, and reduces ATK Down duration by 10 turns.",
+            character2: "Launches the following effect at start of fight: reduces Special Cooldown of [Cross Guild] and [Four Emperors] characters by 3 turns, and reduces Switch Effect and VS Gauge of all characters by 2. Boosts ATK of [STR] and [INT] characters by 4.5x, by 5.25x instead after the 3rd PERFECTs in a row, boosts HP of [STR] and [INT] characters by 1.3x, makes [STR] and [TND] orbs beneficial for [STR] and [INT] characters, and reduces ATK Down duration by 10 turns.",
+            combined: "Launches the following effect at start of fight: reduces Special Cooldown of [Cross Guild] and [Four Emperors] characters by 3 turns, and reduces Switch Effect and VS Gauge of all characters by 2. Boosts ATK of [STR] and [INT] characters by 4.5x, by 5.25x instead after the 3rd PERFECTs in a row, boosts [STR] and [INT] characters ATK against delayed enemies, poisoned enemies, paralyzed enemies and enemies with reduced defense by 1.15x, boosts HP of [STR] and [INT] characters by 1.3x, makes [STR], [INT] and [TND] orbs beneficial for [STR] and [INT] characters, and reduces ATK Down duration by 10 turns. If your crew has 2+ [Cross Guild] or [Four Emperors] characters, boosts ATK of Slasher and Cerebral characters by 1.1x."
         },
-        special: "Poisons all enemies. If enemy is immune to status effects, Delay, or any Poison when Special is launched, applies Paralysis (60% chance not to reduce action turns) to all enemies for 1 turn (ignoring immunity to all status effects). If crew has slot effect boost when Special is launched, boosts Slasher and Cerebral characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 90% damage reduction, boosts ATK by 1.9x) for 1 turn, then after that, boosts [STR] and [INT] characters' slot effects by 3.25x for 3 turns (allows this effect to be further increased up to 2 times), reduces all enemies' Threshold Damage Reduction duration by 7 turns, removes all Poison effects on the crew, and becomes \"Crocodile & Mihawk\" for 3 turns. If field has \"Territory: [STR]\", \"Territory: [INT]\", or \"Territory: Slasher class\" and 2 or more [Cross Guild] [Four Emperors] characters are on the crew when Special is launched, allows crew to stack up to 2 different damage boosting effects (cannot stack the damage boost of the same type) for 1 turn",
+        special: "Poisons all enemies, removes Poison duration completely, reduces enemies' Threshold Damage Reduction duration by 7 turns, boosts Orb Effects of [STR] and [INT] characters by 3.25x, can be enhanced up to 2 times, for 3 turns, and becomes Crocodile & Mihawk for 3 turns. If enemies have All Debuff Protection, Delay Debuff Protection or Poison Debuff Protection when the special is activated, ignores Debuff Protection and paralyzes (60%) all enemies for 1 turn. If your crew has Orb Amplification when the special is activated, boosts Crew Damage Reduction to ATK of Slasher and Cerebral characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn. If your crew has 2+ [Cross Guild] or [Four Emperors] characters and field has Territory: [STR], Territory: [INT] or Territory: Slasher when the special is activated, allows crew to stack 2 different Status ATK Boost buffs for 1 turn.",
         specialName: "Terrorizing Sand and Sword",
         sailor: {
-            character1: "Makes crew's [STR][INT] slots have matching slot effects",
-            character2: "Makes crew's [STR][INT] slots have matching slot effects",
-            combined: "Makes crew's [STR][INT] slots have matching slot effects",
-            level1: "If field has \"Territory: [STR]\" or \"Territory: [INT]\", boosts [STR] and [INT] characters' base ATK by 1.1x"
+            character1: "Makes [STR] and [INT] orbs beneficial for all characters.",
+            character2: "Makes [STR] and [INT] orbs beneficial for all characters.",
+            combined: "Makes [STR] and [INT] orbs beneficial for all characters.",
+            level1: "If field has Territory: [STR] or Territory: [INT], boosts base ATK of [STR] and [INT] characters by 1.1x."
         },
-        superSpecialCriteria: "When character becomes \"Crocodile & Mihawk\" with Super Switch effect and any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Buggy, Galdino (Mr. 3), Mohji & Richie, Cabaji, Alvida, Daz Bonez (Mr. 1), Roronoa Zoro, Perona, Shanks",
-        superSpecial: "Further increases crew's slot effect and damage dealt to enemies with a specific status effect boosts by 1.1x (up to a maximum 15x), and changes Slasher characters to Super Slasher",
+        superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Buggy, Galdino (Mr. 3), Mohji, Richie, Cabaji, Alvida, Daz Bonez (Mr. 1), Roronoa Zoro, Perona, Shanks",
+        superSpecial: "Increases boost effects of Orb Amplification and Status ATK Boost buffs by 1.1x (up to 15x), and transforms Slasher characters into Super Slasher characters.",
         swap: {
-            base: "Completely removes character's Despair/Slot Bind, and applies -15% [STR] and [INT] Resistance to all enemies for 1 turn",
-            super: "Completely removes character's Despair/Slot Bind, applies -35% [STR] and [INT] Resistance to all enemies for 1 turn, and becomes \"Crocodile & Mihawk\" for 3 turns",
+            base: "Removes Despair and Slot Bind duration completely on this character, and reduces enemies' [STR] and [INT] resistance by -15% for 1 turn.",
+            super: "Removes Despair and Slot Bind duration completely on this character, reduces enemies' [STR] and [INT] resistance by -35% for 1 turn, and becomes Crocodile & Mihawk for 3 turns.",
             superTurns: 5
         },
         limit: [
@@ -183490,40 +183490,41 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Four Emperors] [Cross Guild] [Egghead Arc] character performs Super Tandem",
-                "When a [Four Emperors] [Cross Guild] [Egghead Arc] character performs Super Tandem",
-                "When a [Four Emperors] [Cross Guild] [Egghead Arc] character performs Super Tandem",
-                "When a [Four Emperors] [Cross Guild] [Egghead Arc] character performs Super Tandem",
-                "When a [Four Emperors] [Cross Guild] [Egghead Arc] character performs Super Tandem"
+                "When a [Four Emperors], [Cross Guild] or [Egghead Arc] character performs Super Tandem",
+                "When a [Four Emperors], [Cross Guild] or [Egghead Arc] character performs Super Tandem",
+                "When a [Four Emperors], [Cross Guild] or [Egghead Arc] character performs Super Tandem",
+                "When a [Four Emperors], [Cross Guild] or [Egghead Arc] character performs Super Tandem",
+                "When a [Four Emperors], [Cross Guild] or [Egghead Arc] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Four Emperors] [Cross Guild] [Egghead Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Cross Guild] [Egghead Arc] characters by 2 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Cross Guild] [Egghead Arc] characters by 3 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Cross Guild] [Egghead Arc] characters by 4 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Cross Guild] [Egghead Arc] characters by 5 for 1 turn"
+                "Raises Boost Level of [Four Emperors], [Cross Guild] and [Egghead Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Cross Guild] and [Egghead Arc] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Cross Guild] and [Egghead Arc] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Cross Guild] and [Egghead Arc] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Cross Guild] and [Egghead Arc] characters by 5 for 1 turn."
             ]
         }
     },
     4551: {//Burgess & Shiryu
         captain: {
-            character1: "Reduces crew's Switch Effect and VS Effect gauge by 2 at start of quest, boosts [QCK] and [INT] characters' HP by 1.3x, ATK by 4.5x, boosts their ATK by approximately 5.25x after 3 PERFECT strikes in a row, makes their [INT][RCV][BOMB] slots have matching slot effects, and reduces crew's Despair duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Reduces [Blackbeard Pirates] [Four Emperors] characters' Special charge time by 3 turns at start of quest",
-            character2: "Reduces crew's Switch Effect and VS Effect gauge by 2 at start of quest, boosts [QCK] and [INT] characters' ATK by 5x, HP by 1.3x, makes their [QCK][TND][BOMB] slots have matching slot effects, and reduces crew's Despair duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Reduces [Blackbeard Pirates] [Four Emperors] characters' Special charge time by 3 turns at start of quest",
-            combined: "Reduces crew's Switch Effect and VS Effect gauge by 2 at start of quest, boosts [QCK] and [INT] characters' HP by 1.3x, ATK by approximately 5.75x when slots match (5.5x otherwise), makes their [QCK][INT][RCV][TND][BOMB] slots have matching slot effects, and reduces crew's Despair duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Reduces [Blackbeard Pirates] [Four Emperors] characters' Special charge time by 3 turns at start of quest. If 2 or more [Blackbeard Pirates] [Four Emperors] characters are on the crew, boosts Free Spirit, Driven, and Slasher characters' ATK by 1.1x"
+            character1: "Launches the following effects at start of fight: reduces Special Cooldown of [Blackbeard Pirates] and [Four Emperors] characters by 3 turns, and reduces Switch Effect and VS Gauge of all characters by 2. Boosts ATK of [QCK] and [INT] characters by 4.5x, by 5.25x instead after the 3rd PERFECTs in a row, boosts HP of [QCK] and [INT] characters by 1.3x, makes [INT], [RCV] and [BOMB] orbs beneficial for [QCK] and [INT] characters, and reduces Despair duration by 10 turns.",
+            character2: "Launches the following effect at start of fight: reduces Special Cooldown of [Blackbeard Pirates] and [Four Emperors] characters by 3 turns, and reduces Switch Effect and VS Gauge of all characters by 2. Boosts ATK of [QCK] and [INT] characters by 5x, boosts HP of [QCK] and [INT] characters by 1.3x, makes [QCK], [TND] and [BOMB] orbs beneficial for [QCK] and [INT] characters, and reduces Despair duration by 10 turns.",
+            combined: "Launches the following effect at start of fight: reduces Special Cooldown of [Blackbeard Pirates] and [Four Emperors] characters by 3 turns, and reduces Switch Effect and VS Gauge of all characters by 2. Boosts ATK of [QCK] and [INT] characters by 5.5x, by 5.75x instead if they have a beneficial orb, boosts HP of [QCK] and [INT] characters by 1.3x, makes [QCK], [INT], [RCV], [TND] and [BOMB] orbs beneficial for [QCK] and [INT] characters, and reduces Despair duration by 10 turns. If your crew has 2+ [Blackbeard Pirates] or [Four Emperors] characters, boosts ATK of Free Spirit, Driven and Slasher characters by 1.1x."
         },
-        special: "Reduces crew's Paralysis/Special Bind duration by 7 turns. If field has \"Territory: [QCK]\", \"Territory: [INT]\", or \"Territory: Free Spirit class\" and 2 or more [Blackbeard Pirates] [Four Emperors] characters are on the crew when Special is launched, boosts [QCK] and [INT] characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.3; GREAT +0.5; PERFECT +0.7) for 3 turns. If enemy has damage reduction (except Threshold Damage Reduction) status and an [INT] is set as Support for character when Special is launched, applies \"Territory: Free Spirit class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 2 turns. If enemy has damage reduction (except Threshold Damage Reduction) status and a [QCK] is set as Support for character when Special is launched, applies \"Territory: [QCK]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 2 turns. If crew has ATK Up status when Special is launched, boosts Free Spirit, Driven, and Slasher characters' advantageous class effect by 1.75x for 1 turn, then after that, boosts [QCK] and [INT] characters' ATK by 3.25x for 3 turns (allows this effect to be further increased up to 2 times), and becomes \"Burgess & Shiryu\" for 3 turns",
+        special: "Reduces Paralysis and Special Bind duration by 7 turns, boosts ATK of [QCK] and [INT] characters by 3.25x, can be enhanced up to 2 times, for 3 turn, and becomes Burgess & Shiryu for 3 turns. If your crew has ATK Up when the special is activated, boosts Advantageous Class Effect of Free Spirit, Driven and Slasher characters by 1.75x for 1 turn. If your crew has 2+ [Blackbeard Pirates] or [Four Emperors] characters and field has Territory: [QCK], Territory: [INT] or Territory: Free Spirit when the special is activated, increases Chain Tap Timing Bonus of [QCK] and [INT] characters to +0.3x-0.7x for 3 turns depending on Tap Timing. If enemies have Percent Damage Reduction when the special is activated and an [QCK] character is supporting this character, applies Territory: [QCK] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns. If enemies have Percent Damage Reduction when the special is activated and an [INT] character is supporting this character, applies Territory: Free Spirit class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns.",
+        specialNotes: "<b>GOOD:</b> +0.3, <b>GREAT:</b> +0.5, <b>PERFECT:</b> +0.7",
         specialName: "Coordinated Might and Invisibility",
         sailor: {
-            character1: "Makes crew's [QCK][INT] slots have matching slot effects",
-            character2: "Makes crew's [QCK][INT] slots have matching slot effects",
-            combined: "Makes crew's [QCK][INT] slots have matching slot effects",
-            level1: "If field has \"Territory: [QCK]\" or \"Territory: [INT]\", boosts [QCK] and [INT] characters' base ATK by 1.1x"
+            character1: "Makes [QCK] and [INT] orbs beneficial for all characters.",
+            character2: "Makes [QCK] and [INT] orbs beneficial for all characters.",
+            combined: "Makes [QCK] and [INT] orbs beneficial for all characters.",
+            level1: "If field has Territory: [QCK] or Territory: [INT], boosts base ATK of [QCK] and [INT] characters by 1.1x."
         },
-        superSpecialCriteria: "When character becomes \"Burgess & Shiryu\" with Super Switch effect and any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Marshall D. Teach (Blackbeard), Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
-        superSpecial: "Applies 30% damage reduction to enemies for 3 turns (this effect is treated as an activation of damage reduction effect), further increases crew's slot effect and type effect boosts by 1.2x (up to a maximum 15x), and changes Free Spirit characters to Super Free Spirit",
+        superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji)",
+        superSpecial: "Reduces enemies' damage received by 30% for 3 turns, increases boost effects of Orb Amplification and Color Affinity buffs by 1.2x (up to 15x), and transforms Free Spirit characters into Super Free Spirit characters.",
         swap: {
-            base: "Completely removes character's Special Bind, and applies -15% [QCK] and [INT] Resistance to all enemies for 1 turn",
-            super: "Completely removes character's Special Bind, applies -35% [QCK] and [INT] Resistance to all enemies for 1 turn, and becomes \"Burgess & Shiryu\" for 3 turns",
+            base: "Removes Special Bind duration completely on this character, reduces enemies' [QCK] and [INT] resistance by -15% for 1 turn.",
+            super: "Removes Special Bind duration completely on this character, reduces enemies' [QCK] and [INT] resistance by -35% for 1 turn, and becomes Burgess & Shiryu for 3 turns.",
             superTurns: 5
         },
         limit: [
@@ -183611,38 +183612,38 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Four Emperors] [Blackbeard Pirates] [Worst Generation] character performs Super Tandem",
-                "When a [Four Emperors] [Blackbeard Pirates] [Worst Generation] character performs Super Tandem",
-                "When a [Four Emperors] [Blackbeard Pirates] [Worst Generation] character performs Super Tandem",
-                "When a [Four Emperors] [Blackbeard Pirates] [Worst Generation] character performs Super Tandem",
-                "When a [Four Emperors] [Blackbeard Pirates] [Worst Generation] character performs Super Tandem"
+                "When a [Four Emperors], [Blackbeard Pirates] or [Worst Generation] character performs Super Tandem",
+                "When a [Four Emperors], [Blackbeard Pirates] or [Worst Generation] character performs Super Tandem",
+                "When a [Four Emperors], [Blackbeard Pirates] or [Worst Generation] character performs Super Tandem",
+                "When a [Four Emperors], [Blackbeard Pirates] or [Worst Generation] character performs Super Tandem",
+                "When a [Four Emperors], [Blackbeard Pirates] or [Worst Generation] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Four Emperors] [Blackbeard Pirates] [Worst Generation] characters by 1 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Blackbeard Pirates] [Worst Generation] characters by 2 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Blackbeard Pirates] [Worst Generation] characters by 3 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Blackbeard Pirates] [Worst Generation] characters by 4 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Blackbeard Pirates] [Worst Generation] characters by 5 for 1 turn"
+                "Raises Boost Level of [Four Emperors], [Blackbeard Pirates] and [Worst Generation] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Blackbeard Pirates] and [Worst Generation] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Blackbeard Pirates] and [Worst Generation] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Blackbeard Pirates] and [Worst Generation] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Blackbeard Pirates] and [Worst Generation] characters by 5 for 1 turn."
             ]
         }
     },
     4552: {//Ivankov & Kuma
-        captain: "Boosts crew's RCV by 1.35x, boosts [INT], Fighter, and Free Spirit characters' ATK by 3.75x, and makes their [DEX][RCV] slots have matching slot effects",
-        special: "Reduces all enemies' DEF Up duration by 6 turns, heals crew by 25,000 HP, reduces damage taken by 80% for 1 turn, changes crew's [BLOCK] slots to character's own type, and boosts damage dealt to enemies affected by Delay and DEF Down by 2.25x for 1 turn. If 5 or more [Revolutionary Army] [Egghead Arc] characters are on the crew, halves all enemies' DEF for 1 turn, and boosts crew's ATK by 1.75x for 1 turn (effect can be overwritten with other ATK boost effects)",
+        captain: "Boosts ATK of [INT], Fighter and Free Spirit characters by 3.75x, boosts RCV of all characters by 1.35x, and makes [DEX] and [RCV] orbs beneficial for [INT], Fighter and Free Spirit characters.",
+        special: "Reduces enemies' Increased Defense duration by 6 turns, recovers 25,000 HP, reduces damage received by 80% for 1 turn, changes [BLOCK] orbs into matching orbs, and boosts ATK against delayed enemies and enemies with reduced defense by 2.25x for 1 turn. If your crew has 5+ [Revolutionary Army] or [Egghead Arc] characters, reduces the defense of all enemies by 50% for 1 turn, and boosts ATK of all characters by 1.75x, allowing override, for 1 turn.",
         specialName: "Allies at the Dinner Table",
         sailor: {
-            base: "Character cannot be blown away by attack",
-            level1: "Boosts crew's base stats by 80"
+            base: "This character cannot be Blown Away.",
+            level1: "Boosts base ATK, HP and RCV of all characters by 80."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Revolutionary Army]",
+                Characters: "[Revolutionary Army] characters",
                 description: [
-                    "Heals crew by 1,000 HP and reduces damage taken by 10% for 1 turn at start of final battle",
-                    "Heals crew by 2,000 HP and reduces damage taken by 15% for 1 turn at start of final battle",
-                    "Heals crew by 3,000 HP and reduces damage taken by 20% for 1 turn at start of final battle",
-                    "Heals crew by 4,000 HP and reduces damage taken by 25% for 1 turn at start of final battle",
-                    "Heals crew by 5,000 HP and reduces damage taken by 30% for 1 turn at start of final battle"
+                    "Once per adventure, when you reach the final stage, recovers 1,000 HP, and reduces damage received by 10% for 1 turn.",
+                    "Once per adventure, when you reach the final stage, recovers 2,000 HP, and reduces damage received by 15% for 1 turn.",
+                    "Once per adventure, when you reach the final stage, recovers 3,000 HP, and reduces damage received by 20% for 1 turn.",
+                    "Once per adventure, when you reach the final stage, recovers 4,000 HP, and reduces damage received by 25% for 1 turn.",
+                    "Once per adventure, when you reach the final stage, recovers 5,000 HP, and reduces damage received by 30% for 1 turn."
                 ]
             }
         ],
@@ -183687,22 +183688,22 @@ window.details = {
         ]
     },
     4553: {//Garp & Tashigi & Helmeppo
-        captain: "Boosts crew's HP by 1.35x, boosts [INT], Free Spirit, and Fighter characters' ATK by 3.75x, and makes their [STR][TND] slots have matching slot effects",
-        special: "Reduces [INT] and [STR] characters' Special charge time by 2 turns, reduces crew's Bind duration by 6 turns, and boosts the type effects of normal attacks for [INT] and [STR] characters by 2.25x for 1 turn. If 5 or more [Navy] [Egghead Arc] [SWORD] characters are on the crew, boosts crew's slot effects by 1.75x for 1 turn (effect can be overwritten with other slot effect boost effects). If an [INT] is set as Support for character, applies 50% damage reduction to enemies for 3 turns (this effect is treated as an activation of damage reduction effect), extends the duration of crew's End of Turn Healing by 3 turns, and heals crew by 6,000 HP at end of turn for 8 turns (heals crew by 6,000 HP at end of turn for 5 turns otherwise)",
+        captain: "Boosts ATK of [INT], Free Spirit and Fighter characters by 3.75x, boosts HP of all characters by 1.35x, and makes [STR] and [TND] orbs beneficial for [INT], Free Spirit and Fighter characters.",
+        special: "Reduces Special Cooldown of [STR] and [INT] characters by 2 turns, reduces Bind duration by 6 turns, and boosts the Color Affinity of [STR] and [INT] characters by 2.25x for 1 turn. If your crew has 5+ [Navy], [Egghead Arc] or [SWORD] characters, boosts Orb Effects of all characters by 1.75x, allowing override, for 1 turn. If an [INT] character is supporting this character, reduces enemies' damage received by 50% for 3 turns, increases duration of any End of Turn Healing buffs by 3 turns, and recovers 6,000 HP at the end of the turn for 8 turns; recovers 6,000 HP at the end of the turn for 5 turns otherwise.",
         specialName: "Navy Assembled for the Rescue",
         sailor: {
-            base: "Reduces character's Special Reverse by 3 turns",
-            level1: "Boosts crew's base RCV by 80"
+            base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "Boosts base RCV of all characters by 80."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [SWORD], [Navy Vice Admiral]",
+                Characters: "[SWORD], [Navy Vice Admiral] characters",
                 description: [
-                    "Once per quest, if inflicted with Bind status from the enemy, extends the duration of crew's End of Turn Healing by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, extends the duration of crew's End of Turn Healing by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, extends the duration of crew's End of Turn Healing by 1 turn and reduces crew's Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, extends the duration of crew's End of Turn Healing by 2 turns and reduces crew's Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, extends the duration of crew's End of Turn Healing by 2 turns and reduces crew's Bind duration by 2 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Bind, increases duration of any End of Turn Healing buffs by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, increases duration of any End of Turn Healing buffs by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, increases duration of any End of Turn Healing buffs by 1 turn, and reduces Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, increases duration of any End of Turn Healing buffs by 2 turns, and reduces Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, increases duration of any End of Turn Healing buffs by 2 turns, and reduces Bind duration by 2 turns."
                 ]
             }
         ],
@@ -183747,22 +183748,22 @@ window.details = {
         ]
     },
     4554: {//5* Dr. Vegapunk 
-        captain: "Sets all slots to [BOMB] and locks crew's slots for 1 turn at start of quest, boosts crew's ATK by 3.5x, HP by 1.25x, and makes crew's [BOMB][S. BOMB] slots have matching slot effects",
-        special: "Reduces crew's Despair duration by 2 turns, and launches the following effects based on character's Special launch status: (0) sets the chain multiplier's minimum value at 2.25 and maximum value at 17.5 for 1 turn, and then sets character's Special launch status to (1); (1) reduces crew's ATK Down duration by 1 turn, boosts the chain multiplier by +1.2 for 1 turn, and if character's slot is [BLOCK][BOMB][G] or Rainbow when Special is launched, sets character's Special launch status to (2): (2) prevents character's slot from being changed until character lands a PERFECT strike 1 time, applies \"Territory: [INT]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn, and reduces crew's ATK Down duration by 2 turns (Special launch status effect is not stackable)",
+        captain: "Launches the following effects at start of fight: changes all orbs into [BOMB] orbs, and locks all orbs for 1 turn. Boosts ATK of all characters by 3.5x, boosts HP of all characters by 1.25x, and makes [BOMB] and [SUPERBOMB] orbs beneficial for all characters.",
+        special: "Reduces Despair duration by 2 turns. Launches the following effects depending on the Special Launch Status of this character when the special is activated: <ul><li><b>(0):</b> Sets Chain Boundaries to 2.25x and 17.5x for 1 turn, and sets Special Launch Status of this character to (1).</li> <li><b>(1):</b> Reduces ATK Down duration by 1 turn, and adds 1.2x to chain multiplier for 1 turn. If this character's orb is a [BLOCK], [BOMB], [G] or [RAINBOW] orb when the special is activated, sets Special Launch Status of this character to (2).</li> <li><b>(2):</b> Reduces ATK Down duration by 2 turns, barriers this character's orb for 1 PERFECT hit, and applies Territory: [INT] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 1 turn.</li></ul>",
         specialName: "Revealing Their Fate",
         sailor: {
-            base: "Boosts Cerebral and Free Spirit characters' base ATK by 50",
-            level1: "Makes crew's [BOMB] slots have matching slot effects"
+            base: "Boosts base ATK of Cerebral and Free Spirit characters by 50.",
+            level1: "Makes [BOMB] orbs beneficial for all characters."
         },
         support: [
             {
-                Characters: "[INT] characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[INT] [Egghead Arc] characters",
                 description: [
-                    "Adds 3% of character's base RCV to supported character's base RCV",
-                    "Adds 4% of character's base RCV to supported character's base RCV",
-                    "Adds 5% of character's base RCV to supported character's base RCV",
-                    "Adds 7% of character's base RCV to supported character's base RCV",
-                    "Adds 9% of character's base RCV to supported character's base RCV [AUTO+] At battle 5, activates supported character's Switch Effect. At final battle, activates supported character's Special"
+                    "Adds 3% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 4% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 5% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 7% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 9% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 5th stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
