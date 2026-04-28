@@ -141227,7 +141227,7 @@ window.details = {
             {
                 rResilience: true,
                 sailor: {
-                    level1: "Adds 10x character's ATK on top of tap-timing bonuses"
+                    level1: "Adds 10x character's ATK as Additional Damage."
                 },
                 special: {
                     base: "Deals 30% of enemies' current HP in damage to all enemies, reduces Special Cooldown of all characters by 1 turn, boosts ATK of Shooter characters by 2.5x for 3 turns, adds 100x character's ATK as Additional Typeless Damage for 4 turns, and changes orbs, including [BLOCK] orbs, of Shooter characters into Matching orbs. If your crew has Percent Damage Reduction when the special is activated, reduces enemies' Increased Defense and Percent Damage Reduction duration by 4 turns and reduces Bind and Despair duration by 4 turns."
