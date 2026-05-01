@@ -461524,6 +461524,416 @@
       "cost": 20
     },
     {
+      "id": 4556,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["HP", "SPD", "DEF"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["[DEX]", "Free Spirit"]}
+            },
+            {
+              "attributes": ["Guard", "Shield"],
+              "effect": "buff",
+              "level": 4,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "character", "team": "crew", "families": ["Monkey D. Luffy", "Sabo", "Yamato"]}
+            },
+            {
+              "amount": 12,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "trigger", "stat": "Guard", "count": 5}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"amount": 14}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"amount": 16}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 7}
+            },
+            {
+              "override": {"amount": 18}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 8}
+            },
+            {
+              "override": {"amount": 20}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "amount": 10,
+              "effect": "damage",
+              "type": "cut",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "forward"}
+            },
+            {
+              "attributes": ["Forced Out"],
+              "effect": "hinderance",
+              "chance": 82,
+              "duration": 6,
+              "targeting": {"count": 1, "targets": ["DEF-Style"]}
+            },
+            {
+              "attributes": ["Forced Out"],
+              "effect": "hinderance",
+              "chance": 82,
+              "duration": 6,
+              "targeting": {"count": 1, "targets": ["DBF-Style"]}
+            },
+            {
+              "attributes": ["Forced Out"],
+              "effect": "hinderance",
+              "chance": 82,
+              "duration": 6,
+              "targeting": {"count": 1, "targets": ["RCV-Style"]}
+            },
+            {
+              "attributes": ["Action Bind"],
+              "effect": "evade",
+              "chance": 82,
+              "duration": 6,
+              "targeting": {"targets": ["[DEX]", "Free Spirit"]}
+            },
+            {
+              "amount": 20,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["crew"], "families": ["Monkey D. Luffy", "Sabo", "Yamato"]}
+            },
+            {
+              "attributes": ["Action Bind"],
+              "effect": "hinderance",
+              "chance": 73,
+              "duration": 5,
+              "targeting": {"targets": ["enemies"]}
+            }
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 11}
+            },
+            {
+              "override": {"chance": 84}
+            },
+            {
+              "override": {"chance": 84}
+            },
+            {
+              "override": {"chance": 84}
+            },
+            {
+              "override": {"chance": 84, "duration": 7}
+            },
+            {
+              "override": {"amount": 21}
+            },
+            {
+              "override": {"chance": 76}
+            }
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 12}
+            },
+            {
+              "override": {"chance": 86, "duration": 7}
+            },
+            {
+              "override": {"chance": 86, "duration": 7}
+            },
+            {
+              "override": {"chance": 86, "duration": 7}
+            },
+            {
+              "override": {"chance": 86, "duration": 8}
+            },
+            {
+              "override": {"amount": 22}
+            },
+            {
+              "override": {"chance": 79}
+            }
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 13}
+            },
+            {
+              "override": {"chance": 88, "duration": 7}
+            },
+            {
+              "override": {"chance": 88, "duration": 7}
+            },
+            {
+              "override": {"chance": 88, "duration": 7}
+            },
+            {
+              "override": {"chance": 88, "duration": 9}
+            },
+            {
+              "override": {"amount": 23}
+            },
+            {
+              "override": {"chance": 82}
+            }
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 14}
+            },
+            {
+              "override": {"chance": 90, "duration": 8}
+            },
+            {
+              "override": {"chance": 90, "duration": 8}
+            },
+            {
+              "override": {"chance": 90, "duration": 8}
+            },
+            {
+              "override": {"chance": 90, "duration": 10}
+            },
+            {
+              "override": {"amount": 24}
+            },
+            {
+              "override": {"chance": 85}
+            }
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 15}
+            },
+            {
+              "override": {"chance": 92, "duration": 8}
+            },
+            {
+              "override": {"chance": 92, "duration": 8}
+            },
+            {
+              "override": {"chance": 92, "duration": 8}
+            },
+            {
+              "override": {"chance": 92, "duration": 11}
+            },
+            {
+              "override": {"amount": 25}
+            },
+            {
+              "override": {"chance": 88}
+            }
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 16}
+            },
+            {
+              "override": {"chance": 94, "duration": 9}
+            },
+            {
+              "override": {"chance": 94, "duration": 9}
+            },
+            {
+              "override": {"chance": 94, "duration": 9}
+            },
+            {
+              "override": {"chance": 94, "duration": 12}
+            },
+            {
+              "override": {"amount": 26}
+            },
+            {
+              "override": {"chance": 91}
+            }
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 17}
+            },
+            {
+              "override": {"chance": 96, "duration": 9}
+            },
+            {
+              "override": {"chance": 96, "duration": 9}
+            },
+            {
+              "override": {"chance": 96, "duration": 9}
+            },
+            {
+              "override": {"chance": 96, "duration": 13}
+            },
+            {
+              "override": {"amount": 27}
+            },
+            {
+              "override": {"chance": 94}
+            }
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 18}
+            },
+            {
+              "override": {"chance": 98, "duration": 10}
+            },
+            {
+              "override": {"chance": 98, "duration": 10}
+            },
+            {
+              "override": {"chance": 98, "duration": 10}
+            },
+            {
+              "override": {"chance": 98, "duration": 14}
+            },
+            {
+              "override": {"amount": 28}
+            },
+            {
+              "override": {"chance": 97}
+            }
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 20}
+            },
+            {
+              "override": {"chance": 100, "duration": 10}
+            },
+            {
+              "override": {"chance": 100, "duration": 10}
+            },
+            {
+              "override": {"chance": 100, "duration": 10}
+            },
+            {
+              "override": {"chance": 100, "duration": 15}
+            },
+            {
+              "override": {"amount": 30}
+            },
+            {
+              "override": {"chance": 100}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Special Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[QCK]",
+          "percentage": 30,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "level": 1,
+          "area": "Small",
+          "action": "heal"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "SPT",
+        "def": 161,
+        "spd": 167
+      },
+      "cost": 20
+    },
+    {
       "id": 5013,
       "basedOn": 5014
     },

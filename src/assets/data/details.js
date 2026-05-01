@@ -183827,6 +183827,119 @@ window.details = {
             }
         ]
     },
+    4556: {//Ace
+        captain: "Sets character's Special launch status to (1) and reduces crew's Switch Effect by 6 at start of quest, boosts Fighter characters' HP by 1.5x, ATK by 5x, boosts their ATK by 5.75x when HP is full or 25% or below, makes their [DEX][RCV] slots have matching slot effects, and if crew uses a Special to boost ATK, extends the duration of the effect by 2 turns",
+        special: "Applies Ignited status to all enemies (ignoring immunity to all status effects or immunity excluding certain status effect) for 1 turn (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action), reduces crew's Bind duration by 6 turns, boosts Fighter characters' ATK by 3x for 3 turns (allows this effect to be further increased up to 2 times), and launches the following effects based on character's Special launch status: (1) reduces all enemies' DEF Up duration by 6 turns, reduces character's Special charge time by 13 turns, and sets character's Special launch status to (2). If crew's HP is 10% or below or character's Special launch status is (2) when Special is launched, changes crew's slots (including [BLOCK] slots and unless slot is [DEX]) to [DEX], boosts damage dealt to Ignited enemies by 2.25x for 1 turn, and reduces bottom-row characters' Special charge time by 3 turns (Special launch status (1) effect and \"If crew's HP is 10% or below or character's Special launch status is (2) when Special is launched\" effect are not stackable)",
+        specialName: "Enemy-Clearing Flame",
+        sailor: {
+            base: "Boosts Fighter characters' base stats by 150",
+            level1: "If field has \"Territory: [DEX]\", boosts crew's base ATK by 1.1x"
+        },
+        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Sabo, Monkey D. Garp, Curly Dadan, Makino, Leonero, Skull, Mihal, Ganryu, Kotatsu, Cornelia, Yamato, Kaido, Charlotte Linlin (Big Mom), Shanks, Edward Newgate (Whitebeard)",
+        superSpecial: "Applies \"Territory: [DEX]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns, adds 50x character's ATK in non-type damage on top of tap-timing bonuses for 5 turns, boosts the chain multiplier by 1.5x for 3 turns, sets character's Special launch status to (1), and changes [DEX] characters to Super [DEX]",
+        support: [
+            {
+                Characters: "Monkey D. Luffy, Monkey D. Garp, Sabo, Curly Dadan, Makino, Yamato, Leonero, Ganryu, Skull, Mihal, Kotatsu, Cornelia",
+                description: [
+                    "Once per quest, if supported character uses a Special, changes middle-row characters' [DEX] slots to [RCV]",
+                    "Once per quest, if supported character uses a Special, changes middle-row characters' [DEX] slots to [RCV]",
+                    "Once per quest, if supported character uses a Special, changes middle-row characters' [DEX] slots to [RCV]",
+                    "Once per quest, if supported character uses a Special, changes middle-row characters' type slots to [RCV]",
+                    "Once per quest, if supported character uses a Special, changes middle-row characters' [BLOCK] and type slots to [RCV]"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Barrier Penetration",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 70",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 80",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: If field has \"Territory: [DEX]\", boosts crew's base ATK by 1.1x",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 30",
+            "Acquire Potential 3: Super Tandem Boost",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 50"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 60% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [DEX] Fighter character performs Super Tandem",
+                "When a [DEX] Fighter character performs Super Tandem",
+                "When a [DEX] Fighter character performs Super Tandem",
+                "When a [DEX] Fighter character performs Super Tandem",
+                "When a [DEX] Fighter character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Spade Pirates] [Straw Hat Pirates] characters by 1 for 1 turn",
+                "Raises Boost Level of [Spade Pirates] [Straw Hat Pirates] [Egghead Arc] [Land of Wano Arc] characters by 1 for 1 turn",
+                "Raises Boost Level of [Spade Pirates] [Straw Hat Pirates] [Egghead Arc] [Land of Wano Arc] characters by 2 for 1 turn",
+                "Raises Boost Level of [Spade Pirates] [Straw Hat Pirates] [Egghead Arc] [Land of Wano Arc] characters by 3 for 1 turn",
+                "Raises Boost Level of [Spade Pirates] [Straw Hat Pirates] [Egghead Arc] [Land of Wano Arc] characters by 4 for 1 turn"
+            ]
+        }
+    },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
