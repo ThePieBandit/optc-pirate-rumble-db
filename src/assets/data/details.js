@@ -183828,24 +183828,24 @@ window.details = {
         ]
     },
     4556: {//Ace
-        captain: "Sets character's Special launch status to (1) and reduces crew's Switch Effect by 6 at start of quest, boosts Fighter characters' HP by 1.5x, ATK by 5x, boosts their ATK by 5.75x when HP is full or 25% or below, makes their [DEX][RCV] slots have matching slot effects, and if crew uses a Special to boost ATK, extends the duration of the effect by 2 turns",
-        special: "Applies Ignited status to all enemies (ignoring immunity to all status effects or immunity excluding certain status effect) for 1 turn (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action), reduces crew's Bind duration by 6 turns, boosts Fighter characters' ATK by 3x for 3 turns (allows this effect to be further increased up to 2 times), and launches the following effects based on character's Special launch status: (1) reduces all enemies' DEF Up duration by 6 turns, reduces character's Special charge time by 13 turns, and sets character's Special launch status to (2). If crew's HP is 10% or below or character's Special launch status is (2) when Special is launched, changes crew's slots (including [BLOCK] slots and unless slot is [DEX]) to [DEX], boosts damage dealt to Ignited enemies by 2.25x for 1 turn, and reduces bottom-row characters' Special charge time by 3 turns (Special launch status (1) effect and \"If crew's HP is 10% or below or character's Special launch status is (2) when Special is launched\" effect are not stackable)",
+        captain: "Launches the following effects at start of fight: sets Special Launch Status to (1), and reduces Switch Effect of all characters by 6. Boosts ATK of Fighter characters by 5x, by 5.75x instead if HP is above 99% or below 25% at the start of the turn, boosts HP of Fighter characters by 1.5x, makes [DEX] and [RCV] orbs beneficial for Fighter characters, and increases duration of any ATK Up buffs applied by specials by 2 turns.",
+        special: "Ignores Debuff Protection and inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 1 turn, reduces Bind duration by 6 turns, and boosts ATK of Fighter characters by 3x, can be enhanced up to 2 times, for 3 turns. If HP is above 10% and Special Launch Status is (1) when the special is activated, reduces enemies' Increased Defense duration by 6 turns, reduces Special Cooldown of this character by 13 turns, and sets Special Launch Status to (2). If HP is below 10% or Special Launch Status is (2) when the special is activated, changes all non-[DEX] orbs, including [BLOCK] orbs, into [DEX] orbs, boosts ATK against enemies inflicted with Burn by 2.25x for 1 turn, and reduces Special Cooldown of bottom row characters by 3 turns.",
         specialName: "Enemy-Clearing Flame",
         sailor: {
-            base: "Boosts Fighter characters' base stats by 150",
-            level1: "If field has \"Territory: [DEX]\", boosts crew's base ATK by 1.1x"
+            base: "Boosts base ATK, HP and RCV of Fighter characters by 150.",
+            level1: "If field has Territory: [DEX], boosts base ATK of all characters by 1.1x."
         },
-        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Sabo, Monkey D. Garp, Curly Dadan, Makino, Leonero, Skull, Mihal, Ganryu, Kotatsu, Cornelia, Yamato, Kaido, Charlotte Linlin (Big Mom), Shanks, Edward Newgate (Whitebeard)",
-        superSpecial: "Applies \"Territory: [DEX]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns, adds 50x character's ATK in non-type damage on top of tap-timing bonuses for 5 turns, boosts the chain multiplier by 1.5x for 3 turns, sets character's Special launch status to (1), and changes [DEX] characters to Super [DEX]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Sabo, Monkey D. Garp, Curly Dadan, Makino, Leonero, Skull, Mihal, Ganryu, Kotatsu, Cornelia, Yamato, Kaido, Charlotte Linlin (Big Mom), Shanks, Edward Newgate (Whitebeard)",
+        superSpecial: "Applies Territory: [DEX] type to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns, adds 50x character's ATK as Additional Typeless Damage for 5 turns, boosts Chain Multiplier Growth Rate by 1.5x for 3 turns, sets Special Launch Status to (1), and transforms [DEX] characters into Super [DEX] characters.",
         support: [
             {
                 Characters: "Monkey D. Luffy, Monkey D. Garp, Sabo, Curly Dadan, Makino, Yamato, Leonero, Ganryu, Skull, Mihal, Kotatsu, Cornelia",
                 description: [
-                    "Once per quest, if supported character uses a Special, changes middle-row characters' [DEX] slots to [RCV]",
-                    "Once per quest, if supported character uses a Special, changes middle-row characters' [DEX] slots to [RCV]",
-                    "Once per quest, if supported character uses a Special, changes middle-row characters' [DEX] slots to [RCV]",
-                    "Once per quest, if supported character uses a Special, changes middle-row characters' type slots to [RCV]",
-                    "Once per quest, if supported character uses a Special, changes middle-row characters' [BLOCK] and type slots to [RCV]"
+                    "Once per adventure, when the supported character uses their special, changes [DEX] orbs of middle row characters into [RCV] orbs.",
+                    "Once per adventure, when the supported character uses their special, changes [DEX] orbs of middle row characters into [RCV] orbs.",
+                    "Once per adventure, when the supported character uses their special, changes [DEX] orbs of middle row characters into [RCV] orbs.",
+                    "Once per adventure, when the supported character uses their special, changes [STR], [DEX], [QCK], [PSY] and [INT] orbs of middle row characters into [RCV] orbs.",
+                    "Once per adventure, when the supported character uses their special, changes [STR], [DEX], [QCK], [PSY], [INT] and [BLOCK] orbs of middle row characters into [RCV] orbs."
                 ]
             }
         ],
@@ -183932,11 +183932,11 @@ window.details = {
                 "When a [DEX] Fighter character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Spade Pirates] [Straw Hat Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Spade Pirates] [Straw Hat Pirates] [Egghead Arc] [Land of Wano Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [Spade Pirates] [Straw Hat Pirates] [Egghead Arc] [Land of Wano Arc] characters by 2 for 1 turn",
-                "Raises Boost Level of [Spade Pirates] [Straw Hat Pirates] [Egghead Arc] [Land of Wano Arc] characters by 3 for 1 turn",
-                "Raises Boost Level of [Spade Pirates] [Straw Hat Pirates] [Egghead Arc] [Land of Wano Arc] characters by 4 for 1 turn"
+                "Raises Boost Level of [Spade Pirates] and [Straw Hat Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Spade Pirates], [Straw Hat Pirates], [Egghead Arc] and [Land of Wano Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Spade Pirates], [Straw Hat Pirates], [Egghead Arc] and [Land of Wano Arc] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Spade Pirates], [Straw Hat Pirates], [Egghead Arc] and [Land of Wano Arc] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Spade Pirates], [Straw Hat Pirates], [Egghead Arc] and [Land of Wano Arc] characters by 4 for 1 turn."
             ]
         }
     },
