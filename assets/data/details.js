@@ -159481,7 +159481,7 @@ window.details = {
 			character2: "Boosts ATK of Driven and Powerhouse characters by 5.25x, boosts HP of Driven and Powerhouse characters by 1.5x, slightly boosts chances of getting [TND] orbs, changes [TND] orbs into [SEMLA] orbs, makes [DEX], [RCV], and [SEMLA] orbs beneficial for Driven and Powerhouse characters, reduces damage received by 20%, recovers 5,000 HP at the end of each turn, and makes crew immune to Blow Away. Ignores Defense Reduction Debuff Protection and reduces the defense of all enemies by 70% for 2 turns after each turn you take damage.",
 			combined: "Boosts ATK of Driven and Powerhouse characters by 5.5x, by 5.75x instead if they have a beneficial orb, boosts HP of Driven and Powerhouse characters by 1.5x, slightly boosts chances of getting [TND] orbs, changes [TND] orbs into [SEMLA] orbs, makes [DEX], [QCK], [RCV], and [SEMLA] orbs beneficial for Driven and Powerhouse characters, makes PERFECTs consume [RCV] and [SEMLA] orbs, reduces damage received by 20%, recovers 5,000 HP at the end of each turn, recovers HP proportional to the number of enemies you defeated in that turn ✕ crew's RCV at the end of the enemy turn, and makes crew immune to Blow Away. Ignores Defense Reduction Debuff Protection and reduces the defense of all enemies by 70% for 2 turns after each turn you take damage. Up to 2 times per adventure, if Charlotte Katakuri, Charlotte Cracker, or Charlotte Smoothie launches a special as a crewmate, enables Chain Lock and Color Affinity buffs to be enhanced up to 2 times, and increases boost effects of Chain Lock buffs by +0.25x."
 		},
-		special: "Deals 20% of enemies' current HP in damage to all enemies, reduces Slot Bind and Despair duration by 7 turns, allows crew to perform Super Tandem with [SEMLA] orbs for 3 turns, changes all orbs, including [BLOCK] orbs, into [SEMLA] orbs, boosts Orb Effects of Driven and Powerhouse characters by 2.75x-3.25x for 2 turns based on the number of status effects applied on enemy, and becomes Big Mom & Katakuri for 3 turns. If enemies have 8 or more status effects when the special is activated, increases boost effects of Orb Amplification and Chain Lock buffs by +0.25x, including effects activated in the same Ability, and enables Orb Amplification buffs to be enhanced up to 2 times.",
+		special: "Deals 20% of enemies' current HP in damage to all enemies, reduces Slot Bind and Despair duration by 7 turns, allows all characters to perform Super Tandem with [SEMLA] orbs for 3 turns, changes all orbs, including [BLOCK] orbs, into [SEMLA] orbs, boosts Orb Effects of Driven and Powerhouse characters by 2.75x-3.25x for 2 turns based on the number of status effects applied on enemy, and becomes Big Mom & Katakuri for 3 turns. If enemies have 8 or more status effects when the special is activated, increases boost effects of Orb Amplification and Chain Lock buffs by +0.25x, including effects activated in the same Ability, and enables Orb Amplification buffs to be enhanced up to 2 times.",
 		specialNotes: "2.75x for 0-4 effects, 3x for 5-7 effects, 3.25x for 8+ effects",
 		specialName: "Seamless Pincer Attack",
 		sailor: {
@@ -159984,7 +159984,7 @@ window.details = {
 			character2: "Reduces Special Cooldown of Slasher and Free Spirit characters by 1 turn at the start of the fight, boosts ATK of Slasher and Free Spirit characters by 5.25x, boosts HP of Slasher and Free Spirit characters by 1.25x, boosts chances of getting [QCK] orbs, changes [QCK] orbs into [WANO] orbs, and makes [DEX] and [STR] orbs beneficial for all characters. If your crew has 4 or more Slasher characters, restores Special Cooldown of all characters by 10 turns when they are rewinded, and recovers 5,000 HP at the end of each turn.",
 			combined: "Reduces Special Cooldown of Slasher and Free Spirit characters by 1 turn at the start of the fight, boosts ATK of Slasher and Free Spirit characters by 5.25x, by 6x instead if they have a [WANO] orb, boosts HP of Slasher and Free Spirit characters by 1.25x, boosts chances of getting [QCK] orbs, changes [QCK] orbs into [WANO] orbs, and makes [DEX] and [STR] orbs beneficial for all characters. If your crew has 4 or more Slasher characters, restores Special Cooldown of all characters by 10 turns when they are rewinded, recovers 5,000 HP at the end of each turn, and reduces enemies' Slasher and Free Spirit Resistance by -4% for 1 turn when a Slasher character performs a Critical Hit."
 		},
-		special: "Reduces Paralysis duration by 10 turns, changes [DEX] orbs into [WANO] orbs for 3 turns, changes [BLOCK] and Matching orbs into [DEX] orbs, allows crew to perform Super Tandem with [WANO] orbs for 3 turns, enables ATK Up and Orb Amplification buffs applied by Slasher and Free Spirit characters to be enhanced up to 2 times for 3 turns. If your crew has Chain Lock when the special is activated, inflicts all enemies with Increase Damage Taken by 2.25x for 1 turn; sets Chain Boundaries to 3.5x and 30.0x for 3 turns otherwise. Becomes Oden & Kin'emon & Denjiro for 3 turns.",
+		special: "Reduces Paralysis duration by 10 turns, changes [DEX] orbs into [WANO] orbs for 3 turns, changes [BLOCK] and Matching orbs into [DEX] orbs, allows all characters to perform Super Tandem with [WANO] orbs for 3 turns, enables ATK Up and Orb Amplification buffs applied by Slasher and Free Spirit characters to be enhanced up to 2 times for 3 turns. If your crew has Chain Lock when the special is activated, inflicts all enemies with Increase Damage Taken by 2.25x for 1 turn; sets Chain Boundaries to 3.5x and 30.0x for 3 turns otherwise. Becomes Oden & Kin'emon & Denjiro for 3 turns.",
 		specialName: "Samurai Challenging the Dragon",
 		sailor: {
 			character1: "If field has Territory: Slasher or Territory: Free Spirit, boosts base ATK of Slasher and Free Spirit characters by 200; boosts base ATK of Slasher and Free Spirit characters by 100 otherwise.",
@@ -161133,7 +161133,7 @@ window.details = {
 	},
 	4288: {//Uta
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces Switch Effect of all characters by 5 at the start of the fight, boosts ATK of [STR], [QCK], Cerebral and Shooter characters by 5x, by 5.5x after the 3rd PERFECT in a row, by 6x after the 5th PERFECT in a row, boosts HP of [STR], [QCK], Cerebral and Shooter characters by 1.35x, changes [PSY] orbs of [STR], [QCK], Cerebral and Shooter characters into [RAINBOW] orbs, and reduces Burn duration by 10 turns. If this character has a [RAINBOW] orb and you attack with this character, reduces enemies' [STR], [DEX] and [QCK] Resistance by -10% for 1 turn. If a Cerebral or Shooter crewmate uses a special, boosts Final Tap ATK of Cerebral and Shooter characters by 20%.",
-		special: "Allows crew to perform Super Tandem with [STR] and [RAINBOW] orbs for 3 turns, recovers 20,000 HP, changes all orbs, including [BLOCK] orbs, into [RAINBOW] orbs, and boosts Tap Timing ATK of [STR], [QCK], Cerebral and Shooter characters by 2x following a chain of PERFECT > PERFECT > PERFECT > PERFECT attacks for 1 turn. If your Captain is a Cerebral or Shooter character, reduces Counter-Healing and Maximum-Chain ATK Down duration by 6 turns. If your crew has Chain Lock when the special is activated, increases boost effects of Chain Lock buffs by +0.5x; sets Chain Boundaries to 3.0x and 35.0x for 1 turn otherwise.",
+		special: "allows all characters to perform Super Tandem with [STR] and [RAINBOW] orbs for 3 turns, recovers 20,000 HP, changes all orbs, including [BLOCK] orbs, into [RAINBOW] orbs, and boosts Tap Timing ATK of [STR], [QCK], Cerebral and Shooter characters by 2x following a chain of PERFECT > PERFECT > PERFECT > PERFECT attacks for 1 turn. If your Captain is a Cerebral or Shooter character, reduces Counter-Healing and Maximum-Chain ATK Down duration by 6 turns. If your crew has Chain Lock when the special is activated, increases boost effects of Chain Lock buffs by +0.5x; sets Chain Boundaries to 3.0x and 35.0x for 1 turn otherwise.",
 		specialName: "Smile-Delivering Santa Uta",
 		sailor: {
 			base: "Boosts base ATK of [STR], [QCK], Cerebral and Shooter characters by 75, and removes Blindness duration completely.",
@@ -162809,7 +162809,7 @@ window.details = {
 					"Once per adventure, when you reach the final stage, changes the orb of the supported character into a [RAINBOW] orb, and reduces enemies' Striker Resistance by -3% for 1 turn.",
 					"Once per adventure, when you reach the final stage, changes orbs of right column characters into [RAINBOW] orbs, and reduces enemies' Striker Resistance by -4% for 1 turn.",
 					"Once per adventure, when you reach the final stage, changes orbs, including [BLOCK] orbs, of right column characters into [RAINBOW] orbs, and reduces enemies' Striker Resistance by -5% for 1 turn.",
-					"Once per adventure, when you reach the final stage, changes orbs, including [BLOCK] orbs, of right column characters into [RAINBOW] orbs, reduces enemies' Striker Resistance by -5% for 1 turn, and allows crew to perform Super Tandem with [RAINBOW] orbs for 1 turn."
+					"Once per adventure, when you reach the final stage, changes orbs, including [BLOCK] orbs, of right column characters into [RAINBOW] orbs, reduces enemies' Striker Resistance by -5% for 1 turn, and allows all characters to perform Super Tandem with [RAINBOW] orbs for 1 turn."
 				]
 			}
 		]
@@ -162936,7 +162936,7 @@ window.details = {
 			character2: "Boosts ATK of [STR], [DEX], Cerebral and Shooter characters by 4.5x, by 5.5x instead if they have a [RCV], [TND], [EMPTY], [BOMB] or [SUPERBOMB] orb, boosts HP of [STR], [DEX], Cerebral and Shooter characters by 1.35x, and makes [STR], [DEX], [TND], [BOMB] and [SUPERBOMB] orbs beneficial for [STR], [DEX], Cerebral and Shooter characters. At the start of the fight, sets Chain Boundaries to 3.0x and 35.0x for 5 turns, and reduces Switch Effect of this characters by 2.",
 			combined: "Boosts ATK of [STR], [DEX], Cerebral and Shooter characters by 5.75x, by 6x instead if they have a [RCV], [TND], [EMPTY], [BOMB] or [SUPERBOMB] orb, boosts HP of [STR], [DEX], Cerebral and Shooter characters by 1.35x, and makes [STR], [DEX], [TND], [BOMB] and [SUPERBOMB] orbs beneficial for [STR], [DEX], Cerebral and Shooter characters. If this character has a [RCV], [TND], [EMPTY], [BOMB] or [SUPERBOMB] orb and you attack with this character, increases Orb Effects of beneficial [RCV], [TND], [EMPTY], [SEMLA], [BOMB] and [SUPERBOMB] orbs to 2.5x for 3 turns."
 		},
-		special: "Ignores Debuff Protection and delays all enemies by 1 turn, allows crew to perform Super Tandem with [BOMB] and [SUPERBOMB] orbs for 3 turns, and reduces enemies' Damage Nullification duration by 3 turns. If your crew has ATK Up and Chain Lock when the special is activated, ignores Debuff Protection and inflicts all enemies with Weaken by 1.75x, by 2.1875x instead if enemies are inflicted with Increase Damage Taken, for 1 turn. If your crew has ATK Up when the special is activated, sets Chain Boundaries to 2.75x and 35.0x for 3 turns. Boosts ATK of [STR], [DEX], Shooter and Cerebral characters by 2.75x for 3 turns, and becomes Usopp & Dr. Vegapunk \"Lilith the Evil\" for 3 turns.",
+		special: "Ignores Debuff Protection and delays all enemies by 1 turn, allows all characters to perform Super Tandem with [BOMB] and [SUPERBOMB] orbs for 3 turns, and reduces enemies' Damage Nullification duration by 3 turns. If your crew has ATK Up and Chain Lock when the special is activated, ignores Debuff Protection and inflicts all enemies with Weaken by 1.75x, by 2.1875x instead if enemies are inflicted with Increase Damage Taken, for 1 turn. If your crew has ATK Up when the special is activated, sets Chain Boundaries to 2.75x and 35.0x for 3 turns. Boosts ATK of [STR], [DEX], Shooter and Cerebral characters by 2.75x for 3 turns, and becomes Usopp & Dr. Vegapunk \"Lilith the Evil\" for 3 turns.",
 		specialName: "Shot of Science and Nature",
 		sailor: {
 			character1: "Makes [BOMB] and [SUPERBOMB] orbs beneficial for all characters.",
@@ -169630,7 +169630,7 @@ window.details = {
 			base: "This character cannot be Blown Away; makes [STR], [RCV] and [SEMLA] orbs beneficial for all characters.",
 			level1: "Boosts base ATK of [STR], Striker and Powerhouse characters by 200."
 		},
-		superSpecial: "Reduces Slot Bind duration by 10 turns, allows crew to perform Super Tandem with [RCV] and [SEMLA] orbs for 3 turns, reduces enemies' Striker Resistance by -50% for 1 turn, transforms [STR] characters into Super [STR] characters, and transforms Striker characters into Super Striker characters.",
+		superSpecial: "Reduces Slot Bind duration by 10 turns, allows all characters to perform Super Tandem with [RCV] and [SEMLA] orbs for 3 turns, reduces enemies' Striker Resistance by -50% for 1 turn, transforms [STR] characters into Super [STR] characters, and transforms Striker characters into Super Striker characters.",
 		superSpecialCriteria: "This character must be captain. If your crew has a HP Overfill buff or your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Gol D. Roger, Kaido, Miss Buckingham Stussy, Marco, Jozu, Vista, Portgas D. Ace, Charlotte Katakuri, Charlotte Smoothie, Charlotte Cracker, Streusen, Dr. Indigo, Commander Scarlet",
 		support: [
 			{
@@ -170002,7 +170002,7 @@ window.details = {
             base: "Changes orbs of all characters into [RCV] orbs at the start of the fight.",
             level1: "Makes [RCV] orbs beneficial for all characters. If field has Territory: Shooter or Territory: Cerebral, boosts base ATK, HP and RCV of all characters by 200; boosts base HP of all characters by 200 otherwise."
         },
-        superSpecial: "Changes all orbs, including [BLOCK] orbs, into [RCV] orbs, allows crew to perform Super Tandem with [RCV] orbs for 1 turn, reduces damage received by 70% for 1 turn, increases boost effects of enemies' Increase Damage Taken debuffs by +0.5x, and transforms Shooter character into Super Shooter characters.",
+        superSpecial: "Changes all orbs, including [BLOCK] orbs, into [RCV] orbs, allows all characters to perform Super Tandem with [RCV] orbs for 1 turn, reduces damage received by 70% for 1 turn, increases boost effects of enemies' Increase Damage Taken debuffs by +0.5x, and transforms Shooter character into Super Shooter characters.",
         superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Sabo, Koala, Monkey D. Dragon, Bartholomew Kuma, Emporio Ivankov, Inazuma, Morley, Karasu, Lindbergh, Belo Betty, Hack, Nico Robin",
         support: [
             {
@@ -171153,7 +171153,7 @@ window.details = {
     },
     4406: {//Doflamingo
         captain: "Boosts ATK of [Seven Warlords of the Sea] characters by 1.2x, boosts ATK of Driven and Cerebral characters by 3.5x-4.2x, by 4.25x-5.1x instead if they have a beneficial orb, boosts HP of Driven and Cerebral characters by 1.2x, and makes [STR] orbs beneficial for Driven and Cerebral characters. If your crew has 3+ [Seven Warlords of the Sea] characters, reduces Special Bind duration by 6 turns on middle and bottom row characters.",
-        special: "Reduces enemies' Threshold Damage Reduction duration by 6 turns, boosts Orb Effects of Cerebral and Driven characters by 2.5x for 1 turn, and boosts ATK against enemies inflicted with Weaken by 2.25x for 1 turn. If this character was Captain at start of adventure and is crewmate when the special is activated, increases boost effects of Orb Amplification and Status ATK Boost buffs by +0.4x, including effects activated in the same ability, and allows crew to perform Super Tandem with [STR] and [DEX] orbs for 1 turn. If your crew has 2+ [Seven Warlords of the Sea] characters, enables ATK Up buffs to be enhanced up to 2 times, and reduces ATK Down duration by 6 turns.",
+        special: "Reduces enemies' Threshold Damage Reduction duration by 6 turns, boosts Orb Effects of Cerebral and Driven characters by 2.5x for 1 turn, and boosts ATK against enemies inflicted with Weaken by 2.25x for 1 turn. If this character was Captain at start of adventure and is crewmate when the special is activated, increases boost effects of Orb Amplification and Status ATK Boost buffs by +0.4x, including effects activated in the same ability, and allows all characters to perform Super Tandem with [STR] and [DEX] orbs for 1 turn. If your crew has 2+ [Seven Warlords of the Sea] characters, enables ATK Up buffs to be enhanced up to 2 times, and reduces ATK Down duration by 6 turns.",
         specialName: "Interested in the Article",
         sailor: {
             base: "If this character has a [STR] or [DEX] orb and you attack with this character, reduces enemies' Driven Resistance by -10% for 1 turn.",
@@ -171370,7 +171370,7 @@ window.details = {
             level1: "If this character has a [DEX] orb and you attack with this character, reduces enemies' [DEX] Resistance by -5% for 1 turn."
         },
         superSpecialCriteria: "Can be launched as crewmate. If your crew has an ATK Up or Orb Amplification buff with an effect of 6x or more",
-        superSpecial: "Increases boost effects of Color Affinity buffs by +0.5x, allows crew to perform Super Tandem with [DEX] orbs for 1 turn, transforms [DEX] characters into Super [DEX] characters, and transforms Fighter characters into Super Fighter characters.",
+        superSpecial: "Increases boost effects of Color Affinity buffs by +0.5x, allows all characters to perform Super Tandem with [DEX] orbs for 1 turn, transforms [DEX] characters into Super [DEX] characters, and transforms Fighter characters into Super Fighter characters.",
         support: [
             {
                 Characters: "[DEX] [Navy] characters",
@@ -172533,7 +172533,7 @@ window.details = {
     },
     4422: {//Bonney Pirates
         captain: "Advances Special Cooldown of Ship to MAX at the start of the fight, boosts ATK of [STR] and Free Spirit characters by 5.25x, by 5.75x instead if they have a [RCV] orb, boosts HP of [STR] and Free Spirit characters by 1.2x, boosts RCV of [STR] and Free Spirit characters by 1.3x, and makes [STR] and [RCV] orbs beneficial for [STR] and Free Spirit characters. If your crew has 3+ [Bonney Pirates] or [Egghead Arc] characters, reduces Burn duration by 6 turns, and increases duration of any ATK Up and Chain Lock buffs applied by specials by 1 turn.",
-        special: "Reduces enemies' Threshold Damage Reduction duration by 7 turns, reduces Counter-Healing and Counter-RCV duration by 4 turns, allows crew to perform Super Tandem with [RCV] orbs for 1 turn, and boosts ATK of Free Spirit and Fighter characters by 3x for 2 turns. If your Captain is a [STR] character, reduces enemies' Orb-Based Damage Reduction duration by 3 turns. If your crew has ATK Up and Chain Lock when the special is activated, boosts Advantageous Class Effect of Free Spirit characters by 1.75x for 1 turn, and applies Territory: Free Spirit to the field for 1 turn.",
+        special: "Reduces enemies' Threshold Damage Reduction duration by 7 turns, reduces Counter-Healing and Counter-RCV duration by 4 turns, allows all characters to perform Super Tandem with [RCV] orbs for 1 turn, and boosts ATK of Free Spirit and Fighter characters by 3x for 2 turns. If your Captain is a [STR] character, reduces enemies' Orb-Based Damage Reduction duration by 3 turns. If your crew has ATK Up and Chain Lock when the special is activated, boosts Advantageous Class Effect of Free Spirit characters by 1.75x for 1 turn, and applies Territory: Free Spirit to the field for 1 turn.",
         specialName: "Landing to Reunite",
         sailor: {
             base: "Makes [RCV] orbs beneficial for all characters. If field has Territory: Free Spirit or Territory: Fighter, boosts base ATK, HP and RCV of all characters by 200; boosts base HP of all characters by 200 otherwise.",
@@ -174028,9 +174028,9 @@ window.details = {
                 description: [
                     "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, and reduces Bind duration by 1 turn.",
                     "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, and reduces Bind duration by 1 turn.",
-                    "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, reduces Bind duration by 1 turn, and allows crew to perform Super Tandem with [INT] and [RCV] orbs for 1 turn.",
-                    "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, reduces Bind duration by 1 turn, allows crew to perform Super Tandem with [INT] and [RCV] orbs for 1 turn, and reduces Switch Effect of all characters by 1.",
-                    "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, reduces Bind duration by 2 turns, allows crew to perform Super Tandem with [INT] and [RCV] orbs for 1 turn, and reduces Switch Effect of all characters by 2."
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, reduces Bind duration by 1 turn, and allows all characters to perform Super Tandem with [INT] and [RCV] orbs for 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, reduces Bind duration by 1 turn, allows all characters to perform Super Tandem with [INT] and [RCV] orbs for 1 turn, and reduces Switch Effect of all characters by 1.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces crew's current HP by 20%, reduces Bind duration by 2 turns, allows all characters to perform Super Tandem with [INT] and [RCV] orbs for 1 turn, and reduces Switch Effect of all characters by 2."
                 ]
             }
         ]
@@ -177079,7 +177079,7 @@ window.details = {
             character2: "Launches the following effect at start of fight: if there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, reduces Special Cooldown of Striker, Slasher and Powerhouse characters by 5 turns, reduces Switch Effect of Striker, Slasher and Powerhouse characters by 3, and activates HP Guard of 60% effect for 10 turns. Boosts ATK of Striker, Slasher and Powerhouse characters by 5x, boosts HP of Striker, Slasher and Powerhouse characters by 1.5x, and makes [STR], [QCK], [RCV] and [SEMLA] orbs beneficial for Striker, Slasher and Powerhouse characters. If your crew has 3+ [Land of Wano Arc] characters, boosts ATK of Striker, Slasher and Powerhouse characters by 5.5x instead. If your crew has 5+ [Animal Kingdom Pirates], [Big Mom Pirates], [Land of Wano Arc] or [Mythical Zoan-type] characters and a crew member uses a special to change the Orb Multiplier of specific orbs, replaces that buff with the following effect: boosts Advantageous Class Effect of Striker, Slasher and Powerhouse characters by 1.75x for 1 turn.",
             combined: "Boosts ATK of Striker, Slasher and Powerhouse characters by 5x, boosts HP of Striker, Slasher and Powerhouse characters by 1.5x, and makes [STR], [QCK], [RCV] and [SEMLA] orbs beneficial for Striker, Slasher and Powerhouse characters. If your crew has 3+ [Land of Wano Arc] characters, boosts ATK of Striker, Slasher and Powerhouse characters by 5.5x instead. If your crew has 5+ [Animal Kingdom Pirates], [Big Mom Pirates], [Land of Wano Arc] or [Mythical Zoan-type] characters, increases boost effects of Orb Amplification and Color Affinity buffs applied by specials by +0.3x; additionally, if a crew member uses a special to change the Orb Multiplier of specific orbs, replaces that buff with the following effect: boosts Advantageous Class Effect of Striker, Slasher and Powerhouse characters by 1.75x for 1 turn."
         },
-        special: "Reduces enemies' Threshold Damage Reduction effect by 90%, reduces Bind duration by 7 turns, reduces enemies' Striker, Slasher and Powerhouse Resistance by -20% for 1 turn, boosts Base ATK of Striker, Slasher and Powerhouse characters by 1,750 for 2 turns, and becomes Kaido & Big Mom for 3 turns. If your crew has Base ATK Boost when the special is activated, boosts ATK against enemies inflicted with Increase Damage Taken by 2.5x for 1 turn. If your crew has 5+ [Land of Wano Arc], [Animal Kingdom Pirates] or [Big Mom Pirates] characters, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.5x for 1 turn, and allows crew to perform Super Tandem with [WANO] and [SEMLA] orbs for 1 turn.",
+        special: "Reduces enemies' Threshold Damage Reduction effect by 90%, reduces Bind duration by 7 turns, reduces enemies' Striker, Slasher and Powerhouse Resistance by -20% for 1 turn, boosts Base ATK of Striker, Slasher and Powerhouse characters by 1,750 for 2 turns, and becomes Kaido & Big Mom for 3 turns. If your crew has Base ATK Boost when the special is activated, boosts ATK against enemies inflicted with Increase Damage Taken by 2.5x for 1 turn. If your crew has 5+ [Land of Wano Arc], [Animal Kingdom Pirates] or [Big Mom Pirates] characters, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.5x for 1 turn, and allows all characters to perform Super Tandem with [WANO] and [SEMLA] orbs for 1 turn.",
         specialName: "Synchronized Conquest of the Sea",
         sailor: {
             character1: "Boosts base ATK, HP and RCV of Striker, Powerhouse and Slasher characters by 125.",
@@ -177600,7 +177600,7 @@ window.details = {
             level1: "Makes [PSY] and [TND] orbs beneficial for all characters."
         },
         superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: [Straw Hat Pirates], [Germa 66], [Royalty] characters",
-        superSpecial: "Allows crew to perform Super Tandem with [RCV] and [RAINBOW] orbs for 1 turn, enables ATK Up buffs to be enhanced up to 2 times, increases boost effects of ATK Up buffs by +0.5x, removes enemies' Poison duration completely, inflicts all enemies with Reiju Poison, and transforms Powerhouse characters into Super Powerhouse characters.",
+        superSpecial: "allows all characters to perform Super Tandem with [RCV] and [RAINBOW] orbs for 1 turn, enables ATK Up buffs to be enhanced up to 2 times, increases boost effects of ATK Up buffs by +0.5x, removes enemies' Poison duration completely, inflicts all enemies with Reiju Poison, and transforms Powerhouse characters into Super Powerhouse characters.",
         superSpecialNotes: "Reiju Poison deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn. Reiju Poison is derivative of Normal Poison, so it fulfills Poison Status ATK Boosts and is affected by Poison Debuff Immunity.",
         swap: {
             base: "Reduces Special Cooldown of bottom row characters by 1 turn, and poisons all enemies.",
@@ -178195,7 +178195,7 @@ window.details = {
         ]
     },
     4490: {//Luffy & Bonney
-        captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 3 turns, by 5 turns instead if they are a [Straw Hat Pirates] or [Egghead Arc] character, reduces VS Gauge and Switch Effect of all characters by 3, locks all orbs for 10 turns, and allows crew to perform Super Tandem with [RCV] and [RAINBOW] orbs, preventing buff clears, for 10 turns. Boosts ATK of [INT], Free Spirit and Cerebral characters by 6x, boosts HP of [INT], Free Spirit and Cerebral characters by 1.2x, and makes [INT] and [RCV] orbs beneficial for all characters. If your crew has 4+ [Straw Hat Pirates] or [Egghead Arc] characters, boosts ATK of [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] and [Egghead Arc] characters by 1.1x, boosts ATK of [INT], Free Spirit and Cerebral characters by 6.6x instead if they have the applicable tag, and allows effects that inflict Increase Damage Taken and Weaken to ignore Debuff Protection; additionally, if this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] and [Egghead Arc] characters by 1.4x instead, and boosts ATK of [INT], Free Spirit and Cerebral characters by 8.4x instead if they have the applicable tag.",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 3 turns, by 5 turns instead if they are a [Straw Hat Pirates] or [Egghead Arc] character, reduces VS Gauge and Switch Effect of all characters by 3, locks all orbs for 10 turns, and allows all characters to perform Super Tandem with [RCV] and [RAINBOW] orbs, preventing buff clears, for 10 turns. Boosts ATK of [INT], Free Spirit and Cerebral characters by 6x, boosts HP of [INT], Free Spirit and Cerebral characters by 1.2x, and makes [INT] and [RCV] orbs beneficial for all characters. If your crew has 4+ [Straw Hat Pirates] or [Egghead Arc] characters, boosts ATK of [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] and [Egghead Arc] characters by 1.1x, boosts ATK of [INT], Free Spirit and Cerebral characters by 6.6x instead if they have the applicable tag, and allows effects that inflict Increase Damage Taken and Weaken to ignore Debuff Protection; additionally, if this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Bonney Pirates], [Revolutionary Army], [Straw Hat Pirates], [Scientist] and [Egghead Arc] characters by 1.4x instead, and boosts ATK of [INT], Free Spirit and Cerebral characters by 8.4x instead if they have the applicable tag.",
         special: "Ignores Debuff Protection and delays all enemies by 1 turn, reduces Despair duration by 10 turns, deals 300x character's ATK in Typeless Fixed True damage to one enemy, applies Territory: [INT] to the field for 3 turns, and boosts ATK against delayed enemies by 3x-4x for 1 turn depending on the outcome of Action Special. If your crew has ability to ignore all defensive effects with normal attacks when the special is activated, allows crew to stack 2 different Status ATK Boost buffs for 1 turn, and boosts ATK against enemies inflicted with Increase Damage Taken and enemies inflicted with Weaken by 2.75x for 1 turn. If this character is your Captain and an [INT] character is supporting this character, makes [Straw Hat Pirates] and [Egghead Arc] characters' normal attacks ignore damage reducing barriers and buffs for 1 turn; makes this character's normal attacks ignore damage reducing barriers and buffs for 1 turn otherwise.",
         specialNotes: "MISS: 3x, GOOD: 3.2x, GREAT: 3.5x, PERFECT: 3.8x, EXCELLENT: 4x",
         specialName: "Liberation Nika Punch",
@@ -181942,7 +181942,7 @@ window.details = {
             level1: "Reduces Special Bind duration by 6 turns on this character. If HP is below 30%, boosts base ATK of this character by 600."
         },
         superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: [Blackbeard Pirates] characters",
-        superSpecial: "Reduces Special Cooldown of [QCK] and [INT] characters by 2 turns, reduces damage received by 80% for 1 turn, increases Orb Effects of beneficial [QCK] and [BOMB] orbs to 3x for 1 turn, allows crew to perform Super Tandem with [RCV] and [BOMB] orbs for 2 turns, and transforms Free Spirit characters into Super Free Spirit characters.",
+        superSpecial: "Reduces Special Cooldown of [QCK] and [INT] characters by 2 turns, reduces damage received by 80% for 1 turn, increases Orb Effects of beneficial [QCK] and [BOMB] orbs to 3x for 1 turn, allows all characters to perform Super Tandem with [RCV] and [BOMB] orbs for 2 turns, and transforms Free Spirit characters into Super Free Spirit characters.",
         support: [
             {
                 Characters: "[Blackbeard Pirates] characters",
@@ -183941,24 +183941,25 @@ window.details = {
         }
     },
     4557: {//Luffy
-        captain: "Reduces [DEX] and Fighter characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts their ATK by 6x, HP by 1.3x, and makes their [DEX][TND] slots have matching slot effects. If 4 or more [DEX] characters are on the crew, reduces crew's Limit Special Uses duration by 10 turns. If 6 [DEX] characters are on the crew and field has \"Territory: [DEX]\", boosts [DEX] characters' ATK by approximately 7x [Applies following effect based on number of applicable Character Tags on crew] If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, boosts [Straw Hat Pirates] [Four Emperors] [Egghead Arc] characters' ATK by 1.2x for 3 turns. Reduces [Straw Hat Pirates] [Four Emperors] characters' Special charge time by 5 turns at start of quest ",
-        special: "Reduces crew's ATK Down duration by 10 turns. If field has \"Territory: [DEX]\" and \"Territory: Fighter class\" at the same time or \"Territory: Crew\", boosts [DEX] Fighter characters' Orb Boost by 8x for 3 turns, and boosts [DEX] and Fighter characters' Orb Boost by 6x for 3 turns (boosts [DEX] Fighter characters' Orb Boost by 4x for 1 turn, and boosts [DEX] and Fighter characters' Orb Boost by 3x for 1 turn otherwise), then after that, increases all enemies' damage taken up to a maximum of 3x for 1 turn ignoring immunity to status effects based on outcome of Action Special<hidden> (2x for MISS, 2.2x for GOOD, 2.5x for GREAT, 2.8x for PERFECT, 3x for EXCELLENT)</hidden>, and applies \"Territory: [DEX]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the crew or \"Portgas D. Ace\" and \"Sabo\" use a Special in this turn, allows crew to stack up to 2 different damage boosting effects<hidden> (cannot stack the damage boost of the same type)</hidden> for 3 turns, and reduces Captain's Special charge time by 5 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Straw Hat Pirates] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [DEX] and Fighter characters by 2 turns, and reduces VS Gauge and Switch Effect of [DEX] and Fighter characters by 2. Boosts ATK of [DEX] and Fighter characters by 6x, boosts HP of [DEX] and Fighter characters by 1.3x, and makes [DEX] and [TND] orbs beneficial for [DEX] and Fighter characters. If your crew has 4+ [DEX] characters, reduces Special Use Limit duration by 10 turns. If your crew has 6+ [DEX] characters and field has Territory: [DEX], boosts ATK of [DEX] characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Straw Hat Pirates], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
+        special: "Reduces ATK Down duration by 10 turns, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x-3x for 1 turn depending on the outcome of Action Special, and applies Territory: [DEX] to the field for 3 turns. If field has Territory: [DEX] and Fighter or Territory: Crew when the special is activated, boosts Orb Effects of [DEX] Fighter characters by 8x for 3 turns and boosts Orb Effects of [DEX] and Fighter characters by 6x for 3 turns; boosts Orb Effects of [DEX] Fighter characters by 4x for 1 turn and boosts Orb Effects of [DEX] and Fighter characters by 3x for 1 turn otherwise. If your crew has 4+ [Straw Hat Pirates] or [Four Emperors] characters or your crew has Portgas D. Ace or Sabo who has used a special this turn, allows crew to stack 2 different Status ATK Boost buffs for 3 turns, and reduces Special Cooldown of Captain character by 5 turns.",
+        specialNotes: "<br><b>MISS:</b> 2x, <b>GOOD:</b> 2.2x, <b>GREAT:</b> 2.5x, <b>PERFECT:</b> 2.8x, <b>EXCELLENT:</b> 3x",
         specialName: "Emperor Embodying Freedom",
         sailor: {
-            base: "Boosts [DEX] characters' base stats by 200 and makes their [TND][RCV] slots have matching slot effects",
-            level1: "Boosts [DEX] characters' base ATK by 1.1x"
+            base: "Boosts base ATK, HP and RCV of [DEX] characters by 200, and makes [RCV] and [TND] orbs beneficial for [DEX] characters.",
+            level1: "Boosts base ATK of [DEX] characters by 1.1x."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Buggy, Marshall D. Teach (Blackbeard), Gol D. Roger, Silvers Rayleigh, Dorry, Broggy, Jewelry Bonney",
-        superSpecial: "Reduces Fighter characters' Special charge time by 1 turn. If characters' 1st class is Free Spirit, changes their 1st class to Fighter (unless character is already a Fighter as a 2nd class) for 1 turn. Changes Fighter characters' [BLOCK][DEX][RCV] slots to Super [DEX], allows Fighter characters to perform Super Tandem with [DEX] slots for 3 turns, changes Fighter characters to Super Fighter, and changes Powerhouse characters to Super Powerhouse",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Buggy, Marshall D. Teach (Blackbeard), Gol D. Roger, Silvers Rayleigh, Dorry, Broggy, Jewelry Bonney",
+        superSpecial: "Reduces Special Cooldown of Fighter characters by 1 turn, changes Class 1 of all non-Fighter Class 1 Free Spirit characters to Fighter for 1 turn, changes [DEX], [RCV] and [BLOCK] orbs of Fighter characters into [SUPER DEX] orbs, allows Fighter characters to perform Super Tandem with [DEX] orbs for 3 turns, transforms Fighter characters into Super Fighter characters, and transforms Powerhouse characters into Super Powerhouse characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats",
-                    "Adds 15% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -184037,13 +184038,13 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "When character's slot is any type of Super slot and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Buggy, Marshall D. Teach (Blackbeard), Gol D. Roger, Silvers Rayleigh, Dorry, Broggy, Jewelry Bonney",
+            condition: "When this character has a [SUPER STR], [SUPER DEX], [SUPER QCK], [SUPER PSY] or [SUPER INT] orb, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Buggy, Marshall D. Teach (Blackbeard), Gol D. Roger, Silvers Rayleigh, Dorry, Broggy, Jewelry Bonney",
             description: [
-                "Further boosts the chain multiplier of the final tap by 1.25x, and makes character's normal attacks hit all enemies",
-                "Further boosts the chain multiplier of the final tap by 1.5x, and makes character's normal attacks hit all enemies",
-                "Further boosts the chain multiplier of the final tap by 1.75x, and makes character's normal attacks hit all enemies",
-                "Further boosts the chain multiplier of the final tap by 2x, and makes character's normal attacks hit all enemies",
-                "Further boosts the chain multiplier of the final tap by 2.25x, and makes character's normal attacks hit all enemies"
+                "Boosts Chain Multiplier Growth Rate by 1.25x, and makes normal attacks of this character deal damage to all enemies for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 1.5x, and makes normal attacks of this character deal damage to all enemies for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 1.75x, and makes normal attacks of this character deal damage to all enemies for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 2x, and makes normal attacks of this character deal damage to all enemies for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 2.25x, and makes normal attacks of this character deal damage to all enemies for 1 turn."
             ]
         },
         festStats: {
@@ -184138,24 +184139,25 @@ window.details = {
         festAbilityGPCondition: "After receiving damage 12 times"
     },
     4558: {//Luffy
-        captain: "Reduces [DEX] and Fighter characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts their ATK by 6x, HP by 1.3x, and makes their [DEX][TND] slots have matching slot effects. If 4 or more [DEX] characters are on the crew, reduces crew's Limit Special Uses duration by 10 turns. If 6 [DEX] characters are on the crew and field has \"Territory: [DEX]\", boosts [DEX] characters' ATK by approximately 7x [Applies following effect based on number of applicable Character Tags on crew] If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, boosts [Straw Hat Pirates] [Four Emperors] [Egghead Arc] characters' ATK by 1.2x for 3 turns. Reduces [Straw Hat Pirates] [Four Emperors] characters' Special charge time by 5 turns at start of quest ",
-        special: "Reduces crew's ATK Down duration by 10 turns. If field has \"Territory: [DEX]\" and \"Territory: Fighter class\" at the same time or \"Territory: Crew\", boosts [DEX] Fighter characters' Orb Boost by 8x for 3 turns, and boosts [DEX] and Fighter characters' Orb Boost by 6x for 3 turns (boosts [DEX] Fighter characters' Orb Boost by 4x for 1 turn, and boosts [DEX] and Fighter characters' Orb Boost by 3x for 1 turn otherwise), then after that, increases all enemies' damage taken up to a maximum of 3x for 1 turn ignoring immunity to status effects based on outcome of Action Special<hidden> (2x for MISS, 2.2x for GOOD, 2.5x for GREAT, 2.8x for PERFECT, 3x for EXCELLENT)</hidden>, and applies \"Territory: [DEX]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the crew or \"Portgas D. Ace\" and \"Sabo\" use a Special in this turn, allows crew to stack up to 2 different damage boosting effects<hidden> (cannot stack the damage boost of the same type)</hidden> for 3 turns, and reduces Captain's Special charge time by 5 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Straw Hat Pirates] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [DEX] and Fighter characters by 2 turns, and reduces VS Gauge and Switch Effect of [DEX] and Fighter characters by 2. Boosts ATK of [DEX] and Fighter characters by 6x, boosts HP of [DEX] and Fighter characters by 1.3x, and makes [DEX] and [TND] orbs beneficial for [DEX] and Fighter characters. If your crew has 4+ [DEX] characters, reduces Special Use Limit duration by 10 turns. If your crew has 6+ [DEX] characters and field has Territory: [DEX], boosts ATK of [DEX] characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Straw Hat Pirates], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
+        special: "Reduces ATK Down duration by 10 turns, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x-3x for 1 turn depending on the outcome of Action Special, and applies Territory: [DEX] to the field for 3 turns. If field has Territory: [DEX] and Fighter or Territory: Crew when the special is activated, boosts Orb Effects of [DEX] Fighter characters by 8x for 3 turns and boosts Orb Effects of [DEX] and Fighter characters by 6x for 3 turns; boosts Orb Effects of [DEX] Fighter characters by 4x for 1 turn and boosts Orb Effects of [DEX] and Fighter characters by 3x for 1 turn otherwise. If your crew has 4+ [Straw Hat Pirates] or [Four Emperors] characters or your crew has Portgas D. Ace or Sabo who has used a special this turn, allows crew to stack 2 different Status ATK Boost buffs for 3 turns, and reduces Special Cooldown of Captain character by 5 turns.",
+        specialNotes: "<br><b>MISS:</b> 2x, <b>GOOD:</b> 2.2x, <b>GREAT:</b> 2.5x, <b>PERFECT:</b> 2.8x, <b>EXCELLENT:</b> 3x",
         specialName: "Emperor Embodying Freedom",
         sailor: {
-            base: "Boosts [DEX] characters' base stats by 200 and makes their [TND][RCV] slots have matching slot effects",
-            level1: "Boosts [DEX] characters' base ATK by 1.1x"
+            base: "Boosts base ATK, HP and RCV of [DEX] characters by 200, and makes [RCV] and [TND] orbs beneficial for [DEX] characters.",
+            level1: "Boosts base ATK of [DEX] characters by 1.1x."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Buggy, Marshall D. Teach (Blackbeard), Gol D. Roger, Silvers Rayleigh, Dorry, Broggy, Jewelry Bonney",
-        superSpecial: "Reduces Fighter characters' Special charge time by 1 turn. If characters' 1st class is Free Spirit, changes their 1st class to Fighter (unless character is already a Fighter as a 2nd class) for 1 turn. Changes Fighter characters' [BLOCK][DEX][RCV] slots to Super [DEX], allows Fighter characters to perform Super Tandem with [DEX] slots for 3 turns, changes Fighter characters to Super Fighter, and changes Powerhouse characters to Super Powerhouse",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Buggy, Marshall D. Teach (Blackbeard), Gol D. Roger, Silvers Rayleigh, Dorry, Broggy, Jewelry Bonney",
+        superSpecial: "Reduces Special Cooldown of Fighter characters by 1 turn, changes Class 1 of all non-Fighter Class 1 Free Spirit characters to Fighter for 1 turn, changes [DEX], [RCV] and [BLOCK] orbs of Fighter characters into [SUPER DEX] orbs, allows Fighter characters to perform Super Tandem with [DEX] orbs for 3 turns, transforms Fighter characters into Super Fighter characters, and transforms Powerhouse characters into Super Powerhouse characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats",
-                    "Adds 15% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -184234,13 +184236,13 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "When character's slot is any type of Super slot and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Buggy, Marshall D. Teach (Blackbeard), Gol D. Roger, Silvers Rayleigh, Dorry, Broggy, Jewelry Bonney",
+            condition: "When this character has a [SUPER STR], [SUPER DEX], [SUPER QCK], [SUPER PSY] or [SUPER INT] orb, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Portgas D. Ace, Sabo, Monkey D. Garp, Shanks, Buggy, Marshall D. Teach (Blackbeard), Gol D. Roger, Silvers Rayleigh, Dorry, Broggy, Jewelry Bonney",
             description: [
-                "Further boosts the chain multiplier of the final tap by 1.25x, and makes character's normal attacks hit all enemies",
-                "Further boosts the chain multiplier of the final tap by 1.5x, and makes character's normal attacks hit all enemies",
-                "Further boosts the chain multiplier of the final tap by 1.75x, and makes character's normal attacks hit all enemies",
-                "Further boosts the chain multiplier of the final tap by 2x, and makes character's normal attacks hit all enemies",
-                "Further boosts the chain multiplier of the final tap by 2.25x, and makes character's normal attacks hit all enemies"
+                "Boosts Chain Multiplier Growth Rate by 1.25x, and makes normal attacks of this character deal damage to all enemies for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 1.5x, and makes normal attacks of this character deal damage to all enemies for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 1.75x, and makes normal attacks of this character deal damage to all enemies for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 2x, and makes normal attacks of this character deal damage to all enemies for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 2.25x, and makes normal attacks of this character deal damage to all enemies for 1 turn."
             ]
         },
         festStats: {
@@ -184335,24 +184337,25 @@ window.details = {
         festAbilityGPCondition: "After receiving damage 12 times"
     },
     4559: {//Shanks
-        captain: "Reduces [STR] and Cerebral characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts their ATK by 6x, HP by 1.3x, and makes their [STR][TND] slots have matching slot effects. If 4 or more Cerebral characters are on the crew, reduces crew's Special Reverse by 10 turns. If 6 Cerebral characters are on the crew and field has \"Territory: [STR]\", boosts Cerebral characters' ATK by approximately 7x [Applies following effect based on number of applicable Character Tags on crew] If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, boosts [Red-Haired Pirates] [Four Emperors] [Egghead Arc] characters' ATK by 1.2x for 3 turns. Reduces [Red-Haired Pirates] [Four Emperors] characters' Special charge time by 5 turns at start of quest ",
-        special: "Reduces crew's Bind duration by 10 turns. If field has \"Territory: [STR]\" and \"Territory: Cerebral class\" at the same time or \"Territory: Crew\", boosts damage dealt to enemies affected by increase damage taken status by 6x for 3 turns (boosts damage dealt to enemies affected by increase damage taken status by 3x for 1 turn otherwise), then after that, boosts [STR] and Cerebral characters' damage reduction effect-based ATK for 1 turn based on outcome of Action Special (if crew has 80% damage reduction, boosts ATK by 1.4x for MISS, 1.6x for GOOD, 1.8x for GREAT, 2.0x for PERFECT, 2.2x for EXCELLENT), and applies \"Territory: [STR]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If 5 or more [Red-Haired Pirates] [Four Emperors] [Egghead Arc] characters are on the crew, further increases crew's ATK boost by 1.2x (up to a maximum 20x), and reduces Captain's Special charge time by 5 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Red-Haired Pirates] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [STR] and Cerebral characters by 2 turns, and reduces VS Gauge and Switch Effect of [STR] and Cerebral characters by 2. Boosts ATK of [STR] and Cerebral characters by 6x, boosts HP of [STR] and Cerebral characters by 1.3x, and makes [STR] and [TND] orbs beneficial for [STR] and Cerebral characters. If your crew has 4+ Cerebral characters, restores Special Cooldown of all characters by 10 turns when they are rewinded. If your crew has 6+ Cerebral characters and field has Territory: [STR], boosts ATK of Cerebral characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Red-Haired Pirates], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
+        special: "Reduces Bind duration by 10 turns, boosts Crew Damage Reduction to ATK of [STR] and Cerebral characters by 1x-2.5x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn depending on the outcome of Action Special, and applies Territory: [STR] to the field for 3 turns. If field has Territory: [STR] and Cerebral or Territory: Crew when the special is activated, boosts ATK against enemies inflicted with Increase Damage Taken by 6x for 3 turns; boosts ATK against enemies inflicted with Increase Damage Taken by 3x for 1 turn otherwise. If your crew has 5+ [Red-Haired Pirates], [Four Emperors] or [Egghead Arc] characters, increases boost effects of ATK Up buffs by 1.2x (up to 20x), and reduces Special Cooldown of Captain character by 5 turns.",
+        specialNotes: "<br><b>MISS:</b> 1.5x, <b>GOOD:</b> 1.75x, <b>GREAT:</b> 2x, <b>PERFECT:</b> 2.25x, <b>EXCELLENT:</b> 2.5x",
         specialName: "Imposing Figure of the Emperor",
         sailor: {
-            base: "Boosts Cerebral characters' base stats by 200 and makes their [STR][TND] slots have matching slot effects",
-            level1: "Boosts Cerebral characters' base ATK by 1.1x"
+            base: "Boosts base ATK, HP and RCV of Cerebral characters by 200, and makes [STR] and [TND] orbs beneficial for Cerebral characters.",
+            level1: "Boosts base ATK of Cerebral characters by 1.1x."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
-        superSpecial: "Sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), changes Cerebral characters' [BLOCK][STR][RCV][TND] slots to Super [STR], allows Cerebral characters to perform Super Tandem with [STR] slots for 3 turns, changes Free Spirit characters to Super Free Spirit, and changes Cerebral characters to Super Cerebral",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
+        superSpecial: "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, changes [STR], [RCV], [TND] and [BLOCK] orbs of Cerebral characters into [SUPER STR] orbs, allows Cerebral characters to perform Super Tandem with [STR] orbs for 3 turns, transforms Free Spirit characters into Super Free Spirit characters, and transforms Cerebral characters into Super Cerebral characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats",
-                    "Adds 15% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -184432,18 +184435,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta"
             ],
             description: [
-                "Boosts base ATK by +500 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn, and applies ATK Boost (Tandem) of 2x to [STR] and Cerebral characters for 1 turn",
-                "Boosts base ATK by +750 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn, and applies ATK Boost (Tandem) of 2.25x to [STR] and Cerebral characters for 1 turn",
-                "Boosts base ATK by +1000 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn, and applies ATK Boost (Tandem) of 2.5x to [STR] and Cerebral characters for 1 turn",
-                "Boosts base ATK by +1250 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn, and applies ATK Boost (Tandem) of 2.75x to [STR] and Cerebral characters for 1 turn",
-                "Boosts base ATK by +1500 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn, and applies ATK Boost (Tandem) of 3x to [STR] and Cerebral characters for 1 turn"
+                "Boosts base ATK of Last Tap character by +500 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 2x for 1 turn.",
+                "Boosts base ATK of Last Tap character by +750 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 2.25x for 1 turn.",
+                "Boosts base ATK of Last Tap character by +1,000 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 2.5x for 1 turn.",
+                "Boosts base ATK of Last Tap character by +1,250 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 2.75x for 1 turn.",
+                "Boosts base ATK of Last Tap character by +1,500 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 3x for 1 turn."
             ]
         },
         festStats: {
@@ -184538,24 +184541,25 @@ window.details = {
         festAbilityGPCondition: "When team uses Rumble Special 4 times"
     },
     4560: {//Shanks
-        captain: "Reduces [STR] and Cerebral characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts their ATK by 6x, HP by 1.3x, and makes their [STR][TND] slots have matching slot effects. If 4 or more Cerebral characters are on the crew, reduces crew's Special Reverse by 10 turns. If 6 Cerebral characters are on the crew and field has \"Territory: [STR]\", boosts Cerebral characters' ATK by approximately 7x [Applies following effect based on number of applicable Character Tags on crew] If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, boosts [Red-Haired Pirates] [Four Emperors] [Egghead Arc] characters' ATK by 1.2x for 3 turns. Reduces [Red-Haired Pirates] [Four Emperors] characters' Special charge time by 5 turns at start of quest ",
-        special: "Reduces crew's Bind duration by 10 turns. If field has \"Territory: [STR]\" and \"Territory: Cerebral class\" at the same time or \"Territory: Crew\", boosts damage dealt to enemies affected by increase damage taken status by 6x for 3 turns (boosts damage dealt to enemies affected by increase damage taken status by 3x for 1 turn otherwise), then after that, boosts [STR] and Cerebral characters' damage reduction effect-based ATK for 1 turn based on outcome of Action Special (if crew has 80% damage reduction, boosts ATK by 1.4x for MISS, 1.6x for GOOD, 1.8x for GREAT, 2.0x for PERFECT, 2.2x for EXCELLENT), and applies \"Territory: [STR]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If 5 or more [Red-Haired Pirates] [Four Emperors] [Egghead Arc] characters are on the crew, further increases crew's ATK boost by 1.2x (up to a maximum 20x), and reduces Captain's Special charge time by 5 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Red-Haired Pirates] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [STR] and Cerebral characters by 2 turns, and reduces VS Gauge and Switch Effect of [STR] and Cerebral characters by 2. Boosts ATK of [STR] and Cerebral characters by 6x, boosts HP of [STR] and Cerebral characters by 1.3x, and makes [STR] and [TND] orbs beneficial for [STR] and Cerebral characters. If your crew has 4+ Cerebral characters, restores Special Cooldown of all characters by 10 turns when they are rewinded. If your crew has 6+ Cerebral characters and field has Territory: [STR], boosts ATK of Cerebral characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Red-Haired Pirates], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
+        special: "Reduces Bind duration by 10 turns, boosts Crew Damage Reduction to ATK of [STR] and Cerebral characters by 1x-2.5x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn depending on the outcome of Action Special, and applies Territory: [STR] to the field for 3 turns. If field has Territory: [STR] and Cerebral or Territory: Crew when the special is activated, boosts ATK against enemies inflicted with Increase Damage Taken by 6x for 3 turns; boosts ATK against enemies inflicted with Increase Damage Taken by 3x for 1 turn otherwise. If your crew has 5+ [Red-Haired Pirates], [Four Emperors] or [Egghead Arc] characters, increases boost effects of ATK Up buffs by 1.2x (up to 20x), and reduces Special Cooldown of Captain character by 5 turns.",
+        specialNotes: "<br><b>MISS:</b> 1.5x, <b>GOOD:</b> 1.75x, <b>GREAT:</b> 2x, <b>PERFECT:</b> 2.25x, <b>EXCELLENT:</b> 2.5x",
         specialName: "Imposing Figure of the Emperor",
         sailor: {
-            base: "Boosts Cerebral characters' base stats by 200 and makes their [STR][TND] slots have matching slot effects",
-            level1: "Boosts Cerebral characters' base ATK by 1.1x"
+            base: "Boosts base ATK, HP and RCV of Cerebral characters by 200, and makes [STR] and [TND] orbs beneficial for Cerebral characters.",
+            level1: "Boosts base ATK of Cerebral characters by 1.1x."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
-        superSpecial: "Sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), changes Cerebral characters' [BLOCK][STR][RCV][TND] slots to Super [STR], allows Cerebral characters to perform Super Tandem with [STR] slots for 3 turns, changes Free Spirit characters to Super Free Spirit, and changes Cerebral characters to Super Cerebral",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
+        superSpecial: "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, changes [STR], [RCV], [TND] and [BLOCK] orbs of Cerebral characters into [SUPER STR] orbs, allows Cerebral characters to perform Super Tandem with [STR] orbs for 3 turns, transforms Free Spirit characters into Super Free Spirit characters, and transforms Cerebral characters into Super Cerebral characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats",
-                    "Adds 15% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -184635,18 +184639,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Marshall D. Teach (Blackbeard), Buggy, Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus, Kaido, Charlotte Linlin (Big Mom), Edward Newgate (Whitebeard), Dracule Mihawk, Ben Beckman, Lucky Roux, Yasopp, Bonk Punch, Monster, Lime Juice, Hongo, Building Snake, Howling Gabu, Rockstar, Uta"
             ],
             description: [
-                "Boosts base ATK by +500 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn, and applies ATK Boost (Tandem) of 2x to [STR] and Cerebral characters for 1 turn",
-                "Boosts base ATK by +750 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn, and applies ATK Boost (Tandem) of 2.25x to [STR] and Cerebral characters for 1 turn",
-                "Boosts base ATK by +1000 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn, and applies ATK Boost (Tandem) of 2.5x to [STR] and Cerebral characters for 1 turn",
-                "Boosts base ATK by +1250 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn, and applies ATK Boost (Tandem) of 2.75x to [STR] and Cerebral characters for 1 turn",
-                "Boosts base ATK by +1500 for user of Final Tap Sugo Special (stacks with effects from Special) for 1 turn, and applies ATK Boost (Tandem) of 3x to [STR] and Cerebral characters for 1 turn"
+                "Boosts base ATK of Last Tap character by +500 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 2x for 1 turn.",
+                "Boosts base ATK of Last Tap character by +750 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 2.25x for 1 turn.",
+                "Boosts base ATK of Last Tap character by +1,000 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 2.5x for 1 turn.",
+                "Boosts base ATK of Last Tap character by +1,250 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 2.75x for 1 turn.",
+                "Boosts base ATK of Last Tap character by +1,500 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 3x for 1 turn."
             ]
         },
         festStats: {
@@ -184741,24 +184745,25 @@ window.details = {
         festAbilityGPCondition: "When team uses Rumble Special 4 times"
     },
     4561: {//Blackbeard
-        captain: "Reduces [QCK] and Free Spirit characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts their ATK by 6x, HP by 1.3x, and makes their [QCK][TND] slots have matching slot effects. If 4 or more Free Spirit characters are on the crew, reduces crew's Limit Special Uses duration by 10 turns. If 6 Free Spirit characters are on the crew and field has \"Territory: [QCK]\", boosts Free Spirit characters' ATK by approximately 7x [Applies following effect based on number of applicable Character Tags on crew] If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, boosts [Blackbeard Pirates] [Four Emperors] [Worst Generation] characters' ATK by 1.2x for 3 turns. Reduces [Blackbeard Pirates] [Four Emperors] [Worst Generation] characters' Special charge time by 5 turns at start of quest ",
-        special: "Reduces all enemies' DEF Up duration by 10 turns. If field has \"Territory: [QCK]\" and \"Territory: Free Spirit class\" at the same time or \"Territory: Crew\", boosts [QCK] Free Spirit characters' Color Affinity by 8x for 3 turns, and boosts [QCK] and Free Spirit characters' Color Affinity by 6x for 3 turns (boosts [QCK] Free Spirit characters' Color Affinity by 4x for 1 turn, and boosts [QCK] and Free Spirit characters' Color Affinity by 3x for 1 turn otherwise), then after that, boosts [QCK] and Free Spirit characters' ATK up to a maximium of 2.5x for 1 turn based on outcome of Action Special and number of PERFECT strikes in a row landed in this turn<hidden> (1.75x after 4 strikes for MISS, 2x after 4 strikes for GOOD, 2.2x after 3 strikes for GREAT, 2.4x after 3 strikes for PERFECT, 2.5x after 2 strikes for EXCELLENT)</hidden>, and applies \"Territory: [QCK]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If 4 or more [Blackbeard Pirates] [Four Emperors] [Worst Generation] characters are on the crew, sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), allows [Blackbeard Pirates] [Worst Generation] characters' normal attacks to ignore enemies' defensive effects for 1 turn, and reduces Captain's Special charge time by 5 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Blackbeard Pirates], [Four Emperors] and [Worst Generation] characters by 5 turns, reduces Special Cooldown of [QCK] and Free Spirit characters by 2 turns, and reduces VS Gauge and Switch Effect of [QCK] and Free Spirit characters by 2. Boosts ATK of [QCK] and Free Spirit characters by 6x, boosts HP of [QCK] and Free Spirit characters by 1.3x, and makes [QCK] and [TND] orbs beneficial for [QCK] and Free Spirit characters. If your crew has 4+ Free Spirit characters, reduces Special Use Limit duration by 10 turns. If your crew has 6+ Free Spirit characters and field has Territory: [QCK], boosts ATK of Free Spirit characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Blackbeard Pirates], [Four Emperors] and [Worst Generation] characters by 1.2x.",
+        special: "Reduces enemies' Increased Defense duration by 10 turns, boosts Tap Timing ATK of [QCK] and Free Spirit characters by 1.75x-2.5x, following a chain of 2-4 PERFECT attacks, for 1 turn depending on the outcome of Action Special, and applies Territory: [QCK] to the field for 3 turns. If field has Territory: [QCK] and Free Spirit or Territory: Crew when the special is activated, boosts Color Affinity of [QCK] Free Spirit characters by 8x for 3 turns and boosts Color Affinity of [QCK] and Free Spirit characters by 6x for 3 turns; boosts Color Affinity of [QCK] Free Spirit characters by 4x for 1 turn and boosts Color Affinity of [QCK] and Free Spirit characters by 3x for 1 turn otherwise. If your crew has 4+ [Blackbeard Pirates], [Four Emperors] or [Worst Generation] characters, ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, makes [Blackbeard Pirates] and [Worst Generation] characters normal attacks ignore damage reducing barriers and buffs for 1 turn, and reduces Special Cooldown of Captain character by 5 turns.",
+        specialNotes: "<br><b>MISS:</b> 1.75x after 4 PERFECTs<br><b>GOOD:</b> 2x after 4 PERFECTs<br><b>GREAT:</b> 2.2x after 3 PERFECTs<br><b>PERFECT:</b> 2.4x after 3 PERFECTs<br><b>EXCELLENT:</b> 2.5x after 2 PERFECTs",
         specialName: "Emperor Advancing to Take the World",
         sailor: {
-            base: "Boosts Free Spirit characters' base stats by 200 and makes their [QCK][TND] slots have matching slot effects",
-            level1: "Boosts Free Spirit characters' base ATK by 1.1x"
+            base: "Boosts base ATK, HP and RCV of Free Spirit characters by 200, and makes [QCK] and [TND] orbs beneficial for Free Spirit characters.",
+            level1: "Boosts base ATK of Free Spirit characters by 1.1x."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji), Monkey D. Luffy, Shanks, Buggy, Gol D. Roger",
-        superSpecial: "Boosts crew's ATK based on the damage reduction effect applied on the enemy<hidden> (base boost 1.8x; e.g. if enemy has 50% damage reduction, boosts ATK by 2.3x, 1x for no damage reduction)</hidden> for 1 turn, changes crew's [BLOCK][QCK][TND][BOMB] slots to Super [QCK], extends the duration of crew's ability to perform Super Tandem with certain slots by 2 turns, allows crew to perform Super Tandem with [QCK] slots for 3 turns, changes Free Spirit characters to Super Free Spirit, and changes Driven characters to Super Driven",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji), Monkey D. Luffy, Shanks, Buggy, Gol D. Roger",
+        superSpecial: "Boosts Enemy Damage Reduction to ATK of all characters by 1.8x-2.8x, proportional to the strength of enemies' Percent Damage Reduction buff, for 1 turn, changes [QCK], [TND], [BOMB] and [BLOCK] orbs into [SUPER QCK] orbs, increases duration of any STND Expansion buffs by 2 turns, allows all characters to perform Super Tandem with [QCK] orbs for 3 turns, transforms Free Spirit characters into Super Free Spirit characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats",
-                    "Adds 15% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -184838,18 +184843,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] character performs Super Tandem"
+                "When a [Four Emperors], [Egghead Arc], [Worst Generation] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Worst Generation] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Worst Generation] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Worst Generation] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Worst Generation] or [Blackbeard Pirates] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] characters by 3 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] characters by 5 and raises Boost Level of [Worst Generation] [Blackbeard Pirates] characters by 6 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] characters by 6 and raises Boost Level of [Worst Generation] [Blackbeard Pirates] characters by 7 for 1 turn"
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Worst Generation] and [Blackbeard Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Worst Generation] and [Blackbeard Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Worst Generation] and [Blackbeard Pirates] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 5 for 1 turn, and raises Boost Level of [Worst Generation] and [Blackbeard Pirates] characters by 6 for 1 turn.",
+                "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 6 for 1 turn, and raises Boost Level of [Worst Generation] and [Blackbeard Pirates] characters by 7 for 1 turn."
             ]
         },
         festStats: {
@@ -184944,24 +184949,25 @@ window.details = {
         festAbilityGPCondition: "After 7 normal attacks"
     },
     4562: {//Blackbeard
-        captain: "Reduces [QCK] and Free Spirit characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts their ATK by 6x, HP by 1.3x, and makes their [QCK][TND] slots have matching slot effects. If 4 or more Free Spirit characters are on the crew, reduces crew's Limit Special Uses duration by 10 turns. If 6 Free Spirit characters are on the crew and field has \"Territory: [QCK]\", boosts Free Spirit characters' ATK by approximately 7x [Applies following effect based on number of applicable Character Tags on crew] If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, boosts [Blackbeard Pirates] [Four Emperors] [Worst Generation] characters' ATK by 1.2x for 3 turns. Reduces [Blackbeard Pirates] [Four Emperors] [Worst Generation] characters' Special charge time by 5 turns at start of quest ",
-        special: "Reduces all enemies' DEF Up duration by 10 turns. If field has \"Territory: [QCK]\" and \"Territory: Free Spirit class\" at the same time or \"Territory: Crew\", boosts [QCK] Free Spirit characters' Color Affinity by 8x for 3 turns, and boosts [QCK] and Free Spirit characters' Color Affinity by 6x for 3 turns (boosts [QCK] Free Spirit characters' Color Affinity by 4x for 1 turn, and boosts [QCK] and Free Spirit characters' Color Affinity by 3x for 1 turn otherwise), then after that, boosts [QCK] and Free Spirit characters' ATK up to a maximium of 2.5x for 1 turn based on outcome of Action Special and number of PERFECT strikes in a row landed in this turn<hidden> (1.75x after 4 strikes for MISS, 2x after 4 strikes for GOOD, 2.2x after 3 strikes for GREAT, 2.4x after 3 strikes for PERFECT, 2.5x after 2 strikes for EXCELLENT)</hidden>, and applies \"Territory: [QCK]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If 4 or more [Blackbeard Pirates] [Four Emperors] [Worst Generation] characters are on the crew, sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), allows [Blackbeard Pirates] [Worst Generation] characters' normal attacks to ignore enemies' defensive effects for 1 turn, and reduces Captain's Special charge time by 5 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Blackbeard Pirates], [Four Emperors] and [Worst Generation] characters by 5 turns, reduces Special Cooldown of [QCK] and Free Spirit characters by 2 turns, and reduces VS Gauge and Switch Effect of [QCK] and Free Spirit characters by 2. Boosts ATK of [QCK] and Free Spirit characters by 6x, boosts HP of [QCK] and Free Spirit characters by 1.3x, and makes [QCK] and [TND] orbs beneficial for [QCK] and Free Spirit characters. If your crew has 4+ Free Spirit characters, reduces Special Use Limit duration by 10 turns. If your crew has 6+ Free Spirit characters and field has Territory: [QCK], boosts ATK of Free Spirit characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Blackbeard Pirates], [Four Emperors] and [Worst Generation] characters by 1.2x.",
+        special: "Reduces enemies' Increased Defense duration by 10 turns, boosts Tap Timing ATK of [QCK] and Free Spirit characters by 1.75x-2.5x, following a chain of 2-4 PERFECT attacks, for 1 turn depending on the outcome of Action Special, and applies Territory: [QCK] to the field for 3 turns. If field has Territory: [QCK] and Free Spirit or Territory: Crew when the special is activated, boosts Color Affinity of [QCK] Free Spirit characters by 8x for 3 turns and boosts Color Affinity of [QCK] and Free Spirit characters by 6x for 3 turns; boosts Color Affinity of [QCK] Free Spirit characters by 4x for 1 turn and boosts Color Affinity of [QCK] and Free Spirit characters by 3x for 1 turn otherwise. If your crew has 4+ [Blackbeard Pirates], [Four Emperors] or [Worst Generation] characters, ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, makes [Blackbeard Pirates] and [Worst Generation] characters normal attacks ignore damage reducing barriers and buffs for 1 turn, and reduces Special Cooldown of Captain character by 5 turns.",
+        specialNotes: "<br><b>MISS:</b> 1.75x after 4 PERFECTs<br><b>GOOD:</b> 2x after 4 PERFECTs<br><b>GREAT:</b> 2.2x after 3 PERFECTs<br><b>PERFECT:</b> 2.4x after 3 PERFECTs<br><b>EXCELLENT:</b> 2.5x after 2 PERFECTs",
         specialName: "Emperor Advancing to Take the World",
         sailor: {
-            base: "Boosts Free Spirit characters' base stats by 200 and makes their [QCK][TND] slots have matching slot effects",
-            level1: "Boosts Free Spirit characters' base ATK by 1.1x"
+            base: "Boosts base ATK, HP and RCV of Free Spirit characters by 200, and makes [QCK] and [TND] orbs beneficial for Free Spirit characters.",
+            level1: "Boosts base ATK of Free Spirit characters by 1.1x."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji), Monkey D. Luffy, Shanks, Buggy, Gol D. Roger",
-        superSpecial: "Boosts crew's ATK based on the damage reduction effect applied on the enemy<hidden> (base boost 1.8x; e.g. if enemy has 50% damage reduction, boosts ATK by 2.3x, 1x for no damage reduction)</hidden> for 1 turn, changes crew's [BLOCK][QCK][TND][BOMB] slots to Super [QCK], extends the duration of crew's ability to perform Super Tandem with certain slots by 2 turns, allows crew to perform Super Tandem with [QCK] slots for 3 turns, changes Free Spirit characters to Super Free Spirit, and changes Driven characters to Super Driven",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Jesus Burgess (Mr. Store), Shiryu, Van Ogre, Avalo Pizarro, Lafitte, Catarina Devon, San Juan Wolf, Vasco Shot, Doc Q, Kuzan (Aokiji), Monkey D. Luffy, Shanks, Buggy, Gol D. Roger",
+        superSpecial: "Boosts Enemy Damage Reduction to ATK of all characters by 1.8x-2.8x, proportional to the strength of enemies' Percent Damage Reduction buff, for 1 turn, changes [QCK], [TND], [BOMB] and [BLOCK] orbs into [SUPER QCK] orbs, increases duration of any STND Expansion buffs by 2 turns, allows all characters to perform Super Tandem with [QCK] orbs for 3 turns, transforms Free Spirit characters into Super Free Spirit characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats",
-                    "Adds 15% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -185041,18 +185047,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] character performs Super Tandem"
+                "When a [Four Emperors], [Egghead Arc], [Worst Generation] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Worst Generation] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Worst Generation] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Worst Generation] or [Blackbeard Pirates] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Worst Generation] or [Blackbeard Pirates] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Worst Generation] [Blackbeard Pirates] characters by 3 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] characters by 5 and raises Boost Level of [Worst Generation] [Blackbeard Pirates] characters by 6 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] characters by 6 and raises Boost Level of [Worst Generation] [Blackbeard Pirates] characters by 7 for 1 turn"
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Worst Generation] and [Blackbeard Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Worst Generation] and [Blackbeard Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Worst Generation] and [Blackbeard Pirates] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 5 for 1 turn, and raises Boost Level of [Worst Generation] and [Blackbeard Pirates] characters by 6 for 1 turn.",
+                "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 6 for 1 turn, and raises Boost Level of [Worst Generation] and [Blackbeard Pirates] characters by 7 for 1 turn."
             ]
         },
         festStats: {
@@ -185147,24 +185153,25 @@ window.details = {
         festAbilityGPCondition: "After 7 normal attacks"
     },
     4563: {//Buggy
-        captain: "Reduces [INT] and Slasher characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts their ATK by 6x, HP by 1.3x, and makes crew's [INT][TND] slots have matching slot effects. If 4 or more Slasher characters are on the crew and and Percent Damage Reduction is applied on the enemy (does not apply to statuses applied by Captain Ability or Crewmate Ability), reduces the effect by 100% (the effect increase/decrease only occurs 1 time; effect cannot go below 0%). If 6 Slasher characters are on the crew and field has \"Territory: [INT]\", boosts Slasher characters' ATK by approximately 7x [Applies following effect based on number of applicable Character Tags on crew] If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, boosts [Cross Guild] [Four Emperors] [Egghead Arc] characters' ATK by 1.2x for 3 turns. Reduces [Cross Guild] [Four Emperors] characters' Special charge time by 5 turns at start of quest ",
-        special: "Reduces crew's Despair duration by 10 turns. If field has \"Territory: [INT]\" and \"Territory: Slasher class\" at the same time or \"Territory: Crew\", boosts [INT] Slasher characters' ATK by 8x for 3 turns, and boosts [INT] and Slasher characters' ATK by 6x for 3 turns (boosts [INT] Slasher characters' ATK by 4x for 1 turn, and boosts [INT] and Slasher characters' ATK by 3x for 1 turn otherwise), then after that, applies Set Target status to all enemies for 1 turn ([INT] and Slasher characters' Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated and they will deal damage based on outcome of Action Special: 1.75x for MISS, 2x for GOOD, 2.5x for GREAT, 2.75x for PERFECT, 3x for EXCELLENT)<hidden> (Set Target status cannot be affected by immunity to status effects; Special charge time reduction effect is activated when defeating enemies with normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))</hidden>, and applies \"Territory: [INT]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If 5 or more [Cross Guild] [Four Emperors] [Egghead Arc] characters are on the crew, boosts [INT] and [STR] characters' damage dealt when landing a Critical hit by 50% for 1 turn<hidden> (effect applies only to characters with Critical ATK Potential Ability)</hidden>, and reduces Captain's Special charge time by 5 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Cross Guild] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [INT] and Slasher characters by 2 turns, and reduces VS Gauge and Switch Effect of [INT] and Slasher characters by 2. Boosts ATK of [INT] and Slasher characters by 6x, boosts HP of [INT] and Slasher characters by 1.3x, and makes [INT] and [TND] orbs beneficial for all characters. If your crew has 4+ Slasher characters and enemy has Percent Damage Reduction status, reduces enemies' Percent Damage Reduction effect by 100%. If your crew has 6+ Slasher characters and field has Territory: [INT], boosts ATK of Slasher characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Cross Guild], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
+        special: "Reduces Despair duration by 10 turns, inflicts all enemies with Set Target, increasing damage taken from [INT] and Slasher characters by 1.75x-3x and reducing Special Cooldown of [INT] and Slasher characters by 2 turns when they defeat an enemy, for 1 turn depending on the outcome of Action Special, and applies Territory: [INT] to the field for 3 turns. If field has Territory: [INT] and Slasher or Territory: Crew when the special is activated, boosts ATK of [INT] Slasher characters by 8x for 3 turns and boosts ATK of [INT] and Slasher characters by 6x for 3 turns; boosts ATK of [INT] Slasher characters by 4x for 1 turn and boosts ATK of [INT] and Slasher characters by 3x for 1 turn otherwise. If your crew has 5+ [Cross Guild], [Four Emperors] or [Egghead Arc] characters, boosts Critical Hit Damage of [STR] and [INT] characters by 50% for 1 turn, and reduces Special Cooldown of Captain character by 5 turns.",
+        specialNotes: "<br><b>MISS:</b> 1.75x, <b>GOOD:</b> 2x, <b>GREAT:</b> 2.5x, <b>PERFECT:</b> 2.75x, <b>EXCELLENT:</b> 3x",
         specialName: "Emperor's Flashy Combination Attack",
         sailor: {
-            base: "Boosts Slasher characters' base stats by 200 and makes their [INT][TND] slots have matching slot effects",
-            level1: "Boosts Slasher characters' base ATK by 1.1x"
+            base: "Boosts base ATK, HP and RCV of Slasher characters by 200, and makes [INT] and [TND] orbs beneficial for Slasher characters.",
+            level1: "Boosts base ATK of Slasher characters by 1.1x."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Shanks, Monkey D. Luffy, Marshall D. Teach (Blackbeard), Dracule Mihawk, Sir Crocodile (Mr. 0), Galdino (Mr. 3), Mohji & Richie, Cabaji, Alvida, Daz Bonez (Mr. 1), Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus",
-        superSpecial: "Reduces damage taken by 80% for 1 turn, changes Slasher characters' [BLOCK][INT][TND] slots to Super [INT], allows Slasher characters to perform Super Tandem with [INT] slots for 3 turns, changes Slasher characters to SuperSlasher, and changes Driven characters to Super Driven",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Shanks, Monkey D. Luffy, Marshall D. Teach (Blackbeard), Dracule Mihawk, Sir Crocodile (Mr. 0), Galdino (Mr. 3), Mohji, Richie, Cabaji, Alvida, Daz Bonez (Mr. 1), Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus",
+        superSpecial: "Reduces damage received by 80% for 1 turn, changes [INT], [TND] and [BLOCK] orbs of Slasher characters into [SUPER INT] orbs, allows Slasher characters to perform Super Tandem with [INT] orbs for 3 turns, transforms Slasher characters into Super Slasher characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats",
-                    "Adds 15% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -185244,18 +185251,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] character performs Super Tandem"
+                "When a [Four Emperors], [Egghead Arc], [Roger Pirates] or [Cross Guild] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Roger Pirates] or [Cross Guild] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Roger Pirates] or [Cross Guild] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Roger Pirates] or [Cross Guild] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Roger Pirates] or [Cross Guild] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] characters by 1 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] characters by 2 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] characters by 3 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] characters by 5 and raises Boost Level of [Roger Pirates] [Cross Guild] characters by 6 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] characters by 6 and raises Boost Level of [Roger Pirates] [Cross Guild] characters by 7 for 1 turn"
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Roger Pirates] and [Cross Guild] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Roger Pirates] and [Cross Guild] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Roger Pirates] and [Cross Guild] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 5 for 1 turn, and raises Boost Level of [Roger Pirates] and [Cross Guild] characters by 6 for 1 turn.",
+                "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 6 for 1 turn, and raises Boost Level of [Roger Pirates] and [Cross Guild] characters by 7 for 1 turn."
             ]
         },
         festStats: {
@@ -185350,24 +185357,25 @@ window.details = {
         festAbilityGPCondition: "After 20s of battle"
     },
     4564: {//Buggy
-        captain: "Reduces [INT] and Slasher characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts their ATK by 6x, HP by 1.3x, and makes crew's [INT][TND] slots have matching slot effects. If 4 or more Slasher characters are on the crew and and Percent Damage Reduction is applied on the enemy (does not apply to statuses applied by Captain Ability or Crewmate Ability), reduces the effect by 100% (the effect increase/decrease only occurs 1 time; effect cannot go below 0%). If 6 Slasher characters are on the crew and field has \"Territory: [INT]\", boosts Slasher characters' ATK by approximately 7x [Applies following effect based on number of applicable Character Tags on crew] If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, boosts [Cross Guild] [Four Emperors] [Egghead Arc] characters' ATK by 1.2x for 3 turns. Reduces [Cross Guild] [Four Emperors] characters' Special charge time by 5 turns at start of quest ",
-        special: "Reduces crew's Despair duration by 10 turns. If field has \"Territory: [INT]\" and \"Territory: Slasher class\" at the same time or \"Territory: Crew\", boosts [INT] Slasher characters' ATK by 8x for 3 turns, and boosts [INT] and Slasher characters' ATK by 6x for 3 turns (boosts [INT] Slasher characters' ATK by 4x for 1 turn, and boosts [INT] and Slasher characters' ATK by 3x for 1 turn otherwise), then after that, applies Set Target status to all enemies for 1 turn ([INT] and Slasher characters' Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated and they will deal damage based on outcome of Action Special: 1.75x for MISS, 2x for GOOD, 2.5x for GREAT, 2.75x for PERFECT, 3x for EXCELLENT)<hidden> (Set Target status cannot be affected by immunity to status effects; Special charge time reduction effect is activated when defeating enemies with normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))</hidden>, and applies \"Territory: [INT]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If 5 or more [Cross Guild] [Four Emperors] [Egghead Arc] characters are on the crew, boosts [INT] and [STR] characters' damage dealt when landing a Critical hit by 50% for 1 turn<hidden> (effect applies only to characters with Critical ATK Potential Ability)</hidden>, and reduces Captain's Special charge time by 5 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Cross Guild] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [INT] and Slasher characters by 2 turns, and reduces VS Gauge and Switch Effect of [INT] and Slasher characters by 2. Boosts ATK of [INT] and Slasher characters by 6x, boosts HP of [INT] and Slasher characters by 1.3x, and makes [INT] and [TND] orbs beneficial for all characters. If your crew has 4+ Slasher characters and enemy has Percent Damage Reduction status, reduces enemies' Percent Damage Reduction effect by 100%. If your crew has 6+ Slasher characters and field has Territory: [INT], boosts ATK of Slasher characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Cross Guild], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
+        special: "Reduces Despair duration by 10 turns, inflicts all enemies with Set Target, increasing damage taken from [INT] and Slasher characters by 1.75x-3x and reducing Special Cooldown of [INT] and Slasher characters by 2 turns when they defeat an enemy, for 1 turn depending on the outcome of Action Special, and applies Territory: [INT] to the field for 3 turns. If field has Territory: [INT] and Slasher or Territory: Crew when the special is activated, boosts ATK of [INT] Slasher characters by 8x for 3 turns and boosts ATK of [INT] and Slasher characters by 6x for 3 turns; boosts ATK of [INT] Slasher characters by 4x for 1 turn and boosts ATK of [INT] and Slasher characters by 3x for 1 turn otherwise. If your crew has 5+ [Cross Guild], [Four Emperors] or [Egghead Arc] characters, boosts Critical Hit Damage of [STR] and [INT] characters by 50% for 1 turn, and reduces Special Cooldown of Captain character by 5 turns.",
+        specialNotes: "<br><b>MISS:</b> 1.75x, <b>GOOD:</b> 2x, <b>GREAT:</b> 2.5x, <b>PERFECT:</b> 2.75x, <b>EXCELLENT:</b> 3x",
         specialName: "Emperor's Flashy Combination Attack",
         sailor: {
-            base: "Boosts Slasher characters' base stats by 200 and makes their [INT][TND] slots have matching slot effects",
-            level1: "Boosts Slasher characters' base ATK by 1.1x"
+            base: "Boosts base ATK, HP and RCV of Slasher characters by 200, and makes [INT] and [TND] orbs beneficial for Slasher characters.",
+            level1: "Boosts base ATK of Slasher characters by 1.1x."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Shanks, Monkey D. Luffy, Marshall D. Teach (Blackbeard), Dracule Mihawk, Sir Crocodile (Mr. 0), Galdino (Mr. 3), Mohji & Richie, Cabaji, Alvida, Daz Bonez (Mr. 1), Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus",
-        superSpecial: "Reduces damage taken by 80% for 1 turn, changes Slasher characters' [BLOCK][INT][TND] slots to Super [INT], allows Slasher characters to perform Super Tandem with [INT] slots for 3 turns, changes Slasher characters to SuperSlasher, and changes Driven characters to Super Driven",
+        superSpecialCriteria: "This character must be captain. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Shanks, Monkey D. Luffy, Marshall D. Teach (Blackbeard), Dracule Mihawk, Sir Crocodile (Mr. 0), Galdino (Mr. 3), Mohji, Richie, Cabaji, Alvida, Daz Bonez (Mr. 1), Gol D. Roger, Silvers Rayleigh, Scopper Gaban, Crocus",
+        superSpecial: "Reduces damage received by 80% for 1 turn, changes [INT], [TND] and [BLOCK] orbs of Slasher characters into [SUPER INT] orbs, allows Slasher characters to perform Super Tandem with [INT] orbs for 3 turns, transforms Slasher characters into Super Slasher characters, and transforms Driven characters into Super Driven characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[Egghead Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats",
-                    "Adds 15% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -185447,18 +185455,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] character performs Super Tandem",
-                "When a [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] character performs Super Tandem"
+                "When a [Four Emperors], [Egghead Arc], [Roger Pirates] or [Cross Guild] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Roger Pirates] or [Cross Guild] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Roger Pirates] or [Cross Guild] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Roger Pirates] or [Cross Guild] character performs Super Tandem",
+                "When a [Four Emperors], [Egghead Arc], [Roger Pirates] or [Cross Guild] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] characters by 1 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] characters by 2 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] [Roger Pirates] [Cross Guild] characters by 3 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] characters by 5 and raises Boost Level of [Roger Pirates] [Cross Guild] characters by 6 for 1 turn",
-                "Raises Boost Level of [Four Emperors] [Egghead Arc] characters by 6 and raises Boost Level of [Roger Pirates] [Cross Guild] characters by 7 for 1 turn"
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Roger Pirates] and [Cross Guild] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Roger Pirates] and [Cross Guild] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Four Emperors], [Egghead Arc], [Roger Pirates] and [Cross Guild] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 5 for 1 turn, and raises Boost Level of [Roger Pirates] and [Cross Guild] characters by 6 for 1 turn.",
+                "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 6 for 1 turn, and raises Boost Level of [Roger Pirates] and [Cross Guild] characters by 7 for 1 turn."
             ]
         },
         festStats: {
@@ -186173,24 +186181,26 @@ window.details = {
         ]
     },
     4571: {//Imu
-        captain: "Launches the following effect at start of quest: \"Reduces Special charge time for characters with a Cost of 70 or more by 34% (rounding down the decimal), reduces crew's VS Effect gauge and Switch Effect by 3, and allows crew to perform Super Tandem with [STR] slots for 10 turns\". Boosts ATK for characters with a cost of 70 or more by 6x, boosts other characters' ATK by 4x, boosts crew's HP by 1.5x, and completely removes character's Bind / Despair / Paralysis / Special Bind. If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, Captain Ability effect of \"Boosts ATK for characters with a cost of 70 or more by 6x\" changes to \"Boosts ATK for characters with a cost of 70 or more by 6.5x\" for 3 turns. If field has \"Territory: Crew\", Specials that are applied to certain types/classes will apply to the whole crew <hidden>[Special Captain Ability] If this character begins a quest as Captain, allows crew to immediately clear certain quests 6 times per day (For more details, check the MENU during a quest)</hidden>",
-        special: "If character is a Captain/Friend Captain/Helper Captain when Special is launched, reduces all enemies' beneficial effect duration by 1 turn, then after that, applies \"Territory: Crew\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25%) for 3 turns. Launches the following effects based on character's Special launch status: (0) Reduces crew's Special charge time by 2 turns, reduces crew's Special Bind duration by 10 turns, and boosts the minimum chain multiplier value by up to 5.0 for 3 turns based on outcome of Action Special<hidden> (3.5 for MISS, 4.0 for GOOD, 4.5 for GREAT, 4.75 for PERFECT, 5.0 for EXCELLENT)</hidden> and sets the maximum value at 50.0 (1) reduces crew's Paralysis/Burn duration by 10 turns, reduces crew's ATK Up effect by 1.0 but changes the boost to a stackable boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as an ATK boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other ATK boost effects), and boosts ATK up to a maximum of 5x for characters with a Cost of 70 or more for 3 turns based on outcome of Action Special<hidden> (3.5x for MISS, 4x for GOOD, 4.5x for GREAT, 4.75x for PERFECT, 5x for EXCELLENT)</hidden>, then sets character's Special launch status to (0)<hidden> (Special launch status effect is not stackable)</hidden>",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of Cost 70 or more characters by 34% of Max Cooldown (rounded down), reduces VS Gauge and Switch Effect of all characters by 3, and allows all characters to perform Super Tandem with [STR] orbs for 10 turns. Boosts ATK of Cost 70 or more characters by 6x, boosts ATK of all other characters by 4x, boosts HP of all characters by 1.5x, and reduces Bind, Despair, Paralysis and Special Bind duration completely on this character. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of Cost 70 or more characters by 6.5x instead. If field has Territory: Crew, makes all specials that apply Class or Type restricted buffs apply to all characters instead. <br><b>Special Captain Ability:</b> If this character begins a quest as Captain, allows crew to immediately clear certain quests 6 times per day.",
+        captainNotes: "Special Captain Ability effect is limited to Main Story and Event quests with difficulty 6 stars or less.",
+        special: "If this character is your Captain or Friend Captain, reduces enemies' positive buffs duration by 1 turn. Applies Territory: Crew to the field for 3 turns, and launches the following effects depending on the Special Launch Status of this character when the special is activated: <ul><li><b>(0)</b> Reduces Special Cooldown of all characters by 2 turns, reduces Special Bind duration by 10 turns, and sets Chain Boundaries to 3.5x-5.0x and 50.0x for 3 turns depending on the outcome of Action Special.</li><li><b>(1)</b> Reduces Paralysis and Burn duration by 10 turns, decreases boost effects of ATK Up buffs by -1.0x and converts ATK Up into a Stackable ATK Up,  boosts ATK of Cost 70 or more characters by 3.5x-5x for 3 turns depending on the outcome of Action Special, and sets Special Launch Status to (0).</li></ul>",
+        specialNotes: "<br><b>Chain Boundary:</b> MISS: 3.5x, GOOD: 4.0x, GREAT: 4.5x, PERFECT: 4.75x, EXCELLENT 5.0x<br><b>ATK:</b> MISS: 3.5x, GOOD: 4.0x, GREAT: 4.5x, PERFECT: 4.75x, EXCELLENT 5.0x",
         specialName: "Punishing the Intruder",
         sailor: {
-            base: "Makes character immune to Special Bind/Special Reverse",
-            level1: "Character cannot be blown away by attack and lets character completely evade Bind/Paralysis"
+            base: "Reduces Special Bind duration completely on this character, and restores Special Cooldown of this character completely when it is rewinded.",
+            level1: "This character cannot be Blown Away, and reduces Bind and Paralysis duration completely on this character."
         },
-        superSpecialCriteria: "When crew has ATK Up or Orb Boost at 8x or more or any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
-        superSpecial: "Reduces all enemies' Percent Damage ReductionThreshold Damage Reduction duration by 5 turns, changes crew's slots (including [BLOCK] slots) to character's own type, reduces damage taken by 80% for 1 turn, further increases crew's Color Affinity by 1.5x (up to a maximum 20x), sets character's Special launch status to (1), and changes all types to Super Type",
+        superSpecialCriteria: "This character must be captain. If your crew has an ATK Up or Orb Amplification buff with an effect of 8x or more or your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
+        superSpecial: "Reduces enemies' Percent Damage Reduction and Threshold Damage Reduction duration by 5 turns, changes all orbs, including [BLOCK] orbs, into matching orbs, reduces damage received by 80% for 1 turn, increases boost effects of Color Affinity buffs by 1.5x (up to 20x), sets Special Launch Status to (1), and transforms [STR], [DEX], [QCK], [PSY] and [INT] characters into Super [STR], Super [DEX], Super [QCK], Super [PSY] and Super [INT] characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [World Government]",
+                Characters: "[World Government] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats",
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats",
-                    "Adds 15% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -186269,13 +186279,13 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "At start of final battle and character's slot is [STR][S. BOMB] or Rainbow",
+            condition: "On the last stage when this character has a [STR], [SUPERBOMB] or [RAINBOW] orb",
             description: [
-                "Further boosts the chain multiplier of the final tap by 1.1x, and boosts character's damage dealt to DEF Down enemies by 2x",
-                "Further boosts the chain multiplier of the final tap by 1.2x, and boosts character's damage dealt to DEF Down enemies by 2.25x",
-                "Further boosts the chain multiplier of the final tap by 1.3x, and boosts character's damage dealt to DEF Down enemies by 2.5x",
-                "Further boosts the chain multiplier of the final tap by 1.4x, and boosts character's damage dealt to DEF Down enemies by 2.75x",
-                "Further boosts the chain multiplier of the final tap by 1.5x, and boosts character's damage dealt to DEF Down enemies by 3x"
+                "Boosts Chain Multiplier Growth Rate by 1.1x, and boosts ATK against enemies with reduced defense by 2x for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 1.2x, and boosts ATK against enemies with reduced defense by 2.25x for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 1.3x, and boosts ATK against enemies with reduced defense by 2.5x for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 1.4x, and boosts ATK against enemies with reduced defense by 2.75x for 1 turn.",
+                "Boosts Chain Multiplier Growth Rate by 1.5x, and boosts ATK against enemies with reduced defense by 3x for 1 turn."
             ]
         },
         festStats: {
