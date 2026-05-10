@@ -185561,22 +185561,22 @@ window.details = {
         festAbilityGPCondition: "After 20s of battle"
     },
     4565: {//Sabo
-        captain: "Reduces crew's Special charge time by 1 turn and reduces ship's Special charge time by 3 turns at start of quest, boosts Fighter characters' ATK by 4.5x, HP by 1.3x, and makes their [PSY][TND] slots have matching slot effects",
-        special: "Reduces crew's Paralysis duration by 6 turns, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, and boosts damage dealt to enemies affected by increase damage taken status by 2.75x for 1 turn. If 3 or more [Revolutionary Army] characters or 5 or more [Egghead Arc] characters are on the crew, applies \"Territory: Fighter class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Special Cooldown of ship by 3 turns. Boosts ATK of Fighter characters by 4.5x, boosts HP of Fighter characters by 1.3x, and makes [PSY] and [TND] orbs beneficial for Fighter characters.",
+        special: "Reduces Paralysis duration by 6 turns, reduces enemies' Percent Damage Reduction duration by 6 turns, and boosts ATK against enemies inflicted with Increase Damage Taken by 2.75x for 1 turn. If your crew has 3+ [Revolutionary Army] characters or 5+ [Egghead Arc] characters, applies Territory: Fighter to the field for 1 turn.",
         specialName: "Flaming Strike of Revolution",
         sailor: {
-            base: "Boosts Fighter characters' base stats by 150 and makes their [PSY] slots have matching slot effects",
-            level1: "If enemy launches damage reduction (except Threshold Damage Reduction) effect, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "Boosts base ATK, HP and RCV of Fighter characters by 150, and makes [PSY] orbs beneficial for Fighter characters.",
+            level1: "Once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 1 turn."
         },
         support: [
             {
-                Characters: "[DEX] characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[DEX] [Egghead Arc] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, boosts supported character's base ATK by 1.1x until the next battle",
-                    "Once per quest, if supported character uses a Special, boosts supported character's base ATK by 1.15x until the next battle",
-                    "Once per quest, if supported character uses a Special, boosts supported character's base ATK by 1.2x until the next battle",
-                    "Once per quest, if supported character uses a Special, boosts supported character's base ATK by 1.25x until the next battle",
-                    "Once per quest, if supported character uses a Special, boosts supported character's base ATK by 1.3x until the next battle"
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.1x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.15x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.2x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.25x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.3x until the next stage."
                 ]
             }
         ],
@@ -185621,18 +185621,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Nico Robin, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Nico Robin, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Nico Robin, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Nico Robin, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Nico Robin, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Nico Robin, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Nico Robin, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Nico Robin, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Nico Robin, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Portgas D. Ace, Monkey D. Garp, Curly Dadan, Nico Robin, Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Koala, Hack, Inazuma, Bartholomew Kuma, Ginny, Monkey D. Dragon"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.1x to Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.3x to Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.45x to Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.6x to Fighter characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.75x to Fighter characters for 1 turn"
+                "Boosts Tandem ATK of Fighter characters by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of Fighter characters by 1.3x for 1 turn.",
+                "Boosts Tandem ATK of Fighter characters by 1.45x for 1 turn.",
+                "Boosts Tandem ATK of Fighter characters by 1.6x for 1 turn.",
+                "Boosts Tandem ATK of Fighter characters by 1.75x for 1 turn."
             ]
         },
         festStats: {
@@ -185699,22 +185699,22 @@ window.details = {
         ]
     },
     4566: {//Coby
-        captain: "Reduces crew's Special charge time by 1 turn and reduces ship's Special charge time by 3 turns at start of quest, boosts Cerebral characters' ATK by 4.5x, HP by 1.3x, and makes their [PSY][TND] slots have matching slot effects",
-        special: "Reduces damage taken by 90% for 1 turn, reduces crew's ATK Down duration by 6 turns, and applies Weakened status (increase damage taken by 1.3x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken) to all enemies for 1 turn. If 3 or more [Navy] [SWORD] characters or 5 or more [Egghead Arc] characters are on the crew, applies \"Territory: Cerebral class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn, and this Special's Weakened effect will ignore immunity to status effects",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Special Cooldown of ship by 3 turns. Boosts ATK of Cerebral characters by 4.5x, boosts HP of Cerebral characters by 1.3x, and makes [PSY] and [TND] orbs beneficial for Fighter characters.",
+        special: "Reduces damage received by 90% for 1 turn, and reduces ATK Down duration by 6 turns. If your crew has 3+ [Navy] or [SWORD] characters or 5+ [Egghead Arc] characters, applies Territory: Cerebral to the field for 1 turn, and ignores Debuff Protection and inflicts all enemies with Weaken by 1.3x, by 1.56x instead if enemies are inflicted with Increase Damage Taken, for 1 turn; inflicts all enemies with Weaken by 1.3x, by 1.56x instead if enemies are inflicted with Increase Damage Taken, for 1 turn.",
         specialName: "Justice-Prevailing Passionate Fist",
         sailor: {
-            base: "Boosts Cerebral characters' base stats by 150 and makes their [PSY] slots have matching slot effects",
-            level1: "Reduces crew's ATK Down duration by 1 turn"
+            base: "Boosts base ATK, HP and RCV of Cerebral characters by 150, and makes [PSY] orbs beneficial for Cerebral characters.",
+            level1: "Reduces ATK Down duration by 1 turn."
         },
         support: [
             {
-                Characters: "[STR] characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[STR] [Egghead Arc] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, boosts supported character's base ATK by 1.1x until the next battle",
-                    "Once per quest, if supported character uses a Special, boosts supported character's base ATK by 1.15x until the next battle",
-                    "Once per quest, if supported character uses a Special, boosts supported character's base ATK by 1.2x until the next battle",
-                    "Once per quest, if supported character uses a Special, boosts supported character's base ATK by 1.25x until the next battle",
-                    "Once per quest, if supported character uses a Special, boosts supported character's base ATK by 1.3x until the next battle"
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.1x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.15x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.2x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.25x until the next stage.",
+                    "Once per adventure, when the supported character uses their special, boosts base ATK of the supported character by 1.3x until the next stage."
                 ]
             }
         ],
@@ -185759,18 +185759,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When an [Egghead Arc] [Navy] [SWORD] character performs Super Tandem",
-                "When an [Egghead Arc] [Navy] [SWORD] character performs Super Tandem",
-                "When an [Egghead Arc] [Navy] [SWORD] character performs Super Tandem",
-                "When an [Egghead Arc] [Navy] [SWORD] character performs Super Tandem",
-                "When an [Egghead Arc] [Navy] [SWORD] character performs Super Tandem"
+                "When an [Egghead Arc], [Navy] or [SWORD] character performs Super Tandem",
+                "When an [Egghead Arc], [Navy] or [SWORD] character performs Super Tandem",
+                "When an [Egghead Arc], [Navy] or [SWORD] character performs Super Tandem",
+                "When an [Egghead Arc], [Navy] or [SWORD] character performs Super Tandem",
+                "When an [Egghead Arc], [Navy] or [SWORD] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Navy] [SWORD] characters by 1 for 1 turn",
-                "Raises Boost Level of [Egghead Arc] characters by 1 and raises Boost Level of [Navy] [SWORD] characters by 1 for 1 turn",
-                "Raises Boost Level of [Egghead Arc] characters by 1 and raises Boost Level of [Navy] [SWORD] characters by 2 for 1 turn",
-                "Raises Boost Level of [Egghead Arc] characters by 2 and raises Boost Level of [Navy] [SWORD] characters by 3 for 1 turn",
-                "Raises Boost Level of [Egghead Arc] characters by 3 and raises Boost Level of [Navy] [SWORD] characters by 4 for 1 turn"
+                "Raises Boost Level of [Navy] and [SWORD] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 1 for 1 turn, and raises Boost Level of [Navy] and [SWORD] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 1 for 1 turn, and raises Boost Level of [Navy] and [SWORD] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 2 for 1 turn, and raises Boost Level of [Navy] and [SWORD] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Egghead Arc] characters by 3 for 1 turn, and raises Boost Level of [Navy] and [SWORD] characters by 4 for 1 turn."
             ]
         },
         festStats: {
@@ -185839,13 +185839,13 @@ window.details = {
     4567: {//Monkey D. Dragon
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Revolutionary Army], [Egghead Arc]",
+                Characters: "[Revolutionary Army], [Egghead Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special to apply a Territory, reduces crew's ATK Down duration by 1 turn [AUTO+] If inflicted with ATK Down/Paralysis status from the enemy or at final battle, activates supported character's Special",
-                    "Adds 7% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special to apply a Territory, reduces crew's ATK Down duration by 1 turn [AUTO+] If inflicted with ATK Down/Paralysis status from the enemy or at final battle, activates supported character's Special",
-                    "Adds 9% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special to apply a Territory, reduces crew's ATK Down duration by 1 turn [AUTO+] If inflicted with ATK Down/Paralysis status from the enemy or at final battle, activates supported character's Special",
-                    "Adds 10% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special to apply a Territory, reduces crew's ATK Down duration by 1 turn [AUTO+] If inflicted with ATK Down/Paralysis status from the enemy or at final battle, activates supported character's Special",
-                    "Adds 12% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special to apply a Territory, reduces crew's ATK Down/Paralysis duration by 1 turn [AUTO+] If inflicted with ATK Down/Paralysis status from the enemy or at final battle, activates supported character's Special"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when the supported character uses a Territory special, reduces ATK Down duration by 1 turn. <b>[AUTO+]</b> When an enemy inflicts you with ATK Down or Paralysis or when you reach the final stage, activates supported character's Special.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when the supported character uses a Territory special, reduces ATK Down duration by 1 turn. <b>[AUTO+]</b> When an enemy inflicts you with ATK Down or Paralysis or when you reach the final stage, activates supported character's Special.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when the supported character uses a Territory special, reduces ATK Down duration by 1 turn. <b>[AUTO+]</b> When an enemy inflicts you with ATK Down or Paralysis or when you reach the final stage, activates supported character's Special.",
+                    "Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when the supported character uses a Territory special, reduces ATK Down duration by 1 turn. <b>[AUTO+]</b> When an enemy inflicts you with ATK Down or Paralysis or when you reach the final stage, activates supported character's Special.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when the supported character uses a Territory special, reduces ATK Down and Paralysis duration by 1 turn. <b>[AUTO+]</b> When an enemy inflicts you with ATK Down or Paralysis or when you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -185879,13 +185879,13 @@ window.details = {
     4568: {//St. Figarland Garling
         support: [
             {
-                Characters: "Characters with a Cost of 70 or more",
+                Characters: "Characters with Cost 70 or more",
                 description: [
-                    "Adds 1% of character's base stats to supported character's base stats [AUTO+] When enemy applies a Territory and at final battle, activates supported character's Special",
-                    "Adds 3% of character's base stats to supported character's base stats [AUTO+] When enemy applies a Territory and at final battle, activates supported character's Special",
-                    "Adds 5% of character's base stats to supported character's base stats [AUTO+] When enemy applies a Territory and at final battle, activates supported character's Special",
-                    "Adds 7% of character's base stats to supported character's base stats [AUTO+] When enemy applies a Territory and at final battle, activates supported character's Special",
-                    "Adds 10% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special, reduces Special charge time by 1 turn for characters with a Cost of 70 or more [AUTO+] When enemy applies a Territory and at final battle, activates supported character's Special"
+                    "Adds 1% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the final stage and an enemy applies Territory, activates supported character's Special.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the final stage and an enemy applies Territory, activates supported character's Special.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the final stage and an enemy applies Territory, activates supported character's Special.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the final stage and an enemy applies Territory, activates supported character's Special.",
+                    "Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when the supported character uses their special, reduces Special Cooldown of Cost 70 or more characters by 1 turn. <b>[AUTO+]</b> When you reach the final stage and an enemy applies Territory, activates supported character's Special."
                 ]
             }
         ],
@@ -185917,22 +185917,22 @@ window.details = {
         festAttackTarget: "Targets closest enemies"
     },
     4569: {//Sakazuki
-        captain: "Reduces crew's Special charge time by 1 turn and reduces ship's Special charge time by 3 turns at start of quest, boosts Driven and Slasher characters' ATK by 4.25x, HP by 1.3x, and makes their [PSY][TND] slots have matching slot effects",
-        special: "Reduces the duration of all enemy barriers by 2 turns, reduces crew's Bind duration by 6 turns, and boosts crew's Critical rate by 30% (effect applies only to characters with Critical ATK Potential Ability; highest possible chance is 100%). If crew has slot effect boost when Special is launched, boosts Driven and Slasher characters' ATK by 2.5x for 1 turn (boosts their slot effects by 2.75x for 1 turn otherwise). If 5 or more [Egghead Arc] [Navy] characters are on the crew and a [QCK] or [DEX] is set as Support for character, applies \"Territory: Driven class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn. If 5 or more [Egghead Arc] [Navy] characters are on the crew and an [INT] or [STR] is set as Support for character, applies \"Territory: Slasher class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Special Cooldown of ship by 3 turns. Boosts ATK of Driven and Slasher characters by 4.25x, boosts HP of Driven and Slasher characters by 1.3x, and makes [PSY] and [TND] orbs beneficial for Driven and Slasher characters.",
+        special: "Reduces enemies' Barrier duration by 2 turns, reduces Bind duration by 6 turns, and boosts Critical Hit Rate of all characters by 30% for 1 turn. If your crew has Orb Amplification when the special is activated, boosts ATK of Driven and Slasher characters by 2.5x for 1 turn; boosts Orb Effects of Driven and Slasher characters by 2.75x for 1 turn otherwise. If your crew has 5+ [Egghead Arc] or [Navy] characters and a [DEX] or [QCK] character is supporting this character, applies Territory: Driven to the field for 1 turn. If your crew has 5+ [Egghead Arc] or [Navy] characters and a [STR] or [INT] character is supporting this character, applies Territory: Slasher to the field for 1 turn.",
         specialName: "Evil-Eradicating Magma",
         sailor: {
-            base: "Boosts Driven and Slasher characters' base stats by 150 and makes their [PSY] slots have matching slot effects",
-            level1: "If 5 or more [Egghead Arc] [Navy] characters are on the crew, reduces character's Bind duration by 5 turns"
+            base: "Boosts base ATK, HP and RCV of Driven and Slasher characters by 150, and makes [PSY] orbs beneficial for Driven and Slasher characters.",
+            level1: "If your crew has 5+ [Egghead Arc] or [Navy] characters, reduces Bind duration by 5 turns on this character."
         },
         support: [
             {
-                Characters: "[INT] characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[INT] [Egghead Arc] characters",
                 description: [
-                    "Adds 5% of character's base ATK to supported character's base ATK, and boosts the chain multiplier by +0.2 for 1 turn at start of final battle",
-                    "Adds 7% of character's base ATK to supported character's base ATK, and boosts the chain multiplier by +0.3 for 1 turn at start of final battle",
-                    "Adds 8% of character's base ATK to supported character's base ATK, and boosts the chain multiplier by +0.4 for 1 turn at start of final battle",
-                    "Adds 9% of character's base ATK to supported character's base ATK, and boosts the chain multiplier by +0.5 for 1 turn at start of final battle",
-                    "Adds 10% of character's base ATK to supported character's base ATK, and boosts the chain multiplier by +0.6 for 1 turn at start of final battle"
+                    "Adds 5% of this character's base ATK to the supported character's base ATK. Once per adventure, when you reach the final stage, adds 0.2x to chain multiplier for 1 turn.",
+                    "Adds 7% of this character's base ATK to the supported character's base ATK. Once per adventure, when you reach the final stage, adds 0.3x to chain multiplier for 1 turn.",
+                    "Adds 8% of this character's base ATK to the supported character's base ATK. Once per adventure, when you reach the final stage, adds 0.4x to chain multiplier for 1 turn.",
+                    "Adds 9% of this character's base ATK to the supported character's base ATK. Once per adventure, when you reach the final stage, adds 0.5x to chain multiplier for 1 turn.",
+                    "Adds 10% of this character's base ATK to the supported character's base ATK. Once per adventure, when you reach the final stage, adds 0.6x to chain multiplier for 1 turn."
                 ]
             }
         ],
@@ -185976,13 +185976,13 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "On the turn Special is launched during final Battle",
+            condition: "On the last stage, on the turn this character's special is used",
             description: [
-                "Adds 0.1x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 0.15x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 0.2x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 0.25x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 0.3x of damage dealt by normal attacks of other characters this turn on top of the final damage"
+                "Adds 0.1x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 0.15x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 0.2x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 0.25x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 0.3x of damage dealt by normal attacks of other characters this turn on top of the final damage."
             ]
         },
         festStats: {
@@ -186049,22 +186049,22 @@ window.details = {
         ]
     },
     4570: {//Kuzan
-        captain: "Reduces crew's Special charge time by 1 turn and reduces ship's Special charge time by 3 turns at start of quest, boosts Free Spirit and Driven characters' ATK by 4.25x, HP by 1.3x, and makes their [PSY][TND] slots have matching slot effects",
-        special: "Reduces all enemies' Threshold Damage Reduction duration by 6 turns, and makes it much easier to land PERFECT strikes for 3 turns. If crew has ATK Up status when Special is launched, boosts Free Spirit and Driven characters' slot effects by 2.5x for 1 turn (boosts their ATK by 2.75x for 1 turn otherwise). If 5 or more [Egghead Arc] [Blackbeard Pirates] characters are on the crew and a [STR] or [QCK] is set as Support for character, applies \"Territory: Free Spirit class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn. If 5 or more [Egghead Arc] [Blackbeard Pirates] characters are on the crew and an [INT] or [DEX] is set as Support for character, applies \"Territory: Driven class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Special Cooldown of ship by 3 turns. Boosts ATK of Free Spirit and Driven characters by 4.25x, boosts HP of Free Spirit and Driven characters by 1.3x, and makes [PSY] and [TND] orbs beneficial for Free Spirit and Driven characters.",
+        special: "Reduces enemies' Threshold Damage Reduction duration by 6 turns, and makes PERFECTs easier to hit for 3 turns. If your crew has ATK Up when the special is activated, boosts Orb Effects of Free Spirit and Driven characters by 2.5x for 1 turn; boosts ATK of Free Spirit and Driven characters by 2.75x for 1 turn otherwise. If your crew has 5+ [Egghead Arc] or [Blackbeard Pirates] characters and a [STR] or [QCK] character is supporting this character, applies Territory: Free Spirit to the field for 1 turn. If your crew has 5+ [Egghead Arc] or [Blackbeard Pirates] characters and a [DEX] or [INT] character is supporting this character, applies Territory: Driven to the field for 1 turn.",
         specialName: "Chill Exposing the Opening",
         sailor: {
-            base: "Boosts Free Spirit and Driven characters' base stats by 150 and makes their [PSY] slots have matching slot effects",
-            level1: "If 5 or more [Egghead Arc] [Blackbeard Pirates] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 2 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "Boosts base ATK, HP and RCV of Free Spirit and Driven characters by 150, and makes [PSY] orbs beneficial for Free Spirit and Driven characters.",
+            level1: "If your crew has 5+ [Egghead Arc] or [Blackbeard Pirates] characters, once per adventure, when the enemy gains a Threshold Damage Reduction buff, reduces enemies' Threshold Damage Reduction duration by 2 turns."
         },
         support: [
             {
-                Characters: "[QCK] characters with the following Character Tag: [Blackbeard Pirates]",
+                Characters: "[QCK] [Blackbeard Pirates] characters",
                 description: [
-                    "Adds 5% of character's base ATK to supported character's base ATK, and cuts crew's HP by 80% at start of final battle",
-                    "Adds 7% of character's base ATK to supported character's base ATK, and cuts crew's HP by 80% at start of final battle",
-                    "Adds 8% of character's base ATK to supported character's base ATK, and cuts crew's HP by 80% at start of final battle",
-                    "Adds 9% of character's base ATK to supported character's base ATK, and cuts crew's HP by 80% at start of final battle",
-                    "Adds 10% of character's base ATK to supported character's base ATK, cuts crew's HP by 80%, but allows crew's to perform Super Tandem with [QCK] slots for 1 turn at start of final battle"
+                    "Adds 5% of this character's base ATK to the supported character's base ATK. Once per adventure, when you reach the final stage, reduces crew's current HP by 80%.",
+                    "Adds 7% of this character's base ATK to the supported character's base ATK. Once per adventure, when you reach the final stage, reduces crew's current HP by 80%.",
+                    "Adds 8% of this character's base ATK to the supported character's base ATK. Once per adventure, when you reach the final stage, reduces crew's current HP by 80%.",
+                    "Adds 9% of this character's base ATK to the supported character's base ATK. Once per adventure, when you reach the final stage, reduces crew's current HP by 80%.",
+                    "Adds 10% of this character's base ATK to the supported character's base ATK. Once per adventure, when you reach the final stage, reduces crew's current HP by 80%, and allows all characters to perform Super Tandem with [QCK] orbs for 1 turn."
                 ]
             }
         ],
@@ -186108,13 +186108,13 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "On the turn Special is launched during final Battle",
+            condition: "On the last stage, on the turn this character's special is used",
             description: [
-                "Adds 0.1x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 0.15x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 0.2x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 0.25x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-                "Adds 0.3x of damage dealt by normal attacks of other characters this turn on top of the final damage"
+                "Adds 0.1x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 0.15x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 0.2x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 0.25x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
+                "Adds 0.3x of damage dealt by normal attacks of other characters this turn on top of the final damage."
             ]
         },
         festStats: {
