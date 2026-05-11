@@ -185634,69 +185634,7 @@ window.details = {
                 "Boosts Tandem ATK of Fighter characters by 1.6x for 1 turn.",
                 "Boosts Tandem ATK of Fighter characters by 1.75x for 1 turn."
             ]
-        },
-        festStats: {
-            def: 160,
-            spd: 147,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Reduce fixed damage by 70%, reduce damage taken from [QCK] by 20%",
-        festAbility: [
-            "[DEX]/Fighter class and [Revolutionary Army] teammates ATK Up Lv.2, SPD Up Lv.2; after dealing damage, up to 1 time targets 1 enemy with high current Special CT for Special CT 6% delay; when striking a Critical, up to 4 times targets 1 enemy with high current Special CT for Special CT 12% delay; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
-            "[DEX]/Fighter class and [Revolutionary Army] teammates ATK Up Lv.3, SPD Up Lv.3; after dealing damage, up to 1 time targets 1 enemy with high current Special CT for Special CT 7% delay; when striking a Critical, up to 4 times targets 1 enemy with high current Special CT for Special CT 14% delay; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
-            "[DEX]/Fighter class and [Revolutionary Army] teammates ATK Up Lv.4, SPD Up Lv.4; after dealing damage, up to 1 time targets 1 enemy with high current Special CT for Special CT 8% delay; when striking a Critical, up to 4 times targets 1 enemy with high current Special CT for Special CT 16% delay; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4",
-            "[DEX]/Fighter class and [Revolutionary Army] teammates ATK Up Lv.5, SPD Up Lv.5; after dealing damage, up to 1 time targets 1 enemy with high current Special CT for Special CT 9% delay; when striking a Critical, up to 4 times targets 1 enemy with high current Special CT for Special CT 18% delay; during Assault Rumble, self HP Up Lv.9, Special CT Speed Up Lv.5",
-            "[DEX]/Fighter class and [Revolutionary Army] teammates ATK Up Lv.6, SPD Up Lv.6; after dealing damage, up to 1 time targets 1 enemy with high current Special CT for Special CT 10% delay; when striking a Critical, up to 4 times targets 1 enemy with high current Special CT for Special CT 20% delay; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
-        ],
-        festSpecial: [
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK Down Lv.2 (11 s), DEF Down Lv.1 (11 s); targets 3 high ATK enemies for ATK x 1.5 damage; targets 2 enemies with high current Special CT for Special CT 20% delay; during Assault Rumble, targets [QCK] enemies for DEF Down Lv.1 (11 s), Special CT Speed Down Lv.1 (11 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK Down Lv.2 (12 s), DEF Down Lv.1 (12 s); targets 3 high ATK enemies for ATK x 1.7 damage; targets 2 enemies with high current Special CT for Special CT 22% delay; during Assault Rumble, targets [QCK] enemies for DEF Down Lv.1 (12 s), Special CT Speed Down Lv.1 (12 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK Down Lv.3 (13 s), DEF Down Lv.1 (13 s); targets 3 high ATK enemies for ATK x 1.9 damage; targets 2 enemies with high current Special CT for Special CT 24% delay; during Assault Rumble, targets [QCK] enemies for DEF Down Lv.1 (13 s), Special CT Speed Down Lv.1 (13 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK Down Lv.3 (14 s), DEF Down Lv.2 (14 s); targets 3 high ATK enemies for ATK x 2.1 damage; targets 2 enemies with high current Special CT for Special CT 26% delay; during Assault Rumble, targets [QCK] enemies for DEF Down Lv.2 (14 s), Special CT Speed Down Lv.1 (14 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK Down Lv.4 (15 s), DEF Down Lv.2 (15 s); targets 3 high ATK enemies for ATK x 2.3 damage; targets 2 enemies with high current Special CT for Special CT 28% delay; during Assault Rumble, targets [QCK] enemies for DEF Down Lv.2 (15 s), Special CT Speed Down Lv.1 (15 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK Down Lv.4 (16 s), DEF Down Lv.3 (16 s); targets 3 high ATK enemies for ATK x 2.5 damage; targets 2 enemies with high current Special CT for Special CT 30% delay; during Assault Rumble, targets [QCK] enemies for DEF Down Lv.3 (16 s), Special CT Speed Down Lv.2 (16 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK Down Lv.5 (17 s), DEF Down Lv.3 (17 s); targets 3 high ATK enemies for ATK x 2.7 damage; targets 2 enemies with high current Special CT for Special CT 32% delay; during Assault Rumble, targets [QCK] enemies for DEF Down Lv.3 (17 s), Special CT Speed Down Lv.2 (17 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK Down Lv.5 (18 s), DEF Down Lv.3 (18 s); targets 3 high ATK enemies for ATK x 2.9 damage; targets 2 enemies with high current Special CT for Special CT 34% delay; during Assault Rumble, targets [QCK] enemies for DEF Down Lv.3 (18 s), Special CT Speed Down Lv.2 (18 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK Down Lv.6 (19 s), DEF Down Lv.4 (19 s); targets 3 high ATK enemies for ATK x 3.1 damage; targets 2 enemies with high current Special CT for Special CT 36% delay; during Assault Rumble, targets [QCK] enemies for DEF Down Lv.4 (19 s), Special CT Speed Down Lv.2 (19 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Targets enemies within large range for ATK Down Lv.7 (20 s), DEF Down Lv.5 (20 s); targets 3 high ATK enemies for ATK x 3.5 damage; targets 2 enemies with high current Special CT for Special CT 40% delay; during Assault Rumble, targets [QCK] enemies for DEF Down Lv.5 (20 s), Special CT Speed Down Lv.3 (20 s)"
-            }
-        ]
+        }
     },
     4566: {//Coby
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Special Cooldown of ship by 3 turns. Boosts ATK of Cerebral characters by 4.5x, boosts HP of Cerebral characters by 1.3x, and makes [PSY] and [TND] orbs beneficial for Fighter characters.",
@@ -185772,69 +185710,7 @@ window.details = {
                 "Raises Boost Level of [Egghead Arc] characters by 2 for 1 turn, and raises Boost Level of [Navy] and [SWORD] characters by 3 for 1 turn.",
                 "Raises Boost Level of [Egghead Arc] characters by 3 for 1 turn, and raises Boost Level of [Navy] and [SWORD] characters by 4 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 163,
-            spd: 162,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind, reduce damage taken from [DEX] by 20%",
-        festAbility: [
-            "Cerebral/Free Spirit class and [Navy] [World Government] teammates HP Up Lv.2, ATK Up Lv.2, DEF Up Lv.1; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
-            "Cerebral/Free Spirit class and [Navy] [World Government] teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.1; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
-            "Cerebral/Free Spirit class and [Navy] [World Government] teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.2; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4",
-            "Cerebral/Free Spirit class and [Navy] [World Government] teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.2; during Assault Rumble, self HP Up Lv.9, Special CT Speed Up Lv.5",
-            "Cerebral/Free Spirit class and [Navy] [World Government] teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.3; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
-        ],
-        festSpecial: [
-            {
-                cooldown: 29,
-                description: "Targets Cerebral/Free Spirit class and [Navy] [World Government] teammates for ATK Up Lv.2 (11 s), SPD Up Lv.2 (11 s); if 8 or more Cerebral/Free Spirit class characters or 5 or more [Navy] [World Government] characters are on the team, targets team for Special CT Speed Up Lv.1 (11 s), 300 HP per interval healing (11 s); during Assault Rumble; targets self for 80% chance to evade Special CT delay (21 s), 80% chance to evade damage ignoring DEF (21 s); targets [Navy] [World Government] teammates for Special CT 10% reduction"
-            },
-            {
-                cooldown: 29,
-                description: "Targets Cerebral/Free Spirit class and [Navy] [World Government] teammates for ATK Up Lv.2 (12 s), SPD Up Lv.2 (12 s); if 8 or more Cerebral/Free Spirit class characters or 5 or more [Navy] [World Government] characters are on the team, targets team for Special CT Speed Up Lv.1 (12 s), 320 HP per interval healing (12 s); during Assault Rumble; targets self for 82% chance to evade Special CT delay (22 s), 82% chance to evade damage ignoring DEF (22 s); targets [Navy] [World Government] teammates for Special CT 10% reduction"
-            },
-            {
-                cooldown: 29,
-                description: "Targets Cerebral/Free Spirit class and [Navy] [World Government] teammates for ATK Up Lv.2 (13 s), SPD Up Lv.2 (13 s); if 8 or more Cerebral/Free Spirit class characters or 5 or more [Navy] [World Government] characters are on the team, targets team for Special CT Speed Up Lv.1 (13 s), 340 HP per interval healing (13 s); during Assault Rumble; targets self for 84% chance to evade Special CT delay (23 s), 84% chance to evade damage ignoring DEF (23 s); targets [Navy] [World Government] teammates for Special CT 11% reduction"
-            },
-            {
-                cooldown: 29,
-                description: "Targets Cerebral/Free Spirit class and [Navy] [World Government] teammates for ATK Up Lv.3 (14 s), SPD Up Lv.3 (14 s); if 8 or more Cerebral/Free Spirit class characters or 5 or more [Navy] [World Government] characters are on the team, targets team for Special CT Speed Up Lv.2 (14 s), 360 HP per interval healing (14 s); during Assault Rumble; targets self for 86% chance to evade Special CT delay (24 s), 86% chance to evade damage ignoring DEF (24 s); targets [Navy] [World Government] teammates for Special CT 11% reduction"
-            },
-            {
-                cooldown: 29,
-                description: "Targets Cerebral/Free Spirit class and [Navy] [World Government] teammates for ATK Up Lv.3 (15 s), SPD Up Lv.3 (15 s); if 8 or more Cerebral/Free Spirit class characters or 5 or more [Navy] [World Government] characters are on the team, targets team for Special CT Speed Up Lv.2 (15 s), 380 HP per interval healing (15 s); during Assault Rumble; targets self for 88% chance to evade Special CT delay (25 s), 88% chance to evade damage ignoring DEF (25 s); targets [Navy] [World Government] teammates for Special CT 12% reduction"
-            },
-            {
-                cooldown: 29,
-                description: "Targets Cerebral/Free Spirit class and [Navy] [World Government] teammates for ATK Up Lv.4 (16 s), SPD Up Lv.4 (16 s); if 8 or more Cerebral/Free Spirit class characters or 5 or more [Navy] [World Government] characters are on the team, targets team for Special CT Speed Up Lv.3 (16 s), 400 HP per interval healing (16 s); during Assault Rumble; targets self for 90% chance to evade Special CT delay (26 s), 90% chance to evade damage ignoring DEF (26 s); targets [Navy] [World Government] teammates for Special CT 12% reduction"
-            },
-            {
-                cooldown: 29,
-                description: "Targets Cerebral/Free Spirit class and [Navy] [World Government] teammates for ATK Up Lv.4 (17 s), SPD Up Lv.4 (17 s); if 8 or more Cerebral/Free Spirit class characters or 5 or more [Navy] [World Government] characters are on the team, targets team for Special CT Speed Up Lv.3 (17 s), 420 HP per interval healing (17 s); during Assault Rumble; targets self for 92% chance to evade Special CT delay (27 s), 92% chance to evade damage ignoring DEF (27 s); targets [Navy] [World Government] teammates for Special CT 13% reduction"
-            },
-            {
-                cooldown: 29,
-                description: "Targets Cerebral/Free Spirit class and [Navy] [World Government] teammates for ATK Up Lv.4 (18 s), SPD Up Lv.4 (18 s); if 8 or more Cerebral/Free Spirit class characters or 5 or more [Navy] [World Government] characters are on the team, targets team for Special CT Speed Up Lv.3 (18 s), 440 HP per interval healing (18 s); during Assault Rumble; targets self for 94% chance to evade Special CT delay (28 s), 94% chance to evade damage ignoring DEF (28 s); targets [Navy] [World Government] teammates for Special CT 13% reduction"
-            },
-            {
-                cooldown: 29,
-                description: "Targets Cerebral/Free Spirit class and [Navy] [World Government] teammates for ATK Up Lv.5 (19 s), SPD Up Lv.5 (19 s); if 8 or more Cerebral/Free Spirit class characters or 5 or more [Navy] [World Government] characters are on the team, targets team for Special CT Speed Up Lv.4 (19 s), 460 HP per interval healing (19 s); during Assault Rumble; targets self for 96% chance to evade Special CT delay (29 s), 96% chance to evade damage ignoring DEF (29 s); targets [Navy] [World Government] teammates for Special CT 14% reduction"
-            },
-            {
-                cooldown: 29,
-                description: "Targets Cerebral/Free Spirit class and [Navy] [World Government] teammates for ATK Up Lv.6 (20 s), SPD Up Lv.6 (20 s); if 8 or more Cerebral/Free Spirit class characters or 5 or more [Navy] [World Government] characters are on the team, targets team for Special CT Speed Up Lv.5 (20 s), 500 HP per interval healing (20 s); during Assault Rumble; targets self for 100% chance to evade Special CT delay (30 s), 100% chance to evade damage ignoring DEF (30 s); targets [Navy] [World Government] teammates for Special CT 15% reduction"
-            }
-        ]
+        }
     },
     4567: {//Monkey D. Dragon
         support: [
@@ -185865,16 +185741,7 @@ window.details = {
             "Boosts base HP by 80",
             "Boosts base ATK by 50",
             "Boosts base ATK by 50"
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "BAL"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4568: {//St. Figarland Garling
         support: [
@@ -185905,16 +185772,7 @@ window.details = {
             "Boosts base ATK by 50",
             "Boosts base HP by 80",
             "Boosts base HP by 80"
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "BAL"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4569: {//Sakazuki
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Special Cooldown of ship by 3 turns. Boosts ATK of Driven and Slasher characters by 4.25x, boosts HP of Driven and Slasher characters by 1.3x, and makes [PSY] and [TND] orbs beneficial for Driven and Slasher characters.",
@@ -185984,69 +185842,7 @@ window.details = {
                 "Adds 0.25x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
                 "Adds 0.3x of damage dealt by normal attacks of other characters this turn on top of the final damage."
             ]
-        },
-        festStats: {
-            def: 159,
-            spd: 148,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Forced Out, reduce damage taken from [PSY] by 20%",
-        festAbility: [
-            "Driven/Slasher class and [Navy] [World Government] teammates HP Up Lv.2; if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, all enemies ATK Down Lv.3; after dealing damage, up to 3 times targets 1 enemy with high current Special CT for Special CT 11% delay; during Assault Rumble, when appearing on the field, self Special CT 10% reduction",
-            "Driven/Slasher class and [Navy] [World Government] teammates HP Up Lv.3; if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, all enemies ATK Down Lv.4; after dealing damage, up to 3 times targets 1 enemy with high current Special CT for Special CT 12% delay; during Assault Rumble, when appearing on the field, self Special CT 20% reduction",
-            "Driven/Slasher class and [Navy] [World Government] teammates HP Up Lv.4; if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, all enemies ATK Down Lv.5; after dealing damage, up to 3 times targets 1 enemy with high current Special CT for Special CT 13% delay; during Assault Rumble, when appearing on the field, self Special CT 30% reduction",
-            "Driven/Slasher class and [Navy] [World Government] teammates HP Up Lv.5; if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, all enemies ATK Down Lv.6; after dealing damage, up to 3 times targets 1 enemy with high current Special CT for Special CT 14% delay; during Assault Rumble, when appearing on the field, self Special CT 40% reduction",
-            "Driven/Slasher class and [Navy] [World Government] teammates HP Up Lv.6; if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, all enemies ATK Down Lv.7; after dealing damage, up to 3 times targets 1 enemy with high current Special CT for Special CT 15% delay; during Assault Rumble, when appearing on the field, self Special CT 50% reduction"
-        ],
-        festSpecial: [
-            {
-                cooldown: 50,
-                description: "Targets enemies within large range for ATK Down Lv.6 (41 s), SPD Down Lv.6 (41 s); if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for Special CT Speed Down Lv.1 (41 s), 82% chance of Halve DEF (21 s); during Assault Rumble, targets self for Special CT 32% reduction; switches character with 1st sub character"
-            },
-            {
-                cooldown: 50,
-                description: "Targets enemies within large range for ATK Down Lv.6 (42 s), SPD Down Lv.6 (42 s); if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for Special CT Speed Down Lv.1 (42 s), 84% chance of Halve DEF (22 s); during Assault Rumble, targets self for Special CT 34% reduction; switches character with 1st sub character"
-            },
-            {
-                cooldown: 50,
-                description: "Targets enemies within large range for ATK Down Lv.7 (43 s), SPD Down Lv.7 (43 s); if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for Special CT Speed Down Lv.2 (43 s), 86% chance of Halve DEF (23 s); during Assault Rumble, targets self for Special CT 36% reduction; switches character with 1st sub character"
-            },
-            {
-                cooldown: 50,
-                description: "Targets enemies within large range for ATK Down Lv.7 (44 s), SPD Down Lv.7 (44 s); if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for Special CT Speed Down Lv.2 (44 s), 88% chance of Halve DEF (24 s); during Assault Rumble, targets self for Special CT 38% reduction; switches character with 1st sub character"
-            },
-            {
-                cooldown: 50,
-                description: "Targets enemies within large range for ATK Down Lv.8 (45 s), SPD Down Lv.8 (45 s); if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for Special CT Speed Down Lv.3 (45 s), 90% chance of Halve DEF (25 s); during Assault Rumble, targets self for Special CT 40% reduction; switches character with 1st sub character"
-            },
-            {
-                cooldown: 50,
-                description: "Targets enemies within large range for ATK Down Lv.8 (46 s), SPD Down Lv.8 (46 s); if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for Special CT Speed Down Lv.3 (46 s), 92% chance of Halve DEF (26 s); during Assault Rumble, targets self for Special CT 42% reduction; switches character with 1st sub character"
-            },
-            {
-                cooldown: 50,
-                description: "Targets enemies within large range for ATK Down Lv.9 (47 s), SPD Down Lv.9 (47 s); if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for Special CT Speed Down Lv.4 (47 s), 94% chance of Halve DEF (27 s); during Assault Rumble, targets self for Special CT 44% reduction; switches character with 1st sub character"
-            },
-            {
-                cooldown: 50,
-                description: "Targets enemies within large range for ATK Down Lv.9 (48 s), SPD Down Lv.9 (48 s); if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for Special CT Speed Down Lv.4 (48 s), 96% chance of Halve DEF (28 s); during Assault Rumble, targets self for Special CT 46% reduction; switches character with 1st sub character"
-            },
-            {
-                cooldown: 50,
-                description: "Targets enemies within large range for ATK Down Lv.10 (49 s), SPD Down Lv.10 (49 s); if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for Special CT Speed Down Lv.5 (49 s), 98% chance of Halve DEF (29 s); during Assault Rumble, targets self for Special CT 48% reduction; switches character with 1st sub character"
-            },
-            {
-                cooldown: 50,
-                description: "Targets enemies within large range for ATK Down Lv.10 (50 s), SPD Down Lv.10 (50 s); if 8 or more Slasher/Driven class characters or 5 or more [Navy] [World Government] characters are on the team, targets enemies within large range for Special CT Speed Down Lv.5 (50 s), 100% chance of Halve DEF (30 s); during Assault Rumble, targets self for Special CT 50% reduction; switches character with 1st sub character"
-            }
-        ]
+        }
     },
     4570: {//Kuzan
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Special Cooldown of ship by 3 turns. Boosts ATK of Free Spirit and Driven characters by 4.25x, boosts HP of Free Spirit and Driven characters by 1.3x, and makes [PSY] and [TND] orbs beneficial for Free Spirit and Driven characters.",
@@ -186116,69 +185912,7 @@ window.details = {
                 "Adds 0.25x of damage dealt by normal attacks of other characters this turn on top of the final damage.",
                 "Adds 0.3x of damage dealt by normal attacks of other characters this turn on top of the final damage."
             ]
-        },
-        festStats: {
-            def: 125,
-            spd: 185,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from [STR] by 20％",
-        festAbility: [
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates ATK Up Lv.2; [STR] enemies DEF Down Lv.1; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, self Special CT Speed Up Lv.1; during Assault Rumble, self ATK Up Lv.4, Special CT Speed Up Lv.2",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates ATK Up Lv.3; [STR] enemies DEF Down Lv.1; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, self Special CT Speed Up Lv.2; during Assault Rumble, self ATK Up Lv.5, Special CT Speed Up Lv.3",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates ATK Up Lv.4; [STR] enemies DEF Down Lv.2; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, self Special CT Speed Up Lv.3; during Assault Rumble, self ATK Up Lv.6, Special CT Speed Up Lv.4",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates ATK Up Lv.5; [STR] enemies DEF Down Lv.2; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, self Special CT Speed Up Lv.4; during Assault Rumble, self ATK Up Lv.7, Special CT Speed Up Lv.5",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates ATK Up Lv.6; [STR] enemies DEF Down Lv.3; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, self Special CT Speed Up Lv.5; during Assault Rumble, self ATK Up Lv.8, Special CT Speed Up Lv.6"
-        ],
-        festSpecial: [
-            {
-                cooldown: 35,
-                description: "Targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK Up Lv.1 (11 s); targets teammates with Shield for ATK Up Lv.3 (11 s); if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, targets [STR] enemies for DEF Down Lv.1 (11 s), ATK x 3.1 damage; targets enemies with Special Bind/Action Bind ignoring DEF for ATK x 1.05 damage; during Assault Rumble, targets enemies within medium range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK Up Lv.1 (12 s); targets teammates with Shield for ATK Up Lv.3 (12 s); if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, targets [STR] enemies for DEF Down Lv.1 (12 s), ATK x 3.2 damage; targets enemies with Special Bind/Action Bind ignoring DEF for ATK x 1.1 damage; during Assault Rumble, targets enemies within medium range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK Up Lv.1 (13 s); targets teammates with Shield for ATK Up Lv.4 (13 s); if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, targets [STR] enemies for DEF Down Lv.2 (13 s), ATK x 3.3 damage; targets enemies with Special Bind/Action Bind ignoring DEF for ATK x 1.15 damage; during Assault Rumble, targets enemies within medium range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK Up Lv.1 (14 s); targets teammates with Shield for ATK Up Lv.4 (14 s); if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, targets [STR] enemies for DEF Down Lv.2 (14 s), ATK x 3.4 damage; targets enemies with Special Bind/Action Bind ignoring DEF for ATK x 1.2 damage; during Assault Rumble, targets enemies within medium range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK Up Lv.1 (15 s); targets teammates with Shield for ATK Up Lv.5 (15 s); if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, targets [STR] enemies for DEF Down Lv.3 (15 s), ATK x 3.5 damage; targets enemies with Special Bind/Action Bind ignoring DEF for ATK x 1.25 damage; during Assault Rumble, targets enemies within medium range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK Up Lv.2 (16 s); targets teammates with Shield for ATK Up Lv.5 (16 s); if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, targets [STR] enemies for DEF Down Lv.3 (16 s), ATK x 3.6 damage; targets enemies with Special Bind/Action Bind ignoring DEF for ATK x 1.3 damage; during Assault Rumble, targets enemies within medium range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK Up Lv.2 (17 s); targets teammates with Shield for ATK Up Lv.6 (17 s); if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, targets [STR] enemies for DEF Down Lv.4 (17 s), ATK x 3.7 damage; targets enemies with Special Bind/Action Bind ignoring DEF for ATK x 1.35 damage; during Assault Rumble, targets enemies within medium range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK Up Lv.2 (18 s); targets teammates with Shield for ATK Up Lv.6 (18 s); if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, targets [STR] enemies for DEF Down Lv.4 (18 s), ATK x 3.8 damage; targets enemies with Special Bind/Action Bind ignoring DEF for ATK x 1.4 damage; during Assault Rumble, targets enemies within medium range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK Up Lv.2 (19 s); targets teammates with Shield for ATK Up Lv.7 (19 s); if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, targets [STR] enemies for DEF Down Lv.5 (19 s), ATK x 3.9 damage; targets enemies with Special Bind/Action Bind ignoring DEF for ATK x 1.45 damage; during Assault Rumble, targets enemies within medium range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK Up Lv.3 (20 s); targets teammates with Shield for ATK Up Lv.7 (20 s); if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, targets [STR] enemies for DEF Down Lv.5 (20 s), ATK x 4 damage; targets enemies with Special Bind/Action Bind ignoring DEF for ATK x 1.5 damage; during Assault Rumble, targets enemies within medium range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies)"
-            }
-        ]
+        }
     },
     4571: {//Imu
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of Cost 70 or more characters by 34% of Max Cooldown (rounded down), reduces VS Gauge and Switch Effect of all characters by 3, and allows all characters to perform Super Tandem with [STR] orbs for 10 turns. Boosts ATK of Cost 70 or more characters by 6x, boosts ATK of all other characters by 4x, boosts HP of all characters by 1.5x, and reduces Bind, Despair, Paralysis and Special Bind duration completely on this character. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of Cost 70 or more characters by 6.5x instead. If field has Territory: Crew, makes all specials that apply Class or Type restricted buffs apply to all characters instead. <br><b>Special Captain Ability:</b> If this character begins a quest as Captain, allows crew to immediately clear certain quests 6 times per day.",
