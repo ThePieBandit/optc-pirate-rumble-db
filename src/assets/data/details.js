@@ -184046,97 +184046,7 @@ window.details = {
                 "Boosts Chain Multiplier Growth Rate by 2x, and makes normal attacks of this character deal damage to all enemies for 1 turn.",
                 "Boosts Chain Multiplier Growth Rate by 2.25x, and makes normal attacks of this character deal damage to all enemies for 1 turn."
             ]
-        },
-        festStats: {
-            def: 167,
-            spd: 165,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Halve Stats, reduce fixed damage by 70%, reduce damage taken from [QCK] by 30%",
-        festAbility: [
-            "[DEX]/Fighter class and [Straw Hat Pirates] [Four Emperors] teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.3; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, team Special CT Speed Up Lv.1; after dealing damage, up to 10 times [DEX]/Fighter class teammates Critical % Up Lv.1; when remaining HP is 1% or below, self ATK Up Lv.6; if self is KO'd, launches Rumble Special 1 time",
-            "[DEX]/Fighter class and [Straw Hat Pirates] [Four Emperors] teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.4; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, team Special CT Speed Up Lv.1; after dealing damage, up to 10 times [DEX]/Fighter class teammates Critical % Up Lv.1; when remaining HP is 1% or below, self ATK Up Lv.7; if self is KO'd, launches Rumble Special 1 time",
-            "[DEX]/Fighter class and [Straw Hat Pirates] [Four Emperors] teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.5; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, team Special CT Speed Up Lv.1; after dealing damage, up to 10 times [DEX]/Fighter class teammates Critical % Up Lv.1; when remaining HP is 1% or below, self ATK Up Lv.8; if self is KO'd, launches Rumble Special 1 time",
-            "[DEX]/Fighter class and [Straw Hat Pirates] [Four Emperors] teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.6; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, team Special CT Speed Up Lv.2; after dealing damage, up to 10 times [DEX]/Fighter class teammates Critical % Up Lv.1; when remaining HP is 1% or below, self ATK Up Lv.9; if self is KO'd, launches Rumble Special 1 time",
-            "[DEX]/Fighter class and [Straw Hat Pirates] [Four Emperors] teammates HP Up Lv.7, ATK Up Lv.7, DEF Up Lv.7; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, team Special CT Speed Up Lv.3; after dealing damage, up to 10 times [DEX]/Fighter class teammates Critical % Up Lv.1; when remaining HP is 1% or below, self ATK Up Lv.10; if self is KO'd, launches Rumble Special 1 time"
-        ],
-        festSpecial: [
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 1.5 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 1.5 Counter stance (21 s); targets all enemies for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (20 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 1.6 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 1.6 Counter stance (22 s); targets all enemies for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (19 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 1.7 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 1.7 Counter stance (23 s); targets all enemies for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (19 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 1.8 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 1.8 Counter stance (24 s); targets all enemies for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (18 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 1.9 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 1.9 Counter stance (25 s); targets all enemies for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (18 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 2 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 2 Counter stance (26 s); targets all enemies for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (17 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 2.1 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 2.1 Counter stance (27 s); targets all enemies for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (17 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 2.2 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 2.2 Counter stance (28 s); targets all enemies for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (16 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 2.3 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 2.3 Counter stance (29 s); targets all enemies for ATK x 19 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (16 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 2.5 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 2.5 Counter stance (30 s); targets all enemies for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (15 s)"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[DEX] and [Four Emperors] teammates HP, RCV Up Lv.2, DEF Up Lv.1; Fighter/Powerhouse class and [Four Emperors] teammates ATK, SPD Up Lv.2, Special CT Speed Up Lv.1; when remaining time becomes 80 s or less, targets team for RCV x 2 healing; when remaining time becomes 50 s or less, targets team for RCV x 3 healing; when remaining time becomes 30 s or less, targets team for RCV x 4 healing",
-                festGPSpecial: "Targets 3 teammates with low current HP for HP 30% healing; targets team for 250 HP per interval healing (11 s); targets [DEX]/Fighter/Powerhouse class and [Straw Hat Pirates] [Four Emperors] teammates for Special CT 15% reduction; targets all enemies for 80% chance to remove ATK Up/DEF Up",
-                uses: 3
-            },
-            {
-                festGPAbility: "[DEX] and [Four Emperors] teammates HP, RCV Up Lv.3, DEF Up Lv.2; Fighter/Powerhouse class and [Four Emperors] teammates ATK, SPD Up Lv.3, Special CT Speed Up Lv.2; when remaining time becomes 80 s or less, targets team for RCV x 2.25 healing; when remaining time becomes 50 s or less, targets team for RCV x 3.25 healing; when remaining time becomes 30 s or less, targets team for RCV x 4.25 healing",
-                festGPSpecial: "Targets 3 teammates with low current HP for HP 35% healing; targets team for 375 HP per interval healing (12 s); targets [DEX]/Fighter/Powerhouse class and [Straw Hat Pirates] [Four Emperors] teammates for Special CT 17% reduction; targets all enemies for 85% chance to remove ATK Up/DEF Up",
-                uses: 3
-            },
-            {
-                festGPAbility: "[DEX] and [Four Emperors] teammates HP, RCV Up Lv.4, DEF Up Lv.3; Fighter/Powerhouse class and [Four Emperors] teammates ATK, SPD Up Lv.4, Special CT Speed Up Lv.2; when remaining time becomes 80 s or less, targets team for RCV x 2.5 healing; when remaining time becomes 50 s or less, targets team for RCV x 3.5 healing; when remaining time becomes 30 s or less, targets team for RCV x 4.5 healing",
-                festGPSpecial: "Targets 3 teammates with low current HP for HP 40% healing; targets team for 500 HP per interval healing (13 s); targets [DEX]/Fighter/Powerhouse class and [Straw Hat Pirates] [Four Emperors] teammates for Special CT 20% reduction; targets all enemies for 90% chance to remove ATK Up/DEF Up",
-                uses: 3
-            },
-            {
-                festGPAbility: "[DEX] and [Four Emperors] teammates HP, RCV Up Lv.5, DEF Up Lv.3; Fighter/Powerhouse class and [Four Emperors] teammates ATK, SPD Up Lv.5, Special CT Speed Up Lv.3; when remaining time becomes 80 s or less, targets team for RCV x 2.75 healing; when remaining time becomes 50 s or less, targets team for RCV x 3.75 healing; when remaining time becomes 30 s or less, targets team for RCV x 4.75 healing",
-                festGPSpecial: "Targets 3 teammates with low current HP for HP 45% healing; targets team for 625 HP per interval healing (14 s); targets [DEX]/Fighter/Powerhouse class and [Straw Hat Pirates] [Four Emperors] teammates for Special CT 22% reduction; targets all enemies for 95% chance to remove ATK Up/DEF Up",
-                uses: 3
-            },
-            {
-                festGPAbility: "[DEX] and [Four Emperors] teammates HP, RCV Up Lv.6, DEF Up Lv.4; Fighter/Powerhouse class and [Four Emperors] teammates ATK, SPD Up Lv.6, Special CT Speed Up Lv.3; when remaining time becomes 80 s or less, targets team for RCV x 3 healing; when remaining time becomes 50 s or less, targets team for RCV x 4 healing; when remaining time becomes 30 s or less, targets team for RCV x 5 healing",
-                festGPSpecial: "Targets 3 teammates with low current HP for HP 50% healing; targets team for 750 HP per interval healing (15 s); targets [DEX]/Fighter/Powerhouse class and [Straw Hat Pirates] [Four Emperors] teammates for Special CT 25% reduction; targets all enemies for 100% chance to remove ATK Up/DEF Up",
-                uses: 3
-            }
-        ],
-        festAbilityGPCondition: "After receiving damage 12 times"
+        }
     },
     4558: {//Luffy
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Straw Hat Pirates] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [DEX] and Fighter characters by 2 turns, and reduces VS Gauge and Switch Effect of [DEX] and Fighter characters by 2. Boosts ATK of [DEX] and Fighter characters by 6x, boosts HP of [DEX] and Fighter characters by 1.3x, and makes [DEX] and [TND] orbs beneficial for [DEX] and Fighter characters. If your crew has 4+ [DEX] characters, reduces Special Use Limit duration by 10 turns. If your crew has 6+ [DEX] characters and field has Territory: [DEX], boosts ATK of [DEX] characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Straw Hat Pirates], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
@@ -184244,97 +184154,7 @@ window.details = {
                 "Boosts Chain Multiplier Growth Rate by 2x, and makes normal attacks of this character deal damage to all enemies for 1 turn.",
                 "Boosts Chain Multiplier Growth Rate by 2.25x, and makes normal attacks of this character deal damage to all enemies for 1 turn."
             ]
-        },
-        festStats: {
-            def: 167,
-            spd: 165,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Halve Stats, reduce fixed damage by 70%, reduce damage taken from [QCK] by 30%",
-        festAbility: [
-            "[DEX]/Fighter class and [Straw Hat Pirates] [Four Emperors] teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.3; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, team Special CT Speed Up Lv.1; after dealing damage, up to 10 times [DEX]/Fighter class teammates Critical % Up Lv.1; when remaining HP is 1% or below, self ATK Up Lv.6; if self is KO'd, launches Rumble Special 1 time",
-            "[DEX]/Fighter class and [Straw Hat Pirates] [Four Emperors] teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.4; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, team Special CT Speed Up Lv.1; after dealing damage, up to 10 times [DEX]/Fighter class teammates Critical % Up Lv.1; when remaining HP is 1% or below, self ATK Up Lv.7; if self is KO'd, launches Rumble Special 1 time",
-            "[DEX]/Fighter class and [Straw Hat Pirates] [Four Emperors] teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.5; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, team Special CT Speed Up Lv.1; after dealing damage, up to 10 times [DEX]/Fighter class teammates Critical % Up Lv.1; when remaining HP is 1% or below, self ATK Up Lv.8; if self is KO'd, launches Rumble Special 1 time",
-            "[DEX]/Fighter class and [Straw Hat Pirates] [Four Emperors] teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.6; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, team Special CT Speed Up Lv.2; after dealing damage, up to 10 times [DEX]/Fighter class teammates Critical % Up Lv.1; when remaining HP is 1% or below, self ATK Up Lv.9; if self is KO'd, launches Rumble Special 1 time",
-            "[DEX]/Fighter class and [Straw Hat Pirates] [Four Emperors] teammates HP Up Lv.7, ATK Up Lv.7, DEF Up Lv.7; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, team Special CT Speed Up Lv.3; after dealing damage, up to 10 times [DEX]/Fighter class teammates Critical % Up Lv.1; when remaining HP is 1% or below, self ATK Up Lv.10; if self is KO'd, launches Rumble Special 1 time"
-        ],
-        festSpecial: [
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 1.5 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 1.5 Counter stance (21 s); targets all enemies for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (20 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 1.6 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 1.6 Counter stance (22 s); targets all enemies for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (19 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 1.7 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 1.7 Counter stance (23 s); targets all enemies for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (19 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 1.8 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 1.8 Counter stance (24 s); targets all enemies for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (18 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 1.9 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 1.9 Counter stance (25 s); targets all enemies for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (18 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 2 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 2 Counter stance (26 s); targets all enemies for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (17 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 2.1 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 2.1 Counter stance (27 s); targets all enemies for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (17 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 2.2 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 2.2 Counter stance (28 s); targets all enemies for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (16 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 2.3 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 2.3 Counter stance (29 s); targets all enemies for ATK x 19 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (16 s)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets 1 ATK Style enemy, 1 SPT Style enemy ignoring DEF for ATK x 2.5 damage; if 4 or more [Straw Hat Pirates] [Four Emperors] characters are on the team, targets team for ATK x 2.5 Counter stance (30 s); targets all enemies for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); targets self for 100% chance of Paralysis (15 s)"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[DEX] and [Four Emperors] teammates HP, RCV Up Lv.2, DEF Up Lv.1; Fighter/Powerhouse class and [Four Emperors] teammates ATK, SPD Up Lv.2, Special CT Speed Up Lv.1; when remaining time becomes 80 s or less, targets team for RCV x 2 healing; when remaining time becomes 50 s or less, targets team for RCV x 3 healing; when remaining time becomes 30 s or less, targets team for RCV x 4 healing",
-                festGPSpecial: "Targets 3 teammates with low current HP for HP 30% healing; targets team for 250 HP per interval healing (11 s); targets [DEX]/Fighter/Powerhouse class and [Straw Hat Pirates] [Four Emperors] teammates for Special CT 15% reduction; targets all enemies for 80% chance to remove ATK Up/DEF Up",
-                uses: 3
-            },
-            {
-                festGPAbility: "[DEX] and [Four Emperors] teammates HP, RCV Up Lv.3, DEF Up Lv.2; Fighter/Powerhouse class and [Four Emperors] teammates ATK, SPD Up Lv.3, Special CT Speed Up Lv.2; when remaining time becomes 80 s or less, targets team for RCV x 2.25 healing; when remaining time becomes 50 s or less, targets team for RCV x 3.25 healing; when remaining time becomes 30 s or less, targets team for RCV x 4.25 healing",
-                festGPSpecial: "Targets 3 teammates with low current HP for HP 35% healing; targets team for 375 HP per interval healing (12 s); targets [DEX]/Fighter/Powerhouse class and [Straw Hat Pirates] [Four Emperors] teammates for Special CT 17% reduction; targets all enemies for 85% chance to remove ATK Up/DEF Up",
-                uses: 3
-            },
-            {
-                festGPAbility: "[DEX] and [Four Emperors] teammates HP, RCV Up Lv.4, DEF Up Lv.3; Fighter/Powerhouse class and [Four Emperors] teammates ATK, SPD Up Lv.4, Special CT Speed Up Lv.2; when remaining time becomes 80 s or less, targets team for RCV x 2.5 healing; when remaining time becomes 50 s or less, targets team for RCV x 3.5 healing; when remaining time becomes 30 s or less, targets team for RCV x 4.5 healing",
-                festGPSpecial: "Targets 3 teammates with low current HP for HP 40% healing; targets team for 500 HP per interval healing (13 s); targets [DEX]/Fighter/Powerhouse class and [Straw Hat Pirates] [Four Emperors] teammates for Special CT 20% reduction; targets all enemies for 90% chance to remove ATK Up/DEF Up",
-                uses: 3
-            },
-            {
-                festGPAbility: "[DEX] and [Four Emperors] teammates HP, RCV Up Lv.5, DEF Up Lv.3; Fighter/Powerhouse class and [Four Emperors] teammates ATK, SPD Up Lv.5, Special CT Speed Up Lv.3; when remaining time becomes 80 s or less, targets team for RCV x 2.75 healing; when remaining time becomes 50 s or less, targets team for RCV x 3.75 healing; when remaining time becomes 30 s or less, targets team for RCV x 4.75 healing",
-                festGPSpecial: "Targets 3 teammates with low current HP for HP 45% healing; targets team for 625 HP per interval healing (14 s); targets [DEX]/Fighter/Powerhouse class and [Straw Hat Pirates] [Four Emperors] teammates for Special CT 22% reduction; targets all enemies for 95% chance to remove ATK Up/DEF Up",
-                uses: 3
-            },
-            {
-                festGPAbility: "[DEX] and [Four Emperors] teammates HP, RCV Up Lv.6, DEF Up Lv.4; Fighter/Powerhouse class and [Four Emperors] teammates ATK, SPD Up Lv.6, Special CT Speed Up Lv.3; when remaining time becomes 80 s or less, targets team for RCV x 3 healing; when remaining time becomes 50 s or less, targets team for RCV x 4 healing; when remaining time becomes 30 s or less, targets team for RCV x 5 healing",
-                festGPSpecial: "Targets 3 teammates with low current HP for HP 50% healing; targets team for 750 HP per interval healing (15 s); targets [DEX]/Fighter/Powerhouse class and [Straw Hat Pirates] [Four Emperors] teammates for Special CT 25% reduction; targets all enemies for 100% chance to remove ATK Up/DEF Up",
-                uses: 3
-            }
-        ],
-        festAbilityGPCondition: "After receiving damage 12 times"
+        }
     },
     4559: {//Shanks
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Red-Haired Pirates] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [STR] and Cerebral characters by 2 turns, and reduces VS Gauge and Switch Effect of [STR] and Cerebral characters by 2. Boosts ATK of [STR] and Cerebral characters by 6x, boosts HP of [STR] and Cerebral characters by 1.3x, and makes [STR] and [TND] orbs beneficial for [STR] and Cerebral characters. If your crew has 4+ Cerebral characters, restores Special Cooldown of all characters by 10 turns when they are rewinded. If your crew has 6+ Cerebral characters and field has Territory: [STR], boosts ATK of Cerebral characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Red-Haired Pirates], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
@@ -184448,97 +184268,7 @@ window.details = {
                 "Boosts base ATK of Last Tap character by +1,250 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 2.75x for 1 turn.",
                 "Boosts base ATK of Last Tap character by +1,500 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 3x for 1 turn."
             ]
-        },
-        festStats: {
-            def: 158,
-            spd: 174,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce fixed damage by 70%, reduce damage taken from [DEX] by 30%",
-        festAbility: [
-            "[STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates ATK Up Lv.3, DEF Up Lv.3, Special CT Speed Up Lv.1; when defeating enemy, up to 5 times self Special CT 10% reduction; after dealing damage, up to 3 times Free Spirit class enemies Special CT 12% delay; if 2 or more [Red-Haired Pirates] characters are on the team, when appearing on the field, all enemies Special CT 10% delay",
-            "[STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates ATK Up Lv.4, DEF Up Lv.4, Special CT Speed Up Lv.1; when defeating enemy, up to 5 times self Special CT 15% reduction; after dealing damage, up to 3 times Free Spirit class enemies Special CT 14% delay; if 2 or more [Red-Haired Pirates] characters are on the team, when appearing on the field, all enemies Special CT 15% delay",
-            "[STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates ATK Up Lv.5, DEF Up Lv.5, Special CT Speed Up Lv.1; when defeating enemy, up to 5 times self Special CT 20% reduction; after dealing damage, up to 3 times Free Spirit class enemies Special CT 16% delay; if 2 or more [Red-Haired Pirates] characters are on the team, when appearing on the field, all enemies Special CT 20% delay",
-            "[STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates ATK Up Lv.6, DEF Up Lv.6, Special CT Speed Up Lv.2; when defeating enemy, up to 5 times self Special CT 25% reduction; after dealing damage, up to 3 times Free Spirit class enemies Special CT 18% delay; if 2 or more [Red-Haired Pirates] characters are on the team, when appearing on the field, all enemies Special CT 25% delay",
-            "[STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates ATK Up Lv.7, DEF Up Lv.7, Special CT Speed Up Lv.3; when defeating enemy, up to 5 times self Special CT 30% reduction; after dealing damage, up to 3 times Free Spirit class enemies Special CT 20% delay; if 2 or more [Red-Haired Pirates] characters are on the team, when appearing on the field, all enemies Special CT 30% delay"
-        ],
-        festSpecial: [
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.2, DEF Up Lv.2; targets enemies with Paralysis for DEF Down Lv.1 (2 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.3 damage; targets all enemies for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.2, DEF Up Lv.2; targets enemies with Paralysis for DEF Down Lv.1 (2 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.4 damage; targets all enemies for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.3, DEF Up Lv.3; targets enemies with Paralysis for DEF Down Lv.2 (2 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.5 damage; targets all enemies for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.3, DEF Up Lv.3; targets enemies with Paralysis for DEF Down Lv.2 (2 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.6 damage; targets all enemies for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.4, DEF Up Lv.4; targets enemies with Paralysis for DEF Down Lv.3 (3 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.7 damage; targets all enemies for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.4, DEF Up Lv.4; targets enemies with Paralysis for DEF Down Lv.3 (3 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.8 damage; targets all enemies for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.5, DEF Up Lv.5; targets enemies with Paralysis for DEF Down Lv.4 (3 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.9 damage; targets all enemies for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.5, DEF Up Lv.5; targets enemies with Paralysis for DEF Down Lv.4 (4 s); targets Free Spirit class enemies ignoring DEF for ATK x 2 damage; targets all enemies for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.6, DEF Up Lv.6; targets enemies with Paralysis for DEF Down Lv.5 (4 s); targets Free Spirit class enemies ignoring DEF for ATK x 2.1 damage; targets all enemies for ATK x 19 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.6, DEF Up Lv.6; targets enemies with Paralysis for DEF Down Lv.5 (5 s); targets Free Spirit class enemies ignoring DEF for ATK x 2.2 damage; targets all enemies for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[STR] and [Four Emperors] teammates HP Up Lv.2, SPD Up Lv.2, Special CT Speed Up Lv.1; Cerebral/Free Spirit class and [Four Emperors] teammates ATK Up Lv.2, RCV Up Lv.2, DEF Up Lv.1; when remaining time becomes 90 s or less, Free Spirit/Driven class enemies Special CT 20% delay; Cerebral/Free Spirit class teammates Special CT 5% reduction",
-                festGPSpecial: "Targets all enemies for 30% chance of Action Bind (6 s); targets Free Spirit/Driven class enemies for 60% chance of Special Bind (12 s); targets self-healing enemies for 60%chance of RCV Bind (22 s); targets enemies with Action Bind/Special Bind/RCV Bind ignoring DEF for Leader base ATK x 1.5 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR] and [Four Emperors] teammates HP Up Lv.3, SPD Up Lv.3, Special CT Speed Up Lv.2; Cerebral/Free Spirit class and [Four Emperors] teammates ATK Up Lv.3, RCV Up Lv.3, DEF Up Lv.2; when remaining time becomes 90 s or less, Free Spirit/Driven class enemies Special CT 22.5% delay; Cerebral/Free Spirit class teammates Special CT 6.25% reduction",
-                festGPSpecial: "Targets all enemies for 40% chance of Action Bind (7 s); targets Free Spirit/Driven class enemies for 70% chance of Special Bind (14 s); targets self-healing enemies for 70%chance of RCV Bind (24 s); targets enemies with Action Bind/Special Bind/RCV Bind ignoring DEF for Leader base ATK x 1.75 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR] and [Four Emperors] teammates HP Up Lv.4, SPD Up Lv.4, Special CT Speed Up Lv.2; Cerebral/Free Spirit class and [Four Emperors] teammates ATK Up Lv.4, RCV Up Lv.4, DEF Up Lv.3; when remaining time becomes 90 s or less, Free Spirit/Driven class enemies Special CT 25% delay; Cerebral/Free Spirit class teammates Special CT 7.5% reduction",
-                festGPSpecial: "Targets all enemies for 50% chance of Action Bind (8 s); targets Free Spirit/Driven class enemies for 80% chance of Special Bind (16 s); targets self-healing enemies for 80%chance of RCV Bind (26 s); targets enemies with Action Bind/Special Bind/RCV Bind ignoring DEF for Leader base ATK x 2 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR] and [Four Emperors] teammates HP Up Lv.5, SPD Up Lv.5, Special CT Speed Up Lv.3; Cerebral/Free Spirit class and [Four Emperors] teammates ATK Up Lv.5, RCV Up Lv.5, DEF Up Lv.3; when remaining time becomes 90 s or less, Free Spirit/Driven class enemies Special CT 27.5% delay; Cerebral/Free Spirit class teammates Special CT 8.75% reduction",
-                festGPSpecial: "Targets all enemies for 60% chance of Action Bind (9 s); targets Free Spirit/Driven class enemies for 90% chance of Special Bind (18 s); targets self-healing enemies for 90%chance of RCV Bind (28 s); targets enemies with Action Bind/Special Bind/RCV Bind ignoring DEF for Leader base ATK x 2.25 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR] and [Four Emperors] teammates HP Up Lv.6, SPD Up Lv.6, Special CT Speed Up Lv.3; Cerebral/Free Spirit class and [Four Emperors] teammates ATK Up Lv.6, RCV Up Lv.6, DEF Up Lv.4; when remaining time becomes 90 s or less, Free Spirit/Driven class enemies Special CT 30% delay; Cerebral/Free Spirit class teammates Special CT 10% reduction",
-                festGPSpecial: "Targets all enemies for 70% chance of Action Bind (10 s); targets Free Spirit/Driven class enemies for 100% chance of Special Bind (20 s); targets self-healing enemies for 100%chance of RCV Bind (30 s); targets enemies with Action Bind/Special Bind/RCV Bind ignoring DEF for Leader base ATK x 2.5 damage",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When team uses Rumble Special 4 times"
+        }
     },
     4560: {//Shanks
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Red-Haired Pirates] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [STR] and Cerebral characters by 2 turns, and reduces VS Gauge and Switch Effect of [STR] and Cerebral characters by 2. Boosts ATK of [STR] and Cerebral characters by 6x, boosts HP of [STR] and Cerebral characters by 1.3x, and makes [STR] and [TND] orbs beneficial for [STR] and Cerebral characters. If your crew has 4+ Cerebral characters, restores Special Cooldown of all characters by 10 turns when they are rewinded. If your crew has 6+ Cerebral characters and field has Territory: [STR], boosts ATK of Cerebral characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Red-Haired Pirates], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
@@ -184652,97 +184382,7 @@ window.details = {
                 "Boosts base ATK of Last Tap character by +1,250 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 2.75x for 1 turn.",
                 "Boosts base ATK of Last Tap character by +1,500 for 1 turn, and boosts Tandem ATK of [STR] and Cerebral characters by 3x for 1 turn."
             ]
-        },
-        festStats: {
-            def: 158,
-            spd: 174,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce fixed damage by 70%, reduce damage taken from [DEX] by 30%",
-        festAbility: [
-            "[STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates ATK Up Lv.3, DEF Up Lv.3, Special CT Speed Up Lv.1; when defeating enemy, up to 5 times self Special CT 10% reduction; after dealing damage, up to 3 times Free Spirit class enemies Special CT 12% delay; if 2 or more [Red-Haired Pirates] characters are on the team, when appearing on the field, all enemies Special CT 10% delay",
-            "[STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates ATK Up Lv.4, DEF Up Lv.4, Special CT Speed Up Lv.1; when defeating enemy, up to 5 times self Special CT 15% reduction; after dealing damage, up to 3 times Free Spirit class enemies Special CT 14% delay; if 2 or more [Red-Haired Pirates] characters are on the team, when appearing on the field, all enemies Special CT 15% delay",
-            "[STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates ATK Up Lv.5, DEF Up Lv.5, Special CT Speed Up Lv.1; when defeating enemy, up to 5 times self Special CT 20% reduction; after dealing damage, up to 3 times Free Spirit class enemies Special CT 16% delay; if 2 or more [Red-Haired Pirates] characters are on the team, when appearing on the field, all enemies Special CT 20% delay",
-            "[STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates ATK Up Lv.6, DEF Up Lv.6, Special CT Speed Up Lv.2; when defeating enemy, up to 5 times self Special CT 25% reduction; after dealing damage, up to 3 times Free Spirit class enemies Special CT 18% delay; if 2 or more [Red-Haired Pirates] characters are on the team, when appearing on the field, all enemies Special CT 25% delay",
-            "[STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates ATK Up Lv.7, DEF Up Lv.7, Special CT Speed Up Lv.3; when defeating enemy, up to 5 times self Special CT 30% reduction; after dealing damage, up to 3 times Free Spirit class enemies Special CT 20% delay; if 2 or more [Red-Haired Pirates] characters are on the team, when appearing on the field, all enemies Special CT 30% delay"
-        ],
-        festSpecial: [
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.2, DEF Up Lv.2; targets enemies with Paralysis for DEF Down Lv.1 (2 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.3 damage; targets all enemies for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.2, DEF Up Lv.2; targets enemies with Paralysis for DEF Down Lv.1 (2 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.4 damage; targets all enemies for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.3, DEF Up Lv.3; targets enemies with Paralysis for DEF Down Lv.2 (2 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.5 damage; targets all enemies for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.3, DEF Up Lv.3; targets enemies with Paralysis for DEF Down Lv.2 (2 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.6 damage; targets all enemies for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.4, DEF Up Lv.4; targets enemies with Paralysis for DEF Down Lv.3 (3 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.7 damage; targets all enemies for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.4, DEF Up Lv.4; targets enemies with Paralysis for DEF Down Lv.3 (3 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.8 damage; targets all enemies for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.5, DEF Up Lv.5; targets enemies with Paralysis for DEF Down Lv.4 (3 s); targets Free Spirit class enemies ignoring DEF for ATK x 1.9 damage; targets all enemies for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.5, DEF Up Lv.5; targets enemies with Paralysis for DEF Down Lv.4 (4 s); targets Free Spirit class enemies ignoring DEF for ATK x 2 damage; targets all enemies for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.6, DEF Up Lv.6; targets enemies with Paralysis for DEF Down Lv.5 (4 s); targets Free Spirit class enemies ignoring DEF for ATK x 2.1 damage; targets all enemies for ATK x 19 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [STR]/Cerebral/Slasher class and [Red-Haired Pirates] [Four Emperors] teammates for ATK Up Lv.6, DEF Up Lv.6; targets enemies with Paralysis for DEF Down Lv.5 (5 s); targets Free Spirit class enemies ignoring DEF for ATK x 2.2 damage; targets all enemies for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Red-Haired Pirates] characters are on the team, switches character with 1st sub character"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[STR] and [Four Emperors] teammates HP Up Lv.2, SPD Up Lv.2, Special CT Speed Up Lv.1; Cerebral/Free Spirit class and [Four Emperors] teammates ATK Up Lv.2, RCV Up Lv.2, DEF Up Lv.1; when remaining time becomes 90 s or less, Free Spirit/Driven class enemies Special CT 20% delay; Cerebral/Free Spirit class teammates Special CT 5% reduction",
-                festGPSpecial: "Targets all enemies for 30% chance of Action Bind (6 s); targets Free Spirit/Driven class enemies for 60% chance of Special Bind (12 s); targets self-healing enemies for 60%chance of RCV Bind (22 s); targets enemies with Action Bind/Special Bind/RCV Bind ignoring DEF for Leader base ATK x 1.5 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR] and [Four Emperors] teammates HP Up Lv.3, SPD Up Lv.3, Special CT Speed Up Lv.2; Cerebral/Free Spirit class and [Four Emperors] teammates ATK Up Lv.3, RCV Up Lv.3, DEF Up Lv.2; when remaining time becomes 90 s or less, Free Spirit/Driven class enemies Special CT 22.5% delay; Cerebral/Free Spirit class teammates Special CT 6.25% reduction",
-                festGPSpecial: "Targets all enemies for 40% chance of Action Bind (7 s); targets Free Spirit/Driven class enemies for 70% chance of Special Bind (14 s); targets self-healing enemies for 70%chance of RCV Bind (24 s); targets enemies with Action Bind/Special Bind/RCV Bind ignoring DEF for Leader base ATK x 1.75 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR] and [Four Emperors] teammates HP Up Lv.4, SPD Up Lv.4, Special CT Speed Up Lv.2; Cerebral/Free Spirit class and [Four Emperors] teammates ATK Up Lv.4, RCV Up Lv.4, DEF Up Lv.3; when remaining time becomes 90 s or less, Free Spirit/Driven class enemies Special CT 25% delay; Cerebral/Free Spirit class teammates Special CT 7.5% reduction",
-                festGPSpecial: "Targets all enemies for 50% chance of Action Bind (8 s); targets Free Spirit/Driven class enemies for 80% chance of Special Bind (16 s); targets self-healing enemies for 80%chance of RCV Bind (26 s); targets enemies with Action Bind/Special Bind/RCV Bind ignoring DEF for Leader base ATK x 2 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR] and [Four Emperors] teammates HP Up Lv.5, SPD Up Lv.5, Special CT Speed Up Lv.3; Cerebral/Free Spirit class and [Four Emperors] teammates ATK Up Lv.5, RCV Up Lv.5, DEF Up Lv.3; when remaining time becomes 90 s or less, Free Spirit/Driven class enemies Special CT 27.5% delay; Cerebral/Free Spirit class teammates Special CT 8.75% reduction",
-                festGPSpecial: "Targets all enemies for 60% chance of Action Bind (9 s); targets Free Spirit/Driven class enemies for 90% chance of Special Bind (18 s); targets self-healing enemies for 90%chance of RCV Bind (28 s); targets enemies with Action Bind/Special Bind/RCV Bind ignoring DEF for Leader base ATK x 2.25 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "[STR] and [Four Emperors] teammates HP Up Lv.6, SPD Up Lv.6, Special CT Speed Up Lv.3; Cerebral/Free Spirit class and [Four Emperors] teammates ATK Up Lv.6, RCV Up Lv.6, DEF Up Lv.4; when remaining time becomes 90 s or less, Free Spirit/Driven class enemies Special CT 30% delay; Cerebral/Free Spirit class teammates Special CT 10% reduction",
-                festGPSpecial: "Targets all enemies for 70% chance of Action Bind (10 s); targets Free Spirit/Driven class enemies for 100% chance of Special Bind (20 s); targets self-healing enemies for 100%chance of RCV Bind (30 s); targets enemies with Action Bind/Special Bind/RCV Bind ignoring DEF for Leader base ATK x 2.5 damage",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When team uses Rumble Special 4 times"
+        }
     },
     4561: {//Blackbeard
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Blackbeard Pirates], [Four Emperors] and [Worst Generation] characters by 5 turns, reduces Special Cooldown of [QCK] and Free Spirit characters by 2 turns, and reduces VS Gauge and Switch Effect of [QCK] and Free Spirit characters by 2. Boosts ATK of [QCK] and Free Spirit characters by 6x, boosts HP of [QCK] and Free Spirit characters by 1.3x, and makes [QCK] and [TND] orbs beneficial for [QCK] and Free Spirit characters. If your crew has 4+ Free Spirit characters, reduces Special Use Limit duration by 10 turns. If your crew has 6+ Free Spirit characters and field has Territory: [QCK], boosts ATK of Free Spirit characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Blackbeard Pirates], [Four Emperors] and [Worst Generation] characters by 1.2x.",
@@ -184856,97 +184496,7 @@ window.details = {
                 "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 5 for 1 turn, and raises Boost Level of [Worst Generation] and [Blackbeard Pirates] characters by 6 for 1 turn.",
                 "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 6 for 1 turn, and raises Boost Level of [Worst Generation] and [Blackbeard Pirates] characters by 7 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 230,
-            spd: 159,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind/Forced Out, reduce damage taken from [STR] by 30%",
-        festAbility: [
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates SPD Up Lv.3, DEF Up Lv.3, Special CT Speed Up Lv.1; after receiving Paralysis, up to 1 time [QCK]/Driven class teammates DEF Up Lv.1; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, all enemies ATK Down Lv.3; when remaining crew is the same as remaining enemies, [Blackbeard Pirates] teammates DEF Up Lv.1, all enemies ATK Down Lv.1; if self is KO'd, launches Rumble Special 1 time",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates SPD Up Lv.4, DEF Up Lv.4, Special CT Speed Up Lv.1; after receiving Paralysis, up to 1 time [QCK]/Driven class teammates DEF Up Lv.2; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, all enemies ATK Down Lv.4; when remaining crew is the same as remaining enemies, [Blackbeard Pirates] teammates DEF Up Lv.2, all enemies ATK Down Lv.2; if self is KO'd, launches Rumble Special 1 time",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates SPD Up Lv.5, DEF Up Lv.5, Special CT Speed Up Lv.2; after receiving Paralysis, up to 1 time [QCK]/Driven class teammates DEF Up Lv.3; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, all enemies ATK Down Lv.5; when remaining crew is the same as remaining enemies, [Blackbeard Pirates] teammates DEF Up Lv.3, all enemies ATK Down Lv.3; if self is KO'd, launches Rumble Special 1 time",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates SPD Up Lv.6, DEF Up Lv.6, Special CT Speed Up Lv.2; after receiving Paralysis, up to 1 time [QCK]/Driven class teammates DEF Up Lv.4; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, all enemies ATK Down Lv.6; when remaining crew is the same as remaining enemies, [Blackbeard Pirates] teammates DEF Up Lv.4, all enemies ATK Down Lv.4; if self is KO'd, launches Rumble Special 1 time",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates SPD Up Lv.7, DEF Up Lv.7, Special CT Speed Up Lv.3; after receiving Paralysis, up to 1 time [QCK]/Driven class teammates DEF Up Lv.5; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, all enemies ATK Down Lv.7; when remaining crew is the same as remaining enemies, [Blackbeard Pirates] teammates DEF Up Lv.5, all enemies ATK Down Lv.5; if self is KO'd, launches Rumble Special 1 time"
-        ],
-        festSpecial: [
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.1 (11 s); Special CT 11% reduction; targets 2 ATK Style/DBF Style teammates for 73% chance of Haste; targets all enemies for HP 11% reduction, SPD Down Lv.1 (11 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 73% chance of Action Bind (11 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.1 (11 s); Shield Lv.1 (11 s); targets enemies within large range (frontal) for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 3200 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.1 (11 s); targets enemies within large range ignoring DEF for ATK x 1.3 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.1 (12 s); Special CT 12% reduction; targets 2 ATK Style/DBF Style teammates for 76% chance of Haste; targets all enemies for HP 12% reduction, SPD Down Lv.1 (12 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 76% chance of Action Bind (12 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.1 (12 s); Shield Lv.1 (12 s); targets enemies within large range (frontal) for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 3400 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.1 (12 s); targets enemies within large range ignoring DEF for ATK x 1.4 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.2 (13 s); Special CT 13% reduction; targets 2 ATK Style/DBF Style teammates for 79% chance of Haste; targets all enemies for HP 13% reduction, SPD Down Lv.2 (13 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 79% chance of Action Bind (13 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.2 (13 s); Shield Lv.2 (13 s); targets enemies within large range (frontal) for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 3600 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.2 (13 s); targets enemies within large range ignoring DEF for ATK x 1.5 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.2 (14 s); Special CT 14% reduction; targets 2 ATK Style/DBF Style teammates for 82% chance of Haste; targets all enemies for HP 14% reduction, SPD Down Lv.2 (14 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 82% chance of Action Bind (14 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.2 (14 s); Shield Lv.2 (14 s); targets enemies within large range (frontal) for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 3800 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.2 (14 s); targets enemies within large range ignoring DEF for ATK x 1.6 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.3 (15 s); Special CT 15% reduction; targets 2 ATK Style/DBF Style teammates for 85% chance of Haste; targets all enemies for HP 15% reduction, SPD Down Lv.3 (15 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 85% chance of Action Bind (15 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.3 (15 s); Shield Lv.3 (15 s); targets enemies within large range (frontal) for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 4000 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.3 (15 s); targets enemies within large range ignoring DEF for ATK x 1.7 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.3 (16 s); Special CT 16% reduction; targets 2 ATK Style/DBF Style teammates for 88% chance of Haste; targets all enemies for HP 16% reduction, SPD Down Lv.3 (16 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 88% chance of Action Bind (16 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.3 (16 s); Shield Lv.3 (16 s); targets enemies within large range (frontal) for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 4200 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.3 (16 s); targets enemies within large range ignoring DEF for ATK x 1.8 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.4 (17 s); Special CT 17% reduction; targets 2 ATK Style/DBF Style teammates for 91% chance of Haste; targets all enemies for HP 17% reduction, SPD Down Lv.4 (17 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 91% chance of Action Bind (17 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.4 (17 s); Shield Lv.4 (17 s); targets enemies within large range (frontal) for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 4400 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.4 (17 s); targets enemies within large range ignoring DEF for ATK x 1.9 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.4 (18 s); Special CT 18% reduction; targets 2 ATK Style/DBF Style teammates for 94% chance of Haste; targets all enemies for HP 18% reduction, SPD Down Lv.4 (18 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 94% chance of Action Bind (18 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.4 (18 s); Shield Lv.4 (18 s); targets enemies within large range (frontal) for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 4600 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.4 (18 s); targets enemies within large range ignoring DEF for ATK x 2 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.5 (19 s); Special CT 19% reduction; targets 2 ATK Style/DBF Style teammates for 97% chance of Haste; targets all enemies for HP 19% reduction, SPD Down Lv.5 (19 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 97% chance of Action Bind (19 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.5 (19 s); Shield Lv.5 (19 s); targets enemies within large range (frontal) for ATK x 19 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 4800 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.5 (19 s); targets enemies within large range ignoring DEF for ATK x 2.1 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.5 (20 s); Special CT 20% reduction; targets 2 ATK Style/DBF Style teammates for 100% chance of Haste; targets all enemies for HP 20% reduction, SPD Down Lv.5 (20 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 100% chance of Action Bind (20 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.5 (20 s); Shield Lv.5 (20 s); targets enemies within large range (frontal) for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 5000 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.5 (20 s); targets enemies within large range ignoring DEF for ATK x 2.2 damage"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[QCK] and [Four Emperors] teammates ATK, RCV Up Lv.2, Special CT Speed Up Lv.1; Free Spirit/Driven class and [Four Emperors] teammates SPD, HP Up Lv.2, DEF Up Lv.1; when remaining crew is the same as remaining enemies, [QCK]/Free Spirit/Driven class and [Four Emperors] teammates ATK, DEF Up Lv.2; when remaining time becomes 85 s or less, targets Free Spirit/Driven class teammates with Special CT 50% or less for Special CT 20% reduction",
-                festGPSpecial: "Targets [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for Action Bind/Special Bind/Paralysis reduction (16 s), 80% chance to evade Action Bind/Special Bind/Paralysis (16 s); Shield Lv.1 (16 s); targets 3 [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for 80% chance of Haste; targets all enemies ignoring DEF for Leader base ATK x 1.2 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[QCK] and [Four Emperors] teammates ATK, RCV Up Lv.3, Special CT Speed Up Lv.1; Free Spirit/Driven class and [Four Emperors] teammates SPD, HP Up Lv.3, DEF Up Lv.2; when remaining crew is the same as remaining enemies, [QCK]/Free Spirit/Driven class and [Four Emperors] teammates ATK, DEF Up Lv.3; when remaining time becomes 85 s or less, targets Free Spirit/Driven class teammates with Special CT 50% or less for Special CT 25% reduction",
-                festGPSpecial: "Targets [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for Action Bind/Special Bind/Paralysis reduction (17 s), 85% chance to evade Action Bind/Special Bind/Paralysis (17 s); Shield Lv.2 (17 s); targets 3 [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for 85% chance of Haste; targets all enemies ignoring DEF for Leader base ATK x 1.3 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[QCK] and [Four Emperors] teammates ATK, RCV Up Lv.4, Special CT Speed Up Lv.2; Free Spirit/Driven class and [Four Emperors] teammates SPD, HP Up Lv.4, DEF Up Lv.3; when remaining crew is the same as remaining enemies, [QCK]/Free Spirit/Driven class and [Four Emperors] teammates ATK, DEF Up Lv.4; when remaining time becomes 85 s or less, targets Free Spirit/Driven class teammates with Special CT 50% or less for Special CT 30% reduction",
-                festGPSpecial: "Targets [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for Action Bind/Special Bind/Paralysis reduction (18 s), 90% chance to evade Action Bind/Special Bind/Paralysis (18 s); Shield Lv.3 (18 s); targets 3 [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for 90% chance of Haste; targets all enemies ignoring DEF for Leader base ATK x 1.4 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[QCK] and [Four Emperors] teammates ATK, RCV Up Lv.5, Special CT Speed Up Lv.2; Free Spirit/Driven class and [Four Emperors] teammates SPD, HP Up Lv.5, DEF Up Lv.3; when remaining crew is the same as remaining enemies, [QCK]/Free Spirit/Driven class and [Four Emperors] teammates ATK, DEF Up Lv.5; when remaining time becomes 85 s or less, targets Free Spirit/Driven class teammates with Special CT 50% or less for Special CT 35% reduction",
-                festGPSpecial: "Targets [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for Action Bind/Special Bind/Paralysis reduction (19 s), 95% chance to evade Action Bind/Special Bind/Paralysis (19 s); Shield Lv.4 (19 s); targets 3 [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for 95% chance of Haste; targets all enemies ignoring DEF for Leader base ATK x 1.5 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[QCK] and [Four Emperors] teammates ATK, RCV Up Lv.6, Special CT Speed Up Lv.3; Free Spirit/Driven class and [Four Emperors] teammates SPD, HP Up Lv.6, DEF Up Lv.4; when remaining crew is the same as remaining enemies, [QCK]/Free Spirit/Driven class and [Four Emperors] teammates ATK, DEF Up Lv.6; when remaining time becomes 85 s or less, targets Free Spirit/Driven class teammates with Special CT 50% or less for Special CT 40% reduction",
-                festGPSpecial: "Targets [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for Action Bind/Special Bind/Paralysis reduction (20 s), 100% chance to evade Action Bind/Special Bind/Paralysis (20 s); Shield Lv.5 (20 s); targets 3 [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for 100% chance of Haste; targets all enemies ignoring DEF for Leader base ATK x 1.6 damage",
-                uses: 3
-            }
-        ],
-        festAbilityGPCondition: "After 7 normal attacks"
+        }
     },
     4562: {//Blackbeard
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Blackbeard Pirates], [Four Emperors] and [Worst Generation] characters by 5 turns, reduces Special Cooldown of [QCK] and Free Spirit characters by 2 turns, and reduces VS Gauge and Switch Effect of [QCK] and Free Spirit characters by 2. Boosts ATK of [QCK] and Free Spirit characters by 6x, boosts HP of [QCK] and Free Spirit characters by 1.3x, and makes [QCK] and [TND] orbs beneficial for [QCK] and Free Spirit characters. If your crew has 4+ Free Spirit characters, reduces Special Use Limit duration by 10 turns. If your crew has 6+ Free Spirit characters and field has Territory: [QCK], boosts ATK of Free Spirit characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Blackbeard Pirates], [Four Emperors] and [Worst Generation] characters by 1.2x.",
@@ -185060,97 +184610,7 @@ window.details = {
                 "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 5 for 1 turn, and raises Boost Level of [Worst Generation] and [Blackbeard Pirates] characters by 6 for 1 turn.",
                 "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 6 for 1 turn, and raises Boost Level of [Worst Generation] and [Blackbeard Pirates] characters by 7 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 230,
-            spd: 159,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind/Forced Out, reduce damage taken from [STR] by 30%",
-        festAbility: [
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates SPD Up Lv.3, DEF Up Lv.3, Special CT Speed Up Lv.1; after receiving Paralysis, up to 1 time [QCK]/Driven class teammates DEF Up Lv.1; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, all enemies ATK Down Lv.3; when remaining crew is the same as remaining enemies, [Blackbeard Pirates] teammates DEF Up Lv.1, all enemies ATK Down Lv.1; if self is KO'd, launches Rumble Special 1 time",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates SPD Up Lv.4, DEF Up Lv.4, Special CT Speed Up Lv.1; after receiving Paralysis, up to 1 time [QCK]/Driven class teammates DEF Up Lv.2; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, all enemies ATK Down Lv.4; when remaining crew is the same as remaining enemies, [Blackbeard Pirates] teammates DEF Up Lv.2, all enemies ATK Down Lv.2; if self is KO'd, launches Rumble Special 1 time",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates SPD Up Lv.5, DEF Up Lv.5, Special CT Speed Up Lv.2; after receiving Paralysis, up to 1 time [QCK]/Driven class teammates DEF Up Lv.3; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, all enemies ATK Down Lv.5; when remaining crew is the same as remaining enemies, [Blackbeard Pirates] teammates DEF Up Lv.3, all enemies ATK Down Lv.3; if self is KO'd, launches Rumble Special 1 time",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates SPD Up Lv.6, DEF Up Lv.6, Special CT Speed Up Lv.2; after receiving Paralysis, up to 1 time [QCK]/Driven class teammates DEF Up Lv.4; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, all enemies ATK Down Lv.6; when remaining crew is the same as remaining enemies, [Blackbeard Pirates] teammates DEF Up Lv.4, all enemies ATK Down Lv.4; if self is KO'd, launches Rumble Special 1 time",
-            "[QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates SPD Up Lv.7, DEF Up Lv.7, Special CT Speed Up Lv.3; after receiving Paralysis, up to 1 time [QCK]/Driven class teammates DEF Up Lv.5; if 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the team, all enemies ATK Down Lv.7; when remaining crew is the same as remaining enemies, [Blackbeard Pirates] teammates DEF Up Lv.5, all enemies ATK Down Lv.5; if self is KO'd, launches Rumble Special 1 time"
-        ],
-        festSpecial: [
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.1 (11 s); Special CT 11% reduction; targets 2 ATK Style/DBF Style teammates for 73% chance of Haste; targets all enemies for HP 11% reduction, SPD Down Lv.1 (11 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 73% chance of Action Bind (11 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.1 (11 s); Shield Lv.1 (11 s); targets enemies within large range (frontal) for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 3200 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.1 (11 s); targets enemies within large range ignoring DEF for ATK x 1.3 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.1 (12 s); Special CT 12% reduction; targets 2 ATK Style/DBF Style teammates for 76% chance of Haste; targets all enemies for HP 12% reduction, SPD Down Lv.1 (12 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 76% chance of Action Bind (12 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.1 (12 s); Shield Lv.1 (12 s); targets enemies within large range (frontal) for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 3400 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.1 (12 s); targets enemies within large range ignoring DEF for ATK x 1.4 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.2 (13 s); Special CT 13% reduction; targets 2 ATK Style/DBF Style teammates for 79% chance of Haste; targets all enemies for HP 13% reduction, SPD Down Lv.2 (13 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 79% chance of Action Bind (13 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.2 (13 s); Shield Lv.2 (13 s); targets enemies within large range (frontal) for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 3600 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.2 (13 s); targets enemies within large range ignoring DEF for ATK x 1.5 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.2 (14 s); Special CT 14% reduction; targets 2 ATK Style/DBF Style teammates for 82% chance of Haste; targets all enemies for HP 14% reduction, SPD Down Lv.2 (14 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 82% chance of Action Bind (14 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.2 (14 s); Shield Lv.2 (14 s); targets enemies within large range (frontal) for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 3800 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.2 (14 s); targets enemies within large range ignoring DEF for ATK x 1.6 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.3 (15 s); Special CT 15% reduction; targets 2 ATK Style/DBF Style teammates for 85% chance of Haste; targets all enemies for HP 15% reduction, SPD Down Lv.3 (15 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 85% chance of Action Bind (15 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.3 (15 s); Shield Lv.3 (15 s); targets enemies within large range (frontal) for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 4000 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.3 (15 s); targets enemies within large range ignoring DEF for ATK x 1.7 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.3 (16 s); Special CT 16% reduction; targets 2 ATK Style/DBF Style teammates for 88% chance of Haste; targets all enemies for HP 16% reduction, SPD Down Lv.3 (16 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 88% chance of Action Bind (16 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.3 (16 s); Shield Lv.3 (16 s); targets enemies within large range (frontal) for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 4200 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.3 (16 s); targets enemies within large range ignoring DEF for ATK x 1.8 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.4 (17 s); Special CT 17% reduction; targets 2 ATK Style/DBF Style teammates for 91% chance of Haste; targets all enemies for HP 17% reduction, SPD Down Lv.4 (17 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 91% chance of Action Bind (17 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.4 (17 s); Shield Lv.4 (17 s); targets enemies within large range (frontal) for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 4400 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.4 (17 s); targets enemies within large range ignoring DEF for ATK x 1.9 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.4 (18 s); Special CT 18% reduction; targets 2 ATK Style/DBF Style teammates for 94% chance of Haste; targets all enemies for HP 18% reduction, SPD Down Lv.4 (18 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 94% chance of Action Bind (18 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.4 (18 s); Shield Lv.4 (18 s); targets enemies within large range (frontal) for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 4600 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.4 (18 s); targets enemies within large range ignoring DEF for ATK x 2 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.5 (19 s); Special CT 19% reduction; targets 2 ATK Style/DBF Style teammates for 97% chance of Haste; targets all enemies for HP 19% reduction, SPD Down Lv.5 (19 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 97% chance of Action Bind (19 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.5 (19 s); Shield Lv.5 (19 s); targets enemies within large range (frontal) for ATK x 19 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 4800 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.5 (19 s); targets enemies within large range ignoring DEF for ATK x 2.1 damage"
-            },
-            {
-                cooldown: 35,
-                description: "When remaining crew is the same as remaining enemies, targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for SPD Up Lv.5 (20 s); Special CT 20% reduction; targets 2 ATK Style/DBF Style teammates for 100% chance of Haste; targets all enemies for HP 20% reduction, SPD Down Lv.5 (20 s); when remaining crew is more than remaining enemies, targets 2 enemies with high current Special CT for 100% chance of Action Bind (20 s); targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for DEF Up Lv.5 (20 s); Shield Lv.5 (20 s); targets enemies within large range (frontal) for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for 5000 damage; targets [QCK]/Driven class and [Blackbeard Pirates] [Four Emperors] teammates for ATK UP Lv.5 (20 s); targets enemies within large range ignoring DEF for ATK x 2.2 damage"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[QCK] and [Four Emperors] teammates ATK, RCV Up Lv.2, Special CT Speed Up Lv.1; Free Spirit/Driven class and [Four Emperors] teammates SPD, HP Up Lv.2, DEF Up Lv.1; when remaining crew is the same as remaining enemies, [QCK]/Free Spirit/Driven class and [Four Emperors] teammates ATK, DEF Up Lv.2; when remaining time becomes 85 s or less, targets Free Spirit/Driven class teammates with Special CT 50% or less for Special CT 20% reduction",
-                festGPSpecial: "Targets [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for Action Bind/Special Bind/Paralysis reduction (16 s), 80% chance to evade Action Bind/Special Bind/Paralysis (16 s); Shield Lv.1 (16 s); targets 3 [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for 80% chance of Haste; targets all enemies ignoring DEF for Leader base ATK x 1.2 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[QCK] and [Four Emperors] teammates ATK, RCV Up Lv.3, Special CT Speed Up Lv.1; Free Spirit/Driven class and [Four Emperors] teammates SPD, HP Up Lv.3, DEF Up Lv.2; when remaining crew is the same as remaining enemies, [QCK]/Free Spirit/Driven class and [Four Emperors] teammates ATK, DEF Up Lv.3; when remaining time becomes 85 s or less, targets Free Spirit/Driven class teammates with Special CT 50% or less for Special CT 25% reduction",
-                festGPSpecial: "Targets [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for Action Bind/Special Bind/Paralysis reduction (17 s), 85% chance to evade Action Bind/Special Bind/Paralysis (17 s); Shield Lv.2 (17 s); targets 3 [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for 85% chance of Haste; targets all enemies ignoring DEF for Leader base ATK x 1.3 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[QCK] and [Four Emperors] teammates ATK, RCV Up Lv.4, Special CT Speed Up Lv.2; Free Spirit/Driven class and [Four Emperors] teammates SPD, HP Up Lv.4, DEF Up Lv.3; when remaining crew is the same as remaining enemies, [QCK]/Free Spirit/Driven class and [Four Emperors] teammates ATK, DEF Up Lv.4; when remaining time becomes 85 s or less, targets Free Spirit/Driven class teammates with Special CT 50% or less for Special CT 30% reduction",
-                festGPSpecial: "Targets [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for Action Bind/Special Bind/Paralysis reduction (18 s), 90% chance to evade Action Bind/Special Bind/Paralysis (18 s); Shield Lv.3 (18 s); targets 3 [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for 90% chance of Haste; targets all enemies ignoring DEF for Leader base ATK x 1.4 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[QCK] and [Four Emperors] teammates ATK, RCV Up Lv.5, Special CT Speed Up Lv.2; Free Spirit/Driven class and [Four Emperors] teammates SPD, HP Up Lv.5, DEF Up Lv.3; when remaining crew is the same as remaining enemies, [QCK]/Free Spirit/Driven class and [Four Emperors] teammates ATK, DEF Up Lv.5; when remaining time becomes 85 s or less, targets Free Spirit/Driven class teammates with Special CT 50% or less for Special CT 35% reduction",
-                festGPSpecial: "Targets [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for Action Bind/Special Bind/Paralysis reduction (19 s), 95% chance to evade Action Bind/Special Bind/Paralysis (19 s); Shield Lv.4 (19 s); targets 3 [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for 95% chance of Haste; targets all enemies ignoring DEF for Leader base ATK x 1.5 damage",
-                uses: 3
-            },
-            {
-                festGPAbility: "[QCK] and [Four Emperors] teammates ATK, RCV Up Lv.6, Special CT Speed Up Lv.3; Free Spirit/Driven class and [Four Emperors] teammates SPD, HP Up Lv.6, DEF Up Lv.4; when remaining crew is the same as remaining enemies, [QCK]/Free Spirit/Driven class and [Four Emperors] teammates ATK, DEF Up Lv.6; when remaining time becomes 85 s or less, targets Free Spirit/Driven class teammates with Special CT 50% or less for Special CT 40% reduction",
-                festGPSpecial: "Targets [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for Action Bind/Special Bind/Paralysis reduction (20 s), 100% chance to evade Action Bind/Special Bind/Paralysis (20 s); Shield Lv.5 (20 s); targets 3 [QCK]/Free Spirit/Driven class and [Four Emperors] teammates for 100% chance of Haste; targets all enemies ignoring DEF for Leader base ATK x 1.6 damage",
-                uses: 3
-            }
-        ],
-        festAbilityGPCondition: "After 7 normal attacks"
+        }
     },
     4563: {//Buggy
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Cross Guild] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [INT] and Slasher characters by 2 turns, and reduces VS Gauge and Switch Effect of [INT] and Slasher characters by 2. Boosts ATK of [INT] and Slasher characters by 6x, boosts HP of [INT] and Slasher characters by 1.3x, and makes [INT] and [TND] orbs beneficial for all characters. If your crew has 4+ Slasher characters and enemy has Percent Damage Reduction status, reduces enemies' Percent Damage Reduction effect by 100%. If your crew has 6+ Slasher characters and field has Territory: [INT], boosts ATK of Slasher characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Cross Guild], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
@@ -185264,97 +184724,7 @@ window.details = {
                 "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 5 for 1 turn, and raises Boost Level of [Roger Pirates] and [Cross Guild] characters by 6 for 1 turn.",
                 "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 6 for 1 turn, and raises Boost Level of [Roger Pirates] and [Cross Guild] characters by 7 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 285,
-            spd: 130,
-            style: "DEF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Heal Self Lv.2"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage ignoring DEF by 50%, reduce damage taken from [PSY] by 30%",
-        festAbility: [
-            "[INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates DEF Up Lv.3, HP Up Lv.3, Guard % Up Lv.1; when guarding, up to 3 times [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates ATK Up Lv.1, SPD Up Lv.1, DEF Up Lv.1; revives self up to 1 time at 12% HP; when appearing on the field, team Special CT 6% reduction, [Cross Guild] [Seven Warlords of the Sea] teammates Special CT 22% reduction; when remaining time is 90 s or more, when appearing on the field, self Special CT 10% reduction",
-            "[INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates DEF Up Lv.4, HP Up Lv.4, Guard % Up Lv.2; when guarding, up to 3 times [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates ATK Up Lv.1, SPD Up Lv.1, DEF Up Lv.1; revives self up to 1 time at 14% HP; when appearing on the field, team Special CT 7% reduction, [Cross Guild] [Seven Warlords of the Sea] teammates Special CT 24% reduction; when remaining time is 90 s or more, when appearing on the field, self Special CT 20% reduction",
-            "[INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates DEF Up Lv.5, HP Up Lv.5, Guard % Up Lv.3; when guarding, up to 3 times [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates ATK Up Lv.2, SPD Up Lv.2, DEF Up Lv.1; revives self up to 1 time at 16% HP; when appearing on the field, team Special CT 8% reduction, [Cross Guild] [Seven Warlords of the Sea] teammates Special CT 26% reduction; when remaining time is 90 s or more, when appearing on the field, self Special CT 30% reduction",
-            "[INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates DEF Up Lv.6, HP Up Lv.6, Guard % Up Lv.4; when guarding, up to 3 times [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates ATK Up Lv.2, SPD Up Lv.2, DEF Up Lv.1; revives self up to 1 time at 18% HP; when appearing on the field, team Special CT 9% reduction, [Cross Guild] [Seven Warlords of the Sea] teammates Special CT 28% reduction; when remaining time is 90 s or more, when appearing on the field, self Special CT 40% reduction",
-            "[INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates DEF Up Lv.7, HP Up Lv.7, Guard % Up Lv.5; when guarding, up to 3 times [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates ATK Up Lv.3, SPD Up Lv.3, DEF Up Lv.2; revives self up to 1 time at 20% HP; when appearing on the field, team Special CT 10% reduction, [Cross Guild] [Seven Warlords of the Sea] teammates Special CT 30% reduction; when remaining time is 90 s or more, when appearing on the field, self Special CT 50% reduction"
-        ],
-        festSpecial: [
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.1 (41 s), Guard % Up Lv.1 (41 s); when self has Provoke, targets enemies within large range for ATK x 3.1 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.1 (73 s), SPD Up Lv.1 (73 s), Special CT Speed Up Lv.1 (73 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.05 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 11% healing; when remaning HP is 20% or below, targets team for HP 21% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.1 (42 s), Guard % Up Lv.1 (42 s); when self has Provoke, targets enemies within large range for ATK x 3.2 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.1 (76 s), SPD Up Lv.1 (76 s), Special CT Speed Up Lv.1 (76 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.1 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 12% healing; when remaning HP is 20% or below, targets team for HP 22% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.2 (43 s), Guard % Up Lv.2 (43 s); when self has Provoke, targets enemies within large range for ATK x 3.3 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.2 (79 s), SPD Up Lv.2 (79 s), Special CT Speed Up Lv.1 (79 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.15 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 13% healing; when remaning HP is 20% or below, targets team for HP 23% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.2 (44 s), Guard % Up Lv.2 (44 s); when self has Provoke, targets enemies within large range for ATK x 3.4 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.2 (82 s), SPD Up Lv.2 (82 s), Special CT Speed Up Lv.1 (82 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.2 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 14% healing; when remaning HP is 20% or below, targets team for HP 24% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.3 (45 s), Guard % Up Lv.3 (45 s); when self has Provoke, targets enemies within large range for ATK x 3.5 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.3 (85 s), SPD Up Lv.3 (85 s), Special CT Speed Up Lv.1 (85 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.25 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 15% healing; when remaning HP is 20% or below, targets team for HP 25% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.3 (46 s), Guard % Up Lv.3 (46 s); when self has Provoke, targets enemies within large range for ATK x 3.6 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.3 (88 s), SPD Up Lv.3 (88 s), Special CT Speed Up Lv.2 (88 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.3 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 16% healing; when remaning HP is 20% or below, targets team for HP 26% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.4 (47 s), Guard % Up Lv.4 (47 s); when self has Provoke, targets enemies within large range for ATK x 3.7 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.4 (91 s), SPD Up Lv.4 (91 s), Special CT Speed Up Lv.2 (91 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.35 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 17% healing; when remaning HP is 20% or below, targets team for HP 27% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.4 (48 s), Guard % Up Lv.4 (48 s); when self has Provoke, targets enemies within large range for ATK x 3.8 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.4 (94 s), SPD Up Lv.4 (94 s), Special CT Speed Up Lv.2 (94 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.4 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 18% healing; when remaning HP is 20% or below, targets team for HP 28% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.5 (49 s), Guard % Up Lv.5 (49 s); when self has Provoke, targets enemies within large range for ATK x 3.9 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.5 (97 s), SPD Up Lv.5 (97 s), Special CT Speed Up Lv.2 (97 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.45 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 19% healing; when remaning HP is 20% or below, targets team for HP 29% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.5 (50 s), Guard % Up Lv.5 (50 s); when self has Provoke, targets enemies within large range for ATK x 4 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.5 (100 s), SPD Up Lv.5 (100 s), Special CT Speed Up Lv.3 (100 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.5 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 20% healing; when remaning HP is 20% or below, targets team for HP 30% healing; switches character with 1st sub character"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[INT] and [Four Emperors] teammates RCV, HP Up Lv.2, Special CT Speed Up Lv.1; Slasher/Cerebral class and [Four Emperors] teammates ATK, SPD Up Lv.2, DEF Up Lv.1; first 50 s of battle, [INT]/Slasher/Cerebral class and [Four Emperors] teammates DEF, Guard % Up Lv.2",
-                festGPSpecial: "Targets all enemies for 3000 damage; targets Slasher/Cerebral class and [Four Emperors] teammates for ATK, SPD, DEF, RCV Up Lv.1 (80 s), HP 10% healing",
-                uses: 9
-            },
-            {
-                festGPAbility: "[INT] and [Four Emperors] teammates RCV, HP Up Lv.3, Special CT Speed Up Lv.1; Slasher/Cerebral class and [Four Emperors] teammates ATK, SPD Up Lv.3, DEF Up Lv.2; first 50 s of battle, [INT]/Slasher/Cerebral class and [Four Emperors] teammates DEF, Guard % Up Lv.3",
-                festGPSpecial: "Targets all enemies for 3500 damage; targets Slasher/Cerebral class and [Four Emperors] teammates for ATK, SPD, DEF, RCV Up Lv.2 (85 s), HP 15% healing",
-                uses: 9
-            },
-            {
-                festGPAbility: "[INT] and [Four Emperors] teammates RCV, HP Up Lv.4, Special CT Speed Up Lv.2; Slasher/Cerebral class and [Four Emperors] teammates ATK, SPD Up Lv.4, DEF Up Lv.3; first 50 s of battle, [INT]/Slasher/Cerebral class and [Four Emperors] teammates DEF, Guard % Up Lv.4",
-                festGPSpecial: "Targets all enemies for 4000 damage; targets Slasher/Cerebral class and [Four Emperors] teammates for ATK, SPD, DEF, RCV Up Lv.3 (90 s), HP 20% healing",
-                uses: 9
-            },
-            {
-                festGPAbility: "[INT] and [Four Emperors] teammates RCV, HP Up Lv.5, Special CT Speed Up Lv.2; Slasher/Cerebral class and [Four Emperors] teammates ATK, SPD Up Lv.5, DEF Up Lv.3; first 50 s of battle, [INT]/Slasher/Cerebral class and [Four Emperors] teammates DEF, Guard % Up Lv.5",
-                festGPSpecial: "Targets all enemies for 4500 damage; targets Slasher/Cerebral class and [Four Emperors] teammates for ATK, SPD, DEF, RCV Up Lv.4 (95 s), HP 25% healing",
-                uses: 9
-            },
-            {
-                festGPAbility: "[INT] and [Four Emperors] teammates RCV, HP Up Lv.6, Special CT Speed Up Lv.3; Slasher/Cerebral class and [Four Emperors] teammates ATK, SPD Up Lv.6, DEF Up Lv.4; first 50 s of battle, [INT]/Slasher/Cerebral class and [Four Emperors] teammates DEF, Guard % Up Lv.6",
-                festGPSpecial: "Targets all enemies for 5000 damage; targets Slasher/Cerebral class and [Four Emperors] teammates for ATK, SPD, DEF, RCV Up Lv.5 (100 s), HP 30% healing",
-                uses: 9
-            }
-        ],
-        festAbilityGPCondition: "After 20s of battle"
+        }
     },
     4564: {//Buggy
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Cross Guild] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [INT] and Slasher characters by 2 turns, and reduces VS Gauge and Switch Effect of [INT] and Slasher characters by 2. Boosts ATK of [INT] and Slasher characters by 6x, boosts HP of [INT] and Slasher characters by 1.3x, and makes [INT] and [TND] orbs beneficial for all characters. If your crew has 4+ Slasher characters and enemy has Percent Damage Reduction status, reduces enemies' Percent Damage Reduction effect by 100%. If your crew has 6+ Slasher characters and field has Territory: [INT], boosts ATK of Slasher characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Cross Guild], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
@@ -185468,97 +184838,7 @@ window.details = {
                 "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 5 for 1 turn, and raises Boost Level of [Roger Pirates] and [Cross Guild] characters by 6 for 1 turn.",
                 "Raises Boost Level of [Four Emperors] and [Egghead Arc] characters by 6 for 1 turn, and raises Boost Level of [Roger Pirates] and [Cross Guild] characters by 7 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 285,
-            spd: 130,
-            style: "DEF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Heal Self Lv.2"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage ignoring DEF by 50%, reduce damage taken from [PSY] by 30%",
-        festAbility: [
-            "[INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates DEF Up Lv.3, HP Up Lv.3, Guard % Up Lv.1; when guarding, up to 3 times [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates ATK Up Lv.1, SPD Up Lv.1, DEF Up Lv.1; revives self up to 1 time at 12% HP; when appearing on the field, team Special CT 6% reduction, [Cross Guild] [Seven Warlords of the Sea] teammates Special CT 22% reduction; when remaining time is 90 s or more, when appearing on the field, self Special CT 10% reduction",
-            "[INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates DEF Up Lv.4, HP Up Lv.4, Guard % Up Lv.2; when guarding, up to 3 times [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates ATK Up Lv.1, SPD Up Lv.1, DEF Up Lv.1; revives self up to 1 time at 14% HP; when appearing on the field, team Special CT 7% reduction, [Cross Guild] [Seven Warlords of the Sea] teammates Special CT 24% reduction; when remaining time is 90 s or more, when appearing on the field, self Special CT 20% reduction",
-            "[INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates DEF Up Lv.5, HP Up Lv.5, Guard % Up Lv.3; when guarding, up to 3 times [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates ATK Up Lv.2, SPD Up Lv.2, DEF Up Lv.1; revives self up to 1 time at 16% HP; when appearing on the field, team Special CT 8% reduction, [Cross Guild] [Seven Warlords of the Sea] teammates Special CT 26% reduction; when remaining time is 90 s or more, when appearing on the field, self Special CT 30% reduction",
-            "[INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates DEF Up Lv.6, HP Up Lv.6, Guard % Up Lv.4; when guarding, up to 3 times [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates ATK Up Lv.2, SPD Up Lv.2, DEF Up Lv.1; revives self up to 1 time at 18% HP; when appearing on the field, team Special CT 9% reduction, [Cross Guild] [Seven Warlords of the Sea] teammates Special CT 28% reduction; when remaining time is 90 s or more, when appearing on the field, self Special CT 40% reduction",
-            "[INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates DEF Up Lv.7, HP Up Lv.7, Guard % Up Lv.5; when guarding, up to 3 times [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates ATK Up Lv.3, SPD Up Lv.3, DEF Up Lv.2; revives self up to 1 time at 20% HP; when appearing on the field, team Special CT 10% reduction, [Cross Guild] [Seven Warlords of the Sea] teammates Special CT 30% reduction; when remaining time is 90 s or more, when appearing on the field, self Special CT 50% reduction"
-        ],
-        festSpecial: [
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.1 (41 s), Guard % Up Lv.1 (41 s); when self has Provoke, targets enemies within large range for ATK x 3.1 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.1 (73 s), SPD Up Lv.1 (73 s), Special CT Speed Up Lv.1 (73 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.05 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 11% healing; when remaning HP is 20% or below, targets team for HP 21% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.1 (42 s), Guard % Up Lv.1 (42 s); when self has Provoke, targets enemies within large range for ATK x 3.2 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.1 (76 s), SPD Up Lv.1 (76 s), Special CT Speed Up Lv.1 (76 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.1 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 12% healing; when remaning HP is 20% or below, targets team for HP 22% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.2 (43 s), Guard % Up Lv.2 (43 s); when self has Provoke, targets enemies within large range for ATK x 3.3 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.2 (79 s), SPD Up Lv.2 (79 s), Special CT Speed Up Lv.1 (79 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.15 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 13% healing; when remaning HP is 20% or below, targets team for HP 23% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.2 (44 s), Guard % Up Lv.2 (44 s); when self has Provoke, targets enemies within large range for ATK x 3.4 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.2 (82 s), SPD Up Lv.2 (82 s), Special CT Speed Up Lv.1 (82 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.2 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 14% healing; when remaning HP is 20% or below, targets team for HP 24% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.3 (45 s), Guard % Up Lv.3 (45 s); when self has Provoke, targets enemies within large range for ATK x 3.5 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.3 (85 s), SPD Up Lv.3 (85 s), Special CT Speed Up Lv.1 (85 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.25 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 15% healing; when remaning HP is 20% or below, targets team for HP 25% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.3 (46 s), Guard % Up Lv.3 (46 s); when self has Provoke, targets enemies within large range for ATK x 3.6 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.3 (88 s), SPD Up Lv.3 (88 s), Special CT Speed Up Lv.2 (88 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.3 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 16% healing; when remaning HP is 20% or below, targets team for HP 26% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.4 (47 s), Guard % Up Lv.4 (47 s); when self has Provoke, targets enemies within large range for ATK x 3.7 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.4 (91 s), SPD Up Lv.4 (91 s), Special CT Speed Up Lv.2 (91 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.35 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 17% healing; when remaning HP is 20% or below, targets team for HP 27% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.4 (48 s), Guard % Up Lv.4 (48 s); when self has Provoke, targets enemies within large range for ATK x 3.8 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.4 (94 s), SPD Up Lv.4 (94 s), Special CT Speed Up Lv.2 (94 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.4 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 18% healing; when remaning HP is 20% or below, targets team for HP 28% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.5 (49 s), Guard % Up Lv.5 (49 s); when self has Provoke, targets enemies within large range for ATK x 3.9 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.5 (97 s), SPD Up Lv.5 (97 s), Special CT Speed Up Lv.2 (97 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.45 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 19% healing; when remaning HP is 20% or below, targets team for HP 29% healing; switches character with 1st sub character"
-            },
-            {
-                cooldown: 28,
-                description: "Targets self for DEF Up Lv.5 (50 s), Guard % Up Lv.5 (50 s); when self has Provoke, targets enemies within large range for ATK x 4 damage; when remaining time is more than 30 s, targets [INT]/Slasher/Cerebral class and [Cross Guild] [Seven Warlords of the Sea] [Four Emperors] teammates for ATK Up Lv.5 (100 s), SPD Up Lv.5 (100 s), Special CT Speed Up Lv.3 (100 s); when remaining time is 50 s or less, targets enemies within large range ignoring DEF for ATK x 1.5 damage; when remaining time is 30 s or less, targets enemies within large range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); if 2 or more [Seven Warlords of the Sea] [Cross Guild] characters are on the team; targets ATK Style teammates for HP 20% healing; when remaning HP is 20% or below, targets team for HP 30% healing; switches character with 1st sub character"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[INT] and [Four Emperors] teammates RCV, HP Up Lv.2, Special CT Speed Up Lv.1; Slasher/Cerebral class and [Four Emperors] teammates ATK, SPD Up Lv.2, DEF Up Lv.1; first 50 s of battle, [INT]/Slasher/Cerebral class and [Four Emperors] teammates DEF, Guard % Up Lv.2",
-                festGPSpecial: "Targets all enemies for 3000 damage; targets Slasher/Cerebral class and [Four Emperors] teammates for ATK, SPD, DEF, RCV Up Lv.1 (80 s), HP 10% healing",
-                uses: 9
-            },
-            {
-                festGPAbility: "[INT] and [Four Emperors] teammates RCV, HP Up Lv.3, Special CT Speed Up Lv.1; Slasher/Cerebral class and [Four Emperors] teammates ATK, SPD Up Lv.3, DEF Up Lv.2; first 50 s of battle, [INT]/Slasher/Cerebral class and [Four Emperors] teammates DEF, Guard % Up Lv.3",
-                festGPSpecial: "Targets all enemies for 3500 damage; targets Slasher/Cerebral class and [Four Emperors] teammates for ATK, SPD, DEF, RCV Up Lv.2 (85 s), HP 15% healing",
-                uses: 9
-            },
-            {
-                festGPAbility: "[INT] and [Four Emperors] teammates RCV, HP Up Lv.4, Special CT Speed Up Lv.2; Slasher/Cerebral class and [Four Emperors] teammates ATK, SPD Up Lv.4, DEF Up Lv.3; first 50 s of battle, [INT]/Slasher/Cerebral class and [Four Emperors] teammates DEF, Guard % Up Lv.4",
-                festGPSpecial: "Targets all enemies for 4000 damage; targets Slasher/Cerebral class and [Four Emperors] teammates for ATK, SPD, DEF, RCV Up Lv.3 (90 s), HP 20% healing",
-                uses: 9
-            },
-            {
-                festGPAbility: "[INT] and [Four Emperors] teammates RCV, HP Up Lv.5, Special CT Speed Up Lv.2; Slasher/Cerebral class and [Four Emperors] teammates ATK, SPD Up Lv.5, DEF Up Lv.3; first 50 s of battle, [INT]/Slasher/Cerebral class and [Four Emperors] teammates DEF, Guard % Up Lv.5",
-                festGPSpecial: "Targets all enemies for 4500 damage; targets Slasher/Cerebral class and [Four Emperors] teammates for ATK, SPD, DEF, RCV Up Lv.4 (95 s), HP 25% healing",
-                uses: 9
-            },
-            {
-                festGPAbility: "[INT] and [Four Emperors] teammates RCV, HP Up Lv.6, Special CT Speed Up Lv.3; Slasher/Cerebral class and [Four Emperors] teammates ATK, SPD Up Lv.6, DEF Up Lv.4; first 50 s of battle, [INT]/Slasher/Cerebral class and [Four Emperors] teammates DEF, Guard % Up Lv.6",
-                festGPSpecial: "Targets all enemies for 5000 damage; targets Slasher/Cerebral class and [Four Emperors] teammates for ATK, SPD, DEF, RCV Up Lv.5 (100 s), HP 30% healing",
-                uses: 9
-            }
-        ],
-        festAbilityGPCondition: "After 20s of battle"
+        }
     },
     4565: {//Sabo
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Special Cooldown of ship by 3 turns. Boosts ATK of Fighter characters by 4.5x, boosts HP of Fighter characters by 1.3x, and makes [PSY] and [TND] orbs beneficial for Fighter characters.",
@@ -186021,115 +185301,25 @@ window.details = {
                 "Boosts Chain Multiplier Growth Rate by 1.4x, and boosts ATK against enemies with reduced defense by 2.75x for 1 turn.",
                 "Boosts Chain Multiplier Growth Rate by 1.5x, and boosts ATK against enemies with reduced defense by 3x for 1 turn."
             ]
-        },
-        festStats: {
-            def: 160,
-            spd: 198,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Lv.1 (Small Range)",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind/Special Bind, reduce damage ignoring DEF/percentage damage by 50%",
-        festAbility: [
-            "Team SPD Up Lv.3; after dealing damage, up to 10 times self Special CT 1% reduction, all enemies Special CT 1% delay; after receiving damage, up to 10 times self Special CT 1% reduction, all enemies Special CT 1% delay; after receiving healing, up to 10 times self Special CT 1% reduction, all enemies Special CT 1% delay; if 1 or more [Five Elders] characters are on the team, when appearing on the field, self Special CT 70% reduction, [Five Elders] teammates Special CT 5% reduction; when remaining time becomes 50 s or less or when remaining time is 50 s or less or less, when appearing on the field, self Special CT 22% reduction, all enemies Special CT 22% delay",
-            "Team SPD Up Lv.4; after dealing damage, up to 10 times self Special CT 2% reduction, all enemies Special CT 2% delay; after receiving damage, up to 10 times self Special CT 2% reduction, all enemies Special CT 2% delay; after receiving healing, up to 10 times self Special CT 2% reduction, all enemies Special CT 2% delay; if 1 or more [Five Elders] characters are on the team, when appearing on the field, self Special CT 76% reduction, [Five Elders] teammates Special CT 6% reduction; when remaining time becomes 50 s or less or when remaining time is 50 s or less or less, when appearing on the field, self Special CT 24% reduction, all enemies Special CT 24% delay",
-            "Team SPD Up Lv.5; after dealing damage, up to 10 times self Special CT 3% reduction, all enemies Special CT 3% delay; after receiving damage, up to 10 times self Special CT 3% reduction, all enemies Special CT 3% delay; after receiving healing, up to 10 times self Special CT 3% reduction, all enemies Special CT 3% delay; if 1 or more [Five Elders] characters are on the team, when appearing on the field, self Special CT 82% reduction, [Five Elders] teammates Special CT 7% reduction; when remaining time becomes 50 s or less or when remaining time is 50 s or less or less, when appearing on the field, self Special CT 26% reduction, all enemies Special CT 26% delay",
-            "Team SPD Up Lv.6; after dealing damage, up to 10 times self Special CT 4% reduction, all enemies Special CT 4% delay; after receiving damage, up to 10 times self Special CT 4% reduction, all enemies Special CT 4% delay; after receiving healing, up to 10 times self Special CT 4% reduction, all enemies Special CT 4% delay; if 1 or more [Five Elders] characters are on the team, when appearing on the field, self Special CT 88% reduction, [Five Elders] teammates Special CT 8% reduction; when remaining time becomes 50 s or less or when remaining time is 50 s or less or less, when appearing on the field, self Special CT 28% reduction, all enemies Special CT 28% delay",
-            "Team SPD Up Lv.7; after dealing damage, up to 10 times self Special CT 5% reduction, all enemies Special CT 5% delay; after receiving damage, up to 10 times self Special CT 5% reduction, all enemies Special CT 5% delay; after receiving healing, up to 10 times self Special CT 5% reduction, all enemies Special CT 5% delay; if 1 or more [Five Elders] characters are on the team, when appearing on the field, self Special CT 100% reduction, [Five Elders] teammates Special CT 10% reduction; when remaining time becomes 50 s or less or when remaining time is 50 s or less or less, when appearing on the field, self Special CT 30% reduction, all enemies Special CT 30% delay"
-        ],
-        festSpecial: [
-            {
-                cooldown: 99,
-                description: "First 15 s of battle, targets 2 enemies with low current HP for 60% chance of Ability Bind (11 s); targets self for Special CT 10% reduction; targets [World Government] [Navy] teammates for 60% chance to evade Forced Out/Confusion (31 s); when remaining time is 85 s or less, targets team for 60% chance to remove stat-reducing effects; targets all enemies for 40% chance of Ability Bind (6 s); when remaining time is 50 s or less, targets all enemies for 60% chance of Ability Bind (1 s); when remaining HP is 50% or below, targets self for HP 30% healing; targets enemies with Ability Bind for 3000 damage"
-            },
-            {
-                cooldown: 99,
-                description: "First 15 s of battle, targets 2 enemies with low current HP for 64% chance of Ability Bind (11 s); targets self for Special CT 12% reduction; targets [World Government] [Navy] teammates for 64% chance to evade Forced Out/Confusion (32 s); when remaining time is 85 s or less, targets team for 64% chance to remove stat-reducing effects; targets all enemies for 44% chance of Ability Bind (6 s); when remaining time is 50 s or less, targets all enemies for 64% chance of Ability Bind (1 s); when remaining HP is 50% or below, targets self for HP 32% healing; targets enemies with Ability Bind for 3200 damage"
-            },
-            {
-                cooldown: 99,
-                description: "First 15 s of battle, targets 2 enemies with low current HP for 68% chance of Ability Bind (12 s); targets self for Special CT 14% reduction; targets [World Government] [Navy] teammates for 68% chance to evade Forced Out/Confusion (33 s); when remaining time is 85 s or less, targets team for 68% chance to remove stat-reducing effects; targets all enemies for 48% chance of Ability Bind (7 s); when remaining time is 50 s or less, targets all enemies for 68% chance of Ability Bind (2 s); when remaining HP is 50% or below, targets self for HP 34% healing; targets enemies with Ability Bind for 3400 damage"
-            },
-            {
-                cooldown: 99,
-                description: "First 15 s of battle, targets 2 enemies with low current HP for 72% chance of Ability Bind (12 s); targets self for Special CT 16% reduction; targets [World Government] [Navy] teammates for 72% chance to evade Forced Out/Confusion (34 s); when remaining time is 85 s or less, targets team for 72% chance to remove stat-reducing effects; targets all enemies for 52% chance of Ability Bind (7 s); when remaining time is 50 s or less, targets all enemies for 72% chance of Ability Bind (2 s); when remaining HP is 50% or below, targets self for HP 36% healing; targets enemies with Ability Bind for 3600 damage"
-            },
-            {
-                cooldown: 99,
-                description: "First 15 s of battle, targets 2 enemies with low current HP for 76% chance of Ability Bind (13 s); targets self for Special CT 18% reduction; targets [World Government] [Navy] teammates for 76% chance to evade Forced Out/Confusion (35 s); when remaining time is 85 s or less, targets team for 76% chance to remove stat-reducing effects; targets all enemies for 56% chance of Ability Bind (8 s); when remaining time is 50 s or less, targets all enemies for 76% chance of Ability Bind (3 s); when remaining HP is 50% or below, targets self for HP 38% healing; targets enemies with Ability Bind for 3800 damage"
-            },
-            {
-                cooldown: 99,
-                description: "First 15 s of battle, targets 2 enemies with low current HP for 80% chance of Ability Bind (13 s); targets self for Special CT 20% reduction; targets [World Government] [Navy] teammates for 80% chance to evade Forced Out/Confusion (36 s); when remaining time is 85 s or less, targets team for 80% chance to remove stat-reducing effects; targets all enemies for 60% chance of Ability Bind (8 s); when remaining time is 50 s or less, targets all enemies for 80% chance of Ability Bind (3 s); when remaining HP is 50% or below, targets self for HP 40% healing; targets enemies with Ability Bind for 4000 damage"
-            },
-            {
-                cooldown: 99,
-                description: "First 15 s of battle, targets 2 enemies with low current HP for 84% chance of Ability Bind (14 s); targets self for Special CT 22% reduction; targets [World Government] [Navy] teammates for 84% chance to evade Forced Out/Confusion (37 s); when remaining time is 85 s or less, targets team for 84% chance to remove stat-reducing effects; targets all enemies for 64% chance of Ability Bind (9 s); when remaining time is 50 s or less, targets all enemies for 84% chance of Ability Bind (4 s); when remaining HP is 50% or below, targets self for HP 42% healing; targets enemies with Ability Bind for 4200 damage"
-            },
-            {
-                cooldown: 99,
-                description: "First 15 s of battle, targets 2 enemies with low current HP for 88% chance of Ability Bind (14 s); targets self for Special CT 24% reduction; targets [World Government] [Navy] teammates for 88% chance to evade Forced Out/Confusion (38 s); when remaining time is 85 s or less, targets team for 88% chance to remove stat-reducing effects; targets all enemies for 68% chance of Ability Bind (9 s); when remaining time is 50 s or less, targets all enemies for 88% chance of Ability Bind (4 s); when remaining HP is 50% or below, targets self for HP 44% healing; targets enemies with Ability Bind for 4400 damage"
-            },
-            {
-                cooldown: 99,
-                description: "First 15 s of battle, targets 2 enemies with low current HP for 92% chance of Ability Bind (15 s); targets self for Special CT 26% reduction; targets [World Government] [Navy] teammates for 92% chance to evade Forced Out/Confusion (39 s); when remaining time is 85 s or less, targets team for 92% chance to remove stat-reducing effects; targets all enemies for 72% chance of Ability Bind (10 s); when remaining time is 50 s or less, targets all enemies for 92% chance of Ability Bind (5 s); when remaining HP is 50% or below, targets self for HP 46% healing; targets enemies with Ability Bind for 4600 damage"
-            },
-            {
-                cooldown: 99,
-                description: "First 15 s of battle, targets 2 enemies with low current HP for 100% chance of Ability Bind (15 s); targets self for Special CT 30% reduction; targets [World Government] [Navy] teammates for 100% chance to evade Forced Out/Confusion (40 s); when remaining time is 85 s or less, targets team for 100% chance to remove stat-reducing effects; targets all enemies for 80% chance of Ability Bind (10 s); when remaining time is 50 s or less, targets all enemies for 100% chance of Ability Bind (5 s); when remaining HP is 50% or below, targets self for HP 50% healing; targets enemies with Ability Bind for 5000 damage"
-            }
-        ],
-        festAbilityGP: [
-            {
-                festGPAbility: "[STR] and [Navy] [World Government] teammates ATK Up Lv.2, SPD Up Lv.2, Special CT Speed Up Lv.1; Powerhouse/Driven class teammates HP Up Lv.2, RCV Up Lv.2, DEF Up Lv.1; [Navy] [World Government] teammates ATK Up Lv.2, Special CT Speed Up Lv.1; if 1 or more [Mythical Zoan-type] characters on the team, all enemies Special CT Speed Down Lv.1",
-                festGPSpecial: "Targets all enemies for 60% chance of Ability Bind (11 s), Special CT 10% delay; targets [Navy] [World Government] teammates for 60% chance of Forced Out (30 s)",
-                uses: 1
-            },
-            {
-                festGPAbility: "[STR] and [Navy] [World Government] teammates ATK Up Lv.3, SPD Up Lv.3, Special CT Speed Up Lv.2; Powerhouse/Driven class teammates HP Up Lv.3, RCV Up Lv.3, DEF Up Lv.2; [Navy] [World Government] teammates ATK Up Lv.3, Special CT Speed Up Lv.2; if 1 or more [Mythical Zoan-type] characters on the team, all enemies Special CT Speed Down Lv.2",
-                festGPSpecial: "Targets all enemies for 70% chance of Ability Bind (12 s), Special CT 15% delay; targets [Navy] [World Government] teammates for 70% chance of Forced Out (35 s)",
-                uses: 1
-            },
-            {
-                festGPAbility: "[STR] and [Navy] [World Government] teammates ATK Up Lv.4, SPD Up Lv.4, Special CT Speed Up Lv.2; Powerhouse/Driven class teammates HP Up Lv.4, RCV Up Lv.4, DEF Up Lv.3; [Navy] [World Government] teammates ATK Up Lv.4, Special CT Speed Up Lv.2; if 1 or more [Mythical Zoan-type] characters on the team, all enemies Special CT Speed Down Lv.3",
-                festGPSpecial: "Targets all enemies for 80% chance of Ability Bind (13 s), Special CT 20% delay; targets [Navy] [World Government] teammates for 80% chance of Forced Out (40 s)",
-                uses: 1
-            },
-            {
-                festGPAbility: "[STR] and [Navy] [World Government] teammates ATK Up Lv.5, SPD Up Lv.5, Special CT Speed Up Lv.3; Powerhouse/Driven class teammates HP Up Lv.5, RCV Up Lv.5, DEF Up Lv.3; [Navy] [World Government] teammates ATK Up Lv.5, Special CT Speed Up Lv.3; if 1 or more [Mythical Zoan-type] characters on the team, all enemies Special CT Speed Down Lv.3",
-                festGPSpecial: "Targets all enemies for 90% chance of Ability Bind (14 s), Special CT 25% delay; targets [Navy] [World Government] teammates for 90% chance of Forced Out (45 s)",
-                uses: 1
-            },
-            {
-                festGPAbility: "[STR] and [Navy] [World Government] teammates ATK Up Lv.6, SPD Up Lv.6, Special CT Speed Up Lv.3; Powerhouse/Driven class teammates HP Up Lv.6, RCV Up Lv.6, DEF Up Lv.4; [Navy] [World Government] teammates ATK Up Lv.6, Special CT Speed Up Lv.3; if 1 or more [Mythical Zoan-type] characters on the team, all enemies Special CT Speed Down Lv.4",
-                festGPSpecial: "Targets all enemies for 100% chance of Ability Bind (15 s), Special CT 30% delay; targets [Navy] [World Government] teammates for 100% chance of Forced Out (50 s)",
-                uses: 1
-            }
-        ],
-        festAbilityGPCondition: "After 80s of battle"
+        }
     },
     4572: {//Co-Op 5* Gol D. Roger
-        captain: "Boosts crew's HP by 1.25x, makes unfavorable slots have matching slot effects, and if every type is on the crew, boosts crew's ATK by 5.25x, and reduces crew's Bind duration by 6 turns",
-        special: "Removes all beneficial effects placed on the crew, reduces crew's Despair duration by 6 turns, and boosts crew's base ATK by +1000 for 3 turns. If 5 or more [Four Emperors] [Land of Wano Arc] [Roger Pirates] characters are on the crew, applies \"Territory: Crew\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25%) for 1 turn",
+        captain: "Boosts HP of all characters by 1.25x, and makes badly matching orbs beneficial for all characters. If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, boosts ATK of all characters by 5.25x, and reduces Bind duration by 6 turns.",
+        special: "Removes all positive buffs on your team, reduces Despair duration by 6 turns, and boosts Base ATK of all characters by 1,000 for 3 turns. If your crew has 5+ [Four Emperors], [Land of Wano Arc] or [Roger Pirates] characters, applies Territory: Crew to the field for 1 turn.",
         specialName: "Location of the Great Treasure",
         sailor: {
-            base: "Boosts crew's base stats by 100",
-            level1: "Reduces character's Special Reverse by 2 turns"
+            base: "Boosts base ATK, HP and RCV of all characters by 100.",
+            level1: "Restores Special Cooldown of this character by 2 turns when it is rewinded."
         },
         support: [
             {
-                Characters: "Characters with a Cost of 70 or more",
+                Characters: "Characters with Cost 70 or more",
                 description: [
-                    "Once per quest, if supported character uses a Special, heals crew by 500 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 700 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,000 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,000 HP and reduces top-right character's Special charge time by 1 turn",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,000 HP and reduces top-right character's Special charge time by 1 turn [AUTO+] At battle 1, activates supported character's Special"
+                    "Once per adventure, when the supported character uses their special, recovers 500 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 700 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,000 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,000 HP, and reduces Special Cooldown of Captain character by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,000 HP, and reduces Special Cooldown of Captain character by 1 turn. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special."
                 ]
             }
         ],
@@ -186190,88 +185380,26 @@ window.details = {
                     "Boosts Damage Limit Break effect based on number of [PSY] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
                     "Boosts Damage Limit Break effect based on number of [PSY] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
                 ]
-            }
-        ],
-        festStats: {
-            def: 150,
-            spd: 138,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "60% chance to evade Special Bind",
-        festAbility: [
-            "[PSY]/Free Spirit class teammates HP Up Lv.1, DEF Up Lv.1; Driven class enemies SPD Down Lv.1; if 5 or more Free Spirit class characters are on the team, Driven class enemies DEF Down Lv.1",
-            "[PSY]/Free Spirit class teammates HP Up Lv.2, DEF Up Lv.1; Driven class enemies SPD Down Lv.2; if 5 or more Free Spirit class characters are on the team, Driven class enemies DEF Down Lv.1",
-            "[PSY]/Free Spirit class teammates HP Up Lv.3, DEF Up Lv.1; Driven class enemies SPD Down Lv.3; if 5 or more Free Spirit class characters are on the team, Driven class enemies DEF Down Lv.1",
-            "[PSY]/Free Spirit class teammates HP Up Lv.4, DEF Up Lv.1; Driven class enemies SPD Down Lv.4; if 5 or more Free Spirit class characters are on the team, Driven class enemies DEF Down Lv.1",
-            "[PSY]/Free Spirit class teammates HP Up Lv.5, DEF Up Lv.2; Driven class enemies SPD Down Lv.5; if 5 or more Free Spirit class characters are on the team, Driven class enemies DEF Down Lv.2"
-        ],
-        festSpecial: [
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 35% chance to evade Paralysis (5 s); targets Driven class enemies for DEF Down Lv.1 (6 s), SPD Down Lv.1 (6 s); targets all enemies for ATK x 2.2 damage"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 40% chance to evade Paralysis (6 s); targets Driven class enemies for DEF Down Lv.1 (7 s), SPD Down Lv.1 (7 s); targets all enemies for ATK x 2.4 damage"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 45% chance to evade Paralysis (6 s); targets Driven class enemies for DEF Down Lv.2 (8 s), SPD Down Lv.2 (8 s); targets all enemies for ATK x 2.6 damage"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 50% chance to evade Paralysis (7 s); targets Driven class enemies for DEF Down Lv.2 (9 s), SPD Down Lv.2 (9 s); targets all enemies for ATK x 2.8 damage"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 55% chance to evade Paralysis (7 s); targets Driven class enemies for DEF Down Lv.3 (10 s), SPD Down Lv.3 (10 s); targets all enemies for ATK x 3 damage"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 60% chance to evade Paralysis (8 s); targets Driven class enemies for DEF Down Lv.3 (11 s), SPD Down Lv.3 (11 s); targets all enemies for ATK x 3.2 damage"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 65% chance to evade Paralysis (8 s); targets Driven class enemies for DEF Down Lv.4 (12 s), SPD Down Lv.4 (12 s); targets all enemies for ATK x 3.4 damage"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 70% chance to evade Paralysis (9 s); targets Driven class enemies for DEF Down Lv.4 (13 s), SPD Down Lv.4 (13 s); targets all enemies for ATK x 3.6 damage"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 75% chance to evade Paralysis (9 s); targets Driven class enemies for DEF Down Lv.5 (14 s), SPD Down Lv.5 (14 s); targets all enemies for ATK x 3.8 damage"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 80% chance to evade Paralysis (10 s); targets Driven class enemies for DEF Down Lv.5 (15 s), SPD Down Lv.5 (15 s); targets all enemies for ATK x 4 damage"
             }
         ]
     },
     4573: {//Co-Op 5+ Gol D. Roger
-        captain: "Boosts crew's HP by 1.25x, makes unfavorable slots have matching slot effects, and if every type is on the crew or 6 [PSY] characters are on the crew, boosts crew's ATK by 5.25x, and reduces crew's Bind duration by 6 turns",
-        special: "Reduces crew's Special charge time by 1 turn, removes all beneficial effects placed on the crew, reduces crew's Despair duration by 6 turns, and boosts crew's base ATK by +1250 for 5 turns. If 4 or more [Four Emperors] [Land of Wano Arc] [Roger Pirates] characters are on the crew, applies \"Territory: Crew\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25%) for 1 turn",
+        captain: "Boosts HP of all characters by 1.25x, and makes badly matching orbs beneficial for all characters. If you have 6 [PSY] characters or there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, boosts ATK of all characters by 5.25x, and reduces Bind duration by 6 turns.",
+        special: "Reduces Special Cooldown of all characters by 1 turn, removes all positive buffs on your team, reduces Despair duration by 6 turns, and boosts Base ATK of all characters by 1,250 for 5 turns. If your crew has 4+ [Four Emperors], [Land of Wano Arc] or [Roger Pirates] characters, applies Territory: Crew to the field for 1 turn.",
         specialName: "Location of the Great Treasure",
         sailor: {
-            base: "Boosts crew's base stats by 100",
-            level1: "Reduces character's Special Reverse by 2 turns"
+            base: "Boosts base ATK, HP and RCV of all characters by 100.",
+            level1: "Restores Special Cooldown of this character by 2 turns when it is rewinded."
         },
         support: [
             {
-                Characters: "Characters with a Cost of 70 or more",
+                Characters: "Characters with Cost 70 or more",
                 description: [
-                    "Once per quest, if supported character uses a Special, heals crew by 500 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 700 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,000 HP",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,000 HP and reduces top-right character's Special charge time by 1 turn",
-                    "Once per quest, if supported character uses a Special, heals crew by 1,000 HP and reduces top-right character's Special charge time by 1 turn [AUTO+] At battle 1, activates supported character's Special"
+                    "Once per adventure, when the supported character uses their special, recovers 500 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 700 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,000 HP.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,000 HP, and reduces Special Cooldown of Captain character by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, recovers 1,000 HP, and reduces Special Cooldown of Captain character by 1 turn. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special."
                 ]
             }
         ],
@@ -186333,87 +185461,25 @@ window.details = {
                     "Boosts Damage Limit Break effect based on number of [PSY] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
                 ]
             }
-        ],
-        festStats: {
-            def: 175,
-            spd: 143,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade Special Bind, reduce damage taken from [INT] by 20%",
-        festAbility: [
-            "[PSY]/Free Spirit class teammates HP Up Lv.2, DEF Up Lv.1; Driven class enemies SPD Down Lv.3; if 5 or more Free Spirit class characters are on the team, Driven class enemies DEF Down Lv.1; during Assault Rumble, self HP Up Lv.4, Special CT Speed Up Lv.2",
-            "[PSY]/Free Spirit class teammates HP Up Lv.3, DEF Up Lv.1; Driven class enemies SPD Down Lv.4; if 5 or more Free Spirit class characters are on the team, Driven class enemies DEF Down Lv.1; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.2",
-            "[PSY]/Free Spirit class teammates HP Up Lv.4, DEF Up Lv.2; Driven class enemies SPD Down Lv.5; if 5 or more Free Spirit class characters are on the team, Driven class enemies DEF Down Lv.2; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.3",
-            "[PSY]/Free Spirit class teammates HP Up Lv.5, DEF Up Lv.2; Driven class enemies SPD Down Lv.6; if 5 or more Free Spirit class characters are on the team, Driven class enemies DEF Down Lv.2; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
-            "[PSY]/Free Spirit class teammates HP Up Lv.6, DEF Up Lv.3; Driven class enemies SPD Down Lv.7; if 5 or more Free Spirit class characters are on the team, Driven class enemies DEF Down Lv.3; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4"
-        ],
-        festSpecial: [
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 55% chance to evade Paralysis (6 s); targets Driven class enemies for DEF Down Lv.3 (11 s), SPD Down Lv.3 (11 s); targets all enemies for ATK x 3.2 damage; during Assault Rumble, targets Driven class enemies for ATK Down Lv.3 (11 s); targets 1 enemy for 55% chance of Halve Stats (6 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 60% chance to evade Paralysis (7 s); targets Driven class enemies for DEF Down Lv.3 (12 s), SPD Down Lv.3 (12 s); targets all enemies for ATK x 3.4 damage; during Assault Rumble, targets Driven class enemies for ATK Down Lv.3 (12 s); targets 1 enemy for 60% chance of Halve Stats (7 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 65% chance to evade Paralysis (8 s); targets Driven class enemies for DEF Down Lv.4 (13 s), SPD Down Lv.4 (13 s); targets all enemies for ATK x 3.6 damage; during Assault Rumble, targets Driven class enemies for ATK Down Lv.4 (13 s); targets 1 enemy for 65% chance of Halve Stats (8 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 70% chance to evade Paralysis (9 s); targets Driven class enemies for DEF Down Lv.4 (14 s), SPD Down Lv.4 (14 s); targets all enemies for ATK x 3.8 damage; during Assault Rumble, targets Driven class enemies for ATK Down Lv.4 (14 s); targets 1 enemy for 70% chance of Halve Stats (9 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 75% chance to evade Paralysis (10 s); targets Driven class enemies for DEF Down Lv.5 (15 s), SPD Down Lv.5 (15 s); targets all enemies for ATK x 4 damage; during Assault Rumble, targets Driven class enemies for ATK Down Lv.5 (15 s); targets 1 enemy for 75% chance of Halve Stats (10 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 80% chance to evade Paralysis (11 s); targets Driven class enemies for DEF Down Lv.5 (16 s), SPD Down Lv.5 (16 s); targets all enemies for ATK x 4.2 damage; during Assault Rumble, targets Driven class enemies for ATK Down Lv.5 (16 s); targets 1 enemy for 80% chance of Halve Stats (11 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 85% chance to evade Paralysis (12 s); targets Driven class enemies for DEF Down Lv.6 (17 s), SPD Down Lv.6 (17 s); targets all enemies for ATK x 4.4 damage; during Assault Rumble, targets Driven class enemies for ATK Down Lv.6 (17 s); targets 1 enemy for 85% chance of Halve Stats (12 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 90% chance to evade Paralysis (13 s); targets Driven class enemies for DEF Down Lv.6 (18 s), SPD Down Lv.6 (18 s); targets all enemies for ATK x 4.6 damage; during Assault Rumble, targets Driven class enemies for ATK Down Lv.6 (18 s); targets 1 enemy for 90% chance of Halve Stats (13 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 95% chance to evade Paralysis (14 s); targets Driven class enemies for DEF Down Lv.7 (19 s), SPD Down Lv.7 (19 s); targets all enemies for ATK x 4.8 damage; during Assault Rumble, targets Driven class enemies for ATK Down Lv.7 (19 s); targets 1 enemy for 95% chance of Halve Stats (14 s)"
-            },
-            {
-                cooldown: 31,
-                description: "Targets [PSY]/Free Spirit class teammates for 100% chance to evade Paralysis (15 s); targets Driven class enemies for DEF Down Lv.7 (20 s), SPD Down Lv.7 (20 s); targets all enemies for ATK x 5 damage; during Assault Rumble, targets Driven class enemies for ATK Down Lv.7 (20 s); targets 1 enemy for 100% chance of Halve Stats (15 s)"
-            }
         ]
     },
     4574: {//Blitz 5* St. Ethanbaron V. Nusjuro
-        captain: "Boosts crew's HP by 1.25x, makes unfavorable slots have matching slot effects, reduces crew's Despair duration by 6 turns, and if 4 or more characters of the same type are on the crew, boosts that type's ATK by 4.5x",
-        special: "Reduces all enemies' damage reduction by 1 turn, reduces crew's decrease chain multiplier growth rate duration by 6 turns, increases all enemies' damage taken by 2.25x for 1 turn, then after 1 turn, increases all enemies' damage taken by 2.25x for 1 turn. If 3 or more [World Government] [Five Elders] characters are on the crew, reduces Captain's Special charge time by 5 turns (Special charge time reduction effect of \"Swift Gallop\" can be activated up to 1 time including any Specials with similar effect)",
+        captain: "Boosts HP of all characters by 1.25x, makes badly matching orbs beneficial for all characters, and reduces Despair duration by 6 turns. If your crew has 4+ characters of the same Type, boosts ATK of the Dominant Type characters by 4.5x.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 1 turn, reduces Chain Coefficient Reduction duration by 6 turns, inflicts all enemies with Increase Damage Taken by 2.25x for 1 turn, and after 1 turn, inflicts all enemies with Increase Damage Taken by 2.25x for 1 turn. If your crew has 3+ [World Government] or [Five Elders] characters, up to 1 time per adventure, reduces Special Cooldown of Captain character by 5 turns.",
         specialName: "Swift Gallop",
         sailor: {
-            base: "Boosts crew's base stats by 100",
-            level1: "If 3 or more [World Government] [Five Elders] characters are on the crew and enemy launches damage reduction effect, reduces all enemies' damage reduction duration by 1 turn at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "Boosts base ATK, HP and RCV of all characters by 100.",
+            level1: "If your crew has 3+ [World Government] or [Five Elders] characters, once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 1 turn."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [World Government], [Five Elders]",
+                Characters: "[World Government], [Five Elders] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces crew's decrease chain multiplier growth rate duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's decrease chain multiplier growth rate duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's decrease chain multiplier growth rate duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's decrease chain multiplier growth rate duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's decrease chain multiplier growth rate duration by 1 turn and reduces supported character's Special charge time by 1 turn"
+                    "Once per adventure, when the supported character uses their special, reduces Chain Coefficient Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Chain Coefficient Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Chain Coefficient Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Chain Coefficient Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Chain Coefficient Reduction duration by 1 turn, and reduces Special Cooldown of supported character by 1 turn."
                 ]
             }
         ],
@@ -186478,100 +185544,38 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.1x to characters with a Cost of 70 or more for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.3x to characters with a Cost of 70 or more for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.45x to characters with a Cost of 70 or more for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.6x to characters with a Cost of 70 or more for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.75x to characters with a Cost of 70 or more for 1 turn"
+                "Boosts Tandem ATK of Cost of 70 or more characters by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of Cost of 70 or more characters by 1.3x for 1 turn.",
+                "Boosts Tandem ATK of Cost of 70 or more characters by 1.45x for 1 turn.",
+                "Boosts Tandem ATK of Cost of 70 or more characters by 1.6x for 1 turn.",
+                "Boosts Tandem ATK of Cost of 70 or more characters by 1.75x for 1 turn."
             ]
-        },
-        festStats: {
-            def: 125,
-            spd: 162,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "60% chance to evade Action Bind",
-        festAbility: [
-            "Driven/Slasher class and [World Government] teammates HP Up Lv.1, ATK Up Lv.1, SPD Up Lv.1; if 6 or more Driven/Slasher class characters or 5 or more [World Government] characters are on the team, self Special CT Speed Up Lv.1, ATK Up Lv.1",
-            "Driven/Slasher class and [World Government] teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; if 6 or more Driven/Slasher class characters or 5 or more [World Government] characters are on the team, self Special CT Speed Up Lv.1, ATK Up Lv.2",
-            "Driven/Slasher class and [World Government] teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; if 6 or more Driven/Slasher class characters or 5 or more [World Government] characters are on the team, self Special CT Speed Up Lv.1, ATK Up Lv.3",
-            "Driven/Slasher class and [World Government] teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; if 6 or more Driven/Slasher class characters or 5 or more [World Government] characters are on the team, self Special CT Speed Up Lv.1, ATK Up Lv.4",
-            "Driven/Slasher class and [World Government] teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; if 6 or more Driven/Slasher class characters or 5 or more [World Government] characters are on the team, self Special CT Speed Up Lv.2, ATK Up Lv.5"
-        ],
-        festSpecial: [
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 30% chance of Paralysis (6 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.1 (6 s), SPD Down Lv.1 (6 s), DEF Down Lv.1 (6 s); targets enemies with Paralysis for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 32% chance of Paralysis (6 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.1 (7 s), SPD Down Lv.1 (7 s), DEF Down Lv.1 (7 s); targets enemies with Paralysis for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 34% chance of Paralysis (7 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.1 (8 s), SPD Down Lv.1 (8 s), DEF Down Lv.1 (8 s); targets enemies with Paralysis for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 36% chance of Paralysis (7 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.2 (9 s), SPD Down Lv.2 (9 s), DEF Down Lv.1 (9 s); targets enemies with Paralysis for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 38% chance of Paralysis (8 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.2 (10 s), SPD Down Lv.2 (10 s), DEF Down Lv.2 (10 s); targets enemies with Paralysis for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 40% chance of Paralysis (8 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.3 (11 s), SPD Down Lv.3 (11 s), DEF Down Lv.2 (11 s); targets enemies with Paralysis for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 42% chance of Paralysis (9 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.3 (12 s), SPD Down Lv.3 (12 s), DEF Down Lv.2 (12 s); targets enemies with Paralysis for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 44% chance of Paralysis (9 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.3 (13 s), SPD Down Lv.3 (13 s), DEF Down Lv.3 (13 s); targets enemies with Paralysis for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 46% chance of Paralysis (10 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.4 (14 s), SPD Down Lv.4 (14 s), DEF Down Lv.3 (14 s); targets enemies with Paralysis for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 50% chance of Paralysis (10 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.5 (15 s), SPD Down Lv.5 (15 s), DEF Down Lv.4 (15 s); targets enemies with Paralysis for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies)"
-            }
-        ]
+        }
     },
     4575: {//Blitz 5+ St. Ethanbaron V. Nusjuro
-        captain: "Boosts crew's HP by 1.25x, makes unfavorable slots have matching slot effects, reduces crew's Despair duration by 6 turns, and if 4 or more characters of the same type are on the crew, boosts that type's ATK by 5.25x",
-        special: "Reduces all enemies' damage reduction by 2 turns, reduces crew's decrease chain multiplier growth rate duration by 6 turns, increases all enemies' damage taken by 2.25x for 1 turn, then after 1 turn, increases all enemies' damage taken by 2.25x for 1 turn. If 3 or more [World Government] [Five Elders] characters are on the crew, reduces Captain's Special charge time by 7 turns, and boosts the chain multiplier by +1.2 for 3 turns (Special charge time reduction effect of \"Swift Gallop\" can be activated up to 1 time including any Specials with similar effect)",
+        captain: "Boosts HP of all characters by 1.25x, makes badly matching orbs beneficial for all characters, and reduces Despair duration by 6 turns. If your crew has 4+ characters of the same Type, boosts ATK of the Dominant Type characters by 5.25x.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 2 turns, reduces Chain Coefficient Reduction duration by 6 turns, inflicts all enemies with Increase Damage Taken by 2.25x for 1 turn, and after 1 turn, inflicts all enemies with Increase Damage Taken by 2.25x for 1 turn. If your crew has 3+ [World Government] or [Five Elders] characters, adds 1.2x to chain multiplier for 3 turns, and up to 1 time per adventure, reduces Special Cooldown of Captain character by 7 turns.",
         specialName: "Swift Gallop",
         sailor: {
-            base: "Boosts crew's base stats by 100",
-            level1: "If 3 or more [World Government] [Five Elders] characters are on the crew and enemy launches damage reduction effect, reduces all enemies' damage reduction duration by 1 turn at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "Boosts base ATK, HP and RCV of all characters by 100.",
+            level1: "If your crew has 3+ [World Government] or [Five Elders] characters, once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 1 turn."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [World Government], [Five Elders]",
+                Characters: "[World Government], [Five Elders] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces crew's decrease chain multiplier growth rate duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's decrease chain multiplier growth rate duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's decrease chain multiplier growth rate duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's decrease chain multiplier growth rate duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's decrease chain multiplier growth rate duration by 1 turn and reduces supported character's Special charge time by 1 turn"
+                    "Once per adventure, when the supported character uses their special, reduces Chain Coefficient Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Chain Coefficient Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Chain Coefficient Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Chain Coefficient Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Chain Coefficient Reduction duration by 1 turn, and reduces Special Cooldown of supported character by 1 turn."
                 ]
             }
         ],
@@ -186636,82 +185640,20 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, St. Shepherd Ju Peter, St. Topman Warcury"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.1x to characters with a Cost of 70 or more for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.3x to characters with a Cost of 70 or more for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.45x to characters with a Cost of 70 or more for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.6x to characters with a Cost of 70 or more for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.75x to characters with a Cost of 70 or more for 1 turn"
+                "Boosts Tandem ATK of Cost of 70 or more characters by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of Cost of 70 or more characters by 1.3x for 1 turn.",
+                "Boosts Tandem ATK of Cost of 70 or more characters by 1.45x for 1 turn.",
+                "Boosts Tandem ATK of Cost of 70 or more characters by 1.6x for 1 turn.",
+                "Boosts Tandem ATK of Cost of 70 or more characters by 1.75x for 1 turn."
             ]
-        },
-        festStats: {
-            def: 150,
-            spd: 167,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade Action Bind, reduce damage taken from [PSY] by 20%",
-        festAbility: [
-            "Driven/Slasher class and [World Government] teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; if 6 or more Driven/Slasher class characters or 5 or more [World Government] characters are on the team, self Special CT Speed Up Lv.2, ATK Up Lv.2; during Assault Rumble, self HP Up Lv.3, Special CT Speed Up Lv.1",
-            "Driven/Slasher class and [World Government] teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; if 6 or more Driven/Slasher class characters or 5 or more [World Government] characters are on the team, self Special CT Speed Up Lv.2, ATK Up Lv.3; during Assault Rumble, self HP Up Lv.4, Special CT Speed Up Lv.1",
-            "Driven/Slasher class and [World Government] teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; if 6 or more Driven/Slasher class characters or 5 or more [World Government] characters are on the team, self Special CT Speed Up Lv.2, ATK Up Lv.4; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.2",
-            "Driven/Slasher class and [World Government] teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; if 6 or more Driven/Slasher class characters or 5 or more [World Government] characters are on the team, self Special CT Speed Up Lv.2, ATK Up Lv.5; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
-            "Driven/Slasher class and [World Government] teammates HP Up Lv.6, ATK Up Lv.6, SPD Up Lv.6; if 6 or more Driven/Slasher class characters or 5 or more [World Government] characters are on the team, self Special CT Speed Up Lv.3, ATK Up Lv.6; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4"
-        ],
-        festSpecial: [
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 50% chance of Paralysis (11 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.3 (11 s), SPD Down Lv.3 (11 s), DEF Down Lv.1 (11 s); targets enemies with Paralysis for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets Fighter/Powerhouse class enemies for ATK x 1 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 52% chance of Paralysis (11 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.3 (12 s), SPD Down Lv.3 (12 s), DEF Down Lv.1 (12 s); targets enemies with Paralysis for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets Fighter/Powerhouse class enemies for ATK x 1.2 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 55% chance of Paralysis (12 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.3 (13 s), SPD Down Lv.3 (13 s), DEF Down Lv.1 (13 s); targets enemies with Paralysis for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets Fighter/Powerhouse class enemies for ATK x 1.4 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 57% chance of Paralysis (12 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.4 (14 s), SPD Down Lv.4 (14 s), DEF Down Lv.2 (14 s); targets enemies with Paralysis for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets Fighter/Powerhouse class enemies for ATK x 1.6 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 60% chance of Paralysis (13 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.4 (15 s), SPD Down Lv.4 (15 s), DEF Down Lv.2 (15 s); targets enemies with Paralysis for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets Fighter/Powerhouse class enemies for ATK x 1.8 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 62% chance of Paralysis (13 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.5 (16 s), SPD Down Lv.5 (16 s), DEF Down Lv.3 (16 s); targets enemies with Paralysis for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets Fighter/Powerhouse class enemies for ATK x 2 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 65% chance of Paralysis (14 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.5 (17 s), SPD Down Lv.5 (17 s), DEF Down Lv.3 (17 s); targets enemies with Paralysis for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets Fighter/Powerhouse class enemies for ATK x 2.2 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 67% chance of Paralysis (14 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.5 (18 s), SPD Down Lv.5 (18 s), DEF Down Lv.3 (18 s); targets enemies with Paralysis for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets Fighter/Powerhouse class enemies for ATK x 2.4 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 70% chance of Paralysis (15 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.6 (19 s), SPD Down Lv.6 (19 s), DEF Down Lv.4 (19 s); targets enemies with Paralysis for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets Fighter/Powerhouse class enemies for ATK x 2.6 damage"
-            },
-            {
-                cooldown: 32,
-                description: "Targets enemies within large range for 75% chance of Paralysis (15 s); targets enemies with Paralysis/Damage Over Time for ATK Down Lv.7 (20 s), SPD Down Lv.7 (20 s), DEF Down Lv.5 (20 s); targets enemies with Paralysis for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets Fighter/Powerhouse class enemies for ATK x 3 damage"
-            }
-        ]
+        }
     },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
