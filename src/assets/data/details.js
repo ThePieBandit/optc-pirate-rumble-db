@@ -183827,6 +183827,148 @@ window.details = {
             }
         ]
     },
+    4555: {//5+ Dr. Vegapunk - Edison
+        captain: "Sets all slots to [BOMB] and locks crew's slots for 1 turn at start of quest, boosts crew's ATK by 4x, HP by 1.25x, and makes crew's [BOMB][S. BOMB] slots have matching slot effects",
+        special: "Reduces crew's Despair/ATK Down duration by 2 turns, and launches the following effects based on character's Special launch status: (0) sets the chain multiplier's minimum value at 2.5 and maximum value at 17.5 for 1 turn, and then sets character's Special launch status to (1); (1) boosts the chain multiplier by +1.2 for 1 turn, and if character's slot is [BLOCK][BOMB][G] or Rainbow when Special is launched, sets character's Special launch status to (2): (2) prevents character's slot from being changed until character lands a PERFECT strike 1 time, applies \"Territory: [INT]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn (Special launch status effect is not stackable)",
+        specialName: "Newly-Acquired Body",
+        sailor: {
+            base: "Boosts Cerebral and Free Spirit characters' base ATK by 50",
+            level1: "Makes crew's [BOMB] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "[INT] characters with the following Character Tag: [Egghead Arc]",
+                description: [
+                    "Adds 3% of character's base RCV to supported character's base RCV",
+                    "Adds 4% of character's base RCV to supported character's base RCV",
+                    "Adds 5% of character's base RCV to supported character's base RCV",
+                    "Adds 7% of character's base RCV to supported character's base RCV",
+                    "Adds 9% of character's base RCV to supported character's base RCV [AUTO+] At battle 5, activates supported character's Switch Effect. At final battle, activates supported character's Special"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Special Use Limit",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 70",
+            "Boosts base ATK by 50",
+            "Reduce base Special Cooldown by 1 turn",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 20",
+            "Acquire Potential 3: Triple Special Activation",
+            "Boosts base HP by 300",
+            "Boosts base ATK by 100",
+            "Acquire Sailor Ability 2: Makes crew's [BOMB] slots have matching slot effects"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Special Use Limit",
+                description: [
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Triple Special Activation",
+                description: [
+                    "2 times per adventure, reduces Special Cooldown of this character by 1 turn after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character by 3 turns after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character by 5 turns after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character by 7 turns after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character completely after the first times this special is used"
+                ]
+            }
+        ],
+        festStats: {
+            def: 156,
+            spd: 145,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "80% chance to evade Special Bind, reduce damage taken from [PSY] by 20％",
+        festAbility: [
+            "[INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.1, SPD Up Lv.1; [Navy] [World Government] enemies ATK Down Lv.3; if 3 or more [Scientist] characters are on the team and self is KO'd, launches Rumble Special 1 time; during Assault Rumble, self HP Up Lv.2; [Navy] [World Government] enemies DEF Down Lv.1",
+            "[INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.2, SPD Up Lv.2; [Navy] [World Government] enemies ATK Down Lv.4; if 3 or more [Scientist] characters are on the team and self is KO'd, launches Rumble Special 1 time; during Assault Rumble, self HP Up Lv.3; [Navy] [World Government] enemies DEF Down Lv.1",
+            "[INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.3, SPD Up Lv.3; [Navy] [World Government] enemies ATK Down Lv.5; if 3 or more [Scientist] characters are on the team and self is KO'd, launches Rumble Special 1 time; during Assault Rumble, self HP Up Lv.4; [Navy] [World Government] enemies DEF Down Lv.2",
+            "[INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.4, SPD Up Lv.4; [Navy] [World Government] enemies ATK Down Lv.6; if 3 or more [Scientist] characters are on the team and self is KO'd, launches Rumble Special 1 time; during Assault Rumble, self HP Up Lv.5; [Navy] [World Government] enemies DEF Down Lv.2",
+            "[INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.5, SPD Up Lv.5; [Navy] [World Government] enemies ATK Down Lv.7; if 3 or more [Scientist] characters are on the team and self is KO'd, launches Rumble Special 1 time; during Assault Rumble, self HP Up Lv.6; [Navy] [World Government] enemies DEF Down Lv.4"
+        ],
+        festSpecial: [
+            {
+                cooldown: 29,
+                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.1 (11 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.1 (11 s), SPD Down Lv.1 (11 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.1 (73 s); targets 2 [World Government] enemies for 62% chance of Confusion (5 s); targets [World Government] enemies ignoring DEF for ATK x 1.15 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.1 damage"
+            },
+            {
+                cooldown: 29,
+                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.1 (12 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.1 (12 s), SPD Down Lv.1 (12 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.1 (76 s); targets 2 [World Government] enemies for 64% chance of Confusion (6 s); targets [World Government] enemies ignoring DEF for ATK x 1.2 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.2 damage"
+            },
+            {
+                cooldown: 29,
+                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.1 (13 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.1 (13 s), SPD Down Lv.1 (13 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.1 (79 s); targets 2 [World Government] enemies for 66% chance of Confusion (6 s); targets [World Government] enemies ignoring DEF for ATK x 1.25 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.3 damage"
+            },
+            {
+                cooldown: 29,
+                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.2 (14 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.2 (14 s), SPD Down Lv.2 (14 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.2 (82 s); targets 2 [World Government] enemies for 68% chance of Confusion (7 s); targets [World Government] enemies ignoring DEF for ATK x 1.3 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.4 damage"
+            },
+            {
+                cooldown: 29,
+                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.2 (15 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.2 (15 s), SPD Down Lv.2 (15 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.2 (85 s); targets 2 [World Government] enemies for 70% chance of Confusion (7 s); targets [World Government] enemies ignoring DEF for ATK x 1.35 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.5 damage"
+            },
+            {
+                cooldown: 29,
+                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.3 (16 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.3 (16 s), SPD Down Lv.3 (16 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.3 (88 s); targets 2 [World Government] enemies for 72% chance of Confusion (8 s); targets [World Government] enemies ignoring DEF for ATK x 1.4 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.6 damage"
+            },
+            {
+                cooldown: 29,
+                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.3 (17 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.3 (17 s), SPD Down Lv.3 (17 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.3 (91 s); targets 2 [World Government] enemies for 74% chance of Confusion (8 s); targets [World Government] enemies ignoring DEF for ATK x 1.45 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.7 damage"
+            },
+            {
+                cooldown: 29,
+                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.3 (18 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.3 (18 s), SPD Down Lv.3 (18 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.3 (94 s); targets 2 [World Government] enemies for 76% chance of Confusion (9 s); targets [World Government] enemies ignoring DEF for ATK x 1.5 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.8 damage"
+            },
+            {
+                cooldown: 29,
+                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.4 (19 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.4 (19 s), SPD Down Lv.4 (19 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.4 (97 s); targets 2 [World Government] enemies for 78% chance of Confusion (9 s); targets [World Government] enemies ignoring DEF for ATK x 1.55 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.9 damage"
+            },
+            {
+                cooldown: 29,
+                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.5 (20 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.5 (20 s), SPD Down Lv.5 (20 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.5 (100 s); targets 2 [World Government] enemies for 80% chance of Confusion (10 s); targets [World Government] enemies ignoring DEF for ATK x 1.6 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 4 damage"
+            }
+        ]
+    },
     4556: {//Ace
         captain: "Launches the following effects at start of fight: sets Special Launch Status to (1), and reduces Switch Effect of all characters by 6. Boosts ATK of Fighter characters by 5x, by 5.75x instead if HP is above 99% or below 25% at the start of the turn, boosts HP of Fighter characters by 1.5x, makes [DEX] and [RCV] orbs beneficial for Fighter characters, and increases duration of any ATK Up buffs applied by specials by 2 turns.",
         special: "Ignores Debuff Protection and inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 1 turn, reduces Bind duration by 6 turns, and boosts ATK of Fighter characters by 3x, can be enhanced up to 2 times, for 3 turns. If HP is above 10% and Special Launch Status is (1) when the special is activated, reduces enemies' Increased Defense duration by 6 turns, reduces Special Cooldown of this character by 13 turns, and sets Special Launch Status to (2). If HP is below 10% or Special Launch Status is (2) when the special is activated, changes all non-[DEX] orbs, including [BLOCK] orbs, into [DEX] orbs, boosts ATK against enemies inflicted with Burn by 2.25x for 1 turn, and reduces Special Cooldown of bottom row characters by 3 turns.",
