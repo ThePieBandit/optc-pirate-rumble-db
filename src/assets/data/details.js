@@ -183828,22 +183828,22 @@ window.details = {
         ]
     },
     4555: {//5+ Dr. Vegapunk - Edison
-        captain: "Sets all slots to [BOMB] and locks crew's slots for 1 turn at start of quest, boosts crew's ATK by 4x, HP by 1.25x, and makes crew's [BOMB][S. BOMB] slots have matching slot effects",
-        special: "Reduces crew's Despair/ATK Down duration by 2 turns, and launches the following effects based on character's Special launch status: (0) sets the chain multiplier's minimum value at 2.5 and maximum value at 17.5 for 1 turn, and then sets character's Special launch status to (1); (1) boosts the chain multiplier by +1.2 for 1 turn, and if character's slot is [BLOCK][BOMB][G] or Rainbow when Special is launched, sets character's Special launch status to (2): (2) prevents character's slot from being changed until character lands a PERFECT strike 1 time, applies \"Territory: [INT]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn (Special launch status effect is not stackable)",
+        captain: "Launches the following effects at start of fight: changes all orbs into [BOMB] orbs, and locks all orbs for 1 turn. Boosts ATK of all characters by 4x, boosts HP of all characters by 1.25x, and makes [BOMB] and [SUPERBOMB] orbs beneficial for all characters.",
+        special: "Reduces Despair and ATK Down duration by 2 turns. Launches the following effects depending on the Special Launch Status of this character when the special is activated: <ul><li><b>(0):</b> Sets Chain Boundaries to 2.5x and 17.5x for 1 turn, and sets Special Launch Status of this character to (1).</li> <li><b>(1):</b> Adds 1.2x to chain multiplier for 1 turn. If this character's orb is a [BLOCK], [BOMB], [G] or [RAINBOW] orb when the special is activated, sets Special Launch Status of this character to (2).</li> <li><b>(2):</b> Barriers this character's orb for 1 PERFECT hit, and applies Territory: [INT] to the field for 1 turn.</li></ul>",
         specialName: "Newly-Acquired Body",
         sailor: {
-            base: "Boosts Cerebral and Free Spirit characters' base ATK by 50",
-            level1: "Makes crew's [BOMB] slots have matching slot effects"
+            base: "Boosts base ATK of Cerebral and Free Spirit characters by 50.",
+            level1: "Makes [BOMB] orbs beneficial for all characters."
         },
         support: [
             {
-                Characters: "[INT] characters with the following Character Tag: [Egghead Arc]",
+                Characters: "[INT] [Egghead Arc] characters",
                 description: [
-                    "Adds 3% of character's base RCV to supported character's base RCV",
-                    "Adds 4% of character's base RCV to supported character's base RCV",
-                    "Adds 5% of character's base RCV to supported character's base RCV",
-                    "Adds 7% of character's base RCV to supported character's base RCV",
-                    "Adds 9% of character's base RCV to supported character's base RCV [AUTO+] At battle 5, activates supported character's Switch Effect. At final battle, activates supported character's Special"
+                    "Adds 3% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 4% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 5% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 7% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 9% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 5th stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -183904,68 +183904,6 @@ window.details = {
                     "2 times per adventure, reduces Special Cooldown of this character by 7 turns after the first times this special is used",
                     "2 times per adventure, reduces Special Cooldown of this character completely after the first times this special is used"
                 ]
-            }
-        ],
-        festStats: {
-            def: 156,
-            spd: 145,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade Special Bind, reduce damage taken from [PSY] by 20％",
-        festAbility: [
-            "[INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.1, SPD Up Lv.1; [Navy] [World Government] enemies ATK Down Lv.3; if 3 or more [Scientist] characters are on the team and self is KO'd, launches Rumble Special 1 time; during Assault Rumble, self HP Up Lv.2; [Navy] [World Government] enemies DEF Down Lv.1",
-            "[INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.2, SPD Up Lv.2; [Navy] [World Government] enemies ATK Down Lv.4; if 3 or more [Scientist] characters are on the team and self is KO'd, launches Rumble Special 1 time; during Assault Rumble, self HP Up Lv.3; [Navy] [World Government] enemies DEF Down Lv.1",
-            "[INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.3, SPD Up Lv.3; [Navy] [World Government] enemies ATK Down Lv.5; if 3 or more [Scientist] characters are on the team and self is KO'd, launches Rumble Special 1 time; during Assault Rumble, self HP Up Lv.4; [Navy] [World Government] enemies DEF Down Lv.2",
-            "[INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.4, SPD Up Lv.4; [Navy] [World Government] enemies ATK Down Lv.6; if 3 or more [Scientist] characters are on the team and self is KO'd, launches Rumble Special 1 time; during Assault Rumble, self HP Up Lv.5; [Navy] [World Government] enemies DEF Down Lv.2",
-            "[INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.5, SPD Up Lv.5; [Navy] [World Government] enemies ATK Down Lv.7; if 3 or more [Scientist] characters are on the team and self is KO'd, launches Rumble Special 1 time; during Assault Rumble, self HP Up Lv.6; [Navy] [World Government] enemies DEF Down Lv.4"
-        ],
-        festSpecial: [
-            {
-                cooldown: 29,
-                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.1 (11 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.1 (11 s), SPD Down Lv.1 (11 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.1 (73 s); targets 2 [World Government] enemies for 62% chance of Confusion (5 s); targets [World Government] enemies ignoring DEF for ATK x 1.15 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.1 damage"
-            },
-            {
-                cooldown: 29,
-                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.1 (12 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.1 (12 s), SPD Down Lv.1 (12 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.1 (76 s); targets 2 [World Government] enemies for 64% chance of Confusion (6 s); targets [World Government] enemies ignoring DEF for ATK x 1.2 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.2 damage"
-            },
-            {
-                cooldown: 29,
-                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.1 (13 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.1 (13 s), SPD Down Lv.1 (13 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.1 (79 s); targets 2 [World Government] enemies for 66% chance of Confusion (6 s); targets [World Government] enemies ignoring DEF for ATK x 1.25 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.3 damage"
-            },
-            {
-                cooldown: 29,
-                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.2 (14 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.2 (14 s), SPD Down Lv.2 (14 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.2 (82 s); targets 2 [World Government] enemies for 68% chance of Confusion (7 s); targets [World Government] enemies ignoring DEF for ATK x 1.3 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.4 damage"
-            },
-            {
-                cooldown: 29,
-                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.2 (15 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.2 (15 s), SPD Down Lv.2 (15 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.2 (85 s); targets 2 [World Government] enemies for 70% chance of Confusion (7 s); targets [World Government] enemies ignoring DEF for ATK x 1.35 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.5 damage"
-            },
-            {
-                cooldown: 29,
-                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.3 (16 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.3 (16 s), SPD Down Lv.3 (16 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.3 (88 s); targets 2 [World Government] enemies for 72% chance of Confusion (8 s); targets [World Government] enemies ignoring DEF for ATK x 1.4 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.6 damage"
-            },
-            {
-                cooldown: 29,
-                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.3 (17 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.3 (17 s), SPD Down Lv.3 (17 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.3 (91 s); targets 2 [World Government] enemies for 74% chance of Confusion (8 s); targets [World Government] enemies ignoring DEF for ATK x 1.45 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.7 damage"
-            },
-            {
-                cooldown: 29,
-                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.3 (18 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.3 (18 s), SPD Down Lv.3 (18 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.3 (94 s); targets 2 [World Government] enemies for 76% chance of Confusion (9 s); targets [World Government] enemies ignoring DEF for ATK x 1.5 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.8 damage"
-            },
-            {
-                cooldown: 29,
-                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.4 (19 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.4 (19 s), SPD Down Lv.4 (19 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.4 (97 s); targets 2 [World Government] enemies for 78% chance of Confusion (9 s); targets [World Government] enemies ignoring DEF for ATK x 1.55 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 3.9 damage"
-            },
-            {
-                cooldown: 29,
-                description: "Targets [INT]/Free Spirit class and [Scientist] teammates for ATK Up Lv.5 (20 s); targets [Navy] [World Government] enemies for Special CT Speed Down Lv.5 (20 s), SPD Down Lv.5 (20 s); when remaining HP is 1% or below, targets [Navy] [World Government] enemies for DEF Down Lv.5 (100 s); targets 2 [World Government] enemies for 80% chance of Confusion (10 s); targets [World Government] enemies ignoring DEF for ATK x 1.6 damage: during Assault Rumble, targets [Navy] [World Government] enemies for ATK x 4 damage"
             }
         ]
     },
@@ -185337,7 +185275,7 @@ window.details = {
         }
     },
     4571: {//Imu
-        captain: "Launches the following effect at start of fight: reduces Special Cooldown of Cost 70 or more characters by 34% of Max Cooldown (rounded down), reduces VS Gauge and Switch Effect of all characters by 3, and allows all characters to perform Super Tandem with [STR] orbs for 10 turns. Boosts ATK of Cost 70 or more characters by 6x, boosts ATK of all other characters by 4x, boosts HP of all characters by 1.5x, and reduces Bind, Despair, Paralysis and Special Bind duration completely on this character. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of Cost 70 or more characters by 6.5x instead. If field has Territory: Crew, makes all specials that apply Class or Type restricted buffs apply to all characters instead. <br><b>Special Captain Ability:</b> If this character begins a quest as Captain, allows crew to immediately clear certain quests 6 times per day.",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of Cost 70 or more characters by 34% of Max Cooldown (rounded down), reduces VS Gauge and Switch Effect of all characters by 3, and allows all characters to perform Super Tandem with [STR] orbs for 10 turns. Boosts ATK of Cost 70 or more characters by 6x, boosts ATK of all other characters by 4x, boosts HP of all characters by 1.5x, reduces Bind, Despair, Paralysis and Special Bind duration completely on this character, and restores Special Cooldown of this character completely when it is rewinded. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of Cost 70 or more characters by 6.5x instead. If field has Territory: Crew, makes all specials that apply Class or Type restricted buffs apply to all characters instead. <br><b>Special Captain Ability:</b> If this character begins a quest as Captain, allows crew to immediately clear certain quests 6 times per day.",
         captainNotes: "Special Captain Ability effect is limited to Main Story and Event quests with difficulty 6 stars or less.",
         special: "If this character is your Captain or Friend Captain, reduces enemies' positive buffs duration by 1 turn. Applies Territory: Crew to the field for 3 turns, and launches the following effects depending on the Special Launch Status of this character when the special is activated: <ul><li><b>(0)</b> Reduces Special Cooldown of all characters by 2 turns, reduces Special Bind duration by 10 turns, and sets Chain Boundaries to 3.5x-5.0x and 50.0x for 3 turns depending on the outcome of Action Special.</li><li><b>(1)</b> Reduces Paralysis and Burn duration by 10 turns, decreases boost effects of ATK Up buffs by -1.0x and converts ATK Up into a Stackable ATK Up,  boosts ATK of Cost 70 or more characters by 3.5x-5x for 3 turns depending on the outcome of Action Special, and sets Special Launch Status to (0).</li></ul>",
         specialNotes: "<br><b>Chain Boundary:</b> MISS: 3.5x, GOOD: 4.0x, GREAT: 4.5x, PERFECT: 4.75x, EXCELLENT 5.0x<br><b>ATK:</b> MISS: 3.5x, GOOD: 4.0x, GREAT: 4.5x, PERFECT: 4.75x, EXCELLENT 5.0x",
