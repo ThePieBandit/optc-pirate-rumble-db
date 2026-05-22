@@ -185735,6 +185735,729 @@ window.details = {
             ]
         }
     },
+    4576: {//St. Mars & St. Saturn
+        captain: {
+            character1: "Reduces [STR] and [INT] characters' Switch Effect and VS Effect gauge by 2 at start of quest, boosts [STR], [INT], Powerhouse, and Striker characters' ATK by 5.5x, boosts their ATK by approximately 6x when they have [STR][RCV] or Rainbow slots, makes crew's [STR][RCV][TND] slots have matching slot effects, and if crew uses a Special to apply similar effect of slot effect boost that is applied on crew, reduces the boost effect by 1.75 but changes the effect to a stackable boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as slot effect boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other slot effect boost effects) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' HP by 1.4x, and reduces [Five Elders] [Celestial Dragon] [Navy] [World Government] characters' Special charge time by 5 turns at start of quest",
+            character2: "Reduces [STR] and [INT] characters' Switch Effect and VS Effect gauge by 2 at start of quest, boosts [STR], [INT], Powerhouse, and Striker characters' ATK by 5.5x, boosts their ATK by approximately 6x when they have [INT][RCV] or Rainbow slots, makes crew's [INT][RCV][TND] slots have matching slot effects, and if crew uses a Special to apply similar effect of slot effect boost that is applied on crew, reduces the boost effect by 1.75 but changes the effect to a stackable boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as slot effect boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other slot effect boost effects) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' HP by 1.4x, and reduces [Five Elders] [Celestial Dragon] [Navy] [World Government] characters' Special charge time by 5 turns at start of quest",
+            combined: "Reduces [STR] and [INT] characters' Switch Effect and VS Effect gauge by 2 at start of quest, boosts [STR], [INT], Powerhouse, and Striker characters' ATK by 5.5x, boosts their ATK by approximately 6x when they have [STR][INT][RCV] or Rainbow slots, makes crew's [STR][INT][RCV][TND] slots have matching slot effects, and if crew uses a Special to apply similar effect of slot effect boost that is applied on crew, reduces the boost effect by 1.75 but changes the effect to a stackable boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as slot effect boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other slot effect boost effects) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x, HP by 1.4x, and reduces [Five Elders] [Celestial Dragon] [Navy] [World Government] characters' Special charge time by 5 turns at start of quest"
+        },
+        special: "Deals 150x character's ATK in non-type damage to all enemies (ignoring all defensive effects and DEF), reduces the duration of all enemy barriers by 3 turns, reduces crew's Bind duratiom by 7 turns, and sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect). Increases all enemies' damage taken by up to 3x for up to 6 turns based on total Cost of crew at start of quest including Friend Captains and Support Characters (2x for 1 turn for less than 500 Cost, 2.25x for 1 turn for 500 or more Cost, 2.5x for 1 turn for 600 or more Cost, 2.75x for 3 turns for 700 or more Cost, and 3x for 6 tuns for 750 or more Cost). If 4 or more [Five Elders] [Celestial Dragon] [Navy] [World Government] characters are on the crew, applies \"Territory: Powerhouse class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 2 turns, boosts Powerhouse and Striker characters' base ATK by +2000 for 1 turn, then after that, becomes \"St. Mars & St. Saturn\" for 3 turns",
+        specialName: "Inconvenience-Eradicating Monsters",
+        sailor: {
+            character1: "Character cannot be blown away by attack, and makes Powerhouse and Striker characters' [INT][RCV] slots have matching slot effects",
+            character2: "Character cannot be blown away by attack, and makes Powerhouse and Striker characters' [INT][RCV] slots have matching slot effects",
+            combined: "Character cannot be blown away by attack, and makes Powerhouse and Striker characters' [INT][RCV] slots have matching slot effects",
+            level1: "Tapping on this character with a [RCV] slot will further increase crew's slot effect boost by +0.25"
+        },
+        superSpecialCriteria: "When character becomes \"St. Mars & St. Saturn\" with Super Switch effect and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Imu, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam",
+        superSpecial: "Reduces Captain's Special charge time by 7 turns, applies -25% [STR] and [INT] Resistance to all enemies for 1 turn, boosts the chain multiplier by +1.5 for 1 turn, changes Powerhouse characters to Super Powerhouse, and changes Striker characters to Super Striker",
+        swap: {
+            base: "Changes character's slot to [RCV], and boosts [STR], [INT], Powerhouse, and Striker characters' ATK by 1.75x for 1 turn (effect can be overwritten with other ATK boost effects)",
+            super: "Changes adjacent slots (including [BLOCK] slots) to character's own type, changes character's slot (including [BLOCK] slots) to [RCV], boosts [STR], [INT], Powerhouse, and Striker characters' ATK by 2.75x for 1 turn (effect can be overwritten with other ATK boost effects), and becomes \"St. Mars & St. Saturn\" for 3 turns",
+            superTurns: 8
+        },
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Enrage/Increase Damage Taken",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Slot Bind",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Tapping on this character with a [RCV] slot will further increase crew's slot effect boost by +0.25",
+            "Boosts base RCV by 40",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 80",
+            "Acquire Potential 3: Rush",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns",
+                    "Boosts base ATK by 400 the turn after taking damage and reduces Increase Damage Taken duration by 4 turns",
+                    "Boosts base ATK by 500 the turn after taking damage and reduces Increase Damage Taken duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+            {
+                Name: "Rush",
+                description: [
+                    "Obtain Rush Lv.1",
+                    "Obtain Rush Lv.2",
+                    "Obtain Rush Lv.3",
+                    "Obtain Rush Lv.4",
+                    "Obtain Rush Lv.5"
+                ]
+            }
+        ],
+        rush: {
+            characterCondition: [
+                "At final battle, if character performs the 1st tap of an attack as a Double Character, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam",
+                "At final battle, if character performs the 1st tap of an attack as a Double Character, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam",
+                "At final battle, if character performs the 1st tap of an attack as a Double Character, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam",
+                "At final battle, if character performs the 1st tap of an attack as a Double Character, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam",
+                "At final battle, if character performs the 1st tap of an attack as a Double Character, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Shepherd Ju Peter, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam"
+            ],
+            description: [
+                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Powerhouse and Striker characters (up to +0.6 chain multiplier; Rush ATK boost 1.6x)",
+                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Powerhouse and Striker characters (up to +0.6 chain multiplier; Rush ATK boost 1.7x)",
+                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Powerhouse and Striker characters (up to +0.6 chain multiplier; Rush ATK boost 1.8x)",
+                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Powerhouse and Striker characters (up to +0.6 chain multiplier; Rush ATK boost 1.9x)",
+                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Powerhouse and Striker characters (up to +0.6 chain multiplier; Rush ATK boost 2.0x)"
+            ],
+            stats: [
+                "HP Cost: 32,500\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Powerhouse and Striker Rush ATK boost 1.1x\nEach successful chain adds +0.1 (up to 1.6)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
+                "HP Cost: 30,000\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Powerhouse and Striker Rush ATK boost 1.2x\nEach successful chain adds +0.1 (up to 1.7)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
+                "HP Cost: 27,500\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Powerhouse and Striker Rush ATK boost 1.3x\nEach successful chain adds +0.1 (up to 1.8)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
+                "HP Cost: 25,000\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Powerhouse and Striker Rush ATK boost 1.4x\nEach successful chain adds +0.1 (up to 1.9)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
+                "HP Cost: 22,500\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Powerhouse and Striker Rush ATK boost 1.5x\nEach successful chain adds +0.1 (up to 2.0)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8"
+            ]
+        },
+        festStats: {
+            def: 142,
+            spd: 199,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from Slasher and Cerebral by 30%",
+        festAbility: [
+            "Powerhouse/Striker class and [World Government] teammates HP Up Lv.2, RCV Up Lv.2, DEF Up Lv.2; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, team Special CT Speed Up Lv.1; all enemies DEF Down Lv.1",
+            "Powerhouse/Striker class and [World Government] teammates HP Up Lv.3, RCV Up Lv.3, DEF Up Lv.3; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, team Special CT Speed Up Lv.1; all enemies DEF Down Lv.2",
+            "Powerhouse/Striker class and [World Government] teammates HP Up Lv.4, RCV Up Lv.4, DEF Up Lv.4; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, team Special CT Speed Up Lv.1; all enemies DEF Down Lv.3",
+            "Powerhouse/Striker class and [World Government] teammates HP Up Lv.5, RCV Up Lv.5, DEF Up Lv.5; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, team Special CT Speed Up Lv.2; all enemies DEF Down Lv.4",
+            "Powerhouse/Striker class and [World Government] teammates HP Up Lv.6, RCV Up Lv.6, DEF Up Lv.6; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, team Special CT Speed Up Lv.3; all enemies DEF Down Lv.5"
+        ],
+        festSpecial: [
+            {
+                cooldown: 24,
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.1 (73 s), SPD UP Lv.1 (73 s), RCV Up Lv.1 (73 s), DEF Up Lv.1 (73 s); targets Cerebral/Slasher class enemies and enemies with RCV Bind for 1600 damage; targets enemies within large range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 5% reduction"
+            },
+            {
+                cooldown: 24,
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.1 (76 s), SPD UP Lv.1 (76 s), RCV Up Lv.1 (76 s), DEF Up Lv.1 (76 s); targets Cerebral/Slasher class enemies and enemies with RCV Bind for 1700 damage; targets enemies within large range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 5% reduction"
+            },
+            {
+                cooldown: 24,
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.1 (79 s), SPD UP Lv.1 (79 s), RCV Up Lv.1 (79 s), DEF Up Lv.1 (79 s); targets Cerebral/Slasher class enemies and enemies with RCV Bind for 1800 damage; targets enemies within large range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 6% reduction"
+            },
+            {
+                cooldown: 24,
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.2 (82 s), SPD UP Lv.2 (82 s), RCV Up Lv.2 (82 s), DEF Up Lv.1 (82 s); targets Cerebral/Slasher class enemies and enemies with RCV Bind for 1900 damage; targets enemies within large range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 6% reduction"
+            },
+            {
+                cooldown: 24,
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.2 (85 s), SPD UP Lv.2 (85 s), RCV Up Lv.2 (85 s), DEF Up Lv.1 (85 s); targets Cerebral/Slasher class enemies and enemies with RCV Bind for 2000 damage; targets enemies within large range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 7% reduction"
+            },
+            {
+                cooldown: 24,
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.2 (88 s), SPD UP Lv.2 (88 s), RCV Up Lv.2 (88 s), DEF Up Lv.2 (88 s); targets Cerebral/Slasher class enemies and enemies with RCV Bind for 2100 damage; targets enemies within large range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 7% reduction"
+            },
+            {
+                cooldown: 24,
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.3 (91 s), SPD UP Lv.3 (91 s), RCV Up Lv.3 (91 s), DEF Up Lv.2 (91 s); targets Cerebral/Slasher class enemies and enemies with RCV Bind for 2200 damage; targets enemies within large range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 8% reduction"
+            },
+            {
+                cooldown: 24,
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.3 (94 s), SPD UP Lv.3 (94 s), RCV Up Lv.3 (94 s), DEF Up Lv.2 (94 s); targets Cerebral/Slasher class enemies and enemies with RCV Bind for 2300 damage; targets enemies within large range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 8% reduction"
+            },
+            {
+                cooldown: 24,
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.3 (97 s), SPD UP Lv.3 (97 s), RCV Up Lv.3 (97 s), DEF Up Lv.2 (97 s); targets Cerebral/Slasher class enemies and enemies with RCV Bind for 2400 damage; targets enemies within large range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 9% reduction"
+            },
+            {
+                cooldown: 24,
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.4 (100 s), SPD UP Lv.4 (100 s), RCV Up Lv.4 (100 s), DEF Up Lv.3 (100 s); targets Cerebral/Slasher class enemies and enemies with RCV Bind for 2500 damage; targets enemies within large range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 10% reduction"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "After character is healed 10 times",
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.5 (100 s), SPD UP Lv.5 (100 s), RCV Up Lv.5 (100 s), DEF Up Lv.4 (100 s); targets all enemies for 4000 damage; targets enemies within large range for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for ATK x 4 damage; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 20% reduction"
+            },
+            llbbase: {
+                condition: "After character is healed 6 times",
+                description: "Targets Powerhouse/Striker class and [World Government] teammates for ATK UP Lv.6 (100 s), SPD UP Lv.6 (100 s), RCV Up Lv.6 (100 s), DEF Up Lv.5 (100 s); targets all enemies for 5000 damage; targets enemies within large range for ATK x 25 spread damage (damage on each enemy reduced based on number of total enemies); when remaining crew is less than remaining enemies, targets all enemies for ATK x 5 damage; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, targets (not including self) Powerhouse/Striker class and [World Government] teammates for Special CT 30% reduction"
+            }
+        }
+    },
+    4577: {//St. Peter & St. Warcury
+        captain: {
+            character1: "Reduces [STR] and [INT] characters' Switch Effect and VS Effect gauge by 2 at start of quest, boosts [STR], [INT], Powerhouse, and Striker characters' ATK by 5.5x, boosts their ATK by approximately 6x when they have [STR][TND] or Rainbow slots, makes crew's [STR][TND] slots have matching slot effects, and if crew uses a Special to apply similar effect of slot effect boost that is applied on crew, reduces the boost effect by 1.75 but changes the effect to a stackable boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as slot effect boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other slot effect boost effects) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' HP by 1.4x, and reduces [Five Elders] [Celestial Dragon] [Navy] [World Government] characters' Special charge time by 5 turns at start of quest",
+            character2: "Reduces [STR] and [INT] characters' Switch Effect and VS Effect gauge by 2 at start of quest, boosts [STR], [INT], Powerhouse, and Striker characters' ATK by 5.5x, boosts their ATK by approximately 6x when they have [INT][TND] or Rainbow slots, makes crew's [INT][TND] slots have matching slot effects, and if crew uses a Special to apply similar effect of slot effect boost that is applied on crew, reduces the boost effect by 1.75 but changes the effect to a stackable boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as slot effect boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other slot effect boost effects) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' HP by 1.4x, and reduces [Five Elders] [Celestial Dragon] [Navy] [World Government] characters' Special charge time by 5 turns at start of quest",
+            combined: "Reduces [STR] and [INT] characters' Switch Effect and VS Effect gauge by 2 at start of quest, boosts [STR], [INT], Powerhouse, and Striker characters' ATK by 5.5x, boosts their ATK by approximately 6x when they have [STR][INT][TND] or Rainbow slots, makes crew's [STR][INT][TND] slots have matching slot effects, and if crew uses a Special to apply similar effect of slot effect boost that is applied on crew, reduces the boost effect by 1.75 but changes the effect to a stackable boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as slot effect boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other slot effect boost effects) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Five Elders] [Celestial Dragon] [Navy] characters' ATK by 1.1x, HP by 1.4x, and reduces [Five Elders] [Celestial Dragon] [Navy] [World Government] characters' Special charge time by 5 turns at start of quest"
+        },
+        special: "Deals 150x character's ATK in non-type damage to all enemies (ignoring all defensive effects and DEF), sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), and reduces crew's Blow Away duration by 5 turns. Boosts damage dealt to enemies affected by increase damage taken or Weakened status by up to 3.5x for 1 turn based on total Cost of crew at start of quest including Friend Captains and Support Characters (2.5x for less than 500 Cost, 2.75x for 500 or more Cost, 3x for 600 or more Cost, 3.25x for 700 or more Cost, and 3.5x for 750 or more Cost). If 4 or more [Five Elders] [Celestial Dragon] [Navy] [World Government] characters are on the crew and a [STR] or [INT] is set as Support for character, applies \"Territory\" based on Support character's type to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 2 turns, boosts Powerhouse and Striker characters' advantageous class effect by 2.25x for 1 turn, then after that, becomes \"St. Peter & St. Warcury\" for 3 turns",
+        specialName: "Crushing Purge of the War Gods",
+        sailor: {
+            character1: "Character cannot be blown away by attack, and makes Powerhouse and Striker characters' [INT][TND] slots have matching slot effects",
+            character2: "Character cannot be blown away by attack, and makes Powerhouse and Striker characters' [INT][TND] slots have matching slot effects",
+            combined: "Character cannot be blown away by attack, and makes Powerhouse and Striker characters' [INT][TND] slots have matching slot effects",
+            level1: "Tapping on this character with a [TND] slot will further increase crew's ATK boost by +0.25"
+        },
+        superSpecialCriteria: "When character becomes \"St. Peter & St. Warcury\" with Super Switch effect and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Imu, St. Jaygarcia Saturn, St. Marcus Mars, St. Ethanbaron V. Nusjuro, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam",
+        superSpecial: "Reduces Captain's Special charge time by 7 turns, allows crew to heal over the max HP limit for 1 turn<hidden> (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP)</hidden>, boosts crew's chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6), changes Powerhouse characters to Super Powerhouse, and changes Striker characters to Super Striker",
+        swap: {
+            base: "Changes character's slot to [TND], and boosts [STR], [INT], Powerhouse, and Striker characters' slot effects by 1.75x for 1 turn (effect can be overwritten with other slot effect boost effects)",
+            super: "Changes adjacent slots (including [BLOCK] slots) to character's own type, changes character's slot (including [BLOCK] slots) to [TND], boosts [STR], [INT], Powerhouse, and Striker characters' slot effects by 2.75x for 1 turn (effect can be overwritten with other slot effect boost effects), and becomes \"St. Peter & St. Warcury\" for 3 turns",
+            superTurns: 8
+        },
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Damage Limit Break: Class",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: Tapping on this character with a [TND] slot will further increase crew's ATK boost by +0.25",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 40",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 80",
+            "Acquire Potential 3: Super Tandem",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Powerhouse characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "At final battle, when any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam",
+                "At final battle, when any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam",
+                "At final battle, when any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam",
+                "At final battle, when any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam",
+                "At final battle, when any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard, Rob Lucci, Kaku, Jabra, Fukuro, Kalifa, Blueno, Spandam"
+            ],
+            description: [
+                "Applies ATK Boost (Tandem) of 1.75x to Powerhouse and Striker characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 2x to Powerhouse and Striker characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 2.25x to Powerhouse and Striker characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 2.5x to Powerhouse and Striker characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 2.75x to Powerhouse and Striker characters for 1 turn and changes the ATK multiplier of [INT][STR][TND] slots to 2.5x when slots match (normally 2.0x when matching), 0.5x when unfavorable, 1.0x otherwise for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 193,
+            spd: 175,
+            style: "RCV"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Lv.2 (Medium Range)",
+            "Normal Attack",
+            "Heal Lv.2 (Medium Range)"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades RCV Bind, reduce damage taken from Slasher and Cerebral by 30%",
+        festAbility: [
+            "Cerebral/Slasher class enemies SPD Down Lv.3, DEF Down Lv.3, ATK Down Lv.3; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, all enemeis Special CT Speed Down Lv.1; after receiving damage, up to 10 times targets Powerhouse/Striker class and [World Government] teammates for RCV x 0.6 healing",
+            "Cerebral/Slasher class enemies SPD Down Lv.4, DEF Down Lv.4, ATK Down Lv.4; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, all enemeis Special CT Speed Down Lv.1; after receiving damage, up to 10 times targets Powerhouse/Striker class and [World Government] teammates for RCV x 0.7 healing",
+            "Cerebral/Slasher class enemies SPD Down Lv.5, DEF Down Lv.5, ATK Down Lv.5; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, all enemeis Special CT Speed Down Lv.1; after receiving damage, up to 10 times targets Powerhouse/Striker class and [World Government] teammates for RCV x 0.8 healing",
+            "Cerebral/Slasher class enemies SPD Down Lv.6, DEF Down Lv.6, ATK Down Lv.6; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, all enemeis Special CT Speed Down Lv.2; after receiving damage, up to 10 times targets Powerhouse/Striker class and [World Government] teammates for RCV x 0.9 healing",
+            "Cerebral/Slasher class enemies SPD Down Lv.7, DEF Down Lv.7, ATK Down Lv.7; if 6 or more Powerhouse/Striker class characters or 5 or more [World Government] characters are on the team, all enemeis Special CT Speed Down Lv.3; after receiving damage, up to 10 times targets Powerhouse/Striker class and [World Government] teammates for RCV x 1 healing"
+        ],
+        festSpecial: [
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies with low current HP for 73% chance of RCV Bind (11 s), Damage Over Time Lv.1 (11 s); targets teammates within large range for Shield Lv.1 (11 s); targets Powerhouse/Striker class and [World Government] teammates for 150 HP per interval healing (11 s), 32% chance to evade damage ignoring DEF (11 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies with low current HP for 76% chance of RCV Bind (12 s), Damage Over Time Lv.1 (12 s); targets teammates within large range for Shield Lv.1 (12 s); targets Powerhouse/Striker class and [World Government] teammates for 200 HP per interval healing (12 s), 34% chance to evade damage ignoring DEF (11 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies with low current HP for 79% chance of RCV Bind (13 s), Damage Over Time Lv.1 (13 s); targets teammates within large range for Shield Lv.1 (13 s); targets Powerhouse/Striker class and [World Government] teammates for 250 HP per interval healing (13 s), 36% chance to evade damage ignoring DEF (12 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies with low current HP for 82% chance of RCV Bind (14 s), Damage Over Time Lv.1 (14 s); targets teammates within large range for Shield Lv.2 (14 s); targets Powerhouse/Striker class and [World Government] teammates for 300 HP per interval healing (14 s), 38% chance to evade damage ignoring DEF (12 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies with low current HP for 85% chance of RCV Bind (15 s), Damage Over Time Lv.1 (15 s); targets teammates within large range for Shield Lv.2 (15 s); targets Powerhouse/Striker class and [World Government] teammates for 350 HP per interval healing (15 s), 40% chance to evade damage ignoring DEF (13 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies with low current HP for 88% chance of RCV Bind (16 s), Damage Over Time Lv.2 (16 s); targets teammates within large range for Shield Lv.3 (16 s); targets Powerhouse/Striker class and [World Government] teammates for 400 HP per interval healing (16 s), 42% chance to evade damage ignoring DEF (13 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies with low current HP for 91% chance of RCV Bind (17 s), Damage Over Time Lv.2 (17 s); targets teammates within large range for Shield Lv.3 (17 s); targets Powerhouse/Striker class and [World Government] teammates for 450 HP per interval healing (17 s), 44% chance to evade damage ignoring DEF (14 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies with low current HP for 94% chance of RCV Bind (18 s), Damage Over Time Lv.2 (18 s); targets teammates within large range for Shield Lv.4 (18 s); targets Powerhouse/Striker class and [World Government] teammates for 500 HP per interval healing (18 s), 46% chance to evade damage ignoring DEF (14 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies with low current HP for 97% chance of RCV Bind (19 s), Damage Over Time Lv.2 (19 s); targets teammates within large range for Shield Lv.4 (19 s); targets Powerhouse/Striker class and [World Government] teammates for 550 HP per interval healing (19 s), 48% chance to evade damage ignoring DEF (15 s)"
+            },
+            {
+                cooldown: 29,
+                description: "Targets 3 enemies with low current HP for 100% chance of RCV Bind (20 s), Damage Over Time Lv.3 (20 s); targets teammates within large range for Shield Lv.5 (20 s); targets Powerhouse/Striker class and [World Government] teammates for 600 HP per interval healing (20 s), 50% chance to evade damage ignoring DEF (15 s)"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "After character receives damage 6 times",
+                description: "Targets 4 enemies with low current HP for 100% chance of RCV Bind (25 s), Damage Over Time Lv.7 (25 s); targets teammates within large range for Shield Lv.7 (25 s); targets Powerhouse/Striker class and [World Government] teammates for 700 HP per interval healing (25 s), 50% chance to evade damage ignoring DEF (20 s), 50% chance to evade fixed damage (20 s)"
+            },
+            llbbase: {
+                condition: "After character receives damage 6 times",
+                description: "Targets all enemies for 100% chance of RCV Bind (30 s), Damage Over Time Lv.10 (30 s); targets teammates within large range for Shield Lv.10 (30 s); targets Powerhouse/Striker class and [World Government] teammates for 800 HP per interval healing (30 s), 100% chance to evade damage ignoring DEF (20 s), 100% chance to evade fixed damage (20 s); targets self for HP 100% healing"
+            }
+        }
+    },
+    4578: {//Doberman
+        captain: "Boosts [STR], Slasher, and Powerhouse characters' ATK by approximately 4x when slots match (3.25x otherwise) and HP by 1.25x",
+        special: "Reduces damage taken by 90% for 1 turn, reduces crew's Despair duration by 7 turns, and reduces all enemies' damage reduction from certain slots effect duration by 2 turns. If crew has End of Turn Healing effect with a duration of 10 turns or longer when Special is launched, boosts the ATK of the next final tap performed by crew by 40% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect). If crew has Over Healing status, boosts the ATK of the next final tap performed by crew by 40% (effect can be activated simultaneously). If 3 or more [Navy] [Navy Vice Admiral] [World Government] characters are on the crew, reduces Captain's Special charge time by 5 turns (Special charge time reduction effect of \"Orders to Advance to Egghead\" can be activated up to 2 times per quest including any Specials with similar effect)",
+        specialName: "Orders to Advance to Egghead",
+        sailor: {
+            base: "Makes crew's [STR] slots have matching slot effects",
+            level1: "Reduces character's Special charge time by 2 turns every time another [Navy Vice Admiral] character uses a Special"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Navy Vice Admiral]",
+                description: [
+                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by crew by 10% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by crew by 15% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by crew by 20% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by crew by 25% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+                    "Once per quest, if supported character uses a Special, boosts the ATK of the next final tap performed by crew by 30% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 20",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Enrage/Increase Damage Taken",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 70",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Reduces character's Special charge time by 2 turns every time another [Navy Vice Admiral] character uses a Special",
+            "Boosts base HP by 70",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: No Healing"
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            }
+        ],
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: [
+            "Normal Attack"
+        ],
+        festAttackTarget: "Targets closest enemies"
+    },
+    4579: {//6+ Eneru
+        captain: "Boosts [PSY] characters' ATK by approximately 5.5x when slots match (4.5x otherwise), HP by 1.3x, makes their [INT][RCV][TND] slots have matching slot effects, and launches \"Lightning of Judgement: 200,000,000 Volt Amaru\" at start of quest",
+        special: "Reduces all enemies' HP by 15%, boosts crew's chance of landing on own type slot for 99 turns, reduces crew's Paralysis/Bind duration by 6 turns, boosts the type effects of normal attacks for [PSY] characters by 3.25x for 3 turns, and deals 50% damage dealt by normal attacks by character in this turn in non-type damage to all enemies at end of each turn",
+        specialName: "Lightning of Judgement: 200,000,000 Volt Amaru",
+        sailor: {
+            level1: "Reduces crew's Paralysis duration by 1 turn",
+            level2: "Makes crew's [INT] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "[PSY] Driven characters",
+                description: [
+                    "Boosts the type effects of normal attacks for [PSY] characters by 1.1x for 1 turn at start of final battle",
+                    "Boosts the type effects of normal attacks for [PSY] characters by 1.2x for 1 turn at start of final battle",
+                    "Boosts the type effects of normal attacks for [PSY] characters by 1.3x for 1 turn at start of final battle",
+                    "Boosts the type effects of normal attacks for [PSY] characters by 1.4x for 1 turn at start of final battle",
+                    "Boosts the type effects of normal attacks for [PSY] characters by 1.5x for 1 turn at start of final battle"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base HP by 10",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Acquire Sailor Ability 1: Reduces crew's Paralysis duration by 1 turn",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Acquire Potential 2: Pinch Healing",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 30",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 50",
+            "Boosts base HP by 50",
+            "Acquire Sailor Ability 2: Makes crew's [INT] slots have matching slot effects",
+            "Boosts base HP by 100",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 50",
+            "Boosts base ATK by 50",
+            "Acquire Potential 3: Ship Bind",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 50",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 50",
+            "Boosts base HP by 100",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 100"
+        ],
+        lLimit: [
+            null,
+            {
+                rAbility: true
+            },
+            {
+                captain: {
+                    base: "Reduces [PSY] characters' Special charge time by 2 turns at start of quest, boosts their ATK by approximately 5.75x when slots match (4.75x otherwise), HP by 1.3x, makes their [INT][RCV][TND] slots have matching slot effects, and launches \"Lightning of Judgement: 200,000,000 Volt Amaru\" at start of quest"
+                }
+            },
+            {
+                rSpecial: true
+            },
+            {
+                special: {
+                    base: "Reduces all enemies' HP by 20%, boosts crew's chance of landing on own type slot for 99 turns, reduces crew's Paralysis/Bind duration by 6 turns, boosts the type effects of normal attacks for [PSY] characters by 3.5x for 5 turns, and deals 75% damage dealt by normal attacks by character in this turn in non-type damage to all enemies at end of each turn"
+                },
+                rResilience: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 15% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Ship Bind",
+                description: [
+                    "Reduces Ship Bind duration by 1 turn",
+                    "Reduces Ship Bind duration by 2 turns",
+                    "Reduces Ship Bind duration by 3 turns",
+                    "Reduces Ship Bind duration by 4 turns",
+                    "Reduces Ship Bind duration by 5 turns"
+                ]
+            }
+        ],
+        festStats: {
+            def: 231,
+            spd: 174,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Lv.2 (Medium Range)",
+            "Normal Attack",
+            "Heal Lv.2 (Medium Range)"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: {
+            base: "Completely evades Special Bind/Forced Out, reduce damage taken from [INT] by 30%, increase damage dealt to [INT] by 30%",
+            llbbase: "Completely evades Special Bind/Forced Out, reduce damage taken from [INT] by 40%, increase damage dealt to [INT] by 40%"
+        },
+        festAbility: {
+            base: [
+                "[PSY]/Striker class and [Skypiea Arc] teammates DEF Up Lv.2, SPD Up Lv.2, RCV Up Lv.2; first 50 s of battle, Slasher class enemies Special CT Speed Down Lv.1; if 5 or more Striker class characters or 5 or more [Skypiea Arc] characters are on the team, team ATK Up Lv.2; revives self up to 1 time at 40% HP",
+                "[PSY]/Striker class and [Skypiea Arc] teammates DEF Up Lv.3, SPD Up Lv.3, RCV Up Lv.3; first 50 s of battle, Slasher class enemies Special CT Speed Down Lv.2; if 5 or more Striker class characters or 5 or more [Skypiea Arc] characters are on the team, team ATK Up Lv.3; revives self up to 1 time at 42% HP",
+                "[PSY]/Striker class and [Skypiea Arc] teammates DEF Up Lv.4, SPD Up Lv.4, RCV Up Lv.4; first 50 s of battle, Slasher class enemies Special CT Speed Down Lv.3; if 5 or more Striker class characters or 5 or more [Skypiea Arc] characters are on the team, team ATK Up Lv.4; revives self up to 1 time at 44% HP",
+                "[PSY]/Striker class and [Skypiea Arc] teammates DEF Up Lv.5, SPD Up Lv.5, RCV Up Lv.5; first 50 s of battle, Slasher class enemies Special CT Speed Down Lv.4; if 5 or more Striker class characters or 5 or more [Skypiea Arc] characters are on the team, team ATK Up Lv.5; revives self up to 1 time at 46% HP",
+                "[PSY]/Striker class and [Skypiea Arc] teammates DEF Up Lv.6, SPD Up Lv.6, RCV Up Lv.6; first 50 s of battle, Slasher class enemies Special CT Speed Down Lv.5; if 5 or more Striker class characters or 5 or more [Skypiea Arc] characters are on the team, team ATK Up Lv.6; revives self up to 1 time at 50% HP"
+            ],
+            llbbase: [
+                "[PSY]/Striker class and [Skypiea Arc] teammates DEF Up Lv.3, SPD Up Lv.3, RCV Up Lv.3; Slasher class enemies Special CT Speed Down Lv.1; if 5 or more Striker class characters or 5 or more [Skypiea Arc] characters are on the team, team ATK Up Lv.3; revives self up to 1 time at 80% HP",
+                "[PSY]/Striker class and [Skypiea Arc] teammates DEF Up Lv.4, SPD Up Lv.4, RCV Up Lv.4; Slasher class enemies Special CT Speed Down Lv.2; if 5 or more Striker class characters or 5 or more [Skypiea Arc] characters are on the team, team ATK Up Lv.4; revives self up to 1 time at 82% HP",
+                "[PSY]/Striker class and [Skypiea Arc] teammates DEF Up Lv.5, SPD Up Lv.5, RCV Up Lv.5; Slasher class enemies Special CT Speed Down Lv.3; if 5 or more Striker class characters or 5 or more [Skypiea Arc] characters are on the team, team ATK Up Lv.5; revives self up to 1 time at 84% HP",
+                "[PSY]/Striker class and [Skypiea Arc] teammates DEF Up Lv.6, SPD Up Lv.6, RCV Up Lv.6; Slasher class enemies Special CT Speed Down Lv.4; if 5 or more Striker class characters or 5 or more [Skypiea Arc] characters are on the team, team ATK Up Lv.6; revives self up to 1 time at 86% HP",
+                "[PSY]/Striker class and [Skypiea Arc] teammates DEF Up Lv.7, SPD Up Lv.7, RCV Up Lv.7; Slasher class enemies Special CT Speed Down Lv.5; if 5 or more Striker class characters or 5 or more [Skypiea Arc] characters are on the team, team ATK Up Lv.7; revives self up to 1 time at 100% HP"
+            ]
+        },
+        festSpecial: {
+            base: [
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 1.6 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.1 (11 s), SPD Up Lv.1 (11 s); targets all enemies for 35% chance of Paralysis (5 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 1.7 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.1 (12 s), SPD Up Lv.1 (12 s); targets all enemies for 40% chance of Paralysis (6 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 1.8 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.2 (13 s), SPD Up Lv.2 (13 s); targets all enemies for 45% chance of Paralysis (6 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 1.9 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.2 (14 s), SPD Up Lv.2 (14 s); targets all enemies for 50% chance of Paralysis (7 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 2 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.3 (15 s), SPD Up Lv.3 (15 s); targets all enemies for 55% chance of Paralysis (7 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 2.1 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.3 (16 s), SPD Up Lv.3 (16 s); targets all enemies for 60% chance of Paralysis (8 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 2.2 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.4 (17 s), SPD Up Lv.4 (17 s); targets all enemies for 65% chance of Paralysis (8 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 2.3 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.4 (18 s), SPD Up Lv.4 (18 s); targets all enemies for 70% chance of Paralysis (9 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 2.4 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.5 (19 s), SPD Up Lv.5 (19 s); targets all enemies for 75% chance of Paralysis (9 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 2.5 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.5 (20 s), SPD Up Lv.5 (20 s); targets all enemies for 80% chance of Paralysis (10 s)"
+                }
+            ],
+            llbbase: [
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 2.6 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.2 (11 s), SPD Up Lv.2 (11 s); targets all enemies for 55% chance of Paralysis (10 s); during Assault Rumble, targets [PSY]/Striker class and [Skypiea Arc] teammates for ATK Up Lv.2 (11 s), Critical % Up Lv.2 (11 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 2.7 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.2 (12 s), SPD Up Lv.2 (12 s); targets all enemies for 60% chance of Paralysis (11 s); during Assault Rumble, targets [PSY]/Striker class and [Skypiea Arc] teammates for ATK Up Lv.2 (12 s), Critical % Up Lv.2 (12 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 2.8 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.3 (13 s), SPD Up Lv.3 (13 s); targets all enemies for 65% chance of Paralysis (11 s); during Assault Rumble, targets [PSY]/Striker class and [Skypiea Arc] teammates for ATK Up Lv.3 (13 s), Critical % Up Lv.3 (13 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 2.9 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.3 (14 s), SPD Up Lv.3 (14 s); targets all enemies for 70% chance of Paralysis (12 s); during Assault Rumble, targets [PSY]/Striker class and [Skypiea Arc] teammates for ATK Up Lv.3 (14 s), Critical % Up Lv.3 (14 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 3 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.4 (15 s), SPD Up Lv.4 (15 s); targets all enemies for 75% chance of Paralysis (12 s); during Assault Rumble, targets [PSY]/Striker class and [Skypiea Arc] teammates for ATK Up Lv.4 (15 s), Critical % Up Lv.4 (15 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 3.1 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.4 (16 s), SPD Up Lv.4 (16 s); targets all enemies for 80% chance of Paralysis (13 s); during Assault Rumble, targets [PSY]/Striker class and [Skypiea Arc] teammates for ATK Up Lv.4 (16 s), Critical % Up Lv.4 (16 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 3.2 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.5 (17 s), SPD Up Lv.5 (17 s); targets all enemies for 85% chance of Paralysis (13 s); during Assault Rumble, targets [PSY]/Striker class and [Skypiea Arc] teammates for ATK Up Lv.5 (17 s), Critical % Up Lv.5 (17 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 3.3 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.5 (18 s), SPD Up Lv.5 (18 s); targets all enemies for 90% chance of Paralysis (14 s); during Assault Rumble, targets [PSY]/Striker class and [Skypiea Arc] teammates for ATK Up Lv.5 (18 s), Critical % Up Lv.5 (18 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 3.4 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.6 (19 s), SPD Up Lv.6 (19 s); targets all enemies for 95% chance of Paralysis (14 s); during Assault Rumble, targets [PSY]/Striker class and [Skypiea Arc] teammates for ATK Up Lv.6 (19 s), Critical % Up Lv.6 (19 s)"
+                },
+                {
+                    cooldown: 17,
+                    description: "Targets all enemies for ATK x 3.5 damage; targets [PSY]/Striker class and [Skypiea Arc] teammates for DEF Up Lv.6 (20 s), SPD Up Lv.6 (20 s); targets all enemies for 100% chance of Paralysis (15 s); during Assault Rumble, targets [PSY]/Striker class and [Skypiea Arc] teammates for ATK Up Lv.6 (20 s), Critical % Up Lv.6 (20 s)"
+                }
+            ]
+        },
+        festAbilityGP: [
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
+                festGPSpecial: "Targets all enemies for 500 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 625 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
+                festGPSpecial: "Targets all enemies for 750 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 875 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
+                festGPSpecial: "Targets all enemies for 1000 damage",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "When 2 teammates are defeated"
+    },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
