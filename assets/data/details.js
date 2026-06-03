@@ -182758,13 +182758,13 @@ window.details = {
     4542: {//Demalo Black
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Worst Generation]",
+                Characters: "[Worst Generation] characters",
                 description: [
-                    "Adds 12% of character's base HP to supported character's base HP [AUTO+] Does not activate supported character's Special",
-                    "Adds 14% of character's base HP to supported character's base HP [AUTO+] Does not activate supported character's Special",
-                    "Adds 16% of character's base HP to supported character's base HP [AUTO+] Does not activate supported character's Special",
-                    "Adds 18% of character's base HP to supported character's base HP [AUTO+] Does not activate supported character's Special",
-                    "Adds 20% of character's base HP to supported character's base HP [AUTO+] Does not activate supported character's Special"
+                    "Adds 12% of this character's base HP to the supported character's base HP. [AUTO+] Does not activate supported character's Special.",
+                    "Adds 14% of this character's base HP to the supported character's base HP. [AUTO+] Does not activate supported character's Special.",
+                    "Adds 16% of this character's base HP to the supported character's base HP. [AUTO+] Does not activate supported character's Special.",
+                    "Adds 18% of this character's base HP to the supported character's base HP. [AUTO+] Does not activate supported character's Special.",
+                    "Adds 20% of this character's base HP to the supported character's base HP. [AUTO+] Does not activate supported character's Special."
                 ]
             }
         ],
@@ -186203,24 +186203,25 @@ window.details = {
         ]
     },
     4583: {//Luffy
-        captain: "Boosts [INT] and Striker characters' ATK by 5x, HP by 1.2x, boosts other characters' ATK by 4x, and makes crew's [INT][RCV][TND] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] Reduces [Elbaph Arc] [Straw Hat Pirates] [Giant] characters' Special charge time by 2 turns at start of quest. If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, boosts [Elbaph Arc] [Straw Hat Pirates] [Giant] characters' ATK by 1.2x. If 2 or more [Elbaph Arc] characters are on the crew and \"Roronoa Zoro\", \"Sanji\", \"Usopp\", \"Nami\", \"Tony Tony Chopper\", \"Nico Robin\", \"Franky\", \"Brook\", \"Jinbe\", \"Jewelry Bonney\", \"Dorry\", \"Broggy\", \"Oimo\", \"Kashii\", or \"Hajrudin\" is a crewmate and uses a Special, reduces crew's Special charge time by 2 turns (up to 4 times per quest)",
-        special: "Reduces all enemies' damage nullification duration by 2 turns, reduces crew's Paralysis duration by 7 turns, boosts [INT] and Striker characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.1; GREAT +0.3; PERFECT +0.7) for 1 turn, and boosts [INT] and Striker characters' ATK when landing a successful strike by 2x after landing 4 PERFECT strikes in a row in this turn. If 5 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, reduces damage taken by 80% for 1 turn, and boosts the type effects of normal attacks for [INT] and Striker characters by 3x for 5 turns",
+        captain: "Reduces Special Cooldown of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 2 turns at the start of the fight, boosts ATK of [INT] and Striker characters by 5x, boosts ATK of all other characters by 4x, boosts HP of [INT] and Striker characters by 1.2x, and makes [INT], [RCV] and [TND] orbs beneficial for all characters. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, boosts ATK of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 1.2x. If your crew has 2+ [Elbaph Arc] characters, up to 4 times per adventure, when Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii or Hajrudin uses a special as crewmate, reduces Special Cooldown of all characters by 2 turns.",
+        special: "Reduces enemies' Damage Nullification duration by 2 turns, reduces Paralysis duration by 7 turns, increases Chain Tap Timing Bonus of [INT] and Striker characters to +0.1x-0.7x for 1 turn depending on Tap Timing, and boosts Tap Timing ATK of [INT] and Striker characters by 2x, following a chain of 4 PERFECT attacks. If your crew has 5+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, reduces damage received by 80% for 1 turn, and boosts the Color Affinity of [INT] and Striker characters by 3x for 5 turns.",
+        specialNotes: "<b>GOOD:</b> +0.1, <b>GREAT:</b> +0.3, <b>PERFECT:</b> +0.7",
         specialName: "Shaking the New Frontier, Gum-Gum Elephant Whip",
         sailor: {
-            base: "Boosts [INT] and Striker characters' base ATK by 100",
-            level1: "If 5 or more [Straw Hat Pirates] [Giant] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 6 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "Boosts base ATK of [INT] and Striker characters by 100.",
+            level1: "If your crew has 5+ [Straw Hat Pirates] or [Giant] characters, once per adventure, when the enemy gains a Threshold Damage Reduction buff, reduces enemies' Threshold Damage Reduction duration by 6 turns."
         },
-        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin",
-        superSpecial: "Changes character's slot to [TND], allows crew's type effect boost to be further increased up to 2 times, further increases the boosts by +0.5, and changes Striker characters to Super Striker",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin",
+        superSpecial: "Changes the orb of this character into a [TND] orb, enables Color Affinity buffs to be enhanced up to 2 times, increases boost effects of Color Affinity buffs by +0.5x, and transforms Striker characters into Super Striker characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Elbaph Arc]",
+                Characters: "[Elbaph Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 8% of character's base stats to supported character's base stats",
-                    "Adds 10% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -186272,12 +186273,12 @@ window.details = {
             null,
             {
                 captain: {
-                    base: "Reduces crew's Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts [INT] and Striker characters' ATK by 5.25x, HP by 1.2x, boosts other characters' ATK by 4x, and makes crew's [INT][RCV][TND] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] Reduces [Elbaph Arc] [Straw Hat Pirates] [Giant] characters' Special charge time by 2 turns at start of quest. If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, boosts [Elbaph Arc] [Straw Hat Pirates] [Giant] characters' ATK by 1.3x. If 2 or more [Elbaph Arc] characters are on the crew and \"Roronoa Zoro\", \"Sanji\", \"Usopp\", \"Nami\", \"Tony Tony Chopper\", \"Nico Robin\", \"Franky\", \"Brook\", \"Jinbe\", \"Jewelry Bonney\", \"Dorry\", \"Broggy\", \"Oimo\", \"Kashii\", or \"Hajrudin\" is a crewmate and uses a Special, reduces crew's Special charge time by 2 turns (up to 4 times per quest)"
+                    base: "Launches the following effect at start of fight: reduces Special Cooldown of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 4 turns, reduces Special Cooldown of all other characters by 2 turns, and reduces VS Gauge and Switch Effect of all characters by 2. Boosts ATK of [INT] and Striker characters by 5.25x, boosts ATK of all other characters by 4x, boosts HP of [INT] and Striker characters by 1.2x, and makes [INT], [RCV] and [TND] orbs beneficial for all characters. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, boosts ATK of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 1.3x. If your crew has 2+ [Elbaph Arc] characters, up to 4 times per adventure, when Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii or Hajrudin uses a special as crewmate, reduces Special Cooldown of all characters by 2 turns."
                 }
             },
             {
                 special: {
-                    base: "Reduces all enemies' damage nullification duration by 2 turns, reduces crew's Paralysis duration by 7 turns, boosts [INT] and Striker characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.1; GREAT +0.3; PERFECT +0.7) for 3 turns, and boosts [INT] and Striker characters' ATK when landing a successful strike by 2.25x after landing 3 PERFECT strikes in a row in this turn. If 5 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, reduces damage taken by 90% for 1 turn, boosts the type effects of normal attacks for [INT] and Striker characters by 3x for 5 turns, and applies -25% Striker Resistance to all enemies for 1 turn"
+                    base: "Reduces enemies' Damage Nullification duration by 2 turns, reduces Paralysis duration by 7 turns, increases Chain Tap Timing Bonus of [INT] and Striker characters to +0.1x-0.7x for 3 turns depending on Tap Timing, and boosts Tap Timing ATK of [INT] and Striker characters by 2.25x, following a chain of 3 PERFECT attacks. If your crew has 5+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, reduces damage received by 90% for 1 turn, boosts the Color Affinity of [INT] and Striker characters by 3x for 5 turns, and reduces enemies' Striker resistance by -25% for 1 turn."
                 },
                 rSuperSpecial: true
             }
@@ -186316,18 +186317,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin (Crew must include 1 of the following characters: Roronoa Zoro, Sanji)",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin (Crew must include 1 of the following characters: Roronoa Zoro, Sanji)",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin (Crew must include 1 of the following characters: Roronoa Zoro, Sanji)",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin (Crew must include 1 of the following characters: Roronoa Zoro, Sanji)",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin (Crew must include 1 of the following characters: Roronoa Zoro, Sanji)"
+                "1 of the following is required: Roronoa Zoro, Sanji. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin",
+                "1 of the following is required: Roronoa Zoro, Sanji. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin",
+                "1 of the following is required: Roronoa Zoro, Sanji. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin",
+                "1 of the following is required: Roronoa Zoro, Sanji. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin",
+                "1 of the following is required: Roronoa Zoro, Sanji. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.25x to Striker characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.5x to Striker characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.75x to Striker characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.25x to Striker characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.75x to Striker characters for 1 turn, and makes crew's type slots have matching slot effects for 1 turn"
+                "Boosts Tandem ATK of Striker characters by 1.25x for 1 turn.",
+                "Boosts Tandem ATK of Striker characters by 1.5x for 1 turn.",
+                "Boosts Tandem ATK of Striker characters by 1.75x for 1 turn.",
+                "Boosts Tandem ATK of Striker characters by 2.25x for 1 turn.",
+                "Boosts Tandem ATK of Striker characters by 2.75x for 1 turn, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn."
             ]
         },
         festStats: {
@@ -186404,24 +186405,24 @@ window.details = {
         }
     },
     4584: {//Zoro
-        captain: "Boosts [INT] and Striker characters' ATK by 5x, HP by 1.2x, boosts other characters' ATK by 4x, reduces crew's Limit Special Uses duration by 10 turns, and makes crew's [INT][RCV][TND] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, boosts [Elbaph Arc] [Straw Hat Pirates] [Giant] characters' ATK by 1.3x. If 2 or more [Elbaph Arc] characters are on the crew and \"Monkey D. Luffy\", \"Sanji\", \"Usopp\", \"Nami\", \"Tony Tony Chopper\", \"Nico Robin\", \"Franky\", \"Brook\", \"Jinbe\", \"Jewelry Bonney\", \"Dorry\", \"Broggy\", \"Oimo\", \"Kashii\", or \"Hajrudin\" is a crewmate and uses a Special, reduces character's Special charge time by 4 turns (up to 4 times per quest)",
+        captain: "Boosts ATK of [INT] and Striker characters by 5x, boosts ATK of all other characters by 4x, boosts HP of [INT] and Striker characters by 1.2x, makes [INT], [RCV] and [TND] orbs beneficial for all characters, and reduces Special Use Limit duration by 10 turns. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, boosts ATK of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 1.3x. If your crew has 2+ [Elbaph Arc] characters, up to 4 times per adventure, when Monkey D. Luffy, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii or Hajrudin uses a special as crewmate, reduces Special Cooldown of this character by 4 turns.",
         special: [
             {
-                description: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns, reduces crew's ATK Down duration by 2 turns, changes character's slot to character's own type, and further increases crew's ATK boost by +0.25. If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, doubles [INT], Striker, and Slasher characters' ATK for 1 turn",
+                description: "Reduces enemies' Percent Damage Reduction duration by 2 turns, reduces ATK Down duration by 2 turns, changes the orb of this character into a matching orb, and increases boost effects of ATK Up buffs by +0.25x. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, boosts ATK of [INT], Striker and Slasher characters by 2x for 1 turn.",
                 cooldown: [
                     11,
                     6
                 ]
             },
             {
-                description: "Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 4 turns, reduces crew's ATK Down duration by 4 turns, changes character's slot and adjacent slots (including [BLOCK] slots) to character's own type, allows crew's ATK boost to be further increased up to 2 times, and further increases the boost by +0.75. If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, boosts [INT], Striker, and Slasher characters' ATK by 2.25x for 3 turns",
+                description: "Reduces enemies' Percent Damage Reduction duration by 4 turns, reduces ATK Down duration by 4 turns, changes orbs, including [BLOCK] orbs, of this and adjacent characters into matching orbs, enables ATK Up buffs to be enhanced up to 2 times, and increases boost effects of ATK Up buffs by +0.75x. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, boosts ATK of [INT], Striker and Slasher characters by 2.25x for 3 turns.",
                 cooldown: [
                     15,
                     10
                 ]
             },
             {
-                description: "Reduces the duration of all enemy barriers by 3 turns, reduces crew's ATK Down duration by 7 turns, and boosts [INT], Striker, and Slasher characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 1 turn. If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, applies \"Territory: [INT]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns, and boosts [INT], Striker, and Slasher characters' ATK by 3x for 5 turns",
+                description: "Reduces enemies' Barrier duration by 3 turns, reduces ATK Down duration by 7 turns, and boosts Crew Damage Reduction to ATK of [INT], Striker and Slasher characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, applies Territory: [INT] to the field for 2 turns, and boosts ATK of [INT], Striker and Slasher characters by 3x for 5 turns.",
                 cooldown: [
                     21,
                     16
@@ -186430,20 +186431,20 @@ window.details = {
         ],
         specialName: "Shaking the New Frontier, Black Rope Dragon Twister",
         sailor: {
-            base: "Boosts [INT], Striker, and Slasher characters' base ATK by 100",
-            level1: "If 5 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew and enemy launches damage reduction (except Threshold Damage Reduction) effect, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "Boosts base ATK of [INT], Striker and Slasher characters by 100.",
+            level1: "If your crew has 5+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 6 turns."
         },
-        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin",
-        superSpecial: "Boosts crew's damage dealt when landing a Critical hit by 50% for 3 turns (effect applies only to characters with Critical ATK Potential Ability), applies -15% [INT] Resistance to all enemies for 1 turn, and changes Striker characters to Super Striker",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin",
+        superSpecial: "Boosts Critical Hit Damage of all characters by 50% for 3 turns, reduces enemies' [INT] resistance by -15% for 1 turn, and transforms Striker characters into Super Striker characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Elbaph Arc]",
+                Characters: "[Elbaph Arc] characters",
                 description: [
-                    "Adds 5% of character's base ATK to supported character's base ATK",
-                    "Adds 7% of character's base ATK to supported character's base ATK",
-                    "Adds 10% of character's base ATK to supported character's base ATK",
-                    "Adds 12% of character's base ATK to supported character's base ATK",
-                    "Adds 15% of character's base ATK to supported character's base ATK"
+                    "Adds 5% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 7% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 10% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 12% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 15% of this character's base ATK to the supported character's base ATK."
                 ]
             }
         ],
@@ -186532,18 +186533,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem"
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Worst Generation] characters by 1 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Worst Generation] characters by 2 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Worst Generation] characters by 3 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 4 and raises Boost Level of [Four Emperors] [Worst Generation] characters by 3 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 5 and raises Boost Level of [Four Emperors] [Worst Generation] characters by 4 for 1 turn"
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Worst Generation] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Worst Generation] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Worst Generation] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 4 for 1 turn, and raises Boost Level of [Four Emperors] and [Worst Generation] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 5 for 1 turn, and raises Boost Level of [Four Emperors] and [Worst Generation] characters by 4 for 1 turn."
             ]
         },
         festStats: {
@@ -186620,24 +186621,24 @@ window.details = {
         }
     },
     4585: {//Sanji
-        captain: "Boosts [INT] and Striker characters' ATK by 5x, HP by 1.2x, boosts other characters' ATK by 4x, reduces crew's Special Reverse by 10 turns, and makes crew's [INT][RCV][TND] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, boosts [Elbaph Arc] [Straw Hat Pirates] [Giant] characters' ATK by 1.3x. If 2 or more [Elbaph Arc] characters are on the crew and \"Monkey D. Luffy\", \"Roronoa Zoro\", \"Usopp\", \"Nami\", \"Tony Tony Chopper\", \"Nico Robin\", \"Franky\", \"Brook\", \"Jinbe\", \"Jewelry Bonney\", \"Dorry\", \"Broggy\", \"Oimo\", \"Kashii\", or \"Hajrudin\" is a crewmate and uses a Special, reduces character's Special charge time by 4 turns (up to 4 times per quest)",
+        captain: "Boosts ATK of [INT] and Striker characters by 5x, boosts ATK of all other characters by 4x, boosts HP of [INT] and Striker characters by 1.2x, makes [INT], [RCV] and [TND] orbs beneficial for all characters, and restores Special Cooldown of all characters by 10 turns when they are rewinded. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, boosts ATK of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 1.3x. If your crew has 2+ [Elbaph Arc] characters, up to 4 times per adventure, when Monkey D. Luffy, Roronoa Zoro, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii or Hajrudin uses a special as crewmate, reduces Special Cooldown of this character by 4 turns.",
         special: [
             {
-                description: "Reduces all enemies' DEF Up/Resilience duration by 2 turns, changes character's slot to character's own type, and further increases crew's slot effect boost by +0.25. If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, doubles [INT], Striker, and Free Spirit characters' slot effects for 1 turn",
+                description: "Reduces enemies' Increased Defense and Resilience duration by 2 turns, changes the orb of this character into a matching orb, and increases boost effects of Orb Amplification buffs by +0.25x. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, boosts Orb Effects of [INT], Striker and Free Spirit characters by 2x for 1 turn.",
                 cooldown: [
                     11,
                     6
                 ]
             },
             {
-                description: "Reduces all enemies' DEF Up/Resilience duration by 4 turns, changes character's slot and adjacent slots (including [BLOCK] slots) to character's own type, allows crew's slot effect boost to be further increased up to 2 times, and further increases the boost by +0.75. If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, boosts [INT], Striker, and Free Spirit characters' slot effects by 2.25x for 3 turns",
+                description: "Reduces enemies' Increased Defense and Resilience duration by 4 turns, changes orbs, including [BLOCK] orbs, of this and adjacent characters into matching orbs, enables Orb Amplification buffs to be enhanced up to 2 times, and increases boost effects of Orb Amplification buffs by +0.75x. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, boosts Orb Effects of [INT], Striker and Free Spirit characters by 2.25x for 3 turns.",
                 cooldown: [
                     15,
                     10
                 ]
             },
             {
-                description: "Reduces all enemies' damage reduction from certain slots effect duration by 4 turns, reduces all enemies' Resilience duration by 7 turns, and boosts Striker and Free Spirit characters' advantageous class effect by 1.75x for 1 turn. If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew, applies \"Territory: Striker class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns, and boosts [INT], Striker, and Free Spirit characters' slot effects by 3x for 5 turns",
+                description: "Reduces enemies' Orb-Based Damage Reduction duration by 4 turns, reduces enemies' Resilience duration by 7 turns, and boosts Advantageous Class Effect of Striker and Free Spirit characters by 1.75x for 1 turn. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, applies Territory: Striker to the field for 2 turns, and boosts Orb Effects of [INT], Striker and Free Spirit characters by 3x for 5 turns.",
                 cooldown: [
                     21,
                     16
@@ -186646,20 +186647,20 @@ window.details = {
         ],
         specialName: "Shaking the New Frontier, Épaule Strike",
         sailor: {
-            base: "Boosts [INT], Striker, and Free Spirit characters' base ATK by 100",
-            level1: "If 5 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew and enemy launches DEF Up effect, reduces all enemies' DEF Up duration by 6 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "Boosts base ATK of [INT], Striker and Free Spirit characters by 100.",
+            level1: "If your crew has 5+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, once per adventure, when the enemy gains an Increased Defense buff, reduces enemies' Increased Defense duration by 6 turns."
         },
-        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Roronoa Zoro, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin",
-        superSpecial: "Boosts the chain multiplier by +1.2 for 3 turns, applies -15% [INT] Resistance to all enemies for 1 turn, and changes [INT] characters to Super [INT]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin",
+        superSpecial: "Adds 1.2x to chain multiplier for 3 turns, reduces enemies' [INT] resistance by -15% for 1 turn, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Elbaph Arc]",
+                Characters: "[Elbaph Arc] characters",
                 description: [
-                    "Adds 5% of character's base HP to supported character's base HP",
-                    "Adds 7% of character's base HP to supported character's base HP",
-                    "Adds 10% of character's base HP to supported character's base HP",
-                    "Adds 12% of character's base HP to supported character's base HP",
-                    "Adds 15% of character's base HP to supported character's base HP"
+                    "Adds 5% of this character's base HP to the supported character's base HP.",
+                    "Adds 7% of this character's base HP to the supported character's base HP.",
+                    "Adds 10% of this character's base HP to the supported character's base HP.",
+                    "Adds 12% of this character's base HP to the supported character's base HP.",
+                    "Adds 15% of this character's base HP to the supported character's base HP."
                 ]
             }
         ],
@@ -186748,18 +186749,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem"
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Germa 66] characters by 1 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Germa 66] characters by 2 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Germa 66] characters by 3 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 4 and raises Boost Level of [Four Emperors] [Germa 66] characters by 3 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 5 and raises Boost Level of [Four Emperors] [Germa 66] characters by 4 for 1 turn"
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Germa 66] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Germa 66] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Germa 66] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 4 for 1 turn, and raises Boost Level of [Four Emperors] and [Germa 66] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 5 for 1 turn, and raises Boost Level of [Four Emperors] and [Germa 66] characters by 4 for 1 turn."
             ]
         },
         festStats: {
@@ -186836,21 +186837,21 @@ window.details = {
         }
     },
     4586: {//Usopp
-        special: "Reduces [INT] characters' Special charge time by 2 turns, reduces crew's Bind duration by 7 turns, and changes crew's [BLOCK] slots to [INT]. If field has \"Territory: [INT]\" or \"Territory: Striker class\", applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, [INT] characters will deal 2x damage, and their Special charge time will be reduced by 2 turns for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects); otherwise without Territory, [INT] characters will deal 1.5x damage, and their Special charge time will be reduced by 1 turn for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects))",
+        special: "Reduces Special Cooldown of [INT] characters by 2 turns, reduces Bind duration by 7 turns, and changes [BLOCK] orbs into [INT] orbs. If field has Territory: [INT] or Striker when the special is activated, inflicts all enemies with Set Target, increasing damage taken from [INT] characters by 2x and reducing Special Cooldown of [INT] characters by 2 turns when they defeat an enemy, for 1 turn; otherwise, inflicts all enemies with Set Target, increasing damage taken from [INT] characters by 1.5x and reducing Special Cooldown of [INT] characters by 1 turn when they defeat an enemy, for 1 turn.",
         specialName: "The Meaning Behind His Clothing",
         sailor: {
-            base: "Makes crew immune to Remove SFX when Captain is a Striker class",
-            level1: "Reduces character's Bind duration by 3 turns when Captain is a Striker class"
+            base: "If your Captain is a Striker character, removes Blindness duration completely.",
+            level1: "If your Captain is a Striker character, reduces Bind duration by 3 turns on this character."
         },
         support: [
             {
-                Characters: "[INT] characters with the following Character Tag: [Elbaph Arc]",
+                Characters: "[INT] [Elbaph Arc] characters",
                 description: [
-                    "Adds 1% of character's base HP to supported character's base HP",
-                    "Adds 3% of character's base HP to supported character's base HP",
-                    "Adds 5% of character's base HP to supported character's base HP",
-                    "Adds 7% of character's base HP to supported character's base HP",
-                    "Adds 9% of character's base HP to supported character's base HP"
+                    "Adds 1% of this character's base HP to the supported character's base HP.",
+                    "Adds 3% of this character's base HP to the supported character's base HP.",
+                    "Adds 5% of this character's base HP to the supported character's base HP.",
+                    "Adds 7% of this character's base HP to the supported character's base HP.",
+                    "Adds 9% of this character's base HP to the supported character's base HP."
                 ]
             }
         ],
@@ -186966,21 +186967,21 @@ window.details = {
         ]
     },
     4587: {//Chopper
-        special: "Reduces [INT] characters' Special charge time by 2 turns, reduces crew's Despair duration by 7 turns, removes all Poison effects on the crew, and boosts damage dealt to delayed enemies by 2.5x for 2 turns. If field has \"Territory: [INT]\" or \"Territory: Striker class\", delays all enemies for 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), locks crew's slots for 1 turn, heals crew by 30,000 HP (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP), and adds 50x character's ATK in non-type damage on top of tap-timing bonuses for 5 turn (delays all enemies for 1 turn and heals crew by 10,000 HP otherwise)",
+        special: "Reduces Special Cooldown of [INT] characters by 2 turns, reduces Despair duration by 7 turns, removes Poison duration completely, and boosts ATK against delayed enemies by 2.5x for 2 turns. If field has Territory: [INT] or Striker when the special is activated, ignores Debuff Protection and delays all enemies by 1 turn, locks all orbs for 1 turn, recovers 30,000 HP, allowing HP Overfill up to 2x MAX HP, and adds 50x character's ATK as Additional Typeless Damage for 5 turns; otherwise, delays all enemies by 1 turn, and recovers 10,000 HP.",
         specialName: "Spilling Tears of Relief",
         sailor: {
-            base: "Reduces character's Special Reverse by 3 turns",
-            level1: "Heals crew by 600 HP at end of turn"
+            base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "Recovers 600 HP at the end of each turn."
         },
         support: [
             {
-                Characters: "[INT] characters with the following Character Tag: [Elbaph Arc]",
+                Characters: "[INT] [Elbaph Arc] characters",
                 description: [
-                    "Adds 1% of character's base RCV to supported character's base RCV",
-                    "Adds 3% of character's base RCV to supported character's base RCV",
-                    "Adds 5% of character's base RCV to supported character's base RCV",
-                    "Adds 7% of character's base RCV to supported character's base RCV",
-                    "Adds 9% of character's base RCV to supported character's base RCV"
+                    "Adds 1% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 3% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 5% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 7% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 9% of this character's base RCV to the supported character's base RCV."
                 ]
             }
         ],
@@ -187087,22 +187088,22 @@ window.details = {
         ]
     },
     4588: {//5* PKA Rodo
-        captain: "Boosts [INT] and Striker characters' ATK by 3.5x, HP by 1.6x, reduces damage taken by 10%, and makes crew's [RCV] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] Boosts [Giant] characters' base ATK by +750",
-        special: "Deals 100x character's ATK in non-type damage to all enemies at end of turn for 1 turn, reduces all enemies' damage reduction/DEF Up and Threshold Damage Reduction duration by 3 turns, and boosts crew's base ATK by +1250 for 3 turns. If 5 or more [Giant] [Elbaph Arc] characters are on the crew, applies \"Territory: Striker class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn. If 3 or more [New Giant Pirate Crew] characters or 5 or more [Giant] characters are on the crew, applies \"Territory: [INT]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        captain: "Boosts ATK of [INT] and Striker characters by 3.5x, boosts base ATK of [Giant] characters by 750, boosts HP of [INT] and Striker characters by 1.6x, reduces damage received by 10%, and makes [RCV] orbs beneficial for all characters.",
+        special: "Deals 100x character's ATK in Typeless damage to all enemies at the end of the turn for 1 turn, reduces enemies' Increased Defense, Percent Damage Reduction and Threshold Damage Reduction duration by 3 turns, and boosts Base ATK of all characters by 1,250 for 3 turns. If your crew has 5+ [Giant] or [Elbaph Arc] characters, applies Territory: Striker to the field for 1 turn. If your crew has 3+ [New Giant Pirate Crew] characters or 5+ [Giant] characters, applies Territory: [INT] to the field for 1 turn.",
         specialName: "Anger at the Destructive Disruption",
         sailor: {
-            base: "Lets character completely evade Special Bind",
-            level1: "Reduces character's Special Reverse by 3 turns"
+            base: "Reduces Special Bind duration completely on this character.",
+            level1: "Restores Special Cooldown of this character by 3 turns when it is rewinded."
         },
         support: [
             {
-                Characters: "[INT] characters with the following Character Tag: [Elbaph Arc]",
+                Characters: "[INT] [Elbaph Arc] characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats [AUTO+] At battle 4, activates supported character's Special"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Special."
                 ]
             }
         ],
