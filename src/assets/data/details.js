@@ -187229,6 +187229,46 @@ window.details = {
             }
         ]
     },
+    4590: {//Nami
+        captain: "Boosts ATK of [INT] characters by 2.5x, and boosts HP of [INT] characters by 1.2x.",
+        special: "Recovers 4,000 HP, paralyzes (50%) all enemies for 1 turn, and boosts ATK against paralyzed enemies by 1.75x for 1 turn.",
+        specialName: "Perplexed Awakening",
+        sailor: "Boosts base ATK, HP and RCV of [INT] characters by 30.",
+        limit: [
+            "Boosts base ATK by 50",
+            "Boosts base HP by 90",
+            "Boosts base ATK by 60",
+            "Acquire Potential 1: [PSY] Damage Reduction",
+            "Boosts base HP by 110",
+            "Boosts base RCV by 100",
+            "Boosts base ATK by 140",
+            "Boosts base HP by 200",
+            "Acquire 1 additional Socket slot",
+            "Acquire Potential 2: Double Special Activation"
+        ],
+        potential: [
+            {
+                Name: "[PSY] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [PSY] characters by 1%",
+                    "Reduces damage taken from [PSY] characters by 2%",
+                    "Reduces damage taken from [PSY] characters by 3%",
+                    "Reduces damage taken from [PSY] characters by 4%",
+                    "Reduces damage taken from [PSY] characters by 5%"
+                ]
+            },
+            {
+                Name: "Double Special Activation",
+                description: [
+                    "Once per adventure, reduces Special Cooldown of this character by 1 turn after the first time this special is used",
+                    "Once per adventure, reduces Special Cooldown of this character by 3 turns after the first time this special is used",
+                    "Once per adventure, reduces Special Cooldown of this character by 5 turns after the first time this special is used",
+                    "Once per adventure, reduces Special Cooldown of this character by 7 turns after the first time this special is used",
+                    "Once per adventure, reduces Special Cooldown of this character completely after the first time this special is used"
+                ]
+            }
+        ]
+    },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
