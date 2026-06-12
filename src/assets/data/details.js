@@ -185141,6 +185141,26 @@ window.details = {
             "Boosts base HP by 80",
             "Boosts base ATK by 50",
             "Boosts base ATK by 50"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            {
+                support: [
+                    {
+                        Characters: "[Revolutionary Army], [Egghead Arc] characters",
+                        description: [
+                            "Adds 7% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special to apply a Territory, reduces crew's ATK Down duration by 1 turn [AUTO+] If inflicted with ATK Down/Paralysis status from the enemy or at final battle, activates supported character's Special",
+                            "Adds 9% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special to apply a Territory, reduces crew's ATK Down duration by 1 turn [AUTO+] If inflicted with ATK Down/Paralysis status from the enemy or at final battle, activates supported character's Special",
+                            "Adds 10% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special to apply a Territory, reduces crew's ATK Down duration by 1 turn [AUTO+] If inflicted with ATK Down/Paralysis status from the enemy or at final battle, activates supported character's Special",
+                            "Adds 12% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special to apply a Territory, reduces crew's ATK Down/Paralysis duration by 1 turn [AUTO+] If inflicted with ATK Down/Paralysis status from the enemy or at final battle, activates supported character's Special",
+                            "Adds 15% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special to apply a Territory, reduces crew's ATK Down/Paralysis duration by 1 turn, and applies -10% [STR], [QCK], [DEX], and [INT] Resistance to all enemies for 1 turn [AUTO+] If inflicted with ATK Down/Paralysis status from the enemy or at final battle, activates supported character's Special"
+                        ]
+                    }
+                ]
+            },
+            null
         ]
     },
     4568: {//St. Figarland Garling
@@ -185172,6 +185192,26 @@ window.details = {
             "Boosts base ATK by 50",
             "Boosts base HP by 80",
             "Boosts base HP by 80"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            {
+                support: [
+                    {
+                        Characters: "Characters with Cost 70 or more",
+                        description: [
+                            "Adds 3% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special, reduces Special charge time by 1 turn for characters with a Cost of 70 or more [AUTO+] When enemy applies a Territory and at final battle, activates supported character's Special",
+                            "Adds 5% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special, reduces Special charge time by 1 turn for characters with a Cost of 70 or more, and boosts the chain multiplier by 1.1x for 1 turn [AUTO+] When enemy applies a Territory and at final battle, activates supported character's Special",
+                            "Adds 7% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special, reduces Special charge time by 1 turn for characters with a Cost of 70 or more, and boosts the chain multiplier by 1.1x for 1 turn [AUTO+] When enemy applies a Territory and at final battle, activates supported character's Special",
+                            "Adds 10% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special, reduces Special charge time by 1 turn for characters with a Cost of 70 or more, and boosts the chain multiplier by 1.15x for 1 turn [AUTO+] When enemy applies a Territory and at final battle, activates supported character's Special",
+                            "Adds 15% of character's base stats to supported character's base stats. Once per quest, if supported character uses a Special, reduces Special charge time by 2 turns for characters with a Cost of 70 or more, and boosts the chain multiplier by 1.25x for 1 turn [AUTO+] When enemy applies a Territory and at final battle, activates supported character's Special"
+                        ]
+                    }
+                ]
+            },
+            null
         ]
     },
     4569: {//Sakazuki
