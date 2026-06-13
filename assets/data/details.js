@@ -187270,22 +187270,22 @@ window.details = {
         ]
     },
     4589: {//5+ PKA Rodo
-        captain: "Boosts [INT] and Striker characters' ATK by 4x, HP by 1.6x, reduces damage taken by 10%, and makes crew's [INT][RCV] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] Boosts [Giant] characters' base ATK by +750, and boosts [New Giant Pirate Crew] characters' ATK by 1.1x",
-        special: "Deals 100x character's ATK in non-type damage to all enemies at end of turn for 3 turns, reduces all enemies' damage reduction/DEF Up and Threshold Damage Reduction duration by 4 turns, massively reduces a portion of each enemy's dealt damage that exceeds 5,000 for 2 turns, and boosts crew's base ATK by +1250 for 3 turns. If 5 or more [Giant] [Elbaph Arc] characters are on the crew, applies \"Territory: Striker class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn. If 3 or more [New Giant Pirate Crew] characters or 5 or more [Giant] characters are on the crew, applies \"Territory: [INT]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        captain: "Boosts ATK of [New Giant Pirate Crew] characters by 1.1x, boosts ATK of [INT] and Striker characters by 4x, boosts base ATK of [Giant] characters by 750, boosts HP of [INT] and Striker characters by 1.6x, reduces damage received by 10%, and makes [INT] and [RCV] orbs beneficial for all characters.",
+        special: "Deals 100x character's ATK in Typeless damage to all enemies at the end of the turn for 3 turns, reduces enemies' Increased Defense, Percent Damage Reduction and Threshold Damage Reduction duration by 4 turns, reduces any damage received above 5,000 HP by 90% for 2 turns, and boosts Base ATK of all characters by 1,250 for 3 turns. If your crew has 5+ [Giant] or [Elbaph Arc] characters, applies Territory: Striker to the field for 1 turn. If your crew has 3+ [New Giant Pirate Crew] characters or 5+ [Giant] characters, applies Territory: [INT] to the field for 1 turn.",
         specialName: "Anger at the Destructive Disruption",
         sailor: {
-            base: "Lets character completely evade Special Bind",
-            level1: "Reduces character's Special Reverse by 3 turns"
+            base: "Reduces Special Bind duration completely on this character.",
+            level1: "Restores Special Cooldown of this character by 3 turns when it is rewinded."
         },
         support: [
             {
-                Characters: "[INT] characters with the following Character Tag: [Elbaph Arc]",
+                Characters: "[INT] [Elbaph Arc] characters",
                 description: [
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 7% of character's base stats to supported character's base stats [AUTO+] At battle 4, activates supported character's Special"
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Special."
                 ]
             }
         ],
@@ -187452,24 +187452,24 @@ window.details = {
         ]
     },
     4591: {//Hajrudin
-        captain: "Reduces Striker and Powerhouse characters' Special charge time by 1 turn at start of quest, boosts their ATK by 5.25x, boosts their ATK by 6x when they have non-type slots, boosts HP by 1.5x, and makes crew's [RCV][TND] slots have matching slot effects. After receiving damage from enemy or tapping on this character with a [RCV] or Rainbow slot, applies Weakened status (increase damage taken by 1.3x for all enemies, damage further increased by 1.3x if enemy has Increase Damage Taken) to all enemies for 2 turns ignoring immunity to all status effects (visible effect will be 2 turns and become 1 during character's next action)",
-        special: "Sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), reduces crew's Burn/Special Bind duration by 7 turns, and increases all enemies' damage taken by 2.5x for 2 turns ignoring immunity to status effects. If field has \"Territory: [INT]\" and \"Territory: Striker class\" when Special is launched, further increases all enemies' damage taken effect by 2x (up a maximum 6x; effect applies to increase damage taken effect from this Special). If field has \"Territory: [INT]\" or \"Territory: Striker class\" when Special is launched, further increases all enemies' damage taken effect by 1.5x (up a maximum 6x; effect applies to increase damage taken effect from this Special)",
+        captain: "Reduces Special Cooldown of Striker and Powerhouse characters by 1 turn at the start of the fight, boosts ATK of Striker and Powerhouse characters by 5.25x, by 6x instead if they have a non-type orb, boosts HP of Striker and Powerhouse characters by 1.5x, and makes [RCV] and [TND] orbs beneficial for all characters. After receiving damage from the enemy or tapping on this character with a [RCV] or [RAINBOW] orb, ignores Debuff Protection and inflicts all enemies with Weaken by 1.3x, by 1.69x instead if enemies are inflicted with Increase Damage Taken, for 1 turn.",
+        special: "Ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn, reduces Burn and Special Bind duration by 7 turns, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.5x for 2 turns. If field has Territory: [INT] and Striker when the special is activated, increases boost effects of enemies' Increase Damage Taken debuffs by 2x (up to 6x), including effects activated in the same ability. If field has Territory: [INT] or Striker when the special is activated, increases boost effects of enemies' Increase Damage Taken debuffs by 1.5x (up to 6x), including effects activated in the same ability.",
         specialName: "Imagining His Benefactor's Smile",
         sailor: {
-            base: "Sets bottom-row slots to Rainbow slots at start of quest (no stacking identical abilities)",
-            level1: "Makes Striker and Powerhouse characters' [RCV] slots have matching slot effects, and if field has \"Territory: [INT]\" or \"Territory: Striker class\", boosts Striker and Powerhouse characters' base ATK by 1.1x"
+            base: "Changes orbs of bottom row characters into [RAINBOW] orbs at the start of the fight.",
+            level1: "Makes [RCV] orbs beneficial for Striker and Powerhouse characters. If field has Territory: [INT] or Striker, boosts base ATK of Striker and Powerhouse characters by 1.1x."
         },
-        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Rodo, Stansen, Goldberg, Gerd, Cavendish, Bartolomeo, Sai, Ideo, Leo, Orlumbus",
-        superSpecial: "Changes crew's slots (including [BLOCK] slots) to [RCV], reduces character's Special Bind duration by 7 turns, allows crew to perform Super Tandem with [RCV] and Rainbow slots for 3 turns, changes ATK multiplier of [INT][RCV] and Rainbow slots to 3.5x when slots match, 0.5x when unfavorable, 1.0x otherwise (normally 2.0x when matching) for 1 turn, and changes Powerhouse characters to Super Powerhouse",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Rodo, Stansen, Goldberg, Gerd, Cavendish, Bartolomeo, Sai, Ideo, Leo, Orlumbus",
+        superSpecial: "Changes all orbs, including [BLOCK] orbs, into [RCV] orbs, reduces Special Bind duration by 7 turns on this character, allows all characters to perform Super Tandem with [RCV] and [RAINBOW] orbs for 3 turns, increases Orb Effects of beneficial [INT], [RCV] and [RAINBOW] orbs to 3.5x for 1 turn, and transforms Powerhouse characters into Super Powerhouse characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [New Giant Pirate Crew]",
+                Characters: "[New Giant Pirate Crew] characters",
                 description: [
-                    "Once per quest, if inflicted with Burn or Special Bind status from the enemy, reduces crew's Burn/Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn or Special Bind status from the enemy, reduces crew's Burn/Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn or Special Bind status from the enemy, reduces crew's Burn/Special Bind duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn or Special Bind status from the enemy, reduces crew's Burn/Special Bind duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn or Special Bind status from the enemy, reduces crew's Burn/Special Bind duration by 3 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Burn or Special Bind, reduces Burn and Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Burn or Special Bind, reduces Burn and Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Burn or Special Bind, reduces Burn and Special Bind duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with Burn or Special Bind, reduces Burn and Special Bind duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with Burn or Special Bind, reduces Burn and Special Bind duration by 3 turns."
                 ]
             }
         ],
@@ -187549,18 +187549,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [New Giant Pirate Crew] [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When a [New Giant Pirate Crew] [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When a [New Giant Pirate Crew] [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When a [New Giant Pirate Crew] [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When a [New Giant Pirate Crew] [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem"
+                "When a [New Giant Pirate Crew], [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When a [New Giant Pirate Crew], [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When a [New Giant Pirate Crew], [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When a [New Giant Pirate Crew], [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When a [New Giant Pirate Crew], [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [New Giant Pirate Crew] [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 1 for 1 turn",
-                "Raises Boost Level of [New Giant Pirate Crew] [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 2 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 3 and raises Boost Level of [New Giant Pirate Crew] characters by 4 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 4 and raises Boost Level of [New Giant Pirate Crew] characters by 5 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 5 and raises Boost Level of [New Giant Pirate Crew] characters by 7 for 1 turn"
+                "Raises Boost Level of [New Giant Pirate Crew], [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 1 for 1 turn.",
+                "Raises Boost Level of [New Giant Pirate Crew], [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 3 for 1 turn, and raises Boost Level of [New Giant Pirate Crew] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 4 for 1 turn, and raises Boost Level of [New Giant Pirate Crew] characters by 5 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 5 for 1 turn, and raises Boost Level of [New Giant Pirate Crew] characters by 7 for 1 turn."
             ]
         },
         festStats: {
@@ -187627,21 +187627,21 @@ window.details = {
         ]
     },
     4592: {//Stansen
-        special: "Reduces crew's Bind duration by 7 turns, and reduces damage taken by 80% for 1 turn. If crew has ATK Up status when Special is launched, sets the chain multiplier's minimum value at 2.5 and maximum value at 20.0 for 1 turn (boosts [INT] and Striker characters' ATK by 2.75x for 1 turn otherwise). If field has \"Territory: [INT]\" and \"Territory: Striker class\" when Special is launched, boosts crew's ATK based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 1 turn",
+        special: "Reduces Bind duration by 7 turns, and reduces damage received by 80% for 1 turn. If your crew has ATK Up when the special is activated, sets Chain Boundaries to 2.5x and 20.0x for 1 turn; boosts ATK of [INT] and Striker characters by 2.75x for 1 turn otherwise. If field has Territory: [INT] and Striker when the special is activated, boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn.",
         specialName: "Massive Figure",
         sailor: {
-            base: "Character cannot be blown away by attack, and makes Powerhouse and Striker characters' [QCK] slots have matching slot effects",
-            level1: "Boosts crew's base ATK and HP by 150"
+            base: "This character cannot be Blown Away, and makes [QCK] orbs beneficial for Powerhouse and Striker characters.",
+            level1: "Boosts base ATK and HP of all characters by 150."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [New Giant Pirate Crew]",
+                Characters: "[New Giant Pirate Crew] characters",
                 description: [
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 2 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 2 turns."
                 ]
             }
         ],
@@ -187695,21 +187695,21 @@ window.details = {
         festAttackTarget: "Targets closest enemies"
     },
     4593: {//Goldberg & Gerd
-        special: "Reduces crew's Despair duration by 7 turns, and changes crew's [BLOCK][RCV] slots to Rainbow slots (2x ATK; cannot be changed by crew or enemies). If crew has slot effect boost when Special is launched, boosts the type effects of normal attacks for [INT] and Striker characters by 2.5x for 1 turn (boosts their slot effects by 2.75x for 1 turn otherwise). If field has \"Territory: [INT]\" and \"Territory: Striker class\" when Special is launched, boosts the ATK of the next final tap performed by a Powerhouse or Striker character by 80% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+        special: "Reduces Despair duration by 7 turns, and changes [BLOCK] and [RCV] orbs into [RAINBOW] orbs. If your crew has Orb Amplification when the special is activated, boosts the Color Affinity of [INT] and Striker characters by 2.5x for 1 turn; boosts Orb Effects of [INT] and Striker characters by 2.75x for 1 turn otherwise. If field has Territory: [INT] and Striker when the special is activated, boosts Final Tap ATK of Powerhouse and Striker characters by 80%.",
         specialName: "New Crewmates of the Giant Pirate Crew",
         sailor: {
-            base: "Character cannot be blown away by attack, and makes Powerhouse and Striker characters' [STR] slots have matching slot effects",
-            level1: "Boosts crew's base ATK and HP by 150"
+            base: "This character cannot be Blown Away, and makes [STR] orbs beneficial for Powerhouse and Striker characters.",
+            level1: "Boosts base ATK and HP of all characters by 150."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [New Giant Pirate Crew]",
+                Characters: "[New Giant Pirate Crew] characters",
                 description: [
-                    "Once per quest, if inflicted with Despair status from the enemy, reduces crew's Despair duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Despair status from the enemy, reduces crew's Despair duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Despair status from the enemy, reduces crew's Despair duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Despair status from the enemy, reduces crew's Despair duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Despair status from the enemy, reduces crew's Despair duration by 2 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Despair, reduces Despair duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Despair, reduces Despair duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Despair, reduces Despair duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Despair, reduces Despair duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Despair, reduces Despair duration by 2 turns."
                 ]
             }
         ],
