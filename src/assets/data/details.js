@@ -187764,23 +187764,23 @@ window.details = {
     },
     4594: {//Robin & Saul
         captain: {
-            character1: "Boosts Striker and Cerebral characters' HP and RCV by 1.3x, boosts their ATK by approximately 6x when slots match (5.25x otherwise), makes their [STR][INT][TND] slots have matching slot effects, at the end of each battle, heals 30% of damage received during that battle (Captain Ability healing amount is applied when receiving damage), and if crew uses a Special to apply ATK Up or boost slot or type effects, further increases the effect by +0.25 (stackable with other further raising effects)",
-            character2: "Boosts Striker and Cerebral characters' HP and RCV by 1.3x, boosts their ATK by approximately 6x when slots match (5.25x otherwise), makes their [STR][INT][TND] slots have matching slot effects, reduces damage taken by 20%, and if crew uses a Special to apply ATK Up or boost slot or type effects, further increases the effect by +0.25 (stackable with other further raising effects)",
-            combined: "Boosts Striker and Cerebral characters' HP and RCV by 1.3x, boosts their ATK by approximately 6.25x when slots match (5.5x otherwise), makes their [STR][INT][TND] slots have matching slot effects, reduces damage taken by 20%, at the end of each battle, heals 50% of damage received during that battle (Captain Ability healing amount is applied when receiving damage), and if crew uses a Special to apply ATK Up or boost slot or type effects, further increases the effect by +0.25 (stackable with other further raising effects)"
+            character1: "Boosts ATK of Striker and Cerebral characters by 5.25x, by 6x instead if they have a beneficial orb, boosts HP and RCV of Striker and Cerebral characters by 1.3x, makes [STR], [INT] and [TND] orbs beneficial for Striker and Cerebral characters, and increases boost effects of ATK Up, Orb Amplification and Color Affinity buffs applied by specials by +0.25x. Recovers 30% of damage taken from enemies in the previous stage when entering a new stage.",
+            character2: "Boosts ATK of Striker and Cerebral characters by 5.25x, by 6x instead if they have a beneficial orb, boosts HP and RCV of Striker and Cerebral characters by 1.3x, makes [STR], [INT] and [TND] orbs beneficial for Striker and Cerebral characters, reduces damage received by 20%, and increases boost effects of ATK Up, Orb Amplification and Color Affinity buffs applied by specials by +0.25x.",
+            combined: "Boosts ATK of Striker and Cerebral characters by 5.5x, by 6.25x instead if they have a beneficial orb, boosts HP and RCV of Striker and Cerebral characters by 1.3x, makes [STR], [INT] and [TND] orbs beneficial for Striker and Cerebral characters, reduces damage received by 20%, and increases boost effects of ATK Up, Orb Amplification and Color Affinity buffs applied by specials by +0.25x. Recovers 50% of damage taken from enemies in the previous stage when entering a new stage."
         },
-        special: "Reduces crew's Special charge time by 2 turns, reduces damage taken by 80% for 1 turn, and applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken) to all enemies for 1 turn. If 4 or more [Straw Hat Pirates] [Giant] [Elbaph Arc] characters are on the crew, this Special's Weakened effect will ignore immunity to status effects, and reduces crew's Blow Away duration by 4 turns. If field has \"Territory: [INT]\" and \"Territory: Striker class\", reduces the duration of crew's ATK Up effect and slot and type effect boosts by 3 turns, but further increases the boosts by 1.75x (up to a maximum 6x; further increases crew's ATK Up effect and slot and type effect boosts by 1.2x (up to a maximum of 4.5x) otherwise), then after that, becomes \"Robin & Saul\" for 1 turn",
+        special: "Reduces Special Cooldown of all characters by 2 turns, reduces damage received by 80% for 1 turn, and becomes Robin & Saul for 1 turn. If your crew has 4+ [Straw Hat Pirates], [Giant] or [Elbaph Arc] characters, reduces Blow Away duration by 4 turns, and ignores Debuff Protection and inflicts all enemies with Weaken by 1.5x, by 1.875x instead if enemies are inflicted with Increase Damage Taken, for 1 turn; otherwise, inflicts all enemies with Weaken by 1.5x, by 1.875x instead if enemies are inflicted with Increase Damage Taken, for 1 turn. If field has Territory: [INT] and Striker when the special is activated, decreases duration of any ATK Up, Orb Amplification and Color Affinity buffs by 3 turns, and increases boost effects of ATK Up, Orb Amplification and Color Affinity buffs by 1.75x (up to 6x); otherwise, increases boost effects of ATK Up, Orb Amplification and Color Affinity buffs by 1.2x (up to 4.5x).",
         specialName: "Overwhelming Thoughts",
         sailor: {
-            character1: "Character cannot be blown away by attack, and heals crew by 500 HP at end of turn",
-            character2: "Character cannot be blown away by attack, and heals crew by 500 HP at end of turn",
-            combined: "Character cannot be blown away by attack, and heals crew by 500 HP at end of turn",
-            level1: "Reduces character's Special Reverse by 3 turns"
+            character1: "This character cannot be Blown Away, and recovers 500 HP at the end of each turn.",
+            character2: "This character cannot be Blown Away, and recovers 500 HP at the end of each turn.",
+            combined: "This character cannot be Blown Away, and recovers 500 HP at the end of each turn.",
+            level1: "Restores Special Cooldown of this character by 3 turns when it is rewinded."
         },
-        superSpecialCriteria: "When character becomes \"Robin & Saul\" with Super Switch effect and any 3 [Straw Hat Pirates] [Giant] [Ohara] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
-        superSpecial: "Reduces crew's \"ATK Down when chain multiplier is below certain amount\" effect by 6 turns, applies -30% [INT] and [STR] Resistance to all enemies for 1 turn, changes [INT] characters to Super [INT], and changes [STR] characters to Super [STR]",
+        superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: [Straw Hat Pirates], [Giant], [Ohara] characters",
+        superSpecial: "Reduces Minimum-Chain ATK Down duration by 6 turns, reduces enemies' [STR] and [INT] resistance by -30% for 1 turn, and transforms [STR] and [INT] characters into Super [STR] and Super [INT] characters.",
         swap: {
-            base: "Changes character's slot to character's own type and sets the chain multiplier's minimum value at 1.6 and maximum value at 35.0 for 1 turn",
-            super: "Changes character's slot to character's own type, sets the chain multiplier's minimum value at 2.75 and maximum value at 35.0 for 1 turn, and becomes \"Robin & Saul\" for 1 turn",
+            base: "Changes orb of this character into a matching orb, and sets Chain Boundaries to 1.6x and 35.0x for 1 turn.",
+            super: "Changes orb of this character into a matching orb, sets Chain Boundaries to 2.75x and 35.0x for 1 turn, and becomes Robin & Saul for 1 turn.",
             superTurns: 8
         },
         limit: [
@@ -187858,13 +187858,13 @@ window.details = {
             }
         ],
         lastTap: {
-            condition: "On the turn Special is launched during final Battle",
+            condition: "On the last stage, on the turn this character's special is used",
             description: [
-                "Boosts crew's damage dealt to enemies with DEF Down/Paralysis by 1.5x for 1 turn",
-                "Boosts crew's damage dealt to enemies with DEF Down/Paralysis by 2x for 1 turn",
-                "Boosts crew's damage dealt to enemies with DEF Down/Paralysis by 2.25x for 1 turn and boosts character's base ATK by +300 (stacks with effects from Special) for 1 turn ",
-                "Boosts crew's damage dealt to enemies with DEF Down/Paralysis by 2.5x for 1 turn and boosts character's base ATK by +400 (stacks with effects from Special) for 1 turn ",
-                "Boosts crew's damage dealt to enemies with DEF Down/Paralysis by 3x for 1 turn and boosts character's base ATK by +500 (stacks with effects from Special) for 1 turn "
+                "Boosts ATK against enemies with reduced defense and paralyzed enemies by 1.5x for 1 turn.",
+                "Boosts ATK against enemies with reduced defense and paralyzed enemies by 2x for 1 turn.",
+                "Boosts ATK against enemies with reduced defense and paralyzed enemies by 2.25x for 1 turn, and boosts base ATK of this character by 300 for 1 turn.",
+                "Boosts ATK against enemies with reduced defense and paralyzed enemies by 2.5x for 1 turn, and boosts base ATK of this character by 400 for 1 turn.",
+                "Boosts ATK against enemies with reduced defense and paralyzed enemies by 3x for 1 turn, and boosts base ATK of this character by 500 for 1 turn."
             ]
         },
         festStats: {
@@ -187931,22 +187931,22 @@ window.details = {
         ]
     },
     4595: {//Nico Olvia
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts [INT], Striker, and Cerebral characters' ATK by 4x, RCV by 1.3x, and reduces damage taken by 15%",
-        special: "Reduces Striker and Cerebral characters' Switch Effect by 2, heals crew by 30,000 HP, reduces crew's Special Bind duration by 7 turns, changes crew's [BLOCK] slots to character's own type, and if \"Nico Robin\" is in the crew or set as Support for character, sets all enemies' DEF to 0 for 1 turn, and doubles Striker and Cerebral characters' ATK, slot effects, and type effects for 4 turns",
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [INT], Striker and Cerebral characters by 4x, boosts RCV of [INT], Striker and Cerebral characters by 1.3x, and reduces damage received by 15%.",
+        special: "Reduces Switch Effect of Striker and Cerebral characters by 2, recovers 30,000 HP, reduces Special Bind duration by 7 turns, and changes [BLOCK] orbs into matching orbs. If your crew has Nico Robin as a member or supporting this character, reduces the defense of all enemies by 100% for 1 turn, boosts ATK of Striker and Cerebral characters by 2x for 4 turns, boosts Orb Effects of Striker and Cerebral characters by 2x for 4 turns, and boosts the Color Affinity of Striker and Cerebral characters by 2x for 4 turns.",
         specialName: "Parting Words",
         sailor: {
-            base: "Reduces character's Special Bind duration by 7 turns",
-            level1: "Makes Striker and Cerebral characters' [PSY][RCV] slots have matching slot effects"
+            base: "Reduces Special Bind duration by 7 turns on this character.",
+            level1: "Makes [PSY] and [RCV] orbs beneficial for Striker and Cerebral characters."
         },
         support: [
             {
                 Characters: "Nico Robin, Jaguar D. Saul, Clou D. Clover",
                 description: [
-                    "Reduces all enemies' DEF by 10% for 1 turn at start of final battle",
-                    "Reduces all enemies' DEF by 20% for 1 turn at start of final battle",
-                    "Reduces all enemies' DEF by 30% for 1 turn at start of final battle",
-                    "Reduces all enemies' DEF by 40% for 1 turn and reduces supported character's Switch Effect by 1 at start of final battle",
-                    "Reduces all enemies' DEF by 50% for 1 turn and reduces supported character's Switch Effect by 2 at start of final battle"
+                    "Once per adventure, when you reach the final stage, reduces the defense of all enemies by 10% for 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces the defense of all enemies by 20% for 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces the defense of all enemies by 30% for 1 turn.",
+                    "Once per adventure, when you reach the final stage, reduces the defense of all enemies by 40% for 1 turn, and reduces Switch Effect of supported character by 1.",
+                    "Once per adventure, when you reach the final stage, reduces the defense of all enemies by 50% for 1 turn, and reduces Switch Effect of supported character by 2."
                 ]
             }
         ],
@@ -188000,24 +188000,24 @@ window.details = {
         festAttackTarget: "Targets closest enemies"
     },
     4596: {//6+ Black Maria
-        captain: "Makes crew's [PSY][INT][RCV][TND] slots have matching slot effects and boosts [STR], [DEX], and [QCK] characters' HP by 1.2x. If [STR], [DEX], and [QCK] characters are all on the crew, boosts [STR], [DEX], and [QCK] characters' ATK by 5.25x, RCV by 1.2x, and reduces crew's Paralysis duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Tobi Roppo] characters are on the crew, boosts Powerhouse characters' ATK by 1.2x. If 5 or more [Land of Wano Arc] characters are on the crew, reduces crew's Bind duration by 5 turns",
-        special: "Changes crew's [EMPTY][BLOCK][BOMB][G] slots to character's own type and reduces all enemies' HP by 10%, and delays all enemies by 3 turns if they do not have immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect). If 3 or more [Tobi Roppo] characters are on the crew, delays all enemies by 1 turn if they have immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), further increases crew's ATK, slot effect, and type effect boosts by +0.25, then after that, boosts [STR], [DEX], and [QCK] characters' slot effects by 3x for 1 turn. If character is a Captain, Friend Captain, or Helper Captain, or Captain is a [STR] or [DEX] type, boosts damage dealt to delayed enemies by 2.5x for 3 turns (boosts damage dealt to delayed enemies by 2.25x for 1 turn otherwise)",
+        captain: "Boosts HP of [STR], [DEX] and [QCK] characters by 1.2x, and makes [PSY], [INT], [RCV] and [TND] orbs beneficial for all characters. If there is a [STR], [DEX] and [QCK] character in your crew, boosts ATK of [STR], [DEX] and [QCK] characters by 5.25x, boosts RCV of [STR], [DEX] and [QCK] characters by 1.2x, and reduces Paralysis duration by 10 turns. If your crew has 3+ [Tobi Roppo] characters, boosts ATK of Powerhouse characters by 1.2x. If your crew has 5+ [Land of Wano Arc] characters, reduces Bind duration by 5 turns.",
+        special: "Deals 10% of enemies' current HP in damage to all enemies, changes [EMPTY], [BLOCK], [BOMB] and [G] orbs into matching orbs, and delays all enemies by 3 turns. If your crew has 3+ [Tobi Roppo] characters, ignores Debuff Protection and delays all enemies by 1 turn, and increases boost effects of ATK Up, Orb Amplification and Color Affinity buffs by +0.25x. Boosts Orb Effects of [STR], [DEX] and [QCK] characters by 3x for 1 turn. If this character is Captain or Friend Captain or your Captain is a [STR] or [DEX] character, boosts ATK against delayed enemies by 2.5x for 3 turns; boosts ATK against delayed enemies by 2.25x for 1 turn otherwise.",
         specialName: "Flaming Wanyudo Sleeve Swing",
         sailor: {
-            level1: "If Captain is a [STR] or [DEX] type, makes crew's [QCK][DEX] slots have matching slot effects",
-            level2: "If Captain is a [STR] or [DEX] type, reduces crew's Paralysis duration by 2 turns"
+            level1: "If your Captain is a [STR] or [DEX] character, makes [DEX] and [QCK] orbs beneficial for all characters.",
+            level2: "If your Captain is a [STR] or [DEX] character, reduces Paralysis duration by 2 turns."
         },
-        superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti",
-        superSpecial: "Changes character's slot to [TND], allows crew's slot effect boost to be further increased up to 2 times, further increases crew's damage boost to delayed enemies by +0.25, and changes Powerhouse characters to Super Powerhouse",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti",
+        superSpecial: "Changes orb of this character into a [TND] orb, enables Orb Amplification buffs to be enhanced up to 2 times, increases boost effects of Delay Status ATK Boost buffs by +0.25x, and transforms Powerhouse characters into Super Powerhouse characters.",
         support: [
             {
                 Characters: "Pageone, Sasaki, Ulti, Who's-Who",
                 description: [
-                    "Once per quest, if the crew is inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if the crew is inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if the crew is inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if the crew is inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if the crew is inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 2 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 2 turns."
                 ]
             }
         ],
@@ -188070,7 +188070,7 @@ window.details = {
             },
             {
                 captain: {
-                    base: "Reduces crew's Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, makes crew's [PSY][INT][RCV][TND] slots have matching slot effects and boosts [STR], [DEX], and [QCK] characters' HP by 1.2x. If [STR], [DEX], and [QCK] characters are all on the crew, boosts [STR], [DEX], and [QCK] characters' ATK by 5.25x, RCV by 1.2x, and reduces crew's Paralysis duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Tobi Roppo] characters are on the crew, boosts Powerhouse characters' ATK by 1.2x. If 5 or more [Land of Wano Arc] characters are on the crew, reduces crew's Bind duration by 5 turns. If \"Kaido\", \"King (Alber)\", \"Jack\", \"Queen\", \"Orochi\", \"Charlotte Linlin (Big Mom)\", \"Kanjuro\", \"Fukurokuju\", \"Ulti\", \"Page One\", \"Who's-Who\", \"Sasaki\", \"X Drake\", or \"Yamato\" is a crewmate and uses a Special, reduces all enemies' DEF Up duration by 3 turns (this effect can be activated up to 6 times total during a quest; up to 3 times in a single turn)"
+                    base: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 2 turns, and reduces VS Gauge and Switch Effect of all characters by 2. Boosts HP of [STR], [DEX] and [QCK] characters by 1.2x, and makes [PSY], [INT], [RCV] and [TND] orbs beneficial for all characters. If there is a [STR], [DEX] and [QCK] character in your crew, boosts ATK of [STR], [DEX] and [QCK] characters by 5.25x, boosts RCV of [STR], [DEX] and [QCK] characters by 1.2x, and reduces Paralysis duration by 10 turns. If your crew has 3+ [Tobi Roppo] characters, boosts ATK of Powerhouse characters by 1.2x. If your crew has 5+ [Land of Wano Arc] characters, reduces Bind duration by 5 turns. Up to 6 times per adventure but up to 3 times per turn, when Kaido, King (Alber), Jack, Queen, Orochi, Charlotte Linlin (Big Mom), Kanjuro, Fukurokuju, Ulti, Page One, Who's-Who, Sasaki, X Drake or Yamato uses a special as crewmate, reduces enemies' Increased Defense duration by 3 turns."
                 }
             },
             {
@@ -188078,7 +188078,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Changes crew's [EMPTY][BLOCK][BOMB][G] slots to character's own type and reduces all enemies' HP by 10%, and delays all enemies by 3 turns if they do not have immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect). If 3 or more [Tobi Roppo] characters or 4 or more [Tobi Roppo] [Lead Performer] [Mythical Zoan-type] characters are on the crew, delays all enemies by 1 turn if they have immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), further increases crew's ATK, slot effect, and type effect boosts by +0.75, reduces crew's Burn duration by 6 turns, then after that, boosts [STR], [DEX], and [QCK] characters' slot effects by 3x for 3 turns. If character is a Captain, Friend Captain, or Helper Captain, or Captain is a [STR] or [DEX] type, boosts damage dealt to delayed enemies by 2.75x for 3 turns (boosts damage dealt to delayed enemies by 2.5x for 1 turn otherwise)"
+                    base: "Deals 10% of enemies' current HP in damage to all enemies, changes [EMPTY], [BLOCK], [BOMB] and [G] orbs into matching orbs, and delays all enemies by 3 turns. If your crew has 3+ [Tobi Roppo] characters or 4+ [Tobi Roppo], [Lead Performer] or [Mythical Zoan-type] characters, ignores Debuff Protection and delays all enemies by 1 turn, increases boost effects of ATK Up, Orb Amplification and Color Affinity buffs by +0.75x, and reduces Burn duration by 6 turns. Boosts Orb Effects of [STR], [DEX] and [QCK] characters by 3x for 3 turns. If this character is Captain or Friend Captain or your Captain is a [STR] or [DEX] character, boosts ATK against delayed enemies by 2.75x for 3 turns; boosts ATK against delayed enemies by 2.5x for 1 turn otherwise."
                 },
                 rResilience: true
             }
@@ -188117,18 +188117,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Kaido, King (Alber), Queen, Jack, Sasaki, Who's-Who, Page One, Ulti"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.25x to [STR], [DEX], and [QCK] characters for 1 turn, and reduces all enemies' DEF Up duration by 1 turn",
-                "Applies ATK Boost (Tandem) of 1.5x to [STR], [DEX], and [QCK] characters for 1 turn, and reduces all enemies' DEF Up duration by 1 turn",
-                "Applies ATK Boost (Tandem) of 1.75x to [STR], [DEX], and [QCK] characters for 1 turn, and reduces all enemies' DEF Up duration by 2 turns",
-                "Applies ATK Boost (Tandem) of 2x to [STR], [DEX], and [QCK] characters for 1 turn, and reduces all enemies' DEF Up duration by 2 turns",
-                "Applies ATK Boost (Tandem) of 2.25x to [STR], [DEX], and [QCK] characters for 1 turn, and reduces all enemies' DEF Up duration by 3 turns"
+                "Boosts Tandem ATK of [STR], [DEX] and [QCK] characters by 1.25x for 1 turn, and reduces enemies' Increased Defense duration by 1 turn.",
+                "Boosts Tandem ATK of [STR], [DEX] and [QCK] characters by 1.5x for 1 turn, and reduces enemies' Increased Defense duration by 1 turn.",
+                "Boosts Tandem ATK of [STR], [DEX] and [QCK] characters by 1.75x for 1 turn, and reduces enemies' Increased Defense duration by 2 turns.",
+                "Boosts Tandem ATK of [STR], [DEX] and [QCK] characters by 2x for 1 turn, and reduces enemies' Increased Defense duration by 2 turns.",
+                "Boosts Tandem ATK of [STR], [DEX] and [QCK] characters by 2.25x for 1 turn, and reduces enemies' Increased Defense duration by 3 turns."
             ]
         },
         festStats: {
