@@ -187347,68 +187347,6 @@ window.details = {
                     "Reduces Special Cooldown of this character by 8 turns at the start of the fight"
                 ]
             }
-        ],
-        festStats: {
-            def: 177,
-            spd: 142,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade Confusion, reduce damage taken from [PSY] by 20%",
-        festAbility: [
-            "[INT]/Striker class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.1, RCV Up Lv.1, DEF Up Lv.1; if 5 or more [Elbaph Arc] [Giant] characters are on the team, ATK Style enemies Special CT Speed Down Lv.1; during Assault Rumble, self HP Up Lv.2, Special CT Speed Up Lv.1",
-            "[INT]/Striker class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.2, RCV Up Lv.2, DEF Up Lv.1; if 5 or more [Elbaph Arc] [Giant] characters are on the team, ATK Style enemies Special CT Speed Down Lv.2; during Assault Rumble, self HP Up Lv.3, Special CT Speed Up Lv.1",
-            "[INT]/Striker class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.3, RCV Up Lv.3, DEF Up Lv.2; if 5 or more [Elbaph Arc] [Giant] characters are on the team, ATK Style enemies Special CT Speed Down Lv.3; during Assault Rumble, self HP Up Lv.4, Special CT Speed Up Lv.2",
-            "[INT]/Striker class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.4, RCV Up Lv.4, DEF Up Lv.2; if 5 or more [Elbaph Arc] [Giant] characters are on the team, ATK Style enemies Special CT Speed Down Lv.4; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.2",
-            "[INT]/Striker class and [Giant] [Straw Hat Pirates] teammates ATK Up Lv.5, RCV Up Lv.5, DEF Up Lv.3; if 5 or more [Elbaph Arc] [Giant] characters are on the team, ATK Style enemies Special CT Speed Down Lv.5; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.3"
-        ],
-        festSpecial: [
-            {
-                cooldown: 18,
-                description: "Targets [INT]/Striker class teammates for ATK Up Lv.1 (6 s); targets 3 high DEF enemies for ATK Down Lv.1 (6 s), DEF Down Lv.1 (6 s); targets Striker class and [Giant] [Straw Hat Pirates] teammates for 110 HP per interval healing (11 s); during Assault Rumble, targets 3 enemies for 3000 damage, ATK Down Lv.1 (6 s); if 5 or more [Elbaph Arc] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 18,
-                description: "Targets [INT]/Striker class teammates for ATK Up Lv.1 (7 s); targets 3 high DEF enemies for ATK Down Lv.1 (7 s), DEF Down Lv.1 (7 s); targets Striker class and [Giant] [Straw Hat Pirates] teammates for 120 HP per interval healing (12 s); during Assault Rumble, targets 3 enemies for 3200 damage, ATK Down Lv.1 (7 s); if 5 or more [Elbaph Arc] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 18,
-                description: "Targets [INT]/Striker class teammates for ATK Up Lv.2 (8 s); targets 3 high DEF enemies for ATK Down Lv.2 (8 s), DEF Down Lv.1 (8 s); targets Striker class and [Giant] [Straw Hat Pirates] teammates for 130 HP per interval healing (13 s); during Assault Rumble, targets 3 enemies for 3400 damage, ATK Down Lv.2 (8 s); if 5 or more [Elbaph Arc] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 18,
-                description: "Targets [INT]/Striker class teammates for ATK Up Lv.2 (9 s); targets 3 high DEF enemies for ATK Down Lv.2 (9 s), DEF Down Lv.1 (9 s); targets Striker class and [Giant] [Straw Hat Pirates] teammates for 140 HP per interval healing (14 s); during Assault Rumble, targets 3 enemies for 3600 damage, ATK Down Lv.2 (9 s); if 5 or more [Elbaph Arc] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 18,
-                description: "Targets [INT]/Striker class teammates for ATK Up Lv.3 (10 s); targets 3 high DEF enemies for ATK Down Lv.3 (10 s), DEF Down Lv.1 (10 s); targets Striker class and [Giant] [Straw Hat Pirates] teammates for 150 HP per interval healing (15 s); during Assault Rumble, targets 3 enemies for 3800 damage, ATK Down Lv.3 (10 s); if 5 or more [Elbaph Arc] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 18,
-                description: "Targets [INT]/Striker class teammates for ATK Up Lv.3 (11 s); targets 3 high DEF enemies for ATK Down Lv.3 (11 s), DEF Down Lv.2 (11 s); targets Striker class and [Giant] [Straw Hat Pirates] teammates for 160 HP per interval healing (16 s); during Assault Rumble, targets 3 enemies for 4000 damage, ATK Down Lv.3 (11 s); if 5 or more [Elbaph Arc] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 18,
-                description: "Targets [INT]/Striker class teammates for ATK Up Lv.4 (12 s); targets 3 high DEF enemies for ATK Down Lv.4 (12 s), DEF Down Lv.2 (12 s); targets Striker class and [Giant] [Straw Hat Pirates] teammates for 170 HP per interval healing (17 s); during Assault Rumble, targets 3 enemies for 4200 damage, ATK Down Lv.4 (12 s); if 5 or more [Elbaph Arc] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 18,
-                description: "Targets [INT]/Striker class teammates for ATK Up Lv.4 (13 s); targets 3 high DEF enemies for ATK Down Lv.4 (13 s), DEF Down Lv.2 (13 s); targets Striker class and [Giant] [Straw Hat Pirates] teammates for 180 HP per interval healing (18 s); during Assault Rumble, targets 3 enemies for 4400 damage, ATK Down Lv.4 (13 s); if 5 or more [Elbaph Arc] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 18,
-                description: "Targets [INT]/Striker class teammates for ATK Up Lv.5 (14 s); targets 3 high DEF enemies for ATK Down Lv.5 (14 s), DEF Down Lv.2 (14 s); targets Striker class and [Giant] [Straw Hat Pirates] teammates for 190 HP per interval healing (19 s); during Assault Rumble, targets 3 enemies for 4600 damage, ATK Down Lv.5 (14 s); if 5 or more [Elbaph Arc] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 18,
-                description: "Targets [INT]/Striker class teammates for ATK Up Lv.5 (15 s); targets 3 high DEF enemies for ATK Down Lv.5 (15 s), DEF Down Lv.3 (15 s); targets Striker class and [Giant] [Straw Hat Pirates] teammates for 200 HP per interval healing (20 s); during Assault Rumble, targets 3 enemies for 5000 damage, ATK Down Lv.5 (15 s); if 5 or more [Elbaph Arc] [Giant] characters are on the team, switches character with 2nd sub character"
-            }
         ]
     },
     4590: {//Nami
@@ -187562,69 +187500,7 @@ window.details = {
                 "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 4 for 1 turn, and raises Boost Level of [New Giant Pirate Crew] characters by 5 for 1 turn.",
                 "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 5 for 1 turn, and raises Boost Level of [New Giant Pirate Crew] characters by 7 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 172,
-            spd: 160,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind, reduce damage taken from [PSY] by 30％",
-        festAbility: [
-            "[INT]/Striker class and [Giant] teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; if 4 or more [Elbaph Arc] characters are on the team, [Giant] teammates DEF Up Lv.2; if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, when appearing on the field, self Special CT 22% reduction; self DEF Up Lv.1",
-            "[INT]/Striker class and [Giant] teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; if 4 or more [Elbaph Arc] characters are on the team, [Giant] teammates DEF Up Lv.3; if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, when appearing on the field, self Special CT 24% reduction; self DEF Up Lv.1",
-            "[INT]/Striker class and [Giant] teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; if 4 or more [Elbaph Arc] characters are on the team, [Giant] teammates DEF Up Lv.4; if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, when appearing on the field, self Special CT 26% reduction; self DEF Up Lv.2",
-            "[INT]/Striker class and [Giant] teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; if 4 or more [Elbaph Arc] characters are on the team, [Giant] teammates DEF Up Lv.5; if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, when appearing on the field, self Special CT 28% reduction; self DEF Up Lv.2",
-            "[INT]/Striker class and [Giant] teammates HP Up Lv.6, ATK Up Lv.6, SPD Up Lv.6; if 4 or more [Elbaph Arc] characters are on the team, [Giant] teammates DEF Up Lv.6; if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, when appearing on the field, self Special CT 30% reduction; self DEF Up Lv.3"
-        ],
-        festSpecial: [
-            {
-                cooldown: 35,
-                description: "Targets self for ATK Up Lv.1 (5 s); targets [INT]/Striker class teammates for ATK Up Lv.1 (6 s); targets enemies within medium range for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.10 (100 s), SPD Down Lv.10 (100 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] [Giant] teammates for 73% chance to evade CT delay (6 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 35,
-                description: "Targets self for ATK Up Lv.1 (5 s); targets [INT]/Striker class teammates for ATK Up Lv.1 (7 s); targets enemies within medium range for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.10 (100 s), SPD Down Lv.10 (100 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] [Giant] teammates for 76% chance to evade CT delay (7 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 35,
-                description: "Targets self for ATK Up Lv.1 (5 s); targets [INT]/Striker class teammates for ATK Up Lv.2 (8 s); targets enemies within medium range for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.10 (100 s), SPD Down Lv.10 (100 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] [Giant] teammates for 79% chance to evade CT delay (8 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 35,
-                description: "Targets self for ATK Up Lv.1 (5 s); targets [INT]/Striker class teammates for ATK Up Lv.2 (9 s); targets enemies within medium range for ATK x 19 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.10 (100 s), SPD Down Lv.10 (100 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] [Giant] teammates for 82% chance to evade CT delay (9 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 35,
-                description: "Targets self for ATK Up Lv.2 (5 s); targets [INT]/Striker class teammates for ATK Up Lv.3 (10 s); targets enemies within medium range for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.10 (100 s), SPD Down Lv.10 (100 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] [Giant] teammates for 85% chance to evade CT delay (10 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 35,
-                description: "Targets self for ATK Up Lv.2 (5 s); targets [INT]/Striker class teammates for ATK Up Lv.3 (11 s); targets enemies within medium range for ATK x 21 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.10 (100 s), SPD Down Lv.10 (100 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] [Giant] teammates for 88% chance to evade CT delay (11 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 35,
-                description: "Targets self for ATK Up Lv.2 (5 s); targets [INT]/Striker class teammates for ATK Up Lv.4 (12 s); targets enemies within medium range for ATK x 22 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.10 (100 s), SPD Down Lv.10 (100 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] [Giant] teammates for 91% chance to evade CT delay (12 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 35,
-                description: "Targets self for ATK Up Lv.3 (5 s); targets [INT]/Striker class teammates for ATK Up Lv.4 (13 s); targets enemies within medium range for ATK x 23 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.10 (100 s), SPD Down Lv.10 (100 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] [Giant] teammates for 94% chance to evade CT delay (13 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 35,
-                description: "Targets self for ATK Up Lv.3 (5 s); targets [INT]/Striker class teammates for ATK Up Lv.5 (14 s); targets enemies within medium range for ATK x 24 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.10 (100 s), SPD Down Lv.10 (100 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] [Giant] teammates for 97% chance to evade CT delay (14 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, switches character with 2nd sub character"
-            },
-            {
-                cooldown: 35,
-                description: "Targets self for ATK Up Lv.4 (5 s); targets [INT]/Striker class teammates for ATK Up Lv.6 (15 s); targets enemies within medium range for ATK x 25 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.10 (100 s), SPD Down Lv.10 (100 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] [Giant] teammates for 100% chance to evade CT delay (15 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, switches character with 2nd sub character"
-            }
-        ]
+        }
     },
     4592: {//Stansen
         special: "Reduces Bind duration by 7 turns, and reduces damage received by 80% for 1 turn. If your crew has ATK Up when the special is activated, sets Chain Boundaries to 2.5x and 20.0x for 1 turn; boosts ATK of [INT] and Striker characters by 2.75x for 1 turn otherwise. If field has Territory: [INT] and Striker when the special is activated, boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn.",
@@ -187683,16 +187559,7 @@ window.details = {
                     "Reduces Slot Bind duration by 5 turns on this character"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "DEF"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4593: {//Goldberg & Gerd
         special: "Reduces Despair duration by 7 turns, and changes [BLOCK] and [RCV] orbs into [RAINBOW] orbs. If your crew has Orb Amplification when the special is activated, boosts the Color Affinity of [INT] and Striker characters by 2.5x for 1 turn; boosts Orb Effects of [INT] and Striker characters by 2.75x for 1 turn otherwise. If field has Territory: [INT] and Striker when the special is activated, boosts Final Tap ATK of Powerhouse and Striker characters by 80%.",
@@ -187751,16 +187618,7 @@ window.details = {
                     "Reduces Slot Bind duration by 5 turns on this character"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4594: {//Robin & Saul
         captain: {
@@ -187866,69 +187724,7 @@ window.details = {
                 "Boosts ATK against enemies with reduced defense and paralyzed enemies by 2.5x for 1 turn, and boosts base ATK of this character by 400 for 1 turn.",
                 "Boosts ATK against enemies with reduced defense and paralyzed enemies by 3x for 1 turn, and boosts base ATK of this character by 500 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 184,
-            spd: 183,
-            style: "RCV"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Lv.2 (Medium Range)",
-            "Normal Attack",
-            "Heal Lv.2 (Medium Range)"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Forced Out, reduce damage taken from Slasher and Free Spirit by 30%",
-        festAbility: [
-            "Striker/Cerebral class and [Straw Hat Pirates] teammates ATK Up Lv.2, SPD Up Lv.2, DEF Up Lv.1; if 4 or more [Elbaph Arc] characters are on the team, [Straw Hat Pirates] teammates RCV Up Lv.2; if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, when appearing on the field, targets [Straw Hat Pirates] teammates for RCV x 1.2 healing",
-            "Striker/Cerebral class and [Straw Hat Pirates] teammates ATK Up Lv.3, SPD Up Lv.3, DEF Up Lv.1; if 4 or more [Elbaph Arc] characters are on the team, [Straw Hat Pirates] teammates RCV Up Lv.3; if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, when appearing on the field, targets [Straw Hat Pirates] teammates for RCV x 1.4 healing",
-            "Striker/Cerebral class and [Straw Hat Pirates] teammates ATK Up Lv.4, SPD Up Lv.4, DEF Up Lv.2; if 4 or more [Elbaph Arc] characters are on the team, [Straw Hat Pirates] teammates RCV Up Lv.4; if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, when appearing on the field, targets [Straw Hat Pirates] teammates for RCV x 1.6 healing",
-            "Striker/Cerebral class and [Straw Hat Pirates] teammates ATK Up Lv.5, SPD Up Lv.5, DEF Up Lv.2; if 4 or more [Elbaph Arc] characters are on the team, [Straw Hat Pirates] teammates RCV Up Lv.5; if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, when appearing on the field, targets [Straw Hat Pirates] teammates for RCV x 1.8 healing",
-            "Striker/Cerebral class and [Straw Hat Pirates] teammates ATK Up Lv.6, SPD Up Lv.6, DEF Up Lv.3; if 4 or more [Elbaph Arc] characters are on the team, [Straw Hat Pirates] teammates RCV Up Lv.6; if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, when appearing on the field, targets [Straw Hat Pirates] teammates for RCV x 2 healing"
-        ],
-        festSpecial: [
-            {
-                cooldown: 33,
-                description: "Targets Striker/Cerebral class and [Straw Hat Pirates] teammates for 520 HP per interval healing (11 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] teammates for 73% chance to evade RCV Bind (11 s), 73% chance to evade Damage Over Time (11 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, activates Provoke on 1 high DEF teammate (not including self) (11 s), DEF Up Lv.1 (11 s), Guard % Up Lv.1 (11 s); if 8 or more [Straw Hat Pirates] [Giant] characters are on the team, targets (not including self) 1 high DEF teammate for ATK x 1.2 Counter stance (11 s); switches character with 2nd sub character"
-            },
-            {
-                cooldown: 33,
-                description: "Targets Striker/Cerebral class and [Straw Hat Pirates] teammates for 540 HP per interval healing (12 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] teammates for 76% chance to evade RCV Bind (12 s), 76% chance to evade Damage Over Time (12 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, activates Provoke on 1 high DEF teammate (not including self) (12 s), DEF Up Lv.1 (12 s), Guard % Up Lv.1 (12 s); if 8 or more [Straw Hat Pirates] [Giant] characters are on the team, targets (not including self) 1 high DEF teammate for ATK x 1.4 Counter stance (12 s); switches character with 2nd sub character"
-            },
-            {
-                cooldown: 33,
-                description: "Targets Striker/Cerebral class and [Straw Hat Pirates] teammates for 560 HP per interval healing (13 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] teammates for 79% chance to evade RCV Bind (13 s), 79% chance to evade Damage Over Time (13 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, activates Provoke on 1 high DEF teammate (not including self) (13 s), DEF Up Lv.1 (13 s), Guard % Up Lv.2 (13 s); if 8 or more [Straw Hat Pirates] [Giant] characters are on the team, targets (not including self) 1 high DEF teammate for ATK x 1.6 Counter stance (13 s); switches character with 2nd sub character"
-            },
-            {
-                cooldown: 33,
-                description: "Targets Striker/Cerebral class and [Straw Hat Pirates] teammates for 580 HP per interval healing (14 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] teammates for 82% chance to evade RCV Bind (14 s), 82% chance to evade Damage Over Time (14 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, activates Provoke on 1 high DEF teammate (not including self) (14 s), DEF Up Lv.1 (14 s), Guard % Up Lv.2 (14 s); if 8 or more [Straw Hat Pirates] [Giant] characters are on the team, targets (not including self) 1 high DEF teammate for ATK x 1.8 Counter stance (14 s); switches character with 2nd sub character"
-            },
-            {
-                cooldown: 33,
-                description: "Targets Striker/Cerebral class and [Straw Hat Pirates] teammates for 600 HP per interval healing (15 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] teammates for 85% chance to evade RCV Bind (15 s), 85% chance to evade Damage Over Time (15 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, activates Provoke on 1 high DEF teammate (not including self) (15 s), DEF Up Lv.1 (15 s), Guard % Up Lv.3 (15 s); if 8 or more [Straw Hat Pirates] [Giant] characters are on the team, targets (not including self) 1 high DEF teammate for ATK x 2 Counter stance (15 s); switches character with 2nd sub character"
-            },
-            {
-                cooldown: 33,
-                description: "Targets Striker/Cerebral class and [Straw Hat Pirates] teammates for 620 HP per interval healing (16 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] teammates for 88% chance to evade RCV Bind (16 s), 88% chance to evade Damage Over Time (16 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, activates Provoke on 1 high DEF teammate (not including self) (16 s), DEF Up Lv.2 (16 s), Guard % Up Lv.3 (16 s); if 8 or more [Straw Hat Pirates] [Giant] characters are on the team, targets (not including self) 1 high DEF teammate for ATK x 2.2 Counter stance (16 s); switches character with 2nd sub character"
-            },
-            {
-                cooldown: 33,
-                description: "Targets Striker/Cerebral class and [Straw Hat Pirates] teammates for 640 HP per interval healing (17 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] teammates for 91% chance to evade RCV Bind (17 s), 91% chance to evade Damage Over Time (17 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, activates Provoke on 1 high DEF teammate (not including self) (17 s), DEF Up Lv.2 (17 s), Guard % Up Lv.4 (17 s); if 8 or more [Straw Hat Pirates] [Giant] characters are on the team, targets (not including self) 1 high DEF teammate for ATK x 2.4 Counter stance (17 s); switches character with 2nd sub character"
-            },
-            {
-                cooldown: 33,
-                description: "Targets Striker/Cerebral class and [Straw Hat Pirates] teammates for 660 HP per interval healing (18 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] teammates for 94% chance to evade RCV Bind (18 s), 94% chance to evade Damage Over Time (18 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, activates Provoke on 1 high DEF teammate (not including self) (18 s), DEF Up Lv.2 (18 s), Guard % Up Lv.4 (18 s); if 8 or more [Straw Hat Pirates] [Giant] characters are on the team, targets (not including self) 1 high DEF teammate for ATK x 2.6 Counter stance (18 s); switches character with 2nd sub character"
-            },
-            {
-                cooldown: 33,
-                description: "Targets Striker/Cerebral class and [Straw Hat Pirates] teammates for 680 HP per interval healing (19 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] teammates for 97% chance to evade RCV Bind (19 s), 97% chance to evade Damage Over Time (19 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, activates Provoke on 1 high DEF teammate (not including self) (19 s), DEF Up Lv.2 (19 s), Guard % Up Lv.5 (19 s); if 8 or more [Straw Hat Pirates] [Giant] characters are on the team, targets (not including self) 1 high DEF teammate for ATK x 2.8 Counter stance (19 s); switches character with 2nd sub character"
-            },
-            {
-                cooldown: 33,
-                description: "Targets Striker/Cerebral class and [Straw Hat Pirates] teammates for 700 HP per interval healing (20 s); if 4 or more [Elbaph Arc] characters are on the team, targets [Straw Hat Pirates] teammates for 100% chance to evade RCV Bind (20 s), 100% chance to evade Damage Over Time (20 s); if 6 or more [Straw Hat Pirates] [Giant] characters are on the team, activates Provoke on 1 high DEF teammate (not including self) (20 s), DEF Up Lv.3 (20 s), Guard % Up Lv.6 (20 s); if 8 or more [Straw Hat Pirates] [Giant] characters are on the team, targets (not including self) 1 high DEF teammate for ATK x 3 Counter stance (20 s); switches character with 2nd sub character"
-            }
-        ]
+        }
     },
     4595: {//Nico Olvia
         captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [INT], Striker and Cerebral characters by 4x, boosts RCV of [INT], Striker and Cerebral characters by 1.3x, and reduces damage received by 15%.",
@@ -187988,16 +187784,7 @@ window.details = {
                     "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4596: {//6+ Black Maria
         captain: "Boosts HP of [STR], [DEX] and [QCK] characters by 1.2x, and makes [PSY], [INT], [RCV] and [TND] orbs beneficial for all characters. If there is a [STR], [DEX] and [QCK] character in your crew, boosts ATK of [STR], [DEX] and [QCK] characters by 5.25x, boosts RCV of [STR], [DEX] and [QCK] characters by 1.2x, and reduces Paralysis duration by 10 turns. If your crew has 3+ [Tobi Roppo] characters, boosts ATK of Powerhouse characters by 1.2x. If your crew has 5+ [Land of Wano Arc] characters, reduces Bind duration by 5 turns.",
@@ -188130,153 +187917,7 @@ window.details = {
                 "Boosts Tandem ATK of [STR], [DEX] and [QCK] characters by 2x for 1 turn, and reduces enemies' Increased Defense duration by 2 turns.",
                 "Boosts Tandem ATK of [STR], [DEX] and [QCK] characters by 2.25x for 1 turn, and reduces enemies' Increased Defense duration by 3 turns."
             ]
-        },
-        festStats: {
-            def: 233,
-            spd: 173,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Heal Self Lv.2",
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: {
-            base: "Heal 300 HP at an interval, reduce damage taken from [STR] by 30%",
-            llbbase: "Heal 400 HP at an interval, reduce damage taken from [STR] by 40%"
-        },
-        festAbility: {
-            base: [
-                "[QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates ATK Up Lv.2, SPD Up Lv.2, RCV Up Lv.2; after receiving damage, up to 6 times targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for RCV x 0.2 healing; if 3 or more [Animal Kingdom Pirates] characters are on the team, when appearing on the field, self Special CT 2% reduction",
-                "[QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates ATK Up Lv.3, SPD Up Lv.3, RCV Up Lv.3; after receiving damage, up to 6 times targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for RCV x 0.4 healing; if 3 or more [Animal Kingdom Pirates] characters are on the team, when appearing on the field, self Special CT 4% reduction",
-                "[QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates ATK Up Lv.4, SPD Up Lv.4, RCV Up Lv.4; after receiving damage, up to 6 times targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for RCV x 0.6 healing; if 3 or more [Animal Kingdom Pirates] characters are on the team, when appearing on the field, self Special CT 6% reduction",
-                "[QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates ATK Up Lv.5, SPD Up Lv.5, RCV Up Lv.5; after receiving damage, up to 6 times targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for RCV x 0.8 healing; if 3 or more [Animal Kingdom Pirates] characters are on the team, when appearing on the field, self Special CT 8% reduction",
-                "[QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates ATK Up Lv.6, SPD Up Lv.6, RCV Up Lv.6; after receiving damage, up to 6 times targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for RCV x 1 healing; if 3 or more [Animal Kingdom Pirates] characters are on the team, when appearing on the field, self Special CT 10% reduction"
-            ],
-            llbbase: [
-                "[QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates ATK Up Lv.2, SPD Up Lv.2, RCV Up Lv.2; after receiving damage, up to 8 times targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for RCV x 0.4 healing; if 3 or more [Animal Kingdom Pirates] characters are on the team, when appearing on the field, self Special CT 10% reduction",
-                "[QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates ATK Up Lv.3, SPD Up Lv.3, RCV Up Lv.3; after receiving damage, up to 8 times targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for RCV x 0.6 healing; if 3 or more [Animal Kingdom Pirates] characters are on the team, when appearing on the field, self Special CT 12% reduction",
-                "[QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates ATK Up Lv.4, SPD Up Lv.4, RCV Up Lv.4; after receiving damage, up to 8 times targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for RCV x 0.8 healing; if 3 or more [Animal Kingdom Pirates] characters are on the team, when appearing on the field, self Special CT 14% reduction",
-                "[QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates ATK Up Lv.5, SPD Up Lv.5, RCV Up Lv.5; after receiving damage, up to 8 times targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for RCV x 1 healing; if 3 or more [Animal Kingdom Pirates] characters are on the team, when appearing on the field, self Special CT 16% reduction",
-                "[QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates ATK Up Lv.7, SPD Up Lv.7, RCV Up Lv.7; after receiving damage, up to 8 times targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for RCV x 1.2 healing; if 3 or more [Animal Kingdom Pirates] characters are on the team, when appearing on the field, self Special CT 20% reduction"
-            ]
-        },
-        festSpecial: {
-            base: [
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.1 (11 s), SPD Up Lv.1 (11 s), DEF Up Lv.1 (11 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 10% reduction; targets 2 high ATK teammates for 70% chance of Haste"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.1 (12 s), SPD Up Lv.1 (12 s), DEF Up Lv.1 (12 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 11% reduction; targets 2 high ATK teammates for 73% chance of Haste"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.2 (13 s), SPD Up Lv.2 (13 s), DEF Up Lv.2 (13 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 12% reduction; targets 2 high ATK teammates for 76% chance of Haste"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.2 (14 s), SPD Up Lv.2 (14 s), DEF Up Lv.2 (14 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 13% reduction; targets 2 high ATK teammates for 79% chance of Haste"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.3 (15 s), SPD Up Lv.3 (15 s), DEF Up Lv.3 (15 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 14% reduction; targets 2 high ATK teammates for 82% chance of Haste"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.3 (16 s), SPD Up Lv.3 (16 s), DEF Up Lv.3 (16 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 15% reduction; targets 2 high ATK teammates for 85% chance of Haste"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.4 (17 s), SPD Up Lv.4 (17 s), DEF Up Lv.4 (17 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 16% reduction; targets 2 high ATK teammates for 88% chance of Haste"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.4 (18 s), SPD Up Lv.4 (18 s), DEF Up Lv.4 (18 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 17% reduction; targets 2 high ATK teammates for 91% chance of Haste"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.5 (19 s), SPD Up Lv.5 (19 s), DEF Up Lv.5 (19 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 18% reduction; targets 2 high ATK teammates for 94% chance of Haste"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.6 (20 s), SPD Up Lv.6 (20 s), DEF Up Lv.6 (20 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 20% reduction; targets 2 high ATK teammates for 100% chance of Haste"
-                }
-            ],
-            llbbase: [
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.2 (11 s), SPD Up Lv.2 (11 s), DEF Up Lv.2 (11 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 20% reduction; targets 3 high ATK teammates for 70% chance of Haste; during Assault Rumble, targets 1 low DEF enemy for ATK x 1 damage"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.2 (12 s), SPD Up Lv.2 (12 s), DEF Up Lv.2 (12 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 21% reduction; targets 3 high ATK teammates for 73% chance of Haste; during Assault Rumble, targets 1 low DEF enemy for ATK x 1.5 damage"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.3 (13 s), SPD Up Lv.3 (13 s), DEF Up Lv.3 (13 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 22% reduction; targets 3 high ATK teammates for 76% chance of Haste; during Assault Rumble, targets 1 low DEF enemy for ATK x 2 damage"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.3 (14 s), SPD Up Lv.3 (14 s), DEF Up Lv.3 (14 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 23% reduction; targets 3 high ATK teammates for 79% chance of Haste; during Assault Rumble, targets 1 low DEF enemy for ATK x 2.5 damage"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.4 (15 s), SPD Up Lv.4 (15 s), DEF Up Lv.4 (15 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 24% reduction; targets 3 high ATK teammates for 82% chance of Haste; during Assault Rumble, targets 1 low DEF enemy for ATK x 3 damage"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.4 (16 s), SPD Up Lv.4 (16 s), DEF Up Lv.4 (16 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 25% reduction; targets 3 high ATK teammates for 85% chance of Haste; during Assault Rumble, targets 1 low DEF enemy for ATK x 3.5 damage"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.5 (17 s), SPD Up Lv.5 (17 s), DEF Up Lv.5 (17 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 26% reduction; targets 3 high ATK teammates for 88% chance of Haste; during Assault Rumble, targets 1 low DEF enemy for ATK x 4 damage"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.5 (18 s), SPD Up Lv.5 (18 s), DEF Up Lv.5 (18 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 27% reduction; targets 3 high ATK teammates for 91% chance of Haste; during Assault Rumble, targets 1 low DEF enemy for ATK x 4.5 damage"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.6 (19 s), SPD Up Lv.6 (19 s), DEF Up Lv.6 (19 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 28% reduction; targets 3 high ATK teammates for 94% chance of Haste; during Assault Rumble, targets 1 low DEF enemy for ATK x 5 damage"
-                },
-                {
-                    cooldown: 23,
-                    description: "Targets [QCK]/Powerhouse class and [Animal Kingdom Pirates] teammates for ATK Up Lv.7 (20 s), SPD Up Lv.7 (20 s), DEF Up Lv.7 (20 s); if 3 or more [Animal Kingdom Pirates] characters are on the team, targets (not including self) [Animal Kingdom Pirates] teammates for Special CT 30% reduction; targets 3 high ATK teammates for 100% chance of Haste; during Assault Rumble, targets 1 low DEF enemy for ATK x 6 damage"
-                }
-            ]
-        },
-        festAbilityGP: [
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
-                festGPSpecial: "Targets all enemies for 500 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 625 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 750 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 875 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 1000 damage",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When 2 teammates are defeated"
+        }
     },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
