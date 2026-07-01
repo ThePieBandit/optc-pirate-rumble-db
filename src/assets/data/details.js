@@ -187921,23 +187921,23 @@ window.details = {
     },
     4597: {//Van Ogre & Catarina Devon
         captain: {
-            character1: "Reduces crew's Switch Effect and VS Effect gauge by 2 at start of quest, boosts [QCK] and [INT] characters' HP by 1.3x, ATK by 5x, makes their [QCK][INT][RCV] slots have matching slot effects, completely removes crew's Remove SFX applied by the enemy, and tapping on this character with a [RCV] slot will reduce all enemies' DEF Up duration by 3 turns",
-            character2: "Reduces crew's Switch Effect and VS Effect gauge by 2 at start of quest, boosts [QCK] and [INT] characters' HP by 1.3x, ATK by 4.5x, boosts their ATK by approximately 5.25x after 3 PERFECT strikes in a row, makes their [QCK][INT][RCV] slots have matching slot effects, completely removes crew's Remove SFX applied by the enemy, and tapping on this character with a [RCV] slot will reduce all enemies' DEF Up duration by 3 turns",
-            combined: "Reduces crew's Switch Effect and VS Effect gauge by 2 at start of quest, boosts [QCK] and [INT] characters' HP by 1.3x, ATK by 5.5x, boosts their ATK by approximately 5.75x after 3 PERFECT strikes in a row, makes their [QCK][INT][RCV] slots have matching slot effects, completely removes crew's Remove SFX applied by the enemy, and tapping on this character with a [RCV] slot will reduce all enemies' DEF Up duration by 6 turns [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] [Four Emperors] characters are on the crew, boosts Free Spirit, Slasher, and Shooter characters' ATK by 1.1x"
+            character1: "Reduces Switch Effect and VS Gauge of all characters by 2 at the start of the fight, boosts ATK of [QCK] and [INT] characters by 5x, boosts HP of [QCK] and [INT] characters by 1.3x, makes [QCK], [INT] and [RCV] orbs beneficial for [QCK] and [INT] characters, removes Blindness duration completely, and when tapping on this character with a [RCV] orb, reduces enemies' Increased Defense duration by 3 turns.",
+            character2: "Reduces Switch Effect and VS Gauge of all characters by 2 at the start of the fight, boosts ATK of [QCK] and [INT] characters by 4.5x, by 5.25x instead after the 3rd PERFECTs in a row, boosts HP of [QCK] and [INT] characters by 1.3x, makes [QCK], [INT] and [RCV] orbs beneficial for [QCK] and [INT] characters, removes Blindness duration completely, and when tapping on this character with a [RCV] orb, reduces enemies' Increased Defense duration by 3 turns.",
+            combined: "Reduces Switch Effect and VS Gauge of all characters by 2 at the start of the fight, boosts ATK of [QCK] and [INT] characters by 5.5x, by 5.75x instead after the 3rd PERFECTs in a row, boosts HP of [QCK] and [INT] characters by 1.3x, makes [QCK], [INT] and [RCV] orbs beneficial for [QCK] and [INT] characters, removes Blindness duration completely, and when tapping on this character with a [RCV] orb, reduces enemies' Increased Defense duration by 6 turns. If your crew has 3+ [Blackbeard Pirates] or [Four Emperors] characters, boosts ATK of Free Spirit, Slasher and Shooter characters by 1.1x."
         },
-        special: "Reduces crew's Despair duration by 7 turns, and boosts damage dealt to delayed and increased damage taken enemies by 2.5x for 3 turns. If field has \"Territory: Free Spirit class\" and 4 or more [Blackbeard Pirates] [Four Emperors] characters are on the crew, boosts [QCK] and [INT] characters' slot effects by 3x for 3 turns (boosts their slot effects by 2.5x for 1 turn otherwise). If an [INT] is set as Support for character, applies Weakened status (increase damage taken by 1.3x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken) to all enemies for 1 turn, then after that, becomes \"Van Ogre & Catarina Devon\" for 3 turns",
+        special: "Reduces Despair duration by 7 turns, boosts ATK against delayed enemies and enemies inflicted with Increase Damage Taken by 2.5x for 3 turns, and becomes Van Ogre & Catarina Devon for 3 turns. If your crew has 4+ [Blackbeard Pirates] characters and field has Territory: Free Spirit, boosts Orb Effects of [QCK] and [INT] characters by 3x for 3 turns; boosts Orb Effects of [QCK] and [INT] characters by 2.5x for 1 turn otherwise. If an [INT] character is supporting this character, inflicts all enemies with Weaken by 1.3x, by 1.625x instead if enemies are inflicted with Increase Damage Taken, for 1 turn.",
         specialName: "Sudden Appearance of the Emperor's Subordinates",
         sailor: {
-            character1: "Boosts [QCK] and [INT] characters' base stats by 70, and makes their [RCV][TND] slots have matching slot effects",
-            character2: "Boosts [QCK] and [INT] characters' base stats by 70, and makes their [RCV][TND] slots have matching slot effects",
-            combined: "Boosts [QCK] and [INT] characters' base stats by 70, and makes their [RCV][TND] slots have matching slot effects",
-            level1: "Makes crew immune to Remove SFX"
+            character1: "Boosts base ATK, HP and RCV of [QCK] and [INT] characters by 70, and makes [RCV] and [TND] orbs beneficial for [QCK] and [INT] characters.",
+            character2: "Boosts base ATK, HP and RCV of [QCK] and [INT] characters by 70, and makes [RCV] and [TND] orbs beneficial for [QCK] and [INT] characters.",
+            combined: "Boosts base ATK, HP and RCV of [QCK] and [INT] characters by 70, and makes [RCV] and [TND] orbs beneficial for [QCK] and [INT] characters.",
+            level1: "Removes Blindness duration completely."
         },
-        superSpecialCriteria: "When character becomes \"Van Ogre & Catarina Devon\" with Super Switch effect and any 2 [Blackbeard Pirates] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
-        superSpecial: "Cuts crew's HP by 80%, but applies \"Territory: Free Spirit class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns, changes [QCK] and [INT] characters' slots to [TND] (unless slots are [RCV]), locks crew's slots for 1 turn, and changes Free Spirit characters to Super Free Spirit",
+        superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: [Blackbeard Pirates] characters",
+        superSpecial: "Reduces crew's current HP by 80%, applies Territory: Free Spirit to the field for 2 turns, changes non-[RCV] orbs of [QCK] and [INT] characters into [TND] orbs, locks all orbs for 1 turn, and transforms Free Spirit characters into Super Free Spirit characters.",
         swap: {
-            base: "Reduces crew's Paralysis duration by 1 turn, changes character's slot to [RCV], and adds +0.2 to the effect of slot effect boosts that are launched after this Special by [QCK] and [INT] characters for 1 turn (applies to boosts applied by Support Effect if supported character is a [QCK] or [INT] character)",
-            super: "Reduces crew's Paralysis duration by 6 turns, changes character's slot to [RCV], adds +0.5 to the effect of slot effect boosts that are launched after this Special by [QCK] and [INT] characters for 1 turn (applies to boosts applied by Support Effect if supported character is a [QCK] or [INT] character), and becomes \"Van Ogre & Catarina Devon\" for 3 turns",
+            base: "Reduces Paralysis duration by 1 turn, changes the orb of this character into a [RCV] orb, and increases boost effects of Orb Amplification buffs applied by [QCK] and [INT] characters by +0.2x for 1 turn.",
+            super: "Reduces Paralysis duration by 6 turns, changes the orb of this character into a [RCV] orb, increases boost effects of Orb Amplification buffs applied by [QCK] and [INT] characters by +0.5x for 1 turn, and becomes Van Ogre & Catarina Devon for 3 turns.",
             superTurns: 5
         },
         limit: [
@@ -188025,18 +188025,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Blackbeard Pirates] [Four Emperors] [Giant] character performs Super Tandem",
-                "When a [Blackbeard Pirates] [Four Emperors] [Giant] character performs Super Tandem",
-                "When a [Blackbeard Pirates] [Four Emperors] [Giant] character performs Super Tandem",
-                "When a [Blackbeard Pirates] [Four Emperors] [Giant] character performs Super Tandem",
-                "When a [Blackbeard Pirates] [Four Emperors] [Giant] character performs Super Tandem"
+                "When a [Blackbeard Pirates], [Four Emperors] or [Giant] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Four Emperors] or [Giant] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Four Emperors] or [Giant] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Four Emperors] or [Giant] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Four Emperors] or [Giant] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Blackbeard Pirates] [Four Emperors] [Giant] characters by 1 for 1 turn",
-                "Raises Boost Level of [Blackbeard Pirates] [Four Emperors] [Giant] characters by 2 for 1 turn",
-                "Raises Boost Level of [Blackbeard Pirates] [Four Emperors] [Giant] characters by 3 for 1 turn",
-                "Raises Boost Level of [Blackbeard Pirates] [Four Emperors] [Giant] characters by 4 for 1 turn",
-                "Raises Boost Level of [Blackbeard Pirates] [Four Emperors] [Giant] characters by 5 for 1 turn"
+                "Raises Boost Level of [Blackbeard Pirates], [Four Emperors] and [Giant] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Blackbeard Pirates], [Four Emperors] and [Giant] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Blackbeard Pirates], [Four Emperors] and [Giant] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Blackbeard Pirates], [Four Emperors] and [Giant] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Blackbeard Pirates], [Four Emperors] and [Giant] characters by 5 for 1 turn."
             ]
         },
         festStats: {
@@ -188113,24 +188113,24 @@ window.details = {
         }
     },
     4598: {//Avalo Pizarro & Vasco Shot & San Juan Wolf
-        captain: "Reduces [QCK], [INT], and Free Spirit characters' Special charge time by 2 turns at start of quest, boosts their ATK by approximately 5.75x when slots match (5.25x otherwise), HP by 1.3x, makes their [QCK][INT][TND] slots have matching slot effects, reduces damage taken by 20%, and further increases damage dealt to enemies with a specific status effect boosts that are launched by crew Specials by +0.25 (stackable with other further raising effects) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Blackbeard Pirates] [Four Emperors] characters are on the crew and crew launches Specials to apply damage reduction, damage nullification, or Threshold Damage Reduction, converts that effect to \"boosts the type effects of normal attacks for [QCK], [INT], and Free Spirit characters by 3x for 2 turns\" regardless of the effective turns of the converted effect",
-        special: "If crew can perform Super Tandem with certain slots when Special is launched, reduces the duration of that status by 2 turns, but allows crew to stack up to 2 different damage boosting effects (cannot stack the damage boost of the same type) for 1 turn. If crew has damage reduction (except Threshold Damage Reduction) when Special is launched, activates HP Guard of 80% effect for 1 turn, then after that, reduces all enemies' Threshold Damage Reduction duration by 7 turns, reduces crew's Burn duration by 7 turns, boosts damage dealt to DEF Down enemies by 2.5x for 3 turns, and reduces damage taken by 60% for 3 turns. If a [QCK] is set as Support for character, delays all enemies by 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect). If an [INT] is set as Support for character, boosts the chain multiplier by 1.6x for 1 turn, then after that, reduces Captain's Special charge time by 3 turns",
+        captain: "Reduces Special Cooldown of [QCK], [INT] and Free Spirit characters by 2 turns at the start of the fight, boosts ATK of [QCK], [INT] and Free Spirit characters by 5.25x, by 5.75x instead if they have a beneficial orb, boosts HP of [QCK], [INT] and Free Spirit characters by 1.3x, makes [QCK], [INT] and [TND] orbs beneficial for [QCK], [INT] and Free Spirit characters, reduces damage received by 20%, and increases boost effects of Status ATK Boost buffs applied by specials by +0.25x. If your crew has 3+ [Blackbeard Pirates] or [Four Emperors] characters and a crew member uses a special with a Percent Damage Reduction, Threshold Damage Reduction or Damage Nullification buff, replaces those buffs with the following effect: boosts the Color Affinity of [QCK], [INT] and Free Spirit characters by 3x for 2 turns.",
+        special: "If your crew has STND Expansion when the special is activated, decreases duration of any STND Expansion buffs by 2 turns, and allows crew to stack 2 different Status ATK Boost buffs for 1 turn. If your crew has Percent Damage Reduction when the special is activated, activates HP Guard of 80% effect for 1 turn. Reduces enemies' Threshold Damage Reduction duration by 7 turns, reduces Burn duration by 7 turns, boosts ATK against enemies with reduced defense by 2.5x for 3 turns, reduces damage received by 60% for 3 turns, and reduces Special Cooldown of Captain character by 3 turns. If a [QCK] character is supporting this character, ignores Debuff Protection and delays all enemies by 1 turn. If an [INT] character is supporting this character, boosts Chain Multiplier Growth Rate by 1.6x for 1 turn.",
         specialName: "Commotion at Fullalead",
         sailor: {
-            base: "Makes Free Spirit and Powerhouse characters' [QCK][TND] slots have matching slot effects",
-            level1: "If 6 Free Spirit characters are on the crew, boosts Free Spirit characters' base ATK and HP by 125"
+            base: "Makes [QCK] and [TND] orbs beneficial for Free Spirit and Powerhouse characters.",
+            level1: "If your crew has 6 Free Spirit characters, boosts base ATK and HP of Free Spirit characters by 125."
         },
-        superSpecialCriteria: "When any 2 [Blackbeard Pirates] [Four Emperors] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
-        superSpecial: "Changes character's slot to [TND], reduces all enemies' damage nullification duration by 2 turns, boosts Free Spirit characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 60% damage reduction, boosts ATK by 1.6x) for 3 turns, and changes [QCK] characters to Super [QCK]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: [Blackbeard Pirates], [Four Emperors] characters",
+        superSpecial: "Changes the orb of this character into a [TND] orb, reduces enemies' Damage Nullification duration by 2 turns, boosts Crew Damage Reduction to ATK of Free Spirit characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 3 turns, and transforms [QCK] characters into Super [QCK] characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Blackbeard Pirates]",
+                Characters: "[Blackbeard Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' Threshold Damage Reduction duration by 2 turns"
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Threshold Damage Reduction duration by 2 turns."
                 ]
             }
         ],
@@ -188219,18 +188219,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Catarina Devon, Shiryu, Lafitte, Doc Q, Kuzan (Aokiji)",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Catarina Devon, Shiryu, Lafitte, Doc Q, Kuzan (Aokiji)",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Catarina Devon, Shiryu, Lafitte, Doc Q, Kuzan (Aokiji)",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Catarina Devon, Shiryu, Lafitte, Doc Q, Kuzan (Aokiji)",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Catarina Devon, Shiryu, Lafitte, Doc Q, Kuzan (Aokiji)"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Catarina Devon, Shiryu, Lafitte, Doc Q, Kuzan (Aokiji)",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Catarina Devon, Shiryu, Lafitte, Doc Q, Kuzan (Aokiji)",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Catarina Devon, Shiryu, Lafitte, Doc Q, Kuzan (Aokiji)",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Catarina Devon, Shiryu, Lafitte, Doc Q, Kuzan (Aokiji)",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Marshall D. Teach (Blackbeard), Jesus Burgess (Mr. Store), Van Ogre, Catarina Devon, Shiryu, Lafitte, Doc Q, Kuzan (Aokiji)"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.25x to [QCK] and [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.5x to [QCK] and [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.75x to [QCK] and [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2x to [QCK] and [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.25x to [QCK] and [INT] characters for 1 turn, and further increases crew's damage boost by +0.2"
+                "Boosts Tandem ATK of [QCK] and [INT] characters by 1.25x for 1 turn.",
+                "Boosts Tandem ATK of [QCK] and [INT] characters by 1.5x for 1 turn.",
+                "Boosts Tandem ATK of [QCK] and [INT] characters by 1.75x for 1 turn.",
+                "Boosts Tandem ATK of [QCK] and [INT] characters by 2x for 1 turn.",
+                "Boosts Tandem ATK of [QCK] and [INT] characters by 2.25x for 1 turn, and increases boost effects of Status ATK Boost buffs by +0.2x."
             ]
         },
         festStats: {
@@ -188307,21 +188307,21 @@ window.details = {
         }
     },
     4599: {//Jesus Burgess
-        special: "Reduces crew's Special charge time by 2 turns, and if crew lands 2 PERFECT strikes in this turn, reduces damage taken by 60% the next turn. If crew has ATK Up status when Special is launched, extends the duration of crew's ATK boosts by 2 turns, boosts [QCK] and [INT] characters' base ATK by +1250 for 3 turns, then after that, boosts [QCK] and [INT] characters' ATK by 2.75x for 1 turn. If 4 or more [Blackbeard Pirates] characters are on the crew, reduces the duration of all enemy barriers by 2 turns, and further increases crew's base ATK boosts by +500 (effect applies to increase base ATK boost from this Special)",
+        special: "Reduces Special Cooldown of all characters by 2 turns, and if during that turn you score 2 PERFECT hits, reduces damage received by 60% for 1 turn. If your crew has ATK Up when the special is activated, increases duration of any ATK Up buffs by 2 turns, and boosts Base ATK of [QCK] and [INT] characters by 1,250 for 3 turns. Boosts ATK of [QCK] and [INT] characters by 2.75x for 1 turn. If your crew has 4+ [Blackbeard Pirates] characters, reduces enemies' Barrier duration by 2 turns, and increases boost effects of Base ATK Boost buffs by +500, including effects activated in the same ability.",
         specialName: "Anger Directed at the Sulong",
         sailor: {
-            base: "Reduces character's Special Reverse by 2 turns",
-            level1: "Tapping on this character with a [TND] slot will apply -5% [QCK] and [INT] Resistance to all enemies for 1 turn"
+            base: "Restores Special Cooldown of this character by 2 turns when it is rewinded.",
+            level1: "When tapping on this character with a [TND] orb, reduces enemies' [QCK] and [INT] resistance by -5% for 1 turn."
         },
         support: [
             {
-                Characters: "Free Spirit characters with the following Character Tag: [Blackbeard Pirates]",
+                Characters: "Free Spirit [Blackbeard Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 1 turn [AUTO+] If inflicted with Despair status from the enemy or at final battle, activates supported character's Special",
-                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 1 turn [AUTO+] If inflicted with Despair status from the enemy or at final battle, activates supported character's Special",
-                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 1 turn [AUTO+] If inflicted with Despair status from the enemy or at final battle, activates supported character's Special",
-                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 1 turn [AUTO+] If inflicted with Despair status from the enemy or at final battle, activates supported character's Special",
-                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 1 turn, and reduces the duration of all enemy barriers by 1 turn [AUTO+] If inflicted with Despair status from the enemy or at final battle, activates supported character's Special"
+                    "Once per adventure, when the supported character uses their special, reduces Special Cooldown of supported character by 1 turn. <b>[AUTO+]</b> When an enemy inflicts you with Despair or when you reach the final stage, activates supported character's Special.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Cooldown of supported character by 1 turn. <b>[AUTO+]</b> When an enemy inflicts you with Despair or when you reach the final stage, activates supported character's Special.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Cooldown of supported character by 1 turn. <b>[AUTO+]</b> When an enemy inflicts you with Despair or when you reach the final stage, activates supported character's Special.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Cooldown of supported character by 1 turn. <b>[AUTO+]</b> When an enemy inflicts you with Despair or when you reach the final stage, activates supported character's Special.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Cooldown of supported character by 1 turn, and reduces enemies' Barrier duration by 1 turn. <b>[AUTO+]</b> When an enemy inflicts you with Despair or when you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -188428,20 +188428,20 @@ window.details = {
         ]
     },
     4600: {//Shiryu
-        special: "Allows crew to perform Super Tandem with [RCV] slots for 2 turns, boosts the chain multiplier by +1.1 for 1 turn, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, reduces crew's \"ATK Down when chain multiplier is below certain amount\" by 3 turns, and boosts the ATK of the next final tap performed by crew by 40% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect). If 4 or more [Blackbeard Pirates] characters are on the crew, further increases crew's chain multiplier additive boost effect (except multiplicative boost) by +0.7 (this effect also applies to additive chain multiplier boost from this Special), and sets all enemies' DEF to 0 for 1 turn ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect (reduces all enemies' DEF by 85% for 1 turn otherwise)",
+        special: "Allows all characters to perform Super Tandem with [RCV] orbs for 2 turns, adds 1.1x to chain multiplier for 1 turn, reduces enemies' Percent Damage Reduction duration by 6 turns, reduces Minimum-Chain ATK Down duration by 3 turns, and boosts Final Tap ATK of all characters by 40%. If your crew has 4+ [Blackbeard Pirates] characters, increases boost effects of Chain Addition buffs by +0.7x, including effects activated in the same ability, and ignores Debuff Protection and reduces the defense of all enemies by 100% for 1 turn; reduces the defense of all enemies by 85% for 1 turn otherwise.",
         specialName: "Swearing Curse on the Formidable Foe",
         sailor: {
-            base: "Boosts crew's base ATK and HP by 150",
-            level1: "Tapping on this character with a [RCV][TND] slot will apply -3% Free Spirit and Slasher Resistance to all enemies for 1 turn"
+            base: "Boosts base ATK and HP of all characters by 150.",
+            level1: "When tapping on this character with a [RCV] or [TND] orb, reduces enemies' Free Spirit and Slasher resistance by -3% for 1 turn."
         },
         support: [
             {
-                Characters: "[QCK] characters with the following Character Tag: [Blackbeard Pirates]",
+                Characters: "[QCK] [Blackbeard Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn [AUTO+] When enemy launches DEF Up status and at final battle, activates supported character's Special",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn [AUTO+] When enemy launches DEF Up status and at final battle, activates supported character's Special",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn [AUTO+] When enemy launches DEF Up status and at final battle, activates supported character's Special",
-                    "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn [AUTO+] When enemy launches DEF Up status and at final battle, activates supported character's Special",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn. <b>[AUTO+]</b> When you reach the final stage and the enemy gains an Increased Defense buff, activates supported character's Special.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn. <b>[AUTO+]</b> When you reach the final stage and the enemy gains an Increased Defense buff, activates supported character's Special.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn. <b>[AUTO+]</b> When you reach the final stage and the enemy gains an Increased Defense buff, activates supported character's Special.",
+                    "Once per adventure, when the supported character uses their special, reduces enemies' Percent Damage Reduction duration by 1 turn. <b>[AUTO+]</b> When you reach the final stage and the enemy gains an Increased Defense buff, activates supported character's Special.",
                     "Once per quest, if supported character uses a Special, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 2 turns [AUTO+] When enemy launches DEF Up status and at final battle, activates supported character's Special"
                 ]
             }
@@ -188549,21 +188549,21 @@ window.details = {
         ]
     },
     4601: {//5* PKA Garp
-        special: "Reduces all enemies' DEF by 95% for 1 turn, reduces crew's decrease chain multiplier growth rate and Paralysis duration by 6 turns, and boosts [QCK] characters' ATK when landing a successful strike by 1.5x for 1 turn after landing 4 PERFECT strikes in a row in this turn. If crew's End of Turn Healing status has 5 or more turns or crew's HP is 30% or below when Special is launched, applies \"Territory: [QCK]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        special: "Reduces the defense of all enemies by 95% for 1 turn, reduces Chain Coefficient Reduction and Paralysis duration by 6 turns, and boosts Tap Timing ATK of [QCK] characters by 1.5x, following a chain of 4 PERFECT attacks, for 1 turn. If HP is below 30% or your crew has 5+ turns of End of Turn Healing when the special is activated, applies Territory: [QCK] to the field for 1 turn.",
         specialName: "Unageing Fist of Passion",
         sailor: {
-            base: "Boosts Free Spirit and Fighter characters' base HP by 150",
-            level1: "Makes crew's [QCK] slots have matching slot effects"
+            base: "Boosts base ATK and HP of Free Spirit and Fighter characters by 150.",
+            level1: "Makes [QCK] orbs beneficial for all characters."
         },
         support: [
             {
                 Characters: "[QCK] Free Spirit characters",
                 description: [
-                    "Adds 6% of character's base HP to supported character's base HP",
-                    "Adds 8% of character's base HP to supported character's base HP",
-                    "Adds 10% of character's base HP to supported character's base HP",
-                    "Adds 12% of character's base HP to supported character's base HP",
-                    "Adds 15% of character's base HP to supported character's base HP [AUTO+] At battle 4, activates supported character's Switch Effect. At final battle, activates supported character's Special"
+                    "Adds 6% of this character's base HP to the supported character's base HP.",
+                    "Adds 8% of this character's base HP to the supported character's base HP.",
+                    "Adds 10% of this character's base HP to the supported character's base HP.",
+                    "Adds 12% of this character's base HP to the supported character's base HP.",
+                    "Adds 15% of this character's base HP to the supported character's base HP.<b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
