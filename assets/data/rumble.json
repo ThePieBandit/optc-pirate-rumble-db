@@ -352722,7 +352722,7 @@
               "type": "atk",
               "defbypass": true,
               "targeting": {"count": 2, "targets": ["enemies"], "priority": "highest", "stat": "DEF"},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Shooter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Shooter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]"]}]}
             }
           ]
         },
@@ -374877,7 +374877,7 @@
               "level": 1,
               "duration": 16,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Cerebral"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Vegapunk]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Cerebral"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Vegapunk]"]}]}
             },
             {
               "amount": 100,
@@ -374886,7 +374886,7 @@
               "effect": "recharge",
               "type": "fixed",
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Cerebral"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Vegapunk]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Cerebral"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Vegapunk]"]}]}
             },
             {
               "attributes": ["DEF", "SPD"],
@@ -374894,7 +374894,7 @@
               "level": 4,
               "duration": 16,
               "targeting": {"count": 2, "targets": ["enemies"], "priority": "lowest", "stat": "DEF"},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Driven"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Vegapunk]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Driven"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Vegapunk]"]}]}
             }
           ]
         },
@@ -380735,21 +380735,21 @@
               "effect": "debuff",
               "level": 3,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Free Spirit"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Revolutionary Army]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Free Spirit"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Revolutionary Army]"]}]}
             },
             {
               "attributes": ["DEF"],
               "effect": "debuff",
               "level": 2,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Free Spirit"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Revolutionary Army]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Free Spirit"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Revolutionary Army]"]}]}
             },
             {
               "attributes": ["Special CT"],
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["[Revolutionary Army]"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 8, "targets": ["Free Spirit"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Revolutionary Army]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 8, "targets": ["Free Spirit"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Revolutionary Army]"]}]}
             }
           ]
         },
@@ -380840,7 +380840,7 @@
               "chance": 10,
               "duration": 10,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Revolutionary Army]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Revolutionary Army]"]}]}
             },
             {
               "attributes": ["Forced Out"],
@@ -380848,7 +380848,7 @@
               "chance": 50,
               "duration": 10,
               "targeting": {"count": 1, "targets": ["enemies"], "priority": "highest", "stat": "Special CT"},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Revolutionary Army]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Revolutionary Army]"]}]}
             }
           ]
         },
@@ -401909,14 +401909,14 @@
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Shield"],
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -402048,7 +402048,7 @@
               "effect": "damage",
               "type": "atk",
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "lowest", "stat": "HP"},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "amount": 150,
@@ -420389,7 +420389,7 @@
               "effect": "debuff",
               "level": 3,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["HP", "RCV"],
@@ -420521,7 +420521,7 @@
               "level": 1,
               "duration": 20,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -420529,14 +420529,14 @@
               "level": 1,
               "duration": 11,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
               "effect": "hinderance",
               "amount": 11,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Fixed Damage"],
@@ -420897,21 +420897,21 @@
               "effect": "debuff",
               "level": 2,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["ATK"],
               "effect": "debuff",
               "level": 2,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["DEF"],
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -421147,35 +421147,35 @@
               "effect": "buff",
               "level": 3,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Critical Hit"],
               "effect": "buff",
               "level": 2,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Guard"],
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["ATK"],
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["SPD"],
               "effect": "debuff",
               "level": 3,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["SPD"],
@@ -421322,14 +421322,14 @@
               "effect": "hinderance",
               "chance": 73,
               "duration": 10,
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "amount": 3.1,
               "effect": "damage",
               "type": "atk",
               "targeting": {"targets": ["enemies"], "count": 3, "priority": "highest", "stat": "ATK"},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "amount": 0.85,
@@ -421337,7 +421337,7 @@
               "type": "atk",
               "defbypass": true,
               "targeting": {"targets": ["enemies"], "count": 2, "priority": "highest", "stat": "DEF"},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Slasher"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["ATK", "DEF"],
@@ -423947,7 +423947,7 @@
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Revive"],
@@ -423955,7 +423955,7 @@
               "repeat": 1,
               "amount": 30,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["DEF"],
@@ -424088,7 +424088,7 @@
               "chance": 70,
               "duration": 11,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -424096,7 +424096,7 @@
               "level": 5,
               "duration": 50,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Shield"],
@@ -424567,7 +424567,7 @@
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -424663,7 +424663,7 @@
               "level": 1,
               "duration": 11,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -424671,7 +424671,7 @@
               "level": 1,
               "duration": 11,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -424679,7 +424679,7 @@
               "level": 1,
               "duration": 11,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Shooter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Five Elders]"]}]}
             },
             {
               "amount": 10,
@@ -443509,7 +443509,7 @@
               "level": 2,
               "duration": 11,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF"],
@@ -443517,7 +443517,7 @@
               "level": 2,
               "duration": 11,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["ATK", "SPD"],
@@ -443525,7 +443525,7 @@
               "level": 2,
               "duration": 11,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF"],
@@ -443533,7 +443533,7 @@
               "level": 1,
               "duration": 11,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["Special Bind"],
@@ -443842,7 +443842,7 @@
               "level": 8,
               "duration": 30,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF", "Special CT"],
@@ -443850,7 +443850,7 @@
               "level": 5,
               "duration": 30,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["ATK", "SPD"],
@@ -443858,7 +443858,7 @@
               "level": 6,
               "duration": 30,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF", "Special CT"],
@@ -443866,7 +443866,7 @@
               "level": 4,
               "duration": 30,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["Special Bind"],
@@ -443914,7 +443914,7 @@
               "level": 10,
               "duration": 40,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF", "Special CT"],
@@ -443922,7 +443922,7 @@
               "level": 7,
               "duration": 40,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["ATK", "SPD"],
@@ -443930,7 +443930,7 @@
               "level": 7,
               "duration": 40,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["DEF", "Special CT"],
@@ -443938,7 +443938,7 @@
               "level": 5,
               "duration": 40,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Royalty]"]}]}
             },
             {
               "attributes": ["Special Bind"],
@@ -445704,14 +445704,14 @@
               "chance": 80,
               "duration": 11,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
             },
             {
               "amount": 11,
               "effect": "recharge",
               "type": "Special CT",
               "targeting": {"targets": ["[PSY]", "Fighter", "[Navy]"], "excludes": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
             },
             {
               "attributes": ["Haste"],
@@ -448260,7 +448260,7 @@
               "attributes": ["On Death"],
               "effect": "boon",
               "repeat": 1,
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Fighter", "Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Fighter", "Powerhouse"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
             },
             {
               "amount": 12,
@@ -448348,7 +448348,7 @@
               "level": 2,
               "duration": 11,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
             },
             {
               "attributes": ["ATK"],
@@ -449276,14 +449276,14 @@
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
             },
             {
               "attributes": ["Special CT"],
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -449404,7 +449404,7 @@
               "chance": 53,
               "duration": 10,
               "targeting": {"targets": ["Shooter"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
             },
             {
               "amount": 21,
@@ -451363,7 +451363,7 @@
               "repeat": 1,
               "amount": 30,
               "targeting": {"targets": ["[SWORD]"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
             },
             {
               "amount": 22,
@@ -451371,7 +451371,7 @@
               "type": "percentage",
               "onArrival": true,
               "targeting": {"targets": ["Powerhouse", "Fighter"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]"]}]}
             }
           ]
         },
@@ -451472,13 +451472,13 @@
               "spread": true,
               "targeting": {"targets": ["enemies"]},
               "range": {"size": "medium", "direction": "radial"},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
             },
             {
               "attributes": ["Switch"],
               "effect": "boon",
               "targeting": {"targets": ["self"], "switch": "1st sub character"},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Powerhouse", "Fighter"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]"]}]}
             }
           ]
         },
@@ -456715,6 +456715,24 @@
       "cost": 20
     },
     {
+      "id": 4542,
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "BAL",
+        "def": 50,
+        "spd": 100
+      },
+      "cost": 1
+    },
+    {
       "id": 4543,
       "ability": [
         {
@@ -457328,7 +457346,7 @@
               "duration": 21,
               "targeting": {"targets": ["enemies"]},
               "range": {"size": "large", "direction": "radial"},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Cerebral"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]", "[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["Cerebral"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]", "[World Government]"]}]}
             }
           ]
         },
@@ -465746,7 +465764,7 @@
               "level": 1,
               "duration": 11,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]", "[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]", "[World Government]"]}]}
             },
             {
               "amount": 300,
@@ -465755,7 +465773,7 @@
               "effect": "recharge",
               "type": "fixed",
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]", "[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Cerebral", "Free Spirit"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]", "[World Government]"]}]}
             },
             {
               "attributes": ["Special CT Delay", "Damage Ignoring DEF"],
@@ -466046,7 +466064,7 @@
               "effect": "debuff",
               "level": 3,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 8, "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]", "[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 8, "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Navy]", "[World Government]"]}]}
             },
             {
               "attributes": ["Special CT"],
@@ -466149,7 +466167,7 @@
               "duration": 41,
               "targeting": {"targets": ["enemies"]},
               "range": {"size": "large", "direction": "radial"},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]", "[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]", "[World Government]"]}]}
             },
             {
               "attributes": ["Half DEF"],
@@ -466158,7 +466176,7 @@
               "duration": 21,
               "targeting": {"targets": ["enemies"]},
               "range": {"size": "large", "direction": "radial"},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]", "[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Navy]", "[World Government]"]}]}
             },
             {
               "amount": 32,
@@ -468332,14 +468350,14 @@
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
             },
             {
               "attributes": ["ATK"],
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
             }
           ]
         },
@@ -468630,14 +468648,14 @@
               "effect": "buff",
               "level": 2,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
             },
             {
               "attributes": ["ATK"],
               "effect": "buff",
               "level": 2,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Slasher", "Driven"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
             },
             {
               "attributes": ["HP"],
@@ -469003,14 +469021,14 @@
               "effect": "buff",
               "level": 1,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
             },
             {
               "attributes": ["DEF"],
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
             }
           ]
         },
@@ -469106,7 +469124,7 @@
               "effect": "recharge",
               "type": "Special CT",
               "targeting": {"targets": ["Powerhouse", "Striker", "[World Government]"], "excludes": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
             }
           ]
         },
@@ -469363,7 +469381,7 @@
               "effect": "recharge",
               "type": "Special CT",
               "targeting": {"targets": ["Powerhouse", "Striker", "[World Government]"], "excludes": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
             }
           ]
         }
@@ -469415,7 +469433,7 @@
               "effect": "recharge",
               "type": "Special CT",
               "targeting": {"targets": ["Powerhouse", "Striker", "[World Government]"], "excludes": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
             }
           ]
         }
@@ -469481,7 +469499,7 @@
               "effect": "debuff",
               "level": 1,
               "targeting": {"targets": ["enemies"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["Powerhouse", "Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[World Government]"]}]}
             },
             {
               "amount": 0.6,
@@ -469953,7 +469971,7 @@
               "effect": "buff",
               "level": 2,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Skypiea Arc]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Skypiea Arc]"]}]}
             },
             {
               "attributes": ["Revive"],
@@ -469961,7 +469979,7 @@
               "repeat": 1,
               "amount": 40,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Skypiea Arc]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Skypiea Arc]"]}]}
             }
           ]
         },
@@ -470050,7 +470068,7 @@
               "effect": "buff",
               "level": 3,
               "targeting": {"targets": ["crew"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Skypiea Arc]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Skypiea Arc]"]}]}
             },
             {
               "attributes": ["Revive"],
@@ -470058,7 +470076,7 @@
               "repeat": 1,
               "amount": 80,
               "targeting": {"targets": ["self"]},
-              "condition": {"type": "multi", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Skypiea Arc]"]}]}
+              "condition": {"type": "multi", "conjunction": "or", "conditions": [{"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["Striker"]}, {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Skypiea Arc]"]}]}
             }
           ]
         },
@@ -470647,6 +470665,2870 @@
         "rumbleType": "SPT",
         "def": 231,
         "spd": 174
+      },
+      "cost": 20
+    },
+    {
+      "id": 4583,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["HP", "ATK"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["Striker", "Fighter", "[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["Striker", "Fighter", "[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 4, "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {},
+            {},
+            {},
+            {}
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 2,
+              "duration": 11,
+              "targeting": {"targets": ["[Straw Hat Pirates]", "[Giant]"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 2,
+              "duration": 5,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 1,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["[Straw Hat Pirates]"], "excludes": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Haste"],
+              "effect": "boon",
+              "chance": 73,
+              "targeting": {"count": 1, "targets": ["DEF-Style [Straw Hat Pirates]"], "priority": "highest", "stat": "Special CT"},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 3.2,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"count": 1, "targets": ["enemies"], "priority": "highest", "stat": "HP"}
+            },
+            {
+              "amount": 2.35,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"}
+            },
+            {
+              "amount": 11,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"duration": 12}
+            },
+            {},
+            {
+              "override": {"amount": 2}
+            },
+            {
+              "override": {"chance": 76}
+            },
+            {
+              "override": {"amount": 3.4}
+            },
+            {
+              "override": {"amount": 2.45}
+            },
+            {
+              "override": {"amount": 12}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 13}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"amount": 3}
+            },
+            {
+              "override": {"chance": 79}
+            },
+            {
+              "override": {"amount": 3.6}
+            },
+            {
+              "override": {"amount": 2.55}
+            },
+            {
+              "override": {"amount": 13}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 14}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"amount": 4}
+            },
+            {
+              "override": {"chance": 82}
+            },
+            {
+              "override": {"amount": 3.8}
+            },
+            {
+              "override": {"amount": 2.65}
+            },
+            {
+              "override": {"amount": 14}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 15}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"amount": 5}
+            },
+            {
+              "override": {"chance": 85}
+            },
+            {
+              "override": {"amount": 4}
+            },
+            {
+              "override": {"amount": 2.75}
+            },
+            {
+              "override": {"amount": 15}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 16}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"amount": 6}
+            },
+            {
+              "override": {"chance": 88}
+            },
+            {
+              "override": {"amount": 4.2}
+            },
+            {
+              "override": {"amount": 2.85}
+            },
+            {
+              "override": {"amount": 16}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 17}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"amount": 7}
+            },
+            {
+              "override": {"chance": 91}
+            },
+            {
+              "override": {"amount": 4.4}
+            },
+            {
+              "override": {"amount": 2.95}
+            },
+            {
+              "override": {"amount": 17}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 18}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"amount": 8}
+            },
+            {
+              "override": {"chance": 94}
+            },
+            {
+              "override": {"amount": 4.6}
+            },
+            {
+              "override": {"amount": 3.05}
+            },
+            {
+              "override": {"amount": 18}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"level": 6, "duration": 19}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"amount": 9}
+            },
+            {
+              "override": {"chance": 97}
+            },
+            {
+              "override": {"amount": 4.8}
+            },
+            {
+              "override": {"amount": 3.15}
+            },
+            {
+              "override": {"amount": 19}
+            }
+          ]
+        },
+        {
+          "cooldown": 30,
+          "effects": [
+            {
+              "override": {"level": 7, "duration": 20}
+            },
+            {
+              "override": {"level": 7}
+            },
+            {
+              "override": {"amount": 10}
+            },
+            {
+              "override": {"chance": 100}
+            },
+            {
+              "override": {"amount": 5}
+            },
+            {
+              "override": {"amount": 3.25}
+            },
+            {
+              "override": {"amount": 20}
+            }
+          ]
+        }
+      ],
+      "superspecial": [
+        {
+          "condition": {
+            "type": "time",
+            "count": 50
+          },
+          "effects": [
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 10,
+              "duration": 25,
+              "targeting": {"targets": ["[Straw Hat Pirates]", "[Giant]"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 10,
+              "duration": 5,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 15,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["[Straw Hat Pirates]", "[Giant]"], "excludes": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Haste"],
+              "effect": "boon",
+              "chance": 100,
+              "targeting": {"count": 1, "targets": ["DEF-Style [Straw Hat Pirates]"], "priority": "highest", "stat": "Special CT"},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 5,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"count": 2, "targets": ["enemies"], "priority": "highest", "stat": "HP"}
+            },
+            {
+              "amount": 4,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]}
+            },
+            {
+              "amount": 30,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        }
+      ],
+      "llbsuperspecial": [
+        {
+          "condition": {
+            "type": "time",
+            "count": 60
+          },
+          "effects": [
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 15,
+              "duration": 30,
+              "targeting": {"targets": ["[Straw Hat Pirates]", "[Giant]"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 15,
+              "duration": 5,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 20,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["[Straw Hat Pirates]", "[Giant]"], "excludes": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Haste"],
+              "effect": "boon",
+              "chance": 100,
+              "targeting": {"count": 1, "targets": ["DEF-Style [Straw Hat Pirates]"], "priority": "highest", "stat": "Special CT"},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 5.6,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"count": 3, "targets": ["enemies"], "priority": "highest", "stat": "HP"}
+            },
+            {
+              "amount": 32.5,
+              "effect": "damage",
+              "type": "atk",
+              "spread": true,
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "time", "comparator": "first", "count": 50}
+            },
+            {
+              "amount": 5,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "time", "comparator": "remaining", "count": 50}
+            },
+            {
+              "amount": 50,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Half Stats",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[PSY]",
+          "percentage": 30,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "type": "Full",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "ATK",
+        "def": 125,
+        "spd": 170
+      },
+      "cost": 55
+    },
+    {
+      "id": 4584,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["ATK", "RCV", "SPD"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["Striker", "Slasher", "[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "debuff",
+              "level": 1,
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 4, "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["ATK"],
+              "effect": "debuff",
+              "level": 2,
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {},
+            {
+              "override": {"level": 3}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 4}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 5}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 6}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "attributes": ["ATK"],
+              "effect": "debuff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "debuff",
+              "level": 3,
+              "duration": 11,
+              "targeting": {"count": 3, "targets": ["enemies"], "priority": "highest", "stat": "DEF"},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 1,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["[Straw Hat Pirates]"], "excludes": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Haste"],
+              "effect": "boon",
+              "chance": 73,
+              "targeting": {"count": 1, "targets": ["ATK-Style [Straw Hat Pirates]"], "priority": "highest", "stat": "Special CT"},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 1.2,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"count": 3, "targets": ["enemies"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "hinderance",
+              "amount": 11,
+              "targeting": {"count": 3, "targets": ["enemies"], "priority": "highest", "stat": "Special CT"}
+            },
+            {
+              "amount": 11,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"amount": 2}
+            },
+            {
+              "override": {"chance": 76}
+            },
+            {
+              "override": {"amount": 1.4}
+            },
+            {
+              "override": {"amount": 12}
+            },
+            {
+              "override": {"amount": 12}
+            }
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 13}
+            },
+            {
+              "override": {"level": 4, "duration": 13}
+            },
+            {
+              "override": {"amount": 3}
+            },
+            {
+              "override": {"chance": 79}
+            },
+            {
+              "override": {"amount": 1.6}
+            },
+            {
+              "override": {"amount": 13}
+            },
+            {
+              "override": {"amount": 13}
+            }
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 14}
+            },
+            {
+              "override": {"level": 4, "duration": 14}
+            },
+            {
+              "override": {"amount": 4}
+            },
+            {
+              "override": {"chance": 82}
+            },
+            {
+              "override": {"amount": 1.8}
+            },
+            {
+              "override": {"amount": 14}
+            },
+            {
+              "override": {"amount": 14}
+            }
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 15}
+            },
+            {
+              "override": {"level": 5, "duration": 15}
+            },
+            {
+              "override": {"amount": 5}
+            },
+            {
+              "override": {"chance": 85}
+            },
+            {
+              "override": {"amount": 2}
+            },
+            {
+              "override": {"amount": 15}
+            },
+            {
+              "override": {"amount": 15}
+            }
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 16}
+            },
+            {
+              "override": {"level": 5, "duration": 16}
+            },
+            {
+              "override": {"amount": 6}
+            },
+            {
+              "override": {"chance": 88}
+            },
+            {
+              "override": {"amount": 2.2}
+            },
+            {
+              "override": {"amount": 16}
+            },
+            {
+              "override": {"amount": 16}
+            }
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 17}
+            },
+            {
+              "override": {"level": 6, "duration": 17}
+            },
+            {
+              "override": {"amount": 7}
+            },
+            {
+              "override": {"chance": 91}
+            },
+            {
+              "override": {"amount": 2.4}
+            },
+            {
+              "override": {"amount": 17}
+            },
+            {
+              "override": {"amount": 17}
+            }
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 18}
+            },
+            {
+              "override": {"level": 6, "duration": 18}
+            },
+            {
+              "override": {"amount": 8}
+            },
+            {
+              "override": {"chance": 94}
+            },
+            {
+              "override": {"amount": 2.6}
+            },
+            {
+              "override": {"amount": 18}
+            },
+            {
+              "override": {"amount": 18}
+            }
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 19}
+            },
+            {
+              "override": {"level": 7, "duration": 19}
+            },
+            {
+              "override": {"amount": 9}
+            },
+            {
+              "override": {"chance": 97}
+            },
+            {
+              "override": {"amount": 2.8}
+            },
+            {
+              "override": {"amount": 19}
+            },
+            {
+              "override": {"amount": 19}
+            }
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"level": 6, "duration": 20}
+            },
+            {
+              "override": {"level": 8, "duration": 20}
+            },
+            {
+              "override": {"amount": 10}
+            },
+            {
+              "override": {"chance": 100}
+            },
+            {
+              "override": {"amount": 3}
+            },
+            {
+              "override": {"amount": 20}
+            },
+            {
+              "override": {"amount": 20}
+            }
+          ]
+        }
+      ],
+      "superspecial": [
+        {
+          "condition": {
+            "type": "time",
+            "count": 50
+          },
+          "effects": [
+            {
+              "attributes": ["ATK"],
+              "effect": "debuff",
+              "level": 8,
+              "duration": 25,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["SPD", "DEF"],
+              "effect": "debuff",
+              "level": 9,
+              "duration": 25,
+              "targeting": {"count": 4, "targets": ["enemies"], "priority": "highest", "stat": "DEF"},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 15,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["[Straw Hat Pirates]", "[Giant]"], "excludes": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Haste"],
+              "effect": "boon",
+              "chance": 100,
+              "targeting": {"count": 1, "targets": ["ATK-Style [Straw Hat Pirates]"], "priority": "highest", "stat": "Special CT"},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 3.5,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"count": 3, "targets": ["enemies"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "hinderance",
+              "amount": 25,
+              "targeting": {"count": 3, "targets": ["enemies"], "priority": "highest", "stat": "Special CT"}
+            },
+            {
+              "amount": 30,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        }
+      ],
+      "llbsuperspecial": [
+        {
+          "condition": {
+            "type": "time",
+            "count": 60
+          },
+          "effects": [
+            {
+              "attributes": ["ATK"],
+              "effect": "debuff",
+              "level": 10,
+              "duration": 30,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["SPD", "DEF"],
+              "effect": "debuff",
+              "level": 10,
+              "duration": 30,
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 20,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["[Straw Hat Pirates]", "[Giant]"], "excludes": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Haste"],
+              "effect": "boon",
+              "chance": 100,
+              "targeting": {"count": 1, "targets": ["ATK-Style [Straw Hat Pirates]"], "priority": "highest", "stat": "Special CT"},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 4,
+              "effect": "damage",
+              "type": "atk",
+              "targeting": {"count": 3, "targets": ["enemies"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "hinderance",
+              "amount": 30,
+              "targeting": {"targets": ["enemies"]}
+            },
+            {
+              "amount": 50,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Paralysis",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[PSY]",
+          "percentage": 30,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "level": 2,
+          "area": "Self",
+          "action": "heal"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "DBF",
+        "def": 155,
+        "spd": 154
+      },
+      "cost": 55
+    },
+    {
+      "id": 4585,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["HP"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["Striker", "Free Spirit", "[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["SPD", "DEF"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["Striker", "Free Spirit", "[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["HP", "ATK"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 4, "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["Guard", "DEF"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {},
+            {},
+            {
+              "override": {"level": 3}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 4}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"level": 5}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 6}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 2,
+              "duration": 11,
+              "targeting": {"targets": ["[Straw Hat Pirates]", "[Giant]"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["Damage Ignoring DEF", "Fixed Damage", "Percentage Damage"],
+              "effect": "evade",
+              "chance": 73,
+              "duration": 11,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 1,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["[Straw Hat Pirates]"], "excludes": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Haste"],
+              "effect": "boon",
+              "chance": 73,
+              "targeting": {"count": 1, "targets": ["DBF-Style [Straw Hat Pirates]"], "priority": "highest", "stat": "Special CT"},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 6.5,
+              "effect": "damage",
+              "type": "atk",
+              "spread": true,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "medium", "direction": "radial"}
+            },
+            {
+              "attributes": ["Shield"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["self"]}
+            },
+            {
+              "amount": 11,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"chance": 76, "duration": 12}
+            },
+            {
+              "override": {"amount": 2}
+            },
+            {
+              "override": {"chance": 76}
+            },
+            {
+              "override": {"amount": 7}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"amount": 12}
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 13}
+            },
+            {
+              "override": {"chance": 79, "duration": 13}
+            },
+            {
+              "override": {"amount": 3}
+            },
+            {
+              "override": {"chance": 79}
+            },
+            {
+              "override": {"amount": 7.5}
+            },
+            {
+              "override": {"duration": 13}
+            },
+            {
+              "override": {"amount": 13}
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 14}
+            },
+            {
+              "override": {"chance": 82, "duration": 14}
+            },
+            {
+              "override": {"amount": 4}
+            },
+            {
+              "override": {"chance": 82}
+            },
+            {
+              "override": {"amount": 8}
+            },
+            {
+              "override": {"level": 2, "duration": 14}
+            },
+            {
+              "override": {"amount": 14}
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 15}
+            },
+            {
+              "override": {"chance": 85, "duration": 15}
+            },
+            {
+              "override": {"amount": 5}
+            },
+            {
+              "override": {"chance": 85}
+            },
+            {
+              "override": {"amount": 8.5}
+            },
+            {
+              "override": {"level": 2, "duration": 15}
+            },
+            {
+              "override": {"amount": 15}
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 16}
+            },
+            {
+              "override": {"chance": 88, "duration": 16}
+            },
+            {
+              "override": {"amount": 6}
+            },
+            {
+              "override": {"chance": 88}
+            },
+            {
+              "override": {"amount": 9}
+            },
+            {
+              "override": {"level": 3, "duration": 16}
+            },
+            {
+              "override": {"amount": 16}
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 17}
+            },
+            {
+              "override": {"chance": 91, "duration": 17}
+            },
+            {
+              "override": {"amount": 7}
+            },
+            {
+              "override": {"chance": 91}
+            },
+            {
+              "override": {"amount": 9.5}
+            },
+            {
+              "override": {"level": 3, "duration": 17}
+            },
+            {
+              "override": {"amount": 17}
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 18}
+            },
+            {
+              "override": {"chance": 94, "duration": 18}
+            },
+            {
+              "override": {"amount": 8}
+            },
+            {
+              "override": {"chance": 94}
+            },
+            {
+              "override": {"amount": 10}
+            },
+            {
+              "override": {"level": 3, "duration": 18}
+            },
+            {
+              "override": {"amount": 18}
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": {"level": 6, "duration": 19}
+            },
+            {
+              "override": {"chance": 97, "duration": 19}
+            },
+            {
+              "override": {"amount": 9}
+            },
+            {
+              "override": {"chance": 97}
+            },
+            {
+              "override": {"amount": 10.5}
+            },
+            {
+              "override": {"level": 4, "duration": 19}
+            },
+            {
+              "override": {"amount": 19}
+            }
+          ]
+        },
+        {
+          "cooldown": 32,
+          "effects": [
+            {
+              "override": {"level": 7, "duration": 20}
+            },
+            {
+              "override": {"chance": 100, "duration": 20}
+            },
+            {
+              "override": {"amount": 10}
+            },
+            {
+              "override": {"chance": 100}
+            },
+            {
+              "override": {"amount": 12}
+            },
+            {
+              "override": {"level": 5, "duration": 20}
+            },
+            {
+              "override": {"amount": 20}
+            }
+          ]
+        }
+      ],
+      "superspecial": [
+        {
+          "condition": {
+            "type": "time",
+            "count": 50
+          },
+          "effects": [
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 8,
+              "duration": 25,
+              "targeting": {"targets": ["[Straw Hat Pirates]", "[Giant]"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["Damage Ignoring DEF", "Fixed Damage", "Percentage Damage"],
+              "effect": "evade",
+              "chance": 100,
+              "duration": 25,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 15,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["[Straw Hat Pirates]", "Giant"], "excludes": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Haste"],
+              "effect": "boon",
+              "chance": 100,
+              "targeting": {"count": 1, "targets": ["DBF-Style [Straw Hat Pirates]"], "priority": "highest", "stat": "Special CT"},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 15,
+              "effect": "damage",
+              "type": "atk",
+              "spread": true,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "medium", "direction": "radial"}
+            },
+            {
+              "attributes": ["Shield"],
+              "effect": "buff",
+              "level": 6,
+              "duration": 25,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]}
+            },
+            {
+              "amount": 30,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        }
+      ],
+      "llbsuperspecial": [
+        {
+          "condition": {
+            "type": "time",
+            "count": 60
+          },
+          "effects": [
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 9,
+              "duration": 25,
+              "targeting": {"targets": ["[Straw Hat Pirates]", "[Giant]"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["Damage Ignoring DEF", "Fixed Damage", "Percentage Damage"],
+              "effect": "evade",
+              "chance": 100,
+              "duration": 30,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 20,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["[Straw Hat Pirates]", "Giant"], "excludes": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Haste"],
+              "effect": "boon",
+              "chance": 100,
+              "targeting": {"count": 1, "targets": ["DBF-Style [Straw Hat Pirates]"], "priority": "highest", "stat": "Special CT"},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "amount": 18,
+              "effect": "damage",
+              "type": "atk",
+              "spread": true,
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "medium", "direction": "radial"}
+            },
+            {
+              "attributes": ["Shield"],
+              "effect": "buff",
+              "level": 7,
+              "duration": 30,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]}
+            },
+            {
+              "amount": 50,
+              "effect": "recharge",
+              "type": "Special CT",
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Confusion",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[PSY]",
+          "percentage": 30,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "level": 2,
+          "area": "Self",
+          "action": "heal"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "DEF",
+        "def": 287,
+        "spd": 118
+      },
+      "cost": 55
+    },
+    {
+      "id": 4586,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["RCV", "SPD"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["Striker", "Shooter", "[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "debuff",
+              "level": 1,
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 4, "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "amount": 12,
+              "effect": "recharge",
+              "type": "Special CT",
+              "onArrival": true,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "hinderance",
+              "amount": 7,
+              "onArrival": true,
+              "targeting": {"count": 2, "priority": "highest", "stat": "Special CT", "targets": ["enemies"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["HP"],
+              "effect": "buff",
+              "level": 6,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {},
+            {
+              "override": {"amount": 14}
+            },
+            {
+              "override": {"amount": 9}
+            },
+            {
+              "override": {"level": 7}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"amount": 16}
+            },
+            {
+              "override": {"amount": 11}
+            },
+            {
+              "override": {"level": 8}
+            },
+            {
+              "override": {"level": 4}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"amount": 18}
+            },
+            {
+              "override": {"amount": 13}
+            },
+            {
+              "override": {"level": 9}
+            },
+            {
+              "override": {"level": 5}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"amount": 20}
+            },
+            {
+              "override": {"amount": 15}
+            },
+            {
+              "override": {"level": 10}
+            },
+            {
+              "override": {"level": 6}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "amount": 1600,
+              "effect": "damage",
+              "type": "fixed",
+              "targeting": {"targets": ["enemies"]},
+              "range": {"size": "large", "direction": "radial"}
+            },
+            {
+              "attributes": ["ATK", "SPD", "RCV"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["crew"]},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "debuff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["enemies"]},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Action Bind", "Special CT Delay"],
+              "effect": "evade",
+              "chance": 73,
+              "duration": 11,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            },
+            {
+              "attributes": ["Switch"],
+              "effect": "boon",
+              "targeting": {"targets": ["self"], "switch": "1st sub character"},
+              "condition": {"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            }
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 1700}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"chance": 76, "duration": 12}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 1800}
+            },
+            {
+              "override": {"duration": 13}
+            },
+            {
+              "override": {"duration": 13}
+            },
+            {
+              "override": {"duration": 13}
+            },
+            {
+              "override": {"duration": 13}
+            },
+            {
+              "override": {"chance": 79, "duration": 13}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 1900}
+            },
+            {
+              "override": {"level": 2, "duration": 14}
+            },
+            {
+              "override": {"duration": 14}
+            },
+            {
+              "override": {"duration": 14}
+            },
+            {
+              "override": {"duration": 14}
+            },
+            {
+              "override": {"chance": 82, "duration": 14}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 2000}
+            },
+            {
+              "override": {"level": 2, "duration": 15}
+            },
+            {
+              "override": {"duration": 15}
+            },
+            {
+              "override": {"level": 2, "duration": 15}
+            },
+            {
+              "override": {"level": 2, "duration": 15}
+            },
+            {
+              "override": {"chance": 85, "duration": 15}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 2100}
+            },
+            {
+              "override": {"level": 3, "duration": 16}
+            },
+            {
+              "override": {"level": 2, "duration": 16}
+            },
+            {
+              "override": {"level": 2, "duration": 16}
+            },
+            {
+              "override": {"level": 2, "duration": 16}
+            },
+            {
+              "override": {"chance": 88, "duration": 16}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 2200}
+            },
+            {
+              "override": {"level": 3, "duration": 17}
+            },
+            {
+              "override": {"level": 2, "duration": 17}
+            },
+            {
+              "override": {"level": 2, "duration": 17}
+            },
+            {
+              "override": {"level": 2, "duration": 17}
+            },
+            {
+              "override": {"chance": 91, "duration": 17}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 2300}
+            },
+            {
+              "override": {"level": 3, "duration": 18}
+            },
+            {
+              "override": {"level": 2, "duration": 18}
+            },
+            {
+              "override": {"level": 3, "duration": 18}
+            },
+            {
+              "override": {"level": 3, "duration": 18}
+            },
+            {
+              "override": {"chance": 94, "duration": 18}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 2400}
+            },
+            {
+              "override": {"level": 4, "duration": 19}
+            },
+            {
+              "override": {"level": 2, "duration": 19}
+            },
+            {
+              "override": {"level": 3, "duration": 19}
+            },
+            {
+              "override": {"level": 3, "duration": 19}
+            },
+            {
+              "override": {"chance": 97, "duration": 19}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 26,
+          "effects": [
+            {
+              "override": {"amount": 2500}
+            },
+            {
+              "override": {"level": 5, "duration": 20}
+            },
+            {
+              "override": {"level": 3, "duration": 20}
+            },
+            {
+              "override": {"level": 4, "duration": 20}
+            },
+            {
+              "override": {"level": 4, "duration": 20}
+            },
+            {
+              "override": {"chance": 100, "duration": 20}
+            },
+            {}
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Damage Over Time",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[PSY]",
+          "percentage": 20,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "level": 1,
+          "area": "Small",
+          "action": "heal"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "SPT",
+        "def": 169,
+        "spd": 157
+      },
+      "cost": 20
+    },
+    {
+      "id": 4587,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["HP"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["Striker", "Cerebral", "[Straw Hat Pirates]"]}
+            },
+            {
+              "amount": 0.8,
+              "effect": "recharge",
+              "type": "RCV",
+              "targeting": {"targets": ["Striker [Straw Hat Pirates]"]},
+              "condition": {"type": "trigger", "stat": "takes damage", "count": 10}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 4, "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "amount": 22,
+              "effect": "recharge",
+              "type": "percentage",
+              "onArrival": true,
+              "targeting": {"targets": ["[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 6, "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["HP"],
+              "effect": "buff",
+              "level": 6,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"amount": 0.9}
+            },
+            {},
+            {
+              "override": {"amount": 24}
+            },
+            {
+              "override": {"level": 7}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"amount": 1}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"amount": 26}
+            },
+            {
+              "override": {"level": 8}
+            },
+            {
+              "override": {"level": 4}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"amount": 1.1}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"amount": 28}
+            },
+            {
+              "override": {"level": 9}
+            },
+            {
+              "override": {"level": 5}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"amount": 1.2}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"amount": 30}
+            },
+            {
+              "override": {"level": 10}
+            },
+            {
+              "override": {"level": 6}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "amount": 410,
+              "duration": 11,
+              "interval:": 3,
+              "effect": "recharge",
+              "type": "fixed",
+              "targeting": {"targets": ["Striker", "Cerebral", "[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["Haste"],
+              "effect": "boon",
+              "chance": 73,
+              "targeting": {"targets": ["crew"], "status": ["Special Bind"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["Special Bind"],
+              "effect": "boon",
+              "duration": 6,
+              "targeting": {"targets": ["crew"], "status": ["Special Bind"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "attributes": ["RCV"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 5,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Elbaph Arc]"]}
+            },
+            {
+              "amount": 1.1,
+              "effect": "recharge",
+              "type": "RCV",
+              "targeting": {"targets": ["[Straw Hat Pirates"]},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["Half Stats"],
+              "effect": "boon",
+              "duration": 6,
+              "targeting": {"targets": ["[Straw Hat Pirates"]},
+              "condition": {"type": "crew", "composition": true, "count": 6, "comparator": "more", "targets": ["[Straw Hat Pirates]", "[Giant]"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "cleanse",
+              "chance": 73,
+              "targeting": {"targets": ["crew"]},
+              "condition": {"type": "mode", "mode": "Assault Rumble"}
+            },
+            {
+              "attributes": ["Switch"],
+              "effect": "boon",
+              "targeting": {"targets": ["self"], "switch": "1st sub character"},
+              "condition": {"type": "multi", "conjunction": "and", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]"]}, {"type": "crew", "composition": true, "count": 0, "comparator": "exactly", "targets": ["[Giant]"]}]}
+            },
+            {
+              "attributes": ["Switch"],
+              "effect": "boon",
+              "targeting": {"targets": ["self"], "switch": "2nd sub character"},
+              "condition": {"type": "multi", "conjunction": "and", "conditions": [{"type": "crew", "composition": true, "count": 8, "comparator": "more", "targets": ["[Straw Hat Pirates]"]}, {"type": "crew", "composition": true, "count": 1, "comparator": "more", "targets": ["[Giant]"]}]}
+            }
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"amount": 420, "duration": 12}
+            },
+            {
+              "override": {"chance": 76}
+            },
+            {
+              "override": {"duration": 7}
+            },
+            {},
+            {
+              "override": {"amount": 1.2}
+            },
+            {
+              "override": {"duration": 7}
+            },
+            {
+              "override": {"chance": 76}
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"amount": 430, "duration": 13}
+            },
+            {
+              "override": {"chance": 79}
+            },
+            {
+              "override": {"duration": 8}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"amount": 1.3}
+            },
+            {
+              "override": {"duration": 8}
+            },
+            {
+              "override": {"chance": 79}
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"amount": 440, "duration": 14}
+            },
+            {
+              "override": {"chance": 82}
+            },
+            {
+              "override": {"duration": 9}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"amount": 1.4}
+            },
+            {
+              "override": {"duration": 9}
+            },
+            {
+              "override": {"chance": 82}
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"amount": 450, "duration": 15}
+            },
+            {
+              "override": {"chance": 85}
+            },
+            {
+              "override": {"duration": 10}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"amount": 1.5}
+            },
+            {
+              "override": {"duration": 10}
+            },
+            {
+              "override": {"chance": 85}
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"amount": 460, "duration": 16}
+            },
+            {
+              "override": {"chance": 88}
+            },
+            {
+              "override": {"duration": 11}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"amount": 1.6}
+            },
+            {
+              "override": {"duration": 11}
+            },
+            {
+              "override": {"chance": 88}
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"amount": 470, "duration": 17}
+            },
+            {
+              "override": {"chance": 91}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"amount": 1.7}
+            },
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"chance": 91}
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"amount": 480, "duration": 18}
+            },
+            {
+              "override": {"chance": 94}
+            },
+            {
+              "override": {"duration": 13}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"amount": 1.8}
+            },
+            {
+              "override": {"duration": 13}
+            },
+            {
+              "override": {"chance": 94}
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"amount": 490, "duration": 19}
+            },
+            {
+              "override": {"chance": 97}
+            },
+            {
+              "override": {"duration": 14}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"amount": 1.9}
+            },
+            {
+              "override": {"duration": 14}
+            },
+            {
+              "override": {"chance": 97}
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "cooldown": 28,
+          "effects": [
+            {
+              "override": {"amount": 500, "duration": 20}
+            },
+            {
+              "override": {"chance": 100}
+            },
+            {
+              "override": {"duration": 15}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"amount": 2}
+            },
+            {
+              "override": {"duration": 15}
+            },
+            {
+              "override": {"chance": 100}
+            },
+            {},
+            {}
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Special Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[PSY]",
+          "percentage": 20,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "level": 2,
+          "area": "Medium",
+          "action": "heal"
+        },
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "level": 2,
+          "area": "Medium",
+          "action": "heal"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "RCV",
+        "def": 139,
+        "spd": 168
+      },
+      "cost": 20
+    },
+    {
+      "id": 4588,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["ATK", "RCV"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[INT]", "Striker"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "debuff",
+              "level": 1,
+              "targeting": {"targets": ["ATK-Style"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 5, "targets": ["[Elbaph Arc]", "[Giant]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 2}
+            },
+            {}
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 18,
+          "effects": [
+            {
+              "attributes": ["ATK"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 5,
+              "targeting": {"targets": ["[INT]", "Striker"]}
+            },
+            {
+              "attributes": ["DEF"],
+              "effect": "debuff",
+              "level": 1,
+              "duration": 5,
+              "targeting": {"count": 3, "targets": ["enemies"], "priority": "highest", "stat": "DEF"}
+            },
+            {
+              "amount": 60,
+              "duration": 6,
+              "interval:": 3,
+              "effect": "recharge",
+              "type": "fixed",
+              "targeting": {"targets": ["Striker"]}
+            },
+            {
+              "attributes": ["Switch"],
+              "effect": "boon",
+              "targeting": {"targets": ["self"], "switch": "2nd sub character"},
+              "condition": {"type": "crew", "composition": true, "count": 5, "comparator": "more", "targets": ["[Elbaph Arc]", "[Giant]"]}
+            }
+          ]
+        },
+        {
+          "cooldown": 18,
+          "effects": [
+            {
+              "override": {"duration": 6}
+            },
+            {
+              "override": {"duration": 6}
+            },
+            {
+              "override": {"amount": 70, "duration": 7}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 18,
+          "effects": [
+            {
+              "override": {"duration": 6}
+            },
+            {
+              "override": {"duration": 6}
+            },
+            {
+              "override": {"amount": 80, "duration": 8}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 18,
+          "effects": [
+            {
+              "override": {"duration": 7}
+            },
+            {
+              "override": {"duration": 7}
+            },
+            {
+              "override": {"amount": 90, "duration": 9}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 18,
+          "effects": [
+            {
+              "override": {"duration": 7}
+            },
+            {
+              "override": {"duration": 7}
+            },
+            {
+              "override": {"amount": 100, "duration": 10}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 18,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 8}
+            },
+            {
+              "override": {"level": 2, "duration": 8}
+            },
+            {
+              "override": {"amount": 110, "duration": 11}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 18,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 8}
+            },
+            {
+              "override": {"level": 2, "duration": 8}
+            },
+            {
+              "override": {"amount": 120, "duration": 12}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 18,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 9}
+            },
+            {
+              "override": {"level": 2, "duration": 9}
+            },
+            {
+              "override": {"amount": 130, "duration": 13}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 18,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 9}
+            },
+            {
+              "override": {"level": 2, "duration": 9}
+            },
+            {
+              "override": {"amount": 140, "duration": 14}
+            },
+            {}
+          ]
+        },
+        {
+          "cooldown": 18,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 10}
+            },
+            {
+              "override": {"level": 3, "duration": 10}
+            },
+            {
+              "override": {"amount": 150, "duration": 15}
+            },
+            {}
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Confusion",
+          "chance": 60,
+          "type": "debuff"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "level": 2,
+          "area": "Self",
+          "action": "heal"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "DBF",
+        "def": 152,
+        "spd": 137
       },
       "cost": 20
     },
