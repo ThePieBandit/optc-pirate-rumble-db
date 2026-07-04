@@ -478027,6 +478027,326 @@
       "cost": 20
     },
     {
+      "id": 4607,
+      "ability": [
+        {
+          "effects": [
+            {
+              "attributes": ["HP", "DEF"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["[DEX]", "Fighter", "[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["Guard", "Blow Away"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["[DEX]", "Fighter", "[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["Special CT"],
+              "effect": "hinderance",
+              "amount": 20,
+              "targeting": {"targets": ["[QCK]", "Cerebral"]},
+              "condition": {"type": "trigger", "stat": "Blow Away", "count": 3}
+            },
+            {
+              "attributes": ["SPD"],
+              "effect": "buff",
+              "level": 2,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 4, "targets": ["[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["Shield"],
+              "effect": "buff",
+              "level": 1,
+              "targeting": {"targets": ["self"]},
+              "condition": {"type": "crew", "composition": true, "comparator": "more", "count": 4, "targets": ["[Straw Hat Pirates]"]}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            },
+            {
+              "override": {"amount": 22}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"level": 2}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 3}
+            },
+            {
+              "override": {"amount": 24}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"level": 3}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 4}
+            },
+            {
+              "override": {"amount": 26}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"level": 4}
+            }
+          ]
+        },
+        {
+          "effects": [
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 5}
+            },
+            {
+              "override": {"amount": 30}
+            },
+            {
+              "override": {"level": 6}
+            },
+            {
+              "override": {"level": 5}
+            }
+          ]
+        }
+      ],
+      "special": [
+        {
+          "cooldown": 24,
+          "effects": [
+            {
+              "attributes": ["SPD", "Blow Away"],
+              "effect": "buff",
+              "level": 1,
+              "duration": 11,
+              "targeting": {"targets": ["[DEX]", "Fighter", "[Straw Hat Pirates]"]}
+            },
+            {
+              "attributes": ["Damage Reflect"],
+              "effect": "boon",
+              "percentage": 32,
+              "amount": 0.3,
+              "duration": 11,
+              "targeting": {"targets": ["[DEX]", "[Straw Hat Pirates]"]},
+              "condition": {"type": "enemies", "composition": true, "count": 4, "comparator": "less", "targets": ["[STR]"]}
+            },
+            {
+              "attributes": ["Stats Down"],
+              "effect": "evade",
+              "chance": 55,
+              "duration": 11,
+              "targeting": {"targets": ["Fighter", "[Straw Hat Pirates]"]},
+              "condition": {"type": "crew", "composition": true, "count": 4, "comparator": "more", "targets": ["[Straw Hat Pirates]"]}
+            }
+          ]
+        },
+        {
+          "cooldown": 24,
+          "effects": [
+            {
+              "override": {"duration": 12}
+            },
+            {
+              "override": {"percentage": 34, "duration": 12}
+            },
+            {
+              "override": {"chance": 60, "duration": 12}
+            }
+          ]
+        },
+        {
+          "cooldown": 24,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 13}
+            },
+            {
+              "override": {"percentage": 36, "duration": 13}
+            },
+            {
+              "override": {"chance": 65, "duration": 13}
+            }
+          ]
+        },
+        {
+          "cooldown": 24,
+          "effects": [
+            {
+              "override": {"level": 2, "duration": 14}
+            },
+            {
+              "override": {"percentage": 38, "duration": 14}
+            },
+            {
+              "override": {"chance": 70, "duration": 14}
+            }
+          ]
+        },
+        {
+          "cooldown": 24,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 15}
+            },
+            {
+              "override": {"percentage": 40, "duration": 15}
+            },
+            {
+              "override": {"chance": 75, "duration": 15}
+            }
+          ]
+        },
+        {
+          "cooldown": 24,
+          "effects": [
+            {
+              "override": {"level": 3, "duration": 16}
+            },
+            {
+              "override": {"percentage": 42, "duration": 16}
+            },
+            {
+              "override": {"chance": 80, "duration": 16}
+            }
+          ]
+        },
+        {
+          "cooldown": 24,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 17}
+            },
+            {
+              "override": {"percentage": 44, "duration": 17}
+            },
+            {
+              "override": {"chance": 85, "duration": 17}
+            }
+          ]
+        },
+        {
+          "cooldown": 24,
+          "effects": [
+            {
+              "override": {"level": 4, "duration": 18}
+            },
+            {
+              "override": {"percentage": 46, "duration": 18}
+            },
+            {
+              "override": {"chance": 90, "duration": 18}
+            }
+          ]
+        },
+        {
+          "cooldown": 24,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 19}
+            },
+            {
+              "override": {"percentage": 48, "duration": 19}
+            },
+            {
+              "override": {"chance": 95, "duration": 19}
+            }
+          ]
+        },
+        {
+          "cooldown": 24,
+          "effects": [
+            {
+              "override": {"level": 5, "duration": 20}
+            },
+            {
+              "override": {"percentage": 50, "duration": 20}
+            },
+            {
+              "override": {"chance": 100, "duration": 20}
+            }
+          ]
+        }
+      ],
+      "resilience": [
+        {
+          "attribute": "Special Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "Action Bind",
+          "chance": 100,
+          "type": "debuff"
+        },
+        {
+          "attribute": "[QCK]",
+          "percentage": 30,
+          "type": "damage"
+        }
+      ],
+      "pattern": [
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Normal",
+          "action": "attack"
+        },
+        {
+          "type": "Power",
+          "action": "attack"
+        },
+        {
+          "level": 2,
+          "area": "Self",
+          "action": "heal"
+        }
+      ],
+      "target": {
+        "criteria": "near"
+      },
+      "stats": {
+        "rumbleType": "DEF",
+        "def": 286,
+        "spd": 118
+      },
+      "cost": 20
+    },
+    {
       "id": 5013,
       "basedOn": 5014
     },
