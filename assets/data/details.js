@@ -188042,68 +188042,6 @@ window.details = {
                     "Boosts base ATK by 300 the turn after recovering 3000, HP and reduces Hunger stack by 3 stacks"
                 ]
             }
-        ],
-        festStats: {
-            def: 286,
-            spd: 118,
-            style: "DEF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Heal Self Lv.2"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind/Action Bind, reduce damage taken from [QCK] by 30%",
-        festAbility: [
-            "[DEX]/Fighter class and [Straw Hat Pirates] teammates HP Up Lv.2, DEF Up Lv.2, Guard % Up Lv.1, Blow Away % Up Lv.1; when blowing away enemy, up to 3 times [QCK]/Cerebral class enemies Special CT 20% delay; if 4 or more [Straw Hat Pirates] characters are on the team, self SPD Up Lv.2, self Shield Lv.1",
-            "[DEX]/Fighter class and [Straw Hat Pirates] teammates HP Up Lv.3, DEF Up Lv.3, Guard % Up Lv.2, Blow Away % Up Lv.2; when blowing away enemy, up to 3 times [QCK]/Cerebral class enemies Special CT 22% delay; if 4 or more [Straw Hat Pirates] characters are on the team, self SPD Up Lv.3, self Shield Lv.2",
-            "[DEX]/Fighter class and [Straw Hat Pirates] teammates HP Up Lv.4, DEF Up Lv.4, Guard % Up Lv.3, Blow Away % Up Lv.3; when blowing away enemy, up to 3 times [QCK]/Cerebral class enemies Special CT 24% delay; if 4 or more [Straw Hat Pirates] characters are on the team, self SPD Up Lv.4, self Shield Lv.3",
-            "[DEX]/Fighter class and [Straw Hat Pirates] teammates HP Up Lv.5, DEF Up Lv.5, Guard % Up Lv.4, Blow Away % Up Lv.4; when blowing away enemy, up to 3 times [QCK]/Cerebral class enemies Special CT 26% delay; if 4 or more [Straw Hat Pirates] characters are on the team, self SPD Up Lv.5, self Shield Lv.4",
-            "[DEX]/Fighter class and [Straw Hat Pirates] teammates HP Up Lv.6, DEF Up Lv.6, Guard % Up Lv.5, Blow Away % Up Lv.5; when blowing away enemy, up to 3 times [QCK]/Cerebral class enemies Special CT 30% delay; if 4 or more [Straw Hat Pirates] characters are on the team, self SPD Up Lv.6, self Shield Lv.5"
-        ],
-        festSpecial: [
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Fighter class and [Straw Hat Pirates] teammates for SPD Up Lv.1 (11 s), Blow Away % Up Lv.1 (11 s); if there are 4 or fewer [STR] enemies, targets [DEX] and [Straw Hat Pirates] teammates for Damage Reflect status to reduce damage by 32% and reflect x 0.3 the damage reduced (11 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets Fighter class and [Straw Hat Pirates] teammates for 55% chance to evade stat-reducing effects (11 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Fighter class and [Straw Hat Pirates] teammates for SPD Up Lv.1 (12 s), Blow Away % Up Lv.1 (12 s); if there are 4 or fewer [STR] enemies, targets [DEX] and [Straw Hat Pirates] teammates for Damage Reflect status to reduce damage by 34% and reflect x 0.3 the damage reduced (12 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets Fighter class and [Straw Hat Pirates] teammates for 60% chance to evade stat-reducing effects (12 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Fighter class and [Straw Hat Pirates] teammates for SPD Up Lv.2 (13 s), Blow Away % Up Lv.2 (13 s); if there are 4 or fewer [STR] enemies, targets [DEX] and [Straw Hat Pirates] teammates for Damage Reflect status to reduce damage by 36% and reflect x 0.3 the damage reduced (13 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets Fighter class and [Straw Hat Pirates] teammates for 65% chance to evade stat-reducing effects (13 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Fighter class and [Straw Hat Pirates] teammates for SPD Up Lv.2 (14 s), Blow Away % Up Lv.2 (14 s); if there are 4 or fewer [STR] enemies, targets [DEX] and [Straw Hat Pirates] teammates for Damage Reflect status to reduce damage by 38% and reflect x 0.3 the damage reduced (14 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets Fighter class and [Straw Hat Pirates] teammates for 70% chance to evade stat-reducing effects (14 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Fighter class and [Straw Hat Pirates] teammates for SPD Up Lv.3 (15 s), Blow Away % Up Lv.3 (15 s); if there are 4 or fewer [STR] enemies, targets [DEX] and [Straw Hat Pirates] teammates for Damage Reflect status to reduce damage by 40% and reflect x 0.3 the damage reduced (15 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets Fighter class and [Straw Hat Pirates] teammates for 75% chance to evade stat-reducing effects (15 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Fighter class and [Straw Hat Pirates] teammates for SPD Up Lv.3 (16 s), Blow Away % Up Lv.3 (16 s); if there are 4 or fewer [STR] enemies, targets [DEX] and [Straw Hat Pirates] teammates for Damage Reflect status to reduce damage by 42% and reflect x 0.3 the damage reduced (16 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets Fighter class and [Straw Hat Pirates] teammates for 80% chance to evade stat-reducing effects (16 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Fighter class and [Straw Hat Pirates] teammates for SPD Up Lv.4 (17 s), Blow Away % Up Lv.4 (17 s); if there are 4 or fewer [STR] enemies, targets [DEX] and [Straw Hat Pirates] teammates for Damage Reflect status to reduce damage by 44% and reflect x 0.3 the damage reduced (17 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets Fighter class and [Straw Hat Pirates] teammates for 85% chance to evade stat-reducing effects (17 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Fighter class and [Straw Hat Pirates] teammates for SPD Up Lv.4 (18 s), Blow Away % Up Lv.4 (18 s); if there are 4 or fewer [STR] enemies, targets [DEX] and [Straw Hat Pirates] teammates for Damage Reflect status to reduce damage by 46% and reflect x 0.3 the damage reduced (18 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets Fighter class and [Straw Hat Pirates] teammates for 90% chance to evade stat-reducing effects (18 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Fighter class and [Straw Hat Pirates] teammates for SPD Up Lv.5 (19 s), Blow Away % Up Lv.5 (19 s); if there are 4 or fewer [STR] enemies, targets [DEX] and [Straw Hat Pirates] teammates for Damage Reflect status to reduce damage by 48% and reflect x 0.3 the damage reduced (19 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets Fighter class and [Straw Hat Pirates] teammates for 95% chance to evade stat-reducing effects (19 s)"
-            },
-            {
-                cooldown: 24,
-                description: "Targets [DEX]/Fighter class and [Straw Hat Pirates] teammates for SPD Up Lv.5 (20 s), Blow Away % Up Lv.5 (20 s); if there are 4 or fewer [STR] enemies, targets [DEX] and [Straw Hat Pirates] teammates for Damage Reflect status to reduce damage by 50% and reflect x 0.3 the damage reduced (20 s); if 4 or more [Straw Hat Pirates] characters are on the team, targets Fighter class and [Straw Hat Pirates] teammates for 100% chance to evade stat-reducing effects (20 s)"
-            }
         ]
     },
     5013: {//Kung Fu Luffy
