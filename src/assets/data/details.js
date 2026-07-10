@@ -187873,7 +187873,7 @@ window.details = {
         special: "Reduces the defense of all enemies by 95% for 1 turn, reduces Chain Coefficient Reduction and Paralysis duration by 6 turns, and boosts Tap Timing ATK of [QCK] characters by 1.5x, following a chain of 4 PERFECT attacks, for 1 turn. If HP is below 30% or your crew has 5+ turns of End of Turn Healing when the special is activated, applies Territory: [QCK] to the field for 1 turn.",
         specialName: "Unageing Fist of Passion",
         sailor: {
-            base: "Boosts base ATK and HP of Free Spirit and Fighter characters by 150.",
+            base: "Boosts base HP of Free Spirit and Fighter characters by 150.",
             level1: "Makes [QCK] orbs beneficial for all characters."
         },
         support: [
@@ -187884,7 +187884,86 @@ window.details = {
                     "Adds 8% of this character's base HP to the supported character's base HP.",
                     "Adds 10% of this character's base HP to the supported character's base HP.",
                     "Adds 12% of this character's base HP to the supported character's base HP.",
-                    "Adds 15% of this character's base HP to the supported character's base HP.<b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special."
+                    "Adds 15% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: No Healing",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire Potential 2: Enrage/Increase Damage Taken",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 70",
+            "Boosts base ATK by 40",
+            "Reduce base Special Cooldown by 1 turn",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 20",
+            "Acquire Potential 3: Damage Limit Break: Type",
+            "Boosts base HP by 300",
+            "Boosts base ATK by 100",
+            "Acquire Sailor Ability 2: Makes crew's [QCK] slots have matching slot effects"
+        ],
+        potential: [
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ]
+    },
+    4602: {//5+ PKA Garp
+        special: "Ignores Debuff Protection and reduces the defense of all enemies by 95% for 1 turn, reduces Chain Coefficient Reduction and Paralysis duration by 6 turns, and boosts Tap Timing ATK of [QCK] characters by 1.75x, following a chain of 4 PERFECT attacks, for 1 turn. If HP is below 30% or your crew has 5+ turns of End of Turn Healing when the special is activated, applies Territory: [QCK] to the field for 1 turn.",
+        specialName: "Unageing Fist of Passion",
+        sailor: {
+            base: "Boosts base HP of Free Spirit and Fighter characters by 150.",
+            level1: "Makes [QCK] orbs beneficial for all characters."
+        },
+        support: [
+            {
+                Characters: "[QCK] Free Spirit characters",
+                description: [
+                    "Adds 6% of this character's base HP to the supported character's base HP.",
+                    "Adds 8% of this character's base HP to the supported character's base HP.",
+                    "Adds 10% of this character's base HP to the supported character's base HP.",
+                    "Adds 12% of this character's base HP to the supported character's base HP.",
+                    "Adds 15% of this character's base HP to the supported character's base HP. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Switch Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -188040,6 +188119,239 @@ window.details = {
                     "Boosts base ATK by 150 the turn after recovering 3000, HP and reduces Hunger stack by 2 stacks",
                     "Boosts base ATK by 200 the turn after recovering 3000, HP and reduces Hunger stack by 2 stacks",
                     "Boosts base ATK by 300 the turn after recovering 3000, HP and reduces Hunger stack by 3 stacks"
+                ]
+            }
+        ]
+    },
+    4608: {//Lafitte
+        captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [QCK], Striker and Free Spirit characters by 5x, by 5.75x instead if they have a beneficial orb, boosts HP of [QCK], Striker and Free Spirit characters by 1.3x, makes [DEX], [QCK] and [TND] orbs beneficial for [QCK], Striker and Free Spirit characters, increases duration of any Color Affinity buffs applied by specials by 2 turns, and increases boost effects of Color Affinity buffs applied by specials by 1.1x (up to 8x). If your crew has 3+ [Blackbeard Pirates] or [Four Emperors] characters, boosts ATK of [Blackbeard Pirates] characters by 1.1x, and reduces Special Bind duration by 10 turns.",
+        special: "Reduces Chain Multiplier Limit duration by 7 turns, and sets Chain Boundaries to 2.75x and 40.0x for 3 turns. If this character is your Captain or Friend Captain and field has Territory: [QCK] and Free Spirit when the special is activated, optionally swaps 1 selected character with your captain for 1 turn; swaps this unit with your captain for 1 turn otherwise. If an [QCK] character is supporting this character, reduces Slot Bind duration by 7 turns. If an [INT] character is supporting this character, adds 1.4x to chain multiplier for 1 turn. If your crew has Marshall D. Teach (Blackbeard) who has used a special this turn, decreases boost effects of Color Affinity buffs by -1.0x, and converts Color Affinity into a Stackable Color Affinity.",
+        specialName: "Unprecedented Scene Unfolding in the Mind",
+        sailor: {
+            base: "Makes [DEX] and [QCK] orbs beneficial for Striker and Free Spirit characters.",
+            level1: "Boosts base ATK, HP and RCV of Striker and Free Spirit characters by 100."
+        },
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: [Blackbeard Pirates], [Four Emperors] characters",
+        superSpecial: "Optionally removes Captain Swap duration completely, enables Color Affinity buffs to be enhanced up to 2 times, and transforms Striker characters into Super Striker characters.",
+        support: [
+            {
+                Characters: "[Blackbeard Pirates] characters",
+                description: [
+                    "Once per adventure, when you reach the final stage, adds 0.3x to chain multiplier for 1 turn.",
+                    "Once per adventure, when you reach the final stage, adds 0.4x to chain multiplier for 1 turn.",
+                    "Once per adventure, when you reach the final stage, adds 0.5x to chain multiplier for 1 turn.",
+                    "Once per adventure, when you reach the final stage, adds 0.6x to chain multiplier for 1 turn.",
+                    "Once per adventure, when you reach the final stage, adds 0.7x to chain multiplier for 2 turns."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 10",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 10",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 20",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 30",
+            "Acquire Potential 2: Nutrition/Hunger",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: Boosts Striker and Free Spirit characters' base stats by 100",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 70",
+            "Boosts base HP by 80",
+            "Boosts base RCV by 30",
+            "Acquire Potential 3: Super Tandem Boost",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 100",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 150"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Nutrition/Hunger",
+                description: [
+                    "Boosts base ATK by up to 50, the turn after recovering up to 3000 HP and reduces Hunger stack by 1 stack",
+                    "Boosts base ATK by up to 100, the turn after recovering up to 3000 HP and reduces Hunger stack by 1 stack",
+                    "Boosts base ATK by up to 150, the turn after recovering up to 3000 HP and reduces Hunger stack by 2 stacks",
+                    "Boosts base ATK by up to 200, the turn after recovering up to 3000 HP and reduces Hunger stack by 2 stacks",
+                    "Boosts base ATK by up to 300, the turn after recovering up to 3000 HP and reduces Hunger stack by 3 stacks"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Blackbeard Pirates], [Four Emperors] or [Giant] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Four Emperors] or [Giant] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Four Emperors] or [Giant] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Four Emperors] or [Giant] character performs Super Tandem",
+                "When a [Blackbeard Pirates], [Four Emperors] or [Giant] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Blackbeard Pirates], [Four Emperors] and [Giant] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Blackbeard Pirates], [Four Emperors] and [Giant] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Blackbeard Pirates], [Four Emperors] and [Giant] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Blackbeard Pirates], [Four Emperors] and [Giant] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Blackbeard Pirates], [Four Emperors] and [Giant] characters by 5 for 1 turn."
+            ]
+        }
+    },
+    4609: {//Doc Q
+        captain: "Boosts ATK of Striker and Free Spirit characters by 4.5x, by 5.85x instead if this character becomes your captain in the middle of an island, boosts HP of Striker and Free Spirit characters by 1.3x, makes [QCK] orbs beneficial for all characters, and reduces Paralysis duration by 4 turns.",
+        special: "Reduces Bind and Paralysis duration by 6 turns, removes Poison duration completely, boosts the Color Affinity of Free Spirit characters by 2.25x for 1 turn, and if during this turn you score 2 PERFECT hits, boosts ATK of Free Spirit characters by 2.75x for 1 turn in the following turn. If your crew has 4+ [Blackbeard Pirates] characters, applies Territory: [QCK] to the field for 1 turn.",
+        specialName: "Chasing Bombardment",
+        sailor: {
+            base: "Boosts base HP and RCV of all characters by 150.",
+            level1: "When tapping on this character with a [QCK] orb, increases boost effects of Chain Lock buffs by +0.2x."
+        },
+        support: [
+            {
+                Characters: "[QCK] [Blackbeard Pirates] characters",
+                description: [
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 2 turns."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 30",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 30",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 20",
+            "Acquire 1 additional Socket slot",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Acquire Sailor Ability 2: Tapping on this character with a [QCK] slot will further boost the effect of crew's lock chain multiplier effect by +0.2",
+            "Boosts base ATK by 50",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: No Healing"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            }
+        ]
+    },
+    4610: {//Kuzan
+        captain: "Boosts ATK of Striker and Free Spirit characters by 4.5x, by 5.85x instead if this character becomes your captain in the middle of an island, boosts HP of Striker and Free Spirit characters by 1.3x, makes [QCK] orbs beneficial for all characters, and reduces Burn duration by 4 turns.",
+        special: "Reduces Burn duration by 6 turns, reduces enemies' Threshold Damage Reduction duration by 6 turns, changes all orbs, including [BLOCK] orbs, into matching orbs, reduces enemies' [QCK] resistance by -20% for 1 turn, and after 1 turn, reduces enemies' Striker and Free Spirit resistance by -30% for 1 turn. If your crew has 4+ [Blackbeard Pirates] characters, applies Territory: Free Spirit to the field for 1 turn.",
+        specialName: "Impeding Ice",
+        sailor: {
+            base: "Boosts base ATK and RCV of all characters by 150.",
+            level1: "When tapping on this character with a [QCK] orb, increases boost effects of Chain Addition buffs by +0.2x."
+        },
+        support: [
+            {
+                Characters: "[QCK] [Blackbeard Pirates] characters",
+                description: [
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 2 turns."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 30",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 30",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 50",
+            "Acquire Sailor Ability 2: Tapping on this character with a [QCK] slot will further boost the effect of crew's chain multiplier additive boost effect (except multiplicative boost) by +0.2",
+            "Boosts base RCV by 20",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Enrage/Increase Damage Taken"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
                 ]
             }
         ]
