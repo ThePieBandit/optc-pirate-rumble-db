@@ -188027,6 +188027,158 @@ window.details = {
             }
         ]
     },
+    4605: {//Zoro
+        captain: "Boosts ATK of all characters by 2.75x, by 3.75x instead in the turn \"Blades Against the Mysterious Lion\" is used, boosts HP of all characters by 1.3x, and makes [TND] orbs beneficial for all characters.",
+        special: "Reduces enemies' Increased Defense duration by 3 turns, reduces enemies' Percent Damage Reduction duration by 6 turns, changes orbs, including [BLOCK] orbs, of adjacent characters into [TND] orbs, boosts ATK of all characters by 2.25x, can be enhanced up to 2 times, for 2 turns, and increases boost effects of Orb Amplification buffs by +0.25x. If your crew has 3+ [Straw Hat Pirates] characters, increases boost effects of Orb Amplification buffs by +0.5x.",
+        specialName: "Blades Against the Mysterious Lion",
+        sailor: {
+            base: "If your Captain is a [STR] or [PSY] character, makes [TND] orbs beneficial for all characters.",
+            level1: "If your Captain is a [STR] or [PSY] character, boosts base ATK, HP and RCV of all characters by 75."
+        },
+        support: [
+            {
+                Characters: "[Elbaph Arc] characters",
+                description: [
+                    "Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Adds 3% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Adds 5% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Adds 7% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Adds 10% of this character's base ATK and HP to the supported character's base ATK and HP."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 50",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 50",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 50",
+            "Boosts base ATK by 70",
+            "Boosts base HP by 60",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 80",
+            "Boosts base RCV by 50",
+            "Acquire Sailor Ability 2: Boosts crew's base stats by 75 when Captain is a [STR] or [PSY] character",
+            "Boosts base HP by 100",
+            "Boosts base HP by 100",
+            "Acquire Potential 2: Super Tandem"
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Dracule Mihawk",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Dracule Mihawk",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Dracule Mihawk",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Dracule Mihawk",
+                "On the last stage. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Dracule Mihawk"
+            ],
+            description: [
+                "Boosts Tandem ATK of Fighter, Powerhouse, Free Spirit and Slasher characters by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of Fighter, Powerhouse, Free Spirit and Slasher characters by 1.15x for 1 turn.",
+                "Boosts Tandem ATK of Fighter, Powerhouse, Free Spirit and Slasher characters by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of Fighter, Powerhouse, Free Spirit and Slasher characters by 1.25x for 1 turn.",
+                "Boosts Tandem ATK of Fighter, Powerhouse, Free Spirit and Slasher characters by 1.3x for 1 turn."
+            ]
+        }
+    },
+    4606: {//Sanji
+        captain: "Boosts ATK of all characters by 2.75x, by 3.75x instead in the turn \"Kicks Against the Mysterious Lion\" is used, boosts RCV of all characters by 1.3x, and makes [RCV] orbs beneficial for all characters.",
+        special: "Reduces enemies' Increased Defense duration by 3 turns, reduces enemies' Threshold Damage Reduction duration by 6 turns, changes orbs, including [BLOCK] orbs, of adjacent characters into [RCV] orbs, boosts Orb Effects of all characters by 2.25x, can be enhanced up to 2 times, for 2 turns, and increases boost effects of ATK Up buffs by +0.25x. If your crew has 3+ [Straw Hat Pirates] characters, increases boost effects of ATK Up buffs by +0.5x.",
+        specialName: "Kicks Against the Mysterious Lion",
+        sailor: {
+            base: "If your Captain is a [STR] or [DEX] character, makes [RCV] orbs beneficial for all characters.",
+            level1: "If your Captain is a [STR] or [DEX] character, boosts base ATK, HP and RCV of all characters by 75."
+        },
+        support: [
+            {
+                Characters: "[Elbaph Arc] characters",
+                description: [
+                    "Adds 1% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
+                    "Adds 3% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
+                    "Adds 5% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
+                    "Adds 7% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
+                    "Adds 10% of this character's base ATK and RCV to the supported character's base ATK and RCV."
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 50",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base HP by 60",
+            "Boosts base HP by 60",
+            "Boosts base HP by 80",
+            "Acquire 1 additional Socket slot",
+            "Boosts base ATK by 70",
+            "Boosts base ATK by 80",
+            "Boosts base HP by 100",
+            "Acquire Sailor Ability 2: Boosts crew's base stats by 75 when Captain is a [STR] or [DEX] character",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 50",
+            "Acquire Potential 2: Super Tandem Boost"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Straw Hat Pirates] or [Elbaph Arc] character performs Super Tandem",
+                "When a [Straw Hat Pirates] or [Elbaph Arc] character performs Super Tandem",
+                "When a [Straw Hat Pirates] or [Elbaph Arc] character performs Super Tandem",
+                "When a [Straw Hat Pirates] or [Elbaph Arc] character performs Super Tandem",
+                "When a [Straw Hat Pirates] or [Elbaph Arc] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Straw Hat Pirates] and [Elbaph Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates] and [Elbaph Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates] and [Elbaph Arc] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates] and [Elbaph Arc] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates] and [Elbaph Arc] characters by 3 for 1 turn."
+            ]
+        }
+    },
     4607: {//Bartolomeo
         captain: "Reduces Special Cooldown of this character by 4 turns at the start of the fight, boosts ATK of [DEX] and Fighter characters by 5.5x, and boosts HP of [DEX] and Fighter characters by 1.5x. If there are 6 enemies on the stage, reduces damage received by 50%.",
         special: "Reduces enemies' Barrier duration by 2 turns. If your crew has 2+ [Paramythia-type] characters, boosts Base ATK of all characters by 1,500 for 1-6 turns. If your crew has 2+ [Land of Wano Arc] characters, reduces damage received by 95% for 1-6 turns, by 85% for 1-6 turns otherwise. If your crew has 2+ [Supernova] characters, boosts Crew Damage Reduction to ATK of all characters by 1x-2.5x, proportional to the strength of crew's Percent Damage Reduction buff, for 1-6 turns, by 1x-2x for 1-6 turns otherwise.",
