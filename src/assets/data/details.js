@@ -100554,7 +100554,7 @@ window.details = {
         special: "Boosts ATK of [INT], Cerebral and Powerhouse characters by 2.25x for 3 turns, and removes Paralysis and Poison duration completely. If enemies are inflicted with Poison, Strong Poison, Toxic or Reiju Poison when the special is activated, poison deals 30% of enemies' current HP in damage to all enemies and removes enemies' Poison duration completely. Otherwise, inflicts all enemies with Reiju Poison.",
         specialNotes: "Poison HP Cut deals damage in the same way as other poisons.<br>Reiju Poison deals 20% of enemies' current HP in damage at the end of each turn and recovers 20% crew's MAX HP at the end of each turn. Reiju Poison is derivative of Normal Poison, so it fulfills Poison Status ATK Boosts and is affected by Poison Debuff Immunity.",
         superSpecial: "Boosts Orb Effects of [INT], Cerebral and Powerhouse characters by 2x for 1 turn and transforms [INT] characters into Super [INT] characters.",
-        superSpecialCriteria: "This character must be captain and your crew must consist of any 6 of the following, excluding Supports and counting only 1 per unit: Powerhouse or Cerebral characters.",
+        superSpecialCriteria: "This character must be captain and your crew must consist of any 6 of the following, excluding Supports and counting only 1 per unit: Powerhouse, Cerebral characters",
         specialName: "Lustrous Devilish Woman",
         sailor: {
             level1: "Boosts base ATK, HP and RCV of Cerebral and Powerhouse characters by 75",
@@ -100656,7 +100656,7 @@ window.details = {
         captain: "Boosts ATK of [STR], Cerebral and Free Spirit characters by 5x, their HP by 1.2x and reduces Special Bind duration by 10 turns.",
         special: "Boosts Orb Effects of [STR], Cerebral and Free Spirit characters by 2.25x for 3 turns, changes all orbs, including [BLOCK] orbs, into Matching orbs and locks all orbs for 1 turn. If your crew has Orb Amplification when the special is activated, increases boost effects of Orb Amplification buffs by +0.25x and increases duration of any Orb Amplification buffs by 2 turns.",
         superSpecial: "Boosts ATK of [STR], Cerebral and Free Spirit characters by 2x for 1 turn and transforms [STR] characters into Super [STR] characters.",
-        superSpecialCriteria: "This character must be captain and your crew must consist of any 6 of the following, excluding Supports and counting only 1 per unit: Cerebral or Free Spirit characters.",
+        superSpecialCriteria: "This character must be captain and your crew must consist of any 6 of the following, excluding Supports and counting only 1 per unit: Cerebral, Free Spirit characters",
         specialName: "Maiden Playing in the Pool",
         sailor: {
             level1: "Boosts base ATK, HP and RCV of Cerebral and Free Spirit characters by 75",
@@ -188028,24 +188028,24 @@ window.details = {
         ]
     },
     4603: {//6+ Monkey D. Luffy
-        captain: "Boosts [QCK], [INT], Free Spirit, and Striker characters' ATK by 5x, HP by 1.2x, boosts other characters' ATK by 4x, and makes crew's [QCK][INT][RCV][TND] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] Reduces [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Royalty] characters' Special charge time by 2 turns at start of quest. If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Royalty] characters are on the crew, boosts [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Royalty] characters' ATK by 1.2x. If 2 or more [Elbaph Arc] characters are on the crew and \"Roronoa Zoro\", \"Sanji\", \"Usopp\", \"Nami\", \"Tony Tony Chopper\", \"Nico Robin\", \"Franky\", \"Brook\", \"Jinbe\", \"Jewelry Bonney\", \"Dorry\", \"Broggy\", \"Oimo\", \"Kashii\", or \"Hajrudin\" is a crewmate and uses a Special, reduces crew's Special charge time by 2 turns (up to 4 times per quest)",
-        special: "Cuts crew's HP by 80%, but reduces all enemies' damage nullification duration by 2 turns, reduces crew's Paralysis duration by 7 turns, applies \"Territory: Free Spirit class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns, and boosts [QCK] and [INT] characters' slot effects by 3x for 5 turns (allows this effect to be further increased up to 2 times). If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Royalty] characters are on the crew, reduces damage taken by 80% for 1 turn, and increases all enemies' damage taken by 2x for 1 turn ignoring immunity to status effects",
+        captain: "Reduces Special Cooldown of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Royalty] characters by 2 turns at the start of the fight, boosts ATK of [QCK], [INT], Free Spirit and Striker characters by 5x, boosts ATK of all other characters by 4x, boosts HP of [QCK], [INT], Free Spirit and Striker characters by 1.2x, and makes [QCK], [INT], [RCV] and [TND] orbs beneficial for all characters. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Royalty] characters, boosts ATK of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Royalty] characters by 1.2x. If your crew has 2+ [Elbaph Arc] characters, up to 4 times per adventure, when Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii or Hajrudin uses a special as crewmate, reduces Special Cooldown of all characters by 2 turns.",
+        special: "Reduces crew's current HP by 80%, reduces enemies' Damage Nullification duration by 2 turns, reduces Paralysis duration by 7 turns, applies Territory: Free Spirit to the field for 2 turns, and boosts Orb Effects of [QCK] and [INT] characters by 3x, can be enhanced up to 2 times, for 5 turns. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] or [Royalty] characters, reduces damage received by 80% for 1 turn, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x for 1 turn.",
         specialName: "Defending the Benefactor's Honor",
         sailor: {
-            base: "Boosts [QCK] and [INT] characters' base ATK by 150",
-            level1: "If 4 or more [Straw Hat Pirates] [Giant] [Four Emperors] [Royalty] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 6 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "Boosts base ATK of [QCK] and [INT] characters by 150.",
+            level1: "If your crew has 4+ [Straw Hat Pirates], [Giant], [Four Emperors] or [Royalty] characters, once per adventure, when the enemy gains a Threshold Damage Reduction buff, reduces enemies' Threshold Damage Reduction duration by 6 turns."
         },
-        superSpecialCriteria: "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry",
-        superSpecial: "Changes character's slot to [TND], allows crew's type effect boost to be further increased up to 2 times, further increases the boost by 1.2x (up to a maximum 15x), and changes Striker characters to Super Striker",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry",
+        superSpecial: "Changes the orb of this character into a [TND] orb, enables Color Affinity buffs to be enhanced up to 2 times, increases boost effects of Color Affinity buffs by 1.2x (up to 15x), and transforms Striker characters into Super Striker characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Elbaph Arc]",
+                Characters: "[Elbaph Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats",
-                    "Adds 8% of character's base stats to supported character's base stats",
-                    "Adds 10% of character's base stats to supported character's base stats",
-                    "Adds 12% of character's base stats to supported character's base stats"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -188099,13 +188099,13 @@ window.details = {
             null,
             {
                 captain: {
-                    base: "Reduces crew's Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts [QCK], [INT], Free Spirit, and Striker characters' ATK by 5.25x, HP by 1.2x, boosts other characters' ATK by 4x, and makes crew's [QCK][INT][RCV][TND] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] Reduces [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Royalty] characters' Special charge time by 2 turns at start of quest. If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Royalty] characters are on the crew, boosts [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Royalty] characters' ATK by 1.3x. If 2 or more [Elbaph Arc] characters are on the crew and \"Roronoa Zoro\", \"Sanji\", \"Usopp\", \"Nami\", \"Tony Tony Chopper\", \"Nico Robin\", \"Franky\", \"Brook\", \"Jinbe\", \"Jewelry Bonney\", \"Dorry\", \"Broggy\", \"Oimo\", \"Kashii\", \"Hajrudin\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Shanks\", \"Marshall D. Teach (Blackbeard)\", \"Buggy\", \"Nefeltari Vivi\", \"Shirahoshi\", \"Rebecca\", or \"Mansherry\" is a crewmate and uses a Special, reduces crew's Special charge time by 2 turns (up to 4 times per quest)"
+                    base: "Launches the following effect at start of fight: reduces Special Cooldown of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Royalty] characters by 4 turns, reduces Special Cooldown of all other characters by 2 turns, and reduces VS Gauge and Switch Effect of all characters by 2. Boosts ATK of [QCK], [INT], Free Spirit and Striker characters by 5.25x, boosts ATK of all other characters by 4x, boosts HP of [QCK], [INT], Free Spirit and Striker characters by 1.2x, and makes [QCK], [INT], [RCV] and [TND] orbs beneficial for all characters. If your crew has 4+ [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Royalty] characters, boosts ATK of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Royalty] characters by 1.3x. If your crew has 2+ [Elbaph Arc] characters, up to 4 times per adventure, when Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk Lilith the Evil, Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca or Mansherry uses a special as crewmate, reduces Special Cooldown of all characters by 2 turns."
                 },
                 rSpecial: true
             },
             {
                 special: {
-                    base: "Cuts crew's HP by 80%, but reduces all enemies' damage nullification duration by 2 turns, reduces crew's Paralysis duration by 7 turns, applies \"Territory: Free Spirit class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns, if crew has slot effect boost when Special is launched, applies -50% [QCK] and [INT] Resistance to all enemies for 1 turn, then after that, boosts [QCK] and [INT] characters' slot effects by 3.25x for 5 turns (allows this effect to be further increased up to 2 times). If 3 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Royalty] characters are on the crew, reduces damage taken by 80% for 1 turn, and increases all enemies' damage taken by 2.25x for 1 turn ignoring immunity to status effects"
+                    base: "Reduces crew's current HP by 80%, reduces enemies' Damage Nullification duration by 2 turns, reduces Paralysis duration by 7 turns, applies Territory: Free Spirit to the field for 2 turns, and boosts Orb Effects of [QCK] and [INT] characters by 3.25x, can be enhanced up to 2 times, for 5 turns. If your crew has Orb Amplification when the special is activated, reduces enemies' [QCK] and [INT] resistance by -50% for 1 turn. If your crew has 3+ [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] or [Royalty] characters, reduces damage received by 80% for 1 turn, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.25x for 1 turn."
                 },
                 rSuperSpecial: true,
                 rResilience: true
@@ -188145,18 +188145,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Roronoa Zoro, Sanji, Usopp, Nami, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Jewelry Bonney, Dorry, Broggy, Oimo, Kashii, Hajrudin, Dr. Vegapunk \"Lilith the Evil\", Shanks, Marshall D. Teach (Blackbeard), Buggy, Nefeltari Vivi, Shirahoshi, Rebecca, Mansherry"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.25x to [QCK] and [INT] characters for 1 turn, and makes crew's type slots have matching slot effects for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.5x to [QCK] and [INT] characters for 1 turn, and makes crew's type slots have matching slot effects for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.75x to [QCK] and [INT] characters for 1 turn, and makes crew's type slots have matching slot effects for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.25x to [QCK] and [INT] characters for 1 turn, and makes crew's type slots have matching slot effects for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.75x to [QCK] and [INT] characters for 1 turn, and makes crew's type slots have matching slot effects for 1 turn"
+                "Boosts Tandem ATK of [QCK] and [INT] characters by 1.25x for 1 turn, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
+                "Boosts Tandem ATK of [QCK] and [INT] characters by 1.5x for 1 turn, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
+                "Boosts Tandem ATK of [QCK] and [INT] characters by 1.75x for 1 turn, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
+                "Boosts Tandem ATK of [QCK] and [INT] characters by 2.25x for 1 turn, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn.",
+                "Boosts Tandem ATK of [QCK] and [INT] characters by 2.75x for 1 turn, and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 1 turn."
             ]
         },
         festStats: {
@@ -188770,24 +188770,25 @@ window.details = {
         ]
     },
     4611: {//St. Shamrock
-        captain: "Launches the following effect at start of quest: \"Boosts the type effects of normal attacks for [STR], Cerebral, and Powerhouse characters by 3.25x for 7 turns, allows healing up to 2x crew's max HP ignoring max HP limit for 7 turns<hidden> (if HP is above max limit, it is treated as being full HP)</hidden>, and reduces Cerebral and Powerhouse characters' Special charge time by 2 turns, and VS Effect gauge and Switch Effect by 2\". Boosts Cerebral and Powerhouse characters' ATK by 6x. If field has \"Territory: Cerebral class\", boosts Cerebral characters' ATK by a further 1.1x. If field has \"Territory: Powerhouse class\", boosts Powerhouse characters' ATK by a further 1.1x. If field has \"Territory: [STR]\", boosts [STR] characters' ATK by 1.1x [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [World Government] [Holy Knights] [Celestial Dragon] [Five Elders] characters are on the crew and character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, boosts Cerebral and Powerhouse characters' ATK by a further 1.2x for 3 turns. Reduces [World Government] [Holy Knights] [Celestial Dragon] [Five Elders] characters' Special charge time by 5 turns at start of quest",
-        special: "Reduces one enemy's HP by 25% (ignoring all defensive effects), and reduces all enemies' Threshold Damage Reduction duration by 15 turns. If character is a Captain/Friend Captain/Helper Captain, changes Cerebral characters' [BLOCK][RCV][STR] slots to Super [STR]. If field has \"Territory: Cerebral class\" and \"Territory: [STR]\", or field has \"Territory: Crew\", boosts the chain multiplier by 3x for 3 turns (boosts the chain multiplier by 1.75x for 1 turn otherwise), then after that, boosts [STR], Cerebral, and Powerhouse characters' slot effects up to 4x based on the result of the Action Special for 3 turns (MISS 3x; GOOD 3.25x; GREAT 3.5x; PERFECT 3.75x; EXCELLENT 4x), and applies \"Territory: Cerebral class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [World Government], [Holy Knights], [Celestial Dragon] and [Five Elders] characters by 5 turns, reduces Special Cooldown of Cerebral and Powerhouse characters by 2 turns, reduces VS Gauge and Switch Effect of Cerebral and Powerhouse characters by 2, boosts Color Affinity of [STR], Cerebral and Powerhouse characters by 3.25x for 7 turns, and allows HP Overfill up to 2x max HP for 7 turns. Boosts ATK of Cerebral and Powerhouse characters by 6x. If field has Territory: Cerebral, further boosts ATK of Cerebral characters by 1.1x. If field has Territory: Powerhouse, further boosts ATK of Powerhouse characters by 1.1x. If field has Territory: [STR], boosts ATK of [STR] characters by 1.1x. If your crew has 3+ [World Government], [Holy Knights], [Celestial Dragon] and [Five Elders] characters and this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns further boosts ATK of Cerebral and Powerhouse characters by 1.2x.",
+        special: "Deals 25% of enemies' current HP in True damage to one enemy, reduces enemies' Threshold Damage Reduction duration by 15 turns, and boosts Orb Effects of [STR], Cerebral and Powerhouse characters by 3x-4x for 3 turns depending on the outcome of Action Special. If this character is your Captain or Friend Captain, changes [STR], [RCV] and [BLOCK] orbs of Cerebral characters into Super [STR] orbs. If field has Territory: [STR] and Cerebral or Territory: Crew when the special is activated, boosts Chain Multiplier Growth Rate by 3x for 3 turns; boosts Chain Multiplier Growth Rate by 1.75x for 1 turn otherwise. Applies Territory: Cerebral to the field for 3 turns.",
+        specialNotes: "<br><b>MISS:</b> 3x, <b>GOOD:</b> 3.25x, <b>GREAT:</b> 3.5x, <b>PERFECT:</b> 3.75x, <b>EXCELLENT:</b> 4x",
         specialName: "Cerberus Scramble",
         sailor: {
-            base: "Lets character completely evade Bind/Paralysis",
-            level1: "Boosts [STR] characters' base stats by 100, and makes their [QCK][TND] slots have matching slot effects"
+            base: "Reduces Bind and Paralysis duration completely on this character.",
+            level1: "Boosts base ATK, HP and RCV of [STR] characters by 100, and makes [QCK] and [TND] orbs beneficial for [STR] characters."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Imu, Saintess Gunko, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
-        superSpecial: "Heals crew by 30,000 HP, applies Weakened status (increase damage taken by 1.4x for all enemies, damage further increased by 1.2x if enemy has Increase Damage Taken) to all enemiesfor 2 turns ignoring immunity to status effects, changes [STR] characters to Super [STR], and changes Cerebral characters to Super Cerebral",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, Saintess Gunko, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
+        superSpecial: "Recovers 30,000 HP, ignores Debuff Protection and inflicts all enemies with Weaken by 1.4x, by 1.68x instead if enemies are inflicted with Increase Damage Taken, for 2 turns, and transforms [STR] and Cerebral characters into Super [STR] and Super Cerebral characters.",
         support: [
             {
-                Characters: "[STR] characters with the following Character Tag: [Holy Knights], [Celestial Dragon]",
+                Characters: "[STR] [Holy Knights], [Celestial Dragon] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [Celestial Dragon] [Holy Knights] characters by 1.25x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [Celestial Dragon] [Holy Knights] characters by 1.5x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [Celestial Dragon] [Holy Knights] characters by 1.75x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [Celestial Dragon] [Holy Knights] characters by 2x for 1 turn",
-                    "Once per quest, if supported character uses a Special, boosts the type effects of normal attacks for [Celestial Dragon] [Holy Knights] characters by 2.25x for 1 turn"
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of [Celestial Dragon] and [Holy Knights] characters by 1.25x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of [Celestial Dragon] and [Holy Knights] characters by 1.5x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of [Celestial Dragon] and [Holy Knights] characters by 1.75x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of [Celestial Dragon] and [Holy Knights] characters by 2x for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, boosts Color Affinity of [Celestial Dragon] and [Holy Knights] characters by 2.25x for 1 turn."
                 ]
             }
         ],
@@ -188867,18 +188868,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [World Government] [Holy Knights] [Celestial Dragon] [Five Elders] [Four Emperors] character performs Super Tandem",
-                "When a [World Government] [Holy Knights] [Celestial Dragon] [Five Elders] [Four Emperors] character performs Super Tandem",
-                "When a [World Government] [Holy Knights] [Celestial Dragon] [Five Elders] [Four Emperors] character performs Super Tandem",
-                "When a [World Government] [Holy Knights] [Celestial Dragon] [Five Elders] [Four Emperors] character performs Super Tandem",
-                "When a [World Government] [Holy Knights] [Celestial Dragon] [Five Elders] [Four Emperors] character performs Super Tandem"
+                "When a [World Government], [Holy Knights], [Celestial Dragon], [Five Elders] or [Four Emperors] character performs Super Tandem",
+                "When a [World Government], [Holy Knights], [Celestial Dragon], [Five Elders] or [Four Emperors] character performs Super Tandem",
+                "When a [World Government], [Holy Knights], [Celestial Dragon], [Five Elders] or [Four Emperors] character performs Super Tandem",
+                "When a [World Government], [Holy Knights], [Celestial Dragon], [Five Elders] or [Four Emperors] character performs Super Tandem",
+                "When a [World Government], [Holy Knights], [Celestial Dragon], [Five Elders] or [Four Emperors] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [World Government] [Holy Knights] [Celestial Dragon] [Five Elders] [Four Emperors] [Elbaph Arc] [Egghead Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [World Government] [Holy Knights] [Celestial Dragon] [Five Elders] [Four Emperors] [Elbaph Arc] [Egghead Arc] characters by 2 for 1 turn",
-                "Raises Boost Level of [World Government] [Holy Knights] [Celestial Dragon] characters by 4 and raises Boost Level of [Five Elders] [Four Emperors] [Elbaph Arc] [Egghead Arc] characters by 3 for 1 turn",
-                "Raises Boost Level of [World Government] [Holy Knights] [Celestial Dragon] characters by 5 and raises Boost Level of [Five Elders] [Four Emperors] [Elbaph Arc] [Egghead Arc] characters by 4 for 1 turn",
-                "Raises Boost Level of [World Government] [Holy Knights] [Celestial Dragon] characters by 7 and raises Boost Level of [Five Elders] [Four Emperors] [Elbaph Arc] [Egghead Arc] characters by 5 for 1 turn"
+                "Raises Boost Level of [World Government], [Holy Knights], [Celestial Dragon], [Five Elders], [Four Emperors], [Elbaph Arc] and [Egghead Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [World Government], [Holy Knights], [Celestial Dragon], [Five Elders], [Four Emperors], [Elbaph Arc] and [Egghead Arc] characters by 2 for 1 turn.",
+                "Raises Boost Level of [World Government], [Holy Knights] and [Celestial Dragon] characters by 4 for 1 turn, and raises Boost Level of [Five Elders], [Four Emperors], [Elbaph Arc] and [Egghead Arc] characters by 3 for 1 turn.",
+                "Raises Boost Level of [World Government], [Holy Knights] and [Celestial Dragon] characters by 5 for 1 turn, and raises Boost Level of [Five Elders], [Four Emperors], [Elbaph Arc] and [Egghead Arc] characters by 4 for 1 turn.",
+                "Raises Boost Level of [World Government], [Holy Knights] and [Celestial Dragon] characters by 7 for 1 turn, and raises Boost Level of [Five Elders], [Four Emperors], [Elbaph Arc] and [Egghead Arc] characters by 5 for 1 turn."
             ]
         },
         festStats: {
@@ -188973,24 +188974,25 @@ window.details = {
         festAbilityGPCondition: "After 60s of battle"
     },
     4612: {//Saintess Gunko
-        captain: "Launches the following effect at start of quest: \"Allows crew to stack up to 2 different damage boosting effects (cannot stack the damage boost of the same type) for 7 turns, allows healing up to 2x crew's max HP ignoring max HP limit for 7 turns<hidden> (if HP is above max limit, it is treated as being full HP)</hidden>, and reduces Powerhouse and Cerebral characters' Special charge time by 2 turns, and VS Effect gauge and Switch Effect by 2\". Boosts Powerhouse and Cerebral characters' ATK by 6x. If field has \"Territory: [STR]\", \"Territory: Powerhouse class\", \"Territory: Cerebral class\", or \"Territory: Crew\", boosts [STR], Powerhouse, and Cerebral characters' ATK by a further 1.2x [Applies following effect based on number of applicable Character Tags on crew] If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, boosts [World Government] [Holy Knights] [Celestial Dragon] [Five Elders] characters' ATK by 1.1x for 3 turns. Reduces [World Government] [Holy Knights] [Celestial Dragon] [Five Elders] characters' Special charge time by 5 turns at start of quest",
-        special: "Deals 2,000,000 damage to one enemy (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect), and reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 15 turns. If character is a Captain/Friend Captain/Helper Captain, changes Powerhouse characters' [BLOCK][RCV][STR] slots to Super [STR]. If field has \"Territory: Powerhouse class\" and \"Territory: [STR]\", or field has \"Territory: Crew\", boosts [STR], Powerhouse, and Cerebral characters' ATK when landing a successful strike by 3.5x for 3 turns after landing 3 PERFECT strikes in a row in this turn (boosts [STR], Powerhouse, and Cerebral characters' ATK when landing a successful strike by 2x for 1 turn after landing 3 PERFECT strikes in a row in this turn otherwise), then after that, boosts [STR], Powerhouse, and Cerebral characters' ATK up to 4x based on the result of the Action Special for 3 turns (MISS 3x; GOOD 3.25x; GREAT 3.5x; PERFECT 3.75x; EXCELLENT 4x), and applies \"Territory: Powerhouse class\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of [World Government], [Holy Knights], [Celestial Dragon] and [Five Elders] characters by 5 turns, reduces Special Cooldown of Powerhouse and Cerebral characters by 2 turns, reduces VS Gauge and Switch Effect of Powerhouse and Cerebral characters by 2, allows crew to stack 2 different Status ATK Boost buffs for 7 turns, and allows HP Overfill up to 2x max HP for 7 turns. Boosts ATK of Powerhouse and Cerebral characters by 6x. If field has Territory: [STR], Powerhouse, Cerebral or Crew, further boosts ATK of [STR], Powerhouse and Cerebral characters by 1.2x. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [World Government], [Holy Knights], [Celestial Dragon] and [Five Elders] characters by 1.1x.",
+        special: "Deals 2,000,000 Fixed True damage, ignoring Normal Attack Only, to one enemy, reduces enemies' Percent Damage Reduction duration by 15 turns, and boosts ATK of [STR], Powerhouse and Cerebral characters by 3x-4x for 3 turns depending on the outcome of Action Special. If this character is your Captain or Friend Captain, changes [STR], [RCV] and [BLOCK] orbs of Powerhouse characters into Super [STR] orbs. If field has Territory: [STR] and Powerhouse or Territory: Crew when the special is activated, boosts Tap Timing ATK of [STR], Powerhouse and Cerebral characters by 3.5x, following a chain of 3 PERFECT attacks, for 3 turns; boosts Tap Timing ATK of [STR], Powerhouse and Cerebral characters by 2x, following a chain of 3 PERFECT attacks, for 1 turn otherwise. Applies Territory: Powerhouse to the field for 3 turns.",
+        specialNotes: "<br><b>MISS:</b> 3x, <b>GOOD:</b> 3.25x, <b>GREAT:</b> 3.5x, <b>PERFECT:</b> 3.75x, <b>EXCELLENT:</b> 4x",
         specialName: "Declaring Unavoidable Violence",
         sailor: {
-            base: "Boosts [STR] characters' base ATK by 1.1x",
-            level1: "Boosts Powerhouse and Cerebral characters' base stats by 100, and makes their [DEX][TND] slots have matching slot effects"
+            base: "Boosts base ATK of [STR] characters by 1.1x.",
+            level1: "Boosts base ATK, HP and RCV of Powerhouse and Cerebral characters by 100, and makes [DEX] and [TND] orbs beneficial for Powerhouse and Cerebral characters."
         },
-        superSpecialCriteria: "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
-        superSpecial: "Heals crew by 43,000 HP, boosts Powerhouse and Cerebral characters' base ATK by +1750 for 2 turns, changes [STR] characters to Super [STR], and changes Powerhouse characters to Super Powerhouse",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
+        superSpecial: "Recovers 43,000 HP, boosts Base ATK of Powerhouse and Cerebral characters by 1,750 for 2 turns, and transforms [STR] and Powerhouse characters into Super [STR] and Super Powerhouse characters.",
         support: [
             {
-                Characters: "[STR] characters with the following Character Tag: [Holy Knights], [Celestial Dragon]",
+                Characters: "[STR] [Holy Knights], [Celestial Dragon] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to change slots, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn (if HP is above max limit, it is treated as being full HP) and heals crew by 500 HP",
-                    "Once per quest, if supported character uses a Special to change slots, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn (if HP is above max limit, it is treated as being full HP) and heals crew by 1,000 HP",
-                    "Once per quest, if supported character uses a Special to change slots, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn (if HP is above max limit, it is treated as being full HP) and heals crew by 2,000 HP",
-                    "Once per quest, if supported character uses a Special to change slots, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn (if HP is above max limit, it is treated as being full HP) and heals crew by 3,000 HP",
-                    "Once per quest, if supported character uses a Special to change slots, allows healing up to 2x crew's max HP ignoring max HP limit for 1 turn (if HP is above max limit, it is treated as being full HP) and heals crew by 4,000 HP"
+                    "Once per adventure, when the supported character uses an orb change special, allows HP Overfill up to 2x max HP for 1 turn, and recovers 500 HP.",
+                    "Once per adventure, when the supported character uses an orb change special, allows HP Overfill up to 2x max HP for 1 turn, and recovers 1,000 HP.",
+                    "Once per adventure, when the supported character uses an orb change special, allows HP Overfill up to 2x max HP for 1 turn, and recovers 2,000 HP.",
+                    "Once per adventure, when the supported character uses an orb change special, allows HP Overfill up to 2x max HP for 1 turn, and recovers 3,000 HP.",
+                    "Once per adventure, when the supported character uses an orb change special, allows HP Overfill up to 2x max HP for 1 turn, and recovers 4,000 HP."
                 ]
             }
         ],
@@ -189070,25 +189072,25 @@ window.details = {
         ],
         rush: {
             characterCondition: [
-                "At final battle, if character performs the 1st or 2nd tap of an attack, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
-                "At final battle, if character performs the 1st or 2nd tap of an attack, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
-                "At final battle, if character performs the 1st or 2nd tap of an attack, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
-                "At final battle, if character performs the 1st or 2nd tap of an attack, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
-                "At final battle, if character performs the 1st or 2nd tap of an attack, and any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard"
+                "On the last stage, when this character performs the 1st tap or 2nd tap of an attack, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
+                "On the last stage, when this character performs the 1st tap or 2nd tap of an attack, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
+                "On the last stage, when this character performs the 1st tap or 2nd tap of an attack, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
+                "On the last stage, when this character performs the 1st tap or 2nd tap of an attack, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard",
+                "On the last stage, when this character performs the 1st tap or 2nd tap of an attack, and your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Imu, St. Shamrock, St. Topman Warcury, St. Ethanbaron V. Nusjuro, St. Jaygarcia Saturn, St. Shepherd Ju Peter, St. Marcus Mars, St. Figarland Garling, Saint Roswald, Saint Charlos, Saint Shalria, Saint Donquixote Myosgard"
             ],
             description: [
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Powerhouse and Cerebral characters (up to +0.6 chain multiplier; Rush ATK boost 1.8x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Powerhouse and Cerebral characters (up to +0.6 chain multiplier; Rush ATK boost 1.9x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Powerhouse and Cerebral characters (up to +0.6 chain multiplier; Rush ATK boost 2x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Powerhouse and Cerebral characters (up to +0.6 chain multiplier; Rush ATK boost 2.2x)",
-                "Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of Powerhouse and Cerebral characters (up to +0.6 chain multiplier; Rush ATK boost 2.5x)"
+                "Performs a Rush up to 8 times. Adds 0.1x-0.6x to Chain multiplier for 1 turn, and boosts Rush ATK of Powerhouse and Cerebral characters by 1.3x-1.8x.",
+                "Performs a Rush up to 8 times. Adds 0.1x-0.6x to Chain multiplier for 1 turn, and boosts Rush ATK of Powerhouse and Cerebral characters by 1.4x-1.9x.",
+                "Performs a Rush up to 8 times. Adds 0.1x-0.6x to Chain multiplier for 1 turn, and boosts Rush ATK of Powerhouse and Cerebral characters by 1.5x-2.0x.",
+                "Performs a Rush up to 8 times. Adds 0.1x-0.6x to Chain multiplier for 1 turn, and boosts Rush ATK of Powerhouse and Cerebral characters by 1.7x-2.2x.",
+                "Performs a Rush up to 8 times. Adds 0.1x-0.6x to Chain multiplier for 1 turn, and boosts Rush ATK of Powerhouse and Cerebral characters by 2.0x-2.5x."
             ],
             stats: [
-                "HP Cost: 40,000\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Powerhouse and Cerebral Rush ATK boost 1.3x\nEach successful chain adds +0.1 (up to 1.8)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8",
-                "HP Cost: 37,500\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Powerhouse and Cerebral Rush ATK boost 1.4x\nEach successful chain adds +0.1 (up to 1.9)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.9",
-                "HP Cost: 35,000\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Powerhouse and Cerebral Rush ATK boost 1.5x\nEach successful chain adds +0.1 (up to 2.0)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 1.0",
-                "HP Cost: 32,500\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Powerhouse and Cerebral Rush ATK boost 1.7x\nEach successful chain adds +0.1 (up to 2.2)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 1.1",
-                "HP Cost: 30,000\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: Powerhouse and Cerebral Rush ATK boost 2.0x\nEach successful chain adds +0.1 (up to 2.5)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 1.2"
+                "HP Cost: 40,000<br>Max Rush: 8 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Powerhouse and Cerebral characters by 1.3x-1.8x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.8",
+                "HP Cost: 37,500<br>Max Rush: 8 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Powerhouse and Cerebral characters by 1.4x-1.9x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 0.9",
+                "HP Cost: 35,000<br>Max Rush: 8 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Powerhouse and Cerebral characters by 1.5x-2.0x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 1.0",
+                "HP Cost: 32,500<br>Max Rush: 8 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Powerhouse and Cerebral characters by 1.7x-2.2x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 1.1",
+                "HP Cost: 30,000<br>Max Rush: 8 times<br>Chain Multiplier Growth: +0.1<br>Finish Tap Effect: Boosts Rush ATK of Powerhouse and Cerebral characters by 2.0x-2.5x<br>Each successful chain adds +0.1<br>First Tap Multiplier: 0.5<br>Rush Multiplier: 0.1<br>Finish Tap Multiplier: 1.2"
             ]
         },
         festStats: {
@@ -189183,24 +189185,24 @@ window.details = {
         festAbilityGPCondition: "After 7 normal attacks"
     },
     4613: {//Nefeltari Vivi
-        captain: "Reduces Cerebral and Free Spirit characters' Special charge time by 1 turn at start of quest, boosts [STR], Cerebral, and Free Spirit characters' ATK by 5.25x, HP by 1.2x, and reduces crew's Special Bind duration by 10 turns. If crew uses a Special to boost slot or type effects, further increases the effect by +0.3 (stackable with other further raising effects)",
-        special: "Reduces all enemies' damage nullification duration by 2 turns, changes crew's slots (including [BLOCK] slots) to character's own type, and locks crew's slots for 1 turn. If crew has slot effect boost when Special is launched, extends the duration of crew's slot effect boost by 2 turns, and further increases the effect by +0.75 (boosts [STR], Cerebral, and Free Spirit characters' slot effects by 2.75x for 3 turns otherwise). If 6 Cerebral characters or 6 Free Spirit characters are on the crew, applies \"Territory: [STR]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns",
+        captain: "Reduces Special Cooldown of Cerebral and Free Spirit characters by 1 turn at the start of the fight, boosts ATK of [STR], Cerebral and Free Spirit characters by 5.25x, boosts HP of [STR], Cerebral and Free Spirit characters by 1.2x, reduces Special Bind duration by 10 turns, and increases boost effects of Orb Amplification and Color Affinity buffs applied by specials by +0.3.",
+        special: "Reduces enemies' Damage Nullification duration by 2 turns, changes all orbs, including [BLOCK] orbs, into matching orbs, and locks all orbs for 1 turn. If your crew has Orb Amplification when the special is activated, increases duration of any Orb Amplification buffs by 2 turns, and increases boost effects of Orb Amplification buffs by +0.75x; boosts Orb Effects of [STR], Cerebral and Free Spirit characters by 2.75x for 3 turns otherwise. If your crew has 6 Cerebral characters or 6 Free Spirit characters, applies Territory: [STR] to the field for 2 turns.",
         specialName: "Poolside Smile at Night",
         sailor: {
-            level1: "Boosts Cerebral and Free Spirit characters' base stats by 75",
-            level2: "Makes crew's [QCK] slots have matching slot effects"
+            level1: "Boosts base ATK, HP and RCV of Cerebral and Free Spirit characters by 75.",
+            level2: "Makes [QCK] orbs beneficial for all characters."
         },
-        superSpecialCriteria: "When 6 Cerebral or Free Spirit characters are on the crew (except as Support Characters; can be launched when character is a crewmate)",
-        superSpecial: "Boosts [STR], Cerebral, and Free Spirit characters' ATK by 2.5x for 2 turns, and changes [STR] characters to Super [STR]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 6 of the following, excluding supports and counting only 1 per unit: Cerebral, Free Spirit characters",
+        superSpecial: "Boosts ATK of [STR], Cerebral and Free Spirit characters by 2.5x for 2 turns, and transforms [STR] characters into Super [STR] characters.",
         support: [
             {
                 Characters: "Cerebral characters",
                 description: [
-                    "Once per quest, if supported character uses a Special to change slots, boosts Cerebral characters' slot effects by 1.5x for 1 turn",
-                    "Once per quest, if supported character uses a Special to change slots, boosts Cerebral characters' slot effects by 1.55x for 1 turn",
-                    "Once per quest, if supported character uses a Special to change slots, boosts Cerebral characters' slot effects by 1.6x for 1 turn",
-                    "Once per quest, if supported character uses a Special to change slots, boosts Cerebral characters' slot effects by 1.65x for 1 turn",
-                    "Once per quest, if supported character uses a Special to change slots, boosts Cerebral characters' slot effects by 1.75x for 1 turn"
+                    "Once per adventure, when the supported character uses an orb change special, boosts Orb Effects of Cerebral characters by 1.5x for 1 turn.",
+                    "Once per adventure, when the supported character uses an orb change special, boosts Orb Effects of Cerebral characters by 1.55x for 1 turn.",
+                    "Once per adventure, when the supported character uses an orb change special, boosts Orb Effects of Cerebral characters by 1.6x for 1 turn.",
+                    "Once per adventure, when the supported character uses an orb change special, boosts Orb Effects of Cerebral characters by 1.65x for 1 turn.",
+                    "Once per adventure, when the supported character uses an orb change special, boosts Orb Effects of Cerebral characters by 1.75x for 1 turn."
                 ]
             }
         ],
@@ -189253,7 +189255,7 @@ window.details = {
             },
             {
                 captain: {
-                    base: "Reduces Cerebral and Free Spirit characters' Special charge time by 2 turns at start of quest, boosts [STR], Cerebral, and Free Spirit characters' ATK by 5.5x, HP by 1.2x, and reduces crew's Special Bind duration by 10 turns. If crew uses a Special to boost slot or type effects, further increases the effect by +0.3 (stackable with other further raising effects) [Applies following effect based on number of applicable Character Tags on crew] If 2 or more [Alabasta Arc] [Royalty] characters are on the crew, reduces crew's Bind duratiom by 6 turns"
+                    base: "Reduces Special Cooldown of Cerebral and Free Spirit characters by 2 turns at the start of the fight, boosts ATK of [STR], Cerebral and Free Spirit characters by 5.5x, boosts HP of [STR], Cerebral and Free Spirit characters by 1.2x, reduces Special Bind duration by 10 turns, and increases boost effects of Orb Amplification and Color Affinity buffs applied by specials by +0.3. If your crew has 2+ [Alabasta Arc] or [Royalty] characters, reduces Bind duration by 6 turns."
                 }
             },
             {
@@ -189261,7 +189263,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Reduces all enemies' damage nullification duration by 2 turns, changes crew's slots (including [BLOCK] slots) to character's own type, and locks crew's slots for 1 turn. If crew has slot effect boost when Special is launched, extends the duration of crew's slot effect boost by 2 turns, allows the effect to be further increased up to 2 times, and further increases the effect by +0.75 (boosts [STR], Cerebral, and Free Spirit characters' slot effects by 3.25x for 3 turns otherwise). If 6 Cerebral characters or 6 Free Spirit characters are on the crew, applies \"Territory: [STR]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns. If 3 or more [Royalty] characters are on the crew and Captain is a Cerebral class and crew has ATK Up status when Special is launched, reduces the ATK Up effect by 0.75 but changes the effect to a stackable boost (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as ATK Up and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other ATK Up effects)"
+                    base: "Reduces enemies' Damage Nullification duration by 2 turns, changes all orbs, including [BLOCK] orbs, into matching orbs, and locks all orbs for 1 turn. If your crew has Orb Amplification when the special is activated, increases duration of any Orb Amplification buffs by 2 turns, enables Orb Amplification buffs to be enhanced up to 2 times, and increases boost effects of Orb Amplification buffs by +0.75x; boosts Orb Effects of [STR], Cerebral and Free Spirit characters by 3.25x for 3 turns otherwise. If your crew has 6 Cerebral characters or 6 Free Spirit characters, applies Territory: [STR] to the field for 2 turns. If your crew has 3+ [Royalty] characters and your Captain is a Cerebral character and your crew has ATK Up when the special is activated, decreases boost effects of ATK Up buffs by -0.75x and converts ATK Up into a Stackable ATK Up."
                 },
                 rResilience: true
             }
