@@ -155240,7 +155240,7 @@ window.details = {
 	4212: {//Yamato
 		captain: "Reduces Special Cooldown of Free Spirit and Cerebral characters by 2 turns at the start of the fight, boosts ATK of Free Spirit and Cerebral characters by 5.75x-6.25x depending on number of Status Effects inflicted on Crew, boosts ATK of all other characters by 5x, changes [RCV] orbs into [WANO] orbs, makes [INT] and [TND] orbs beneficial for Free Spirit and Cerebral characters, and allows HP Overfill up to 2x MAX HP. If you have 6 Free Spirit characters in your crew, reduces Bind and Paralysis duration by 3 turns. If you have 6 Cerebral characters in your crew, restores Special Cooldown of all characters by 3 turns when they are rewinded, and reduces Despair duration by 3 turns.",
 		captainNotes: "+0.1x for every 2 Status Effects",
-        special: "Reduces 1 selected debuff duration by 7 turns, and boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn. If your crew has 6 Free Spirit characters, boosts ATK of Free Spirit characters by 3.25x for 1 turn, and boosts Orb Effects of Free Spirit characters by 1.75, allowing override, for 1 turn. If your crew has 6 Cerebral characters, boosts Color Affinity of Cerebral characters by 3x for 1 turn, and increases boost effects of ATK Up and Orb Amplification buffs by +0.25x, including effects activated in the same Ability. If your crew has Percent Damage Reduction and End of Turn Healing when the special is activated, increases duration of any Percent Damage Reduction to ATK, End of Turn Healing and Percent Damage Reduction buffs by 2 turns, including effects activated in the same Ability.",
+        special: "Reduces 1 selected debuff duration by 7 turns, and boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn. If your crew has 6 Free Spirit characters, boosts ATK of Free Spirit characters by 3.25x for 1 turn, and boosts Orb Effects of Free Spirit characters by 1.75, allowing override, for 1 turn. If your crew has 6 Cerebral characters, boosts Color Affinity of Cerebral characters by 3x for 1 turn, and increases boost effects of ATK Up and Orb Amplification buffs by +0.25x, including effects activated in the same Ability. If your crew has Percent Damage Reduction and End of Turn Healing when the special is activated, increases duration of any Crew Percent Damage Reduction to ATK, End of Turn Healing and Percent Damage Reduction buffs by 2 turns, including effects activated in the same Ability.",
 		specialNotes: "The debuff reduction only works on debuffs whose icons are located in the bottom left of the adventure screen, above the HP bar. This DOES NOT include: Bind, Despair, Paralysis, Special Bind, Slot Bind, and Target Lock.",
 		specialName: "Night Stroll in Wano",
 		sailor: {
@@ -188994,24 +188994,24 @@ window.details = {
         ]
     },
     4614: {//Brook
-        captain: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts [DEX], Slasher, and Striker characters' ATK by approximately 6x when slots match (4.75x otherwise), HP by 1.2x, makes their [DEX][TND] slots have matching slot effects, and adds the following effect based on crew's HP when crew uses a Special (refers to HP after the Special is launched): If HP is 30% or below, activates HP Guard of 95% effect for 1 turn (effect can be activated up to 1 time per quest) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Straw Hat Pirates] [Giant] [Paramythia-type] characters' ATK by 1.1x. If 4 or more [Straw Hat Pirates] [Giant] characters are on the crew, reduces crew's Despair duration by 10 turns",
-        special: "Reduces one enemy's HP by 20% (ignoring all defensive effects), reduces crew's Silence duration by 5 turns and Bind duration by 7 turns, and boosts damage dealt to enemies with increase damage taken and Weakened status by 3.25x for 1 turn. If field has \"Territory: [DEX]\" or \"Territory: [INT]\" when Special is launched, applies Set Target status to all enemies for 1 turn (Set Target status cannot be affected by immunity to status effects, [DEX] and [INT] characters will deal 2.25x damage, and their Special charge time will be reduced by 1 turn for every enemy with Set Target status defeated by normal attacks and Specials (except when defeating with status effects or certain end of turn damage effects); applies \"Territory: [DEX]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 2 turns otherwise). If crew's HP is 30% or below when Special is launched and 4 or more [Straw Hat Pirates] [Giant] characters are on the crew, reduces [DEX] and [INT] Captains' Special charge time by 10 turns and heals 40% of crew's maximum HP (Special charge time reduction effect of \"Flashing Blade in the Warrior's Village\" can be activated up to 1 time including any Specials with similar effect and applies to self if character is Captain)",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 2 turns, and reduces Switch Effect of all characters by 2. Boosts ATK of [Straw Hat Pirates], [Giant] and [Paramythia-type] characters by 1.1x, boosts ATK of [DEX], Slasher and Striker characters by 4.75x, by 6x instead if they have a beneficial orb, boosts HP of [DEX], Slasher and Striker characters by 1.2x, and makes [DEX] and [TND] orbs beneficial for [DEX], Slasher and Striker. If HP is below 30% after a special is activated, up to 1 time per adventure, activates HP Guard of 95% effect for 1 turn. If your crew has 4+ [Straw Hat Pirates] or [Giant] characters, reduces Despair duration by 10 turns.",
+        special: "Deals 20% of enemies' current HP in True damage to one enemy, reduces Silence duration by 5 turns, reduces Bind duration by 7 turns, and boosts ATK against enemies inflicted with Increase Damage Taken and enemies inflicted with Weaken by 3.25x for 1 turn. If field has Territory: [DEX] or [INT] when the special is activated, inflicts all enemies with Set Target, increasing damage taken from [DEX] and [INT] characters by 2.25x and reducing Special Cooldown of [DEX] and [INT] characters by 1 turn when they defeat an enemy, for 1 turn; applies Territory: [DEX] to the field for 2 turns otherwise. If HP is below 30% when the special is activated and your crew has 4+ [Straw Hat Pirates] or [Giant] characters, recovers 40% of crew's Max HP, and up to 1 time per adventure, reduces Special Cooldown of [DEX] and [INT] Captain character by 10 turns.",
         specialName: "Flashing Blade in the Warrior's Village",
         sailor: {
-            base: "Boosts damage from normal attacks dealt by [DEX] characters to non-[QCK] enemies by 1.1x",
-            level1: "Reduces character's Silence duration by 5 turns"
+            base: "Boosts [DEX] characters damage against [STR], [DEX], [PSY] and [INT] characters by 1.1x.",
+            level1: "Reduces Silence duration by 5 turns on this character."
         },
-        superSpecialCriteria: "When crew's HP is at 30% or below or any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Stansen, Goldberg, Rodo, Jaguar D. Saul",
-        superSpecial: "Activates HP Guard of 80% effect for 1 turn, applies -30% [DEX] and [INT] Resistance to all enemies for 1 turn, and changes [DEX] characters to Super [DEX]",
+        superSpecialCriteria: "Can be launched as crewmate. HP must be below 30% or your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Stansen, Goldberg, Rodo, Jaguar D. Saul",
+        superSpecial: "Activates HP Guard of 80% effect for 1 turn, reduces enemies' [DEX] and [INT] resistance by -30% for 1 turn, and transforms [DEX] characters into Super [DEX] characters.",
         support: [
             {
-                Characters: "[DEX] Slasher characters with the following Character Tag: [Straw Hat Pirates]",
+                Characters: "[DEX] Slasher [Straw Hat Pirates] characters",
                 description: [
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 1 turn and heals crew by 1,000 HP at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 1 turn and heals crew by 2,000 HP at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 1 turn and heals crew by 3,000 HP at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 1 turn and heals crew by 4,500 HP at start of crew's next turn",
-                    "Once per quest, if inflicted with Bind status from the enemy, reduces crew's Bind duration by 1 turn and heals crew by 6,000 HP at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn, and recovers 1,000 HP.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn, and recovers 2,000 HP.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn, and recovers 3,000 HP.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn, and recovers 4,500 HP.",
+                    "Once per adventure, when an enemy inflicts you with Bind, reduces Bind duration by 1 turn, and recovers 6,000 HP."
                 ]
             }
         ],
@@ -189100,18 +189100,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem"
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] characters by 1 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] characters by 2 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] characters by 3 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 4 and raises Boost Level of [Four Emperors] characters by 3 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 5 and raises Boost Level of [Four Emperors] characters by 4 for 1 turn"
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant] and [Four Emperors] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant] and [Four Emperors] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant] and [Four Emperors] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 4 for 1 turn, and raises Boost Level of [Four Emperors] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 5 for 1 turn, and raises Boost Level of [Four Emperors] characters by 4 for 1 turn."
             ]
         },
         festStats: {
@@ -189188,17 +189188,17 @@ window.details = {
         }
     },
     4615: {//Franky
-        captain: "Reduces crew's Special charge time by 1 turn at start of quest, reduces ship's Special charge time by 10 turns at start of quest, boosts [DEX], Free Spirit, and Striker characters' ATK by approximately 6x when slots match (4.75x otherwise), HP by 1.5x, makes their [DEX][BOMB][S. BOMB] slots have matching slot effects, and reduces [BOMB][S. BOMB] damage by 99% [Applies following effect based on number of applicable Character Tags on crew] Boosts [Straw Hat Pirates] [Giant] [Paramythia-type] characters' ATK by 1.1x. If 4 or more [Straw Hat Pirates] [Giant] characters are on the crew, reduces crew's Special Bind duration by 10 turns",
+        captain: "Launches the following effect at start of fight: reduces Special Cooldown of all characters by 1 turn, and reduces Special Cooldown of ship by 10 turns. Boosts ATK of [Straw Hat Pirates], [Giant] and [Paramythia-type] characters by 1.1x, boosts ATK of [DEX], Free Spirit and Striker characters by 4.75x, by 6x instead if they have a beneficial orb, boosts HP of [DEX], Free Spirit and Striker characters by 1.5x, makes [DEX], [BOMB] and [SUPERBOMB] orbs beneficial for [DEX], Free Spirit and Striker characters, and makes [BOMB] and [SUPERBOMB] orbs deal 99% less damage to the crew. If your crew has 4+ [Straw Hat Pirates] or [Giant] characters, reduces Special Bind duration by 10 turns.",
         special: [
             {
-                description: "Reduces all enemies' Threshold Damage Reduction duration by 6 turns, reduces the duration of all enemy barriers by 1 turn, deals 50x character's ATK in non-type damage to all enemies, and changes crew's slots to [DEX]. If enemy has Increase Damage Taken status when Special is launched and crew lands 3 PERFECT strikes in this turn, boosts [DEX], Free Spirit, and Striker characters' ATK by 1.75x the next turn (increases all enemies' damage taken by 2x for 1 turn ignoring immunity to status effects otherwise)",
+                description: "Deals 50x character's ATK in Typeless damage to all enemies, reduces enemies' Threshold Damage Reduction duration by 6 turns, reduces enemies' Barrier duration by 1 turn, and changes orbs into [DEX] orbs. If enemies have Increase Damage Taken when the special is activated, if during this turn you score 3 PERFECT hits, boosts ATK of [DEX], Free Spirit and Striker characters by 1.75x for 1 turn in the following turn; ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x for 1 turn otherwise.",
                 cooldown: [
                     17,
                     12
                 ]
             },
             {
-                description: "Reduces all enemies' Threshold Damage Reduction duration by 7 turns, reduces the duration of all enemy barriers by 2 turns, cuts crew's HP by 75% but deals 60x the HP lost in non-type damage to all enemies, and changes crew's slots (including [BLOCK] slots) to [DEX]. If enemy has Increase Damage Taken status when Special is launched and crew lands 3 PERFECT strikes in this turn, doubles [DEX], Free Spirit, and Striker characters' ATK the next turn, then after that, increases all enemies' damage taken by 2.5x for 1 turn ignoring immunity to status effects. If field has \"Territory: [DEX]\" or \"Territory: [INT]\" when Special is launched, further increases crew's advantageous class effect by +0.5, and boosts Free Spirit, Striker, and Fighter characters' advantageous class effect by 1.6x for 1 turn (applies \"Territory: [DEX]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 2 turns otherwise)",
+                description: "Reduces crew's current HP by 75%, deals 60x the amount of HP subtracted in Typeless damage to all enemies, reduces enemies' Threshold Damage Reduction duration by 7 turns, reduces enemies' Barrier duration by 2 turns, and changes all orbs, including [BLOCK] orbs, into [DEX] orbs. If enemies have Increase Damage Taken when the special is activated and if during this turn you score 3 PERFECT hits, boosts ATK of [DEX], Free Spirit and Striker characters by 2x for 1 turn in the following turn. Ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2.5x for 1 turn. If field has Territory: [DEX] or [INT] when the special is activated, increases boost effects of Advantageous Class Effect buffs by +0.5x, and boosts Advantageous Class Effect of Free Spirit, Striker and Fighter characters by 1.6x for 1 turn; applies Territory: [DEX] to the field for 2 turns otherwise.",
                 cooldown: [
                     22,
                     17
@@ -189207,20 +189207,20 @@ window.details = {
         ],
         specialName: "Brilliant Bombardment in the Warrior's Village",
         sailor: {
-            base: "Makes character immune to Stun",
-            level1: "Reduces character's Special Bind duration by 6 turns"
+            base: "Removes Stun duration completely on this character.",
+            level1: "Reduces Special Bind duration by 6 turns on this character."
         },
-        superSpecialCriteria: "When crew has End of Turn Healing status or any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Stansen, Goldberg, Rodo, Jaguar D. Saul",
-        superSpecial: "Locks crew's slots for 1 turn, boosts the type effects of normal attacks and slot effects for Free Spirit and Striker characters by 1.75x for 1 turn (effect can be overwritten with other slot or type effect boosts), and changes [DEX] characters to Super [DEX]",
+        superSpecialCriteria: "Can be launched as crewmate. When your crew has an End of Turn Healing buff or your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Stansen, Goldberg, Rodo, Jaguar D. Saul",
+        superSpecial: "Locks all orbs for 1 turn, boosts Orb Effects of Free Spirit and Striker characters by 1.75x, allowing override, for 1 turn, boosts Color Affinity of Free Spirit and Striker characters by 1.75x, allowing override, for 1 turn, and transforms [DEX] characters into Super [DEX] characters.",
         support: [
             {
-                Characters: "[DEX] Free Spirit characters with the following Character Tag: [Straw Hat Pirates]",
+                Characters: "[DEX] Free Spirit [Straw Hat Pirates] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces supported character's Special charge time by 2 turns"
+                    "Once per adventure, when the supported character uses their special, reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Cooldown of supported character by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Cooldown of supported character by 2 turns."
                 ]
             }
         ],
@@ -189309,18 +189309,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem"
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] characters by 1 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] characters by 2 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] characters by 3 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 4 and raises Boost Level of [Four Emperors] characters by 3 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 5 and raises Boost Level of [Four Emperors] characters by 4 for 1 turn"
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant] and [Four Emperors] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant] and [Four Emperors] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant] and [Four Emperors] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 4 for 1 turn, and raises Boost Level of [Four Emperors] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 5 for 1 turn, and raises Boost Level of [Four Emperors] characters by 4 for 1 turn."
             ]
         },
         festStats: {
@@ -189397,24 +189397,25 @@ window.details = {
         }
     },
     4616: {//Jinbe
-        captain: "Launches the following effect at start of quest: \"Nullifies damage taken until hit 1 time; +1 hit if Captain Ability is doubled\", boosts [DEX], Fighter, and Striker characters' ATK by approximately 6x when slots match (4.75x otherwise), HP by 1.5x, and makes their [DEX][RCV] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] Boosts [Straw Hat Pirates] [Giant] [Paramythia-type] characters' ATK by 1.1x. If 4 or more [Straw Hat Pirates] [Giant] characters are on the crew, reduces crew's Paralysis duration by 10 turns",
-        special: "[This Special can charge Special charge over its MAX (including Special charge time reduction effects)] Deals 500,000 damage to one enemy (ignoring all defensive effects). If 4 or more [DEX] characters are on the crew, reduces all enemies' DEF Up and Resilience duration by 7 turns, and boosts [DEX] and [INT] characters' ATK by 100% based on the damage reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x; damage dealt increases a further 30% every 5 turns over MAX Special, up to 190%) for 3 turns. If 4 or more [INT] characters are on the crew, reduces crew's Despair/Burn duration by 7 turns, boosts the chain multiplier by 1.75x for 3 turns (increases a further 0.25 every 5 turns over MAX Special, up to 2.5x). If field has \"Territory: [DEX]\" or \"Territory: [INT]\" when Special is launched, applies Weakened status (increase damage taken by 1.3x for all enemies, damage further increased by 1.3x if enemy has Increase Damage Taken) to all enemies for 1 turn ignoring immunity to status effects (applies \"Territory: [DEX]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 2 turns otherwise)",
+        captain: "Launches the following effect at start of fight: reduces damage received by 100% for 1 attack. Boosts ATK of [Straw Hat Pirates], [Giant] and [Paramythia-type] characters by 1.1x, boosts ATK of [DEX], Fighter and Striker characters by 4.75x, by 6x instead if they have a beneficial orb, boosts HP of [DEX], Fighter and Striker characters by 1.5x, and makes [DEX] and [RCV] orbs beneficial for [DEX], Fighter and Striker characters. If your crew has 4+ [Straw Hat Pirates] or [Giant] characters, reduces Paralysis duration by 10 turns.",
+        special: "This special can be charged beyond its MAX for more powerful effects; these effects max out at 15 turns beyond MAX. Deals 500,000 Fixed True damage to one enemy. If your crew has 4+ [DEX] characters, reduces enemies' Increased Defense and Resilience duration by 7 turns, and boosts Crew Damage Reduction to ATK of [DEX] and [INT] characters by 1x-2.9x, proportional to the strength of crew's Percent Damage Reduction buff, for 3 turns. If your crew has 4+ [INT] characters, reduces Despair and Burn duration by 7 turns, and boosts Chain Multiplier Growth Rate by 1.75x-2.5x for 3 turns. If field has Territory: [DEX] or [INT] when the special is activated, ignores Debuff Protection and inflicts all enemies with Weaken by 1.3x, by 1.69x instead if enemies are inflicted with Increase Damage Taken, for 1 turn; applies Territory: [DEX] to the field for 2 turns otherwise.",
+        specialNotes: "<br><b>Crew Damage Reduction to ATK:</b> Starts at 1x-2x. For every 5 special cooldown charged beyond its max, increases by +0.3x until it reaches its maximum value 1x-2.9x.<br><b>Chain Multiplier Growth Rate:</b> For every 5 special cooldown charged beyond its max, increases by +0.25x until it reaches its maximum value 2.5x.",
         specialName: "Strike From the Svarr",
         sailor: {
-            base: "Boosts [DEX], Fighter, and Striker characters' base ATK by 100",
-            level1: "If 5 or more [Elbaph Arc] [Straw Hat Pirates] [Giant] characters are on the crew and enemy launches damage reduction (except Threshold Damage Reduction) effect, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns at start of crew's next turn (only once per quest; even if no turns are reduced, effect still counts as 1 time activated)"
+            base: "Boosts base ATK of [DEX], Fighter and Striker characters by 100.",
+            level1: "If your crew has 5+ [Elbaph Arc], [Straw Hat Pirates] or [Giant] characters, once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 6 turns."
         },
-        superSpecialCriteria: "When crew activates HP Guard or any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Stansen, Goldberg, Rodo, Jaguar D. Saul, Portgas D. Ace, Edward Newgate (Whitebeard)",
-        superSpecial: "Heals crew by 5,000 HP at end of turn for 6 turns, reduces bottom-row characters' Special charge time by 2 turns, boosts the chain multiplier by +1.2 for 3 turns, applies -15% [DEX] and [INT] Resistance to all enemies for 1 turn, and changes Fighter characters to Super Fighter",
+        superSpecialCriteria: "Can be launched as crewmate. When your crew has a HP Guard buff or your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Stansen, Goldberg, Rodo, Jaguar D. Saul, Portgas D. Ace, Edward Newgate (Whitebeard)",
+        superSpecial: "Recovers 5,000 HP at the end of the turn for 6 turns, reduces Special Cooldown of bottom row characters by 2 turns, adds 1.2x to chain multiplier for 3 turns, reduces enemies' [DEX] and [INT] resistance by -15% for 1 turn, and transforms Fighter characters into Super Fighter characters.",
         support: [
             {
-                Characters: "[DEX] characters with the following Character Tag: [Straw Hat Pirates]",
+                Characters: "[DEX] [Straw Hat Pirates] characters",
                 description: [
-                    "At start of battle 2, heals crew by 100 HP",
-                    "At start of battle 2, heals crew by 250 HP",
-                    "At start of battle 2, heals crew by 500 HP",
-                    "At start of battle 2, heals crew by 750 HP",
-                    "At start of battle 2, heals crew by 1,000 HP, and extends the duration of crew's ATK based on the damage reduction effect applied on the crew by 1 turn"
+                    "Once per adventure, when you reach the 2nd Stage, recovers 100 HP.",
+                    "Once per adventure, when you reach the 2nd Stage, recovers 250 HP.",
+                    "Once per adventure, when you reach the 2nd Stage, recovers 500 HP.",
+                    "Once per adventure, when you reach the 2nd Stage, recovers 750 HP.",
+                    "Once per adventure, when you reach the 2nd Stage, recovers 1,000 HP, and increases duration of any Crew Percent Damage Reduction to ATK buffs by 1 turn."
                 ]
             }
         ],
@@ -189503,18 +189504,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem",
-                "When an [Elbaph Arc] [Straw Hat Pirates] [Giant] character performs Super Tandem"
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem",
+                "When an [Elbaph Arc], [Straw Hat Pirates] or [Giant] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Whitebeard Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Whitebeard Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] [Four Emperors] [Whitebeard Pirates] characters by 3 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 4 and raises Boost Level of [Four Emperors] [Whitebeard Pirates] characters by 3 for 1 turn",
-                "Raises Boost Level of [Elbaph Arc] [Straw Hat Pirates] [Giant] characters by 5 and raises Boost Level of [Four Emperors] [Whitebeard Pirates] characters by 4 for 1 turn"
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Whitebeard Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Whitebeard Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates], [Giant], [Four Emperors] and [Whitebeard Pirates] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 4 for 1 turn, and raises Boost Level of [Four Emperors] and [Whitebeard Pirates] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Elbaph Arc], [Straw Hat Pirates] and [Giant] characters by 5 for 1 turn, and raises Boost Level of [Four Emperors] and [Whitebeard Pirates] characters by 4 for 1 turn."
             ]
         },
         festStats: {
@@ -189591,21 +189592,21 @@ window.details = {
         }
     },
     4617: {//Robin
-        special: "Reduces crew's ATK Down duration by 6 turns, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 6 turns, changes crew's slots (including [BLOCK] slots) to character's own type, boosts the type effects of normal attacks for Cerebral, Fighter, and Striker characters by 2.25x for 1 turn, and boosts their ATK by 2.25x for 4 turns. If 4 or more [Straw Hat Pirates] [Giant] characters are on the crew, changes character's slot to [TND], reduces damage taken by 70% for 3 turns, sets all enemies' DEF to 0 for 1 turn, and extends the duration of crew's type effect boost by 3 turns (this effect also applies to type effect boost from this Special)",
+        special: "Reduces ATK Down duration by 6 turns, reduces enemies' Percent Damage Reduction duration by 6 turns, changes all orbs, including [BLOCK] orbs, into matching orbs, boosts Color Affinity of Cerebral, Fighter and Striker characters by 2.25x for 1 turn, and boosts ATK of Cerebral, Fighter and Striker characters by 2.25x for 4 turns. If your crew has 4+ [Straw Hat Pirates] or [Giant] characters, changes the orb of this character into a [TND] orb, reduces damage received by 70% for 3 turns, reduces the defense of all enemies by 100% for 1 turn, and increases duration of any Color Affinity buffs by 3 turns, including effects activated in the same ability.",
         specialName: "Unleashed Attack in Warrior's Garb",
         sailor: {
-            base: "Boosts crew's base RCV by 60",
-            level1: "Reduces character's Bind duration by 4 turns"
+            base: "Boosts base RCV of all characters by 60.",
+            level1: "Reduces Bind duration by 4 turns on this character."
         },
         support: [
             {
-                Characters: "[DEX] Free Spirit class Franky, Brook, Jinbe",
+                Characters: "[DEX] Free Spirit Franky, Brook, Jinbe",
                 description: [
-                    "Adds 1% of character's base RCV to supported character's base RCV [AUTO+] At battle 1, activates supported character's Special",
-                    "Adds 2% of character's base RCV to supported character's base RCV [AUTO+] At battle 1, activates supported character's Special",
-                    "Adds 3% of character's base RCV to supported character's base RCV [AUTO+] At battle 1, activates supported character's Special",
-                    "Adds 4% of character's base RCV to supported character's base RCV [AUTO+] At battle 1, activates supported character's Special",
-                    "Adds 5% of character's base RCV to supported character's base RCV [AUTO+] At battle 1, activates supported character's Special"
+                    "Adds 1% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 2% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 3% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 4% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special.",
+                    "Adds 5% of this character's base RCV to the supported character's base RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Special."
                 ]
             }
         ],
@@ -189650,18 +189651,18 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Nico Olvia, Clou D. Clover",
-                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Nico Olvia, Clou D. Clover",
-                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Nico Olvia, Clou D. Clover",
-                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Nico Olvia, Clou D. Clover",
-                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Nico Olvia, Clou D. Clover"
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Nico Olvia, Clou D. Clover",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Nico Olvia, Clou D. Clover",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Nico Olvia, Clou D. Clover",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Nico Olvia, Clou D. Clover",
+                "Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Nico Olvia, Clou D. Clover"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.2x to [DEX] and [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.3x to [DEX] and [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.4x to [DEX] and [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.5x to [DEX] and [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.6x to [DEX] and [INT] characters for 1 turn"
+                "Boosts Tandem ATK of [DEX] and [INT] characters by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of [DEX] and [INT] characters by 1.3x for 1 turn.",
+                "Boosts Tandem ATK of [DEX] and [INT] characters by 1.4x for 1 turn.",
+                "Boosts Tandem ATK of [DEX] and [INT] characters by 1.5x for 1 turn.",
+                "Boosts Tandem ATK of [DEX] and [INT] characters by 1.6x for 1 turn."
             ]
         },
         festStats: {
@@ -189728,21 +189729,21 @@ window.details = {
         ]
     },
     4618: {//5* PKA Collun
-        special: "Applies 50% damage reduction to enemies for 3 turns (this effect is treated as an activation of damage reduction effect), reduces all enemies' damage reduction from certain slots effect duration by 2 turns, and reduces crew's Despair duration by 6 turns. If crew has slot effect boost when Special is launched, boosts [DEX] and Striker characters' base ATK by +1200 for 1 turn, then after that, boosts [DEX] and Striker characters' slot effects by 2.25x for 1 turn, and deals 80x character's ATK in non-type damage to one enemy. If 3 or more [Giant] characters are on the crew, applies \"Territory: [DEX]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        special: "Reduces enemies' damage received by 50% for 3 turns, reduces enemies' Orb-Based Damage Reduction duration by 2 turns, and reduces Despair duration by 6 turns. If your crew has Orb Amplification when the special is activated, boosts Base ATK of [DEX] and Striker characters by 1,200 for 1 turn. Boosts Orb Effects of [DEX] and Striker characters by 2.25x for 1 turn, and deals 80x character's ATK in Typeless damage to one enemy. If your crew has 3+ [Giant] characters, applies Territory: [DEX] to the field for 1 turn.",
         specialName: "Slash Aimed at the Emperor",
         sailor: {
-            base: "Boosts Striker characters' base HP by 150",
-            level1: "Makes crew's [RCV] slots have matching slot effects"
+            base: "Boosts base HP of Striker characters by 150.",
+            level1: "Makes [RCV] orbs beneficial for all characters."
         },
         support: [
             {
                 Characters: "[DEX] Striker characters",
                 description: [
-                    "Adds 2% of character's base stats to supported character's base stats",
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats [AUTO+] At battle 4, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -189869,22 +189870,22 @@ window.details = {
         ]
     },
     4620: {//5* Co-Op Shanks
-        captain: "Boosts [DEX] and [INT] characters' HP by 1.3x, ATK by 4.25x, boosts their ATK by approximately 5x when they have [DEX][INT] slots, slightly boosts crew's chance of landing on [DEX][INT] slots, and reduces crew's Paralysis duration by 3 turns",
-        special: "Reduces Slasher and Striker characters' Special charge time by 2 turns, reduces all enemies' DEF Up duration by 6 turns, and boosts the type effects of normal attacks for [DEX] and [INT] characters by 2.5x for 2 turns. If 3 or more [Red-Haired Pirates] characters are on the crew, reduces all enemies' Intimidation duration by 2 turns, and further increases crew's type effect boost by +0.25 (this effect also applies to type effect boost from this Special)",
+        captain: "Boosts ATK of [DEX] and [INT] characters by 4.25x, by 5x instead if they have a [DEX] or [INT] orb, boosts HP of [DEX] and [INT] characters by 1.3x, boosts chances of getting [DEX] and [INT] orbs, and reduces Paralysis duration by 3 turns.",
+        special: "Reduces Special Cooldown of Slasher and Striker characters by 2 turns, reduces enemies' Increased Defense duration by 6 turns, and boosts Color Affinity of [DEX] and [INT] characters by 2.5x for 2 turns. If your crew has 3+ [Red-Haired Pirates] characters, reduces enemies' Intimidation duration by 2 turns, and increases boost effects of Color Affinity buffs by +0.25x, including effects activated in the same ability.",
         specialName: "Interactions with a Former Friend",
         sailor: {
-            base: "Reduces character's Special Reverse by 3 turns",
-            level1: "Boosts [DEX] and [INT] characters' base stats by 70"
+            base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "Boosts base ATK, HP and RCV of [DEX] and [INT] characters by 70."
         },
         support: [
             {
                 Characters: "[DEX] Slasher characters",
                 description: [
-                    "Adds 2% of character's base stats to supported character's base stats",
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats [AUTO+] At battle 1, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -189949,18 +189950,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Red-Haired Pirates] [Roger Pirates] character performs Super Tandem",
-                "When a [Red-Haired Pirates] [Roger Pirates] character performs Super Tandem",
-                "When a [Red-Haired Pirates] [Roger Pirates] character performs Super Tandem",
-                "When a [Red-Haired Pirates] [Roger Pirates] character performs Super Tandem",
-                "When a [Red-Haired Pirates] [Roger Pirates] character performs Super Tandem"
+                "When a [Red-Haired Pirates] or [Roger Pirates] character performs Super Tandem",
+                "When a [Red-Haired Pirates] or [Roger Pirates] character performs Super Tandem",
+                "When a [Red-Haired Pirates] or [Roger Pirates] character performs Super Tandem",
+                "When a [Red-Haired Pirates] or [Roger Pirates] character performs Super Tandem",
+                "When a [Red-Haired Pirates] or [Roger Pirates] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Red-Haired Pirates] [Roger Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Red-Haired Pirates] characters by 2 and raises Boost Level of [Roger Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Red-Haired Pirates] [Roger Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Red-Haired Pirates] characters by 3 and raises Boost Level of [Roger Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Red-Haired Pirates] [Roger Pirates] characters by 3 for 1 turn"
+                "Raises Boost Level of [Red-Haired Pirates] and [Roger Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Red-Haired Pirates] characters by 2 for 1 turn, and raises Boost Level of [Roger Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Red-Haired Pirates] and [Roger Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Red-Haired Pirates] characters by 3 for 1 turn, and raises Boost Level of [Roger Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Red-Haired Pirates] and [Roger Pirates] characters by 3 for 1 turn."
             ]
         },
         festStats: {
@@ -190027,22 +190028,22 @@ window.details = {
         ]
     },
     4621: {//5+ Co-Op Shanks
-        captain: "Boosts [DEX] and [INT] characters' HP by 1.3x, ATK by 4.5x, boosts their ATK by approximately 5x when they have [DEX][INT] slots, slightly boosts crew's chance of landing on [DEX][INT] slots, and reduces crew's Paralysis duration by 3 turns",
-        special: "Reduces Slasher and Striker characters' Special charge time by 2 turns, reduces all enemies' DEF Up duration by 6 turns, and boosts the type effects of normal attacks for [DEX] and [INT] characters by 2.75x for 3 turns. If 3 or more [Red-Haired Pirates] [Roger Pirates] characters are on the crew, reduces all enemies' Intimidation duration by 2 turns, extends the duration of crew's type effect boost by 2 turns, and further increases the boost by +0.5 (this effect also applies to type effect boost from this Special)",
+        captain: "Boosts ATK of [DEX] and [INT] characters by 4.5x, by 5x instead if they have a [DEX] or [INT] orb, boosts HP of [DEX] and [INT] characters by 1.3x, boosts chances of getting [DEX] and [INT] orbs, and reduces Paralysis duration by 3 turns.",
+        special: "Reduces Special Cooldown of Slasher and Striker characters by 2 turns, reduces enemies' Increased Defense duration by 6 turns, and boosts Color Affinity of [DEX] and [INT] characters by 2.75x for 3 turns. If your crew has 3+ [Red-Haired Pirates] or [Roger Pirates] characters, reduces enemies' Intimidation duration by 2 turns, and increases duration of any Color Affinity buffs by 2 turns and increases boost effects of Color Affinity buffs by +0.5x, including effects activated in the same ability.",
         specialName: "Interactions with a Former Friend",
         sailor: {
-            base: "Reduces character's Special Reverse by 3 turns",
-            level1: "Boosts [DEX] and [INT] characters' base stats by 70"
+            base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "Boosts base ATK, HP and RCV of [DEX] and [INT] characters by 70."
         },
         support: [
             {
                 Characters: "[DEX] Slasher characters",
                 description: [
-                    "Adds 2% of character's base stats to supported character's base stats",
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats [AUTO+] At battle 1, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 1st stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -190107,18 +190108,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Red-Haired Pirates] [Roger Pirates] character performs Super Tandem",
-                "When a [Red-Haired Pirates] [Roger Pirates] character performs Super Tandem",
-                "When a [Red-Haired Pirates] [Roger Pirates] character performs Super Tandem",
-                "When a [Red-Haired Pirates] [Roger Pirates] character performs Super Tandem",
-                "When a [Red-Haired Pirates] [Roger Pirates] character performs Super Tandem"
+                "When a [Red-Haired Pirates] or [Roger Pirates] character performs Super Tandem",
+                "When a [Red-Haired Pirates] or [Roger Pirates] character performs Super Tandem",
+                "When a [Red-Haired Pirates] or [Roger Pirates] character performs Super Tandem",
+                "When a [Red-Haired Pirates] or [Roger Pirates] character performs Super Tandem",
+                "When a [Red-Haired Pirates] or [Roger Pirates] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Red-Haired Pirates] [Roger Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Red-Haired Pirates] characters by 2 and raises Boost Level of [Roger Pirates] characters by 1 for 1 turn",
-                "Raises Boost Level of [Red-Haired Pirates] [Roger Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Red-Haired Pirates] characters by 3 and raises Boost Level of [Roger Pirates] characters by 2 for 1 turn",
-                "Raises Boost Level of [Red-Haired Pirates] [Roger Pirates] characters by 3 for 1 turn"
+                "Raises Boost Level of [Red-Haired Pirates] and [Roger Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Red-Haired Pirates] characters by 2 for 1 turn, and raises Boost Level of [Roger Pirates] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Red-Haired Pirates] and [Roger Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Red-Haired Pirates] characters by 3 for 1 turn, and raises Boost Level of [Roger Pirates] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Red-Haired Pirates] and [Roger Pirates] characters by 3 for 1 turn."
             ]
         },
         festStats: {
