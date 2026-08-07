@@ -189529,6 +189529,85 @@ window.details = {
             }
         ]
     },
+    4619: {//5+ PKA Collun
+        special: "Applies 50% damage reduction to enemies for 3 turns (this effect is treated as an activation of damage reduction effect), reduces all enemies' damage reduction from certain slots effect duration by 3 turns, and reduces crew's Despair duration by 6 turns. If crew has slot effect boost when Special is launched, boosts [DEX] and Striker characters' base ATK by +1200 for 4 turns, then after that, boosts [DEX] and Striker characters' slot effects by 2.5x for 4 turns, and deals 80x character's ATK in non-type damage to one enemy. If 3 or more [Giant] [Roger Pirates] characters are on the crew, applies \"Territory: [DEX]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        specialName: "Slash Aimed at the Emperor",
+        sailor: {
+            base: "Boosts Striker characters' base HP by 150",
+            level1: "Makes crew's [RCV] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "[DEX] Striker characters",
+                description: [
+                    "Adds 2% of character's base stats to supported character's base stats",
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 5% of character's base stats to supported character's base stats",
+                    "Adds 6% of character's base stats to supported character's base stats [AUTO+] At battle 4, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 30",
+            "Acquire Potential 2: Enrage/Increase Damage Taken",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Reduce base Special Cooldown by 1 turn",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 20",
+            "Acquire Potential 3: Damage Limit Break: Type",
+            "Boosts base HP by 300",
+            "Boosts base ATK by 100",
+            "Acquire Sailor Ability 2: Makes crew's [RCV] slots have matching slot effects"
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [DEX] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            }
+        ]
+    },
     4620: {//5* Co-Op Shanks
         captain: "Boosts ATK of [DEX] and [INT] characters by 4.25x, by 5x instead if they have a [DEX] or [INT] orb, boosts HP of [DEX] and [INT] characters by 1.3x, boosts chances of getting [DEX] and [INT] orbs, and reduces Paralysis duration by 3 turns.",
         special: "Reduces Special Cooldown of Slasher and Striker characters by 2 turns, reduces enemies' Increased Defense duration by 6 turns, and boosts Color Affinity of [DEX] and [INT] characters by 2.5x for 2 turns. If your crew has 3+ [Red-Haired Pirates] characters, reduces enemies' Intimidation duration by 2 turns, and increases boost effects of Color Affinity buffs by +0.25x, including effects activated in the same ability.",
@@ -189831,6 +189910,237 @@ window.details = {
                 "Raises Boost Level of [Giant], [Giant Pirate Crew] and [Royalty] characters by 5 for 1 turn."
             ]
         }
+    },
+    4623: {//Ace & Little Oars Jr.
+        captain: "Reduces [QCK] and [DEX] characters' Special charge time by 2 turns at start of quest, boosts [QCK], [DEX], Fighter, and Striker characters' ATK by 5.5x, HP by 1.3x, and makes crew's [QCK][DEX][RCV] slots have matching slot effects. If \"Monkey D. Luffy\", \"Sabo\", \"Monkey D. Garp\", \"Edward Newgate (Whitebeard)\", \"Marco\", \"Jozu\", \"Vista\", \"Jinbe\", or \"Gol D. Roger\" is a crewmate and uses a Special, boosts the ATK of the next final tap performed by crew by 30% (can be launched up to 4 times, similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters are on the crew, boosts Fighter and Striker characters' ATK by a further 1.1x. If crew uses a Special to apply damage reduction (except Threshold Damage Reduction) effect or boost ATK, extends the duration of the effect by 2 turns",
+        special: "Applies Ignited status to all enemies (deals 150x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action) for 1 turn (ignoring immunity to all status effects or immunity excluding certain status effect), reduces crew's Despair duration by 7 turns, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 7 turns, reduces damage taken by 95% for 1 turn, and sets the chain multiplier's minimum value at 3.5 and maximum value at 30.0 for 3 turns. If field has \"Territory: Fighter class\" or \"Territory: Striker class\" when Special is launched, boosts Fighter and Striker characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.3; GREAT +0.5; PERFECT +0.6) for 3 turns",
+        specialName: "Handmade Straw Kasa of Friendship",
+        sailor: {
+            base: "Character cannot be blown away by attack, and makes Fighter and Striker characters' [DEX][QCK] slots have matching slot effects",
+            level1: "If field has \"Territory: Fighter class\" or \"Territory: Striker class\", boosts crew's base ATK by 250 (boosts crew's base ATK by 75 otherwise)"
+        },
+        superSpecialCriteria: "When any 2 [Whitebeard Pirates] [Giant] [Marineford Paramount War Arc] characters not including self or any 2 of the following characters are on the crew (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Sabo, Monkey D. Garp, Edward Newgate (Whitebeard), Marco, Jozu, Vista, Jinbe, Gol D. Roger",
+        superSpecial: "Reduces Special charge time by 3 turns for top-row Striker characters, middle-row Fighter characters, and bottom-row [DEX] and [QCK] characters, boosts [DEX] and [QCK] characters' base ATK by +1000 for 3 turns, and changes Fighter characters to Super Fighter",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Whitebeard Pirates], [Marineford Paramount War Arc]",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces damage taken by 10% for 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces damage taken by 20% for 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces damage taken by 30% for 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's Despair duration by 1 turn, and reduces damage taken by 30% for 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's Despair duration by 1 turn, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn, and reduces damage taken by 30% for 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 10",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base HP by 10",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 10",
+            "Acquire Potential 2: Slot Bind",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 40",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: If field has \"Territory: Fighter class\" or \"Territory: Striker class\", boosts crew's base ATK by 250 (boosts crew's base ATK by 75 otherwise)",
+            "Boosts base HP by 70",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 30",
+            "Acquire Potential 3: Super Tandem Boost",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 100",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 150",
+            "Boosts base HP by 150",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 100"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character",
+                    "Reduces Slot Bind duration by 7 turns on this character",
+                    "Reduces Slot Bind duration by 10 turns on this character",
+                    "Reduces Slot Bind duration completely on this character"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters by 1 for 1 turn",
+                "Raises Boost Level of [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters by 2 and raises Boost Level of [Roger Pirates] [Elbaph Arc] characters by 1 for 1 turn",
+                "Raises Boost Level of [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters by 3 and raises Boost Level of [Roger Pirates] [Elbaph Arc] characters by 2 for 1 turn",
+                "Raises Boost Level of [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters by 4 and raises Boost Level of [Roger Pirates] [Elbaph Arc] characters by 3 for 1 turn",
+                "Raises Boost Level of [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters by 5 and raises Boost Level of [Roger Pirates] [Elbaph Arc] characters by 4 for 1 turn"
+            ]
+        }
+    },
+    4624: {//Lonz
+        special: "Reduces crew's Special Bind/Burn duration by 6 turns. If 3 or more [Giant] [Navy Vice Admiral] characters are on the crew, boosts Striker and Powerhouse characters' ATK by 3.25x for 1 turn. If 3 or more [Marineford Paramount War Arc] [Navy] characters are on the crew, reduces crew's Bind duration by 6 turns, and doubles the type effects of normal attacks for Striker and Powerhouse characters for 3 turns",
+        specialName: "Justice-Bearing Giant's Axe",
+        sailor: {
+            base: "Reduces character's Special Bind duration by 6 turns",
+            level1: "Character cannot be blown away by attack"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Marineford Paramount War Arc]",
+                description: [
+                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 2 turns at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 40",
+            "Acquire Sailor Ability 2: Character cannot be blown away by attack",
+            "Boosts base ATK by 50",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Sailor Despair"
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Sailor Despair",
+                description: [
+                    "Reduces Sailor Despair duration by 1 turn on this character",
+                    "Reduces Sailor Despair duration by 2 turns on this character",
+                    "Reduces Sailor Despair duration by 3 turns on this character",
+                    "Reduces Sailor Despair duration by 4 turns on this character",
+                    "Reduces Sailor Despair duration by 5 turns on this character"
+                ]
+            }
+        ]
+    },
+    4625: {//John Giant
+        special: "Reduces all enemies' DEF Up and Threshold Damage Reduction duration by 6 turns. If 3 or more [Giant] [Navy Vice Admiral] characters are on the crew, boosts Striker and Powerhouse characters' slot effects by 3x for 3 turns. If 3 or more [Marineford Paramount War Arc] [Navy] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [QCK], and locks crew's slots for 1 turn",
+        specialName: "Justice-Bearing Giant's Katana",
+        sailor: {
+            base: "Makes character immune to Special Reverse",
+            level1: "Character cannot be blown away by attack"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Marineford Paramount War Arc]",
+                description: [
+                    "Once per quest, if supported character uses a Special, locks Striker characters' slots for 1 turn",
+                    "Once per quest, if supported character uses a Special, locks Striker characters' slots for 1 turn",
+                    "Once per quest, if supported character uses a Special, locks Striker characters' slots for 1 turn",
+                    "Once per quest, if supported character uses a Special, locks Striker characters' slots for 1 turn",
+                    "Once per quest, if supported character uses a Special, changes supported character's [BLOCK] slot to character's own type, and locks Striker characters' slots for 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 30",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 40",
+            "Boosts base ATK by 50",
+            "Acquire Sailor Ability 2: Character cannot be blown away by attack",
+            "Boosts base HP by 40",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Enrage/Increase Damage Taken"
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            }
+        ]
     },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
