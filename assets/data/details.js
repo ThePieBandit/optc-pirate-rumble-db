@@ -189530,21 +189530,21 @@ window.details = {
         ]
     },
     4619: {//5+ PKA Collun
-        special: "Applies 50% damage reduction to enemies for 3 turns (this effect is treated as an activation of damage reduction effect), reduces all enemies' damage reduction from certain slots effect duration by 3 turns, and reduces crew's Despair duration by 6 turns. If crew has slot effect boost when Special is launched, boosts [DEX] and Striker characters' base ATK by +1200 for 4 turns, then after that, boosts [DEX] and Striker characters' slot effects by 2.5x for 4 turns, and deals 80x character's ATK in non-type damage to one enemy. If 3 or more [Giant] [Roger Pirates] characters are on the crew, applies \"Territory: [DEX]\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory) for 1 turn",
+        special: "Reduces enemies' damage received by 50% for 3 turns, reduces enemies' Orb-Based Damage Reduction duration by 3 turns, and reduces Despair duration by 6 turns. If your crew has Orb Amplification when the special is activated, boosts Base ATK of [DEX] and Striker characters by 1,200 for 4 turns. Boosts Orb Effects of [DEX] and Striker characters by 2.5x for 4 turns, and deals 80x character's ATK in Typeless damage to one enemy. If your crew has 3+ [Giant] or [Roger Pirates] characters, applies Territory: [DEX] to the field for 1 turn.",
         specialName: "Slash Aimed at the Emperor",
         sailor: {
-            base: "Boosts Striker characters' base HP by 150",
-            level1: "Makes crew's [RCV] slots have matching slot effects"
+            base: "Boosts base HP of Striker characters by 150.",
+            level1: "Makes [RCV] orbs beneficial for all characters."
         },
         support: [
             {
                 Characters: "[DEX] Striker characters",
                 description: [
-                    "Adds 2% of character's base stats to supported character's base stats",
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats [AUTO+] At battle 4, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -189912,24 +189912,25 @@ window.details = {
         }
     },
     4623: {//Ace & Little Oars Jr.
-        captain: "Reduces [QCK] and [DEX] characters' Special charge time by 2 turns at start of quest, boosts [QCK], [DEX], Fighter, and Striker characters' ATK by 5.5x, HP by 1.3x, and makes crew's [QCK][DEX][RCV] slots have matching slot effects. If \"Monkey D. Luffy\", \"Sabo\", \"Monkey D. Garp\", \"Edward Newgate (Whitebeard)\", \"Marco\", \"Jozu\", \"Vista\", \"Jinbe\", or \"Gol D. Roger\" is a crewmate and uses a Special, boosts the ATK of the next final tap performed by crew by 30% (can be launched up to 4 times, similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters are on the crew, boosts Fighter and Striker characters' ATK by a further 1.1x. If crew uses a Special to apply damage reduction (except Threshold Damage Reduction) effect or boost ATK, extends the duration of the effect by 2 turns",
-        special: "Applies Ignited status to all enemies (deals 150x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action) for 1 turn (ignoring immunity to all status effects or immunity excluding certain status effect), reduces crew's Despair duration by 7 turns, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 7 turns, reduces damage taken by 95% for 1 turn, and sets the chain multiplier's minimum value at 3.5 and maximum value at 30.0 for 3 turns. If field has \"Territory: Fighter class\" or \"Territory: Striker class\" when Special is launched, boosts Fighter and Striker characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.3; GREAT +0.5; PERFECT +0.6) for 3 turns",
+        captain: "Reduces Special Cooldown of [DEX] and [QCK] characters by 2 turns at the start of the fight, boosts ATK of [DEX], [QCK], Fighter and Striker characters by 5.5x, boosts HP of [DEX], [QCK], Fighter and Striker characters by 1.3x, makes [DEX], [QCK] and [RCV] orbs beneficial for all characters, and increases duration of any ATK Up and Percent Damage Reduction buffs applied by specials by 2 turns. Up to 4 times per adventure, when Monkey D. Luffy, Sabo, Monkey D. Garp, Edward Newgate (Whitebeard), Marco, Jozu, Vista, Jinbe or Gol D. Roger uses a special as crewmate, boosts Final Tap ATK of all characters by 30%. If your crew has 3+ [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] characters, boosts ATK of Fighter and Striker characters by 6.05x instead.",
+        special: "Ignores Debuff Protection and inflicts all enemies with Burn that will deal 150x enemies' ATK in damage for 1 turn, reduces Despair duration by 7 turns, reduces enemies' Percent Damage Reduction duration by 7 turns, reduces damage received by 95% for 1 turn, and sets Chain Boundaries to 3.5x and 30.0x for 3 turns. If field has Territory: Fighter or Striker when the special is activated, increases Chain Tap Timing Bonus of Fighter and Striker characters to +0.3x-0.6x for 3 turns depending on Tap Timing.",
+        specialNotes: "<b>GOOD:</b> +0.3, <b>GREAT:</b> +0.5, <b>PERFECT:</b> +0.6",
         specialName: "Handmade Straw Kasa of Friendship",
         sailor: {
-            base: "Character cannot be blown away by attack, and makes Fighter and Striker characters' [DEX][QCK] slots have matching slot effects",
-            level1: "If field has \"Territory: Fighter class\" or \"Territory: Striker class\", boosts crew's base ATK by 250 (boosts crew's base ATK by 75 otherwise)"
+            base: "This character cannot be Blown Away, and makes [DEX] and [QCK] orbs beneficial for Fighter and Striker characters.",
+            level1: "If field has Territory: Fighter or Striker, boosts base ATK of all characters by 250; boosts base ATK of all characters by 75 otherwise."
         },
-        superSpecialCriteria: "When any 2 [Whitebeard Pirates] [Giant] [Marineford Paramount War Arc] characters not including self or any 2 of the following characters are on the crew (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate): Monkey D. Luffy, Sabo, Monkey D. Garp, Edward Newgate (Whitebeard), Marco, Jozu, Vista, Jinbe, Gol D. Roger",
-        superSpecial: "Reduces Special charge time by 3 turns for top-row Striker characters, middle-row Fighter characters, and bottom-row [DEX] and [QCK] characters, boosts [DEX] and [QCK] characters' base ATK by +1000 for 3 turns, and changes Fighter characters to Super Fighter",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Sabo, Monkey D. Garp, Edward Newgate (Whitebeard), Marco, Jozu, Vista, Jinbe, Gol D. Roger or any 3 of the following: [Whitebeard Pirates], [Giant], [Marineford Paramount War Arc] characters",
+        superSpecial: "Reduces Special Cooldown of top row Striker, middle row Fighter and bottom row [DEX] and [QCK] characters by 3 turns, boosts Base ATK of [DEX] and [QCK] characters by 1,000 for 3 turns, and transforms Fighter characters into Super Fighter characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Whitebeard Pirates], [Marineford Paramount War Arc]",
+                Characters: "[Whitebeard Pirates], [Marineford Paramount War Arc] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces damage taken by 10% for 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces damage taken by 20% for 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces damage taken by 30% for 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Despair duration by 1 turn, and reduces damage taken by 30% for 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Despair duration by 1 turn, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn, and reduces damage taken by 30% for 1 turn"
+                    "Once per adventure, when the supported character uses their special, reduces damage received by 10% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces damage received by 20% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces damage received by 30% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Despair duration by 1 turn, and reduces damage received by 30% for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Despair duration by 1 turn, reduces enemies' Percent Damage Reduction duration by 1 turn, and reduces damage received by 30% for 1 turn."
                 ]
             }
         ],
@@ -190009,37 +190010,37 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] character performs Super Tandem",
-                "When a [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] character performs Super Tandem",
-                "When a [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] character performs Super Tandem",
-                "When a [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] character performs Super Tandem",
-                "When a [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] character performs Super Tandem"
+                "When a [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] character performs Super Tandem",
+                "When a [Whitebeard Pirates], [Straw Hat Pirates], [Giant] or [Marineford Paramount War Arc] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters by 2 and raises Boost Level of [Roger Pirates] [Elbaph Arc] characters by 1 for 1 turn",
-                "Raises Boost Level of [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters by 3 and raises Boost Level of [Roger Pirates] [Elbaph Arc] characters by 2 for 1 turn",
-                "Raises Boost Level of [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters by 4 and raises Boost Level of [Roger Pirates] [Elbaph Arc] characters by 3 for 1 turn",
-                "Raises Boost Level of [Whitebeard Pirates] [Straw Hat Pirates] [Giant] [Marineford Paramount War Arc] characters by 5 and raises Boost Level of [Roger Pirates] [Elbaph Arc] characters by 4 for 1 turn"
+                "Raises Boost Level of [Whitebeard Pirates], [Straw Hat Pirates], [Giant] and [Marineford Paramount War Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates], [Straw Hat Pirates], [Giant] and [Marineford Paramount War Arc] characters by 2 for 1 turn, and raises Boost Level of [Roger Pirates] and [Elbaph Arc] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates], [Straw Hat Pirates], [Giant] and [Marineford Paramount War Arc] characters by 3 for 1 turn, and raises Boost Level of [Roger Pirates] and [Elbaph Arc] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates], [Straw Hat Pirates], [Giant] and [Marineford Paramount War Arc] characters by 4 for 1 turn, and raises Boost Level of [Roger Pirates] and [Elbaph Arc] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Whitebeard Pirates], [Straw Hat Pirates], [Giant] and [Marineford Paramount War Arc] characters by 5 for 1 turn, and raises Boost Level of [Roger Pirates] and [Elbaph Arc] characters by 4 for 1 turn."
             ]
         }
     },
     4624: {//Lonz
-        special: "Reduces crew's Special Bind/Burn duration by 6 turns. If 3 or more [Giant] [Navy Vice Admiral] characters are on the crew, boosts Striker and Powerhouse characters' ATK by 3.25x for 1 turn. If 3 or more [Marineford Paramount War Arc] [Navy] characters are on the crew, reduces crew's Bind duration by 6 turns, and doubles the type effects of normal attacks for Striker and Powerhouse characters for 3 turns",
+        special: "Reduces Special Bind and Burn duration by 6 turns. If your crew has 3+ [Giant] or [Navy Vice Admiral] characters, boosts ATK of Striker and Powerhouse characters by 3.25x for 1 turn. If your crew has 3+ [Marineford Paramount War Arc] or [Navy] characters, reduces Bind duration by 6 turns, and boosts Color Affinity of Striker and Powerhouse characters by 2x for 3 turns.",
         specialName: "Justice-Bearing Giant's Axe",
         sailor: {
-            base: "Reduces character's Special Bind duration by 6 turns",
-            level1: "Character cannot be blown away by attack"
+            base: "Reduces Special Bind duration by 6 turns on this character.",
+            level1: "This character cannot be Blown Away."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Marineford Paramount War Arc]",
+                Characters: "[Marineford Paramount War Arc] characters",
                 description: [
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 2 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 2 turns."
                 ]
             }
         ],
@@ -190084,21 +190085,21 @@ window.details = {
         ]
     },
     4625: {//John Giant
-        special: "Reduces all enemies' DEF Up and Threshold Damage Reduction duration by 6 turns. If 3 or more [Giant] [Navy Vice Admiral] characters are on the crew, boosts Striker and Powerhouse characters' slot effects by 3x for 3 turns. If 3 or more [Marineford Paramount War Arc] [Navy] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [QCK], and locks crew's slots for 1 turn",
+        special: "Reduces enemies' Increased Defense and Threshold Damage Reduction duration by 6 turns. If your crew has 3+ [Giant] or [Navy Vice Admiral] characters, boosts Orb Effects of Striker and Powerhouse characters by 3x for 3 turns. If your crew has 3+ [Marineford Paramount War Arc] or [Navy] characters, changes all orbs, including [BLOCK] orbs, into [QCK] orbs, and locks all orbs for 1 turn.",
         specialName: "Justice-Bearing Giant's Katana",
         sailor: {
-            base: "Makes character immune to Special Reverse",
-            level1: "Character cannot be blown away by attack"
+            base: "Restores Special Cooldown of this character completely when it is rewinded.",
+            level1: "This character cannot be Blown Away."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Marineford Paramount War Arc]",
+                Characters: "[Marineford Paramount War Arc] characters",
                 description: [
-                    "Once per quest, if supported character uses a Special, locks Striker characters' slots for 1 turn",
-                    "Once per quest, if supported character uses a Special, locks Striker characters' slots for 1 turn",
-                    "Once per quest, if supported character uses a Special, locks Striker characters' slots for 1 turn",
-                    "Once per quest, if supported character uses a Special, locks Striker characters' slots for 1 turn",
-                    "Once per quest, if supported character uses a Special, changes supported character's [BLOCK] slot to character's own type, and locks Striker characters' slots for 1 turn"
+                    "Once per adventure, when the supported character uses their special, locks orbs for Striker characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks orbs for Striker characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks orbs for Striker characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, locks orbs for Striker characters for 1 turn.",
+                    "Once per adventure, when the supported character uses their special, changes the [BLOCK] orb of the supported character into a matching orb, and locks orbs for Striker characters for 1 turn."
                 ]
             }
         ],
