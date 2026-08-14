@@ -5261,6 +5261,9 @@ window.families = {
     4623: [ ...PortgasDAce, ...LittleOarsJr ],
     4624: [ ...Lonz ],
     4625: [ ...JohnGiant ],
+    4626: [ ...GolDRoger ],
+    4627: [ ...SilversRayleigh ],
+    4628: [ ...VinsmokeReiju ],
     //break
     5013: [ ...MonkeyDLuffy ],
     5014: [ ...MonkeyDLuffy ],
