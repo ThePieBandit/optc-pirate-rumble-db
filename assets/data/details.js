@@ -190449,6 +190449,884 @@ window.details = {
             }
         ]
     },
+    4629: {//Loki
+        captain: "Reduces [QCK] and Driven characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts their ATK by 6x, HP by 1.65x, and makes crew's [QCK][TND] slots have matching slot effects. If crew is inflicted with Paralysis, completely removes that Paralysis effect and reduces character's Special charge time by number of turns reduced. Nullifies the application of enemy's Terriroty 1 time. If field has \"Territory: [QCK]\", boosts [QCK] characters' ATK by approximately 7x. If field has \"Territory: Driven class\" or \"Territory: Free Spirit class\", boosts [QCK] characters' ATK by a further 1.2x [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Royalty] [Ancient Giant] characters are on the crew, reduces crew's \"ATK Down when chain multiplier is below certain amount\" (applied by enemy) effect by 10 turns",
+        special: "Reduces crew's Bind duration by 10 turns, boosts Driven and Free Spirit characters' advantageous class effect by up to 3x based on outcome of Action Special (2x for MISS, 2.25x for GOOD, 2.5x for GREAT, 2.7x for PERFECT, 3 for EXCELLENT) for 2 turns. If 3 or more [Royalty] [Ancient Giant] characters are on the crew and if Special launch status is at (0), applies \"Territory: [QCK]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns and boosts [QCK] characters' ATK by 6x for 1 turn. If 3 or more [Royalty] [Ancient Giant] characters are on the crew and if Special launch status is at (1), applies \"Territory: [QCK]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns and boosts [QCK] characters' ATK by 8x for 1 turn. Otherwise, boosts [QCK] characters' ATK by 4x for 1 turn. If field has \"Territory: Driven class\" or \"Territory: Free Spirit class\" when Special is launched, further increases crew's ATK boost by 1.2x (up to a maximum 9.6x; this effect also applies to ATK boost from this Special)",
+        specialName: "Giant's Lightning of Eradication",
+        sailor: {
+            base: "Boosts Driven characters' base ATK by 1.1x",
+            level1: "If crew is inflicted with Paralysis, reduces Paralysis duration by half (ignoring the decimal) and reduces character's Special charge time by number of turns reduced"
+        },
+        superSpecialCriteria: "When crew activates HP Guard or any 2 [Royalty] [Ancient Giant] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1)",
+        superSpecial: "Deals 100x character's ATK in non-type damage to all enemies (ignoring all defensive effects and DEF), reduces [QCK] Captain's Special charge time by 14 turns, changes crew's [BLOCK][QCK][TND] slots to Super [QCK], sets charcter's Special launch status to (1), changes Driven characters to Super Driven, and changes Free Spirit characters to Super Free Spirit",
+        support: [
+            {
+                Characters: "[QCK] characters",
+                description: [
+                    "Adds 5% of character's base stats to supported character's base stats",
+                    "Adds 7% of character's base stats to supported character's base stats",
+                    "Adds 9% of character's base stats to supported character's base stats",
+                    "Adds 12% of character's base stats to supported character's base stats",
+                    "Adds 15% of character's base stats to supported character's base stats"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Special Use Limit",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Damage Limit Break: Type",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: If crew is inflicted with Paralysis, reduces Paralysis duration by half (ignoring the decimal) and reduces character's Special charge time by number of turns reduced",
+            "Boosts base HP by 60",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Boosts base ATK by 40",
+            "Acquire Potential 3: Rush",
+            "LOCKED WITH KEY",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        potential: [
+            {
+                Name: "Special Use Limit",
+                description: [
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 1 turn",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 2 turns",
+                    "Reduces Special Use Limit duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Rush",
+                description: [
+                    "Obtain Rush Lv.1",
+                    "Obtain Rush Lv.2",
+                    "Obtain Rush Lv.3",
+                    "Obtain Rush Lv.4",
+                    "Obtain Rush Lv.5"
+                ]
+            }
+        ],
+        rush: {
+            characterCondition: [
+                "When crew's HP is 80% or below and crew has stackable type effect, ATK, or slot effect boost, or character performs the 1st or 6th tap of an attack",
+                "When crew's HP is 80% or below and crew has stackable type effect, ATK, or slot effect boost, or character performs the 1st or 6th tap of an attack",
+                "When crew's HP is 80% or below and crew has stackable type effect, ATK, or slot effect boost, or character performs the 1st or 6th tap of an attack",
+                "When crew's HP is 80% or below and crew has stackable type effect, ATK, or slot effect boost, or character performs the 1st or 6th tap of an attack",
+                "When crew's HP is 80% or below and crew has stackable type effect, ATK, or slot effect boost, or character performs the 1st or 6th tap of an attack"
+            ],
+            description: [
+                "Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [QCK], Driven, and Free Spirit characters (up to +0.4 chain multiplier; Rush ATK boost 1.3x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.6 chain multiplier; Rush ATK boost 1.7x)",
+                "Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [QCK], Driven, and Free Spirit characters (up to +0.4 chain multiplier; Rush ATK boost 1.4x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 1.9x)",
+                "Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [QCK], Driven, and Free Spirit characters (up to +0.5 chain multiplier; Rush ATK boost 1.6x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 2.0x)",
+                "Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [QCK], Driven, and Free Spirit characters (up to +0.6 chain multiplier; Rush ATK boost 1.8x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 2.2x)",
+                "Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [QCK], Driven, and Free Spirit characters (up to +0.8 chain multiplier; Rush ATK boost 2.0x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +1.0 chain multiplier; Rush ATK boost 2.5x)"
+            ],
+            stats: [
+                "[Activated on the 1st tap of an attack] \nHP Cost: 22,500\nMax Rush: 6 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [QCK], Driven, and Free Spirit Rush ATK boost 1.1x\nEach successful chain adds +0.1 (up to 1.3)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8\n[Activated on the 6th tap of an attack] \nHP Cost: 22,500\nMax Rush: 5 times\nChain Multiplier Growth: +0.2\nFinish Tap Effect: Self Rush ATK boost 1.4x\nEach successful chain adds +0.1 (up to 1.7)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.05\nFinish Tap Multiplier: 2.5",
+                "[Activated on the 1st tap of an attack] \nHP Cost: 20,000\nMax Rush: 6 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [QCK], Driven, and Free Spirit Rush ATK boost 1.2x\nEach successful chain adds +0.1 (up to 1.4)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8\n[Activated on the 6th tap of an attack] \nHP Cost: 20,000\nMax Rush: 6 times\nChain Multiplier Growth: +0.2\nFinish Tap Effect: Self Rush ATK boost 1.5x\nEach successful chain adds +0.1 (up to 1.9)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.05\nFinish Tap Multiplier: 2.6",
+                "[Activated on the 1st tap of an attack] \nHP Cost: 17,500\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [QCK], Driven, and Free Spirit Rush ATK boost 1.2x\nEach successful chain adds +0.1 (up to 1.6)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8\n[Activated on the 6th tap of an attack] \nHP Cost: 17,500\nMax Rush: 6 times\nChain Multiplier Growth: +0.2\nFinish Tap Effect: Self Rush ATK boost 1.6x\nEach successful chain adds +0.1 (up to 2.0)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.05\nFinish Tap Multiplier: 2.7",
+                "[Activated on the 1st tap of an attack] \nHP Cost: 15,000\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [QCK], Driven, and Free Spirit Rush ATK boost 1.4x\nEach successful chain adds +0.1 (up to 1.8)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8\n[Activated on the 6th tap of an attack] \nHP Cost: 15,000\nMax Rush: 6 times\nChain Multiplier Growth: +0.2\nFinish Tap Effect: Self Rush ATK boost 1.8x\nEach successful chain adds +0.1 (up to 2.2)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.05\nFinish Tap Multiplier: 2.8",
+                "[Activated on the 1st tap of an attack] \nHP Cost: 12,500\nMax Rush: 10 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [QCK], Driven, and Free Spirit Rush ATK boost 1.4x\nEach successful chain adds +0.1 (up to 2.0)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8\n[Activated on the 6th tap of an attack] \nHP Cost: 12,500\nMax Rush: 7 times\nChain Multiplier Growth: +0.2\nFinish Tap Effect: Self Rush ATK boost 2x\nEach successful chain adds +0.1 (up to 2.5)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.05\nFinish Tap Multiplier: 3"
+            ]
+        },
+        festStats: {
+            def: 120,
+            spd: 195,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, heal 400 HP at an interval, reduce damage taken from [STR] by 30%",
+        festAbility: [
+            "[QCK]/Free Spirit class and [Giant] [Royalty] [Elbaph Arc] teammates HP Up Lv.3, ATK Up Lv.3, DEF Up Lv.3; first 40 s of battle, self DEF Up Lv.3, SPD Down Lv.10; after receiving damage, up to 5 times [Giant] teammates ATK Up Lv.1; [STR]/Driven class enemies DEF Down Lv.1, SPD Down Lv.1; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, targets Free Spirit class and [Giant] teammates for 80% chance of Haste",
+            "[QCK]/Free Spirit class and [Giant] [Royalty] [Elbaph Arc] teammates HP Up Lv.4, ATK Up Lv.4, DEF Up Lv.4; first 40 s of battle, self DEF Up Lv.4, SPD Down Lv.10; after receiving damage, up to 5 times [Giant] teammates ATK Up Lv.1; [STR]/Driven class enemies DEF Down Lv.1, SPD Down Lv.1; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, targets Free Spirit class and [Giant] teammates for 85% chance of Haste",
+            "[QCK]/Free Spirit class and [Giant] [Royalty] [Elbaph Arc] teammates HP Up Lv.5, ATK Up Lv.5, DEF Up Lv.5; first 40 s of battle, self DEF Up Lv.5, SPD Down Lv.10; after receiving damage, up to 5 times [Giant] teammates ATK Up Lv.1; [STR]/Driven class enemies DEF Down Lv.1, SPD Down Lv.1; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, targets Free Spirit class and [Giant] teammates for 90% chance of Haste",
+            "[QCK]/Free Spirit class and [Giant] [Royalty] [Elbaph Arc] teammates HP Up Lv.6, ATK Up Lv.6, DEF Up Lv.6; first 40 s of battle, self DEF Up Lv.6, SPD Down Lv.10; after receiving damage, up to 5 times [Giant] teammates ATK Up Lv.1; [STR]/Driven class enemies DEF Down Lv.1, SPD Down Lv.1; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, targets Free Spirit class and [Giant] teammates for 95% chance of Haste",
+            "[QCK]/Free Spirit class and [Giant] [Royalty] [Elbaph Arc] teammates HP Up Lv.7, ATK Up Lv.7, DEF Up Lv.7; first 40 s of battle, self DEF Up Lv.7, SPD Down Lv.10; after receiving damage, up to 5 times [Giant] teammates ATK Up Lv.2; [STR]/Driven class enemies DEF Down Lv.1, SPD Down Lv.1; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, targets Free Spirit class and [Giant] teammates for 100% chance of Haste"
+        ],
+        festSpecial: [
+            {
+                cooldown: 34,
+                description: "If 2 or more [Giant] characters are on the team, targets team for 73% chance to remove ATK Down; targets [STR]/Driven class enemies for ATK x 1.3 damage; targets 2 enemies with low current HP ignoring DEF for ATK x 1.1 damage two times"
+            },
+            {
+                cooldown: 34,
+                description: "If 2 or more [Giant] characters are on the team, targets team for 76% chance to remove ATK Down; targets [STR]/Driven class enemies for ATK x 1.6 damage; targets 2 enemies with low current HP ignoring DEF for ATK x 1.2 damage two times"
+            },
+            {
+                cooldown: 34,
+                description: "If 2 or more [Giant] characters are on the team, targets team for 79% chance to remove ATK Down; targets [STR]/Driven class enemies for ATK x 1.9 damage; targets 2 enemies with low current HP ignoring DEF for ATK x 1.3 damage two times"
+            },
+            {
+                cooldown: 34,
+                description: "If 2 or more [Giant] characters are on the team, targets team for 82% chance to remove ATK Down; targets [STR]/Driven class enemies for ATK x 2.2 damage; targets 2 enemies with low current HP ignoring DEF for ATK x 1.4 damage two times"
+            },
+            {
+                cooldown: 34,
+                description: "If 2 or more [Giant] characters are on the team, targets team for 85% chance to remove ATK Down; targets [STR]/Driven class enemies for ATK x 2.5 damage; targets 2 enemies with low current HP ignoring DEF for ATK x 1.5 damage two times"
+            },
+            {
+                cooldown: 34,
+                description: "If 2 or more [Giant] characters are on the team, targets team for 88% chance to remove ATK Down; targets [STR]/Driven class enemies for ATK x 2.8 damage; targets 2 enemies with low current HP ignoring DEF for ATK x 1.6 damage two times"
+            },
+            {
+                cooldown: 34,
+                description: "If 2 or more [Giant] characters are on the team, targets team for 91% chance to remove ATK Down; targets [STR]/Driven class enemies for ATK x 3.1 damage; targets 2 enemies with low current HP ignoring DEF for ATK x 1.7 damage two times"
+            },
+            {
+                cooldown: 34,
+                description: "If 2 or more [Giant] characters are on the team, targets team for 94% chance to remove ATK Down; targets [STR]/Driven class enemies for ATK x 3.4 damage; targets 2 enemies with low current HP ignoring DEF for ATK x 1.8 damage two times"
+            },
+            {
+                cooldown: 34,
+                description: "If 2 or more [Giant] characters are on the team, targets team for 97% chance to remove ATK Down; targets [STR]/Driven class enemies for ATK x 3.7 damage; targets 2 enemies with low current HP ignoring DEF for ATK x 1.9 damage two times"
+            },
+            {
+                cooldown: 34,
+                description: "If 2 or more [Giant] characters are on the team, targets team for 100% chance to remove ATK Down; targets [STR]/Driven class enemies for ATK x 4 damage; targets 2 enemies with low current HP ignoring DEF for ATK x 2 damage two times"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "[QCK] and [Giant] [Royalty] teammates ATK, HP Up Lv.2, DEF Up Lv.1; Driven/Free Spirit class teammates RCV, SPD Up Lv.2, Special CT Speed Up Lv.1; first 40 s of battle, [QCK] and [Giant] [Royalty] teammates DEF Up Lv.1; [STR]/Driven class enemies Miss % Up Lv.6; after 40 s of battle, [QCK] and [Giant] [Royalty] teammates Special CT Speed Up Lv.1; [STR]/Driven class enemies DEF Down Lv.1",
+                festGPSpecial: "Targets [QCK]/Free Spirit class and [Giant] [Royalty] teammates for 60% chance to evade RCV Bind/damage ignoring DEF (16 s); targets all enemies ignoring DEF for Leader base ATK x 1 damage; targets [STR]/Driven class enemies ignoring DEF for Leader base ATK x 1 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[QCK] and [Giant] [Royalty] teammates ATK, HP Up Lv.3, DEF Up Lv.2; Driven/Free Spirit class teammates RCV, SPD Up Lv.3, Special CT Speed Up Lv.2; first 40 s of battle, [QCK] and [Giant] [Royalty] teammates DEF Up Lv.2; [STR]/Driven class enemies Miss % Up Lv.7; after 40 s of battle, [QCK] and [Giant] [Royalty] teammates Special CT Speed Up Lv.2; [STR]/Driven class enemies DEF Down Lv.2",
+                festGPSpecial: "Targets [QCK]/Free Spirit class and [Giant] [Royalty] teammates for 70% chance to evade RCV Bind/damage ignoring DEF (17 s); targets all enemies ignoring DEF for Leader base ATK x 1.25 damage; targets [STR]/Driven class enemies ignoring DEF for Leader base ATK x 1.25 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[QCK] and [Giant] [Royalty] teammates ATK, HP Up Lv.4, DEF Up Lv.3; Driven/Free Spirit class teammates RCV, SPD Up Lv.4, Special CT Speed Up Lv.2; first 40 s of battle, [QCK] and [Giant] [Royalty] teammates DEF Up Lv.3; [STR]/Driven class enemies Miss % Up Lv.8; after 40 s of battle, [QCK] and [Giant] [Royalty] teammates Special CT Speed Up Lv.3; [STR]/Driven class enemies DEF Down Lv.3",
+                festGPSpecial: "Targets [QCK]/Free Spirit class and [Giant] [Royalty] teammates for 80% chance to evade RCV Bind/damage ignoring DEF (18 s); targets all enemies ignoring DEF for Leader base ATK x 1.5 damage; targets [STR]/Driven class enemies ignoring DEF for Leader base ATK x 1.5 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[QCK] and [Giant] [Royalty] teammates ATK, HP Up Lv.5, DEF Up Lv.3; Driven/Free Spirit class teammates RCV, SPD Up Lv.5, Special CT Speed Up Lv.3; first 40 s of battle, [QCK] and [Giant] [Royalty] teammates DEF Up Lv.4; [STR]/Driven class enemies Miss % Up Lv.9; after 40 s of battle, [QCK] and [Giant] [Royalty] teammates Special CT Speed Up Lv.4; [STR]/Driven class enemies DEF Down Lv.3",
+                festGPSpecial: "Targets [QCK]/Free Spirit class and [Giant] [Royalty] teammates for 90% chance to evade RCV Bind/damage ignoring DEF (19 s); targets all enemies ignoring DEF for Leader base ATK x 1.75 damage; targets [STR]/Driven class enemies ignoring DEF for Leader base ATK x 1.75 damage",
+                uses: 2
+            },
+            {
+                festGPAbility: "[QCK] and [Giant] [Royalty] teammates ATK, HP Up Lv.6, DEF Up Lv.4; Driven/Free Spirit class teammates RCV, SPD Up Lv.6, Special CT Speed Up Lv.3; first 40 s of battle, [QCK] and [Giant] [Royalty] teammates DEF Up Lv.5; [STR]/Driven class enemies Miss % Up Lv.10; after 40 s of battle, [QCK] and [Giant] [Royalty] teammates Special CT Speed Up Lv.5; [STR]/Driven class enemies DEF Down Lv.4",
+                festGPSpecial: "Targets [QCK]/Free Spirit class and [Giant] [Royalty] teammates for 100% chance to evade RCV Bind/damage ignoring DEF (20 s); targets all enemies ignoring DEF for Leader base ATK x 2 damage; targets [STR]/Driven class enemies ignoring DEF for Leader base ATK x 2 damage",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "After receiving damage 12 times"
+    },
+    4630: {//Gaban
+        captain: "Reduces [DEX], Striker, and Slasher characters' Special charge time by 2 turns and VS Effect gauge and Switch Effect by 2 at start of quest, boosts their ATK by 6x, HP by 1.3x, and makes crew's [DEX][TND] slots have matching slot effects. If 4 or more [DEX] characters are on the crew, nullifies the application of enemy Territory 1 time. If 6 [DEX] characters are on the crew and field has \"Territory: [DEX]\", boosts [DEX] characters' ATK by approximately 7x [Applies following effect based on number of applicable Character Tags on crew] If character is a Captain (Friend/Helper Captain does not count) and performs EXCELLENT for the Action Special, boosts [Roger Pirates] [Giant] [Straw Hat Pirates] characters' ATK by 1.2x for 3 turns and reduces their Special charge time by 5 turns at start of quest",
+        special: "Deals 300x character's ATK in non-type damage to one enemy (ignoring all defensive effects and DEF) and reduces crew's ATK Down duration by 10 turns. If field has \"Territory: [DEX]\" and \"Territory: Striker class\" applied at the same time when Special is launched, boosts [DEX] Striker characters' ATK by 8x for 3 turns and boosts [DEX] and Striker characters' ATK by 6x for 3 turns (boosts [DEX]-Striker characters' ATK by 4x for 1 turn and boosts [DEX] Striker characters' ATK by 3x for 1 turn otherwise). Then after that, boosts damage dealt to Ignited/DEF Down enemies by up to 3.25x based on outcome of Action Special (2.25x for MISS, 2.5x for GOOD, 2.75x for GREAT, 3x for PERFECT, 3.25x for EXCELLENT) for 1 turn and applies \"Territory: [DEX]\" to the field<hidden> (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory)</hidden> for 3 turns. If 5 or more [Elbaph Arc] [Giant] [Roger Pirates] characters are on the crew, changes the ATK multiplier of [DEX] slots to 3.25x when slots match<hidden> (normally 2x when matching)</hidden>, 0.5x when unfavorable, 1.0x otherwise) for 3 turns",
+        specialName: "Yasotakeru",
+        sailor: {
+            base: "Boosts [DEX] characters' base ATK by 1.1x",
+            level1: "Boosts [DEX] characters' base stats by 200 and makes their [TND][RCV] slots have matching slot effects"
+        },
+        superSpecialCriteria: "When any 3 [Roger Pirates] [Giant] [Straw Hat Pirates] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1)",
+        superSpecial: "Changes crew's [BLOCK][DEX][INT][RCV] slots to Super [DEX], allows crew to perform Super Tandem with [DEX] slots for 3 turns, changes Striker characters to Super Striker, and changes Slasher characters to Super Slasher",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Elbaph Arc]",
+                description: [
+                    "Adds 5% of character's base stats to supported character's base stats",
+                    "Adds 7% of character's base stats to supported character's base stats",
+                    "Adds 9% of character's base stats to supported character's base stats",
+                    "Adds 12% of character's base stats to supported character's base stats",
+                    "Adds 15% of character's base stats to supported character's base stats"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base HP by 20",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 50",
+            "Acquire Potential 2: Damage Limit Break: Class",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 70",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Boosts [DEX] characters' base stats by 200 and makes their [TND][RCV] slots have matching slot effects",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 80",
+            "Boosts base RCV by 40",
+            "Boosts base HP by 80",
+            "Acquire Potential 3: Rush",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Striker characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Rush",
+                description: [
+                    "Obtain Rush Lv.1",
+                    "Obtain Rush Lv.2",
+                    "Obtain Rush Lv.3",
+                    "Obtain Rush Lv.4",
+                    "Obtain Rush Lv.5"
+                ]
+            }
+        ],
+        rush: {
+            characterCondition: [
+                "If character launches a Special and performs the 1st or 6th tap of an attack, and any of the following characters are on the crew (except as Support Characters): Gol D. Roger, Silvers Rayleigh, Crocus, Kozuki Oden, Shanks, Buggy, Douglas Bullet, Collun",
+                "If character launches a Special and performs the 1st or 6th tap of an attack, and any of the following characters are on the crew (except as Support Characters): Gol D. Roger, Silvers Rayleigh, Crocus, Kozuki Oden, Shanks, Buggy, Douglas Bullet, Collun",
+                "If character launches a Special and performs the 1st or 6th tap of an attack, and any of the following characters are on the crew (except as Support Characters): Gol D. Roger, Silvers Rayleigh, Crocus, Kozuki Oden, Shanks, Buggy, Douglas Bullet, Collun",
+                "If character launches a Special and performs the 1st or 6th tap of an attack, and any of the following characters are on the crew (except as Support Characters): Gol D. Roger, Silvers Rayleigh, Crocus, Kozuki Oden, Shanks, Buggy, Douglas Bullet, Collun",
+                "If character launches a Special and performs the 1st or 6th tap of an attack, and any of the following characters are on the crew (except as Support Characters): Gol D. Roger, Silvers Rayleigh, Crocus, Kozuki Oden, Shanks, Buggy, Douglas Bullet, Collun"
+            ],
+            description: [
+                "Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [DEX], Slasher, and Striker characters (up to +0.4 chain multiplier; Rush ATK boost 1.3x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.6 chain multiplier; Rush ATK boost 1.7x)",
+                "Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [DEX], Slasher, and Striker characters (up to +0.4 chain multiplier; Rush ATK boost 1.4x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 1.9x)",
+                "Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [DEX], Slasher, and Striker characters (up to +0.5 chain multiplier; Rush ATK boost 1.6x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 2.0x)",
+                "Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [DEX], Slasher, and Striker characters (up to +0.6 chain multiplier; Rush ATK boost 1.8x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +0.8 chain multiplier; Rush ATK boost 2.2x)",
+                "Activates a different effect depending on the conditions of activation: [Activated on the 1st tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of [DEX], Slasher, and Striker characters (up to +0.8 chain multiplier; Rush ATK boost 2.0x); [Activated on the 6th tap of an attack] Reduces HP by a certain amount, but allows to perform a Rush. As the Rush tap connects, cumulatively boosts the chain, and boosts the ATK of the Finish tap of character (up to +1.0 chain multiplier; Rush ATK boost 2.5x)"
+            ],
+            stats: [
+                "[Activated on the 1st tap of an attack] \nHP Cost: 22,500\nMax Rush: 6 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [DEX], Slasher, and Striker Rush ATK boost 1.1x\nEach successful chain adds +0.1 (up to 1.3)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8\n[Activated on the 6th tap of an attack] \nHP Cost: 22,500\nMax Rush: 5 times\nChain Multiplier Growth: +0.2\nFinish Tap Effect: Self Rush ATK boost 1.4x\nEach successful chain adds +0.1 (up to 1.7)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.05\nFinish Tap Multiplier: 2.5",
+                "[Activated on the 1st tap of an attack] \nHP Cost: 20,000\nMax Rush: 6 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [DEX], Slasher, and Striker Rush ATK boost 1.2x\nEach successful chain adds +0.1 (up to 1.4)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8\n[Activated on the 6th tap of an attack] \nHP Cost: 20,000\nMax Rush: 6 times\nChain Multiplier Growth: +0.2\nFinish Tap Effect: Self Rush ATK boost 1.5x\nEach successful chain adds +0.1 (up to 1.9)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.05\nFinish Tap Multiplier: 2.6",
+                "[Activated on the 1st tap of an attack] \nHP Cost: 17,500\nMax Rush: 7 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [DEX], Slasher, and Striker Rush ATK boost 1.2x\nEach successful chain adds +0.1 (up to 1.6)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8\n[Activated on the 6th tap of an attack] \nHP Cost: 17,500\nMax Rush: 6 times\nChain Multiplier Growth: +0.2\nFinish Tap Effect: Self Rush ATK boost 1.6x\nEach successful chain adds +0.1 (up to 2.0)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.05\nFinish Tap Multiplier: 2.7",
+                "[Activated on the 1st tap of an attack] \nHP Cost: 15,000\nMax Rush: 8 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [DEX], Slasher, and Striker Rush ATK boost 1.4x\nEach successful chain adds +0.1 (up to 1.8)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8\n[Activated on the 6th tap of an attack] \nHP Cost: 15,000\nMax Rush: 6 times\nChain Multiplier Growth: +0.2\nFinish Tap Effect: Self Rush ATK boost 1.8x\nEach successful chain adds +0.1 (up to 2.2)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.05\nFinish Tap Multiplier: 2.8",
+                "[Activated on the 1st tap of an attack] \nHP Cost: 12,500\nMax Rush: 10 times\nChain Multiplier Growth: +0.1\nFinish Tap Effect: [DEX], Slasher, and Striker Rush ATK boost 1.4x\nEach successful chain adds +0.1 (up to 2.0)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.1\nFinish Tap Multiplier: 0.8\n[Activated on the 6th tap of an attack] \nHP Cost: 12,500\nMax Rush: 7 times\nChain Multiplier Growth: +0.2\nFinish Tap Effect: Self Rush ATK boost 2x\nEach successful chain adds +0.1 (up to 2.5)\nFirst Tap Multiplier: 0.5\nRush Multiplier: 0.05\nFinish Tap Multiplier: 3"
+            ]
+        },
+        festStats: {
+            def: 167,
+            spd: 165,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind/Halve Stats, reduce damage taken from [QCK] by 30%",
+        festAbility: [
+            "[DEX]/Slasher class and [Giant] teammates ATK Up Lv.3, HP Up Lv.3; if 4 or more [Elbaph Arc] characters are on the team, self SPD Up Lv.3, DEF Up Lv.1; first 40 s of battle, Slasher class teammates DEF Up Lv.2, Blow Away % Up Lv.4, Special CT Speed Up Lv.1; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, self Special CT 30% reduction",
+            "[DEX]/Slasher class and [Giant] teammates ATK Up Lv.4, HP Up Lv.4; if 4 or more [Elbaph Arc] characters are on the team, self SPD Up Lv.4, DEF Up Lv.2; first 40 s of battle, Slasher class teammates DEF Up Lv.3, Blow Away % Up Lv.5, Special CT Speed Up Lv.2; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, self Special CT 35% reduction",
+            "[DEX]/Slasher class and [Giant] teammates ATK Up Lv.5, HP Up Lv.5; if 4 or more [Elbaph Arc] characters are on the team, self SPD Up Lv.5, DEF Up Lv.3; first 40 s of battle, Slasher class teammates DEF Up Lv.4, Blow Away % Up Lv.6, Special CT Speed Up Lv.3; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, self Special CT 40% reduction",
+            "[DEX]/Slasher class and [Giant] teammates ATK Up Lv.6, HP Up Lv.6; if 4 or more [Elbaph Arc] characters are on the team, self SPD Up Lv.6, DEF Up Lv.4; first 40 s of battle, Slasher class teammates DEF Up Lv.5, Blow Away % Up Lv.7, Special CT Speed Up Lv.4; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, self Special CT 45% reduction",
+            "[DEX]/Slasher class and [Giant] teammates ATK Up Lv.7, HP Up Lv.7; if 4 or more [Elbaph Arc] characters are on the team, self SPD Up Lv.7, DEF Up Lv.5; first 40 s of battle, Slasher class teammates DEF Up Lv.6, Blow Away % Up Lv.8, Special CT Speed Up Lv.5; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, self Special CT 50% reduction"
+        ],
+        festSpecial: [
+            {
+                cooldown: 29,
+                description: "Targets enemies within large range for DEF Down Lv.1 (11 s); if there are 5 or more [QCK] enemies, targets all enemies for DEF Down Lv.1 (11 s); targets enemies within large range (horizontal) for ATK x 1.2 damage two times; first 40 s of battle, targets enemies within large range (frontal) for ATK x 1.2 damage two times; if 5 or more [DEX] characters or 5 or more Slasher class characters are on the team, targets enemies within large range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); after 40 s of battle, switches character with 3rd sub character"
+            },
+            {
+                cooldown: 29,
+                description: "Targets enemies within large range for DEF Down Lv.1 (12 s); if there are 5 or more [QCK] enemies, targets all enemies for DEF Down Lv.1 (12 s); targets enemies within large range (horizontal) for ATK x 1.4 damage two times; first 40 s of battle, targets enemies within large range (frontal) for ATK x 1.4 damage two times; if 5 or more [DEX] characters or 5 or more Slasher class characters are on the team, targets enemies within large range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); after 40 s of battle, switches character with 3rd sub character"
+            },
+            {
+                cooldown: 29,
+                description: "Targets enemies within large range for DEF Down Lv.1 (13 s); if there are 5 or more [QCK] enemies, targets all enemies for DEF Down Lv.1 (13 s); targets enemies within large range (horizontal) for ATK x 1.6 damage two times; first 40 s of battle, targets enemies within large range (frontal) for ATK x 1.6 damage two times; if 5 or more [DEX] characters or 5 or more Slasher class characters are on the team, targets enemies within large range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); after 40 s of battle, switches character with 3rd sub character"
+            },
+            {
+                cooldown: 29,
+                description: "Targets enemies within large range for DEF Down Lv.2 (14 s); if there are 5 or more [QCK] enemies, targets all enemies for DEF Down Lv.2 (14 s); targets enemies within large range (horizontal) for ATK x 1.8 damage two times; first 40 s of battle, targets enemies within large range (frontal) for ATK x 1.8 damage two times; if 5 or more [DEX] characters or 5 or more Slasher class characters are on the team, targets enemies within large range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); after 40 s of battle, switches character with 3rd sub character"
+            },
+            {
+                cooldown: 29,
+                description: "Targets enemies within large range for DEF Down Lv.2 (15 s); if there are 5 or more [QCK] enemies, targets all enemies for DEF Down Lv.2 (15 s); targets enemies within large range (horizontal) for ATK x 2 damage two times; first 40 s of battle, targets enemies within large range (frontal) for ATK x 2 damage two times; if 5 or more [DEX] characters or 5 or more Slasher class characters are on the team, targets enemies within large range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); after 40 s of battle, switches character with 3rd sub character"
+            },
+            {
+                cooldown: 29,
+                description: "Targets enemies within large range for DEF Down Lv.3 (16 s); if there are 5 or more [QCK] enemies, targets all enemies for DEF Down Lv.3 (16 s); targets enemies within large range (horizontal) for ATK x 2.2 damage two times; first 40 s of battle, targets enemies within large range (frontal) for ATK x 2.2 damage two times; if 5 or more [DEX] characters or 5 or more Slasher class characters are on the team, targets enemies within large range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); after 40 s of battle, switches character with 3rd sub character"
+            },
+            {
+                cooldown: 29,
+                description: "Targets enemies within large range for DEF Down Lv.3 (17 s); if there are 5 or more [QCK] enemies, targets all enemies for DEF Down Lv.3 (17 s); targets enemies within large range (horizontal) for ATK x 2.4 damage two times; first 40 s of battle, targets enemies within large range (frontal) for ATK x 2.4 damage two times; if 5 or more [DEX] characters or 5 or more Slasher class characters are on the team, targets enemies within large range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); after 40 s of battle, switches character with 3rd sub character"
+            },
+            {
+                cooldown: 29,
+                description: "Targets enemies within large range for DEF Down Lv.3 (18 s); if there are 5 or more [QCK] enemies, targets all enemies for DEF Down Lv.3 (18 s); targets enemies within large range (horizontal) for ATK x 2.6 damage two times; first 40 s of battle, targets enemies within large range (frontal) for ATK x 2.6 damage two times; if 5 or more [DEX] characters or 5 or more Slasher class characters are on the team, targets enemies within large range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); after 40 s of battle, switches character with 3rd sub character"
+            },
+            {
+                cooldown: 29,
+                description: "Targets enemies within large range for DEF Down Lv.4 (19 s); if there are 5 or more [QCK] enemies, targets all enemies for DEF Down Lv.4 (19 s); targets enemies within large range (horizontal) for ATK x 2.8 damage two times; first 40 s of battle, targets enemies within large range (frontal) for ATK x 2.8 damage two times; if 5 or more [DEX] characters or 5 or more Slasher class characters are on the team, targets enemies within large range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); after 40 s of battle, switches character with 3rd sub character"
+            },
+            {
+                cooldown: 29,
+                description: "Targets enemies within large range for DEF Down Lv.5 (20 s); if there are 5 or more [QCK] enemies, targets all enemies for DEF Down Lv.5 (20 s); targets enemies within large range (horizontal) for ATK x 3 damage two times; first 40 s of battle, targets enemies within large range (frontal) for ATK x 3 damage two times; if 5 or more [DEX] characters or 5 or more Slasher class characters are on the team, targets enemies within large range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); after 40 s of battle, switches character with 3rd sub character"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "[DEX]/[PSY] and [Giant] [Elbaph Arc] teammates HP, SPD Up Lv.2, DEF Up Lv.1; Slasher/Striker class teammates ATK, Blow Away %, Guard % Up Lv.2; first 40 s of battle, Slasher/Striker class teammates Special CT Speed Up Lv.1, ATK Up Lv.1",
+                festGPSpecial: "Targets 2 high ATK enemies for 60% chance of Forced Out (11 s); targets all enemies for Leader base ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies) 2 times; targets [DEX]/[PSY]/Slasher/Striker class and [Giant] teammates for ATK Up Lv.6 (11 s), Special CT 12% reduction",
+                uses: 2
+            },
+            {
+                festGPAbility: "[DEX]/[PSY] and [Giant] [Elbaph Arc] teammates HP, SPD Up Lv.3, DEF Up Lv.2; Slasher/Striker class teammates ATK, Blow Away %, Guard % Up Lv.3; first 40 s of battle, Slasher/Striker class teammates Special CT Speed Up Lv.2, ATK Up Lv.2",
+                festGPSpecial: "Targets 2 high ATK enemies for 70% chance of Forced Out (12 s); targets all enemies for Leader base ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies) 2 times; targets [DEX]/[PSY]/Slasher/Striker class and [Giant] teammates for ATK Up Lv.7 (12 s), Special CT 14% reduction",
+                uses: 2
+            },
+            {
+                festGPAbility: "[DEX]/[PSY] and [Giant] [Elbaph Arc] teammates HP, SPD Up Lv.4, DEF Up Lv.3; Slasher/Striker class teammates ATK, Blow Away %, Guard % Up Lv.4; first 40 s of battle, Slasher/Striker class teammates Special CT Speed Up Lv.3, ATK Up Lv.3",
+                festGPSpecial: "Targets 2 high ATK enemies for 80% chance of Forced Out (13 s); targets all enemies for Leader base ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies) 2 times; targets [DEX]/[PSY]/Slasher/Striker class and [Giant] teammates for ATK Up Lv.8 (13 s), Special CT 16% reduction",
+                uses: 2
+            },
+            {
+                festGPAbility: "[DEX]/[PSY] and [Giant] [Elbaph Arc] teammates HP, SPD Up Lv.5, DEF Up Lv.3; Slasher/Striker class teammates ATK, Blow Away %, Guard % Up Lv.5; first 40 s of battle, Slasher/Striker class teammates Special CT Speed Up Lv.4, ATK Up Lv.3",
+                festGPSpecial: "Targets 2 high ATK enemies for 90% chance of Forced Out (14 s); targets all enemies for Leader base ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies) 2 times; targets [DEX]/[PSY]/Slasher/Striker class and [Giant] teammates for ATK Up Lv.9 (14 s), Special CT 18% reduction",
+                uses: 2
+            },
+            {
+                festGPAbility: "[DEX]/[PSY] and [Giant] [Elbaph Arc] teammates HP, SPD Up Lv.6, DEF Up Lv.4; Slasher/Striker class teammates ATK, Blow Away %, Guard % Up Lv.6; first 40 s of battle, Slasher/Striker class teammates Special CT Speed Up Lv.5, ATK Up Lv.4",
+                festGPSpecial: "Targets 2 high ATK enemies for 100% chance of Forced Out (15 s); targets all enemies for Leader base ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies) 2 times; targets [DEX]/[PSY]/Slasher/Striker class and [Giant] teammates for ATK Up Lv.10 (15 s), Special CT 20% reduction",
+                uses: 2
+            }
+        ],
+        festAbilityGPCondition: "After 7 normal attacks"
+    },
+    4631: {//Luffy & Zoro
+        captain: {
+            character1: "Boosts [INT], [DEX], Striker, and Slasher characters' ATK by 6x. If a [INT] or [DEX] character with Critical ATK Potential Ability performs a Critical attack, applies -3% [INT] and [DEX] Resistance to all enemies for 1 turn [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Mythical Zoan-type] [Giant] characters are on the crew, launches the following effect at start of quest: \"Reduces crew's VS Effect gauge and Switch Effect by 2, and boosts Striker and Slasher characters' ATK based on the damage reduction effect applied on the crew (e.g. if crew has 90% damage reduction, boosts ATK by 1.9x) for 5 turns\", boosts [INT], [DEX], Striker, and Slasher characters' HP by 1.3x, and makes crew's [INT][TND] slots have matching slot effects",
+            character2: "Boosts [INT], [DEX], Striker, and Slasher characters' ATK by 6x. If a Striker or Slasher character with Critical ATK Potential Ability performs a Critical attack, applies -3% Striker and Slasher Resistance to all enemies for 1 turn [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Mythical Zoan-type] [Giant] characters are on the crew, launches the following effect at start of quest: \"Reduces crew's VS Effect gauge and Switch Effect by 2, and boosts crew's damage dealt when landing a Critical hit by 60% for 5 turns (effect applies only to characters with Critical ATK Potential Ability)\", boosts [INT], [DEX], Striker, and Slasher characters' HP by 1.3x, and makes crew's [DEX][TND] slots have matching slot effects",
+            combined: "Boosts [INT], [DEX], Striker, and Slasher characters' ATK by 7x. If a character with Critical ATK Potential Ability performs a Critical attack, applies -5% [INT], [DEX], Striker, and Slasher Resistance to all enemies for 1 turn [Applies following effect based on number of applicable Character Tags on crew] If 4 or more [Elbaph Arc] [Straw Hat Pirates] [Mythical Zoan-type] [Giant] characters are on the crew, launches the following effect at start of quest: \"Reduces crew's VS Effect gauge and Switch Effect by 2\", boosts [INT], [DEX], Striker, and Slasher characters' HP by 1.3x, boosts [Elbaph Arc] [Straw Hat Pirates] [Mythical Zoan-type] [Giant] characters' base ATK by +1000, and makes crew's [INT][DEX][TND] slots have matching slot effects"
+        },
+        special: "[This Special can charge Special charge over its MAX (including Special charge time reduction effects)] Reduces crew's Paralysis duration by 10 turns. If crew has Color Affinity when Special is launched, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.3x if enemy has Increase Damage Taken) to all enemies for 1 turn (ignoring immunity to status effects). Then after that, boosts [INT], [QCK] and [DEX] characters' Color Affinity by 4x for 1 turn. If field has \"Territory: Striker class\" or \"Territory: Slasher class\" when Special is launched, further increases crew's ATK boost by 1.3x (up a maximum 15x). If field has \"Territory: [INT]\" or \"Territory: [DEX]\" when Special is launched, boosts chain multiplier by 1.75x for 3 turns. If crew has 4 or more [Elbaph Arc] [Straw Hat Pirates][Mythical Zoan-type] characters on crew and accumulated Special charge is 15 turns or more, reduces all enemies' damage reduction from certain slots effect duration by 6 turns and extends crew's Color Affinity duration by 2 turns, and boost the effect by +2.0<hidden> (effect applies to type effect boost from this Special)</hidden>. Then after that, becomes \"Luffy & Zoro\" for 3 turns",
+        specialName: "Combination Against the Powerful",
+        sailor: {
+            character1: "Reduces crew's Special charge time by 1 turn at start of quest",
+            character2: "Reduces crew's Special charge time by 1 turn at start of quest",
+            combined: "Reduces crew's Special charge time by 1 turn at start of quest",
+            level1: "Boosts [INT] and [DEX] characters' base ATK by 1.1x"
+        },
+        superSpecialCriteria: "When character becomes \"Luffy & Zoro\" with Super Switch effect and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk",
+        superSpecial: "Reduces crew's Special charge time by 2 turns, sets all enemies' DEF to 0 for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), changes [INT] characters to Super [INT], and changes [DEX] characters to Super [DEX]",
+        swap: {
+            base: "Changes character's slot to [TND], and increases all enemies' damage taken by 1.3x for 1 turn",
+            super: "Changes character's slot to [TND], changes adjacent slots to character's own type, increases all enemies' damage taken by 1.75x for 1 turn (ignoring immunity to status effects), and becomes \"Luffy & Zoro\" for 3 turns",
+            superTurns: 6
+        },
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 30",
+            "Acquire Potential 2: Damage Limit Break: Class",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 50",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Boosts [INT] and [DEX] characters' base ATK by 1.1x",
+            "Boosts base RCV by 40",
+            "Boosts base HP by 80",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Acquire Potential 3: Super Tandem",
+            "LOCKED WITH KEY",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 150",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Class",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of Slasher characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Super Tandem",
+                description: [
+                    "Obtain Super Tandem Lv.1",
+                    "Obtain Super Tandem Lv.2",
+                    "Obtain Super Tandem Lv.3",
+                    "Obtain Super Tandem Lv.4",
+                    "Obtain Super Tandem Lv.5"
+                ]
+            }
+        ],
+        superTandem: {
+            characterCondition: [
+                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk",
+                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk",
+                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk",
+                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk",
+                "When any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook, Jinbe, Dorry, Broggy, Oimo, Kashii, Hajrudin, Gerd, Jaguar D. Saul, Portgas D. Ace, Sabo, Silvers Rayleigh, Scopper Gaban, Dracule Mihawk"
+            ],
+            description: [
+                "Applies ATK Boost (Tandem) of 2x to [INT] and [DEX] characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 2.25x to [INT] and [DEX] characters for 1 turn",
+                "Applies ATK Boost (Tandem) of 2.5x to [INT] and [DEX] characters for 1 turn and boosts the ATK of the next final tap performed by an [INT] or [DEX] character by 10% (similar effects can stack, up to 90%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+                "Applies ATK Boost (Tandem) of 2.75x to [INT] and [DEX] characters for 1 turn and boosts the ATK of the next final tap performed by an [INT] or [DEX] character by 20% (similar effects can stack, up to 90%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+                "Applies ATK Boost (Tandem) of 3x to [INT] and [DEX] characters for 1 turn and boosts the ATK of the next final tap performed by an [INT] or [DEX] character by 30% (similar effects can stack, up to 90%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)"
+            ]
+        },
+        festStats: {
+            def: 139,
+            spd: 204,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Full Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Reduce damage ignoring DEF by 50%, completely evades Special Bind, reduce damage taken from Fighter and Slasher by 30%",
+        festAbility: [
+            "Slasher/Striker class and [Giant] teammates HP Up Lv.3, ATK Up Lv.3; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, self Special CT 80% reduction; Slasher class and [Giant] teammates ATK Up Lv.2, Guard % Up Lv.4, Special CT Speed Up Lv.1; if 4 or more [Elbaph Arc] characters are on the team, when appearing on the field, targets self for 80% chance of Haste",
+            "Slasher/Striker class and [Giant] teammates HP Up Lv.4, ATK Up Lv.4; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, self Special CT 85% reduction; Slasher class and [Giant] teammates ATK Up Lv.3, Guard % Up Lv.5, Special CT Speed Up Lv.2; if 4 or more [Elbaph Arc] characters are on the team, when appearing on the field, targets self for 85% chance of Haste",
+            "Slasher/Striker class and [Giant] teammates HP Up Lv.5, ATK Up Lv.5; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, self Special CT 90% reduction; Slasher class and [Giant] teammates ATK Up Lv.4, Guard % Up Lv.6, Special CT Speed Up Lv.3; if 4 or more [Elbaph Arc] characters are on the team, when appearing on the field, targets self for 90% chance of Haste",
+            "Slasher/Striker class and [Giant] teammates HP Up Lv.6, ATK Up Lv.6; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, self Special CT 95% reduction; Slasher class and [Giant] teammates ATK Up Lv.5, Guard % Up Lv.7, Special CT Speed Up Lv.4; if 4 or more [Elbaph Arc] characters are on the team, when appearing on the field, targets self for 95% chance of Haste",
+            "Slasher/Striker class and [Giant] teammates HP Up Lv.7, ATK Up Lv.7; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, self Special CT 100% reduction; Slasher class and [Giant] teammates ATK Up Lv.6, Guard % Up Lv.8, Special CT Speed Up Lv.5; if 4 or more [Elbaph Arc] characters are on the team, when appearing on the field, targets self for 100% chance of Haste"
+        ],
+        festSpecial: [
+            {
+                cooldown: 38,
+                description: "Targets self for ATK Up Lv.5 (6 s); targets [Giant] teammates for ATK Up Lv.5 (6 s); targets 3 enemies for ATK x 1.2 damage two times; when remaining time is 60 s or less, targets 3 enemies for ATK x 2.2 damage two times; if current team is 5 teammates or more, targets enemies within large range ignoring DEF for ATK x 0.6 damage"
+            },
+            {
+                cooldown: 38,
+                description: "Targets self for ATK Up Lv.5 (7 s); targets [Giant] teammates for ATK Up Lv.5 (7 s); targets 3 enemies for ATK x 1.4 damage two times; when remaining time is 60 s or less, targets 3 enemies for ATK x 2.4 damage two times; if current team is 5 teammates or more, targets enemies within large range ignoring DEF for ATK x 0.7 damage"
+            },
+            {
+                cooldown: 38,
+                description: "Targets self for ATK Up Lv.6 (8 s); targets [Giant] teammates for ATK Up Lv.6 (8 s); targets 3 enemies for ATK x 1.6 damage two times; when remaining time is 60 s or less, targets 3 enemies for ATK x 2.6 damage two times; if current team is 5 teammates or more, targets enemies within large range ignoring DEF for ATK x 0.8 damage"
+            },
+            {
+                cooldown: 38,
+                description: "Targets self for ATK Up Lv.6 (9 s); targets [Giant] teammates for ATK Up Lv.6 (9 s); targets 3 enemies for ATK x 1.8 damage two times; when remaining time is 60 s or less, targets 3 enemies for ATK x 2.8 damage two times; if current team is 5 teammates or more, targets enemies within large range ignoring DEF for ATK x 0.9 damage"
+            },
+            {
+                cooldown: 38,
+                description: "Targets self for ATK Up Lv.7 (10 s); targets [Giant] teammates for ATK Up Lv.7 (10 s); targets 3 enemies for ATK x 2 damage two times; when remaining time is 60 s or less, targets 3 enemies for ATK x 3 damage two times; if current team is 5 teammates or more, targets enemies within large range ignoring DEF for ATK x 1 damage"
+            },
+            {
+                cooldown: 38,
+                description: "Targets self for ATK Up Lv.7 (11 s); targets [Giant] teammates for ATK Up Lv.7 (11 s); targets 3 enemies for ATK x 2.2 damage two times; when remaining time is 60 s or less, targets 3 enemies for ATK x 3.2 damage two times; if current team is 5 teammates or more, targets enemies within large range ignoring DEF for ATK x 1.1 damage"
+            },
+            {
+                cooldown: 38,
+                description: "Targets self for ATK Up Lv.8 (12 s); targets [Giant] teammates for ATK Up Lv.8 (12 s); targets 3 enemies for ATK x 2.4 damage two times; when remaining time is 60 s or less, targets 3 enemies for ATK x 3.4 damage two times; if current team is 5 teammates or more, targets enemies within large range ignoring DEF for ATK x 1.2 damage"
+            },
+            {
+                cooldown: 38,
+                description: "Targets self for ATK Up Lv.8 (13 s); targets [Giant] teammates for ATK Up Lv.8 (13 s); targets 3 enemies for ATK x 2.6 damage two times; when remaining time is 60 s or less, targets 3 enemies for ATK x 3.6 damage two times; if current team is 5 teammates or more, targets enemies within large range ignoring DEF for ATK x 1.3 damage"
+            },
+            {
+                cooldown: 38,
+                description: "Targets self for ATK Up Lv.9 (14 s); targets [Giant] teammates for ATK Up Lv.9 (14 s); targets 3 enemies for ATK x 2.8 damage two times; when remaining time is 60 s or less, targets 3 enemies for ATK x 3.8 damage two times; if current team is 5 teammates or more, targets enemies within large range ignoring DEF for ATK x 1.4 damage"
+            },
+            {
+                cooldown: 38,
+                description: "Targets self for ATK Up Lv.10 (15 s); targets [Giant] teammates for ATK Up Lv.10 (15 s); targets 3 enemies for ATK x 3 damage two times; when remaining time is 60 s or less, targets 3 enemies for ATK x 4 damage two times; if current team is 5 teammates or more, targets enemies within large range ignoring DEF for ATK x 1.5 damage"
+            }
+        ],
+        festAbilityGP: [
+            {
+                festGPAbility: "[DEX]/[INT] teammates ATK, RCV Up Lv.2, Special CT Speed Up Lv.1; Slasher/Striker class teammates SPD Up Lv.2, DEF Up Lv.1, Guard % Up Lv.6; when remaining time becomes 60 s or less, [Straw Hat Pirates] [Giant] [Roger Pirates] teammates Special CT 10% reduction",
+                festGPSpecial: "Targets [DEX] teammates for Special CT 6% reduction; targets Slasher/Striker class teammates for Special CT 6% reduction; targets [Straw Hat Pirates] [Giant] [Roger Pirates] teammates for Special CT 10% reduction; targets 2 teammates with Special CT 100% or more for 60% chance of Haste",
+                uses: 4
+            },
+            {
+                festGPAbility: "[DEX]/[INT] teammates ATK, RCV Up Lv.3, Special CT Speed Up Lv.2; Slasher/Striker class teammates SPD Up Lv.3, DEF Up Lv.2, Guard % Up Lv.7; when remaining time becomes 60 s or less, [Straw Hat Pirates] [Giant] [Roger Pirates] teammates Special CT 15% reduction",
+                festGPSpecial: "Targets [DEX] teammates for Special CT 7% reduction; targets Slasher/Striker class teammates for Special CT 7% reduction; targets [Straw Hat Pirates] [Giant] [Roger Pirates] teammates for Special CT 15% reduction; targets 2 teammates with Special CT 100% or more for 70% chance of Haste",
+                uses: 4
+            },
+            {
+                festGPAbility: "[DEX]/[INT] teammates ATK, RCV Up Lv.4, Special CT Speed Up Lv.2; Slasher/Striker class teammates SPD Up Lv.4, DEF Up Lv.3, Guard % Up Lv.8; when remaining time becomes 60 s or less, [Straw Hat Pirates] [Giant] [Roger Pirates] teammates Special CT 20% reduction",
+                festGPSpecial: "Targets [DEX] teammates for Special CT 8% reduction; targets Slasher/Striker class teammates for Special CT 8% reduction; targets [Straw Hat Pirates] [Giant] [Roger Pirates] teammates for Special CT 20% reduction; targets 2 teammates with Special CT 100% or more for 80% chance of Haste",
+                uses: 4
+            },
+            {
+                festGPAbility: "[DEX]/[INT] teammates ATK, RCV Up Lv.5, Special CT Speed Up Lv.3; Slasher/Striker class teammates SPD Up Lv.5, DEF Up Lv.3, Guard % Up Lv.9; when remaining time becomes 60 s or less, [Straw Hat Pirates] [Giant] [Roger Pirates] teammates Special CT 25% reduction",
+                festGPSpecial: "Targets [DEX] teammates for Special CT 9% reduction; targets Slasher/Striker class teammates for Special CT 9% reduction; targets [Straw Hat Pirates] [Giant] [Roger Pirates] teammates for Special CT 25% reduction; targets 2 teammates with Special CT 100% or more for 90% chance of Haste",
+                uses: 4
+            },
+            {
+                festGPAbility: "[DEX]/[INT] teammates ATK, RCV Up Lv.6, Special CT Speed Up Lv.3; Slasher/Striker class teammates SPD Up Lv.6, DEF Up Lv.4, Guard % Up Lv.10; when remaining time becomes 60 s or less, [Straw Hat Pirates] [Giant] [Roger Pirates] teammates Special CT 30% reduction",
+                festGPSpecial: "Targets [DEX] teammates for Special CT 10% reduction; targets Slasher/Striker class teammates for Special CT 10% reduction; targets [Straw Hat Pirates] [Giant] [Roger Pirates] teammates for Special CT 30% reduction; targets 2 teammates with Special CT 100% or more for 100% chance of Haste",
+                uses: 4
+            }
+        ],
+        festAbilityGPCondition: "After guarding 3 times"
+    },
+    4632: {//Vivi
+        captain: "Reduces crew's Special charge time by 2 turns at start of quest, boosts [QCK], Free Spirit, and Slasher characters' ATK by 6x when slots match (5x otherwise), RCV by 1.35x, and boosts Pirate EXP earned by 2.25x (unless character became Captain in the middle of the quest) [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Royalty] characters are on the crew, reduces crew's Paralysis/ATK Down (applied by enemy) duration by 3 turns",
+        special: "Reduces all enemies' Percent Damage Reduction duration by 7 turns, allows crew to perform Super Tandem with [QCK][DEX] slots for 3 turns, and changes crew's slots (including [BLOCK] slots) to [QCK] slots unless slots are [QCK]. If field has \"Territory: [QCK]\" and \"Territory: Free Spirit class\" at the same time or \"Territory: Crew\", applies Weaken (increase damage taken by 2x for all enemies, damage further increased by 1.3x if enemy has Increase Damage Taken) to all enemies (ignoring immunity to status effects) for 1 turn and activates HP Guard of 95% effect for 1 turn. Otherwise, applies Weaken (increase damage taken by 1.5x for all enemies, damage further increased by 1.3x if enemy has Increase Damage Taken) to all enemies for 1 turn. If crew has 6 Free Spirit characters and 3 or more [Royalty] characters, reduces the Special charge time of middle-row [Royalty] [Mythical Zoan-type] characters by 15 turns and sets the chain multiplier's minimum value at 3.5 and maximum value at 30 for 3 turns [Special charge time reduction effect<hidden> of \"Elegant Swordplay\"</hidden> can be activated up to 1 time including any Specials with similar effect]. If 3 or more Slasher chararacters and 3 or more [Straw Hat Pirates] characters are on the crew, sets the chain multiplier's minimum value at 3.5 and maximum value at 30 for 3 turns",
+        specialName: "Elegant Swordplay",
+        sailor: {
+            base: "Reduces character's Special Reverse by 3 turns",
+            level1: "Boosts [QCK] characters' base ATK by 1.1x"
+        },
+        superSpecialCriteria: "When any 3 [Royalty] [Mythical Zoan-type] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
+        superSpecial: "Locks crew's slots for 1 turn, reduces crew's ATK Up effect by 1.0 but changes the boost to a stackable boost<hidden> (the reduction of the effect cannot go below 1.0; after being changed the effect will not be treated as a type effect boost and can no longer change the effect and turn duration; certain special status will not carry over; stackable with other type effect boost effect)</hidden>, and changes [QCK] characters to Super [QCK]",
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Former / Royalty]",
+                description: [
+                    "Adds 3% of character's base RCV to supported character's base RCV [AUTO+] At battle 2, activates supported character's Super Effect. At battle 2, activates supported character's Special",
+                    "Adds 5% of character's base RCV to supported character's base RCV [AUTO+] At battle 2, activates supported character's Super Effect. At battle 2, activates supported character's Special",
+                    "Adds 7% of character's base RCV to supported character's base RCV [AUTO+] At battle 2, activates supported character's Super Effect. At battle 2, activates supported character's Special",
+                    "Adds 9% of character's base RCV to supported character's base RCV [AUTO+] At battle 2, activates supported character's Super Effect. At battle 2, activates supported character's Special",
+                    "Adds 12% of character's base RCV to supported character's base RCV [AUTO+] At battle 2, activates supported character's Super Effect. At battle 2, activates supported character's Special"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base RCV by 10",
+            "Boosts base HP by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base RCV by 30",
+            "Acquire Potential 2: Damage Limit Break: Type",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 20",
+            "Boosts base ATK by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 40",
+            "Acquire Sailor Ability 2: Boosts [QCK] characters' base ATK by 1.1x",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 80",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Acquire Potential 3: Last Tap",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Damage Limit Break: Type",
+                description: [
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.1 for 4, +0.2 for 5, +0.3 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.1 for 3, +0.2 for 4, +0.3 for 5, +0.4 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.3 for 4, +0.4 for 5, +0.5 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.1 for 1, +.0.1 for 2, +0.2 for 3, +0.4 for 4, +0.5 for 5, +0.6 for 6 ",
+                    "Boosts Damage Limit Break effect based on number of [QCK] characters on the crew (except as Support Characters): +0.2 for 1, +.0.3 for 2, +0.4 for 3, +0.5 for 4, +0.6 for 5, +0.75 for 6 "
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "When crew has lock chain multiplier status and crew's HP is 50% or below",
+            description: [
+                "Changes character's Rainbow slot to Super [QCK] (ignoring inability to change Rainbow slots), and further boosts the chain multiplier of the final tap by 1.25x",
+                "Changes character's Rainbow slot to Super [QCK] (ignoring inability to change Rainbow slots), and further boosts the chain multiplier of the final tap by 1.5x",
+                "Changes character's Rainbow slot to Super [QCK] (ignoring inability to change Rainbow slots), and further boosts the chain multiplier of the final tap by 1.75x",
+                "Changes character's Rainbow slot to Super [QCK] (ignoring inability to change Rainbow slots), and further boosts the chain multiplier of the final tap by 2x",
+                "Changes character's Rainbow slot to Super [QCK] (ignoring inability to change Rainbow slots), and further boosts the chain multiplier of the final tap by 2.25x"
+            ]
+        },
+        festStats: {
+            def: 159,
+            spd: 169,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from [STR] by 30％",
+        festAbility: [
+            "[QCK]/Free Spirit class and [Royalty] teammates HP Up Lv.2, SPD Up Lv.2, Special CT Speed Up Lv.1; [STR]/Driven class enemies ATK Down Lv.2, Miss % Up Lv.12; if 5 or more [QCK] characters or 3 or more [Royalty] characters are on the team, when appearing on the field, [Royalty] teammates Special CT 10% reduction; self HP Up Lv.2",
+            "[QCK]/Free Spirit class and [Royalty] teammates HP Up Lv.3, SPD Up Lv.3, Special CT Speed Up Lv.1; [STR]/Driven class enemies ATK Down Lv.3, Miss % Up Lv.14; if 5 or more [QCK] characters or 3 or more [Royalty] characters are on the team, when appearing on the field, [Royalty] teammates Special CT 15% reduction; self HP Up Lv.3",
+            "[QCK]/Free Spirit class and [Royalty] teammates HP Up Lv.4, SPD Up Lv.4, Special CT Speed Up Lv.2; [STR]/Driven class enemies ATK Down Lv.4, Miss % Up Lv.16; if 5 or more [QCK] characters or 3 or more [Royalty] characters are on the team, when appearing on the field, [Royalty] teammates Special CT 20% reduction; self HP Up Lv.4",
+            "[QCK]/Free Spirit class and [Royalty] teammates HP Up Lv.5, SPD Up Lv.5, Special CT Speed Up Lv.2; [STR]/Driven class enemies ATK Down Lv.5, Miss % Up Lv.18; if 5 or more [QCK] characters or 3 or more [Royalty] characters are on the team, when appearing on the field, [Royalty] teammates Special CT 25% reduction; self HP Up Lv.5",
+            "[QCK]/Free Spirit class and [Royalty] teammates HP Up Lv.6, SPD Up Lv.6, Special CT Speed Up Lv.3; [STR]/Driven class enemies ATK Down Lv.6, Miss % Up Lv.20; if 5 or more [QCK] characters or 3 or more [Royalty] characters are on the team, when appearing on the field, [Royalty] teammates Special CT 30% reduction; self HP Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 25,
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.1 (11 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 73% chance to evade CT delay/Action Bind/Halve Stats (6 s); targets 2 enemies with low current HP for 2300 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.1 (12 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 76% chance to evade CT delay/Action Bind/Halve Stats (7 s); targets 2 enemies with low current HP for 2600 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.2 (13 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 79% chance to evade CT delay/Action Bind/Halve Stats (8 s); targets 2 enemies with low current HP for 2900 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.2 (14 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 82% chance to evade CT delay/Action Bind/Halve Stats (9 s); targets 2 enemies with low current HP for 3200 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.3 (15 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 85% chance to evade CT delay/Action Bind/Halve Stats (10 s); targets 2 enemies with low current HP for 3500 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.3 (16 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 88% chance to evade CT delay/Action Bind/Halve Stats (11 s); targets 2 enemies with low current HP for 3800 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.4 (17 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 91% chance to evade CT delay/Action Bind/Halve Stats (12 s); targets 2 enemies with low current HP for 4100 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.4 (18 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 94% chance to evade CT delay/Action Bind/Halve Stats (13 s); targets 2 enemies with low current HP for 4400 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.5 (19 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 97% chance to evade CT delay/Action Bind/Halve Stats (14 s); targets 2 enemies with low current HP for 4700 damage"
+            },
+            {
+                cooldown: 25,
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.6 (20 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 100% chance to evade CT delay/Action Bind/Halve Stats (15 s); targets 2 enemies with low current HP for 5000 damage"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "When remaining time is 60s or less",
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.7 (25 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 100% chance to evade CT delay/Action Bind/Halve Stats/fixed damage (25 s); targets 3 enemies with low current HP for 5000 damage"
+            },
+            llbbase: {
+                condition: "When remaining time is 70s or less",
+                description: "Targets [QCK] and [Royalty] teammates for ATK Up Lv.8 (30 s); targets [QCK]/Free Spirit class and [Royalty] teammates for 100% chance to evade CT delay/Action Bind/Halve Stats/fixed damage (30 s); targets all enemies for 5000 damage"
+            }
+        }
+    },
+    4633: {//Nami
+        special: "Reduces crew's Burn duration by 6 turns, reduces all enemies' Resilience duration by 6 turns, cuts crew's HP by 80%, boosts [DEX], [QCK] and [INT] characters' slot effects by 2.75x for 2 turns, and reduces Captain's Special charge time by 3 turns. If Captain is a [DEX] or [INT], boosts the chain multiplier by +1.0 for 1 turn and applies \"Territory: Striker class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory). If Captain is a [QCK] or [PSY], reduces damage taken by 95% for 1 turn and applies \"Territory: Free Spirit class\" to the field (boosts crew's ATK up to 1.5x and reduces damage taken up to 25% based on number of characters matching the territory). ",
+        specialName: "Guiding to the Objective",
+        sailor: {
+            base: "Makes Striker and Free Spirit characters' [STR] slots have matching slot effects",
+            level1: "Boosts crew's base ATK and RCV by 100"
+        },
+        support: [
+            {
+                Characters: "Nefeltari Vivi, Nico Robin, Shirahoshi",
+                description: [
+                    "Once per quest, if supported character uses a Special, reduces crew's Burn duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's Burn duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's Burn duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's Burn duration by 1 turn",
+                    "Once per quest, if supported character uses a Special, reduces crew's Burn duration by 1 turn and boosts the chain multiplier by +0.5 for 1 turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: No Healing",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 20",
+            "Acquire 1 additional Socket slot",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 80",
+            "Acquire Sailor Ability 2: Boosts crew's base ATK and RCV by 100",
+            "Boosts base ATK by 40",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: Slot Bind"
+        ],
+        potential: [
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            },
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            }
+        ],
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack"
+        ],
+        festAttackTarget: "Targets closest enemies"
+    },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
