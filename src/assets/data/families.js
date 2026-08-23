@@ -752,6 +752,7 @@ const Shamrock = [ "Saint Shamrock", "St. Shamrock" ];
 const Gunko = [ "Saintess Gunko", "St. Gunko" ];
 const Collun = [ "Collun" ];
 const Jarul = [ "Jarul" ];
+const Loki = [ "Loki" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -5264,6 +5265,11 @@ window.families = {
     4626: [ ...GolDRoger ],
     4627: [ ...SilversRayleigh ],
     4628: [ ...VinsmokeReiju ],
+    4629: [ ...Loki ],
+    4630: [ ...Gaban ],
+    4631: [ ...MonkeyDLuffy, ...RoronoaZoro ],
+    4632: [ ...NefertariVivi ],
+    4633: [ ...Nami ],
     //break
     5013: [ ...MonkeyDLuffy ],
     5014: [ ...MonkeyDLuffy ],
