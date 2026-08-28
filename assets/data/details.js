@@ -190979,6 +190979,765 @@ window.details = {
             }
         ]
     },
+    4634: {//Gerd
+        captain: "Reduces Slasher and Striker characters' Special charge time by 2 turns at start of quest, launches the following effect at start of quest: \"Boosts Slasher and Striker characters' ATK by 3x for 10 turns\", makes [DEX] and [PSY] characters' [DEX][PSY][RCV][TND] slots have matching slot effects, reduces [PSY] characters' Bind duration by 6 turns, and allows crew to obtain [RCV] slots with PERFECT taps [Applies following effect based on number of applicable Character Tags on crew] Boosts [Elbaph Arc] characters' ATK by 6x and HP by 1.5x",
+        special: "Deals 200x character's ATK in non-type damage to all enemies, further increases crew's ATK UpOrb Boost by 1.25x (up to a maximum 6x), and boosts crew's ATK based on the damage reduction effect applied on the crew (e.g. if crew has 95% damage reduction, boosts ATK by 1.95x) for 2 turns. If a [STR], [DEX], or [QCK] is set as Support for character, applies \"Territory: Slasher class\" to the field for 2 turns (applies \"Territory: Striker class\" to the field for 2 turns otherwise), then after that, applies -50% [DEX] and [PSY] Resistance to all enemies for 2 turns. If enemy has increase damage taken and Weakened status when Special is launched, locks crew's slots for 1 turn, then after 1 turn, increases all enemies' damage taken by 2.25x for 1 turn",
+        specialName: "Apologizing to the Little Human",
+        sailor: {
+            base: "Reduces [PSY] [Straw Hat Pirates] [Four Emperors] [Giant] characters' Bind duration by 6 turns and makes their [RCV] slots have matching slot effects",
+            level1: "If 3 or more [Straw Hat Pirates] [Four Emperors] [Giant] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 5 turns at start of crew's next turn (only once per quest)"
+        },
+        superSpecialCriteria: "When any 3 [Giant] characters not including self or any 3 [Straw Hat Pirates] characters are on the crew (except as Double Characters in inactive state; can be launched when character is a crewmate)",
+        superSpecial: "Reduces damage taken by 95% for 1 turn, boosts the chain multiplier by +2.0 for 2 turns, changes [Straw Hat Pirates] [Four Emperors] [Giant] characters' [BLOCK] and type slots to [RCV], and changes [PSY] characters to Super [PSY]",
+        support: [
+            {
+                Characters: "[PSY] characters with the following Character Tag: [Giant]",
+                description: [
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 2 turns at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 2 turns at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 3 turns at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: [INT] Damage Reduction",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 40",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 60",
+            "Acquire Sailor Ability 2: If 3 or more [Straw Hat Pirates] [Four Emperors] [Giant] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 5 turns at start of crew's next turn (only once per quest)",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 40",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 80",
+            "Acquire Potential 3: Last Tap",
+            "LOCKED WITH KEY",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base RCV by 50",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "[INT] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [INT] characters by 2%",
+                    "Reduces damage taken from [INT] characters by 3%",
+                    "Reduces damage taken from [INT] characters by 4%",
+                    "Reduces damage taken from [INT] characters by 5%",
+                    "Reduces damage taken from [INT] characters by 7%"
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "When crew has ATK Up, slot effect boost, and type effect boost",
+            description: [
+                "Further boosts the chain multiplier of the final tap by 1.2x",
+                "Further boosts the chain multiplier of the final tap by 1.4x",
+                "Further boosts the chain multiplier of the final tap by 1.6x",
+                "Further boosts the chain multiplier of the final tap by 1.8x",
+                "Further boosts the chain multiplier of the final tap by 2x"
+            ]
+        },
+        festStats: {
+            def: 174,
+            spd: 161,
+            style: "RCV"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Lv.2 (Medium Range)",
+            "Normal Attack",
+            "Heal Lv.2 (Medium Range)"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades RCV Bind, reduce damage taken from [INT] by 30%",
+        festAbility: [
+            "[PSY]/Striker class and [Giant] teammates HP Up Lv.4, Guard % Up Lv.3; when appearing on the field, targets [Giant] teammates with less than 50% HP for HP 30% healing; when remaining time is 60 s or less, [PSY]/Striker class and [Giant] teammates ATK Up Lv.2",
+            "[PSY]/Striker class and [Giant] teammates HP Up Lv.5, Guard % Up Lv.4; when appearing on the field, targets [Giant] teammates with less than 50% HP for HP 35% healing; when remaining time is 60 s or less, [PSY]/Striker class and [Giant] teammates ATK Up Lv.3",
+            "[PSY]/Striker class and [Giant] teammates HP Up Lv.6, Guard % Up Lv.5; when appearing on the field, targets [Giant] teammates with less than 50% HP for HP 40% healing; when remaining time is 60 s or less, [PSY]/Striker class and [Giant] teammates ATK Up Lv.4",
+            "[PSY]/Striker class and [Giant] teammates HP Up Lv.7, Guard % Up Lv.6; when appearing on the field, targets [Giant] teammates with less than 50% HP for HP 45% healing; when remaining time is 60 s or less, [PSY]/Striker class and [Giant] teammates ATK Up Lv.5",
+            "[PSY]/Striker class and [Giant] teammates HP Up Lv.8, Guard % Up Lv.7; when appearing on the field, targets [Giant] teammates with less than 50% HP for HP 50% healing; when remaining time is 60 s or less, [PSY]/Striker class and [Giant] teammates ATK Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.1 (6 s), RCV x 1.1 healing; targets [Giant] teammates for 73% chance to evade RCV Bind/Damage Over Time (6 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 3.2 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 73% chance of Halve DEF (11 s), ATK x 3.2 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.1 (7 s), RCV x 1.2 healing; targets [Giant] teammates for 76% chance to evade RCV Bind/Damage Over Time (7 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 3.4 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 76% chance of Halve DEF (12 s), ATK x 3.4 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.1 (8 s), RCV x 1.3 healing; targets [Giant] teammates for 79% chance to evade RCV Bind/Damage Over Time (8 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 3.6 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 79% chance of Halve DEF (13 s), ATK x 3.6 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.2 (9 s), RCV x 1.4 healing; targets [Giant] teammates for 82% chance to evade RCV Bind/Damage Over Time (9 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 3.8 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 82% chance of Halve DEF (14 s), ATK x 3.8 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.2 (10 s), RCV x 1.5 healing; targets [Giant] teammates for 85% chance to evade RCV Bind/Damage Over Time (10 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 4 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 85% chance of Halve DEF (15 s), ATK x 4 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.3 (11 s), RCV x 1.6 healing; targets [Giant] teammates for 88% chance to evade RCV Bind/Damage Over Time (11 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 4.2 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 88% chance of Halve DEF (16 s), ATK x 4.2 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.3 (12 s), RCV x 1.7 healing; targets [Giant] teammates for 91% chance to evade RCV Bind/Damage Over Time (12 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 4.4 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 91% chance of Halve DEF (17 s), ATK x 4.4 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.3 (13 s), RCV x 1.8 healing; targets [Giant] teammates for 94% chance to evade RCV Bind/Damage Over Time (13 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 4.6 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 94% chance of Halve DEF (18 s), ATK x 4.6 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.4 (14 s), RCV x 1.9 healing; targets [Giant] teammates for 97% chance to evade RCV Bind/Damage Over Time (14 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 4.8 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 97% chance of Halve DEF (19 s), ATK x 4.8 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 26,
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.5 (15 s), RCV x 2 healing; targets [Giant] teammates for 100% chance to evade RCV Bind/Damage Over Time (15 s); if current team is 7 teammates or more, targets enemies within large range for ATK x 5 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 100% chance of Halve DEF (20 s), ATK x 5 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "After character receives team's Rumble Special 4 times",
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.7 (30 s), RCV x 3 healing; targets [Giant] teammates for 100% chance to evade RCV Bind/Damage Over Time/percent damage (30 s)、targets enemies within large range for ATK x 5.5 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 100% chance of Halve DEF (25 s), ATK x 5.5 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            },
+            llbbase: {
+                condition: "After character receives team's Rumble Special 3 times",
+                description: "Targets [PSY]/Striker class and [Giant] teammates for DEF Up Lv.8 (40 s), RCV x 4 healing; targets [Giant] teammates for 100% chance to evade RCV Bind/Damage Over Time/percent damage (40 s)、targets enemies within large range for ATK x 6 damage; during Assault Rumble, targets [INT]/Slasher class enemies for 100% chance of Halve DEF (30 s), ATK x 6 damage; if 5 or more [Giant] characters are on the team, switches character with 2nd sub character"
+            }
+        }
+    },
+    4635: {//Ripley
+        captain: "Reduces crew's Special charge time by 2 turns and Switch Effect by 2 at start of quest, boosts Powerhouse and Striker characters' HP by 1.2x, ATK by 4.75x, boosts their ATK by approximately 6x when they have [RCV] slots, makes their [RCV] slots have matching slot effects, reduces [DEX] characters' Bind duration by 6 turns, reduces crew's Burn (applied by enemy) duration by 10 turns, and allows crew to obtain [RCV] slots with PERFECT taps",
+        special: "Extends the duration of crew's damage dealt to enemies with a specific status effect boost and Percent Damage Reduction status by 2 turns, further increases all enemies' increase damage taken effect by +1.0, and reduces all enemies' Percent Damage Reduction duration by 10 turns. If \"Scopper Gaban\" or \"Collun\" has launched a Special in this turn, swaps bottom-left character with the Captain for 3 turns, then after that, applies -50% [DEX] and [PSY] Resistance to all enemies for 2 turns",
+        specialName: "Telling the Grand History of Elbaph",
+        sailor: {
+            base: "Reduces [DEX] [Straw Hat Pirates] [Roger Pirates] [Giant] characters' Bind duration by 6 turns and makes their [RCV] slots have matching slot effects",
+            level1: "If 3 or more [Straw Hat Pirates] [Roger Pirates] [Giant] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 5 turns at start of crew's next turn (only once per quest)"
+        },
+        superSpecialCriteria: "When any of the following characters are on the crew (can be launched when character is a crewmate): Scopper Gaban, Collun",
+        superSpecial: "Can choose to completely remove crew's Swap Captains effect, changes [DEX] characters' [BLOCK] and type slots to [RCV], applies \"Territory: [DEX]\" to the field for 2 turns, doubles the type effects of normal attacks for Striker characters for 1 turn (effect can be overwritten), reduces \"Scopper Gaban\" crewmate's Special charge time by 8 turns, and changes [DEX] characters to Super [DEX]",
+        support: [
+            {
+                Characters: "Striker class characters with the following Character Tag: [Giant]",
+                description: [
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 1 turn at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 2 turns at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 2 turns at start of crew's next turn",
+                    "Once per quest, if enemy activates Threshold Damage Reduction, reduces all enemies' Threshold Damage Reduction duration by 3 turns at start of crew's next turn"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Critical Hit",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 10",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: [QCK] Damage Reduction",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 50",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: If 3 or more [Straw Hat Pirates] [Roger Pirates] [Giant] characters are on the crew and enemy launches Threshold Damage Reduction effect, reduces all enemies' Threshold Damage Reduction duration by 5 turns at start of crew's next turn (only once per quest)",
+            "Boosts base RCV by 40",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 40",
+            "Boosts base HP by 80",
+            "Acquire Potential 3: Last Tap",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 150",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Reduce base Special Cooldown by 1 turn"
+        ],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+        potential: [
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 100% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "[QCK] Damage Reduction",
+                description: [
+                    "Reduces damage taken from [QCK] characters by 2%",
+                    "Reduces damage taken from [QCK] characters by 3%",
+                    "Reduces damage taken from [QCK] characters by 4%",
+                    "Reduces damage taken from [QCK] characters by 5%",
+                    "Reduces damage taken from [QCK] characters by 7%"
+                ]
+            },
+            {
+                Name: "Last Tap",
+                description: [
+                    "Obtain Last Tap Lv.1",
+                    "Obtain Last Tap Lv.2",
+                    "Obtain Last Tap Lv.3",
+                    "Obtain Last Tap Lv.4",
+                    "Obtain Last Tap Lv.5"
+                ]
+            }
+        ],
+        lastTap: {
+            condition: "When any of the following characters are on the crew (except as Support Characters): Scopper Gaban, Collun",
+            description: [
+                "Boosts damage dealt to enemies with increase damage taken status by 2.5x for 1 turn, and if crew lands 6 PERFECT strikes in this turn, sets all enemies' DEF to 0 and applies increase damage taken status to all enemies by 2x the next turn",
+                "Boosts damage dealt to enemies with increase damage taken status by 2.5x for 1 turn, and if crew lands 6 PERFECT strikes in this turn, sets all enemies' DEF to 0 and applies increase damage taken status to all enemies by 2.5x the next turn",
+                "Boosts damage dealt to enemies with increase damage taken status by 3x for 1 turn, and if crew lands 6 PERFECT strikes in this turn, sets all enemies' DEF to 0 and applies increase damage taken status to all enemies by 2.5x the next turn",
+                "Boosts damage dealt to enemies with increase damage taken status by 3x for 1 turn, and if crew lands 6 PERFECT strikes in this turn, sets all enemies' DEF to 0 and applies increase damage taken status to all enemies by 3x the next turn",
+                "Boosts damage dealt to enemies with increase damage taken status by 3x for 1 turn, and if crew lands 6 PERFECT strikes in this turn, sets all enemies' DEF to 0, applies increase damage taken status to all enemies by 3x, and applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken) to all enemies the next turn"
+            ]
+        },
+        festStats: {
+            def: 169,
+            spd: 144,
+            style: "SPT"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Power Attack",
+            "Heal Lv.1 (Small Range)",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from [QCK] by 30％",
+        festAbility: [
+            "[DEX]/Powerhouse class and [Giant] teammates HP Up Lv.2, SPD Up Lv.2; \"Scopper Gaban\" and [Giant] teammates ATK Up Lv.1, HP Up Lv.1; when remaining time is 60 s or more, self Special CT Speed Up Lv.1; \"Scopper Gaban\" and \"Collun\" teammates Special CT Speed Up Lv.1",
+            "[DEX]/Powerhouse class and [Giant] teammates HP Up Lv.3, SPD Up Lv.3; \"Scopper Gaban\" and [Giant] teammates ATK Up Lv.2, HP Up Lv.2; when remaining time is 60 s or more, self Special CT Speed Up Lv.1; \"Scopper Gaban\" and \"Collun\" teammates Special CT Speed Up Lv.1",
+            "[DEX]/Powerhouse class and [Giant] teammates HP Up Lv.4, SPD Up Lv.4; \"Scopper Gaban\" and [Giant] teammates ATK Up Lv.3, HP Up Lv.3; when remaining time is 60 s or more, self Special CT Speed Up Lv.2; \"Scopper Gaban\" and \"Collun\" teammates Special CT Speed Up Lv.2",
+            "[DEX]/Powerhouse class and [Giant] teammates HP Up Lv.5, SPD Up Lv.5; \"Scopper Gaban\" and [Giant] teammates ATK Up Lv.4, HP Up Lv.4; when remaining time is 60 s or more, self Special CT Speed Up Lv.2; \"Scopper Gaban\" and \"Collun\" teammates Special CT Speed Up Lv.2",
+            "[DEX]/Powerhouse class and [Giant] teammates HP Up Lv.6, SPD Up Lv.6; \"Scopper Gaban\" and [Giant] teammates ATK Up Lv.5, HP Up Lv.5; when remaining time is 60 s or more, self Special CT Speed Up Lv.3; \"Scopper Gaban\" and \"Collun\" teammates Special CT Speed Up Lv.3"
+        ],
+        festSpecial: [
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.1 (11 s), SPD Up Lv.1 (11 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 11% reduction, 73% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 73% chance to evade Halve Stats (6 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.1 (11 s); targets [QCK]/Slasher class enemies for ATK x 2.2 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.1 (12 s), SPD Up Lv.1 (12 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 12% reduction, 76% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 76% chance to evade Halve Stats (7 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.1 (12 s); targets [QCK]/Slasher class enemies for ATK x 2.4 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.1 (13 s), SPD Up Lv.1 (13 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 13% reduction, 79% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 79% chance to evade Halve Stats (8 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.1 (13 s); targets [QCK]/Slasher class enemies for ATK x 2.6 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.2 (14 s), SPD Up Lv.2 (14 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 14% reduction, 82% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 82% chance to evade Halve Stats (9 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.1 (14 s); targets [QCK]/Slasher class enemies for ATK x 2.8 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.2 (15 s), SPD Up Lv.2 (15 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 15% reduction, 85% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 85% chance to evade Halve Stats (10 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.2 (15 s); targets [QCK]/Slasher class enemies for ATK x 3 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.3 (16 s), SPD Up Lv.3 (16 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 16% reduction, 88% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 88% chance to evade Halve Stats (11 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.2 (16 s); targets [QCK]/Slasher class enemies for ATK x 3.2 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.3 (17 s), SPD Up Lv.3 (17 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 17% reduction, 91% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 91% chance to evade Halve Stats (12 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.2 (17 s); targets [QCK]/Slasher class enemies for ATK x 3.4 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.3 (18 s), SPD Up Lv.3 (18 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 18% reduction, 94% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 94% chance to evade Halve Stats (13 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.3 (18 s); targets [QCK]/Slasher class enemies for ATK x 3.6 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.4 (19 s), SPD Up Lv.4 (19 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 19% reduction, 97% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 97% chance to evade Halve Stats (14 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.3 (19 s); targets [QCK]/Slasher class enemies for ATK x 3.8 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.5 (20 s), SPD Up Lv.5 (20 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 20% reduction, 100% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 100% chance to evade Halve Stats (15 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.4 (20 s); targets [QCK]/Slasher class enemies for ATK x 4 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            }
+        ],
+        festSuperSpecial: {
+            base: {
+                condition: "When remaining time is 60s or less",
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.6 (30 s), SPD Up Lv.6 (30 s); targets [QCK] enemies for 100% chance of Halve DEF (10 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 30% reduction, 100% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 100% chance to evade Halve Stats (20 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.6 (30 s); targets [QCK]/Slasher class enemies for ATK x 4.5 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            },
+            llbbase: {
+                condition: "When remaining time is 70s or less",
+                description: "Targets [DEX]/Powerhouse class and [Giant] teammates for ATK Up Lv.7 (40 s), SPD Up Lv.7 (40 s); targets [QCK] enemies for 100% chance of Halve DEF (15 s); targets \"Scopper Gaban\" and \"Collun\" teammates for Special CT 50% reduction, 100% chance of Haste; if \"Scopper Gaban\" or \"Collun\" is on the team, targets [DEX]/Powerhouse class and [Giant] teammates for 100% chance to evade Halve Stats (30 s); during Assault Rumble, targets [DEX]/Striker class teammates for Special CT Speed Up Lv.7 (40 s); targets [QCK]/Slasher class enemies for ATK x 5 damage; when remaining time is 60 s or less, switches character with 2nd sub character"
+            }
+        }
+    },
+    4636: {//Collun
+        special: "Doubles all enemies' damage taken for 1 turn, boosts [Elbaph Arc] characters' slot effects by 2.5x for 3 turns, changes Powerhouse and Striker characters' slots (including [BLOCK] slots) to [RCV], and deals 60x character's ATK in [PSY] damage to all enemies at end of turn for 3 turns",
+        specialName: "Young Warrior Lost to the Emperor",
+        sailor: {
+            base: "Boosts [Four Emperors] [Giant] characters' base ATK by 250",
+            level1: "Makes [PSY] characters' [INT] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "[PSY] Striker characters",
+                description: [
+                    "Adds 1% of character's base HP to supported character's base HP [AUTO+] At battle 4, activates supported character's Special",
+                    "Adds 3% of character's base HP to supported character's base HP [AUTO+] At battle 4, activates supported character's Special",
+                    "Adds 5% of character's base HP to supported character's base HP [AUTO+] At battle 4, activates supported character's Special",
+                    "Adds 7% of character's base HP to supported character's base HP [AUTO+] At battle 4, activates supported character's Special",
+                    "Adds 9% of character's base HP to supported character's base HP [AUTO+] At battle 4, activates supported character's Special"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base RCV by 10",
+            "Boosts base HP by 60",
+            "Boosts base RCV by 10",
+            "Acquire Potential 1: Pinch Healing",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 40",
+            "Boosts base RCV by 20",
+            "Acquire Sailor Ability 2: Makes [PSY] characters' [INT] slots have matching slot effects",
+            "Boosts base HP by 80",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: No Healing"
+        ],
+        potential: [
+            {
+                Name: "Pinch Healing",
+                description: [
+                    "If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 30% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 40% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+                    "If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            }
+        ],
+        festStats: {
+            def: 232,
+            spd: 122,
+            style: "DEF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Normal Attack",
+            "Power Attack",
+            "Heal Self Lv.2"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from [INT] by 20%",
+        festAbility: [
+            "[PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates ATK Up Lv.1, DEF Up Lv.1; when guarding, up to 10 times \"Scopper Gaban\" and [Giant] teammates Special CT 6% reduction; when remaining time is 60 s or more, \"Scopper Gaban\" and [Giant] teammates Guard % Up Lv.1; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
+            "[PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates ATK Up Lv.1, DEF Up Lv.1; when guarding, up to 10 times \"Scopper Gaban\" and [Giant] teammates Special CT 7% reduction; when remaining time is 60 s or more, \"Scopper Gaban\" and [Giant] teammates Guard % Up Lv.1; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
+            "[PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates ATK Up Lv.2, DEF Up Lv.2; when guarding, up to 10 times \"Scopper Gaban\" and [Giant] teammates Special CT 8% reduction; when remaining time is 60 s or more, \"Scopper Gaban\" and [Giant] teammates Guard % Up Lv.2; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4",
+            "[PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates ATK Up Lv.2, DEF Up Lv.2; when guarding, up to 10 times \"Scopper Gaban\" and [Giant] teammates Special CT 9% reduction; when remaining time is 60 s or more, \"Scopper Gaban\" and [Giant] teammates Guard % Up Lv.2; during Assault Rumble, self HP Up Lv.9, Special CT Speed Up Lv.5",
+            "[PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates ATK Up Lv.4, DEF Up Lv.3; when guarding, up to 10 times \"Scopper Gaban\" and [Giant] teammates Special CT 10% reduction; when remaining time is 60 s or more, \"Scopper Gaban\" and [Giant] teammates Guard % Up Lv.4; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
+        ],
+        festSpecial: [
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.1 (11 s); targets enemies within medium range for ATK x 5.5 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 73% chance to evade Action Bind (11 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.1 (11 s), ATK x 1.2 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.1 (12 s); targets enemies within medium range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 76% chance to evade Action Bind (12 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.1 (12 s), ATK x 1.4 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.1 (13 s); targets enemies within medium range for ATK x 6.5 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 79% chance to evade Action Bind (13 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.2 (13 s), ATK x 1.6 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.1 (14 s); targets enemies within medium range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 82% chance to evade Action Bind (14 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.2 (14 s), ATK x 1.8 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.2 (15 s); targets enemies within medium range for ATK x 7.5 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 85% chance to evade Action Bind (15 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.3 (15 s), ATK x 2 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.2 (16 s); targets enemies within medium range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 88% chance to evade Action Bind (16 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.3 (16 s), ATK x 2.2 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.2 (17 s); targets enemies within medium range for ATK x 8.5 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 91% chance to evade Action Bind (17 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.4 (17 s), ATK x 2.4 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.3 (18 s); targets enemies within medium range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 94% chance to evade Action Bind (18 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.4 (18 s), ATK x 2.6 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.3 (19 s); targets enemies within medium range for ATK x 9.5 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 97% chance to evade Action Bind (19 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.5 (19 s), ATK x 2.8 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            },
+            {
+                cooldown: 28,
+                description: "Targets teammates within large range for Shield Lv.4 (20 s); targets enemies within medium range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); if 3 or more [Giant] characters or \"Scopper Gaban\" is on the team, targets [PSY]/Striker class and [Giant] and \"Scopper Gaban\" teammates for 100% chance to evade Action Bind (20 s); during Assault Rumble, targets [INT]/Slasher class enemies for DEF Down Lv.6 (20 s), ATK x 3 damage; when remaining time is 60 s or less, switches character with 1st sub character"
+            }
+        ]
+    },
+    4637: {//Dr. Vegapunk - Lilith
+        special: "Reduces crew's lock chain multiplier/decrease chain multiplier growth duration by 6 turns, double Shooter and Striker characters' advantageous class effect for 1 turn, and sets the chain multiplier's minimum value at 2.75 and maximum value at 30.0 for 1 turn",
+        specialName: "Ideal New Laboratory",
+        sailor: {
+            base: "Boosts [Straw Hat Pirates] [Giant] characters' base ATK by 250",
+            level1: "Makes [DEX] characters' [STR] slots have matching slot effects"
+        },
+        support: [
+            {
+                Characters: "[DEX] Shooter characters",
+                description: [
+                    "Adds 1% of character's base HP to supported character's base HP [AUTO+] At battle 3, activates supported character's Special",
+                    "Adds 3% of character's base HP to supported character's base HP [AUTO+] At battle 3, activates supported character's Special",
+                    "Adds 5% of character's base HP to supported character's base HP [AUTO+] At battle 3, activates supported character's Special",
+                    "Adds 7% of character's base HP to supported character's base HP [AUTO+] At battle 3, activates supported character's Special",
+                    "Adds 9% of character's base HP to supported character's base HP [AUTO+] At battle 3, activates supported character's Special"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 50",
+            "Acquire Potential 1: Barrier Penetration",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 30",
+            "Acquire 1 additional Socket slot",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 30",
+            "Acquire Sailor Ability 2: Makes [DEX] characters' [STR] slots have matching slot effects",
+            "Boosts base HP by 60",
+            "Reduce base Special Cooldown by 1 turn",
+            "Acquire Potential 2: No Healing"
+        ],
+        potential: [
+            {
+                Name: "Barrier Penetration",
+                description: [
+                    "This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 60% at the start of the turn",
+                    "This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+                ]
+            },
+            {
+                Name: "No Healing",
+                description: [
+                    "Reduces No Healing duration by 1 turn",
+                    "Reduces No Healing duration by 2 turns",
+                    "Reduces No Healing duration by 3 turns",
+                    "Reduces No Healing duration by 4 turns",
+                    "Reduces No Healing duration by 5 turns"
+                ]
+            }
+        ],
+        festStats: {
+            def: 155,
+            spd: 152,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind, reduce damage taken from [QCK] by 20%",
+        festAbility: [
+            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.2; if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, [QCK] enemies ATK Down Lv.3; when remaining time is 60 s or less, [QCK] enemies DEF Down Lv.2; during Assault Rumble, when appearing on the field, self Special CT 80% reduction",
+            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.3; if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, [QCK] enemies ATK Down Lv.4; when remaining time is 60 s or less, [QCK] enemies DEF Down Lv.3; during Assault Rumble, when appearing on the field, self Special CT 85% reduction",
+            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.4; if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, [QCK] enemies ATK Down Lv.5; when remaining time is 60 s or less, [QCK] enemies DEF Down Lv.4; during Assault Rumble, when appearing on the field, self Special CT 90% reduction",
+            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.5; if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, [QCK] enemies ATK Down Lv.6; when remaining time is 60 s or less, [QCK] enemies DEF Down Lv.5; during Assault Rumble, when appearing on the field, self Special CT 95% reduction",
+            "[DEX]/Striker class and [Straw Hat Pirates] teammates ATK Up Lv.6; if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, [QCK] enemies ATK Down Lv.7; when remaining time is 60 s or less, [QCK] enemies DEF Down Lv.6; during Assault Rumble, when appearing on the field, self Special CT 100% reduction"
+        ],
+        festSpecial: [
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.1 (11 s); targets [QCK] enemies for ATK Down Lv.1 (41 s), SPD Down Lv.1 (41 s), DEF Down Lv.1 (41 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 73% chance of Halve DEF (6 s); during Assault Rumble, targets [QCK] enemies for Special CT 11% delay, ATK x 2.2 damage; targets self for Special CT 11% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.1 (12 s); targets [QCK] enemies for ATK Down Lv.1 (42 s), SPD Down Lv.1 (42 s), DEF Down Lv.1 (42 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 76% chance of Halve DEF (7 s); during Assault Rumble, targets [QCK] enemies for Special CT 12% delay, ATK x 2.4 damage; targets self for Special CT 12% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.2 (13 s); targets [QCK] enemies for ATK Down Lv.1 (43 s), SPD Down Lv.1 (43 s), DEF Down Lv.1 (43 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 79% chance of Halve DEF (8 s); during Assault Rumble, targets [QCK] enemies for Special CT 13% delay, ATK x 2.6 damage; targets self for Special CT 13% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.2 (14 s); targets [QCK] enemies for ATK Down Lv.1 (44 s), SPD Down Lv.1 (44 s), DEF Down Lv.1 (44 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 82% chance of Halve DEF (9 s); during Assault Rumble, targets [QCK] enemies for Special CT 14% delay, ATK x 2.8 damage; targets self for Special CT 14% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.3 (15 s); targets [QCK] enemies for ATK Down Lv.2 (45 s), SPD Down Lv.2 (45 s), DEF Down Lv.1 (45 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 85% chance of Halve DEF (10 s); during Assault Rumble, targets [QCK] enemies for Special CT 15% delay, ATK x 3 damage; targets self for Special CT 15% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.3 (16 s); targets [QCK] enemies for ATK Down Lv.2 (46 s), SPD Down Lv.2 (46 s), DEF Down Lv.2 (46 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 88% chance of Halve DEF (11 s); during Assault Rumble, targets [QCK] enemies for Special CT 16% delay, ATK x 3.2 damage; targets self for Special CT 16% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.4 (17 s); targets [QCK] enemies for ATK Down Lv.2 (47 s), SPD Down Lv.2 (47 s), DEF Down Lv.2 (47 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 91% chance of Halve DEF (12 s); during Assault Rumble, targets [QCK] enemies for Special CT 17% delay, ATK x 3.4 damage; targets self for Special CT 17% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.4 (18 s); targets [QCK] enemies for ATK Down Lv.3 (48 s), SPD Down Lv.3 (48 s), DEF Down Lv.2 (48 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 94% chance of Halve DEF (13 s); during Assault Rumble, targets [QCK] enemies for Special CT 18% delay, ATK x 3.6 damage; targets self for Special CT 18% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.5 (19 s); targets [QCK] enemies for ATK Down Lv.3 (49 s), SPD Down Lv.3 (49 s), DEF Down Lv.2 (49 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 97% chance of Halve DEF (14 s); during Assault Rumble, targets [QCK] enemies for Special CT 19% delay, ATK x 3.8 damage; targets self for Special CT 19% reduction"
+            },
+            {
+                cooldown: 30,
+                description: "Targets enemies within large range for SPD Down Lv.6 (20 s); targets [QCK] enemies for ATK Down Lv.4 (50 s), SPD Down Lv.4 (50 s), DEF Down Lv.3 (50 s); if 4 or more [Straw Hat Pirates] [Giant] [Scientist] characters are on the team, targets 2 high DEF enemies for 100% chance of Halve DEF (15 s); during Assault Rumble, targets [QCK] enemies for Special CT 20% delay, ATK x 4 damage; targets self for Special CT 20% reduction"
+            }
+        ]
+    },
+    4638: {//5* PKA Luffy
+        special: "Deals 50,000 damage to all enemies, reduces crew's Despair duration by 2 turns, and reduces all enemies' DEF Up duration by 2 turns. If 3 or more [Straw Hat Pirates] [Vegapunk] characters are on the crew, boosts crew's chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 1 turn. If 3 or more [Giant] characters are on the crew, reduces crew's Paralysis duration by 2 turns",
+        specialName: "Retaliating Gum-Gum Elephant Gun",
+        sailor: {
+            base: "Reduces character's Special Reverse by 3 turns",
+            level1: "Reduces the duration of Reduce SFX by 5 turns"
+        },
+        support: [
+            {
+                Characters: "Striker class characters with the following Character Tag: [Giant]",
+                description: [
+                    "Adds 2% of character's base stats to supported character's base stats",
+                    "Adds 3% of character's base stats to supported character's base stats",
+                    "Adds 4% of character's base stats to supported character's base stats",
+                    "Adds 5% of character's base stats to supported character's base stats",
+                    "Adds 6% of character's base stats to supported character's base stats [AUTO+] At battle 5, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 20",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base HP by 20",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 40",
+            "Acquire Potential 2: Enrage/Increase Damage Taken",
+            "Acquire 1 additional Socket slot",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 50",
+            "Boosts base HP by 70",
+            "Reduce base Special Cooldown by 1 turn",
+            "LOCKED WITH KEY",
+            "Boosts base RCV by 10",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 20",
+            "Acquire Potential 3: Triple Special Activation",
+            "Boosts base HP by 300",
+            "Boosts base ATK by 100",
+            "Acquire Sailor Ability 2: Reduces the duration of Reduce SFX by 5 turns"
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+                ]
+            },
+            {
+                Name: "Triple Special Activation",
+                description: [
+                    "2 times per adventure, reduces Special Cooldown of this character by 1 turn after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character by 3 turns after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character by 5 turns after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character by 7 turns after the first times this special is used",
+                    "2 times per adventure, reduces Special Cooldown of this character completely after the first times this special is used"
+                ]
+            }
+        ],
+        festStats: {
+            def: 124,
+            spd: 174,
+            style: "DBF"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "60% chance to evade Special Bind",
+        festAbility: [
+            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.1, HP Up Lv.1; [PSY] enemies SPD Down Lv.1; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 12% reduction",
+            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.1, HP Up Lv.1; [PSY] enemies SPD Down Lv.2; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 14% reduction",
+            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.2, HP Up Lv.2; [PSY] enemies SPD Down Lv.3; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 16% reduction",
+            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.2, HP Up Lv.2; [PSY] enemies SPD Down Lv.4; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 18% reduction",
+            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.3, HP Up Lv.3; [PSY] enemies SPD Down Lv.5; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 20% reduction"
+        ],
+        festSpecial: [
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.1 (15 s), Miss % Up Lv.1 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 11% reduction; targets 1 enemy with high current HP for 2200 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.1 (15 s), Miss % Up Lv.1 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 12% reduction; targets 1 enemy with high current HP for 2400 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.1 (15 s), Miss % Up Lv.1 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 13% reduction; targets 1 enemy with high current HP for 2600 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.1 (15 s), Miss % Up Lv.1 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 14% reduction; targets 1 enemy with high current HP for 2800 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.2 (15 s), Miss % Up Lv.2 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 15% reduction; targets 1 enemy with high current HP for 3000 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.2 (15 s), Miss % Up Lv.2 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 16% reduction; targets 1 enemy with high current HP for 3200 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.2 (15 s), Miss % Up Lv.2 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 17% reduction; targets 1 enemy with high current HP for 3400 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.3 (15 s), Miss % Up Lv.3 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 18% reduction; targets 1 enemy with high current HP for 3600 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.3 (15 s), Miss % Up Lv.3 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 19% reduction; targets 1 enemy with high current HP for 3800 damage"
+            },
+            {
+                cooldown: 20,
+                description: "Targets 3 enemies for ATK Down Lv.4 (15 s), Miss % Up Lv.4 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 20% reduction; targets 1 enemy with high current HP for 4000 damage"
+            }
+        ]
+    },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
