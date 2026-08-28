@@ -753,6 +753,7 @@ const Gunko = [ "Saintess Gunko", "St. Gunko" ];
 const Collun = [ "Collun" ];
 const Jarul = [ "Jarul" ];
 const Loki = [ "Loki" ];
+const Ripley = [ "Ripley" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -5270,6 +5271,11 @@ window.families = {
     4631: [ ...MonkeyDLuffy, ...RoronoaZoro ],
     4632: [ ...NefertariVivi ],
     4633: [ ...Nami ],
+    4634: [ ...Gerd ],
+    4635: [ ...Ripley ],
+    4636: [ ...Collun ],
+    4637: [ ...Lilith ],
+    4638: [ ...MonkeyDLuffy ],
     //break
     5013: [ ...MonkeyDLuffy ],
     5014: [ ...MonkeyDLuffy ],
