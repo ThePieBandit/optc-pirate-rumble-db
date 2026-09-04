@@ -191738,6 +191738,179 @@ window.details = {
             }
         ]
     },
+    4640: {//Oars
+        captain: "Boosts Powerhouse and Striker characters' ATK by approximately 6.25x when slots match (3x otherwise), HP by 1.4x, and halves their RCV. If crew uses a Special to boost slot effects, extends the duration of that effect by 2 turns. Heals crew by number of enemies defeated by normal attacks multiplied by 50% of crew's total RCV at end of enemy's turn (halved RCV does not apply to this effect)",
+        special: "Reduces one enemy's HP by 10% (ignoring all defensive effects), and boosts [INT], Powerhouse, and Striker characters' base ATK by +1500 for 3 turns. If enemy has Threshold Damage Reduction status and an [INT] is set as Support for character when Special is launched, boosts [INT], Powerhouse, and Striker characters' ATK by 3.25x for 8 turns. If enemy has Threshold Damage Reduction status and a [PSY] is set as Support for character when Special is launched, reduces crew's ATK boost by 5 turns, but allows crew's ATK boost to be further increased up to 2 times, and further increases boost by 1.5x (up to a maximum 8x). If 2 or more [Thriller Bark Pirates] characters are on the crew, further increases crew's slot effect boost by 2x (up to a maximum 5x). If 3 or more [Giant] characters are on the crew, applies \"Territory: Powerhouse class\" to the field for 2 turns, and massively reduces a portion of each enemies' dealt damage that exceeds 3,000 for 2 turns",
+        specialName: "Giant Body Gum-Gum Bazooka",
+        sailor: {
+            base: "Character cannot be blown away by attack",
+            level1: "Adds 10x character's ATK on top of tap-timing bonuses"
+        },
+        support: [
+            {
+                Characters: "Characters with the following Character Tag: [Thriller Bark Pirates]",
+                description: [
+                    "Adds 12% of character's base HP to supported character's base HP",
+                    "Adds 14% of character's base HP to supported character's base HP",
+                    "Adds 16% of character's base HP to supported character's base HP",
+                    "Adds 18% of character's base HP to supported character's base HP",
+                    "Adds 20% of character's base HP to supported character's base HP"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 20",
+            "Acquire Potential 1: Slot Bind",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Enrage/Increase Damage Taken",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base HP by 50",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 20",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 70",
+            "Acquire Sailor Ability 2: Adds 10x character's ATK on top of tap-timing bonuses",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 100",
+            "Acquire Potential 3: Super Tandem Boost",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 50"
+        ],
+        potential: [
+            {
+                Name: "Slot Bind",
+                description: [
+                    "Reduces Slot Bind duration by 1 turn on this character",
+                    "Reduces Slot Bind duration by 2 turns on this character",
+                    "Reduces Slot Bind duration by 3 turns on this character",
+                    "Reduces Slot Bind duration by 4 turns on this character",
+                    "Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 225 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When a [Thriller Bark Pirates] [Seven Warlords of the Sea] [Giant] character performs Super Tandem",
+                "When a [Thriller Bark Pirates] [Seven Warlords of the Sea] [Giant] character performs Super Tandem",
+                "When a [Thriller Bark Pirates] [Seven Warlords of the Sea] [Giant] character performs Super Tandem",
+                "When a [Thriller Bark Pirates] [Seven Warlords of the Sea] [Giant] character performs Super Tandem",
+                "When a [Thriller Bark Pirates] [Seven Warlords of the Sea] [Giant] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Thriller Bark Pirates] [Seven Warlords of the Sea] [Giant] characters by 1 for 1 turn",
+                "Raises Boost Level of [Thriller Bark Pirates] [Seven Warlords of the Sea] [Giant] characters by 2 for 1 turn",
+                "Raises Boost Level of [Thriller Bark Pirates] [Seven Warlords of the Sea] [Giant] characters by 3 for 1 turn",
+                "Raises Boost Level of [Thriller Bark Pirates] [Seven Warlords of the Sea] [Giant] characters by 4 for 1 turn",
+                "Raises Boost Level of [Thriller Bark Pirates] [Seven Warlords of the Sea] [Giant] characters by 5 for 1 turn"
+            ]
+        },
+        festStats: {
+            def: 172,
+            spd: 160,
+            style: "ATK"
+        },
+        festAttackPattern: [
+            "Normal Attack",
+            "Heal Self Lv.2",
+            "Power Attack",
+            "Power Attack"
+        ],
+        festAttackTarget: "Targets closest enemies",
+        festResistance: "Completely evades Special Bind/Halve Stats, reduce damage taken from [PSY] by 30%",
+        festAbility: [
+            "[INT]/Powerhouse class and [Giant] teammates HP Up Lv.1, DEF Up Lv.1; if \"Monkey D. Luffy\" is on the team, self ATK Up Lv.7, SPD Up Lv.7; \"Monkey D. Luffy\" teammate ATK Down Lv.18; first 50 s of battle, [INT]/Powerhouse class and [Giant] teammates ATK Up Lv.1, Special CT Speed Up Lv.1",
+            "[INT]/Powerhouse class and [Giant] teammates HP Up Lv.2, DEF Up Lv.2; if \"Monkey D. Luffy\" is on the team, self ATK Up Lv.8, SPD Up Lv.8; \"Monkey D. Luffy\" teammate ATK Down Lv.18; first 50 s of battle, [INT]/Powerhouse class and [Giant] teammates ATK Up Lv.2, Special CT Speed Up Lv.1",
+            "[INT]/Powerhouse class and [Giant] teammates HP Up Lv.3, DEF Up Lv.3; if \"Monkey D. Luffy\" is on the team, self ATK Up Lv.9, SPD Up Lv.9; \"Monkey D. Luffy\" teammate ATK Down Lv.18; first 50 s of battle, [INT]/Powerhouse class and [Giant] teammates ATK Up Lv.3, Special CT Speed Up Lv.1",
+            "[INT]/Powerhouse class and [Giant] teammates HP Up Lv.4, DEF Up Lv.4; if \"Monkey D. Luffy\" is on the team, self ATK Up Lv.10, SPD Up Lv.10; \"Monkey D. Luffy\" teammate ATK Down Lv.18; first 50 s of battle, [INT]/Powerhouse class and [Giant] teammates ATK Up Lv.4, Special CT Speed Up Lv.2",
+            "[INT]/Powerhouse class and [Giant] teammates HP Up Lv.6, DEF Up Lv.6; if \"Monkey D. Luffy\" is on the team, self ATK Up Lv.12, SPD Up Lv.12; \"Monkey D. Luffy\" teammate ATK Down Lv.18; first 50 s of battle, [INT]/Powerhouse class and [Giant] teammates ATK Up Lv.6, Special CT Speed Up Lv.3"
+        ],
+        festSpecial: [
+            {
+                cooldown: 32,
+                description: "Targets [INT]/Powerhouse class and [Giant] teammates for ATK Up Lv.1 (20 s); targets 2 enemies ignoring DEF for ATK x 0.3 damage 3 times; if \"Monkey D. Luffy\" is on the team, targets enemies within large range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.5 (100 s), DEF Down Lv.3 (100 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT]/Powerhouse class and [Giant] teammates for ATK Up Lv.1 (20 s); targets 2 enemies ignoring DEF for ATK x 0.4 damage 3 times; if \"Monkey D. Luffy\" is on the team, targets enemies within large range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.5 (100 s), DEF Down Lv.3 (100 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT]/Powerhouse class and [Giant] teammates for ATK Up Lv.1 (20 s); targets 2 enemies ignoring DEF for ATK x 0.5 damage 3 times; if \"Monkey D. Luffy\" is on the team, targets enemies within large range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.5 (100 s), DEF Down Lv.3 (100 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT]/Powerhouse class and [Giant] teammates for ATK Up Lv.2 (20 s); targets 2 enemies ignoring DEF for ATK x 0.6 damage 3 times; if \"Monkey D. Luffy\" is on the team, targets enemies within large range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.5 (100 s), DEF Down Lv.3 (100 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT]/Powerhouse class and [Giant] teammates for ATK Up Lv.2 (20 s); targets 2 enemies ignoring DEF for ATK x 0.7 damage 3 times; if \"Monkey D. Luffy\" is on the team, targets enemies within large range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.5 (100 s), DEF Down Lv.3 (100 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT]/Powerhouse class and [Giant] teammates for ATK Up Lv.3 (20 s); targets 2 enemies ignoring DEF for ATK x 0.8 damage 3 times; if \"Monkey D. Luffy\" is on the team, targets enemies within large range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.5 (100 s), DEF Down Lv.3 (100 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT]/Powerhouse class and [Giant] teammates for ATK Up Lv.3 (20 s); targets 2 enemies ignoring DEF for ATK x 0.9 damage 3 times; if \"Monkey D. Luffy\" is on the team, targets enemies within large range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.5 (100 s), DEF Down Lv.3 (100 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT]/Powerhouse class and [Giant] teammates for ATK Up Lv.3 (20 s); targets 2 enemies ignoring DEF for ATK x 1 damage 3 times; if \"Monkey D. Luffy\" is on the team, targets enemies within large range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.5 (100 s), DEF Down Lv.3 (100 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT]/Powerhouse class and [Giant] teammates for ATK Up Lv.4 (20 s); targets 2 enemies ignoring DEF for ATK x 1.1 damage 3 times; if \"Monkey D. Luffy\" is on the team, targets enemies within large range for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.5 (100 s), DEF Down Lv.3 (100 s)"
+            },
+            {
+                cooldown: 32,
+                description: "Targets [INT]/Powerhouse class and [Giant] teammates for ATK Up Lv.5 (20 s); targets 2 enemies ignoring DEF for ATK x 1.2 damage 3 times; if \"Monkey D. Luffy\" is on the team, targets enemies within large range for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); targets self for ATK Down Lv.5 (100 s), DEF Down Lv.3 (100 s)"
+            }
+        ]
+    },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
