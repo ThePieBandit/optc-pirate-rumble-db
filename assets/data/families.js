@@ -5276,6 +5276,8 @@ window.families = {
     4636: [ ...Collun ],
     4637: [ ...Lilith ],
     4638: [ ...MonkeyDLuffy ],
+    //4639: [ ...MonkeyDLuffy ],
+    4640: [ ...Oars ],
     //break
     5013: [ ...MonkeyDLuffy ],
     5014: [ ...MonkeyDLuffy ],
