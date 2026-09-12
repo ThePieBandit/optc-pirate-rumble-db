@@ -191411,23 +191411,24 @@ window.details = {
         ]
     },
     4639: {//5+ PKA Luffy
-        special: "Deals 50,000 damage to all enemies, reduces crew's Despair duration by 2 turns, and reduces all enemies' DEF Up duration by 2 turns. If 3 or more [Straw Hat Pirates] [Vegapunk] characters are on the crew, boosts crew's chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0.2; GREAT +0.4; PERFECT +0.7) for 1 turn. If 3 or more [Giant] characters are on the crew, reduces crew's Paralysis duration by 2 turns, and reduces [Straw Hat Pirates] [Vegapunk] [Giant] characters' Special charge time by 1 turn",
+        special: "Deals 50,000 fixed damage to all enemies, reduces Despair duration by 2 turns, and reduces enemies' Increased Defense duration by 2 turns. If your crew has 3+ [Straw Hat Pirates] or [Vegapunk] characters, increases Chain Tap Timing Bonus of all characters to +0.2x-0.7x for 1 turn depending on Tap Timing. If your crew has 3+ [Giant] characters, reduces Paralysis duration by 2 turns, and reduces Special Cooldown of [Straw Hat Pirates], [Vegapunk] and [Giant] characters by 1 turn.",
+        specialNotes: "<b>GOOD:</b> +0.2, <b>GREAT:</b> +0.4, <b>PERFECT:</b> +0.7",
         specialName: "Retaliating Gum-Gum Elephant Gun",
         sailor: {
-            base: "Reduces character's Special Reverse by 3 turns",
-            level1: "Reduces the duration of Reduce SFX by 5 turns"
+            base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "Reduces Blindness duration by 5 turns."
         },
-        superSpecialCriteria: "When any 3 [Straw Hat Pirates] [Vegapunk] [Giant] characters are on the crew not including self (except as Double Characters in inactive state; can be launched when character is a crewmate)",
-        superSpecial: "Reduces the duration of all enemy barriers by 1 turn, changes character's [RCV] slot to [INT], and changes [INT] characters to Super [INT]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 4 of the following, excluding supports and counting only 1 per unit: [Straw Hat Pirates], [Vegapunk], [Giant] characters",
+        superSpecial: "Reduces enemies' Barrier duration by 1 turn, changes [RCV] orb of this character into an [INT] orb, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
-                Characters: "Striker class characters with the following Character Tag: [Giant]",
+                Characters: "Striker [Giant] characters",
                 description: [
-                    "Adds 2% of character's base stats to supported character's base stats",
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats [AUTO+] At battle 5, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. <b>[AUTO+]</b> When you reach the 5th stage, activates supported character's Super Effect. When you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -191488,68 +191489,6 @@ window.details = {
                     "2 times per adventure, reduces Special Cooldown of this character by 7 turns after the first times this special is used",
                     "2 times per adventure, reduces Special Cooldown of this character completely after the first times this special is used"
                 ]
-            }
-        ],
-        festStats: {
-            def: 148,
-            spd: 181,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade Special Bind, reduce damage taken from [PSY] by 20％",
-        festAbility: [
-            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.1, HP Up Lv.1; [PSY] enemies SPD Down Lv.2; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 22% reduction",
-            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.2, HP Up Lv.2; [PSY] enemies SPD Down Lv.3; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 24% reduction",
-            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.3, HP Up Lv.3; [PSY] enemies SPD Down Lv.4; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 26% reduction",
-            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.4, HP Up Lv.4; [PSY] enemies SPD Down Lv.5; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 28% reduction",
-            "[INT]/Powerhouse class and [Giant] [Child] teammates SPD Up Lv.5, HP Up Lv.5; [PSY] enemies SPD Down Lv.6; if 3 or more [Giant] [Child] characters are on the team, when appearing on the field, self Special CT 30% reduction"
-        ],
-        festSpecial: [
-            {
-                cooldown: 20,
-                description: "Targets 3 enemies for ATK Down Lv.3 (15 s), Miss % Up Lv.3 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 21% reduction; targets 1 enemy with high current HP for 4200 damage; during Assault Rumble, targets 3 [PSY] enemies for DEF Down Lv.1 (15 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets 3 enemies for ATK Down Lv.3 (15 s), Miss % Up Lv.3 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 22% reduction; targets 1 enemy with high current HP for 4400 damage; during Assault Rumble, targets 3 [PSY] enemies for DEF Down Lv.1 (15 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets 3 enemies for ATK Down Lv.3 (15 s), Miss % Up Lv.3 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 23% reduction; targets 1 enemy with high current HP for 4600 damage; during Assault Rumble, targets 3 [PSY] enemies for DEF Down Lv.1 (15 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets 3 enemies for ATK Down Lv.3 (15 s), Miss % Up Lv.3 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 24% reduction; targets 1 enemy with high current HP for 4800 damage; during Assault Rumble, targets 3 [PSY] enemies for DEF Down Lv.2 (15 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets 3 enemies for ATK Down Lv.4 (15 s), Miss % Up Lv.4 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 25% reduction; targets 1 enemy with high current HP for 5000 damage; during Assault Rumble, targets 3 [PSY] enemies for DEF Down Lv.2 (15 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets 3 enemies for ATK Down Lv.4 (15 s), Miss % Up Lv.4 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 26% reduction; targets 1 enemy with high current HP for 5200 damage; during Assault Rumble, targets 3 [PSY] enemies for DEF Down Lv.3 (15 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets 3 enemies for ATK Down Lv.4 (15 s), Miss % Up Lv.4 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 27% reduction; targets 1 enemy with high current HP for 5400 damage; during Assault Rumble, targets 3 [PSY] enemies for DEF Down Lv.3 (15 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets 3 enemies for ATK Down Lv.5 (15 s), Miss % Up Lv.5 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 28% reduction; targets 1 enemy with high current HP for 5600 damage; during Assault Rumble, targets 3 [PSY] enemies for DEF Down Lv.3 (15 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets 3 enemies for ATK Down Lv.5 (15 s), Miss % Up Lv.5 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 29% reduction; targets 1 enemy with high current HP for 5800 damage; during Assault Rumble, targets 3 [PSY] enemies for DEF Down Lv.4 (15 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets 3 enemies for ATK Down Lv.6 (15 s), Miss % Up Lv.6 (15 s); if 3 or more [Giant] [Child] characters are on the team, targets 1 high ATK [Giant] [Child] teammate for Special CT 30% reduction; targets 1 enemy with high current HP for 6000 damage; during Assault Rumble, targets 3 [PSY] enemies for DEF Down Lv.5 (15 s)"
             }
         ]
     },
@@ -191665,24 +191604,24 @@ window.details = {
         }
     },
     4641: {//Saul
-        captain: "Reduces Cerebral and Striker characters' Special charge time by 1 turn at start of quest, and reduces [DEX] and [PSY] characters' Special Bind duration by 10 turns [Applies following effect based on number of applicable Character Tags on crew] Boosts [Giant] [Straw Hat Pirates] characters' ATK by 5.75x, HP by 1.5x, and makes their [DEX][PSY][TND] slots have matching slot effects",
-        special: "Reduces all enemies' Percent Damage Reduction duration by 7 turns, reduces the duration of all enemy barriers by 3 turns, boosts Cerebral and Striker characters' advantageous class effect by 2x for 1 turn, and if 1 or more [Child] character is on the crew, boosts [Giant] [Straw Hat Pirates] characters' ATK by 4x for 2 turns",
+        captain: "Reduces Special Cooldown of Cerebral and Striker characters by 1 turn at the start of the fight, boosts ATK of [Giant] and [Straw Hat Pirates] characters by 5.75x, boosts HP of [Giant] and [Straw Hat Pirates] characters by 1.5x, makes [DEX], [PSY] and [TND] orbs beneficial for [Giant] and [Straw Hat Pirates] characters, and reduces Special Bind duration by 10 turns on [DEX] and [PSY] characters.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 7 turns, reduces enemies' Barrier duration by 3 turns, and boosts Advantageous Class Effect of Cerebral and Striker characters by 2x for 1 turn. If your crew has 1+ [Child] characters, boosts ATK of [Giant] and [Straw Hat Pirates] characters by 4x for 2 turns.",
         specialName: "Midterm Exslam",
         sailor: {
-            base: "Makes character immune to Stun",
-            level1: "Reduces [DEX] and [PSY] characters' Special Bind duration by 6 turns"
+            base: "Removes Stun duration completely on this character.",
+            level1: "Reduces Special Bind duration by 6 turns on [DEX] and [PSY] characters."
         },
-        superSpecialCriteria: "When any of the following characters are on the crew (can be launched when character is a crewmate): Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk",
-        superSpecial: "Completely removes crew's Stun, changes [DEX] and [PSY] characters' slots (including [BLOCK] slots) to [TND], and changes Cerebral characters to Super Cerebral",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk",
+        superSpecial: "Removes Stun duration completely, changes orbs, including [BLOCK] orbs, of [DEX] and [PSY] characters into [TND] orbs, and transforms Cerebral characters into Super Cerebral characters.",
         support: [
             {
                 Characters: "Nico Robin",
                 description: [
-                    "Once per quest, if supported character uses a Special, reduces crew's Special Bind duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Special Bind duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Special Bind duration by 1 turn",
-                    "Once per quest, if supported character uses a Special, reduces crew's Special Bind duration by 2 turns",
-                    "Once per quest, if supported character uses a Special, reduces crew's Special Bind duration by 2 turns, and reduces the duration of all enemy barriers by 1 turn"
+                    "Once per adventure, when the supported character uses their special, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Bind duration by 2 turns.",
+                    "Once per adventure, when the supported character uses their special, reduces Special Bind duration by 2 turns, and reduces enemies' Barrier duration by 1 turn."
                 ]
             }
         ],
@@ -191762,99 +191701,37 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any of the following characters are on the crew (except as Support Characters): Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk",
-                "When any of the following characters are on the crew (except as Support Characters): Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk",
-                "When any of the following characters are on the crew (except as Support Characters): Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk",
-                "When any of the following characters are on the crew (except as Support Characters): Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk",
-                "When any of the following characters are on the crew (except as Support Characters): Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk"
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk",
+                "Your crew must consist of any 1 of the following, excluding supports and counting only 1 per unit: Nico Robin, Tony Tony Chopper, Jewelry Bonney, Dr. Vegapunk \"Lilith the Evil\", Ripley, Tusk"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.75x to Cerebral and Striker characters for 1 turn, and boosts [DEX] characters' base ATK by +400 for 1 turn",
-                "Applies ATK Boost (Tandem) of 2x to Cerebral and Striker characters for 1 turn, and boosts [DEX] characters' base ATK by +550 for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.25x to Cerebral and Striker characters for 1 turn, and boosts [DEX] characters' base ATK by +700 for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.5x to Cerebral and Striker characters for 1 turn, and boosts [DEX] characters' base ATK by +850 for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.75x to Cerebral and Striker characters for 1 turn, and boosts [DEX] characters' base ATK by +1000 for 1 turn"
+                "Boosts Tandem ATK of Cerebral and Striker characters by 1.75x for 1 turn, and boosts Base ATK of [DEX] characters by 400 for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Striker characters by 2x for 1 turn, and boosts Base ATK of [DEX] characters by 550 for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Striker characters by 2.25x for 1 turn, and boosts Base ATK of [DEX] characters by 700 for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Striker characters by 2.5x for 1 turn, and boosts Base ATK of [DEX] characters by 850 for 1 turn.",
+                "Boosts Tandem ATK of Cerebral and Striker characters by 2.75x for 1 turn, and boosts Base ATK of [DEX] characters by 1,000 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 163,
-            spd: 169,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from [QCK] by 30％",
-        festAbility: [
-            "[DEX]/Cerebral class and [Giant] [Child] teammates ATK Up Lv.1, DEF Up Lv.1; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, [Giant] [Child] teammates Special CT 10% reduction; when remaining time is more than 60 s, all enemies ATK Down Lv.2",
-            "[DEX]/Cerebral class and [Giant] [Child] teammates ATK Up Lv.2, DEF Up Lv.1; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, [Giant] [Child] teammates Special CT 15% reduction; when remaining time is more than 60 s, all enemies ATK Down Lv.3",
-            "[DEX]/Cerebral class and [Giant] [Child] teammates ATK Up Lv.3, DEF Up Lv.2; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, [Giant] [Child] teammates Special CT 20% reduction; when remaining time is more than 60 s, all enemies ATK Down Lv.4",
-            "[DEX]/Cerebral class and [Giant] [Child] teammates ATK Up Lv.4, DEF Up Lv.2; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, [Giant] [Child] teammates Special CT 25% reduction; when remaining time is more than 60 s, all enemies ATK Down Lv.5",
-            "[DEX]/Cerebral class and [Giant] [Child] teammates ATK Up Lv.6, DEF Up Lv.3; when remaining time becomes 60 s or less, or when appearing on the field when remaining time is 60 s or less, [Giant] [Child] teammates Special CT 30% reduction; when remaining time is more than 60 s, all enemies ATK Down Lv.7"
-        ],
-        festSpecial: [
-            {
-                cooldown: 32,
-                description: "If 1 or more [Child] characters are on the team, targets self for ATK Up Lv.6 (5 s); targets [DEX]/Cerebral class and [Giant] [Child] teammates for DEF Up Lv.2 (11 s); targets [Giant] [Child] teammates for 80% chance to evade fixed damage (11 s); targets all enemies for ATK x 1 damage; when remaining time is 60 s or less, targets 3 enemies ignoring DEF for ATK x 1 damage"
-            },
-            {
-                cooldown: 32,
-                description: "If 1 or more [Child] characters are on the team, targets self for ATK Up Lv.6 (5 s); targets [DEX]/Cerebral class and [Giant] [Child] teammates for DEF Up Lv.2 (12 s); targets [Giant] [Child] teammates for 82% chance to evade fixed damage (12 s); targets all enemies for ATK x 1.3 damage; when remaining time is 60 s or less, targets 3 enemies ignoring DEF for ATK x 1.1 damage"
-            },
-            {
-                cooldown: 32,
-                description: "If 1 or more [Child] characters are on the team, targets self for ATK Up Lv.6 (5 s); targets [DEX]/Cerebral class and [Giant] [Child] teammates for DEF Up Lv.2 (13 s); targets [Giant] [Child] teammates for 84% chance to evade fixed damage (13 s); targets all enemies for ATK x 1.6 damage; when remaining time is 60 s or less, targets 3 enemies ignoring DEF for ATK x 1.2 damage"
-            },
-            {
-                cooldown: 32,
-                description: "If 1 or more [Child] characters are on the team, targets self for ATK Up Lv.7 (5 s); targets [DEX]/Cerebral class and [Giant] [Child] teammates for DEF Up Lv.3 (14 s); targets [Giant] [Child] teammates for 86% chance to evade fixed damage (14 s); targets all enemies for ATK x 1.9 damage; when remaining time is 60 s or less, targets 3 enemies ignoring DEF for ATK x 1.3 damage"
-            },
-            {
-                cooldown: 32,
-                description: "If 1 or more [Child] characters are on the team, targets self for ATK Up Lv.7 (5 s); targets [DEX]/Cerebral class and [Giant] [Child] teammates for DEF Up Lv.3 (15 s); targets [Giant] [Child] teammates for 88% chance to evade fixed damage (15 s); targets all enemies for ATK x 2.2 damage; when remaining time is 60 s or less, targets 3 enemies ignoring DEF for ATK x 1.4 damage"
-            },
-            {
-                cooldown: 32,
-                description: "If 1 or more [Child] characters are on the team, targets self for ATK Up Lv.8 (5 s); targets [DEX]/Cerebral class and [Giant] [Child] teammates for DEF Up Lv.4 (16 s); targets [Giant] [Child] teammates for 90% chance to evade fixed damage (16 s); targets all enemies for ATK x 2.5 damage; when remaining time is 60 s or less, targets 3 enemies ignoring DEF for ATK x 1.5 damage"
-            },
-            {
-                cooldown: 32,
-                description: "If 1 or more [Child] characters are on the team, targets self for ATK Up Lv.8 (5 s); targets [DEX]/Cerebral class and [Giant] [Child] teammates for DEF Up Lv.4 (17 s); targets [Giant] [Child] teammates for 92% chance to evade fixed damage (17 s); targets all enemies for ATK x 2.8 damage; when remaining time is 60 s or less, targets 3 enemies ignoring DEF for ATK x 1.6 damage"
-            },
-            {
-                cooldown: 32,
-                description: "If 1 or more [Child] characters are on the team, targets self for ATK Up Lv.8 (5 s); targets [DEX]/Cerebral class and [Giant] [Child] teammates for DEF Up Lv.4 (18 s); targets [Giant] [Child] teammates for 94% chance to evade fixed damage (18 s); targets all enemies for ATK x 3.1 damage; when remaining time is 60 s or less, targets 3 enemies ignoring DEF for ATK x 1.7 damage"
-            },
-            {
-                cooldown: 32,
-                description: "If 1 or more [Child] characters are on the team, targets self for ATK Up Lv.9 (5 s); targets [DEX]/Cerebral class and [Giant] [Child] teammates for DEF Up Lv.5 (19 s); targets [Giant] [Child] teammates for 96% chance to evade fixed damage (19 s); targets all enemies for ATK x 3.4 damage; when remaining time is 60 s or less, targets 3 enemies ignoring DEF for ATK x 1.8 damage"
-            },
-            {
-                cooldown: 32,
-                description: "If 1 or more [Child] characters are on the team, targets self for ATK Up Lv.10 (5 s); targets [DEX]/Cerebral class and [Giant] [Child] teammates for DEF Up Lv.6 (20 s); targets [Giant] [Child] teammates for 100% chance to evade fixed damage (20 s); targets all enemies for ATK x 4 damage; when remaining time is 60 s or less, targets 3 enemies ignoring DEF for ATK x 2 damage"
-            }
-        ]
+        }
     },
     4642: {//Tusk
-        special: "Reduces crew's Paralysis/ATK Down duration by 6 turns, changes crew's slots (including [BLOCK] slots) to [TND], and boosts [DEX] and [PSY] characters' slot effects by 2.75x for 3 turns",
+        special: "Reduces Paralysis and ATK Down duration by 6 turns, changes all orbs, including [BLOCK] orbs, into [TND] orbs, and boosts Orb Effects of [DEX] and [PSY] characters by 2.75x for 3 turns.",
         specialName: "Student-Protecting Principal",
         sailor: {
-            base: "Makes [Giant] characters' [TND] slots have matching slot effects",
-            level1: "Boosts Cerebral and Striker characters' base stats by 150"
+            base: "Makes [TND] orbs beneficial for [Giant] characters.",
+            level1: "Boosts base ATK, HP and RCV of Cerebral and Striker characters by 150."
         },
         support: [
             {
-                Characters: "[DEX] characters with the following Character Tag: [Child], [Giant]",
+                Characters: "[DEX] [Child], [Giant] characters",
                 description: [
-                    "Once per quest, if inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Paralysis status from the enemy, reduces crew's Paralysis duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Paralysis or ATK Down status from the enemy, reduces crew's Paralysis/ATK Down duration by 1 turn at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis, reduces Paralysis duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Paralysis or ATK Down, reduces Paralysis and ATK Down duration by 1 turn."
                 ]
             }
         ],
@@ -191896,27 +191773,18 @@ window.details = {
                     "Boosts base ATK by 150 the turn after recovering 3000, HP and reduces Hunger stack by 2 stacks"
                 ]
             }
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "DEF"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4643: {//Blade
         support: [
             {
-                Characters: "[DEX] characters with the following Character Tag: [Child], [Giant]",
+                Characters: "[DEX] [Child], [Giant] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats, and once per quest, if inflicted with Poison or progressive Poison from the enemy, removes all Poison effects on the crew at start of crew's next turn [AUTO+] If enemy has any type of barrier or at final battle, activates supported character's Special",
-                    "Adds 8% of character's base stats to supported character's base stats, and once per quest, if inflicted with Poison or progressive Poison from the enemy, removes all Poison effects on the crew at start of crew's next turn [AUTO+] If enemy has any type of barrier or at final battle, activates supported character's Special",
-                    "Adds 12% of character's base stats to supported character's base stats, and once per quest, if inflicted with Poison or progressive Poison from the enemy, removes all Poison effects on the crew at start of crew's next turn [AUTO+] If enemy has any type of barrier or at final battle, activates supported character's Special",
-                    "Adds 12% of character's base stats to supported character's base stats, and once per quest, if inflicted with Special Reverse, Poison or progressive Poison from the enemy, reduces crew's Special charge time by 1 turn, and removes all Poison effects on the crew at start of crew's next turn [AUTO+] If enemy has any type of barrier or at final battle, activates supported character's Special",
-                    "Adds 12% of character's base stats to supported character's base stats, and once per quest, if inflicted with Special Reverse, Poison or progressive Poison from the enemy, reduces crew's Special charge time by 2 turns, and removes all Poison effects on the crew at start of crew's next turn [AUTO+] If enemy has any type of barrier or at final battle, activates supported character's Special"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when an enemy inflicts you with Poison or Toxic, removes Poison duration completely. <b>[AUTO+]</b> When an enemy has a Barrier or when you reach the final stage, activates supported character's Special.",
+                    "Adds 8% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when an enemy inflicts you with Poison or Toxic, removes Poison duration completely. <b>[AUTO+]</b> When an enemy has a Barrier or when you reach the final stage, activates supported character's Special.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when an enemy inflicts you with Poison or Toxic, removes Poison duration completely. <b>[AUTO+]</b> When an enemy has a Barrier or when you reach the final stage, activates supported character's Special.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when an enemy inflicts you with Special Reverse, Poison or Toxic, reduces Special Cooldown of all characters by 1 turn, and removes Poison duration completely. <b>[AUTO+]</b> When an enemy has a Barrier or when you reach the final stage, activates supported character's Special.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when an enemy inflicts you with Special Reverse, Poison or Toxic, reduces Special Cooldown of all characters by 2 turns, and removes Poison duration completely. <b>[AUTO+]</b> When an enemy has a Barrier or when you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -191936,16 +191804,7 @@ window.details = {
             "Boosts base RCV by 30",
             "Boosts base RCV by 30",
             "Boosts base ATK by 50"
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "BAL"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
