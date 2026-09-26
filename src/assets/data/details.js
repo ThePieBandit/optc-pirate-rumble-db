@@ -192093,24 +192093,24 @@ window.details = {
         ]
     },
     4648: {//Zoro & Robin
-        captain: "Reduces [PSY] and Cerebral characters' Special charge time by 2 turns at start of quest, and boosts their ATK by 5.75x and HP by 1.2x. If crew boosts slot effects, or another status effect is applied to the crew, all enemies, or an individual enemy on the same turn after the required effect was applied, launches \"Moonlit Costumes\" at the start of crew's next turn (auto-launches up to 2 times per quest; Specials launched due to Captain Ability will not reduce the character's Special charge time) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Straw Hat Pirates] characters' ATK by 1.1x",
-        special: "Deals 120x character's ATK in non-type damage to all enemies, and reduces crew's Burn duration by 7 turns. If crew has type effect boost when Special is launched, applies Weakened status (increase damage taken by 1.75x for all enemies, damage further increased by 1.25x if enemy has Increase Damage Taken) to all enemies for 1 turn, then after that, boosts [PSY] and Cerebral characters' type effects by 3.5x for 1 turn, then after 1 turn, boosts the chain multiplier by 1.75x for 1 turn. If 3 or more [Straw Hat Pirates] characters are on the crew, further increases crew's slot effect boost by +0.5",
+        captain: "Reduces Special Cooldown of [PSY] and Cerebral characters by 2 turns at the start of the fight, boosts ATK of [Straw Hat Pirates] characters by 1.1x, boosts ATK of [PSY] and Cerebral characters by 5.75x, by 6.325x instead if they have the applicable tag, and boosts HP of [PSY] and Cerebral characters by 1.2x. Up to 2 times per adventure, if your crew obtains an Orb Boost effect, activates \"Moonlit Costumes\" in the following turn.",
+        special: "Deals 120x character's ATK in typeless damage to all enemies, reduces Burn duration by 7 turns, boosts Color Affinity of [PSY] and Cerebral characters by 3.5x for 1 turn, and after 1 turn, boosts Chain Multiplier Growth Rate by 1.75x for 1 turn. If your crew has Color Affinity when the special is activated, inflicts all enemies with Weaken by 1.75x, by 2.1875x instead if enemies are inflicted with Increase Damage Taken, for 1 turn. If your crew has 3+ [Straw Hat Pirates] characters, increases boost effects of Orb Boost buffs by +0.5x.",
         specialName: "Moonlit Costumes",
         sailor: {
-            base: "Boosts Cerebral characters' base ATK by 1.1x when Captain is a Cerebral class",
-            level1: "If 4 or more [Straw Hat Pirates] characters are on the crew and enemy launches Percent Damage Reduction effect, reduces all enemies' Percent Damage Reduction duration by 6 turns at start of crew's next turn (only once per quest)"
+            base: "If your Captain is a Cerebral character, boosts base ATK of Cerebral characters by 1.1x.",
+            level1: "If your crew has 4+ [Straw Hat Pirates] characters, once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 6 turns."
         },
-        superSpecialCriteria: "When crew has both type effect and slot effect boosts (can be launched when character is a crewmate)",
-        superSpecial: "Boosts damage dealt to increase damage taken enemies by 2.5x for 1 turn, allows crew's slot effect boost to be further increased up to 2 times, and changes Cerebral characters to Super Cerebral",
+        superSpecialCriteria: "Can be launched as crewmate. If your crew has Orb Boost and Color Affinity buffs",
+        superSpecial: "Boosts ATK against enemies inflicted with Increase Damage Taken by 2.5x for 1 turn, enables Orb Boost buffs to be enhanced up to 2 times, and transforms Cerebral characters into Super Cerebral characters.",
         support: [
             {
-                Characters: "[PSY] Cerebral characters with the following Character Tag: [Straw Hat Pirates]",
+                Characters: "[PSY] Cerebral [Straw Hat Pirates] characters",
                 description: [
-                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Burn status from the enemy, reduces crew's Burn duration by 3 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with Burn, reduces Burn duration by 3 turns."
                 ]
             }
         ],
@@ -192199,112 +192199,40 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Straw Hat Pirates] [Worst Generation] [Paramythia-type] character performs Super Tandem",
-                "When a [Straw Hat Pirates] [Worst Generation] [Paramythia-type] character performs Super Tandem",
-                "When a [Straw Hat Pirates] [Worst Generation] [Paramythia-type] character performs Super Tandem",
-                "When a [Straw Hat Pirates] [Worst Generation] [Paramythia-type] character performs Super Tandem",
-                "When a [Straw Hat Pirates] [Worst Generation] [Paramythia-type] character performs Super Tandem"
+                "When a [Straw Hat Pirates], [Worst Generation] or [Paramythia-type] character performs Super Tandem",
+                "When a [Straw Hat Pirates], [Worst Generation] or [Paramythia-type] character performs Super Tandem",
+                "When a [Straw Hat Pirates], [Worst Generation] or [Paramythia-type] character performs Super Tandem",
+                "When a [Straw Hat Pirates], [Worst Generation] or [Paramythia-type] character performs Super Tandem",
+                "When a [Straw Hat Pirates], [Worst Generation] or [Paramythia-type] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Straw Hat Pirates] [Worst Generation] [Paramythia-type] characters by 1 for 1 turn",
-                "Raises Boost Level of [Straw Hat Pirates] [Worst Generation] [Paramythia-type] characters by 2 for 1 turn",
-                "Raises Boost Level of [Straw Hat Pirates] [Worst Generation] [Paramythia-type] characters by 3 for 1 turn",
-                "Raises Boost Level of [Straw Hat Pirates] [Worst Generation] [Paramythia-type] characters by 4 for 1 turn",
-                "Raises Boost Level of [Straw Hat Pirates] [Worst Generation] [Paramythia-type] characters by 5 for 1 turn"
+                "Raises Boost Level of [Straw Hat Pirates], [Worst Generation] and [Paramythia-type] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Worst Generation] and [Paramythia-type] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Worst Generation] and [Paramythia-type] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Worst Generation] and [Paramythia-type] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Straw Hat Pirates], [Worst Generation] and [Paramythia-type] characters by 5 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 130,
-            spd: 180,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Power Attack",
-            "Full Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from [INT] by 30％",
-        festAbility: [
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.2, DEF Up Lv.1; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates HP Up Lv.1, DEF Up Lv.1; after receiving damage, up to 20 times [PSY] and [Straw Hat Pirates] teammates ATK Up Lv.1, SPD Up Lv.1; targets 1 [PSY] [Straw Hat Pirates] teammate for 60% chance of Haste",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.3, DEF Up Lv.1; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates HP Up Lv.2, DEF Up Lv.1; after receiving damage, up to 20 times [PSY] and [Straw Hat Pirates] teammates ATK Up Lv.1, SPD Up Lv.1; targets 1 [PSY] [Straw Hat Pirates] teammate for 70% chance of Haste",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.4, DEF Up Lv.2; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates HP Up Lv.3, DEF Up Lv.2; after receiving damage, up to 20 times [PSY] and [Straw Hat Pirates] teammates ATK Up Lv.1, SPD Up Lv.1; targets 1 [PSY] [Straw Hat Pirates] teammate for 80% chance of Haste",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.5, DEF Up Lv.2; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates HP Up Lv.4, DEF Up Lv.2; after receiving damage, up to 20 times [PSY] and [Straw Hat Pirates] teammates ATK Up Lv.1, SPD Up Lv.1; targets 1 [PSY] [Straw Hat Pirates] teammate for 90% chance of Haste",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.6, DEF Up Lv.3; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates HP Up Lv.5, DEF Up Lv.3; after receiving damage, up to 20 times [PSY] and [Straw Hat Pirates] teammates ATK Up Lv.1, SPD Up Lv.1; targets 1 [PSY] [Straw Hat Pirates] teammate for 100% chance of Haste"
-        ],
-        festSpecial: [
-            {
-                cooldown: 35,
-                description: "Targets enemies within large range for ATK x 1.5 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (6 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.2 (73 s), SPD Down Lv.2 (73 s), DEF Down Lv.2 (73 s); targets enemies within large range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.1 (73 s)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets enemies within large range for ATK x 1.7 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (7 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.2 (76 s), SPD Down Lv.2 (76 s), DEF Down Lv.2 (76 s); targets enemies within large range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.1 (76 s)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets enemies within large range for ATK x 1.9 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (8 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.2 (79 s), SPD Down Lv.2 (79 s), DEF Down Lv.2 (79 s); targets enemies within large range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.1 (79 s)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets enemies within large range for ATK x 2.1 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (9 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.2 (82 s), SPD Down Lv.2 (82 s), DEF Down Lv.2 (82 s); targets enemies within large range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.1 (82 s)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets enemies within large range for ATK x 2.3 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (10 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.2 (85 s), SPD Down Lv.2 (85 s), DEF Down Lv.2 (85 s); targets enemies within large range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.1 (85 s)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets enemies within large range for ATK x 2.5 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (11 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.3 (88 s), SPD Down Lv.3 (88 s), DEF Down Lv.3 (88 s); targets enemies within large range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.2 (88 s)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets enemies within large range for ATK x 2.7 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (12 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.3 (91 s), SPD Down Lv.3 (91 s), DEF Down Lv.3 (91 s); targets enemies within large range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.2 (91 s)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets enemies within large range for ATK x 2.9 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (13 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.3 (94 s), SPD Down Lv.3 (94 s), DEF Down Lv.3 (94 s); targets enemies within large range for ATK x 16 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.2 (94 s)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets enemies within large range for ATK x 3.1 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (14 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.3 (97 s), SPD Down Lv.3 (97 s), DEF Down Lv.3 (97 s); targets enemies within large range for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.2 (97 s)"
-            },
-            {
-                cooldown: 35,
-                description: "Targets enemies within large range for ATK x 3.3 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (15 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.4 (100 s), SPD Down Lv.4 (100 s), DEF Down Lv.4 (100 s); targets enemies within large range for ATK x 18 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.3 (100 s)"
-            }
-        ],
-        festSuperSpecial: {
-            base: {
-                condition: "After character receives damage 8 times",
-                description: "Targets enemies within large range for ATK x 4.4 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (15 s), 100% chance to evade Halve Stats (20 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.6 (100 s), SPD Down Lv.6 (100 s), DEF Down Lv.6 (100 s); targets 1 enemy ignoring DEF for ATK x 2.2 damage; targets enemies within large range for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.5 (100 s)"
-            },
-            llbbase: {
-                condition: "After character receives damage 6 times",
-                description: "Targets enemies within large range for ATK x 5.5 damage; if 5 or more [Straw Hat Pirates] characters are on the team, Targets [PSY]/Powerhouse class and [Straw Hat Pirates] teammates for Halve Stats reduction (15 s), 100% chance to evade Halve Stats (30 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.8 (100 s), SPD Down Lv.8 (100 s), DEF Down Lv.8 (100 s); targets 2 enemies ignoring DEF for ATK x 2.2 damage; targets enemies within large range for ATK x 22 spread damage (damage on each enemy reduced based on number of total enemies); during Assault Rumble, targets [Straw Hat Pirates] teammates for Special CT Speed Up Lv.7 (100 s)"
-            }
         }
     },
     4649: {//Usopp & Franky
-        captain: "Reduces [PSY] and Powerhouse characters' Special charge time by 2 turns at start of quest, and boosts their ATK by 5.5x, HP by 1.3x, and makes crew's [TND] slots have matching slot effects. If crew boosts type effects, or another status effect is applied to the crew, all enemies, or an individual enemy on the same turn after the required effect was applied, launches \"Joyful Pumpkin Decorations\" at the start of crew's next turn (auto-launches up to 2 times per quest; Specials launched due to Captain Ability will not reduce the character's Special charge time) [Applies following effect based on number of applicable Character Tags on crew] Boosts [Straw Hat Pirates] characters' ATK by 1.2x",
-        special: "Reduces crew's Special Bind duration by 7 turns, and changes crew's slots (including [BLOCK] slots) to [TND]. If crew has slot effect boost when Special is launched, increases all enemies' damage taken by 2.5x for 1 turn, then after that, boosts [PSY] and Powerhouse characters' slot effect by 3.5x for 1 turn, and if crew lands 3 PERFECT strikes in this turn, sets the chain multiplier's minimum value at 3.25 and maximum value at 30.0 the next turn. If 3 or more [Straw Hat Pirates] characters are on the crew, further increases crew's type effect boost by +0.5",
+        captain: "Reduces Special Cooldown of [PSY] and Powerhouse characters by 2 turns at the start of the fight, boosts ATK of [Straw Hat Pirates] characters by 1.2x, boosts ATK of [PSY] and Powerhouse characters by 5.5x, by 6.6x instead if they have the applicable tag, boosts HP of [PSY] and Powerhouse characters by 1.3x, and makes [TND] orbs beneficial for all characters. Up to 2 times per adventure, if your crew obtains a Color Affinity effect, activates \"Joyful Pumpkin Decorations\" in the following turn.",
+        special: "Reduces Special Bind duration by 7 turns, changes all orbs, including [BLOCK] orbs, into [TND] orbs, boosts Orb Effects of [PSY] and Powerhouse characters by 3.5x for 1 turn, and if during this turn you score 3 PERFECT hits, sets Chain Boundaries to 3.25x and 30.0x for 1 turn in the following turn. If your crew has Orb Boost when the special is activated, inflicts all enemies with Increase Damage Taken by 2.5x for 1 turn. If your crew has 3+ [Straw Hat Pirates] characters, increases boost effects of Color Affinity buffs by +0.5x.",
         specialName: "Joyful Pumpkin Decorations",
         sailor: {
-            base: "Makes [PSY] and Powerhouse characters' [TND] slots have matching slot effects, and reduces character's Special Bind duration by 8 turns",
-            level1: "If 4 or more [Straw Hat Pirates] characters are on the crew and enemy launches DEF Up effect, reduces all enemies' DEF Up duration by 6 turns at start of crew's next turn (only once per quest)"
+            base: "Makes [TND] orbs beneficial for [PSY] and Powerhouse characters, and reduces Special Bind duration by 8 turns on this character.",
+            level1: "If your crew has 4+ [Straw Hat Pirates] characters, once per adventure, when the enemy gains an Increased Defense buff, reduces enemies' Increased Defense duration by 6 turns."
         },
-        superSpecialCriteria: "When crew has both type effect and slot effect boosts (can be launched when character is a crewmate)",
-        superSpecial: "Boosts [PSY] and Powerhouse characters' ATK when landing a successful strike by 2x for 1 turn after landing 3 PERFECT strikes in a row in this turn, allows crew's type effect boost to be further increased up to 2 times, and changes [PSY] characters to Super [PSY]",
+        superSpecialCriteria: "Can be launched as crewmate. If your crew has Orb Boost and Color Affinity buffs",
+        superSpecial: "Boosts Tap Timing ATK of [PSY] and Powerhouse characters by 2x, following a chain of 3 PERFECT attacks, for 1 turn, enables Color Affinity buffs to be enhanced up to 2 times, and transforms [PSY] characters into Super [PSY] characters.",
         support: [
             {
-                Characters: "[PSY] Powerhouse characters with the following Character Tag: [Straw Hat Pirates]",
+                Characters: "[PSY] Powerhouse [Straw Hat Pirates] characters",
                 description: [
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 2 turns at start of crew's next turn",
-                    "Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 3 turns at start of crew's next turn"
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 2 turns.",
+                    "Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 3 turns."
                 ]
             }
         ],
@@ -192393,109 +192321,37 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Monkey D. Luffy, Roronoa Zoro, Nami, Sanji, Tony Tony Chopper, Nico Robin, Brook, Jinbe"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.75x to [PSY] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2x to [PSY] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.25x to [PSY] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.5x to [PSY] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 2.75x to [PSY] characters for 1 turn, and further increases crew's damage boost by +0.25"
+                "Boosts Tandem ATK of [PSY] characters by 1.75x for 1 turn.",
+                "Boosts Tandem ATK of [PSY] characters by 2x for 1 turn.",
+                "Boosts Tandem ATK of [PSY] characters by 2.25x for 1 turn.",
+                "Boosts Tandem ATK of [PSY] characters by 2.5x for 1 turn.",
+                "Boosts Tandem ATK of [PSY] characters by 2.75x for 1 turn, and increases boost effects of Status ATK Boost buffs by +0.25x."
             ]
-        },
-        festStats: {
-            def: 175,
-            spd: 159,
-            style: "RCV"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Lv.2 (Medium Range)",
-            "Normal Attack",
-            "Heal Lv.2 (Medium Range)"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from [INT] by 30％",
-        festAbility: [
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.2, ATK Up Lv.2; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates Special CT Speed Up Lv.1; after receiving damage, up to 20 times [PSY] and [Straw Hat Pirates] teammates HP 2% healing, Special CT 1% reduction",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.3, ATK Up Lv.3; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates Special CT Speed Up Lv.1; after receiving damage, up to 20 times [PSY] and [Straw Hat Pirates] teammates HP 3% healing, Special CT 2% reduction",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.4, ATK Up Lv.4; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates Special CT Speed Up Lv.2; after receiving damage, up to 20 times [PSY] and [Straw Hat Pirates] teammates HP 4% healing, Special CT 3% reduction",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.5, ATK Up Lv.5; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates Special CT Speed Up Lv.2; after receiving damage, up to 20 times [PSY] and [Straw Hat Pirates] teammates HP 5% healing, Special CT 4% reduction",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.6, ATK Up Lv.6; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates Special CT Speed Up Lv.4; after receiving damage, up to 20 times [PSY] and [Straw Hat Pirates] teammates HP 7% healing, Special CT 5% reduction"
-        ],
-        festSpecial: [
-            {
-                cooldown: 33,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.2 (11 s), SPD Up Lv.2 (11 s), 73% chance to evade Action Bind (6 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.2 (11 s), Special CT Speed Down Lv.1 (11 s); targets (not including self) [Straw Hat Pirates] teammates for Special CT 11% reduction; during Assault Rumble, targets enemies within large range for ATK x 6 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.2 (12 s), SPD Up Lv.2 (12 s), 76% chance to evade Action Bind (7 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.2 (12 s), Special CT Speed Down Lv.1 (12 s); targets (not including self) [Straw Hat Pirates] teammates for Special CT 12% reduction; during Assault Rumble, targets enemies within large range for ATK x 7 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.2 (13 s), SPD Up Lv.2 (13 s), 79% chance to evade Action Bind (8 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.2 (13 s), Special CT Speed Down Lv.1 (13 s); targets (not including self) [Straw Hat Pirates] teammates for Special CT 13% reduction; during Assault Rumble, targets enemies within large range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.3 (14 s), SPD Up Lv.3 (14 s), 82% chance to evade Action Bind (9 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.3 (14 s), Special CT Speed Down Lv.1 (14 s); targets (not including self) [Straw Hat Pirates] teammates for Special CT 14% reduction; during Assault Rumble, targets enemies within large range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.3 (15 s), SPD Up Lv.3 (15 s), 85% chance to evade Action Bind (10 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.3 (15 s), Special CT Speed Down Lv.1 (15 s); targets (not including self) [Straw Hat Pirates] teammates for Special CT 15% reduction; during Assault Rumble, targets enemies within large range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.4 (16 s), SPD Up Lv.4 (16 s), 88% chance to evade Action Bind (11 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.4 (16 s), Special CT Speed Down Lv.2 (16 s); targets (not including self) [Straw Hat Pirates] teammates for Special CT 16% reduction; during Assault Rumble, targets enemies within large range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.4 (17 s), SPD Up Lv.4 (17 s), 91% chance to evade Action Bind (12 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.4 (17 s), Special CT Speed Down Lv.2 (17 s); targets (not including self) [Straw Hat Pirates] teammates for Special CT 17% reduction; during Assault Rumble, targets enemies within large range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.4 (18 s), SPD Up Lv.4 (18 s), 94% chance to evade Action Bind (13 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.4 (18 s), Special CT Speed Down Lv.2 (18 s); targets (not including self) [Straw Hat Pirates] teammates for Special CT 18% reduction; during Assault Rumble, targets enemies within large range for ATK x 13 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.5 (19 s), SPD Up Lv.5 (19 s), 97% chance to evade Action Bind (14 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.5 (19 s), Special CT Speed Down Lv.2 (19 s); targets (not including self) [Straw Hat Pirates] teammates for Special CT 19% reduction; during Assault Rumble, targets enemies within large range for ATK x 14 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 33,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.6 (20 s), SPD Up Lv.6 (20 s), 100% chance to evade Action Bind (15 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.6 (20 s), Special CT Speed Down Lv.3 (20 s); targets (not including self) [Straw Hat Pirates] teammates for Special CT 20% reduction; during Assault Rumble, targets enemies within large range for ATK x 15 spread damage (damage on each enemy reduced based on number of total enemies)"
-            }
-        ],
-        festSuperSpecial: {
-            base: {
-                condition: "After character receives damage 8 times",
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.7 (25 s), SPD Up Lv.7 (25 s), 100% chance to evade Action Bind/damage ignoring DEF (20 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.7 (25 s), Special CT Speed Down Lv.4 (20 s); targets (not including self) [Straw Hat Pirates] teammates for Special CT 30% reduction; during Assault Rumble, targets enemies within large range for ATK x 17 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            llbbase: {
-                condition: "After character receives damage 6 times",
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for ATK Up Lv.8 (30 s), SPD Up Lv.8 (30 s), 100% chance to evade Action Bind/damage ignoring DEF (25 s); if 5 or more [PSY] characters are on the team, targets [INT] enemies for ATK Down Lv.8 (30 s), Special CT Speed Down Lv.5 (20 s); targets [Straw Hat Pirates] teammates for Special CT 30% reduction; during Assault Rumble, targets enemies within large range for ATK x 20 spread damage (damage on each enemy reduced based on number of total enemies)"
-            }
         }
     },
     4650: {//Nami
-        special: "Boosts [PSY] and Cerebral characters' ATK by 2.75x for 1 turn, reduces all enemies' damage nullification duration by 2 turns, reduces crew's ATK Down duration by 6 turns, and if crew has slot effect or type effect boost when Special is launched, further increases crew's ATK boost by +0.25 (this effect also applies to ATK boost from this Special)",
+        special: "Boosts ATK of [PSY] and Cerebral characters by 2.75x for 1 turn, reduces enemies' Damage Nullification duration by 2 turns, and reduces ATK Down duration by 6 turns. If your crew has Orb Boost or Color Affinity when the special is activated, increases boost effects of ATK Up buffs by +0.25x, including effects activated in the same ability.",
         specialName: "Trick or Berries!",
         sailor: {
-            base: "Boosts [PSY] and Cerebral characters' base RCV by 80",
-            level1: "Reduces the duration of Remove SFX by 6 turns"
+            base: "Boosts base RCV of [PSY] and Cerebral characters by 80.",
+            level1: "Reduces Blindness duration by 6 turns."
         },
         support: [
             {
                 Characters: "[PSY] Cerebral characters",
                 description: [
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn [AUTO+] At battle 4, activates supported character's Super Effect. At final battle, activates supported character's Special",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn [AUTO+] At battle 4, activates supported character's Super Effect. At final battle, activates supported character's Special",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn [AUTO+] At battle 4, activates supported character's Super Effect. At final battle, activates supported character's Special",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 1 turn at start of crew's next turn [AUTO+] At battle 4, activates supported character's Super Effect. At final battle, activates supported character's Special",
-                    "Once per quest, if inflicted with ATK Down status from the enemy, reduces crew's ATK Down duration by 2 turns at start of crew's next turn [AUTO+] At battle 4, activates supported character's Super Effect. At final battle, activates supported character's Special"
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Super Effect; when you reach the final stage, activates supported character's Special.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Super Effect; when you reach the final stage, activates supported character's Special.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Super Effect; when you reach the final stage, activates supported character's Special.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 1 turn. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Super Effect; when you reach the final stage, activates supported character's Special.",
+                    "Once per adventure, when an enemy inflicts you with ATK Down, reduces ATK Down duration by 2 turns. <b>[AUTO+]</b> When you reach the 4th stage, activates supported character's Super Effect; when you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -192537,90 +192393,28 @@ window.details = {
                     "Reduces No Healing duration by 5 turns"
                 ]
             }
-        ],
-        festStats: {
-            def: 154,
-            spd: 153,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind, reduce damage taken from [INT] by 20%",
-        festAbility: [
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.1, DEF Up Lv.1; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates ATK Up Lv.1; after receiving damage, up to 10 times [INT] enemies ATK Down Lv.1, DEF Down Lv.1; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.2",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.1, DEF Up Lv.1; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates ATK Up Lv.2; after receiving damage, up to 10 times [INT] enemies ATK Down Lv.1, DEF Down Lv.1; during Assault Rumble, self HP Up Lv.7, Special CT Speed Up Lv.3",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.2, DEF Up Lv.2; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates ATK Up Lv.3; after receiving damage, up to 10 times [INT] enemies ATK Down Lv.1, DEF Down Lv.1; during Assault Rumble, self HP Up Lv.8, Special CT Speed Up Lv.4",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.2, DEF Up Lv.2; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates ATK Up Lv.4; after receiving damage, up to 10 times [INT] enemies ATK Down Lv.1, DEF Down Lv.1; during Assault Rumble, self HP Up Lv.9, Special CT Speed Up Lv.5",
-            "[PSY] and [Straw Hat Pirates] teammates HP Up Lv.4, DEF Up Lv.3; if 5 or more [Straw Hat Pirates] characters are on the team, [PSY] and [Straw Hat Pirates] teammates ATK Up Lv.5; after receiving damage, up to 10 times [INT] enemies ATK Down Lv.1, DEF Down Lv.1; during Assault Rumble, self HP Up Lv.10, Special CT Speed Up Lv.6"
-        ],
-        festSpecial: [
-            {
-                cooldown: 28,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for HP 11% healing, ATK Up Lv.1 (73 s); if 5 or more [Straw Hat Pirates] characters are on the team, targets [INT] enemies for DEF Down Lv.1 (73 s); if 5 or more [PSY] characters are on the team, targets 3 [INT] enemies for 73% chance of Special Bind (6 s); during Assault Rumble, targets enemies within medium range for ATK x 7.5 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for HP 12% healing, ATK Up Lv.1 (76 s); if 5 or more [Straw Hat Pirates] characters are on the team, targets [INT] enemies for DEF Down Lv.1 (76 s); if 5 or more [PSY] characters are on the team, targets 3 [INT] enemies for 76% chance of Special Bind (7 s); during Assault Rumble, targets enemies within medium range for ATK x 8 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for HP 13% healing, ATK Up Lv.1 (79 s); if 5 or more [Straw Hat Pirates] characters are on the team, targets [INT] enemies for DEF Down Lv.1 (79 s); if 5 or more [PSY] characters are on the team, targets 3 [INT] enemies for 79% chance of Special Bind (8 s); during Assault Rumble, targets enemies within medium range for ATK x 8.5 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for HP 14% healing, ATK Up Lv.1 (82 s); if 5 or more [Straw Hat Pirates] characters are on the team, targets [INT] enemies for DEF Down Lv.1 (82 s); if 5 or more [PSY] characters are on the team, targets 3 [INT] enemies for 82% chance of Special Bind (9 s); during Assault Rumble, targets enemies within medium range for ATK x 9 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for HP 15% healing, ATK Up Lv.1 (85 s); if 5 or more [Straw Hat Pirates] characters are on the team, targets [INT] enemies for DEF Down Lv.1 (85 s); if 5 or more [PSY] characters are on the team, targets 3 [INT] enemies for 85% chance of Special Bind (10 s); during Assault Rumble, targets enemies within medium range for ATK x 9.5 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for HP 16% healing, ATK Up Lv.2 (88 s); if 5 or more [Straw Hat Pirates] characters are on the team, targets [INT] enemies for DEF Down Lv.2 (88 s); if 5 or more [PSY] characters are on the team, targets 3 [INT] enemies for 88% chance of Special Bind (11 s); during Assault Rumble, targets enemies within medium range for ATK x 10 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for HP 17% healing, ATK Up Lv.2 (91 s); if 5 or more [Straw Hat Pirates] characters are on the team, targets [INT] enemies for DEF Down Lv.2 (91 s); if 5 or more [PSY] characters are on the team, targets 3 [INT] enemies for 91% chance of Special Bind (12 s); during Assault Rumble, targets enemies within medium range for ATK x 10.5 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for HP 18% healing, ATK Up Lv.2 (94 s); if 5 or more [Straw Hat Pirates] characters are on the team, targets [INT] enemies for DEF Down Lv.2 (94 s); if 5 or more [PSY] characters are on the team, targets 3 [INT] enemies for 94% chance of Special Bind (13 s); during Assault Rumble, targets enemies within medium range for ATK x 11 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for HP 19% healing, ATK Up Lv.2 (97 s); if 5 or more [Straw Hat Pirates] characters are on the team, targets [INT] enemies for DEF Down Lv.2 (97 s); if 5 or more [PSY] characters are on the team, targets 3 [INT] enemies for 97% chance of Special Bind (14 s); during Assault Rumble, targets enemies within medium range for ATK x 11.5 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 28,
-                description: "Targets [PSY] and [Straw Hat Pirates] teammates for HP 20% healing, ATK Up Lv.3 (100 s); if 5 or more [Straw Hat Pirates] characters are on the team, targets [INT] enemies for DEF Down Lv.3 (100 s); if 5 or more [PSY] characters are on the team, targets 3 [INT] enemies for 100% chance of Special Bind (15 s); during Assault Rumble, targets enemies within medium range for ATK x 12 spread damage (damage on each enemy reduced based on number of total enemies)"
-            }
         ]
     },
     4651: {//5+ HW Crocodile
         captain: {
-            base: "Boosts [INT] characters' ATK by 4x, boosts other characters' ATK by 3x, boosts [INT] characters' HP by 1.3x, and reduces their Special charge time by 1 turn at start of quest",
-            level1: "Boosts [INT] characters' ATK by 4.5x, boosts other characters' ATK by 3.5x, boosts [INT] characters' HP by 1.3x, and reduces their Special charge time by 2 turns at start of quest"
+            base: "Reduces Special Cooldown of [INT] characters by 1 turn at the start of the fight, boosts ATK of [INT] characters by 4x, boosts ATK of all other characters by 3x, and boosts HP of [INT] characters by 1.3x.",
+            level1: "Reduces Special Cooldown of [INT] characters by 2 turns at the start of the fight, boosts ATK of [INT] characters by 4.5x, boosts ATK of all other characters by 3.5x, and boosts HP of [INT] characters by 1.3x."
         },
-        special: "Deals 100x character's ATK in non-type damage to all enemies, reduces crew's ATK Down/Burn duration by 6 turns, and boosts the type effects of normal attacks for [INT] characters by 2.75x for 1 turn. If crew has Percent Damage Reduction status when Special is launched, boosts crew's ATK based on the Percent Damage Reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 2 turns, then after that, reduces damage taken by 80% for 1 turn, and if 3 or more [Baroque Works] [Seven Warlords of the Sea] [Logia-type] characters are on the crew, boosts [INT] characters' base ATK by +1500 for 1 turn",
+        special: "Deals 100x character's ATK in typeless damage to all enemies, reduces ATK Down and Burn duration by 6 turns, boosts Color Affinity of [INT] characters by 2.75x for 1 turn, and reduces damage received by 80% for 1 turn. If your crew has Percent Damage Reduction when the special is activated, boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 2 turns. If your crew has 3+ [Baroque Works], [Seven Warlords of the Sea] or [Logia-type] characters, boosts Base ATK of [INT] characters by 1,500 for 1 turn.",
         specialName: "Gastronomy Filled Night",
         sailor: {
-            base: "Boosts [INT] characters' base ATK by 40",
-            level1: "Character's [INT] slot is carried over to the next turn if character lands a PERFECT strike"
+            base: "Boosts base ATK of [INT] characters by 40.",
+            level1: "If this character has an [INT] orb and you hit a PERFECT with them, keep their [INT] orb for the next turn."
         },
         support: [
             {
                 Characters: "[INT] characters",
                 description: [
-                    "Adds 2% of character's base stats to supported character's base stats",
-                    "Adds 3% of character's base stats to supported character's base stats",
-                    "Adds 4% of character's base stats to supported character's base stats",
-                    "Adds 5% of character's base stats to supported character's base stats",
-                    "Adds 6% of character's base stats to supported character's base stats"
+                    "Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -192681,68 +192475,6 @@ window.details = {
                     "Reduces Special Cooldown of this character by 4 turns at the start of the fight",
                     "Reduces Special Cooldown of this character by 5 turns at the start of the fight"
                 ]
-            }
-        ],
-        festStats: {
-            def: 171,
-            spd: 162,
-            style: "DBF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "80% chance to evade Action Bind, reduce damage taken from [PSY] by 20%",
-        festAbility: [
-            "[INT]/Cerebral class teammates HP Up Lv.1, ATK Up Lv.1, Guard % Up Lv.1; [PSY]/Free Spirit class enemies ATK Down Lv.1; during Assault Rumble, self HP Up Lv.2, Special CT Speed Up Lv.1",
-            "[INT]/Cerebral class teammates HP Up Lv.2, ATK Up Lv.2, Guard % Up Lv.2; [PSY]/Free Spirit class enemies ATK Down Lv.2; during Assault Rumble, self HP Up Lv.3, Special CT Speed Up Lv.1",
-            "[INT]/Cerebral class teammates HP Up Lv.3, ATK Up Lv.3, Guard % Up Lv.3; [PSY]/Free Spirit class enemies ATK Down Lv.3; during Assault Rumble, self HP Up Lv.4, Special CT Speed Up Lv.2",
-            "[INT]/Cerebral class teammates HP Up Lv.4, ATK Up Lv.4, Guard % Up Lv.4; [PSY]/Free Spirit class enemies ATK Down Lv.4; during Assault Rumble, self HP Up Lv.5, Special CT Speed Up Lv.2",
-            "[INT]/Cerebral class teammates HP Up Lv.5, ATK Up Lv.5, Guard % Up Lv.5; [PSY]/Free Spirit class enemies ATK Down Lv.5; during Assault Rumble, self HP Up Lv.6, Special CT Speed Up Lv.3"
-        ],
-        festSpecial: [
-            {
-                cooldown: 30,
-                description: "Activates Provoke on 1 high DEF [INT] teammate (not including self) (21 s); targets 2 enemies for 73% chance of Action Bind (10 s); targets 3 high DEF enemies for DEF Down Lv.3 (11 s); targets enemies within medium range (horizontal) for ATK x 1.6 damage; targets 2 [Seven Warlords of the Sea] [Baroque Works] teammates for Special CT 11% reduction; during Assault Rumble, targets 1 enemy for DEF Down Lv.7 (20 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Activates Provoke on 1 high DEF [INT] teammate (not including self) (22 s); targets 2 enemies for 76% chance of Action Bind (10 s); targets 3 high DEF enemies for DEF Down Lv.3 (12 s); targets enemies within medium range (horizontal) for ATK x 1.7 damage; targets 2 [Seven Warlords of the Sea] [Baroque Works] teammates for Special CT 12% reduction; during Assault Rumble, targets 1 enemy for DEF Down Lv.7 (20 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Activates Provoke on 1 high DEF [INT] teammate (not including self) (23 s); targets 2 enemies for 79% chance of Action Bind (10 s); targets 3 high DEF enemies for DEF Down Lv.3 (13 s); targets enemies within medium range (horizontal) for ATK x 1.8 damage; targets 2 [Seven Warlords of the Sea] [Baroque Works] teammates for Special CT 13% reduction; during Assault Rumble, targets 1 enemy for DEF Down Lv.7 (20 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Activates Provoke on 1 high DEF [INT] teammate (not including self) (24 s); targets 2 enemies for 82% chance of Action Bind (10 s); targets 3 high DEF enemies for DEF Down Lv.3 (14 s); targets enemies within medium range (horizontal) for ATK x 1.9 damage; targets 2 [Seven Warlords of the Sea] [Baroque Works] teammates for Special CT 14% reduction; during Assault Rumble, targets 1 enemy for DEF Down Lv.7 (20 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Activates Provoke on 1 high DEF [INT] teammate (not including self) (25 s); targets 2 enemies for 85% chance of Action Bind (10 s); targets 3 high DEF enemies for DEF Down Lv.3 (15 s); targets enemies within medium range (horizontal) for ATK x 2 damage; targets 2 [Seven Warlords of the Sea] [Baroque Works] teammates for Special CT 15% reduction; during Assault Rumble, targets 1 enemy for DEF Down Lv.7 (20 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Activates Provoke on 1 high DEF [INT] teammate (not including self) (26 s); targets 2 enemies for 88% chance of Action Bind (10 s); targets 3 high DEF enemies for DEF Down Lv.4 (16 s); targets enemies within medium range (horizontal) for ATK x 2.1 damage; targets 2 [Seven Warlords of the Sea] [Baroque Works] teammates for Special CT 16% reduction; during Assault Rumble, targets 1 enemy for DEF Down Lv.7 (20 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Activates Provoke on 1 high DEF [INT] teammate (not including self) (27 s); targets 2 enemies for 91% chance of Action Bind (10 s); targets 3 high DEF enemies for DEF Down Lv.4 (17 s); targets enemies within medium range (horizontal) for ATK x 2.2 damage; targets 2 [Seven Warlords of the Sea] [Baroque Works] teammates for Special CT 17% reduction; during Assault Rumble, targets 1 enemy for DEF Down Lv.7 (20 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Activates Provoke on 1 high DEF [INT] teammate (not including self) (28 s); targets 2 enemies for 94% chance of Action Bind (10 s); targets 3 high DEF enemies for DEF Down Lv.4 (18 s); targets enemies within medium range (horizontal) for ATK x 2.3 damage; targets 2 [Seven Warlords of the Sea] [Baroque Works] teammates for Special CT 18% reduction; during Assault Rumble, targets 1 enemy for DEF Down Lv.7 (20 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Activates Provoke on 1 high DEF [INT] teammate (not including self) (29 s); targets 2 enemies for 97% chance of Action Bind (10 s); targets 3 high DEF enemies for DEF Down Lv.4 (19 s); targets enemies within medium range (horizontal) for ATK x 2.4 damage; targets 2 [Seven Warlords of the Sea] [Baroque Works] teammates for Special CT 19% reduction; during Assault Rumble, targets 1 enemy for DEF Down Lv.7 (20 s)"
-            },
-            {
-                cooldown: 30,
-                description: "Activates Provoke on 1 high DEF [INT] teammate (not including self) (30 s); targets 2 enemies for 100% chance of Action Bind (10 s); targets 3 high DEF enemies for DEF Down Lv.5 (20 s); targets enemies within medium range (horizontal) for ATK x 2.5 damage; targets 2 [Seven Warlords of the Sea] [Baroque Works] teammates for Special CT 20% reduction; during Assault Rumble, targets 1 enemy for DEF Down Lv.7 (20 s)"
             }
         ]
     },
