@@ -184053,7 +184053,7 @@ window.details = {
     },
     4557: {//Luffy
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Straw Hat Pirates] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [DEX] and Fighter characters by 2 turns, and reduces VS Gauge and Switch Effect of [DEX] and Fighter characters by 2. Boosts ATK of [DEX] and Fighter characters by 6x, boosts HP of [DEX] and Fighter characters by 1.3x, and makes [DEX] and [TND] orbs beneficial for [DEX] and Fighter characters. If your crew has 4+ [DEX] characters, reduces Special Use Limit duration by 10 turns. If your crew has 6+ [DEX] characters and field has Territory: [DEX], boosts ATK of [DEX] characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Straw Hat Pirates], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
-        special: "Reduces ATK Down duration by 10 turns, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x-3x for 1 turn depending on the outcome of Action Special, and applies Territory: [DEX] to the field for 3 turns. If field has Territory: [DEX] and Fighter or Territory: Crew when the special is activated, boosts Orb Effects of [DEX] Fighter characters by 8x for 3 turns and boosts Orb Effects of [DEX] and Fighter characters by 6x for 3 turns; boosts Orb Effects of [DEX] Fighter characters by 4x for 1 turn and boosts Orb Effects of [DEX] and Fighter characters by 3x for 1 turn otherwise. If your crew has 4+ [Straw Hat Pirates] or [Four Emperors] characters or your crew has Portgas D. Ace or Sabo who has used a special this turn, allows crew to stack 2 different Status ATK Boost buffs for 3 turns, and reduces Special Cooldown of Captain character by 5 turns.",
+        special: "Reduces ATK Down duration by 10 turns, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x-3x for 1 turn depending on the outcome of Action Special, and applies Territory: [DEX] to the field for 3 turns. If field has Territory: [DEX] and Fighter or Territory: Crew when the special is activated, boosts Orb Effects of [DEX] Fighter characters by 8x for 3 turns and boosts Orb Effects of [DEX] and Fighter characters by 6x for 3 turns; boosts Orb Effects of [DEX] Fighter characters by 4x for 1 turn and boosts Orb Effects of [DEX] and Fighter characters by 3x for 1 turn otherwise. If your crew has 4+ [Straw Hat Pirates] or [Four Emperors] characters or your crew has Portgas D. Ace and Sabo who have both used specials this turn, allows crew to stack 2 different Status ATK Boost buffs for 3 turns, and reduces Special Cooldown of Captain character by 5 turns.",
         specialNotes: "<br><b>MISS:</b> 2x, <b>GOOD:</b> 2.2x, <b>GREAT:</b> 2.5x, <b>PERFECT:</b> 2.8x, <b>EXCELLENT:</b> 3x",
         specialName: "Emperor Embodying Freedom",
         sailor: {
@@ -184161,7 +184161,7 @@ window.details = {
     },
     4558: {//Luffy
         captain: "Launches the following effect at start of fight: reduces Special Cooldown of [Straw Hat Pirates] and [Four Emperors] characters by 5 turns, reduces Special Cooldown of [DEX] and Fighter characters by 2 turns, and reduces VS Gauge and Switch Effect of [DEX] and Fighter characters by 2. Boosts ATK of [DEX] and Fighter characters by 6x, boosts HP of [DEX] and Fighter characters by 1.3x, and makes [DEX] and [TND] orbs beneficial for [DEX] and Fighter characters. If your crew has 4+ [DEX] characters, reduces Special Use Limit duration by 10 turns. If your crew has 6+ [DEX] characters and field has Territory: [DEX], boosts ATK of [DEX] characters by 7x instead. If this character is your Captain and performs EXCELLENT with their Action Special, for 3 turns boosts ATK of [Straw Hat Pirates], [Four Emperors] and [Egghead Arc] characters by 1.2x.",
-        special: "Reduces ATK Down duration by 10 turns, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x-3x for 1 turn depending on the outcome of Action Special, and applies Territory: [DEX] to the field for 3 turns. If field has Territory: [DEX] and Fighter or Territory: Crew when the special is activated, boosts Orb Effects of [DEX] Fighter characters by 8x for 3 turns and boosts Orb Effects of [DEX] and Fighter characters by 6x for 3 turns; boosts Orb Effects of [DEX] Fighter characters by 4x for 1 turn and boosts Orb Effects of [DEX] and Fighter characters by 3x for 1 turn otherwise. If your crew has 4+ [Straw Hat Pirates] or [Four Emperors] characters or your crew has Portgas D. Ace or Sabo who has used a special this turn, allows crew to stack 2 different Status ATK Boost buffs for 3 turns, and reduces Special Cooldown of Captain character by 5 turns.",
+        special: "Reduces ATK Down duration by 10 turns, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x-3x for 1 turn depending on the outcome of Action Special, and applies Territory: [DEX] to the field for 3 turns. If field has Territory: [DEX] and Fighter or Territory: Crew when the special is activated, boosts Orb Effects of [DEX] Fighter characters by 8x for 3 turns and boosts Orb Effects of [DEX] and Fighter characters by 6x for 3 turns; boosts Orb Effects of [DEX] Fighter characters by 4x for 1 turn and boosts Orb Effects of [DEX] and Fighter characters by 3x for 1 turn otherwise. If your crew has 4+ [Straw Hat Pirates] or [Four Emperors] characters or your crew has Portgas D. Ace and Sabo who have both used specials this turn, allows crew to stack 2 different Status ATK Boost buffs for 3 turns, and reduces Special Cooldown of Captain character by 5 turns.",
         specialNotes: "<br><b>MISS:</b> 2x, <b>GOOD:</b> 2.2x, <b>GREAT:</b> 2.5x, <b>PERFECT:</b> 2.8x, <b>EXCELLENT:</b> 3x",
         specialName: "Emperor Embodying Freedom",
         sailor: {
@@ -192479,22 +192479,22 @@ window.details = {
         ]
     },
     4652: {//Goldberg
-        captain: "Boosts [PSY] and Striker characters' ATK by approximately 5.75x when slots match (5.5x otherwise), HP by 1.5x, makes crew's [PSY] slots have matching slot effects, and if crew uses a Special to apply additive chain multiplier boost (except multiplicative boost), extends the duration of that effect by 2 turns [Applies following effect based on number of applicable Character Tags on crew] If 2 or more [New Giant Pirate Crew] characters are on the crew, boosts [New Giant Pirate Crew] characters' ATK by 1.1x",
-        special: "Reduces the duration of all enemy barriers and damage nullification by 2 turns. If 2 or more [New Giant Pirate Crew] characters are on the crew, deals 300x character's ATK in [PSY] damage to all enemies at end of turn for 3 turns. If crew has ATK Up status when Special is launched, allows crew's ATK boost to be further increased up to 2 times and further increases the boost by 1.2x (up to a maximum of 6x), otherwise, boosts [PSY] and Striker characters' ATK by 2.75x for 3 turns. If crew has additive chain multiplier boost (except multiplicative boosts) when Special is launched, extends the duration of chain multiplier boost (except multiplicative boosts) by 1 turn and further increases the boost by +0.5, otherwise, boosts the chain multiplier by +1.8 for 2 turns",
+        captain: "Boosts ATK of [PSY] and Striker characters by 5.5x, by 5.75x instead if they have a beneficial orb, boosts HP of [PSY] and Striker characters by 1.5x, makes [PSY] orbs beneficial for all characters, and increases duration of any Chain Addition buffs applied by specials by 2 turns. If your crew has 2+ [New Giant Pirate Crew] characters, further boosts ATK of [New Giant Pirate Crew] characters by 1.1x.",
+        special: "Reduces enemies' Barrier and Damage Nullification duration by 2 turns. If your crew has 2+ [New Giant Pirate Crew] characters, deals 300x character's ATK in [PSY] damage to all enemies at the end of each turn for 3 turns. If your crew has ATK Up when the special is activated, enables ATK Up buffs to be enhanced up to 2 times, and increases boost effects of ATK Up buffs by 1.2x (up to 6x); boosts ATK of [PSY] and Striker characters by 2.75x for 3 turns otherwise. If your crew has Chain Addition when the special is activated, increases duration of any Chain Addition buffs by 1 turn, and increases boost effects of Chain Addition buffs by +0.5x; adds 1.8x to Chain Multiplier for 2 turns otherwise.",
         specialName: "Giant Questioning Straw Hat",
         sailor: {
-            base: "Character cannot be blown away by attack",
-            level1: "Boosts [PSY] and Striker characters' base stats by 100"
+            base: "This character cannot be Blown Away.",
+            level1: "Boosts base ATK, HP and RCV of [PSY] and Striker characters by 100."
         },
         support: [
             {
                 Characters: "[PSY] Striker characters",
                 description: [
-                    "Adds 6% of character's base HP to supported character's base HP",
-                    "Adds 8% of character's base HP to supported character's base HP",
-                    "Adds 10% of character's base HP to supported character's base HP",
-                    "Adds 12% of character's base HP to supported character's base HP",
-                    "Adds 15% of character's base HP to supported character's base HP"
+                    "Adds 6% of this character's base HP to the supported character's base HP.",
+                    "Adds 8% of this character's base HP to the supported character's base HP.",
+                    "Adds 10% of this character's base HP to the supported character's base HP.",
+                    "Adds 12% of this character's base HP to the supported character's base HP.",
+                    "Adds 15% of this character's base HP to the supported character's base HP."
                 ]
             }
         ],
@@ -192570,67 +192570,6 @@ window.details = {
                     "If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
                     "If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
                 ]
-            }
-        ],
-        festStats: {
-            def: 216,
-            spd: 120,
-            style: "DEF"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Normal Attack",
-            "Heal Self Lv.2"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind/Damage Over Time, reduce damage taken from [INT] by 30%",
-        festAbility: [
-            "[PSY]/Striker class and [Giant] teammates HP Up Lv.2, SPD Up Lv.2, DEF Up Lv.2; if 3 or more [New Giant Pirate Crew] characters are on the team, when appearing on the field, self Special CT 30% reduction; when appearing on the field, [New Giant Pirate Crew] teammates Special CT 10% reduction; revives 1 [Giant] teammate up to 1 time at 30% HP",
-            "[PSY]/Striker class and [Giant] teammates HP Up Lv.3, SPD Up Lv.3, DEF Up Lv.3; if 3 or more [New Giant Pirate Crew] characters are on the team, when appearing on the field, self Special CT 35% reduction; when appearing on the field, [New Giant Pirate Crew] teammates Special CT 15% reduction; revives 1 [Giant] teammate up to 1 time at 35% HP",
-            "[PSY]/Striker class and [Giant] teammates HP Up Lv.4, SPD Up Lv.4, DEF Up Lv.4; if 3 or more [New Giant Pirate Crew] characters are on the team, when appearing on the field, self Special CT 40% reduction; when appearing on the field, [New Giant Pirate Crew] teammates Special CT 20% reduction; revives 1 [Giant] teammate up to 1 time at 40% HP",
-            "[PSY]/Striker class and [Giant] teammates HP Up Lv.5, SPD Up Lv.5, DEF Up Lv.5; if 3 or more [New Giant Pirate Crew] characters are on the team, when appearing on the field, self Special CT 45% reduction; when appearing on the field, [New Giant Pirate Crew] teammates Special CT 25% reduction; revives 1 [Giant] teammate up to 1 time at 45% HP",
-            "[PSY]/Striker class and [Giant] teammates HP Up Lv.6, SPD Up Lv.6, DEF Up Lv.6; if 3 or more [New Giant Pirate Crew] characters are on the team, when appearing on the field, self Special CT 50% reduction; when appearing on the field, [New Giant Pirate Crew] teammates Special CT 30% reduction; revives 1 [Giant] teammate up to 1 time at 50% HP"
-        ],
-        festSpecial: [
-            {
-                cooldown: 29,
-                description: "Targets enemies within large range for SPD Down Lv.1 (11 s); targets [PSY]/Striker class and [Giant] teammates for Guard % Up Lv.1 (11 s), DEF Up Lv.1 (11 s); targets [Giant] teammates for 73% chance to evade Action Bind (11 s); when remaining time is 30 s or more, targets (not including self) [PSY]/Striker class and [Giant] teammates for Damage Reflect status to reduce damage by 33% and reflect x 0.1 the damage reduced (11 s); when remaining time is less than 30 s, targets all enemies for 16500 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets enemies within large range for SPD Down Lv.1 (12 s); targets [PSY]/Striker class and [Giant] teammates for Guard % Up Lv.1 (12 s), DEF Up Lv.1 (12 s); targets [Giant] teammates for 76% chance to evade Action Bind (12 s); when remaining time is 30 s or more, targets (not including self) [PSY]/Striker class and [Giant] teammates for Damage Reflect status to reduce damage by 36% and reflect x 0.1 the damage reduced (12 s); when remaining time is less than 30 s, targets all enemies for 18000 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets enemies within large range for SPD Down Lv.1 (13 s); targets [PSY]/Striker class and [Giant] teammates for Guard % Up Lv.2 (13 s), DEF Up Lv.1 (13 s); targets [Giant] teammates for 79% chance to evade Action Bind (13 s); when remaining time is 30 s or more, targets (not including self) [PSY]/Striker class and [Giant] teammates for Damage Reflect status to reduce damage by 39% and reflect x 0.1 the damage reduced (13 s); when remaining time is less than 30 s, targets all enemies for 19500 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets enemies within large range for SPD Down Lv.2 (14 s); targets [PSY]/Striker class and [Giant] teammates for Guard % Up Lv.3 (14 s), DEF Up Lv.2 (14 s); targets [Giant] teammates for 82% chance to evade Action Bind (14 s); when remaining time is 30 s or more, targets (not including self) [PSY]/Striker class and [Giant] teammates for Damage Reflect status to reduce damage by 42% and reflect x 0.1 the damage reduced (14 s); when remaining time is less than 30 s, targets all enemies for 21000 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets enemies within large range for SPD Down Lv.2 (15 s); targets [PSY]/Striker class and [Giant] teammates for Guard % Up Lv.3 (15 s), DEF Up Lv.2 (15 s); targets [Giant] teammates for 85% chance to evade Action Bind (15 s); when remaining time is 30 s or more, targets (not including self) [PSY]/Striker class and [Giant] teammates for Damage Reflect status to reduce damage by 45% and reflect x 0.1 the damage reduced (15 s); when remaining time is less than 30 s, targets all enemies for 22500 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets enemies within large range for SPD Down Lv.3 (16 s); targets [PSY]/Striker class and [Giant] teammates for Guard % Up Lv.4 (16 s), DEF Up Lv.3 (16 s); targets [Giant] teammates for 88% chance to evade Action Bind (16 s); when remaining time is 30 s or more, targets (not including self) [PSY]/Striker class and [Giant] teammates for Damage Reflect status to reduce damage by 48% and reflect x 0.1 the damage reduced (16 s); when remaining time is less than 30 s, targets all enemies for 24000 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets enemies within large range for SPD Down Lv.3 (17 s); targets [PSY]/Striker class and [Giant] teammates for Guard % Up Lv.5 (17 s), DEF Up Lv.3 (17 s); targets [Giant] teammates for 91% chance to evade Action Bind (17 s); when remaining time is 30 s or more, targets (not including self) [PSY]/Striker class and [Giant] teammates for Damage Reflect status to reduce damage by 51% and reflect x 0.1 the damage reduced (17 s); when remaining time is less than 30 s, targets all enemies for 25500 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets enemies within large range for SPD Down Lv.3 (18 s); targets [PSY]/Striker class and [Giant] teammates for Guard % Up Lv.5 (18 s), DEF Up Lv.3 (18 s); targets [Giant] teammates for 94% chance to evade Action Bind (18 s); when remaining time is 30 s or more, targets (not including self) [PSY]/Striker class and [Giant] teammates for Damage Reflect status to reduce damage by 54% and reflect x 0.1 the damage reduced (18 s); when remaining time is less than 30 s, targets all enemies for 27000 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets enemies within large range for SPD Down Lv.4 (19 s); targets [PSY]/Striker class and [Giant] teammates for Guard % Up Lv.6 (19 s), DEF Up Lv.4 (19 s); targets [Giant] teammates for 97% chance to evade Action Bind (19 s); when remaining time is 30 s or more, targets (not including self) [PSY]/Striker class and [Giant] teammates for Damage Reflect status to reduce damage by 57% and reflect x 0.1 the damage reduced (19 s); when remaining time is less than 30 s, targets all enemies for 28500 spread damage (damage on each enemy reduced based on number of total enemies)"
-            },
-            {
-                cooldown: 29,
-                description: "Targets enemies within large range for SPD Down Lv.5 (20 s); targets [PSY]/Striker class and [Giant] teammates for Guard % Up Lv.7 (20 s), DEF Up Lv.5 (20 s); targets [Giant] teammates for 100% chance to evade Action Bind (20 s); when remaining time is 30 s or more, targets (not including self) [PSY]/Striker class and [Giant] teammates for Damage Reflect status to reduce damage by 60% and reflect x 0.1 the damage reduced (20 s); when remaining time is less than 30 s, targets all enemies for 30000 spread damage (damage on each enemy reduced based on number of total enemies)"
             }
         ]
     },
