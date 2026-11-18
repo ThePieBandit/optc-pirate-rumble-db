@@ -194533,24 +194533,24 @@ window.details = {
         }
     },
     4676: {//Yamato
-        captain: "Reduces [INT] characters' Special charge time by 2 turns at start of quest, boosts [INT], Striker, and Free Spirit characters' ATK by 5.5x, HP by 1.3x, changes crew's [INT] slots into [WANO] slots, reduces crew's Paralysis duration by 10 turns, and if crew uses a Special to launch lock chain multiplier effect, extends the duration of that effect by 1 turn [If field has \"Territory: [INT]\"] Boosts [INT] characters' ATK by a further 1.1x [If 2 or more [Land of Wano Arc] [Mythical Zoan-type] characters are on the crew] Boosts Striker and Free Spirit characters' ATK by a further 1.1x",
-        special: "Reduces crew's ATK Down duration by 7 turns, sets the chain multiplier's minimum value at 3.5 and maximum value at 50.0 for 1 turn, and changes crew's slots (including [BLOCK] slots) to character's own type [If field has \"Territory: [INT]\"] Boosts crew's ATK based on the Percent Damage Reduction effect applied on the crew (e.g. if crew has 80% damage reduction, boosts ATK by 1.8x) for 1 turn [If 3 or more [Land of Wano Arc] [Mythical Zoan-type] characters are on the crew] Reduces all enemies' damage nullification duration by 3 turns, boosts crew's damage dealt to DEF Down enemies by 3.25x for 1 turn, and applies \"Territory: [INT]\" to the field for 3 turns",
+        captain: "Reduces Special Cooldown of [INT] characters by 2 turns at the start of the fight, boosts ATK of [INT], Striker and Free Spirit characters by 5.5x, boosts HP of [INT], Striker and Free Spirit characters by 1.3x, changes [INT] orbs into [WANO] orbs, reduces Paralysis duration by 10 turns, and increases duration of any Chain Lock buffs applied by specials by 1 turn. If field has Territory: [INT], further boosts ATK of [INT] characters by 1.1x. If your crew has 2+ [Land of Wano Arc] or [Mythical Zoan-type] characters, further boosts ATK of Striker and Free Spirit characters by 1.1x.",
+        special: "Reduces ATK Down duration by 7 turns, sets Chain Boundaries to 3.5x and 50.0x for 1 turn, and changes all orbs, including [BLOCK] orbs, into matching orbs. If field has Territory: [INT] when the special is activated, boosts Crew Damage Reduction to ATK of all characters by 1x-2x, proportional to the strength of crew's Percent Damage Reduction buff, for 1 turn. If your crew has 3+ [Land of Wano Arc] or [Mythical Zoan-type] characters, reduces enemies' Damage Nullification duration by 3 turns, boosts ATK against enemies with reduced defense by 3.25x for 1 turn, and applies Territory: [INT] to the field for 3 turns.",
         specialName: "Beast Dashing Through Onigashima",
         sailor: {
-            base: "Boosts [INT] and Striker characters' base ATK by 100",
-            level1: "Lets character completely evade Bind"
+            base: "Boosts base ATK of [INT] and Striker characters by 100.",
+            level1: "Reduces Bind duration completely on this character."
         },
-        superSpecialCriteria: "When any 2 [Land of Wano Arc] [Mythical Zoan-type] characters are on the crew not including self (except as Support Characters or Double Characters in inactive state; Double Characters counts as 1; can be launched when character is a crewmate)",
-        superSpecial: "Allows crew to perform Super Tandem with [INT][WANO] slots for 1 turn, reduces damage taken by 80% for 1 turn, sets all enemies' DEF to 0 for 2 turns (ignoring immunity to DEF Down, immunity to all status effects, or immunity excluding certain status effect), and changes [INT] characters to Super [INT]",
+        superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 3 of the following, excluding supports and counting only 1 per unit: [Land of Wano Arc], [Mythical Zoan-type] characters",
+        superSpecial: "Allows all characters to perform Super Tandem with [INT] and [WANO] orbs for 1 turn, reduces damage received by 80% for 1 turn, ignores Debuff Protection and reduces the defense of all enemies by 100% for 2 turns, and transforms [INT] characters into Super [INT] characters.",
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Land of Wano Arc]",
+                Characters: "[Land of Wano Arc] characters",
                 description: [
-                    "Adds 9% of character's base stats to supported character's base stats",
-                    "Adds 10% of character's base stats to supported character's base stats",
-                    "Adds 11% of character's base stats to supported character's base stats",
-                    "Adds 13% of character's base stats to supported character's base stats",
-                    "Adds 15% of character's base stats to supported character's base stats"
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 11% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 13% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Adds 15% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
                 ]
             }
         ],
@@ -194630,99 +194630,38 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When a [Land of Wano Arc] [Mythical Zoan-type] [Kozuki Clan] character performs Super Tandem",
-                "When a [Land of Wano Arc] [Mythical Zoan-type] [Kozuki Clan] character performs Super Tandem",
-                "When a [Land of Wano Arc] [Mythical Zoan-type] [Kozuki Clan] character performs Super Tandem",
-                "When a [Land of Wano Arc] [Mythical Zoan-type] [Kozuki Clan] character performs Super Tandem",
-                "When a [Land of Wano Arc] [Mythical Zoan-type] [Kozuki Clan] character performs Super Tandem"
+                "When a [Land of Wano Arc], [Mythical Zoan-type] or [Kozuki Clan] character performs Super Tandem",
+                "When a [Land of Wano Arc], [Mythical Zoan-type] or [Kozuki Clan] character performs Super Tandem",
+                "When a [Land of Wano Arc], [Mythical Zoan-type] or [Kozuki Clan] character performs Super Tandem",
+                "When a [Land of Wano Arc], [Mythical Zoan-type] or [Kozuki Clan] character performs Super Tandem",
+                "When a [Land of Wano Arc], [Mythical Zoan-type] or [Kozuki Clan] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Land of Wano Arc] [Straw Hat Pirates] characters by 1 and raises Boost Level of [Mythical Zoan-type] [Kozuki Clan] characters by 2 for 1 turn",
-                "Raises Boost Level of [Land of Wano Arc] [Straw Hat Pirates] characters by 2 and raises Boost Level of [Mythical Zoan-type] [Kozuki Clan] characters by 3 for 1 turn",
-                "Raises Boost Level of [Land of Wano Arc] [Straw Hat Pirates] characters by 3 and raises Boost Level of [Mythical Zoan-type] [Kozuki Clan] characters by 4 for 1 turn",
-                "Raises Boost Level of [Land of Wano Arc] [Straw Hat Pirates] characters by 4 and raises Boost Level of [Mythical Zoan-type] [Kozuki Clan] characters by 5 for 1 turn",
-                "Raises Boost Level of [Land of Wano Arc] [Straw Hat Pirates] characters by 5 and raises Boost Level of [Mythical Zoan-type] [Kozuki Clan] characters by 6 for 1 turn"
+                "Raises Boost Level of [Land of Wano Arc] and [Straw Hat Pirates] characters by 1 for 1 turn, and raises Boost Level of [Mythical Zoan-type] and [Kozuki Clan] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Land of Wano Arc] and [Straw Hat Pirates] characters by 2 for 1 turn, and raises Boost Level of [Mythical Zoan-type] and [Kozuki Clan] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Land of Wano Arc] and [Straw Hat Pirates] characters by 3 for 1 turn, and raises Boost Level of [Mythical Zoan-type] and [Kozuki Clan] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Land of Wano Arc] and [Straw Hat Pirates] characters by 4 for 1 turn, and raises Boost Level of [Mythical Zoan-type] and [Kozuki Clan] characters by 5 for 1 turn.",
+                "Raises Boost Level of [Land of Wano Arc] and [Straw Hat Pirates] characters by 5 for 1 turn, and raises Boost Level of [Mythical Zoan-type] and [Kozuki Clan] characters by 6 for 1 turn."
             ]
-        },
-        festStats: {
-            def: 133,
-            spd: 191,
-            style: "SPT"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Heal Self Lv.2",
-            "Power Attack",
-            "Power Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Action Bind, reduce damage taken from [PSY] by 30％",
-        festAbility: [
-            "[INT]/Free Spirit class and [Land of Wano Arc] teammates ATK Up Lv.2, SPD Up Lv.2, Special CT Speed Up Lv.1; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, when appearing on the field, self Special CT 30% reduction; after receiving healing, up to 5 times \"Monkey D. Luffy\", \"Portgas D. Ace\", and \"Yamato\" teammates Special CT 6% reduction",
-            "[INT]/Free Spirit class and [Land of Wano Arc] teammates ATK Up Lv.3, SPD Up Lv.3, Special CT Speed Up Lv.1; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, when appearing on the field, self Special CT 35% reduction; after receiving healing, up to 5 times \"Monkey D. Luffy\", \"Portgas D. Ace\", and \"Yamato\" teammates Special CT 7% reduction",
-            "[INT]/Free Spirit class and [Land of Wano Arc] teammates ATK Up Lv.4, SPD Up Lv.4, Special CT Speed Up Lv.1; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, when appearing on the field, self Special CT 40% reduction; after receiving healing, up to 5 times \"Monkey D. Luffy\", \"Portgas D. Ace\", and \"Yamato\" teammates Special CT 8% reduction",
-            "[INT]/Free Spirit class and [Land of Wano Arc] teammates ATK Up Lv.5, SPD Up Lv.5, Special CT Speed Up Lv.1; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, when appearing on the field, self Special CT 45% reduction; after receiving healing, up to 5 times \"Monkey D. Luffy\", \"Portgas D. Ace\", and \"Yamato\" teammates Special CT 9% reduction",
-            "[INT]/Free Spirit class and [Land of Wano Arc] teammates ATK Up Lv.6, SPD Up Lv.6, Special CT Speed Up Lv.2; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, when appearing on the field, self Special CT 50% reduction; after receiving healing, up to 5 times \"Monkey D. Luffy\", \"Portgas D. Ace\", and \"Yamato\" teammates Special CT 10% reduction"
-        ],
-        festSpecial: [
-            {
-                cooldown: 20,
-                description: "Targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for DEF Up Lv.1 (11 s), SPD Up Lv.2 (11 s); targets 1 [INT]/Free Spirit class or [Land of Wano Arc] teammate with high current Special CT for 55% chance of Haste; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for 55% chance to evade RCV Bind/Damage Over Time/fixed damage (11 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for DEF Up Lv.1 (12 s), SPD Up Lv.2 (12 s); targets 1 [INT]/Free Spirit class or [Land of Wano Arc] teammate with high current Special CT for 60% chance of Haste; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for 60% chance to evade RCV Bind/Damage Over Time/fixed damage (12 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for DEF Up Lv.1 (13 s), SPD Up Lv.2 (13 s); targets 1 [INT]/Free Spirit class or [Land of Wano Arc] teammate with high current Special CT for 65% chance of Haste; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for 65% chance to evade RCV Bind/Damage Over Time/fixed damage (13 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for DEF Up Lv.1 (14 s), SPD Up Lv.3 (14 s); targets 1 [INT]/Free Spirit class or [Land of Wano Arc] teammate with high current Special CT for 70% chance of Haste; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for 70% chance to evade RCV Bind/Damage Over Time/fixed damage (14 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for DEF Up Lv.2 (15 s), SPD Up Lv.3 (15 s); targets 1 [INT]/Free Spirit class or [Land of Wano Arc] teammate with high current Special CT for 75% chance of Haste; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for 75% chance to evade RCV Bind/Damage Over Time/fixed damage (15 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for DEF Up Lv.2 (16 s), SPD Up Lv.4 (16 s); targets 1 [INT]/Free Spirit class or [Land of Wano Arc] teammate with high current Special CT for 80% chance of Haste; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for 80% chance to evade RCV Bind/Damage Over Time/fixed damage (16 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for DEF Up Lv.2 (17 s), SPD Up Lv.4 (17 s); targets 1 [INT]/Free Spirit class or [Land of Wano Arc] teammate with high current Special CT for 85% chance of Haste; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for 85% chance to evade RCV Bind/Damage Over Time/fixed damage (17 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for DEF Up Lv.3 (18 s), SPD Up Lv.4 (18 s); targets 1 [INT]/Free Spirit class or [Land of Wano Arc] teammate with high current Special CT for 90% chance of Haste; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for 90% chance to evade RCV Bind/Damage Over Time/fixed damage (18 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for DEF Up Lv.3 (19 s), SPD Up Lv.5 (19 s); targets 1 [INT]/Free Spirit class or [Land of Wano Arc] teammate with high current Special CT for 95% chance of Haste; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for 95% chance to evade RCV Bind/Damage Over Time/fixed damage (19 s)"
-            },
-            {
-                cooldown: 20,
-                description: "Targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for DEF Up Lv.4 (20 s), SPD Up Lv.6 (20 s); targets 1 [INT]/Free Spirit class or [Land of Wano Arc] teammate with high current Special CT for 100% chance of Haste; if \"Monkey D. Luffy\" or \"Portgas D. Ace\" is on the team, targets [INT]/Free Spirit class and [Land of Wano Arc] teammates for 100% chance to evade RCV Bind/Damage Over Time/fixed damage (20 s)"
-            }
-        ]
+        }
     },
     4677: {//Momo
-        special: "Reduces crew's Special charge time by 2 turns, reduces crew's Bind duration by 6 turns, and boosts [INT], Striker, and Free Spirit characters' base ATK by +1250 for 3 turns [If 3 or more [Land of Wano Arc] [Kozuki Clan] characters are on the crew] Reduces the duration of all enemy barriers by 2 turns [During Kizuna Clash!! when facing [Land of Wano Arc] enemies in the Mid-Boss encounter, if 3 or more [Land of Wano Arc] characters are on the crew and enemy barriers and Percent Damage Reduction status are completely removed after last enemy action when Special is launched (also applies to barrier reduction from this Special)] Deals 10,000,000 damage to all enemies (ignoring all defensive effects, DEF, and Non-Normal Attacks Deal 1 Damage effect; if at least 1 enemy is defeated, effect will not trigger enemies' defeated or interrupting actions)",
+        special: "Reduces Special Cooldown of all characters by 2 turns, reduces Bind duration by 6 turns, and boosts Base ATK of [INT], Striker and Free Spirit characters by 1,250 for 3 turns. If your crew has 3+ [Land of Wano Arc] or [Kozuki Clan] characters, reduces enemies' Barrier duration by 2 turns. During Kizuna on the 2nd stage, when facing a [Land of Wano Arc] enemy, 3+ [Land of Wano Arc] characters are on the crew, and enemies Barrier and Percent Damage Reduction status has been completely removed since last enemy action, launches the following effect: deals 10,000,000 Fixed True damage, ignoring Normal Attack Only, to all enemies; if at least 1 enemy is defeated, this effect will not trigger enemies' defeat or interrupt actions.",
+        specialNotes: "The enemy must start with both Barrier and Percent Damage reduction for the damage effect to be activated.",
         specialName: "Pink Dragon's Struggle",
         sailor: {
-            base: "Reduces character's Special Reverse by 3 turns",
-            level1: "Boosts crew's base HP by 100"
+            base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+            level1: "Boosts base HP of all characters by 100."
         },
         support: [
             {
-                Characters: "Characters with the following Character Tag: [Land of Wano Arc]",
+                Characters: "[Land of Wano Arc] characters",
                 description: [
-                    "Adds 6% of character's base ATK to supported character's base ATK",
-                    "Adds 7% of character's base ATK to supported character's base ATK",
-                    "Adds 8% of character's base ATK to supported character's base ATK",
-                    "Adds 9% of character's base ATK to supported character's base ATK",
-                    "Adds 10% of character's base ATK to supported character's base ATK"
+                    "Adds 6% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 7% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 8% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 9% of this character's base ATK to the supported character's base ATK.",
+                    "Adds 10% of this character's base ATK to the supported character's base ATK."
                 ]
             }
         ],
@@ -194767,40 +194706,31 @@ window.details = {
         ],
         superTandem: {
             characterCondition: [
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Yamato, Kozuki Oden, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kin'emon, Okiku, Denjiro (Kyoshiro), Raizo, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Izo",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Yamato, Kozuki Oden, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kin'emon, Okiku, Denjiro (Kyoshiro), Raizo, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Izo",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Yamato, Kozuki Oden, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kin'emon, Okiku, Denjiro (Kyoshiro), Raizo, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Izo",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Yamato, Kozuki Oden, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kin'emon, Okiku, Denjiro (Kyoshiro), Raizo, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Izo",
-                "When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Yamato, Kozuki Oden, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kin'emon, Okiku, Denjiro (Kyoshiro), Raizo, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Izo"
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Yamato, Kozuki Oden, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kin'emon, Okiku, Denjiro (Kyoshiro), Raizo, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Izo",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Yamato, Kozuki Oden, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kin'emon, Okiku, Denjiro (Kyoshiro), Raizo, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Izo",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Yamato, Kozuki Oden, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kin'emon, Okiku, Denjiro (Kyoshiro), Raizo, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Izo",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Yamato, Kozuki Oden, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kin'emon, Okiku, Denjiro (Kyoshiro), Raizo, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Izo",
+                "Your crew must consist of any 2 of the following, excluding supports and counting only 1 per unit: Yamato, Kozuki Oden, Kozuki Toki, Kozuki Hiyori (Komurasaki), Kin'emon, Okiku, Denjiro (Kyoshiro), Raizo, Ashura Doji (Shutenmaru), Dogstorm, Cat Viper, Kawamatsu, Izo"
             ],
             description: [
-                "Applies ATK Boost (Tandem) of 1.1x to [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.2x to [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.35x to [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.5x to [INT] characters for 1 turn",
-                "Applies ATK Boost (Tandem) of 1.75x to [INT] characters for 1 turn"
+                "Boosts Tandem ATK of [INT] characters by 1.1x for 1 turn.",
+                "Boosts Tandem ATK of [INT] characters by 1.2x for 1 turn.",
+                "Boosts Tandem ATK of [INT] characters by 1.35x for 1 turn.",
+                "Boosts Tandem ATK of [INT] characters by 1.5x for 1 turn.",
+                "Boosts Tandem ATK of [INT] characters by 1.75x for 1 turn."
             ]
-        },
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        }
     },
     4678: {//Fuga
         support: [
             {
-                Characters: "[INT] Free Spirit characters with the following Character Tag: [Land of Wano Arc]",
+                Characters: "[INT] Free Spirit [Land of Wano Arc] characters",
                 description: [
-                    "Adds 5% of character's base stats to supported character's base stats, and once per quest, if enemy activates Percent Damage Reduction, reduces all enemies' Percent Damage Reduction duration by 1 turn at start of crew's next turn [AUTO+] If enemy has a barrier and at final battle, activates supported character's Special",
-                    "Adds 7% of character's base stats to supported character's base stats, and once per quest, if enemy activates Percent Damage Reduction, reduces all enemies' Percent Damage Reduction duration by 1 turn at start of crew's next turn [AUTO+] If enemy has a barrier and at final battle, activates supported character's Special",
-                    "Adds 9% of character's base stats to supported character's base stats, and once per quest, if enemy activates Percent Damage Reduction, reduces all enemies' Percent Damage Reduction duration by 2 turns at start of crew's next turn [AUTO+] If enemy has a barrier and at final battle, activates supported character's Special",
-                    "Adds 10% of character's base stats to supported character's base stats, and once per quest, if enemy activates Percent Damage Reduction, reduces all enemies' Percent Damage Reduction duration by 2 turns at start of crew's next turn [AUTO+] If enemy has a barrier and at final battle, activates supported character's Special",
-                    "Adds 12% of character's base stats to supported character's base stats, and once per quest, if enemy activates Percent Damage Reduction, reduces all enemies' Percent Damage Reduction duration by 3 turns at start of crew's next turn [AUTO+] If enemy has a barrier and at final battle, activates supported character's Special"
+                    "Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 1 turn. <b>[AUTO+]</b> When an enemy has a Barrier or when you reach the final stage, activates supported character's Special.",
+                    "Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 1 turn. <b>[AUTO+]</b> When an enemy has a Barrier or when you reach the final stage, activates supported character's Special.",
+                    "Adds 9% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 2 turns. <b>[AUTO+]</b> When an enemy has a Barrier or when you reach the final stage, activates supported character's Special.",
+                    "Adds 10% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 2 turns. <b>[AUTO+]</b> When an enemy has a Barrier or when you reach the final stage, activates supported character's Special.",
+                    "Adds 12% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV. Once per adventure, when the enemy gains a Percent Damage Reduction buff, reduces enemies' Percent Damage Reduction duration by 3 turns. <b>[AUTO+]</b> When an enemy has a Barrier or when you reach the final stage, activates supported character's Special."
                 ]
             }
         ],
@@ -194820,34 +194750,25 @@ window.details = {
             "Boosts base RCV by 40",
             "Boosts base HP by 100",
             "Boosts base ATK by 50"
-        ],
-        festStats: {
-            def: 50,
-            spd: 100,
-            style: "BAL"
-        },
-        festAttackPattern: [
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies"
+        ]
     },
     4679: {//6+ Ace & Sabo
         captain: {
-            character1: "Boosts crew's ATK by approximately 5x when slots match (4.75x otherwise), HP by 1.3x, makes crew's [QCK] slots have matching slot effects, reduces crew's Despair duration by 10 turns, and heals crew by 0.5x character's RCV for every PERFECT at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the crew, boosts [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters' ATK by a further 1.1x, and tapping on this character with a [QCK] slot will apply -15% [QCK] Resistance to all enemies for 1 turn",
-            character2: "Boosts crew's ATK by approximately 5x when slots match (4.75x otherwise), HP by 1.3x, makes crew's [DEX] slots have matching slot effects, reduces crew's Special Bind duration by 10 turns, and heals crew by 0.5x character's RCV for every PERFECT at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the crew, boosts [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters' ATK by a further 1.1x, and tapping on this character with a [DEX] slot will apply -15% [DEX] Resistance to all enemies for 1 turn",
-            combined: "Boosts crew's ATK by 5.25x when slots match (5x otherwise), HP by 1.3x, makes crew's [QCK][DEX] slots have matching slot effects, reduces crew's Despair/Special Bind duration by 10 turns, and heals crew by 1x character's RCV for every PERFECT at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the crew, boosts [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters' ATK by a further 1.1x, and tapping on this character with a [QCK][DEX] slot will apply -15% [QCK] and [DEX] Resistance to all enemies for 1 turn"
+            character1: "Boosts ATK of all characters by 4.75x, by 5x instead if they have a beneficial orb, boosts HP of all characters by 1.3x, makes [QCK] orbs beneficial for all characters, reduces Despair duration by 10 turns, and recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT. When tapping on this character with a [QCK] orb, reduces enemies' [QCK] Resistance by -15% for 1 turn. If your crew has 3+ [Whitebeard Pirates], [Revolutionary Army] or [Logia-type] characters, further boosts ATK [Whitebeard Pirates], [Revolutionary Army] and [Logia-type] by 1.1x.",
+            character2: "Boosts ATK of all characters by 4.75x, by 5x instead if they have a beneficial orb, boosts HP of all characters by 1.3x, makes [DEX] orbs beneficial for all characters, reduces Special Bind duration by 10 turns, and recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT. When tapping on this character with a [DEX] orb, reduces enemies' [DEX] Resistance by -15% for 1 turn. If your crew has 3+ [Whitebeard Pirates], [Revolutionary Army] or [Logia-type] characters, further boosts ATK [Whitebeard Pirates], [Revolutionary Army] and [Logia-type] by 1.1x.",
+            combined: "Boosts ATK of all characters by 5x, by 5.25x instead if they have a beneficial orb, boosts HP of all characters by 1.3x, makes [DEX] and [QCK] orbs beneficial for all characters, reduces Despair and Special Bind duration by 10 turns, and recovers 1.0x this character's RCV at the end of the turn for each time you hit a PERFECT. When tapping on this character with a [DEX] or [QCK] orb, reduces enemies' [DEX] and [QCK] Resistance by -15% for 1 turn. If your crew has 3+ [Whitebeard Pirates], [Revolutionary Army] or [Logia-type] characters, further boosts ATK [Whitebeard Pirates], [Revolutionary Army] and [Logia-type] by 1.1x."
         },
-        special: "Reduces crew's Bind/Despair/Special Bind duration by 5 turns. If \"Monkey D. Luffy\" is in the crew or is set as Support for character, boosts Free Spirit and Shooter characters' slot effects by 2.75x for 3 turns, then after that, boosts Free Spirit and Shooter characters' slot effects by 2.75x for 1 turn, and changes crew's [BLOCK] slots to character's own type. If 3 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the crew, boosts Free Spirit and Shooter characters' base ATK by +1500 for 1 turn, and becomes \"Ace & Sabo\" for 3 turns",
+        special: "Reduces Bind, Despair and Special Bind duration by 5 turns, changes [BLOCK] orbs into matching orbs, and becomes Ace & Sabo for 3 turns. If your crew has Monkey D. Luffy as a member or supporting this character, boosts Orb Effects of Free Spirit and Shooter characters by 2.75x for 3 turns. Then boosts Orb Effects of Free Spirit and Shooter characters by 2.75x for 1 turn. If your crew has 3+ [Whitebeard Pirates], [Revolutionary Army] or [Logia-type] characters, boosts Base ATK of Free Spirit and Shooter characters by 1,500 for 1 turn.",
         specialName: "Pursuing a Case While in Kimono",
         sailor: {
-            character1: "Boosts crew's base stats by 50",
-            character2: "Boosts crew's base stats by 50",
-            combined: "Boosts crew's base stats by 100",
-            level1: "Lets character completely evade Special Bind"
+            character1: "Boosts base ATK, HP and RCV of all characters by 50.",
+            character2: "Boosts base ATK, HP and RCV of all characters by 50.",
+            combined: "Boosts base ATK, HP and RCV of all characters by 100.",
+            level1: "Reduces Special Bind duration completely on this character."
         },
         swap: {
-            base: "Boosts the type effects of normal attacks for crew by 1.5x for 1 turn (effect can be overwritten), and changes adjacent slots to character's own type",
-            super: "Boosts the type effects of normal attacks for crew by 2.5x for 1 turn (effect can be overwritten), and changes crew's slots (including [BLOCK] slots) to character's own type",
+            base: "Boosts Color Affinity of all characters by 1.5x, allowing override, for 1 turn, and changes orbs of adjacent characters into matching orbs.",
+            super: "Boosts Color Affinity of all characters by 2.5x, allowing override, for 1 turn, and changes all orbs, including [BLOCK] orbs, into matching orbs.",
             superTurns: 4
         },
         limit: [
@@ -194899,9 +194820,9 @@ window.details = {
             },
             {
                 captain: {
-                    character1: "Boosts crew's ATK by 5.25x when slots match (5x otherwise), HP by 1.3x, makes crew's [QCK] slots have matching slot effects, reduces crew's Despair duration by 10 turns, and heals crew by 0.5x character's RCV for every PERFECT at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the crew, boosts [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters' ATK by a further 1.2x, and tapping on this character with a [QCK] slot will apply -20% [QCK] Resistance to all enemies for 1 turn",
-                    character2: "Boosts crew's ATK by 5.25x when slots match (5x otherwise), HP by 1.3x, makes crew's [DEX] slots have matching slot effects, reduces crew's Special Bind duration by 10 turns, and heals crew by 0.5x character's RCV for every PERFECT at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the crew, boosts [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters' ATK by a further 1.2x, and tapping on this character with a [DEX] slot will apply -20% [DEX] Resistance to all enemies for 1 turn",
-                    combined: "Boosts crew's ATK by approximately 5.5x when slots match (5.25x otherwise), HP by 1.3x, makes crew's [QCK][DEX] slots have matching slot effects, reduces crew's Despair/Special Bind duration by 10 turns, and heals crew by 1x character's RCV for every PERFECT at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 3 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the crew, boosts [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters' ATK by a further 1.2x, and tapping on this character with a [QCK][DEX] slot will apply -20% [QCK] and [DEX] Resistance to all enemies for 1 turn"
+                    character1: "Boosts ATK of all characters by 5x, by 5.25x instead if they have a beneficial orb, boosts HP of all characters by 1.3x, makes [QCK] orbs beneficial for all characters, reduces Despair duration by 10 turns, and recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT. When tapping on this character with a [QCK] orb, reduces enemies' [QCK] Resistance by -20% for 1 turn. If your crew has 3+ [Whitebeard Pirates], [Revolutionary Army] or [Logia-type] characters, further boosts ATK [Whitebeard Pirates], [Revolutionary Army] and [Logia-type] by 1.2x.",
+                    character2: "Boosts ATK of all characters by 5x, by 5.25x instead if they have a beneficial orb, boosts HP of all characters by 1.3x, makes [DEX] orbs beneficial for all characters, reduces Special Bind duration by 10 turns, and recovers 0.5x this character's RCV at the end of the turn for each time you hit a PERFECT. When tapping on this character with a [DEX] orb, reduces enemies' [DEX] Resistance by -20% for 1 turn. If your crew has 3+ [Whitebeard Pirates], [Revolutionary Army] or [Logia-type] characters, further boosts ATK [Whitebeard Pirates], [Revolutionary Army] and [Logia-type] by 1.2x.",
+                    combined: "Boosts ATK of all characters by 5.25x, by 5.5x instead if they have a beneficial orb, boosts HP of all characters by 1.3x, makes [DEX] and [QCK] orbs beneficial for all characters, reduces Despair and Special Bind duration by 10 turns, and recovers 1.0x this character's RCV at the end of the turn for each time you hit a PERFECT. When tapping on this character with a [DEX] or [QCK] orb, reduces enemies' [DEX] and [QCK] Resistance by -20% for 1 turn. If your crew has 3+ [Whitebeard Pirates], [Revolutionary Army] or [Logia-type] characters, further boosts ATK [Whitebeard Pirates], [Revolutionary Army] and [Logia-type] by 1.2x."
                 }
             },
             {
@@ -194909,7 +194830,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Reduces crew's Bind/Despair/Special Bind duration by 6 turns. If \"Monkey D. Luffy\" is in the crew or is set as Support for character, boosts Free Spirit and Shooter characters' slot effects by 3x for 3 turns (allows this effect to be further increased up to 2 times), then after that, boosts Free Spirit and Shooter characters' slot effects by 3x for 1 turn, and changes crew's [BLOCK] slots to character's own type. If 3 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the crew, further increases crew's slot effect boost by 1.2x (up to a maximum 6x; this effect also applies to slot effect boost from this Special), boosts Free Spirit and Shooter characters' base ATK by +2000 for 1 turn, and becomes \"Ace & Sabo\" for 3 turns"
+                    base: "Reduces Bind, Despair and Special Bind duration by 6 turns, changes [BLOCK] into matching orbs, and becomes Ace & Sabo for 3 turns. If your crew has Monkey D. Luffy as a member or supporting this character, boosts Orb Effects of Free Spirit and Shooter characters by 3x, can be enhanced up to 2 times, for 3 turns. Then boosts Orb Effects of Free Spirit and Shooter characters by 3x for 1 turn. If your crew has 3+ [Whitebeard Pirates], [Revolutionary Army] or [Logia-type] characters, boosts Base ATK of Free Spirit and Shooter characters by 2,000 for 1 turn, and increases boost effects of Orb Boost buffs by 1.2x (up to 6x), including effects activated in the same ability."
                 }
             }
         ],
@@ -194944,150 +194865,7 @@ window.details = {
                     "This character's normal attack will ignore barriers"
                 ]
             }
-        ],
-        festStats: {
-            def: 161,
-            spd: 213,
-            style: "ATK"
-        },
-        festAttackPattern: [
-            "Normal Attack",
-            "Power Attack",
-            "Power Attack",
-            "Normal Attack"
-        ],
-        festAttackTarget: "Targets closest enemies",
-        festResistance: "Completely evades Special Bind and Action Bind",
-        festAbility: {
-            base: [
-                "Team SPD Up Lv.2, DEF Up Lv.1; [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates ATK Up Lv.2, HP Up Lv.2, DEF Up Lv.1",
-                "Team SPD Up Lv.3, DEF Up Lv.1; [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates ATK Up Lv.3, HP Up Lv.3, DEF Up Lv.1",
-                "Team SPD Up Lv.4, DEF Up Lv.2; [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates ATK Up Lv.4, HP Up Lv.4, DEF Up Lv.2",
-                "Team SPD Up Lv.5, DEF Up Lv.2; [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates ATK Up Lv.5, HP Up Lv.5, DEF Up Lv.2",
-                "Team SPD Up Lv.6, DEF Up Lv.3; [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates ATK Up Lv.6, HP Up Lv.6, DEF Up Lv.3"
-            ],
-            llbbase: [
-                "Team SPD Up Lv.3, DEF Up Lv.1; [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates ATK Up Lv.3, HP Up Lv.3, DEF Up Lv.2; when appearing on the field, [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates Special CT 7% reduction",
-                "Team SPD Up Lv.4, DEF Up Lv.1; [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates ATK Up Lv.4, HP Up Lv.4, DEF Up Lv.2; when appearing on the field, [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates Special CT 9% reduction",
-                "Team SPD Up Lv.5, DEF Up Lv.2; [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates ATK Up Lv.5, HP Up Lv.5, DEF Up Lv.3; when appearing on the field, [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates Special CT 11% reduction",
-                "Team SPD Up Lv.6, DEF Up Lv.2; [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates ATK Up Lv.6, HP Up Lv.6, DEF Up Lv.3; when appearing on the field, [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates Special CT 13% reduction",
-                "Team SPD Up Lv.7, DEF Up Lv.3; [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates ATK Up Lv.7, HP Up Lv.7, DEF Up Lv.4; when appearing on the field, [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates Special CT 15% reduction"
-            ]
-        },
-        festSpecial: {
-            base: [
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.2 (11 s), DEF Up Lv.2 (11 s); targets enemies within large range for ATK x 2.2 damage; targets 3 enemies for 62% chance of Paralysis (5 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.1 (11 s); targets enemies with Paralysis for Special CT 11% delay; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.2 (12 s), DEF Up Lv.2 (12 s); targets enemies within large range for ATK x 2.4 damage; targets 3 enemies for 64% chance of Paralysis (6 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.1 (12 s); targets enemies with Paralysis for Special CT 12% delay; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.2 (13 s), DEF Up Lv.2 (13 s); targets enemies within large range for ATK x 2.6 damage; targets 3 enemies for 66% chance of Paralysis (6 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.1 (13 s); targets enemies with Paralysis for Special CT 13% delay; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.3 (14 s), DEF Up Lv.2 (14 s); targets enemies within large range for ATK x 2.8 damage; targets 3 enemies for 68% chance of Paralysis (7 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.1 (14 s); targets enemies with Paralysis for Special CT 14% delay; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.3 (15 s), DEF Up Lv.2 (15 s); targets enemies within large range for ATK x 3 damage; targets 3 enemies for 70% chance of Paralysis (7 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.1 (15 s); targets enemies with Paralysis for Special CT 15% delay; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.4 (16 s), DEF Up Lv.3 (16 s); targets enemies within large range for ATK x 3.2 damage; targets 3 enemies for 72% chance of Paralysis (8 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.2 (16 s); targets enemies with Paralysis for Special CT 16% delay; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.4 (17 s), DEF Up Lv.3 (17 s); targets enemies within large range for ATK x 3.4 damage; targets 3 enemies for 74% chance of Paralysis (8 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.2 (17 s); targets enemies with Paralysis for Special CT 17% delay; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.4 (18 s), DEF Up Lv.3 (18 s); targets enemies within large range for ATK x 3.6 damage; targets 3 enemies for 76% chance of Paralysis (9 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.2 (18 s); targets enemies with Paralysis for Special CT 18% delay; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.5 (19 s), DEF Up Lv.3 (19 s); targets enemies within large range for ATK x 3.8 damage; targets 3 enemies for 78% chance of Paralysis (9 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.2 (19 s); targets enemies with Paralysis for Special CT 19% delay; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.6 (20 s), DEF Up Lv.4 (20 s); targets enemies within large range for ATK x 4 damage; targets 3 enemies for 80% chance of Paralysis (10 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.3 (20 s); targets enemies with Paralysis for Special CT 20% delay; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                }
-            ],
-            llbbase: [
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.2 (11 s), DEF Up Lv.3 (11 s); targets enemies within large range for ATK x 3.2 damage; targets 3 enemies for 82% chance of Paralysis (5 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.3 (11 s); targets enemies with Paralysis for Special CT 21% delay; targets (not including self) [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates for Special CT 11% reduction; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.2 (12 s), DEF Up Lv.3 (12 s); targets enemies within large range for ATK x 3.4 damage; targets 3 enemies for 84% chance of Paralysis (6 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.3 (12 s); targets enemies with Paralysis for Special CT 22% delay; targets (not including self) [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates for Special CT 12% reduction; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.3 (13 s), DEF Up Lv.3 (13 s); targets enemies within large range for ATK x 3.6 damage; targets 3 enemies for 86% chance of Paralysis (6 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.3 (13 s); targets enemies with Paralysis for Special CT 23% delay; targets (not including self) [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates for Special CT 13% reduction; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.3 (14 s), DEF Up Lv.3 (14 s); targets enemies within large range for ATK x 3.8 damage; targets 3 enemies for 88% chance of Paralysis (7 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.3 (14 s); targets enemies with Paralysis for Special CT 24% delay; targets (not including self) [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates for Special CT 14% reduction; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.4 (15 s), DEF Up Lv.3 (15 s); targets enemies within large range for ATK x 4 damage; targets 3 enemies for 90% chance of Paralysis (7 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.4 (15 s); targets enemies with Paralysis for Special CT 25% delay; targets (not including self) [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates for Special CT 15% reduction; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.4 (16 s), DEF Up Lv.4 (16 s); targets enemies within large range for ATK x 4.2 damage; targets 3 enemies for 92% chance of Paralysis (8 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.4 (16 s); targets enemies with Paralysis for Special CT 26% delay; targets (not including self) [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates for Special CT 16% reduction; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.5 (17 s), DEF Up Lv.4 (17 s); targets enemies within large range for ATK x 4.4 damage; targets 3 enemies for 94% chance of Paralysis (8 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.4 (17 s); targets enemies with Paralysis for Special CT 27% delay; targets (not including self) [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates for Special CT 17% reduction; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.5 (18 s), DEF Up Lv.4 (18 s); targets enemies within large range for ATK x 4.6 damage; targets 3 enemies for 96% chance of Paralysis (9 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.4 (18 s); targets enemies with Paralysis for Special CT 28% delay; targets (not including self) [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates for Special CT 18% reduction; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.6 (19 s), DEF Up Lv.4 (19 s); targets enemies within large range for ATK x 4.8 damage; targets 3 enemies for 98% chance of Paralysis (9 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.4 (19 s); targets enemies with Paralysis for Special CT 29% delay; targets (not including self) [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates for Special CT 19% reduction; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                },
-                {
-                    cooldown: 28,
-                    description: "Targets team for ATK Up Lv.7 (20 s), DEF Up Lv.5 (20 s); targets enemies within large range for ATK x 5 damage; targets 3 enemies for 100% chance of Paralysis (10 s); if 4 or more [Whitebeard Pirates] [Revolutionary Army] [Logia-type] characters are on the team, targets enemies with Paralysis for Damage Over Time Lv.5 (20 s); targets enemies with Paralysis for Special CT 30% delay; targets (not including self) [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammates for Special CT 20% reduction; targets 1 [Whitebeard Pirates] [Revolutionary Army] [Logia-type] teammate with high current Special CT for 100% chance of Haste"
-                }
-            ]
-        },
-        festAbilityGP: [
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.1",
-                festGPSpecial: "Targets all enemies for 500 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.1, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 625 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.2",
-                festGPSpecial: "Targets all enemies for 750 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.2, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 875 damage",
-                uses: 2
-            },
-            {
-                festGPAbility: "Team ATK Up Lv.3, HP, SPD Up Lv.3",
-                festGPSpecial: "Targets all enemies for 1000 damage",
-                uses: 2
-            }
-        ],
-        festAbilityGPCondition: "When 2 teammates are defeated"
+        ]
     },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
